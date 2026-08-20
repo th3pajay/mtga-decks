@@ -11,7 +11,8 @@ website:
       - href: archive.qmd
         text: Archive
   page-footer:
-    left: "Daily Standard-legal MTGA deck guides"
+    left: "From th3pajay — a new Standard deck guide every morning"
+    right: "[Source on GitHub](https://github.com/th3pajay/mtga-decks)"
 
 format:
   html:
