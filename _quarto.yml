@@ -18,3 +18,4 @@ format:
     theme: default
     toc: true
     toc-depth: 2
+    include-after-body: includes/analytics.html
