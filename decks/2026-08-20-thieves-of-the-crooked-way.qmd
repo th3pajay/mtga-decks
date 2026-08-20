@@ -52,14 +52,14 @@ Every card either grows the Army, recurs from the graveyard, or steals something
 | Smaug's Fury | 3 | Lethal pump — +3/+0, first strike and reach on the Army for {1}{R} |
 | Supper for Spiders | 3 | Theft blowout — steal every creature that died this turn as Food; mass lifegain and board denial |
 | Thranduil's Decree | 3 | Counter + steal — exile any countered permanent spell and cast it without paying |
-| Bilbo Baggins, Burglar // Take a Glance | 3 | Draw engine — ETB draw a card; adventure Scry 2; re-buyable via Edgewall Inn |
-| Gollum, Silent Slinker // Meager Meal | 3 | Menace 4/3 beater; adventure puts a +1/+1 counter and gains 2 life |
+| Bilbo Baggins, Burglar| 3 | Draw engine — ETB draw a card; adventure Scry 2; re-buyable via Edgewall Inn |
+| Gollum, Silent Slinker| 3 | Menace 4/3 beater; adventure puts a +1/+1 counter and gains 2 life |
 | Crude Bent Blade | 2 | Edict + equipment — ETB opponent sacrifices a creature; +2/+1, equip {2} |
 | Gundabad Opportunist | 2 | Impulse draw — ETB exiles top card, playable until your next end step |
 | Enchanted River's Grasp | 2 | Hard removal — taps, strips counters and abilities, never untaps |
 | Pinecone Strike | 2 | Removal + artifact-token hate — 3 damage with exile, or destroy an artifact token |
 | Uneasy Partings | 1 | Bounce — {2}{U} against attacking nontoken creatures; tucks to top or bottom of library |
-| Lake-town Mariners // Gone Fishing | 1 | 6/5 vigilance ward 2 finisher; adventure flickers two of your creatures/lands (saves the Army) |
+| Lake-town Mariners| 1 | 6/5 vigilance ward 2 finisher; adventure flickers two of your creatures/lands (saves the Army) |
 | Gandalf, Spark Starter | 1 | Reach 4/3 — ETB deals 3 damage split; closes races |
 
 ## Lands as engines
@@ -131,16 +131,16 @@ Keep: any hand with Along the Crooked Way or Misty Mountains Raider plus 3 lands
 4 Misty Mountains Raider
 4 Elvenking's Harper
 3 Smaug's Fury
-3 Gollum, Silent Slinker // Meager Meal
+3 Gollum, Silent Slinker
 3 Supper for Spiders
 3 Thranduil's Decree
-3 Bilbo Baggins, Burglar // Take a Glance
+3 Bilbo Baggins, Burglar
 2 Crude Bent Blade
 2 Gundabad Opportunist
 2 Enchanted River's Grasp
 2 Pinecone Strike
 1 Uneasy Partings
-1 Lake-town Mariners // Gone Fishing
+1 Lake-town Mariners
 1 Gandalf, Spark Starter
 4 Pit of Offerings
 3 Edgewall Inn
