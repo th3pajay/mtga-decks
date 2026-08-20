@@ -30,10 +30,18 @@ Arena-import-ready decklist.
 ## Deck legality
 
 All decks are Standard-legal on MTG Arena at publish time; every card is
-verified against the MTGADB card database. Decklists are in Arena import format,
+verified against the MTGADB* card database. Decklists are in Arena import format,
 ready to copy-paste.
 
 ## Disclaimer
 
 Unofficial fan content. Not affiliated with Wizards of the Coast. Magic: The
 Gathering and related marks are trademarks of Wizards of the Coast LLC.
+
+---
+
+\*MTGADB: a containerized Rust backend that pairs SQLite with Qdrant to power
+multi-layer BGE-M3 searches (dense semantics, sparse keywords, and ColBERT
+token reranking), exposing a wide array of REST endpoints (/parse, /synergy,
+/search/hybrid) for the Hermes AI harness to automate deck creation and web
+page publishing.
