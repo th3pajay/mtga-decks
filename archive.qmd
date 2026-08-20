@@ -2,9 +2,10 @@
 title: "Archive"
 ---
 
-**1 deck guide** — newest first. Every daily deck keeps its own permanent page.
+**2 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-08-20
 
 - **[Thieves of the Crooked Way](decks/2026-08-20-thieves-of-the-crooked-way.html)** — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck  `hobbit` `amass` `goblins` `theft`
+- **[The Rewritten Stampede](decks/2026-08-20-the-rewritten-stampede.html)** — WURG (4-color) | Saddle × Plan counter × Convoke  `combo` `saddle` `convoke`
 

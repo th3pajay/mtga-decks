@@ -1,0 +1,202 @@
+---
+title: "The Rewritten Stampede"
+subtitle: "WURG (4-color) | Saddle × Plan counter × Convoke"
+date: "2026-08-20"
+categories: ["combo", "saddle", "convoke"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| **Format** | Standard |
+| **Colors** | White / Blue / Red / Green |
+| **Archetype** | Combo-midrange (tap-engine) |
+| **Size** | 60 cards (37 nonland / 23 lands) |
+| **Primary win** | Saddled Mount stampede with doubled damage |
+| **Secondary win** | Death to Our Enemies burn + card-advantage grind |
+
+## Overview
+
+The Rewritten Stampede fuses three mechanics into one engine: **Saddle** mounts
+attack for value, **Convoke** spells are cast by tapping the same creatures, and
+**Plan** enchantments count every tap. The heart of the deck is **Rewrite
+History**: whenever one or more creatures you control become tapped, you draw a
+card, discard a card, and advance the plan. Attacking, saddling, convoking, and
+even Station all tap creatures — so every axis of the deck draws cards.
+
+The other two Plans turn the same actions into resources. **Death to Our
+Enemies** makes a Treasure for every noncreature spell you cast (all your
+Convoke spells), which ramps the deck into its 5-6 mana finishers, and caps at
+7 damage. **Political Triumph** turns every creature that enters into scry 1
+plus a plan counter, ending in a global +1/+1 anthem.
+
+The payoff is a go-wide Mount army. **Seraphic Steed** mints 3/3 flying Angels
+each saddled attack, **Bridled Bighorn** adds Sheep, **Bounding Felidar** pumps
+the whole team, **Drover Grizzly** gives trample, and **Collective Inferno**
+doubles all damage dealt by Mounts. **Dracosaur Auxiliary** swings in the air
+with haste and shocks anything. Games end in one massive, doubled, trampling
+stampede — or a 7-point burn finish.
+
+## Approach
+
+### Game plan phases
+
+1. **Setup (T1-3):** Play **Political Triumph** or a cheap Mount (**Gilded
+   Ghoda**, **Seraphic Steed**). Untap the Roads lands with a Mount in play and
+   land **Rewrite History**.
+2. **Engine (T3-5):** Resolve **Rewrite History** and **Death to Our Enemies**.
+   Every saddle tap draws a card; every Convoke spell makes a Treasure. Mounts
+   attack while saddled to generate tokens and Treasures.
+3. **Stampede (T5-7):** Slam **Collective Inferno** (choose Mount), saddle
+   **Dracosaur Auxiliary** / **Bounding Felidar** / **Guardian Sunmare** with
+   Pilots and tokens, and attack for doubled, trampling, lifelink damage.
+4. **Cleanup:** Burn with **Death to Our Enemies** (7 split), or bury the
+   opponent in cards with **Harmonized Crescendo** (draw per Mount) and
+   **Rewrite History** recursion.
+
+### Card roles
+
+| Role | Cards |
+|---|---|
+| Tap-draw engine | Rewrite History |
+| Treasure ramp / burn | Death to Our Enemies |
+| Anthem plan | Political Triumph |
+| Token Mounts | Seraphic Steed, Bridled Bighorn |
+| Mana Mount | Gilded Ghoda |
+| Finisher Mounts | Dracosaur Auxiliary, Bounding Felidar |
+| Engine Mounts | Guardian Sunmare (tutor), Unswerving Sloth (untap all), Drover Grizzly (trample) |
+| Convoke interaction | Temporal Cleansing, Appeal to Eirdu, The Wandering Rescuer |
+| Convoke draw | Unexpected Assistance, Harmonized Crescendo |
+| Damage doubler | Collective Inferno |
+
+### Lands as engines
+
+| Land | Role |
+|---|---|
+| Rocky Roads / Reef Roads | Make 1/1 Pilot tokens that saddle Mounts as though their power were 2 greater; untap with a Mount in play |
+| Bucolic Ranch | Mount-colored mana; digs for finisher Mounts |
+| Adagia, Windswept Bastion | Station: tap spare creatures (each tap draws via Rewrite History) for charge counters; at 12+, copy Collective Inferno or a Plan |
+| Starting Town / Gathering Place | Early any-color fixing |
+
+### Curve and mana
+
+Average nonland CMC is 3.5. The curve peaks at 3-5; the two 6-drops
+(**Dracosaur Auxiliary**, **Harmonized Crescendo**) are effectively cheaper
+thanks to Convoke, Treasures, and Bucolic Ranch. The deck runs 23 lands but
+plays like 26: Treasures from Gilded Ghoda and Death to Our Enemies, plus
+creature-tapping for Convoke, generate the extra mana.
+
+## Gameplay strategy
+
+### Early game
+
+Mulligan for **Rewrite History** plus any 1-2 drop Mount or **Political
+Triumph**. A turn-1 Political Triumph followed by creatures scries every draw
+step. Gilded Ghoda is the best early Mount: 2/2, saddle 1, and every saddled
+attack makes a Treasure — ramp and card draw on one body. Seraphic Steed (2/2
+first strike, lifelink) races aggro while it waits for saddle 4.
+
+### Mid game
+
+Land **Death to Our Enemies** and start casting Convoke spells — each one makes
+a Treasure. **Unswerving Sloth** is the engine-breaker: saddle it (tap 4 power),
+attack, and it untaps every creature you control, setting up a free main-phase
+Convoke turn. **Guardian Sunmare** tutors any nonland permanent with mana value
+3 or less on a saddled attack — fetch a second copy of a Plan, another Mount,
+or a Convoke spell.
+
+### The combo turn
+
+1. Have a wide board of Mounts and at least **Collective Inferno** (Mount).
+2. Main phase 1: tap Pilots and tokens to saddle **Dracosaur Auxiliary**
+   (saddle 3), **Bounding Felidar** (saddle 2) and **Guardian Sunmare**
+   (saddle 4). Every tap draws a card off Rewrite History and every noncreature
+   spell cast so far made a Treasure.
+3. Attack: Dracosaur flies over for 4 (8 with Inferno) plus 2-4 shock damage;
+   Felidar puts a +1/+1 counter on every other creature and gains life;
+   Drover Grizzly grants trample; Seraphic Steed mints 3/3 Angels; lifelink
+   keeps you ahead.
+4. Main phase 2: **Harmonized Crescendo** (choose Mount) draws a card per Mount
+   permanent — routinely 8-12 cards — or **Unexpected Assistance** digs deeper.
+   **Rewrite History** then returns the best instants/sorceries from the
+   graveyard to hand for the next loop.
+
+A fully developed board deals 25-40 doubled, trampling damage in one swing.
+
+### Win condition 2: burn and grind
+
+**Death to Our Enemies** reaches four plan counters after four noncreature
+spells (Plans, Convoke spells, and lands' activated abilities do not count —
+spells only). That is easy with this shell: the payoff is 7 damage split as you
+choose, usually 7 to the face to finish after one stampede. In grindy games,
+**Rewrite History** recurs Temporal Cleansing, Appeal to Eirdu, and Unexpected
+Assistance, while Harmonized Crescendo refills the hand off the Mount count.
+
+### Mulligan guide
+
+Keep: any hand with Rewrite History or Political Triumph plus 2-3 lands and a
+creature. Keep 2-land hands only with a 1-2 drop Mount (Gilded Ghoda, Seraphic
+Steed). Ship: hands without a Mount or a Plan, and hands flooded with 5-6 mana
+spells. Bucolic Ranch is a strong keep — it fixes and finds the finishers.
+
+### Key interactions and edge cases
+
+- **Rewrite History triggers on any tap**: attacking, saddling, convoking, and
+  Station taps all draw. Plan the order — saddle first, then convoke, so each
+  tap draws.
+- **Pilots saddle as power 3**: one Pilot covers saddle 1-3; two Pilots cover
+  saddle 4 (Seraphic Steed, Guardian Sunmare, Unswerving Sloth).
+- **The Wandering Rescuer** protects tapped creatures with hexproof and blocks
+  with flash, double strike — cast it with Convoke at instant speed.
+- **Temporal Cleansing** answers anything nonland, including indestructible
+  threats (it tucks instead of destroying).
+- **Adagia** copies an enchantment at 12+ charge counters: copying Collective
+  Inferno quadruples Mount damage; copying a Plan re-runs its payoff.
+- **Death to Our Enemies** cares about spells, not abilities: saddling and
+  Station do not advance it, Convoke spells and Plans do.
+
+### Matchups
+
+- **Aggro:** Seraphic Steed's lifelink, The Wandering Rescuer's flash blocks,
+  and Bounding Felidar's lifegain stabilize; stall until the stampede.
+- **Control:** Death to Our Enemies ramps you through counterspells (Treasures
+  are instant-speed mana), Rewrite History restocks after board wipes, and
+  hexproof from The Wandering Rescuer protects tapped attackers.
+- **Midrange:** out-muscle with Angels, trample, and doubled damage; Temporal
+  Cleansing removes the single biggest blocker.
+
+## Deck list (Arena import)
+
+```
+The Rewritten Stampede
+Deck
+4 Rewrite History
+3 Political Triumph
+3 Death to Our Enemies
+4 Gilded Ghoda
+4 Seraphic Steed
+2 Drover Grizzly
+2 Bridled Bighorn
+2 Guardian Sunmare
+2 Unswerving Sloth
+1 Bounding Felidar
+2 Dracosaur Auxiliary
+2 The Wandering Rescuer
+2 Unexpected Assistance
+1 Temporal Cleansing
+1 Appeal to Eirdu
+1 Collective Inferno
+1 Harmonized Crescendo
+3 Rocky Roads
+3 Reef Roads
+2 Bucolic Ranch
+1 Adagia, Windswept Bastion
+1 Starting Town
+1 Gathering Place
+6 Plains
+2 Mountain
+2 Island
+2 Forest
+```
