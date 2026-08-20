@@ -1,0 +1,7 @@
+---
+title: "Today's Decks"
+---
+
+Deck guides published **2026-08-20**:
+
+- **[Thieves of the Crooked Way](decks/2026-08-20-thieves-of-the-crooked-way.html)** — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck  `hobbit` `amass` `goblins` `theft`

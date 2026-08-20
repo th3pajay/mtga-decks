@@ -1,0 +1,150 @@
+---
+title: "Thieves of the Crooked Way"
+subtitle: "BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck"
+date: "2026-08-20"
+categories: ["hobbit", "amass", "goblins", "theft"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) — The Hobbit set (hob), legal on Arena from 2026-08-14 |
+| Colors | Grixis — black / red / blue |
+| Archetype | Combo-engine: Amass Goblins recursion + opponent-graveyard theft |
+| Size | 60 cards, 22 lands |
+| Primary win | Giant Goblin Army — Along the Crooked Way turns every creature card leaving your graveyard into an amass counter; the Army goes unblockable with Elvenking's Harper and lethal with Smaug's Fury |
+| Secondary win | Theft engine — Thranduil's Decree counters and re-casts your opponent's spells for free; Supper for Spiders steals their entire dead board as Food; Gundabad Opportunist plays off the top |
+| Combo linchpin | Along the Crooked Way — amass Goblins 1 whenever a creature card leaves your graveyard |
+| Nonland curve | 12 twos, 14 threes, 3 fours, 4 fives, 5 sixes |
+
+# Overview
+
+The last of the Hobbit set's combo identities to emerge from the unused pool: the **Crooked Way engine**. This deck takes the two rare leftovers of the Amass Goblins archetype — Along the Crooked Way and Misty Mountains Raider — and fuses them with the set's theft spells (Thranduil's Decree, Supper for Spiders, Gundabad Opportunist) into a black-red-blue recursion machine.
+
+The engine is a feedback loop:
+
+- **The Way is crooked.** Along the Crooked Way returns a creature from your graveyard on entry (that itself triggers amass once), then hands out **amass Goblins 1** every time a creature card leaves your graveyard afterwards. The deck's lands, adventures and spells are built to keep cards flowing out of the yard.
+- **The lands do the stealing.** Pit of Offerings exiles up to three cards from graveyards when it lands — point it at your own yard and each creature card exiled is another amass trigger, then it taps for any of the exiled colours. Edgewall Inn returns an Adventure card from your graveyard to hand, which also fires the amass trigger and re-buys your best adventure.
+- **The Army grows itself.** Misty Mountains Raider adds amass 2 on every attack, Gollum's Meager Meal and Duskwatch-style counters pile on, and Bilbo draws cards while his Take a Glance adventure scries.
+- **Then you steal the game.** Thranduil's Decree counters anything and lets you cast it free; Supper for Spiders takes every creature your opponent lost this turn and turns it into Food; Crude Bent Blade forces a sacrifice on entry; Gundabad Opportunist plays the top of your library.
+
+Every card either grows the Army, recurs from the graveyard, or steals something — there are no filler slots.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Dig and disrupt** (turns 1-3): Bilbo (draw a card) or Elvenking's Harper on turn two, Crude Bent Blade to force a sacrifice, Pinecone Strike or Enchanted River's Grasp to answer threats. Play Pit of Offerings early — its exile trigger grows the Army the moment Along the Crooked Way is online, and it fixes black/red/blue.
+2. **Turn on the engine** (turns 4-5): Along the Crooked Way on curve, then Misty Mountains Raider. Every Edgewall Inn activation, every Pit of Offerings, every adventure cast and every dying creature card that leaves the yard stacks +1/+1 counters on the Army. Gundabad Opportunist and Bilbo keep cards flowing.
+3. **The kill or the heist** (turns 6+): make the Army unblockable with Elvenking's Harper and smash with Smaug's Fury (first strike, +3/+0) — or counter their finisher with Thranduil's Decree and cast it yourself, and Supper for Spiders on their turn after a board wipe steals everything.
+
+## Card roles
+
+| Card | Copies | Role |
+|------|--------|------|
+| Along the Crooked Way | 4 | Combo engine — amass Goblins 1 per creature card leaving your graveyard; {1}{B} gives Goblins and Orcs menace; ETB recursion |
+| Misty Mountains Raider | 4 | Army engine — amass 2 on every attack; a 4/4 Goblin Soldier body |
+| Pit of Offerings | 4 | Win-con land — ETB exiles up to 3 cards from graveyards (each creature card from your yard is an amass trigger); taps for exiled colours |
+| Edgewall Inn | 3 | Recursion land — returns an Adventure card from your graveyard to hand (amass trigger + card advantage); taps for a chosen colour |
+| Elvenking's Harper | 4 | Finisher enabler — {4}{U}: target creature can't be blocked this turn; 2/2 body |
+| Smaug's Fury | 3 | Lethal pump — +3/+0, first strike and reach on the Army for {1}{R} |
+| Supper for Spiders | 3 | Theft blowout — steal every creature that died this turn as Food; mass lifegain and board denial |
+| Thranduil's Decree | 3 | Counter + steal — exile any countered permanent spell and cast it without paying |
+| Bilbo Baggins, Burglar // Take a Glance | 3 | Draw engine — ETB draw a card; adventure Scry 2; re-buyable via Edgewall Inn |
+| Gollum, Silent Slinker // Meager Meal | 3 | Menace 4/3 beater; adventure puts a +1/+1 counter and gains 2 life |
+| Crude Bent Blade | 2 | Edict + equipment — ETB opponent sacrifices a creature; +2/+1, equip {2} |
+| Gundabad Opportunist | 2 | Impulse draw — ETB exiles top card, playable until your next end step |
+| Enchanted River's Grasp | 2 | Hard removal — taps, strips counters and abilities, never untaps |
+| Pinecone Strike | 2 | Removal + artifact-token hate — 3 damage with exile, or destroy an artifact token |
+| Uneasy Partings | 1 | Bounce — {2}{U} against attacking nontoken creatures; tucks to top or bottom of library |
+| Lake-town Mariners // Gone Fishing | 1 | 6/5 vigilance ward 2 finisher; adventure flickers two of your creatures/lands (saves the Army) |
+| Gandalf, Spark Starter | 1 | Reach 4/3 — ETB deals 3 damage split; closes races |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Pit of Offerings | Win-condition land — the ETB exile trigger fires Along the Crooked Way's amass once per creature card exiled from your own graveyard (up to 3 counters on one land drop), then fixes any colour among the exiled cards |
+| Edgewall Inn | Engine land — {3}, {T}, sacrifice: return an Adventure card from your graveyard to hand, triggering amass and re-buying Bilbo, Gollum or Lake-town Mariners; taps for a colour of your choice |
+| Basics | 6 Swamp / 5 Island / 4 Mountain — 22 lands, 15 coloured sources plus 7 flexible sources |
+
+## Curve and mana
+
+22 lands over a 38-card spell base. The deck is dense at two and three mana (26 cards) so it can interact and set up the engine before the Army takes over. Pit of Offerings is the fixing lynchpin — it reliably taps for black, red or blue once it has exiled one card of each colour, and Edgewall Inn covers the awkward third colour. The top end (Thranduil's Decree, Gandalf, Lake-town Mariners) is deliberately thin: five six-mana cards that each end a game on their own rather than a durdle pile.
+
+# Gameplay strategy
+
+## Early game (turns 1-3)
+
+Curve Bilbo into Along the Crooked Way, or Harper into removal. Play Pit of Offerings on turn one or two even though it enters tapped — the exile trigger is an amass engine waiting to happen, and the fixing matters more than the tempo loss. Use Pinecone Strike and Enchanted River's Grasp to keep the board clean while the Army is still 0/0. Do not trade your Army unless it saves the game — every +1/+1 counter on it is the win condition.
+
+## Mid game (turns 4-6)
+
+Land Along the Crooked Way and Misty Mountains Raider. The loop is: attack (amass 2), activate Edgewall Inn on a dead Bilbo or Gollum (amass 1 + card back), cast the adventure from hand, and watch the Army swell. Supper for Spiders shines after any board wipe or bad block — every creature that died this turn, from either side, becomes your Food. Crude Bent Blade's forced sacrifice also feeds it.
+
+## The combo turn
+
+1. Have Along the Crooked Way and a 4+ power Army on board (two attacks from Misty Mountains Raider plus one Pit of Offerings trigger usually suffice).
+2. First main phase: {4}{U} on Elvenking's Harper — the Army can't be blocked this turn.
+3. Smaug's Fury on the Army: +3/+0, first strike, reach.
+4. Attack with an unblockable, first-striking Army for lethal. Against menace math, Along the Crooked Way's {1}{B} also makes it require two blockers — the Harper activation is the clean kill, menace is the fallback.
+
+## Win condition 2 — the heist
+
+When the Army is answered, steal the game instead:
+
+- **Thranduil's Decree** counters any spell — and if it's a permanent, exiles it and lets you **cast it without paying its mana cost**. Counter their board wipe, then play their bomb.
+- **Supper for Spiders** is a one-sided Reanimate for the turn: after combat or a wipe, their entire dead board comes to your side as Food (lose all other types) — you gain 3 life per sacrifice and they lose the recursion value.
+- **Gundabad Opportunist** exiles your own top card on entry — free card advantage that plays around hand disruption.
+- **Lake-town Mariners** is a 6/5 vigilance ward 2 that ends the game in three swings, and its Gone Fishing adventure flickers the Army to dodge removal and re-trigger nothing (counters stay — it's a new object, so use it to save, not to buff).
+
+## Mulligan guide
+
+Keep: any hand with Along the Crooked Way or Misty Mountains Raider plus 3 lands; Pit of Offerings + Edgewall Inn hands fix everything; Bilbo hands draw into the engine. Mulligan: no lands, 5+ lands with no engine, or hands whose only coloured sources are tapped Pit of Offerings with no way to curve into black/red/blue. The deck can win without the engine — Supper for Spiders and Thranduil's Decree are game-swingers on their own — but the Army is the fastest clock.
+
+## Key interactions and edge cases
+
+- **Pit of Offerings targets any graveyards**: exile creature cards from your own yard to grow the Army, or strip a key card from your opponent's yard — both modes trigger nothing for them and everything for you.
+- **Edgewall Inn only returns Adventure cards**: Bilbo, Gollum and Lake-town Mariners are the targets. Cast the adventure half from hand first, let the creature die, then re-buy the whole card.
+- **Along the Crooked Way's ETB itself amasses**: returning a creature card from your graveyard to hand counts as a creature card leaving the graveyard, so the enchantment enters with at least one amass trigger.
+- **The Army is a Goblin**: it triggers the menace from Along the Crooked Way's {1}{B} ability and is also an Orc-compatible Goblin — Misty Mountains Raider's amass 2 finds it automatically.
+- **Supper for Spiders is instant-speed**: cast it in response to exile removal on your side of the board — it only grabs creatures "put there from the battlefield this turn", so the window is the whole turn.
+- **Thranduil's Decree exiles only permanent spells**: countering an instant or sorcery sends it to the graveyard normally — still a clean counterspell.
+- **Enchanted River's Grasp removes counters**: it is the one card that shrinks an opposing Army — keep it for mirror matches and huge threats, not random attackers.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Pinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board |
+| Midrange | Enchanted River's Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power |
+| Control | Thranduil's Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper |
+| Army mirrors | Enchanted River's Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food |
+| Combo | Race: Thranduil's Decree answers their combo piece and casts it for you; Gandalf's 3 damage closes tight races |
+
+# Deck list (Arena import)
+
+```
+4 Along the Crooked Way
+4 Misty Mountains Raider
+4 Elvenking's Harper
+3 Smaug's Fury
+3 Gollum, Silent Slinker // Meager Meal
+3 Supper for Spiders
+3 Thranduil's Decree
+3 Bilbo Baggins, Burglar // Take a Glance
+2 Crude Bent Blade
+2 Gundabad Opportunist
+2 Enchanted River's Grasp
+2 Pinecone Strike
+1 Uneasy Partings
+1 Lake-town Mariners // Gone Fishing
+1 Gandalf, Spark Starter
+4 Pit of Offerings
+3 Edgewall Inn
+6 Swamp
+5 Island
+4 Mountain
+```

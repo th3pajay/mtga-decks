@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MTG Decks — Daily Standard Guides"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Today
+      - href: archive.qmd
+        text: Archive
+  page-footer:
+    left: "Daily Standard-legal MTGA deck guides"
+
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 2

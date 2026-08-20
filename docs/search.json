@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Today’s Decks",
+    "section": "",
+    "text": "Deck guides published 2026-08-20:\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft"
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "1 deck guide — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html",
+    "title": "Thieves of the Crooked Way",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA) — The Hobbit set (hob), legal on Arena from 2026-08-14\n\n\nColors\nGrixis — black / red / blue\n\n\nArchetype\nCombo-engine: Amass Goblins recursion + opponent-graveyard theft\n\n\nSize\n60 cards, 22 lands\n\n\nPrimary win\nGiant Goblin Army — Along the Crooked Way turns every creature card leaving your graveyard into an amass counter; the Army goes unblockable with Elvenking’s Harper and lethal with Smaug’s Fury\n\n\nSecondary win\nTheft engine — Thranduil’s Decree counters and re-casts your opponent’s spells for free; Supper for Spiders steals their entire dead board as Food; Gundabad Opportunist plays off the top\n\n\nCombo linchpin\nAlong the Crooked Way — amass Goblins 1 whenever a creature card leaves your graveyard\n\n\nNonland curve\n12 twos, 14 threes, 3 fours, 4 fives, 5 sixes"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#game-plan-in-three-phases",
+    "title": "Thieves of the Crooked Way",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDig and disrupt (turns 1-3): Bilbo (draw a card) or Elvenking’s Harper on turn two, Crude Bent Blade to force a sacrifice, Pinecone Strike or Enchanted River’s Grasp to answer threats. Play Pit of Offerings early — its exile trigger grows the Army the moment Along the Crooked Way is online, and it fixes black/red/blue.\nTurn on the engine (turns 4-5): Along the Crooked Way on curve, then Misty Mountains Raider. Every Edgewall Inn activation, every Pit of Offerings, every adventure cast and every dying creature card that leaves the yard stacks +1/+1 counters on the Army. Gundabad Opportunist and Bilbo keep cards flowing.\nThe kill or the heist (turns 6+): make the Army unblockable with Elvenking’s Harper and smash with Smaug’s Fury (first strike, +3/+0) — or counter their finisher with Thranduil’s Decree and cast it yourself, and Supper for Spiders on their turn after a board wipe steals everything."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#card-roles",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#card-roles",
+    "title": "Thieves of the Crooked Way",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nAlong the Crooked Way\n4\nCombo engine — amass Goblins 1 per creature card leaving your graveyard; {1}{B} gives Goblins and Orcs menace; ETB recursion\n\n\nMisty Mountains Raider\n4\nArmy engine — amass 2 on every attack; a 4/4 Goblin Soldier body\n\n\nPit of Offerings\n4\nWin-con land — ETB exiles up to 3 cards from graveyards (each creature card from your yard is an amass trigger); taps for exiled colours\n\n\nEdgewall Inn\n3\nRecursion land — returns an Adventure card from your graveyard to hand (amass trigger + card advantage); taps for a chosen colour\n\n\nElvenking’s Harper\n4\nFinisher enabler — {4}{U}: target creature can’t be blocked this turn; 2/2 body\n\n\nSmaug’s Fury\n3\nLethal pump — +3/+0, first strike and reach on the Army for {1}{R}\n\n\nSupper for Spiders\n3\nTheft blowout — steal every creature that died this turn as Food; mass lifegain and board denial\n\n\nThranduil’s Decree\n3\nCounter + steal — exile any countered permanent spell and cast it without paying\n\n\nBilbo Baggins, Burglar // Take a Glance\n3\nDraw engine — ETB draw a card; adventure Scry 2; re-buyable via Edgewall Inn\n\n\nGollum, Silent Slinker // Meager Meal\n3\nMenace 4/3 beater; adventure puts a +1/+1 counter and gains 2 life\n\n\nCrude Bent Blade\n2\nEdict + equipment — ETB opponent sacrifices a creature; +2/+1, equip {2}\n\n\nGundabad Opportunist\n2\nImpulse draw — ETB exiles top card, playable until your next end step\n\n\nEnchanted River’s Grasp\n2\nHard removal — taps, strips counters and abilities, never untaps\n\n\nPinecone Strike\n2\nRemoval + artifact-token hate — 3 damage with exile, or destroy an artifact token\n\n\nUneasy Partings\n1\nBounce — {2}{U} against attacking nontoken creatures; tucks to top or bottom of library\n\n\nLake-town Mariners // Gone Fishing\n1\n6/5 vigilance ward 2 finisher; adventure flickers two of your creatures/lands (saves the Army)\n\n\nGandalf, Spark Starter\n1\nReach 4/3 — ETB deals 3 damage split; closes races"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#lands-as-engines",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#lands-as-engines",
+    "title": "Thieves of the Crooked Way",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the deck\n\n\n\n\nPit of Offerings\nWin-condition land — the ETB exile trigger fires Along the Crooked Way’s amass once per creature card exiled from your own graveyard (up to 3 counters on one land drop), then fixes any colour among the exiled cards\n\n\nEdgewall Inn\nEngine land — {3}, {T}, sacrifice: return an Adventure card from your graveyard to hand, triggering amass and re-buying Bilbo, Gollum or Lake-town Mariners; taps for a colour of your choice\n\n\nBasics\n6 Swamp / 5 Island / 4 Mountain — 22 lands, 15 coloured sources plus 7 flexible sources"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#curve-and-mana",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#curve-and-mana",
+    "title": "Thieves of the Crooked Way",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n22 lands over a 38-card spell base. The deck is dense at two and three mana (26 cards) so it can interact and set up the engine before the Army takes over. Pit of Offerings is the fixing lynchpin — it reliably taps for black, red or blue once it has exiled one card of each colour, and Edgewall Inn covers the awkward third colour. The top end (Thranduil’s Decree, Gandalf, Lake-town Mariners) is deliberately thin: five six-mana cards that each end a game on their own rather than a durdle pile."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#early-game-turns-1-3",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#early-game-turns-1-3",
+    "title": "Thieves of the Crooked Way",
+    "section": "Early game (turns 1-3)",
+    "text": "Early game (turns 1-3)\nCurve Bilbo into Along the Crooked Way, or Harper into removal. Play Pit of Offerings on turn one or two even though it enters tapped — the exile trigger is an amass engine waiting to happen, and the fixing matters more than the tempo loss. Use Pinecone Strike and Enchanted River’s Grasp to keep the board clean while the Army is still 0/0. Do not trade your Army unless it saves the game — every +1/+1 counter on it is the win condition."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#mid-game-turns-4-6",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#mid-game-turns-4-6",
+    "title": "Thieves of the Crooked Way",
+    "section": "Mid game (turns 4-6)",
+    "text": "Mid game (turns 4-6)\nLand Along the Crooked Way and Misty Mountains Raider. The loop is: attack (amass 2), activate Edgewall Inn on a dead Bilbo or Gollum (amass 1 + card back), cast the adventure from hand, and watch the Army swell. Supper for Spiders shines after any board wipe or bad block — every creature that died this turn, from either side, becomes your Food. Crude Bent Blade’s forced sacrifice also feeds it."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#the-combo-turn",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#the-combo-turn",
+    "title": "Thieves of the Crooked Way",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nHave Along the Crooked Way and a 4+ power Army on board (two attacks from Misty Mountains Raider plus one Pit of Offerings trigger usually suffice).\nFirst main phase: {4}{U} on Elvenking’s Harper — the Army can’t be blocked this turn.\nSmaug’s Fury on the Army: +3/+0, first strike, reach.\nAttack with an unblockable, first-striking Army for lethal. Against menace math, Along the Crooked Way’s {1}{B} also makes it require two blockers — the Harper activation is the clean kill, menace is the fallback."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#win-condition-2-the-heist",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#win-condition-2-the-heist",
+    "title": "Thieves of the Crooked Way",
+    "section": "Win condition 2 — the heist",
+    "text": "Win condition 2 — the heist\nWhen the Army is answered, steal the game instead:\n\nThranduil’s Decree counters any spell — and if it’s a permanent, exiles it and lets you cast it without paying its mana cost. Counter their board wipe, then play their bomb.\nSupper for Spiders is a one-sided Reanimate for the turn: after combat or a wipe, their entire dead board comes to your side as Food (lose all other types) — you gain 3 life per sacrifice and they lose the recursion value.\nGundabad Opportunist exiles your own top card on entry — free card advantage that plays around hand disruption.\nLake-town Mariners is a 6/5 vigilance ward 2 that ends the game in three swings, and its Gone Fishing adventure flickers the Army to dodge removal and re-trigger nothing (counters stay — it’s a new object, so use it to save, not to buff)."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#mulligan-guide",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#mulligan-guide",
+    "title": "Thieves of the Crooked Way",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: any hand with Along the Crooked Way or Misty Mountains Raider plus 3 lands; Pit of Offerings + Edgewall Inn hands fix everything; Bilbo hands draw into the engine. Mulligan: no lands, 5+ lands with no engine, or hands whose only coloured sources are tapped Pit of Offerings with no way to curve into black/red/blue. The deck can win without the engine — Supper for Spiders and Thranduil’s Decree are game-swingers on their own — but the Army is the fastest clock."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#key-interactions-and-edge-cases",
+    "title": "Thieves of the Crooked Way",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nPit of Offerings targets any graveyards: exile creature cards from your own yard to grow the Army, or strip a key card from your opponent’s yard — both modes trigger nothing for them and everything for you.\nEdgewall Inn only returns Adventure cards: Bilbo, Gollum and Lake-town Mariners are the targets. Cast the adventure half from hand first, let the creature die, then re-buy the whole card.\nAlong the Crooked Way’s ETB itself amasses: returning a creature card from your graveyard to hand counts as a creature card leaving the graveyard, so the enchantment enters with at least one amass trigger.\nThe Army is a Goblin: it triggers the menace from Along the Crooked Way’s {1}{B} ability and is also an Orc-compatible Goblin — Misty Mountains Raider’s amass 2 finds it automatically.\nSupper for Spiders is instant-speed: cast it in response to exile removal on your side of the board — it only grabs creatures “put there from the battlefield this turn”, so the window is the whole turn.\nThranduil’s Decree exiles only permanent spells: countering an instant or sorcery sends it to the graveyard normally — still a clean counterspell.\nEnchanted River’s Grasp removes counters: it is the one card that shrinks an opposing Army — keep it for mirror matches and huge threats, not random attackers."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#matchups",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#matchups",
+    "title": "Thieves of the Crooked Way",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nPinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board\n\n\nMidrange\nEnchanted River’s Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power\n\n\nControl\nThranduil’s Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper\n\n\nArmy mirrors\nEnchanted River’s Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food\n\n\nCombo\nRace: Thranduil’s Decree answers their combo piece and casts it for you; Gandalf’s 3 damage closes tight races"
+  }
+]
