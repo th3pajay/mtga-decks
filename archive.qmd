@@ -2,11 +2,15 @@
 title: "Archive"
 ---
 
-**3 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**4 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 21 August 
 
 - **[Kindle the Archive](decks/21 August -kindle-the-archive.html)** — Five-color Vivid × Firebending × Surveil — flashback burn  `combo` `vivid` `firebending` `surveil`
+
+## 2026-08-21
+
+- **[Mirkwood Menagerie](decks/2026-08-21-mirkwood-menagerie.html)** — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo  `hobbit` `elves`
 
 ## 2026-08-20
 

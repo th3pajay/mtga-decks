@@ -1,0 +1,166 @@
+---
+title: "Mirkwood Menagerie"
+subtitle: "WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo"
+date: "2026-08-21"
+categories: ["hobbit", "elves"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (all 60 cards verified legal via MTGADB PROD) |
+| Colors | White, Blue, Black, Green (4-color WUBG) |
+| Archetype | Mirkwood menagerie — ferocious beasts + landfall elves + counters |
+| Size | 60 cards (24 Hobbit, 13 support, 23 lands) |
+| Primary win | Go-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response |
+| Secondary win | Ojer Taq token tripling + Zanarkand's Lasting Fayth giant Hero token |
+
+The Hobbit set releases on Arena **2026-08-14** — every Hobbit card in this list has an empty `arena_id` until that date, so the import list works from release day.
+
+## Overview
+
+Mirkwood Menagerie is the ninth dedicated daily Hobbit combo deck. Eight earlier builds claimed the set's headline engines — the storied dwarves, the goblin amass raid, the elvenking's court, Smaug's hoard, the wilderland pack, the Lake-town recruits, the dwarf bards and the thieves of the crooked way — so today's deck takes the wild remnants of the set and makes them cohere: **wolves, bears, a rabbit, a bee, Mirkwood elves, an eagle and a border garrison**. The unused Hobbit pool is thin (18 cards, all common/uncommon), so the deck is fused around the two mechanics those leftovers share: **Ferocious** (Rabbit and Warg pay off power 4 or greater) and **Landfall** (Raft-Steerer and the Mirkwood druids trigger off every land), held together by a +1/+1 counter subtheme and a token-swarm finish.
+
+The engine chain is simple but deep: small creatures (and the tokens they make) draw cards through Enduring Innocence; big creatures (Ordinary Bear, a pumped Guardian of the Halls, a grown Elvish Refueler, Ojer Taq) draw cards through Outcaster Trailblazer; Mirkwood Nurturer bounces a creature or land to re-trigger entries and landfall; and every creature on the board feeds Esgaroth Garrison's power. Then Ojer Taq, Deepest Foundation triples every token — soldiers, heroes and roles — and Zanarkand's adventure lands a Hero token with a +1/+1 counter for each land you control.
+
+## Approach
+
+### Game plan by phase
+
+1. **Develop the burrow (turns 1–3).** Nasty Little Rabbit on turn 1; Ravening Warg, Guardian of the Halls or Duskwatch Hunter on turn 2. Small-creature entries trigger Enduring Innocence for cards. The ETB-tapped duals (Foggy Bottom Swamp, Meditation Pools, Kyoshi Village) trigger landfall on the way in.
+2. **Turn ferocious on (turns 3–5).** Ordinary Bear (4/5) and Guardian of the Halls' {5}{G}{G} pump are the reliable enablers; Elvish Refueler grows past 4 power with spare mana; every big entry draws via Outcaster Trailblazer. Elven Raft-Steerer taps blockers on landfall, buying time.
+3. **Stampede (turns 5+).** Esgaroth Garrison's power equals your creature count; Eagle of the Great Shelf and a solved Case of the Gateway Express anthem the board; Rabbit Response is a +2/+1 finisher with scry 2 (you control a Rabbit). Ojer Taq triples tokens for the final swing, and Banner of Kinship turns the seven wolves into a +7/+7 stampede.
+
+### Card roles
+
+| Card | Role | Key text (verified) |
+|---|---|---|
+| Nasty Little Rabbit | Wincon feeder | Ferocious — at combat, if you control a 4+ power creature, +1/+1 counter; the deck's Rabbit |
+| Ravening Warg | Beater | 2/2 deathtouch; Ferocious — attack: gain 2 life |
+| Desolation Prowler | Pump | Pay 2 life: +2/+2 until end of turn (once per turn) |
+| Duskwatch Hunter | Counter + evasion | Can't be blocked by tokens; ETB: +1/+1 counter on target creature |
+| Great Fierce Bee | Scry engine | Flying; whenever one or more other creatures die, scry 1 |
+| Guardian of the Halls | Ferocious enabler | 2/2 trample; {5}{G}{G}: three +1/+1 counters |
+| Little Bear | Flash + bear | Flash; ETB: untap another creature; +1/+1 if it's a Bear |
+| Mirkwood Nurturer | Bounce engine | ETB: return up to one other permanent you control to hand; if so, +1/+1 counter |
+| Elven Raft-Steerer | Landfall control | Landfall: tap target creature an opponent controls or untap yours |
+| Velvetwing Butterflies | Flyer + tap | Flying 2/2; adventure Gaze in Wonder {1}{W}: tap one or two target creatures |
+| Troll Negotiations | Removal + counters | Two +1/+1 counters on a creature you control, then it fights |
+| Eagle of the Great Shelf | Anthem | Flying; on attack, +1/+1 per other creature you control |
+| Esgaroth Garrison | Win con 1 | Power equals number of creatures you control; ETB: recruit (draw, discard, 1/1 Soldier token) |
+| Ordinary Bear | Ferocious enabler | 4/5 for {3}{G} — the cheapest permanent 4-power body |
+| Enduring Innocence | Draw engine | Lifelink; whenever another creature you control with power 2 or less enters, draw (once per turn) |
+| Outcaster Trailblazer | Draw + ramp | ETB: add one mana of any color; other 4+ power ETB: draw; plot {2}{G} |
+| Banner of Kinship | Win con 3 | Choose Wolf: fellowship counter per Wolf; Wolves get +1/+1 each |
+| Elvish Refueler | Counter sink | Exhaust {1}{G}: +1/+1 counter; on your turn it can be re-activated |
+| Rabbit Response | Finisher | Creatures you control get +2/+1; if you control a Rabbit, scry 2 |
+| Case of the Gateway Express | Removal + anthem | ETB: each creature deals 1 to a creature you don't control; solved (3+ attacked): +1/+0 |
+| Dwarven Castle Guard | Token on death | 2/1; when it dies, create a 1/1 Hero token |
+| Bushwhack | Ramp / fight | Search a basic to hand, or your creature fights |
+| Liminal Hold | Removal | Exile target nonland permanent until this leaves; gain 2 life |
+| Royal Treatment | Protection | Target creature you control gains hexproof; Royal Role token (+1/+1) |
+| Ojer Taq, Deepest Foundation | Win con 2 | 6/6 vigilance; triple every creature token you create; dies → Temple of Civilization |
+
+### Lands as engines
+
+| Land | Engine |
+|---|---|
+| Zanarkand, Ancient Metropolis | The deck's land win condition: a land whose adventure, Lasting Fayth {4}{G}{G}, creates a 1/1 Hero token with a +1/+1 counter for each land you control — a 20/20 at full development — then the land is still playable from exile |
+| Temple of Civilization | Ojer Taq's back face: a land ({T}: add {W}) that transforms back into the token-tripler after you attacked with three or more creatures |
+| Foggy Bottom Swamp | {B} or {G}; {4}, {T}, sacrifice: draw a card |
+| Meditation Pools | {G} or {U}; {4}, {T}, sacrifice: draw a card |
+| Kyoshi Village | {G} or {W}; {4}, {T}, sacrifice: draw a card |
+
+### Curve and mana
+
+Four colors from 23 lands: green is the spine (13 sources), white 8, black 5, blue 4 — the hybrid cards (Duskwatch Hunter {2}{B/G}, Mirkwood Nurturer {2}{G/U}) and the triple ETB-tapped duals smooth the early turns, and rainbow fixing is not needed at this curve. The deck is creature-dense (31 creatures) with 18 cards at mana value 2; Bushwhack and Outcaster Trailblazer provide light ramp toward the 5–6 mana finishers. Mulligan aggressively toward green sources and a two-drop.
+
+## Gameplay strategy
+
+### Early game
+
+Turn 1 Nasty Little Rabbit, turn 2 any two-drop. Prefer Guardian of the Halls and Ravening Warg — they win the ground while Duskwatch Hunter's counter and token-evasion apply pressure. Enduring Innocence on turn 3 turns every subsequent small creature into a card. The duals enter tapped, so sequence basics first on turns 1–2.
+
+### Mid game
+
+Establish ferocious: Ordinary Bear or a {5}{G}{G} pump on Guardian of the Halls. From here Outcaster Trailblazer draws on every big entry, and Mirkwood Nurturer can bounce a spent creature (or an ETB-tapped land) to re-trigger entries and landfall. Elven Raft-Steerer taps the biggest blocker each landfall, letting wolves and bears through.
+
+### The combo turn
+
+1. Enduring Innocence + Outcaster Trailblazer convert every creature you cast into a card — the swarm refuels itself.
+2. Mirkwood Nurturer bounces and replays a creature (or a land) for extra counters, draws and landfall taps.
+3. Ojer Taq, Deepest Foundation triples every token: Esgaroth's recruit Soldier, Castle Guard's Hero, Royal Treatment's Role — each token maker now makes three bodies.
+4. Swing with the full board: Esgaroth Garrison is huge from the creature count, Eagle of the Great Shelf anthems per attacker, Case of the Gateway Express is solved (+1/+0), and Rabbit Response gives +2/+1 and scry 2.
+
+### Win condition 2 — the giant Hero
+
+Cast Lasting Fayth from Zanarkand, Ancient Metropolis when you control a dozen or more lands: the Hero token enters with that many +1/+1 counters. Royal Treatment and Duskwatch Hunter counters stack on it. The token wins through sheer size — protect it with Royal Treatment and finish over two turns.
+
+### Win condition 3 — the Wolf stampede
+
+Banner of Kinship enters naming Wolf with a fellowship counter for each Wolf you control — up to seven (three Ravening Warg, three Duskwatch Hunter, one Desolation Prowler) — turning every Wolf into a 9/9-plus threat. It is a one-card finisher that also works as a giant pump for the wolf half of the board.
+
+### Mulligan guide
+
+- Keep: 2–3 lands with a green source, a two-drop, and ideally a Rabbit or Guardian.
+- Ship: one-landers, five-plus-land hands, and hands with double-white or double-black spells but no matching source.
+- Keep Outcaster Trailblazer or Enduring Innocence hands on a playable curve — the engines beat raw stats.
+- The ETB-tapped duals slow the first two turns: an opening of three tapped duals is a mulligan.
+
+### Key interactions and edge cases
+
+- **Enduring Innocence triggers only once per turn** — time your token bursts (Esgaroth recruit, Castle Guard death) to your own turn.
+- **Outcaster Trailblazer draws only on power 4 or greater** entries — the ferocious enablers (Ordinary Bear, Guardian pump, Refueler growth) are what turn it on.
+- **Banner of Kinship chooses a type at entry** — name Wolf; the fellowship counter count is set when it enters, so cast it when your wolf count is highest.
+- **Ojer Taq triples tokens, not counters** — the +1/+1 counters from Duskwatch Hunter, Troll Negotiations and Refueler are unaffected (a good thing: they stack on tripled bodies).
+- **Zanarkand is a land and a spell** — cast Lasting Fayth from hand, then play Zanarkand from exile later; the land face enters tapped.
+- **Ojer Taq's death** returns it transformed as Temple of Civilization, a land; {2}{W}, {T} transforms it back after attacking with three or more creatures — the win condition loops itself.
+- **Liminal Hold exiles until it leaves** — it handles any nonland permanent, including enchantments and artifacts.
+- **Mirkwood Nurturer can bounce a land** — replay it for an extra landfall trigger (Raft-Steerer tap-down).
+- **Case of the Gateway Express** solves at your end step after three or more creatures attacked — the +1/+0 is permanent once solved.
+
+### Matchups
+
+- **Aggro**: Ravening Warg deathtouch and Raft-Steerer landfall taps hold the ground; Great Fierce Bee and Velvetwing Butterflies block flyers; Liminal Hold exiles the biggest threat.
+- **Midrange**: Outcaster Trailblazer's card advantage out-draws them; Troll Negotiations and Bushwhack fights trade up; Banner of Kinship and Ojer Taq outclass their top end.
+- **Control**: Enduring Innocence and Trailblazer refill after sweepers; Royal Treatment protects Ojer Taq; Zanarkand's giant Hero token is a single-card clock they can't answer cheaply.
+
+## Deck list (Arena import)
+
+```
+7 Forest
+4 Nasty Little Rabbit
+4 Plains
+3 Duskwatch Hunter
+3 Guardian of the Halls
+3 Ravening Warg
+2 Enduring Innocence
+2 Esgaroth Garrison
+2 Foggy Bottom Swamp
+2 Island
+2 Kyoshi Village
+2 Meditation Pools
+2 Outcaster Trailblazer
+2 Swamp
+2 Zanarkand, Ancient Metropolis
+1 Banner of Kinship
+1 Bushwhack
+1 Case of the Gateway Express
+1 Desolation Prowler
+1 Dwarven Castle Guard
+1 Eagle of the Great Shelf
+1 Elven Raft-Steerer
+1 Elvish Refueler
+1 Great Fierce Bee
+1 Liminal Hold
+1 Little Bear
+1 Mirkwood Nurturer
+1 Ojer Taq, Deepest Foundation
+1 Ordinary Bear
+1 Rabbit Response
+1 Royal Treatment
+1 Troll Negotiations
+1 Velvetwing Butterflies
+```
