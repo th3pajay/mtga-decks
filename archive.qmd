@@ -2,7 +2,11 @@
 title: "Archive"
 ---
 
-**2 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**3 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 21 August 
+
+- **[Kindle the Archive](decks/21 August -kindle-the-archive.html)** — Five-color Vivid × Firebending × Surveil — flashback burn  `combo` `vivid` `firebending` `surveil`
 
 ## 2026-08-20
 

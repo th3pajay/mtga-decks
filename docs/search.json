@@ -4,7 +4,112 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-20:\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+    "text": "No deck published yet today (2026-08-21) — check back after the morning runs."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html",
+    "href": "decks/21 August -kindle-the-archive.html",
+    "title": "Kindle the Archive",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nFive-color — white / blue / black / red / green\n\n\nArchetype\nCombo-control (flashback burn)\n\n\nSize\n60 cards, 24 lands\n\n\nCore engine\nIroh, Grand Lotus + surveilled burn with flashback\n\n\nPrimary win\nIroh flashback loop: repeat Burst Lightning / Traumatic Critique while Fire Lord Azula attacks and copies every spell\n\n\nSecondary win\nVivid beatdown: Squawkroaster double strike plus Self-Destruct fireballs\n\n\nNonland curve\n2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus"
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#game-plan-in-three-phases",
+    "href": "decks/21 August -kindle-the-archive.html#game-plan-in-three-phases",
+    "title": "Kindle the Archive",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nBuild the archive (turns 1–3): surveil with Gorehound, Glarb, Risky Research, and the surveil lands. Let burn spells hit the graveyard naturally or through Traumatic Critique’s “draw two, discard one”. Keep the board with early burn and Prismari Charm.\nLight the flame (turns 4–6): resolve Iroh, Grand Lotus. Attack with Firebending creatures (Fire Lord Azula, Sun Warriors, Iroh himself) to stockpile red mana. Cast flashback burn from the yard — Azula copies it while she attacks.\nBurn the library down: loop the flashback chain each turn, escalate with Firebender Ascension (copying Azula’s copy trigger), Sozin's Comet (firebending 5 on every creature), and Ozai (unspent mana becomes red). Shimmercreep and Explosive Prodigy add on-entry damage; Vivid beatdown closes games where burn stalls."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#why-these-cards",
+    "href": "decks/21 August -kindle-the-archive.html#why-these-cards",
+    "title": "Kindle the Archive",
+    "section": "Why these cards",
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nIroh, Grand Lotus\n4\nEngine — grants flashback to instants, sorceries, and Lessons in your graveyard during your turn; Firebending 2\n\n\nFire Lord Azula\n3\nEngine — copies every spell you cast while attacking; Firebending 2\n\n\nFirebending Lesson\n4\nCombo piece — Lesson removal with kicker; flashback {1} under Iroh\n\n\nBurst Lightning\n4\nCombo piece — 2 damage any target, kicker for 4; flashback {R} under Iroh\n\n\nTraumatic Critique\n2\nCombo piece — X damage any target plus draw two, discard one (feeds the archive)\n\n\nGlarb, Calamity’s Augur\n2\nEnabler — tap to surveil 2; casts MV 4+ spells from the top of the library\n\n\nSnarling Gorehound\n2\nEnabler — surveil 1 whenever a small creature enters\n\n\nRisky Research\n2\nDig — surveil 2, draw two\n\n\nPrismari Charm\n1\nFlex — surveil 2 draw 1, or ping, or bounce\n\n\nUnsubtle Mockery\n1\nFusion — 4 damage to a creature plus surveil 1\n\n\nSquawkroaster\n2\nWin con 2 — double strike, power equals number of colors among permanents\n\n\nGlister Bairn\n1\nPump — +X/+X on another creature each combat\n\n\nBloom Tender\n1\nMana — adds one of each color among permanents\n\n\nShimmercreep\n1\nDrain — each opponent loses X life on entry, you gain X\n\n\nExplosive Prodigy\n1\nRemoval — X damage to a creature on entry\n\n\nSun Warriors\n1\nMana engine — Firebending X, where X is your creature count\n\n\nSozin’s Comet\n1\nAnthem — all creatures gain firebending 5; foretell\n\n\nFirebender Ascension\n1\nMultiplier — copies attacking-triggered abilities at four quest counters\n\n\nOzai, the Phoenix King\n1\nFinisher — unspent mana becomes red; flying and indestructible at 6+ unspent mana\n\n\nSelf-Destruct\n1\nFireball — a creature deals damage equal to its power to any target"
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#lands-as-engines",
+    "href": "decks/21 August -kindle-the-archive.html#lands-as-engines",
+    "title": "Kindle the Archive",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nFire Nation Palace\nWin-con land — grants firebending 4 to any attacker; Iroh or Azula then generates 6 red mana per attack, funding the flashback loop\n\n\nSuburban Sanctuary\nSurveil fixing — green or white, then surveil 1 for {4}\n\n\nParadox Gardens\nSurveil fixing — green or blue, then surveil 1\n\n\nKishla Village\nSurveil 2 for {3}{G}; enters untapped off Island or Swamp\n\n\nJasmine Dragon Tea Shop\nAny-color mana for Ally spells (Iroh and Sun Warriors); makes Ally tokens late\n\n\nHidden Courtyard\nWhite source that becomes Discover 4 when sacrificed\n\n\nMirage Mesa\nTapped any-color source — the Vivid manabase’s backbone\n\n\nSubterranean Cavern\nBlack-green with a point of life"
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#curve-and-mana",
+    "href": "decks/21 August -kindle-the-archive.html#curve-and-mana",
+    "title": "Kindle the Archive",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n24 lands: 18 nonbasic fixing/utility lands plus 7 basics (2 Forest, 2 Swamp, 1 Island, 1 Mountain, 1 Plains). The manabase is the deck’s Vivid engine — five colors among permanents means every Vivid X equals 5, so fixing lands are payoff lands. Mirage Mesa and Jasmine Dragon Tea Shop (for the Ally engine) smooth the five-color demands; Bloom Tender and Training Compound accelerate into Iroh on turn 4.\nThe nonland curve is 2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus — an average mana value under 3. The deck plays most of its burn at one or two mana and leans on Iroh (5) and Ozai (6) as the top end."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#early-game-turns-13",
+    "href": "decks/21 August -kindle-the-archive.html#early-game-turns-13",
+    "title": "Kindle the Archive",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 1: Snarling Gorehound (every subsequent small creature surveils 1) or Burst Lightning for an early blocker. Surveil aggressively — the graveyard is the deck’s second hand.\nTurn 2: Glarb, Calamity’s Augur (tap to surveil 2, and it casts your four- and five-drops from the top), Risky Research (surveil 2, draw two), or burn. Explosive Prodigy on turn 2 deals 3-4 damage to a creature and adds red to the color count.\nHold Prismari Charm or Unsubtle Mockery for the turn-2/3 threat. Discard lands or redundant burn to Traumatic Critique’s loot — the archive wants them."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#mid-game-turns-46",
+    "href": "decks/21 August -kindle-the-archive.html#mid-game-turns-46",
+    "title": "Kindle the Archive",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nResolve Iroh, Grand Lotus as the priority. With Glarb out, cast it from the top of the library. With Bloom Tender or a five-color board, it comes down on turn 4.\nOnce Iroh is down, the flashback suite is live: Burst Lightning for {R}, Firebending Lesson for {1}, Traumatic Critique for {X}{U}{R}. Attack with Firebending creatures first, generate red, then cast during combat while the mana is available.\nFire Lord Azula attacks with firebending 2, and every spell cast while she attacks is copied — a kicked Burst Lightning becomes 8 damage. Protect her with removal and Prismari Charm bounce.\nFirebender Ascension accumulates quest counters every time an attacking creature triggers (Azula’s copy trigger, every Firebending trigger). At four counters it copies those abilities — Azula’s trigger copies twice, Firebending mana doubles."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#the-combo-turn",
+    "href": "decks/21 August -kindle-the-archive.html#the-combo-turn",
+    "title": "Kindle the Archive",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nConfirm Iroh is on the battlefield and the archive holds at least two or three burn spells (surveil lands, Glarb, and Traumatic Critique’s loot keep it stocked).\nEnter combat. Attack with Fire Lord Azula and Iroh (firebending 2 each), ideally with Sozin's Comet cast first (firebending 5 on everything) or Fire Nation Palace activated ({1}{R}, {T}) to grant firebending 4 — an Iroh with both printed firebending 2 and the Palace’s firebending 4 generates 6 red mana per attack.\nWith the combat mana banked, cast from the graveyard: Burst Lightning, Firebending Lesson, Traumatic Critique with X as high as the mana allows. Azula copies each spell; with Firebender Ascension at four quest counters, the copy trigger itself is copied.\nRepeat each turn. Shimmercreep and Explosive Prodigy add on-entry damage, Ozai turns leftover mana red and becomes an indestructible flyer at six-plus unspent mana, and the loop outpaces any removal that isn’t graveyard hate."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "href": "decks/21 August -kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "title": "Kindle the Archive",
+    "section": "Win condition 2: the Vivid beatdown",
+    "text": "Win condition 2: the Vivid beatdown\nBurn is plan A; the board is plan B. Squawkroaster is a double striker whose power equals the number of colors among permanents you control — 5 or more in this deck, so it attacks as a 5/5 double strike minimum. Glister Bairn makes it +X/+X bigger every combat, and Prismabasher-style team pumps come from the same Vivid scaling. Self-Destruct turns a pumped Squawkroaster into a one-shot fireball (it deals damage equal to its power to any target), and Ozai — trample, haste, firebending 4, flying and indestructible at six-plus unspent mana — closes the game alone. Shimmercreep’s life drain also wins without ever attacking."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#mulligan-guide",
+    "href": "decks/21 August -kindle-the-archive.html#mulligan-guide",
+    "title": "Kindle the Archive",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: 2–3 lands covering red plus one other color, a surveil source (Glarb, Gorehound, Risky Research) or early burn, and a path to Iroh by turn 5.\nTrim: 5+ land hands, single-color hands, and hands with only the top end (Ozai, Sozin’s Comet, multiple Traumatic Critiques) and no early play.\nThe deck is happy to trade card quantity for quality: Traumatic Critique, Glarb, and the surveil lands all convert surplus cards into archive fuel."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#key-interactions-and-edge-cases",
+    "href": "decks/21 August -kindle-the-archive.html#key-interactions-and-edge-cases",
+    "title": "Kindle the Archive",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nMultiple Firebending instances stack. A creature with firebending 2 (Iroh) that gains firebending 4 from Fire Nation Palace triggers twice: 6 red mana per attack. Sozin’s Comet on top makes it 9.\nFirebending mana lasts until end of combat — cast the flashback burn during the declare-attackers step while the mana is available. Iroh’s flashback works any time during your turn.\nIroh’s flashback is only during your turn, and each cast exiles the card after resolution — the loop is per-turn, not infinite. Multiple copies of a burn spell in the yard extend the chain.\nFirebender Ascension copies attacking-creature triggered abilities — Azula’s spell-copy trigger and every Firebending mana trigger qualify. It does not copy static abilities.\nTraumatic Critique’s loot is a feature: discarding burn into the archive sets up next turn’s flashback chain.\nGlarb casts MV 4+ spells from the top — Iroh, Ozai, Squawkroaster, and Shimmercreep all qualify; surveil first to put the right card on top.\nOzai’s mana conversion means unspent Firebending red, treasure from Flick a Coin-style effects, and other colors all become red, letting one combat’s mana cast any mix of flashback spells.\nGraveyard hate is the deck’s Achilles heel — versus heavy exile, pivot to the Vivid beatdown plan (Squawkroaster, Ozai) and stop over-investing in the archive."
+  },
+  {
+    "objectID": "decks/21 August -kindle-the-archive.html#matchups",
+    "href": "decks/21 August -kindle-the-archive.html#matchups",
+    "title": "Kindle the Archive",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "3 deck guides — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#august",
+    "href": "archive.html#august",
+    "title": "Archive",
+    "section": "21 August",
+    "text": "21 August\n\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
   },
   {
     "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",
@@ -89,20 +194,6 @@
     "title": "Thieves of the Crooked Way",
     "section": "Matchups",
     "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nPinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board\n\n\nMidrange\nEnchanted River’s Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power\n\n\nControl\nThranduil’s Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper\n\n\nArmy mirrors\nEnchanted River’s Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food\n\n\nCombo\nRace: Thranduil’s Decree answers their combo piece and casts it for you; Gandalf’s 3 damage closes tight races"
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "2 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
   },
   {
     "objectID": "decks/2026-08-20-the-rewritten-stampede.html",
