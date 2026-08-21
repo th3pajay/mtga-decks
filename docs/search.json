@@ -4,91 +4,154 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-21:\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves"
+    "text": "Deck guides published 2026-08-21:\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html",
-    "href": "decks/21 August -kindle-the-archive.html",
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html",
+    "title": "Mirkwood Menagerie",
+    "section": "",
+    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
+  },
+  {
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
+    "title": "Mirkwood Menagerie",
+    "section": "",
+    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
+  },
+  {
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#overview",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#overview",
+    "title": "Mirkwood Menagerie",
+    "section": "Overview",
+    "text": "Overview\nMirkwood Menagerie is the ninth dedicated daily Hobbit combo deck. Eight earlier builds claimed the set’s headline engines — the storied dwarves, the goblin amass raid, the elvenking’s court, Smaug’s hoard, the wilderland pack, the Lake-town recruits, the dwarf bards and the thieves of the crooked way — so today’s deck takes the wild remnants of the set and makes them cohere: wolves, bears, a rabbit, a bee, Mirkwood elves, an eagle and a border garrison. The unused Hobbit pool is thin (18 cards, all common/uncommon), so the deck is fused around the two mechanics those leftovers share: Ferocious (Rabbit and Warg pay off power 4 or greater) and Landfall (Raft-Steerer and the Mirkwood druids trigger off every land), held together by a +1/+1 counter subtheme and a token-swarm finish.\nThe engine chain is simple but deep: small creatures (and the tokens they make) draw cards through Enduring Innocence; big creatures (Ordinary Bear, a pumped Guardian of the Halls, a grown Elvish Refueler, Ojer Taq) draw cards through Outcaster Trailblazer; Mirkwood Nurturer bounces a creature or land to re-trigger entries and landfall; and every creature on the board feeds Esgaroth Garrison’s power. Then Ojer Taq, Deepest Foundation triples every token — soldiers, heroes and roles — and Zanarkand’s adventure lands a Hero token with a +1/+1 counter for each land you control."
+  },
+  {
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#approach",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#approach",
+    "title": "Mirkwood Menagerie",
+    "section": "Approach",
+    "text": "Approach\n\nGame plan by phase\n\nDevelop the burrow (turns 1–3). Nasty Little Rabbit on turn 1; Ravening Warg, Guardian of the Halls or Duskwatch Hunter on turn 2. Small-creature entries trigger Enduring Innocence for cards. The ETB-tapped duals (Foggy Bottom Swamp, Meditation Pools, Kyoshi Village) trigger landfall on the way in.\nTurn ferocious on (turns 3–5). Ordinary Bear (4/5) and Guardian of the Halls’ {5}{G}{G} pump are the reliable enablers; Elvish Refueler grows past 4 power with spare mana; every big entry draws via Outcaster Trailblazer. Elven Raft-Steerer taps blockers on landfall, buying time.\nStampede (turns 5+). Esgaroth Garrison’s power equals your creature count; Eagle of the Great Shelf and a solved Case of the Gateway Express anthem the board; Rabbit Response is a +2/+1 finisher with scry 2 (you control a Rabbit). Ojer Taq triples tokens for the final swing, and Banner of Kinship turns the seven wolves into a +7/+7 stampede.\n\n\n\nCard roles\n\n\n\n\n\n\n\n\nCard\nRole\nKey text (verified)\n\n\n\n\nNasty Little Rabbit\nWincon feeder\nFerocious — at combat, if you control a 4+ power creature, +1/+1 counter; the deck’s Rabbit\n\n\nRavening Warg\nBeater\n2/2 deathtouch; Ferocious — attack: gain 2 life\n\n\nDesolation Prowler\nPump\nPay 2 life: +2/+2 until end of turn (once per turn)\n\n\nDuskwatch Hunter\nCounter + evasion\nCan’t be blocked by tokens; ETB: +1/+1 counter on target creature\n\n\nGreat Fierce Bee\nScry engine\nFlying; whenever one or more other creatures die, scry 1\n\n\nGuardian of the Halls\nFerocious enabler\n2/2 trample; {5}{G}{G}: three +1/+1 counters\n\n\nLittle Bear\nFlash + bear\nFlash; ETB: untap another creature; +1/+1 if it’s a Bear\n\n\nMirkwood Nurturer\nBounce engine\nETB: return up to one other permanent you control to hand; if so, +1/+1 counter\n\n\nElven Raft-Steerer\nLandfall control\nLandfall: tap target creature an opponent controls or untap yours\n\n\nVelvetwing Butterflies\nFlyer + tap\nFlying 2/2; adventure Gaze in Wonder {1}{W}: tap one or two target creatures\n\n\nTroll Negotiations\nRemoval + counters\nTwo +1/+1 counters on a creature you control, then it fights\n\n\nEagle of the Great Shelf\nAnthem\nFlying; on attack, +1/+1 per other creature you control\n\n\nEsgaroth Garrison\nWin con 1\nPower equals number of creatures you control; ETB: recruit (draw, discard, 1/1 Soldier token)\n\n\nOrdinary Bear\nFerocious enabler\n4/5 for {3}{G} — the cheapest permanent 4-power body\n\n\nEnduring Innocence\nDraw engine\nLifelink; whenever another creature you control with power 2 or less enters, draw (once per turn)\n\n\nOutcaster Trailblazer\nDraw + ramp\nETB: add one mana of any color; other 4+ power ETB: draw; plot {2}{G}\n\n\nBanner of Kinship\nWin con 3\nChoose Wolf: fellowship counter per Wolf; Wolves get +1/+1 each\n\n\nElvish Refueler\nCounter sink\nExhaust {1}{G}: +1/+1 counter; on your turn it can be re-activated\n\n\nRabbit Response\nFinisher\nCreatures you control get +2/+1; if you control a Rabbit, scry 2\n\n\nCase of the Gateway Express\nRemoval + anthem\nETB: each creature deals 1 to a creature you don’t control; solved (3+ attacked): +1/+0\n\n\nDwarven Castle Guard\nToken on death\n2/1; when it dies, create a 1/1 Hero token\n\n\nBushwhack\nRamp / fight\nSearch a basic to hand, or your creature fights\n\n\nLiminal Hold\nRemoval\nExile target nonland permanent until this leaves; gain 2 life\n\n\nRoyal Treatment\nProtection\nTarget creature you control gains hexproof; Royal Role token (+1/+1)\n\n\nOjer Taq, Deepest Foundation\nWin con 2\n6/6 vigilance; triple every creature token you create; dies → Temple of Civilization\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine\n\n\n\n\nZanarkand, Ancient Metropolis\nThe deck’s land win condition: a land whose adventure, Lasting Fayth {4}{G}{G}, creates a 1/1 Hero token with a +1/+1 counter for each land you control — a 20/20 at full development — then the land is still playable from exile\n\n\nTemple of Civilization\nOjer Taq’s back face: a land ({T}: add {W}) that transforms back into the token-tripler after you attacked with three or more creatures\n\n\nFoggy Bottom Swamp\n{B} or {G}; {4}, {T}, sacrifice: draw a card\n\n\nMeditation Pools\n{G} or {U}; {4}, {T}, sacrifice: draw a card\n\n\nKyoshi Village\n{G} or {W}; {4}, {T}, sacrifice: draw a card\n\n\n\n\n\nCurve and mana\nFour colors from 23 lands: green is the spine (13 sources), white 8, black 5, blue 4 — the hybrid cards (Duskwatch Hunter {2}{B/G}, Mirkwood Nurturer {2}{G/U}) and the triple ETB-tapped duals smooth the early turns, and rainbow fixing is not needed at this curve. The deck is creature-dense (31 creatures) with 18 cards at mana value 2; Bushwhack and Outcaster Trailblazer provide light ramp toward the 5–6 mana finishers. Mulligan aggressively toward green sources and a two-drop."
+  },
+  {
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
+    "title": "Mirkwood Menagerie",
+    "section": "Gameplay strategy",
+    "text": "Gameplay strategy\n\nEarly game\nTurn 1 Nasty Little Rabbit, turn 2 any two-drop. Prefer Guardian of the Halls and Ravening Warg — they win the ground while Duskwatch Hunter’s counter and token-evasion apply pressure. Enduring Innocence on turn 3 turns every subsequent small creature into a card. The duals enter tapped, so sequence basics first on turns 1–2.\n\n\nMid game\nEstablish ferocious: Ordinary Bear or a {5}{G}{G} pump on Guardian of the Halls. From here Outcaster Trailblazer draws on every big entry, and Mirkwood Nurturer can bounce a spent creature (or an ETB-tapped land) to re-trigger entries and landfall. Elven Raft-Steerer taps the biggest blocker each landfall, letting wolves and bears through.\n\n\nThe combo turn\n\nEnduring Innocence + Outcaster Trailblazer convert every creature you cast into a card — the swarm refuels itself.\nMirkwood Nurturer bounces and replays a creature (or a land) for extra counters, draws and landfall taps.\nOjer Taq, Deepest Foundation triples every token: Esgaroth’s recruit Soldier, Castle Guard’s Hero, Royal Treatment’s Role — each token maker now makes three bodies.\nSwing with the full board: Esgaroth Garrison is huge from the creature count, Eagle of the Great Shelf anthems per attacker, Case of the Gateway Express is solved (+1/+0), and Rabbit Response gives +2/+1 and scry 2.\n\n\n\nWin condition 2 — the giant Hero\nCast Lasting Fayth from Zanarkand, Ancient Metropolis when you control a dozen or more lands: the Hero token enters with that many +1/+1 counters. Royal Treatment and Duskwatch Hunter counters stack on it. The token wins through sheer size — protect it with Royal Treatment and finish over two turns.\n\n\nWin condition 3 — the Wolf stampede\nBanner of Kinship enters naming Wolf with a fellowship counter for each Wolf you control — up to seven (three Ravening Warg, three Duskwatch Hunter, one Desolation Prowler) — turning every Wolf into a 9/9-plus threat. It is a one-card finisher that also works as a giant pump for the wolf half of the board.\n\n\nMulligan guide\n\nKeep: 2–3 lands with a green source, a two-drop, and ideally a Rabbit or Guardian.\nShip: one-landers, five-plus-land hands, and hands with double-white or double-black spells but no matching source.\nKeep Outcaster Trailblazer or Enduring Innocence hands on a playable curve — the engines beat raw stats.\nThe ETB-tapped duals slow the first two turns: an opening of three tapped duals is a mulligan.\n\n\n\nKey interactions and edge cases\n\nEnduring Innocence triggers only once per turn — time your token bursts (Esgaroth recruit, Castle Guard death) to your own turn.\nOutcaster Trailblazer draws only on power 4 or greater entries — the ferocious enablers (Ordinary Bear, Guardian pump, Refueler growth) are what turn it on.\nBanner of Kinship chooses a type at entry — name Wolf; the fellowship counter count is set when it enters, so cast it when your wolf count is highest.\nOjer Taq triples tokens, not counters — the +1/+1 counters from Duskwatch Hunter, Troll Negotiations and Refueler are unaffected (a good thing: they stack on tripled bodies).\nZanarkand is a land and a spell — cast Lasting Fayth from hand, then play Zanarkand from exile later; the land face enters tapped.\nOjer Taq’s death returns it transformed as Temple of Civilization, a land; {2}{W}, {T} transforms it back after attacking with three or more creatures — the win condition loops itself.\nLiminal Hold exiles until it leaves — it handles any nonland permanent, including enchantments and artifacts.\nMirkwood Nurturer can bounce a land — replay it for an extra landfall trigger (Raft-Steerer tap-down).\nCase of the Gateway Express solves at your end step after three or more creatures attacked — the +1/+0 is permanent once solved.\n\n\n\nMatchups\n\nAggro: Ravening Warg deathtouch and Raft-Steerer landfall taps hold the ground; Great Fierce Bee and Velvetwing Butterflies block flyers; Liminal Hold exiles the biggest threat.\nMidrange: Outcaster Trailblazer’s card advantage out-draws them; Troll Negotiations and Bushwhack fights trade up; Banner of Kinship and Ojer Taq outclass their top end.\nControl: Enduring Innocence and Trailblazer refill after sweepers; Royal Treatment protects Ojer Taq; Zanarkand’s giant Hero token is a single-card clock they can’t answer cheaply."
+  },
+  {
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
+    "title": "Mirkwood Menagerie",
+    "section": "Deck list (Arena import)",
+    "text": "Deck list (Arena import)\n7 Forest\n4 Nasty Little Rabbit\n4 Plains\n3 Duskwatch Hunter\n3 Guardian of the Halls\n3 Ravening Warg\n2 Enduring Innocence\n2 Esgaroth Garrison\n2 Foggy Bottom Swamp\n2 Island\n2 Kyoshi Village\n2 Meditation Pools\n2 Outcaster Trailblazer\n2 Swamp\n2 Zanarkand, Ancient Metropolis\n1 Banner of Kinship\n1 Bushwhack\n1 Case of the Gateway Express\n1 Desolation Prowler\n1 Dwarven Castle Guard\n1 Eagle of the Great Shelf\n1 Elven Raft-Steerer\n1 Elvish Refueler\n1 Great Fierce Bee\n1 Liminal Hold\n1 Little Bear\n1 Mirkwood Nurturer\n1 Ojer Taq, Deepest Foundation\n1 Ordinary Bear\n1 Rabbit Response\n1 Royal Treatment\n1 Troll Negotiations\n1 Velvetwing Butterflies"
+  },
+  {
+    "objectID": "decks/2026-08-21-kindle-the-archive.html",
+    "href": "decks/2026-08-21-kindle-the-archive.html",
     "title": "Kindle the Archive",
     "section": "",
     "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nFive-color — white / blue / black / red / green\n\n\nArchetype\nCombo-control (flashback burn)\n\n\nSize\n60 cards, 24 lands\n\n\nCore engine\nIroh, Grand Lotus + surveilled burn with flashback\n\n\nPrimary win\nIroh flashback loop: repeat Burst Lightning / Traumatic Critique while Fire Lord Azula attacks and copies every spell\n\n\nSecondary win\nVivid beatdown: Squawkroaster double strike plus Self-Destruct fireballs\n\n\nNonland curve\n2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus"
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#game-plan-in-three-phases",
-    "href": "decks/21 August -kindle-the-archive.html#game-plan-in-three-phases",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
     "title": "Kindle the Archive",
     "section": "Game plan in three phases",
     "text": "Game plan in three phases\n\nBuild the archive (turns 1–3): surveil with Gorehound, Glarb, Risky Research, and the surveil lands. Let burn spells hit the graveyard naturally or through Traumatic Critique’s “draw two, discard one”. Keep the board with early burn and Prismari Charm.\nLight the flame (turns 4–6): resolve Iroh, Grand Lotus. Attack with Firebending creatures (Fire Lord Azula, Sun Warriors, Iroh himself) to stockpile red mana. Cast flashback burn from the yard — Azula copies it while she attacks.\nBurn the library down: loop the flashback chain each turn, escalate with Firebender Ascension (copying Azula’s copy trigger), Sozin's Comet (firebending 5 on every creature), and Ozai (unspent mana becomes red). Shimmercreep and Explosive Prodigy add on-entry damage; Vivid beatdown closes games where burn stalls."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#why-these-cards",
-    "href": "decks/21 August -kindle-the-archive.html#why-these-cards",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
+    "href": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
     "title": "Kindle the Archive",
     "section": "Why these cards",
     "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nIroh, Grand Lotus\n4\nEngine — grants flashback to instants, sorceries, and Lessons in your graveyard during your turn; Firebending 2\n\n\nFire Lord Azula\n3\nEngine — copies every spell you cast while attacking; Firebending 2\n\n\nFirebending Lesson\n4\nCombo piece — Lesson removal with kicker; flashback {1} under Iroh\n\n\nBurst Lightning\n4\nCombo piece — 2 damage any target, kicker for 4; flashback {R} under Iroh\n\n\nTraumatic Critique\n2\nCombo piece — X damage any target plus draw two, discard one (feeds the archive)\n\n\nGlarb, Calamity’s Augur\n2\nEnabler — tap to surveil 2; casts MV 4+ spells from the top of the library\n\n\nSnarling Gorehound\n2\nEnabler — surveil 1 whenever a small creature enters\n\n\nRisky Research\n2\nDig — surveil 2, draw two\n\n\nPrismari Charm\n1\nFlex — surveil 2 draw 1, or ping, or bounce\n\n\nUnsubtle Mockery\n1\nFusion — 4 damage to a creature plus surveil 1\n\n\nSquawkroaster\n2\nWin con 2 — double strike, power equals number of colors among permanents\n\n\nGlister Bairn\n1\nPump — +X/+X on another creature each combat\n\n\nBloom Tender\n1\nMana — adds one of each color among permanents\n\n\nShimmercreep\n1\nDrain — each opponent loses X life on entry, you gain X\n\n\nExplosive Prodigy\n1\nRemoval — X damage to a creature on entry\n\n\nSun Warriors\n1\nMana engine — Firebending X, where X is your creature count\n\n\nSozin’s Comet\n1\nAnthem — all creatures gain firebending 5; foretell\n\n\nFirebender Ascension\n1\nMultiplier — copies attacking-triggered abilities at four quest counters\n\n\nOzai, the Phoenix King\n1\nFinisher — unspent mana becomes red; flying and indestructible at 6+ unspent mana\n\n\nSelf-Destruct\n1\nFireball — a creature deals damage equal to its power to any target"
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#lands-as-engines",
-    "href": "decks/21 August -kindle-the-archive.html#lands-as-engines",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
+    "href": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
     "title": "Kindle the Archive",
     "section": "Lands as engines",
     "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nFire Nation Palace\nWin-con land — grants firebending 4 to any attacker; Iroh or Azula then generates 6 red mana per attack, funding the flashback loop\n\n\nSuburban Sanctuary\nSurveil fixing — green or white, then surveil 1 for {4}\n\n\nParadox Gardens\nSurveil fixing — green or blue, then surveil 1\n\n\nKishla Village\nSurveil 2 for {3}{G}; enters untapped off Island or Swamp\n\n\nJasmine Dragon Tea Shop\nAny-color mana for Ally spells (Iroh and Sun Warriors); makes Ally tokens late\n\n\nHidden Courtyard\nWhite source that becomes Discover 4 when sacrificed\n\n\nMirage Mesa\nTapped any-color source — the Vivid manabase’s backbone\n\n\nSubterranean Cavern\nBlack-green with a point of life"
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#curve-and-mana",
-    "href": "decks/21 August -kindle-the-archive.html#curve-and-mana",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
+    "href": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
     "title": "Kindle the Archive",
     "section": "Curve and mana",
     "text": "Curve and mana\n24 lands: 18 nonbasic fixing/utility lands plus 7 basics (2 Forest, 2 Swamp, 1 Island, 1 Mountain, 1 Plains). The manabase is the deck’s Vivid engine — five colors among permanents means every Vivid X equals 5, so fixing lands are payoff lands. Mirage Mesa and Jasmine Dragon Tea Shop (for the Ally engine) smooth the five-color demands; Bloom Tender and Training Compound accelerate into Iroh on turn 4.\nThe nonland curve is 2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus — an average mana value under 3. The deck plays most of its burn at one or two mana and leans on Iroh (5) and Ozai (6) as the top end."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#early-game-turns-13",
-    "href": "decks/21 August -kindle-the-archive.html#early-game-turns-13",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
+    "href": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
     "title": "Kindle the Archive",
     "section": "Early game (turns 1–3)",
     "text": "Early game (turns 1–3)\n\nTurn 1: Snarling Gorehound (every subsequent small creature surveils 1) or Burst Lightning for an early blocker. Surveil aggressively — the graveyard is the deck’s second hand.\nTurn 2: Glarb, Calamity’s Augur (tap to surveil 2, and it casts your four- and five-drops from the top), Risky Research (surveil 2, draw two), or burn. Explosive Prodigy on turn 2 deals 3-4 damage to a creature and adds red to the color count.\nHold Prismari Charm or Unsubtle Mockery for the turn-2/3 threat. Discard lands or redundant burn to Traumatic Critique’s loot — the archive wants them."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#mid-game-turns-46",
-    "href": "decks/21 August -kindle-the-archive.html#mid-game-turns-46",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
+    "href": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
     "title": "Kindle the Archive",
     "section": "Mid game (turns 4–6)",
     "text": "Mid game (turns 4–6)\n\nResolve Iroh, Grand Lotus as the priority. With Glarb out, cast it from the top of the library. With Bloom Tender or a five-color board, it comes down on turn 4.\nOnce Iroh is down, the flashback suite is live: Burst Lightning for {R}, Firebending Lesson for {1}, Traumatic Critique for {X}{U}{R}. Attack with Firebending creatures first, generate red, then cast during combat while the mana is available.\nFire Lord Azula attacks with firebending 2, and every spell cast while she attacks is copied — a kicked Burst Lightning becomes 8 damage. Protect her with removal and Prismari Charm bounce.\nFirebender Ascension accumulates quest counters every time an attacking creature triggers (Azula’s copy trigger, every Firebending trigger). At four counters it copies those abilities — Azula’s trigger copies twice, Firebending mana doubles."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#the-combo-turn",
-    "href": "decks/21 August -kindle-the-archive.html#the-combo-turn",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
+    "href": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
     "title": "Kindle the Archive",
     "section": "The combo turn",
     "text": "The combo turn\n\nConfirm Iroh is on the battlefield and the archive holds at least two or three burn spells (surveil lands, Glarb, and Traumatic Critique’s loot keep it stocked).\nEnter combat. Attack with Fire Lord Azula and Iroh (firebending 2 each), ideally with Sozin's Comet cast first (firebending 5 on everything) or Fire Nation Palace activated ({1}{R}, {T}) to grant firebending 4 — an Iroh with both printed firebending 2 and the Palace’s firebending 4 generates 6 red mana per attack.\nWith the combat mana banked, cast from the graveyard: Burst Lightning, Firebending Lesson, Traumatic Critique with X as high as the mana allows. Azula copies each spell; with Firebender Ascension at four quest counters, the copy trigger itself is copied.\nRepeat each turn. Shimmercreep and Explosive Prodigy add on-entry damage, Ozai turns leftover mana red and becomes an indestructible flyer at six-plus unspent mana, and the loop outpaces any removal that isn’t graveyard hate."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
-    "href": "decks/21 August -kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "href": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
     "title": "Kindle the Archive",
     "section": "Win condition 2: the Vivid beatdown",
     "text": "Win condition 2: the Vivid beatdown\nBurn is plan A; the board is plan B. Squawkroaster is a double striker whose power equals the number of colors among permanents you control — 5 or more in this deck, so it attacks as a 5/5 double strike minimum. Glister Bairn makes it +X/+X bigger every combat, and Prismabasher-style team pumps come from the same Vivid scaling. Self-Destruct turns a pumped Squawkroaster into a one-shot fireball (it deals damage equal to its power to any target), and Ozai — trample, haste, firebending 4, flying and indestructible at six-plus unspent mana — closes the game alone. Shimmercreep’s life drain also wins without ever attacking."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#mulligan-guide",
-    "href": "decks/21 August -kindle-the-archive.html#mulligan-guide",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
+    "href": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
     "title": "Kindle the Archive",
     "section": "Mulligan guide",
     "text": "Mulligan guide\n\nKeep: 2–3 lands covering red plus one other color, a surveil source (Glarb, Gorehound, Risky Research) or early burn, and a path to Iroh by turn 5.\nTrim: 5+ land hands, single-color hands, and hands with only the top end (Ozai, Sozin’s Comet, multiple Traumatic Critiques) and no early play.\nThe deck is happy to trade card quantity for quality: Traumatic Critique, Glarb, and the surveil lands all convert surplus cards into archive fuel."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#key-interactions-and-edge-cases",
-    "href": "decks/21 August -kindle-the-archive.html#key-interactions-and-edge-cases",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
     "title": "Kindle the Archive",
     "section": "Key interactions and edge cases",
     "text": "Key interactions and edge cases\n\nMultiple Firebending instances stack. A creature with firebending 2 (Iroh) that gains firebending 4 from Fire Nation Palace triggers twice: 6 red mana per attack. Sozin’s Comet on top makes it 9.\nFirebending mana lasts until end of combat — cast the flashback burn during the declare-attackers step while the mana is available. Iroh’s flashback works any time during your turn.\nIroh’s flashback is only during your turn, and each cast exiles the card after resolution — the loop is per-turn, not infinite. Multiple copies of a burn spell in the yard extend the chain.\nFirebender Ascension copies attacking-creature triggered abilities — Azula’s spell-copy trigger and every Firebending mana trigger qualify. It does not copy static abilities.\nTraumatic Critique’s loot is a feature: discarding burn into the archive sets up next turn’s flashback chain.\nGlarb casts MV 4+ spells from the top — Iroh, Ozai, Squawkroaster, and Shimmercreep all qualify; surveil first to put the right card on top.\nOzai’s mana conversion means unspent Firebending red, treasure from Flick a Coin-style effects, and other colors all become red, letting one combat’s mana cast any mix of flashback spells.\nGraveyard hate is the deck’s Achilles heel — versus heavy exile, pivot to the Vivid beatdown plan (Squawkroaster, Ozai) and stop over-investing in the archive."
   },
   {
-    "objectID": "decks/21 August -kindle-the-archive.html#matchups",
-    "href": "decks/21 August -kindle-the-archive.html#matchups",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#matchups",
+    "href": "decks/2026-08-21-kindle-the-archive.html#matchups",
     "title": "Kindle the Archive",
     "section": "Matchups",
     "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "4 deck guides — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
   },
   {
     "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",
@@ -173,76 +236,6 @@
     "title": "Thieves of the Crooked Way",
     "section": "Matchups",
     "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nPinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board\n\n\nMidrange\nEnchanted River’s Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power\n\n\nControl\nThranduil’s Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper\n\n\nArmy mirrors\nEnchanted River’s Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food\n\n\nCombo\nRace: Thranduil’s Decree answers their combo piece and casts it for you; Gandalf’s 3 damage closes tight races"
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "4 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#august",
-    "href": "archive.html#august",
-    "title": "Archive",
-    "section": "21 August",
-    "text": "21 August\n\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
-  },
-  {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html",
-    "title": "Mirkwood Menagerie",
-    "section": "",
-    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
-  },
-  {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
-    "title": "Mirkwood Menagerie",
-    "section": "",
-    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
-  },
-  {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#overview",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#overview",
-    "title": "Mirkwood Menagerie",
-    "section": "Overview",
-    "text": "Overview\nMirkwood Menagerie is the ninth dedicated daily Hobbit combo deck. Eight earlier builds claimed the set’s headline engines — the storied dwarves, the goblin amass raid, the elvenking’s court, Smaug’s hoard, the wilderland pack, the Lake-town recruits, the dwarf bards and the thieves of the crooked way — so today’s deck takes the wild remnants of the set and makes them cohere: wolves, bears, a rabbit, a bee, Mirkwood elves, an eagle and a border garrison. The unused Hobbit pool is thin (18 cards, all common/uncommon), so the deck is fused around the two mechanics those leftovers share: Ferocious (Rabbit and Warg pay off power 4 or greater) and Landfall (Raft-Steerer and the Mirkwood druids trigger off every land), held together by a +1/+1 counter subtheme and a token-swarm finish.\nThe engine chain is simple but deep: small creatures (and the tokens they make) draw cards through Enduring Innocence; big creatures (Ordinary Bear, a pumped Guardian of the Halls, a grown Elvish Refueler, Ojer Taq) draw cards through Outcaster Trailblazer; Mirkwood Nurturer bounces a creature or land to re-trigger entries and landfall; and every creature on the board feeds Esgaroth Garrison’s power. Then Ojer Taq, Deepest Foundation triples every token — soldiers, heroes and roles — and Zanarkand’s adventure lands a Hero token with a +1/+1 counter for each land you control."
-  },
-  {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#approach",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#approach",
-    "title": "Mirkwood Menagerie",
-    "section": "Approach",
-    "text": "Approach\n\nGame plan by phase\n\nDevelop the burrow (turns 1–3). Nasty Little Rabbit on turn 1; Ravening Warg, Guardian of the Halls or Duskwatch Hunter on turn 2. Small-creature entries trigger Enduring Innocence for cards. The ETB-tapped duals (Foggy Bottom Swamp, Meditation Pools, Kyoshi Village) trigger landfall on the way in.\nTurn ferocious on (turns 3–5). Ordinary Bear (4/5) and Guardian of the Halls’ {5}{G}{G} pump are the reliable enablers; Elvish Refueler grows past 4 power with spare mana; every big entry draws via Outcaster Trailblazer. Elven Raft-Steerer taps blockers on landfall, buying time.\nStampede (turns 5+). Esgaroth Garrison’s power equals your creature count; Eagle of the Great Shelf and a solved Case of the Gateway Express anthem the board; Rabbit Response is a +2/+1 finisher with scry 2 (you control a Rabbit). Ojer Taq triples tokens for the final swing, and Banner of Kinship turns the seven wolves into a +7/+7 stampede.\n\n\n\nCard roles\n\n\n\n\n\n\n\n\nCard\nRole\nKey text (verified)\n\n\n\n\nNasty Little Rabbit\nWincon feeder\nFerocious — at combat, if you control a 4+ power creature, +1/+1 counter; the deck’s Rabbit\n\n\nRavening Warg\nBeater\n2/2 deathtouch; Ferocious — attack: gain 2 life\n\n\nDesolation Prowler\nPump\nPay 2 life: +2/+2 until end of turn (once per turn)\n\n\nDuskwatch Hunter\nCounter + evasion\nCan’t be blocked by tokens; ETB: +1/+1 counter on target creature\n\n\nGreat Fierce Bee\nScry engine\nFlying; whenever one or more other creatures die, scry 1\n\n\nGuardian of the Halls\nFerocious enabler\n2/2 trample; {5}{G}{G}: three +1/+1 counters\n\n\nLittle Bear\nFlash + bear\nFlash; ETB: untap another creature; +1/+1 if it’s a Bear\n\n\nMirkwood Nurturer\nBounce engine\nETB: return up to one other permanent you control to hand; if so, +1/+1 counter\n\n\nElven Raft-Steerer\nLandfall control\nLandfall: tap target creature an opponent controls or untap yours\n\n\nVelvetwing Butterflies\nFlyer + tap\nFlying 2/2; adventure Gaze in Wonder {1}{W}: tap one or two target creatures\n\n\nTroll Negotiations\nRemoval + counters\nTwo +1/+1 counters on a creature you control, then it fights\n\n\nEagle of the Great Shelf\nAnthem\nFlying; on attack, +1/+1 per other creature you control\n\n\nEsgaroth Garrison\nWin con 1\nPower equals number of creatures you control; ETB: recruit (draw, discard, 1/1 Soldier token)\n\n\nOrdinary Bear\nFerocious enabler\n4/5 for {3}{G} — the cheapest permanent 4-power body\n\n\nEnduring Innocence\nDraw engine\nLifelink; whenever another creature you control with power 2 or less enters, draw (once per turn)\n\n\nOutcaster Trailblazer\nDraw + ramp\nETB: add one mana of any color; other 4+ power ETB: draw; plot {2}{G}\n\n\nBanner of Kinship\nWin con 3\nChoose Wolf: fellowship counter per Wolf; Wolves get +1/+1 each\n\n\nElvish Refueler\nCounter sink\nExhaust {1}{G}: +1/+1 counter; on your turn it can be re-activated\n\n\nRabbit Response\nFinisher\nCreatures you control get +2/+1; if you control a Rabbit, scry 2\n\n\nCase of the Gateway Express\nRemoval + anthem\nETB: each creature deals 1 to a creature you don’t control; solved (3+ attacked): +1/+0\n\n\nDwarven Castle Guard\nToken on death\n2/1; when it dies, create a 1/1 Hero token\n\n\nBushwhack\nRamp / fight\nSearch a basic to hand, or your creature fights\n\n\nLiminal Hold\nRemoval\nExile target nonland permanent until this leaves; gain 2 life\n\n\nRoyal Treatment\nProtection\nTarget creature you control gains hexproof; Royal Role token (+1/+1)\n\n\nOjer Taq, Deepest Foundation\nWin con 2\n6/6 vigilance; triple every creature token you create; dies → Temple of Civilization\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine\n\n\n\n\nZanarkand, Ancient Metropolis\nThe deck’s land win condition: a land whose adventure, Lasting Fayth {4}{G}{G}, creates a 1/1 Hero token with a +1/+1 counter for each land you control — a 20/20 at full development — then the land is still playable from exile\n\n\nTemple of Civilization\nOjer Taq’s back face: a land ({T}: add {W}) that transforms back into the token-tripler after you attacked with three or more creatures\n\n\nFoggy Bottom Swamp\n{B} or {G}; {4}, {T}, sacrifice: draw a card\n\n\nMeditation Pools\n{G} or {U}; {4}, {T}, sacrifice: draw a card\n\n\nKyoshi Village\n{G} or {W}; {4}, {T}, sacrifice: draw a card\n\n\n\n\n\nCurve and mana\nFour colors from 23 lands: green is the spine (13 sources), white 8, black 5, blue 4 — the hybrid cards (Duskwatch Hunter {2}{B/G}, Mirkwood Nurturer {2}{G/U}) and the triple ETB-tapped duals smooth the early turns, and rainbow fixing is not needed at this curve. The deck is creature-dense (31 creatures) with 18 cards at mana value 2; Bushwhack and Outcaster Trailblazer provide light ramp toward the 5–6 mana finishers. Mulligan aggressively toward green sources and a two-drop."
-  },
-  {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
-    "title": "Mirkwood Menagerie",
-    "section": "Gameplay strategy",
-    "text": "Gameplay strategy\n\nEarly game\nTurn 1 Nasty Little Rabbit, turn 2 any two-drop. Prefer Guardian of the Halls and Ravening Warg — they win the ground while Duskwatch Hunter’s counter and token-evasion apply pressure. Enduring Innocence on turn 3 turns every subsequent small creature into a card. The duals enter tapped, so sequence basics first on turns 1–2.\n\n\nMid game\nEstablish ferocious: Ordinary Bear or a {5}{G}{G} pump on Guardian of the Halls. From here Outcaster Trailblazer draws on every big entry, and Mirkwood Nurturer can bounce a spent creature (or an ETB-tapped land) to re-trigger entries and landfall. Elven Raft-Steerer taps the biggest blocker each landfall, letting wolves and bears through.\n\n\nThe combo turn\n\nEnduring Innocence + Outcaster Trailblazer convert every creature you cast into a card — the swarm refuels itself.\nMirkwood Nurturer bounces and replays a creature (or a land) for extra counters, draws and landfall taps.\nOjer Taq, Deepest Foundation triples every token: Esgaroth’s recruit Soldier, Castle Guard’s Hero, Royal Treatment’s Role — each token maker now makes three bodies.\nSwing with the full board: Esgaroth Garrison is huge from the creature count, Eagle of the Great Shelf anthems per attacker, Case of the Gateway Express is solved (+1/+0), and Rabbit Response gives +2/+1 and scry 2.\n\n\n\nWin condition 2 — the giant Hero\nCast Lasting Fayth from Zanarkand, Ancient Metropolis when you control a dozen or more lands: the Hero token enters with that many +1/+1 counters. Royal Treatment and Duskwatch Hunter counters stack on it. The token wins through sheer size — protect it with Royal Treatment and finish over two turns.\n\n\nWin condition 3 — the Wolf stampede\nBanner of Kinship enters naming Wolf with a fellowship counter for each Wolf you control — up to seven (three Ravening Warg, three Duskwatch Hunter, one Desolation Prowler) — turning every Wolf into a 9/9-plus threat. It is a one-card finisher that also works as a giant pump for the wolf half of the board.\n\n\nMulligan guide\n\nKeep: 2–3 lands with a green source, a two-drop, and ideally a Rabbit or Guardian.\nShip: one-landers, five-plus-land hands, and hands with double-white or double-black spells but no matching source.\nKeep Outcaster Trailblazer or Enduring Innocence hands on a playable curve — the engines beat raw stats.\nThe ETB-tapped duals slow the first two turns: an opening of three tapped duals is a mulligan.\n\n\n\nKey interactions and edge cases\n\nEnduring Innocence triggers only once per turn — time your token bursts (Esgaroth recruit, Castle Guard death) to your own turn.\nOutcaster Trailblazer draws only on power 4 or greater entries — the ferocious enablers (Ordinary Bear, Guardian pump, Refueler growth) are what turn it on.\nBanner of Kinship chooses a type at entry — name Wolf; the fellowship counter count is set when it enters, so cast it when your wolf count is highest.\nOjer Taq triples tokens, not counters — the +1/+1 counters from Duskwatch Hunter, Troll Negotiations and Refueler are unaffected (a good thing: they stack on tripled bodies).\nZanarkand is a land and a spell — cast Lasting Fayth from hand, then play Zanarkand from exile later; the land face enters tapped.\nOjer Taq’s death returns it transformed as Temple of Civilization, a land; {2}{W}, {T} transforms it back after attacking with three or more creatures — the win condition loops itself.\nLiminal Hold exiles until it leaves — it handles any nonland permanent, including enchantments and artifacts.\nMirkwood Nurturer can bounce a land — replay it for an extra landfall trigger (Raft-Steerer tap-down).\nCase of the Gateway Express solves at your end step after three or more creatures attacked — the +1/+0 is permanent once solved.\n\n\n\nMatchups\n\nAggro: Ravening Warg deathtouch and Raft-Steerer landfall taps hold the ground; Great Fierce Bee and Velvetwing Butterflies block flyers; Liminal Hold exiles the biggest threat.\nMidrange: Outcaster Trailblazer’s card advantage out-draws them; Troll Negotiations and Bushwhack fights trade up; Banner of Kinship and Ojer Taq outclass their top end.\nControl: Enduring Innocence and Trailblazer refill after sweepers; Royal Treatment protects Ojer Taq; Zanarkand’s giant Hero token is a single-card clock they can’t answer cheaply."
-  },
-  {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
-    "title": "Mirkwood Menagerie",
-    "section": "Deck list (Arena import)",
-    "text": "Deck list (Arena import)\n7 Forest\n4 Nasty Little Rabbit\n4 Plains\n3 Duskwatch Hunter\n3 Guardian of the Halls\n3 Ravening Warg\n2 Enduring Innocence\n2 Esgaroth Garrison\n2 Foggy Bottom Swamp\n2 Island\n2 Kyoshi Village\n2 Meditation Pools\n2 Outcaster Trailblazer\n2 Swamp\n2 Zanarkand, Ancient Metropolis\n1 Banner of Kinship\n1 Bushwhack\n1 Case of the Gateway Express\n1 Desolation Prowler\n1 Dwarven Castle Guard\n1 Eagle of the Great Shelf\n1 Elven Raft-Steerer\n1 Elvish Refueler\n1 Great Fierce Bee\n1 Liminal Hold\n1 Little Bear\n1 Mirkwood Nurturer\n1 Ojer Taq, Deepest Foundation\n1 Ordinary Bear\n1 Rabbit Response\n1 Royal Treatment\n1 Troll Negotiations\n1 Velvetwing Butterflies"
   },
   {
     "objectID": "decks/2026-08-20-the-rewritten-stampede.html",

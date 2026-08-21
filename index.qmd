@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-08-21**:
 
 - **[Mirkwood Menagerie](decks/2026-08-21-mirkwood-menagerie.html)** — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo  `hobbit` `elves`
+- **[Kindle the Archive](decks/2026-08-21-kindle-the-archive.html)** — Five-color Vivid × Firebending × Surveil — flashback burn  `combo` `vivid` `firebending` `surveil`

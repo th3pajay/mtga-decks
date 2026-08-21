@@ -1,7 +1,7 @@
 ---
 title: "Kindle the Archive"
 subtitle: "Five-color Vivid × Firebending × Surveil — flashback burn"
-date: "21 August 2026"
+date: "2026-08-21"
 categories: ["combo", "vivid", "firebending", "surveil"]
 ---
 
