@@ -1,0 +1,150 @@
+---
+title: "Spiderweb Landslide"
+subtitle: "WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo"
+date: "2026-08-22"
+categories: ["hobbit", "elves"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (all 60 cards verified legal via MTGADB PROD) |
+| Colors | White, Blue, Black, Red, Green (5-color WUBRG) |
+| Archetype | Hobbit landfall combo — spider voltron + dragon-doubled landfall burn |
+| Size | 60 cards (4 Hobbit, 12 support, 21 lands + 23 total lands) |
+| Primary win | Landfall burn: Spitfire Lagac pings doubled by Twinflame Tyrant, chained by land loops |
+| Secondary win | Voltron Old Fat Spider: aura-stacked flyer, damage doubled by Twinflame Tyrant |
+
+The Hobbit set releases on Arena **2026-08-14** — every Hobbit card in this list has an empty `arena_id` until that date, so the import list works from release day.
+
+## Overview
+
+Spiderweb Landslide is the tenth dedicated daily Hobbit combo deck. Nine earlier builds claimed the set's headline engines — the goblin amass raid, the dwarven companies, the elvenking's court, Smaug's hoard, the wilderland pack, the Lake-town recruits, the mountain musicians, the crooked thieves and the Mirkwood menagerie — leaving exactly four Hobbit cards unused, and this deck plays all four of them: **Old Fat Spider**, **Mirkwood Meditator**, **Eagle's Rescue** and **Front Porch Sentries**. The remaining usable Hobbit pool is only four cards, so the deck is fused around the mechanic those leftovers share — **Landfall** — and filled with Standard support that turns that mechanic into a burn combo.
+
+The engine is a chain of landfall triggers. Mirkwood Meditator swings as a 4/2 every time a land enters; Spitfire Lagac pings each opponent for 1; Tatyova, Benthic Druid turns every land drop into a card; Genemorph Imago turns any creature into a 6/6; Felidar Retreat makes cats or anthems. Springbloom Druid and Arid Archway generate extra land drops per turn, and Twinflame Tyrant doubles every point of damage the engine produces. The second, fully independent win is voltron: Old Fat Spider — a 6/7 with reach that can't be blocked by power 2 or less and draws a card whenever an opponent targets it — carries Eagle's Rescue, With Great Power . . ., Ethereal Armor, Angelic Destiny and friends into a flying, first-strike, hexproof kill, again doubled by the Tyrant.
+
+## Approach
+
+### Game plan by phase
+
+1. **Spin the web (turns 1–3).** Ethereal Armor, Fae Flight or Fungal Fortitude on turn 1–2; Mirkwood Meditator (2/4) or Front Porch Sentries on turn 2; Genemorph Imago or Springbloom Druid on turn 3. Springbloom Druid ramps and double-triggers landfall immediately (sacrifice a land, put two basics in tapped).
+2. **Catch the draft (turns 3–5).** Spitfire Lagac on turn 4 turns every land drop into damage; Tatyova, Benthic Druid turns every land drop into a card; Felidar Retreat turns land drops into cats or counters. Arid Archway loops a land back to hand for a bonus trigger each turn.
+3. **Landslide (turns 5+).** Twinflame Tyrant doubles everything. Each land drop now pings for 2; each cat token hits for 4; Old Fat Spider attacks for 24+. Niv-Mizzet, Visionary turns every ping into a card so the loop keeps finding lands.
+
+### Card roles
+
+| Card | Role | Key text (verified) |
+|---|---|---|
+| Old Fat Spider | Win con 2 | 6/7 reach; can't be blocked by power ≤2; draw a card whenever an opponent targets it |
+| Mirkwood Meditator | Landfall beater | Landfall: may become 4/2 until end of turn; the 2/4 body holds the ground early |
+| Eagle's Rescue | Voltron aura | +2/+2 flying; {2}{W/U}{W/U}: recur from graveyard onto a creature you control with power 1 or less (Springbloom Druid) |
+| Front Porch Sentries | Blocker-shrinker | When it dies, target creature an opponent controls gets -1/-1 — shrinks blockers under the Spider's "power 2 or less" evasion |
+| Spitfire Lagac | Win con 1 | Landfall: deals 1 damage to each opponent |
+| Twinflame Tyrant | Damage doubler | If a source you control would deal damage to an opponent or their permanent, it deals double instead |
+| Niv-Mizzet, Visionary | Draw engine | Whenever a source you control deals noncombat damage to an opponent, draw that many cards |
+| Tatyova, Benthic Druid | Draw engine | Landfall: gain 1 life and draw a card |
+| Genemorph Imago | Combo enabler | Landfall: target creature has base P/T 3/3; 6/6 if you control six or more lands |
+| Springbloom Druid | Ramp + double trigger | ETB: sacrifice a land, search for up to two basic lands (two landfall triggers); 1/1, so Eagle's Rescue recurs onto it |
+| Felidar Retreat | Token/anthem landfall | Landfall: 2/2 Cat Beast token, or +1/+1 counters + vigilance on your team |
+| With Great Power . . . | Voltron core | +2/+2 for each Aura and Equipment attached; all damage to you is redirected to it |
+| Ethereal Armor | Pump | +1/+1 for each enchantment you control; first strike |
+| Angelic Destiny | Pump + recursion | +4/+4 flying first strike; returns to hand when enchanted creature dies |
+| Fungal Fortitude | Protection | Flash; +2/+0; when enchanted creature dies, return it to the battlefield tapped |
+| Fae Flight | Protection | Flash; on entry, hexproof until end of turn; +1/+0 flying |
+
+### Lands as engines
+
+| Land | Engine |
+|---|---|
+| Maelstrom of the Spirit Dragon | The deck's land win condition: {4}, {T}, sacrifice — search your library for a Dragon card (Twinflame Tyrant, Niv-Mizzet, Visionary) and put it into your hand; its colored mana also casts Dragon spells |
+| Arid Archway | The loop land: enters, returns a land you control to hand, then add {C}{C} — replay that land for an extra landfall trigger every turn |
+| Lakeside Shack / Pym Technologies | {G} or {U} fixing that enters tapped (Lakeside untapped once a player is at 13 or less life) |
+| Birnin Zana Plaza / Foot Headquarters / Illegitimate Business | {G}{W} / {W}{B} / {B}{G} fixing with a life-gain entry |
+| Asgardian Citadel / Dimension X | {R} or {W} fixing — the red sources that cast Lagac and the Tyrant |
+
+### Curve and mana
+
+Five colors from 23 lands: green is the spine (10 sources), white 8 (counting the RW duals), blue 6, red 4, black 3 — red's dragon spells are also payable off Maelstrom's colored mana. The deck is 23 creatures, 14 auras/enchantments, 23 lands. The curve tops at Old Fat Spider and Niv-Mizzet, Visionary (mana value 6), smoothed by Springbloom Druid's ramp and Tatyova's landfall draw. ETB-tapped duals dominate, so sequence basics early; mulligan toward a green source and a two-drop.
+
+## Gameplay strategy
+
+### Early game
+
+Mirkwood Meditator on turn 2 is the ideal start — a 2/4 that blocks everything in the format's early game and becomes a 4/2 on your first landfall. Front Porch Sentries trades and shrinks a blocker on the way out. Ethereal Armor on the Meditator makes a 3/4 first-striker that only grows. Play your basics first; the tapped duals enter on later turns when the tempo cost is smaller.
+
+### Mid game
+
+Resolve landfall engines in order: Spitfire Lagac (damage), then Tatyova (cards), then Felidar Retreat (board). Each land drop from here on produces damage, a card, and a body simultaneously. Arid Archway adds a free extra trigger every turn: let it bounce a basic, then replay the basic. Genemorph Imago turns the 1/1 Springbloom Druid or a cat token into a 6/6 to attack through.
+
+### The combo turn
+
+1. **Board:** Spitfire Lagac + Twinflame Tyrant (+ Niv-Mizzet, Visionary ideally).
+2. **Chain:** play Springbloom Druid — sacrifice a land, two basics enter, two landfall triggers: 4 damage (doubled), two cards from Niv, two life from Tatyova.
+3. **Loop:** Arid Archway enters, bounces a land, {C}{C}; replay the land: another 2 damage, another card.
+4. **Convert:** every card Niv draws is another chance to find lands; Genemorph makes a 6/6; Felidar Retreat's cats are 2/2s that hit for 4 with the Tyrant. A six-land turn ends the game.
+
+### Win condition 2 — the giant Spider
+
+Suit up Old Fat Spider: Eagle's Rescue (+2/+2 flying), With Great Power . . . (+2/+2 per aura), Ethereal Armor (+1/+1 per enchantment, first strike), Angelic Destiny (+4/+4 flying first strike), Fae Flight (hexproof on entry), Fungal Fortitude (recurrence). At five auras the Spider attacks as a 16/17 flying first-striker; Twinflame Tyrant doubles the damage to 32. Its own text makes it a nightmare to answer: it can't be blocked by power 2 or less, and any opponent spell or ability that targets it draws you a card. With Great Power . . . also redirects all damage to it, and Angelic Destiny + Eagle's Rescue + Fungal Fortitude recur the whole package from the graveyard.
+
+### Mulligan guide
+
+- Keep: 2–3 lands including a green source, a two-drop, and ideally Mirkwood Meditator or Springbloom Druid.
+- Ship: one-landers, six-land hands, and hands with the double-red Tyrant or double-white Angelic Destiny but no matching source.
+- Prefer hands with an engine (Lagac, Tatyova, Felidar Retreat) on a playable curve.
+- An opening of three ETB-tapped duals is a mulligan — you need basics early.
+
+### Key interactions and edge cases
+
+- **Twinflame Tyrant doubles damage from any source you control** — landfall pings, cat-token triggers, and Old Fat Spider's combat damage all double. It does not double life loss.
+- **Genemorph Imago sets base P/T**, so it overrides Mirkwood Meditator's 4/2 landfall option — target the Meditator only when you want 6/6, and don't expect the 4/2 to stick.
+- **Eagle's Rescue recurs onto power 1 or less creatures** — the natural target is Springbloom Druid (1/1), giving you a 3/3 flying ramp druid.
+- **Fungal Fortitude returns the creature tapped** — the Spider comes back tapped, so activate it before combat or accept the delay; the aura stays attached.
+- **Fae Flight's hexproof is until end of turn** — cast it in response to removal, not preemptively.
+- **Angelic Destiny returns to hand, not the battlefield** — when the Spider dies, the Destiny goes back to hand while Fungal Fortitude brings the Spider back; both layers of protection work together.
+- **Arid Archway's bounce is mandatory** — always bounce a basic you can replay; if you bounced a Desert (Arid Archway itself or another), you surveil 1.
+- **Maelstrom's colored mana only casts Dragon or Omen spells** — use it for Twinflame Tyrant and Niv-Mizzet, Visionary; don't hold it for Lagac.
+- **Niv-Mizzet, Visionary draws per point of noncombat damage** — a doubled 2-damage ping draws 2 cards; the draw triggers after the damage resolves.
+
+### Matchups
+
+- **Aggro**: Meditator's 2/4 and the Sentries' death-shrink hold the ground; Ethereal Armor turns any blocker into a first-strike wall; Tatyova's life-gain and the life-gain duals buy the turn needed for the combo.
+- **Midrange**: the landfall engine out-values them — every land drop is damage, cards and bodies; Genemorph 6/6s and cat tokens go wide; the auras make the Spider bigger than anything they deploy.
+- **Control**: Niv-Mizzet and Tatyova refill after sweepers; Fae Flight and Fungal Fortitude blank spot removal; the Spider draws a card per targeting, so removal is a losing trade; the landfall burn kills through a clear board since lands can't be countered.
+
+## Deck list (Arena import)
+
+```
+4 Mirkwood Meditator
+3 Forest
+3 Genemorph Imago
+3 Old Fat Spider
+3 Spitfire Lagac
+3 Springbloom Druid
+2 Angelic Destiny
+2 Arid Archway
+2 Asgardian Citadel
+2 Birnin Zana Plaza
+2 Eagle's Rescue
+2 Ethereal Armor
+2 Fae Flight
+2 Felidar Retreat
+2 Front Porch Sentries
+2 Fungal Fortitude
+2 Island
+2 Lakeside Shack
+2 Plains
+2 Pym Technologies
+2 Tatyova, Benthic Druid
+2 Twinflame Tyrant
+2 With Great Power . . .
+1 Dimension X
+1 Foot Headquarters
+1 Illegitimate Business
+1 Maelstrom of the Spirit Dragon
+1 Mountain
+1 Niv-Mizzet, Visionary
+1 Swamp
+```

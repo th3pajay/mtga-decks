@@ -2,10 +2,11 @@
 title: "Archive"
 ---
 
-**5 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**6 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-08-22
 
+- **[Spiderweb Landslide](decks/2026-08-22-spiderweb-landslide.html)** — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo  `hobbit` `elves`
 - **[Fertile Chorus](decks/2026-08-22-fertile-chorus.html)** — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells  `combo` `renew` `convoke`
 
 ## 2026-08-21
