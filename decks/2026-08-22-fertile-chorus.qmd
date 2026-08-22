@@ -1,0 +1,155 @@
+---
+title: "Fertile Chorus"
+subtitle: "Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells"
+date: "2026-08-22"
+categories: ["combo", "renew", "convoke"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Sultai — black / green / blue |
+| Archetype | Graveyard midrange combo |
+| Size | 60 cards, 21 lands |
+| Primary win | Renew-pumped evasive beatdown: one giant trample/flying creature, then Naga Fleshcrafter copies it across the board |
+| Secondary win | Singularity Rupture mills half the opponent's library, then Bloodline Bidding reanimates every Snake |
+| Lands as win con | Midgar's Reactor Raid draws cards and stocks the yard; Tarrian's Journal transforms into the Tomb of Aclazotz, a land that casts creatures from the graveyard |
+| Nonland curve | 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights (convoke discounts the top end) |
+
+# Overview
+
+Fertile Chorus fuses the two halves of a single idea: **Renew** (Tarkir) grows creatures out of the graveyard, and **Convoke** (Lorwyn Eclipsed and friends) spends creatures to cast spells for almost nothing. The deck mills aggressively, turns its own graveyard into +1/+1 counters and keyword counters, then taps the untapped members of the choir to Convoke out spells that cost 8 mana for two or three.
+
+The engine loop:
+
+1. **Mill.** `Lasyd Prowler` mills one card per land you control; `Midnight Tilling` mills four and grabs a permanent; `Midgar, City of Mako`'s adventure `Reactor Raid` sacrifices a spent creature to draw two (the sacrificed creature lands in the yard); creatures that die in combat join the pile.
+2. **Renew.** Any creature can be sacrificed from the graveyard for a sorcery-speed pump: `Sage of the Fang` adds a counter and doubles them, `Qarsi Revenant` grants flying, lifelink and deathtouch, `Champion of Dusan` grants trample. `Kheru Goldkeeper` turns every card that leaves the graveyard (every Renew activation!) into a Treasure token — the deck literally pays for itself.
+3. **Convoke.** With a board full of creatures, cast `Web of Life and Destiny` (free creature at the start of *every* combat), `Bloodline Bidding` (return every Snake from the graveyard), and `Vote Out` (destroy a creature) for pocket change.
+
+The deck wins by making one creature enormous and then making *everything* a copy of it — or by wiping the board and milling the opponent out, then reanimating the Snakes to finish.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Fill the well (turns 1–4):** play two-drops, mill with Lasyd Prowler and Midnight Tilling, trade creatures into the yard, and use Reactor Raid to convert a spent body into two cards. Every card in the graveyard is a future counter.
+2. **Grow the choir (turns 4–6):** activate Renew abilities at sorcery speed — double counters with Sage of the Fang, add flying and lifelink with Qarsi Revenant, trample with Champion of Dusan — while Kheru Goldkeeper banks Treasures for every activation.
+3. **Sing (turn 6+):** Convoke out Web of Life and Destiny for a free creature every combat, Bloodline Bidding for a full Snake board, or Singularity Rupture to wipe and mill. Swing with a flying, lifelinking, trampling monster and its Naga Fleshcrafter copies.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Lasyd Prowler | 4 | Engine — mills lands-count on entry; Renew puts X counters (X = land cards in yard) |
+| Sage of the Fang | 4 | Engine — Renew doubles all counters on a creature; the choir's amplifier |
+| Qarsi Revenant | 4 | Payoff — 3/2 flying deathtouch lifelink; Renew grants all three keyword counters |
+| Champion of Dusan | 4 | Payoff — trample body; Renew grants +1/+1 and a trample counter |
+| Naga Fleshcrafter | 3 | Finisher — enters as a copy; Renew turns the whole board into copies of your giant |
+| Kheru Goldkeeper | 2 | Ramp — Treasure per card leaving your graveyard; flying + Renew counters |
+| Constrictor Sage | 2 | Interaction — taps and stuns on entry and via Renew; a Snake for Bidding |
+| Disruptor of Currents | 2 | Interaction — flash Convoke body that bounces a nonland permanent; a Merfolk for Farewell-style payoffs |
+| Omni-Changeling | 2 | Enabler — Convoke clone that is every creature type (every Bidding choice) |
+| Web of Life and Destiny | 2 | Win con — Convoke enchantment: free creature from the top five every combat |
+| Bloodline Bidding | 2 | Win con — Convoke reanimation: return every creature card of a chosen type (Snakes) |
+| Singularity Rupture | 1 | Win con 2 — board wipe plus "mill half your library" for any number of players |
+| Vote Out | 3 | Removal — Convoke sorcery that destroys a creature |
+| Midnight Tilling | 2 | Fuel — one mana: mill four, return a permanent among them to hand |
+| Tarrian's Journal | 2 | Engine land-in-waiting — sac a creature to draw; transforms into the Tomb |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Treno, Dark City | Tapped U/B source; the fixing backbone |
+| Mutant Town | Tapped G/U source; gains 1 life on entry — cheap insurance vs aggro |
+| Gongaga, Reactor Town | Tapped R/G source; green for the two-drop army |
+| Omashu City | Tapped R/G source with a built-in "sacrifice: draw a card" — a mini Fountainport |
+| Midgar, City of Mako | Taps for black; its adventure Reactor Raid (2B, sorcery) sacrifices an artifact or creature to draw two — a land that turns spent creatures into cards and fills the yard |
+| Tarrian's Journal // The Tomb of Aclazotz | The land that wins: transform the Journal (2, tap, discard your hand) into a Cave land whose tap ability lets you **cast creature spells from your graveyard** — every Renew creature becomes castable forever |
+
+## Curve and mana
+
+21 lands: 3 Treno (U/B), 3 Mutant Town (G/U), 2 Gongaga (R/G), 2 Omashu City (R/G), 2 Midgar (B), plus 4 Forest, 3 Swamp, 2 Island. Green is the critical early color (twelve green two- and three-drops), so fetch and play green first; black comes second for Qarsi Revenant and Vote Out; blue arrives with Naga Fleshcrafter and the Convoke payoffs. Starting hands want two lands including a green source.
+
+The nonland curve is 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights. The eights are the point: Convoke discounts them by one per creature tapped, so by turn five or six `Web of Life and Destiny` costs about {2}{G} and `Bloodline Bidding` about {B}{B}.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+- Turn 2: Champion of Dusan, Sage of the Fang, or Midnight Tilling (mill four, keep a permanent). Prefer the creature against aggressive decks.
+- Turn 3: Qarsi Revenant (3/2 flying deathtouch lifelink holds the sky) or a second two-drop. Keep the ground stalled with trample bodies.
+- Do not be afraid to trade — every creature that dies is Renew fuel. A dead Champion is worth a trample counter on the survivor.
+
+## Mid game (turns 4–6)
+
+- Attack with Lasyd Prowler once to mill; then use its Renew ({1}{G}, sorcery) to put X +1/+1 counters on a creature, where X is the land count in the yard. By turn six that is usually 3–5 counters.
+- The big sequence: Renew Sage of the Fang ({3}{G}) — put a counter, then double. Repeat with a second Sage in the yard to quadruple. Stack Qarsi Revenant's flying/lifelink/deathtouch counters and Champion of Dusan's trample counter on the same creature.
+- Kheru Goldkeeper's Treasure triggers fire on every Renew activation — spend them on the next activation or on a Convoke spell.
+- Cast Vote Out for removal; Disruptor of Currents at flash speed to bounce a blocker or a problem permanent.
+
+## The combo turn
+
+1. Build the monster: Sage of the Fang doubling, Qarsi Revenant counters, Champion of Dusan trample — one creature with 10+ power, flying, lifelink, deathtouch, trample.
+2. Cast Naga Fleshcrafter (or use its Renew from the yard: {2}{U}, sorcery) — "each other creature you control becomes a copy of that creature until end of turn." Your 2/2s and 3/3s are now a board of 10/10 flying lifelinkers.
+3. Cast Web of Life and Destiny for {2}{G} or so (Convoke with whatever did not attack). From now on, every combat starts with a free creature from your top five.
+4. Swing with the whole choir. If blocked, Reactor Raid or Tarrian's Journal turns a dead body into cards, and the Tomb of Aclazotz casts the next creature from the graveyard.
+
+## Win condition 2: the rupture
+
+`Singularity Rupture` ({3}{U}{B}{B}) destroys all creatures and then has any number of target players mill half their library, rounded down. Two casts from a 60-card deck remove 45 cards; with the natural mill from Lasyd Prowler and Midnight Tilling, the opponent's library dies before their life total. The wipe also dumps your own creatures into the yard — where `Bloodline Bidding` (Convoke, choose Snake) returns Lasyd Prowler, Naga Fleshcrafter, Constrictor Sage and Omni-Changeling all at once for an immediate board.
+
+## Mulligan guide
+
+- **Keep:** two-plus lands including green, a two-drop, and either a mill source (Lasyd Prowler, Midnight Tilling) or a Renew creature.
+- **Trim:** five-plus land hands, all-one-color hands, and hands whose only plays are 5+ mana cards.
+- The deck mulligans well: the graveyard smooths draws, and Midnight Tilling finds whatever the mill reveals.
+
+## Key interactions and edge cases
+
+- **Renew exiles from the graveyard** — it is a sorcery-speed activation, so plan it on your turn; it also shrinks the yard, which matters only for Lasyd Prowler's Renew count (land cards only — lands stay).
+- **Kheru Goldkeeper counts every card that leaves** — one Renew activation exiles one card and creates one Treasure; two cards leaving creates two Treasures.
+- **Bloodline Bidding's type choice**: Snakes cover Lasyd Prowler, Naga Fleshcrafter and Constrictor Sage; Omni-Changeling is every type, so any choice works.
+- **The Tomb of Aclazotz** casts creatures from the graveyard with a finality counter — they exile on death instead of returning, so use the Tomb for pressure, not for fuel.
+- **Singularity Rupture hits your own board** — that is the point: the wipe refills the yard for Bidding.
+- **Web of Life and Destiny at combat** — the free creature enters at the beginning of combat, so it cannot attack that turn but is untapped Convoke fuel for the next spell.
+- **Reactor Raid needs a sacrifice to draw** — sacrifice a tapped attacker after combat, or an artifact, to keep the yard stocked.
+
+## Matchups
+
+- **Aggro:** Mutant Town's life gain and Qarsi Revenant's lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb's graveyard casting out-values any topdeck war.
+- **Control:** the deck's threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.
+- **Graveyard hate:** hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all.
+
+# Deck list (Arena import)
+
+```
+Fertile Chorus
+Deck
+4 Champion of Dusan
+4 Lasyd Prowler
+4 Qarsi Revenant
+4 Sage of the Fang
+3 Naga Fleshcrafter
+2 Constrictor Sage
+2 Disruptor of Currents
+2 Kheru Goldkeeper
+2 Omni-Changeling
+2 Bloodline Bidding
+2 Midnight Tilling
+1 Singularity Rupture
+2 Tarrian's Journal
+2 Web of Life and Destiny
+3 Vote Out
+3 Treno, Dark City
+3 Mutant Town
+2 Gongaga, Reactor Town
+2 Omashu City
+2 Midgar, City of Mako
+4 Forest
+3 Swamp
+2 Island
+```

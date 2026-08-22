@@ -2,7 +2,11 @@
 title: "Archive"
 ---
 
-**4 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**5 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-08-22
+
+- **[Fertile Chorus](decks/2026-08-22-fertile-chorus.html)** — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells  `combo` `renew` `convoke`
 
 ## 2026-08-21
 

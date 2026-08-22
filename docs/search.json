@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-21:\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+    "text": "Deck guides published 2026-08-22:\n\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
   },
   {
     "objectID": "decks/2026-08-21-mirkwood-menagerie.html",
@@ -137,21 +137,112 @@
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "4 deck guides — newest first. Every daily deck keeps its own permanent page."
+    "text": "5 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
     "objectID": "archive.html#section",
     "href": "archive.html#section",
     "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
   },
   {
     "objectID": "archive.html#section-1",
     "href": "archive.html#section-1",
     "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
     "section": "2026-08-20",
     "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html",
+    "href": "decks/2026-08-22-fertile-chorus.html",
+    "title": "Fertile Chorus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nSultai — black / green / blue\n\n\nArchetype\nGraveyard midrange combo\n\n\nSize\n60 cards, 21 lands\n\n\nPrimary win\nRenew-pumped evasive beatdown: one giant trample/flying creature, then Naga Fleshcrafter copies it across the board\n\n\nSecondary win\nSingularity Rupture mills half the opponent’s library, then Bloodline Bidding reanimates every Snake\n\n\nLands as win con\nMidgar’s Reactor Raid draws cards and stocks the yard; Tarrian’s Journal transforms into the Tomb of Aclazotz, a land that casts creatures from the graveyard\n\n\nNonland curve\n4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights (convoke discounts the top end)"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
+    "title": "Fertile Chorus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nFill the well (turns 1–4): play two-drops, mill with Lasyd Prowler and Midnight Tilling, trade creatures into the yard, and use Reactor Raid to convert a spent body into two cards. Every card in the graveyard is a future counter.\nGrow the choir (turns 4–6): activate Renew abilities at sorcery speed — double counters with Sage of the Fang, add flying and lifelink with Qarsi Revenant, trample with Champion of Dusan — while Kheru Goldkeeper banks Treasures for every activation.\nSing (turn 6+): Convoke out Web of Life and Destiny for a free creature every combat, Bloodline Bidding for a full Snake board, or Singularity Rupture to wipe and mill. Swing with a flying, lifelinking, trampling monster and its Naga Fleshcrafter copies."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#card-roles",
+    "href": "decks/2026-08-22-fertile-chorus.html#card-roles",
+    "title": "Fertile Chorus",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nLasyd Prowler\n4\nEngine — mills lands-count on entry; Renew puts X counters (X = land cards in yard)\n\n\nSage of the Fang\n4\nEngine — Renew doubles all counters on a creature; the choir’s amplifier\n\n\nQarsi Revenant\n4\nPayoff — 3/2 flying deathtouch lifelink; Renew grants all three keyword counters\n\n\nChampion of Dusan\n4\nPayoff — trample body; Renew grants +1/+1 and a trample counter\n\n\nNaga Fleshcrafter\n3\nFinisher — enters as a copy; Renew turns the whole board into copies of your giant\n\n\nKheru Goldkeeper\n2\nRamp — Treasure per card leaving your graveyard; flying + Renew counters\n\n\nConstrictor Sage\n2\nInteraction — taps and stuns on entry and via Renew; a Snake for Bidding\n\n\nDisruptor of Currents\n2\nInteraction — flash Convoke body that bounces a nonland permanent; a Merfolk for Farewell-style payoffs\n\n\nOmni-Changeling\n2\nEnabler — Convoke clone that is every creature type (every Bidding choice)\n\n\nWeb of Life and Destiny\n2\nWin con — Convoke enchantment: free creature from the top five every combat\n\n\nBloodline Bidding\n2\nWin con — Convoke reanimation: return every creature card of a chosen type (Snakes)\n\n\nSingularity Rupture\n1\nWin con 2 — board wipe plus “mill half your library” for any number of players\n\n\nVote Out\n3\nRemoval — Convoke sorcery that destroys a creature\n\n\nMidnight Tilling\n2\nFuel — one mana: mill four, return a permanent among them to hand\n\n\nTarrian’s Journal\n2\nEngine land-in-waiting — sac a creature to draw; transforms into the Tomb"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
+    "href": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
+    "title": "Fertile Chorus",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTreno, Dark City\nTapped U/B source; the fixing backbone\n\n\nMutant Town\nTapped G/U source; gains 1 life on entry — cheap insurance vs aggro\n\n\nGongaga, Reactor Town\nTapped R/G source; green for the two-drop army\n\n\nOmashu City\nTapped R/G source with a built-in “sacrifice: draw a card” — a mini Fountainport\n\n\nMidgar, City of Mako\nTaps for black; its adventure Reactor Raid (2B, sorcery) sacrifices an artifact or creature to draw two — a land that turns spent creatures into cards and fills the yard\n\n\nTarrian’s Journal // The Tomb of Aclazotz\nThe land that wins: transform the Journal (2, tap, discard your hand) into a Cave land whose tap ability lets you cast creature spells from your graveyard — every Renew creature becomes castable forever"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
+    "href": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
+    "title": "Fertile Chorus",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n21 lands: 3 Treno (U/B), 3 Mutant Town (G/U), 2 Gongaga (R/G), 2 Omashu City (R/G), 2 Midgar (B), plus 4 Forest, 3 Swamp, 2 Island. Green is the critical early color (twelve green two- and three-drops), so fetch and play green first; black comes second for Qarsi Revenant and Vote Out; blue arrives with Naga Fleshcrafter and the Convoke payoffs. Starting hands want two lands including a green source.\nThe nonland curve is 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights. The eights are the point: Convoke discounts them by one per creature tapped, so by turn five or six Web of Life and Destiny costs about {2}{G} and Bloodline Bidding about {B}{B}."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
+    "href": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
+    "title": "Fertile Chorus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 2: Champion of Dusan, Sage of the Fang, or Midnight Tilling (mill four, keep a permanent). Prefer the creature against aggressive decks.\nTurn 3: Qarsi Revenant (3/2 flying deathtouch lifelink holds the sky) or a second two-drop. Keep the ground stalled with trample bodies.\nDo not be afraid to trade — every creature that dies is Renew fuel. A dead Champion is worth a trample counter on the survivor."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
+    "href": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
+    "title": "Fertile Chorus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nAttack with Lasyd Prowler once to mill; then use its Renew ({1}{G}, sorcery) to put X +1/+1 counters on a creature, where X is the land count in the yard. By turn six that is usually 3–5 counters.\nThe big sequence: Renew Sage of the Fang ({3}{G}) — put a counter, then double. Repeat with a second Sage in the yard to quadruple. Stack Qarsi Revenant’s flying/lifelink/deathtouch counters and Champion of Dusan’s trample counter on the same creature.\nKheru Goldkeeper’s Treasure triggers fire on every Renew activation — spend them on the next activation or on a Convoke spell.\nCast Vote Out for removal; Disruptor of Currents at flash speed to bounce a blocker or a problem permanent."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
+    "href": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
+    "title": "Fertile Chorus",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nBuild the monster: Sage of the Fang doubling, Qarsi Revenant counters, Champion of Dusan trample — one creature with 10+ power, flying, lifelink, deathtouch, trample.\nCast Naga Fleshcrafter (or use its Renew from the yard: {2}{U}, sorcery) — “each other creature you control becomes a copy of that creature until end of turn.” Your 2/2s and 3/3s are now a board of 10/10 flying lifelinkers.\nCast Web of Life and Destiny for {2}{G} or so (Convoke with whatever did not attack). From now on, every combat starts with a free creature from your top five.\nSwing with the whole choir. If blocked, Reactor Raid or Tarrian’s Journal turns a dead body into cards, and the Tomb of Aclazotz casts the next creature from the graveyard."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
+    "href": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
+    "title": "Fertile Chorus",
+    "section": "Win condition 2: the rupture",
+    "text": "Win condition 2: the rupture\nSingularity Rupture ({3}{U}{B}{B}) destroys all creatures and then has any number of target players mill half their library, rounded down. Two casts from a 60-card deck remove 45 cards; with the natural mill from Lasyd Prowler and Midnight Tilling, the opponent’s library dies before their life total. The wipe also dumps your own creatures into the yard — where Bloodline Bidding (Convoke, choose Snake) returns Lasyd Prowler, Naga Fleshcrafter, Constrictor Sage and Omni-Changeling all at once for an immediate board."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
+    "href": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
+    "title": "Fertile Chorus",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: two-plus lands including green, a two-drop, and either a mill source (Lasyd Prowler, Midnight Tilling) or a Renew creature.\nTrim: five-plus land hands, all-one-color hands, and hands whose only plays are 5+ mana cards.\nThe deck mulligans well: the graveyard smooths draws, and Midnight Tilling finds whatever the mill reveals."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
+    "title": "Fertile Chorus",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nRenew exiles from the graveyard — it is a sorcery-speed activation, so plan it on your turn; it also shrinks the yard, which matters only for Lasyd Prowler’s Renew count (land cards only — lands stay).\nKheru Goldkeeper counts every card that leaves — one Renew activation exiles one card and creates one Treasure; two cards leaving creates two Treasures.\nBloodline Bidding’s type choice: Snakes cover Lasyd Prowler, Naga Fleshcrafter and Constrictor Sage; Omni-Changeling is every type, so any choice works.\nThe Tomb of Aclazotz casts creatures from the graveyard with a finality counter — they exile on death instead of returning, so use the Tomb for pressure, not for fuel.\nSingularity Rupture hits your own board — that is the point: the wipe refills the yard for Bidding.\nWeb of Life and Destiny at combat — the free creature enters at the beginning of combat, so it cannot attack that turn but is untapped Convoke fuel for the next spell.\nReactor Raid needs a sacrifice to draw — sacrifice a tapped attacker after combat, or an artifact, to keep the yard stocked."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#matchups",
+    "href": "decks/2026-08-22-fertile-chorus.html#matchups",
+    "title": "Fertile Chorus",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
   },
   {
     "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",
