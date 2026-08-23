@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-08-22**:
+Deck guides published **2026-08-23**:
 
-- **[Spiderweb Landslide](decks/2026-08-22-spiderweb-landslide.html)** — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo  `hobbit` `elves`
-- **[Fertile Chorus](decks/2026-08-22-fertile-chorus.html)** — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells  `combo` `renew` `convoke`
+- **[Death by Committee](decks/2026-08-23-death-by-committee.html)** — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo  `combo` `sacrifice` `teamwork`

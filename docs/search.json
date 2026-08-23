@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-22:\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+    "text": "Deck guides published 2026-08-23:\n\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
   },
   {
     "objectID": "decks/2026-08-20-the-rewritten-stampede.html",
@@ -49,200 +49,46 @@
     "text": "Deck list (Arena import)\nThe Rewritten Stampede\nDeck\n4 Rewrite History\n3 Political Triumph\n3 Death to Our Enemies\n4 Gilded Ghoda\n4 Seraphic Steed\n2 Drover Grizzly\n2 Bridled Bighorn\n2 Guardian Sunmare\n2 Unswerving Sloth\n1 Bounding Felidar\n2 Dracosaur Auxiliary\n2 The Wandering Rescuer\n2 Unexpected Assistance\n1 Temporal Cleansing\n1 Appeal to Eirdu\n1 Collective Inferno\n1 Harmonized Crescendo\n3 Rocky Roads\n3 Reef Roads\n2 Bucolic Ranch\n1 Adagia, Windswept Bastion\n1 Starting Town\n1 Gathering Place\n6 Plains\n2 Mountain\n2 Island\n2 Forest"
   },
   {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html",
-    "title": "Thieves of the Crooked Way",
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html",
+    "title": "Mirkwood Menagerie",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA) — The Hobbit set (hob), legal on Arena from 2026-08-14\n\n\nColors\nGrixis — black / red / blue\n\n\nArchetype\nCombo-engine: Amass Goblins recursion + opponent-graveyard theft\n\n\nSize\n60 cards, 22 lands\n\n\nPrimary win\nGiant Goblin Army — Along the Crooked Way turns every creature card leaving your graveyard into an amass counter; the Army goes unblockable with Elvenking’s Harper and lethal with Smaug’s Fury\n\n\nSecondary win\nTheft engine — Thranduil’s Decree counters and re-casts your opponent’s spells for free; Supper for Spiders steals their entire dead board as Food; Gundabad Opportunist plays off the top\n\n\nCombo linchpin\nAlong the Crooked Way — amass Goblins 1 whenever a creature card leaves your graveyard\n\n\nNonland curve\n12 twos, 14 threes, 3 fours, 4 fives, 5 sixes"
+    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
   },
   {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#game-plan-in-three-phases",
-    "title": "Thieves of the Crooked Way",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDig and disrupt (turns 1-3): Bilbo (draw a card) or Elvenking’s Harper on turn two, Crude Bent Blade to force a sacrifice, Pinecone Strike or Enchanted River’s Grasp to answer threats. Play Pit of Offerings early — its exile trigger grows the Army the moment Along the Crooked Way is online, and it fixes black/red/blue.\nTurn on the engine (turns 4-5): Along the Crooked Way on curve, then Misty Mountains Raider. Every Edgewall Inn activation, every Pit of Offerings, every adventure cast and every dying creature card that leaves the yard stacks +1/+1 counters on the Army. Gundabad Opportunist and Bilbo keep cards flowing.\nThe kill or the heist (turns 6+): make the Army unblockable with Elvenking’s Harper and smash with Smaug’s Fury (first strike, +3/+0) — or counter their finisher with Thranduil’s Decree and cast it yourself, and Supper for Spiders on their turn after a board wipe steals everything."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#card-roles",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#card-roles",
-    "title": "Thieves of the Crooked Way",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nAlong the Crooked Way\n4\nCombo engine — amass Goblins 1 per creature card leaving your graveyard; {1}{B} gives Goblins and Orcs menace; ETB recursion\n\n\nMisty Mountains Raider\n4\nArmy engine — amass 2 on every attack; a 4/4 Goblin Soldier body\n\n\nPit of Offerings\n4\nWin-con land — ETB exiles up to 3 cards from graveyards (each creature card from your yard is an amass trigger); taps for exiled colours\n\n\nEdgewall Inn\n3\nRecursion land — returns an Adventure card from your graveyard to hand (amass trigger + card advantage); taps for a chosen colour\n\n\nElvenking’s Harper\n4\nFinisher enabler — {4}{U}: target creature can’t be blocked this turn; 2/2 body\n\n\nSmaug’s Fury\n3\nLethal pump — +3/+0, first strike and reach on the Army for {1}{R}\n\n\nSupper for Spiders\n3\nTheft blowout — steal every creature that died this turn as Food; mass lifegain and board denial\n\n\nThranduil’s Decree\n3\nCounter + steal — exile any countered permanent spell and cast it without paying\n\n\nBilbo Baggins, Burglar\n3\nDraw engine — ETB draw a card; adventure Scry 2; re-buyable via Edgewall Inn\n\n\nGollum, Silent Slinker\n3\nMenace 4/3 beater; adventure puts a +1/+1 counter and gains 2 life\n\n\nCrude Bent Blade\n2\nEdict + equipment — ETB opponent sacrifices a creature; +2/+1, equip {2}\n\n\nGundabad Opportunist\n2\nImpulse draw — ETB exiles top card, playable until your next end step\n\n\nEnchanted River’s Grasp\n2\nHard removal — taps, strips counters and abilities, never untaps\n\n\nPinecone Strike\n2\nRemoval + artifact-token hate — 3 damage with exile, or destroy an artifact token\n\n\nUneasy Partings\n1\nBounce — {2}{U} against attacking nontoken creatures; tucks to top or bottom of library\n\n\nLake-town Mariners\n1\n6/5 vigilance ward 2 finisher; adventure flickers two of your creatures/lands (saves the Army)\n\n\nGandalf, Spark Starter\n1\nReach 4/3 — ETB deals 3 damage split; closes races"
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#lands-as-engines",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#lands-as-engines",
-    "title": "Thieves of the Crooked Way",
-    "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the deck\n\n\n\n\nPit of Offerings\nWin-condition land — the ETB exile trigger fires Along the Crooked Way’s amass once per creature card exiled from your own graveyard (up to 3 counters on one land drop), then fixes any colour among the exiled cards\n\n\nEdgewall Inn\nEngine land — {3}, {T}, sacrifice: return an Adventure card from your graveyard to hand, triggering amass and re-buying Bilbo, Gollum or Lake-town Mariners; taps for a colour of your choice\n\n\nBasics\n6 Swamp / 5 Island / 4 Mountain — 22 lands, 15 coloured sources plus 7 flexible sources"
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#curve-and-mana",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#curve-and-mana",
-    "title": "Thieves of the Crooked Way",
-    "section": "Curve and mana",
-    "text": "Curve and mana\n22 lands over a 38-card spell base. The deck is dense at two and three mana (26 cards) so it can interact and set up the engine before the Army takes over. Pit of Offerings is the fixing lynchpin — it reliably taps for black, red or blue once it has exiled one card of each colour, and Edgewall Inn covers the awkward third colour. The top end (Thranduil’s Decree, Gandalf, Lake-town Mariners) is deliberately thin: five six-mana cards that each end a game on their own rather than a durdle pile."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#early-game-turns-1-3",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#early-game-turns-1-3",
-    "title": "Thieves of the Crooked Way",
-    "section": "Early game (turns 1-3)",
-    "text": "Early game (turns 1-3)\nCurve Bilbo into Along the Crooked Way, or Harper into removal. Play Pit of Offerings on turn one or two even though it enters tapped — the exile trigger is an amass engine waiting to happen, and the fixing matters more than the tempo loss. Use Pinecone Strike and Enchanted River’s Grasp to keep the board clean while the Army is still 0/0. Do not trade your Army unless it saves the game — every +1/+1 counter on it is the win condition."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#mid-game-turns-4-6",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#mid-game-turns-4-6",
-    "title": "Thieves of the Crooked Way",
-    "section": "Mid game (turns 4-6)",
-    "text": "Mid game (turns 4-6)\nLand Along the Crooked Way and Misty Mountains Raider. The loop is: attack (amass 2), activate Edgewall Inn on a dead Bilbo or Gollum (amass 1 + card back), cast the adventure from hand, and watch the Army swell. Supper for Spiders shines after any board wipe or bad block — every creature that died this turn, from either side, becomes your Food. Crude Bent Blade’s forced sacrifice also feeds it."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#the-combo-turn",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#the-combo-turn",
-    "title": "Thieves of the Crooked Way",
-    "section": "The combo turn",
-    "text": "The combo turn\n\nHave Along the Crooked Way and a 4+ power Army on board (two attacks from Misty Mountains Raider plus one Pit of Offerings trigger usually suffice).\nFirst main phase: {4}{U} on Elvenking’s Harper — the Army can’t be blocked this turn.\nSmaug’s Fury on the Army: +3/+0, first strike, reach.\nAttack with an unblockable, first-striking Army for lethal. Against menace math, Along the Crooked Way’s {1}{B} also makes it require two blockers — the Harper activation is the clean kill, menace is the fallback."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#win-condition-2-the-heist",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#win-condition-2-the-heist",
-    "title": "Thieves of the Crooked Way",
-    "section": "Win condition 2 — the heist",
-    "text": "Win condition 2 — the heist\nWhen the Army is answered, steal the game instead:\n\nThranduil’s Decree counters any spell — and if it’s a permanent, exiles it and lets you cast it without paying its mana cost. Counter their board wipe, then play their bomb.\nSupper for Spiders is a one-sided Reanimate for the turn: after combat or a wipe, their entire dead board comes to your side as Food (lose all other types) — you gain 3 life per sacrifice and they lose the recursion value.\nGundabad Opportunist exiles your own top card on entry — free card advantage that plays around hand disruption.\nLake-town Mariners is a 6/5 vigilance ward 2 that ends the game in three swings, and its Gone Fishing adventure flickers the Army to dodge removal and re-trigger nothing (counters stay — it’s a new object, so use it to save, not to buff)."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#mulligan-guide",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#mulligan-guide",
-    "title": "Thieves of the Crooked Way",
-    "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep: any hand with Along the Crooked Way or Misty Mountains Raider plus 3 lands; Pit of Offerings + Edgewall Inn hands fix everything; Bilbo hands draw into the engine. Mulligan: no lands, 5+ lands with no engine, or hands whose only coloured sources are tapped Pit of Offerings with no way to curve into black/red/blue. The deck can win without the engine — Supper for Spiders and Thranduil’s Decree are game-swingers on their own — but the Army is the fastest clock."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#key-interactions-and-edge-cases",
-    "title": "Thieves of the Crooked Way",
-    "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nPit of Offerings targets any graveyards: exile creature cards from your own yard to grow the Army, or strip a key card from your opponent’s yard — both modes trigger nothing for them and everything for you.\nEdgewall Inn only returns Adventure cards: Bilbo, Gollum and Lake-town Mariners are the targets. Cast the adventure half from hand first, let the creature die, then re-buy the whole card.\nAlong the Crooked Way’s ETB itself amasses: returning a creature card from your graveyard to hand counts as a creature card leaving the graveyard, so the enchantment enters with at least one amass trigger.\nThe Army is a Goblin: it triggers the menace from Along the Crooked Way’s {1}{B} ability and is also an Orc-compatible Goblin — Misty Mountains Raider’s amass 2 finds it automatically.\nSupper for Spiders is instant-speed: cast it in response to exile removal on your side of the board — it only grabs creatures “put there from the battlefield this turn”, so the window is the whole turn.\nThranduil’s Decree exiles only permanent spells: countering an instant or sorcery sends it to the graveyard normally — still a clean counterspell.\nEnchanted River’s Grasp removes counters: it is the one card that shrinks an opposing Army — keep it for mirror matches and huge threats, not random attackers."
-  },
-  {
-    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#matchups",
-    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#matchups",
-    "title": "Thieves of the Crooked Way",
-    "section": "Matchups",
-    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nPinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board\n\n\nMidrange\nEnchanted River’s Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power\n\n\nControl\nThranduil’s Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper\n\n\nArmy mirrors\nEnchanted River’s Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food\n\n\nCombo\nRace: Thranduil’s Decree answers their combo piece and casts it for you; Gandalf’s 3 damage closes tight races"
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html",
-    "href": "decks/2026-08-22-fertile-chorus.html",
-    "title": "Fertile Chorus",
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
+    "title": "Mirkwood Menagerie",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nSultai — black / green / blue\n\n\nArchetype\nGraveyard midrange combo\n\n\nSize\n60 cards, 21 lands\n\n\nPrimary win\nRenew-pumped evasive beatdown: one giant trample/flying creature, then Naga Fleshcrafter copies it across the board\n\n\nSecondary win\nSingularity Rupture mills half the opponent’s library, then Bloodline Bidding reanimates every Snake\n\n\nLands as win con\nMidgar’s Reactor Raid draws cards and stocks the yard; Tarrian’s Journal transforms into the Tomb of Aclazotz, a land that casts creatures from the graveyard\n\n\nNonland curve\n4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights (convoke discounts the top end)"
+    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
-    "title": "Fertile Chorus",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nFill the well (turns 1–4): play two-drops, mill with Lasyd Prowler and Midnight Tilling, trade creatures into the yard, and use Reactor Raid to convert a spent body into two cards. Every card in the graveyard is a future counter.\nGrow the choir (turns 4–6): activate Renew abilities at sorcery speed — double counters with Sage of the Fang, add flying and lifelink with Qarsi Revenant, trample with Champion of Dusan — while Kheru Goldkeeper banks Treasures for every activation.\nSing (turn 6+): Convoke out Web of Life and Destiny for a free creature every combat, Bloodline Bidding for a full Snake board, or Singularity Rupture to wipe and mill. Swing with a flying, lifelinking, trampling monster and its Naga Fleshcrafter copies."
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#overview",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#overview",
+    "title": "Mirkwood Menagerie",
+    "section": "Overview",
+    "text": "Overview\nMirkwood Menagerie is the ninth dedicated daily Hobbit combo deck. Eight earlier builds claimed the set’s headline engines — the storied dwarves, the goblin amass raid, the elvenking’s court, Smaug’s hoard, the wilderland pack, the Lake-town recruits, the dwarf bards and the thieves of the crooked way — so today’s deck takes the wild remnants of the set and makes them cohere: wolves, bears, a rabbit, a bee, Mirkwood elves, an eagle and a border garrison. The unused Hobbit pool is thin (18 cards, all common/uncommon), so the deck is fused around the two mechanics those leftovers share: Ferocious (Rabbit and Warg pay off power 4 or greater) and Landfall (Raft-Steerer and the Mirkwood druids trigger off every land), held together by a +1/+1 counter subtheme and a token-swarm finish.\nThe engine chain is simple but deep: small creatures (and the tokens they make) draw cards through Enduring Innocence; big creatures (Ordinary Bear, a pumped Guardian of the Halls, a grown Elvish Refueler, Ojer Taq) draw cards through Outcaster Trailblazer; Mirkwood Nurturer bounces a creature or land to re-trigger entries and landfall; and every creature on the board feeds Esgaroth Garrison’s power. Then Ojer Taq, Deepest Foundation triples every token — soldiers, heroes and roles — and Zanarkand’s adventure lands a Hero token with a +1/+1 counter for each land you control."
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#card-roles",
-    "href": "decks/2026-08-22-fertile-chorus.html#card-roles",
-    "title": "Fertile Chorus",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nLasyd Prowler\n4\nEngine — mills lands-count on entry; Renew puts X counters (X = land cards in yard)\n\n\nSage of the Fang\n4\nEngine — Renew doubles all counters on a creature; the choir’s amplifier\n\n\nQarsi Revenant\n4\nPayoff — 3/2 flying deathtouch lifelink; Renew grants all three keyword counters\n\n\nChampion of Dusan\n4\nPayoff — trample body; Renew grants +1/+1 and a trample counter\n\n\nNaga Fleshcrafter\n3\nFinisher — enters as a copy; Renew turns the whole board into copies of your giant\n\n\nKheru Goldkeeper\n2\nRamp — Treasure per card leaving your graveyard; flying + Renew counters\n\n\nConstrictor Sage\n2\nInteraction — taps and stuns on entry and via Renew; a Snake for Bidding\n\n\nDisruptor of Currents\n2\nInteraction — flash Convoke body that bounces a nonland permanent; a Merfolk for Farewell-style payoffs\n\n\nOmni-Changeling\n2\nEnabler — Convoke clone that is every creature type (every Bidding choice)\n\n\nWeb of Life and Destiny\n2\nWin con — Convoke enchantment: free creature from the top five every combat\n\n\nBloodline Bidding\n2\nWin con — Convoke reanimation: return every creature card of a chosen type (Snakes)\n\n\nSingularity Rupture\n1\nWin con 2 — board wipe plus “mill half your library” for any number of players\n\n\nVote Out\n3\nRemoval — Convoke sorcery that destroys a creature\n\n\nMidnight Tilling\n2\nFuel — one mana: mill four, return a permanent among them to hand\n\n\nTarrian’s Journal\n2\nEngine land-in-waiting — sac a creature to draw; transforms into the Tomb"
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#approach",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#approach",
+    "title": "Mirkwood Menagerie",
+    "section": "Approach",
+    "text": "Approach\n\nGame plan by phase\n\nDevelop the burrow (turns 1–3). Nasty Little Rabbit on turn 1; Ravening Warg, Guardian of the Halls or Duskwatch Hunter on turn 2. Small-creature entries trigger Enduring Innocence for cards. The ETB-tapped duals (Foggy Bottom Swamp, Meditation Pools, Kyoshi Village) trigger landfall on the way in.\nTurn ferocious on (turns 3–5). Ordinary Bear (4/5) and Guardian of the Halls’ {5}{G}{G} pump are the reliable enablers; Elvish Refueler grows past 4 power with spare mana; every big entry draws via Outcaster Trailblazer. Elven Raft-Steerer taps blockers on landfall, buying time.\nStampede (turns 5+). Esgaroth Garrison’s power equals your creature count; Eagle of the Great Shelf and a solved Case of the Gateway Express anthem the board; Rabbit Response is a +2/+1 finisher with scry 2 (you control a Rabbit). Ojer Taq triples tokens for the final swing, and Banner of Kinship turns the seven wolves into a +7/+7 stampede.\n\n\n\nCard roles\n\n\n\n\n\n\n\n\nCard\nRole\nKey text (verified)\n\n\n\n\nNasty Little Rabbit\nWincon feeder\nFerocious — at combat, if you control a 4+ power creature, +1/+1 counter; the deck’s Rabbit\n\n\nRavening Warg\nBeater\n2/2 deathtouch; Ferocious — attack: gain 2 life\n\n\nDesolation Prowler\nPump\nPay 2 life: +2/+2 until end of turn (once per turn)\n\n\nDuskwatch Hunter\nCounter + evasion\nCan’t be blocked by tokens; ETB: +1/+1 counter on target creature\n\n\nGreat Fierce Bee\nScry engine\nFlying; whenever one or more other creatures die, scry 1\n\n\nGuardian of the Halls\nFerocious enabler\n2/2 trample; {5}{G}{G}: three +1/+1 counters\n\n\nLittle Bear\nFlash + bear\nFlash; ETB: untap another creature; +1/+1 if it’s a Bear\n\n\nMirkwood Nurturer\nBounce engine\nETB: return up to one other permanent you control to hand; if so, +1/+1 counter\n\n\nElven Raft-Steerer\nLandfall control\nLandfall: tap target creature an opponent controls or untap yours\n\n\nVelvetwing Butterflies\nFlyer + tap\nFlying 2/2; adventure Gaze in Wonder {1}{W}: tap one or two target creatures\n\n\nTroll Negotiations\nRemoval + counters\nTwo +1/+1 counters on a creature you control, then it fights\n\n\nEagle of the Great Shelf\nAnthem\nFlying; on attack, +1/+1 per other creature you control\n\n\nEsgaroth Garrison\nWin con 1\nPower equals number of creatures you control; ETB: recruit (draw, discard, 1/1 Soldier token)\n\n\nOrdinary Bear\nFerocious enabler\n4/5 for {3}{G} — the cheapest permanent 4-power body\n\n\nEnduring Innocence\nDraw engine\nLifelink; whenever another creature you control with power 2 or less enters, draw (once per turn)\n\n\nOutcaster Trailblazer\nDraw + ramp\nETB: add one mana of any color; other 4+ power ETB: draw; plot {2}{G}\n\n\nBanner of Kinship\nWin con 3\nChoose Wolf: fellowship counter per Wolf; Wolves get +1/+1 each\n\n\nElvish Refueler\nCounter sink\nExhaust {1}{G}: +1/+1 counter; on your turn it can be re-activated\n\n\nRabbit Response\nFinisher\nCreatures you control get +2/+1; if you control a Rabbit, scry 2\n\n\nCase of the Gateway Express\nRemoval + anthem\nETB: each creature deals 1 to a creature you don’t control; solved (3+ attacked): +1/+0\n\n\nDwarven Castle Guard\nToken on death\n2/1; when it dies, create a 1/1 Hero token\n\n\nBushwhack\nRamp / fight\nSearch a basic to hand, or your creature fights\n\n\nLiminal Hold\nRemoval\nExile target nonland permanent until this leaves; gain 2 life\n\n\nRoyal Treatment\nProtection\nTarget creature you control gains hexproof; Royal Role token (+1/+1)\n\n\nOjer Taq, Deepest Foundation\nWin con 2\n6/6 vigilance; triple every creature token you create; dies → Temple of Civilization\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine\n\n\n\n\nZanarkand, Ancient Metropolis\nThe deck’s land win condition: a land whose adventure, Lasting Fayth {4}{G}{G}, creates a 1/1 Hero token with a +1/+1 counter for each land you control — a 20/20 at full development — then the land is still playable from exile\n\n\nTemple of Civilization\nOjer Taq’s back face: a land ({T}: add {W}) that transforms back into the token-tripler after you attacked with three or more creatures\n\n\nFoggy Bottom Swamp\n{B} or {G}; {4}, {T}, sacrifice: draw a card\n\n\nMeditation Pools\n{G} or {U}; {4}, {T}, sacrifice: draw a card\n\n\nKyoshi Village\n{G} or {W}; {4}, {T}, sacrifice: draw a card\n\n\n\n\n\nCurve and mana\nFour colors from 23 lands: green is the spine (13 sources), white 8, black 5, blue 4 — the hybrid cards (Duskwatch Hunter {2}{B/G}, Mirkwood Nurturer {2}{G/U}) and the triple ETB-tapped duals smooth the early turns, and rainbow fixing is not needed at this curve. The deck is creature-dense (31 creatures) with 18 cards at mana value 2; Bushwhack and Outcaster Trailblazer provide light ramp toward the 5–6 mana finishers. Mulligan aggressively toward green sources and a two-drop."
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
-    "href": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
-    "title": "Fertile Chorus",
-    "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTreno, Dark City\nTapped U/B source; the fixing backbone\n\n\nMutant Town\nTapped G/U source; gains 1 life on entry — cheap insurance vs aggro\n\n\nGongaga, Reactor Town\nTapped R/G source; green for the two-drop army\n\n\nOmashu City\nTapped R/G source with a built-in “sacrifice: draw a card” — a mini Fountainport\n\n\nMidgar, City of Mako\nTaps for black; its adventure Reactor Raid (2B, sorcery) sacrifices an artifact or creature to draw two — a land that turns spent creatures into cards and fills the yard\n\n\nTarrian’s Journal // The Tomb of Aclazotz\nThe land that wins: transform the Journal (2, tap, discard your hand) into a Cave land whose tap ability lets you cast creature spells from your graveyard — every Renew creature becomes castable forever"
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
+    "title": "Mirkwood Menagerie",
+    "section": "Gameplay strategy",
+    "text": "Gameplay strategy\n\nEarly game\nTurn 1 Nasty Little Rabbit, turn 2 any two-drop. Prefer Guardian of the Halls and Ravening Warg — they win the ground while Duskwatch Hunter’s counter and token-evasion apply pressure. Enduring Innocence on turn 3 turns every subsequent small creature into a card. The duals enter tapped, so sequence basics first on turns 1–2.\n\n\nMid game\nEstablish ferocious: Ordinary Bear or a {5}{G}{G} pump on Guardian of the Halls. From here Outcaster Trailblazer draws on every big entry, and Mirkwood Nurturer can bounce a spent creature (or an ETB-tapped land) to re-trigger entries and landfall. Elven Raft-Steerer taps the biggest blocker each landfall, letting wolves and bears through.\n\n\nThe combo turn\n\nEnduring Innocence + Outcaster Trailblazer convert every creature you cast into a card — the swarm refuels itself.\nMirkwood Nurturer bounces and replays a creature (or a land) for extra counters, draws and landfall taps.\nOjer Taq, Deepest Foundation triples every token: Esgaroth’s recruit Soldier, Castle Guard’s Hero, Royal Treatment’s Role — each token maker now makes three bodies.\nSwing with the full board: Esgaroth Garrison is huge from the creature count, Eagle of the Great Shelf anthems per attacker, Case of the Gateway Express is solved (+1/+0), and Rabbit Response gives +2/+1 and scry 2.\n\n\n\nWin condition 2 — the giant Hero\nCast Lasting Fayth from Zanarkand, Ancient Metropolis when you control a dozen or more lands: the Hero token enters with that many +1/+1 counters. Royal Treatment and Duskwatch Hunter counters stack on it. The token wins through sheer size — protect it with Royal Treatment and finish over two turns.\n\n\nWin condition 3 — the Wolf stampede\nBanner of Kinship enters naming Wolf with a fellowship counter for each Wolf you control — up to seven (three Ravening Warg, three Duskwatch Hunter, one Desolation Prowler) — turning every Wolf into a 9/9-plus threat. It is a one-card finisher that also works as a giant pump for the wolf half of the board.\n\n\nMulligan guide\n\nKeep: 2–3 lands with a green source, a two-drop, and ideally a Rabbit or Guardian.\nShip: one-landers, five-plus-land hands, and hands with double-white or double-black spells but no matching source.\nKeep Outcaster Trailblazer or Enduring Innocence hands on a playable curve — the engines beat raw stats.\nThe ETB-tapped duals slow the first two turns: an opening of three tapped duals is a mulligan.\n\n\n\nKey interactions and edge cases\n\nEnduring Innocence triggers only once per turn — time your token bursts (Esgaroth recruit, Castle Guard death) to your own turn.\nOutcaster Trailblazer draws only on power 4 or greater entries — the ferocious enablers (Ordinary Bear, Guardian pump, Refueler growth) are what turn it on.\nBanner of Kinship chooses a type at entry — name Wolf; the fellowship counter count is set when it enters, so cast it when your wolf count is highest.\nOjer Taq triples tokens, not counters — the +1/+1 counters from Duskwatch Hunter, Troll Negotiations and Refueler are unaffected (a good thing: they stack on tripled bodies).\nZanarkand is a land and a spell — cast Lasting Fayth from hand, then play Zanarkand from exile later; the land face enters tapped.\nOjer Taq’s death returns it transformed as Temple of Civilization, a land; {2}{W}, {T} transforms it back after attacking with three or more creatures — the win condition loops itself.\nLiminal Hold exiles until it leaves — it handles any nonland permanent, including enchantments and artifacts.\nMirkwood Nurturer can bounce a land — replay it for an extra landfall trigger (Raft-Steerer tap-down).\nCase of the Gateway Express solves at your end step after three or more creatures attacked — the +1/+0 is permanent once solved.\n\n\n\nMatchups\n\nAggro: Ravening Warg deathtouch and Raft-Steerer landfall taps hold the ground; Great Fierce Bee and Velvetwing Butterflies block flyers; Liminal Hold exiles the biggest threat.\nMidrange: Outcaster Trailblazer’s card advantage out-draws them; Troll Negotiations and Bushwhack fights trade up; Banner of Kinship and Ojer Taq outclass their top end.\nControl: Enduring Innocence and Trailblazer refill after sweepers; Royal Treatment protects Ojer Taq; Zanarkand’s giant Hero token is a single-card clock they can’t answer cheaply."
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
-    "href": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
-    "title": "Fertile Chorus",
-    "section": "Curve and mana",
-    "text": "Curve and mana\n21 lands: 3 Treno (U/B), 3 Mutant Town (G/U), 2 Gongaga (R/G), 2 Omashu City (R/G), 2 Midgar (B), plus 4 Forest, 3 Swamp, 2 Island. Green is the critical early color (twelve green two- and three-drops), so fetch and play green first; black comes second for Qarsi Revenant and Vote Out; blue arrives with Naga Fleshcrafter and the Convoke payoffs. Starting hands want two lands including a green source.\nThe nonland curve is 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights. The eights are the point: Convoke discounts them by one per creature tapped, so by turn five or six Web of Life and Destiny costs about {2}{G} and Bloodline Bidding about {B}{B}."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
-    "href": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
-    "title": "Fertile Chorus",
-    "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 2: Champion of Dusan, Sage of the Fang, or Midnight Tilling (mill four, keep a permanent). Prefer the creature against aggressive decks.\nTurn 3: Qarsi Revenant (3/2 flying deathtouch lifelink holds the sky) or a second two-drop. Keep the ground stalled with trample bodies.\nDo not be afraid to trade — every creature that dies is Renew fuel. A dead Champion is worth a trample counter on the survivor."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
-    "href": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
-    "title": "Fertile Chorus",
-    "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nAttack with Lasyd Prowler once to mill; then use its Renew ({1}{G}, sorcery) to put X +1/+1 counters on a creature, where X is the land count in the yard. By turn six that is usually 3–5 counters.\nThe big sequence: Renew Sage of the Fang ({3}{G}) — put a counter, then double. Repeat with a second Sage in the yard to quadruple. Stack Qarsi Revenant’s flying/lifelink/deathtouch counters and Champion of Dusan’s trample counter on the same creature.\nKheru Goldkeeper’s Treasure triggers fire on every Renew activation — spend them on the next activation or on a Convoke spell.\nCast Vote Out for removal; Disruptor of Currents at flash speed to bounce a blocker or a problem permanent."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
-    "href": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
-    "title": "Fertile Chorus",
-    "section": "The combo turn",
-    "text": "The combo turn\n\nBuild the monster: Sage of the Fang doubling, Qarsi Revenant counters, Champion of Dusan trample — one creature with 10+ power, flying, lifelink, deathtouch, trample.\nCast Naga Fleshcrafter (or use its Renew from the yard: {2}{U}, sorcery) — “each other creature you control becomes a copy of that creature until end of turn.” Your 2/2s and 3/3s are now a board of 10/10 flying lifelinkers.\nCast Web of Life and Destiny for {2}{G} or so (Convoke with whatever did not attack). From now on, every combat starts with a free creature from your top five.\nSwing with the whole choir. If blocked, Reactor Raid or Tarrian’s Journal turns a dead body into cards, and the Tomb of Aclazotz casts the next creature from the graveyard."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
-    "href": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
-    "title": "Fertile Chorus",
-    "section": "Win condition 2: the rupture",
-    "text": "Win condition 2: the rupture\nSingularity Rupture ({3}{U}{B}{B}) destroys all creatures and then has any number of target players mill half their library, rounded down. Two casts from a 60-card deck remove 45 cards; with the natural mill from Lasyd Prowler and Midnight Tilling, the opponent’s library dies before their life total. The wipe also dumps your own creatures into the yard — where Bloodline Bidding (Convoke, choose Snake) returns Lasyd Prowler, Naga Fleshcrafter, Constrictor Sage and Omni-Changeling all at once for an immediate board."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
-    "href": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
-    "title": "Fertile Chorus",
-    "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: two-plus lands including green, a two-drop, and either a mill source (Lasyd Prowler, Midnight Tilling) or a Renew creature.\nTrim: five-plus land hands, all-one-color hands, and hands whose only plays are 5+ mana cards.\nThe deck mulligans well: the graveyard smooths draws, and Midnight Tilling finds whatever the mill reveals."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
-    "title": "Fertile Chorus",
-    "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nRenew exiles from the graveyard — it is a sorcery-speed activation, so plan it on your turn; it also shrinks the yard, which matters only for Lasyd Prowler’s Renew count (land cards only — lands stay).\nKheru Goldkeeper counts every card that leaves — one Renew activation exiles one card and creates one Treasure; two cards leaving creates two Treasures.\nBloodline Bidding’s type choice: Snakes cover Lasyd Prowler, Naga Fleshcrafter and Constrictor Sage; Omni-Changeling is every type, so any choice works.\nThe Tomb of Aclazotz casts creatures from the graveyard with a finality counter — they exile on death instead of returning, so use the Tomb for pressure, not for fuel.\nSingularity Rupture hits your own board — that is the point: the wipe refills the yard for Bidding.\nWeb of Life and Destiny at combat — the free creature enters at the beginning of combat, so it cannot attack that turn but is untapped Convoke fuel for the next spell.\nReactor Raid needs a sacrifice to draw — sacrifice a tapped attacker after combat, or an artifact, to keep the yard stocked."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#matchups",
-    "href": "decks/2026-08-22-fertile-chorus.html#matchups",
-    "title": "Fertile Chorus",
-    "section": "Matchups",
-    "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "6 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
+    "href": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
+    "title": "Mirkwood Menagerie",
+    "section": "Deck list (Arena import)",
+    "text": "Deck list (Arena import)\n7 Forest\n4 Nasty Little Rabbit\n4 Plains\n3 Duskwatch Hunter\n3 Guardian of the Halls\n3 Ravening Warg\n2 Enduring Innocence\n2 Esgaroth Garrison\n2 Foggy Bottom Swamp\n2 Island\n2 Kyoshi Village\n2 Meditation Pools\n2 Outcaster Trailblazer\n2 Swamp\n2 Zanarkand, Ancient Metropolis\n1 Banner of Kinship\n1 Bushwhack\n1 Case of the Gateway Express\n1 Desolation Prowler\n1 Dwarven Castle Guard\n1 Eagle of the Great Shelf\n1 Elven Raft-Steerer\n1 Elvish Refueler\n1 Great Fierce Bee\n1 Liminal Hold\n1 Little Bear\n1 Mirkwood Nurturer\n1 Ojer Taq, Deepest Foundation\n1 Ordinary Bear\n1 Rabbit Response\n1 Royal Treatment\n1 Troll Negotiations\n1 Velvetwing Butterflies"
   },
   {
     "objectID": "decks/2026-08-21-kindle-the-archive.html",
@@ -329,46 +175,249 @@
     "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
   },
   {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html",
-    "title": "Mirkwood Menagerie",
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
     "section": "",
-    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
+    "text": "Card pool consumption — cycle started 2026-08-22 · 26 cards locked · Hobbit 193/193 remaining\n7 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#at-a-glance",
-    "title": "Mirkwood Menagerie",
-    "section": "",
-    "text": "Format\nStandard (all 60 cards verified legal via MTGADB PROD)\n\n\nColors\nWhite, Blue, Black, Green (4-color WUBG)\n\n\nArchetype\nMirkwood menagerie — ferocious beasts + landfall elves + counters\n\n\nSize\n60 cards (24 Hobbit, 13 support, 23 lands)\n\n\nPrimary win\nGo-wide swarm: Esgaroth Garrison + Eagle of the Great Shelf + Rabbit Response\n\n\nSecondary win\nOjer Taq token tripling + Zanarkand’s Lasting Fayth giant Hero token\n\n\n\nThe Hobbit set releases on Arena 2026-08-14 — every Hobbit card in this list has an empty arena_id until that date, so the import list works from release day."
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
   },
   {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#overview",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#overview",
-    "title": "Mirkwood Menagerie",
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html",
+    "href": "decks/2026-08-22-fertile-chorus.html",
+    "title": "Fertile Chorus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nSultai — black / green / blue\n\n\nArchetype\nGraveyard midrange combo\n\n\nSize\n60 cards, 21 lands\n\n\nPrimary win\nRenew-pumped evasive beatdown: one giant trample/flying creature, then Naga Fleshcrafter copies it across the board\n\n\nSecondary win\nSingularity Rupture mills half the opponent’s library, then Bloodline Bidding reanimates every Snake\n\n\nLands as win con\nMidgar’s Reactor Raid draws cards and stocks the yard; Tarrian’s Journal transforms into the Tomb of Aclazotz, a land that casts creatures from the graveyard\n\n\nNonland curve\n4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights (convoke discounts the top end)"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
+    "title": "Fertile Chorus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nFill the well (turns 1–4): play two-drops, mill with Lasyd Prowler and Midnight Tilling, trade creatures into the yard, and use Reactor Raid to convert a spent body into two cards. Every card in the graveyard is a future counter.\nGrow the choir (turns 4–6): activate Renew abilities at sorcery speed — double counters with Sage of the Fang, add flying and lifelink with Qarsi Revenant, trample with Champion of Dusan — while Kheru Goldkeeper banks Treasures for every activation.\nSing (turn 6+): Convoke out Web of Life and Destiny for a free creature every combat, Bloodline Bidding for a full Snake board, or Singularity Rupture to wipe and mill. Swing with a flying, lifelinking, trampling monster and its Naga Fleshcrafter copies."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#card-roles",
+    "href": "decks/2026-08-22-fertile-chorus.html#card-roles",
+    "title": "Fertile Chorus",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nLasyd Prowler\n4\nEngine — mills lands-count on entry; Renew puts X counters (X = land cards in yard)\n\n\nSage of the Fang\n4\nEngine — Renew doubles all counters on a creature; the choir’s amplifier\n\n\nQarsi Revenant\n4\nPayoff — 3/2 flying deathtouch lifelink; Renew grants all three keyword counters\n\n\nChampion of Dusan\n4\nPayoff — trample body; Renew grants +1/+1 and a trample counter\n\n\nNaga Fleshcrafter\n3\nFinisher — enters as a copy; Renew turns the whole board into copies of your giant\n\n\nKheru Goldkeeper\n2\nRamp — Treasure per card leaving your graveyard; flying + Renew counters\n\n\nConstrictor Sage\n2\nInteraction — taps and stuns on entry and via Renew; a Snake for Bidding\n\n\nDisruptor of Currents\n2\nInteraction — flash Convoke body that bounces a nonland permanent; a Merfolk for Farewell-style payoffs\n\n\nOmni-Changeling\n2\nEnabler — Convoke clone that is every creature type (every Bidding choice)\n\n\nWeb of Life and Destiny\n2\nWin con — Convoke enchantment: free creature from the top five every combat\n\n\nBloodline Bidding\n2\nWin con — Convoke reanimation: return every creature card of a chosen type (Snakes)\n\n\nSingularity Rupture\n1\nWin con 2 — board wipe plus “mill half your library” for any number of players\n\n\nVote Out\n3\nRemoval — Convoke sorcery that destroys a creature\n\n\nMidnight Tilling\n2\nFuel — one mana: mill four, return a permanent among them to hand\n\n\nTarrian’s Journal\n2\nEngine land-in-waiting — sac a creature to draw; transforms into the Tomb"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
+    "href": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
+    "title": "Fertile Chorus",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTreno, Dark City\nTapped U/B source; the fixing backbone\n\n\nMutant Town\nTapped G/U source; gains 1 life on entry — cheap insurance vs aggro\n\n\nGongaga, Reactor Town\nTapped R/G source; green for the two-drop army\n\n\nOmashu City\nTapped R/G source with a built-in “sacrifice: draw a card” — a mini Fountainport\n\n\nMidgar, City of Mako\nTaps for black; its adventure Reactor Raid (2B, sorcery) sacrifices an artifact or creature to draw two — a land that turns spent creatures into cards and fills the yard\n\n\nTarrian’s Journal // The Tomb of Aclazotz\nThe land that wins: transform the Journal (2, tap, discard your hand) into a Cave land whose tap ability lets you cast creature spells from your graveyard — every Renew creature becomes castable forever"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
+    "href": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
+    "title": "Fertile Chorus",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n21 lands: 3 Treno (U/B), 3 Mutant Town (G/U), 2 Gongaga (R/G), 2 Omashu City (R/G), 2 Midgar (B), plus 4 Forest, 3 Swamp, 2 Island. Green is the critical early color (twelve green two- and three-drops), so fetch and play green first; black comes second for Qarsi Revenant and Vote Out; blue arrives with Naga Fleshcrafter and the Convoke payoffs. Starting hands want two lands including a green source.\nThe nonland curve is 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights. The eights are the point: Convoke discounts them by one per creature tapped, so by turn five or six Web of Life and Destiny costs about {2}{G} and Bloodline Bidding about {B}{B}."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
+    "href": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
+    "title": "Fertile Chorus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 2: Champion of Dusan, Sage of the Fang, or Midnight Tilling (mill four, keep a permanent). Prefer the creature against aggressive decks.\nTurn 3: Qarsi Revenant (3/2 flying deathtouch lifelink holds the sky) or a second two-drop. Keep the ground stalled with trample bodies.\nDo not be afraid to trade — every creature that dies is Renew fuel. A dead Champion is worth a trample counter on the survivor."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
+    "href": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
+    "title": "Fertile Chorus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nAttack with Lasyd Prowler once to mill; then use its Renew ({1}{G}, sorcery) to put X +1/+1 counters on a creature, where X is the land count in the yard. By turn six that is usually 3–5 counters.\nThe big sequence: Renew Sage of the Fang ({3}{G}) — put a counter, then double. Repeat with a second Sage in the yard to quadruple. Stack Qarsi Revenant’s flying/lifelink/deathtouch counters and Champion of Dusan’s trample counter on the same creature.\nKheru Goldkeeper’s Treasure triggers fire on every Renew activation — spend them on the next activation or on a Convoke spell.\nCast Vote Out for removal; Disruptor of Currents at flash speed to bounce a blocker or a problem permanent."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
+    "href": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
+    "title": "Fertile Chorus",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nBuild the monster: Sage of the Fang doubling, Qarsi Revenant counters, Champion of Dusan trample — one creature with 10+ power, flying, lifelink, deathtouch, trample.\nCast Naga Fleshcrafter (or use its Renew from the yard: {2}{U}, sorcery) — “each other creature you control becomes a copy of that creature until end of turn.” Your 2/2s and 3/3s are now a board of 10/10 flying lifelinkers.\nCast Web of Life and Destiny for {2}{G} or so (Convoke with whatever did not attack). From now on, every combat starts with a free creature from your top five.\nSwing with the whole choir. If blocked, Reactor Raid or Tarrian’s Journal turns a dead body into cards, and the Tomb of Aclazotz casts the next creature from the graveyard."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
+    "href": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
+    "title": "Fertile Chorus",
+    "section": "Win condition 2: the rupture",
+    "text": "Win condition 2: the rupture\nSingularity Rupture ({3}{U}{B}{B}) destroys all creatures and then has any number of target players mill half their library, rounded down. Two casts from a 60-card deck remove 45 cards; with the natural mill from Lasyd Prowler and Midnight Tilling, the opponent’s library dies before their life total. The wipe also dumps your own creatures into the yard — where Bloodline Bidding (Convoke, choose Snake) returns Lasyd Prowler, Naga Fleshcrafter, Constrictor Sage and Omni-Changeling all at once for an immediate board."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
+    "href": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
+    "title": "Fertile Chorus",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: two-plus lands including green, a two-drop, and either a mill source (Lasyd Prowler, Midnight Tilling) or a Renew creature.\nTrim: five-plus land hands, all-one-color hands, and hands whose only plays are 5+ mana cards.\nThe deck mulligans well: the graveyard smooths draws, and Midnight Tilling finds whatever the mill reveals."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
+    "title": "Fertile Chorus",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nRenew exiles from the graveyard — it is a sorcery-speed activation, so plan it on your turn; it also shrinks the yard, which matters only for Lasyd Prowler’s Renew count (land cards only — lands stay).\nKheru Goldkeeper counts every card that leaves — one Renew activation exiles one card and creates one Treasure; two cards leaving creates two Treasures.\nBloodline Bidding’s type choice: Snakes cover Lasyd Prowler, Naga Fleshcrafter and Constrictor Sage; Omni-Changeling is every type, so any choice works.\nThe Tomb of Aclazotz casts creatures from the graveyard with a finality counter — they exile on death instead of returning, so use the Tomb for pressure, not for fuel.\nSingularity Rupture hits your own board — that is the point: the wipe refills the yard for Bidding.\nWeb of Life and Destiny at combat — the free creature enters at the beginning of combat, so it cannot attack that turn but is untapped Convoke fuel for the next spell.\nReactor Raid needs a sacrifice to draw — sacrifice a tapped attacker after combat, or an artifact, to keep the yard stocked."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#matchups",
+    "href": "decks/2026-08-22-fertile-chorus.html#matchups",
+    "title": "Fertile Chorus",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html",
+    "title": "Thieves of the Crooked Way",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA) — The Hobbit set (hob), legal on Arena from 2026-08-14\n\n\nColors\nGrixis — black / red / blue\n\n\nArchetype\nCombo-engine: Amass Goblins recursion + opponent-graveyard theft\n\n\nSize\n60 cards, 22 lands\n\n\nPrimary win\nGiant Goblin Army — Along the Crooked Way turns every creature card leaving your graveyard into an amass counter; the Army goes unblockable with Elvenking’s Harper and lethal with Smaug’s Fury\n\n\nSecondary win\nTheft engine — Thranduil’s Decree counters and re-casts your opponent’s spells for free; Supper for Spiders steals their entire dead board as Food; Gundabad Opportunist plays off the top\n\n\nCombo linchpin\nAlong the Crooked Way — amass Goblins 1 whenever a creature card leaves your graveyard\n\n\nNonland curve\n12 twos, 14 threes, 3 fours, 4 fives, 5 sixes"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#game-plan-in-three-phases",
+    "title": "Thieves of the Crooked Way",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDig and disrupt (turns 1-3): Bilbo (draw a card) or Elvenking’s Harper on turn two, Crude Bent Blade to force a sacrifice, Pinecone Strike or Enchanted River’s Grasp to answer threats. Play Pit of Offerings early — its exile trigger grows the Army the moment Along the Crooked Way is online, and it fixes black/red/blue.\nTurn on the engine (turns 4-5): Along the Crooked Way on curve, then Misty Mountains Raider. Every Edgewall Inn activation, every Pit of Offerings, every adventure cast and every dying creature card that leaves the yard stacks +1/+1 counters on the Army. Gundabad Opportunist and Bilbo keep cards flowing.\nThe kill or the heist (turns 6+): make the Army unblockable with Elvenking’s Harper and smash with Smaug’s Fury (first strike, +3/+0) — or counter their finisher with Thranduil’s Decree and cast it yourself, and Supper for Spiders on their turn after a board wipe steals everything."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#card-roles",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#card-roles",
+    "title": "Thieves of the Crooked Way",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nAlong the Crooked Way\n4\nCombo engine — amass Goblins 1 per creature card leaving your graveyard; {1}{B} gives Goblins and Orcs menace; ETB recursion\n\n\nMisty Mountains Raider\n4\nArmy engine — amass 2 on every attack; a 4/4 Goblin Soldier body\n\n\nPit of Offerings\n4\nWin-con land — ETB exiles up to 3 cards from graveyards (each creature card from your yard is an amass trigger); taps for exiled colours\n\n\nEdgewall Inn\n3\nRecursion land — returns an Adventure card from your graveyard to hand (amass trigger + card advantage); taps for a chosen colour\n\n\nElvenking’s Harper\n4\nFinisher enabler — {4}{U}: target creature can’t be blocked this turn; 2/2 body\n\n\nSmaug’s Fury\n3\nLethal pump — +3/+0, first strike and reach on the Army for {1}{R}\n\n\nSupper for Spiders\n3\nTheft blowout — steal every creature that died this turn as Food; mass lifegain and board denial\n\n\nThranduil’s Decree\n3\nCounter + steal — exile any countered permanent spell and cast it without paying\n\n\nBilbo Baggins, Burglar\n3\nDraw engine — ETB draw a card; adventure Scry 2; re-buyable via Edgewall Inn\n\n\nGollum, Silent Slinker\n3\nMenace 4/3 beater; adventure puts a +1/+1 counter and gains 2 life\n\n\nCrude Bent Blade\n2\nEdict + equipment — ETB opponent sacrifices a creature; +2/+1, equip {2}\n\n\nGundabad Opportunist\n2\nImpulse draw — ETB exiles top card, playable until your next end step\n\n\nEnchanted River’s Grasp\n2\nHard removal — taps, strips counters and abilities, never untaps\n\n\nPinecone Strike\n2\nRemoval + artifact-token hate — 3 damage with exile, or destroy an artifact token\n\n\nUneasy Partings\n1\nBounce — {2}{U} against attacking nontoken creatures; tucks to top or bottom of library\n\n\nLake-town Mariners\n1\n6/5 vigilance ward 2 finisher; adventure flickers two of your creatures/lands (saves the Army)\n\n\nGandalf, Spark Starter\n1\nReach 4/3 — ETB deals 3 damage split; closes races"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#lands-as-engines",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#lands-as-engines",
+    "title": "Thieves of the Crooked Way",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the deck\n\n\n\n\nPit of Offerings\nWin-condition land — the ETB exile trigger fires Along the Crooked Way’s amass once per creature card exiled from your own graveyard (up to 3 counters on one land drop), then fixes any colour among the exiled cards\n\n\nEdgewall Inn\nEngine land — {3}, {T}, sacrifice: return an Adventure card from your graveyard to hand, triggering amass and re-buying Bilbo, Gollum or Lake-town Mariners; taps for a colour of your choice\n\n\nBasics\n6 Swamp / 5 Island / 4 Mountain — 22 lands, 15 coloured sources plus 7 flexible sources"
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#curve-and-mana",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#curve-and-mana",
+    "title": "Thieves of the Crooked Way",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n22 lands over a 38-card spell base. The deck is dense at two and three mana (26 cards) so it can interact and set up the engine before the Army takes over. Pit of Offerings is the fixing lynchpin — it reliably taps for black, red or blue once it has exiled one card of each colour, and Edgewall Inn covers the awkward third colour. The top end (Thranduil’s Decree, Gandalf, Lake-town Mariners) is deliberately thin: five six-mana cards that each end a game on their own rather than a durdle pile."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#early-game-turns-1-3",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#early-game-turns-1-3",
+    "title": "Thieves of the Crooked Way",
+    "section": "Early game (turns 1-3)",
+    "text": "Early game (turns 1-3)\nCurve Bilbo into Along the Crooked Way, or Harper into removal. Play Pit of Offerings on turn one or two even though it enters tapped — the exile trigger is an amass engine waiting to happen, and the fixing matters more than the tempo loss. Use Pinecone Strike and Enchanted River’s Grasp to keep the board clean while the Army is still 0/0. Do not trade your Army unless it saves the game — every +1/+1 counter on it is the win condition."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#mid-game-turns-4-6",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#mid-game-turns-4-6",
+    "title": "Thieves of the Crooked Way",
+    "section": "Mid game (turns 4-6)",
+    "text": "Mid game (turns 4-6)\nLand Along the Crooked Way and Misty Mountains Raider. The loop is: attack (amass 2), activate Edgewall Inn on a dead Bilbo or Gollum (amass 1 + card back), cast the adventure from hand, and watch the Army swell. Supper for Spiders shines after any board wipe or bad block — every creature that died this turn, from either side, becomes your Food. Crude Bent Blade’s forced sacrifice also feeds it."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#the-combo-turn",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#the-combo-turn",
+    "title": "Thieves of the Crooked Way",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nHave Along the Crooked Way and a 4+ power Army on board (two attacks from Misty Mountains Raider plus one Pit of Offerings trigger usually suffice).\nFirst main phase: {4}{U} on Elvenking’s Harper — the Army can’t be blocked this turn.\nSmaug’s Fury on the Army: +3/+0, first strike, reach.\nAttack with an unblockable, first-striking Army for lethal. Against menace math, Along the Crooked Way’s {1}{B} also makes it require two blockers — the Harper activation is the clean kill, menace is the fallback."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#win-condition-2-the-heist",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#win-condition-2-the-heist",
+    "title": "Thieves of the Crooked Way",
+    "section": "Win condition 2 — the heist",
+    "text": "Win condition 2 — the heist\nWhen the Army is answered, steal the game instead:\n\nThranduil’s Decree counters any spell — and if it’s a permanent, exiles it and lets you cast it without paying its mana cost. Counter their board wipe, then play their bomb.\nSupper for Spiders is a one-sided Reanimate for the turn: after combat or a wipe, their entire dead board comes to your side as Food (lose all other types) — you gain 3 life per sacrifice and they lose the recursion value.\nGundabad Opportunist exiles your own top card on entry — free card advantage that plays around hand disruption.\nLake-town Mariners is a 6/5 vigilance ward 2 that ends the game in three swings, and its Gone Fishing adventure flickers the Army to dodge removal and re-trigger nothing (counters stay — it’s a new object, so use it to save, not to buff)."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#mulligan-guide",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#mulligan-guide",
+    "title": "Thieves of the Crooked Way",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: any hand with Along the Crooked Way or Misty Mountains Raider plus 3 lands; Pit of Offerings + Edgewall Inn hands fix everything; Bilbo hands draw into the engine. Mulligan: no lands, 5+ lands with no engine, or hands whose only coloured sources are tapped Pit of Offerings with no way to curve into black/red/blue. The deck can win without the engine — Supper for Spiders and Thranduil’s Decree are game-swingers on their own — but the Army is the fastest clock."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#key-interactions-and-edge-cases",
+    "title": "Thieves of the Crooked Way",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nPit of Offerings targets any graveyards: exile creature cards from your own yard to grow the Army, or strip a key card from your opponent’s yard — both modes trigger nothing for them and everything for you.\nEdgewall Inn only returns Adventure cards: Bilbo, Gollum and Lake-town Mariners are the targets. Cast the adventure half from hand first, let the creature die, then re-buy the whole card.\nAlong the Crooked Way’s ETB itself amasses: returning a creature card from your graveyard to hand counts as a creature card leaving the graveyard, so the enchantment enters with at least one amass trigger.\nThe Army is a Goblin: it triggers the menace from Along the Crooked Way’s {1}{B} ability and is also an Orc-compatible Goblin — Misty Mountains Raider’s amass 2 finds it automatically.\nSupper for Spiders is instant-speed: cast it in response to exile removal on your side of the board — it only grabs creatures “put there from the battlefield this turn”, so the window is the whole turn.\nThranduil’s Decree exiles only permanent spells: countering an instant or sorcery sends it to the graveyard normally — still a clean counterspell.\nEnchanted River’s Grasp removes counters: it is the one card that shrinks an opposing Army — keep it for mirror matches and huge threats, not random attackers."
+  },
+  {
+    "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html#matchups",
+    "href": "decks/2026-08-20-thieves-of-the-crooked-way.html#matchups",
+    "title": "Thieves of the Crooked Way",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nPinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board\n\n\nMidrange\nEnchanted River’s Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power\n\n\nControl\nThranduil’s Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper\n\n\nArmy mirrors\nEnchanted River’s Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food\n\n\nCombo\nRace: Thranduil’s Decree answers their combo piece and casts it for you; Gandalf’s 3 damage closes tight races"
+  },
+  {
+    "objectID": "decks/2026-08-23-death-by-committee.html",
+    "href": "decks/2026-08-23-death-by-committee.html",
+    "title": "Death by Committee",
+    "section": "",
+    "text": "Format\nStandard (all 60 cards verified legal via MTGADB)\n\n\nColors\nBlack, Red, Green (Jund)\n\n\nArchetype\nAristocrats + Teamwork reanimator: recurring skeletons feed sacrifice spells, the tapped “team” doubles every Teamwork spell\n\n\nSize\n60 cards (17 creatures, 17 spells, 26 lands)\n\n\nPrimary win\nTeamwork reanimation: Too Evil to Stay Dead reanimates Bloodthirsty Conqueror / Rune-Scarred Demon / Enduring Tenacity from a graveyard stuffed by sacrifice\n\n\nSecondary win\nInfinite drain: Bloodthirsty Conqueror + Enduring Tenacity + a Food token loop = opponent loses all life\n\n\nLand win\nRestless Cottage manland (4/4) + Team Tactics double strike + Rogue’s Passage unblockable"
+  },
+  {
+    "objectID": "decks/2026-08-23-death-by-committee.html#at-a-glance",
+    "href": "decks/2026-08-23-death-by-committee.html#at-a-glance",
+    "title": "Death by Committee",
+    "section": "",
+    "text": "Format\nStandard (all 60 cards verified legal via MTGADB)\n\n\nColors\nBlack, Red, Green (Jund)\n\n\nArchetype\nAristocrats + Teamwork reanimator: recurring skeletons feed sacrifice spells, the tapped “team” doubles every Teamwork spell\n\n\nSize\n60 cards (17 creatures, 17 spells, 26 lands)\n\n\nPrimary win\nTeamwork reanimation: Too Evil to Stay Dead reanimates Bloodthirsty Conqueror / Rune-Scarred Demon / Enduring Tenacity from a graveyard stuffed by sacrifice\n\n\nSecondary win\nInfinite drain: Bloodthirsty Conqueror + Enduring Tenacity + a Food token loop = opponent loses all life\n\n\nLand win\nRestless Cottage manland (4/4) + Team Tactics double strike + Rogue’s Passage unblockable"
+  },
+  {
+    "objectID": "decks/2026-08-23-death-by-committee.html#overview",
+    "href": "decks/2026-08-23-death-by-committee.html#overview",
+    "title": "Death by Committee",
     "section": "Overview",
-    "text": "Overview\nMirkwood Menagerie is the ninth dedicated daily Hobbit combo deck. Eight earlier builds claimed the set’s headline engines — the storied dwarves, the goblin amass raid, the elvenking’s court, Smaug’s hoard, the wilderland pack, the Lake-town recruits, the dwarf bards and the thieves of the crooked way — so today’s deck takes the wild remnants of the set and makes them cohere: wolves, bears, a rabbit, a bee, Mirkwood elves, an eagle and a border garrison. The unused Hobbit pool is thin (18 cards, all common/uncommon), so the deck is fused around the two mechanics those leftovers share: Ferocious (Rabbit and Warg pay off power 4 or greater) and Landfall (Raft-Steerer and the Mirkwood druids trigger off every land), held together by a +1/+1 counter subtheme and a token-swarm finish.\nThe engine chain is simple but deep: small creatures (and the tokens they make) draw cards through Enduring Innocence; big creatures (Ordinary Bear, a pumped Guardian of the Halls, a grown Elvish Refueler, Ojer Taq) draw cards through Outcaster Trailblazer; Mirkwood Nurturer bounces a creature or land to re-trigger entries and landfall; and every creature on the board feeds Esgaroth Garrison’s power. Then Ojer Taq, Deepest Foundation triples every token — soldiers, heroes and roles — and Zanarkand’s adventure lands a Hero token with a +1/+1 counter for each land you control."
+    "text": "Overview\nDeath by Committee fuses the two rolled mechanics — Sacrifice and Teamwork — into one engine: the committee is the sacrifice fodder. Forsaken Miner, Reassembling Skeleton and Bloodghast refuse to stay dead, so every turn the deck has a fresh set of bodies: tap them to pay Teamwork costs, sacrifice them to draw cards and exile threats, and let their death triggers refill the hand. The Teamwork payoff spells from the Spider-Man set turn that rotating cast of characters into removal, burn and reanimation that does double duty.\nThe engine loop: a skeleton dies to Fanatical Offering (draw two) or Worthy Cost (exile a threat), the death triggers draw more cards (Midnight Reaper) or make Food (Restless Cottage attacks), the skeleton recurs (crime triggers, {1}{B}, landfall), and the rebuilt board — plus 4/4 Restless Cottage manlands — taps for Teamwork 2 or 4 to cast Cruel Alliance, Repulsor Blast or HULK SMASH! in their doubled modes. The graveyard fills as a side effect, and Too Evil to Stay Dead turns it into a reanimation spell: with Teamwork paid it resurrects any creature card, no mana-value limit.\nThe finish line is three-pronged. Rune-Scarred Demon and Bloodthirsty Conqueror come back as flying beaters and tutors. Conqueror plus Enduring Tenacity plus any Food sacrifice is a true infinite loop — each life gain drains the opponent, each drain gains life. And the lands themselves kill: Restless Cottage is a 4/4 Horror that makes Food on attack, and Rogue’s Passage makes it unblockable, with Team Tactics doubling the damage."
   },
   {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#approach",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#approach",
-    "title": "Mirkwood Menagerie",
+    "objectID": "decks/2026-08-23-death-by-committee.html#approach",
+    "href": "decks/2026-08-23-death-by-committee.html#approach",
+    "title": "Death by Committee",
     "section": "Approach",
-    "text": "Approach\n\nGame plan by phase\n\nDevelop the burrow (turns 1–3). Nasty Little Rabbit on turn 1; Ravening Warg, Guardian of the Halls or Duskwatch Hunter on turn 2. Small-creature entries trigger Enduring Innocence for cards. The ETB-tapped duals (Foggy Bottom Swamp, Meditation Pools, Kyoshi Village) trigger landfall on the way in.\nTurn ferocious on (turns 3–5). Ordinary Bear (4/5) and Guardian of the Halls’ {5}{G}{G} pump are the reliable enablers; Elvish Refueler grows past 4 power with spare mana; every big entry draws via Outcaster Trailblazer. Elven Raft-Steerer taps blockers on landfall, buying time.\nStampede (turns 5+). Esgaroth Garrison’s power equals your creature count; Eagle of the Great Shelf and a solved Case of the Gateway Express anthem the board; Rabbit Response is a +2/+1 finisher with scry 2 (you control a Rabbit). Ojer Taq triples tokens for the final swing, and Banner of Kinship turns the seven wolves into a +7/+7 stampede.\n\n\n\nCard roles\n\n\n\n\n\n\n\n\nCard\nRole\nKey text (verified)\n\n\n\n\nNasty Little Rabbit\nWincon feeder\nFerocious — at combat, if you control a 4+ power creature, +1/+1 counter; the deck’s Rabbit\n\n\nRavening Warg\nBeater\n2/2 deathtouch; Ferocious — attack: gain 2 life\n\n\nDesolation Prowler\nPump\nPay 2 life: +2/+2 until end of turn (once per turn)\n\n\nDuskwatch Hunter\nCounter + evasion\nCan’t be blocked by tokens; ETB: +1/+1 counter on target creature\n\n\nGreat Fierce Bee\nScry engine\nFlying; whenever one or more other creatures die, scry 1\n\n\nGuardian of the Halls\nFerocious enabler\n2/2 trample; {5}{G}{G}: three +1/+1 counters\n\n\nLittle Bear\nFlash + bear\nFlash; ETB: untap another creature; +1/+1 if it’s a Bear\n\n\nMirkwood Nurturer\nBounce engine\nETB: return up to one other permanent you control to hand; if so, +1/+1 counter\n\n\nElven Raft-Steerer\nLandfall control\nLandfall: tap target creature an opponent controls or untap yours\n\n\nVelvetwing Butterflies\nFlyer + tap\nFlying 2/2; adventure Gaze in Wonder {1}{W}: tap one or two target creatures\n\n\nTroll Negotiations\nRemoval + counters\nTwo +1/+1 counters on a creature you control, then it fights\n\n\nEagle of the Great Shelf\nAnthem\nFlying; on attack, +1/+1 per other creature you control\n\n\nEsgaroth Garrison\nWin con 1\nPower equals number of creatures you control; ETB: recruit (draw, discard, 1/1 Soldier token)\n\n\nOrdinary Bear\nFerocious enabler\n4/5 for {3}{G} — the cheapest permanent 4-power body\n\n\nEnduring Innocence\nDraw engine\nLifelink; whenever another creature you control with power 2 or less enters, draw (once per turn)\n\n\nOutcaster Trailblazer\nDraw + ramp\nETB: add one mana of any color; other 4+ power ETB: draw; plot {2}{G}\n\n\nBanner of Kinship\nWin con 3\nChoose Wolf: fellowship counter per Wolf; Wolves get +1/+1 each\n\n\nElvish Refueler\nCounter sink\nExhaust {1}{G}: +1/+1 counter; on your turn it can be re-activated\n\n\nRabbit Response\nFinisher\nCreatures you control get +2/+1; if you control a Rabbit, scry 2\n\n\nCase of the Gateway Express\nRemoval + anthem\nETB: each creature deals 1 to a creature you don’t control; solved (3+ attacked): +1/+0\n\n\nDwarven Castle Guard\nToken on death\n2/1; when it dies, create a 1/1 Hero token\n\n\nBushwhack\nRamp / fight\nSearch a basic to hand, or your creature fights\n\n\nLiminal Hold\nRemoval\nExile target nonland permanent until this leaves; gain 2 life\n\n\nRoyal Treatment\nProtection\nTarget creature you control gains hexproof; Royal Role token (+1/+1)\n\n\nOjer Taq, Deepest Foundation\nWin con 2\n6/6 vigilance; triple every creature token you create; dies → Temple of Civilization\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine\n\n\n\n\nZanarkand, Ancient Metropolis\nThe deck’s land win condition: a land whose adventure, Lasting Fayth {4}{G}{G}, creates a 1/1 Hero token with a +1/+1 counter for each land you control — a 20/20 at full development — then the land is still playable from exile\n\n\nTemple of Civilization\nOjer Taq’s back face: a land ({T}: add {W}) that transforms back into the token-tripler after you attacked with three or more creatures\n\n\nFoggy Bottom Swamp\n{B} or {G}; {4}, {T}, sacrifice: draw a card\n\n\nMeditation Pools\n{G} or {U}; {4}, {T}, sacrifice: draw a card\n\n\nKyoshi Village\n{G} or {W}; {4}, {T}, sacrifice: draw a card\n\n\n\n\n\nCurve and mana\nFour colors from 23 lands: green is the spine (13 sources), white 8, black 5, blue 4 — the hybrid cards (Duskwatch Hunter {2}{B/G}, Mirkwood Nurturer {2}{G/U}) and the triple ETB-tapped duals smooth the early turns, and rainbow fixing is not needed at this curve. The deck is creature-dense (31 creatures) with 18 cards at mana value 2; Bushwhack and Outcaster Trailblazer provide light ramp toward the 5–6 mana finishers. Mulligan aggressively toward green sources and a two-drop."
+    "text": "Approach\n\nGame plan by phase\n\nDig the graves (turns 1–3). Turn 1 Forsaken Miner or Worthy Cost (sacrificing a skeleton); turn 2 Reassembling Skeleton, Bloodghast or Fanatical Offering. Every removal spell is a “crime”, which recurs Forsaken Miner for {B} — the first two skeletons become an endless stream.\nHold the committee meeting (turns 3–5). Corpseberry Cultivator grows on every forage; Midnight Reaper converts each death into a card; Restless Cottage wakes up as a 4/4 to tap for Teamwork 4 and attack for Food. Cast Too Evil to Stay Dead, Cruel Alliance, HULK SMASH! or Repulsor Blast with their doubled modes.\nThe vote passes (turns 5+). Too Evil to Stay Dead (Teamwork) reanimates the big two: Rune-Scarred Demon tutors the missing combo piece, Bloodthirsty Conqueror starts the drain. Close with the infinite Food loop, or send an unblockable, double-striking Restless Cottage over the top.\n\n\n\nCard roles\n\n\n\n\n\n\n\n\nCard\nRole\nKey text (verified)\n\n\n\n\nForsaken Miner\nEngine fodder\n2/2, can’t block; whenever you commit a crime, pay {B} to return it from graveyard to battlefield\n\n\nReassembling Skeleton\nEngine fodder\n1/1; {1}{B}: return from graveyard to battlefield tapped\n\n\nBloodghast\nEngine fodder\n2/1, can’t block, haste vs. opponent at 10 or less; Landfall: return from graveyard\n\n\nMidnight Reaper\nDraw engine\nWhenever a nontoken creature you control dies, it deals 1 damage to you and you draw a card\n\n\nCorpseberry Cultivator\nTeam growth\nAt combat, you may forage (exile 3 from graveyard or sacrifice a Food); +1/+1 counter per forage\n\n\nSolemn Simulacrum\nRamp + recursion\nETB: fetch a basic land; dies: draw a card; a clean Too Evil target\n\n\nEnduring Tenacity\nCombo half\nWhenever you gain life, target opponent loses that much; dies and returns as an enchantment\n\n\nBloodthirsty Conqueror\nCombo half + beater\nFlying, deathtouch; whenever an opponent loses life, you gain that much\n\n\nRune-Scarred Demon\nTutor finisher\n6/6 flying; ETB: search library for any card\n\n\nToo Evil to Stay Dead\nReanimation engine\nTeamwork 4; reanimate mana value 4 or less — with Teamwork, any creature card\n\n\nFanatical Offering\nSacrifice draw\nSacrifice an artifact or creature: draw two cards and create a Map token\n\n\nWorthy Cost\nSacrifice removal\nSacrifice a creature: exile target creature or planeswalker\n\n\nHULK SMASH!\nTeamwork removal\nTeamwork 4; destroy noncreature artifact, or fight — both with Teamwork\n\n\nRepulsor Blast\nTeamwork burn\nTeamwork 2; deal 5 to a creature, plus 2 to its controller with Teamwork\n\n\nTeam Tactics\nTeamwork pump\nTeamwork 1; double strike, plus trample with Teamwork\n\n\nCruel Alliance\nTeamwork exile\nTeamwork 2; exile mana value 3 or less — with Teamwork, exile any creature and gain 3 life\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine\n\n\n\n\nRestless Cottage\nThe land win condition: {2}{B}{G} becomes a 4/4 Horror — taps for Teamwork 4, attacks for 4, and makes a Food token (the drain-combo fuel) plus exiles a graveyard card on attack\n\n\nRogue’s Passage\n{4}, {T}: target creature can’t be blocked — turns the Cottage (or Conqueror) into an unblockable kill with Team Tactics\n\n\nFountainport\nToken engine: {3}, {T}, pay 1 life creates a 1/1 Fish; {2}, {T}, sacrifice a token draws a card; {4}, {T} makes Treasure — bodies, sacrifice fodder and fixing in one land\n\n\nBlooming Marsh / Deathcap Glade\nUntapped black-green fast lands — the mana spine that powers turn 1 Miner and turn 2 Offering\n\n\nOvergrown Tomb / Underground Mortuary\nBlack-green duals; the Mortuary’s surveil 1 feeds the graveyard for Too Evil\n\n\nCommercial District / Blazemire Verge\nThe red sources — surveil 1 or {B}/{R} fixing that casts HULK SMASH!, Repulsor Blast and Team Tactics\n\n\nFabled Passage\nBasic fixing that also triggers Bloodghast’s landfall recursion\n\n\n\n\n\nCurve and mana\nSeventeen creatures, seventeen spells, twenty-six lands. The nonland curve averages about 2.4 mana: nine one- and two-drop recursion bodies, eight three-drops, four four-drops and three reanimation-only finishers (mana value 5 to 7, almost never hard-cast). Black is the spine (roughly twenty sources), green supports it (seventeen), and red is a splash of six cards (five to six sources). The deck is soft to mana flood — Fountainport and Fabled Passage convert spare lands into cards and recursion triggers."
   },
   {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#gameplay-strategy",
-    "title": "Mirkwood Menagerie",
+    "objectID": "decks/2026-08-23-death-by-committee.html#gameplay-strategy",
+    "href": "decks/2026-08-23-death-by-committee.html#gameplay-strategy",
+    "title": "Death by Committee",
     "section": "Gameplay strategy",
-    "text": "Gameplay strategy\n\nEarly game\nTurn 1 Nasty Little Rabbit, turn 2 any two-drop. Prefer Guardian of the Halls and Ravening Warg — they win the ground while Duskwatch Hunter’s counter and token-evasion apply pressure. Enduring Innocence on turn 3 turns every subsequent small creature into a card. The duals enter tapped, so sequence basics first on turns 1–2.\n\n\nMid game\nEstablish ferocious: Ordinary Bear or a {5}{G}{G} pump on Guardian of the Halls. From here Outcaster Trailblazer draws on every big entry, and Mirkwood Nurturer can bounce a spent creature (or an ETB-tapped land) to re-trigger entries and landfall. Elven Raft-Steerer taps the biggest blocker each landfall, letting wolves and bears through.\n\n\nThe combo turn\n\nEnduring Innocence + Outcaster Trailblazer convert every creature you cast into a card — the swarm refuels itself.\nMirkwood Nurturer bounces and replays a creature (or a land) for extra counters, draws and landfall taps.\nOjer Taq, Deepest Foundation triples every token: Esgaroth’s recruit Soldier, Castle Guard’s Hero, Royal Treatment’s Role — each token maker now makes three bodies.\nSwing with the full board: Esgaroth Garrison is huge from the creature count, Eagle of the Great Shelf anthems per attacker, Case of the Gateway Express is solved (+1/+0), and Rabbit Response gives +2/+1 and scry 2.\n\n\n\nWin condition 2 — the giant Hero\nCast Lasting Fayth from Zanarkand, Ancient Metropolis when you control a dozen or more lands: the Hero token enters with that many +1/+1 counters. Royal Treatment and Duskwatch Hunter counters stack on it. The token wins through sheer size — protect it with Royal Treatment and finish over two turns.\n\n\nWin condition 3 — the Wolf stampede\nBanner of Kinship enters naming Wolf with a fellowship counter for each Wolf you control — up to seven (three Ravening Warg, three Duskwatch Hunter, one Desolation Prowler) — turning every Wolf into a 9/9-plus threat. It is a one-card finisher that also works as a giant pump for the wolf half of the board.\n\n\nMulligan guide\n\nKeep: 2–3 lands with a green source, a two-drop, and ideally a Rabbit or Guardian.\nShip: one-landers, five-plus-land hands, and hands with double-white or double-black spells but no matching source.\nKeep Outcaster Trailblazer or Enduring Innocence hands on a playable curve — the engines beat raw stats.\nThe ETB-tapped duals slow the first two turns: an opening of three tapped duals is a mulligan.\n\n\n\nKey interactions and edge cases\n\nEnduring Innocence triggers only once per turn — time your token bursts (Esgaroth recruit, Castle Guard death) to your own turn.\nOutcaster Trailblazer draws only on power 4 or greater entries — the ferocious enablers (Ordinary Bear, Guardian pump, Refueler growth) are what turn it on.\nBanner of Kinship chooses a type at entry — name Wolf; the fellowship counter count is set when it enters, so cast it when your wolf count is highest.\nOjer Taq triples tokens, not counters — the +1/+1 counters from Duskwatch Hunter, Troll Negotiations and Refueler are unaffected (a good thing: they stack on tripled bodies).\nZanarkand is a land and a spell — cast Lasting Fayth from hand, then play Zanarkand from exile later; the land face enters tapped.\nOjer Taq’s death returns it transformed as Temple of Civilization, a land; {2}{W}, {T} transforms it back after attacking with three or more creatures — the win condition loops itself.\nLiminal Hold exiles until it leaves — it handles any nonland permanent, including enchantments and artifacts.\nMirkwood Nurturer can bounce a land — replay it for an extra landfall trigger (Raft-Steerer tap-down).\nCase of the Gateway Express solves at your end step after three or more creatures attacked — the +1/+0 is permanent once solved.\n\n\n\nMatchups\n\nAggro: Ravening Warg deathtouch and Raft-Steerer landfall taps hold the ground; Great Fierce Bee and Velvetwing Butterflies block flyers; Liminal Hold exiles the biggest threat.\nMidrange: Outcaster Trailblazer’s card advantage out-draws them; Troll Negotiations and Bushwhack fights trade up; Banner of Kinship and Ojer Taq outclass their top end.\nControl: Enduring Innocence and Trailblazer refill after sweepers; Royal Treatment protects Ojer Taq; Zanarkand’s giant Hero token is a single-card clock they can’t answer cheaply."
+    "text": "Gameplay strategy\n\nEarly game\nPrioritize a black source and a one-drop: Forsaken Miner on turn 1 threatens a free 2/2 every time you later cast removal, which is a crime. Reassembling Skeleton on turn 2 blocks the format’s early attackers and sets up turn 3 Fanatical Offering. Do not hold skeletons — they are meant to die; the whole deck is built around them coming back. Sequence the untapped fast lands early and the tapped duals (Mortuary, Commercial District, Overgrown Tomb) later.\n\n\nMid game\nStart sacrificing on your own terms. Fanatical Offering turns any skeleton into two cards and a Map token; Worthy Cost answers a planeswalker or creature for one mana plus a body that was going to die anyway. Every nontoken death triggers Midnight Reaper, so a single Reassembling Skeleton recursion loop is a repeatable draw spell. Corpseberry Cultivator forages at every combat — exile three graveyard cards (or sacrifice a Food from a Cottage attack) to grow it into a credible Teamwork contributor.\n\n\nThe combo turn\nThe board is a committee of 2-power skeletons and a Restless Cottage. Tap total power 4 (two 2/2 Miners, or Miner + Bloodghast, or the 4/4 Cottage) to pay Teamwork on Too Evil to Stay Dead and reanimate two of Bloodthirsty Conqueror, Rune-Scarred Demon and Enduring Tenacity from the graveyard you have been filling all game. Demon tutors the missing piece; then the drain loop closes:\n\nAttack with Restless Cottage — it creates a Food token.\nSacrifice the Food: gain 3 life.\nEnduring Tenacity: target opponent loses 3 life.\nBloodthirsty Conqueror: you gain 3 life — loop back to step 3. The opponent dies.\n\nThe loop needs only Conqueror + Tenacity + any lifegain, and both halves are reanimation targets, so the graveyard is the hand. If the loop is disrupted, the reanimated pair still attacks for 10-11 flying damage with the Demon’s tutor finding whatever is missing.\n\n\nWin condition 2\nThe lands kill. Activate Restless Cottage ({2}{B}{G}) into a 4/4, cast Team Tactics tapping any creature (Teamwork 1 is nearly free) for double strike and trample, then activate Rogue’s Passage ({4}, {T}) — 8 unblockable damage from a land. In long games the Cottage also grinds: attack, make Food, exile a graveyard card (shutting down opposing reanimation), then sacrifice the Food to grow Corpseberry Cultivator or to feed the drain loop.\n\n\nMulligan guide\nKeep any hand with two or three lands and a one- or two-drop — the deck functions on skeletons alone. Ship hands with no black source or with only tapped lands and no early play. Keep Too Evil to Stay Dead plus a sacrifice spell plus a body; the reanimation plan only needs a graveyard, which sacrifice provides. Against aggressive decks, favor removal (Worthy Cost, HULK SMASH!) over the Teamwork spells.\n\n\nKey interactions and edge cases\n\nCrime recursion: Worthy Cost, Cruel Alliance, Repulsor Blast and HULK SMASH!’s fight mode all target opponents or their permanents, so each one recurs Forsaken Miner for {B} — sequence removal before combat to rebuild the board for Teamwork.\nTeamwork is optional: every Teamwork spell can be cast without tapping — a doubled mode is a bonus, not a requirement; tap only when the payoff is worth the tapped creatures.\nEnduring Tenacity returns as an enchantment when it dies as a creature — it stops being sacrifice fodder but keeps draining, so the combo survives a board wipe.\nToo Evil to Stay Dead without Teamwork is still a two-for-one enabler at mana value 4 or less — Solemn Simulacrum is the ideal cheap target (ramps, then draws on death).\nFountainport tokens count: a 1/1 Fish is a creature for Teamwork 1 and a sacrifice for Fanatical Offering, and sacrificing it draws a card.\nDon’t over-sacrifice: the team is also the Teamwork payment; keep at least one body untapped to pay Teamwork 2/4 next turn.\n\n\n\nMatchups\n\nAggro: the skeletons block forever and Worthy Cost / HULK SMASH! / Cruel Alliance clear the path; Conqueror’s lifegain ends the race.\nMidrange: grind them out — every sacrifice replaces itself with cards (Fanatical Offering, Midnight Reaper) while Too Evil reanimates bigger creatures than they can answer.\nControl: spread threats (manlands, Fountainport Fish) so sweepers never fully reset; the graveyard is a second hand, so wraths that don’t exile are meaningless. Rogue’s Passage closes through blockers.\nGraveyard hate: the deck still plays a fair midrange game — skeletons and removal — but mulligan aggressively for Cottage plus Team Tactics to win on the land plan instead."
   },
   {
-    "objectID": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
-    "href": "decks/2026-08-21-mirkwood-menagerie.html#deck-list-arena-import",
-    "title": "Mirkwood Menagerie",
+    "objectID": "decks/2026-08-23-death-by-committee.html#deck-list-arena-import",
+    "href": "decks/2026-08-23-death-by-committee.html#deck-list-arena-import",
+    "title": "Death by Committee",
     "section": "Deck list (Arena import)",
-    "text": "Deck list (Arena import)\n7 Forest\n4 Nasty Little Rabbit\n4 Plains\n3 Duskwatch Hunter\n3 Guardian of the Halls\n3 Ravening Warg\n2 Enduring Innocence\n2 Esgaroth Garrison\n2 Foggy Bottom Swamp\n2 Island\n2 Kyoshi Village\n2 Meditation Pools\n2 Outcaster Trailblazer\n2 Swamp\n2 Zanarkand, Ancient Metropolis\n1 Banner of Kinship\n1 Bushwhack\n1 Case of the Gateway Express\n1 Desolation Prowler\n1 Dwarven Castle Guard\n1 Eagle of the Great Shelf\n1 Elven Raft-Steerer\n1 Elvish Refueler\n1 Great Fierce Bee\n1 Liminal Hold\n1 Little Bear\n1 Mirkwood Nurturer\n1 Ojer Taq, Deepest Foundation\n1 Ordinary Bear\n1 Rabbit Response\n1 Royal Treatment\n1 Troll Negotiations\n1 Velvetwing Butterflies"
+    "text": "Deck list (Arena import)\nDeath by Committee\nDeck\n4 Forsaken Miner\n3 Reassembling Skeleton\n2 Bloodghast\n2 Midnight Reaper\n2 Corpseberry Cultivator\n1 Solemn Simulacrum\n1 Enduring Tenacity\n1 Bloodthirsty Conqueror\n1 Rune-Scarred Demon\n4 Too Evil to Stay Dead\n3 Fanatical Offering\n2 Worthy Cost\n2 HULK SMASH!\n2 Repulsor Blast\n2 Team Tactics\n2 Cruel Alliance\n4 Blooming Marsh\n4 Deathcap Glade\n4 Restless Cottage\n2 Overgrown Tomb\n2 Underground Mortuary\n2 Commercial District\n2 Blazemire Verge\n1 Fabled Passage\n1 Rogue's Passage\n1 Fountainport\n1 Forest\n1 Swamp\n1 Mountain"
   },
   {
     "objectID": "decks/2026-08-22-spiderweb-landslide.html",

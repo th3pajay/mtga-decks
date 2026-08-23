@@ -2,7 +2,13 @@
 title: "Archive"
 ---
 
-**6 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**Card pool consumption** — cycle started 2026-08-22 · **26** cards locked · **Hobbit 193/193** remaining
+
+**7 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-08-23
+
+- **[Death by Committee](decks/2026-08-23-death-by-committee.html)** — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo  `combo` `sacrifice` `teamwork`
 
 ## 2026-08-22
 

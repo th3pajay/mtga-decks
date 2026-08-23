@@ -1,0 +1,153 @@
+---
+title: "Death by Committee"
+subtitle: "Black-Red-Green (Jund) — Sacrifice × Teamwork Combo"
+date: "2026-08-23"
+categories: ["combo", "sacrifice", "teamwork"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (all 60 cards verified legal via MTGADB) |
+| Colors | Black, Red, Green (Jund) |
+| Archetype | Aristocrats + Teamwork reanimator: recurring skeletons feed sacrifice spells, the tapped "team" doubles every Teamwork spell |
+| Size | 60 cards (17 creatures, 17 spells, 26 lands) |
+| Primary win | Teamwork reanimation: Too Evil to Stay Dead reanimates Bloodthirsty Conqueror / Rune-Scarred Demon / Enduring Tenacity from a graveyard stuffed by sacrifice |
+| Secondary win | Infinite drain: Bloodthirsty Conqueror + Enduring Tenacity + a Food token loop = opponent loses all life |
+| Land win | Restless Cottage manland (4/4) + Team Tactics double strike + Rogue's Passage unblockable |
+
+## Overview
+
+Death by Committee fuses the two rolled mechanics — **Sacrifice** and **Teamwork** — into one engine: the committee *is* the sacrifice fodder. Forsaken Miner, Reassembling Skeleton and Bloodghast refuse to stay dead, so every turn the deck has a fresh set of bodies: tap them to pay Teamwork costs, sacrifice them to draw cards and exile threats, and let their death triggers refill the hand. The Teamwork payoff spells from the Spider-Man set turn that rotating cast of characters into removal, burn and reanimation that does double duty.
+
+The engine loop: a skeleton dies to Fanatical Offering (draw two) or Worthy Cost (exile a threat), the death triggers draw more cards (Midnight Reaper) or make Food (Restless Cottage attacks), the skeleton recurs (crime triggers, {1}{B}, landfall), and the rebuilt board — plus 4/4 Restless Cottage manlands — taps for Teamwork 2 or 4 to cast Cruel Alliance, Repulsor Blast or HULK SMASH! in their doubled modes. The graveyard fills as a side effect, and **Too Evil to Stay Dead** turns it into a reanimation spell: with Teamwork paid it resurrects *any* creature card, no mana-value limit.
+
+The finish line is three-pronged. Rune-Scarred Demon and Bloodthirsty Conqueror come back as flying beaters and tutors. Conqueror plus Enduring Tenacity plus any Food sacrifice is a true infinite loop — each life gain drains the opponent, each drain gains life. And the lands themselves kill: Restless Cottage is a 4/4 Horror that makes Food on attack, and Rogue's Passage makes it unblockable, with Team Tactics doubling the damage.
+
+## Approach
+
+### Game plan by phase
+
+1. **Dig the graves (turns 1–3).** Turn 1 Forsaken Miner or Worthy Cost (sacrificing a skeleton); turn 2 Reassembling Skeleton, Bloodghast or Fanatical Offering. Every removal spell is a "crime", which recurs Forsaken Miner for {B} — the first two skeletons become an endless stream.
+2. **Hold the committee meeting (turns 3–5).** Corpseberry Cultivator grows on every forage; Midnight Reaper converts each death into a card; Restless Cottage wakes up as a 4/4 to tap for Teamwork 4 and attack for Food. Cast Too Evil to Stay Dead, Cruel Alliance, HULK SMASH! or Repulsor Blast with their doubled modes.
+3. **The vote passes (turns 5+).** Too Evil to Stay Dead (Teamwork) reanimates the big two: Rune-Scarred Demon tutors the missing combo piece, Bloodthirsty Conqueror starts the drain. Close with the infinite Food loop, or send an unblockable, double-striking Restless Cottage over the top.
+
+### Card roles
+
+| Card | Role | Key text (verified) |
+|---|---|---|
+| Forsaken Miner | Engine fodder | 2/2, can't block; whenever you commit a crime, pay {B} to return it from graveyard to battlefield |
+| Reassembling Skeleton | Engine fodder | 1/1; {1}{B}: return from graveyard to battlefield tapped |
+| Bloodghast | Engine fodder | 2/1, can't block, haste vs. opponent at 10 or less; Landfall: return from graveyard |
+| Midnight Reaper | Draw engine | Whenever a nontoken creature you control dies, it deals 1 damage to you and you draw a card |
+| Corpseberry Cultivator | Team growth | At combat, you may forage (exile 3 from graveyard or sacrifice a Food); +1/+1 counter per forage |
+| Solemn Simulacrum | Ramp + recursion | ETB: fetch a basic land; dies: draw a card; a clean Too Evil target |
+| Enduring Tenacity | Combo half | Whenever you gain life, target opponent loses that much; dies and returns as an enchantment |
+| Bloodthirsty Conqueror | Combo half + beater | Flying, deathtouch; whenever an opponent loses life, you gain that much |
+| Rune-Scarred Demon | Tutor finisher | 6/6 flying; ETB: search library for any card |
+| Too Evil to Stay Dead | Reanimation engine | Teamwork 4; reanimate mana value 4 or less — with Teamwork, any creature card |
+| Fanatical Offering | Sacrifice draw | Sacrifice an artifact or creature: draw two cards and create a Map token |
+| Worthy Cost | Sacrifice removal | Sacrifice a creature: exile target creature or planeswalker |
+| HULK SMASH! | Teamwork removal | Teamwork 4; destroy noncreature artifact, or fight — both with Teamwork |
+| Repulsor Blast | Teamwork burn | Teamwork 2; deal 5 to a creature, plus 2 to its controller with Teamwork |
+| Team Tactics | Teamwork pump | Teamwork 1; double strike, plus trample with Teamwork |
+| Cruel Alliance | Teamwork exile | Teamwork 2; exile mana value 3 or less — with Teamwork, exile any creature and gain 3 life |
+
+### Lands as engines
+
+| Land | Engine |
+|---|---|
+| Restless Cottage | The land win condition: {2}{B}{G} becomes a 4/4 Horror — taps for Teamwork 4, attacks for 4, and makes a Food token (the drain-combo fuel) plus exiles a graveyard card on attack |
+| Rogue's Passage | {4}, {T}: target creature can't be blocked — turns the Cottage (or Conqueror) into an unblockable kill with Team Tactics |
+| Fountainport | Token engine: {3}, {T}, pay 1 life creates a 1/1 Fish; {2}, {T}, sacrifice a token draws a card; {4}, {T} makes Treasure — bodies, sacrifice fodder and fixing in one land |
+| Blooming Marsh / Deathcap Glade | Untapped black-green fast lands — the mana spine that powers turn 1 Miner and turn 2 Offering |
+| Overgrown Tomb / Underground Mortuary | Black-green duals; the Mortuary's surveil 1 feeds the graveyard for Too Evil |
+| Commercial District / Blazemire Verge | The red sources — surveil 1 or {B}/{R} fixing that casts HULK SMASH!, Repulsor Blast and Team Tactics |
+| Fabled Passage | Basic fixing that also triggers Bloodghast's landfall recursion |
+
+### Curve and mana
+
+Seventeen creatures, seventeen spells, twenty-six lands. The nonland curve averages about 2.4 mana: nine one- and two-drop recursion bodies, eight three-drops, four four-drops and three reanimation-only finishers (mana value 5 to 7, almost never hard-cast). Black is the spine (roughly twenty sources), green supports it (seventeen), and red is a splash of six cards (five to six sources). The deck is soft to mana flood — Fountainport and Fabled Passage convert spare lands into cards and recursion triggers.
+
+## Gameplay strategy
+
+### Early game
+
+Prioritize a black source and a one-drop: Forsaken Miner on turn 1 threatens a free 2/2 every time you later cast removal, which is a crime. Reassembling Skeleton on turn 2 blocks the format's early attackers and sets up turn 3 Fanatical Offering. Do not hold skeletons — they are meant to die; the whole deck is built around them coming back. Sequence the untapped fast lands early and the tapped duals (Mortuary, Commercial District, Overgrown Tomb) later.
+
+### Mid game
+
+Start sacrificing on your own terms. Fanatical Offering turns any skeleton into two cards and a Map token; Worthy Cost answers a planeswalker or creature for one mana plus a body that was going to die anyway. Every nontoken death triggers Midnight Reaper, so a single Reassembling Skeleton recursion loop is a repeatable draw spell. Corpseberry Cultivator forages at every combat — exile three graveyard cards (or sacrifice a Food from a Cottage attack) to grow it into a credible Teamwork contributor.
+
+### The combo turn
+
+The board is a committee of 2-power skeletons and a Restless Cottage. Tap total power 4 (two 2/2 Miners, or Miner + Bloodghast, or the 4/4 Cottage) to pay Teamwork on **Too Evil to Stay Dead** and reanimate two of Bloodthirsty Conqueror, Rune-Scarred Demon and Enduring Tenacity from the graveyard you have been filling all game. Demon tutors the missing piece; then the drain loop closes:
+
+1. Attack with Restless Cottage — it creates a Food token.
+2. Sacrifice the Food: gain 3 life.
+3. Enduring Tenacity: target opponent loses 3 life.
+4. Bloodthirsty Conqueror: you gain 3 life — loop back to step 3. The opponent dies.
+
+The loop needs only Conqueror + Tenacity + any lifegain, and both halves are reanimation targets, so the graveyard is the hand. If the loop is disrupted, the reanimated pair still attacks for 10-11 flying damage with the Demon's tutor finding whatever is missing.
+
+### Win condition 2
+
+The lands kill. Activate Restless Cottage ({2}{B}{G}) into a 4/4, cast Team Tactics tapping any creature (Teamwork 1 is nearly free) for double strike and trample, then activate Rogue's Passage ({4}, {T}) — 8 unblockable damage from a land. In long games the Cottage also grinds: attack, make Food, exile a graveyard card (shutting down opposing reanimation), then sacrifice the Food to grow Corpseberry Cultivator or to feed the drain loop.
+
+### Mulligan guide
+
+Keep any hand with two or three lands and a one- or two-drop — the deck functions on skeletons alone. Ship hands with no black source or with only tapped lands and no early play. Keep Too Evil to Stay Dead plus a sacrifice spell plus a body; the reanimation plan only needs a graveyard, which sacrifice provides. Against aggressive decks, favor removal (Worthy Cost, HULK SMASH!) over the Teamwork spells.
+
+### Key interactions and edge cases
+
+- **Crime recursion:** Worthy Cost, Cruel Alliance, Repulsor Blast and HULK SMASH!'s fight mode all target opponents or their permanents, so each one recurs Forsaken Miner for {B} — sequence removal before combat to rebuild the board for Teamwork.
+- **Teamwork is optional:** every Teamwork spell can be cast without tapping — a doubled mode is a bonus, not a requirement; tap only when the payoff is worth the tapped creatures.
+- **Enduring Tenacity returns as an enchantment** when it dies as a creature — it stops being sacrifice fodder but keeps draining, so the combo survives a board wipe.
+- **Too Evil to Stay Dead without Teamwork** is still a two-for-one enabler at mana value 4 or less — Solemn Simulacrum is the ideal cheap target (ramps, then draws on death).
+- **Fountainport tokens count:** a 1/1 Fish is a creature for Teamwork 1 and a sacrifice for Fanatical Offering, and sacrificing it draws a card.
+- **Don't over-sacrifice:** the team is also the Teamwork payment; keep at least one body untapped to pay Teamwork 2/4 next turn.
+
+### Matchups
+
+- **Aggro:** the skeletons block forever and Worthy Cost / HULK SMASH! / Cruel Alliance clear the path; Conqueror's lifegain ends the race.
+- **Midrange:** grind them out — every sacrifice replaces itself with cards (Fanatical Offering, Midnight Reaper) while Too Evil reanimates bigger creatures than they can answer.
+- **Control:** spread threats (manlands, Fountainport Fish) so sweepers never fully reset; the graveyard is a second hand, so wraths that don't exile are meaningless. Rogue's Passage closes through blockers.
+- **Graveyard hate:** the deck still plays a fair midrange game — skeletons and removal — but mulligan aggressively for Cottage plus Team Tactics to win on the land plan instead.
+
+## Deck list (Arena import)
+
+```
+Death by Committee
+Deck
+4 Forsaken Miner
+3 Reassembling Skeleton
+2 Bloodghast
+2 Midnight Reaper
+2 Corpseberry Cultivator
+1 Solemn Simulacrum
+1 Enduring Tenacity
+1 Bloodthirsty Conqueror
+1 Rune-Scarred Demon
+4 Too Evil to Stay Dead
+3 Fanatical Offering
+2 Worthy Cost
+2 HULK SMASH!
+2 Repulsor Blast
+2 Team Tactics
+2 Cruel Alliance
+4 Blooming Marsh
+4 Deathcap Glade
+4 Restless Cottage
+2 Overgrown Tomb
+2 Underground Mortuary
+2 Commercial District
+2 Blazemire Verge
+1 Fabled Passage
+1 Rogue's Passage
+1 Fountainport
+1 Forest
+1 Swamp
+1 Mountain
+```
