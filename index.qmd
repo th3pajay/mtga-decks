@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-08-23**:
 
+- **[Gilded Horde](decks/2026-08-23-gilded-horde.html)** — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck  `hobbit` `amass`
 - **[Death by Committee](decks/2026-08-23-death-by-committee.html)** — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo  `combo` `sacrifice` `teamwork`

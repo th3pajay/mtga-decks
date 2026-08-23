@@ -1,0 +1,169 @@
+---
+title: "Gilded Horde"
+subtitle: "Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck"
+date: "2026-08-23"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green |
+| Archetype | Combo-burn x Treasure ramp (avg CMC 2.54) |
+| Size | 60 cards |
+| Primary win | The Great Goblin ping chain — every amass / counter event deals 2 damage |
+| Secondary win | Treasure-fueled combat: giant unblockable Army, Smaug the Magnificent swing, 6/6 Dragon token |
+| Land win con | Goblin-town (pumps the Army and re-triggers the ping) + Rogue's Passage (unblockable) |
+
+# Overview
+
+Gilded Horde fuses the two black-red engines of The Hobbit set: the Amass Goblins counter machine and Smaug's Treasure economy. The core is the same one the Goblin-town raiders rely on — The Great Goblin, who deals 2 damage to the opponent every time you put one or more counters on a Goblin, Orc, or Army you control. Since an amassed Army is also a Goblin, every amass spell in the deck is a burn spell that also grows a creature.
+
+The Smaug half converts that pressure into gold. Orcrist, Goblin-cleaver turns combat damage into a Treasure per Goblin you control; Smaug the Magnificent mints a Treasure every upkeep and deals its damage on attack equal to your Treasure count; The Misty Mountains Cold banks four Treasures and pays out a 6/6 Dragon. Crime Novelist spends those Treasures on +1/+1 counters — which, of course, re-trigger The Great Goblin. The result is a deck where the burn plan and the gold plan feed each other: amass to grow, grow to swing, swing to mint, mint to ping.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop: Goblin-town Flunkies (amass 1), Bothersome Noisemaker, Rage into the Valley |
+| Turn 3 | The Great Goblin lands — every subsequent counter event is 2 damage |
+| Turns 4-6 | Chain amass spells (Rage, Tidings + flashback, Clap! Snap!, Plate Mail) to burn and grow |
+| Turn 5-7 | Smaug the Magnificent + Orcrist come down; Treasures start flowing |
+| Late game | Goblin-town and Crime Novelist re-ping while the Army swings for lethal; Dragon token finishes |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| The Great Goblin | Engine and payoff: 2 damage per counter event on a Goblin/Orc/Army; impulse draw on Goblin deaths |
+| Goblin-town Flunkies | Haste body that amasses 1 on entry (2 damage with the Goblin) |
+| Azog, Moria's Ruin | Removal that amasses X equal to the destroyed creature's power — the biggest single amass |
+| Bothersome Noisemaker | Every noncreature spell also amasses 1 — doubles the burn rate |
+| Fearsome Goblin Pair | Dies into amass 4: a 2-damage shock plus +4/+4 for the Army |
+| Bolg of the North | Sac outlet: deals the sacrificed creature's power as damage, excess becomes amass |
+| Smaug the Magnificent | Flying haste finisher: upkeep Treasure, attack deals damage equal to Treasures |
+| Smaug, Wicked Worm | Treasures from opponent artifacts; draws a card per Treasure-cast spell |
+| Great Ugly-Looking Goblin | Adventure amass 2; the body gives every countered creature menace |
+| Gandalf, Goblins' Bane | Second burn layer: noncreature spells deal 1 to each opponent and grow Gandalf |
+| Crime Novelist | Spends Treasures: sac an artifact, get a +1/+1 counter (another ping!) and a red mana |
+| Rage into the Valley | Draws a card and amasses 2 — the best rate in the deck |
+| Tidings of War | One-mana amass 1, flashback for amass 3 — two pings from one card |
+| Gathering of Darkness | Amasses 3 and returns a creature (Azog, Flunkies, or the Great Goblin itself) |
+| Warg Tactics | +1 counter (ping) plus trample and hexproof on the Army; or flying removal |
+| The Misty Mountains Cold | Saga: banks 4 Treasures, then makes a 6/6 flying Dragon |
+| Goblin Plate Mail | Amasses 1 on entry and grants the Army menace |
+| Orcrist, Goblin-cleaver | +2/+2 trample; combat damage mints a Treasure per Goblin you control |
+| My Precious | Hexproof and can't-be-blocked on the Army; Allure of Power sacs a Goblin for draw 2 |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | {B} or {R}; {2}{B}{R} sac: two +1/+1 counters on a Goblin/Orc — pumps the Army AND pings 2 via The Great Goblin. The win-con land |
+| Rogue's Passage | {4}: target creature can't be blocked — the combat finisher for the Army |
+| Cavern of Souls | Names Goblin: uncounterable Great Goblin, Azog, Flunkies, Noisemaker |
+| Jagged Barrens | {B} or {R} plus 1 damage to the opponent on entry — a free burn point |
+| Restless Vents | Late-game 2/3 menace attacker; discards to loot |
+| Mirkwood | {B} or {G} — the green splash fixing |
+| Razortrap Gorge / Strangled Cemetery / Wastewood Verge / Thornspire Verge | Fast BR / BG / RG fixing |
+
+## Curve and mana
+
+21 lands: 4 Goblin-town, 3 Mirkwood, 2 Jagged Barrens, 1 each of Restless Vents, Razortrap Gorge, Strangled Cemetery, Wastewood Verge, Thornspire Verge, Cavern of Souls, Rogue's Passage, plus 2 Mountain, 2 Swamp, 1 Forest. Red sources 11, black 15, green 7 — green is a light splash for Warg Tactics only.
+
+Nonland curve: 1-drop x2, 2-drop x19, 3-drop x14, 4-drop x3, 5-drop x1. Average CMC 2.54. The deck wants black and red early: Flunkies or Noisemaker on turn 2 into a turn-3 Great Goblin, with Smaug the Magnificent arriving turn 4 and Orcrist turn 5.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Goblin-town Flunkies on turn 2 — a 2/1 haste body that starts the Army. Bothersome Noisemaker is the better turn-2 against removal-light decks because it turns every later spell into extra damage. Rage into the Valley is fine to fire off early if it keeps your curve rolling; Tidings of War should be held for the turn The Great Goblin resolves, where it becomes one mana for 2 damage. Azog on turn 3 doubles as removal and amass: killing a 4/4 is four Army counters and a ping.
+
+## Mid game
+
+Land The Great Goblin as early as possible — it is the entire burn engine. From there, every amass spell is a Lightning Bolt that also grows the Army. Develop the treasure side once the Army is big: Smaug the Magnificent on turn 4 starts banking Treasures every upkeep, and Orcrist makes combat damage pay in gold. Crime Novelist turns those Treasures into counters — and counters into pings.
+
+## The combo turn
+
+With The Great Goblin and Bothersome Noisemaker on board, each spell is worth two pings:
+
+- Rage into the Valley: amass 2 (2 damage) + Noisemaker amass 1 (2 damage) = 4 damage and a card.
+- Tidings of War: 4 damage, then flashback for amass 3 — another 4.
+- Clap! Snap! (adventure): 4 damage.
+- Goblin Plate Mail: 4 damage and the Army gains menace.
+- Gathering of Darkness: 4 damage plus a creature back.
+
+A typical kill turn: Great Goblin + Noisemaker + Rage (4) + Tidings (4) + Tidings flashback (4) + Clap! Snap! (4) + Plate Mail (4) = 20 damage from spells alone, with the Army attacking as a 15/15+. Crime Novelist adds a counter-ping for every Treasure sacrificed, and Goblin-town's land activation is a repeatable 2-damage ping from the mana base.
+
+## Win condition 2
+
+If the burn gets answered, the gold plan wins: equip the Army with Orcrist (+2/+2, trample) and My Precious (hexproof, can't be blocked) or activate Rogue's Passage, then swing. Combat damage from Orcrist mints a Treasure per Goblin you control — with four Goblins on board that is four Treasures, which Smaug the Magnificent converts into damage on its own attack. The Misty Mountains Cold banks four Treasures and pays out a 6/6 flying Dragon, and Restless Vents provides a repeatable menace attacker. The Army usually ends the game in one or two swings; Smaug's attack trigger closes out games where the Army is chump-blocked.
+
+## Mulligan guide
+
+Keep: 2-3 lands with a turn-3 Great Goblin or early amass pieces (Flunkies, Rage, Noisemaker). The Great Goblin is the engine — hands without it need a fast Army plan or Azog interaction. Mulligan 4+ land hands with no action and 0-1 land hands. A black/red-heavy hand is fine; green is only needed for Warg Tactics.
+
+## Key interactions and edge cases
+
+- Amass X puts X counters on the Army in one event — The Great Goblin pings once per amass event, not once per counter.
+- The Army token is a Goblin, so it triggers The Great Goblin, counts for Orcrist's Treasure generation, and can be named with Cavern of Souls.
+- Goblin Plate Mail amasses 1 and attaches to the Army automatically — the ping and the menace happen on entry.
+- Azog destroys a creature and amasses X equal to its power: killing a 5/5 is 5 counters plus a ping; if the creature was yours, you draw a card.
+- Bolg of the North converts a sacrificed Fearsome Goblin Pair into power-damage, with the excess becoming amass — and the Pair's death trigger amasses 4 on top.
+- My Precious's adventure, Allure of Power, sacrifices a Goblin for draw 2 — sac a Fearsome Goblin Pair for amass 4 plus the draw.
+- Crime Novelist triggers on any sacrificed artifact — Treasures from Orcrist, Smaug, and The Misty Mountains Cold all convert to counters and red mana.
+- Smaug, Wicked Worm's draw trigger checks Treasure mana specifically — sequence your Treasure sacs into your next spell's cost.
+- Cavern of Souls mana only casts creature spells of the chosen type — don't use it for Rage or Tidings.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Azog and Bolg remove threats; the ping chain races their clock; Restless Vents chump-blocks |
+| Midrange | Trade early, then go over the top with amass spells and the treasure economy |
+| Control | Cavern of Souls and My Precious protect the threats; spread pings across turns to dodge wraths |
+| Combo | Noisemaker + Tidings flashback races their setup; Warg Tactics hexproof shields the Army |
+
+# Deck list (Arena import)
+
+```
+Gilded Horde
+Deck
+4 The Great Goblin
+4 Goblin-town Flunkies
+3 Azog, Moria's Ruin
+3 Bothersome Noisemaker
+2 Fearsome Goblin Pair
+1 Bolg of the North
+2 Smaug the Magnificent
+1 Smaug, Wicked Worm
+1 Great Ugly-Looking Goblin
+1 Gandalf, Goblins' Bane
+1 Crime Novelist
+4 Rage into the Valley
+2 Tidings of War
+1 Gathering of Darkness
+2 Warg Tactics
+1 The Misty Mountains Cold
+3 Goblin Plate Mail
+2 Orcrist, Goblin-cleaver
+1 My Precious
+4 Goblin-town
+3 Mirkwood
+2 Jagged Barrens
+1 Restless Vents
+1 Razortrap Gorge
+1 Strangled Cemetery
+1 Wastewood Verge
+1 Thornspire Verge
+1 Cavern of Souls
+1 Rogue's Passage
+2 Mountain
+2 Swamp
+1 Forest
+```
