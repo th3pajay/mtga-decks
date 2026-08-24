@@ -1,0 +1,186 @@
+---
+title: "Grave Team Six"
+subtitle: "Sultai — Fathomless descent × Teamwork"
+date: "2026-08-24"
+categories: ["combo", "fathomless-descent", "teamwork"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (Arena BO1) |
+| Colors | Sultai (Blue / Black / Green) |
+| Archetype | Graveyard combo-midrange |
+| Size | 60 cards (35 spells, 25 lands) |
+| Primary win | Unblockable, graveyard-sized Souls of the Lost |
+| Secondary win | Season of Loss life-drain and the Atlantis Attacks Leviathan |
+
+## Overview
+
+**Grave Team Six** fuses two mechanics into one engine: **Fathomless descent**
+(your graveyard's permanent count X makes creatures huge and spells brutal) and
+**Teamwork** (tap creatures with total power N to unlock the second mode of a
+spell). The bridge between the two is *Souls of the Lost* — its power literally
+equals the number of permanent cards in your graveyard, which makes it the
+perfect creature to tap for Teamwork costs, over and over again.
+
+Every fetchland, surveil land, looting artifact, and mill spell in the deck
+doubles as fuel: each permanent in the graveyard makes Souls bigger, makes
+Terror Tide and Chupacabra Echo wipe harder, lets Squirming Emergence reanimate
+bigger things, and turns Matzalantli's back face — the land The Core — into a
+mana engine. Teamwork spells then convert that giant board presence into
+reanimation, removal, counterspells, and a 6/5 hexproof Leviathan.
+
+## Approach
+
+### Game plan phases
+
+1. **Dig (turns 1-3).** Play fetchlands and crack them, surveil with
+   Undercity Sewers / Hedge Maze / Underground Mortuary, cast Cache Grab or
+   Song of Stupefaction to mill, and loot with Matzalantli, the Great Door.
+   Every permanent that hits the graveyard counts.
+2. **Grow (turns 3-5).** Souls of the Lost becomes a 5/6 or 6/7. Tap it (and
+   Solemn Simulacrum or Chupacabra Echo) to pay Teamwork costs: Too Evil to
+   Stay Dead reanimates anything, Cruel Alliance exiles any creature and gains
+   life, We Say Thee Nay! hard-counters, Go Nuts! fights and pumps.
+3. **Win (turn 5+).** Reanimate with Squirming Emergence and Earth's Mightiest
+   Heroes, clear the board with Terror Tide (Souls survives as X+1 toughness),
+   then kill with Rogue's Passage plus a giant Souls, Season of Loss draining
+   for your creature count, or the hexproof Leviathan.
+
+### Card roles
+
+| Role | Cards |
+|---|---|
+| Engine | Souls of the Lost, Matzalantli the Great Door, Squirming Emergence, Too Evil to Stay Dead, Cache Grab, Insidious Roots |
+| GY enablers | Evolving Wilds, Terramorphic Expanse, Fabled Passage, surveil lands, Song of Stupefaction, Solemn Simulacrum |
+| Payoffs | Terror Tide, Chupacabra Echo, Season of Loss, Atlantis Attacks, Rogue's Passage, Restless Reef |
+| Teamwork tappers | Souls of the Lost, Solemn Simulacrum, Chupacabra Echo, Restless Reef, Restless Vinestalk |
+
+### Lands as engines
+
+| Land | Engine role |
+|---|---|
+| Rogue's Passage | Win con: makes the giant Souls unblockable for lethal |
+| Restless Reef | 4/4 deathtouch attacker that mills four on attack (GY fuel) |
+| Restless Vinestalk | 5/5 trample attacker; sets another creature to 3/3 on attack |
+| Evolving Wilds / Terramorphic Expanse / Fabled Passage | Sacrificed lands are permanents in the graveyard: direct Fathomless fuel |
+| Surveil duals (Sewers / Maze / Mortuary) | Surveil 1 puts lands and spells into the graveyard |
+| The Core (Matzalantli back face) | Legendary land that taps for X mana of any color |
+
+### Curve and mana
+
+Average CMC is about 3.1. The deck is black-heavy with green support and a
+light blue touch, matching the mana base: five UB lands, five UG lands, three
+BG surveil lands, seven fetchlands, and five basics. Fetchlands thin the deck
+and always count as a permanent in the graveyard after cracking.
+
+## Gameplay strategy
+
+### Early game
+
+Prioritize a fetchland or surveil land on turn one. Turn two, either Souls of
+the Lost (discard a redundant land) or Song of Stupefaction / Cache Grab to
+start the graveyard. Do not hold back graveyard fuel — X grows fast, and every
+point matters for Souls, Terror Tide, and Squirming Emergence.
+
+### Mid game
+
+With four or five permanents in the graveyard, Souls is a real threat and
+Teamwork costs are trivial to pay. Reanimate a Solemn Simulacrum to ramp and
+draw, or loop Matzalantli for card selection. Use Cruel Alliance and
+Chupacabra Echo to keep the opponent's board small while your graveyard grows.
+
+### The combo turn
+
+1. Graveyard has 10+ permanents: Souls of the Lost is an 11/12.
+2. Tap Souls plus one other creature to cast Too Evil to Stay Dead with
+   Teamwork — return the best creature card in your graveyard (often another
+   Souls or Solemn).
+3. Cast Squirming Emergence (X = 10+): return Matzalantli or a creature.
+4. Attack: activate Rogue's Passage on Souls. 11+ unblockable damage, often
+   lethal. If they survive, Terror Tide next turn clears everything while
+   Souls survives as X+1 toughness.
+
+### Win condition 2: Season of Loss and the Leviathan
+
+Season of Loss with {P}{P}{P} makes each opponent lose life equal to the number
+of creature cards in your graveyard — commonly 8 to 12. The {P} mode forces
+sacrifices to clear blockers, and {P}{P} refills your hand if creatures died
+this turn. Atlantis Attacks (cast with Teamwork) creates a 6/5 hexproof
+Leviathan and bounces two permanents — a resilient finisher that dodges spot
+removal. Restless Reef and Restless Vinestalk close out games when the
+opponent is low.
+
+### Mulligan guide
+
+Keep: two to three lands, plus any of Souls of the Lost, Cache Grab, Song of
+Stupefaction, Matzalantli, or a reanimation spell. A hand with no graveyard
+fuel and no two-drop is a mulligan. Ship hands full of six- and seven-mana
+spells. Lands that surveil or fetch count as fuel, so land-heavy hands are
+better here than in most decks.
+
+### Key interactions and edge cases
+
+- **Souls of the Lost survives your own Terror Tide**: toughness is X+1, so a
+  board wipe leaves your biggest creature standing.
+- **Matzalantli transforms with four or more permanent types** (artifact,
+  creature, enchantment, land, planeswalker, battle) in the graveyard — the
+  deck naturally has artifact (Matzalantli, fetchlands), creature, land, and
+  enchantment types.
+- **Teamwork taps as an additional cost**: tap creatures before the spell
+  resolves, so removal in response does not stop the second mode.
+- **Cache Grab mills four and returns a permanent card to hand** — instant
+  speed, and it is both fuel and recursion in one card.
+- **Insidious Roots**: every reanimation makes a Plant, then pumps all Plants;
+  Plants also tap for mana, creating a late-game army that pays Teamwork costs.
+- **Graveyard hate** (exile effects) is the deck's main weakness: fetchlands
+  and mill still work, but keep Cache Grab and draw spells for resilience.
+
+### Matchups
+
+- **Aggro:** Terror Tide, Chupacabra Echo, and Cruel Alliance keep the board
+  clear; Souls blocks well. Prioritize graveyard count over speed.
+- **Midrange:** win the value war — reanimation loops out-grind most
+  midrange decks; Solemn Simulacrum and Squirming Emergence provide card
+  advantage.
+- **Control:** We Say Thee Nay! protects key spells; Atlantis Attacks and
+  recursion from the graveyard are hard for control to answer permanently.
+  Rogue's Passage turns any surviving creature into a clock.
+
+## Deck list (Arena import)
+
+```
+Grave Team Six
+Deck
+4 Souls of the Lost
+2 Chupacabra Echo
+2 Solemn Simulacrum
+4 Matzalantli, the Great Door
+1 Song of Stupefaction
+1 Insidious Roots
+4 Squirming Emergence
+4 Too Evil to Stay Dead
+2 Cruel Alliance
+2 Cache Grab
+2 We Say Thee Nay!
+1 Go Nuts!
+1 Atlantis Attacks
+1 Earth's Mightiest Heroes
+2 Season of Loss
+2 Terror Tide
+3 Evolving Wilds
+3 Terramorphic Expanse
+1 Fabled Passage
+3 Undercity Sewers
+2 Hedge Maze
+3 Underground Mortuary
+2 Restless Reef
+2 Restless Vinestalk
+1 Rogue's Passage
+2 Island
+2 Swamp
+1 Forest
+```
