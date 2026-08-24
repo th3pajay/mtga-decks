@@ -1,0 +1,182 @@
+---
+title: "Hearth and Hammer"
+subtitle: "White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck"
+date: "2026-08-24"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Red / Blue |
+| Archetype | Storied Dwarves x Sagas combo (avg CMC 2.64) |
+| Size | 60 cards |
+| Primary win | Balin, Loremaster burn chain — every Dwarf enters the battlefield trigger deals X damage, tripled by Bifur and Wizard's Staff |
+| Secondary win | Equipment war-machine combat: double strike, unblockable, and a board of pumped 2/2 Dwarf tokens |
+| Land win con | The Lonely Mountain (free Dwarf tokens per Equipment) + Iron Hills (+2/+2 counters) |
+
+# Overview
+
+Hearth and Hammer is the Storied Dwarves engine of The Hobbit set pointed at one deceptively simple sentence on Balin, Loremaster: *"Whenever Balin or another Dwarf you control enters, you may discard your hand. Draw X cards, where X is the number of cards discarded this way. If you have an enduring story, Balin deals X damage to each opponent."*
+
+The whole deck is built to make that sentence fire three times per Dwarf. Bifur, Melodic Rider makes every triggered ability of a Dwarf you control trigger an additional time while you have an enduring story; Wizard's Staff makes the equipped creature's triggered abilities trigger an additional time. Stack both on Balin and each Dwarf entering the battlefield is three discard-draw-burn triggers — with a hand of six, that is 18 damage from one Dwarf entering, and the deck is full of Dwarf makers (At the Door, Fíli the Pathfinder, Dwarven Shortsword, The Mountain-king's Return).
+
+Getting an enduring story is trivial: it only requires three artifacts, legendaries, and/or Sagas, and the deck is roughly three-quarters of those. Equipments are artifacts, the core Dwarves are legendary, and The Mountain-king's Return and Roads Go Ever, Ever On are Sagas. By turn three or four the story is running, which flips on every other payoff in the deck: Thorin Oakenshield's ward, Dáin, Lord of the Iron Hills' attack tax, Kíli's free equips, Fíli's anthem, Óin's haste, and Balin's burn.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop: Thorin Oakenshield, Kíli the Resourceful, Dáin, Lord of the Iron Hills, an Equipment or a Saga |
+| Turn 3 | Third artifact/legendary/Saga lands — enduring story is on; ward, tax, free equips, anthem all switch on |
+| Turns 3-5 | Dáin's Company, Seek the Heart, Óin and Ragged Short Spear dig toward Balin and Bifur; The Mountain-king's Return recurs fallen Dwarves |
+| Turn 5-7 | The combo turn: Balin + Bifur + Wizard's Staff, then chain Dwarf tokens for triple burn triggers |
+| Late game | If the burn is answered, Thorin, Mountain-king attaches every Equipment to one Dwarf and the war-machine swings for lethal |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Balin, Loremaster | Primary win: discard hand, draw X, deal X to each opponent per Dwarf ETB — three times with Bifur and Wizard's Staff |
+| Bifur, Melodic Rider | Trigger doubler for all Dwarf abilities; also spreads +1/+1 counters when it enters or attacks |
+| Wizard's Staff | Doubles the equipped creature's triggers (Balin, Kíli, Dáin Ironfoot); gives prowess |
+| Kíli the Resourceful | Draws on Dwarf or Equipment ETB (once per turn); first equip each turn is free while storied |
+| Thorin Oakenshield | Ward 1 on all your artifacts and creatures while storied — the defensive backbone |
+| Dáin, Lord of the Iron Hills | Attack tax: creatures can't attack you unless their controller pays 1 each while storied |
+| Óin the Brave | Haste while storied and a loot engine: {1}, tap, discard a card: draw a card |
+| Dwalin, Weaponmaster | First strike; puts hone counters on every Equipment on entry and attack (each is +1/+0) |
+| Dáin's Company | Tutors the top four cards for a Dwarf or Equipment; lifelink with another Dwarf |
+| Iron Hills Blacksmith | Double strike; makes an Axe Equipment token on entry — artifact count, Equipment count, and a body |
+| Dáin Ironfoot | Makes an Axe token attached to a creature; every equipped attacker gains double strike when he attacks |
+| Fíli the Pathfinder | Anthem +1/+1 while storied; makes a 2/2 Dwarf token for every nontoken Dwarf ETB — Balin fuel |
+| Thorin, Mountain-king | Attaches any number of Equipments to one creature, which then deals damage equal to its power to a creature |
+| Bilbo, Thief in the Night | Spells cast from anywhere other than hand cost 1 less; attacks cast an artifact/instant/sorcery from the graveyard |
+| Dwarven Mattock | +2/+2 and ward 1; auto-attaches to a Dwarf on entry |
+| Sting, Bilbo's Sword | Flash; gains a hone counter per creature the opponent controls, then attaches — scales the equipped Dwarf |
+| Dwarven Shortsword | Makes a 2/2 Dwarf token and attaches itself — one card, two storied pieces, one Balin trigger |
+| Ragged Short Spear | Loot on entry (+2/+0): discard a card, draw two — feeds the graveyard and the hand |
+| Glamdring, Foe-hammer | Equipped creature's power discounts all your instants and sorceries; Gleam of Death mills six into your hand |
+| Vow to Erebor | Untap and +2/+2; if the creature is a Dwarf, attach an Equipment for free |
+| Thorin's Last Stand | Team +2/+1 pump or artifact/enchantment removal with 2 life |
+| The Mountain-king's Return | Saga: recruits, reanimates a mana-value-3-or-less creature, then puts a +1/+1 counter |
+| Roads Go Ever, Ever On | Saga: exiles up to two Plains and returns them to hand; chapter IV pumps an attacker per Plains |
+| An Unexpected Party | Dwarves get +2/+2; adventure At the Door makes X 2/2 red Dwarf tokens — the combo-turn kill |
+| The Arkenstone | Anthem +1/+1 and an end-step draw; adventure Seek the Heart tutors any legendary creature |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Taps for red, enters untapped with an Equipment; {4}{R} makes a 2/2 Dwarf token, 1 cheaper per Equipment — with five Equipments it is free. The win-con land |
+| Iron Hills | Taps for red or white; {2}{R}{W}, sacrifice: two +1/+1 counters on a Dwarf — repeatable pump |
+| Cavern of Souls | Name Dwarf: uncounterable Thorin, Kíli, Balin, Bifur — protects the combo pieces |
+| Rogue's Passage | {4}: target creature can't be blocked — the war-machine finisher |
+| Sacred Foundry / Hallowed Fountain / Steam Vents | Shock duals for W/R, W/U, U/R |
+| Sunbillow Verge / Floodfarm Verge / Riverpyre Verge | Fast W/R, W/U, U/R fixing |
+
+## Curve and mana
+
+21 lands: 4 The Lonely Mountain, 2 Iron Hills, 1 Rogue's Passage, 1 Cavern of Souls, 2 Sacred Foundry, 2 Hallowed Fountain, 1 Steam Vents, 2 Sunbillow Verge, 2 Floodfarm Verge, 1 Riverpyre Verge, 2 Plains, 1 Mountain. White sources 10, red 11, blue 6 — blue is a light splash for Wizard's Staff, Glamdring, and Bilbo.
+
+Nonland curve: 2-drop x27, 3-drop x3, 4-drop x6, 5-drop x2, 6-drop x1. Average CMC 2.64. The deck wants white and red early: Thorin or Kíli on turn 2, an Equipment or Saga on turn 3 to complete the story, then the dig pieces toward Balin.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a two-drop Dwarf — Thorin Oakenshield is the best opener (trample, and ward for everything once storied), Kíli the Resourceful second (draws off your first Equipment). Dáin, Lord of the Iron Hills and Dwalin, Weaponmaster slot in behind. The second and third permanent slots should be Equipments and Sagas: Mattock and Sting are the best early artifacts, The Mountain-king's Return and Roads Go Ever, Ever On count as sagas while doing real work. Dáin's Company on turn 2 digs for whatever the hand is missing. Do not hold Equipment in hand — every Equipment on board is a discount on The Lonely Mountain and a step toward the enduring story.
+
+## Mid game
+
+Once the story is running, the tax effects lock the ground: Thorin's ward 1 and Dáin's attack tax make attacking into you miserable, while Kíli's free equip and Fíli's anthem turn the board into a threat. Use Óin the Brave and Ragged Short Spear to loot toward Balin and Bifur; The Mountain-king's Return recurs any Dwarf that died along the way; Seek the Heart (on The Arkenstone) tutors Balin or Bifur directly. An Unexpected Party and The Arkenstone turn the Dwarf tokens into real clocks while you assemble the kill.
+
+## The combo turn
+
+With an enduring story active, the kill line is:
+
+1. Resolve Balin, Loremaster — ideally with Cavern of Souls naming Dwarf so he cannot be countered.
+2. Equip Wizard's Staff to Balin (free with Kíli's storied ability). Each Balin trigger now happens twice.
+3. Resolve Bifur, Melodic Rider — each Dwarf triggered ability now happens an additional time, so every Dwarf ETB is three Balin triggers.
+4. Fill the hand: Kíli's ETB draw, Óin's loot, Spear's loot, Arkenstone's end-step draws, Gleam of Death.
+5. Fire Dwarf makers: At the Door for X, Fíli's token triggers, Dwarven Shortsword, The Mountain-king's Return reanimation, Dáin's Company, Iron Hills Blacksmith. Each Dwarf that enters is three instances of "discard your hand, draw X, deal X damage."
+
+A typical kill: hand of six, one At the Door for four tokens — each token is 18 damage, four tokens are lethal by themselves. Even without Bifur, Balin plus Wizard's Staff is two triggers per Dwarf; without the Staff, Bifur alone still doubles.
+
+## Win condition 2
+
+If the burn is disrupted, the war-machine wins: Dáin Ironfoot gives every equipped attacker double strike; Thorin, Mountain-king attaches every Equipment at once and the equipped Dwarf deals damage equal to its power to a blocker; Vow to Erebor untaps and pumps for the second strike; Rogue's Passage or a flash Sting makes the biggest Dwarf unblockable. Fíli's anthem, An Unexpected Party's +2/+2, and The Arkenstone's +1/+1 stack on top of Mattock's +2/+2 and the hone counters from Sting and Dwalin. The Lonely Mountain drowns the opponent in 2/2s — free once you have five Equipments — and Iron Hills pumps any Dwarf by +2/+2 at instant speed from the mana base.
+
+## Mulligan guide
+
+Keep: two or three lands with a two-drop Dwarf and either an Equipment or a Saga — that is the storied curve. Hands with Kíli plus any Equipment are excellent (draw + free equip). Balin, Bifur, or the Staff in the opener is a gift, not a requirement. Mulligan one-land hands and hands with five or more lands and no two-drop. Blue-heavy hands with no white or red source are unkeepable — the splash is only for the Staff, Glamdring, and Bilbo.
+
+## Key interactions and edge cases
+
+- Storied counts artifacts, legendaries, and Sagas among permanents you control — Equipment tokens from Blacksmith and Dáin Ironfoot count, and the enduring story, once gained, lasts for the rest of the game even if the board empties.
+- Balin's trigger is optional ("you may discard your hand") — with an empty hand, X is zero and there is no damage; always loot or play a Dwarf maker before resolving Balin triggers.
+- Bifur and Wizard's Staff are separate replacement effects — both apply, so a Dwarf trigger fires three times, not four.
+- Kíli's draw is once per turn; Wizard's Staff on Kíli (rather than Balin) doubles that draw to two, but the Staff belongs on Balin on the kill turn.
+- At the Door tokens are Dwarves — each one triggers Balin, Kíli, and Fíli; they also count for Dáin Ironfoot's double strike if the game goes to combat.
+- Wizard's Staff's "Equip Wizard {1}" only applies to Wizards; equipping it to Balin costs {3} — or {0} as Kíli's first equip of the turn.
+- Glamdring's cost reduction scales with the equipped creature's power — a 6-power Dwarf makes Vow to Erebor, Thorin's Last Stand, and Gleam of Death free.
+- Cavern of Souls mana only casts Dwarf creature spells — never use it for Vow to Erebor or At the Door.
+- The Lonely Mountain enters tapped without an Equipment — sequence your artifacts before your lands on turn 1-2.
+- Roads Go Ever, Ever On exiles Plains rather than putting them onto the battlefield — it fixes by returning them to hand, and its chapter IV pump counts Plains you control at that moment.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Dáin's attack tax, Thorin's ward, and Dwalin's first strike stall the ground; stabilize, then burn them out with Balin |
+| Midrange | The +2/+2 Party anthem and the war-machine outclass their creatures; save Thorin, Mountain-king for their biggest threat |
+| Control | Cavern of Souls and ward 1 protect the pieces; Gleam of Death and Bilbo recur answers; the Balin chain is a one-turn kill that dodges most sweepers |
+| Combo | Race: loot aggressively toward Balin and Bifur, and use Thorin's Last Stand's pump to end the game on the backswing |
+
+# Deck list (Arena import)
+
+```
+Hearth and Hammer
+Deck
+4 Thorin Oakenshield
+3 Kíli the Resourceful
+2 Dáin, Lord of the Iron Hills
+1 Óin the Brave
+2 Dwalin, Weaponmaster
+1 Dáin's Company
+1 Iron Hills Blacksmith
+1 Dáin Ironfoot
+1 Fíli the Pathfinder
+1 Thorin, Mountain-king
+1 Balin, Loremaster
+1 Bifur, Melodic Rider
+1 Bilbo, Thief in the Night
+2 Dwarven Mattock
+2 Sting, Bilbo's Sword
+2 Dwarven Shortsword
+2 Ragged Short Spear
+2 Wizard's Staff
+1 Glamdring, Foe-hammer
+1 Vow to Erebor
+1 Thorin's Last Stand
+2 The Mountain-king's Return
+2 Roads Go Ever, Ever On
+1 An Unexpected Party
+1 The Arkenstone
+4 The Lonely Mountain
+2 Iron Hills
+1 Rogue's Passage
+1 Cavern of Souls
+2 Sacred Foundry
+2 Hallowed Fountain
+1 Steam Vents
+2 Sunbillow Verge
+2 Floodfarm Verge
+1 Riverpyre Verge
+2 Plains
+1 Mountain
+```
