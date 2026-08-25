@@ -1,0 +1,163 @@
+---
+title: "Swarm Calculus"
+subtitle: "WURG Alliance x Increment combo — every creature counts, every spell compounds"
+date: "2026-08-25"
+categories: ["combo", "Alliance", "Increment"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | WURG — white / blue / red / green |
+| Archetype | Aggro-combo (Alliance ETB burn + Increment counters) |
+| Size | 60 cards, 26 lands |
+| Core engine | Alliance ETB triggers x Increment counter growth |
+| Primary win | ETB burn loop — Raphael and Slash drain opponents with every creature that enters |
+| Secondary win | Counter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal |
+| Nonland curve | 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives |
+
+# Overview
+
+Swarm Calculus is a four-color deck that fuses two mechanics from opposite ends of the game: **Alliance** (every creature that enters triggers your payoffs) and **Increment** (every spell you cast puts a +1/+1 counter on your growing creatures). The two mechanics feed each other in a closed loop: cast spells to grow Increment creatures, Increment growth spits out Fractal tokens, tokens entering the battlefield fire every Alliance trigger, and the Alliance payoffs (burn, counter spreading, pump) make the next spell bigger still.
+
+The engine runs on three axes:
+
+- **Alliance burn** — `Raphael, Tough Turtle` pings for 1 and `Slash, Reptile Rampager` pings for 2 *each time any creature enters under your control*. With both on the battlefield, a single token is 3 damage; a turn with four or five entries is 12–15 damage.
+- **Increment compounding** — `Cuboid Colony`, `EPF Point Squad`, `Tester of the Tangential`, and friends grow with every spell you cast. `Berta, Wise Extrapolator` turns each counter into mana, `Pensive Professor` turns counters into cards, and `Topiary Lecturer` taps for green equal to its power.
+- **Token factories** — `Mighty Mutanimals` makes a 2/2 Mutant on entry, `Slash` makes one on attack, `Fractal Tender` makes a 3/3 Fractal every end step you grew it, `Berta` pays X for a big Fractal, and `Fountainport` makes Fish at instant speed. Every one of those tokens is an Alliance trigger.
+
+`Delney, Streetwise Lookout` is the force multiplier: most of your entries have power 2 or less (tokens, Cuboid, Raphael, EPF, Ambitious Augmenter), so their entry abilities — including every Alliance trigger — fire an additional time. A Delney-doubled Mutanimals token with Slash out is 4 damage before combat even starts.
+
+The lands are not just fixing. `Rogue's Passage` turns the biggest counter stack into an unblockable kill, `Fountainport` is a repeatable instant-speed Alliance engine, and the two Restless manlands attack as creatures and pump the swarm. This deck wins by arithmetic: count the entries, add the pings, move the counters.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Deploy the arithmetic** (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.
+2. **Compound** (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.
+3. **Cash out**: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue's Passage.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Raphael, Tough Turtle | 4 | Alliance burn — 1 damage per entry; the deck's tax collector |
+| EPF Point Squad | 4 | Alliance counter engine — grows itself on every entry; hybrid mana |
+| Cuboid Colony | 4 | Flash Increment — cast on the opponent's turn to grow and surprise-block |
+| Mighty Mutanimals | 3 | Token maker + Alliance counter spreader in one body |
+| Slash, Reptile Rampager | 2 | Alliance payoff — 2 damage to each opponent per entry; makes Mutants on attack |
+| Ambitious Augmenter | 3 | One-drop Increment; dies into a Fractal carrying its counters |
+| Fractal Tender | 2 | Token engine — 3/3 Fractal every end step you grew it; Ward 2 |
+| Berta, Wise Extrapolator | 2 | Mana engine — one mana of any color per counter; X-cost Fractals |
+| The Neutrinos | 2 | Flicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances |
+| Delney, Streetwise Lookout | 2 | Doubler — small entries trigger their abilities an extra time |
+| Tester of the Tangential | 2 | Finisher enabler — moves X counters onto the kill creature |
+| Pensive Professor | 1 | Draw — a card per counter |
+| Topiary Lecturer | 1 | Mana — taps for green equal to its power |
+| Get Lost | 2 | Removal — answers creatures, enchantments, and planeswalkers |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Rogue's Passage | Makes the counter-stacked Fractal (or Slash) unblockable — the kill enabler |
+| Fountainport | Instant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch |
+| Restless Prairie | 3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem |
+| Restless Ridgeline | 3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it |
+| Secluded Courtyard | Free colored mana for creature spells (name Wizard — most of the engine) |
+| Frontier Bivouac | Temur tri-land for the Increment core |
+
+## Curve and mana
+
+26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue's Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.
+
+The nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+- **Turn 1:** Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.
+- **Turn 2:** Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.
+- **Turn 3:** EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.
+- Prioritize lands that enter untapped; play Fountainport early to build toward its activated abilities.
+
+## Mid game (turns 4–6)
+
+- Land Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.
+- Attack with manlands to trigger Prairies anthem and Ridgelines pump; Slash's attack makes a Mutant that pings again.
+- The Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB.
+
+## The combo turn
+
+1. Build a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).
+2. At combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.
+3. Activate Rogue's Passage (`{4}, {T}`) on that creature — it can't be blocked this turn.
+4. Swing for lethal. With Delney out, the small creatures' abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too.
+
+## Win condition 2: the ETB burn loop
+
+Raphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender's end-step Fractal, Berta's X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent's turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport's sacrifice-draw keeps the hand full while the Fish keep pinging.
+
+## Mulligan guide
+
+- **Keep:** 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.
+- **Trim:** 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).
+- The deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names.
+
+## Key interactions and edge cases
+
+- **Delney doubles entry abilities of creatures with power 2 or less.** That includes every Alliance trigger (they are abilities of the entering creature's triggers... in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.
+- **Increment checks mana spent, not mana value.** A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by *any* spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.
+- **Ambitious Augmenter's death trigger** puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.
+- **Tester of the Tangential moves counters at the beginning of combat** — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta's floating mana pays for it.
+- **Fountainport's Fish token costs 1 life** — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.
+- **The Neutrinos' flicker returns the creature tapped and attacking** — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.
+- **Secluded Courtyard** — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards.
+
+## Matchups
+
+- **Aggro:** Cuboid Colony's flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.
+- **Control:** manlands are uncounterable and keep the Alliance clock running through sweepers; Delney's unblockability clause (power 2 or less can't be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.
+- **Midrange:** the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue's Passage punches through the biggest blocker.
+- **Board wipes:** everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash's tokens already pings, and the manlands survive to keep attacking.
+
+# Deck list (Arena import)
+
+```
+Swarm Calculus
+Deck
+3 Ambitious Augmenter
+4 Cuboid Colony
+4 EPF Point Squad
+4 Raphael, Tough Turtle
+3 Mighty Mutanimals
+2 Slash, Reptile Rampager
+2 Fractal Tender
+2 Berta, Wise Extrapolator
+2 The Neutrinos
+2 Delney, Streetwise Lookout
+2 Tester of the Tangential
+1 Pensive Professor
+1 Topiary Lecturer
+2 Get Lost
+2 Fountainport
+1 Rogue's Passage
+3 Restless Prairie
+2 Restless Ridgeline
+3 Secluded Courtyard
+2 Frontier Bivouac
+2 Sandstorm Verge
+2 Hushwood Verge
+2 Sunbillow Verge
+1 Riverpyre Verge
+1 Floodfarm Verge
+2 Forest
+1 Island
+1 Plains
+1 Mountain
+```

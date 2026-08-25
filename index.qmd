@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-08-24**:
+Deck guides published **2026-08-25**:
 
-- **[Hearth and Hammer](decks/2026-08-24-hearth-and-hammer.html)** — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck  `hobbit` `dwarves`
-- **[Grave Team Six](decks/2026-08-24-grave-team-six.html)** — Sultai — Fathomless descent × Teamwork  `combo` `fathomless-descent` `teamwork`
+- **[Swarm Calculus](decks/2026-08-25-swarm-calculus.html)** — WURG Alliance x Increment combo — every creature counts, every spell compounds  `combo` `Alliance` `Increment`

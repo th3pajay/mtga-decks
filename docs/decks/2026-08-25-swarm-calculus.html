@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-08-25">
+
+<title>Swarm Calculus – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#why-these-cards" id="toc-why-these-cards" class="nav-link" data-scroll-target="#why-these-cards">Why these cards</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game-turns-13" id="toc-early-game-turns-13" class="nav-link" data-scroll-target="#early-game-turns-13">Early game (turns 1–3)</a></li>
+  <li><a href="#mid-game-turns-46" id="toc-mid-game-turns-46" class="nav-link" data-scroll-target="#mid-game-turns-46">Mid game (turns 4–6)</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2-the-etb-burn-loop" id="toc-win-condition-2-the-etb-burn-loop" class="nav-link" data-scroll-target="#win-condition-2-the-etb-burn-loop">Win condition 2: the ETB burn loop</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Swarm Calculus</h1>
+<p class="subtitle lead">WURG Alliance x Increment combo — every creature counts, every spell compounds</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">Alliance</div>
+    <div class="quarto-category">Increment</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 25, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (curated pool)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>WURG — white / blue / red / green</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Aggro-combo (Alliance ETB burn + Increment counters)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 26 lands</td>
+</tr>
+<tr class="odd">
+<td>Core engine</td>
+<td>Alliance ETB triggers x Increment counter growth</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>ETB burn loop — Raphael and Slash drain opponents with every creature that enters</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Counter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal</td>
+</tr>
+<tr class="even">
+<td>Nonland curve</td>
+<td>3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Swarm Calculus is a four-color deck that fuses two mechanics from opposite ends of the game: <strong>Alliance</strong> (every creature that enters triggers your payoffs) and <strong>Increment</strong> (every spell you cast puts a +1/+1 counter on your growing creatures). The two mechanics feed each other in a closed loop: cast spells to grow Increment creatures, Increment growth spits out Fractal tokens, tokens entering the battlefield fire every Alliance trigger, and the Alliance payoffs (burn, counter spreading, pump) make the next spell bigger still.</p>
+<p>The engine runs on three axes:</p>
+<ul>
+<li><strong>Alliance burn</strong> — <code>Raphael, Tough Turtle</code> pings for 1 and <code>Slash, Reptile Rampager</code> pings for 2 <em>each time any creature enters under your control</em>. With both on the battlefield, a single token is 3 damage; a turn with four or five entries is 12–15 damage.</li>
+<li><strong>Increment compounding</strong> — <code>Cuboid Colony</code>, <code>EPF Point Squad</code>, <code>Tester of the Tangential</code>, and friends grow with every spell you cast. <code>Berta, Wise Extrapolator</code> turns each counter into mana, <code>Pensive Professor</code> turns counters into cards, and <code>Topiary Lecturer</code> taps for green equal to its power.</li>
+<li><strong>Token factories</strong> — <code>Mighty Mutanimals</code> makes a 2/2 Mutant on entry, <code>Slash</code> makes one on attack, <code>Fractal Tender</code> makes a 3/3 Fractal every end step you grew it, <code>Berta</code> pays X for a big Fractal, and <code>Fountainport</code> makes Fish at instant speed. Every one of those tokens is an Alliance trigger.</li>
+</ul>
+<p><code>Delney, Streetwise Lookout</code> is the force multiplier: most of your entries have power 2 or less (tokens, Cuboid, Raphael, EPF, Ambitious Augmenter), so their entry abilities — including every Alliance trigger — fire an additional time. A Delney-doubled Mutanimals token with Slash out is 4 damage before combat even starts.</p>
+<p>The lands are not just fixing. <code>Rogue's Passage</code> turns the biggest counter stack into an unblockable kill, <code>Fountainport</code> is a repeatable instant-speed Alliance engine, and the two Restless manlands attack as creatures and pump the swarm. This deck wins by arithmetic: count the entries, add the pings, move the counters.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Deploy the arithmetic</strong> (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.</li>
+<li><strong>Compound</strong> (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.</li>
+<li><strong>Cash out</strong>: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage.</li>
+</ol>
+</section>
+<section id="why-these-cards" class="level2">
+<h2 class="anchored" data-anchor-id="why-these-cards">Why these cards</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Raphael, Tough Turtle</td>
+<td>4</td>
+<td>Alliance burn — 1 damage per entry; the deck’s tax collector</td>
+</tr>
+<tr class="even">
+<td>EPF Point Squad</td>
+<td>4</td>
+<td>Alliance counter engine — grows itself on every entry; hybrid mana</td>
+</tr>
+<tr class="odd">
+<td>Cuboid Colony</td>
+<td>4</td>
+<td>Flash Increment — cast on the opponent’s turn to grow and surprise-block</td>
+</tr>
+<tr class="even">
+<td>Mighty Mutanimals</td>
+<td>3</td>
+<td>Token maker + Alliance counter spreader in one body</td>
+</tr>
+<tr class="odd">
+<td>Slash, Reptile Rampager</td>
+<td>2</td>
+<td>Alliance payoff — 2 damage to each opponent per entry; makes Mutants on attack</td>
+</tr>
+<tr class="even">
+<td>Ambitious Augmenter</td>
+<td>3</td>
+<td>One-drop Increment; dies into a Fractal carrying its counters</td>
+</tr>
+<tr class="odd">
+<td>Fractal Tender</td>
+<td>2</td>
+<td>Token engine — 3/3 Fractal every end step you grew it; Ward 2</td>
+</tr>
+<tr class="even">
+<td>Berta, Wise Extrapolator</td>
+<td>2</td>
+<td>Mana engine — one mana of any color per counter; X-cost Fractals</td>
+</tr>
+<tr class="odd">
+<td>The Neutrinos</td>
+<td>2</td>
+<td>Flicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances</td>
+</tr>
+<tr class="even">
+<td>Delney, Streetwise Lookout</td>
+<td>2</td>
+<td>Doubler — small entries trigger their abilities an extra time</td>
+</tr>
+<tr class="odd">
+<td>Tester of the Tangential</td>
+<td>2</td>
+<td>Finisher enabler — moves X counters onto the kill creature</td>
+</tr>
+<tr class="even">
+<td>Pensive Professor</td>
+<td>1</td>
+<td>Draw — a card per counter</td>
+</tr>
+<tr class="odd">
+<td>Topiary Lecturer</td>
+<td>1</td>
+<td>Mana — taps for green equal to its power</td>
+</tr>
+<tr class="even">
+<td>Get Lost</td>
+<td>2</td>
+<td>Removal — answers creatures, enchantments, and planeswalkers</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the combo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>Makes the counter-stacked Fractal (or Slash) unblockable — the kill enabler</td>
+</tr>
+<tr class="even">
+<td>Fountainport</td>
+<td>Instant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch</td>
+</tr>
+<tr class="odd">
+<td>Restless Prairie</td>
+<td>3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem</td>
+</tr>
+<tr class="even">
+<td>Restless Ridgeline</td>
+<td>3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it</td>
+</tr>
+<tr class="odd">
+<td>Secluded Courtyard</td>
+<td>Free colored mana for creature spells (name Wizard — most of the engine)</td>
+</tr>
+<tr class="even">
+<td>Frontier Bivouac</td>
+<td>Temur tri-land for the Increment core</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.</p>
+<p>The nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game-turns-13" class="level2">
+<h2 class="anchored" data-anchor-id="early-game-turns-13">Early game (turns 1–3)</h2>
+<ul>
+<li><strong>Turn 1:</strong> Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.</li>
+<li><strong>Turn 2:</strong> Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.</li>
+<li><strong>Turn 3:</strong> EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.</li>
+<li>Prioritize lands that enter untapped; play Fountainport early to build toward its activated abilities.</li>
+</ul>
+</section>
+<section id="mid-game-turns-46" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-turns-46">Mid game (turns 4–6)</h2>
+<ul>
+<li>Land Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.</li>
+<li>Attack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.</li>
+<li>The Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB.</li>
+</ul>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<ol type="1">
+<li>Build a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).</li>
+<li>At combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.</li>
+<li>Activate Rogue’s Passage (<code>{4}, {T}</code>) on that creature — it can’t be blocked this turn.</li>
+<li>Swing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too.</li>
+</ol>
+</section>
+<section id="win-condition-2-the-etb-burn-loop" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2-the-etb-burn-loop">Win condition 2: the ETB burn loop</h2>
+<p>Raphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<ul>
+<li><strong>Keep:</strong> 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.</li>
+<li><strong>Trim:</strong> 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).</li>
+<li>The deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names.</li>
+</ul>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>Delney doubles entry abilities of creatures with power 2 or less.</strong> That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.</li>
+<li><strong>Increment checks mana spent, not mana value.</strong> A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by <em>any</em> spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.</li>
+<li><strong>Ambitious Augmenter’s death trigger</strong> puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.</li>
+<li><strong>Tester of the Tangential moves counters at the beginning of combat</strong> — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.</li>
+<li><strong>Fountainport’s Fish token costs 1 life</strong> — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.</li>
+<li><strong>The Neutrinos’ flicker returns the creature tapped and attacking</strong> — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.</li>
+<li><strong>Secluded Courtyard</strong> — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.</li>
+<li><strong>Control:</strong> manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.</li>
+<li><strong>Midrange:</strong> the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.</li>
+<li><strong>Board wipes:</strong> everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking.</li>
+</ul>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Swarm Calculus
+Deck
+3 Ambitious Augmenter
+4 Cuboid Colony
+4 EPF Point Squad
+4 Raphael, Tough Turtle
+3 Mighty Mutanimals
+2 Slash, Reptile Rampager
+2 Fractal Tender
+2 Berta, Wise Extrapolator
+2 The Neutrinos
+2 Delney, Streetwise Lookout
+2 Tester of the Tangential
+1 Pensive Professor
+1 Topiary Lecturer
+2 Get Lost
+2 Fountainport
+1 Rogue's Passage
+3 Restless Prairie
+2 Restless Ridgeline
+3 Secluded Courtyard
+2 Frontier Bivouac
+2 Sandstorm Verge
+2 Hushwood Verge
+2 Sunbillow Verge
+1 Riverpyre Verge
+1 Floodfarm Verge
+2 Forest
+1 Island
+1 Plains
+1 Mountain</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

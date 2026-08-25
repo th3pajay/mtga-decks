@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **106** cards locked · **Hobbit 152/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **126** cards locked · **Hobbit 152/193** remaining
 
-**10 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**11 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-08-25
+
+- **[Swarm Calculus](decks/2026-08-25-swarm-calculus.html)** — WURG Alliance x Increment combo — every creature counts, every spell compounds  `combo` `Alliance` `Increment`
 
 ## 2026-08-24
 
