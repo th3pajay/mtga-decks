@@ -1,0 +1,171 @@
+---
+title: "Silvan Springtide"
+subtitle: "Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck"
+date: "2026-08-25"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Green / Blue / White |
+| Archetype | Elf legends x landfall swarm combo (avg CMC 3.54) |
+| Size | 60 cards |
+| Primary win | Landfall Elf-token swarm: every extra land makes 1/1 Elves (doubled by Bard, King of Dale) that swing under stacked anthems with Galion's attack pump |
+| Secondary win | One-shot unblockable beater: Mirkwood Pathmaker or Thranduil, the Elvenking (who re-uses Elf activated abilities from the graveyard) finished through Rogue's Passage |
+| Land win con | Elvenking's Halls (repeatable +2/+2 on any Elf) + Restless Vinestalk (5/5 trample creature-land) + Rogue's Passage (unblockable) |
+
+# Overview
+
+Silvan Springtide is the Elf legends engine of The Hobbit set wired into a landfall chain. The core sentence is on Thranduil, the Elvenking: *"Whenever another legendary Elf you control enters, draw two cards, then discard a card"* — and the deck plays thirteen legendary Elves, so every legend that resolves refills the hand. His second line, *"Thranduil has all activated abilities of all Elf cards in your graveyard,"* turns him into a one-creature machine late: tap for X mana like Woodland Weavemaster, make a creature unblockable like Elvenking's Harper, or pump +3/+3 like Guardian of the Halls — all from the graveyard.
+
+The second engine is landfall. Thranduil, Sindarin Liege makes a 1/1 Elf on every land you control entering; Thranduil's Company lets you play an extra land each turn and puts two +1/+1 counters down with each landfall; Wood Elves, Elven Passage, and Down in the Valley manufacture extra land drops. Bard, King of Dale then doubles every token created and every draw beyond the first per turn — the Thranduil draw-two becomes draw four, and a three-land turn becomes six Elf tokens.
+
+The deck is a combo deck in the sense that the engines compound: one legendary Elf entering draws cards, those cards are lands and more Elves, those lands trigger landfall twice over, and those tokens get doubled and anthemed into a lethal board.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Woodland Weavemaster, Guardian of the Halls, Elrond, Wood Elves; land a legend — Thranduil, Sindarin Liege is the ideal turn-4 opener |
+| Turns 3-5 | Engines online: Thranduil, the Elvenking draws on every legend; Liege and Down in the Valley turn extra lands into tokens; Thranduil's Company adds a land per turn and counters on landfall |
+| Turns 5-7 | The combo turn: Bard, King of Dale doubles tokens and draws; chain legendary Elves and landfall triggers; swing with Galion and stacked anthems |
+| Late game | One-shot: Pathmaker or Thranduil goes unblockable via Harper, Key to the Side-Door, or Rogue's Passage, pumped by Elvenking's Halls and Bard the Bowman counters |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, the Elvenking | Draw engine (two cards per other legendary Elf ETB) and the graveyard-ability machine — mana, unblockable, and pumps from dead Elves |
+| Thranduil, Sindarin Liege | Anthem +1/+1 for Elves and landfall token generator; adventure Silvan Rally mills four and grabs two lands |
+| Bard, King of Dale | Doubles every token and every draw — the force multiplier that turns the engines into a kill |
+| Elrond, Moon-Reader | Draws on any creature-ability activation (once per turn); flickers two permanents to re-trigger Wood Elves and legends |
+| Thranduil's Company | Extra land per turn; two +1/+1 counters with vigilance on every landfall |
+| Wood Elves | Fetches a Forest on entry — ramp and a guaranteed landfall trigger (can fetch Breeding Pool) |
+| Woodland Weavemaster | Mana engine: taps for X of any color where X is its power, growing with every Elf that enters |
+| Mirkwood Pathmaker | Power and toughness equal to your land count — the biggest beater in the deck |
+| Cantankerous Keepers | Affinity for Elves; mills four on entry and returns every Elf card milled to hand — fills the graveyard that powers Thranduil |
+| Guardian of the Halls | Cheap trample body whose +3/+3 activation Thranduil inherits from the graveyard |
+| Elvenking's Harper | Unblockable for {4}{U} — on the board or inherited by Thranduil from the graveyard |
+| Galion, Elvenking's Butler | Attack pump: sets another creature's base power and toughness equal to his 4/4 |
+| Bard the Bowman | Second-draw each turn puts a +1/+1 counter with lifelink on a creature — lifeline on the big beater |
+| Bard's Company | Anthem +1/+1 and recruit on entry or attack; flash with a Human on board |
+| Down in the Valley | Saga: fetches a basic, then makes Elf tokens on landfall, then gives Elves +1/+0 and vigilance |
+| The Arkenstone | Anthem +1/+1 and an end-step draw; adventure Seek the Heart tutors any legendary creature |
+| Key to the Side-Door | Unblockable on demand; the extra legendaries in hand become "draw two" with the discard ability |
+| Confusticate and Bebother | Soft counter or draw two, discard one — protects the combo turn |
+| Quarrel | Power-based removal: any Elf fights an opponent's creature, scaling with Pathmaker and Galion |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Elvenking's Halls | Taps for green or blue; {2}{G}{U}, sacrifice: two +1/+1 counters on any Elf — repeatable pump, the win-con land |
+| Elven Passage | Pays 1 life, sacrifices: fetches a basic tapped, then untaps it if you behold an Elf — extra landfall per turn |
+| Restless Vinestalk | {3}{G}{U}: becomes a 5/5 trample Plant and is still a land; attacking it makes another creature base 3/3 |
+| Rogue's Passage | {4}: target creature can't be blocked — the one-shot finisher |
+| Three Tree City | Names Elf: {2} taps for one mana of any color per Elf you control — late-game mana bomb |
+| Breeding Pool / surveil duals | Green-blue shock; Undercity Sewers, Underground Mortuary, Shadowy Backstreet, Meticulous Archive fix black and white with surveil 1 feeding the graveyard |
+| Uncharted Haven | Any-color fixing that enters tapped |
+
+## Curve and mana
+
+23 lands: 2 Elvenking's Halls, 2 Elven Passage, 2 Restless Vinestalk, 1 Rogue's Passage, 1 Three Tree City, 2 Breeding Pool, 1 Undercity Sewers, 1 Underground Mortuary, 1 Shadowy Backstreet, 1 Meticulous Archive, 1 Uncharted Haven, 4 Forest, 2 Island, 1 Swamp, 1 Plains. Green sources 12, blue 10, black 6, white 6 — black and white are splashes for Thranduil, the Elvenking and the Bard family.
+
+Nonland curve: 1-drop x1, 2-drop x5, 3-drop x14, 4-drop x10, 5-drop x4, 6-drop x3. Average CMC 3.54. The deck wants green and blue early — Weavemaster or Guardian on turn 2, Wood Elves or Elrond on turn 3 — then a legend on turn 4 to start the engine.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Woodland Weavemaster or Guardian of the Halls on turn 2. Turn 3 is Wood Elves (fetch a Forest — this is also your first landfall trigger), Elrond, or Mirkwood Pathmaker. Thranduil, Sindarin Liege is the best turn-4 play: it is an anthem immediately and every land drop after it makes a token. Play lands in the right order — Elvenking's Halls and the surveil duals enter tapped, so sequence untapped sources (Breeding Pool, basics, Elven Passage) first when the curve demands it.
+
+## Mid game
+
+Resolve Thranduil, the Elvenking and start chaining: every other legendary Elf that enters draws two, and Thranduil's Company plus Elven Passage plus Wood Elves keep landfall firing. Elven Passage is a subtle engine piece — fetch a basic, behold an Elf to untap it, and you effectively bank a second land drop. Cantankerous Keepers is the setup card: its self-mill puts Weavemaster, Harper, and Guardian into the graveyard, turning Thranduil into a mana dork, an unblockable threat, and a pump machine all at once.
+
+## The combo turn
+
+1. Have Thranduil, the Elvenking and Thranduil, Sindarin Liege on the battlefield; ideally Bard, King of Dale as well.
+2. Chain landfall: play a land, then Elven Passage or Thranduil's Company's extra land, then a fetched Forest from Wood Elves. Each land makes a Liege token — doubled to two by Bard — and Thranduil's Company counters.
+3. Chain legends: each legendary Elf (Liege copies, Elrond, Bard the Bowman, Galion) draws two cards, doubled to four by Bard, King of Dale. The hand refills faster than it drains.
+4. Resolve The Arkenstone (Seek the Heart first to tutor the missing legend), Bard's Company, and Down in the Valley's final chapters to stack +1/+1 anthems.
+5. Swing: Galion sets a token's base power to 4/4 on attack, Bard's Company and the anthems push everything to 5/5 and up — lethal across a dozen attackers.
+
+A typical kill: five lands down, Liege plus Thranduil plus Bard on board. Two extra land drops make four 1/1s that become four 4/4s by combat under Galion and the anthem stack, while the legend chain keeps the hand full.
+
+## Win condition 2
+
+If the swarm is answered, the one-shot wins. Mirkwood Pathmaker's power equals your land count — with the ramp package that is 8 to 12. Thranduil, the Elvenking is the more explosive version: with Weavemaster in the graveyard he taps for mana equal to his power (5/6 base, plus counters from Elvenking's Halls, Bard the Bowman, and Thranduil's Company), with Guardian in the graveyard he pumps himself +3/+3 repeatedly, and with Harper in the graveyard he can't be blocked. Elvenking's Halls adds +2/+2 at sorcery speed from the mana base itself, Key to the Side-Door or Rogue's Passage punch the final creature through, and Bard the Bowman's lifelink counters keep the race safe. Restless Vinestalk is the spare finisher: a 5/5 trample land that also shrinks a blocker to 3/3 when it attacks.
+
+## Mulligan guide
+
+Keep: two to three lands with a two- or three-drop Elf and either a legend or a landfall piece — Weavemaster, Wood Elves, or Elrond openers are all strong. Hands with Liege plus any land-tutor are excellent. Mulligan one-land hands and hands with five or more lands and nothing to do. Black or white sources are required only from turn 4-5 on: a hand with only green and blue is keepable, but a hand that cannot cast Weavemaster, Wood Elves, or Elrond by turn 3 is not.
+
+## Key interactions and edge cases
+
+- Thranduil, the Elvenking's draw triggers only on *another* legendary Elf entering — he does not draw for himself, and two Thranduils on the battlefield die to the legend rule; play extra copies as discard fodder and Key to the Side-Door fuel.
+- Thranduil inherits activated abilities from Elf cards in the graveyard, not triggered abilities — Bard the Bowman's counter trigger and Bard's Company's recruit do not transfer, but Weavemaster's tap, Harper's unblockable, Guardian's pump, and Elrond's flicker all do.
+- Woodland Weavemaster's mana ability references "this creature's power" — when Thranduil inherits it, X is Thranduil's power, and the mana is restricted to Elf spells and Elf-source abilities.
+- Bard, King of Dale doubles tokens and draws as replacement effects — Liege landfall tokens and Thranduil's draw two are both doubled; the first draw of each draw step is exempt.
+- Elrond's draw-on-activation fires once per turn across all creatures — time it with Weavemaster's tap or Thranduil's inherited ability.
+- Down in the Valley's chapter II grants landfall to the Saga itself — both it and Liege trigger on the same land drop.
+- Wood Elves can fetch Breeding Pool (a Forest), but not Elvenking's Halls or the surveil duals — fetch basics or the shock depending on what color is missing.
+- Cantankerous Keepers mills four and returns *Elf cards* among them to hand — non-Elf cards milled (like instants and lands) stay in the graveyard and fuel Thranduil.
+- Elvenking's Halls' pump is sorcery-speed and sacrifices the land — count the lands you can afford to lose before the one-shot turn.
+- Three Tree City's big tap requires {2} plus the land — with six Elves it is six mana of any one color, mostly for Elf spells; do not rely on it for the early Bard, King of Dale.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Elrond's removal-light hand is slow, so lean on Weavemaster chump-blocking, Bard the Bowman lifelink counters, and Quarrel fights; go wide faster than they do |
+| Midrange | The anthem stack outclasses their creatures; use Galion to race and Cantankerous Keepers to refill; save Confusticate for their haymaker |
+| Control | Seek the Heart and the legend chain out-grind them; Bard, King of Dale doubles every draw; the one-shot win dodges sweepers by killing in a single unblockable hit |
+| Combo | Race: prioritize Thranduil, the Elvenking and Bard, King of Dale — the double-draw engine finds the kill first; Confusticate and Bebother buys the turn |
+
+# Deck list (Arena import)
+
+```
+Silvan Springtide
+Deck
+4 Thranduil, Sindarin Liege
+4 Wood Elves
+3 Thranduil, the Elvenking
+3 Elrond, Moon-Reader
+2 Bard, King of Dale
+1 Bard the Bowman
+2 Bard's Company
+2 Galion, Elvenking's Butler
+2 Thranduil's Company
+2 Woodland Weavemaster
+2 Mirkwood Pathmaker
+1 Cantankerous Keepers
+1 Guardian of the Halls
+1 Elvenking's Harper
+2 Down in the Valley
+1 The Arkenstone
+1 Key to the Side-Door
+2 Confusticate and Bebother
+1 Quarrel
+2 Elvenking's Halls
+2 Elven Passage
+2 Restless Vinestalk
+1 Rogue's Passage
+1 Three Tree City
+2 Breeding Pool
+1 Undercity Sewers
+1 Underground Mortuary
+1 Shadowy Backstreet
+1 Meticulous Archive
+1 Uncharted Haven
+4 Forest
+2 Island
+1 Swamp
+1 Plains
+```
