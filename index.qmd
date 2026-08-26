@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-08-25**:
+Deck guides published **2026-08-26**:
 
-- **[Swarm Calculus](decks/2026-08-25-swarm-calculus.html)** — WURG Alliance x Increment combo — every creature counts, every spell compounds  `combo` `Alliance` `Increment`
-- **[Silvan Springtide](decks/2026-08-25-silvan-springtide.html)** — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck  `hobbit` `elves`
+- **[Case Fire](decks/2026-08-26-case-fire.html)** — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid)  `combo` `raid` `solved` `evoke`

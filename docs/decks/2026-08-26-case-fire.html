@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-08-26">
+
+<title>Case Fire – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-phases" id="toc-game-plan-phases" class="nav-link" data-scroll-target="#game-plan-phases">Game plan phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game" id="toc-mid-game" class="nav-link" data-scroll-target="#mid-game">Mid game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Case Fire</h1>
+<p class="subtitle lead">Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid)</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">raid</div>
+    <div class="quarto-category">solved</div>
+    <div class="quarto-category">evoke</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 61%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (MTGA)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Red / White / Blue / Black</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Raid aggro-combo: attack to solve Cases, Evoke Incarnations for 2-mana effects (avg CMC 2.32)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards</td>
+</tr>
+<tr class="odd">
+<td>Primary win</td>
+<td>Raid army beats down while solved Cases convert attacks into card advantage and burn: Case of the Burning Masks chains spells from exile, Warleader’s Call and Catharsis push the swarm through</td>
+</tr>
+<tr class="even">
+<td>Secondary win</td>
+<td>Case of the Shattered Pact solved = a creature gets flying + double strike every combat, punched through Rogue’s Passage for a one-shot kill; Case of the Filched Falcon turns Clues into 4/4 Birds</td>
+</tr>
+<tr class="odd">
+<td>Land win con</td>
+<td>Restless Bivouac and Restless Spire attack as creature-lands (turning on Raid from the mana base alone), Fire Nation Palace grants firebending 4, Rogue’s Passage makes the double-striker unblockable</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Case Fire fuses three mechanics into one engine: <strong>Raid</strong> (if you attacked this turn), <strong>Solved</strong> (MKM Cases), and <strong>Evoke</strong> (Lorwyn Eclipsed Incarnations). The loop: attack every turn to turn on Raid payoffs, those attacks and the burn around them solve Cases, and solved Cases generate tokens, cards, and tutors that make the next attack bigger. Evoke Incarnations are the glue — 2-mana combat tricks and disruption that sacrifice themselves on entry, feeding Case of the Gorgon’s Kiss (three creature cards in graveyards) and emptying your hand for Case of the Crimson Pulse.</p>
+<p>The four flagship Cases each convert a raid attack into a resource:</p>
+<ul>
+<li><strong>Case of the Burning Masks</strong> — three damage sources in a turn solves it (Boltwave, Warleader’s Call pings, combat damage); solved, it exiles the top three cards and lets you play one, chaining spells off the top.</li>
+<li><strong>Case of the Stashed Skeleton</strong> — a suspected 2/1 that attacks; once it dies you control no suspected Skeletons and it solves into a one-shot tutor for any card.</li>
+<li><strong>Case of the Crimson Pulse</strong> — loot on entry; when the aggro curve empties your hand it solves into a repeatable “discard hand, draw two” upkeep engine.</li>
+<li><strong>Case of the Shattered Pact</strong> — fetches a basic on entry and solves on five colors among permanents (Mirage Mesa naming green plus the hybrid Incarnations); solved, it grants flying, double strike, and vigilance to a creature every combat.</li>
+</ul>
+<p>Evoke completes the circuit: Catharsis evoked for {R}{R} is a two-mana +1/+1 haste anthem for the whole team before dying; Deceit evoked for {B}{B} is a two-mana Thoughtseize; Emptiness evoked for {W}{W} reanimates a 3-drop. Every Incarnation that dies puts a creature card into your graveyard, feeding Gorgon’s Kiss.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Turns 1-2</td>
+<td>Set up: Case of the Filched Falcon (Clue), Case of the Stashed Skeleton (suspected 2/1), Case of the Gorgon’s Kiss, or Searslicer Goblin; Torch the Tower and Boltwave wait in hand</td>
+</tr>
+<tr class="even">
+<td>Turns 2-3</td>
+<td>First raid: attack with the skeleton and a goblin, then evoke Catharsis for {R}{R} — +1/+1 and haste for the whole team — and swing again; Raid triggers make tokens and Clues</td>
+</tr>
+<tr class="odd">
+<td>Turns 3-5</td>
+<td>Solve the Cases: Burning Masks (three damage sources), Stashed Skeleton (sacrifice the suspected token to Torch the Tower), Gorgon’s Kiss (evoke deaths), Crimson Pulse (empty hand)</td>
+</tr>
+<tr class="even">
+<td>Turns 4-6</td>
+<td>The engine turn: solved Burning Masks chains spells from exile, Stashed Skeleton tutors the missing piece, Warleader’s Call pings and anthems, Perforating Artist drains 3 per opponent per raid</td>
+</tr>
+<tr class="odd">
+<td>Late game</td>
+<td>One-shot: solve Shattered Pact, give Deceit or a big beater double strike + flying every combat, Rogue’s Passage makes it unblockable</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Catharsis</td>
+<td>Evoke {R}{W}{R}{W} paid as {R}{R}: two-mana anthem + haste for the raid swing; paid as {W}{W}: two 1/1 Kithkin tokens; full-cast 3/4 top-end</td>
+</tr>
+<tr class="even">
+<td>Deceit</td>
+<td>Evoke paid as {B}{B}: two-mana hand disruption; as {U}{U}: two-mana bounce; full-cast 5/5 is the best Shattered Pact target</td>
+</tr>
+<tr class="odd">
+<td>Emptiness</td>
+<td>Evoke paid as {W}{W}: reanimate a creature with mana value 3 or less; as {B}{B}: three -1/-1 counters as removal</td>
+</tr>
+<tr class="even">
+<td>Searslicer Goblin</td>
+<td>Raid: makes a 1/1 Goblin every end step you attacked — the token engine that keeps raid online</td>
+</tr>
+<tr class="odd">
+<td>Fire Nation Raider</td>
+<td>Raid: creates a Clue on entry — artifact count for Filched Falcon and card draw</td>
+</tr>
+<tr class="even">
+<td>Cruel Administrator</td>
+<td>Raid ETB counter, and on attack makes a 2/2 Soldier with firebending 1 (attack mana)</td>
+</tr>
+<tr class="odd">
+<td>Perforating Artist</td>
+<td>Raid: each opponent loses 3 life unless they sacrifice a permanent or discard — the drain that closes races</td>
+</tr>
+<tr class="even">
+<td>Fire Nation Warship</td>
+<td>4/4 Vehicle (crew 2) that is an artifact for Filched Falcon and makes a Clue when it dies</td>
+</tr>
+<tr class="odd">
+<td>Case of the Burning Masks</td>
+<td>The value engine: 3 damage on entry, solves on three damage sources, solved = play a spell from the top three each turn</td>
+</tr>
+<tr class="even">
+<td>Case of the Crimson Pulse</td>
+<td>Loot 2 on entry; solved on empty hand = upkeep wheel (discard hand, draw two)</td>
+</tr>
+<tr class="odd">
+<td>Case of the Filched Falcon</td>
+<td>Investigates on entry; solves on three artifacts; solved = Clue becomes a 4/4 flying Bird — win condition two</td>
+</tr>
+<tr class="even">
+<td>Case of the Stashed Skeleton</td>
+<td>Suspected 2/1 attacker; solved = tutor any card from library to hand</td>
+</tr>
+<tr class="odd">
+<td>Case of the Gorgon’s Kiss</td>
+<td>Kills a damaged creature; solved on three creature cards in graveyards = becomes a 4/4 deathtouch lifelink attacker</td>
+</tr>
+<tr class="even">
+<td>Case of the Shattered Pact</td>
+<td>Fetches a basic; solved on five colors = flying + double strike + vigilance every combat — the one-shot win</td>
+</tr>
+<tr class="odd">
+<td>Warleader’s Call</td>
+<td>Anthem +1/+1 and a ping on every creature ETB — pings are damage sources for Burning Masks and reach</td>
+</tr>
+<tr class="even">
+<td>Torch the Tower</td>
+<td>Bargain removal that exiles; the bargain sacrifice kills the suspected Skeleton to solve its Case</td>
+</tr>
+<tr class="odd">
+<td>Boltwave</td>
+<td>3 damage to each opponent — the fastest third damage source and reach</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restless Bivouac</td>
+<td>{1}{R}{W}: 2/2 Ox creature-land; on attack puts a +1/+1 counter on a creature — a land that turns on Raid and pumps</td>
+</tr>
+<tr class="even">
+<td>Restless Spire</td>
+<td>{U}{R}: 2/1 first strike during your turn; on attack scrys 1 — the blue raid enabler</td>
+</tr>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>{4}: target creature can’t be blocked — makes the Shattered Pact double-striker lethal</td>
+</tr>
+<tr class="even">
+<td>Fire Nation Palace</td>
+<td>{1}{R}, {T}: firebending 4 — the attacking creature adds {R}{R}{R}{R} until end of combat, paying for the exile-chain spells</td>
+</tr>
+<tr class="odd">
+<td>Mirage Mesa</td>
+<td>Any color; one names green to complete the five colors for Shattered Pact</td>
+</tr>
+<tr class="even">
+<td>Raucous Theater</td>
+<td>Black-red surveil dual; surveil 1 feeds Gorgon’s Kiss and digs to spells</td>
+</tr>
+<tr class="odd">
+<td>Mystic Monastery / Nomad Outpost</td>
+<td>Three-color tri-lands fixing white-red-blue and red-white-black</td>
+</tr>
+<tr class="even">
+<td>Sun-Blessed Peak</td>
+<td>Red-white dual; {4} sacrifice: draw a card</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>23 lands: 4 Raucous Theater, 2 Restless Bivouac, 2 Restless Spire, 2 Mirage Mesa, 1 Mystic Monastery, 1 Nomad Outpost, 1 Sun-Blessed Peak, 1 Fire Nation Palace, 1 Rogue’s Passage, 4 Mountain, 2 Swamp, 1 Island, 1 Plains. Red sources 16, black 7, white 6, blue 4; Mirage Mesa covers any missing color. Blue is a light splash (Filched Falcon, Deceit’s {U}{U} mode, Restless Spire), so sequence untapped basics and surveil lands first.</p>
+<p>Effective curve (evoke costs count as the card’s cost): 1-drop x7, 2-drop x15, 3-drop x11, 4-drop x4. Average CMC 2.32. The deck wants red and black early for Searslicer Goblin and the black Cases, then white for Warleader’s Call and Catharsis from turn 3 on.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Lead with Case of the Filched Falcon, Case of the Stashed Skeleton, or Case of the Gorgon’s Kiss on turn one, Searslicer Goblin on turn two. The suspected 2/1 Skeleton attacks freely (menace usually makes it unblocked or trades up) and dying is part of the plan: it solves its own Case and puts a creature card in the graveyard for Gorgon’s Kiss. Hold Torch the Tower to bargain the Skeleton away if the opponent refuses to block.</p>
+</section>
+<section id="mid-game" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game">Mid game</h2>
+<p>Attack every turn — Raid is the clock. Order matters: play raid creatures in the second main phase so they enter with raid bonuses, and hold the evoke Incarnations for the combat step. Catharsis for {R}{R} after blockers are declared turns a chump-blockable board into a haste-anthem swing. The raid package then compounds: Searslicer makes a Goblin, Cruel Administrator makes a Soldier with firebending 1, Perforating Artist drains 3, Warleader’s Call pings — all damage sources that solve Burning Masks.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<ol type="1">
+<li>Have Case of the Burning Masks in play and at least two other damage sources online (Warleader’s Call counts, combat damage counts, Boltwave is one).</li>
+<li>Attack, then cast Boltwave or evoke Catharsis for {R}{R} — three sources have dealt damage this turn, Burning Masks solves at end step.</li>
+<li>Sacrifice it: exile the top three, play the best spell for free this turn — usually a second Catharsis, another raid creature, or Warleader’s Call.</li>
+<li>Sacrifice the suspected Skeleton to Torch the Tower (or trade it in combat): Stashed Skeleton solves, then tutors the missing piece — Shattered Pact, Deceit, or a third Burning Masks.</li>
+<li>Evoke Deceit for {B}{B} to strip the opponent’s answer, Emptiness for {W}{W} to bring back a dead Searslicer or Perforating Artist, and swing with the full army under Catharsis haste.</li>
+</ol>
+<p>A typical kill: five lands, Warleader’s Call, Burning Masks solved. Attack with three creatures plus a Restless Bivouac; the raid drain and pings total 6-8, Boltwave adds 3, and the exiled spell from Burning Masks is a second Catharsis making the board swing for 15+.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>Solve Case of the Shattered Pact: the colors on your permanents are white (Bivouac, Warleader’s Call), red (Theater, Spire, Palace), black (Theater, Emptiness, Gorgon’s Kiss), blue (Spire, Filched Falcon), and green (a Mirage Mesa named green, or Catharsis’s Kithkin tokens). Once solved, every combat give the biggest creature flying, double strike, and vigilance — then Rogue’s Passage makes it unblockable. Deceit full-cast is a 5/5 (10 damage double-struck); Cruel Administrator is 6/5 with its raid counter; the 4/4 deathtouch lifelink Gorgon’s Kiss also works. Case of the Filched Falcon is the backup: solve it with three artifacts (Clues from Fire Nation Raider, Falcon, Fire Nation Warship), then {2}{U} to turn a Clue into a 4/4 flying Bird — repeatable per Case, and the Birds are excellent Raid enablers themselves.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep: two to three lands with a one- or two-drop Case plus a raid creature; hands with Searslicer Goblin or Filched Falcon openers are strong, and Catharsis plus any red source is a snap keep — the evoke anthem wins races. Mulligan one-land hands and hands with four or more lands and nothing to do. Blue is needed only for Falcon and Deceit’s {U}{U} mode, so a hand with only red, black, and white is keepable; a hand without red or black is not.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>Evoke sacrifices the creature when it enters — the ETB trigger and the sacrifice trigger both resolve, and you order them. Catharsis’s anthem and haste persist until end of turn even after the body dies.</li>
+<li>The Incarnations’ bonus modes check what was actually spent to cast the spell, not the evoke cost: Catharsis evoked with one {R} and one {W} gets neither bonus. Pay {R}{R}, {B}{B}, {U}{U}, or {W}{W} deliberately.</li>
+<li>Case of the Stashed Skeleton solves only when you control no suspected Skeletons — the initial token must die first. Torch the Tower’s bargain sacrifice is the cleanest way; sacrificing other tokens to bargain does not help solve it.</li>
+<li>Case of the Gorgon’s Kiss counts creature cards put into graveyards from anywhere this turn — evoke deaths, combat deaths, and Case of the Crimson Pulse’s discard all count; tokens do not.</li>
+<li>Case of the Burning Masks needs three different sources you controlled to deal damage — one Boltwave is one source, Warleader’s Call pings are one source (no matter how many times it pings), and each attacking creature is its own source.</li>
+<li>Case of the Crimson Pulse solves at the beginning of your end step if your hand is empty — cast or evoke everything in the second main phase, then loot into a fresh grip on the next upkeep.</li>
+<li>Suspected creatures have menace and can’t block — the Skeleton attacks but never blocks; do not hold it back expecting defense.</li>
+<li>Firebending mana from Cruel Administrator’s Soldiers and Fire Nation Palace lasts until end of combat — spend it on instants like Torch the Tower or on the Burning Masks exile chain during or after combat.</li>
+<li>Shattered Pact’s solved trigger targets at the beginning of combat each turn — combine with Rogue’s Passage in the same combat step for the unblockable double-strike kill.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aggro</td>
+<td>Trade early with the Skeleton, Torch the Tower, and Gorgon’s Kiss; Catharsis for {R}{R} lets your smaller team race; Perforating Artist’s drain and lifelink Gorgon’s Kiss stabilize</td>
+</tr>
+<tr class="even">
+<td>Midrange</td>
+<td>Solve Burning Masks early and chain spells to go over the top; Deceit for {B}{B} strips their haymaker; Shattered Pact double strike ends the game through blockers</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Empty your hand to solve Crimson Pulse and grind card advantage; Stashed Skeleton tutors the answer; the one-shot double-strike kill dodges sweepers</td>
+</tr>
+<tr class="even">
+<td>Combo</td>
+<td>Race: prioritize Catharsis and Warleader’s Call for the fastest clock; Boltwave and Perforating Artist provide reach that ignores their board</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Case Fire
+Deck
+4 Catharsis
+2 Deceit
+2 Emptiness
+4 Searslicer Goblin
+2 Fire Nation Raider
+2 Cruel Administrator
+2 Perforating Artist
+1 Fire Nation Warship
+4 Case of the Burning Masks
+2 Case of the Crimson Pulse
+2 Case of the Filched Falcon
+2 Case of the Stashed Skeleton
+2 Case of the Gorgon's Kiss
+1 Case of the Shattered Pact
+2 Warleader's Call
+2 Torch the Tower
+1 Boltwave
+4 Raucous Theater
+2 Restless Bivouac
+2 Restless Spire
+2 Mirage Mesa
+1 Mystic Monastery
+1 Nomad Outpost
+1 Sun-Blessed Peak
+1 Fire Nation Palace
+1 Rogue's Passage
+4 Mountain
+2 Swamp
+1 Island
+1 Plains</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,171 @@
+---
+title: "Case Fire"
+subtitle: "Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid)"
+date: "2026-08-26"
+categories: ["combo", "raid", "solved", "evoke"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White / Blue / Black |
+| Archetype | Raid aggro-combo: attack to solve Cases, Evoke Incarnations for 2-mana effects (avg CMC 2.32) |
+| Size | 60 cards |
+| Primary win | Raid army beats down while solved Cases convert attacks into card advantage and burn: Case of the Burning Masks chains spells from exile, Warleader's Call and Catharsis push the swarm through |
+| Secondary win | Case of the Shattered Pact solved = a creature gets flying + double strike every combat, punched through Rogue's Passage for a one-shot kill; Case of the Filched Falcon turns Clues into 4/4 Birds |
+| Land win con | Restless Bivouac and Restless Spire attack as creature-lands (turning on Raid from the mana base alone), Fire Nation Palace grants firebending 4, Rogue's Passage makes the double-striker unblockable |
+
+# Overview
+
+Case Fire fuses three mechanics into one engine: **Raid** (if you attacked this turn), **Solved** (MKM Cases), and **Evoke** (Lorwyn Eclipsed Incarnations). The loop: attack every turn to turn on Raid payoffs, those attacks and the burn around them solve Cases, and solved Cases generate tokens, cards, and tutors that make the next attack bigger. Evoke Incarnations are the glue — 2-mana combat tricks and disruption that sacrifice themselves on entry, feeding Case of the Gorgon's Kiss (three creature cards in graveyards) and emptying your hand for Case of the Crimson Pulse.
+
+The four flagship Cases each convert a raid attack into a resource:
+
+- **Case of the Burning Masks** — three damage sources in a turn solves it (Boltwave, Warleader's Call pings, combat damage); solved, it exiles the top three cards and lets you play one, chaining spells off the top.
+- **Case of the Stashed Skeleton** — a suspected 2/1 that attacks; once it dies you control no suspected Skeletons and it solves into a one-shot tutor for any card.
+- **Case of the Crimson Pulse** — loot on entry; when the aggro curve empties your hand it solves into a repeatable "discard hand, draw two" upkeep engine.
+- **Case of the Shattered Pact** — fetches a basic on entry and solves on five colors among permanents (Mirage Mesa naming green plus the hybrid Incarnations); solved, it grants flying, double strike, and vigilance to a creature every combat.
+
+Evoke completes the circuit: Catharsis evoked for {R}{R} is a two-mana +1/+1 haste anthem for the whole team before dying; Deceit evoked for {B}{B} is a two-mana Thoughtseize; Emptiness evoked for {W}{W} reanimates a 3-drop. Every Incarnation that dies puts a creature card into your graveyard, feeding Gorgon's Kiss.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Set up: Case of the Filched Falcon (Clue), Case of the Stashed Skeleton (suspected 2/1), Case of the Gorgon's Kiss, or Searslicer Goblin; Torch the Tower and Boltwave wait in hand |
+| Turns 2-3 | First raid: attack with the skeleton and a goblin, then evoke Catharsis for {R}{R} — +1/+1 and haste for the whole team — and swing again; Raid triggers make tokens and Clues |
+| Turns 3-5 | Solve the Cases: Burning Masks (three damage sources), Stashed Skeleton (sacrifice the suspected token to Torch the Tower), Gorgon's Kiss (evoke deaths), Crimson Pulse (empty hand) |
+| Turns 4-6 | The engine turn: solved Burning Masks chains spells from exile, Stashed Skeleton tutors the missing piece, Warleader's Call pings and anthems, Perforating Artist drains 3 per opponent per raid |
+| Late game | One-shot: solve Shattered Pact, give Deceit or a big beater double strike + flying every combat, Rogue's Passage makes it unblockable |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Catharsis | Evoke {R}{W}{R}{W} paid as {R}{R}: two-mana anthem + haste for the raid swing; paid as {W}{W}: two 1/1 Kithkin tokens; full-cast 3/4 top-end |
+| Deceit | Evoke paid as {B}{B}: two-mana hand disruption; as {U}{U}: two-mana bounce; full-cast 5/5 is the best Shattered Pact target |
+| Emptiness | Evoke paid as {W}{W}: reanimate a creature with mana value 3 or less; as {B}{B}: three -1/-1 counters as removal |
+| Searslicer Goblin | Raid: makes a 1/1 Goblin every end step you attacked — the token engine that keeps raid online |
+| Fire Nation Raider | Raid: creates a Clue on entry — artifact count for Filched Falcon and card draw |
+| Cruel Administrator | Raid ETB counter, and on attack makes a 2/2 Soldier with firebending 1 (attack mana) |
+| Perforating Artist | Raid: each opponent loses 3 life unless they sacrifice a permanent or discard — the drain that closes races |
+| Fire Nation Warship | 4/4 Vehicle (crew 2) that is an artifact for Filched Falcon and makes a Clue when it dies |
+| Case of the Burning Masks | The value engine: 3 damage on entry, solves on three damage sources, solved = play a spell from the top three each turn |
+| Case of the Crimson Pulse | Loot 2 on entry; solved on empty hand = upkeep wheel (discard hand, draw two) |
+| Case of the Filched Falcon | Investigates on entry; solves on three artifacts; solved = Clue becomes a 4/4 flying Bird — win condition two |
+| Case of the Stashed Skeleton | Suspected 2/1 attacker; solved = tutor any card from library to hand |
+| Case of the Gorgon's Kiss | Kills a damaged creature; solved on three creature cards in graveyards = becomes a 4/4 deathtouch lifelink attacker |
+| Case of the Shattered Pact | Fetches a basic; solved on five colors = flying + double strike + vigilance every combat — the one-shot win |
+| Warleader's Call | Anthem +1/+1 and a ping on every creature ETB — pings are damage sources for Burning Masks and reach |
+| Torch the Tower | Bargain removal that exiles; the bargain sacrifice kills the suspected Skeleton to solve its Case |
+| Boltwave | 3 damage to each opponent — the fastest third damage source and reach |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Bivouac | {1}{R}{W}: 2/2 Ox creature-land; on attack puts a +1/+1 counter on a creature — a land that turns on Raid and pumps |
+| Restless Spire | {U}{R}: 2/1 first strike during your turn; on attack scrys 1 — the blue raid enabler |
+| Rogue's Passage | {4}: target creature can't be blocked — makes the Shattered Pact double-striker lethal |
+| Fire Nation Palace | {1}{R}, {T}: firebending 4 — the attacking creature adds {R}{R}{R}{R} until end of combat, paying for the exile-chain spells |
+| Mirage Mesa | Any color; one names green to complete the five colors for Shattered Pact |
+| Raucous Theater | Black-red surveil dual; surveil 1 feeds Gorgon's Kiss and digs to spells |
+| Mystic Monastery / Nomad Outpost | Three-color tri-lands fixing white-red-blue and red-white-black |
+| Sun-Blessed Peak | Red-white dual; {4} sacrifice: draw a card |
+
+## Curve and mana
+
+23 lands: 4 Raucous Theater, 2 Restless Bivouac, 2 Restless Spire, 2 Mirage Mesa, 1 Mystic Monastery, 1 Nomad Outpost, 1 Sun-Blessed Peak, 1 Fire Nation Palace, 1 Rogue's Passage, 4 Mountain, 2 Swamp, 1 Island, 1 Plains. Red sources 16, black 7, white 6, blue 4; Mirage Mesa covers any missing color. Blue is a light splash (Filched Falcon, Deceit's {U}{U} mode, Restless Spire), so sequence untapped basics and surveil lands first.
+
+Effective curve (evoke costs count as the card's cost): 1-drop x7, 2-drop x15, 3-drop x11, 4-drop x4. Average CMC 2.32. The deck wants red and black early for Searslicer Goblin and the black Cases, then white for Warleader's Call and Catharsis from turn 3 on.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Case of the Filched Falcon, Case of the Stashed Skeleton, or Case of the Gorgon's Kiss on turn one, Searslicer Goblin on turn two. The suspected 2/1 Skeleton attacks freely (menace usually makes it unblocked or trades up) and dying is part of the plan: it solves its own Case and puts a creature card in the graveyard for Gorgon's Kiss. Hold Torch the Tower to bargain the Skeleton away if the opponent refuses to block.
+
+## Mid game
+
+Attack every turn — Raid is the clock. Order matters: play raid creatures in the second main phase so they enter with raid bonuses, and hold the evoke Incarnations for the combat step. Catharsis for {R}{R} after blockers are declared turns a chump-blockable board into a haste-anthem swing. The raid package then compounds: Searslicer makes a Goblin, Cruel Administrator makes a Soldier with firebending 1, Perforating Artist drains 3, Warleader's Call pings — all damage sources that solve Burning Masks.
+
+## The combo turn
+
+1. Have Case of the Burning Masks in play and at least two other damage sources online (Warleader's Call counts, combat damage counts, Boltwave is one).
+2. Attack, then cast Boltwave or evoke Catharsis for {R}{R} — three sources have dealt damage this turn, Burning Masks solves at end step.
+3. Sacrifice it: exile the top three, play the best spell for free this turn — usually a second Catharsis, another raid creature, or Warleader's Call.
+4. Sacrifice the suspected Skeleton to Torch the Tower (or trade it in combat): Stashed Skeleton solves, then tutors the missing piece — Shattered Pact, Deceit, or a third Burning Masks.
+5. Evoke Deceit for {B}{B} to strip the opponent's answer, Emptiness for {W}{W} to bring back a dead Searslicer or Perforating Artist, and swing with the full army under Catharsis haste.
+
+A typical kill: five lands, Warleader's Call, Burning Masks solved. Attack with three creatures plus a Restless Bivouac; the raid drain and pings total 6-8, Boltwave adds 3, and the exiled spell from Burning Masks is a second Catharsis making the board swing for 15+.
+
+## Win condition 2
+
+Solve Case of the Shattered Pact: the colors on your permanents are white (Bivouac, Warleader's Call), red (Theater, Spire, Palace), black (Theater, Emptiness, Gorgon's Kiss), blue (Spire, Filched Falcon), and green (a Mirage Mesa named green, or Catharsis's Kithkin tokens). Once solved, every combat give the biggest creature flying, double strike, and vigilance — then Rogue's Passage makes it unblockable. Deceit full-cast is a 5/5 (10 damage double-struck); Cruel Administrator is 6/5 with its raid counter; the 4/4 deathtouch lifelink Gorgon's Kiss also works. Case of the Filched Falcon is the backup: solve it with three artifacts (Clues from Fire Nation Raider, Falcon, Fire Nation Warship), then {2}{U} to turn a Clue into a 4/4 flying Bird — repeatable per Case, and the Birds are excellent Raid enablers themselves.
+
+## Mulligan guide
+
+Keep: two to three lands with a one- or two-drop Case plus a raid creature; hands with Searslicer Goblin or Filched Falcon openers are strong, and Catharsis plus any red source is a snap keep — the evoke anthem wins races. Mulligan one-land hands and hands with four or more lands and nothing to do. Blue is needed only for Falcon and Deceit's {U}{U} mode, so a hand with only red, black, and white is keepable; a hand without red or black is not.
+
+## Key interactions and edge cases
+
+- Evoke sacrifices the creature when it enters — the ETB trigger and the sacrifice trigger both resolve, and you order them. Catharsis's anthem and haste persist until end of turn even after the body dies.
+- The Incarnations' bonus modes check what was actually spent to cast the spell, not the evoke cost: Catharsis evoked with one {R} and one {W} gets neither bonus. Pay {R}{R}, {B}{B}, {U}{U}, or {W}{W} deliberately.
+- Case of the Stashed Skeleton solves only when you control no suspected Skeletons — the initial token must die first. Torch the Tower's bargain sacrifice is the cleanest way; sacrificing other tokens to bargain does not help solve it.
+- Case of the Gorgon's Kiss counts creature cards put into graveyards from anywhere this turn — evoke deaths, combat deaths, and Case of the Crimson Pulse's discard all count; tokens do not.
+- Case of the Burning Masks needs three different sources you controlled to deal damage — one Boltwave is one source, Warleader's Call pings are one source (no matter how many times it pings), and each attacking creature is its own source.
+- Case of the Crimson Pulse solves at the beginning of your end step if your hand is empty — cast or evoke everything in the second main phase, then loot into a fresh grip on the next upkeep.
+- Suspected creatures have menace and can't block — the Skeleton attacks but never blocks; do not hold it back expecting defense.
+- Firebending mana from Cruel Administrator's Soldiers and Fire Nation Palace lasts until end of combat — spend it on instants like Torch the Tower or on the Burning Masks exile chain during or after combat.
+- Shattered Pact's solved trigger targets at the beginning of combat each turn — combine with Rogue's Passage in the same combat step for the unblockable double-strike kill.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with the Skeleton, Torch the Tower, and Gorgon's Kiss; Catharsis for {R}{R} lets your smaller team race; Perforating Artist's drain and lifelink Gorgon's Kiss stabilize |
+| Midrange | Solve Burning Masks early and chain spells to go over the top; Deceit for {B}{B} strips their haymaker; Shattered Pact double strike ends the game through blockers |
+| Control | Empty your hand to solve Crimson Pulse and grind card advantage; Stashed Skeleton tutors the answer; the one-shot double-strike kill dodges sweepers |
+| Combo | Race: prioritize Catharsis and Warleader's Call for the fastest clock; Boltwave and Perforating Artist provide reach that ignores their board |
+
+# Deck list (Arena import)
+
+```
+Case Fire
+Deck
+4 Catharsis
+2 Deceit
+2 Emptiness
+4 Searslicer Goblin
+2 Fire Nation Raider
+2 Cruel Administrator
+2 Perforating Artist
+1 Fire Nation Warship
+4 Case of the Burning Masks
+2 Case of the Crimson Pulse
+2 Case of the Filched Falcon
+2 Case of the Stashed Skeleton
+2 Case of the Gorgon's Kiss
+1 Case of the Shattered Pact
+2 Warleader's Call
+2 Torch the Tower
+1 Boltwave
+4 Raucous Theater
+2 Restless Bivouac
+2 Restless Spire
+2 Mirage Mesa
+1 Mystic Monastery
+1 Nomad Outpost
+1 Sun-Blessed Peak
+1 Fire Nation Palace
+1 Rogue's Passage
+4 Mountain
+2 Swamp
+1 Island
+1 Plains
+```
