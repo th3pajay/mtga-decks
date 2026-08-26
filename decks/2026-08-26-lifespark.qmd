@@ -1,0 +1,136 @@
+---
+title: "Lifespark"
+subtitle: "WURG (White, Blue, Red, Green) | Infusion x Prowess"
+date: "2026-08-26"
+categories: ["combo", "infusion", "prowess"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | White, Blue, Red, Green (WURG) |
+| Archetype | Tempo-combo spell-slinger |
+| Size | 60 cards |
+| Primary win | Unblockable prowess swarm (Bria, Riptide Rogue + Restless Ridgeline) |
+| Secondary win | Burn reach (Heartfire Immolator, Lightning Strike, Queen Brahne pings) |
+
+## Overview
+
+Lifespark fuses two build-around mechanics: **Prowess** (creatures grow whenever you cast a noncreature spell) and **Infusion** (Tarkir Dragonstorm bonuses that activate "if you gained life this turn"). The deck is a spell-slinger engine: gain a little life, then ride a chain of cheap instants and sorceries that pump every creature on the board while arming your Infusion payoffs.
+
+The engine is **Bria, Riptide Rogue**: she grants prowess to every other creature you control, so even tokens, mana dorks, and animated manlands grow with each spell, and every noncreature spell also makes one of your creatures unblockable. **Firebending Student** turns power into red mana on attack, letting a big turn snowball: pump, attack for mana, cast more spells, pump again. **Sokka, Tenacious Tactician** turns each noncreature spell into a 1/1 Ally that itself has prowess, doubling the swarm. Life gain (gainlands, Lightning Helix, lifelink, Luminollusk) arms the green Infusion suite: **Efflorescence** becomes a +2/+2 trample-and-indestructible pump, and **Lumaret's Favor** copies itself.
+
+## Approach
+
+### Game plan phases
+
+1. **Setup (turns 1-3):** Deploy prowess creatures. Play a gainland to arm Infusion for the turn. Stormcatch Mentor discounts the spell chain; Emberheart Challenger starts exiling extra cards.
+2. **Engine (turns 3-4):** Resolve Bria or Sokka. Every noncreature spell now grows the whole team and produces tokens or unblockable attackers.
+3. **Kill (turns 4-6):** Chain 2-4 spells, attack with Firebending Student for storm mana, pump with infused Efflorescence, and finish through unblockable Bria/Ridgeline or Heartfire Immolator sacrifice.
+
+### Card roles
+
+| Card | Role | Notes |
+|---|---|---|
+| Bria, Riptide Rogue | Engine | All other creatures gain prowess; each noncreature spell makes a creature unblockable |
+| Firebending Student | Engine | On attack, adds red mana equal to its (prowess-pumped) power |
+| Stormcatch Mentor | Enabler | Instants and sorceries cost {1} less |
+| Emberheart Challenger | Enabler | Valiant: targeting it exiles a card you may play this turn |
+| Sokka, Tenacious Tactician | Payoff | Noncreature spell = 1/1 Ally token; Allies get menace and prowess |
+| Queen Brahne | Payoff | Wizard tokens ping each opponent for 1 per noncreature spell |
+| Thor Odinson | Finisher | Double prowess: +2/+2 per spell, flying, vigilance |
+| Heartfire Immolator | Finisher | Sacrifice for damage equal to its pumped power |
+| Efflorescence | Infusion payoff | Two +1/+1 counters; infused: trample and indestructible |
+| Lumaret's Favor | Infusion payoff | +2/+4; infused: copied |
+| Lightning Helix | Fusion bridge | Burn plus life gain that arms Infusion and feeds Comforting Counsel |
+| Comforting Counsel | Payoff | Every life gain adds a counter; at five, creatures get +3/+3 |
+| Brightblade Stoat | Enabler | First strike lifelink: attacks arm Infusion and grow Counsel |
+| Luminollusk | Enabler | Vivid: gains life equal to colors among permanents (3-4 in this deck) |
+| Lightning Strike | Removal/reach | Prowess trigger and burn |
+
+### Lands as engines
+
+| Land | Role |
+|---|---|
+| Restless Ridgeline | Win condition: animates into a 3/4 Dinosaur that has prowess under Bria, can be made unblockable, and pumps another attacker +2/+0 |
+| Rugged Highlands, Swiftwater Cliffs, Wind-Scarred Crag, Tranquil Cove | Gainlands: entering tapped gains 1 life, arming every Infusion card for the rest of the turn |
+| Cavern of Souls | Uncounterable engine pieces: name Otter, Human, or Mouse |
+| Stormcarved Coast, Dreamroot Cascade, Sundown Pass | Fast fixing for the four-color manabase |
+
+### Curve and mana
+
+Average CMC is 2.61. The deck plays no one-drops; the whole curve sits at two to four, with Thor as the only five-drop. Eleven lands produce colored mana untapped early (checklands), six gainlands trade a tapped entry for the life gain that fuels the mechanic, and four basics support the singleton splash colors. Red and blue are the core; green supplies Infusion; white is a light splash for Sokka, Thor, Stoat, and Helix.
+
+## Gameplay strategy
+
+### Early game
+
+Play a two-drop prowess creature on turn two (Emberheart Challenger, Firebending Student, Stormcatch Mentor, or Brightblade Stoat) or a gainland to pre-arm Infusion. Hold Lightning Strike for blockers or planeswalkers. If you have a gainland, sequence it before your first spell so Efflorescence and Lumaret's Favor are infused.
+
+### Mid game
+
+Resolve Bria as early as possible; she is the force multiplier. After that, every noncreature spell grows the entire team, so even a Lightning Helix pointed at a blocker grows your attackers. Sokka and Queen Brahne convert spells into board presence: Sokka's Ally tokens have prowess twice over (Sokka's aura plus Bria), and Brahne's Wizards deal 1 to each opponent per spell, which doubles as reach.
+
+### The combo turn
+
+With Bria and Firebending Student on board: attack with Student, adding red mana equal to its power (already boosted by previous spells). Use that mana plus Stormcatch Mentor's discount to cast a chain of pump and burn spells. Each spell triggers every prowess creature, growing Student for more mana and making a creature unblockable via Bria. Finish by animating Restless Ridgeline (itself a prowess creature under Bria) and attacking with unblockable, infused, indestructible creatures.
+
+### Win condition 2: burn reach
+
+When the board stalls, convert it into damage: sacrifice a prowess-pumped Heartfire Immolator for damage equal to its power; chain Lightning Strike and Lightning Helix (discounted by Mentor); let Queen Brahne tokens ping each opponent every time you cast a spell. Lightning Helix doubles as the life gain that keeps Infusion armed while burning.
+
+### Mulligan guide
+
+Keep any hand with two to three lands (at least one red source and one blue or green source) and a two-drop prowess creature or Bria. Mulligan hands with four or more lands, no creatures, or no way to reach three mana by turn three. Bria plus any two spells is a strong keep.
+
+### Key interactions and edge cases
+
+- Infusion checks "if you gained life this turn" at resolution, so any life gain earlier in the turn works, including a gainland played that same turn.
+- Bria's unblockable ability targets a creature each time you cast a noncreature spell; multiple spells can make multiple creatures unblockable.
+- Efflorescence's indestructible saves a creature from the damage of your own Lightning Strike or from blockers, but not from sacrifice effects.
+- Firebending Student's mana expires at end of combat; spend it in the second main phase.
+- Comforting Counsel counts every life gain event, including lifelink damage and each gainland.
+
+### Matchups
+
+- **Aggro:** The lifegain package (Stoat, Helix, Luminollusk, gainlands) buys time; infused Efflorescence creates an indestructible blocker; Withering-Curse-style sweeps are not needed if you race.
+- **Control:** Cavern of Souls protects Bria and Thor from counterspells; Emberheart Challenger and Mentor apply early pressure; Bria's unblockable ability punches through removal-heavy boards.
+- **Midrange:** The combo turn outgrows most midrange boards; keep Lightning Strike for their must-answer creature and win the race.
+
+## Deck list (Arena import)
+
+```text
+Lifespark
+Deck
+4 Bria, Riptide Rogue
+4 Firebending Student
+4 Emberheart Challenger
+3 Stormcatch Mentor
+2 Heartfire Immolator
+2 Sokka, Tenacious Tactician
+2 Brightblade Stoat
+2 Luminollusk
+1 Thor Odinson
+1 Queen Brahne
+3 Lightning Strike
+3 Efflorescence
+3 Lumaret's Favor
+2 Lightning Helix
+2 Comforting Counsel
+4 Stormcarved Coast
+2 Dreamroot Cascade
+3 Restless Ridgeline
+2 Sundown Pass
+2 Rugged Highlands
+2 Swiftwater Cliffs
+1 Wind-Scarred Crag
+1 Tranquil Cove
+1 Cavern of Souls
+1 Forest
+1 Island
+1 Mountain
+1 Plains
+```
