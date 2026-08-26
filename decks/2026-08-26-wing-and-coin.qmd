@@ -1,0 +1,165 @@
+---
+title: "Wing and Coin"
+subtitle: "Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck"
+date: "2026-08-26"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / White |
+| Archetype | Smaug dragon x treasure combo (avg CMC 3.08) |
+| Size | 60 cards |
+| Primary win | Smaug the Magnificent burn: treasures make his attack trigger deal N damage to any target, and he has flying and haste — one swing with a full hoard is 10+ to the face |
+| Secondary win | Lake-town mill: The Master of Lake-town mills a player for every point of life they lose, so every Smaug trigger and combat hit mills the opponent out |
+| Land win con | The Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper per Equipment) plus Restless Fortress (draining creature-land) |
+
+# Overview
+
+Wing and Coin is the Smaug deck of The Hobbit set: a dragon engine that converts gold into damage and damage into a milled library. The engine is Treasure — made five different ways (Smaug's upkeep trigger, Wicked Worm's entry burst, the Misty Mountains saga, Gleaming Splendor, Dori, the Grey Dog) — and the payoff is Smaug the Magnificent, whose attack trigger deals damage equal to the number of Treasures you control to any target. A hoard of six tokens turns every attack into a 6-damage fireball plus his 4 flying haste damage.
+
+The second half of the sentence is written on The Master of Lake-town: whenever any player loses life, that player mills that many cards. Damage causes loss of life, so Smaug's burn becomes mass-mill and Inside Information exiles the library directly. The deck wins by burning, by milling, or by burying the opponent under dragon beats and Dwarf tokens — three kill lines out of one engine.
+
+The set is scheduled for Arena on 2026-08-14 (arena_id is still empty in the database, so the import list works from that date).
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop the hoard: Sackville-Bagginses, Gleaming Splendor, Last Light, Dori, or the Grey Dog; Stir Up Trouble and Deadly Slice hold the board |
+| Turns 3-5 | Engines online: The Misty Mountains Cold makes a Treasure every chapter and pops a 6/6 Dragon; Smaug, Wicked Worm enters for a burst of tapped gold |
+| Turns 5-7 | The combo turn: Smaug the Magnificent lands with a hoard behind him; Desolation clears non-Dragons and pays for the next dragon |
+| Late game | Win condition 2: The Master of Lake-town turns every Smaug trigger into mill; Were-Worm's extra combat doubles the burn |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | The engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count |
+| Smaug, Wicked Worm | Treasure burst on entry (one per artifact the opponent controls) and card draw whenever you cast with Treasure mana |
+| The Misty Mountains Cold | Saga that makes a Treasure on every chapter and sacrifices itself into a 6/6 flying Dragon when the hoard hits four |
+| Gleaming Splendor | Repeatable Treasure: triggers on the opponent's second draw, and its own {2}{W} activation forces that draw |
+| Last Light of Durin's Day | Mountain quest: at six Mountain-entries it tutors any Dragon onto the battlefield for free |
+| Desolation of Smaug | One-sided board wipe (3 damage to each non-Dragon) that adds four mana for your next Dragon spell |
+| Desert Were-Worm | Grows +2/+0 per Mountain; at 12+ attacking power it grants an extra combat — Smaug burns twice |
+| Dori, Bearer of Friends | Cheap legendary Dwarf that makes a Treasure on entry |
+| The Sackville-Bagginses | Turns spare artifacts and creatures into cards and Treasures, and pings on every token sacrifice |
+| The Master of Lake-town | Win condition 2: every point of life lost mills that many cards |
+| Long-Bodied Grey Dog | Flash 2/2 with reach that makes a tapped Treasure — instant-speed hoard development |
+| Bilbo's Deadly Slice | Clean {1}{B}{B} removal |
+| Stir Up Trouble | One-mana removal that happily eats a Treasure as its cost |
+| Pinecone Strike | Flexible burn that exiles dying creatures and destroys artifact tokens |
+| Bilbo's Gambit | Bounces a spell and, when gifted, locks both players out of casting — the Treasure gift feeds Wicked Worm later |
+| The Eagles Are Coming! | Flickers your dragons to re-trigger Wicked Worm and Dori, then refunds 4/4 flying Birds |
+| Inside Information | X-cost mill and theft: exile the top X of the opponent's library and play their own spells |
+| The Arkenstone | Anthem and end-step draw; its adventure Seek the Heart tutors any legendary — usually Smaug himself |
+| Crude Bent Blade | Removal on entry, then an Equipment that discounts The Lonely Mountain |
+| Sting, Bilbo's Sword | Flash Equipment with hone counters; keeps The Lonely Mountain untapped and cheap |
+| Thrór's Map | Fetches a basic (a Mountain for the quest) and loots away late-game flood |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | A Mountain that makes 2/2 red Dwarf tokens for {4}{R}, {1} cheaper per Equipment — the win-con land |
+| Hobbit Hole | Sacrifices itself to put a basic onto the battlefield tapped — an extra Mountain for the Last Light quest |
+| Restless Fortress | Black-white mana that becomes a 1/4 Nightmare and drains 2 life when it attacks — life loss also feeds the Lake-town mill |
+| Razortrap Gorge | Black-red fixing that enters untapped once a player is at 13 or less life |
+| Temples and fast lands | Sundown Pass, Inspiring Vantage, and the Temples keep the three-color mana stable |
+
+## Curve and mana
+
+24 lands: 4 The Lonely Mountain, 2 Hobbit Hole, 2 Sundown Pass, 1 Elegant Parlor, 2 Inspiring Vantage, 2 Temple of Malice, 1 Temple of Triumph, 1 Temple of Silence, 1 Restless Fortress, 1 Razortrap Gorge, 2 Mountain, 5 Swamp. Red sources 15, black 10, white 8 — red is the workhorse, white a light splash.
+
+Nonland curve: 1-drop x2, 2-drop x13, 3-drop x11, 4-drop x4, 5-drop x3, 6-drop x2, 7-drop x1. Average CMC 3.08. The deck wants a Treasure maker on turn 2, a saga or Dori on turn 3, and Smaug the Magnificent on turn 4-5 with a hoard already forming.
+
+# Gameplay strategy
+
+## Early game
+
+Turn 1 is Stir Up Trouble (holding up {B} to eat a Treasure and kill a threat) or a tapped Temple. Turn 2: The Sackville-Bagginses, Gleaming Splendor, Last Light, or removal. Sequence tapped lands first — Temples, Elegant Parlor, and Restless Fortress enter tapped, so keep Sundown Pass and Inspiring Vantage for the turns you need untapped red. Fetching a Mountain with Hobbit Hole also advances the Last Light quest.
+
+## Mid game
+
+Resolve The Misty Mountains Cold and let the chapters stack Treasures; it turns itself into a 6/6 Dragon at four tokens. Smaug, Wicked Worm is the mid-game haymaker: against artifact decks it enters with four or five tapped Treasures, and every spell cast from that gold draws a card. Gleaming Splendor turns the opponent's card draw into more gold, and its {2}{W} mode makes two players draw — forcing the trigger and cantripping you at once.
+
+## The combo turn
+
+1. Accumulate a hoard: four to eight Treasures from the saga, Splendor, Wicked Worm, Dori, and the Grey Dog.
+2. Cast Smaug the Magnificent ({2}{R}{R}, haste, flying). If the board is crowded, Desolation of Smaug first — it deals 3 to every non-Dragon and its four mana can pay for Smaug himself.
+3. Attack: Smaug's trigger deals damage equal to your Treasure count to any target — face, planeswalker, or blocker — plus his 4 combat damage.
+4. Repeat: every upkeep makes another Treasure, so each swing is bigger. With Desert Were-Worm (growing off every Mountain) attacking alongside, 12+ total power grants an extra combat and Smaug's burn fires twice.
+
+A typical kill: six Treasures and Smaug attacking alone is 10 damage; the next turn is 11, and the turn after that is 12. Wicked Worm's draw-on-Treasure-cast keeps the hand full through the sequence.
+
+## Win condition 2
+
+The Master of Lake-town turns the same engine into mill. Every point of life an opponent loses — Smaug's attack trigger, his combat damage, Restless Fortress's drain — mills that many cards off the top; a 6-Treasure Smaug swing mills 10. Inside Information finishes: with a hoard of Treasures paying any color, X = 10 or more exiles a huge chunk of the library outright, and the exiled cards are playable (paying life instead of mana, which conveniently mills more). The Arkenstone's adventure tutors either Smaug or the Master, whichever the board needs. Backup: The Lonely Mountain's Dwarf tokens, the saga's 6/6 Dragon, and Restless Fortress beats.
+
+## Mulligan guide
+
+Keep: two to three lands with a Treasure maker or removal — Sackville-Bagginses, Gleaming Splendor, Dori, or Stir Up Trouble openers are strong; any hand with The Misty Mountains Cold or Smaug, Wicked Worm plus interaction is excellent. Mulligan one-land hands and hands with five or more lands and no engine. White is a splash: a hand with only red and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not.
+
+## Key interactions and edge cases
+
+- Smaug the Magnificent's attack trigger targets — it can hit creatures and planeswalkers as well as the opponent; point it at a blocker and Smaug's own combat damage still connects.
+- The Misty Mountains Cold checks "four or more Treasures" after each chapter — with Gleaming Splendor and the Grey Dog it can pop its Dragon as early as chapter II.
+- Smaug, Wicked Worm counts artifacts the opponent controls at entry — Bilbo's Gambit's gifted Treasure feeds it, so hold Wicked Worm for when they have an artifact board.
+- Last Light of Durin's Day counts Mountains entering, not lands — fetch Mountains specifically with Hobbit Hole and Thrór's Map; The Lonely Mountain is a Mountain.
+- Desert Were-Worm's extra combat triggers "the first time each turn" you attack with 12+ total power — attack with it and Smaug together so both get the second combat. Gleaming Splendor's {2}{W} targets two players: choose an opponent and yourself to force the Treasure trigger and draw your own card.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Removal holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed |
+| Midrange | Race the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons |
+| Control | Bilbo's Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw |
+| Combo | Mill is the fastest clock: Master of Lake-town plus Smaug's trigger mills 10+ per turn; Inside Information exiles their pieces |
+
+# Deck list (Arena import)
+
+```
+Wing and Coin
+Deck
+2 Smaug the Magnificent
+2 Smaug, Wicked Worm
+1 Smaug, the Great Calamity
+2 Desert Were-Worm
+2 Dori, Bearer of Friends
+2 The Master of Lake-town
+2 The Sackville-Bagginses
+2 Long-Bodied Grey Dog
+2 Desolation of Smaug
+2 Bilbo's Deadly Slice
+2 Stir Up Trouble
+1 Pinecone Strike
+1 Bilbo's Gambit
+1 The Eagles Are Coming!
+1 Inside Information
+3 The Misty Mountains Cold
+2 Last Light of Durin's Day
+2 Gleaming Splendor
+1 The Arkenstone
+1 Crude Bent Blade
+1 Sting, Bilbo's Sword
+1 Thrór's Map
+4 The Lonely Mountain
+2 Hobbit Hole
+2 Sundown Pass
+1 Elegant Parlor
+2 Inspiring Vantage
+2 Temple of Malice
+1 Temple of Triumph
+1 Temple of Silence
+1 Restless Fortress
+1 Razortrap Gorge
+2 Mountain
+5 Swamp
+```

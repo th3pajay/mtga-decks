@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **176** cards locked · **Hobbit 133/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **201** cards locked · **Hobbit 116/193** remaining
 
-**13 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**14 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-08-26
 
+- **[Wing and Coin](decks/2026-08-26-wing-and-coin.html)** — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck  `hobbit` `smaug`
 - **[Case Fire](decks/2026-08-26-case-fire.html)** — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid)  `combo` `raid` `solved` `evoke`
 
 ## 2026-08-25

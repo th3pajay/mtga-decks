@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-26:\n\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+    "text": "Deck guides published 2026-08-26:\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -427,62 +427,6 @@
     "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
   },
   {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Card pool consumption — cycle started 2026-08-22 · 176 cards locked · Hobbit 133/193 remaining\n13 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-08-26",
-    "text": "2026-08-26\n\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-08-25",
-    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-08-24",
-    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
-  },
-  {
-    "objectID": "archive.html#section-3",
-    "href": "archive.html#section-3",
-    "title": "Archive",
-    "section": "2026-08-23",
-    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
-  },
-  {
-    "objectID": "archive.html#section-4",
-    "href": "archive.html#section-4",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-5",
-    "href": "archive.html#section-5",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-6",
-    "href": "archive.html#section-6",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
-  },
-  {
     "objectID": "decks/2026-08-25-swarm-calculus.html",
     "href": "decks/2026-08-25-swarm-calculus.html",
     "title": "Swarm Calculus",
@@ -565,6 +509,146 @@
     "title": "Swarm Calculus",
     "section": "Matchups",
     "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Card pool consumption — cycle started 2026-08-22 · 201 cards locked · Hobbit 116/193 remaining\n14 deck guides — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-26",
+    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+  },
+  {
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-08-25",
+    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-08-24",
+    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
+  },
+  {
+    "objectID": "archive.html#section-4",
+    "href": "archive.html#section-4",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-5",
+    "href": "archive.html#section-5",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-6",
+    "href": "archive.html#section-6",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html",
+    "href": "decks/2026-08-26-wing-and-coin.html",
+    "title": "Wing and Coin",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlack / Red / White\n\n\nArchetype\nSmaug dragon x treasure combo (avg CMC 3.08)\n\n\nSize\n60 cards\n\n\nPrimary win\nSmaug the Magnificent burn: treasures make his attack trigger deal N damage to any target, and he has flying and haste — one swing with a full hoard is 10+ to the face\n\n\nSecondary win\nLake-town mill: The Master of Lake-town mills a player for every point of life they lose, so every Smaug trigger and combat hit mills the opponent out\n\n\nLand win con\nThe Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper per Equipment) plus Restless Fortress (draining creature-land)"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
+    "href": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
+    "title": "Wing and Coin",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop the hoard: Sackville-Bagginses, Gleaming Splendor, Last Light, Dori, or the Grey Dog; Stir Up Trouble and Deadly Slice hold the board\n\n\nTurns 3-5\nEngines online: The Misty Mountains Cold makes a Treasure every chapter and pops a 6/6 Dragon; Smaug, Wicked Worm enters for a burst of tapped gold\n\n\nTurns 5-7\nThe combo turn: Smaug the Magnificent lands with a hoard behind him; Desolation clears non-Dragons and pays for the next dragon\n\n\nLate game\nWin condition 2: The Master of Lake-town turns every Smaug trigger into mill; Were-Worm’s extra combat doubles the burn"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#card-roles",
+    "href": "decks/2026-08-26-wing-and-coin.html#card-roles",
+    "title": "Wing and Coin",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nThe engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count\n\n\nSmaug, Wicked Worm\nTreasure burst on entry (one per artifact the opponent controls) and card draw whenever you cast with Treasure mana\n\n\nThe Misty Mountains Cold\nSaga that makes a Treasure on every chapter and sacrifices itself into a 6/6 flying Dragon when the hoard hits four\n\n\nGleaming Splendor\nRepeatable Treasure: triggers on the opponent’s second draw, and its own {2}{W} activation forces that draw\n\n\nLast Light of Durin’s Day\nMountain quest: at six Mountain-entries it tutors any Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nOne-sided board wipe (3 damage to each non-Dragon) that adds four mana for your next Dragon spell\n\n\nDesert Were-Worm\nGrows +2/+0 per Mountain; at 12+ attacking power it grants an extra combat — Smaug burns twice\n\n\nDori, Bearer of Friends\nCheap legendary Dwarf that makes a Treasure on entry\n\n\nThe Sackville-Bagginses\nTurns spare artifacts and creatures into cards and Treasures, and pings on every token sacrifice\n\n\nThe Master of Lake-town\nWin condition 2: every point of life lost mills that many cards\n\n\nLong-Bodied Grey Dog\nFlash 2/2 with reach that makes a tapped Treasure — instant-speed hoard development\n\n\nBilbo’s Deadly Slice\nClean {1}{B}{B} removal\n\n\nStir Up Trouble\nOne-mana removal that happily eats a Treasure as its cost\n\n\nPinecone Strike\nFlexible burn that exiles dying creatures and destroys artifact tokens\n\n\nBilbo’s Gambit\nBounces a spell and, when gifted, locks both players out of casting — the Treasure gift feeds Wicked Worm later\n\n\nThe Eagles Are Coming!\nFlickers your dragons to re-trigger Wicked Worm and Dori, then refunds 4/4 flying Birds\n\n\nInside Information\nX-cost mill and theft: exile the top X of the opponent’s library and play their own spells\n\n\nThe Arkenstone\nAnthem and end-step draw; its adventure Seek the Heart tutors any legendary — usually Smaug himself\n\n\nCrude Bent Blade\nRemoval on entry, then an Equipment that discounts The Lonely Mountain\n\n\nSting, Bilbo’s Sword\nFlash Equipment with hone counters; keeps The Lonely Mountain untapped and cheap\n\n\nThrór’s Map\nFetches a basic (a Mountain for the quest) and loots away late-game flood"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
+    "href": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
+    "title": "Wing and Coin",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that makes 2/2 red Dwarf tokens for {4}{R}, {1} cheaper per Equipment — the win-con land\n\n\nHobbit Hole\nSacrifices itself to put a basic onto the battlefield tapped — an extra Mountain for the Last Light quest\n\n\nRestless Fortress\nBlack-white mana that becomes a 1/4 Nightmare and drains 2 life when it attacks — life loss also feeds the Lake-town mill\n\n\nRazortrap Gorge\nBlack-red fixing that enters untapped once a player is at 13 or less life\n\n\nTemples and fast lands\nSundown Pass, Inspiring Vantage, and the Temples keep the three-color mana stable"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
+    "href": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
+    "title": "Wing and Coin",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n24 lands: 4 The Lonely Mountain, 2 Hobbit Hole, 2 Sundown Pass, 1 Elegant Parlor, 2 Inspiring Vantage, 2 Temple of Malice, 1 Temple of Triumph, 1 Temple of Silence, 1 Restless Fortress, 1 Razortrap Gorge, 2 Mountain, 5 Swamp. Red sources 15, black 10, white 8 — red is the workhorse, white a light splash.\nNonland curve: 1-drop x2, 2-drop x13, 3-drop x11, 4-drop x4, 5-drop x3, 6-drop x2, 7-drop x1. Average CMC 3.08. The deck wants a Treasure maker on turn 2, a saga or Dori on turn 3, and Smaug the Magnificent on turn 4-5 with a hoard already forming."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#early-game",
+    "href": "decks/2026-08-26-wing-and-coin.html#early-game",
+    "title": "Wing and Coin",
+    "section": "Early game",
+    "text": "Early game\nTurn 1 is Stir Up Trouble (holding up {B} to eat a Treasure and kill a threat) or a tapped Temple. Turn 2: The Sackville-Bagginses, Gleaming Splendor, Last Light, or removal. Sequence tapped lands first — Temples, Elegant Parlor, and Restless Fortress enter tapped, so keep Sundown Pass and Inspiring Vantage for the turns you need untapped red. Fetching a Mountain with Hobbit Hole also advances the Last Light quest."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#mid-game",
+    "href": "decks/2026-08-26-wing-and-coin.html#mid-game",
+    "title": "Wing and Coin",
+    "section": "Mid game",
+    "text": "Mid game\nResolve The Misty Mountains Cold and let the chapters stack Treasures; it turns itself into a 6/6 Dragon at four tokens. Smaug, Wicked Worm is the mid-game haymaker: against artifact decks it enters with four or five tapped Treasures, and every spell cast from that gold draws a card. Gleaming Splendor turns the opponent’s card draw into more gold, and its {2}{W} mode makes two players draw — forcing the trigger and cantripping you at once."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
+    "href": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
+    "title": "Wing and Coin",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nAccumulate a hoard: four to eight Treasures from the saga, Splendor, Wicked Worm, Dori, and the Grey Dog.\nCast Smaug the Magnificent ({2}{R}{R}, haste, flying). If the board is crowded, Desolation of Smaug first — it deals 3 to every non-Dragon and its four mana can pay for Smaug himself.\nAttack: Smaug’s trigger deals damage equal to your Treasure count to any target — face, planeswalker, or blocker — plus his 4 combat damage.\nRepeat: every upkeep makes another Treasure, so each swing is bigger. With Desert Were-Worm (growing off every Mountain) attacking alongside, 12+ total power grants an extra combat and Smaug’s burn fires twice.\n\nA typical kill: six Treasures and Smaug attacking alone is 10 damage; the next turn is 11, and the turn after that is 12. Wicked Worm’s draw-on-Treasure-cast keeps the hand full through the sequence."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
+    "href": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
+    "title": "Wing and Coin",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe Master of Lake-town turns the same engine into mill. Every point of life an opponent loses — Smaug’s attack trigger, his combat damage, Restless Fortress’s drain — mills that many cards off the top; a 6-Treasure Smaug swing mills 10. Inside Information finishes: with a hoard of Treasures paying any color, X = 10 or more exiles a huge chunk of the library outright, and the exiled cards are playable (paying life instead of mana, which conveniently mills more). The Arkenstone’s adventure tutors either Smaug or the Master, whichever the board needs. Backup: The Lonely Mountain’s Dwarf tokens, the saga’s 6/6 Dragon, and Restless Fortress beats."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
+    "href": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
+    "title": "Wing and Coin",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: two to three lands with a Treasure maker or removal — Sackville-Bagginses, Gleaming Splendor, Dori, or Stir Up Trouble openers are strong; any hand with The Misty Mountains Cold or Smaug, Wicked Worm plus interaction is excellent. Mulligan one-land hands and hands with five or more lands and no engine. White is a splash: a hand with only red and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
+    "title": "Wing and Coin",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nSmaug the Magnificent’s attack trigger targets — it can hit creatures and planeswalkers as well as the opponent; point it at a blocker and Smaug’s own combat damage still connects.\nThe Misty Mountains Cold checks “four or more Treasures” after each chapter — with Gleaming Splendor and the Grey Dog it can pop its Dragon as early as chapter II.\nSmaug, Wicked Worm counts artifacts the opponent controls at entry — Bilbo’s Gambit’s gifted Treasure feeds it, so hold Wicked Worm for when they have an artifact board.\nLast Light of Durin’s Day counts Mountains entering, not lands — fetch Mountains specifically with Hobbit Hole and Thrór’s Map; The Lonely Mountain is a Mountain.\nDesert Were-Worm’s extra combat triggers “the first time each turn” you attack with 12+ total power — attack with it and Smaug together so both get the second combat. Gleaming Splendor’s {2}{W} targets two players: choose an opponent and yourself to force the Treasure trigger and draw your own card."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#matchups",
+    "href": "decks/2026-08-26-wing-and-coin.html#matchups",
+    "title": "Wing and Coin",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nRemoval holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed\n\n\nMidrange\nRace the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons\n\n\nControl\nBilbo’s Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw\n\n\nCombo\nMill is the fastest clock: Master of Lake-town plus Smaug’s trigger mills 10+ per turn; Inside Information exiles their pieces"
   },
   {
     "objectID": "decks/2026-08-21-kindle-the-archive.html",

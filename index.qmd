@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-08-26**:
 
+- **[Wing and Coin](decks/2026-08-26-wing-and-coin.html)** — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck  `hobbit` `smaug`
 - **[Case Fire](decks/2026-08-26-case-fire.html)** — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid)  `combo` `raid` `solved` `evoke`
