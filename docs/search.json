@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-27:\n\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
+    "text": "Deck guides published 2026-08-27:\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -343,235 +343,88 @@
     "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nPinecone Strike and Crude Bent Blade trade early; Supper for Spiders after combat gains 6-12 life and empties their board\n\n\nMidrange\nEnchanted River’s Grasp and Uneasy Partings answer their 4-5 drops; the Army outraces once it hits 5+ power\n\n\nControl\nThranduil’s Decree turns their counterspells into your card advantage; Gundabad Opportunist and Bilbo refuel; the Army is unblockable through Harper\n\n\nArmy mirrors\nEnchanted River’s Grasp strips their counters; your Pit of Offerings exiles their recursion; Supper for Spiders steals their Army as Food\n\n\nCombo\nRace: Thranduil’s Decree answers their combo piece and casts it for you; Gandalf’s 3 damage closes tight races"
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html",
-    "href": "decks/2026-08-22-fertile-chorus.html",
-    "title": "Fertile Chorus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html",
+    "href": "decks/2026-08-21-kindle-the-archive.html",
+    "title": "Kindle the Archive",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nSultai — black / green / blue\n\n\nArchetype\nGraveyard midrange combo\n\n\nSize\n60 cards, 21 lands\n\n\nPrimary win\nRenew-pumped evasive beatdown: one giant trample/flying creature, then Naga Fleshcrafter copies it across the board\n\n\nSecondary win\nSingularity Rupture mills half the opponent’s library, then Bloodline Bidding reanimates every Snake\n\n\nLands as win con\nMidgar’s Reactor Raid draws cards and stocks the yard; Tarrian’s Journal transforms into the Tomb of Aclazotz, a land that casts creatures from the graveyard\n\n\nNonland curve\n4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights (convoke discounts the top end)"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nFive-color — white / blue / black / red / green\n\n\nArchetype\nCombo-control (flashback burn)\n\n\nSize\n60 cards, 24 lands\n\n\nCore engine\nIroh, Grand Lotus + surveilled burn with flashback\n\n\nPrimary win\nIroh flashback loop: repeat Burst Lightning / Traumatic Critique while Fire Lord Azula attacks and copies every spell\n\n\nSecondary win\nVivid beatdown: Squawkroaster double strike plus Self-Destruct fireballs\n\n\nNonland curve\n2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus"
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
-    "title": "Fertile Chorus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
+    "title": "Kindle the Archive",
     "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nFill the well (turns 1–4): play two-drops, mill with Lasyd Prowler and Midnight Tilling, trade creatures into the yard, and use Reactor Raid to convert a spent body into two cards. Every card in the graveyard is a future counter.\nGrow the choir (turns 4–6): activate Renew abilities at sorcery speed — double counters with Sage of the Fang, add flying and lifelink with Qarsi Revenant, trample with Champion of Dusan — while Kheru Goldkeeper banks Treasures for every activation.\nSing (turn 6+): Convoke out Web of Life and Destiny for a free creature every combat, Bloodline Bidding for a full Snake board, or Singularity Rupture to wipe and mill. Swing with a flying, lifelinking, trampling monster and its Naga Fleshcrafter copies."
+    "text": "Game plan in three phases\n\nBuild the archive (turns 1–3): surveil with Gorehound, Glarb, Risky Research, and the surveil lands. Let burn spells hit the graveyard naturally or through Traumatic Critique’s “draw two, discard one”. Keep the board with early burn and Prismari Charm.\nLight the flame (turns 4–6): resolve Iroh, Grand Lotus. Attack with Firebending creatures (Fire Lord Azula, Sun Warriors, Iroh himself) to stockpile red mana. Cast flashback burn from the yard — Azula copies it while she attacks.\nBurn the library down: loop the flashback chain each turn, escalate with Firebender Ascension (copying Azula’s copy trigger), Sozin's Comet (firebending 5 on every creature), and Ozai (unspent mana becomes red). Shimmercreep and Explosive Prodigy add on-entry damage; Vivid beatdown closes games where burn stalls."
   },
   {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#card-roles",
-    "href": "decks/2026-08-22-fertile-chorus.html#card-roles",
-    "title": "Fertile Chorus",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nLasyd Prowler\n4\nEngine — mills lands-count on entry; Renew puts X counters (X = land cards in yard)\n\n\nSage of the Fang\n4\nEngine — Renew doubles all counters on a creature; the choir’s amplifier\n\n\nQarsi Revenant\n4\nPayoff — 3/2 flying deathtouch lifelink; Renew grants all three keyword counters\n\n\nChampion of Dusan\n4\nPayoff — trample body; Renew grants +1/+1 and a trample counter\n\n\nNaga Fleshcrafter\n3\nFinisher — enters as a copy; Renew turns the whole board into copies of your giant\n\n\nKheru Goldkeeper\n2\nRamp — Treasure per card leaving your graveyard; flying + Renew counters\n\n\nConstrictor Sage\n2\nInteraction — taps and stuns on entry and via Renew; a Snake for Bidding\n\n\nDisruptor of Currents\n2\nInteraction — flash Convoke body that bounces a nonland permanent; a Merfolk for Farewell-style payoffs\n\n\nOmni-Changeling\n2\nEnabler — Convoke clone that is every creature type (every Bidding choice)\n\n\nWeb of Life and Destiny\n2\nWin con — Convoke enchantment: free creature from the top five every combat\n\n\nBloodline Bidding\n2\nWin con — Convoke reanimation: return every creature card of a chosen type (Snakes)\n\n\nSingularity Rupture\n1\nWin con 2 — board wipe plus “mill half your library” for any number of players\n\n\nVote Out\n3\nRemoval — Convoke sorcery that destroys a creature\n\n\nMidnight Tilling\n2\nFuel — one mana: mill four, return a permanent among them to hand\n\n\nTarrian’s Journal\n2\nEngine land-in-waiting — sac a creature to draw; transforms into the Tomb"
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
-    "href": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
-    "title": "Fertile Chorus",
-    "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTreno, Dark City\nTapped U/B source; the fixing backbone\n\n\nMutant Town\nTapped G/U source; gains 1 life on entry — cheap insurance vs aggro\n\n\nGongaga, Reactor Town\nTapped R/G source; green for the two-drop army\n\n\nOmashu City\nTapped R/G source with a built-in “sacrifice: draw a card” — a mini Fountainport\n\n\nMidgar, City of Mako\nTaps for black; its adventure Reactor Raid (2B, sorcery) sacrifices an artifact or creature to draw two — a land that turns spent creatures into cards and fills the yard\n\n\nTarrian’s Journal // The Tomb of Aclazotz\nThe land that wins: transform the Journal (2, tap, discard your hand) into a Cave land whose tap ability lets you cast creature spells from your graveyard — every Renew creature becomes castable forever"
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
-    "href": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
-    "title": "Fertile Chorus",
-    "section": "Curve and mana",
-    "text": "Curve and mana\n21 lands: 3 Treno (U/B), 3 Mutant Town (G/U), 2 Gongaga (R/G), 2 Omashu City (R/G), 2 Midgar (B), plus 4 Forest, 3 Swamp, 2 Island. Green is the critical early color (twelve green two- and three-drops), so fetch and play green first; black comes second for Qarsi Revenant and Vote Out; blue arrives with Naga Fleshcrafter and the Convoke payoffs. Starting hands want two lands including a green source.\nThe nonland curve is 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights. The eights are the point: Convoke discounts them by one per creature tapped, so by turn five or six Web of Life and Destiny costs about {2}{G} and Bloodline Bidding about {B}{B}."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
-    "href": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
-    "title": "Fertile Chorus",
-    "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 2: Champion of Dusan, Sage of the Fang, or Midnight Tilling (mill four, keep a permanent). Prefer the creature against aggressive decks.\nTurn 3: Qarsi Revenant (3/2 flying deathtouch lifelink holds the sky) or a second two-drop. Keep the ground stalled with trample bodies.\nDo not be afraid to trade — every creature that dies is Renew fuel. A dead Champion is worth a trample counter on the survivor."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
-    "href": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
-    "title": "Fertile Chorus",
-    "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nAttack with Lasyd Prowler once to mill; then use its Renew ({1}{G}, sorcery) to put X +1/+1 counters on a creature, where X is the land count in the yard. By turn six that is usually 3–5 counters.\nThe big sequence: Renew Sage of the Fang ({3}{G}) — put a counter, then double. Repeat with a second Sage in the yard to quadruple. Stack Qarsi Revenant’s flying/lifelink/deathtouch counters and Champion of Dusan’s trample counter on the same creature.\nKheru Goldkeeper’s Treasure triggers fire on every Renew activation — spend them on the next activation or on a Convoke spell.\nCast Vote Out for removal; Disruptor of Currents at flash speed to bounce a blocker or a problem permanent."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
-    "href": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
-    "title": "Fertile Chorus",
-    "section": "The combo turn",
-    "text": "The combo turn\n\nBuild the monster: Sage of the Fang doubling, Qarsi Revenant counters, Champion of Dusan trample — one creature with 10+ power, flying, lifelink, deathtouch, trample.\nCast Naga Fleshcrafter (or use its Renew from the yard: {2}{U}, sorcery) — “each other creature you control becomes a copy of that creature until end of turn.” Your 2/2s and 3/3s are now a board of 10/10 flying lifelinkers.\nCast Web of Life and Destiny for {2}{G} or so (Convoke with whatever did not attack). From now on, every combat starts with a free creature from your top five.\nSwing with the whole choir. If blocked, Reactor Raid or Tarrian’s Journal turns a dead body into cards, and the Tomb of Aclazotz casts the next creature from the graveyard."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
-    "href": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
-    "title": "Fertile Chorus",
-    "section": "Win condition 2: the rupture",
-    "text": "Win condition 2: the rupture\nSingularity Rupture ({3}{U}{B}{B}) destroys all creatures and then has any number of target players mill half their library, rounded down. Two casts from a 60-card deck remove 45 cards; with the natural mill from Lasyd Prowler and Midnight Tilling, the opponent’s library dies before their life total. The wipe also dumps your own creatures into the yard — where Bloodline Bidding (Convoke, choose Snake) returns Lasyd Prowler, Naga Fleshcrafter, Constrictor Sage and Omni-Changeling all at once for an immediate board."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
-    "href": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
-    "title": "Fertile Chorus",
-    "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: two-plus lands including green, a two-drop, and either a mill source (Lasyd Prowler, Midnight Tilling) or a Renew creature.\nTrim: five-plus land hands, all-one-color hands, and hands whose only plays are 5+ mana cards.\nThe deck mulligans well: the graveyard smooths draws, and Midnight Tilling finds whatever the mill reveals."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
-    "title": "Fertile Chorus",
-    "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nRenew exiles from the graveyard — it is a sorcery-speed activation, so plan it on your turn; it also shrinks the yard, which matters only for Lasyd Prowler’s Renew count (land cards only — lands stay).\nKheru Goldkeeper counts every card that leaves — one Renew activation exiles one card and creates one Treasure; two cards leaving creates two Treasures.\nBloodline Bidding’s type choice: Snakes cover Lasyd Prowler, Naga Fleshcrafter and Constrictor Sage; Omni-Changeling is every type, so any choice works.\nThe Tomb of Aclazotz casts creatures from the graveyard with a finality counter — they exile on death instead of returning, so use the Tomb for pressure, not for fuel.\nSingularity Rupture hits your own board — that is the point: the wipe refills the yard for Bidding.\nWeb of Life and Destiny at combat — the free creature enters at the beginning of combat, so it cannot attack that turn but is untapped Convoke fuel for the next spell.\nReactor Raid needs a sacrifice to draw — sacrifice a tapped attacker after combat, or an artifact, to keep the yard stocked."
-  },
-  {
-    "objectID": "decks/2026-08-22-fertile-chorus.html#matchups",
-    "href": "decks/2026-08-22-fertile-chorus.html#matchups",
-    "title": "Fertile Chorus",
-    "section": "Matchups",
-    "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
-  },
-  {
-    "objectID": "decks/2026-08-25-swarm-calculus.html",
-    "href": "decks/2026-08-25-swarm-calculus.html",
-    "title": "Swarm Calculus",
-    "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
-  },
-  {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "title": "Swarm Calculus",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
-  },
-  {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
+    "href": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
+    "title": "Kindle the Archive",
     "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nIroh, Grand Lotus\n4\nEngine — grants flashback to instants, sorceries, and Lessons in your graveyard during your turn; Firebending 2\n\n\nFire Lord Azula\n3\nEngine — copies every spell you cast while attacking; Firebending 2\n\n\nFirebending Lesson\n4\nCombo piece — Lesson removal with kicker; flashback {1} under Iroh\n\n\nBurst Lightning\n4\nCombo piece — 2 damage any target, kicker for 4; flashback {R} under Iroh\n\n\nTraumatic Critique\n2\nCombo piece — X damage any target plus draw two, discard one (feeds the archive)\n\n\nGlarb, Calamity’s Augur\n2\nEnabler — tap to surveil 2; casts MV 4+ spells from the top of the library\n\n\nSnarling Gorehound\n2\nEnabler — surveil 1 whenever a small creature enters\n\n\nRisky Research\n2\nDig — surveil 2, draw two\n\n\nPrismari Charm\n1\nFlex — surveil 2 draw 1, or ping, or bounce\n\n\nUnsubtle Mockery\n1\nFusion — 4 damage to a creature plus surveil 1\n\n\nSquawkroaster\n2\nWin con 2 — double strike, power equals number of colors among permanents\n\n\nGlister Bairn\n1\nPump — +X/+X on another creature each combat\n\n\nBloom Tender\n1\nMana — adds one of each color among permanents\n\n\nShimmercreep\n1\nDrain — each opponent loses X life on entry, you gain X\n\n\nExplosive Prodigy\n1\nRemoval — X damage to a creature on entry\n\n\nSun Warriors\n1\nMana engine — Firebending X, where X is your creature count\n\n\nSozin’s Comet\n1\nAnthem — all creatures gain firebending 5; foretell\n\n\nFirebender Ascension\n1\nMultiplier — copies attacking-triggered abilities at four quest counters\n\n\nOzai, the Phoenix King\n1\nFinisher — unspent mana becomes red; flying and indestructible at 6+ unspent mana\n\n\nSelf-Destruct\n1\nFireball — a creature deals damage equal to its power to any target"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
+    "href": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
+    "title": "Kindle the Archive",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nFire Nation Palace\nWin-con land — grants firebending 4 to any attacker; Iroh or Azula then generates 6 red mana per attack, funding the flashback loop\n\n\nSuburban Sanctuary\nSurveil fixing — green or white, then surveil 1 for {4}\n\n\nParadox Gardens\nSurveil fixing — green or blue, then surveil 1\n\n\nKishla Village\nSurveil 2 for {3}{G}; enters untapped off Island or Swamp\n\n\nJasmine Dragon Tea Shop\nAny-color mana for Ally spells (Iroh and Sun Warriors); makes Ally tokens late\n\n\nHidden Courtyard\nWhite source that becomes Discover 4 when sacrificed\n\n\nMirage Mesa\nTapped any-color source — the Vivid manabase’s backbone\n\n\nSubterranean Cavern\nBlack-green with a point of life"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
+    "href": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
+    "title": "Kindle the Archive",
     "section": "Curve and mana",
-    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+    "text": "Curve and mana\n24 lands: 18 nonbasic fixing/utility lands plus 7 basics (2 Forest, 2 Swamp, 1 Island, 1 Mountain, 1 Plains). The manabase is the deck’s Vivid engine — five colors among permanents means every Vivid X equals 5, so fixing lands are payoff lands. Mirage Mesa and Jasmine Dragon Tea Shop (for the Ally engine) smooth the five-color demands; Bloom Tender and Training Compound accelerate into Iroh on turn 4.\nThe nonland curve is 2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus — an average mana value under 3. The deck plays most of its burn at one or two mana and leans on Iroh (5) and Ozai (6) as the top end."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
+    "href": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
+    "title": "Kindle the Archive",
     "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+    "text": "Early game (turns 1–3)\n\nTurn 1: Snarling Gorehound (every subsequent small creature surveils 1) or Burst Lightning for an early blocker. Surveil aggressively — the graveyard is the deck’s second hand.\nTurn 2: Glarb, Calamity’s Augur (tap to surveil 2, and it casts your four- and five-drops from the top), Risky Research (surveil 2, draw two), or burn. Explosive Prodigy on turn 2 deals 3-4 damage to a creature and adds red to the color count.\nHold Prismari Charm or Unsubtle Mockery for the turn-2/3 threat. Discard lands or redundant burn to Traumatic Critique’s loot — the archive wants them."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
+    "href": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
+    "title": "Kindle the Archive",
     "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+    "text": "Mid game (turns 4–6)\n\nResolve Iroh, Grand Lotus as the priority. With Glarb out, cast it from the top of the library. With Bloom Tender or a five-color board, it comes down on turn 4.\nOnce Iroh is down, the flashback suite is live: Burst Lightning for {R}, Firebending Lesson for {1}, Traumatic Critique for {X}{U}{R}. Attack with Firebending creatures first, generate red, then cast during combat while the mana is available.\nFire Lord Azula attacks with firebending 2, and every spell cast while she attacks is copied — a kicked Burst Lightning becomes 8 damage. Protect her with removal and Prismari Charm bounce.\nFirebender Ascension accumulates quest counters every time an attacking creature triggers (Azula’s copy trigger, every Firebending trigger). At four counters it copies those abilities — Azula’s trigger copies twice, Firebending mana doubles."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
+    "href": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
+    "title": "Kindle the Archive",
     "section": "The combo turn",
-    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+    "text": "The combo turn\n\nConfirm Iroh is on the battlefield and the archive holds at least two or three burn spells (surveil lands, Glarb, and Traumatic Critique’s loot keep it stocked).\nEnter combat. Attack with Fire Lord Azula and Iroh (firebending 2 each), ideally with Sozin's Comet cast first (firebending 5 on everything) or Fire Nation Palace activated ({1}{R}, {T}) to grant firebending 4 — an Iroh with both printed firebending 2 and the Palace’s firebending 4 generates 6 red mana per attack.\nWith the combat mana banked, cast from the graveyard: Burst Lightning, Firebending Lesson, Traumatic Critique with X as high as the mana allows. Azula copies each spell; with Firebender Ascension at four quest counters, the copy trigger itself is copied.\nRepeat each turn. Shimmercreep and Explosive Prodigy add on-entry damage, Ozai turns leftover mana red and becomes an indestructible flyer at six-plus unspent mana, and the loop outpaces any removal that isn’t graveyard hate."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "title": "Swarm Calculus",
-    "section": "Win condition 2: the ETB burn loop",
-    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "href": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "title": "Kindle the Archive",
+    "section": "Win condition 2: the Vivid beatdown",
+    "text": "Win condition 2: the Vivid beatdown\nBurn is plan A; the board is plan B. Squawkroaster is a double striker whose power equals the number of colors among permanents you control — 5 or more in this deck, so it attacks as a 5/5 double strike minimum. Glister Bairn makes it +X/+X bigger every combat, and Prismabasher-style team pumps come from the same Vivid scaling. Self-Destruct turns a pumped Squawkroaster into a one-shot fireball (it deals damage equal to its power to any target), and Ozai — trample, haste, firebending 4, flying and indestructible at six-plus unspent mana — closes the game alone. Shimmercreep’s life drain also wins without ever attacking."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
+    "href": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
+    "title": "Kindle the Archive",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+    "text": "Mulligan guide\n\nKeep: 2–3 lands covering red plus one other color, a surveil source (Glarb, Gorehound, Risky Research) or early burn, and a path to Iroh by turn 5.\nTrim: 5+ land hands, single-color hands, and hands with only the top end (Ozai, Sozin’s Comet, multiple Traumatic Critiques) and no early play.\nThe deck is happy to trade card quantity for quality: Traumatic Critique, Glarb, and the surveil lands all convert surplus cards into archive fuel."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
+    "title": "Kindle the Archive",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+    "text": "Key interactions and edge cases\n\nMultiple Firebending instances stack. A creature with firebending 2 (Iroh) that gains firebending 4 from Fire Nation Palace triggers twice: 6 red mana per attack. Sozin’s Comet on top makes it 9.\nFirebending mana lasts until end of combat — cast the flashback burn during the declare-attackers step while the mana is available. Iroh’s flashback works any time during your turn.\nIroh’s flashback is only during your turn, and each cast exiles the card after resolution — the loop is per-turn, not infinite. Multiple copies of a burn spell in the yard extend the chain.\nFirebender Ascension copies attacking-creature triggered abilities — Azula’s spell-copy trigger and every Firebending mana trigger qualify. It does not copy static abilities.\nTraumatic Critique’s loot is a feature: discarding burn into the archive sets up next turn’s flashback chain.\nGlarb casts MV 4+ spells from the top — Iroh, Ozai, Squawkroaster, and Shimmercreep all qualify; surveil first to put the right card on top.\nOzai’s mana conversion means unspent Firebending red, treasure from Flick a Coin-style effects, and other colors all become red, letting one combat’s mana cast any mix of flashback spells.\nGraveyard hate is the deck’s Achilles heel — versus heavy exile, pivot to the Vivid beatdown plan (Squawkroaster, Ozai) and stop over-investing in the archive."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#matchups",
+    "href": "decks/2026-08-21-kindle-the-archive.html#matchups",
+    "title": "Kindle the Archive",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Card pool consumption — cycle started 2026-08-22 · 237 cards locked · Hobbit 116/193 remaining\n16 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-08-27",
-    "text": "2026-08-27\n\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-08-26",
-    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-08-25",
-    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-3",
-    "href": "archive.html#section-3",
-    "title": "Archive",
-    "section": "2026-08-24",
-    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
-  },
-  {
-    "objectID": "archive.html#section-4",
-    "href": "archive.html#section-4",
-    "title": "Archive",
-    "section": "2026-08-23",
-    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
-  },
-  {
-    "objectID": "archive.html#section-5",
-    "href": "archive.html#section-5",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-6",
-    "href": "archive.html#section-6",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-7",
-    "href": "archive.html#section-7",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+    "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
   },
   {
     "objectID": "decks/2026-08-26-wing-and-coin.html",
@@ -658,88 +511,319 @@
     "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nRemoval holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed\n\n\nMidrange\nRace the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons\n\n\nControl\nBilbo’s Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw\n\n\nCombo\nMill is the fastest clock: Master of Lake-town plus Smaug’s trigger mills 10+ per turn; Inside Information exiles their pieces"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html",
-    "href": "decks/2026-08-21-kindle-the-archive.html",
-    "title": "Kindle the Archive",
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nFive-color — white / blue / black / red / green\n\n\nArchetype\nCombo-control (flashback burn)\n\n\nSize\n60 cards, 24 lands\n\n\nCore engine\nIroh, Grand Lotus + surveilled burn with flashback\n\n\nPrimary win\nIroh flashback loop: repeat Burst Lightning / Traumatic Critique while Fire Lord Azula attacks and copies every spell\n\n\nSecondary win\nVivid beatdown: Squawkroaster double strike plus Self-Destruct fireballs\n\n\nNonland curve\n2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus"
+    "text": "Card pool consumption — cycle started 2026-08-22 · 255 cards locked · Hobbit 98/193 remaining\n17 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
-    "title": "Kindle the Archive",
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-27",
+    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
+  },
+  {
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-08-26",
+    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-08-25",
+    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-08-24",
+    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
+  },
+  {
+    "objectID": "archive.html#section-4",
+    "href": "archive.html#section-4",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
+  },
+  {
+    "objectID": "archive.html#section-5",
+    "href": "archive.html#section-5",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-6",
+    "href": "archive.html#section-6",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-7",
+    "href": "archive.html#section-7",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html",
+    "href": "decks/2026-08-25-swarm-calculus.html",
+    "title": "Swarm Calculus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "title": "Swarm Calculus",
     "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nBuild the archive (turns 1–3): surveil with Gorehound, Glarb, Risky Research, and the surveil lands. Let burn spells hit the graveyard naturally or through Traumatic Critique’s “draw two, discard one”. Keep the board with early burn and Prismari Charm.\nLight the flame (turns 4–6): resolve Iroh, Grand Lotus. Attack with Firebending creatures (Fire Lord Azula, Sun Warriors, Iroh himself) to stockpile red mana. Cast flashback burn from the yard — Azula copies it while she attacks.\nBurn the library down: loop the flashback chain each turn, escalate with Firebender Ascension (copying Azula’s copy trigger), Sozin's Comet (firebending 5 on every creature), and Ozai (unspent mana becomes red). Shimmercreep and Explosive Prodigy add on-entry damage; Vivid beatdown closes games where burn stalls."
+    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
-    "href": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "title": "Swarm Calculus",
     "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nIroh, Grand Lotus\n4\nEngine — grants flashback to instants, sorceries, and Lessons in your graveyard during your turn; Firebending 2\n\n\nFire Lord Azula\n3\nEngine — copies every spell you cast while attacking; Firebending 2\n\n\nFirebending Lesson\n4\nCombo piece — Lesson removal with kicker; flashback {1} under Iroh\n\n\nBurst Lightning\n4\nCombo piece — 2 damage any target, kicker for 4; flashback {R} under Iroh\n\n\nTraumatic Critique\n2\nCombo piece — X damage any target plus draw two, discard one (feeds the archive)\n\n\nGlarb, Calamity’s Augur\n2\nEnabler — tap to surveil 2; casts MV 4+ spells from the top of the library\n\n\nSnarling Gorehound\n2\nEnabler — surveil 1 whenever a small creature enters\n\n\nRisky Research\n2\nDig — surveil 2, draw two\n\n\nPrismari Charm\n1\nFlex — surveil 2 draw 1, or ping, or bounce\n\n\nUnsubtle Mockery\n1\nFusion — 4 damage to a creature plus surveil 1\n\n\nSquawkroaster\n2\nWin con 2 — double strike, power equals number of colors among permanents\n\n\nGlister Bairn\n1\nPump — +X/+X on another creature each combat\n\n\nBloom Tender\n1\nMana — adds one of each color among permanents\n\n\nShimmercreep\n1\nDrain — each opponent loses X life on entry, you gain X\n\n\nExplosive Prodigy\n1\nRemoval — X damage to a creature on entry\n\n\nSun Warriors\n1\nMana engine — Firebending X, where X is your creature count\n\n\nSozin’s Comet\n1\nAnthem — all creatures gain firebending 5; foretell\n\n\nFirebender Ascension\n1\nMultiplier — copies attacking-triggered abilities at four quest counters\n\n\nOzai, the Phoenix King\n1\nFinisher — unspent mana becomes red; flying and indestructible at 6+ unspent mana\n\n\nSelf-Destruct\n1\nFireball — a creature deals damage equal to its power to any target"
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
-    "href": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "title": "Swarm Calculus",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nFire Nation Palace\nWin-con land — grants firebending 4 to any attacker; Iroh or Azula then generates 6 red mana per attack, funding the flashback loop\n\n\nSuburban Sanctuary\nSurveil fixing — green or white, then surveil 1 for {4}\n\n\nParadox Gardens\nSurveil fixing — green or blue, then surveil 1\n\n\nKishla Village\nSurveil 2 for {3}{G}; enters untapped off Island or Swamp\n\n\nJasmine Dragon Tea Shop\nAny-color mana for Ally spells (Iroh and Sun Warriors); makes Ally tokens late\n\n\nHidden Courtyard\nWhite source that becomes Discover 4 when sacrificed\n\n\nMirage Mesa\nTapped any-color source — the Vivid manabase’s backbone\n\n\nSubterranean Cavern\nBlack-green with a point of life"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
-    "href": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "title": "Swarm Calculus",
     "section": "Curve and mana",
-    "text": "Curve and mana\n24 lands: 18 nonbasic fixing/utility lands plus 7 basics (2 Forest, 2 Swamp, 1 Island, 1 Mountain, 1 Plains). The manabase is the deck’s Vivid engine — five colors among permanents means every Vivid X equals 5, so fixing lands are payoff lands. Mirage Mesa and Jasmine Dragon Tea Shop (for the Ally engine) smooth the five-color demands; Bloom Tender and Training Compound accelerate into Iroh on turn 4.\nThe nonland curve is 2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus — an average mana value under 3. The deck plays most of its burn at one or two mana and leans on Iroh (5) and Ozai (6) as the top end."
+    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
-    "href": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "title": "Swarm Calculus",
     "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Snarling Gorehound (every subsequent small creature surveils 1) or Burst Lightning for an early blocker. Surveil aggressively — the graveyard is the deck’s second hand.\nTurn 2: Glarb, Calamity’s Augur (tap to surveil 2, and it casts your four- and five-drops from the top), Risky Research (surveil 2, draw two), or burn. Explosive Prodigy on turn 2 deals 3-4 damage to a creature and adds red to the color count.\nHold Prismari Charm or Unsubtle Mockery for the turn-2/3 threat. Discard lands or redundant burn to Traumatic Critique’s loot — the archive wants them."
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
-    "href": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "title": "Swarm Calculus",
     "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nResolve Iroh, Grand Lotus as the priority. With Glarb out, cast it from the top of the library. With Bloom Tender or a five-color board, it comes down on turn 4.\nOnce Iroh is down, the flashback suite is live: Burst Lightning for {R}, Firebending Lesson for {1}, Traumatic Critique for {X}{U}{R}. Attack with Firebending creatures first, generate red, then cast during combat while the mana is available.\nFire Lord Azula attacks with firebending 2, and every spell cast while she attacks is copied — a kicked Burst Lightning becomes 8 damage. Protect her with removal and Prismari Charm bounce.\nFirebender Ascension accumulates quest counters every time an attacking creature triggers (Azula’s copy trigger, every Firebending trigger). At four counters it copies those abilities — Azula’s trigger copies twice, Firebending mana doubles."
+    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
-    "href": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "title": "Swarm Calculus",
     "section": "The combo turn",
-    "text": "The combo turn\n\nConfirm Iroh is on the battlefield and the archive holds at least two or three burn spells (surveil lands, Glarb, and Traumatic Critique’s loot keep it stocked).\nEnter combat. Attack with Fire Lord Azula and Iroh (firebending 2 each), ideally with Sozin's Comet cast first (firebending 5 on everything) or Fire Nation Palace activated ({1}{R}, {T}) to grant firebending 4 — an Iroh with both printed firebending 2 and the Palace’s firebending 4 generates 6 red mana per attack.\nWith the combat mana banked, cast from the graveyard: Burst Lightning, Firebending Lesson, Traumatic Critique with X as high as the mana allows. Azula copies each spell; with Firebender Ascension at four quest counters, the copy trigger itself is copied.\nRepeat each turn. Shimmercreep and Explosive Prodigy add on-entry damage, Ozai turns leftover mana red and becomes an indestructible flyer at six-plus unspent mana, and the loop outpaces any removal that isn’t graveyard hate."
+    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
-    "href": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
-    "title": "Kindle the Archive",
-    "section": "Win condition 2: the Vivid beatdown",
-    "text": "Win condition 2: the Vivid beatdown\nBurn is plan A; the board is plan B. Squawkroaster is a double striker whose power equals the number of colors among permanents you control — 5 or more in this deck, so it attacks as a 5/5 double strike minimum. Glister Bairn makes it +X/+X bigger every combat, and Prismabasher-style team pumps come from the same Vivid scaling. Self-Destruct turns a pumped Squawkroaster into a one-shot fireball (it deals damage equal to its power to any target), and Ozai — trample, haste, firebending 4, flying and indestructible at six-plus unspent mana — closes the game alone. Shimmercreep’s life drain also wins without ever attacking."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "title": "Swarm Calculus",
+    "section": "Win condition 2: the ETB burn loop",
+    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
-    "href": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "title": "Swarm Calculus",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands covering red plus one other color, a surveil source (Glarb, Gorehound, Risky Research) or early burn, and a path to Iroh by turn 5.\nTrim: 5+ land hands, single-color hands, and hands with only the top end (Ozai, Sozin’s Comet, multiple Traumatic Critiques) and no early play.\nThe deck is happy to trade card quantity for quality: Traumatic Critique, Glarb, and the surveil lands all convert surplus cards into archive fuel."
+    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "title": "Swarm Calculus",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nMultiple Firebending instances stack. A creature with firebending 2 (Iroh) that gains firebending 4 from Fire Nation Palace triggers twice: 6 red mana per attack. Sozin’s Comet on top makes it 9.\nFirebending mana lasts until end of combat — cast the flashback burn during the declare-attackers step while the mana is available. Iroh’s flashback works any time during your turn.\nIroh’s flashback is only during your turn, and each cast exiles the card after resolution — the loop is per-turn, not infinite. Multiple copies of a burn spell in the yard extend the chain.\nFirebender Ascension copies attacking-creature triggered abilities — Azula’s spell-copy trigger and every Firebending mana trigger qualify. It does not copy static abilities.\nTraumatic Critique’s loot is a feature: discarding burn into the archive sets up next turn’s flashback chain.\nGlarb casts MV 4+ spells from the top — Iroh, Ozai, Squawkroaster, and Shimmercreep all qualify; surveil first to put the right card on top.\nOzai’s mana conversion means unspent Firebending red, treasure from Flick a Coin-style effects, and other colors all become red, letting one combat’s mana cast any mix of flashback spells.\nGraveyard hate is the deck’s Achilles heel — versus heavy exile, pivot to the Vivid beatdown plan (Squawkroaster, Ozai) and stop over-investing in the archive."
+    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#matchups",
-    "href": "decks/2026-08-21-kindle-the-archive.html#matchups",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "title": "Swarm Calculus",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
+    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html",
+    "href": "decks/2026-08-22-fertile-chorus.html",
+    "title": "Fertile Chorus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nSultai — black / green / blue\n\n\nArchetype\nGraveyard midrange combo\n\n\nSize\n60 cards, 21 lands\n\n\nPrimary win\nRenew-pumped evasive beatdown: one giant trample/flying creature, then Naga Fleshcrafter copies it across the board\n\n\nSecondary win\nSingularity Rupture mills half the opponent’s library, then Bloodline Bidding reanimates every Snake\n\n\nLands as win con\nMidgar’s Reactor Raid draws cards and stocks the yard; Tarrian’s Journal transforms into the Tomb of Aclazotz, a land that casts creatures from the graveyard\n\n\nNonland curve\n4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights (convoke discounts the top end)"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-22-fertile-chorus.html#game-plan-in-three-phases",
+    "title": "Fertile Chorus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nFill the well (turns 1–4): play two-drops, mill with Lasyd Prowler and Midnight Tilling, trade creatures into the yard, and use Reactor Raid to convert a spent body into two cards. Every card in the graveyard is a future counter.\nGrow the choir (turns 4–6): activate Renew abilities at sorcery speed — double counters with Sage of the Fang, add flying and lifelink with Qarsi Revenant, trample with Champion of Dusan — while Kheru Goldkeeper banks Treasures for every activation.\nSing (turn 6+): Convoke out Web of Life and Destiny for a free creature every combat, Bloodline Bidding for a full Snake board, or Singularity Rupture to wipe and mill. Swing with a flying, lifelinking, trampling monster and its Naga Fleshcrafter copies."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#card-roles",
+    "href": "decks/2026-08-22-fertile-chorus.html#card-roles",
+    "title": "Fertile Chorus",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nLasyd Prowler\n4\nEngine — mills lands-count on entry; Renew puts X counters (X = land cards in yard)\n\n\nSage of the Fang\n4\nEngine — Renew doubles all counters on a creature; the choir’s amplifier\n\n\nQarsi Revenant\n4\nPayoff — 3/2 flying deathtouch lifelink; Renew grants all three keyword counters\n\n\nChampion of Dusan\n4\nPayoff — trample body; Renew grants +1/+1 and a trample counter\n\n\nNaga Fleshcrafter\n3\nFinisher — enters as a copy; Renew turns the whole board into copies of your giant\n\n\nKheru Goldkeeper\n2\nRamp — Treasure per card leaving your graveyard; flying + Renew counters\n\n\nConstrictor Sage\n2\nInteraction — taps and stuns on entry and via Renew; a Snake for Bidding\n\n\nDisruptor of Currents\n2\nInteraction — flash Convoke body that bounces a nonland permanent; a Merfolk for Farewell-style payoffs\n\n\nOmni-Changeling\n2\nEnabler — Convoke clone that is every creature type (every Bidding choice)\n\n\nWeb of Life and Destiny\n2\nWin con — Convoke enchantment: free creature from the top five every combat\n\n\nBloodline Bidding\n2\nWin con — Convoke reanimation: return every creature card of a chosen type (Snakes)\n\n\nSingularity Rupture\n1\nWin con 2 — board wipe plus “mill half your library” for any number of players\n\n\nVote Out\n3\nRemoval — Convoke sorcery that destroys a creature\n\n\nMidnight Tilling\n2\nFuel — one mana: mill four, return a permanent among them to hand\n\n\nTarrian’s Journal\n2\nEngine land-in-waiting — sac a creature to draw; transforms into the Tomb"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
+    "href": "decks/2026-08-22-fertile-chorus.html#lands-as-engines",
+    "title": "Fertile Chorus",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTreno, Dark City\nTapped U/B source; the fixing backbone\n\n\nMutant Town\nTapped G/U source; gains 1 life on entry — cheap insurance vs aggro\n\n\nGongaga, Reactor Town\nTapped R/G source; green for the two-drop army\n\n\nOmashu City\nTapped R/G source with a built-in “sacrifice: draw a card” — a mini Fountainport\n\n\nMidgar, City of Mako\nTaps for black; its adventure Reactor Raid (2B, sorcery) sacrifices an artifact or creature to draw two — a land that turns spent creatures into cards and fills the yard\n\n\nTarrian’s Journal // The Tomb of Aclazotz\nThe land that wins: transform the Journal (2, tap, discard your hand) into a Cave land whose tap ability lets you cast creature spells from your graveyard — every Renew creature becomes castable forever"
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
+    "href": "decks/2026-08-22-fertile-chorus.html#curve-and-mana",
+    "title": "Fertile Chorus",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n21 lands: 3 Treno (U/B), 3 Mutant Town (G/U), 2 Gongaga (R/G), 2 Omashu City (R/G), 2 Midgar (B), plus 4 Forest, 3 Swamp, 2 Island. Green is the critical early color (twelve green two- and three-drops), so fetch and play green first; black comes second for Qarsi Revenant and Vote Out; blue arrives with Naga Fleshcrafter and the Convoke payoffs. Starting hands want two lands including a green source.\nThe nonland curve is 4 twos, 12 threes, 12 fours, 6 fives, 1 six, 4 eights. The eights are the point: Convoke discounts them by one per creature tapped, so by turn five or six Web of Life and Destiny costs about {2}{G} and Bloodline Bidding about {B}{B}."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
+    "href": "decks/2026-08-22-fertile-chorus.html#early-game-turns-13",
+    "title": "Fertile Chorus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 2: Champion of Dusan, Sage of the Fang, or Midnight Tilling (mill four, keep a permanent). Prefer the creature against aggressive decks.\nTurn 3: Qarsi Revenant (3/2 flying deathtouch lifelink holds the sky) or a second two-drop. Keep the ground stalled with trample bodies.\nDo not be afraid to trade — every creature that dies is Renew fuel. A dead Champion is worth a trample counter on the survivor."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
+    "href": "decks/2026-08-22-fertile-chorus.html#mid-game-turns-46",
+    "title": "Fertile Chorus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nAttack with Lasyd Prowler once to mill; then use its Renew ({1}{G}, sorcery) to put X +1/+1 counters on a creature, where X is the land count in the yard. By turn six that is usually 3–5 counters.\nThe big sequence: Renew Sage of the Fang ({3}{G}) — put a counter, then double. Repeat with a second Sage in the yard to quadruple. Stack Qarsi Revenant’s flying/lifelink/deathtouch counters and Champion of Dusan’s trample counter on the same creature.\nKheru Goldkeeper’s Treasure triggers fire on every Renew activation — spend them on the next activation or on a Convoke spell.\nCast Vote Out for removal; Disruptor of Currents at flash speed to bounce a blocker or a problem permanent."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
+    "href": "decks/2026-08-22-fertile-chorus.html#the-combo-turn",
+    "title": "Fertile Chorus",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nBuild the monster: Sage of the Fang doubling, Qarsi Revenant counters, Champion of Dusan trample — one creature with 10+ power, flying, lifelink, deathtouch, trample.\nCast Naga Fleshcrafter (or use its Renew from the yard: {2}{U}, sorcery) — “each other creature you control becomes a copy of that creature until end of turn.” Your 2/2s and 3/3s are now a board of 10/10 flying lifelinkers.\nCast Web of Life and Destiny for {2}{G} or so (Convoke with whatever did not attack). From now on, every combat starts with a free creature from your top five.\nSwing with the whole choir. If blocked, Reactor Raid or Tarrian’s Journal turns a dead body into cards, and the Tomb of Aclazotz casts the next creature from the graveyard."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
+    "href": "decks/2026-08-22-fertile-chorus.html#win-condition-2-the-rupture",
+    "title": "Fertile Chorus",
+    "section": "Win condition 2: the rupture",
+    "text": "Win condition 2: the rupture\nSingularity Rupture ({3}{U}{B}{B}) destroys all creatures and then has any number of target players mill half their library, rounded down. Two casts from a 60-card deck remove 45 cards; with the natural mill from Lasyd Prowler and Midnight Tilling, the opponent’s library dies before their life total. The wipe also dumps your own creatures into the yard — where Bloodline Bidding (Convoke, choose Snake) returns Lasyd Prowler, Naga Fleshcrafter, Constrictor Sage and Omni-Changeling all at once for an immediate board."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
+    "href": "decks/2026-08-22-fertile-chorus.html#mulligan-guide",
+    "title": "Fertile Chorus",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: two-plus lands including green, a two-drop, and either a mill source (Lasyd Prowler, Midnight Tilling) or a Renew creature.\nTrim: five-plus land hands, all-one-color hands, and hands whose only plays are 5+ mana cards.\nThe deck mulligans well: the graveyard smooths draws, and Midnight Tilling finds whatever the mill reveals."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-22-fertile-chorus.html#key-interactions-and-edge-cases",
+    "title": "Fertile Chorus",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nRenew exiles from the graveyard — it is a sorcery-speed activation, so plan it on your turn; it also shrinks the yard, which matters only for Lasyd Prowler’s Renew count (land cards only — lands stay).\nKheru Goldkeeper counts every card that leaves — one Renew activation exiles one card and creates one Treasure; two cards leaving creates two Treasures.\nBloodline Bidding’s type choice: Snakes cover Lasyd Prowler, Naga Fleshcrafter and Constrictor Sage; Omni-Changeling is every type, so any choice works.\nThe Tomb of Aclazotz casts creatures from the graveyard with a finality counter — they exile on death instead of returning, so use the Tomb for pressure, not for fuel.\nSingularity Rupture hits your own board — that is the point: the wipe refills the yard for Bidding.\nWeb of Life and Destiny at combat — the free creature enters at the beginning of combat, so it cannot attack that turn but is untapped Convoke fuel for the next spell.\nReactor Raid needs a sacrifice to draw — sacrifice a tapped attacker after combat, or an artifact, to keep the yard stocked."
+  },
+  {
+    "objectID": "decks/2026-08-22-fertile-chorus.html#matchups",
+    "href": "decks/2026-08-22-fertile-chorus.html#matchups",
+    "title": "Fertile Chorus",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html",
+    "href": "decks/2026-08-27-fang-and-fur.html",
+    "title": "Fang and Fur",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nGreen / Blue / Black (Sultai)\n\n\nArchetype\nBeornings bear-and-warg landfall engine (avg CMC 3.58)\n\n\nSize\n60 cards\n\n\nPrimary win\nEngine beatdown: every land drop and creature spell feeds Dancing from Dark to Dawn and Beorn’s Hospitality, Beorn the Fierce turns the swarm into a trampling horde, and Gigantic Big Bear closes in one swing\n\n\nSecondary win\nLand-powered finish: Restless Vinestalk animates as a 5/5 trample, Mirkwood dumps +2/+2 counters on the pack, and Rogue’s Passage makes the biggest bear unblockable\n\n\nLand win con\nMirkwood (repeatable Bear/Spider/Wolf pump), Restless Vinestalk (5/5 trample creature-land), Restless Cottage (4/4 + Food), Rogue’s Passage (unblockable)"
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#game-plan-phases",
+    "href": "decks/2026-08-27-fang-and-fur.html#game-plan-phases",
+    "title": "Fang and Fur",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop the pack: Bejeweled Warg, Chief Warg’s Company, Little Bear, and the landfall enchantments; Riddles in the Dark and Warg Tactics hold the board\n\n\nTurns 3-5\nEngines online: Radagast discounts and flashes creatures into Dancing from Dark to Dawn; Hospitality and Dancing turn every land drop into counters and Bear tokens\n\n\nTurns 5-7\nThe payoff turn: Beorn the Fierce lands, the swarm becomes Bears with trample, and Gigantic Big Bear or Large Bear ends the game\n\n\nLate game\nWin condition 2: animate the lands — Vinestalk 5/5 trample, Cottage 4/4, Mirkwood pumps, Rogue’s Passage unblockable; Part in Friendship keeps the pack coming back"
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#card-roles",
+    "href": "decks/2026-08-27-fang-and-fur.html#card-roles",
+    "title": "Fang and Fur",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nBeorn the Fierce\nThe payoff: +2/+2 to all other Bears, trample counters on any creature, and draw two when three or more Bears attack-ready\n\n\nDancing from Dark to Dawn\nEngine half one: creature spells dump X +1/+1 counters on a creature; landfall makes 2/2 Bear tokens\n\n\nBeorn’s Hospitality\nEngine half two: a counter on every land drop, then awakens into a Bear whose size equals your lands\n\n\nRadagast of Rhosgobel\nDiscounts and flashes the first creature spell each turn — the counter engine fires at instant speed for less\n\n\nGigantic Big Bear\nFinisher: uncounterable 10/7 with hexproof and haste — a single swing with Beorn’s anthem is lethal\n\n\nLarge Bear\n5/5 haste reach trample that attacks the turn it lands\n\n\nLittle Bear\nFlash 3/2 that untaps a creature and stacks another counter on a Bear\n\n\nBejeweled Warg\nWolf engine: trample 3/2 that makes Treasures or Wolf counters on combat damage\n\n\nChief Warg’s Company\nA 2/2 Wolf token every upkeep — the sacrifice fodder and swarm body generator\n\n\nThe Chief Warg\nFerocious draw: menace 3/3 that draws (and loses 1 life) whenever you attack with 4+ power\n\n\nHead of the Hunt\nFlash 4/3 that exiles opposing deaths and refunds a 2/2 Wolf token each time\n\n\nWargling\nTurns the whole team into tramplers while a 4-power creature attacks\n\n\nAttercop\nDeathtouch reach that grows on landfall — the spider roadblock\n\n\nElven Raft-Steerer\nLandfall control: taps an opposing attacker or untaps your biggest bear\n\n\nTom, Bert, and William\nSacrifice for cards, then return as an artifact — value in both halves\n\n\nPart in Friendship\nDeath payoff: reveals a creature and puts it into play free if its cost fits your land count\n\n\nRiddles in the Dark\nFact-or-fiction draw that fills the graveyard for Part in Friendship\n\n\nWarg Tactics\nDestroys a flier or makes a hexproof trampling counter — protection and removal in one\n\n\nSupper for Spiders\nSteals everything the opponent lost this turn as Food artifacts\n\n\nCavern of Souls\nNames Bear — your finishers can’t be countered"
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#lands-as-engines",
+    "href": "decks/2026-08-27-fang-and-fur.html#lands-as-engines",
+    "title": "Fang and Fur",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nMirkwood\nBlack-green fixing that sacrifices for two +1/+1 counters on any Bear, Spider, or Wolf — a repeatable pump on the exact creature types this deck plays\n\n\nRestless Vinestalk\nGreen-blue fixing that becomes a 5/5 trample attacker; its attack trigger resets another creature to 3/3\n\n\nRestless Cottage\nBlack-green fixing that becomes a 4/4 and makes Food while exiling a graveyard card\n\n\nRogue’s Passage\nThe road: {4} makes the biggest bear unblockable for the finish\n\n\nCavern of Souls\nBear-proofs Gigantic Big Bear and Large Bear\n\n\nDeathcap Glade\nUntapped black-green fixing once two lands are down"
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#curve-and-mana",
+    "href": "decks/2026-08-27-fang-and-fur.html#curve-and-mana",
+    "title": "Fang and Fur",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n24 lands: 3 Mirkwood, 2 Restless Vinestalk, 1 Restless Cottage, 1 Rogue’s Passage, 1 Cavern of Souls, 1 Deathcap Glade, 8 Forest, 4 Swamp, 3 Island. Green sources 15, black 9, blue 5 — green is the workhorse, blue a light splash for the landfall control and draw.\nNonland curve: 2-drop x11, 3-drop x9, 4-drop x4, 5-drop x10, 7-drop x2. Average CMC 3.58. The deck wants a two-drop Warg or enchantment on turn 2, a landfall engine plus Little Bear on turn 3, Radagast or The Chief Warg on turn 4, and Beorn the Fierce on turn 5 with the pack already growing."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#early-game",
+    "href": "decks/2026-08-27-fang-and-fur.html#early-game",
+    "title": "Fang and Fur",
+    "section": "Early game",
+    "text": "Early game\nTurn 1 is a tapped Mirkwood or Cottage. Turn 2: Bejeweled Warg, Beorn’s Hospitality, or a Riddles in the Dark. Sequence tapped lands first — Mirkwood, Cottage, Vinestalk, and Deathcap Glade (before turn 2) enter tapped, so keep basics and Cavern of Souls for the turns you need untapped green. Every land drop from here on is a spell: it triggers Hospitality’s counter and Dancing’s Bear token."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#mid-game",
+    "href": "decks/2026-08-27-fang-and-fur.html#mid-game",
+    "title": "Fang and Fur",
+    "section": "Mid game",
+    "text": "Mid game\nResolve Radagast of Rhosgobel and start chaining creature spells — each cast puts counters on a bear (Dancing from Dark to Dawn), and Radagast’s flash lets you do it on the opponent’s turn. Chief Warg’s Company builds free Wolf tokens for sacrifice fodder and Bejeweled Warg’s Treasures accelerate into the 5-drops. Head of the Hunt discourages attacks: every blocker that dies becomes your Wolf."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#the-combo-turn",
+    "href": "decks/2026-08-27-fang-and-fur.html#the-combo-turn",
+    "title": "Fang and Fur",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nStack the pack: three or more Bears on board (Dancing’s landfall tokens, Little Bear, Large Bear) and Dancing or Hospitality online.\nCast Beorn the Fierce — other Bears get +2/+2 and the combat trigger draws two cards.\nAttack with the swarm: Wargling or Beorn’s trample counters push damage through; The Chief Warg draws for every 4-power attacker.\nFinish with Gigantic Big Bear: a 10/7 hexproof haste that can’t be countered, or Large Bear’s haste 5/5, both doubled by Beorn’s anthem.\n\nA typical kill: two 2/2 Bear tokens and a Little Bear under Beorn become 6/6, 4/4, and 4/4 with trample; Gigantic Big Bear comes down as a 12/9. Mirkwood activations put +2/+2 on whichever bear needs to get through."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#win-condition-2",
+    "href": "decks/2026-08-27-fang-and-fur.html#win-condition-2",
+    "title": "Fang and Fur",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe lands finish the game. Restless Vinestalk animates as a 5/5 trample and its attack trigger resets blockers; Restless Cottage is a 4/4 that makes Food; Mirkwood pumps any Bear, Spider, or Wolf with two counters per activation (three activations turn a 2/2 Bear token into an 8/8). Rogue’s Passage spends {4} to make the biggest attacker unblockable — against a stalled board, the 12/9 Gigantic Big Bear or a Mirkwood-fed Wolf closes. Part in Friendship keeps the pack coming back, and Supper for Spiders converts the opponent’s dead creatures into Food."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#mulligan-guide",
+    "href": "decks/2026-08-27-fang-and-fur.html#mulligan-guide",
+    "title": "Fang and Fur",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: two to three lands with a two-drop Warg or enchantment — Bejeweled Warg, Chief Warg’s Company, or Beorn’s Hospitality openers are strong; any hand with Beorn the Fierce, Dancing from Dark to Dawn, or Radagast plus a creature is excellent. Mulligan one-land hands and hands with five or more lands and no engine. Blue is a splash: a hand with only green and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-27-fang-and-fur.html#key-interactions-and-edge-cases",
+    "title": "Fang and Fur",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nBeorn the Fierce’s combat trigger targets any creature, not just Bears: a Bejeweled Warg or The Chief Warg gains trample and Bear status, joining the +2/+2 anthem.\nDancing from Dark to Dawn counts the spell’s mana value, not the mana paid — Radagast’s {2} discount still dumps full-value counters.\nBeorn’s Hospitality’s awakening is permanent: once activated ({5}{G}{G}) it stays a Bear and grows with your land count, and Beorn the Fierce’s anthem applies to it.\nMirkwood’s pump targets Bears, Spiders, and Wolves — it cannot target the Army token or Beorn’s Hospitality before it awakens, but it can pump the Bear tokens from Dancing.\nPart in Friendship triggers only once per turn and puts the creature into play only if its mana value fits your lands — sequence your land drops before the sacrifice.\nTom, Bert, and William return as an artifact when they die, so Part in Friendship will not recur them; they are best used as a repeatable draw engine while alive.\nHead of the Hunt exiles dying creatures instead of letting them die — it stops death triggers like Supper for Spiders targets and fuels its own Wolf tokens."
+  },
+  {
+    "objectID": "decks/2026-08-27-fang-and-fur.html#matchups",
+    "href": "decks/2026-08-27-fang-and-fur.html#matchups",
+    "title": "Fang and Fur",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nAttercop, Little Bear, and Cottage hold the ground; Head of the Hunt converts every dead attacker into Wolves\n\n\nMidrange\nRace the engine — Radagast chains and Dancing counters outsize their creatures; Mirkwood pumps push through\n\n\nControl\nCavern of Souls names Bear and Beorn’s trample counters fight through sweepers; Part in Friendship rebuilds after a wipe\n\n\nCombo\nRiddles in the Dark finds interaction; Warg Tactics hexproofs the finisher; the pack’s clock is fast once Beorn lands"
   },
   {
     "objectID": "decks/2026-08-21-mirkwood-menagerie.html",

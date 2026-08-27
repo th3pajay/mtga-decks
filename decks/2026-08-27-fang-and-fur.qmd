@@ -1,0 +1,161 @@
+---
+title: "Fang and Fur"
+subtitle: "Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck)"
+date: "2026-08-27"
+categories: ["hobbit", "beornings"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Green / Blue / Black (Sultai) |
+| Archetype | Beornings bear-and-warg landfall engine (avg CMC 3.58) |
+| Size | 60 cards |
+| Primary win | Engine beatdown: every land drop and creature spell feeds Dancing from Dark to Dawn and Beorn's Hospitality, Beorn the Fierce turns the swarm into a trampling horde, and Gigantic Big Bear closes in one swing |
+| Secondary win | Land-powered finish: Restless Vinestalk animates as a 5/5 trample, Mirkwood dumps +2/+2 counters on the pack, and Rogue's Passage makes the biggest bear unblockable |
+| Land win con | Mirkwood (repeatable Bear/Spider/Wolf pump), Restless Vinestalk (5/5 trample creature-land), Restless Cottage (4/4 + Food), Rogue's Passage (unblockable) |
+
+# Overview
+
+Fang and Fur is the Beornings deck of The Hobbit set: a bear-and-warg engine that turns lands and creature spells into a wall of counters and tokens. The engine is double-barreled — Dancing from Dark to Dawn puts X +1/+1 counters on a creature for every creature spell you cast (where X is that spell's mana value) and makes a 2/2 Bear on every landfall; Beorn's Hospitality puts a counter on a creature on every landfall and can itself awaken into a Bear whose size equals your land count. The payoff is Beorn the Fierce: other Bears get +2/+2, and at the start of combat he grants trample and Bear status to any creature, drawing two cards once you control three or more Bears.
+
+The wolf half of the pack grinds and ramps: Bejeweled Warg makes Treasures, Chief Warg's Company makes a free Wolf every upkeep, The Chief Warg draws on every attack with a 4-power creature, and Head of the Hunt exiles anything that dies and refunds a Wolf token. Radagast of Rhosgobel makes the first creature spell each turn cost {2} less and gives it flash, so the counter engine fires at instant speed. Part in Friendship recurs a creature whenever one dies, and Tom, Bert, and William trade bodies for cards.
+
+The lands are not just mana — they are part of the kill. Mirkwood sacrifices itself to put two +1/+1 counters on any Bear, Spider, or Wolf; Restless Vinestalk becomes a 5/5 trample attacker; Restless Cottage a 4/4 that makes Food; Rogue's Passage opens the road for the biggest bear. The set is scheduled for Arena on 2026-08-14 (arena_id is still empty in the database, so the import list works from that date).
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop the pack: Bejeweled Warg, Chief Warg's Company, Little Bear, and the landfall enchantments; Riddles in the Dark and Warg Tactics hold the board |
+| Turns 3-5 | Engines online: Radagast discounts and flashes creatures into Dancing from Dark to Dawn; Hospitality and Dancing turn every land drop into counters and Bear tokens |
+| Turns 5-7 | The payoff turn: Beorn the Fierce lands, the swarm becomes Bears with trample, and Gigantic Big Bear or Large Bear ends the game |
+| Late game | Win condition 2: animate the lands — Vinestalk 5/5 trample, Cottage 4/4, Mirkwood pumps, Rogue's Passage unblockable; Part in Friendship keeps the pack coming back |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Beorn the Fierce | The payoff: +2/+2 to all other Bears, trample counters on any creature, and draw two when three or more Bears attack-ready |
+| Dancing from Dark to Dawn | Engine half one: creature spells dump X +1/+1 counters on a creature; landfall makes 2/2 Bear tokens |
+| Beorn's Hospitality | Engine half two: a counter on every land drop, then awakens into a Bear whose size equals your lands |
+| Radagast of Rhosgobel | Discounts and flashes the first creature spell each turn — the counter engine fires at instant speed for less |
+| Gigantic Big Bear | Finisher: uncounterable 10/7 with hexproof and haste — a single swing with Beorn's anthem is lethal |
+| Large Bear | 5/5 haste reach trample that attacks the turn it lands |
+| Little Bear | Flash 3/2 that untaps a creature and stacks another counter on a Bear |
+| Bejeweled Warg | Wolf engine: trample 3/2 that makes Treasures or Wolf counters on combat damage |
+| Chief Warg's Company | A 2/2 Wolf token every upkeep — the sacrifice fodder and swarm body generator |
+| The Chief Warg | Ferocious draw: menace 3/3 that draws (and loses 1 life) whenever you attack with 4+ power |
+| Head of the Hunt | Flash 4/3 that exiles opposing deaths and refunds a 2/2 Wolf token each time |
+| Wargling | Turns the whole team into tramplers while a 4-power creature attacks |
+| Attercop | Deathtouch reach that grows on landfall — the spider roadblock |
+| Elven Raft-Steerer | Landfall control: taps an opposing attacker or untaps your biggest bear |
+| Tom, Bert, and William | Sacrifice for cards, then return as an artifact — value in both halves |
+| Part in Friendship | Death payoff: reveals a creature and puts it into play free if its cost fits your land count |
+| Riddles in the Dark | Fact-or-fiction draw that fills the graveyard for Part in Friendship |
+| Warg Tactics | Destroys a flier or makes a hexproof trampling counter — protection and removal in one |
+| Supper for Spiders | Steals everything the opponent lost this turn as Food artifacts |
+| Cavern of Souls | Names Bear — your finishers can't be countered |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Mirkwood | Black-green fixing that sacrifices for two +1/+1 counters on any Bear, Spider, or Wolf — a repeatable pump on the exact creature types this deck plays |
+| Restless Vinestalk | Green-blue fixing that becomes a 5/5 trample attacker; its attack trigger resets another creature to 3/3 |
+| Restless Cottage | Black-green fixing that becomes a 4/4 and makes Food while exiling a graveyard card |
+| Rogue's Passage | The road: {4} makes the biggest bear unblockable for the finish |
+| Cavern of Souls | Bear-proofs Gigantic Big Bear and Large Bear |
+| Deathcap Glade | Untapped black-green fixing once two lands are down |
+
+## Curve and mana
+
+24 lands: 3 Mirkwood, 2 Restless Vinestalk, 1 Restless Cottage, 1 Rogue's Passage, 1 Cavern of Souls, 1 Deathcap Glade, 8 Forest, 4 Swamp, 3 Island. Green sources 15, black 9, blue 5 — green is the workhorse, blue a light splash for the landfall control and draw.
+
+Nonland curve: 2-drop x11, 3-drop x9, 4-drop x4, 5-drop x10, 7-drop x2. Average CMC 3.58. The deck wants a two-drop Warg or enchantment on turn 2, a landfall engine plus Little Bear on turn 3, Radagast or The Chief Warg on turn 4, and Beorn the Fierce on turn 5 with the pack already growing.
+
+# Gameplay strategy
+
+## Early game
+
+Turn 1 is a tapped Mirkwood or Cottage. Turn 2: Bejeweled Warg, Beorn's Hospitality, or a Riddles in the Dark. Sequence tapped lands first — Mirkwood, Cottage, Vinestalk, and Deathcap Glade (before turn 2) enter tapped, so keep basics and Cavern of Souls for the turns you need untapped green. Every land drop from here on is a spell: it triggers Hospitality's counter and Dancing's Bear token.
+
+## Mid game
+
+Resolve Radagast of Rhosgobel and start chaining creature spells — each cast puts counters on a bear (Dancing from Dark to Dawn), and Radagast's flash lets you do it on the opponent's turn. Chief Warg's Company builds free Wolf tokens for sacrifice fodder and Bejeweled Warg's Treasures accelerate into the 5-drops. Head of the Hunt discourages attacks: every blocker that dies becomes your Wolf.
+
+## The combo turn
+
+1. Stack the pack: three or more Bears on board (Dancing's landfall tokens, Little Bear, Large Bear) and Dancing or Hospitality online.
+2. Cast Beorn the Fierce — other Bears get +2/+2 and the combat trigger draws two cards.
+3. Attack with the swarm: Wargling or Beorn's trample counters push damage through; The Chief Warg draws for every 4-power attacker.
+4. Finish with Gigantic Big Bear: a 10/7 hexproof haste that can't be countered, or Large Bear's haste 5/5, both doubled by Beorn's anthem.
+
+A typical kill: two 2/2 Bear tokens and a Little Bear under Beorn become 6/6, 4/4, and 4/4 with trample; Gigantic Big Bear comes down as a 12/9. Mirkwood activations put +2/+2 on whichever bear needs to get through.
+
+## Win condition 2
+
+The lands finish the game. Restless Vinestalk animates as a 5/5 trample and its attack trigger resets blockers; Restless Cottage is a 4/4 that makes Food; Mirkwood pumps any Bear, Spider, or Wolf with two counters per activation (three activations turn a 2/2 Bear token into an 8/8). Rogue's Passage spends {4} to make the biggest attacker unblockable — against a stalled board, the 12/9 Gigantic Big Bear or a Mirkwood-fed Wolf closes. Part in Friendship keeps the pack coming back, and Supper for Spiders converts the opponent's dead creatures into Food.
+
+## Mulligan guide
+
+Keep: two to three lands with a two-drop Warg or enchantment — Bejeweled Warg, Chief Warg's Company, or Beorn's Hospitality openers are strong; any hand with Beorn the Fierce, Dancing from Dark to Dawn, or Radagast plus a creature is excellent. Mulligan one-land hands and hands with five or more lands and no engine. Blue is a splash: a hand with only green and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not.
+
+## Key interactions and edge cases
+
+- Beorn the Fierce's combat trigger targets any creature, not just Bears: a Bejeweled Warg or The Chief Warg gains trample and Bear status, joining the +2/+2 anthem.
+- Dancing from Dark to Dawn counts the spell's mana value, not the mana paid — Radagast's {2} discount still dumps full-value counters.
+- Beorn's Hospitality's awakening is permanent: once activated ({5}{G}{G}) it stays a Bear and grows with your land count, and Beorn the Fierce's anthem applies to it.
+- Mirkwood's pump targets Bears, Spiders, and Wolves — it cannot target the Army token or Beorn's Hospitality before it awakens, but it can pump the Bear tokens from Dancing.
+- Part in Friendship triggers only once per turn and puts the creature into play only if its mana value fits your lands — sequence your land drops before the sacrifice.
+- Tom, Bert, and William return as an artifact when they die, so Part in Friendship will not recur them; they are best used as a repeatable draw engine while alive.
+- Head of the Hunt exiles dying creatures instead of letting them die — it stops death triggers like Supper for Spiders targets and fuels its own Wolf tokens.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Attercop, Little Bear, and Cottage hold the ground; Head of the Hunt converts every dead attacker into Wolves |
+| Midrange | Race the engine — Radagast chains and Dancing counters outsize their creatures; Mirkwood pumps push through |
+| Control | Cavern of Souls names Bear and Beorn's trample counters fight through sweepers; Part in Friendship rebuilds after a wipe |
+| Combo | Riddles in the Dark finds interaction; Warg Tactics hexproofs the finisher; the pack's clock is fast once Beorn lands |
+
+# Deck list (Arena import)
+
+```
+Fang and Fur
+Deck
+1 Attercop
+4 Bejeweled Warg
+3 Beorn the Fierce
+3 Beorn's Hospitality
+1 Cavern of Souls
+2 Chief Warg's Company
+3 Dancing from Dark to Dawn
+1 Deathcap Glade
+2 Elven Raft-Steerer
+8 Forest
+2 Gigantic Big Bear
+1 Head of the Hunt
+3 Island
+1 Large Bear
+3 Little Bear
+3 Mirkwood
+2 Part in Friendship
+2 Radagast of Rhosgobel
+1 Restless Cottage
+2 Restless Vinestalk
+2 Riddles in the Dark
+1 Rogue's Passage
+1 Supper for Spiders
+4 Swamp
+1 The Chief Warg
+1 Tom, Bert, and William
+1 Warg Tactics
+1 Wargling
+```

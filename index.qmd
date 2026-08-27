@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-08-27**:
 
+- **[Fang and Fur](decks/2026-08-27-fang-and-fur.html)** — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck)  `hobbit` `beornings`
 - **[Chromatic Caper](decks/2026-08-27-chromatic-caper.html)** — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance  `combo` `vivid` `plot` `alliance`
