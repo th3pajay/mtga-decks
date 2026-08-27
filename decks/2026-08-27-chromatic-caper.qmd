@@ -1,0 +1,145 @@
+---
+title: "Chromatic Caper"
+subtitle: "WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance"
+date: "2026-08-27"
+categories: ["combo", "vivid", "plot", "alliance"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | White, Blue, Black, Red, Green (WUBRG) |
+| Archetype | Five-color plot-combo |
+| Size | 60 cards |
+| Primary win | Alliance burn and swarm: dump plotted creatures in one turn, Slash pings for 2 per entry, then swing wide |
+| Secondary win | Vivid alpha strike: Squawkroaster (power = colors, double strike) pumped by Glister Bairn, unblockable via Rogue's Passage |
+
+## Overview
+
+Chromatic Caper fuses three build-around mechanics: **Vivid** (effects scale with X, the number of colors among permanents you control), **Plot** (pay a small cost to exile a card, then cast it later without paying its mana cost), and **Alliance** (creatures that trigger whenever another creature enters under your control). The deck is a five-color plot-combo engine: plot spells cheaply on turns two through four, then dump them for free in a single explosive turn. Every free creature triggers every Alliance creature, and every colored permanent you resolve pushes Vivid's X toward the full five colors.
+
+The engine is **Fblthp, Lost on the Range**, who gives the top card of your library plot and lets you plot nonland cards from the top of your library, and **Make Your Own Luck**, which plots a card and puts the other two into your hand. **Bloom Tender** is the mana core: with five colors among your permanents it taps for five mana, letting a plotted top end cast for free on the same turn you untap. **Outcaster Trailblazer** fixes mana on entry and draws a card whenever a 4+ power creature enters, which the free Freestrider Commandos (5/5 when cast without paying) and Slash (7/5) trigger constantly.
+
+The kill is the fusion working at once. **Slash, Reptile Rampager** deals 2 damage to each opponent for every creature that enters, and creates a 2/2 Mutant token when it attacks, which enters and pings again. Meanwhile **Squawkroaster** grows to 5 power with five colors, and **Glister Bairn** hands it +5/+5 at combat, making a 10/4 double striker. **Rogue's Passage** makes that creature unblockable, and **Shimmercreep** drains for 5 as a finisher.
+
+## Approach
+
+### Game plan phases
+
+1. **Setup (turns 1-3):** Play Bloom Tender, Fblthp, or Outcaster Trailblazer. Plot cards from hand or off the top (plot costs are 1-2 mana, cheaper than the cards themselves). Fix mana with Fabled Passage and Evolving Wilds.
+2. **Engine (turns 3-4):** Resolve Make Your Own Luck to plot and draw. Deploy Alliance creatures: Mighty Mutanimals, Raphael, East Wind Avatar, Mutant Town Musicians. Every plot cast later turns them on.
+3. **Kill (turns 4-6):** Cast plotted creatures for free in one turn. Each entry triggers every Alliance creature; Slash pings, Raphael pings, Mutanimals and East Wind grow the team. Swing; Rogue's Passage makes Squawkroaster or Slash unblockable; Shimmercreep or Explosive Prodigy closes the last gap.
+
+### Card roles
+
+| Card | Role | Notes |
+|---|---|---|
+| Fblthp, Lost on the Range | Engine | Top card has plot; plot nonland cards from the top of your library; ward 2 |
+| Make Your Own Luck | Engine | Plots one of the top three cards and draws the other two |
+| Bloom Tender | Engine | Vivid mana: taps for one mana per color among permanents (up to 5) |
+| Outcaster Trailblazer | Enabler | Adds one mana of any color on entry; draws on each 4+ power creature entry |
+| Freestrider Commando | Payoff | 5/5 when cast from plot (no mana spent); 4 copies |
+| Aloe Alchemist | Enabler | Plotting it pumps a creature +3/+2 with trample |
+| Slash, Reptile Rampager | Win con | Alliance: 2 damage to each opponent per entry; attack creates a Mutant token that pings again |
+| Raphael, Tough Turtle | Payoff | Alliance: 1 damage to target opponent per entry |
+| Mighty Mutanimals | Payoff | Alliance: +1/+1 counter on a creature per entry; makes a 2/2 token on entry |
+| East Wind Avatar | Payoff | Flying vigilance; Alliance: +1/+0 per entry |
+| Mutant Town Musicians | Payoff | Trample; Alliance: +1/+0 per entry |
+| Squawkroaster | Win con | Double strike; power equals number of colors (5 with all five colors) |
+| Glister Bairn | Enabler | Vivid: +X/+X to another creature at combat |
+| Shimmercreep | Finisher | Vivid: each opponent loses X life and you gain X |
+| Explosive Prodigy | Removal | Vivid: deals X damage to a creature |
+| Aven Interrupter | Interaction | Flash, flying; exiles a spell and turns it into a (yours to ignore) plotted card; taxes spells from graveyard or exile |
+| Prismatic Undercurrents | Fixing | Searches up to X basics and allows an extra land drop each turn |
+| Rogue's Passage | Win con | Makes the combo attacker unblockable |
+
+### Lands as engines
+
+| Land | Role |
+|---|---|
+| Rogue's Passage | Win condition: {4}, {T} makes Squawkroaster or Slash unblockable for the kill swing |
+| Restless Bivouac | Backup manland: 2/2 Ox that puts a +1/+1 counter on a creature when it attacks |
+| Fabled Passage, Evolving Wilds | Fetch fixing for the five-color manabase |
+| Dreamroot Cascade, Deathcap Glade, Sundown Pass | Slowlands: untapped with two other lands, cover GU, BG, RW |
+| Willowrush, Riverpyre, Hushwood Verges | Untapped conditional duals covering UG, UR, GW |
+
+### Curve and mana
+
+Average CMC is 3.35, but the effective curve is lower because plot costs (1-2 mana) are paid early and the spells themselves are cast for free later. The deck runs 23 lands: six fetches, twelve conditional untapped duals, two utility lands (Rogue's Passage, Restless Bivouac), and three basics. Green is the core (Bloom Tender, Freestrider, Outcaster, Make Your Own Luck); blue powers Fblthp; red supplies the Alliance burn package; white brings Mutanimals and East Wind; a single black card (Shimmercreep) plus Deathcap Glade completes the fifth color that pushes Vivid to X equals 5.
+
+## Gameplay strategy
+
+### Early game
+
+Play Bloom Tender on turn two if possible, or Fblthp on three. Use Fblthp to plot the top card of your library every turn the plot cost is payable. Outcaster Trailblazer both fixes mana and starts the draw engine. Do not rush to deploy Alliance creatures before you have plot cards banked; they are payoff pieces, not pressure.
+
+### Mid game
+
+Bank 2-3 plotted cards with Make Your Own Luck and Fblthp. Resolve Mighty Mutanimals, Raphael, and East Wind Avatar so they are in play for the dump turn. Prismatic Undercurrents both fixes your colors and gives extra land drops, which also feeds Fabled Passage. Hold Explosive Prodigy for a blocker that would trade with Squawkroaster or Slash.
+
+### The combo turn
+
+Cast every plotted creature for free in one turn, biggest first so Outcaster Trailblazer's draw trigger (4+ power entries) fires. Each entry triggers all Alliance creatures: Slash deals 2 to each opponent, Raphael 1, Mutanimals puts counters, East Wind and Musicians pump. If Slash attacks, its Mutant token enters and triggers everything again. Then animate Rogue's Passage on Squawkroaster (5/4 double strike with five colors) or Slash (7/5) and swing for the kill. Shimmercreep drains 5 life as a second finisher that also wins races.
+
+### Win condition 2: Vivid alpha strike
+
+With five colors among permanents, Squawkroaster is a 5/4 double striker (10 damage). Glister Bairn at combat gives another creature +5/+5 until end of turn; a Bairn-buffed Squawkroaster is a 10/9 double striker (20 damage). Rogue's Passage makes it unblockable. Explosive Prodigy clears the one blocker that matters, and East Wind Avatar's flying chip damage adds reach over several turns.
+
+### Mulligan guide
+
+Keep any hand with two to three lands, at least one green source and one blue or red source, and a two-drop (Bloom Tender) or an engine (Fblthp, Outcaster Trailblazer) plus a plot card. Mulligan hands with four or more lands, no early play, or only high-cost Alliance payoffs. Fblthp plus Make Your Own Luck is a strong keep.
+
+### Key interactions and edge cases
+
+- Vivid counts colors among permanents you control, including colored lands only if they are creature lands; basic and dual lands are colorless, so the fifth color comes from Shimmercreep or any other colored permanent.
+- Freestrider Commando gets its +1/+1 counters only if it is cast without paying mana, so always cast it from plot, never for its mana cost.
+- Slash's attack token enters after combat begins; its Alliance triggers resolve before damage, so the ping can finish an opponent before blockers are declared.
+- Aven Interrupter exiles a spell on the stack and turns it into a plotted card; against you, that means the opponent can recast it later for free, so use it on removal aimed at Slash or Squawkroaster and accept the delayed threat.
+- Rogue's Passage can be activated any time you have priority; activate it in the beginning of combat step or when declaring attackers, since the unblockable effect lasts for the whole combat.
+- Shimmercreep's drain is an enters-the-battlefield trigger, so it resolves even if the creature is answered immediately.
+
+### Matchups
+
+- **Aggro:** Bloom Tender and early blockers (Raphael 1/3, Mutanimals token) hold the ground; Explosive Prodigy and Shimmercreep's lifegain stabilize; the dump turn usually races faster than aggro's clock.
+- **Control:** Fblthp's ward 2 and Aven Interrupter's flash answer protect the engine; Aven taxes spells cast from graveyard or exile; plot cards are uncounterable in the sense that they are cast for free later, so bank them against countermagic.
+- **Midrange:** Slash outclasses most midrange boards (7/5); the Alliance dump turn grows the team past their creatures; keep Rogue's Passage for the turn you need to push damage through.
+
+## Deck list (Arena import)
+
+```text
+Chromatic Caper
+Deck
+4 Bloom Tender
+4 Fabled Passage
+4 Fblthp, Lost on the Range
+4 Freestrider Commando
+3 Make Your Own Luck
+3 Mighty Mutanimals
+3 Outcaster Trailblazer
+2 Aloe Alchemist
+2 Deathcap Glade
+2 Dreamroot Cascade
+2 East Wind Avatar
+2 Evolving Wilds
+2 Hushwood Verge
+2 Raphael, Tough Turtle
+2 Riverpyre Verge
+2 Slash, Reptile Rampager
+2 Squawkroaster
+2 Sundown Pass
+2 Willowrush Verge
+1 Aven Interrupter
+1 Explosive Prodigy
+1 Forest
+1 Glister Bairn
+1 Island
+1 Mutant Town Musicians
+1 Plains
+1 Prismatic Undercurrents
+1 Restless Bivouac
+1 Rogue's Passage
+1 Shimmercreep
+```
