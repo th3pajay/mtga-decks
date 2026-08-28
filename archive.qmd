@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **255** cards locked · **Hobbit 98/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **284** cards locked · **Hobbit 98/193** remaining
 
-**17 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**18 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-08-28
+
+- **[Sunstar Vigil](decks/2026-08-28-sunstar-vigil.html)** — WUBRG | Station x Lifegain x Solved  `combo` `station` `lifegain` `solved`
 
 ## 2026-08-27
 

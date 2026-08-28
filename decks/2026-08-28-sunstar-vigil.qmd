@@ -1,0 +1,146 @@
+---
+title: "Sunstar Vigil"
+subtitle: "WUBRG | Station x Lifegain x Solved"
+date: "2026-08-28"
+categories: ["combo", "station", "lifegain", "solved"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (Best-of-1) |
+| Colors | WUBRG (five-color) |
+| Archetype | Midrange combo |
+| Size | 60 cards (24 lands) |
+| Primary win | Amalia Benavides Aguirre reaches exactly 20 power, wipes all other creatures, swings for lethal with flying double strike |
+| Secondary win | Dawnsire, Sunstar Dreadnought charges to 10+, deals 100 damage to a blocker or planeswalker every attack, then becomes a 20/20 flyer; Aurelia's extra combats double the pings |
+
+## Overview
+
+Sunstar Vigil fuses three build-around mechanics into one engine. **Station** (the Edge of Eternities mechanic) lets you tap a creature to put charge counters equal to its power on a Spacecraft or Planet, unlocking thresholds that turn your artifacts and lands into flying, lifelink, damage-dealing machines. **Lifegain** is the fuel: every life you gain powers Amalia's explores, Exemplar of Light's counters, and keeps you alive while your ships charge. **Solved** (the Case mechanic) provides the payoff layer: Case of the Shattered Pact solves off the five planets' colors alone and turns any attacker into a flying double-striker, while Case of the Gorgon's Kiss solves off your own milling and deaths into a 4/4 lifelink deathtouch creature.
+
+Every card feeds the loop: high-power creatures (Vaultborn Tyrant, The Seriema) both gain life and charge Station; spacecraft draw cards and recur each other; the Planets are lands that become engines at 12+ charges, including the deck's win-condition land, Adagia.
+
+## Approach
+
+### Game plan phases
+
+- **Early (turns 1-3):** Develop a Planet or triland, drop a cheap Spacecraft (Lumen-Class Frigate, Wurmwall Sweeper, Sledge-Class Seedship) or a Case. Case of the Shattered Pact tutors a basic to fix your five-color mana. The Seriema on turn 3 tutors Aurelia or Amalia, your two finishers.
+- **Mid (turns 4-6):** Resolve Vaultborn Tyrant (gain 3, draw a card, 6-power Station fuel) or Exemplar of Light. Start charging: tap your fatties as a sorcery to put counters on Spacecraft and Planets. Fell Gravship mills three (solving Gorgon's Kiss) and returns a creature or Spacecraft to hand.
+- **The combo turn:** Charge Dawnsire to 10+ (one tap of Vaultborn plus The Seriema is 11), then attack: Dawnsire deals 100 damage to a blocker or planeswalker every combat. Amalia at 20 power destroys all other creatures, then attacks as a 20/20 with flying and double strike from the solved Pact. Aurelia adds a second combat phase, and Adagia at 12+ charges copies Dawnsire for double pings.
+
+### Card roles
+
+| Card | Role |
+|---|---|
+| The Seriema | Tutor (Aurelia, Amalia), 5/5 Station fuel, makes tapped legendaries indestructible |
+| Vaultborn Tyrant | Lifegain and draw engine, 6-power Station fuel, death token recurs |
+| Exemplar of Light | Lifegain payoff: counters and cards |
+| Amalia Benavides Aguirre | Explore on every lifegain trigger, 20-power board wipe |
+| Aurelia, the Warleader | Extra combat phase, untaps all your creatures |
+| Dawnsire, Sunstar Dreadnought | 100-damage ping per attack, 20/20 flyer at 20+ |
+| Sledge-Class Seedship | Cheats creatures from hand onto the battlefield on attack |
+| Fell Gravship | Mills to solve Gorgon's Kiss, recurs creatures and Spacecraft |
+| Lumen-Class Frigate | +1/+1 anthem at 2+, flying lifelink at 12+ |
+| Uthros Scanship | Card advantage, 4/4 flyer |
+| Wedgelight Rammer / Wurmwall Sweeper / Atmospheric Greenhouse | Robot tokens, filtering, and a +1/+1 counter burst |
+| Case of the Shattered Pact | Basic-land tutor, flying double strike once solved |
+| Case of the Gorgon's Kiss | 4/4 lifelink deathtouch once solved |
+| Case of the Filched Falcon | Animates Dawnsire as a 4/4 flying Bird |
+| Stroke of Midnight / Elspeth's Smite | Interaction: any nonland permanent, or 3 damage with exile |
+
+### Lands as engines
+
+| Land | Engine role |
+|---|---|
+| Adagia, Windswept Bastion | **Win-con land:** at 12+ charges, {3}{W}{T} creates a legendary copy of Dawnsire, doubling your 100-damage pings and flyers |
+| Susur Secundi, Void Altar | At 12+, {1}{B}{T} plus 2 life and a sacrifice draws cards equal to the sacrificed creature's power (Vaultborn Tyrant draws six) |
+| Kavaron, Memorial World | At 12+, {1}{R}{T} sacrificing a land creates a 2/2 Robot and gives your team +1/+0 and haste for the alpha strike |
+| Uthros, Titanic Godcore | At 12+, {U}{T} adds {U} for each artifact you control, fueling big spells |
+| Evendo, Waking Haven | At 12+, {G}{T} adds {G} for each creature you control |
+| The five Planets | Their own colors solve Case of the Shattered Pact the moment one of each is on the battlefield |
+
+### Curve and mana
+
+24 lands: 7 Planets (the five lands above), 3 tapped trilands (Opulent Palace, Nomad Outpost, Mystic Monastery), 8 duals (verges, fastlands, shocks), 6 basics. Average spell mana value is roughly 3.3. The greedy top end (Vaultborn Tyrant at seven, Dawnsire and Aurelia at five) is the point of the deck, so hands need fixing early: any two-color opener with a 2-drop is fine, but a hand with no colored source for the first three turns mulligans.
+
+## Gameplay strategy
+
+### Early game
+
+Prioritize a 2-drop: Lumen-Class Frigate (it becomes an anthem at just 2 charges), Case of the Shattered Pact (fixes mana), or Wurmwall Sweeper (surveils toward your combo). The Seriema is the best turn-3 play: it finds Aurelia against race-y decks and Amalia when you need the wipe. Do not tap creatures to Station unless you are sure they will survive; the Seriema's indestructible clause protects tapped legendaries, which makes charging with her safe.
+
+### Mid game and the combo turn
+
+Chain lifegain triggers: Vaultborn Tyrant entering (gain 3, draw), Exemplar of Light growing on every lifegain event, Fell Gravship and Gorgon's Kiss gaining life when they deal combat damage. Each trigger makes Amalia explore, growing her toward 20. When Amalia hits exactly 20 power, all other creatures are destroyed, and if the Pact is solved she attacks with flying and double strike for 40.
+
+The Dawnsire line needs only 10 charges: tap Vaultborn Tyrant (6) and The Seriema (5) on a sorcery turn, then swing with anything, or animate Dawnsire with Case of the Filched Falcon for a 4/4 flying attacker that still pings 100. Aurelia's extra combat phase untaps your team and triggers Dawnsire again; Adagia copying Dawnsire doubles both the pings and the 20/20 flyers.
+
+### Win condition #2 (spacecraft beatdown)
+
+If Amalia is answered, the ships close the game: Sledge-Class Seedship cheats Vaultborn Tyrant into play on attack, robots from Wedgelight Rammer grow under Lumen's anthem, and Kavaron's haste anthem plus Aurelia's extra combat turn any board into lethal. Dawnsire's pings remove every blocker and opposing planeswalker first.
+
+### Mulligan guide
+
+Keep: three or more lands with two colors, any 2-drop, The Seriema. Ship: one-landers, five-color hands with only tapped trilands and no 2-drop, hands with nothing but seven-drops.
+
+### Key interactions and edge cases
+
+- Station is a sorcery: you cannot charge in response to combat tricks.
+- Amalia's wipe destroys all *other* creatures, including yours; plan to keep the spacecraft (they are artifacts) and the solved Gorgon's Kiss (an enchantment) out of the blast radius.
+- The wipe puts many creature cards into graveyards, which solves Gorgon's Kiss the same turn.
+- Vaultborn Tyrant's death creates an artifact token copy; it is both Station fodder and a sacrifice for Susur Secundi.
+- Stroke of Midnight's 1/1 Human token is extra sacrifice fodder; the token also gives you a creature to tap for Station.
+- Shattered Pact solves at end step once five colors are among permanents you control; the five Planets alone satisfy it.
+
+### Matchups
+
+- **Aggro:** Elspeth's Smite exiles their attackers, Lumen's anthem stalls the ground, and lifegain outpaces their burn. Solved Gorgon's Kiss is a 4/4 lifelink wall.
+- **Midrange:** Out-grind with Vaultborn Tyrant draws and Susur Secundi's power-based card draw; Dawnsire clears their best creatures every turn.
+- **Control:** Ward on Amalia taxes their counters, Planets are lands and dodge sweepers, and the solved Pact turns any surviving creature into a flying double-striker after a wipe.
+- **Combo mirrors:** Stroke of Midnight removes their enchantments and planeswalkers; Dawnsire's 100-damage pings kill their combo creatures on sight.
+
+## Deck list (Arena import)
+
+```text
+4 The Seriema
+2 Dawnsire, Sunstar Dreadnought
+2 Amalia Benavides Aguirre
+2 Aurelia, the Warleader
+3 Vaultborn Tyrant
+2 Exemplar of Light
+2 Sledge-Class Seedship
+2 Fell Gravship
+2 Lumen-Class Frigate
+2 Uthros Scanship
+1 Wedgelight Rammer
+1 Wurmwall Sweeper
+1 Atmospheric Greenhouse
+3 Case of the Shattered Pact
+2 Case of the Gorgon's Kiss
+1 Case of the Filched Falcon
+2 Stroke of Midnight
+2 Elspeth's Smite
+2 Adagia, Windswept Bastion
+1 Uthros, Titanic Godcore
+2 Susur Secundi, Void Altar
+1 Kavaron, Memorial World
+1 Evendo, Waking Haven
+1 Opulent Palace
+1 Nomad Outpost
+1 Mystic Monastery
+1 Bleachbone Verge
+1 Gloomlake Verge
+1 Concealed Courtyard
+1 Botanical Sanctum
+1 Godless Shrine
+1 Blood Crypt
+1 Stomping Ground
+1 Temple Garden
+2 Plains
+2 Forest
+1 Island
+1 Mountain
+```
