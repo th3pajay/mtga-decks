@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-08-28**:
 
+- **[Under the Mountain](decks/2026-08-28-under-the-mountain.html)** — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck)  `hobbit` `amass`
 - **[Sunstar Vigil](decks/2026-08-28-sunstar-vigil.html)** — WUBRG | Station x Lifegain x Solved  `combo` `station` `lifegain` `solved`

@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **284** cards locked · **Hobbit 98/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **304** cards locked · **Hobbit 88/193** remaining
 
-**18 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**19 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-08-28
 
+- **[Under the Mountain](decks/2026-08-28-under-the-mountain.html)** — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck)  `hobbit` `amass`
 - **[Sunstar Vigil](decks/2026-08-28-sunstar-vigil.html)** — WUBRG | Station x Lifegain x Solved  `combo` `station` `lifegain` `solved`
 
 ## 2026-08-27

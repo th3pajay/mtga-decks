@@ -1,0 +1,162 @@
+---
+title: "Under the Mountain"
+subtitle: "Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck)"
+date: "2026-08-28"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Blue (Grixis) |
+| Archetype | Amass Goblins sacrifice-recursion engine (avg CMC 3.13) |
+| Size | 60 cards |
+| Primary win | The Army: amass triggers pile +1/+1 counters onto a single Goblin Army, Goblin-town and Goblin Plate Mail pump it, and Rogue's Passage makes it unblockable for lethal |
+| Secondary win | The Great Goblin burn: every amass trigger deals 2 damage, so spell chains, sacrifice loops, and graveyard recursion turn the engine itself into a life-total kill, backed by Down, Down to Goblin-town and Gollum the Abandoned drains |
+| Land win con | Rogue's Passage (unblockable Army), Goblin-town (repeatable +2/+2 pump on the Army), Boiling Rock Prison (sacrifice for a card) |
+
+# Overview
+
+Under the Mountain is the Goblin-town deck of The Hobbit set: the goblin horde under the Misty Mountains, amassing one Army and grinding the opponent out with it. Every card in the list feeds a single loop — put +1/+1 counters on your Goblin Army, and let The Great Goblin tax the opponent 2 life for every trigger. Amass sources are everywhere: creatures (Goblin-town Flunkies, Misty Mountains Raider, Fearsome Goblin Pair), spells (Rage into the Valley, Gathering of Darkness, Down, Down to Goblin-town), artifacts (Goblin Plate Mail), and a whole sacrifice-recursion layer that re-fires those triggers from the graveyard.
+
+The engine's spine is Rhovanion Rampager plus Azog, Moria's Ruin. The Rampager eats your other creatures to grow, and when it dies it amasses X where X is its power. Azog destroys a creature — often your own enormous Rampager — and amasses X again, drawing a card if the creature was yours. Along the Crooked Way and Gathering of Darkness pull creatures back out of the graveyard, and every creature card that leaves the graveyard amasses 1 more. Each of those triggers is 2 damage from The Great Goblin, and each death also exiles the top card of your library for you to play.
+
+The blue splash is the draw engine, not the beatdown: Uncover the Moon-Letters draws X cards for every noncreature spell (and the discards feed the recursion layer), Plunder the Trollshaws draws with flashback, and The Lord of the Eagles flashes in as a cheap 7/7 finisher, discounted by the power of your Dreaded Bat-Clouds. The lands are part of the kill: Goblin-town sacrifices itself to pump the Army, and Rogue's Passage opens the road.
+
+The set is scheduled for Arena on 2026-08-14 (arena_id is still empty in the database, so the import list works from that date).
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Goblin-town Flunkies or Bothersome Noisemaker into The Great Goblin; Rage into the Valley grows the first Army token; Goblin Plate Mail equips itself to it |
+| Turns 3-5 | Engines online: Rhovanion Rampager starts eating creatures, Along the Crooked Way recurs them (amass 1 each), Azog converts a big Rampager into a huge Army and a card; every trigger pings through The Great Goblin |
+| Turns 5-7 | The payoff turn: Fearsome Goblin Pair dies into amass 4, Bolg's Company sacs it for mana, Gathering of Darkness returns a creature and amasses 3; the Army is now lethal |
+| Late game | Win condition 2: The Great Goblin chain-burns — a turn of three or four noncreature spells (Uncover the Moon-Letters, Rage into the Valley, Plunder) with Bothersome Noisemaker out is 8-10 damage by itself; Down, Down to Goblin-town and Gollum the Abandoned drain |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| The Great Goblin | The payoff: 2 damage to target opponent for every amass trigger, and exile-the-top-card value whenever a Goblin, Orc, or Army dies |
+| Azog, Moria's Ruin | Removal and growth: destroys a creature (yours or theirs), amasses X equal to its power, draws a card if it was yours |
+| Fearsome Goblin Pair | Premium sacrifice fodder: dies into amass 4 — feed it to Bolg's Company or the Rampager |
+| Goblin-town Flunkies | Haste 1/1 that amasses 1 on entry — cheap early counter and a body to sacrifice |
+| Bothersome Noisemaker | Turns every noncreature spell into an amass 1 — the spell-chain multiplier |
+| Rhovanion Rampager | The engine: sacrifice another creature on attack to grow, then amass X equal to its power when it dies |
+| Bolg's Company | Haste and mana: {T}, sacrifice another Goblin for {B}{R} — fuels the loops (the Army counts as a Goblin) |
+| Misty Mountains Raider | Every attack amasses 2 — the Army grows while it attacks |
+| Dreaded Bat-Cloud | 4/3 flying deathtouch for {1}{B} after any death — defense and the Eagles discount |
+| Gollum the Abandoned | Repeatable drain: exiles a graveyard card and drains 2 on entry; {2} sacrifice to return to hand |
+| The Lord of the Eagles | Flash finisher: costs {X} less where X is your total flying power — two Bat-Clouds make it cost {U}{U} |
+| Rage into the Valley | Draw a card, amass 2 — the basic gas spell |
+| Along the Crooked Way | Recursion anchor: returns a creature on entry, amasses 1 whenever a creature card leaves your graveyard, and grants menace |
+| Down, Down to Goblin-town | Saga: hand disruption, amass 1, then a drain loop of 1 life per chapter |
+| Gathering of Darkness | Returns a creature card and amasses 3 in one spell |
+| Goblin Plate Mail | Amasses 1 and auto-equips to the Army: +1/+0 with menace |
+| Uncover the Moon-Letters | Draw engine: draw X (mana spent) per noncreature spell, discard 2 to fuel recursion |
+| Plunder the Trollshaws | Draw 1, flashback for draw 2 — instant-speed gas |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | {B}/{R} mana; {2}{B}{R} sacrifice for +2/+2 on any Goblin or Orc — the Army is a Goblin, so this is a repeatable land-based pump |
+| Rogue's Passage | {4}, {T}: the Army can't be blocked this turn — the land win condition |
+| Cavern of Souls | Name Goblin: your goblin spells can't be countered and it fixes any color for them |
+| Boiling Rock Prison | {B}/{R} mana; {4}, sacrifice: draw a card when the lands run out |
+| Watery Grave / Spirebluff Canal / Thundering Falls | Untapped or near-untapped blue fixing — Spirebluff is untapped early, Watery Grave on 2 life |
+| Temple of Deceit / Temple of Epiphany | Tapped fixing with scry 1 to smooth the engine draws |
+| Bloodfell Caves / Dismal Backwater / Dimir Guildgate / Rakdos Guildgate | Tapped fixing for the three-color splash |
+
+## Curve and mana
+
+22 lands, 38 nonlands. The curve tops at 2-drop: 11 (Flunkies, Bothersome, Bolg's Company, Plate Mail, Gollum, Plunder), 19 three-drops (The Great Goblin, Azog, Fearsome Goblin Pair, Rampager, Rage into the Valley, Along the Crooked Way, Down, Down to Goblin-town), then 4 four-drops (Gathering of Darkness, Uncover the Moon-Letters) and 3 five-drops (Bat-Cloud x2, Misty Mountains Raider), with the single nine-drop Eagles as the flash closer. Black is the core color (28 black pips), red supports (16), and blue is a light splash (5) — ten blue sources keep Uncover and Plunder reliable while the Eagles only ever comes down late. Ten lands enter tapped, so sequence aggressively: tapped fixing first, untapped shock/fast lands on the turns you need to cast your engine on curve.
+
+# Gameplay strategy
+
+## Early game
+
+Turns 1-2 are about assembling the pair: a goblin that amasses (Flunkies, or Bothersome Noisemaker for the spell chain) and The Great Goblin on turn 3. Any early amass creates the 0/0 Army token, so a turn-2 Flunkies into a turn-3 Great Goblin plus Rage into the Valley leaves you with a 3/3 Army, a ping of 4, and a card drawn. Do not be afraid to attack with the Army early — it is also a Goblin, so its death triggers The Great Goblin's exile-card ability.
+
+## Mid game
+
+The Rampager turns on. Attack with it, sacrifice a goblin (Flunkies, a spent Fearsome Goblin Pair, a chump), and the Rampager grows by its power. When it dies — blocking, removal, or Azog — it amasses its full power onto the Army. Azog is the elegant play: destroy your own 8/8 Rampager, amass 8, draw a card, and let The Great Goblin ping. Then Along the Crooked Way or Gathering of Darkness brings the Rampager back for another cycle, each one amassing again.
+
+## The combo turn
+
+The kill turn stacks triggers: with The Great Goblin and Bothersome Noisemaker on board, cast Uncover the Moon-Letters (draw 4, discard 2, amass 1, ping 2), then Rage into the Valley (draw, amass 2, ping 2), then Gathering of Darkness (return a creature, amass 3, ping 2) — six damage and eight counters before combat. Sacrifice the Fearsome Goblin Pair to Bolg's Company for mana (amass 4, ping 2) and replay a creature; the Army is now a 12/12 or larger. Activate Rogue's Passage and swing for lethal. If the Army is not the path, the same chain alone is the burn win: four noncreature spells is eight damage, and the drains from Down, Down to Goblin-town and Gollum the Abandoned finish the last points.
+
+## Win condition 2
+
+The Great Goblin's burn is a real alternate kill. Every amass trigger is 2 damage, so the deck does not need combat to win: Bothersome Noisemaker plus any spell chain, Fearsome Goblin Pair deaths, and the Along the Crooked Way recursion loop each re-fire the ping. Down, Down to Goblin-town's final chapters drain 1 per turn, and Gollum the Abandoned drains 2 and exiles graveyard threats every time it recurs. The Lord of the Eagles is the flying backstop — flash it in after combat to threaten lethal in the air.
+
+## Mulligan guide
+
+Keep any hand with 2-3 lands (prefer untapped or a mix), a two-drop, and a path to The Great Goblin. A hand with four tapped lands and no two-drop is a mulligan. Hands with Rampager plus a sacrifice target or Azog are premium. Rogue's Passage is fine to keep with any Army plan; Cavern of Souls is best when you need The Great Goblin to resolve against blue decks. Boiling Rock Prison and the guildgates are the weakest lands — trim them mentally when judging color fixing.
+
+## Key interactions and edge cases
+
+- The Army is a Goblin: it counts for Bolg's Company's haste condition, Bolg's Company can sacrifice it for {B}{R}, Goblin-town can pump it, and its death triggers The Great Goblin. Keep it alive unless the exchange wins the game.
+- Azog can target your own creature: destroying your own Rhovanion Rampager amasses X, draws a card, and — because it is a destruction, not a sacrifice — it works even if the opponent has no creatures.
+- Along the Crooked Way's amass fires for every creature card leaving your graveyard — including the Rampager being returned to hand, so the recursion cycle amasses twice per loop.
+- Uncover the Moon-Letters' discard is a cost, not a may: always discard creatures (or lands) to feed Along the Crooked Way and Gathering of Darkness.
+- Dreaded Bat-Cloud discounts by any death that turn — your own sacrifices count, so it is often a 1/2-mana 4/3 deathtouch flyer.
+- The Lord of the Eagles counts total flying power of creatures you control, not just your own turns — flash it during the opponent's declare-blockers step if they attack into your Bat-Clouds.
+- Gollum the Abandoned cannot block — it is a raider, not a roadblock.
+- Down, Down to Goblin-town's chapter I forces a discard; chapter III/IV drain on resolution, so the saga always chips even against removal-heavy decks.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Bat-Clouds and cheap goblins block early; Fearsome Goblin Pair trades up into amass 4; Azog removes their best attacker and grows the Army |
+| Midrange | Race the engine — the Rampager/Azog loop out-sizes anything they have; Goblin-town pump pushes through board stalls |
+| Control | Cavern of Souls names Goblin for uncounterable engines; Along the Crooked Way and Gathering of Darkness rebuild after sweepers; the Great Goblin burn wins without combat |
+| Combo | Down, Down to Goblin-town and Gollum disrupt their graveyard; the deck's clock is fast once the amass loop starts |
+
+# Deck list (Arena import)
+
+```
+Under the Mountain
+Deck
+2 Along the Crooked Way
+2 Azog, Moria's Ruin
+1 Bloodfell Caves
+1 Boiling Rock Prison
+2 Bolg's Company
+2 Bothersome Noisemaker
+1 Cavern of Souls
+1 Dimir Guildgate
+1 Dismal Backwater
+2 Down, Down to Goblin-town
+2 Dreaded Bat-Cloud
+3 Fearsome Goblin Pair
+2 Gathering of Darkness
+2 Goblin Plate Mail
+4 Goblin-town
+2 Goblin-town Flunkies
+1 Gollum the Abandoned
+2 Island
+1 Misty Mountains Raider
+2 Mountain
+2 Plunder the Trollshaws
+3 Rage into the Valley
+1 Rakdos Guildgate
+3 Rhovanion Rampager
+1 Rogue's Passage
+1 Spirebluff Canal
+2 Swamp
+1 Temple of Deceit
+1 Temple of Epiphany
+4 The Great Goblin
+1 The Lord of the Eagles
+1 Thundering Falls
+2 Uncover the Moon-Letters
+1 Watery Grave
+```
