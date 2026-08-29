@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-08-29**:
 
+- **[Storied Company](decks/2026-08-29-storied-company.html)** — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck)  `hobbit` `dwarves`
 - **[Cook the Books](decks/2026-08-29-cook-the-books.html)** — White / Black / Red / Green — Food × Forage × Discover engine  `combo` `food` `forage` `discover`

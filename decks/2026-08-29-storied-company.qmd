@@ -1,0 +1,160 @@
+---
+title: "Storied Company"
+subtitle: "Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck)"
+date: "2026-08-29"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White / Blue (Jeskai) |
+| Archetype | Storied Dwarves: legendary Dwarf core, Equipment, and Sagas (avg nonland CMC 2.7) |
+| Size | 60 cards |
+| Primary win | The Volted King: Thorin, Mountain-king or Dáin Ironfoot wearing every Equipment — Axe tokens, hone counters, double strike, and Rogue's Passage for lethal in one swing |
+| Secondary win | The Lonely Mountain swarm: the Mountain land that is the win condition — each Equipment discounts its 2/2 Dwarf tokens, Fíli's anthem and Thorin's ward turn the horde into a finisher |
+| Land win con | The Lonely Mountain (Dwarf-token army), Iron Hills (repeatable +2/+2 on a Dwarf), Rogue's Passage (unblockable finisher) |
+
+# Overview
+
+Storied Company is the Mountain-king's army from The Hobbit set: a core of legendary Dwarves that is also an artifact deck and a Saga deck at once. That triple identity is the point — the new *Storied* keyword turns on when you control three or more artifacts, legendaries, and/or Sagas, and this list lives in that state. Once the story is told, Thorin Oakenshield gives every artifact and creature ward {1}, Kíli the Resourceful equips for free, Óin the Brave has haste, and Fíli the Pathfinder pumps the board.
+
+The engine feeds on Equipment. Iron Hills Blacksmith and Dáin Ironfoot mint Axe tokens; Dwalin, Weaponmaster stacks hone counters on every piece when he enters or attacks; Kíli draws whenever another Dwarf or Equipment arrives (once per turn); and Glóin the Mighty adds {R}{R} every first main phase. The Sagas are part of the machine: Burn, Burn, Tree and Fern clears a blocker then adds {R} twice, while Roll-Roll-Roll-Roll blinks a Dwarf or land each turn to re-fire Axe and re-attach triggers. The kill is the equipment itself — Thorin, Mountain-king attaches every piece to one Dwarf and deals damage equal to its power, and Dáin gives every equipped attacker double strike.
+
+The blue splash is small but structural: Bilbo, Luckwearer is an unblockable sword-carrier who loots on hit, Great Gilded Boat recruits on attack, and Roll-Roll gives the deck its recursion trick. The lands close games: The Lonely Mountain is a Mountain that spends its mana on 2/2 Dwarf tokens — cheaper for every Equipment out — and Iron Hills and Rogue's Passage push the finisher through.
+
+The set is scheduled for Arena on 2026-08-14 (arena_id is still empty in the database, so the import list works from that date).
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: a one-drop (Bofur, Giant's Boulder) into Thorin Oakenshield, Kíli, or Iron Hills Blacksmith; a Saga (Burn, Burn, Tree and Fern or Roll-Roll-Roll-Roll) starts the story counter early |
+| Turns 3-5 | Engines online: Glóin adds {R}{R} each main phase, Dwalin hones the Equipment, Blacksmith and Dáin mint Axes, Kíli draws on every Dwarf or Equipment entry |
+| Turns 5-7 | The payoff turn: Thorin, Mountain-king attaches all Equipment to one Dwarf and deals damage equal to its power; Dáin's attack gives everything double strike; Rogue's Passage opens the road |
+| Late game | Win condition 2: with four or more Equipment out, The Lonely Mountain makes 2/2 Dwarves for {0}-{1} each; Fíli's anthem and Thorin's ward make the swarm a clock; Roll-Roll blinks protect the team |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thorin Oakenshield | The lord: trample 3/2 granting ward {1} to every artifact and creature once the story is told |
+| Kíli the Resourceful | Free-equip engine: first equip each turn costs {0}, and every Dwarf or Equipment entry draws a card |
+| Glóin the Mighty | Mana engine: adds {R}{R} at the start of each first main phase; his adventure sweeps 1 damage to all opponent creatures |
+| Dáin Ironfoot | Finisher and Axe-mint: creates an Axe on entry and gives every equipped attacker double strike |
+| Thorin, Mountain-king | The combo payoff: attaches any number of target Equipment to one creature, which then deals damage equal to its power |
+| Fíli the Pathfinder | Anthem and swarm: +1/+1 to all creatures with the story, and a 2/2 Dwarf token for every nontoken Dwarf entry |
+| Iron Hills Blacksmith | Double-striking 1/1 that creates an Equipment token on entry |
+| Dwalin, Weaponmaster | Hone counters: every Equipment grants +1/+0 extra each time he enters or attacks |
+| Óin the Brave | Haste and loot: +1/+0 and haste with the story; {1}, tap, discard to draw |
+| Bilbo, Luckwearer | Unblockable sword-carrier who loots on hit; his adventure swaps control of two permanents sharing a card type |
+| Bofur, Reliable Guardian | One-drop with lifelink; his adventure gives any artifact or creature hexproof and indestructible |
+| Iron Hills Stalwart | Reach/trample 4/5 that re-attaches an Equipment on entry — pairs with Roll-Roll for repeatable re-equips |
+| Dwarven Mattock | +2/+2 and ward {1} for a Dwarf — the core sword |
+| The Black Arrow | Flash Equipment that pings on entry (destroying Dragons) and gives +1/+1 and reach; equip {1} |
+| Giant's Boulder | Scry 2, then a mana rock; late game it sacrifices to destroy any permanent |
+| Great Gilded Boat | 4/4 vehicle that recruits on attack; crew it with Dwarf tokens |
+| Burn, Burn, Tree and Fern | Saga removal: 6 damage, artifact destruction, then two {R} — removal that ramps the combo turn |
+| Roll-Roll-Roll-Roll | Blink engine: exiles a Dwarf or land you control each turn and returns it at end step to re-fire entry triggers |
+| Old Fat Spider Can't See Me | Saga protection: hexproof, damage prevention, then card draw |
+| Settle the Wreckage | Instant-speed board wipe against the alpha strike |
+| Stone by Sunlight | Kills power-4+ threats, or turns a creature into an indestructible artifact (also counts toward Storied) |
+| Moment of Glory | Cheap counter, and a flashback anthem for the whole board |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | A Mountain that enters untapped once you control an Equipment; {4}{R} makes a 2/2 Dwarf token, discounted {1} per Equipment — the land win condition |
+| Iron Hills | {R}/{W} fixing and a repeatable {2}{R}{W} activation for +2/+2 counters on a Dwarf — pumps the voltron or the swarm |
+| Rogue's Passage | {4}, {T}: the equipped finisher can't be blocked — the land that closes games |
+| Lake-town | Tapped {W}/{U} fixing for the splash |
+| Crystal Grotto | Scry 1 on entry and {1} to filter to any color — smoothing for the three-color manabase |
+
+## Curve and mana
+
+21 lands, 39 nonlands (average nonland CMC 2.7). The deck is dense at two: 17 copies at CMC 2 (Thorin Oakenshield, Kíli, Blacksmith, Dwalin, Óin, Bilbo, Mattock, Stone by Sunlight), 8 at three (Dáin, The Black Arrow, Great Gilded Boat, both blue Sagas), 10 at four (Glóin, Thorin, Mountain-king, Fíli, Burn, Burn, Settle the Wreckage) and one five-drop (Iron Hills Stalwart). White is the core color (11 white pips among unique cards), red the engine color (9), and blue a light splash (5) — four Islands, Lake-town, and Crystal Grotto keep the splash honest. Glóin's {R}{R} and Giant's Boulder cover the color demands of the four-drops; The Lonely Mountain entering tapped early is fine because the curve plays fine on basics.
+
+# Gameplay strategy
+
+## Early game
+
+Turns 1-2: Bofur or Giant's Boulder, then a two-drop — Thorin Oakenshield is the best opener (his ward comes online the moment a second artifact, legendary, or Saga lands). Iron Hills Blacksmith and Dáin Ironfoot mint Axes that immediately turn on The Lonely Mountain's untapped clause. A turn-2 Saga also works: Burn, Burn, Tree and Fern curves into 6-damage removal on turn 3, and Roll-Roll-Roll-Roll blinks from turn 4 on.
+
+## Mid game
+
+Kíli plus any Dwarf or Equipment entry draws cards, so sequence entries to maximize the once-per-turn trigger — play Dwalin before equipping, Blacksmith before Dáin, and let Fíli turn every nontoken Dwarf into a 2/2 token. Glóin's {R}{R} each main phase means the deck routinely casts two spells a turn from turn 4. Keep one Equipment unattached against removal decks: Bofur's adventure protects the voltron creature, and Roll-Roll saves it by blinking.
+
+## The combo turn
+
+With Kíli (free first equip), Dwalin (hone counters), and two or three Axes/Mattocks on the battlefield: play Thorin, Mountain-king — he attaches every Equipment to one target Dwarf, and that creature deals damage equal to its power to up to one target creature. With Dáin Ironfoot instead, every equipped attacker gains double strike when he attacks. Add Glóin's {R}{R} plus Burn, Burn's two {R} to pay for re-equips and Rogue's Passage, and the swing is lethal: a 1/1 Blacksmith wearing Mattock, three Axes, and The Black Arrow is 11 power with double strike — 22 damage. Fíli's tokens from the Dwarf entries join the same attack.
+
+## Win condition 2
+
+The Lonely Mountain is the second kill. Each Equipment on the battlefield discounts its activation by {1}, so with five pieces (Mattock, two Black Arrows, two Axes, or more) the 2/2 Dwarf tokens cost {0}-{1} each. Fíli's +1/+1 anthem, Thorin Oakenshield's ward, and Iron Hills' counter activations turn the army into a board the opponent can't race or remove cheaply; Moment of Glory's flashback pumps everything at once. This is also the anti-removal plan — the swarm wins even after the voltron creature dies.
+
+## Mulligan guide
+
+Keep 2-3 lands with a two-drop and a path to the story (a second legendary, artifact, or Saga). Thorin Oakenshield plus any Equipment or Saga is a strong keep — the story is told on turn 2. Hands with Glóin and three lands are premium. Mulligan hands with four tapped lands and no action, or a lone three-drop. Rogue's Passage is fine to keep when Dáin or Thorin, Mountain-king is in hand.
+
+## Key interactions and edge cases
+
+- Storied counts artifacts, legendaries, and Sagas — lands like The Lonely Mountain are not artifacts, but Axe tokens, Mattock, The Black Arrow, Giant's Boulder, and Great Gilded Boat are, so the story is nearly always told. Ward {1} from Thorin and free equips from Kíli both need it.
+- Dáin Ironfoot's double strike applies to every equipped attacking creature, not just himself — the 1/1 Blacksmith swinging with the Mattock deals 6 on its own.
+- Thorin, Mountain-king's damage trigger fires only for Equipment attached "this way" — attach everything in one activation for the biggest hit.
+- Roll-Roll-Roll-Roll can blink lands too; blinking a tapped creature dodges removal, and blinking Iron Hills Stalwart re-attaches an Equipment each turn.
+- Dwalin's hone counters persist on the Equipment itself — moving the Mattock to a fresh creature keeps the bonuses.
+- Bilbo's adventure can swap a token for the opponent's best creature (both are creatures) — a steal, not just a trick.
+- Settle the Wreckage exiles everything attacking — play it after blockers are declared to also strand their pump spells.
+- The Black Arrow pings on entry with flash: it can finish a 1-toughness creature, and it destroys any Dragon it damages.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Burn, Burn, Tree and Fern and Stone by Sunlight clear threats; Bofur and the 2/2 tokens chump; ward {1} taxes their removal |
+| Midrange | Race the voltron — Dwalin plus multiple Equipment out-grows their board; Iron Hills and Moment of Glory push through stalls |
+| Control | Kíli and Glóin rebuild fast after sweepers; Roll-Roll blinks key pieces; the Lonely Mountain swarm wins through counters since it is a land ability |
+| Combo | Settle the Wreckage exiles their attackers; the equipment train is a fast clock once the story is told |
+
+# Deck list (Arena import)
+
+```
+Storied Company
+Deck
+2 Bilbo, Luckwearer
+1 Bofur, Reliable Guardian
+2 Burn, Burn, Tree and Fern
+2 Crystal Grotto
+2 Dwalin, Weaponmaster
+2 Dwarven Mattock
+2 Dáin Ironfoot
+2 Fíli the Pathfinder
+1 Giant's Boulder
+3 Glóin the Mighty
+1 Great Gilded Boat
+2 Iron Hills
+2 Iron Hills Blacksmith
+1 Iron Hills Stalwart
+4 Island
+3 Kíli the Resourceful
+1 Lake-town
+1 Moment of Glory
+4 Mountain
+1 Old Fat Spider Can't See Me
+5 Plains
+1 Rogue's Passage
+2 Roll-Roll-Roll-Roll
+1 Settle the Wreckage
+1 Stone by Sunlight
+2 The Black Arrow
+2 The Lonely Mountain
+4 Thorin Oakenshield
+2 Thorin, Mountain-king
+1 Óin the Brave
+```
