@@ -1,0 +1,154 @@
+---
+title: "Cook the Books"
+subtitle: "White / Black / Red / Green — Food × Forage × Discover engine"
+date: "2026-08-29"
+categories: ["combo", "food", "forage", "discover"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Black / Red / Green (4-color) |
+| Archetype | Food-forage-discover engine (avg CMC 2.79) |
+| Size | 60 cards |
+| Primary win | Discover chains: Buried Treasure exiles itself from the graveyard for Discover 5, Caparocti Sunborn discovers 3 on every attack, the Hidden cave lands sacrifice for Discover 4, and Curator of Sun's Creation doubles every discover. Every spell cast from exile makes Quintorius Kand deal 2 damage to each opponent and gain you 2 life, so a chain of two or three discovers is 6-8 damage plus free threats |
+| Secondary win | Food swarm: Experimental Confectioner rats, Camellia squirrels, Tough Cookie animating Food tokens into 4/4s, Ygra growing +2/+2 per Food death, and Night of the Sweets' Revenge turning the whole board into an overrun — Sweettooth Witch and Skirmish Rhino drain along the way |
+| Land win con | Restless Cottage attacks as a 4/4 and creates a Food while exiling a graveyard card; Hidden Volcano / Hidden Necropolis / Hidden Nursery sacrifice themselves for Discover 4; Tecutlan (the back of Brass's Tunnel-Grinder) triggers a discover whenever you cast a permanent with its mana |
+
+# Overview
+
+Cook the Books runs the oldest kitchen racket in Standard: it turns dinner scraps into mana, cards, creatures, and eventually a cooked opponent. The engine has three layers that feed each other. Forage — exile three cards from your graveyard or sacrifice a Food — is the pantry: Thornvault Forager forages for two mana, Curious Forager forages a permanent back to hand, Feed the Cycle forages into a destroy effect, and Camellia forages to pump her squirrels. Every Food you make or sacrifice fuels those forage costs. Food is the inventory: Vinereap Mentor, Sweettooth Witch, Experimental Confectioner, Greta and Tough Cookie all produce tokens, and the tokens are artifacts you can spend anywhere — on Sweettooth Witch's drain, Greta's draw, Confectioner's rats, Candy Grapple's bargain, or Back for Seconds' reanimation. Discover is the payoff: the top of your library becomes a second hand.
+
+The combo turn stacks the layers. With Curator of Sun's Creation on the battlefield, one Buried Treasure activation (exile it from the graveyard for Discover 5) finds two free spells instead of one. Each discovered spell cast from exile pings through Quintorius Kand. Caparocti Sunborn attacks, taps two Foods or creatures, and discovers 3 — doubled. A Hidden cave sacrifices for Discover 4 — doubled. Quintorius's ultimate exiles your whole graveyard for red mana and plays everything, each cast pinging. Meanwhile the food board grows sideways: rats and squirrels churn out, Tough Cookie re-animates Food tokens as 4/4s, Ygra makes every creature on the battlefield a Food (so every death grows her), and Night of the Sweets' Revenge lets the Foods tap for green mana, then pumps the whole swarm with +X/+X.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Pantry: Thornvault Forager ramps, Vinereap Mentor or Tough Cookie makes the first Food, Buried Treasure fixes mana, Sweettooth Witch or Confectioner starts the drain/rat engine |
+| Turns 3-5 | Engines online: Greta and Brass's Tunnel-Grinder churn through cards, Curious Forager and Back for Seconds recycle the graveyard, Ygra or Curator of Sun's Creation lands as the force multiplier |
+| Turns 5-7 | The combo turn: Buried Treasure from the graveyard discovers 5, Curator doubles it, Caparocti discovers on attack, Quintorius pings for every exile cast and minus-3 discovers again; the Hidden caves add sorcery-speed discover 4 on demand |
+| Late game | Win condition 2: Night of the Sweets' Revenge overrun, 4/4 animated Foods, a huge Ygra, Restless Cottage beats, and Sweettooth Witch draining 2 per Food sacrifice |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Buried Treasure | The discover engine: an artifact Treasure for fixing that exiles itself from the graveyard for Discover 5 at sorcery speed |
+| Caparocti Sunborn | Repeatable discover: attacks, taps two untapped artifacts/creatures (Foods work), discovers 3 |
+| Quintorius Kand | The payoff: 2 damage per spell cast from exile, plus Discover 4 at minus-3 and a graveyard-exiling ultimate that plays the whole yard for red mana |
+| Curator of Sun's Creation | Doubles the first discover each turn — the chain multiplier |
+| Thornvault Forager | Forage mana dork: taps for green, or forages for two mana of any colors; searches up a Squirrel at {3}{G} |
+| Feed the Cycle | Forage removal: destroy a creature or planeswalker by sacrificing a Food instead of paying black |
+| Curious Forager | Forage recursion: on entry, forages to return any permanent card from the graveyard to hand |
+| Camellia, the Seedmiser | Squirrel factory: sacrificing Foods makes 1/1 Squirrels, and {2} forage pumps them |
+| Sweettooth Witch | Repeatable drain: {2} and a Food for 2 damage to any player — the clock |
+| Experimental Confectioner | Rat engine: every Food sacrificed makes a 1/1 Rat |
+| Greta, Sweettooth Scourge | Draw engine: {1}{B} and a Food draws a card; {G} and a Food pumps a creature |
+| Vinereap Mentor | Cheap Food on entry and on death |
+| Tough Cookie | Food Golem that creates a Food and animates any noncreature artifact into a 4/4 — Food tokens become attackers |
+| Ygra, Eater of All | Food-matters bomb: every other creature is a Food, and every Food that dies puts two +1/+1 counters on her |
+| Skirmish Rhino | Trample and a 2-life swing on entry; a great Discover 3-5 hit |
+| Brass's Tunnel-Grinder | Rummage for gas; after three descends (sacrificed Foods, lands, dead creatures) it transforms into Tecutlan, a land whose mana triggers discover |
+| Night of the Sweets' Revenge | Foods tap for green mana and the enchantment overruns the board for +X/+X where X is your Food count |
+| Candy Grapple | Bargain removal: -3/-3, or -5/-5 if you sacrifice an artifact (a Food) |
+| Abrade | 3 damage or destroy an artifact — Ygra makes enemy creatures artifacts |
+| Back for Seconds | Bargain recursion: return two creature cards, or put one with mana value 4 or less onto the battlefield |
+| The Witch's Vanity | Saga removal that makes a Food and a Wicked Role |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Cottage | The land win condition: {2}{B}{G} turns it into a 4/4 Horror that creates a Food on attack and exiles a graveyard card — forage fuel that attacks |
+| Hidden Volcano / Hidden Necropolis / Hidden Nursery | Cave lands that sacrifice themselves for Discover 4 — the discover engine lives in the mana base |
+| Tecutlan, the Searing Rift | Brass's Tunnel-Grinder's back face: casting any permanent with its red mana triggers discover equal to that spell's mana value |
+| Wastewood Verge / Thornspire Verge / Blazemire Verge / Sundown Pass | Untapped two-color fixing once a basic of either color is out |
+| Evolving Wilds / Fabled Passage | Fixing that also puts a land card in the graveyard — every sacrificed fetch is a descend and forage fuel |
+
+## Curve and mana
+
+22 lands, 38 nonlands, no true one-drops: eighteen 2-drops (Vinereap Mentor, Thornvault Forager, Tough Cookie, Buried Treasure, Candy Grapple, Feed the Cycle, Abrade, Brass's Tunnel-Grinder, The Witch's Vanity), thirteen 3-drops (Sweettooth Witch, Confectioner, Greta, Camellia, Curious Forager, Skirmish Rhino, Night of the Sweets' Revenge, Back for Seconds), four 4-drops (Caparocti Sunborn x2, Curator of Sun's Creation x2) and three 5-drops (Quintorius Kand x2, Ygra). Black is the core color (25 pips), green next (21), with red (7) and white (5) as support. Eleven green sources, ten black, eight red and six white keep the splash workable; sequence tapped lands first and hold the verges for the turns you need untapped mana.
+
+# Gameplay strategy
+
+## Early game
+
+Curve a Food maker into the engine. Thornvault Forager ramps from turn 2, Vinereap Mentor and Tough Cookie leave a Food behind whether they live or die, and Buried Treasure fixes any color while it waits in the graveyard. Against aggressive decks, spend the first Foods on Candy Grapple and Feed the Cycle — sacrificing a token keeps your mana open. The Witch's Vanity answers a cheap threat, makes a Food, then a Wicked Role. Do not sacrifice fetch lands unless you need the color: their trip to the graveyard is descend for Brass's Tunnel-Grinder and fodder for forage.
+
+## Mid game
+
+Greta turns extra Foods into cards. Brass's Tunnel-Grinder rummages through dead draws, and each sacrificed artifact, land, or dead creature ticks it toward transformation. Sweettooth Witch and Experimental Confectioner make every Food either 2 damage or a 1/1 Rat, so the board widens while the life total erodes. Curious Forager and Back for Seconds pull the important pieces back. Ygra is the mid-game haymaker: she makes every creature a Food, so Sweettooth Witch can sacrifice anything, Confectioner rats off any death, and she collects two +1/+1 counters per corpse.
+
+## The combo turn
+
+With Quintorius Kand and Curator of Sun's Creation in play, the deck goes off: exile Buried Treasure from the graveyard for Discover 5, cast the discovered spell for free, Curator discovers 5 again, and every cast from exile deals 2. A Hidden cave adds Discover 4 at sorcery speed, doubled. Caparocti Sunborn attacking with two Foods tapped discovers 3, doubled. Quintorius's minus-3 discovers 4, and his ultimate exiles the entire graveyard — often six to eight cards — adding that much red mana to play them all this turn, each one pinging. A typical five-mana combo turn is 8-12 damage plus several free permanents.
+
+## Win condition 2
+
+If the discover chain fizzles, the food swarm closes: Night of the Sweets' Revenge makes every Food a green mana source, Tough Cookie animates two or three Foods into 4/4s, Confectioner and Camellia flood the board with Rats and Squirrels, and the enchantment's {5}{G}{G} activation gives everything +X/+X where X is your Food count. Restless Cottage joins as a 4/4, Skirmish Rhino drains on entry, and Sweettooth Witch keeps picking off the life total with every sacrifice.
+
+## Mulligan guide
+
+Keep any hand with two to three lands, a colored source for each of your first two spells, and at least one Food maker, forage dork, or Buried Treasure. Hands with only tapped lands and no two-drop are borderline — the deck wants to be acting by turn 2. Buried Treasure plus any forage outlet (Thornvault Forager, Camellia, Feed the Cycle) is a premium keep: it fixes and becomes the discover engine. Mulligan hands with no black or green source, since the engine lives in those colors.
+
+## Key interactions and edge cases
+
+- Forage lets you sacrifice a Food instead of exiling three graveyard cards. Usually sacrifice the Food: keep the graveyard stocked for Buried Treasure, Curious Forager, and Quintorius's ultimate.
+- Descend counts any permanent card entering your graveyard — sacrificed Foods, lands, dead creatures, milled cards. Brass's Tunnel-Grinder transforms after three.
+- Under Night of the Sweets' Revenge, tap a Food for green mana first, then animate it with Tough Cookie — the animation does not untap it.
+- Discover casts the card without paying its mana cost, which triggers Quintorius. Curator of Sun's Creation doubles only the first discover each turn, so sequence your best discover first.
+- The Hidden caves activate only as a sorcery and sacrifice themselves — use them when you need gas, not as land drops you plan to keep.
+- Ygra makes your opponent's creatures Foods too; they can sacrifice their own for 3 life. The upside is that Abrade and Tough Cookie's animating ability now hit enemy creatures as artifacts, and every enemy death still grows Ygra.
+- Candy Grapple's bargain and Feed the Cycle's forage cost are optional — pay them when a Food token is expendable, otherwise pay mana.
+
+## Matchups
+
+Aggro: Candy Grapple, Feed the Cycle, Abrade and The Witch's Vanity hold the ground while Food life gain keeps you alive; Tough Cookie's 4/4s block profitably. Control: discover chains overwhelm one-for-one answers, because the discovered spells never cost mana and Quintorius's triggers accumulate; hold Buried Treasure activations for after a sweeper. Midrange: Ygra and Curator out-grind; Camellia and Confectioner keep the board wide enough that a single removal spell rarely matters.
+
+# Deck list (Arena import)
+
+```
+Cook the Books
+Deck
+2 Vinereap Mentor
+2 Thornvault Forager
+3 Sweettooth Witch
+2 Experimental Confectioner
+2 Greta, Sweettooth Scourge
+1 Camellia, the Seedmiser
+2 Caparocti Sunborn
+2 Tough Cookie
+1 Curious Forager
+1 Ygra, Eater of All
+1 Skirmish Rhino
+2 Curator of Sun's Creation
+2 Quintorius Kand
+3 Buried Treasure
+2 Brass's Tunnel-Grinder
+2 Night of the Sweets' Revenge
+1 The Witch's Vanity
+3 Candy Grapple
+2 Feed the Cycle
+1 Abrade
+1 Back for Seconds
+2 Restless Cottage
+2 Wastewood Verge
+2 Thornspire Verge
+2 Blazemire Verge
+2 Sundown Pass
+1 Evolving Wilds
+1 Fabled Passage
+1 Hidden Volcano
+1 Hidden Necropolis
+1 Hidden Nursery
+2 Forest
+2 Swamp
+1 Mountain
+2 Plains
+```
