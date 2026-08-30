@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-08-29:\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
+    "text": "Deck guides published 2026-08-30:\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -385,459 +385,88 @@
     "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nAttercop, Little Bear, and Cottage hold the ground; Head of the Hunt converts every dead attacker into Wolves\n\n\nMidrange\nRace the engine — Radagast chains and Dancing counters outsize their creatures; Mirkwood pumps push through\n\n\nControl\nCavern of Souls names Bear and Beorn’s trample counters fight through sweepers; Part in Friendship rebuilds after a wipe\n\n\nCombo\nRiddles in the Dark finds interaction; Warg Tactics hexproofs the finisher; the pack’s clock is fast once Beorn lands"
   },
   {
-    "objectID": "decks/2026-08-29-storied-company.html",
-    "href": "decks/2026-08-29-storied-company.html",
-    "title": "Storied Company",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html",
+    "href": "decks/2026-08-21-kindle-the-archive.html",
+    "title": "Kindle the Archive",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nRed / White / Blue (Jeskai)\n\n\nArchetype\nStoried Dwarves: legendary Dwarf core, Equipment, and Sagas (avg nonland CMC 2.7)\n\n\nSize\n60 cards\n\n\nPrimary win\nThe Volted King: Thorin, Mountain-king or Dáin Ironfoot wearing every Equipment — Axe tokens, hone counters, double strike, and Rogue’s Passage for lethal in one swing\n\n\nSecondary win\nThe Lonely Mountain swarm: the Mountain land that is the win condition — each Equipment discounts its 2/2 Dwarf tokens, Fíli’s anthem and Thorin’s ward turn the horde into a finisher\n\n\nLand win con\nThe Lonely Mountain (Dwarf-token army), Iron Hills (repeatable +2/+2 on a Dwarf), Rogue’s Passage (unblockable finisher)"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nFive-color — white / blue / black / red / green\n\n\nArchetype\nCombo-control (flashback burn)\n\n\nSize\n60 cards, 24 lands\n\n\nCore engine\nIroh, Grand Lotus + surveilled burn with flashback\n\n\nPrimary win\nIroh flashback loop: repeat Burst Lightning / Traumatic Critique while Fire Lord Azula attacks and copies every spell\n\n\nSecondary win\nVivid beatdown: Squawkroaster double strike plus Self-Destruct fireballs\n\n\nNonland curve\n2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus"
   },
   {
-    "objectID": "decks/2026-08-29-storied-company.html#game-plan-phases",
-    "href": "decks/2026-08-29-storied-company.html#game-plan-phases",
-    "title": "Storied Company",
-    "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop: a one-drop (Bofur, Giant’s Boulder) into Thorin Oakenshield, Kíli, or Iron Hills Blacksmith; a Saga (Burn, Burn, Tree and Fern or Roll-Roll-Roll-Roll) starts the story counter early\n\n\nTurns 3-5\nEngines online: Glóin adds {R}{R} each main phase, Dwalin hones the Equipment, Blacksmith and Dáin mint Axes, Kíli draws on every Dwarf or Equipment entry\n\n\nTurns 5-7\nThe payoff turn: Thorin, Mountain-king attaches all Equipment to one Dwarf and deals damage equal to its power; Dáin’s attack gives everything double strike; Rogue’s Passage opens the road\n\n\nLate game\nWin condition 2: with four or more Equipment out, The Lonely Mountain makes 2/2 Dwarves for {0}-{1} each; Fíli’s anthem and Thorin’s ward make the swarm a clock; Roll-Roll blinks protect the team"
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#card-roles",
-    "href": "decks/2026-08-29-storied-company.html#card-roles",
-    "title": "Storied Company",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThorin Oakenshield\nThe lord: trample 3/2 granting ward {1} to every artifact and creature once the story is told\n\n\nKíli the Resourceful\nFree-equip engine: first equip each turn costs {0}, and every Dwarf or Equipment entry draws a card\n\n\nGlóin the Mighty\nMana engine: adds {R}{R} at the start of each first main phase; his adventure sweeps 1 damage to all opponent creatures\n\n\nDáin Ironfoot\nFinisher and Axe-mint: creates an Axe on entry and gives every equipped attacker double strike\n\n\nThorin, Mountain-king\nThe combo payoff: attaches any number of target Equipment to one creature, which then deals damage equal to its power\n\n\nFíli the Pathfinder\nAnthem and swarm: +1/+1 to all creatures with the story, and a 2/2 Dwarf token for every nontoken Dwarf entry\n\n\nIron Hills Blacksmith\nDouble-striking 1/1 that creates an Equipment token on entry\n\n\nDwalin, Weaponmaster\nHone counters: every Equipment grants +1/+0 extra each time he enters or attacks\n\n\nÓin the Brave\nHaste and loot: +1/+0 and haste with the story; {1}, tap, discard to draw\n\n\nBilbo, Luckwearer\nUnblockable sword-carrier who loots on hit; his adventure swaps control of two permanents sharing a card type\n\n\nBofur, Reliable Guardian\nOne-drop with lifelink; his adventure gives any artifact or creature hexproof and indestructible\n\n\nIron Hills Stalwart\nReach/trample 4/5 that re-attaches an Equipment on entry — pairs with Roll-Roll for repeatable re-equips\n\n\nDwarven Mattock\n+2/+2 and ward {1} for a Dwarf — the core sword\n\n\nThe Black Arrow\nFlash Equipment that pings on entry (destroying Dragons) and gives +1/+1 and reach; equip {1}\n\n\nGiant’s Boulder\nScry 2, then a mana rock; late game it sacrifices to destroy any permanent\n\n\nGreat Gilded Boat\n4/4 vehicle that recruits on attack; crew it with Dwarf tokens\n\n\nBurn, Burn, Tree and Fern\nSaga removal: 6 damage, artifact destruction, then two {R} — removal that ramps the combo turn\n\n\nRoll-Roll-Roll-Roll\nBlink engine: exiles a Dwarf or land you control each turn and returns it at end step to re-fire entry triggers\n\n\nOld Fat Spider Can’t See Me\nSaga protection: hexproof, damage prevention, then card draw\n\n\nSettle the Wreckage\nInstant-speed board wipe against the alpha strike\n\n\nStone by Sunlight\nKills power-4+ threats, or turns a creature into an indestructible artifact (also counts toward Storied)\n\n\nMoment of Glory\nCheap counter, and a flashback anthem for the whole board"
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#lands-as-engines",
-    "href": "decks/2026-08-29-storied-company.html#lands-as-engines",
-    "title": "Storied Company",
-    "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that enters untapped once you control an Equipment; {4}{R} makes a 2/2 Dwarf token, discounted {1} per Equipment — the land win condition\n\n\nIron Hills\n{R}/{W} fixing and a repeatable {2}{R}{W} activation for +2/+2 counters on a Dwarf — pumps the voltron or the swarm\n\n\nRogue’s Passage\n{4}, {T}: the equipped finisher can’t be blocked — the land that closes games\n\n\nLake-town\nTapped {W}/{U} fixing for the splash\n\n\nCrystal Grotto\nScry 1 on entry and {1} to filter to any color — smoothing for the three-color manabase"
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#curve-and-mana",
-    "href": "decks/2026-08-29-storied-company.html#curve-and-mana",
-    "title": "Storied Company",
-    "section": "Curve and mana",
-    "text": "Curve and mana\n21 lands, 39 nonlands (average nonland CMC 2.7). The deck is dense at two: 17 copies at CMC 2 (Thorin Oakenshield, Kíli, Blacksmith, Dwalin, Óin, Bilbo, Mattock, Stone by Sunlight), 8 at three (Dáin, The Black Arrow, Great Gilded Boat, both blue Sagas), 10 at four (Glóin, Thorin, Mountain-king, Fíli, Burn, Burn, Settle the Wreckage) and one five-drop (Iron Hills Stalwart). White is the core color (11 white pips among unique cards), red the engine color (9), and blue a light splash (5) — four Islands, Lake-town, and Crystal Grotto keep the splash honest. Glóin’s {R}{R} and Giant’s Boulder cover the color demands of the four-drops; The Lonely Mountain entering tapped early is fine because the curve plays fine on basics."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#early-game",
-    "href": "decks/2026-08-29-storied-company.html#early-game",
-    "title": "Storied Company",
-    "section": "Early game",
-    "text": "Early game\nTurns 1-2: Bofur or Giant’s Boulder, then a two-drop — Thorin Oakenshield is the best opener (his ward comes online the moment a second artifact, legendary, or Saga lands). Iron Hills Blacksmith and Dáin Ironfoot mint Axes that immediately turn on The Lonely Mountain’s untapped clause. A turn-2 Saga also works: Burn, Burn, Tree and Fern curves into 6-damage removal on turn 3, and Roll-Roll-Roll-Roll blinks from turn 4 on."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#mid-game",
-    "href": "decks/2026-08-29-storied-company.html#mid-game",
-    "title": "Storied Company",
-    "section": "Mid game",
-    "text": "Mid game\nKíli plus any Dwarf or Equipment entry draws cards, so sequence entries to maximize the once-per-turn trigger — play Dwalin before equipping, Blacksmith before Dáin, and let Fíli turn every nontoken Dwarf into a 2/2 token. Glóin’s {R}{R} each main phase means the deck routinely casts two spells a turn from turn 4. Keep one Equipment unattached against removal decks: Bofur’s adventure protects the voltron creature, and Roll-Roll saves it by blinking."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#the-combo-turn",
-    "href": "decks/2026-08-29-storied-company.html#the-combo-turn",
-    "title": "Storied Company",
-    "section": "The combo turn",
-    "text": "The combo turn\nWith Kíli (free first equip), Dwalin (hone counters), and two or three Axes/Mattocks on the battlefield: play Thorin, Mountain-king — he attaches every Equipment to one target Dwarf, and that creature deals damage equal to its power to up to one target creature. With Dáin Ironfoot instead, every equipped attacker gains double strike when he attacks. Add Glóin’s {R}{R} plus Burn, Burn’s two {R} to pay for re-equips and Rogue’s Passage, and the swing is lethal: a 1/1 Blacksmith wearing Mattock, three Axes, and The Black Arrow is 11 power with double strike — 22 damage. Fíli’s tokens from the Dwarf entries join the same attack."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#win-condition-2",
-    "href": "decks/2026-08-29-storied-company.html#win-condition-2",
-    "title": "Storied Company",
-    "section": "Win condition 2",
-    "text": "Win condition 2\nThe Lonely Mountain is the second kill. Each Equipment on the battlefield discounts its activation by {1}, so with five pieces (Mattock, two Black Arrows, two Axes, or more) the 2/2 Dwarf tokens cost {0}-{1} each. Fíli’s +1/+1 anthem, Thorin Oakenshield’s ward, and Iron Hills’ counter activations turn the army into a board the opponent can’t race or remove cheaply; Moment of Glory’s flashback pumps everything at once. This is also the anti-removal plan — the swarm wins even after the voltron creature dies."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#mulligan-guide",
-    "href": "decks/2026-08-29-storied-company.html#mulligan-guide",
-    "title": "Storied Company",
-    "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep 2-3 lands with a two-drop and a path to the story (a second legendary, artifact, or Saga). Thorin Oakenshield plus any Equipment or Saga is a strong keep — the story is told on turn 2. Hands with Glóin and three lands are premium. Mulligan hands with four tapped lands and no action, or a lone three-drop. Rogue’s Passage is fine to keep when Dáin or Thorin, Mountain-king is in hand."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-29-storied-company.html#key-interactions-and-edge-cases",
-    "title": "Storied Company",
-    "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nStoried counts artifacts, legendaries, and Sagas — lands like The Lonely Mountain are not artifacts, but Axe tokens, Mattock, The Black Arrow, Giant’s Boulder, and Great Gilded Boat are, so the story is nearly always told. Ward {1} from Thorin and free equips from Kíli both need it.\nDáin Ironfoot’s double strike applies to every equipped attacking creature, not just himself — the 1/1 Blacksmith swinging with the Mattock deals 6 on its own.\nThorin, Mountain-king’s damage trigger fires only for Equipment attached “this way” — attach everything in one activation for the biggest hit.\nRoll-Roll-Roll-Roll can blink lands too; blinking a tapped creature dodges removal, and blinking Iron Hills Stalwart re-attaches an Equipment each turn.\nDwalin’s hone counters persist on the Equipment itself — moving the Mattock to a fresh creature keeps the bonuses.\nBilbo’s adventure can swap a token for the opponent’s best creature (both are creatures) — a steal, not just a trick.\nSettle the Wreckage exiles everything attacking — play it after blockers are declared to also strand their pump spells.\nThe Black Arrow pings on entry with flash: it can finish a 1-toughness creature, and it destroys any Dragon it damages."
-  },
-  {
-    "objectID": "decks/2026-08-29-storied-company.html#matchups",
-    "href": "decks/2026-08-29-storied-company.html#matchups",
-    "title": "Storied Company",
-    "section": "Matchups",
-    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nBurn, Burn, Tree and Fern and Stone by Sunlight clear threats; Bofur and the 2/2 tokens chump; ward {1} taxes their removal\n\n\nMidrange\nRace the voltron — Dwalin plus multiple Equipment out-grows their board; Iron Hills and Moment of Glory push through stalls\n\n\nControl\nKíli and Glóin rebuild fast after sweepers; Roll-Roll blinks key pieces; the Lonely Mountain swarm wins through counters since it is a land ability\n\n\nCombo\nSettle the Wreckage exiles their attackers; the equipment train is a fast clock once the story is told"
-  },
-  {
-    "objectID": "decks/2026-08-28-sunstar-vigil.html",
-    "href": "decks/2026-08-28-sunstar-vigil.html",
-    "title": "Sunstar Vigil",
-    "section": "",
-    "text": "Format\nStandard (Best-of-1)\n\n\nColors\nWUBRG (five-color)\n\n\nArchetype\nMidrange combo\n\n\nSize\n60 cards (24 lands)\n\n\nPrimary win\nAmalia Benavides Aguirre reaches exactly 20 power, wipes all other creatures, swings for lethal with flying double strike\n\n\nSecondary win\nDawnsire, Sunstar Dreadnought charges to 10+, deals 100 damage to a blocker or planeswalker every attack, then becomes a 20/20 flyer; Aurelia’s extra combats double the pings"
-  },
-  {
-    "objectID": "decks/2026-08-28-sunstar-vigil.html#at-a-glance",
-    "href": "decks/2026-08-28-sunstar-vigil.html#at-a-glance",
-    "title": "Sunstar Vigil",
-    "section": "",
-    "text": "Format\nStandard (Best-of-1)\n\n\nColors\nWUBRG (five-color)\n\n\nArchetype\nMidrange combo\n\n\nSize\n60 cards (24 lands)\n\n\nPrimary win\nAmalia Benavides Aguirre reaches exactly 20 power, wipes all other creatures, swings for lethal with flying double strike\n\n\nSecondary win\nDawnsire, Sunstar Dreadnought charges to 10+, deals 100 damage to a blocker or planeswalker every attack, then becomes a 20/20 flyer; Aurelia’s extra combats double the pings"
-  },
-  {
-    "objectID": "decks/2026-08-28-sunstar-vigil.html#overview",
-    "href": "decks/2026-08-28-sunstar-vigil.html#overview",
-    "title": "Sunstar Vigil",
-    "section": "Overview",
-    "text": "Overview\nSunstar Vigil fuses three build-around mechanics into one engine. Station (the Edge of Eternities mechanic) lets you tap a creature to put charge counters equal to its power on a Spacecraft or Planet, unlocking thresholds that turn your artifacts and lands into flying, lifelink, damage-dealing machines. Lifegain is the fuel: every life you gain powers Amalia’s explores, Exemplar of Light’s counters, and keeps you alive while your ships charge. Solved (the Case mechanic) provides the payoff layer: Case of the Shattered Pact solves off the five planets’ colors alone and turns any attacker into a flying double-striker, while Case of the Gorgon’s Kiss solves off your own milling and deaths into a 4/4 lifelink deathtouch creature.\nEvery card feeds the loop: high-power creatures (Vaultborn Tyrant, The Seriema) both gain life and charge Station; spacecraft draw cards and recur each other; the Planets are lands that become engines at 12+ charges, including the deck’s win-condition land, Adagia."
-  },
-  {
-    "objectID": "decks/2026-08-28-sunstar-vigil.html#approach",
-    "href": "decks/2026-08-28-sunstar-vigil.html#approach",
-    "title": "Sunstar Vigil",
-    "section": "Approach",
-    "text": "Approach\n\nGame plan phases\n\nEarly (turns 1-3): Develop a Planet or triland, drop a cheap Spacecraft (Lumen-Class Frigate, Wurmwall Sweeper, Sledge-Class Seedship) or a Case. Case of the Shattered Pact tutors a basic to fix your five-color mana. The Seriema on turn 3 tutors Aurelia or Amalia, your two finishers.\nMid (turns 4-6): Resolve Vaultborn Tyrant (gain 3, draw a card, 6-power Station fuel) or Exemplar of Light. Start charging: tap your fatties as a sorcery to put counters on Spacecraft and Planets. Fell Gravship mills three (solving Gorgon’s Kiss) and returns a creature or Spacecraft to hand.\nThe combo turn: Charge Dawnsire to 10+ (one tap of Vaultborn plus The Seriema is 11), then attack: Dawnsire deals 100 damage to a blocker or planeswalker every combat. Amalia at 20 power destroys all other creatures, then attacks as a 20/20 with flying and double strike from the solved Pact. Aurelia adds a second combat phase, and Adagia at 12+ charges copies Dawnsire for double pings.\n\n\n\nCard roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThe Seriema\nTutor (Aurelia, Amalia), 5/5 Station fuel, makes tapped legendaries indestructible\n\n\nVaultborn Tyrant\nLifegain and draw engine, 6-power Station fuel, death token recurs\n\n\nExemplar of Light\nLifegain payoff: counters and cards\n\n\nAmalia Benavides Aguirre\nExplore on every lifegain trigger, 20-power board wipe\n\n\nAurelia, the Warleader\nExtra combat phase, untaps all your creatures\n\n\nDawnsire, Sunstar Dreadnought\n100-damage ping per attack, 20/20 flyer at 20+\n\n\nSledge-Class Seedship\nCheats creatures from hand onto the battlefield on attack\n\n\nFell Gravship\nMills to solve Gorgon’s Kiss, recurs creatures and Spacecraft\n\n\nLumen-Class Frigate\n+1/+1 anthem at 2+, flying lifelink at 12+\n\n\nUthros Scanship\nCard advantage, 4/4 flyer\n\n\nWedgelight Rammer / Wurmwall Sweeper / Atmospheric Greenhouse\nRobot tokens, filtering, and a +1/+1 counter burst\n\n\nCase of the Shattered Pact\nBasic-land tutor, flying double strike once solved\n\n\nCase of the Gorgon’s Kiss\n4/4 lifelink deathtouch once solved\n\n\nCase of the Filched Falcon\nAnimates Dawnsire as a 4/4 flying Bird\n\n\nStroke of Midnight / Elspeth’s Smite\nInteraction: any nonland permanent, or 3 damage with exile\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine role\n\n\n\n\nAdagia, Windswept Bastion\nWin-con land: at 12+ charges, {3}{W}{T} creates a legendary copy of Dawnsire, doubling your 100-damage pings and flyers\n\n\nSusur Secundi, Void Altar\nAt 12+, {1}{B}{T} plus 2 life and a sacrifice draws cards equal to the sacrificed creature’s power (Vaultborn Tyrant draws six)\n\n\nKavaron, Memorial World\nAt 12+, {1}{R}{T} sacrificing a land creates a 2/2 Robot and gives your team +1/+0 and haste for the alpha strike\n\n\nUthros, Titanic Godcore\nAt 12+, {U}{T} adds {U} for each artifact you control, fueling big spells\n\n\nEvendo, Waking Haven\nAt 12+, {G}{T} adds {G} for each creature you control\n\n\nThe five Planets\nTheir own colors solve Case of the Shattered Pact the moment one of each is on the battlefield\n\n\n\n\n\nCurve and mana\n24 lands: 7 Planets (the five lands above), 3 tapped trilands (Opulent Palace, Nomad Outpost, Mystic Monastery), 8 duals (verges, fastlands, shocks), 6 basics. Average spell mana value is roughly 3.3. The greedy top end (Vaultborn Tyrant at seven, Dawnsire and Aurelia at five) is the point of the deck, so hands need fixing early: any two-color opener with a 2-drop is fine, but a hand with no colored source for the first three turns mulligans."
-  },
-  {
-    "objectID": "decks/2026-08-28-sunstar-vigil.html#gameplay-strategy",
-    "href": "decks/2026-08-28-sunstar-vigil.html#gameplay-strategy",
-    "title": "Sunstar Vigil",
-    "section": "Gameplay strategy",
-    "text": "Gameplay strategy\n\nEarly game\nPrioritize a 2-drop: Lumen-Class Frigate (it becomes an anthem at just 2 charges), Case of the Shattered Pact (fixes mana), or Wurmwall Sweeper (surveils toward your combo). The Seriema is the best turn-3 play: it finds Aurelia against race-y decks and Amalia when you need the wipe. Do not tap creatures to Station unless you are sure they will survive; the Seriema’s indestructible clause protects tapped legendaries, which makes charging with her safe.\n\n\nMid game and the combo turn\nChain lifegain triggers: Vaultborn Tyrant entering (gain 3, draw), Exemplar of Light growing on every lifegain event, Fell Gravship and Gorgon’s Kiss gaining life when they deal combat damage. Each trigger makes Amalia explore, growing her toward 20. When Amalia hits exactly 20 power, all other creatures are destroyed, and if the Pact is solved she attacks with flying and double strike for 40.\nThe Dawnsire line needs only 10 charges: tap Vaultborn Tyrant (6) and The Seriema (5) on a sorcery turn, then swing with anything, or animate Dawnsire with Case of the Filched Falcon for a 4/4 flying attacker that still pings 100. Aurelia’s extra combat phase untaps your team and triggers Dawnsire again; Adagia copying Dawnsire doubles both the pings and the 20/20 flyers.\n\n\nWin condition #2 (spacecraft beatdown)\nIf Amalia is answered, the ships close the game: Sledge-Class Seedship cheats Vaultborn Tyrant into play on attack, robots from Wedgelight Rammer grow under Lumen’s anthem, and Kavaron’s haste anthem plus Aurelia’s extra combat turn any board into lethal. Dawnsire’s pings remove every blocker and opposing planeswalker first.\n\n\nMulligan guide\nKeep: three or more lands with two colors, any 2-drop, The Seriema. Ship: one-landers, five-color hands with only tapped trilands and no 2-drop, hands with nothing but seven-drops.\n\n\nKey interactions and edge cases\n\nStation is a sorcery: you cannot charge in response to combat tricks.\nAmalia’s wipe destroys all other creatures, including yours; plan to keep the spacecraft (they are artifacts) and the solved Gorgon’s Kiss (an enchantment) out of the blast radius.\nThe wipe puts many creature cards into graveyards, which solves Gorgon’s Kiss the same turn.\nVaultborn Tyrant’s death creates an artifact token copy; it is both Station fodder and a sacrifice for Susur Secundi.\nStroke of Midnight’s 1/1 Human token is extra sacrifice fodder; the token also gives you a creature to tap for Station.\nShattered Pact solves at end step once five colors are among permanents you control; the five Planets alone satisfy it.\n\n\n\nMatchups\n\nAggro: Elspeth’s Smite exiles their attackers, Lumen’s anthem stalls the ground, and lifegain outpaces their burn. Solved Gorgon’s Kiss is a 4/4 lifelink wall.\nMidrange: Out-grind with Vaultborn Tyrant draws and Susur Secundi’s power-based card draw; Dawnsire clears their best creatures every turn.\nControl: Ward on Amalia taxes their counters, Planets are lands and dodge sweepers, and the solved Pact turns any surviving creature into a flying double-striker after a wipe.\nCombo mirrors: Stroke of Midnight removes their enchantments and planeswalkers; Dawnsire’s 100-damage pings kill their combo creatures on sight."
-  },
-  {
-    "objectID": "decks/2026-08-28-sunstar-vigil.html#deck-list-arena-import",
-    "href": "decks/2026-08-28-sunstar-vigil.html#deck-list-arena-import",
-    "title": "Sunstar Vigil",
-    "section": "Deck list (Arena import)",
-    "text": "Deck list (Arena import)\n4 The Seriema\n2 Dawnsire, Sunstar Dreadnought\n2 Amalia Benavides Aguirre\n2 Aurelia, the Warleader\n3 Vaultborn Tyrant\n2 Exemplar of Light\n2 Sledge-Class Seedship\n2 Fell Gravship\n2 Lumen-Class Frigate\n2 Uthros Scanship\n1 Wedgelight Rammer\n1 Wurmwall Sweeper\n1 Atmospheric Greenhouse\n3 Case of the Shattered Pact\n2 Case of the Gorgon's Kiss\n1 Case of the Filched Falcon\n2 Stroke of Midnight\n2 Elspeth's Smite\n2 Adagia, Windswept Bastion\n1 Uthros, Titanic Godcore\n2 Susur Secundi, Void Altar\n1 Kavaron, Memorial World\n1 Evendo, Waking Haven\n1 Opulent Palace\n1 Nomad Outpost\n1 Mystic Monastery\n1 Bleachbone Verge\n1 Gloomlake Verge\n1 Concealed Courtyard\n1 Botanical Sanctum\n1 Godless Shrine\n1 Blood Crypt\n1 Stomping Ground\n1 Temple Garden\n2 Plains\n2 Forest\n1 Island\n1 Mountain"
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html",
-    "href": "decks/2026-08-26-wing-and-coin.html",
-    "title": "Wing and Coin",
-    "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlack / Red / White\n\n\nArchetype\nSmaug dragon x treasure combo (avg CMC 3.08)\n\n\nSize\n60 cards\n\n\nPrimary win\nSmaug the Magnificent burn: treasures make his attack trigger deal N damage to any target, and he has flying and haste — one swing with a full hoard is 10+ to the face\n\n\nSecondary win\nLake-town mill: The Master of Lake-town mills a player for every point of life they lose, so every Smaug trigger and combat hit mills the opponent out\n\n\nLand win con\nThe Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper per Equipment) plus Restless Fortress (draining creature-land)"
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
-    "href": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
-    "title": "Wing and Coin",
-    "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop the hoard: Sackville-Bagginses, Gleaming Splendor, Last Light, Dori, or the Grey Dog; Stir Up Trouble and Deadly Slice hold the board\n\n\nTurns 3-5\nEngines online: The Misty Mountains Cold makes a Treasure every chapter and pops a 6/6 Dragon; Smaug, Wicked Worm enters for a burst of tapped gold\n\n\nTurns 5-7\nThe combo turn: Smaug the Magnificent lands with a hoard behind him; Desolation clears non-Dragons and pays for the next dragon\n\n\nLate game\nWin condition 2: The Master of Lake-town turns every Smaug trigger into mill; Were-Worm’s extra combat doubles the burn"
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#card-roles",
-    "href": "decks/2026-08-26-wing-and-coin.html#card-roles",
-    "title": "Wing and Coin",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nThe engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count\n\n\nSmaug, Wicked Worm\nTreasure burst on entry (one per artifact the opponent controls) and card draw whenever you cast with Treasure mana\n\n\nThe Misty Mountains Cold\nSaga that makes a Treasure on every chapter and sacrifices itself into a 6/6 flying Dragon when the hoard hits four\n\n\nGleaming Splendor\nRepeatable Treasure: triggers on the opponent’s second draw, and its own {2}{W} activation forces that draw\n\n\nLast Light of Durin’s Day\nMountain quest: at six Mountain-entries it tutors any Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nOne-sided board wipe (3 damage to each non-Dragon) that adds four mana for your next Dragon spell\n\n\nDesert Were-Worm\nGrows +2/+0 per Mountain; at 12+ attacking power it grants an extra combat — Smaug burns twice\n\n\nDori, Bearer of Friends\nCheap legendary Dwarf that makes a Treasure on entry\n\n\nThe Sackville-Bagginses\nTurns spare artifacts and creatures into cards and Treasures, and pings on every token sacrifice\n\n\nThe Master of Lake-town\nWin condition 2: every point of life lost mills that many cards\n\n\nLong-Bodied Grey Dog\nFlash 2/2 with reach that makes a tapped Treasure — instant-speed hoard development\n\n\nBilbo’s Deadly Slice\nClean {1}{B}{B} removal\n\n\nStir Up Trouble\nOne-mana removal that happily eats a Treasure as its cost\n\n\nPinecone Strike\nFlexible burn that exiles dying creatures and destroys artifact tokens\n\n\nBilbo’s Gambit\nBounces a spell and, when gifted, locks both players out of casting — the Treasure gift feeds Wicked Worm later\n\n\nThe Eagles Are Coming!\nFlickers your dragons to re-trigger Wicked Worm and Dori, then refunds 4/4 flying Birds\n\n\nInside Information\nX-cost mill and theft: exile the top X of the opponent’s library and play their own spells\n\n\nThe Arkenstone\nAnthem and end-step draw; its adventure Seek the Heart tutors any legendary — usually Smaug himself\n\n\nCrude Bent Blade\nRemoval on entry, then an Equipment that discounts The Lonely Mountain\n\n\nSting, Bilbo’s Sword\nFlash Equipment with hone counters; keeps The Lonely Mountain untapped and cheap\n\n\nThrór’s Map\nFetches a basic (a Mountain for the quest) and loots away late-game flood"
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
-    "href": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
-    "title": "Wing and Coin",
-    "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that makes 2/2 red Dwarf tokens for {4}{R}, {1} cheaper per Equipment — the win-con land\n\n\nHobbit Hole\nSacrifices itself to put a basic onto the battlefield tapped — an extra Mountain for the Last Light quest\n\n\nRestless Fortress\nBlack-white mana that becomes a 1/4 Nightmare and drains 2 life when it attacks — life loss also feeds the Lake-town mill\n\n\nRazortrap Gorge\nBlack-red fixing that enters untapped once a player is at 13 or less life\n\n\nTemples and fast lands\nSundown Pass, Inspiring Vantage, and the Temples keep the three-color mana stable"
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
-    "href": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
-    "title": "Wing and Coin",
-    "section": "Curve and mana",
-    "text": "Curve and mana\n24 lands: 4 The Lonely Mountain, 2 Hobbit Hole, 2 Sundown Pass, 1 Elegant Parlor, 2 Inspiring Vantage, 2 Temple of Malice, 1 Temple of Triumph, 1 Temple of Silence, 1 Restless Fortress, 1 Razortrap Gorge, 2 Mountain, 5 Swamp. Red sources 15, black 10, white 8 — red is the workhorse, white a light splash.\nNonland curve: 1-drop x2, 2-drop x13, 3-drop x11, 4-drop x4, 5-drop x3, 6-drop x2, 7-drop x1. Average CMC 3.08. The deck wants a Treasure maker on turn 2, a saga or Dori on turn 3, and Smaug the Magnificent on turn 4-5 with a hoard already forming."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#early-game",
-    "href": "decks/2026-08-26-wing-and-coin.html#early-game",
-    "title": "Wing and Coin",
-    "section": "Early game",
-    "text": "Early game\nTurn 1 is Stir Up Trouble (holding up {B} to eat a Treasure and kill a threat) or a tapped Temple. Turn 2: The Sackville-Bagginses, Gleaming Splendor, Last Light, or removal. Sequence tapped lands first — Temples, Elegant Parlor, and Restless Fortress enter tapped, so keep Sundown Pass and Inspiring Vantage for the turns you need untapped red. Fetching a Mountain with Hobbit Hole also advances the Last Light quest."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#mid-game",
-    "href": "decks/2026-08-26-wing-and-coin.html#mid-game",
-    "title": "Wing and Coin",
-    "section": "Mid game",
-    "text": "Mid game\nResolve The Misty Mountains Cold and let the chapters stack Treasures; it turns itself into a 6/6 Dragon at four tokens. Smaug, Wicked Worm is the mid-game haymaker: against artifact decks it enters with four or five tapped Treasures, and every spell cast from that gold draws a card. Gleaming Splendor turns the opponent’s card draw into more gold, and its {2}{W} mode makes two players draw — forcing the trigger and cantripping you at once."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
-    "href": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
-    "title": "Wing and Coin",
-    "section": "The combo turn",
-    "text": "The combo turn\n\nAccumulate a hoard: four to eight Treasures from the saga, Splendor, Wicked Worm, Dori, and the Grey Dog.\nCast Smaug the Magnificent ({2}{R}{R}, haste, flying). If the board is crowded, Desolation of Smaug first — it deals 3 to every non-Dragon and its four mana can pay for Smaug himself.\nAttack: Smaug’s trigger deals damage equal to your Treasure count to any target — face, planeswalker, or blocker — plus his 4 combat damage.\nRepeat: every upkeep makes another Treasure, so each swing is bigger. With Desert Were-Worm (growing off every Mountain) attacking alongside, 12+ total power grants an extra combat and Smaug’s burn fires twice.\n\nA typical kill: six Treasures and Smaug attacking alone is 10 damage; the next turn is 11, and the turn after that is 12. Wicked Worm’s draw-on-Treasure-cast keeps the hand full through the sequence."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
-    "href": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
-    "title": "Wing and Coin",
-    "section": "Win condition 2",
-    "text": "Win condition 2\nThe Master of Lake-town turns the same engine into mill. Every point of life an opponent loses — Smaug’s attack trigger, his combat damage, Restless Fortress’s drain — mills that many cards off the top; a 6-Treasure Smaug swing mills 10. Inside Information finishes: with a hoard of Treasures paying any color, X = 10 or more exiles a huge chunk of the library outright, and the exiled cards are playable (paying life instead of mana, which conveniently mills more). The Arkenstone’s adventure tutors either Smaug or the Master, whichever the board needs. Backup: The Lonely Mountain’s Dwarf tokens, the saga’s 6/6 Dragon, and Restless Fortress beats."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
-    "href": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
-    "title": "Wing and Coin",
-    "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep: two to three lands with a Treasure maker or removal — Sackville-Bagginses, Gleaming Splendor, Dori, or Stir Up Trouble openers are strong; any hand with The Misty Mountains Cold or Smaug, Wicked Worm plus interaction is excellent. Mulligan one-land hands and hands with five or more lands and no engine. White is a splash: a hand with only red and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
-    "title": "Wing and Coin",
-    "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nSmaug the Magnificent’s attack trigger targets — it can hit creatures and planeswalkers as well as the opponent; point it at a blocker and Smaug’s own combat damage still connects.\nThe Misty Mountains Cold checks “four or more Treasures” after each chapter — with Gleaming Splendor and the Grey Dog it can pop its Dragon as early as chapter II.\nSmaug, Wicked Worm counts artifacts the opponent controls at entry — Bilbo’s Gambit’s gifted Treasure feeds it, so hold Wicked Worm for when they have an artifact board.\nLast Light of Durin’s Day counts Mountains entering, not lands — fetch Mountains specifically with Hobbit Hole and Thrór’s Map; The Lonely Mountain is a Mountain.\nDesert Were-Worm’s extra combat triggers “the first time each turn” you attack with 12+ total power — attack with it and Smaug together so both get the second combat. Gleaming Splendor’s {2}{W} targets two players: choose an opponent and yourself to force the Treasure trigger and draw your own card."
-  },
-  {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#matchups",
-    "href": "decks/2026-08-26-wing-and-coin.html#matchups",
-    "title": "Wing and Coin",
-    "section": "Matchups",
-    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nRemoval holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed\n\n\nMidrange\nRace the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons\n\n\nControl\nBilbo’s Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw\n\n\nCombo\nMill is the fastest clock: Master of Lake-town plus Smaug’s trigger mills 10+ per turn; Inside Information exiles their pieces"
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Card pool consumption — cycle started 2026-08-22 · 343 cards locked · Hobbit 77/193 remaining\n21 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-08-29",
-    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-08-28",
-    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-08-27",
-    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
-  },
-  {
-    "objectID": "archive.html#section-3",
-    "href": "archive.html#section-3",
-    "title": "Archive",
-    "section": "2026-08-26",
-    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
-  },
-  {
-    "objectID": "archive.html#section-4",
-    "href": "archive.html#section-4",
-    "title": "Archive",
-    "section": "2026-08-25",
-    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-5",
-    "href": "archive.html#section-5",
-    "title": "Archive",
-    "section": "2026-08-24",
-    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
-  },
-  {
-    "objectID": "archive.html#section-6",
-    "href": "archive.html#section-6",
-    "title": "Archive",
-    "section": "2026-08-23",
-    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
-  },
-  {
-    "objectID": "archive.html#section-7",
-    "href": "archive.html#section-7",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-8",
-    "href": "archive.html#section-8",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-9",
-    "href": "archive.html#section-9",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
-  },
-  {
-    "objectID": "decks/2026-08-25-swarm-calculus.html",
-    "href": "decks/2026-08-25-swarm-calculus.html",
-    "title": "Swarm Calculus",
-    "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
-  },
-  {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
+    "title": "Kindle the Archive",
     "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+    "text": "Game plan in three phases\n\nBuild the archive (turns 1–3): surveil with Gorehound, Glarb, Risky Research, and the surveil lands. Let burn spells hit the graveyard naturally or through Traumatic Critique’s “draw two, discard one”. Keep the board with early burn and Prismari Charm.\nLight the flame (turns 4–6): resolve Iroh, Grand Lotus. Attack with Firebending creatures (Fire Lord Azula, Sun Warriors, Iroh himself) to stockpile red mana. Cast flashback burn from the yard — Azula copies it while she attacks.\nBurn the library down: loop the flashback chain each turn, escalate with Firebender Ascension (copying Azula’s copy trigger), Sozin's Comet (firebending 5 on every creature), and Ozai (unspent mana becomes red). Shimmercreep and Explosive Prodigy add on-entry damage; Vivid beatdown closes games where burn stalls."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
+    "href": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
+    "title": "Kindle the Archive",
     "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nIroh, Grand Lotus\n4\nEngine — grants flashback to instants, sorceries, and Lessons in your graveyard during your turn; Firebending 2\n\n\nFire Lord Azula\n3\nEngine — copies every spell you cast while attacking; Firebending 2\n\n\nFirebending Lesson\n4\nCombo piece — Lesson removal with kicker; flashback {1} under Iroh\n\n\nBurst Lightning\n4\nCombo piece — 2 damage any target, kicker for 4; flashback {R} under Iroh\n\n\nTraumatic Critique\n2\nCombo piece — X damage any target plus draw two, discard one (feeds the archive)\n\n\nGlarb, Calamity’s Augur\n2\nEnabler — tap to surveil 2; casts MV 4+ spells from the top of the library\n\n\nSnarling Gorehound\n2\nEnabler — surveil 1 whenever a small creature enters\n\n\nRisky Research\n2\nDig — surveil 2, draw two\n\n\nPrismari Charm\n1\nFlex — surveil 2 draw 1, or ping, or bounce\n\n\nUnsubtle Mockery\n1\nFusion — 4 damage to a creature plus surveil 1\n\n\nSquawkroaster\n2\nWin con 2 — double strike, power equals number of colors among permanents\n\n\nGlister Bairn\n1\nPump — +X/+X on another creature each combat\n\n\nBloom Tender\n1\nMana — adds one of each color among permanents\n\n\nShimmercreep\n1\nDrain — each opponent loses X life on entry, you gain X\n\n\nExplosive Prodigy\n1\nRemoval — X damage to a creature on entry\n\n\nSun Warriors\n1\nMana engine — Firebending X, where X is your creature count\n\n\nSozin’s Comet\n1\nAnthem — all creatures gain firebending 5; foretell\n\n\nFirebender Ascension\n1\nMultiplier — copies attacking-triggered abilities at four quest counters\n\n\nOzai, the Phoenix King\n1\nFinisher — unspent mana becomes red; flying and indestructible at 6+ unspent mana\n\n\nSelf-Destruct\n1\nFireball — a creature deals damage equal to its power to any target"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
+    "href": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
+    "title": "Kindle the Archive",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nFire Nation Palace\nWin-con land — grants firebending 4 to any attacker; Iroh or Azula then generates 6 red mana per attack, funding the flashback loop\n\n\nSuburban Sanctuary\nSurveil fixing — green or white, then surveil 1 for {4}\n\n\nParadox Gardens\nSurveil fixing — green or blue, then surveil 1\n\n\nKishla Village\nSurveil 2 for {3}{G}; enters untapped off Island or Swamp\n\n\nJasmine Dragon Tea Shop\nAny-color mana for Ally spells (Iroh and Sun Warriors); makes Ally tokens late\n\n\nHidden Courtyard\nWhite source that becomes Discover 4 when sacrificed\n\n\nMirage Mesa\nTapped any-color source — the Vivid manabase’s backbone\n\n\nSubterranean Cavern\nBlack-green with a point of life"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
+    "href": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
+    "title": "Kindle the Archive",
     "section": "Curve and mana",
-    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+    "text": "Curve and mana\n24 lands: 18 nonbasic fixing/utility lands plus 7 basics (2 Forest, 2 Swamp, 1 Island, 1 Mountain, 1 Plains). The manabase is the deck’s Vivid engine — five colors among permanents means every Vivid X equals 5, so fixing lands are payoff lands. Mirage Mesa and Jasmine Dragon Tea Shop (for the Ally engine) smooth the five-color demands; Bloom Tender and Training Compound accelerate into Iroh on turn 4.\nThe nonland curve is 2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus — an average mana value under 3. The deck plays most of its burn at one or two mana and leans on Iroh (5) and Ozai (6) as the top end."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
+    "href": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
+    "title": "Kindle the Archive",
     "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+    "text": "Early game (turns 1–3)\n\nTurn 1: Snarling Gorehound (every subsequent small creature surveils 1) or Burst Lightning for an early blocker. Surveil aggressively — the graveyard is the deck’s second hand.\nTurn 2: Glarb, Calamity’s Augur (tap to surveil 2, and it casts your four- and five-drops from the top), Risky Research (surveil 2, draw two), or burn. Explosive Prodigy on turn 2 deals 3-4 damage to a creature and adds red to the color count.\nHold Prismari Charm or Unsubtle Mockery for the turn-2/3 threat. Discard lands or redundant burn to Traumatic Critique’s loot — the archive wants them."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
+    "href": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
+    "title": "Kindle the Archive",
     "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+    "text": "Mid game (turns 4–6)\n\nResolve Iroh, Grand Lotus as the priority. With Glarb out, cast it from the top of the library. With Bloom Tender or a five-color board, it comes down on turn 4.\nOnce Iroh is down, the flashback suite is live: Burst Lightning for {R}, Firebending Lesson for {1}, Traumatic Critique for {X}{U}{R}. Attack with Firebending creatures first, generate red, then cast during combat while the mana is available.\nFire Lord Azula attacks with firebending 2, and every spell cast while she attacks is copied — a kicked Burst Lightning becomes 8 damage. Protect her with removal and Prismari Charm bounce.\nFirebender Ascension accumulates quest counters every time an attacking creature triggers (Azula’s copy trigger, every Firebending trigger). At four counters it copies those abilities — Azula’s trigger copies twice, Firebending mana doubles."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
+    "href": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
+    "title": "Kindle the Archive",
     "section": "The combo turn",
-    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+    "text": "The combo turn\n\nConfirm Iroh is on the battlefield and the archive holds at least two or three burn spells (surveil lands, Glarb, and Traumatic Critique’s loot keep it stocked).\nEnter combat. Attack with Fire Lord Azula and Iroh (firebending 2 each), ideally with Sozin's Comet cast first (firebending 5 on everything) or Fire Nation Palace activated ({1}{R}, {T}) to grant firebending 4 — an Iroh with both printed firebending 2 and the Palace’s firebending 4 generates 6 red mana per attack.\nWith the combat mana banked, cast from the graveyard: Burst Lightning, Firebending Lesson, Traumatic Critique with X as high as the mana allows. Azula copies each spell; with Firebender Ascension at four quest counters, the copy trigger itself is copied.\nRepeat each turn. Shimmercreep and Explosive Prodigy add on-entry damage, Ozai turns leftover mana red and becomes an indestructible flyer at six-plus unspent mana, and the loop outpaces any removal that isn’t graveyard hate."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "title": "Swarm Calculus",
-    "section": "Win condition 2: the ETB burn loop",
-    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "href": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
+    "title": "Kindle the Archive",
+    "section": "Win condition 2: the Vivid beatdown",
+    "text": "Win condition 2: the Vivid beatdown\nBurn is plan A; the board is plan B. Squawkroaster is a double striker whose power equals the number of colors among permanents you control — 5 or more in this deck, so it attacks as a 5/5 double strike minimum. Glister Bairn makes it +X/+X bigger every combat, and Prismabasher-style team pumps come from the same Vivid scaling. Self-Destruct turns a pumped Squawkroaster into a one-shot fireball (it deals damage equal to its power to any target), and Ozai — trample, haste, firebending 4, flying and indestructible at six-plus unspent mana — closes the game alone. Shimmercreep’s life drain also wins without ever attacking."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
+    "href": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
+    "title": "Kindle the Archive",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+    "text": "Mulligan guide\n\nKeep: 2–3 lands covering red plus one other color, a surveil source (Glarb, Gorehound, Risky Research) or early burn, and a path to Iroh by turn 5.\nTrim: 5+ land hands, single-color hands, and hands with only the top end (Ozai, Sozin’s Comet, multiple Traumatic Critiques) and no early play.\nThe deck is happy to trade card quantity for quality: Traumatic Critique, Glarb, and the surveil lands all convert surplus cards into archive fuel."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
+    "title": "Kindle the Archive",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+    "text": "Key interactions and edge cases\n\nMultiple Firebending instances stack. A creature with firebending 2 (Iroh) that gains firebending 4 from Fire Nation Palace triggers twice: 6 red mana per attack. Sozin’s Comet on top makes it 9.\nFirebending mana lasts until end of combat — cast the flashback burn during the declare-attackers step while the mana is available. Iroh’s flashback works any time during your turn.\nIroh’s flashback is only during your turn, and each cast exiles the card after resolution — the loop is per-turn, not infinite. Multiple copies of a burn spell in the yard extend the chain.\nFirebender Ascension copies attacking-creature triggered abilities — Azula’s spell-copy trigger and every Firebending mana trigger qualify. It does not copy static abilities.\nTraumatic Critique’s loot is a feature: discarding burn into the archive sets up next turn’s flashback chain.\nGlarb casts MV 4+ spells from the top — Iroh, Ozai, Squawkroaster, and Shimmercreep all qualify; surveil first to put the right card on top.\nOzai’s mana conversion means unspent Firebending red, treasure from Flick a Coin-style effects, and other colors all become red, letting one combat’s mana cast any mix of flashback spells.\nGraveyard hate is the deck’s Achilles heel — versus heavy exile, pivot to the Vivid beatdown plan (Squawkroaster, Ozai) and stop over-investing in the archive."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-08-21-kindle-the-archive.html#matchups",
+    "href": "decks/2026-08-21-kindle-the-archive.html#matchups",
+    "title": "Kindle the Archive",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html",
-    "href": "decks/2026-08-29-cook-the-books.html",
-    "title": "Cook the Books",
-    "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nWhite / Black / Red / Green (4-color)\n\n\nArchetype\nFood-forage-discover engine (avg CMC 2.79)\n\n\nSize\n60 cards\n\n\nPrimary win\nDiscover chains: Buried Treasure exiles itself from the graveyard for Discover 5, Caparocti Sunborn discovers 3 on every attack, the Hidden cave lands sacrifice for Discover 4, and Curator of Sun’s Creation doubles every discover. Every spell cast from exile makes Quintorius Kand deal 2 damage to each opponent and gain you 2 life, so a chain of two or three discovers is 6-8 damage plus free threats\n\n\nSecondary win\nFood swarm: Experimental Confectioner rats, Camellia squirrels, Tough Cookie animating Food tokens into 4/4s, Ygra growing +2/+2 per Food death, and Night of the Sweets’ Revenge turning the whole board into an overrun — Sweettooth Witch and Skirmish Rhino drain along the way\n\n\nLand win con\nRestless Cottage attacks as a 4/4 and creates a Food while exiling a graveyard card; Hidden Volcano / Hidden Necropolis / Hidden Nursery sacrifice themselves for Discover 4; Tecutlan (the back of Brass’s Tunnel-Grinder) triggers a discover whenever you cast a permanent with its mana"
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#game-plan-phases",
-    "href": "decks/2026-08-29-cook-the-books.html#game-plan-phases",
-    "title": "Cook the Books",
-    "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nPantry: Thornvault Forager ramps, Vinereap Mentor or Tough Cookie makes the first Food, Buried Treasure fixes mana, Sweettooth Witch or Confectioner starts the drain/rat engine\n\n\nTurns 3-5\nEngines online: Greta and Brass’s Tunnel-Grinder churn through cards, Curious Forager and Back for Seconds recycle the graveyard, Ygra or Curator of Sun’s Creation lands as the force multiplier\n\n\nTurns 5-7\nThe combo turn: Buried Treasure from the graveyard discovers 5, Curator doubles it, Caparocti discovers on attack, Quintorius pings for every exile cast and minus-3 discovers again; the Hidden caves add sorcery-speed discover 4 on demand\n\n\nLate game\nWin condition 2: Night of the Sweets’ Revenge overrun, 4/4 animated Foods, a huge Ygra, Restless Cottage beats, and Sweettooth Witch draining 2 per Food sacrifice"
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#card-roles",
-    "href": "decks/2026-08-29-cook-the-books.html#card-roles",
-    "title": "Cook the Books",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nBuried Treasure\nThe discover engine: an artifact Treasure for fixing that exiles itself from the graveyard for Discover 5 at sorcery speed\n\n\nCaparocti Sunborn\nRepeatable discover: attacks, taps two untapped artifacts/creatures (Foods work), discovers 3\n\n\nQuintorius Kand\nThe payoff: 2 damage per spell cast from exile, plus Discover 4 at minus-3 and a graveyard-exiling ultimate that plays the whole yard for red mana\n\n\nCurator of Sun’s Creation\nDoubles the first discover each turn — the chain multiplier\n\n\nThornvault Forager\nForage mana dork: taps for green, or forages for two mana of any colors; searches up a Squirrel at {3}{G}\n\n\nFeed the Cycle\nForage removal: destroy a creature or planeswalker by sacrificing a Food instead of paying black\n\n\nCurious Forager\nForage recursion: on entry, forages to return any permanent card from the graveyard to hand\n\n\nCamellia, the Seedmiser\nSquirrel factory: sacrificing Foods makes 1/1 Squirrels, and {2} forage pumps them\n\n\nSweettooth Witch\nRepeatable drain: {2} and a Food for 2 damage to any player — the clock\n\n\nExperimental Confectioner\nRat engine: every Food sacrificed makes a 1/1 Rat\n\n\nGreta, Sweettooth Scourge\nDraw engine: {1}{B} and a Food draws a card; {G} and a Food pumps a creature\n\n\nVinereap Mentor\nCheap Food on entry and on death\n\n\nTough Cookie\nFood Golem that creates a Food and animates any noncreature artifact into a 4/4 — Food tokens become attackers\n\n\nYgra, Eater of All\nFood-matters bomb: every other creature is a Food, and every Food that dies puts two +1/+1 counters on her\n\n\nSkirmish Rhino\nTrample and a 2-life swing on entry; a great Discover 3-5 hit\n\n\nBrass’s Tunnel-Grinder\nRummage for gas; after three descends (sacrificed Foods, lands, dead creatures) it transforms into Tecutlan, a land whose mana triggers discover\n\n\nNight of the Sweets’ Revenge\nFoods tap for green mana and the enchantment overruns the board for +X/+X where X is your Food count\n\n\nCandy Grapple\nBargain removal: -3/-3, or -5/-5 if you sacrifice an artifact (a Food)\n\n\nAbrade\n3 damage or destroy an artifact — Ygra makes enemy creatures artifacts\n\n\nBack for Seconds\nBargain recursion: return two creature cards, or put one with mana value 4 or less onto the battlefield\n\n\nThe Witch’s Vanity\nSaga removal that makes a Food and a Wicked Role"
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#lands-as-engines",
-    "href": "decks/2026-08-29-cook-the-books.html#lands-as-engines",
-    "title": "Cook the Books",
-    "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nRestless Cottage\nThe land win condition: {2}{B}{G} turns it into a 4/4 Horror that creates a Food on attack and exiles a graveyard card — forage fuel that attacks\n\n\nHidden Volcano / Hidden Necropolis / Hidden Nursery\nCave lands that sacrifice themselves for Discover 4 — the discover engine lives in the mana base\n\n\nTecutlan, the Searing Rift\nBrass’s Tunnel-Grinder’s back face: casting any permanent with its red mana triggers discover equal to that spell’s mana value\n\n\nWastewood Verge / Thornspire Verge / Blazemire Verge / Sundown Pass\nUntapped two-color fixing once a basic of either color is out\n\n\nEvolving Wilds / Fabled Passage\nFixing that also puts a land card in the graveyard — every sacrificed fetch is a descend and forage fuel"
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#curve-and-mana",
-    "href": "decks/2026-08-29-cook-the-books.html#curve-and-mana",
-    "title": "Cook the Books",
-    "section": "Curve and mana",
-    "text": "Curve and mana\n22 lands, 38 nonlands, no true one-drops: eighteen 2-drops (Vinereap Mentor, Thornvault Forager, Tough Cookie, Buried Treasure, Candy Grapple, Feed the Cycle, Abrade, Brass’s Tunnel-Grinder, The Witch’s Vanity), thirteen 3-drops (Sweettooth Witch, Confectioner, Greta, Camellia, Curious Forager, Skirmish Rhino, Night of the Sweets’ Revenge, Back for Seconds), four 4-drops (Caparocti Sunborn x2, Curator of Sun’s Creation x2) and three 5-drops (Quintorius Kand x2, Ygra). Black is the core color (25 pips), green next (21), with red (7) and white (5) as support. Eleven green sources, ten black, eight red and six white keep the splash workable; sequence tapped lands first and hold the verges for the turns you need untapped mana."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#early-game",
-    "href": "decks/2026-08-29-cook-the-books.html#early-game",
-    "title": "Cook the Books",
-    "section": "Early game",
-    "text": "Early game\nCurve a Food maker into the engine. Thornvault Forager ramps from turn 2, Vinereap Mentor and Tough Cookie leave a Food behind whether they live or die, and Buried Treasure fixes any color while it waits in the graveyard. Against aggressive decks, spend the first Foods on Candy Grapple and Feed the Cycle — sacrificing a token keeps your mana open. The Witch’s Vanity answers a cheap threat, makes a Food, then a Wicked Role. Do not sacrifice fetch lands unless you need the color: their trip to the graveyard is descend for Brass’s Tunnel-Grinder and fodder for forage."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#mid-game",
-    "href": "decks/2026-08-29-cook-the-books.html#mid-game",
-    "title": "Cook the Books",
-    "section": "Mid game",
-    "text": "Mid game\nGreta turns extra Foods into cards. Brass’s Tunnel-Grinder rummages through dead draws, and each sacrificed artifact, land, or dead creature ticks it toward transformation. Sweettooth Witch and Experimental Confectioner make every Food either 2 damage or a 1/1 Rat, so the board widens while the life total erodes. Curious Forager and Back for Seconds pull the important pieces back. Ygra is the mid-game haymaker: she makes every creature a Food, so Sweettooth Witch can sacrifice anything, Confectioner rats off any death, and she collects two +1/+1 counters per corpse."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#the-combo-turn",
-    "href": "decks/2026-08-29-cook-the-books.html#the-combo-turn",
-    "title": "Cook the Books",
-    "section": "The combo turn",
-    "text": "The combo turn\nWith Quintorius Kand and Curator of Sun’s Creation in play, the deck goes off: exile Buried Treasure from the graveyard for Discover 5, cast the discovered spell for free, Curator discovers 5 again, and every cast from exile deals 2. A Hidden cave adds Discover 4 at sorcery speed, doubled. Caparocti Sunborn attacking with two Foods tapped discovers 3, doubled. Quintorius’s minus-3 discovers 4, and his ultimate exiles the entire graveyard — often six to eight cards — adding that much red mana to play them all this turn, each one pinging. A typical five-mana combo turn is 8-12 damage plus several free permanents."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#win-condition-2",
-    "href": "decks/2026-08-29-cook-the-books.html#win-condition-2",
-    "title": "Cook the Books",
-    "section": "Win condition 2",
-    "text": "Win condition 2\nIf the discover chain fizzles, the food swarm closes: Night of the Sweets’ Revenge makes every Food a green mana source, Tough Cookie animates two or three Foods into 4/4s, Confectioner and Camellia flood the board with Rats and Squirrels, and the enchantment’s {5}{G}{G} activation gives everything +X/+X where X is your Food count. Restless Cottage joins as a 4/4, Skirmish Rhino drains on entry, and Sweettooth Witch keeps picking off the life total with every sacrifice."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#mulligan-guide",
-    "href": "decks/2026-08-29-cook-the-books.html#mulligan-guide",
-    "title": "Cook the Books",
-    "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep any hand with two to three lands, a colored source for each of your first two spells, and at least one Food maker, forage dork, or Buried Treasure. Hands with only tapped lands and no two-drop are borderline — the deck wants to be acting by turn 2. Buried Treasure plus any forage outlet (Thornvault Forager, Camellia, Feed the Cycle) is a premium keep: it fixes and becomes the discover engine. Mulligan hands with no black or green source, since the engine lives in those colors."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-29-cook-the-books.html#key-interactions-and-edge-cases",
-    "title": "Cook the Books",
-    "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nForage lets you sacrifice a Food instead of exiling three graveyard cards. Usually sacrifice the Food: keep the graveyard stocked for Buried Treasure, Curious Forager, and Quintorius’s ultimate.\nDescend counts any permanent card entering your graveyard — sacrificed Foods, lands, dead creatures, milled cards. Brass’s Tunnel-Grinder transforms after three.\nUnder Night of the Sweets’ Revenge, tap a Food for green mana first, then animate it with Tough Cookie — the animation does not untap it.\nDiscover casts the card without paying its mana cost, which triggers Quintorius. Curator of Sun’s Creation doubles only the first discover each turn, so sequence your best discover first.\nThe Hidden caves activate only as a sorcery and sacrifice themselves — use them when you need gas, not as land drops you plan to keep.\nYgra makes your opponent’s creatures Foods too; they can sacrifice their own for 3 life. The upside is that Abrade and Tough Cookie’s animating ability now hit enemy creatures as artifacts, and every enemy death still grows Ygra.\nCandy Grapple’s bargain and Feed the Cycle’s forage cost are optional — pay them when a Food token is expendable, otherwise pay mana."
-  },
-  {
-    "objectID": "decks/2026-08-29-cook-the-books.html#matchups",
-    "href": "decks/2026-08-29-cook-the-books.html#matchups",
-    "title": "Cook the Books",
-    "section": "Matchups",
-    "text": "Matchups\nAggro: Candy Grapple, Feed the Cycle, Abrade and The Witch’s Vanity hold the ground while Food life gain keeps you alive; Tough Cookie’s 4/4s block profitably. Control: discover chains overwhelm one-for-one answers, because the discovered spells never cost mana and Quintorius’s triggers accumulate; hold Buried Treasure activations for after a sweeper. Midrange: Ygra and Curator out-grind; Camellia and Confectioner keep the board wide enough that a single removal spell rarely matters."
+    "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
   },
   {
     "objectID": "decks/2026-08-22-fertile-chorus.html",
@@ -924,88 +553,550 @@
     "text": "Matchups\n\nAggro: Mutant Town’s life gain and Qarsi Revenant’s lifelink buy turns; Vote Out and Constrictor Sage slow the swarm; the Tomb’s graveyard casting out-values any topdeck war.\nControl: the deck’s threats are uncounterable-by-accident (Renew activates from the graveyard, the Tomb casts from the graveyard, manlands-style Town lands dodge sorcery-speed sweepers). Singularity Rupture mills them out even if they clear the board.\nGraveyard hate: hard exile effects hurt. Plan B is real — the creatures are fine on their own, Omni-Changeling and Naga Fleshcrafter copy anything, and Web of Life does not touch the graveyard at all."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html",
-    "href": "decks/2026-08-21-kindle-the-archive.html",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html",
+    "href": "decks/2026-08-29-cook-the-books.html",
+    "title": "Cook the Books",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nFive-color — white / blue / black / red / green\n\n\nArchetype\nCombo-control (flashback burn)\n\n\nSize\n60 cards, 24 lands\n\n\nCore engine\nIroh, Grand Lotus + surveilled burn with flashback\n\n\nPrimary win\nIroh flashback loop: repeat Burst Lightning / Traumatic Critique while Fire Lord Azula attacks and copies every spell\n\n\nSecondary win\nVivid beatdown: Squawkroaster double strike plus Self-Destruct fireballs\n\n\nNonland curve\n2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nWhite / Black / Red / Green (4-color)\n\n\nArchetype\nFood-forage-discover engine (avg CMC 2.79)\n\n\nSize\n60 cards\n\n\nPrimary win\nDiscover chains: Buried Treasure exiles itself from the graveyard for Discover 5, Caparocti Sunborn discovers 3 on every attack, the Hidden cave lands sacrifice for Discover 4, and Curator of Sun’s Creation doubles every discover. Every spell cast from exile makes Quintorius Kand deal 2 damage to each opponent and gain you 2 life, so a chain of two or three discovers is 6-8 damage plus free threats\n\n\nSecondary win\nFood swarm: Experimental Confectioner rats, Camellia squirrels, Tough Cookie animating Food tokens into 4/4s, Ygra growing +2/+2 per Food death, and Night of the Sweets’ Revenge turning the whole board into an overrun — Sweettooth Witch and Skirmish Rhino drain along the way\n\n\nLand win con\nRestless Cottage attacks as a 4/4 and creates a Food while exiling a graveyard card; Hidden Volcano / Hidden Necropolis / Hidden Nursery sacrifice themselves for Discover 4; Tecutlan (the back of Brass’s Tunnel-Grinder) triggers a discover whenever you cast a permanent with its mana"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-21-kindle-the-archive.html#game-plan-in-three-phases",
-    "title": "Kindle the Archive",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nBuild the archive (turns 1–3): surveil with Gorehound, Glarb, Risky Research, and the surveil lands. Let burn spells hit the graveyard naturally or through Traumatic Critique’s “draw two, discard one”. Keep the board with early burn and Prismari Charm.\nLight the flame (turns 4–6): resolve Iroh, Grand Lotus. Attack with Firebending creatures (Fire Lord Azula, Sun Warriors, Iroh himself) to stockpile red mana. Cast flashback burn from the yard — Azula copies it while she attacks.\nBurn the library down: loop the flashback chain each turn, escalate with Firebender Ascension (copying Azula’s copy trigger), Sozin's Comet (firebending 5 on every creature), and Ozai (unspent mana becomes red). Shimmercreep and Explosive Prodigy add on-entry damage; Vivid beatdown closes games where burn stalls."
+    "objectID": "decks/2026-08-29-cook-the-books.html#game-plan-phases",
+    "href": "decks/2026-08-29-cook-the-books.html#game-plan-phases",
+    "title": "Cook the Books",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nPantry: Thornvault Forager ramps, Vinereap Mentor or Tough Cookie makes the first Food, Buried Treasure fixes mana, Sweettooth Witch or Confectioner starts the drain/rat engine\n\n\nTurns 3-5\nEngines online: Greta and Brass’s Tunnel-Grinder churn through cards, Curious Forager and Back for Seconds recycle the graveyard, Ygra or Curator of Sun’s Creation lands as the force multiplier\n\n\nTurns 5-7\nThe combo turn: Buried Treasure from the graveyard discovers 5, Curator doubles it, Caparocti discovers on attack, Quintorius pings for every exile cast and minus-3 discovers again; the Hidden caves add sorcery-speed discover 4 on demand\n\n\nLate game\nWin condition 2: Night of the Sweets’ Revenge overrun, 4/4 animated Foods, a huge Ygra, Restless Cottage beats, and Sweettooth Witch draining 2 per Food sacrifice"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
-    "href": "decks/2026-08-21-kindle-the-archive.html#why-these-cards",
-    "title": "Kindle the Archive",
-    "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nIroh, Grand Lotus\n4\nEngine — grants flashback to instants, sorceries, and Lessons in your graveyard during your turn; Firebending 2\n\n\nFire Lord Azula\n3\nEngine — copies every spell you cast while attacking; Firebending 2\n\n\nFirebending Lesson\n4\nCombo piece — Lesson removal with kicker; flashback {1} under Iroh\n\n\nBurst Lightning\n4\nCombo piece — 2 damage any target, kicker for 4; flashback {R} under Iroh\n\n\nTraumatic Critique\n2\nCombo piece — X damage any target plus draw two, discard one (feeds the archive)\n\n\nGlarb, Calamity’s Augur\n2\nEnabler — tap to surveil 2; casts MV 4+ spells from the top of the library\n\n\nSnarling Gorehound\n2\nEnabler — surveil 1 whenever a small creature enters\n\n\nRisky Research\n2\nDig — surveil 2, draw two\n\n\nPrismari Charm\n1\nFlex — surveil 2 draw 1, or ping, or bounce\n\n\nUnsubtle Mockery\n1\nFusion — 4 damage to a creature plus surveil 1\n\n\nSquawkroaster\n2\nWin con 2 — double strike, power equals number of colors among permanents\n\n\nGlister Bairn\n1\nPump — +X/+X on another creature each combat\n\n\nBloom Tender\n1\nMana — adds one of each color among permanents\n\n\nShimmercreep\n1\nDrain — each opponent loses X life on entry, you gain X\n\n\nExplosive Prodigy\n1\nRemoval — X damage to a creature on entry\n\n\nSun Warriors\n1\nMana engine — Firebending X, where X is your creature count\n\n\nSozin’s Comet\n1\nAnthem — all creatures gain firebending 5; foretell\n\n\nFirebender Ascension\n1\nMultiplier — copies attacking-triggered abilities at four quest counters\n\n\nOzai, the Phoenix King\n1\nFinisher — unspent mana becomes red; flying and indestructible at 6+ unspent mana\n\n\nSelf-Destruct\n1\nFireball — a creature deals damage equal to its power to any target"
+    "objectID": "decks/2026-08-29-cook-the-books.html#card-roles",
+    "href": "decks/2026-08-29-cook-the-books.html#card-roles",
+    "title": "Cook the Books",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nBuried Treasure\nThe discover engine: an artifact Treasure for fixing that exiles itself from the graveyard for Discover 5 at sorcery speed\n\n\nCaparocti Sunborn\nRepeatable discover: attacks, taps two untapped artifacts/creatures (Foods work), discovers 3\n\n\nQuintorius Kand\nThe payoff: 2 damage per spell cast from exile, plus Discover 4 at minus-3 and a graveyard-exiling ultimate that plays the whole yard for red mana\n\n\nCurator of Sun’s Creation\nDoubles the first discover each turn — the chain multiplier\n\n\nThornvault Forager\nForage mana dork: taps for green, or forages for two mana of any colors; searches up a Squirrel at {3}{G}\n\n\nFeed the Cycle\nForage removal: destroy a creature or planeswalker by sacrificing a Food instead of paying black\n\n\nCurious Forager\nForage recursion: on entry, forages to return any permanent card from the graveyard to hand\n\n\nCamellia, the Seedmiser\nSquirrel factory: sacrificing Foods makes 1/1 Squirrels, and {2} forage pumps them\n\n\nSweettooth Witch\nRepeatable drain: {2} and a Food for 2 damage to any player — the clock\n\n\nExperimental Confectioner\nRat engine: every Food sacrificed makes a 1/1 Rat\n\n\nGreta, Sweettooth Scourge\nDraw engine: {1}{B} and a Food draws a card; {G} and a Food pumps a creature\n\n\nVinereap Mentor\nCheap Food on entry and on death\n\n\nTough Cookie\nFood Golem that creates a Food and animates any noncreature artifact into a 4/4 — Food tokens become attackers\n\n\nYgra, Eater of All\nFood-matters bomb: every other creature is a Food, and every Food that dies puts two +1/+1 counters on her\n\n\nSkirmish Rhino\nTrample and a 2-life swing on entry; a great Discover 3-5 hit\n\n\nBrass’s Tunnel-Grinder\nRummage for gas; after three descends (sacrificed Foods, lands, dead creatures) it transforms into Tecutlan, a land whose mana triggers discover\n\n\nNight of the Sweets’ Revenge\nFoods tap for green mana and the enchantment overruns the board for +X/+X where X is your Food count\n\n\nCandy Grapple\nBargain removal: -3/-3, or -5/-5 if you sacrifice an artifact (a Food)\n\n\nAbrade\n3 damage or destroy an artifact — Ygra makes enemy creatures artifacts\n\n\nBack for Seconds\nBargain recursion: return two creature cards, or put one with mana value 4 or less onto the battlefield\n\n\nThe Witch’s Vanity\nSaga removal that makes a Food and a Wicked Role"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
-    "href": "decks/2026-08-21-kindle-the-archive.html#lands-as-engines",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html#lands-as-engines",
+    "href": "decks/2026-08-29-cook-the-books.html#lands-as-engines",
+    "title": "Cook the Books",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nFire Nation Palace\nWin-con land — grants firebending 4 to any attacker; Iroh or Azula then generates 6 red mana per attack, funding the flashback loop\n\n\nSuburban Sanctuary\nSurveil fixing — green or white, then surveil 1 for {4}\n\n\nParadox Gardens\nSurveil fixing — green or blue, then surveil 1\n\n\nKishla Village\nSurveil 2 for {3}{G}; enters untapped off Island or Swamp\n\n\nJasmine Dragon Tea Shop\nAny-color mana for Ally spells (Iroh and Sun Warriors); makes Ally tokens late\n\n\nHidden Courtyard\nWhite source that becomes Discover 4 when sacrificed\n\n\nMirage Mesa\nTapped any-color source — the Vivid manabase’s backbone\n\n\nSubterranean Cavern\nBlack-green with a point of life"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nRestless Cottage\nThe land win condition: {2}{B}{G} turns it into a 4/4 Horror that creates a Food on attack and exiles a graveyard card — forage fuel that attacks\n\n\nHidden Volcano / Hidden Necropolis / Hidden Nursery\nCave lands that sacrifice themselves for Discover 4 — the discover engine lives in the mana base\n\n\nTecutlan, the Searing Rift\nBrass’s Tunnel-Grinder’s back face: casting any permanent with its red mana triggers discover equal to that spell’s mana value\n\n\nWastewood Verge / Thornspire Verge / Blazemire Verge / Sundown Pass\nUntapped two-color fixing once a basic of either color is out\n\n\nEvolving Wilds / Fabled Passage\nFixing that also puts a land card in the graveyard — every sacrificed fetch is a descend and forage fuel"
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
-    "href": "decks/2026-08-21-kindle-the-archive.html#curve-and-mana",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html#curve-and-mana",
+    "href": "decks/2026-08-29-cook-the-books.html#curve-and-mana",
+    "title": "Cook the Books",
     "section": "Curve and mana",
-    "text": "Curve and mana\n24 lands: 18 nonbasic fixing/utility lands plus 7 basics (2 Forest, 2 Swamp, 1 Island, 1 Mountain, 1 Plains). The manabase is the deck’s Vivid engine — five colors among permanents means every Vivid X equals 5, so fixing lands are payoff lands. Mirage Mesa and Jasmine Dragon Tea Shop (for the Ally engine) smooth the five-color demands; Bloom Tender and Training Compound accelerate into Iroh on turn 4.\nThe nonland curve is 2 one-drops, 6 twos, 5 threes, 10 fours, 6 fives, 5 sixes, 2 seven-plus — an average mana value under 3. The deck plays most of its burn at one or two mana and leans on Iroh (5) and Ozai (6) as the top end."
+    "text": "Curve and mana\n22 lands, 38 nonlands, no true one-drops: eighteen 2-drops (Vinereap Mentor, Thornvault Forager, Tough Cookie, Buried Treasure, Candy Grapple, Feed the Cycle, Abrade, Brass’s Tunnel-Grinder, The Witch’s Vanity), thirteen 3-drops (Sweettooth Witch, Confectioner, Greta, Camellia, Curious Forager, Skirmish Rhino, Night of the Sweets’ Revenge, Back for Seconds), four 4-drops (Caparocti Sunborn x2, Curator of Sun’s Creation x2) and three 5-drops (Quintorius Kand x2, Ygra). Black is the core color (25 pips), green next (21), with red (7) and white (5) as support. Eleven green sources, ten black, eight red and six white keep the splash workable; sequence tapped lands first and hold the verges for the turns you need untapped mana."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
-    "href": "decks/2026-08-21-kindle-the-archive.html#early-game-turns-13",
-    "title": "Kindle the Archive",
-    "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Snarling Gorehound (every subsequent small creature surveils 1) or Burst Lightning for an early blocker. Surveil aggressively — the graveyard is the deck’s second hand.\nTurn 2: Glarb, Calamity’s Augur (tap to surveil 2, and it casts your four- and five-drops from the top), Risky Research (surveil 2, draw two), or burn. Explosive Prodigy on turn 2 deals 3-4 damage to a creature and adds red to the color count.\nHold Prismari Charm or Unsubtle Mockery for the turn-2/3 threat. Discard lands or redundant burn to Traumatic Critique’s loot — the archive wants them."
+    "objectID": "decks/2026-08-29-cook-the-books.html#early-game",
+    "href": "decks/2026-08-29-cook-the-books.html#early-game",
+    "title": "Cook the Books",
+    "section": "Early game",
+    "text": "Early game\nCurve a Food maker into the engine. Thornvault Forager ramps from turn 2, Vinereap Mentor and Tough Cookie leave a Food behind whether they live or die, and Buried Treasure fixes any color while it waits in the graveyard. Against aggressive decks, spend the first Foods on Candy Grapple and Feed the Cycle — sacrificing a token keeps your mana open. The Witch’s Vanity answers a cheap threat, makes a Food, then a Wicked Role. Do not sacrifice fetch lands unless you need the color: their trip to the graveyard is descend for Brass’s Tunnel-Grinder and fodder for forage."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
-    "href": "decks/2026-08-21-kindle-the-archive.html#mid-game-turns-46",
-    "title": "Kindle the Archive",
-    "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nResolve Iroh, Grand Lotus as the priority. With Glarb out, cast it from the top of the library. With Bloom Tender or a five-color board, it comes down on turn 4.\nOnce Iroh is down, the flashback suite is live: Burst Lightning for {R}, Firebending Lesson for {1}, Traumatic Critique for {X}{U}{R}. Attack with Firebending creatures first, generate red, then cast during combat while the mana is available.\nFire Lord Azula attacks with firebending 2, and every spell cast while she attacks is copied — a kicked Burst Lightning becomes 8 damage. Protect her with removal and Prismari Charm bounce.\nFirebender Ascension accumulates quest counters every time an attacking creature triggers (Azula’s copy trigger, every Firebending trigger). At four counters it copies those abilities — Azula’s trigger copies twice, Firebending mana doubles."
+    "objectID": "decks/2026-08-29-cook-the-books.html#mid-game",
+    "href": "decks/2026-08-29-cook-the-books.html#mid-game",
+    "title": "Cook the Books",
+    "section": "Mid game",
+    "text": "Mid game\nGreta turns extra Foods into cards. Brass’s Tunnel-Grinder rummages through dead draws, and each sacrificed artifact, land, or dead creature ticks it toward transformation. Sweettooth Witch and Experimental Confectioner make every Food either 2 damage or a 1/1 Rat, so the board widens while the life total erodes. Curious Forager and Back for Seconds pull the important pieces back. Ygra is the mid-game haymaker: she makes every creature a Food, so Sweettooth Witch can sacrifice anything, Confectioner rats off any death, and she collects two +1/+1 counters per corpse."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
-    "href": "decks/2026-08-21-kindle-the-archive.html#the-combo-turn",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html#the-combo-turn",
+    "href": "decks/2026-08-29-cook-the-books.html#the-combo-turn",
+    "title": "Cook the Books",
     "section": "The combo turn",
-    "text": "The combo turn\n\nConfirm Iroh is on the battlefield and the archive holds at least two or three burn spells (surveil lands, Glarb, and Traumatic Critique’s loot keep it stocked).\nEnter combat. Attack with Fire Lord Azula and Iroh (firebending 2 each), ideally with Sozin's Comet cast first (firebending 5 on everything) or Fire Nation Palace activated ({1}{R}, {T}) to grant firebending 4 — an Iroh with both printed firebending 2 and the Palace’s firebending 4 generates 6 red mana per attack.\nWith the combat mana banked, cast from the graveyard: Burst Lightning, Firebending Lesson, Traumatic Critique with X as high as the mana allows. Azula copies each spell; with Firebender Ascension at four quest counters, the copy trigger itself is copied.\nRepeat each turn. Shimmercreep and Explosive Prodigy add on-entry damage, Ozai turns leftover mana red and becomes an indestructible flyer at six-plus unspent mana, and the loop outpaces any removal that isn’t graveyard hate."
+    "text": "The combo turn\nWith Quintorius Kand and Curator of Sun’s Creation in play, the deck goes off: exile Buried Treasure from the graveyard for Discover 5, cast the discovered spell for free, Curator discovers 5 again, and every cast from exile deals 2. A Hidden cave adds Discover 4 at sorcery speed, doubled. Caparocti Sunborn attacking with two Foods tapped discovers 3, doubled. Quintorius’s minus-3 discovers 4, and his ultimate exiles the entire graveyard — often six to eight cards — adding that much red mana to play them all this turn, each one pinging. A typical five-mana combo turn is 8-12 damage plus several free permanents."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
-    "href": "decks/2026-08-21-kindle-the-archive.html#win-condition-2-the-vivid-beatdown",
-    "title": "Kindle the Archive",
-    "section": "Win condition 2: the Vivid beatdown",
-    "text": "Win condition 2: the Vivid beatdown\nBurn is plan A; the board is plan B. Squawkroaster is a double striker whose power equals the number of colors among permanents you control — 5 or more in this deck, so it attacks as a 5/5 double strike minimum. Glister Bairn makes it +X/+X bigger every combat, and Prismabasher-style team pumps come from the same Vivid scaling. Self-Destruct turns a pumped Squawkroaster into a one-shot fireball (it deals damage equal to its power to any target), and Ozai — trample, haste, firebending 4, flying and indestructible at six-plus unspent mana — closes the game alone. Shimmercreep’s life drain also wins without ever attacking."
+    "objectID": "decks/2026-08-29-cook-the-books.html#win-condition-2",
+    "href": "decks/2026-08-29-cook-the-books.html#win-condition-2",
+    "title": "Cook the Books",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nIf the discover chain fizzles, the food swarm closes: Night of the Sweets’ Revenge makes every Food a green mana source, Tough Cookie animates two or three Foods into 4/4s, Confectioner and Camellia flood the board with Rats and Squirrels, and the enchantment’s {5}{G}{G} activation gives everything +X/+X where X is your Food count. Restless Cottage joins as a 4/4, Skirmish Rhino drains on entry, and Sweettooth Witch keeps picking off the life total with every sacrifice."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
-    "href": "decks/2026-08-21-kindle-the-archive.html#mulligan-guide",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html#mulligan-guide",
+    "href": "decks/2026-08-29-cook-the-books.html#mulligan-guide",
+    "title": "Cook the Books",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands covering red plus one other color, a surveil source (Glarb, Gorehound, Risky Research) or early burn, and a path to Iroh by turn 5.\nTrim: 5+ land hands, single-color hands, and hands with only the top end (Ozai, Sozin’s Comet, multiple Traumatic Critiques) and no early play.\nThe deck is happy to trade card quantity for quality: Traumatic Critique, Glarb, and the surveil lands all convert surplus cards into archive fuel."
+    "text": "Mulligan guide\nKeep any hand with two to three lands, a colored source for each of your first two spells, and at least one Food maker, forage dork, or Buried Treasure. Hands with only tapped lands and no two-drop are borderline — the deck wants to be acting by turn 2. Buried Treasure plus any forage outlet (Thornvault Forager, Camellia, Feed the Cycle) is a premium keep: it fixes and becomes the discover engine. Mulligan hands with no black or green source, since the engine lives in those colors."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-21-kindle-the-archive.html#key-interactions-and-edge-cases",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-29-cook-the-books.html#key-interactions-and-edge-cases",
+    "title": "Cook the Books",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nMultiple Firebending instances stack. A creature with firebending 2 (Iroh) that gains firebending 4 from Fire Nation Palace triggers twice: 6 red mana per attack. Sozin’s Comet on top makes it 9.\nFirebending mana lasts until end of combat — cast the flashback burn during the declare-attackers step while the mana is available. Iroh’s flashback works any time during your turn.\nIroh’s flashback is only during your turn, and each cast exiles the card after resolution — the loop is per-turn, not infinite. Multiple copies of a burn spell in the yard extend the chain.\nFirebender Ascension copies attacking-creature triggered abilities — Azula’s spell-copy trigger and every Firebending mana trigger qualify. It does not copy static abilities.\nTraumatic Critique’s loot is a feature: discarding burn into the archive sets up next turn’s flashback chain.\nGlarb casts MV 4+ spells from the top — Iroh, Ozai, Squawkroaster, and Shimmercreep all qualify; surveil first to put the right card on top.\nOzai’s mana conversion means unspent Firebending red, treasure from Flick a Coin-style effects, and other colors all become red, letting one combat’s mana cast any mix of flashback spells.\nGraveyard hate is the deck’s Achilles heel — versus heavy exile, pivot to the Vivid beatdown plan (Squawkroaster, Ozai) and stop over-investing in the archive."
+    "text": "Key interactions and edge cases\n\nForage lets you sacrifice a Food instead of exiling three graveyard cards. Usually sacrifice the Food: keep the graveyard stocked for Buried Treasure, Curious Forager, and Quintorius’s ultimate.\nDescend counts any permanent card entering your graveyard — sacrificed Foods, lands, dead creatures, milled cards. Brass’s Tunnel-Grinder transforms after three.\nUnder Night of the Sweets’ Revenge, tap a Food for green mana first, then animate it with Tough Cookie — the animation does not untap it.\nDiscover casts the card without paying its mana cost, which triggers Quintorius. Curator of Sun’s Creation doubles only the first discover each turn, so sequence your best discover first.\nThe Hidden caves activate only as a sorcery and sacrifice themselves — use them when you need gas, not as land drops you plan to keep.\nYgra makes your opponent’s creatures Foods too; they can sacrifice their own for 3 life. The upside is that Abrade and Tough Cookie’s animating ability now hit enemy creatures as artifacts, and every enemy death still grows Ygra.\nCandy Grapple’s bargain and Feed the Cycle’s forage cost are optional — pay them when a Food token is expendable, otherwise pay mana."
   },
   {
-    "objectID": "decks/2026-08-21-kindle-the-archive.html#matchups",
-    "href": "decks/2026-08-21-kindle-the-archive.html#matchups",
-    "title": "Kindle the Archive",
+    "objectID": "decks/2026-08-29-cook-the-books.html#matchups",
+    "href": "decks/2026-08-29-cook-the-books.html#matchups",
+    "title": "Cook the Books",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: early burn clears the board; Explosive Prodigy and Shimmercreep trade life-for-life favorably; Ozai becomes an indestructible wall at six unspent mana. Surveil toward removal first, engine second.\nControl: the flashback loop is card-advantage-proof — every burn spell is a reusable threat, and counterspells only delay it. Glarb’s top-of-library casting dodges hand disruption. Fire Nation Palace’s firebending grant is instant-speed and uncounterable.\nMidrange: race their threats with copied burn; Azula plus a stocked archive out-damages most midrange clocks. Squawkroaster beats blockers with double strike.\nGraveyard hate (Rest in Peace-style): swap to plan B — Squawkroaster plus Self-Destruct and Ozai beatdown; keep surveil minimal and use the Vivid creatures as the primary threat."
+    "text": "Matchups\nAggro: Candy Grapple, Feed the Cycle, Abrade and The Witch’s Vanity hold the ground while Food life gain keeps you alive; Tough Cookie’s 4/4s block profitably. Control: discover chains overwhelm one-for-one answers, because the discovered spells never cost mana and Quintorius’s triggers accumulate; hold Buried Treasure activations for after a sweeper. Midrange: Ygra and Curator out-grind; Camellia and Confectioner keep the board wide enough that a single removal spell rarely matters."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html",
+    "href": "decks/2026-08-25-swarm-calculus.html",
+    "title": "Swarm Calculus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "title": "Swarm Calculus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "title": "Swarm Calculus",
+    "section": "Why these cards",
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "title": "Swarm Calculus",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "title": "Swarm Calculus",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "title": "Swarm Calculus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "title": "Swarm Calculus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "title": "Swarm Calculus",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "title": "Swarm Calculus",
+    "section": "Win condition 2: the ETB burn loop",
+    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "title": "Swarm Calculus",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "title": "Swarm Calculus",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "title": "Swarm Calculus",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Card pool consumption — cycle started 2026-08-22 · 357 cards locked · Hobbit 77/193 remaining\n22 deck guides — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-08-30",
+    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending"
+  },
+  {
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-08-29",
+    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-08-28",
+    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-08-27",
+    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
+  },
+  {
+    "objectID": "archive.html#section-4",
+    "href": "archive.html#section-4",
+    "title": "Archive",
+    "section": "2026-08-26",
+    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+  },
+  {
+    "objectID": "archive.html#section-5",
+    "href": "archive.html#section-5",
+    "title": "Archive",
+    "section": "2026-08-25",
+    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-6",
+    "href": "archive.html#section-6",
+    "title": "Archive",
+    "section": "2026-08-24",
+    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
+  },
+  {
+    "objectID": "archive.html#section-7",
+    "href": "archive.html#section-7",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
+  },
+  {
+    "objectID": "archive.html#section-8",
+    "href": "archive.html#section-8",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-9",
+    "href": "archive.html#section-9",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-10",
+    "href": "archive.html#section-10",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html",
+    "href": "decks/2026-08-26-wing-and-coin.html",
+    "title": "Wing and Coin",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlack / Red / White\n\n\nArchetype\nSmaug dragon x treasure combo (avg CMC 3.08)\n\n\nSize\n60 cards\n\n\nPrimary win\nSmaug the Magnificent burn: treasures make his attack trigger deal N damage to any target, and he has flying and haste — one swing with a full hoard is 10+ to the face\n\n\nSecondary win\nLake-town mill: The Master of Lake-town mills a player for every point of life they lose, so every Smaug trigger and combat hit mills the opponent out\n\n\nLand win con\nThe Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper per Equipment) plus Restless Fortress (draining creature-land)"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
+    "href": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
+    "title": "Wing and Coin",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop the hoard: Sackville-Bagginses, Gleaming Splendor, Last Light, Dori, or the Grey Dog; Stir Up Trouble and Deadly Slice hold the board\n\n\nTurns 3-5\nEngines online: The Misty Mountains Cold makes a Treasure every chapter and pops a 6/6 Dragon; Smaug, Wicked Worm enters for a burst of tapped gold\n\n\nTurns 5-7\nThe combo turn: Smaug the Magnificent lands with a hoard behind him; Desolation clears non-Dragons and pays for the next dragon\n\n\nLate game\nWin condition 2: The Master of Lake-town turns every Smaug trigger into mill; Were-Worm’s extra combat doubles the burn"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#card-roles",
+    "href": "decks/2026-08-26-wing-and-coin.html#card-roles",
+    "title": "Wing and Coin",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nThe engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count\n\n\nSmaug, Wicked Worm\nTreasure burst on entry (one per artifact the opponent controls) and card draw whenever you cast with Treasure mana\n\n\nThe Misty Mountains Cold\nSaga that makes a Treasure on every chapter and sacrifices itself into a 6/6 flying Dragon when the hoard hits four\n\n\nGleaming Splendor\nRepeatable Treasure: triggers on the opponent’s second draw, and its own {2}{W} activation forces that draw\n\n\nLast Light of Durin’s Day\nMountain quest: at six Mountain-entries it tutors any Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nOne-sided board wipe (3 damage to each non-Dragon) that adds four mana for your next Dragon spell\n\n\nDesert Were-Worm\nGrows +2/+0 per Mountain; at 12+ attacking power it grants an extra combat — Smaug burns twice\n\n\nDori, Bearer of Friends\nCheap legendary Dwarf that makes a Treasure on entry\n\n\nThe Sackville-Bagginses\nTurns spare artifacts and creatures into cards and Treasures, and pings on every token sacrifice\n\n\nThe Master of Lake-town\nWin condition 2: every point of life lost mills that many cards\n\n\nLong-Bodied Grey Dog\nFlash 2/2 with reach that makes a tapped Treasure — instant-speed hoard development\n\n\nBilbo’s Deadly Slice\nClean {1}{B}{B} removal\n\n\nStir Up Trouble\nOne-mana removal that happily eats a Treasure as its cost\n\n\nPinecone Strike\nFlexible burn that exiles dying creatures and destroys artifact tokens\n\n\nBilbo’s Gambit\nBounces a spell and, when gifted, locks both players out of casting — the Treasure gift feeds Wicked Worm later\n\n\nThe Eagles Are Coming!\nFlickers your dragons to re-trigger Wicked Worm and Dori, then refunds 4/4 flying Birds\n\n\nInside Information\nX-cost mill and theft: exile the top X of the opponent’s library and play their own spells\n\n\nThe Arkenstone\nAnthem and end-step draw; its adventure Seek the Heart tutors any legendary — usually Smaug himself\n\n\nCrude Bent Blade\nRemoval on entry, then an Equipment that discounts The Lonely Mountain\n\n\nSting, Bilbo’s Sword\nFlash Equipment with hone counters; keeps The Lonely Mountain untapped and cheap\n\n\nThrór’s Map\nFetches a basic (a Mountain for the quest) and loots away late-game flood"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
+    "href": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
+    "title": "Wing and Coin",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that makes 2/2 red Dwarf tokens for {4}{R}, {1} cheaper per Equipment — the win-con land\n\n\nHobbit Hole\nSacrifices itself to put a basic onto the battlefield tapped — an extra Mountain for the Last Light quest\n\n\nRestless Fortress\nBlack-white mana that becomes a 1/4 Nightmare and drains 2 life when it attacks — life loss also feeds the Lake-town mill\n\n\nRazortrap Gorge\nBlack-red fixing that enters untapped once a player is at 13 or less life\n\n\nTemples and fast lands\nSundown Pass, Inspiring Vantage, and the Temples keep the three-color mana stable"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
+    "href": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
+    "title": "Wing and Coin",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n24 lands: 4 The Lonely Mountain, 2 Hobbit Hole, 2 Sundown Pass, 1 Elegant Parlor, 2 Inspiring Vantage, 2 Temple of Malice, 1 Temple of Triumph, 1 Temple of Silence, 1 Restless Fortress, 1 Razortrap Gorge, 2 Mountain, 5 Swamp. Red sources 15, black 10, white 8 — red is the workhorse, white a light splash.\nNonland curve: 1-drop x2, 2-drop x13, 3-drop x11, 4-drop x4, 5-drop x3, 6-drop x2, 7-drop x1. Average CMC 3.08. The deck wants a Treasure maker on turn 2, a saga or Dori on turn 3, and Smaug the Magnificent on turn 4-5 with a hoard already forming."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#early-game",
+    "href": "decks/2026-08-26-wing-and-coin.html#early-game",
+    "title": "Wing and Coin",
+    "section": "Early game",
+    "text": "Early game\nTurn 1 is Stir Up Trouble (holding up {B} to eat a Treasure and kill a threat) or a tapped Temple. Turn 2: The Sackville-Bagginses, Gleaming Splendor, Last Light, or removal. Sequence tapped lands first — Temples, Elegant Parlor, and Restless Fortress enter tapped, so keep Sundown Pass and Inspiring Vantage for the turns you need untapped red. Fetching a Mountain with Hobbit Hole also advances the Last Light quest."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#mid-game",
+    "href": "decks/2026-08-26-wing-and-coin.html#mid-game",
+    "title": "Wing and Coin",
+    "section": "Mid game",
+    "text": "Mid game\nResolve The Misty Mountains Cold and let the chapters stack Treasures; it turns itself into a 6/6 Dragon at four tokens. Smaug, Wicked Worm is the mid-game haymaker: against artifact decks it enters with four or five tapped Treasures, and every spell cast from that gold draws a card. Gleaming Splendor turns the opponent’s card draw into more gold, and its {2}{W} mode makes two players draw — forcing the trigger and cantripping you at once."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
+    "href": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
+    "title": "Wing and Coin",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nAccumulate a hoard: four to eight Treasures from the saga, Splendor, Wicked Worm, Dori, and the Grey Dog.\nCast Smaug the Magnificent ({2}{R}{R}, haste, flying). If the board is crowded, Desolation of Smaug first — it deals 3 to every non-Dragon and its four mana can pay for Smaug himself.\nAttack: Smaug’s trigger deals damage equal to your Treasure count to any target — face, planeswalker, or blocker — plus his 4 combat damage.\nRepeat: every upkeep makes another Treasure, so each swing is bigger. With Desert Were-Worm (growing off every Mountain) attacking alongside, 12+ total power grants an extra combat and Smaug’s burn fires twice.\n\nA typical kill: six Treasures and Smaug attacking alone is 10 damage; the next turn is 11, and the turn after that is 12. Wicked Worm’s draw-on-Treasure-cast keeps the hand full through the sequence."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
+    "href": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
+    "title": "Wing and Coin",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe Master of Lake-town turns the same engine into mill. Every point of life an opponent loses — Smaug’s attack trigger, his combat damage, Restless Fortress’s drain — mills that many cards off the top; a 6-Treasure Smaug swing mills 10. Inside Information finishes: with a hoard of Treasures paying any color, X = 10 or more exiles a huge chunk of the library outright, and the exiled cards are playable (paying life instead of mana, which conveniently mills more). The Arkenstone’s adventure tutors either Smaug or the Master, whichever the board needs. Backup: The Lonely Mountain’s Dwarf tokens, the saga’s 6/6 Dragon, and Restless Fortress beats."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
+    "href": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
+    "title": "Wing and Coin",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: two to three lands with a Treasure maker or removal — Sackville-Bagginses, Gleaming Splendor, Dori, or Stir Up Trouble openers are strong; any hand with The Misty Mountains Cold or Smaug, Wicked Worm plus interaction is excellent. Mulligan one-land hands and hands with five or more lands and no engine. White is a splash: a hand with only red and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
+    "title": "Wing and Coin",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nSmaug the Magnificent’s attack trigger targets — it can hit creatures and planeswalkers as well as the opponent; point it at a blocker and Smaug’s own combat damage still connects.\nThe Misty Mountains Cold checks “four or more Treasures” after each chapter — with Gleaming Splendor and the Grey Dog it can pop its Dragon as early as chapter II.\nSmaug, Wicked Worm counts artifacts the opponent controls at entry — Bilbo’s Gambit’s gifted Treasure feeds it, so hold Wicked Worm for when they have an artifact board.\nLast Light of Durin’s Day counts Mountains entering, not lands — fetch Mountains specifically with Hobbit Hole and Thrór’s Map; The Lonely Mountain is a Mountain.\nDesert Were-Worm’s extra combat triggers “the first time each turn” you attack with 12+ total power — attack with it and Smaug together so both get the second combat. Gleaming Splendor’s {2}{W} targets two players: choose an opponent and yourself to force the Treasure trigger and draw your own card."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#matchups",
+    "href": "decks/2026-08-26-wing-and-coin.html#matchups",
+    "title": "Wing and Coin",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nRemoval holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed\n\n\nMidrange\nRace the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons\n\n\nControl\nBilbo’s Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw\n\n\nCombo\nMill is the fastest clock: Master of Lake-town plus Smaug’s trigger mills 10+ per turn; Inside Information exiles their pieces"
+  },
+  {
+    "objectID": "decks/2026-08-28-sunstar-vigil.html",
+    "href": "decks/2026-08-28-sunstar-vigil.html",
+    "title": "Sunstar Vigil",
+    "section": "",
+    "text": "Format\nStandard (Best-of-1)\n\n\nColors\nWUBRG (five-color)\n\n\nArchetype\nMidrange combo\n\n\nSize\n60 cards (24 lands)\n\n\nPrimary win\nAmalia Benavides Aguirre reaches exactly 20 power, wipes all other creatures, swings for lethal with flying double strike\n\n\nSecondary win\nDawnsire, Sunstar Dreadnought charges to 10+, deals 100 damage to a blocker or planeswalker every attack, then becomes a 20/20 flyer; Aurelia’s extra combats double the pings"
+  },
+  {
+    "objectID": "decks/2026-08-28-sunstar-vigil.html#at-a-glance",
+    "href": "decks/2026-08-28-sunstar-vigil.html#at-a-glance",
+    "title": "Sunstar Vigil",
+    "section": "",
+    "text": "Format\nStandard (Best-of-1)\n\n\nColors\nWUBRG (five-color)\n\n\nArchetype\nMidrange combo\n\n\nSize\n60 cards (24 lands)\n\n\nPrimary win\nAmalia Benavides Aguirre reaches exactly 20 power, wipes all other creatures, swings for lethal with flying double strike\n\n\nSecondary win\nDawnsire, Sunstar Dreadnought charges to 10+, deals 100 damage to a blocker or planeswalker every attack, then becomes a 20/20 flyer; Aurelia’s extra combats double the pings"
+  },
+  {
+    "objectID": "decks/2026-08-28-sunstar-vigil.html#overview",
+    "href": "decks/2026-08-28-sunstar-vigil.html#overview",
+    "title": "Sunstar Vigil",
+    "section": "Overview",
+    "text": "Overview\nSunstar Vigil fuses three build-around mechanics into one engine. Station (the Edge of Eternities mechanic) lets you tap a creature to put charge counters equal to its power on a Spacecraft or Planet, unlocking thresholds that turn your artifacts and lands into flying, lifelink, damage-dealing machines. Lifegain is the fuel: every life you gain powers Amalia’s explores, Exemplar of Light’s counters, and keeps you alive while your ships charge. Solved (the Case mechanic) provides the payoff layer: Case of the Shattered Pact solves off the five planets’ colors alone and turns any attacker into a flying double-striker, while Case of the Gorgon’s Kiss solves off your own milling and deaths into a 4/4 lifelink deathtouch creature.\nEvery card feeds the loop: high-power creatures (Vaultborn Tyrant, The Seriema) both gain life and charge Station; spacecraft draw cards and recur each other; the Planets are lands that become engines at 12+ charges, including the deck’s win-condition land, Adagia."
+  },
+  {
+    "objectID": "decks/2026-08-28-sunstar-vigil.html#approach",
+    "href": "decks/2026-08-28-sunstar-vigil.html#approach",
+    "title": "Sunstar Vigil",
+    "section": "Approach",
+    "text": "Approach\n\nGame plan phases\n\nEarly (turns 1-3): Develop a Planet or triland, drop a cheap Spacecraft (Lumen-Class Frigate, Wurmwall Sweeper, Sledge-Class Seedship) or a Case. Case of the Shattered Pact tutors a basic to fix your five-color mana. The Seriema on turn 3 tutors Aurelia or Amalia, your two finishers.\nMid (turns 4-6): Resolve Vaultborn Tyrant (gain 3, draw a card, 6-power Station fuel) or Exemplar of Light. Start charging: tap your fatties as a sorcery to put counters on Spacecraft and Planets. Fell Gravship mills three (solving Gorgon’s Kiss) and returns a creature or Spacecraft to hand.\nThe combo turn: Charge Dawnsire to 10+ (one tap of Vaultborn plus The Seriema is 11), then attack: Dawnsire deals 100 damage to a blocker or planeswalker every combat. Amalia at 20 power destroys all other creatures, then attacks as a 20/20 with flying and double strike from the solved Pact. Aurelia adds a second combat phase, and Adagia at 12+ charges copies Dawnsire for double pings.\n\n\n\nCard roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThe Seriema\nTutor (Aurelia, Amalia), 5/5 Station fuel, makes tapped legendaries indestructible\n\n\nVaultborn Tyrant\nLifegain and draw engine, 6-power Station fuel, death token recurs\n\n\nExemplar of Light\nLifegain payoff: counters and cards\n\n\nAmalia Benavides Aguirre\nExplore on every lifegain trigger, 20-power board wipe\n\n\nAurelia, the Warleader\nExtra combat phase, untaps all your creatures\n\n\nDawnsire, Sunstar Dreadnought\n100-damage ping per attack, 20/20 flyer at 20+\n\n\nSledge-Class Seedship\nCheats creatures from hand onto the battlefield on attack\n\n\nFell Gravship\nMills to solve Gorgon’s Kiss, recurs creatures and Spacecraft\n\n\nLumen-Class Frigate\n+1/+1 anthem at 2+, flying lifelink at 12+\n\n\nUthros Scanship\nCard advantage, 4/4 flyer\n\n\nWedgelight Rammer / Wurmwall Sweeper / Atmospheric Greenhouse\nRobot tokens, filtering, and a +1/+1 counter burst\n\n\nCase of the Shattered Pact\nBasic-land tutor, flying double strike once solved\n\n\nCase of the Gorgon’s Kiss\n4/4 lifelink deathtouch once solved\n\n\nCase of the Filched Falcon\nAnimates Dawnsire as a 4/4 flying Bird\n\n\nStroke of Midnight / Elspeth’s Smite\nInteraction: any nonland permanent, or 3 damage with exile\n\n\n\n\n\nLands as engines\n\n\n\n\n\n\n\nLand\nEngine role\n\n\n\n\nAdagia, Windswept Bastion\nWin-con land: at 12+ charges, {3}{W}{T} creates a legendary copy of Dawnsire, doubling your 100-damage pings and flyers\n\n\nSusur Secundi, Void Altar\nAt 12+, {1}{B}{T} plus 2 life and a sacrifice draws cards equal to the sacrificed creature’s power (Vaultborn Tyrant draws six)\n\n\nKavaron, Memorial World\nAt 12+, {1}{R}{T} sacrificing a land creates a 2/2 Robot and gives your team +1/+0 and haste for the alpha strike\n\n\nUthros, Titanic Godcore\nAt 12+, {U}{T} adds {U} for each artifact you control, fueling big spells\n\n\nEvendo, Waking Haven\nAt 12+, {G}{T} adds {G} for each creature you control\n\n\nThe five Planets\nTheir own colors solve Case of the Shattered Pact the moment one of each is on the battlefield\n\n\n\n\n\nCurve and mana\n24 lands: 7 Planets (the five lands above), 3 tapped trilands (Opulent Palace, Nomad Outpost, Mystic Monastery), 8 duals (verges, fastlands, shocks), 6 basics. Average spell mana value is roughly 3.3. The greedy top end (Vaultborn Tyrant at seven, Dawnsire and Aurelia at five) is the point of the deck, so hands need fixing early: any two-color opener with a 2-drop is fine, but a hand with no colored source for the first three turns mulligans."
+  },
+  {
+    "objectID": "decks/2026-08-28-sunstar-vigil.html#gameplay-strategy",
+    "href": "decks/2026-08-28-sunstar-vigil.html#gameplay-strategy",
+    "title": "Sunstar Vigil",
+    "section": "Gameplay strategy",
+    "text": "Gameplay strategy\n\nEarly game\nPrioritize a 2-drop: Lumen-Class Frigate (it becomes an anthem at just 2 charges), Case of the Shattered Pact (fixes mana), or Wurmwall Sweeper (surveils toward your combo). The Seriema is the best turn-3 play: it finds Aurelia against race-y decks and Amalia when you need the wipe. Do not tap creatures to Station unless you are sure they will survive; the Seriema’s indestructible clause protects tapped legendaries, which makes charging with her safe.\n\n\nMid game and the combo turn\nChain lifegain triggers: Vaultborn Tyrant entering (gain 3, draw), Exemplar of Light growing on every lifegain event, Fell Gravship and Gorgon’s Kiss gaining life when they deal combat damage. Each trigger makes Amalia explore, growing her toward 20. When Amalia hits exactly 20 power, all other creatures are destroyed, and if the Pact is solved she attacks with flying and double strike for 40.\nThe Dawnsire line needs only 10 charges: tap Vaultborn Tyrant (6) and The Seriema (5) on a sorcery turn, then swing with anything, or animate Dawnsire with Case of the Filched Falcon for a 4/4 flying attacker that still pings 100. Aurelia’s extra combat phase untaps your team and triggers Dawnsire again; Adagia copying Dawnsire doubles both the pings and the 20/20 flyers.\n\n\nWin condition #2 (spacecraft beatdown)\nIf Amalia is answered, the ships close the game: Sledge-Class Seedship cheats Vaultborn Tyrant into play on attack, robots from Wedgelight Rammer grow under Lumen’s anthem, and Kavaron’s haste anthem plus Aurelia’s extra combat turn any board into lethal. Dawnsire’s pings remove every blocker and opposing planeswalker first.\n\n\nMulligan guide\nKeep: three or more lands with two colors, any 2-drop, The Seriema. Ship: one-landers, five-color hands with only tapped trilands and no 2-drop, hands with nothing but seven-drops.\n\n\nKey interactions and edge cases\n\nStation is a sorcery: you cannot charge in response to combat tricks.\nAmalia’s wipe destroys all other creatures, including yours; plan to keep the spacecraft (they are artifacts) and the solved Gorgon’s Kiss (an enchantment) out of the blast radius.\nThe wipe puts many creature cards into graveyards, which solves Gorgon’s Kiss the same turn.\nVaultborn Tyrant’s death creates an artifact token copy; it is both Station fodder and a sacrifice for Susur Secundi.\nStroke of Midnight’s 1/1 Human token is extra sacrifice fodder; the token also gives you a creature to tap for Station.\nShattered Pact solves at end step once five colors are among permanents you control; the five Planets alone satisfy it.\n\n\n\nMatchups\n\nAggro: Elspeth’s Smite exiles their attackers, Lumen’s anthem stalls the ground, and lifegain outpaces their burn. Solved Gorgon’s Kiss is a 4/4 lifelink wall.\nMidrange: Out-grind with Vaultborn Tyrant draws and Susur Secundi’s power-based card draw; Dawnsire clears their best creatures every turn.\nControl: Ward on Amalia taxes their counters, Planets are lands and dodge sweepers, and the solved Pact turns any surviving creature into a flying double-striker after a wipe.\nCombo mirrors: Stroke of Midnight removes their enchantments and planeswalkers; Dawnsire’s 100-damage pings kill their combo creatures on sight."
+  },
+  {
+    "objectID": "decks/2026-08-28-sunstar-vigil.html#deck-list-arena-import",
+    "href": "decks/2026-08-28-sunstar-vigil.html#deck-list-arena-import",
+    "title": "Sunstar Vigil",
+    "section": "Deck list (Arena import)",
+    "text": "Deck list (Arena import)\n4 The Seriema\n2 Dawnsire, Sunstar Dreadnought\n2 Amalia Benavides Aguirre\n2 Aurelia, the Warleader\n3 Vaultborn Tyrant\n2 Exemplar of Light\n2 Sledge-Class Seedship\n2 Fell Gravship\n2 Lumen-Class Frigate\n2 Uthros Scanship\n1 Wedgelight Rammer\n1 Wurmwall Sweeper\n1 Atmospheric Greenhouse\n3 Case of the Shattered Pact\n2 Case of the Gorgon's Kiss\n1 Case of the Filched Falcon\n2 Stroke of Midnight\n2 Elspeth's Smite\n2 Adagia, Windswept Bastion\n1 Uthros, Titanic Godcore\n2 Susur Secundi, Void Altar\n1 Kavaron, Memorial World\n1 Evendo, Waking Haven\n1 Opulent Palace\n1 Nomad Outpost\n1 Mystic Monastery\n1 Bleachbone Verge\n1 Gloomlake Verge\n1 Concealed Courtyard\n1 Botanical Sanctum\n1 Godless Shrine\n1 Blood Crypt\n1 Stomping Ground\n1 Temple Garden\n2 Plains\n2 Forest\n1 Island\n1 Mountain"
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html",
+    "href": "decks/2026-08-29-storied-company.html",
+    "title": "Storied Company",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nRed / White / Blue (Jeskai)\n\n\nArchetype\nStoried Dwarves: legendary Dwarf core, Equipment, and Sagas (avg nonland CMC 2.7)\n\n\nSize\n60 cards\n\n\nPrimary win\nThe Volted King: Thorin, Mountain-king or Dáin Ironfoot wearing every Equipment — Axe tokens, hone counters, double strike, and Rogue’s Passage for lethal in one swing\n\n\nSecondary win\nThe Lonely Mountain swarm: the Mountain land that is the win condition — each Equipment discounts its 2/2 Dwarf tokens, Fíli’s anthem and Thorin’s ward turn the horde into a finisher\n\n\nLand win con\nThe Lonely Mountain (Dwarf-token army), Iron Hills (repeatable +2/+2 on a Dwarf), Rogue’s Passage (unblockable finisher)"
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#game-plan-phases",
+    "href": "decks/2026-08-29-storied-company.html#game-plan-phases",
+    "title": "Storied Company",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop: a one-drop (Bofur, Giant’s Boulder) into Thorin Oakenshield, Kíli, or Iron Hills Blacksmith; a Saga (Burn, Burn, Tree and Fern or Roll-Roll-Roll-Roll) starts the story counter early\n\n\nTurns 3-5\nEngines online: Glóin adds {R}{R} each main phase, Dwalin hones the Equipment, Blacksmith and Dáin mint Axes, Kíli draws on every Dwarf or Equipment entry\n\n\nTurns 5-7\nThe payoff turn: Thorin, Mountain-king attaches all Equipment to one Dwarf and deals damage equal to its power; Dáin’s attack gives everything double strike; Rogue’s Passage opens the road\n\n\nLate game\nWin condition 2: with four or more Equipment out, The Lonely Mountain makes 2/2 Dwarves for {0}-{1} each; Fíli’s anthem and Thorin’s ward make the swarm a clock; Roll-Roll blinks protect the team"
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#card-roles",
+    "href": "decks/2026-08-29-storied-company.html#card-roles",
+    "title": "Storied Company",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThorin Oakenshield\nThe lord: trample 3/2 granting ward {1} to every artifact and creature once the story is told\n\n\nKíli the Resourceful\nFree-equip engine: first equip each turn costs {0}, and every Dwarf or Equipment entry draws a card\n\n\nGlóin the Mighty\nMana engine: adds {R}{R} at the start of each first main phase; his adventure sweeps 1 damage to all opponent creatures\n\n\nDáin Ironfoot\nFinisher and Axe-mint: creates an Axe on entry and gives every equipped attacker double strike\n\n\nThorin, Mountain-king\nThe combo payoff: attaches any number of target Equipment to one creature, which then deals damage equal to its power\n\n\nFíli the Pathfinder\nAnthem and swarm: +1/+1 to all creatures with the story, and a 2/2 Dwarf token for every nontoken Dwarf entry\n\n\nIron Hills Blacksmith\nDouble-striking 1/1 that creates an Equipment token on entry\n\n\nDwalin, Weaponmaster\nHone counters: every Equipment grants +1/+0 extra each time he enters or attacks\n\n\nÓin the Brave\nHaste and loot: +1/+0 and haste with the story; {1}, tap, discard to draw\n\n\nBilbo, Luckwearer\nUnblockable sword-carrier who loots on hit; his adventure swaps control of two permanents sharing a card type\n\n\nBofur, Reliable Guardian\nOne-drop with lifelink; his adventure gives any artifact or creature hexproof and indestructible\n\n\nIron Hills Stalwart\nReach/trample 4/5 that re-attaches an Equipment on entry — pairs with Roll-Roll for repeatable re-equips\n\n\nDwarven Mattock\n+2/+2 and ward {1} for a Dwarf — the core sword\n\n\nThe Black Arrow\nFlash Equipment that pings on entry (destroying Dragons) and gives +1/+1 and reach; equip {1}\n\n\nGiant’s Boulder\nScry 2, then a mana rock; late game it sacrifices to destroy any permanent\n\n\nGreat Gilded Boat\n4/4 vehicle that recruits on attack; crew it with Dwarf tokens\n\n\nBurn, Burn, Tree and Fern\nSaga removal: 6 damage, artifact destruction, then two {R} — removal that ramps the combo turn\n\n\nRoll-Roll-Roll-Roll\nBlink engine: exiles a Dwarf or land you control each turn and returns it at end step to re-fire entry triggers\n\n\nOld Fat Spider Can’t See Me\nSaga protection: hexproof, damage prevention, then card draw\n\n\nSettle the Wreckage\nInstant-speed board wipe against the alpha strike\n\n\nStone by Sunlight\nKills power-4+ threats, or turns a creature into an indestructible artifact (also counts toward Storied)\n\n\nMoment of Glory\nCheap counter, and a flashback anthem for the whole board"
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#lands-as-engines",
+    "href": "decks/2026-08-29-storied-company.html#lands-as-engines",
+    "title": "Storied Company",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that enters untapped once you control an Equipment; {4}{R} makes a 2/2 Dwarf token, discounted {1} per Equipment — the land win condition\n\n\nIron Hills\n{R}/{W} fixing and a repeatable {2}{R}{W} activation for +2/+2 counters on a Dwarf — pumps the voltron or the swarm\n\n\nRogue’s Passage\n{4}, {T}: the equipped finisher can’t be blocked — the land that closes games\n\n\nLake-town\nTapped {W}/{U} fixing for the splash\n\n\nCrystal Grotto\nScry 1 on entry and {1} to filter to any color — smoothing for the three-color manabase"
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#curve-and-mana",
+    "href": "decks/2026-08-29-storied-company.html#curve-and-mana",
+    "title": "Storied Company",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n21 lands, 39 nonlands (average nonland CMC 2.7). The deck is dense at two: 17 copies at CMC 2 (Thorin Oakenshield, Kíli, Blacksmith, Dwalin, Óin, Bilbo, Mattock, Stone by Sunlight), 8 at three (Dáin, The Black Arrow, Great Gilded Boat, both blue Sagas), 10 at four (Glóin, Thorin, Mountain-king, Fíli, Burn, Burn, Settle the Wreckage) and one five-drop (Iron Hills Stalwart). White is the core color (11 white pips among unique cards), red the engine color (9), and blue a light splash (5) — four Islands, Lake-town, and Crystal Grotto keep the splash honest. Glóin’s {R}{R} and Giant’s Boulder cover the color demands of the four-drops; The Lonely Mountain entering tapped early is fine because the curve plays fine on basics."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#early-game",
+    "href": "decks/2026-08-29-storied-company.html#early-game",
+    "title": "Storied Company",
+    "section": "Early game",
+    "text": "Early game\nTurns 1-2: Bofur or Giant’s Boulder, then a two-drop — Thorin Oakenshield is the best opener (his ward comes online the moment a second artifact, legendary, or Saga lands). Iron Hills Blacksmith and Dáin Ironfoot mint Axes that immediately turn on The Lonely Mountain’s untapped clause. A turn-2 Saga also works: Burn, Burn, Tree and Fern curves into 6-damage removal on turn 3, and Roll-Roll-Roll-Roll blinks from turn 4 on."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#mid-game",
+    "href": "decks/2026-08-29-storied-company.html#mid-game",
+    "title": "Storied Company",
+    "section": "Mid game",
+    "text": "Mid game\nKíli plus any Dwarf or Equipment entry draws cards, so sequence entries to maximize the once-per-turn trigger — play Dwalin before equipping, Blacksmith before Dáin, and let Fíli turn every nontoken Dwarf into a 2/2 token. Glóin’s {R}{R} each main phase means the deck routinely casts two spells a turn from turn 4. Keep one Equipment unattached against removal decks: Bofur’s adventure protects the voltron creature, and Roll-Roll saves it by blinking."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#the-combo-turn",
+    "href": "decks/2026-08-29-storied-company.html#the-combo-turn",
+    "title": "Storied Company",
+    "section": "The combo turn",
+    "text": "The combo turn\nWith Kíli (free first equip), Dwalin (hone counters), and two or three Axes/Mattocks on the battlefield: play Thorin, Mountain-king — he attaches every Equipment to one target Dwarf, and that creature deals damage equal to its power to up to one target creature. With Dáin Ironfoot instead, every equipped attacker gains double strike when he attacks. Add Glóin’s {R}{R} plus Burn, Burn’s two {R} to pay for re-equips and Rogue’s Passage, and the swing is lethal: a 1/1 Blacksmith wearing Mattock, three Axes, and The Black Arrow is 11 power with double strike — 22 damage. Fíli’s tokens from the Dwarf entries join the same attack."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#win-condition-2",
+    "href": "decks/2026-08-29-storied-company.html#win-condition-2",
+    "title": "Storied Company",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe Lonely Mountain is the second kill. Each Equipment on the battlefield discounts its activation by {1}, so with five pieces (Mattock, two Black Arrows, two Axes, or more) the 2/2 Dwarf tokens cost {0}-{1} each. Fíli’s +1/+1 anthem, Thorin Oakenshield’s ward, and Iron Hills’ counter activations turn the army into a board the opponent can’t race or remove cheaply; Moment of Glory’s flashback pumps everything at once. This is also the anti-removal plan — the swarm wins even after the voltron creature dies."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#mulligan-guide",
+    "href": "decks/2026-08-29-storied-company.html#mulligan-guide",
+    "title": "Storied Company",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep 2-3 lands with a two-drop and a path to the story (a second legendary, artifact, or Saga). Thorin Oakenshield plus any Equipment or Saga is a strong keep — the story is told on turn 2. Hands with Glóin and three lands are premium. Mulligan hands with four tapped lands and no action, or a lone three-drop. Rogue’s Passage is fine to keep when Dáin or Thorin, Mountain-king is in hand."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-29-storied-company.html#key-interactions-and-edge-cases",
+    "title": "Storied Company",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nStoried counts artifacts, legendaries, and Sagas — lands like The Lonely Mountain are not artifacts, but Axe tokens, Mattock, The Black Arrow, Giant’s Boulder, and Great Gilded Boat are, so the story is nearly always told. Ward {1} from Thorin and free equips from Kíli both need it.\nDáin Ironfoot’s double strike applies to every equipped attacking creature, not just himself — the 1/1 Blacksmith swinging with the Mattock deals 6 on its own.\nThorin, Mountain-king’s damage trigger fires only for Equipment attached “this way” — attach everything in one activation for the biggest hit.\nRoll-Roll-Roll-Roll can blink lands too; blinking a tapped creature dodges removal, and blinking Iron Hills Stalwart re-attaches an Equipment each turn.\nDwalin’s hone counters persist on the Equipment itself — moving the Mattock to a fresh creature keeps the bonuses.\nBilbo’s adventure can swap a token for the opponent’s best creature (both are creatures) — a steal, not just a trick.\nSettle the Wreckage exiles everything attacking — play it after blockers are declared to also strand their pump spells.\nThe Black Arrow pings on entry with flash: it can finish a 1-toughness creature, and it destroys any Dragon it damages."
+  },
+  {
+    "objectID": "decks/2026-08-29-storied-company.html#matchups",
+    "href": "decks/2026-08-29-storied-company.html#matchups",
+    "title": "Storied Company",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nBurn, Burn, Tree and Fern and Stone by Sunlight clear threats; Bofur and the 2/2 tokens chump; ward {1} taxes their removal\n\n\nMidrange\nRace the voltron — Dwalin plus multiple Equipment out-grows their board; Iron Hills and Moment of Glory push through stalls\n\n\nControl\nKíli and Glóin rebuild fast after sweepers; Roll-Roll blinks key pieces; the Lonely Mountain swarm wins through counters since it is a land ability\n\n\nCombo\nSettle the Wreckage exiles their attackers; the equipment train is a fast clock once the story is told"
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html",
+    "href": "decks/2026-08-30-emberfall.html",
+    "title": "Emberfall",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nWhite / Blue / Black / Red / Green (5-color)\n\n\nArchetype\nFirebending-mana engine with eerie and landfall triggers (avg CMC 2.86)\n\n\nSize\n60 cards\n\n\nPrimary win\nFirebending combat: attackers generate red mana during combat (Firebending Student adds X red equal to its power, Sun Warriors add X equal to your creature count, Sozin’s Comet gives every creature firebending 5), Firebender Ascension copies those mana abilities once it has four quest counters, and Ozai, the Phoenix King converts unspent combat mana into red mana that persists. That mana replays enchantments and fetches mid-combat, which trigger eerie draws and landfall pumps, growing the attackers for the next, bigger swing. Rogue’s Passage makes the finisher unblockable\n\n\nSecondary win\nLandfall burn: Sabotender and Tannuk, Memorial Ensign deal 1 damage to each opponent per land; fetches, Earthbender Ascension searches and Icetill Explorer’s land-from-graveyard recursion stack five or six triggers a turn, draining 5-6 life every turn while Bloodghast keeps attacking\n\n\nLand win con\nFire Nation Palace grants a creature firebending 4 straight from the mana base; Rogue’s Passage delivers an unblockable kill; Restless Vinestalk attacks as a 5/5 trample and, under Sozin’s Comet, taps for 5 red mana of its own"
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#game-plan-phases",
+    "href": "decks/2026-08-30-emberfall.html#game-plan-phases",
+    "title": "Emberfall",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nSet up the fuel: Optimistic Scavenger, Bloodghast or a firebending two-drop, crack fetches to fix colors, and land the first Firebender Ascension or Uncle Iroh. Every fetch cracked now is a landfall trigger for Sabotender and Tannuk\n\n\nTurns 3-5\nEngines online: Entity Tracker and Optimistic Scavenger turn every enchantment into a card and a counter; Earthbender Ascension searches basics (another landfall); Firebending Student and Sun Warriors start attacking for mana\n\n\nTurns 5-7\nThe combo turn: Sozin’s Comet gives the whole team firebending 5, Firebender Ascension copies the triggers at four quest counters, Ozai banks the mana, and the loop of enchantments, fetches and landfall pumps doubles the board\n\n\nLate game\nWin condition 2: landfall burn runs 5-6 damage a turn while Felidar Retreat tokens and Restless lands finish, or Ozai goes unblockable through Rogue’s Passage"
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#card-roles",
+    "href": "decks/2026-08-30-emberfall.html#card-roles",
+    "title": "Emberfall",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nFirebending Student\nThe mana engine: prowess grows it on every enchantment cast, and it adds red equal to its power when it attacks — a 3/3 attacks for 3 red, a 5/5 for 5\n\n\nFirebender Ascension\nThe fusion keystone: an enchantment (eerie trigger) that makes a firebending 2/2 and copies firebending abilities once it reaches four quest counters — effectively doubling combat mana\n\n\nSun Warriors\nFirebending X equal to your creature count, and {5} mid-combat makes another 1/1 Ally to raise X for the trigger\n\n\nOzai, the Phoenix King\nThe payoff: firebending 4, haste, and unspent mana becomes red instead of emptying, so combat mana banks for the main phase; with six or more unspent mana he has flying and indestructible\n\n\nSozin’s Comet\nThe amplifier: every creature gains firebending 5 until end of turn, so a team of three attackers adds 15 red; foretell lets you set it up a turn early\n\n\nFire Sages\nA mana sink that also attacks for 1 red: {1}{R}{R} mid-combat turns combat mana into a growing 2/2\n\n\nUncle Iroh\nA 4/2 for hybrid mana with firebending 1, and Firebending Lesson costs {1} less — a free removal spell in combat\n\n\nOptimistic Scavenger\nEerie counters: every enchantment puts a +1/+1 counter on a creature, feeding Firebending Student’s X\n\n\nEntity Tracker\nEerie draw: flash, and every enchantment entering draws a card\n\n\nBloodghast\nFree landfall attacker that returns from the graveyard on every land drop and has haste against low-life opponents\n\n\nSabotender / Tannuk, Memorial Ensign\nThe burn wincon: 1 damage to each opponent per landfall, with Tannuk drawing a card on the second trigger of a turn\n\n\nEarthbender Ascension\nEnchantment that searches a basic (a landfall trigger) and turns four landfall quest counters into a +1/+1 trample counter\n\n\nIcetill Explorer\nThe recursion engine: an extra land drop each turn and it plays lands from your graveyard — the same fetched basic triggers landfall twice\n\n\nFelidar Retreat\nLandfall tokens or team-wide counters plus vigilance, so firebending attackers survive blocks\n\n\nFirebending Lesson\nCheap removal that doubles as a mid-combat pump of the firebending theme; Iroh discounts it"
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#lands-as-engines",
+    "href": "decks/2026-08-30-emberfall.html#lands-as-engines",
+    "title": "Emberfall",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nFire Nation Palace\nThe land wincon: {1}{R} gives any creature firebending 4 — a Student becomes a 4-mana engine, Ozai banks 4 red, and it enters untapped if you have a basic\n\n\nRogue’s Passage\nUnblockable for the finisher — the classic way to close with Ozai or a huge Student\n\n\nRestless Vinestalk\nTaps for green or blue, then animates into a 5/5 trample attacker; under Sozin’s Comet it adds 5 red when it attacks\n\n\nRestless Cottage\nTaps for black or green, animates into a 4/4 Horror that makes a Food and exiles a graveyard card on attack\n\n\nEvolving Wilds / Terramorphic Expanse / Fabled Passage\nThe landfall battery: nine fetches, each a sacrifice and a land-enters trigger, and Fabled Passage untaps the land it finds after four lands\n\n\nCavern of Souls\nUncounterable engine pieces — name Human to protect the Student, Scavenger, Tracker, Iroh, Sun Warriors and Ozai, and it fixes any color for creatures"
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#curve-and-mana",
+    "href": "decks/2026-08-30-emberfall.html#curve-and-mana",
+    "title": "Emberfall",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n25 lands, 35 nonlands: three 1-drops (Optimistic Scavenger x2, Firebending Lesson), fourteen 2-drops (Firebending Student x4, Bloodghast x3, Firebender Ascension x4, Fire Sages, Sabotender x2), nine 3-drops (Entity Tracker x3, Uncle Iroh x2, Earthbender Ascension x3, Tannuk), five 4-drops (Sun Warriors x2, Icetill Explorer x2, Felidar Retreat), two 5-drops (Sozin’s Comet x2) and two 6-drops (Ozai x2). Red is the engine color with 22 pips, black and green carry 10 each, white 5 and blue 3. Nine fetches plus Cavern of Souls, Fire Nation Palace and the two-color Restless lands cover the splashes: sequence the tapped lands early and hold fetch cracks for the color you need on curve."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#early-game",
+    "href": "decks/2026-08-30-emberfall.html#early-game",
+    "title": "Emberfall",
+    "section": "Early game",
+    "text": "Early game\nPlay a firebending two-drop or Optimistic Scavenger and start cracking fetches. Every fetch is three things at once: mana fixing, a landfall trigger (burn from Sabotender, a counter from Felidar Retreat once it lands, a Bloodghast return) and graveyard fuel for Icetill Explorer. Bloodghast is happy in the graveyard — it comes back on the next land drop. Firebender Ascension wants to hit the board by turn 3 so its quest counters start accruing; Uncle Iroh and Fire Sages attack for red while they wait."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#mid-game",
+    "href": "decks/2026-08-30-emberfall.html#mid-game",
+    "title": "Emberfall",
+    "section": "Mid game",
+    "text": "Mid game\nEntity Tracker turns every enchantment into a card, Optimistic Scavenger turns it into a counter. Earthbender Ascension enters, searches a basic, and starts collecting its own landfall quest counters toward a trample counter. This is the phase where you count your firebending triggers: two attackers with Firebender Ascension out put two quest counters on it per combat, so it starts copying at the start of the third combat — plan the combo turn around that."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#the-combo-turn",
+    "href": "decks/2026-08-30-emberfall.html#the-combo-turn",
+    "title": "Emberfall",
+    "section": "The combo turn",
+    "text": "The combo turn\nDeclare attackers with Firebending Student (prowess-boosted), Sun Warriors and anything else. Their firebending triggers go on the stack; before they resolve, cast Firebender Ascension or Earthbender Ascension with the lands you saved — the enchantment cast pumps the Student’s prowess, its eerie trigger draws via Entity Tracker, its land search triggers landfall (burn, Bloodghast, Felidar Retreat), and then the firebending triggers resolve with the Student’s new power. With four quest counters on the Ascension, the firebending abilities resolve twice. Sozin’s Comet in this phase gives the whole team firebending 5 — three attackers are 15 red, doubled to 30 by the Ascension. With Ozai out, all of it banks. Fire Sages and Sun Warriors’ {5} turn excess mana into board. Post-combat, the banked red casts a second Sozin’s Comet or the next wave of enchantments, and the next attack is bigger."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#win-condition-2",
+    "href": "decks/2026-08-30-emberfall.html#win-condition-2",
+    "title": "Emberfall",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nIf the combo pieces stall, the landfall burn clock closes the game: Sabotender and Tannuk deal 1 to each opponent per land. A typical mid-game turn is crack a fetch, play a land, replay a fetched basic with Icetill Explorer, search with Earthbender Ascension — four or five triggers, 4-5 damage, plus Bloodghast and Felidar Retreat tokens attacking. Over three turns that is the game. Tannuk’s second trigger each turn also draws a card, keeping the engine fed."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#mulligan-guide",
+    "href": "decks/2026-08-30-emberfall.html#mulligan-guide",
+    "title": "Emberfall",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep any hand with two to three lands including a red or green source and at least one engine piece: Firebending Student, Firebender Ascension, Bloodghast or a fetch plus Sabotender. Hands with only white or blue sources and no red or green are risky — the early game lives in red and green. A fetch plus a firebending two-drop is a premium keep: it fixes, attacks, and starts the mana engine on turn 2. Mulligan hands with no two-drop and more than one tapped land."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-30-emberfall.html#key-interactions-and-edge-cases",
+    "title": "Emberfall",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nFirebending mana lasts until end of combat. Without Ozai it must be spent mid-combat: enchantments, Firebending Lesson, Fire Sages and Sun Warriors activations are all legal in the declare attackers step.\nFirebender Ascension’s quest counters accrue per triggered ability of an attacking creature, so a firebending trigger is one counter; two Ascensions observe every trigger, and each copies once it has four counters.\nFirebending Student’s X is its power when the trigger resolves, so sequence prowess pumps and enchantment casts before the firebending triggers resolve.\nSun Warriors’ X counts creatures you control as its trigger resolves — create tokens before attacking when possible, and the Firebender Ascension Soldier counts.\nCavern of Souls mana only pays for creature spells of the chosen type; name Human for the bulk of the team.\nEerie triggers on enchantments entering under your control, including ones cast mid-combat — Entity Tracker draws at instant speed.\nIcetill Explorer lets you play lands from the graveyard, so fetched basics are reusable landfall triggers, and it mills one per landfall — mostly harmless, occasionally feeds a Bloodghast.\nRestless lands enter tapped; the animating activations are mana sinks for banked firebending mana after Ozai arrives."
+  },
+  {
+    "objectID": "decks/2026-08-30-emberfall.html#matchups",
+    "href": "decks/2026-08-30-emberfall.html#matchups",
+    "title": "Emberfall",
+    "section": "Matchups",
+    "text": "Matchups\nAggro: Sabotender’s reach holds fliers, Felidar Retreat’s vigilance keeps firebending attackers alive through blocks, and the landfall burn races their clock. Control: eerie card advantage and uncounterable Cavern creatures grind through one-for-one answers, and Sozin’s Comet from foretell plays around hand disruption. Midrange: the loop out-grows them — every combat adds mana, every enchantment adds cards and counters, and Ozai becomes an indestructible 7/7 that most boards cannot answer."
   },
   {
     "objectID": "decks/2026-08-20-thieves-of-the-crooked-way.html",

@@ -1,0 +1,144 @@
+---
+title: "Emberfall"
+subtitle: "Five-color (WUBRG) — Landfall × Eerie × Firebending engine"
+date: "2026-08-30"
+categories: ["combo", "landfall", "eerie", "firebending"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black / Red / Green (5-color) |
+| Archetype | Firebending-mana engine with eerie and landfall triggers (avg CMC 2.86) |
+| Size | 60 cards |
+| Primary win | Firebending combat: attackers generate red mana during combat (Firebending Student adds X red equal to its power, Sun Warriors add X equal to your creature count, Sozin's Comet gives every creature firebending 5), Firebender Ascension copies those mana abilities once it has four quest counters, and Ozai, the Phoenix King converts unspent combat mana into red mana that persists. That mana replays enchantments and fetches mid-combat, which trigger eerie draws and landfall pumps, growing the attackers for the next, bigger swing. Rogue's Passage makes the finisher unblockable |
+| Secondary win | Landfall burn: Sabotender and Tannuk, Memorial Ensign deal 1 damage to each opponent per land; fetches, Earthbender Ascension searches and Icetill Explorer's land-from-graveyard recursion stack five or six triggers a turn, draining 5-6 life every turn while Bloodghast keeps attacking |
+| Land win con | Fire Nation Palace grants a creature firebending 4 straight from the mana base; Rogue's Passage delivers an unblockable kill; Restless Vinestalk attacks as a 5/5 trample and, under Sozin's Comet, taps for 5 red mana of its own |
+
+# Overview
+
+Emberfall is a three-mechanic engine that feeds itself in a loop: attack with firebending creatures to generate red mana during combat, spend that mana on enchantments and fetch lands, let eerie and landfall turn those casts into cards, counters and damage, and attack again with bigger creatures. Firebending is the fuel: every creature with firebending adds red mana when it attacks, and that mana lasts only until end of combat — so the deck is built to spend it mid-combat on instant-speed pieces. Firebender Ascension is the keystone: it is an enchantment (an eerie trigger), it makes a 2/2 Soldier token with firebending 1, and every firebending trigger it observes puts a quest counter on it; at four counters it copies that trigger, doubling the mana. Ozai, the Phoenix King is the second keystone: with him, mana that would empty becomes red instead, so combat mana survives into the main phase and he becomes a flying, indestructible 7/7 as long as you keep six mana unspent.
+
+Eerie is the draw engine: Entity Tracker draws a card every time an enchantment enters, Optimistic Scavenger puts a +1/+1 counter on a creature, and both fire when either Ascension enters. Landfall is the growth and burn engine: Sabotender and Tannuk burn each opponent, Bloodghast returns from the graveyard, Earthbender Ascension collects quest counters toward a trample counter, Felidar Retreat makes tokens or gives the team counters and vigilance, and Icetill Explorer plays extra lands and replays fetched basics from the graveyard. The deck is five colors but asks for little: nine fetches find any basic, the Restless lands and Cavern of Souls fix the splashes, and the list runs on a 2.86 average mana value.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Set up the fuel: Optimistic Scavenger, Bloodghast or a firebending two-drop, crack fetches to fix colors, and land the first Firebender Ascension or Uncle Iroh. Every fetch cracked now is a landfall trigger for Sabotender and Tannuk |
+| Turns 3-5 | Engines online: Entity Tracker and Optimistic Scavenger turn every enchantment into a card and a counter; Earthbender Ascension searches basics (another landfall); Firebending Student and Sun Warriors start attacking for mana |
+| Turns 5-7 | The combo turn: Sozin's Comet gives the whole team firebending 5, Firebender Ascension copies the triggers at four quest counters, Ozai banks the mana, and the loop of enchantments, fetches and landfall pumps doubles the board |
+| Late game | Win condition 2: landfall burn runs 5-6 damage a turn while Felidar Retreat tokens and Restless lands finish, or Ozai goes unblockable through Rogue's Passage |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Firebending Student | The mana engine: prowess grows it on every enchantment cast, and it adds red equal to its power when it attacks — a 3/3 attacks for 3 red, a 5/5 for 5 |
+| Firebender Ascension | The fusion keystone: an enchantment (eerie trigger) that makes a firebending 2/2 and copies firebending abilities once it reaches four quest counters — effectively doubling combat mana |
+| Sun Warriors | Firebending X equal to your creature count, and {5} mid-combat makes another 1/1 Ally to raise X for the trigger |
+| Ozai, the Phoenix King | The payoff: firebending 4, haste, and unspent mana becomes red instead of emptying, so combat mana banks for the main phase; with six or more unspent mana he has flying and indestructible |
+| Sozin's Comet | The amplifier: every creature gains firebending 5 until end of turn, so a team of three attackers adds 15 red; foretell lets you set it up a turn early |
+| Fire Sages | A mana sink that also attacks for 1 red: {1}{R}{R} mid-combat turns combat mana into a growing 2/2 |
+| Uncle Iroh | A 4/2 for hybrid mana with firebending 1, and Firebending Lesson costs {1} less — a free removal spell in combat |
+| Optimistic Scavenger | Eerie counters: every enchantment puts a +1/+1 counter on a creature, feeding Firebending Student's X |
+| Entity Tracker | Eerie draw: flash, and every enchantment entering draws a card |
+| Bloodghast | Free landfall attacker that returns from the graveyard on every land drop and has haste against low-life opponents |
+| Sabotender / Tannuk, Memorial Ensign | The burn wincon: 1 damage to each opponent per landfall, with Tannuk drawing a card on the second trigger of a turn |
+| Earthbender Ascension | Enchantment that searches a basic (a landfall trigger) and turns four landfall quest counters into a +1/+1 trample counter |
+| Icetill Explorer | The recursion engine: an extra land drop each turn and it plays lands from your graveyard — the same fetched basic triggers landfall twice |
+| Felidar Retreat | Landfall tokens or team-wide counters plus vigilance, so firebending attackers survive blocks |
+| Firebending Lesson | Cheap removal that doubles as a mid-combat pump of the firebending theme; Iroh discounts it |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Fire Nation Palace | The land wincon: {1}{R} gives any creature firebending 4 — a Student becomes a 4-mana engine, Ozai banks 4 red, and it enters untapped if you have a basic |
+| Rogue's Passage | Unblockable for the finisher — the classic way to close with Ozai or a huge Student |
+| Restless Vinestalk | Taps for green or blue, then animates into a 5/5 trample attacker; under Sozin's Comet it adds 5 red when it attacks |
+| Restless Cottage | Taps for black or green, animates into a 4/4 Horror that makes a Food and exiles a graveyard card on attack |
+| Evolving Wilds / Terramorphic Expanse / Fabled Passage | The landfall battery: nine fetches, each a sacrifice and a land-enters trigger, and Fabled Passage untaps the land it finds after four lands |
+| Cavern of Souls | Uncounterable engine pieces — name Human to protect the Student, Scavenger, Tracker, Iroh, Sun Warriors and Ozai, and it fixes any color for creatures |
+
+## Curve and mana
+
+25 lands, 35 nonlands: three 1-drops (Optimistic Scavenger x2, Firebending Lesson), fourteen 2-drops (Firebending Student x4, Bloodghast x3, Firebender Ascension x4, Fire Sages, Sabotender x2), nine 3-drops (Entity Tracker x3, Uncle Iroh x2, Earthbender Ascension x3, Tannuk), five 4-drops (Sun Warriors x2, Icetill Explorer x2, Felidar Retreat), two 5-drops (Sozin's Comet x2) and two 6-drops (Ozai x2). Red is the engine color with 22 pips, black and green carry 10 each, white 5 and blue 3. Nine fetches plus Cavern of Souls, Fire Nation Palace and the two-color Restless lands cover the splashes: sequence the tapped lands early and hold fetch cracks for the color you need on curve.
+
+# Gameplay strategy
+
+## Early game
+
+Play a firebending two-drop or Optimistic Scavenger and start cracking fetches. Every fetch is three things at once: mana fixing, a landfall trigger (burn from Sabotender, a counter from Felidar Retreat once it lands, a Bloodghast return) and graveyard fuel for Icetill Explorer. Bloodghast is happy in the graveyard — it comes back on the next land drop. Firebender Ascension wants to hit the board by turn 3 so its quest counters start accruing; Uncle Iroh and Fire Sages attack for red while they wait.
+
+## Mid game
+
+Entity Tracker turns every enchantment into a card, Optimistic Scavenger turns it into a counter. Earthbender Ascension enters, searches a basic, and starts collecting its own landfall quest counters toward a trample counter. This is the phase where you count your firebending triggers: two attackers with Firebender Ascension out put two quest counters on it per combat, so it starts copying at the start of the third combat — plan the combo turn around that.
+
+## The combo turn
+
+Declare attackers with Firebending Student (prowess-boosted), Sun Warriors and anything else. Their firebending triggers go on the stack; before they resolve, cast Firebender Ascension or Earthbender Ascension with the lands you saved — the enchantment cast pumps the Student's prowess, its eerie trigger draws via Entity Tracker, its land search triggers landfall (burn, Bloodghast, Felidar Retreat), and then the firebending triggers resolve with the Student's new power. With four quest counters on the Ascension, the firebending abilities resolve twice. Sozin's Comet in this phase gives the whole team firebending 5 — three attackers are 15 red, doubled to 30 by the Ascension. With Ozai out, all of it banks. Fire Sages and Sun Warriors' {5} turn excess mana into board. Post-combat, the banked red casts a second Sozin's Comet or the next wave of enchantments, and the next attack is bigger.
+
+## Win condition 2
+
+If the combo pieces stall, the landfall burn clock closes the game: Sabotender and Tannuk deal 1 to each opponent per land. A typical mid-game turn is crack a fetch, play a land, replay a fetched basic with Icetill Explorer, search with Earthbender Ascension — four or five triggers, 4-5 damage, plus Bloodghast and Felidar Retreat tokens attacking. Over three turns that is the game. Tannuk's second trigger each turn also draws a card, keeping the engine fed.
+
+## Mulligan guide
+
+Keep any hand with two to three lands including a red or green source and at least one engine piece: Firebending Student, Firebender Ascension, Bloodghast or a fetch plus Sabotender. Hands with only white or blue sources and no red or green are risky — the early game lives in red and green. A fetch plus a firebending two-drop is a premium keep: it fixes, attacks, and starts the mana engine on turn 2. Mulligan hands with no two-drop and more than one tapped land.
+
+## Key interactions and edge cases
+
+- Firebending mana lasts until end of combat. Without Ozai it must be spent mid-combat: enchantments, Firebending Lesson, Fire Sages and Sun Warriors activations are all legal in the declare attackers step.
+- Firebender Ascension's quest counters accrue per triggered ability of an attacking creature, so a firebending trigger is one counter; two Ascensions observe every trigger, and each copies once it has four counters.
+- Firebending Student's X is its power when the trigger resolves, so sequence prowess pumps and enchantment casts before the firebending triggers resolve.
+- Sun Warriors' X counts creatures you control as its trigger resolves — create tokens before attacking when possible, and the Firebender Ascension Soldier counts.
+- Cavern of Souls mana only pays for creature spells of the chosen type; name Human for the bulk of the team.
+- Eerie triggers on enchantments entering under your control, including ones cast mid-combat — Entity Tracker draws at instant speed.
+- Icetill Explorer lets you play lands from the graveyard, so fetched basics are reusable landfall triggers, and it mills one per landfall — mostly harmless, occasionally feeds a Bloodghast.
+- Restless lands enter tapped; the animating activations are mana sinks for banked firebending mana after Ozai arrives.
+
+## Matchups
+
+Aggro: Sabotender's reach holds fliers, Felidar Retreat's vigilance keeps firebending attackers alive through blocks, and the landfall burn races their clock. Control: eerie card advantage and uncounterable Cavern creatures grind through one-for-one answers, and Sozin's Comet from foretell plays around hand disruption. Midrange: the loop out-grows them — every combat adds mana, every enchantment adds cards and counters, and Ozai becomes an indestructible 7/7 that most boards cannot answer.
+
+# Deck list (Arena import)
+
+```
+Emberfall
+Deck
+4 Firebending Student
+3 Entity Tracker
+2 Optimistic Scavenger
+3 Bloodghast
+2 Sun Warriors
+1 Fire Sages
+2 Uncle Iroh
+2 Sabotender
+1 Tannuk, Memorial Ensign
+2 Ozai, the Phoenix King
+2 Icetill Explorer
+4 Firebender Ascension
+3 Earthbender Ascension
+2 Sozin's Comet
+1 Firebending Lesson
+1 Felidar Retreat
+4 Evolving Wilds
+4 Terramorphic Expanse
+1 Fabled Passage
+1 Cavern of Souls
+1 Rogue's Passage
+2 Fire Nation Palace
+2 Restless Vinestalk
+1 Restless Cottage
+4 Forest
+2 Mountain
+1 Swamp
+1 Island
+1 Plains
+```
