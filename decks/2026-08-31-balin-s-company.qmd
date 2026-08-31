@@ -1,0 +1,172 @@
+---
+title: "Balin's Company"
+subtitle: "Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck"
+date: "2026-08-31"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Red (Jeskai) |
+| Archetype | Combo (avg CMC 3.1) |
+| Core mechanic | Storied Dwarves — legendary Dwarf ETBs, Dwarf tokens, trigger doubling |
+| Primary win | Balin, Loremaster burn loop: each Dwarf ETB discards your hand, draws X and deals X to each opponent |
+| Secondary win | Go-wide Dwarf tokens with Fíli, Bard and Belladonna pumps, plus An Unexpected Party's +2/+2 anthem |
+| Land win condition | The Lonely Mountain 2/2 Dwarf army, feeding Balin triggers |
+
+# Overview
+
+Balin's Company is the Storied Dwarf combo deck from The Hobbit: it turns every Dwarf that enters the battlefield — creature or token — into card draw and direct damage. The engine is Balin, Loremaster: whenever he or another Dwarf enters, you may discard your hand, draw X cards, and — as long as you have an enduring story — deal X damage to each opponent. Bifur, Melodic Rider doubles every Dwarf triggered ability, Fíli the Pathfinder mints 2/2 Dwarf tokens off every nontoken Dwarf, and Bard, King of Dale doubles both the tokens and the draws. One At the Door (An Unexpected Party's adventure) for X=4 with Balin and Bifur on board is roughly 40 damage.
+
+"Storied" is the set's snowball mechanic: control three or more artifacts, legendaries and/or Sagas and you have an enduring story for the rest of the game. This deck runs a dozen legendary creatures, so the story turns on almost by itself on turns 2-3 and never turns off.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Dwarven Mauler or Lake-town Lookout on one, Nori/Belladonna/Bombur/Ori on two-three. Two or three legendaries turn on Storied. Old Thrush fixes mana |
+| Turns 4-5 | Engine: Fíli or Bifur, first Balin. Start banking hand size — every card in hand is burn |
+| Turns 6-7 | Combo: Balin + Bifur (+ Bard) with a token source — The Lonely Mountain activations, Fíli tokens, or At the Door X dwarf tokens — each Dwarf ETB is X damage to the opponent |
+| Late game | An Unexpected Party's enchantment side gives Dwarves +2/+2; Belladonna's third token each turn pumps the whole board |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Balin, Loremaster | Combo payoff: on any Dwarf ETB, discard hand, draw X, deal X to each opponent while Storied |
+| Bifur, Melodic Rider | Trigger doubler: while Storied, every Dwarf triggered ability triggers an additional time |
+| Fíli the Pathfinder | Token engine: nontoken Dwarf ETBs make 2/2 Dwarf tokens (more Balin triggers); Storied anthem +1/+1 |
+| Bard, King of Dale | Multiplier: doubles all token creation and all non-draw-step draws — doubles Balin's draw and every token source |
+| An Unexpected Party | Finisher: At the Door creates X 2/2 Dwarf tokens; enchantment side gives a chosen type +2/+2 (choose Dwarf) |
+| Belladonna Took | Token payoff: first token each turn gains life, second draws, third pumps all your creatures |
+| Nori, Teller of Tales | Storied enabler + first strike on attack |
+| Ori, Keeper of Songs | Storied enabler: +1/+0 and vigilance while the story endures |
+| Bombur, Gentle Dreamer | Storied enabler: untaps every turn while the story endures |
+| Dwarven Mauler | One-drop Dwarf — an extra Balin trigger; discounts equip costs (future-proofing) |
+| Dwarven Provisioner | Two-drop Dwarf with a {3}{W} team-wide pump |
+| Bilbo Baggins, Burglar | Legendary halfling: draws on entry; Take a Glance scrys 2 |
+| Lake-town Lookout | One-drop: recruits on death, cycling cards into your hand |
+| Old Thrush | Life gain plus a basic land on top — smooths the 5-6 drop curve |
+| Gandalf, Wandering Wizard | Legendary with ward 3; {6} shuffles and draws three |
+| Velvetwing Butterflies | Flyer; Gaze in Wonder taps two creatures (feeds Magnificent End's discount) |
+| Magnificent End | Removal: 5 damage, {3} cheaper against tapped creatures |
+| Sound the Trumpets | Counterspell; recruits if the countered spell cost 2 or less |
+| Celebrate the Mountain-king | Exiles an opponent's permanent until it leaves; recruits on entry |
+| Enchanted River's Grasp | Taps a creature forever, strips counters and abilities — enables cheap Magnificent Ends |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Land win condition: {4}{R} makes a 2/2 Dwarf token ({1} cheaper per Equipment) — each token re-triggers Balin; also red fixing |
+| Restless Anchorage | {1}{W}{U}: becomes a 2/3 flying Bird that makes a Map artifact token on attack — artifacts count toward Storied |
+| Abraded Bluffs / Eroded Canyon | {R}{W} / {U}{R} fixing that deals 1 damage to the opponent on entry — chips that add up with the burn plan |
+| Temple of Enlightenment | {W}{U} fixing with scry 1 |
+| Stark Industries / Peculiar Lighthouse | {U}{R} fixing; Lighthouse comes in untapped while any player is at 13 or less life |
+| Agna Qel'a | {U} with a loot ability — filters the hand, feeding Balin's X |
+| Abandoned Air Temple | {W} with a {3}{W} team-wide +1/+1 counter ability |
+| Capital City / Rumble Arena | Colorless utility: tap for any color with {1}; Rumble Arena scrys on entry, Capital City cycles |
+| Demolition Field | Nonbasic-land removal, replacing itself with a basic |
+
+## Curve and mana
+
+Twenty-four lands: eleven colored duals and utility lands, five basics, plus three copies of The Lonely Mountain (red sources that enter tapped). The Desert ping-lands, Temples and utility lands fix all three colors at the cost of tempo, so the deck plays like a 22-land list — Old Thrush, Bilbo and Capital City's cycling keep the land drops flowing. The curve is a mountain: twelve cards at one to two mana, a dense three-to-four mana midgame (Fíli, Balin adjacent), and the five-to-six mana combo top (Balin, Bifur, Bard). Every card in hand is potential burn, so draw spells double as damage amplifiers.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Dwarven Mauler or Lake-town Lookout, then a legendary: Nori, Belladonna, Bombur or Ori. Two to three legendaries on board turn on Storied by turn three, which makes Fíli an anthem and Bombur untap reliably. Old Thrush fixes the third land drop and gains life against aggro. Do not fire off Take a Glance or Bilbo early unless you need to dig — hand size is the combo's fuel gauge.
+
+## Mid game
+
+Resolve Fíli and/or Bifur and start converting every Dwarf into tokens and triggers. The Lonely Mountain's {4}{R} activation makes a 2/2 Dwarf that re-triggers Balin — two activations in one turn is already two rounds of draw-plus-burn. Use Magnificent End and Sound the Trumpets to keep Balin alive and the board clear; Enchanted River's Grasp on a blocker also turns on the End's discount.
+
+## The combo turn
+
+The kill sequence: Balin + Bifur (and ideally Bard) on board, Storied active. Then:
+
+1. Cast At the Door with X=4 (or activate The Lonely Mountain twice, or let Fíli make tokens off a Dwarf cast).
+2. Each Dwarf token enters → Balin triggers, doubled by Bifur → two triggers per token; with Bard on the battlefield the token count itself is doubled.
+3. Each Balin trigger: discard your hand (say 5-7 cards), draw that many (doubled by Bard), deal that much to each opponent.
+4. Eight to sixteen triggers of 5-7 damage ends the game on the spot — no combat needed.
+
+The same loop works with Fíli tokens: a single nontoken Dwarf cast makes two Dwarf tokens (doubled by Bifur), each of which triggers Balin twice more.
+
+## Win condition 2
+
+The go-wide token finish: Fíli's +1/+1 Storied anthem, Belladonna's third-token-per-turn +1/+1 on all creatures, Dwarven Provisioner's {3}{W} pump, Abandoned Air Temple's counters, and An Unexpected Party's +2/+2 anthem for a chosen creature type (Dwarf). Nori grants first strike on the swing; Gandalf's ward 3 protects the board from spot removal. Restless Anchorage's flying Bird and Map tokens add artifact count and evasion.
+
+## Land win condition
+
+The Lonely Mountain is the set's land win condition: {4}{R} creates a 2/2 red Dwarf token, reduced by {1} per Equipment. This build runs no Equipment, so it activates at full cost — treat it as the slow-drip engine: each activation is one more Dwarf ETB (two with Bard), one more Balin trigger, one more Belladonna step. Three copies give the deck its red mana and its repeatable token source for the late game.
+
+## Mulligan guide
+
+Keep any hand with three lands and a two-drop legendary or Dwarven Mauler. Hands with Balin or Fíli plus fixing are strong. Ship hands with only six-drops (Bifur, Bard) and no early plays, and hands without colored sources matching the curve. Old Thrush, Bilbo and Capital City make sketchy keepers playable — they filter or fix. Against aggro, prefer basics and untapped lands; the tapped Deserts and Temples are acceptable only with a clean curve behind them.
+
+## Key interactions and edge cases
+
+- Balin triggers on *any* Dwarf ETB — including the 2/2 tokens from Fíli, The Lonely Mountain and At the Door. It is "may": decline if you do not want to shrink your hand.
+- Bifur doubles *Dwarf* triggered abilities while Storied — that includes Balin's burn, Fíli's token creation, and Nori's first-strike trigger, but not Belladonna's (she is a Halfling).
+- Bard doubles token creation and all draws except the first card of each draw step — Balin's X-draw and At the Door's X tokens both double.
+- Storied is a once-per-game switch: three or more artifacts, legendaries and/or Sagas simultaneously, ever, and the story endures permanently. Restless Anchorage's Map tokens are artifacts and count.
+- An Unexpected Party's adventure must be cast as the sorcery (At the Door) from hand; the enchantment side enters only when cast as the enchantment — pick Dwarf for +2/+2.
+- The Lonely Mountain enters tapped unless you control an Equipment; this deck runs none, so it always enters tapped — sequence it late in your land drops.
+- Magnificent End discounts itself by {3} against a tapped creature: pair it with Enchanted River's Grasp, Gaze in Wonder, or a tapped attacker.
+- Sound the Trumpets recruits only if the countered spell's mana value was 2 or less.
+- Belladonna's ability resolves in order per turn — the third token each turn pumps the board, so time your token burst for after blockers are declared if needed.
+- Gandalf's {6} activation shuffles him into the library — an emergency refill, not a value engine.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats, landfall)**: Belladonna and Old Thrush gain life, Velvetwing blocks fliers, Magnificent End and Sound the Trumpets remove the threats, and Celebrate the Mountain-king exiles their anthem or lord. Race to Balin — one burn turn outpaces most clocks.
+- **Midrange**: Bifur doubles the value of every Dwarf; Belladonna's draw step keeps the hand full; the combo turn out-damages their board. Use Balin triggers as removal-light burn once they tap out.
+- **Control**: Bard, Gandalf and Bilbo refill through counters; At the Door only needs one turn with Balin. Sound the Trumpets fights their sweeper, and Celebrate the Mountain-king exiles their win condition until the kill turn.
+- **Combo race**: the Balin burn turn is faster than most engines — prioritize resolving Balin + Bifur over board development, and hold Sound the Trumpets for their enabler.
+
+# Deck list (Arena import)
+
+```text
+2 Abraded Bluffs
+1 Abandoned Air Temple
+1 Agna Qel'a
+1 An Unexpected Party
+3 Balin, Loremaster
+1 Bard, King of Dale
+2 Belladonna Took
+2 Bifur, Melodic Rider
+2 Bilbo Baggins, Burglar
+2 Bombur, Gentle Dreamer
+1 Capital City
+1 Celebrate the Mountain-king
+1 Demolition Field
+2 Dwarven Mauler
+2 Dwarven Provisioner
+1 Enchanted River's Grasp
+2 Eroded Canyon
+2 Fíli the Pathfinder
+1 Gandalf, Wandering Wizard
+1 Island
+2 Lake-town Lookout
+3 Magnificent End
+1 Mountain
+2 Nori, Teller of Tales
+2 Old Thrush
+2 Ori, Keeper of Songs
+1 Peculiar Lighthouse
+4 Plains
+2 Restless Anchorage
+1 Rumble Arena
+2 Sound the Trumpets
+1 Stark Industries
+2 Temple of Enlightenment
+3 The Lonely Mountain
+1 Velvetwing Butterflies
+```
