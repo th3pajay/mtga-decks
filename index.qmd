@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-08-30**:
+Deck guides published **2026-08-31**:
 
-- **[Emberfall](decks/2026-08-30-emberfall.html)** — Five-color (WUBRG) — Landfall × Eerie × Firebending engine  `combo` `landfall` `eerie` `firebending`
-- **[Dragon's Ledger](decks/2026-08-30-dragon-s-ledger.html)** — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck  `hobbit` `smaug`
+- **[Banner Fall](decks/2026-08-31-banner-fall.html)** — Red / Black — Token creation × Mobilize engine  `combo` `token-creation` `mobilize`

@@ -1,0 +1,132 @@
+---
+title: "Banner Fall"
+subtitle: "Red / Black — Token creation × Mobilize engine"
+date: "2026-08-31"
+categories: ["combo", "token-creation", "mobilize"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / Black |
+| Archetype | Mobilize-token drain engine (avg CMC 2.5) |
+| Size | 60 cards |
+| Primary win | Warrior drain: every Mobilize warrior that dies at the end step pings for 3 damage across Garna, Bloodfist of Keld, Venerated Stormsinger and Vengeful Bloodwitch, while the attack itself chips in |
+| Secondary win | Devastating Onslaught copy-burst: X haste copies of Avenger of the Fallen or Stadium Headliner trigger Mobilize en masse for a one-turn 20-40 damage drain, with Great Train Heist doubling the combat phase |
+| Land win con | Restless Vents attacks as a menace Insect and loots to feed Avenger's graveyard count; Rogue's Passage makes Avenger unblockable for the kill swing; Cavern of Souls makes the Warrior engine uncounterable |
+
+# Overview
+
+Banner Fall fuses token creation with the Tarkir Mobilize mechanic. Every Mobilize creature attacks and creates tapped-and-attacking 1/1 red Warrior tokens that are sacrificed at the beginning of the next end step. That forced sacrifice is not a drawback — it is the engine. The warriors die every single end step, and the deck is built so that every death deals damage: Garna, Bloodfist of Keld pings each opponent for 1 when a non-attacking creature dies, Venerated Stormsinger drains 1 and gains 1 life per death, and Vengeful Bloodwitch repeats that drain. One attacking Avenger with a stocked graveyard means four, five or more warriors dying on end step, which is 12-15 damage to each opponent before your next turn even starts.
+
+The token creation half of the fusion supplies the board and the fodder: Dragon Fodder and Goblin Surprise make Goblins that attack and feed Corrupted Conviction (sacrifice a creature, draw two) and Betrayer's Bargain (sacrifice a creature, deal 5). Every token is a card, a removal spell or a damage trigger — nothing is wasted. Great Train Heist adds a second combat phase, doubling the Mobilize triggers, and Devastating Onslaught turns one Mobilizer into a horde of haste copies that all die at once, converting the whole board into one enormous drain. The average mana value is 2.5 and the deck is aggressive enough to win on board alone while the drain engine grinds in the background.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Curve out: Stadium Headliner or Shock Brigade attacks on turn 2, creating the first warriors; Dragon Fodder and Corrupted Conviction turn early tokens into cards |
+| Turns 3-5 | Engine online: Garna and Venerated Stormsinger hit the board, so every end step converts dead warriors into damage and life; Avenger of the Fallen starts counting the graveyard |
+| Turns 5-7 | The combo turn: Devastating Onslaught copies a Mobilizer with haste, Great Train Heist adds a second combat, and one end step resolves 15-25 death triggers for lethal damage |
+| Late game | Grind or finish: Restless Vents loots the board into Avenger fuel, Rogue's Passage delivers the unblockable Avenger swing, and the drain clock never stops |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Avenger of the Fallen | The engine piece: a 2/4 deathtouch Warrior with Mobilize X where X is the number of creature cards in your graveyard — a stocked yard makes five or more warriors per attack |
+| Stadium Headliner | A one-drop Mobilizer that also acts as removal: {1}{R}, sacrifice it to deal damage equal to your creature count to a target creature |
+| Venerated Stormsinger | The drain engine: Mobilize 1 and every creature death (including the warriors) makes each opponent lose 1 life while you gain 1 |
+| Shock Brigade | The aggressive two-drop: menace plus Mobilize 1, usually the first warrior producer of the game |
+| Garna, Bloodfist of Keld | The payoff: when a creature dies it draws a card if it was attacking, otherwise it pings each opponent for 1 — end-step warrior deaths ping, combat-trade deaths draw |
+| Vengeful Bloodwitch | A second drain source: every creature death makes target opponent lose 1 life and you gain 1, stacking with the Stormsinger |
+| Dragon Fodder | Two Goblins for {1}{R}: early board, sacrifice fodder and Garna fuel |
+| Goblin Surprise | Flexible instant: two more Goblins, or +2/+0 for the whole team as a combat finisher |
+| Great Train Heist | The combo multiplier: an extra combat phase untaps the team, so every Mobilizer attacks twice and creates twice as many warriors |
+| Devastating Onslaught | The finisher: X haste copies of a Mobilizer, each triggering Mobilize on attack and dying into the drain at end step |
+| Corrupted Conviction | Sacrifice a token, draw two cards — the cheapest way to turn a warrior into card advantage |
+| Betrayer's Bargain | Sacrifice a creature or pay {2} to deal 5 to a creature, exiling it if it would die — clean removal that uses the token board |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Vents | The land win con: animates into a 2/3 menace Insect and loots on attack, discarding creature cards to feed Avenger's Mobilize X while drawing into more gas |
+| Rogue's Passage | Unblockable for the finisher — Avenger's deathtouch swing plus its warrior wave closes the game through any board |
+| Cavern of Souls | Name Warrior: the entire Mobilize core (Avenger, Stadium Headliner, Shock Brigade) becomes uncounterable, and it fixes black or red for them |
+| Blazemire Verge | Taps for black or red once a Swamp or Mountain is out — the untapped fixing that keeps the curve fast |
+| Blood Crypt | The shockland: untapped black/red for 2 life, or tapped for free |
+| Raucous Theater | Tapped black/red that surveils 1, smoothing draws and feeding the graveyard count |
+
+## Curve and mana
+
+22 lands, 38 nonlands: ten one- and two-mana cards (Stadium Headliner, Shock Brigade, Corrupted Conviction, Dragon Fodder), a strong four-mana top end (Garna, Stormsinger, Avenger) and a 2.5 average mana value. Red and black split the pips almost evenly; the mana base is nine dual sources plus four basics, with Cavern of Souls and Rogue's Passage as colorless utility. Sequence the tapped lands (Raucous Theater, Restless Vents) early and keep Blood Crypt and Blazemire Verge for the curve.
+
+# Gameplay strategy
+
+## Early game
+
+Stadium Headliner on turn 1 attacks on turn 2 for a warrior; Shock Brigade with menace usually connects for two more. Dragon Fodder fills the board, and the first Corrupted Conviction converts a token into two cards. Prioritize attacking with Mobilizers over trading — the warriors they create are worth more dying on your end step than the Mobilizer is worth in combat. Discard creature cards to Restless Vents liberally; every one makes Avenger's next Mobilize bigger.
+
+## Mid game
+
+Garna and Venerated Stormsinger are the priority plays from turn 4 on. Once both are down, a single Shock Brigade attack is 3 damage from the warrior, 1 from Garna and 1 from the Stormsinger as it dies, plus 2 life — and the attack damage itself. Start counting: with two Mobilizers attacking, each end step is 6-8 damage to each opponent. Use Betrayer's Bargain on anything that blocks, and hold Corrupted Conviction for end-of-turn or in response to removal, trading a token for two cards.
+
+## The combo turn
+
+Cast Great Train Heist during the first combat phase to create a second combat; every Mobilizer attacks twice, doubling the warrior wave. Then Devastating Onslaught with X equal to your graveyard count (or as much mana as you have): the copies enter with haste, attack, and each triggers Mobilize. With X 3-4 and a stocked graveyard, one end step resolves 15-25 deaths — Garna pings each opponent for 1 per death, Venerated Stormsinger drains 1 per death, and Vengeful Bloodwitch drains 1 per death. That is 30-60 damage spread across the table in a single end step, with life gain to match. The Onslaught copies themselves die into the same drain.
+
+## Win condition 2
+
+If the combo pieces do not come together, the drain clock wins anyway. Every turn, Mobilize warriors die and ping for 3 apiece; Restless Vents loots and attacks; Corrupted Conviction keeps the hand full. The deck simply out-values and out-drains attrition decks. For the closing swing, Rogue's Passage makes Avenger of the Fallen unblockable — a deathtouch 2/4 hitting face while X warriors flood in, then the end step drains for the rest.
+
+## Mulligan guide
+
+Keep any hand with two or three lands including at least one red and one black source, and a one- or two-drop play (Stadium Headliner, Shock Brigade, Dragon Fodder or Corrupted Conviction). Hands with only colorless lands and no colored source are risky. A hand with a Mobilizer and a Corrupted Conviction is premium. Mulligan hands with no early play or more than two tapped lands. Garna and Stormsinger are worth keeping on four lands even without early creatures.
+
+## Key interactions and edge cases
+
+- Mobilize warriors are created tapped and attacking, then sacrificed at the beginning of the next end step — they are no longer attacking then, so Garna pings rather than draws for them; combat-trade deaths (while still attacking) draw cards instead.
+- Garna's ping, Stormsinger's drain and Bloodwitch's drain are separate triggers, so one dead warrior is 3 damage to each opponent and 2 life for you with all three out.
+- Great Train Heist's extra combat requires casting it during a combat phase; warriors from the first combat stay on the board (tapped and attacking) through the second and all die together at the end step.
+- Devastating Onslaught copies enter as tokens, so they are not legendary duplicates of Garna issues — but do not copy a creature with a legend rule problem; copy Mobilizers.
+- Stadium Headliner's sacrifice ability counts all creatures you control — with a warrior wave on board it deals 6-10 damage to a blocker, then the sacrificed Headliner itself drains.
+- Cavern of Souls mana only pays for creature spells of the chosen type; name Warrior for the core.
+- Betrayer's Bargain exiles the creature if it would die this turn, which is relevant against graveyard decks.
+- Restless Vents enters tapped; animate it only when the activation is worth the mana, usually to loot or to close with menace.
+
+## Matchups
+
+Aggro: the drain engine races their clock — every death gains life while pinging them, and menace attackers force bad blocks. Control: Cavern of Souls makes the Warrior core uncounterable and Corrupted Conviction turns their removal into two cards for you; grind them through card advantage. Midrange: the board fills faster than theirs and Devastating Onslaught turns one trade into a 20-point end step; save Betrayer's Bargain for their key threat.
+
+# Deck list (Arena import)
+
+```
+Banner Fall
+Deck
+4 Avenger of the Fallen
+4 Stadium Headliner
+4 Venerated Stormsinger
+4 Shock Brigade
+4 Garna, Bloodfist of Keld
+2 Vengeful Bloodwitch
+4 Dragon Fodder
+2 Goblin Surprise
+2 Great Train Heist
+2 Devastating Onslaught
+4 Corrupted Conviction
+2 Betrayer's Bargain
+4 Restless Vents
+3 Cavern of Souls
+1 Rogue's Passage
+4 Blazemire Verge
+4 Blood Crypt
+2 Raucous Theater
+2 Swamp
+2 Mountain
+```
