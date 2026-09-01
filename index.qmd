@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-01**:
 
 - **[Paid in Blood](decks/2026-09-01-paid-in-blood.html)** — WUBRG | Sacrifice  `combo` `sacrifice`
+- **[Moon and Dale](decks/2026-09-01-moon-and-dale.html)** — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck  `hobbit` `elves`

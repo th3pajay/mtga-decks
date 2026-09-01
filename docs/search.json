@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-09-01:\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice"
+    "text": "Deck guides published 2026-09-01:\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -826,102 +826,102 @@
     "text": "Matchups\nAggro: Candy Grapple, Feed the Cycle, Abrade and The Witch’s Vanity hold the ground while Food life gain keeps you alive; Tough Cookie’s 4/4s block profitably. Control: discover chains overwhelm one-for-one answers, because the discovered spells never cost mana and Quintorius’s triggers accumulate; hold Buried Treasure activations for after a sweeper. Midrange: Ygra and Curator out-grind; Camellia and Confectioner keep the board wide enough that a single removal spell rarely matters."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html",
-    "href": "decks/2026-08-25-swarm-calculus.html",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html",
+    "href": "decks/2026-09-01-moon-and-dale.html",
+    "title": "Moon and Dale",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nWhite / Blue / Black / Green (WUBG)\n\n\nArchetype\nLegendary-Elf combo-value (avg nonland CMC 3.9)\n\n\nCore mechanic\nLegendary Elf ETB draw engine x token doubling x landfall\n\n\nPrimary win\nThranduil, the Elvenking draws two per legendary Elf entry, Bard, King of Dale doubles every non-first draw, and the draw-2 payoffs turn cards into counters, lifelink and pump for an unblockable alpha strike\n\n\nSecondary win\nElf token swarm: Thranduil, Sindarin Liege landfall tokens doubled by Bard, King of Dale, growing with Thranduil’s Company and Mirkwood Pathmaker\n\n\nLand win condition\nRestless Vinestalk man-land + Rogue’s Passage unblockable"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "title": "Swarm Calculus",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#game-plan-phases",
+    "href": "decks/2026-09-01-moon-and-dale.html#game-plan-phases",
+    "title": "Moon and Dale",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop: Wood Elves, Lakeshore Apothecary or The Queen of Dale; play Elrond or Bard the Bowman; start the second-card-drawn triggers\n\n\nTurns 4-5\nEngine: Thranduil, Sindarin Liege starts making Elf tokens; Thranduil, the Elvenking turns every legendary Elf into a 2-card draw; Thranduil’s Company adds extra land drops\n\n\nTurn 6+\nConvert: Bard, King of Dale doubles draws and tokens; Galion sets a creature’s power equal to his own; Rogue’s Passage makes it unblockable\n\n\nLate game\nRestless Vinestalk is a 5/5 trample man-land; Ravenhill Flock has eaten a dozen +1/+1 counters"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "title": "Swarm Calculus",
-    "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+    "objectID": "decks/2026-09-01-moon-and-dale.html#card-roles",
+    "href": "decks/2026-09-01-moon-and-dale.html#card-roles",
+    "title": "Moon and Dale",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThranduil, the Elvenking\nEngine: every other legendary Elf entering draws two cards (then discards one); also gains all activated abilities of Elf cards in your graveyard\n\n\nBard, King of Dale\nMultiplier: doubles every non-first draw and doubles all tokens created\n\n\nElrond, Moon-Reader\nDraw on creature-ability activation (once per turn); flicker two permanents to re-trigger ETBs\n\n\nThranduil, Sindarin Liege\nAnthem for Elves; landfall makes a 1/1 Elf; adventure Silvan Rally mills four for two lands\n\n\nBard the Bowman\nDraw-2 payoff: counter + lifelink on your second draw each turn\n\n\nGalion, Elvenking’s Butler\nAttack payoff: another creature’s base power/toughness becomes Galion’s — an instant “big number”\n\n\nThranduil’s Company\nExtra land drops plus landfall: two +1/+1 counters and vigilance on a creature\n\n\nWood Elves\nRamp: fetches a Forest into play\n\n\nMirkwood Pathmaker\nFinisher sizing: power/toughness equal to your land count\n\n\nSilvan Reveler\nLoot on entry (a discarded land enters the battlefield); landfall recursion from the graveyard\n\n\nRavenhill Flock\nFlying beater that grows on every draw\n\n\nMirkwood Meditator\nLandfall: becomes a 4/2 blocker/attacker at instant speed\n\n\nLakeshore Apothecary\nTwo-drop that grows on your second draw\n\n\nThe Queen of Dale\nPunishes the opponent’s first noncreature spell with a recruit (draw, discard, maybe a Soldier)\n\n\nLake-town Toymaker\n+3/+0 and first strike if you drew two or more this turn\n\n\nBoughside Wanderers\nDigs four for a permanent; landfall +2/+2\n\n\nMost Decrepit Old Bird\nCheap flyer; adventure Speak Secrets mills four for an instant or sorcery\n\n\nLake-town Mariners\nVigilance ward body; adventure Gone Fishing blinks two of your permanents to re-trigger landfall/ETBs\n\n\nThranduil’s Decree\nCounterspell with exile; you may cast the exiled spell for free\n\n\nTroll Negotiations\nTwo counters plus a fight — removal that also pumps"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#lands-as-engines",
+    "href": "decks/2026-09-01-moon-and-dale.html#lands-as-engines",
+    "title": "Moon and Dale",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nRestless Vinestalk\nLand win condition: {3}{G}{U} makes a 5/5 trample Plant; on attack sets another creature’s base stats to 3/3; also fixes blue-green\n\n\nRogue’s Passage\nLand win condition: {4} makes the Galion-pumped or Pathmaker-sized creature unblockable\n\n\nLush Portico\nWhite-green fixing with surveil 1\n\n\nTemple of Mystery / Temple of Plenty\nBlue-green / white-green fixing with scry 1\n\n\nMultiversal Passage\nAny-basic fixing (usually a second Swamp for Thranduil)\n\n\nTarnation Vista\nAny-color fixing that also adds per color among your monocolored permanents\n\n\nStarting Town\nAny-color fixing early; untapped on the first three turns\n\n\nMistrise Village\nBlue source whose activation makes your next spell uncounterable"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#curve-and-mana",
+    "href": "decks/2026-09-01-moon-and-dale.html#curve-and-mana",
+    "title": "Moon and Dale",
     "section": "Curve and mana",
-    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+    "text": "Curve and mana\nTwenty-five lands: twelve basics (5 Forest, 4 Island, 2 Plains, 1 Swamp) and thirteen fixing lands. Black is a splash for Thranduil, the Elvenking (one Swamp plus Multiversal Passage and Tarnation Vista cover it), so the mana plays like a Bant deck with a black pip. The curve peaks at four (Sindarin Liege, Galion, Thranduil’s Company, Ravenhill Flock) with a top end of six (Bard, King of Dale, Boughside Wanderers, Lake-town Mariners, Thranduil’s Decree). Wood Elves and the landfall payoffs smooth the early turns; most games reach six mana on turn six without acceleration."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "title": "Swarm Calculus",
-    "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#early-game",
+    "href": "decks/2026-09-01-moon-and-dale.html#early-game",
+    "title": "Moon and Dale",
+    "section": "Early game",
+    "text": "Early game\nPlay a two-drop: Wood Elves for ramp, Lakeshore Apothecary for the eventual draw triggers, or The Queen of Dale against spell-heavy decks. On turn three, Elrond or Bard the Bowman. The goal is a board and a draw trigger ready for when Thranduil arrives. Do not hold lands back — the deck’s clock is land count (Pathmaker, Sindarin Liege tokens, Thranduil’s Company)."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "title": "Swarm Calculus",
-    "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#mid-game",
+    "href": "decks/2026-09-01-moon-and-dale.html#mid-game",
+    "title": "Moon and Dale",
+    "section": "Mid game",
+    "text": "Mid game\nResolve Thranduil, Sindarin Liege, then start playing legendary Elves. Each one draws two cards with Thranduil, the Elvenking on board; with Bard, King of Dale that becomes four cards drawn (discard one). Bard the Bowman puts a counter and lifelink on something every time you hit your second draw; Ravenhill Flock grows every draw. Thranduil’s Company turns the extra land drops into +1/+1 counters with vigilance. Use Thranduil’s Decree to protect the engine or stop a sweeper."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#the-combo-turn",
+    "href": "decks/2026-09-01-moon-and-dale.html#the-combo-turn",
+    "title": "Moon and Dale",
     "section": "The combo turn",
-    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+    "text": "The combo turn\nThe signature sequence: with Thranduil, the Elvenking and Bard, King of Dale on board, cast any other legendary Elf (Sindarin Liege, Elrond, Galion). Thranduil draws two, Bard doubles it to four. Bard the Bowman pumps a creature with +1/+1 and lifelink; Ravenhill Flock and Lakeshore Apothecary grow. Then attack: Galion sets a creature’s base power and toughness to his own, Rogue’s Passage makes it unblockable, and the life total disappears. Against creature decks, the same draw burst finds Troll Negotiations or Lake-town Mariners’ Gone Fishing to clear the path."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "title": "Swarm Calculus",
-    "section": "Win condition 2: the ETB burn loop",
-    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#win-condition-2",
+    "href": "decks/2026-09-01-moon-and-dale.html#win-condition-2",
+    "title": "Moon and Dale",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe Elf token swarm: Sindarin Liege’s landfall makes a 1/1 Elf per land; Bard, King of Dale doubles every token. Thranduil’s Company stacks +1/+1 counters and vigilance; Mirkwood Pathmaker is as big as your land count; Boughside Wanderers pumps +2/+2 per landfall. Restless Vinestalk joins as a 5/5 trample Plant. This plan beats midrange boards by outnumbering and out-sizing them, and beats control by forcing multiple sweepers — Thranduil draws two per legendary Elf after each wipe."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#mulligan-guide",
+    "href": "decks/2026-09-01-moon-and-dale.html#mulligan-guide",
+    "title": "Moon and Dale",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop, or three lands and a four-drop engine. Hands with Thranduil, the Elvenking but no fixing for black are fine if Multiversal Passage or Tarnation Vista is present. Ship one-lander openers and hands with three top-end six-drops. Against aggressive decks, keep the hand with Wood Elves or the Apothecary rather than the greedier draw cards."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-01-moon-and-dale.html#key-interactions-and-edge-cases",
+    "title": "Moon and Dale",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+    "text": "Key interactions and edge cases\n\nThranduil, the Elvenking’s draw triggers on every other legendary Elf entering — including a second copy of himself, Elrond, Galion, Sindarin Liege, and The Queen of Dale (a legendary Human Noble, so it also draws).\nBard, King of Dale doubles only draws beyond the first card of your draw step, but it doubles every draw from Thranduil, Elrond, Ravenhill triggers, and the adventures. It also doubles all token creation — Sindarin Liege landfall tokens become two Elves.\nBard the Bowman triggers on your second draw each turn, so a burst of four cards still counts as one trigger; the counters accumulate from multiple turns and multiple legendary Elves.\nElrond’s draw triggers once per turn, on any creature-ability activation — Thranduil’s stolen Elf abilities (e.g. Woodland Weavemaster’s tap-for-mana if it is in the graveyard) count.\nSilvan Reveler’s discard: if you discard a land, it enters the battlefield tapped — that triggers landfall twice (the discard land and the landfall pay {1}{G}{U} recursion).\nGone Fishing (Lake-town Mariners adventure) exiles two of your own permanents and returns them — re-triggering Wood Elves, Sindarin Liege landfall, and Silvan Reveler; it can also dodge a removal spell or bounce a tapped land for a double landfall.\nThranduil’s Decree exiles countered permanent spells; you may cast them for free later — steal the opponent’s win condition.\nMirkwood Meditator’s base 4/2 replacement only lasts until end of turn; it does not permanently shrink.\nRestless Vinestalk’s attack trigger sets another creature’s base stats to 3/3 — use it to fix Galion’s pump target or to shrink an opposing-adjacent threat only if it is your creature."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#matchups",
+    "href": "decks/2026-09-01-moon-and-dale.html#matchups",
+    "title": "Moon and Dale",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+    "text": "Matchups\n\nAggro (fliers, lifegain, cats, landfall): Bard the Bowman’s lifelink, the 1/1 Elf wall, and Ravenhill Flock as a flying blocker stabilize; Thranduil’s Company gives vigilance to hold back and attack. Mirkwood Meditator blocks as a 4/2.\nMidrange: out-value with the draw engine; Galion plus Rogue’s Passage ends games through blockers; Troll Negotiations removes the biggest threat.\nControl: the engine rebuilds after every sweeper because every legendary Elf draws two; Thranduil’s Decree and Mistrise Village’s uncounterable spell fight the counter war; Bard, King of Dale’s doubled draws outpace one-for-one answers.\nCombo race: draw-engine speed wins the race; Gone Fishing can blink a key piece to dodge removal, and the token army provides instant chumpers."
   },
   {
     "objectID": "archive.html",
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Card pool consumption — cycle started 2026-08-22 · 433 cards locked · Hobbit 60/193 remaining\n26 deck guides — newest first. Every daily deck keeps its own permanent page."
+    "text": "Card pool consumption — cycle started 2026-08-22 · 451 cards locked · Hobbit 51/193 remaining\n27 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
     "objectID": "archive.html#section",
     "href": "archive.html#section",
     "title": "Archive",
     "section": "2026-09-01",
-    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice"
+    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
   },
   {
     "objectID": "archive.html#section-1",
@@ -1006,6 +1006,90 @@
     "title": "Archive",
     "section": "2026-08-20",
     "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html",
+    "href": "decks/2026-08-25-swarm-calculus.html",
+    "title": "Swarm Calculus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "title": "Swarm Calculus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "title": "Swarm Calculus",
+    "section": "Why these cards",
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "title": "Swarm Calculus",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "title": "Swarm Calculus",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "title": "Swarm Calculus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "title": "Swarm Calculus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "title": "Swarm Calculus",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "title": "Swarm Calculus",
+    "section": "Win condition 2: the ETB burn loop",
+    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "title": "Swarm Calculus",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "title": "Swarm Calculus",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "title": "Swarm Calculus",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
   },
   {
     "objectID": "decks/2026-08-26-wing-and-coin.html",

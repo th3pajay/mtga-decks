@@ -1,0 +1,159 @@
+---
+title: "Moon and Dale"
+subtitle: "Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck"
+date: "2026-09-01"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black / Green (WUBG) |
+| Archetype | Legendary-Elf combo-value (avg nonland CMC 3.9) |
+| Core mechanic | Legendary Elf ETB draw engine x token doubling x landfall |
+| Primary win | Thranduil, the Elvenking draws two per legendary Elf entry, Bard, King of Dale doubles every non-first draw, and the draw-2 payoffs turn cards into counters, lifelink and pump for an unblockable alpha strike |
+| Secondary win | Elf token swarm: Thranduil, Sindarin Liege landfall tokens doubled by Bard, King of Dale, growing with Thranduil's Company and Mirkwood Pathmaker |
+| Land win condition | Restless Vinestalk man-land + Rogue's Passage unblockable |
+
+# Overview
+
+Moon and Dale is the WUBG elf-legends deck. Every nonland card either is a legendary Elf, makes Elf tokens, cares about drawing a second card, or fixes the four-color mana base. The engine is a feedback loop: legendary Elves enter, Thranduil, the Elvenking draws two cards, Bard, King of Dale doubles that draw, and the "second card drawn" payoffs — Bard the Bowman, Ravenhill Flock, Lakeshore Apothecary, Lake-town Toymaker — convert the cards into counters, lifelink, and combat tricks. Bard, King of Dale doubles tokens as well, so the same engine that draws cards also floods the board.
+
+The deck wins by card advantage instead of a single spell. Opponents who answer one legendary Elf die to the next one; opponents who race lose to the life buffer from Bard the Bowman's lifelink and the wall of Elf tokens. The set's identity pieces (Thranduil, Elrond, Galion, the Sindarin Liege) are the core, and the fresh support slots are all Hobbit-set cards.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Wood Elves, Lakeshore Apothecary or The Queen of Dale; play Elrond or Bard the Bowman; start the second-card-drawn triggers |
+| Turns 4-5 | Engine: Thranduil, Sindarin Liege starts making Elf tokens; Thranduil, the Elvenking turns every legendary Elf into a 2-card draw; Thranduil's Company adds extra land drops |
+| Turn 6+ | Convert: Bard, King of Dale doubles draws and tokens; Galion sets a creature's power equal to his own; Rogue's Passage makes it unblockable |
+| Late game | Restless Vinestalk is a 5/5 trample man-land; Ravenhill Flock has eaten a dozen +1/+1 counters |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, the Elvenking | Engine: every other legendary Elf entering draws two cards (then discards one); also gains all activated abilities of Elf cards in your graveyard |
+| Bard, King of Dale | Multiplier: doubles every non-first draw and doubles all tokens created |
+| Elrond, Moon-Reader | Draw on creature-ability activation (once per turn); flicker two permanents to re-trigger ETBs |
+| Thranduil, Sindarin Liege | Anthem for Elves; landfall makes a 1/1 Elf; adventure Silvan Rally mills four for two lands |
+| Bard the Bowman | Draw-2 payoff: counter + lifelink on your second draw each turn |
+| Galion, Elvenking's Butler | Attack payoff: another creature's base power/toughness becomes Galion's — an instant "big number" |
+| Thranduil's Company | Extra land drops plus landfall: two +1/+1 counters and vigilance on a creature |
+| Wood Elves | Ramp: fetches a Forest into play |
+| Mirkwood Pathmaker | Finisher sizing: power/toughness equal to your land count |
+| Silvan Reveler | Loot on entry (a discarded land enters the battlefield); landfall recursion from the graveyard |
+| Ravenhill Flock | Flying beater that grows on every draw |
+| Mirkwood Meditator | Landfall: becomes a 4/2 blocker/attacker at instant speed |
+| Lakeshore Apothecary | Two-drop that grows on your second draw |
+| The Queen of Dale | Punishes the opponent's first noncreature spell with a recruit (draw, discard, maybe a Soldier) |
+| Lake-town Toymaker | +3/+0 and first strike if you drew two or more this turn |
+| Boughside Wanderers | Digs four for a permanent; landfall +2/+2 |
+| Most Decrepit Old Bird | Cheap flyer; adventure Speak Secrets mills four for an instant or sorcery |
+| Lake-town Mariners | Vigilance ward body; adventure Gone Fishing blinks two of your permanents to re-trigger landfall/ETBs |
+| Thranduil's Decree | Counterspell with exile; you may cast the exiled spell for free |
+| Troll Negotiations | Two counters plus a fight — removal that also pumps |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Vinestalk | Land win condition: {3}{G}{U} makes a 5/5 trample Plant; on attack sets another creature's base stats to 3/3; also fixes blue-green |
+| Rogue's Passage | Land win condition: {4} makes the Galion-pumped or Pathmaker-sized creature unblockable |
+| Lush Portico | White-green fixing with surveil 1 |
+| Temple of Mystery / Temple of Plenty | Blue-green / white-green fixing with scry 1 |
+| Multiversal Passage | Any-basic fixing (usually a second Swamp for Thranduil) |
+| Tarnation Vista | Any-color fixing that also adds per color among your monocolored permanents |
+| Starting Town | Any-color fixing early; untapped on the first three turns |
+| Mistrise Village | Blue source whose activation makes your next spell uncounterable |
+
+## Curve and mana
+
+Twenty-five lands: twelve basics (5 Forest, 4 Island, 2 Plains, 1 Swamp) and thirteen fixing lands. Black is a splash for Thranduil, the Elvenking (one Swamp plus Multiversal Passage and Tarnation Vista cover it), so the mana plays like a Bant deck with a black pip. The curve peaks at four (Sindarin Liege, Galion, Thranduil's Company, Ravenhill Flock) with a top end of six (Bard, King of Dale, Boughside Wanderers, Lake-town Mariners, Thranduil's Decree). Wood Elves and the landfall payoffs smooth the early turns; most games reach six mana on turn six without acceleration.
+
+# Gameplay strategy
+
+## Early game
+
+Play a two-drop: Wood Elves for ramp, Lakeshore Apothecary for the eventual draw triggers, or The Queen of Dale against spell-heavy decks. On turn three, Elrond or Bard the Bowman. The goal is a board and a draw trigger ready for when Thranduil arrives. Do not hold lands back — the deck's clock is land count (Pathmaker, Sindarin Liege tokens, Thranduil's Company).
+
+## Mid game
+
+Resolve Thranduil, Sindarin Liege, then start playing legendary Elves. Each one draws two cards with Thranduil, the Elvenking on board; with Bard, King of Dale that becomes four cards drawn (discard one). Bard the Bowman puts a counter and lifelink on something every time you hit your second draw; Ravenhill Flock grows every draw. Thranduil's Company turns the extra land drops into +1/+1 counters with vigilance. Use Thranduil's Decree to protect the engine or stop a sweeper.
+
+## The combo turn
+
+The signature sequence: with Thranduil, the Elvenking and Bard, King of Dale on board, cast any other legendary Elf (Sindarin Liege, Elrond, Galion). Thranduil draws two, Bard doubles it to four. Bard the Bowman pumps a creature with +1/+1 and lifelink; Ravenhill Flock and Lakeshore Apothecary grow. Then attack: Galion sets a creature's base power and toughness to his own, Rogue's Passage makes it unblockable, and the life total disappears. Against creature decks, the same draw burst finds Troll Negotiations or Lake-town Mariners' Gone Fishing to clear the path.
+
+## Win condition 2
+
+The Elf token swarm: Sindarin Liege's landfall makes a 1/1 Elf per land; Bard, King of Dale doubles every token. Thranduil's Company stacks +1/+1 counters and vigilance; Mirkwood Pathmaker is as big as your land count; Boughside Wanderers pumps +2/+2 per landfall. Restless Vinestalk joins as a 5/5 trample Plant. This plan beats midrange boards by outnumbering and out-sizing them, and beats control by forcing multiple sweepers — Thranduil draws two per legendary Elf after each wipe.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop, or three lands and a four-drop engine. Hands with Thranduil, the Elvenking but no fixing for black are fine if Multiversal Passage or Tarnation Vista is present. Ship one-lander openers and hands with three top-end six-drops. Against aggressive decks, keep the hand with Wood Elves or the Apothecary rather than the greedier draw cards.
+
+## Key interactions and edge cases
+
+- Thranduil, the Elvenking's draw triggers on every *other* legendary Elf entering — including a second copy of himself, Elrond, Galion, Sindarin Liege, and The Queen of Dale (a legendary Human Noble, so it also draws).
+- Bard, King of Dale doubles only draws *beyond the first card of your draw step*, but it doubles every draw from Thranduil, Elrond, Ravenhill triggers, and the adventures. It also doubles all token creation — Sindarin Liege landfall tokens become two Elves.
+- Bard the Bowman triggers on your second draw *each turn*, so a burst of four cards still counts as one trigger; the counters accumulate from multiple turns and multiple legendary Elves.
+- Elrond's draw triggers once per turn, on any creature-ability activation — Thranduil's stolen Elf abilities (e.g. Woodland Weavemaster's tap-for-mana if it is in the graveyard) count.
+- Silvan Reveler's discard: if you discard a land, it enters the battlefield tapped — that triggers landfall twice (the discard land and the landfall pay {1}{G}{U} recursion).
+- Gone Fishing (Lake-town Mariners adventure) exiles two of your own permanents and returns them — re-triggering Wood Elves, Sindarin Liege landfall, and Silvan Reveler; it can also dodge a removal spell or bounce a tapped land for a double landfall.
+- Thranduil's Decree exiles countered permanent spells; you may cast them for free later — steal the opponent's win condition.
+- Mirkwood Meditator's base 4/2 replacement only lasts until end of turn; it does not permanently shrink.
+- Restless Vinestalk's attack trigger sets *another* creature's base stats to 3/3 — use it to fix Galion's pump target or to shrink an opposing-adjacent threat only if it is your creature.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats, landfall)**: Bard the Bowman's lifelink, the 1/1 Elf wall, and Ravenhill Flock as a flying blocker stabilize; Thranduil's Company gives vigilance to hold back and attack. Mirkwood Meditator blocks as a 4/2.
+- **Midrange**: out-value with the draw engine; Galion plus Rogue's Passage ends games through blockers; Troll Negotiations removes the biggest threat.
+- **Control**: the engine rebuilds after every sweeper because every legendary Elf draws two; Thranduil's Decree and Mistrise Village's uncounterable spell fight the counter war; Bard, King of Dale's doubled draws outpace one-for-one answers.
+- **Combo race**: draw-engine speed wins the race; Gone Fishing can blink a key piece to dodge removal, and the token army provides instant chumpers.
+
+# Deck list (Arena import)
+
+```text
+Moon and Dale
+Deck
+3 Thranduil, the Elvenking
+3 Elrond, Moon-Reader
+3 Thranduil, Sindarin Liege
+2 Bard, King of Dale
+2 Bard the Bowman
+2 Galion, Elvenking's Butler
+2 Thranduil's Company
+2 Mirkwood Pathmaker
+2 Wood Elves
+2 Silvan Reveler
+2 Mirkwood Meditator
+2 Ravenhill Flock
+1 Boughside Wanderers
+1 Lakeshore Apothecary
+1 The Queen of Dale
+1 Lake-town Toymaker
+1 Most Decrepit Old Bird
+1 Lake-town Mariners
+1 Thranduil's Decree
+1 Troll Negotiations
+5 Forest
+4 Island
+2 Plains
+1 Swamp
+2 Lush Portico
+2 Temple of Mystery
+2 Temple of Plenty
+1 Mistrise Village
+1 Starting Town
+1 Tarnation Vista
+1 Multiversal Passage
+2 Restless Vinestalk
+1 Rogue's Passage
+```
