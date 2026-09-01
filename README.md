@@ -11,8 +11,8 @@ Two new decks land every morning:
 - **Hobbit Deck of the Day** — a combo build drawn from *The Hobbit* set (`hob`).
 
 Each guide covers: an at-a-glance table (colors, archetype, size), the game plan
-and approach, card roles, mulligan and matchup notes, and a full
-Arena-import-ready decklist.
+and approach, card roles, mulligan and matchup notes, iterated improvements
+capped at 3×, and a full Arena-import-ready decklist.
 
 ## Browsing
 

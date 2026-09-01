@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-08-31**:
+Deck guides published **2026-09-01**:
 
-- **[Banner Fall](decks/2026-08-31-banner-fall.html)** — Red / Black — Token creation × Mobilize engine  `combo` `token-creation` `mobilize`
-- **[Balin's Company](decks/2026-08-31-balin-s-company.html)** — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck  `hobbit` `dwarves`
+- **[Paid in Blood](decks/2026-09-01-paid-in-blood.html)** — WUBRG | Sacrifice  `combo` `sacrifice`

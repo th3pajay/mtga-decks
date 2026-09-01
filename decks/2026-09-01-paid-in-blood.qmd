@@ -1,0 +1,145 @@
+---
+title: "Paid in Blood"
+subtitle: "WUBRG | Sacrifice"
+date: "2026-09-01"
+categories: ["combo", "sacrifice"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | WUBRG (5-color) |
+| Archetype | Sacrifice value midrange |
+| Size | 60 cards |
+| Primary win | Drain engine: death triggers plus life-gain triggers |
+| Secondary win | Flying beatdown and manlands |
+
+## Overview
+
+Paid in Blood is a five-color engine that turns dying into damage. Every creature that dies pays the opponent: Vein Ripper drains 2 on any creature death anywhere, Cauldron of Essence drains 1 and gains 1 on each of your deaths, and the life gained feeds Marauding Blight-Priest, which drains 1 more per trigger. Scavenger's Talent converts deaths into Food tokens, Demand Answers and Eaten Alive spend those tokens on cards and removal, and Ruthless Lawbringer trades any creature for any nonland permanent.
+
+The fodder never runs out. Bonebind Orator and Unstoppable Slasher return from the graveyard, Cauldron of Essence reanimates one creature per activation, Raise the Past floods back every 2-mana-value creature, and Hop to It, Kambal (token copies via Three Steps Ahead) and Great Arashin City keep tokens flowing. Bloodletter of Aclazotz doubles the entire drain package on your turn, turning a modest loop into a kill.
+
+## Approach
+
+**Game plan phases**
+
+1. **Seeding (turns 1-3).** Land a two-drop: Marauding Blight-Priest, Ruthless Lawbringer, Kambal, Profiteering Mayor or Bonebind Orator. Use Eaten Alive on early threats and let Scavenger's Talent start banking Food.
+2. **Assembly (turns 4-5).** Resolve Cauldron of Essence or Bloodthirsty Conqueror. Spend tokens on Demand Answers and Witherbloom Charm for card advantage. Saddle The Gitrog to draw into the engine.
+3. **Drain clock (turn 6 onward).** With Vein Ripper, Bloodletter of Aclazotz and Cauldron of Essence online, every sacrifice drains 3 or more and gains life. Finish with flying attackers, manlands, or a Raise the Past flood.
+
+**Card roles**
+
+| Card | Role |
+|---|---|
+| Cauldron of Essence | Engine: 1 drain per death, repeatable reanimation |
+| Vein Ripper | Payoff: 2 drain on every creature death, ward-sacrifice |
+| Marauding Blight-Priest | Payoff: 1 drain per life-gain trigger |
+| Bloodthirsty Conqueror | Finisher: flying lifelink that mirrors life loss |
+| Kambal, Profiteering Mayor | Payoff: 1 drain per token entering |
+| Bloodletter of Aclazotz | Multiplier: doubles drain on your turn |
+| Scavenger's Talent | Fodder: Food on death, level 3 mass-sac reanimate |
+| Demand Answers | Outlet: sacrifice an artifact, draw two |
+| Eaten Alive | Outlet: sacrifice a creature, exile a permanent |
+| Ruthless Lawbringer | Outlet: sacrifice a creature, destroy nonland |
+| Bonebind Orator | Recursion: return a creature from the graveyard |
+| Unstoppable Slasher | Clock: halves life, recurs on death |
+| Hop to It | Fodder: three Rabbit tokens at once |
+| Raise the Past | Finisher: return all 2-mana-value creatures |
+| Three Steps Ahead | Protection: counter, copy token, draw |
+
+**Lands as engines**
+
+| Land | Role |
+|---|---|
+| Soulstone Sanctuary | Win con: becomes a 3/3 of all creature types |
+| Crawling Barrens | Win con: grows into a large attacker |
+| Amonkhet Raceway | Win con: grants haste at max speed |
+| Sunken Citadel | Acceleration: two mana for land abilities |
+| Great Arashin City | Fodder: exile a graveyard creature for a Spirit |
+| Bleeding Woods | Fixing: untapped while anyone is at 13 life or less |
+| Scoured Barrens | Fixing plus a life-gain drain trigger |
+| Oscorp Industries | Fixing: UBR, playable from the graveyard |
+
+**Curve and mana.** 26 lands: 7 basics, 19 fixing and utility lands. Average mana value is just under 3. Black is the core color, white and green support it, and red and blue are splashed for Demand Answers, Choreographed Sparks and Three Steps Ahead.
+
+## Gameplay strategy
+
+**Early game.** Prioritize a two-drop over a tapped land when the colors allow. Play Scoured Barrens early for the life-gain trigger. Spend Eaten Alive freely on aggressive starts; the sacrifice cost feeds the engine either way.
+
+**Mid game.** Assemble Cauldron of Essence plus one drain payoff before grinding. Sacrifice Food tokens to Demand Answers rather than creatures, and let Ruthless Lawbringer convert expendable creatures into premium removal. The Gitrog wants a saddle creature ready when it attacks.
+
+**The combo turn.** With Cauldron of Essence and Vein Ripper on the battlefield, each sacrifice drains 3 and gains 3 (1 from Cauldron, 2 from Vein Ripper). Recur Bonebind Orator or Unstoppable Slasher and repeat every turn. Bloodletter of Aclazotz doubles the drain to 6 per sacrifice. A single Food token becomes 3 life and 3 damage per cycle.
+
+**Win condition 2.** Attack with Bloodthirsty Conqueror, Vein Ripper and Vampire Nighthawk over the top. Amonkhet Raceway grants haste at max speed, which the drain package reaches quickly. Soulstone Sanctuary and Crawling Barrens are repeatable attackers, and Raise the Past turns a board wipe into a swarm.
+
+**Mulligan guide.** Keep any hand with two or three lands including early black or white. A two-drop plus removal is a strong keep. Mulligan hands with mostly tapped lands or no early plays. Scavenger's Talent plus a sacrifice outlet is the best opener.
+
+**Key interactions and edge cases.**
+
+- Cauldron of Essence reanimation is sorcery-speed only; plan the recursion around your main phase.
+- Vein Ripper's ward cost is a sacrifice, so it protects itself from removal by draining the opponent.
+- Eaten Alive exiles, which bypasses opposing death triggers but still triggers your own via the sacrifice cost.
+- Unstoppable Slasher returns tapped with stun counters, so it is a slow but repeatable clock.
+- The Gitrog only draws when it deals combat damage while saddled; do not attack it into obvious blockers without a trick.
+- Three Steps Ahead can copy any of your creatures into a token, which then triggers Kambal and feeds the sacrifice engine.
+
+**Matchups.** Against aggro, early removal and the life-gain drain package stabilize and out-race. Against control, Three Steps Ahead protects key pieces and the recursion engine grinds through sweepers. Against other midrange decks, the drain clock is faster than conventional damage because it ignores blockers.
+
+## Iterations
+
+| Round | Change | Sim win rate | T4 consistency |
+|---|---|---|---|
+| v1 to v2 | Cut 6+ mana finishers (Bringer of the Last Gift, Aatchik, Hamlet Glutton, Harvester of Misery, Mica), added Kambal, Hop to It, Vampire Nighthawk, Unstoppable Slasher, Bloodthirsty Conqueror | 44.3% to 51.7% | 0.72 |
+| v2 to v3 | -1 Zul Ashur, -1 Bonebind Orator, +1 Marauding Blight-Priest, +1 Skirmish Rhino | 51.7% to 55.0% | 0.71 to 0.72 |
+
+## Deck list (Arena import)
+
+```text
+Paid in Blood
+Deck
+1 Vein Ripper
+4 Marauding Blight-Priest
+2 Ruthless Lawbringer
+2 Kambal, Profiteering Mayor
+1 Bloodletter of Aclazotz
+1 The Gitrog, Ravenous Ride
+1 Bloodthirsty Conqueror
+2 Skirmish Rhino
+2 Vampire Nighthawk
+2 Unstoppable Slasher
+1 Bonebind Orator
+2 Cauldron of Essence
+2 Scavenger's Talent
+2 Demand Answers
+2 Eaten Alive
+2 Three Steps Ahead
+2 Hop to It
+1 Witherbloom Charm
+1 Choreographed Sparks
+1 Raise the Past
+3 Bleeding Woods
+2 Scoured Barrens
+1 Abandoned Campground
+1 Thornwood Falls
+1 TCRI Building
+1 Asgardian Citadel
+1 Birnin Zana Plaza
+1 Sandsteppe Citadel
+1 Oscorp Industries
+1 Crossroads Village
+1 Dark Fortress
+1 Great Arashin City
+1 Sunken Citadel
+1 Soulstone Sanctuary
+1 Crawling Barrens
+1 Amonkhet Raceway
+2 Forest
+2 Swamp
+1 Plains
+1 Island
+1 Mountain
+```
