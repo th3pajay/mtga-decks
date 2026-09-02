@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-02**:
 
 - **[Landwarp](decks/2026-09-02-landwarp.html)** — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak  `combo` `landfall` `warp` `sneak`
+- **[Amass to Arms](decks/2026-09-02-amass-to-arms.html)** — Mardu (WBR) Amass Goblins — The Hobbit set identity deck  `hobbit` `amass`

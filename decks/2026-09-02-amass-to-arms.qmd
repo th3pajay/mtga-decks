@@ -1,0 +1,139 @@
+---
+title: "Amass to Arms"
+subtitle: "Mardu (WBR) Amass Goblins — The Hobbit set identity deck"
+date: "2026-09-02"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Black / Red (WBR) |
+| Archetype | Amass-Goblins value-tempo (avg nonland CMC ~2.7) |
+| Core mechanic | Amass Goblins × trigger doubling × counter-ping damage |
+| Primary win | A giant Goblin Army token plus The Great Goblin pinging 2 every time counters land; Roaming Throne doubles every Goblin trigger |
+| Secondary win | Flashback recursion — Tidings of War and Moment of Glory cast from the graveyard rebuild the Army and pump the whole board |
+| Land win condition | Goblin-town sacs for +1/+1 counters on the Army (which pings), Rogue's Passage makes it unblockable |
+
+# Overview
+
+Amass to Arms is the WBR amass deck. Every nonland spell either grows the Army, doubles the triggers that grow it, or clears the path for it. Bothersome Noisemaker turns every noncreature spell into another amass trigger; Goblin-town Flunkies brings haste and amass on entry; Fearsome Goblin Pair punishes trades by amassing 4 when it dies. The Great Goblin converts each counter event into 2 damage — and Roaming Throne, naming Goblin, doubles the Great Goblin's ping and every creature-triggered amass, so a single mid-game amass event can mean 4 damage plus a bigger Army.
+
+The white splash is a support package, not a third plan: Moment of Glory and Sheltered by Ghosts buy time and evasion, and the flashback lines on Moment of Glory and Tidings of War give the deck a second wind out of the graveyard after a sweeper. The deck wins by growing one threat the opponent must answer, pinging them down while it grows, and finishing through Goblin-town's pump and Rogue's Passage's unblockable.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop: Tidings of War or a two-drop Goblin; start the Army with Flunkies or Noisemaker |
+| Turns 3-4 | Engine: The Great Goblin turns every amass event into damage; Rage into the Valley draws while amassing; Roaming Throne lands and starts doubling |
+| Turns 5-6 | Convert: Goblin Plate Mail amasses and attaches menace; Sheltered by Ghosts exiles a blocker; the Army is 10+ and pinging every turn |
+| Late game | Flashback Tidings of War (amass 3) and Moment of Glory (board-wide counters); Goblin-town pumps; Rogue's Passage makes the Army unblockable |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| The Great Goblin | Engine + payoff: every counter event on a Goblin, Orc or Army deals 2 to the opponent; your dead Goblins exile-cast replacements |
+| Bothersome Noisemaker | Amass on every noncreature spell you cast — removal, auras and equipment all grow the Army |
+| Goblin-town Flunkies | Haste two-drop that amasses on entry |
+| Fearsome Goblin Pair | Death trigger amasses 4 — chump blocks and removal become Army growth |
+| Roaming Throne | Doubles all Goblin creature triggers (Great Goblin pings, amass triggers, discard) |
+| Stony-Voiced Goblins | Entry discard; doubles with Roaming Throne |
+| Gollum, Silent Slinker | 4/3 menace closer; adventure Meager Meal puts a counter and gains life |
+| Rage into the Valley | Cantrip that amasses 2 |
+| Tidings of War | One-mana amass; flashback amasses 3 |
+| Down, Down to Goblin-town | Saga: hand disruption, amass, repeatable drain |
+| Gathering of Darkness | Recurs a creature while amassing 3 |
+| Moment of Glory | One-mana counter; flashback puts a counter on every creature you control |
+| Goblin Plate Mail | Amasses on entry then attaches menace to the Army; re-equipable later |
+| Sheltered by Ghosts | Exiles a nonland permanent until it leaves; grants lifelink and ward 2 |
+| Bitter Triumph | Cheap instant removal that feeds the graveyard for flashback |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | Land win condition: sacs for two +1/+1 counters on a Goblin or Orc — the Army is a Goblin, and the counter event pings via The Great Goblin |
+| Rogue's Passage | Land win condition: makes the Army unblockable for the finish |
+| Shattered Sanctum | Black-white fixing, untapped with two other lands |
+| Conduit Pylons | Surveil 1 on entry; filters to any color |
+| Swamp / Mountain / Plains | Black-red core with a white support splash |
+
+## Curve and mana
+
+Twenty-four lands: seventeen basics (6 Swamp, 6 Mountain, 5 Plains) plus seven fixing/value lands. The mana base plays a black-red core with white as a light splash — Moment of Glory and Sheltered by Ghosts are the only white pips, both single-white. The curve is low and wide: eleven one- and two-drop plays (including three Tidings of War and three Flunkies), nine three-drops, and seven four-drops (Roaming Throne, Fearsome Goblin Pair, Gathering of Darkness, Gollum). Most games reach four mana on turn four without acceleration, and the deck is comfortable operating on three.
+
+# Gameplay strategy
+
+## Early game
+
+Play a one- or two-drop Goblin and start the Army. Tidings of War on turn one, then Flunkies or Noisemaker on two gives a 1/1 Army by turn three alongside a growing board. Stony-Voiced Goblins disrupts the opponent's hand while it develops. Do not trade the Army early unless the Fearsome Goblin Pair death trigger replaces it — the Army is the plan.
+
+## Mid game
+
+Resolve The Great Goblin, then every amass event becomes damage. Rage into the Valley replaces itself while amassing 2; Bitter Triumph answers a threat and feeds the graveyard. With Roaming Throne in play naming Goblin, the Great Goblin's ping fires twice per counter event, and creature-triggered amass (Noisemaker's cast trigger, Flunkies' entry, Fearsome Goblin Pair's death) also fires twice — a single Rage into the Valley deals 4 while adding two counters to the Army. Goblin Plate Mail amasses on entry and hands the Army menace so it attacks through small boards.
+
+## The combo turn
+
+The signature sequence: Roaming Throne and The Great Goblin on board, Army at 4/4 or larger. Cast Rage into the Valley: the Army grows by two counters, and the Great Goblin's doubled ping deals 4. Then a creature-triggered amass — Bothersome Noisemaker's trigger from the spell you just cast, or Goblin-town Flunkies entering — amasses again (doubled by Roaming Throne into two events, each pinging 4). When the Army is 10+, Goblin-town's activation adds two more counters (another doubled ping), and Rogue's Passage makes it unblockable for lethal.
+
+## Win condition 2
+
+The flashback plan. Moment of Glory from the graveyard puts a +1/+1 counter on every creature you control; Tidings of War from the graveyard amasses 3. Bitter Triumph's discard and Down, Down to Goblin-town's saga fuel the graveyard, and Gathering of Darkness recycles a creature while amassing. After a sweeper, the flashback lines rebuild the board from nothing — control decks run out of answers before the deck runs out of amass.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a one- or two-drop Goblin. Hands with The Great Goblin plus any amass spell are strong. Ship one-lander openers, hands with three or more four-drops, and hands without colored sources for both black and red. Against aggressive decks, prioritize Flunkies or Bitter Triumph over the slower value pieces.
+
+## Key interactions and edge cases
+
+- The Great Goblin triggers on "one or more counters" events — an amass 4 from Fearsome Goblin Pair is a single trigger for 2 damage, not 4. Roaming Throne doubles the trigger, not the counters.
+- Roaming Throne must name Goblin at entry; the Army token is a Goblin and the deck's named creatures are Goblins, so the chosen type covers the whole board.
+- Roaming Throne doubles only triggered abilities of creatures — amass from spells (Rage into the Valley, Tidings of War, Gathering of Darkness) is not doubled; only the Great Goblin's ping and creature-triggered amass (Noisemaker, Flunkies, Fearsome Goblin Pair) are.
+- Bothersome Noisemaker triggers on every noncreature spell — including Goblin Plate Mail, Sheltered by Ghosts, and Bitter Triumph.
+- Moment of Glory's flashback puts a counter on every creature you control, not just the target — timing it after a board develops is worth more than the first casting.
+- Sheltered by Ghosts exiles a nonland permanent "until this Aura leaves the battlefield" — the exile is one-sided; destroying the aura returns the permanent, so it is removal-plus, not permanent removal.
+- Goblin-town's activation is sorcery-speed and sacrifices the land — activate it as a finisher, not for value.
+- The Great Goblin's death trigger exiles your library top and lets you play it — Gollum, Silent Slinker and other four-drops can come back after trades.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: Flunkies' haste and the low curve race early; Bitter Triumph and Sheltered by Ghosts remove the biggest attacker; Fearsome Goblin Pair chumps into an amass-4 replacement. Lifelink from Sheltered by Ghosts stabilizes the race.
+- **Midrange (Ouroboroid-style counters, landfall)**: the ping clock outpaces their board — every amass event damages face while the Army outgrows their creatures; Rogue's Passage ends through blockers.
+- **Control**: discard from Stony-Voiced Goblins and Down, Down to Goblin-town pressures their hand; the flashback lines rebuild after sweepers; haste threats punish tapped-out turns.
+- **Combo and big mana**: the deck is the aggressor — amass every turn, ping through their setup, and close with Rogue's Passage before their engine comes online.
+
+# Deck list (Arena import)
+
+```text
+Amass to Arms
+Deck
+4 The Great Goblin
+3 Bothersome Noisemaker
+3 Goblin-town Flunkies
+2 Fearsome Goblin Pair
+2 Roaming Throne
+2 Stony-Voiced Goblins
+1 Gollum, Silent Slinker
+3 Rage into the Valley
+3 Tidings of War
+2 Down, Down to Goblin-town
+2 Gathering of Darkness
+2 Moment of Glory
+3 Goblin Plate Mail
+2 Sheltered by Ghosts
+2 Bitter Triumph
+2 Goblin-town
+1 Rogue's Passage
+2 Shattered Sanctum
+2 Conduit Pylons
+6 Swamp
+6 Mountain
+5 Plains
+```
