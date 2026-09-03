@@ -1,0 +1,150 @@
+---
+title: "Scale and Coin"
+subtitle: "Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck"
+date: "2026-09-03"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Red (UBR) |
+| Archetype | Smaug treasure-dragon engine (avg nonland CMC ~2.9) |
+| Core mechanic | Treasure generation × artifact-ETB draw × dragon payoffs |
+| Primary win | Smaug the Magnificent attacks with a hoard of Treasures and deals that much damage to any target; every Treasure that enters draws a card off Fateful Discovery |
+| Secondary win | Dragon swarm — The Misty Mountains Cold's 6/6 Dragon, Magda's 4/4 haste Dragon tokens, Smaug Wicked Worm and Rapacious Dragon beat down |
+| Land win condition | The Lonely Mountain turns late-game treasure mana into 2/2 Dwarf tokens; Cavern of Souls (naming Dragon) makes every dragon cast uncounterable |
+
+# Overview
+
+Scale and Coin is the Grixis Smaug deck. Every spell either makes a Treasure, draws off the Treasures being made, or is a Dragon that profits from them. The engine loops two abilities: **Fateful Discovery** — "whenever an artifact you control enters, draw a card" — turns every Treasure token into a cantrip, and **Smaug the Magnificent** — a 4/3 flying haste Dragon that creates a Treasure each upkeep and then deals damage equal to your Treasure count to any target whenever it attacks.
+
+The red shell is the Smaug identity: The Misty Mountains Cold (a saga whose four chapters each make a Treasure and then become a 6/6 Dragon), Desolation of Smaug (a 3-damage sweep that also ramps four mana into a Dragon), Last Light of Durin's Day (a Mountain-quest that tutors a Dragon into play), and Magda, the Hoardmaster (crimes make Treasures; three Treasures make a 4/4 haste Dragon). Blue is the draw engine — Fateful Discovery, Stock Up, Collector's Vault — and black brings The Sackville-Bagginses, Nowhere to Run and Smaug, Wicked Worm, who converts your own Treasure casts into cards.
+
+The deck wins by out-drawing the opponent while the Treasure count climbs, then pointing Smaug's attack trigger — or a wave of Dragon tokens — at the opponent's face. It is a value-tempo combo deck: it plays like a ramp-draw engine for the first turns and like a burn deck the moment Smaug or a 6/6 Dragon token lands.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop: Magda, Sarkhan, Sackville-Bagginses or Collector's Vault; start accruing Treasures |
+| Turns 3-4 | Engine: Dori or The Misty Mountains Cold; Fateful Discovery turns every Treasure into a card; remove blockers with Nowhere to Run |
+| Turns 5-6 | Convert: Smaug the Magnificent attacks with 4-7 Treasures for 4-7 to any target; Desolation of Smaug clears boards then casts a Dragon |
+| Late game | Dragon swarm closes: Misty saga 6/6, Magda 4/4 haste tokens, Wicked Worm 5/5; The Lonely Mountain sinks spare Treasure mana into Dwarf tokens |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | Primary payoff: upkeep Treasure, and attack damage equal to your Treasure count to any target (flying, haste) |
+| Smaug, Wicked Worm | 5/5 flying Dragon that enters with a Treasure per opposing artifact and draws a card each time you cast with Treasure mana |
+| The Misty Mountains Cold | Saga engine: four chapter triggers each make a Treasure, then sacrifices itself for a 6/6 flying Dragon |
+| Fateful Discovery | Engine: every artifact entering draws a card — every Treasure, Clue-less token, Vault and Barrier trigger it |
+| Magda, the Hoardmaster | Treasure on each crime; three Treasures become a 4/4 red Dragon token with flying and haste |
+| Sarkhan, Dragon Ascendant | 2-drop that beholds a Dragon into a Treasure and grows +1/+1 whenever a Dragon enters, becoming a Dragon itself |
+| Dori, Bearer of Friends | 3/2 trample that makes a Treasure on entry — the curve filler between Magda and Smaug |
+| Rapacious Dragon | 3/3 flying that enters with two Treasures — ramp plus a body |
+| The Sackville-Bagginses | Sacrifices a creature or artifact to draw and make a Treasure; token sacrifices ping the opponent |
+| Desolation of Smaug | Sweeps all non-Dragons for 3, then adds four mana usable only for Dragon spells |
+| Last Light of Durin's Day | Mountain quest that puts a Dragon onto the battlefield at six Mountains; mountaincycles to fix mana |
+| Collector's Vault | Loot plus a Treasure every activation — an artifact that fuels Fateful Discovery |
+| Gleaming Barrier | 0/4 defender that chump-blocks early and makes a Treasure when it dies |
+| Stock Up | Digs five, keeps two — finds the engine pieces |
+| Spell Pierce | Protects Smaug and the sagas from removal and board wipes |
+| Nowhere to Run | Flash -3/-3 that also turns off hexproof and ward for later removal |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Land win condition: a Mountain (feeds Last Light of Durin's Day) that sinks spare Treasure mana into 2/2 Dwarf tokens; enters tapped unless you control an Equipment |
+| Cavern of Souls | Names Dragon: dragon spells can't be countered and get any-color mana — protects the Smaug cast |
+| Izzet Guildgate | Blue-red fixing for the draw engine |
+| Island / Swamp / Mountain | Blue-black core with a red base — the deck needs {R} early, {U}{U} for Fateful Discovery by turn five |
+
+## Curve and mana
+
+Twenty-five lands: seventeen basics (7 Mountain, 6 Island, 6 Swamp) plus eight nonbasics (3 The Lonely Mountain, 1 Cavern of Souls, 2 Izzet Guildgate). The red base comes down early for Magda and Sarkhan; the two guildgates and Cavern cover the blue splash while Swamps support black. The curve is engine-shaped: six two-drop plays (Magda, Sarkhan, Sackville-Bagginses, Collector's Vault, Gleaming Barrier, Last Light), four three-drops (Dori, Misty saga, Stock Up), and the four-to-five mana payoff cluster (Smaug the Magnificent, Desolation of Smaug, Wicked Worm, Rapacious Dragon, Fateful Discovery). Treasures effectively advance the curve by a full turn — a turn-three Dori or Misty saga makes turn-four Smaug routine.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Magda (crimes feed her Treasure), Sarkhan (behold a Dragon from hand for a Treasure), The Sackville-Bagginses, or Collector's Vault. Gleaming Barrier stalls aggro while setting up a death-Treasure. Do not churn Treasures for mana unless the play matters — the Treasure count is both your mana and your damage. Play toward Fateful Discovery on four or five: from that point every Treasure ETB replaces itself.
+
+## Mid game
+
+Resolve The Misty Mountains Cold or Dori to start the Treasure train, then Fateful Discovery. Each subsequent Treasure — Smaug's upkeep trigger, Magda's crime Treasure, Sackville's draw-Treasure, a dying Gleaming Barrier, Collector's Vault — draws a card. This is where the deck pulls ahead: Treasure count climbs and the hand refills every turn, so removal and counters stay stocked. Nowhere to Run clears hexproof/ward threats at flash speed.
+
+## The combo turn
+
+With Fateful Discovery and Magda on board and a Treasure count of five or more: commit a crime (Nowhere to Run on their creature) for a tapped Treasure — that ETB draws a card. Sacrifice three Treasures to Magda for a 4/4 haste Dragon, whose entry grows Sarkhan and (if Sarkhan is out) makes him a flying Dragon too. Cast Smaug the Magnificent, then attack: he deals damage equal to the remaining Treasures to any target — removal or face. Desolation of Smaug is the reset button: it sweeps their non-Dragon board, then its four floating mana cast Wicked Worm or Rapacious Dragon the same turn.
+
+## Win condition 2
+
+The Dragon swarm. The Misty Mountains Cold resolves fully into a 6/6 flying Dragon; Magda converts three Treasures into haste Dragons on demand; Smaug, Wicked Worm is a 5/5 flyer that can enter with a Treasure per opposing artifact; Rapacious Dragon brings two Treasures and a 3/3 flyer. Multiple evasive Dragons end games that Smaug's ping can't reach — especially against lifegain, where the attack-trigger damage plus flyer beats outlasts incidental life.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop engine (Magda, Sarkhan, Sackville-Bagginses, Collector's Vault). Hands with Smaug the Magnificent plus any Treasure source are strong. Ship one-landers, hands with three or more five-drops, and hands with no red source. Against aggressive decks, prioritize Gleaming Barrier and Nowhere to Run over the slow draw pieces; against control, keep Spell Pierce and lean on Cavern of Souls naming Dragon.
+
+## Key interactions and edge cases
+
+- Smaug's attack trigger deals damage equal to your Treasure count at the moment the trigger resolves — sacrifice Treasures for mana after declaring attackers, not before, if you want maximum damage.
+- Fateful Discovery triggers on artifacts entering, not tokens specifically: Treasure tokens, Gleaming Barrier, Collector's Vault, and Cavern-free artifact creatures all draw. The Misty Mountains Cold's four chapter triggers each draw a card with Fateful Discovery out.
+- The Misty Mountains Cold checks for four or more Treasures after each chapter trigger, then sacrifices itself for a 6/6 Dragon — it needs four Treasures, not four counters, so time your Treasure spends carefully if you want the Dragon rather than the mana.
+- Magda's Treasure trigger fires once per turn regardless of how many crimes you commit — one crime per turn is enough.
+- "Commit a crime" means targeting the opponent, anything they control, or cards in their graveyard — Nowhere to Run, removal, and even a counterspell aimed at their spell are crimes.
+- Desolation of Smaug damages non-Dragon creatures — your Dragon tokens and Dragons survive while everything else on both sides takes 3. The four mana it adds can only cast Dragon spells.
+- The Sackville-Bagginses' token-sacrifice ping includes Treasure tokens sacrificed for mana — cracking a Treasure at the right moment doubles as a Shock.
+- Cavern of Souls must name Dragon before it taps for the uncounterable any-color mana; it only protects Dragon creature spells.
+- Wicked Worm draws when you cast a spell *with mana from a Treasure* — mana from Cavern, basic lands or treasures all mix, so this triggers only if Treasure mana was actually spent on that spell.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: Gleaming Barrier and Nowhere to Run hold the ground until Desolation of Smaug resets the board; the deck's draw engine finds answers faster than aggro refills. Smaug's ping doubles as removal for their biggest threat.
+- **Midrange (landfall, counters)**: the Treasure-draw engine out-values them — every Treasure replaces itself and every Dragon is bigger than their curve; Desolation clears their developed board and ramps into a Dragon on the same turn.
+- **Control**: Cavern of Souls (naming Dragon), Spell Pierce and Wicked Worm's treasure-cast draw keep gas flowing; the saga and enchantment engines (Misty Mountains Cold, Fateful Discovery, Last Light of Durin's Day) are hard for sweepers to answer permanently.
+- **Combo and big mana**: the deck is the aggressor — haste Smaug and Magda Dragons pressure before their engine comes online, and Nowhere to Run plus Spell Pierce disrupt key pieces.
+
+# Iterations
+
+| Round | Change | Sim avg | Synergy | Goldfish T4 | P(≥4 lands T4) |
+|-------|--------|---------|---------|-------------|----------------|
+| v1 → v2 | −1 Collector's Vault, −1 Spell Pierce, +2 Gleaming Barrier (cheap artifact defender bodies chump early, trigger Fateful Discovery on entry, and replace themselves with a Treasure on death) | 52.0 → 56.3 | 70.6 → 70.6 | 0.678 → 0.662 | 0.679 → 0.660 |
+
+All seven battery gates passed on the final list (v2): size 60 with no missing cards, Standard-legal, zero rotating cards, sim 3-run average 56.3, synergy 70.6, goldfish T4 consistency 0.662, P(≥4 lands by T4) 0.660.
+
+# Deck list (Arena import)
+
+```text
+Scale and Coin
+Deck
+4 Smaug the Magnificent
+3 Smaug, Wicked Worm
+2 Rapacious Dragon
+3 Magda, the Hoardmaster
+2 Sarkhan, Dragon Ascendant
+3 Dori, Bearer of Friends
+2 The Sackville-Bagginses
+1 Collector's Vault
+2 Gleaming Barrier
+3 The Misty Mountains Cold
+1 Last Light of Durin's Day
+2 Desolation of Smaug
+2 Fateful Discovery
+2 Stock Up
+1 Spell Pierce
+2 Nowhere to Run
+3 The Lonely Mountain
+1 Cavern of Souls
+2 Izzet Guildgate
+6 Island
+6 Swamp
+7 Mountain
+```

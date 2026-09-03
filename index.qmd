@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-09-03**:
 
+- **[Scale and Coin](decks/2026-09-03-scale-and-coin.html)** — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck  `hobbit` `smaug`
 - **[Requiem Mass](decks/2026-09-03-requiem-mass.html)** — Orzhov Endure x Sacrifice — every death makes the choir louder  `combo` `endure` `sacrifice`

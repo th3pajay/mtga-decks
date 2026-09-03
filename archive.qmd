@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **486** cards locked · **Hobbit 50/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **496** cards locked · **Hobbit 49/193** remaining
 
-**30 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**31 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-09-03
 
+- **[Scale and Coin](decks/2026-09-03-scale-and-coin.html)** — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck  `hobbit` `smaug`
 - **[Requiem Mass](decks/2026-09-03-requiem-mass.html)** — Orzhov Endure x Sacrifice — every death makes the choir louder  `combo` `endure` `sacrifice`
 
 ## 2026-09-02

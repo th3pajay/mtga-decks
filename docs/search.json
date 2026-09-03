@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-09-03:\n\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
+    "text": "Deck guides published 2026-09-03:\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -861,186 +861,186 @@
     "text": "Deck list (Arena import)\n4 The Seriema\n2 Dawnsire, Sunstar Dreadnought\n2 Amalia Benavides Aguirre\n2 Aurelia, the Warleader\n3 Vaultborn Tyrant\n2 Exemplar of Light\n2 Sledge-Class Seedship\n2 Fell Gravship\n2 Lumen-Class Frigate\n2 Uthros Scanship\n1 Wedgelight Rammer\n1 Wurmwall Sweeper\n1 Atmospheric Greenhouse\n3 Case of the Shattered Pact\n2 Case of the Gorgon's Kiss\n1 Case of the Filched Falcon\n2 Stroke of Midnight\n2 Elspeth's Smite\n2 Adagia, Windswept Bastion\n1 Uthros, Titanic Godcore\n2 Susur Secundi, Void Altar\n1 Kavaron, Memorial World\n1 Evendo, Waking Haven\n1 Opulent Palace\n1 Nomad Outpost\n1 Mystic Monastery\n1 Bleachbone Verge\n1 Gloomlake Verge\n1 Concealed Courtyard\n1 Botanical Sanctum\n1 Godless Shrine\n1 Blood Crypt\n1 Stomping Ground\n1 Temple Garden\n2 Plains\n2 Forest\n1 Island\n1 Mountain"
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html",
-    "href": "decks/2026-08-26-wing-and-coin.html",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html",
+    "href": "decks/2026-09-03-scale-and-coin.html",
+    "title": "Scale and Coin",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlack / Red / White\n\n\nArchetype\nSmaug dragon x treasure combo (avg CMC 3.08)\n\n\nSize\n60 cards\n\n\nPrimary win\nSmaug the Magnificent burn: treasures make his attack trigger deal N damage to any target, and he has flying and haste — one swing with a full hoard is 10+ to the face\n\n\nSecondary win\nLake-town mill: The Master of Lake-town mills a player for every point of life they lose, so every Smaug trigger and combat hit mills the opponent out\n\n\nLand win con\nThe Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper per Equipment) plus Restless Fortress (draining creature-land)"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlue / Black / Red (UBR)\n\n\nArchetype\nSmaug treasure-dragon engine (avg nonland CMC ~2.9)\n\n\nCore mechanic\nTreasure generation × artifact-ETB draw × dragon payoffs\n\n\nPrimary win\nSmaug the Magnificent attacks with a hoard of Treasures and deals that much damage to any target; every Treasure that enters draws a card off Fateful Discovery\n\n\nSecondary win\nDragon swarm — The Misty Mountains Cold’s 6/6 Dragon, Magda’s 4/4 haste Dragon tokens, Smaug Wicked Worm and Rapacious Dragon beat down\n\n\nLand win condition\nThe Lonely Mountain turns late-game treasure mana into 2/2 Dwarf tokens; Cavern of Souls (naming Dragon) makes every dragon cast uncounterable"
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
-    "href": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#game-plan-phases",
+    "href": "decks/2026-09-03-scale-and-coin.html#game-plan-phases",
+    "title": "Scale and Coin",
     "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop the hoard: Sackville-Bagginses, Gleaming Splendor, Last Light, Dori, or the Grey Dog; Stir Up Trouble and Deadly Slice hold the board\n\n\nTurns 3-5\nEngines online: The Misty Mountains Cold makes a Treasure every chapter and pops a 6/6 Dragon; Smaug, Wicked Worm enters for a burst of tapped gold\n\n\nTurns 5-7\nThe combo turn: Smaug the Magnificent lands with a hoard behind him; Desolation clears non-Dragons and pays for the next dragon\n\n\nLate game\nWin condition 2: The Master of Lake-town turns every Smaug trigger into mill; Were-Worm’s extra combat doubles the burn"
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-2\nDevelop: Magda, Sarkhan, Sackville-Bagginses or Collector’s Vault; start accruing Treasures\n\n\nTurns 3-4\nEngine: Dori or The Misty Mountains Cold; Fateful Discovery turns every Treasure into a card; remove blockers with Nowhere to Run\n\n\nTurns 5-6\nConvert: Smaug the Magnificent attacks with 4-7 Treasures for 4-7 to any target; Desolation of Smaug clears boards then casts a Dragon\n\n\nLate game\nDragon swarm closes: Misty saga 6/6, Magda 4/4 haste tokens, Wicked Worm 5/5; The Lonely Mountain sinks spare Treasure mana into Dwarf tokens"
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#card-roles",
-    "href": "decks/2026-08-26-wing-and-coin.html#card-roles",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#card-roles",
+    "href": "decks/2026-09-03-scale-and-coin.html#card-roles",
+    "title": "Scale and Coin",
     "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nThe engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count\n\n\nSmaug, Wicked Worm\nTreasure burst on entry (one per artifact the opponent controls) and card draw whenever you cast with Treasure mana\n\n\nThe Misty Mountains Cold\nSaga that makes a Treasure on every chapter and sacrifices itself into a 6/6 flying Dragon when the hoard hits four\n\n\nGleaming Splendor\nRepeatable Treasure: triggers on the opponent’s second draw, and its own {2}{W} activation forces that draw\n\n\nLast Light of Durin’s Day\nMountain quest: at six Mountain-entries it tutors any Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nOne-sided board wipe (3 damage to each non-Dragon) that adds four mana for your next Dragon spell\n\n\nDesert Were-Worm\nGrows +2/+0 per Mountain; at 12+ attacking power it grants an extra combat — Smaug burns twice\n\n\nDori, Bearer of Friends\nCheap legendary Dwarf that makes a Treasure on entry\n\n\nThe Sackville-Bagginses\nTurns spare artifacts and creatures into cards and Treasures, and pings on every token sacrifice\n\n\nThe Master of Lake-town\nWin condition 2: every point of life lost mills that many cards\n\n\nLong-Bodied Grey Dog\nFlash 2/2 with reach that makes a tapped Treasure — instant-speed hoard development\n\n\nBilbo’s Deadly Slice\nClean {1}{B}{B} removal\n\n\nStir Up Trouble\nOne-mana removal that happily eats a Treasure as its cost\n\n\nPinecone Strike\nFlexible burn that exiles dying creatures and destroys artifact tokens\n\n\nBilbo’s Gambit\nBounces a spell and, when gifted, locks both players out of casting — the Treasure gift feeds Wicked Worm later\n\n\nThe Eagles Are Coming!\nFlickers your dragons to re-trigger Wicked Worm and Dori, then refunds 4/4 flying Birds\n\n\nInside Information\nX-cost mill and theft: exile the top X of the opponent’s library and play their own spells\n\n\nThe Arkenstone\nAnthem and end-step draw; its adventure Seek the Heart tutors any legendary — usually Smaug himself\n\n\nCrude Bent Blade\nRemoval on entry, then an Equipment that discounts The Lonely Mountain\n\n\nSting, Bilbo’s Sword\nFlash Equipment with hone counters; keeps The Lonely Mountain untapped and cheap\n\n\nThrór’s Map\nFetches a basic (a Mountain for the quest) and loots away late-game flood"
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nPrimary payoff: upkeep Treasure, and attack damage equal to your Treasure count to any target (flying, haste)\n\n\nSmaug, Wicked Worm\n5/5 flying Dragon that enters with a Treasure per opposing artifact and draws a card each time you cast with Treasure mana\n\n\nThe Misty Mountains Cold\nSaga engine: four chapter triggers each make a Treasure, then sacrifices itself for a 6/6 flying Dragon\n\n\nFateful Discovery\nEngine: every artifact entering draws a card — every Treasure, Clue-less token, Vault and Barrier trigger it\n\n\nMagda, the Hoardmaster\nTreasure on each crime; three Treasures become a 4/4 red Dragon token with flying and haste\n\n\nSarkhan, Dragon Ascendant\n2-drop that beholds a Dragon into a Treasure and grows +1/+1 whenever a Dragon enters, becoming a Dragon itself\n\n\nDori, Bearer of Friends\n3/2 trample that makes a Treasure on entry — the curve filler between Magda and Smaug\n\n\nRapacious Dragon\n3/3 flying that enters with two Treasures — ramp plus a body\n\n\nThe Sackville-Bagginses\nSacrifices a creature or artifact to draw and make a Treasure; token sacrifices ping the opponent\n\n\nDesolation of Smaug\nSweeps all non-Dragons for 3, then adds four mana usable only for Dragon spells\n\n\nLast Light of Durin’s Day\nMountain quest that puts a Dragon onto the battlefield at six Mountains; mountaincycles to fix mana\n\n\nCollector’s Vault\nLoot plus a Treasure every activation — an artifact that fuels Fateful Discovery\n\n\nGleaming Barrier\n0/4 defender that chump-blocks early and makes a Treasure when it dies\n\n\nStock Up\nDigs five, keeps two — finds the engine pieces\n\n\nSpell Pierce\nProtects Smaug and the sagas from removal and board wipes\n\n\nNowhere to Run\nFlash -3/-3 that also turns off hexproof and ward for later removal"
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
-    "href": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#lands-as-engines",
+    "href": "decks/2026-09-03-scale-and-coin.html#lands-as-engines",
+    "title": "Scale and Coin",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that makes 2/2 red Dwarf tokens for {4}{R}, {1} cheaper per Equipment — the win-con land\n\n\nHobbit Hole\nSacrifices itself to put a basic onto the battlefield tapped — an extra Mountain for the Last Light quest\n\n\nRestless Fortress\nBlack-white mana that becomes a 1/4 Nightmare and drains 2 life when it attacks — life loss also feeds the Lake-town mill\n\n\nRazortrap Gorge\nBlack-red fixing that enters untapped once a player is at 13 or less life\n\n\nTemples and fast lands\nSundown Pass, Inspiring Vantage, and the Temples keep the three-color mana stable"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nLand win condition: a Mountain (feeds Last Light of Durin’s Day) that sinks spare Treasure mana into 2/2 Dwarf tokens; enters tapped unless you control an Equipment\n\n\nCavern of Souls\nNames Dragon: dragon spells can’t be countered and get any-color mana — protects the Smaug cast\n\n\nIzzet Guildgate\nBlue-red fixing for the draw engine\n\n\nIsland / Swamp / Mountain\nBlue-black core with a red base — the deck needs {R} early, {U}{U} for Fateful Discovery by turn five"
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
-    "href": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#curve-and-mana",
+    "href": "decks/2026-09-03-scale-and-coin.html#curve-and-mana",
+    "title": "Scale and Coin",
     "section": "Curve and mana",
-    "text": "Curve and mana\n24 lands: 4 The Lonely Mountain, 2 Hobbit Hole, 2 Sundown Pass, 1 Elegant Parlor, 2 Inspiring Vantage, 2 Temple of Malice, 1 Temple of Triumph, 1 Temple of Silence, 1 Restless Fortress, 1 Razortrap Gorge, 2 Mountain, 5 Swamp. Red sources 15, black 10, white 8 — red is the workhorse, white a light splash.\nNonland curve: 1-drop x2, 2-drop x13, 3-drop x11, 4-drop x4, 5-drop x3, 6-drop x2, 7-drop x1. Average CMC 3.08. The deck wants a Treasure maker on turn 2, a saga or Dori on turn 3, and Smaug the Magnificent on turn 4-5 with a hoard already forming."
+    "text": "Curve and mana\nTwenty-five lands: seventeen basics (7 Mountain, 6 Island, 6 Swamp) plus eight nonbasics (3 The Lonely Mountain, 1 Cavern of Souls, 2 Izzet Guildgate). The red base comes down early for Magda and Sarkhan; the two guildgates and Cavern cover the blue splash while Swamps support black. The curve is engine-shaped: six two-drop plays (Magda, Sarkhan, Sackville-Bagginses, Collector’s Vault, Gleaming Barrier, Last Light), four three-drops (Dori, Misty saga, Stock Up), and the four-to-five mana payoff cluster (Smaug the Magnificent, Desolation of Smaug, Wicked Worm, Rapacious Dragon, Fateful Discovery). Treasures effectively advance the curve by a full turn — a turn-three Dori or Misty saga makes turn-four Smaug routine."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#early-game",
-    "href": "decks/2026-08-26-wing-and-coin.html#early-game",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#early-game",
+    "href": "decks/2026-09-03-scale-and-coin.html#early-game",
+    "title": "Scale and Coin",
     "section": "Early game",
-    "text": "Early game\nTurn 1 is Stir Up Trouble (holding up {B} to eat a Treasure and kill a threat) or a tapped Temple. Turn 2: The Sackville-Bagginses, Gleaming Splendor, Last Light, or removal. Sequence tapped lands first — Temples, Elegant Parlor, and Restless Fortress enter tapped, so keep Sundown Pass and Inspiring Vantage for the turns you need untapped red. Fetching a Mountain with Hobbit Hole also advances the Last Light quest."
+    "text": "Early game\nLead with Magda (crimes feed her Treasure), Sarkhan (behold a Dragon from hand for a Treasure), The Sackville-Bagginses, or Collector’s Vault. Gleaming Barrier stalls aggro while setting up a death-Treasure. Do not churn Treasures for mana unless the play matters — the Treasure count is both your mana and your damage. Play toward Fateful Discovery on four or five: from that point every Treasure ETB replaces itself."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#mid-game",
-    "href": "decks/2026-08-26-wing-and-coin.html#mid-game",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#mid-game",
+    "href": "decks/2026-09-03-scale-and-coin.html#mid-game",
+    "title": "Scale and Coin",
     "section": "Mid game",
-    "text": "Mid game\nResolve The Misty Mountains Cold and let the chapters stack Treasures; it turns itself into a 6/6 Dragon at four tokens. Smaug, Wicked Worm is the mid-game haymaker: against artifact decks it enters with four or five tapped Treasures, and every spell cast from that gold draws a card. Gleaming Splendor turns the opponent’s card draw into more gold, and its {2}{W} mode makes two players draw — forcing the trigger and cantripping you at once."
+    "text": "Mid game\nResolve The Misty Mountains Cold or Dori to start the Treasure train, then Fateful Discovery. Each subsequent Treasure — Smaug’s upkeep trigger, Magda’s crime Treasure, Sackville’s draw-Treasure, a dying Gleaming Barrier, Collector’s Vault — draws a card. This is where the deck pulls ahead: Treasure count climbs and the hand refills every turn, so removal and counters stay stocked. Nowhere to Run clears hexproof/ward threats at flash speed."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
-    "href": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#the-combo-turn",
+    "href": "decks/2026-09-03-scale-and-coin.html#the-combo-turn",
+    "title": "Scale and Coin",
     "section": "The combo turn",
-    "text": "The combo turn\n\nAccumulate a hoard: four to eight Treasures from the saga, Splendor, Wicked Worm, Dori, and the Grey Dog.\nCast Smaug the Magnificent ({2}{R}{R}, haste, flying). If the board is crowded, Desolation of Smaug first — it deals 3 to every non-Dragon and its four mana can pay for Smaug himself.\nAttack: Smaug’s trigger deals damage equal to your Treasure count to any target — face, planeswalker, or blocker — plus his 4 combat damage.\nRepeat: every upkeep makes another Treasure, so each swing is bigger. With Desert Were-Worm (growing off every Mountain) attacking alongside, 12+ total power grants an extra combat and Smaug’s burn fires twice.\n\nA typical kill: six Treasures and Smaug attacking alone is 10 damage; the next turn is 11, and the turn after that is 12. Wicked Worm’s draw-on-Treasure-cast keeps the hand full through the sequence."
+    "text": "The combo turn\nWith Fateful Discovery and Magda on board and a Treasure count of five or more: commit a crime (Nowhere to Run on their creature) for a tapped Treasure — that ETB draws a card. Sacrifice three Treasures to Magda for a 4/4 haste Dragon, whose entry grows Sarkhan and (if Sarkhan is out) makes him a flying Dragon too. Cast Smaug the Magnificent, then attack: he deals damage equal to the remaining Treasures to any target — removal or face. Desolation of Smaug is the reset button: it sweeps their non-Dragon board, then its four floating mana cast Wicked Worm or Rapacious Dragon the same turn."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
-    "href": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#win-condition-2",
+    "href": "decks/2026-09-03-scale-and-coin.html#win-condition-2",
+    "title": "Scale and Coin",
     "section": "Win condition 2",
-    "text": "Win condition 2\nThe Master of Lake-town turns the same engine into mill. Every point of life an opponent loses — Smaug’s attack trigger, his combat damage, Restless Fortress’s drain — mills that many cards off the top; a 6-Treasure Smaug swing mills 10. Inside Information finishes: with a hoard of Treasures paying any color, X = 10 or more exiles a huge chunk of the library outright, and the exiled cards are playable (paying life instead of mana, which conveniently mills more). The Arkenstone’s adventure tutors either Smaug or the Master, whichever the board needs. Backup: The Lonely Mountain’s Dwarf tokens, the saga’s 6/6 Dragon, and Restless Fortress beats."
+    "text": "Win condition 2\nThe Dragon swarm. The Misty Mountains Cold resolves fully into a 6/6 flying Dragon; Magda converts three Treasures into haste Dragons on demand; Smaug, Wicked Worm is a 5/5 flyer that can enter with a Treasure per opposing artifact; Rapacious Dragon brings two Treasures and a 3/3 flyer. Multiple evasive Dragons end games that Smaug’s ping can’t reach — especially against lifegain, where the attack-trigger damage plus flyer beats outlasts incidental life."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
-    "href": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#mulligan-guide",
+    "href": "decks/2026-09-03-scale-and-coin.html#mulligan-guide",
+    "title": "Scale and Coin",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep: two to three lands with a Treasure maker or removal — Sackville-Bagginses, Gleaming Splendor, Dori, or Stir Up Trouble openers are strong; any hand with The Misty Mountains Cold or Smaug, Wicked Worm plus interaction is excellent. Mulligan one-land hands and hands with five or more lands and no engine. White is a splash: a hand with only red and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not."
+    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop engine (Magda, Sarkhan, Sackville-Bagginses, Collector’s Vault). Hands with Smaug the Magnificent plus any Treasure source are strong. Ship one-landers, hands with three or more five-drops, and hands with no red source. Against aggressive decks, prioritize Gleaming Barrier and Nowhere to Run over the slow draw pieces; against control, keep Spell Pierce and lean on Cavern of Souls naming Dragon."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-03-scale-and-coin.html#key-interactions-and-edge-cases",
+    "title": "Scale and Coin",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nSmaug the Magnificent’s attack trigger targets — it can hit creatures and planeswalkers as well as the opponent; point it at a blocker and Smaug’s own combat damage still connects.\nThe Misty Mountains Cold checks “four or more Treasures” after each chapter — with Gleaming Splendor and the Grey Dog it can pop its Dragon as early as chapter II.\nSmaug, Wicked Worm counts artifacts the opponent controls at entry — Bilbo’s Gambit’s gifted Treasure feeds it, so hold Wicked Worm for when they have an artifact board.\nLast Light of Durin’s Day counts Mountains entering, not lands — fetch Mountains specifically with Hobbit Hole and Thrór’s Map; The Lonely Mountain is a Mountain.\nDesert Were-Worm’s extra combat triggers “the first time each turn” you attack with 12+ total power — attack with it and Smaug together so both get the second combat. Gleaming Splendor’s {2}{W} targets two players: choose an opponent and yourself to force the Treasure trigger and draw your own card."
+    "text": "Key interactions and edge cases\n\nSmaug’s attack trigger deals damage equal to your Treasure count at the moment the trigger resolves — sacrifice Treasures for mana after declaring attackers, not before, if you want maximum damage.\nFateful Discovery triggers on artifacts entering, not tokens specifically: Treasure tokens, Gleaming Barrier, Collector’s Vault, and Cavern-free artifact creatures all draw. The Misty Mountains Cold’s four chapter triggers each draw a card with Fateful Discovery out.\nThe Misty Mountains Cold checks for four or more Treasures after each chapter trigger, then sacrifices itself for a 6/6 Dragon — it needs four Treasures, not four counters, so time your Treasure spends carefully if you want the Dragon rather than the mana.\nMagda’s Treasure trigger fires once per turn regardless of how many crimes you commit — one crime per turn is enough.\n“Commit a crime” means targeting the opponent, anything they control, or cards in their graveyard — Nowhere to Run, removal, and even a counterspell aimed at their spell are crimes.\nDesolation of Smaug damages non-Dragon creatures — your Dragon tokens and Dragons survive while everything else on both sides takes 3. The four mana it adds can only cast Dragon spells.\nThe Sackville-Bagginses’ token-sacrifice ping includes Treasure tokens sacrificed for mana — cracking a Treasure at the right moment doubles as a Shock.\nCavern of Souls must name Dragon before it taps for the uncounterable any-color mana; it only protects Dragon creature spells.\nWicked Worm draws when you cast a spell with mana from a Treasure — mana from Cavern, basic lands or treasures all mix, so this triggers only if Treasure mana was actually spent on that spell."
   },
   {
-    "objectID": "decks/2026-08-26-wing-and-coin.html#matchups",
-    "href": "decks/2026-08-26-wing-and-coin.html#matchups",
-    "title": "Wing and Coin",
+    "objectID": "decks/2026-09-03-scale-and-coin.html#matchups",
+    "href": "decks/2026-09-03-scale-and-coin.html#matchups",
+    "title": "Scale and Coin",
     "section": "Matchups",
-    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nRemoval holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed\n\n\nMidrange\nRace the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons\n\n\nControl\nBilbo’s Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw\n\n\nCombo\nMill is the fastest clock: Master of Lake-town plus Smaug’s trigger mills 10+ per turn; Inside Information exiles their pieces"
+    "text": "Matchups\n\nAggro (fliers, lifegain, cats): Gleaming Barrier and Nowhere to Run hold the ground until Desolation of Smaug resets the board; the deck’s draw engine finds answers faster than aggro refills. Smaug’s ping doubles as removal for their biggest threat.\nMidrange (landfall, counters): the Treasure-draw engine out-values them — every Treasure replaces itself and every Dragon is bigger than their curve; Desolation clears their developed board and ramps into a Dragon on the same turn.\nControl: Cavern of Souls (naming Dragon), Spell Pierce and Wicked Worm’s treasure-cast draw keep gas flowing; the saga and enchantment engines (Misty Mountains Cold, Fateful Discovery, Last Light of Durin’s Day) are hard for sweepers to answer permanently.\nCombo and big mana: the deck is the aggressor — haste Smaug and Magda Dragons pressure before their engine comes online, and Nowhere to Run plus Spell Pierce disrupt key pieces."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html",
-    "href": "decks/2026-08-25-swarm-calculus.html",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html",
+    "href": "decks/2026-09-01-moon-and-dale.html",
+    "title": "Moon and Dale",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nWhite / Blue / Black / Green (WUBG)\n\n\nArchetype\nLegendary-Elf combo-value (avg nonland CMC 3.9)\n\n\nCore mechanic\nLegendary Elf ETB draw engine x token doubling x landfall\n\n\nPrimary win\nThranduil, the Elvenking draws two per legendary Elf entry, Bard, King of Dale doubles every non-first draw, and the draw-2 payoffs turn cards into counters, lifelink and pump for an unblockable alpha strike\n\n\nSecondary win\nElf token swarm: Thranduil, Sindarin Liege landfall tokens doubled by Bard, King of Dale, growing with Thranduil’s Company and Mirkwood Pathmaker\n\n\nLand win condition\nRestless Vinestalk man-land + Rogue’s Passage unblockable"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "title": "Swarm Calculus",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#game-plan-phases",
+    "href": "decks/2026-09-01-moon-and-dale.html#game-plan-phases",
+    "title": "Moon and Dale",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop: Wood Elves, Lakeshore Apothecary or The Queen of Dale; play Elrond or Bard the Bowman; start the second-card-drawn triggers\n\n\nTurns 4-5\nEngine: Thranduil, Sindarin Liege starts making Elf tokens; Thranduil, the Elvenking turns every legendary Elf into a 2-card draw; Thranduil’s Company adds extra land drops\n\n\nTurn 6+\nConvert: Bard, King of Dale doubles draws and tokens; Galion sets a creature’s power equal to his own; Rogue’s Passage makes it unblockable\n\n\nLate game\nRestless Vinestalk is a 5/5 trample man-land; Ravenhill Flock has eaten a dozen +1/+1 counters"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "title": "Swarm Calculus",
-    "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+    "objectID": "decks/2026-09-01-moon-and-dale.html#card-roles",
+    "href": "decks/2026-09-01-moon-and-dale.html#card-roles",
+    "title": "Moon and Dale",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThranduil, the Elvenking\nEngine: every other legendary Elf entering draws two cards (then discards one); also gains all activated abilities of Elf cards in your graveyard\n\n\nBard, King of Dale\nMultiplier: doubles every non-first draw and doubles all tokens created\n\n\nElrond, Moon-Reader\nDraw on creature-ability activation (once per turn); flicker two permanents to re-trigger ETBs\n\n\nThranduil, Sindarin Liege\nAnthem for Elves; landfall makes a 1/1 Elf; adventure Silvan Rally mills four for two lands\n\n\nBard the Bowman\nDraw-2 payoff: counter + lifelink on your second draw each turn\n\n\nGalion, Elvenking’s Butler\nAttack payoff: another creature’s base power/toughness becomes Galion’s — an instant “big number”\n\n\nThranduil’s Company\nExtra land drops plus landfall: two +1/+1 counters and vigilance on a creature\n\n\nWood Elves\nRamp: fetches a Forest into play\n\n\nMirkwood Pathmaker\nFinisher sizing: power/toughness equal to your land count\n\n\nSilvan Reveler\nLoot on entry (a discarded land enters the battlefield); landfall recursion from the graveyard\n\n\nRavenhill Flock\nFlying beater that grows on every draw\n\n\nMirkwood Meditator\nLandfall: becomes a 4/2 blocker/attacker at instant speed\n\n\nLakeshore Apothecary\nTwo-drop that grows on your second draw\n\n\nThe Queen of Dale\nPunishes the opponent’s first noncreature spell with a recruit (draw, discard, maybe a Soldier)\n\n\nLake-town Toymaker\n+3/+0 and first strike if you drew two or more this turn\n\n\nBoughside Wanderers\nDigs four for a permanent; landfall +2/+2\n\n\nMost Decrepit Old Bird\nCheap flyer; adventure Speak Secrets mills four for an instant or sorcery\n\n\nLake-town Mariners\nVigilance ward body; adventure Gone Fishing blinks two of your permanents to re-trigger landfall/ETBs\n\n\nThranduil’s Decree\nCounterspell with exile; you may cast the exiled spell for free\n\n\nTroll Negotiations\nTwo counters plus a fight — removal that also pumps"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#lands-as-engines",
+    "href": "decks/2026-09-01-moon-and-dale.html#lands-as-engines",
+    "title": "Moon and Dale",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nRestless Vinestalk\nLand win condition: {3}{G}{U} makes a 5/5 trample Plant; on attack sets another creature’s base stats to 3/3; also fixes blue-green\n\n\nRogue’s Passage\nLand win condition: {4} makes the Galion-pumped or Pathmaker-sized creature unblockable\n\n\nLush Portico\nWhite-green fixing with surveil 1\n\n\nTemple of Mystery / Temple of Plenty\nBlue-green / white-green fixing with scry 1\n\n\nMultiversal Passage\nAny-basic fixing (usually a second Swamp for Thranduil)\n\n\nTarnation Vista\nAny-color fixing that also adds per color among your monocolored permanents\n\n\nStarting Town\nAny-color fixing early; untapped on the first three turns\n\n\nMistrise Village\nBlue source whose activation makes your next spell uncounterable"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#curve-and-mana",
+    "href": "decks/2026-09-01-moon-and-dale.html#curve-and-mana",
+    "title": "Moon and Dale",
     "section": "Curve and mana",
-    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+    "text": "Curve and mana\nTwenty-five lands: twelve basics (5 Forest, 4 Island, 2 Plains, 1 Swamp) and thirteen fixing lands. Black is a splash for Thranduil, the Elvenking (one Swamp plus Multiversal Passage and Tarnation Vista cover it), so the mana plays like a Bant deck with a black pip. The curve peaks at four (Sindarin Liege, Galion, Thranduil’s Company, Ravenhill Flock) with a top end of six (Bard, King of Dale, Boughside Wanderers, Lake-town Mariners, Thranduil’s Decree). Wood Elves and the landfall payoffs smooth the early turns; most games reach six mana on turn six without acceleration."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "title": "Swarm Calculus",
-    "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#early-game",
+    "href": "decks/2026-09-01-moon-and-dale.html#early-game",
+    "title": "Moon and Dale",
+    "section": "Early game",
+    "text": "Early game\nPlay a two-drop: Wood Elves for ramp, Lakeshore Apothecary for the eventual draw triggers, or The Queen of Dale against spell-heavy decks. On turn three, Elrond or Bard the Bowman. The goal is a board and a draw trigger ready for when Thranduil arrives. Do not hold lands back — the deck’s clock is land count (Pathmaker, Sindarin Liege tokens, Thranduil’s Company)."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "title": "Swarm Calculus",
-    "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#mid-game",
+    "href": "decks/2026-09-01-moon-and-dale.html#mid-game",
+    "title": "Moon and Dale",
+    "section": "Mid game",
+    "text": "Mid game\nResolve Thranduil, Sindarin Liege, then start playing legendary Elves. Each one draws two cards with Thranduil, the Elvenking on board; with Bard, King of Dale that becomes four cards drawn (discard one). Bard the Bowman puts a counter and lifelink on something every time you hit your second draw; Ravenhill Flock grows every draw. Thranduil’s Company turns the extra land drops into +1/+1 counters with vigilance. Use Thranduil’s Decree to protect the engine or stop a sweeper."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#the-combo-turn",
+    "href": "decks/2026-09-01-moon-and-dale.html#the-combo-turn",
+    "title": "Moon and Dale",
     "section": "The combo turn",
-    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+    "text": "The combo turn\nThe signature sequence: with Thranduil, the Elvenking and Bard, King of Dale on board, cast any other legendary Elf (Sindarin Liege, Elrond, Galion). Thranduil draws two, Bard doubles it to four. Bard the Bowman pumps a creature with +1/+1 and lifelink; Ravenhill Flock and Lakeshore Apothecary grow. Then attack: Galion sets a creature’s base power and toughness to his own, Rogue’s Passage makes it unblockable, and the life total disappears. Against creature decks, the same draw burst finds Troll Negotiations or Lake-town Mariners’ Gone Fishing to clear the path."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "title": "Swarm Calculus",
-    "section": "Win condition 2: the ETB burn loop",
-    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+    "objectID": "decks/2026-09-01-moon-and-dale.html#win-condition-2",
+    "href": "decks/2026-09-01-moon-and-dale.html#win-condition-2",
+    "title": "Moon and Dale",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe Elf token swarm: Sindarin Liege’s landfall makes a 1/1 Elf per land; Bard, King of Dale doubles every token. Thranduil’s Company stacks +1/+1 counters and vigilance; Mirkwood Pathmaker is as big as your land count; Boughside Wanderers pumps +2/+2 per landfall. Restless Vinestalk joins as a 5/5 trample Plant. This plan beats midrange boards by outnumbering and out-sizing them, and beats control by forcing multiple sweepers — Thranduil draws two per legendary Elf after each wipe."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#mulligan-guide",
+    "href": "decks/2026-09-01-moon-and-dale.html#mulligan-guide",
+    "title": "Moon and Dale",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop, or three lands and a four-drop engine. Hands with Thranduil, the Elvenking but no fixing for black are fine if Multiversal Passage or Tarnation Vista is present. Ship one-lander openers and hands with three top-end six-drops. Against aggressive decks, keep the hand with Wood Elves or the Apothecary rather than the greedier draw cards."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-01-moon-and-dale.html#key-interactions-and-edge-cases",
+    "title": "Moon and Dale",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+    "text": "Key interactions and edge cases\n\nThranduil, the Elvenking’s draw triggers on every other legendary Elf entering — including a second copy of himself, Elrond, Galion, Sindarin Liege, and The Queen of Dale (a legendary Human Noble, so it also draws).\nBard, King of Dale doubles only draws beyond the first card of your draw step, but it doubles every draw from Thranduil, Elrond, Ravenhill triggers, and the adventures. It also doubles all token creation — Sindarin Liege landfall tokens become two Elves.\nBard the Bowman triggers on your second draw each turn, so a burst of four cards still counts as one trigger; the counters accumulate from multiple turns and multiple legendary Elves.\nElrond’s draw triggers once per turn, on any creature-ability activation — Thranduil’s stolen Elf abilities (e.g. Woodland Weavemaster’s tap-for-mana if it is in the graveyard) count.\nSilvan Reveler’s discard: if you discard a land, it enters the battlefield tapped — that triggers landfall twice (the discard land and the landfall pay {1}{G}{U} recursion).\nGone Fishing (Lake-town Mariners adventure) exiles two of your own permanents and returns them — re-triggering Wood Elves, Sindarin Liege landfall, and Silvan Reveler; it can also dodge a removal spell or bounce a tapped land for a double landfall.\nThranduil’s Decree exiles countered permanent spells; you may cast them for free later — steal the opponent’s win condition.\nMirkwood Meditator’s base 4/2 replacement only lasts until end of turn; it does not permanently shrink.\nRestless Vinestalk’s attack trigger sets another creature’s base stats to 3/3 — use it to fix Galion’s pump target or to shrink an opposing-adjacent threat only if it is your creature."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-01-moon-and-dale.html#matchups",
+    "href": "decks/2026-09-01-moon-and-dale.html#matchups",
+    "title": "Moon and Dale",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+    "text": "Matchups\n\nAggro (fliers, lifegain, cats, landfall): Bard the Bowman’s lifelink, the 1/1 Elf wall, and Ravenhill Flock as a flying blocker stabilize; Thranduil’s Company gives vigilance to hold back and attack. Mirkwood Meditator blocks as a 4/2.\nMidrange: out-value with the draw engine; Galion plus Rogue’s Passage ends games through blockers; Troll Negotiations removes the biggest threat.\nControl: the engine rebuilds after every sweeper because every legendary Elf draws two; Thranduil’s Decree and Mistrise Village’s uncounterable spell fight the counter war; Bard, King of Dale’s doubled draws outpace one-for-one answers.\nCombo race: draw-engine speed wins the race; Gone Fishing can blink a key piece to dodge removal, and the token army provides instant chumpers."
   },
   {
     "objectID": "archive.html",
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Card pool consumption — cycle started 2026-08-22 · 486 cards locked · Hobbit 50/193 remaining\n30 deck guides — newest first. Every daily deck keeps its own permanent page."
+    "text": "Card pool consumption — cycle started 2026-08-22 · 496 cards locked · Hobbit 49/193 remaining\n31 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
     "objectID": "archive.html#section",
     "href": "archive.html#section",
     "title": "Archive",
     "section": "2026-09-03",
-    "text": "2026-09-03\n\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
+    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
   },
   {
     "objectID": "archive.html#section-1",
@@ -1141,88 +1141,172 @@
     "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html",
-    "href": "decks/2026-09-01-moon-and-dale.html",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html",
+    "href": "decks/2026-08-25-swarm-calculus.html",
+    "title": "Swarm Calculus",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nWhite / Blue / Black / Green (WUBG)\n\n\nArchetype\nLegendary-Elf combo-value (avg nonland CMC 3.9)\n\n\nCore mechanic\nLegendary Elf ETB draw engine x token doubling x landfall\n\n\nPrimary win\nThranduil, the Elvenking draws two per legendary Elf entry, Bard, King of Dale doubles every non-first draw, and the draw-2 payoffs turn cards into counters, lifelink and pump for an unblockable alpha strike\n\n\nSecondary win\nElf token swarm: Thranduil, Sindarin Liege landfall tokens doubled by Bard, King of Dale, growing with Thranduil’s Company and Mirkwood Pathmaker\n\n\nLand win condition\nRestless Vinestalk man-land + Rogue’s Passage unblockable"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#game-plan-phases",
-    "href": "decks/2026-09-01-moon-and-dale.html#game-plan-phases",
-    "title": "Moon and Dale",
-    "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop: Wood Elves, Lakeshore Apothecary or The Queen of Dale; play Elrond or Bard the Bowman; start the second-card-drawn triggers\n\n\nTurns 4-5\nEngine: Thranduil, Sindarin Liege starts making Elf tokens; Thranduil, the Elvenking turns every legendary Elf into a 2-card draw; Thranduil’s Company adds extra land drops\n\n\nTurn 6+\nConvert: Bard, King of Dale doubles draws and tokens; Galion sets a creature’s power equal to his own; Rogue’s Passage makes it unblockable\n\n\nLate game\nRestless Vinestalk is a 5/5 trample man-land; Ravenhill Flock has eaten a dozen +1/+1 counters"
+    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "title": "Swarm Calculus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#card-roles",
-    "href": "decks/2026-09-01-moon-and-dale.html#card-roles",
-    "title": "Moon and Dale",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThranduil, the Elvenking\nEngine: every other legendary Elf entering draws two cards (then discards one); also gains all activated abilities of Elf cards in your graveyard\n\n\nBard, King of Dale\nMultiplier: doubles every non-first draw and doubles all tokens created\n\n\nElrond, Moon-Reader\nDraw on creature-ability activation (once per turn); flicker two permanents to re-trigger ETBs\n\n\nThranduil, Sindarin Liege\nAnthem for Elves; landfall makes a 1/1 Elf; adventure Silvan Rally mills four for two lands\n\n\nBard the Bowman\nDraw-2 payoff: counter + lifelink on your second draw each turn\n\n\nGalion, Elvenking’s Butler\nAttack payoff: another creature’s base power/toughness becomes Galion’s — an instant “big number”\n\n\nThranduil’s Company\nExtra land drops plus landfall: two +1/+1 counters and vigilance on a creature\n\n\nWood Elves\nRamp: fetches a Forest into play\n\n\nMirkwood Pathmaker\nFinisher sizing: power/toughness equal to your land count\n\n\nSilvan Reveler\nLoot on entry (a discarded land enters the battlefield); landfall recursion from the graveyard\n\n\nRavenhill Flock\nFlying beater that grows on every draw\n\n\nMirkwood Meditator\nLandfall: becomes a 4/2 blocker/attacker at instant speed\n\n\nLakeshore Apothecary\nTwo-drop that grows on your second draw\n\n\nThe Queen of Dale\nPunishes the opponent’s first noncreature spell with a recruit (draw, discard, maybe a Soldier)\n\n\nLake-town Toymaker\n+3/+0 and first strike if you drew two or more this turn\n\n\nBoughside Wanderers\nDigs four for a permanent; landfall +2/+2\n\n\nMost Decrepit Old Bird\nCheap flyer; adventure Speak Secrets mills four for an instant or sorcery\n\n\nLake-town Mariners\nVigilance ward body; adventure Gone Fishing blinks two of your permanents to re-trigger landfall/ETBs\n\n\nThranduil’s Decree\nCounterspell with exile; you may cast the exiled spell for free\n\n\nTroll Negotiations\nTwo counters plus a fight — removal that also pumps"
+    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "title": "Swarm Calculus",
+    "section": "Why these cards",
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#lands-as-engines",
-    "href": "decks/2026-09-01-moon-and-dale.html#lands-as-engines",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "title": "Swarm Calculus",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nRestless Vinestalk\nLand win condition: {3}{G}{U} makes a 5/5 trample Plant; on attack sets another creature’s base stats to 3/3; also fixes blue-green\n\n\nRogue’s Passage\nLand win condition: {4} makes the Galion-pumped or Pathmaker-sized creature unblockable\n\n\nLush Portico\nWhite-green fixing with surveil 1\n\n\nTemple of Mystery / Temple of Plenty\nBlue-green / white-green fixing with scry 1\n\n\nMultiversal Passage\nAny-basic fixing (usually a second Swamp for Thranduil)\n\n\nTarnation Vista\nAny-color fixing that also adds per color among your monocolored permanents\n\n\nStarting Town\nAny-color fixing early; untapped on the first three turns\n\n\nMistrise Village\nBlue source whose activation makes your next spell uncounterable"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#curve-and-mana",
-    "href": "decks/2026-09-01-moon-and-dale.html#curve-and-mana",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "title": "Swarm Calculus",
     "section": "Curve and mana",
-    "text": "Curve and mana\nTwenty-five lands: twelve basics (5 Forest, 4 Island, 2 Plains, 1 Swamp) and thirteen fixing lands. Black is a splash for Thranduil, the Elvenking (one Swamp plus Multiversal Passage and Tarnation Vista cover it), so the mana plays like a Bant deck with a black pip. The curve peaks at four (Sindarin Liege, Galion, Thranduil’s Company, Ravenhill Flock) with a top end of six (Bard, King of Dale, Boughside Wanderers, Lake-town Mariners, Thranduil’s Decree). Wood Elves and the landfall payoffs smooth the early turns; most games reach six mana on turn six without acceleration."
+    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#early-game",
-    "href": "decks/2026-09-01-moon-and-dale.html#early-game",
-    "title": "Moon and Dale",
-    "section": "Early game",
-    "text": "Early game\nPlay a two-drop: Wood Elves for ramp, Lakeshore Apothecary for the eventual draw triggers, or The Queen of Dale against spell-heavy decks. On turn three, Elrond or Bard the Bowman. The goal is a board and a draw trigger ready for when Thranduil arrives. Do not hold lands back — the deck’s clock is land count (Pathmaker, Sindarin Liege tokens, Thranduil’s Company)."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "title": "Swarm Calculus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#mid-game",
-    "href": "decks/2026-09-01-moon-and-dale.html#mid-game",
-    "title": "Moon and Dale",
-    "section": "Mid game",
-    "text": "Mid game\nResolve Thranduil, Sindarin Liege, then start playing legendary Elves. Each one draws two cards with Thranduil, the Elvenking on board; with Bard, King of Dale that becomes four cards drawn (discard one). Bard the Bowman puts a counter and lifelink on something every time you hit your second draw; Ravenhill Flock grows every draw. Thranduil’s Company turns the extra land drops into +1/+1 counters with vigilance. Use Thranduil’s Decree to protect the engine or stop a sweeper."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "title": "Swarm Calculus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#the-combo-turn",
-    "href": "decks/2026-09-01-moon-and-dale.html#the-combo-turn",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "title": "Swarm Calculus",
     "section": "The combo turn",
-    "text": "The combo turn\nThe signature sequence: with Thranduil, the Elvenking and Bard, King of Dale on board, cast any other legendary Elf (Sindarin Liege, Elrond, Galion). Thranduil draws two, Bard doubles it to four. Bard the Bowman pumps a creature with +1/+1 and lifelink; Ravenhill Flock and Lakeshore Apothecary grow. Then attack: Galion sets a creature’s base power and toughness to his own, Rogue’s Passage makes it unblockable, and the life total disappears. Against creature decks, the same draw burst finds Troll Negotiations or Lake-town Mariners’ Gone Fishing to clear the path."
+    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#win-condition-2",
-    "href": "decks/2026-09-01-moon-and-dale.html#win-condition-2",
-    "title": "Moon and Dale",
-    "section": "Win condition 2",
-    "text": "Win condition 2\nThe Elf token swarm: Sindarin Liege’s landfall makes a 1/1 Elf per land; Bard, King of Dale doubles every token. Thranduil’s Company stacks +1/+1 counters and vigilance; Mirkwood Pathmaker is as big as your land count; Boughside Wanderers pumps +2/+2 per landfall. Restless Vinestalk joins as a 5/5 trample Plant. This plan beats midrange boards by outnumbering and out-sizing them, and beats control by forcing multiple sweepers — Thranduil draws two per legendary Elf after each wipe."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "title": "Swarm Calculus",
+    "section": "Win condition 2: the ETB burn loop",
+    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#mulligan-guide",
-    "href": "decks/2026-09-01-moon-and-dale.html#mulligan-guide",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "title": "Swarm Calculus",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop, or three lands and a four-drop engine. Hands with Thranduil, the Elvenking but no fixing for black are fine if Multiversal Passage or Tarnation Vista is present. Ship one-lander openers and hands with three top-end six-drops. Against aggressive decks, keep the hand with Wood Elves or the Apothecary rather than the greedier draw cards."
+    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-09-01-moon-and-dale.html#key-interactions-and-edge-cases",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "title": "Swarm Calculus",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nThranduil, the Elvenking’s draw triggers on every other legendary Elf entering — including a second copy of himself, Elrond, Galion, Sindarin Liege, and The Queen of Dale (a legendary Human Noble, so it also draws).\nBard, King of Dale doubles only draws beyond the first card of your draw step, but it doubles every draw from Thranduil, Elrond, Ravenhill triggers, and the adventures. It also doubles all token creation — Sindarin Liege landfall tokens become two Elves.\nBard the Bowman triggers on your second draw each turn, so a burst of four cards still counts as one trigger; the counters accumulate from multiple turns and multiple legendary Elves.\nElrond’s draw triggers once per turn, on any creature-ability activation — Thranduil’s stolen Elf abilities (e.g. Woodland Weavemaster’s tap-for-mana if it is in the graveyard) count.\nSilvan Reveler’s discard: if you discard a land, it enters the battlefield tapped — that triggers landfall twice (the discard land and the landfall pay {1}{G}{U} recursion).\nGone Fishing (Lake-town Mariners adventure) exiles two of your own permanents and returns them — re-triggering Wood Elves, Sindarin Liege landfall, and Silvan Reveler; it can also dodge a removal spell or bounce a tapped land for a double landfall.\nThranduil’s Decree exiles countered permanent spells; you may cast them for free later — steal the opponent’s win condition.\nMirkwood Meditator’s base 4/2 replacement only lasts until end of turn; it does not permanently shrink.\nRestless Vinestalk’s attack trigger sets another creature’s base stats to 3/3 — use it to fix Galion’s pump target or to shrink an opposing-adjacent threat only if it is your creature."
+    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
   },
   {
-    "objectID": "decks/2026-09-01-moon-and-dale.html#matchups",
-    "href": "decks/2026-09-01-moon-and-dale.html#matchups",
-    "title": "Moon and Dale",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "title": "Swarm Calculus",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro (fliers, lifegain, cats, landfall): Bard the Bowman’s lifelink, the 1/1 Elf wall, and Ravenhill Flock as a flying blocker stabilize; Thranduil’s Company gives vigilance to hold back and attack. Mirkwood Meditator blocks as a 4/2.\nMidrange: out-value with the draw engine; Galion plus Rogue’s Passage ends games through blockers; Troll Negotiations removes the biggest threat.\nControl: the engine rebuilds after every sweeper because every legendary Elf draws two; Thranduil’s Decree and Mistrise Village’s uncounterable spell fight the counter war; Bard, King of Dale’s doubled draws outpace one-for-one answers.\nCombo race: draw-engine speed wins the race; Gone Fishing can blink a key piece to dodge removal, and the token army provides instant chumpers."
+    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html",
+    "href": "decks/2026-08-26-wing-and-coin.html",
+    "title": "Wing and Coin",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlack / Red / White\n\n\nArchetype\nSmaug dragon x treasure combo (avg CMC 3.08)\n\n\nSize\n60 cards\n\n\nPrimary win\nSmaug the Magnificent burn: treasures make his attack trigger deal N damage to any target, and he has flying and haste — one swing with a full hoard is 10+ to the face\n\n\nSecondary win\nLake-town mill: The Master of Lake-town mills a player for every point of life they lose, so every Smaug trigger and combat hit mills the opponent out\n\n\nLand win con\nThe Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper per Equipment) plus Restless Fortress (draining creature-land)"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
+    "href": "decks/2026-08-26-wing-and-coin.html#game-plan-phases",
+    "title": "Wing and Coin",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop the hoard: Sackville-Bagginses, Gleaming Splendor, Last Light, Dori, or the Grey Dog; Stir Up Trouble and Deadly Slice hold the board\n\n\nTurns 3-5\nEngines online: The Misty Mountains Cold makes a Treasure every chapter and pops a 6/6 Dragon; Smaug, Wicked Worm enters for a burst of tapped gold\n\n\nTurns 5-7\nThe combo turn: Smaug the Magnificent lands with a hoard behind him; Desolation clears non-Dragons and pays for the next dragon\n\n\nLate game\nWin condition 2: The Master of Lake-town turns every Smaug trigger into mill; Were-Worm’s extra combat doubles the burn"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#card-roles",
+    "href": "decks/2026-08-26-wing-and-coin.html#card-roles",
+    "title": "Wing and Coin",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nThe engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count\n\n\nSmaug, Wicked Worm\nTreasure burst on entry (one per artifact the opponent controls) and card draw whenever you cast with Treasure mana\n\n\nThe Misty Mountains Cold\nSaga that makes a Treasure on every chapter and sacrifices itself into a 6/6 flying Dragon when the hoard hits four\n\n\nGleaming Splendor\nRepeatable Treasure: triggers on the opponent’s second draw, and its own {2}{W} activation forces that draw\n\n\nLast Light of Durin’s Day\nMountain quest: at six Mountain-entries it tutors any Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nOne-sided board wipe (3 damage to each non-Dragon) that adds four mana for your next Dragon spell\n\n\nDesert Were-Worm\nGrows +2/+0 per Mountain; at 12+ attacking power it grants an extra combat — Smaug burns twice\n\n\nDori, Bearer of Friends\nCheap legendary Dwarf that makes a Treasure on entry\n\n\nThe Sackville-Bagginses\nTurns spare artifacts and creatures into cards and Treasures, and pings on every token sacrifice\n\n\nThe Master of Lake-town\nWin condition 2: every point of life lost mills that many cards\n\n\nLong-Bodied Grey Dog\nFlash 2/2 with reach that makes a tapped Treasure — instant-speed hoard development\n\n\nBilbo’s Deadly Slice\nClean {1}{B}{B} removal\n\n\nStir Up Trouble\nOne-mana removal that happily eats a Treasure as its cost\n\n\nPinecone Strike\nFlexible burn that exiles dying creatures and destroys artifact tokens\n\n\nBilbo’s Gambit\nBounces a spell and, when gifted, locks both players out of casting — the Treasure gift feeds Wicked Worm later\n\n\nThe Eagles Are Coming!\nFlickers your dragons to re-trigger Wicked Worm and Dori, then refunds 4/4 flying Birds\n\n\nInside Information\nX-cost mill and theft: exile the top X of the opponent’s library and play their own spells\n\n\nThe Arkenstone\nAnthem and end-step draw; its adventure Seek the Heart tutors any legendary — usually Smaug himself\n\n\nCrude Bent Blade\nRemoval on entry, then an Equipment that discounts The Lonely Mountain\n\n\nSting, Bilbo’s Sword\nFlash Equipment with hone counters; keeps The Lonely Mountain untapped and cheap\n\n\nThrór’s Map\nFetches a basic (a Mountain for the quest) and loots away late-game flood"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
+    "href": "decks/2026-08-26-wing-and-coin.html#lands-as-engines",
+    "title": "Wing and Coin",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nA Mountain that makes 2/2 red Dwarf tokens for {4}{R}, {1} cheaper per Equipment — the win-con land\n\n\nHobbit Hole\nSacrifices itself to put a basic onto the battlefield tapped — an extra Mountain for the Last Light quest\n\n\nRestless Fortress\nBlack-white mana that becomes a 1/4 Nightmare and drains 2 life when it attacks — life loss also feeds the Lake-town mill\n\n\nRazortrap Gorge\nBlack-red fixing that enters untapped once a player is at 13 or less life\n\n\nTemples and fast lands\nSundown Pass, Inspiring Vantage, and the Temples keep the three-color mana stable"
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
+    "href": "decks/2026-08-26-wing-and-coin.html#curve-and-mana",
+    "title": "Wing and Coin",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n24 lands: 4 The Lonely Mountain, 2 Hobbit Hole, 2 Sundown Pass, 1 Elegant Parlor, 2 Inspiring Vantage, 2 Temple of Malice, 1 Temple of Triumph, 1 Temple of Silence, 1 Restless Fortress, 1 Razortrap Gorge, 2 Mountain, 5 Swamp. Red sources 15, black 10, white 8 — red is the workhorse, white a light splash.\nNonland curve: 1-drop x2, 2-drop x13, 3-drop x11, 4-drop x4, 5-drop x3, 6-drop x2, 7-drop x1. Average CMC 3.08. The deck wants a Treasure maker on turn 2, a saga or Dori on turn 3, and Smaug the Magnificent on turn 4-5 with a hoard already forming."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#early-game",
+    "href": "decks/2026-08-26-wing-and-coin.html#early-game",
+    "title": "Wing and Coin",
+    "section": "Early game",
+    "text": "Early game\nTurn 1 is Stir Up Trouble (holding up {B} to eat a Treasure and kill a threat) or a tapped Temple. Turn 2: The Sackville-Bagginses, Gleaming Splendor, Last Light, or removal. Sequence tapped lands first — Temples, Elegant Parlor, and Restless Fortress enter tapped, so keep Sundown Pass and Inspiring Vantage for the turns you need untapped red. Fetching a Mountain with Hobbit Hole also advances the Last Light quest."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#mid-game",
+    "href": "decks/2026-08-26-wing-and-coin.html#mid-game",
+    "title": "Wing and Coin",
+    "section": "Mid game",
+    "text": "Mid game\nResolve The Misty Mountains Cold and let the chapters stack Treasures; it turns itself into a 6/6 Dragon at four tokens. Smaug, Wicked Worm is the mid-game haymaker: against artifact decks it enters with four or five tapped Treasures, and every spell cast from that gold draws a card. Gleaming Splendor turns the opponent’s card draw into more gold, and its {2}{W} mode makes two players draw — forcing the trigger and cantripping you at once."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
+    "href": "decks/2026-08-26-wing-and-coin.html#the-combo-turn",
+    "title": "Wing and Coin",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nAccumulate a hoard: four to eight Treasures from the saga, Splendor, Wicked Worm, Dori, and the Grey Dog.\nCast Smaug the Magnificent ({2}{R}{R}, haste, flying). If the board is crowded, Desolation of Smaug first — it deals 3 to every non-Dragon and its four mana can pay for Smaug himself.\nAttack: Smaug’s trigger deals damage equal to your Treasure count to any target — face, planeswalker, or blocker — plus his 4 combat damage.\nRepeat: every upkeep makes another Treasure, so each swing is bigger. With Desert Were-Worm (growing off every Mountain) attacking alongside, 12+ total power grants an extra combat and Smaug’s burn fires twice.\n\nA typical kill: six Treasures and Smaug attacking alone is 10 damage; the next turn is 11, and the turn after that is 12. Wicked Worm’s draw-on-Treasure-cast keeps the hand full through the sequence."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
+    "href": "decks/2026-08-26-wing-and-coin.html#win-condition-2",
+    "title": "Wing and Coin",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe Master of Lake-town turns the same engine into mill. Every point of life an opponent loses — Smaug’s attack trigger, his combat damage, Restless Fortress’s drain — mills that many cards off the top; a 6-Treasure Smaug swing mills 10. Inside Information finishes: with a hoard of Treasures paying any color, X = 10 or more exiles a huge chunk of the library outright, and the exiled cards are playable (paying life instead of mana, which conveniently mills more). The Arkenstone’s adventure tutors either Smaug or the Master, whichever the board needs. Backup: The Lonely Mountain’s Dwarf tokens, the saga’s 6/6 Dragon, and Restless Fortress beats."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
+    "href": "decks/2026-08-26-wing-and-coin.html#mulligan-guide",
+    "title": "Wing and Coin",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: two to three lands with a Treasure maker or removal — Sackville-Bagginses, Gleaming Splendor, Dori, or Stir Up Trouble openers are strong; any hand with The Misty Mountains Cold or Smaug, Wicked Worm plus interaction is excellent. Mulligan one-land hands and hands with five or more lands and no engine. White is a splash: a hand with only red and black is keepable, but a hand that cannot cast a two-drop by turn 2 is not."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-26-wing-and-coin.html#key-interactions-and-edge-cases",
+    "title": "Wing and Coin",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nSmaug the Magnificent’s attack trigger targets — it can hit creatures and planeswalkers as well as the opponent; point it at a blocker and Smaug’s own combat damage still connects.\nThe Misty Mountains Cold checks “four or more Treasures” after each chapter — with Gleaming Splendor and the Grey Dog it can pop its Dragon as early as chapter II.\nSmaug, Wicked Worm counts artifacts the opponent controls at entry — Bilbo’s Gambit’s gifted Treasure feeds it, so hold Wicked Worm for when they have an artifact board.\nLast Light of Durin’s Day counts Mountains entering, not lands — fetch Mountains specifically with Hobbit Hole and Thrór’s Map; The Lonely Mountain is a Mountain.\nDesert Were-Worm’s extra combat triggers “the first time each turn” you attack with 12+ total power — attack with it and Smaug together so both get the second combat. Gleaming Splendor’s {2}{W} targets two players: choose an opponent and yourself to force the Treasure trigger and draw your own card."
+  },
+  {
+    "objectID": "decks/2026-08-26-wing-and-coin.html#matchups",
+    "href": "decks/2026-08-26-wing-and-coin.html#matchups",
+    "title": "Wing and Coin",
+    "section": "Matchups",
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nRemoval holds early; Desolation of Smaug is a one-sided wipe; the Grey Dog blocks flyers at flash speed\n\n\nMidrange\nRace the hoard — Wicked Worm enters huge against artifact-heavy boards and Desolation spares your dragons\n\n\nControl\nBilbo’s Gambit bounces their sweeper and locks the turn; Seek the Heart tutors Smaug; Splendor punishes their draw\n\n\nCombo\nMill is the fastest clock: Master of Lake-town plus Smaug’s trigger mills 10+ per turn; Inside Information exiles their pieces"
   },
   {
     "objectID": "decks/2026-08-29-cook-the-books.html",
