@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-02**:
+Deck guides published **2026-09-03**:
 
-- **[Landwarp](decks/2026-09-02-landwarp.html)** — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak  `combo` `landfall` `warp` `sneak`
-- **[Amass to Arms](decks/2026-09-02-amass-to-arms.html)** — Mardu (WBR) Amass Goblins — The Hobbit set identity deck  `hobbit` `amass`
+- **[Requiem Mass](decks/2026-09-03-requiem-mass.html)** — Orzhov Endure x Sacrifice — every death makes the choir louder  `combo` `endure` `sacrifice`

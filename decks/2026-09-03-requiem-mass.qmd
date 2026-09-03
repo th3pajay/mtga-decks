@@ -1,0 +1,141 @@
+---
+title: "Requiem Mass"
+subtitle: "Orzhov Endure x Sacrifice — every death makes the choir louder"
+date: "2026-09-03"
+categories: ["combo", "endure", "sacrifice"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | White Black (Orzhov) |
+| Archetype | Aristocrats midrange (sacrifice engine) |
+| Size | 60 cards, 24 lands |
+| Rolled mechanics | Endure x Sacrifice |
+| Core engine | Death triggers + sacrifice outlets turn every body into a Spirit, a counter, or a card |
+| Primary win | Voltron: Anafenza, Unyielding Lineage or Hei Bai, Spirit of Balance grows huge off sacrifices, then swings through with Rogue's Passage |
+| Secondary win | Vein Ripper drain: every creature death deals 2, and the deck can sacrifice multiple times per turn |
+| Nonland curve | 6 one-drops, 13 twos, 15 threes, 2 sixes (avg CMC ~2.5) |
+
+# Overview
+
+Requiem Mass is an Orzhov aristocrats deck built around the fusion of two Tarkir-era mechanics. **Endure** puts a +1/+1 counter on a creature or creates an N/N white Spirit token whenever it triggers. **Sacrifice** asks for bodies and pays out in cards, life, and damage. The bridge between the two is death itself: nearly every card in the deck either produces a token to feed an outlet, or cares about a creature dying.
+
+The engine hinges on `Anafenza, Unyielding Lineage`. Whenever another nontoken creature you control dies, she endures 2 — put two +1/+1 counters on her or create a 2/2 Spirit. That means every sacrifice of a real creature doubles as permanent growth for your best attacker. `Bartolomé del Presidio` is the free sacrifice outlet that turns those same deaths into counters on itself, `Vampiric Rites` and `Baron Bertram Graywater` convert fodder into cards, and `Vein Ripper` charges 2 life per death from the opponent. Tokens created by endure creatures (Spirits from `Fortress Kin-Guard`, `Descendant of Storms`, and `Krumar Initiate`) are the fuel: they are expendable, so the engine never runs out of bodies.
+
+The deck is a midrange value machine that plays like an aggro deck early — 1/2 and 2/1 endure creatures apply pressure while stockpiling tokens — then turns a mid-game turn with two or three sacrifices into a giant, unblockable threat or a burst of drain.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Build the choir (turns 1-3).** Deploy endure creatures and choose "create Spirit" on their triggers. `Descendant of Storms` attacks and makes a 1/1 Spirit for {1}{W}. `Fortress Kin-Guard` endures on entry. `Krumar Initiate` sits ready as a repeatable spirit factory.
+2. **Direct the requiem (turns 3-5).** Resolve `Anafenza, Unyielding Lineage` and a sacrifice outlet. Start sacrificing: nontoken creatures grow Anafenza by +2/+2 (or add a 2/2 Spirit), tokens keep the draw engines fed, and `Vein Ripper` bleeds the opponent for 2 life per death.
+3. **Close the service.** Attack with a 10/10-plus Anafenza or `Hei Bai, Spirit of Balance` through `Rogue's Passage`, or drain out with repeated sacrifices and `Treacherous Greed`.
+
+## Card roles
+
+| Role | Cards |
+|---|---|
+| Endure engine | Anafenza, Unyielding Lineage; Fortress Kin-Guard; Descendant of Storms; Krumar Initiate |
+| Sacrifice outlets | Bartolomé del Presidio; Vampiric Rites; Baron Bertram Graywater; Hei Bai, Spirit of Balance |
+| Sacrifice payoffs | Vein Ripper; Sandbender Scavengers; Treacherous Greed; Ruthless Lawbringer; Social Snub |
+| Death recursion | Sandbender Scavengers (reanimate on death) |
+| Card draw | Vampiric Rites; Baron Bertram Graywater; Treacherous Greed |
+
+## Lands as engines
+
+| Land | Role |
+|---|---|
+| Rogue's Passage | Part of the win condition: makes the grown Anafenza or Hei Bai unblockable for the killing swing |
+| Shadowy Backstreet | Tapped dual that surveils 1, smoothing draws into the engine |
+| Godless Shrine / Concealed Courtyard / Bleachbone Verge | Untapped fixing to keep the curve fast |
+
+The manabase is 24 lands in exactly White and Black (plus the colorless `Rogue's Passage`). Fast duals keep the early endure creatures on schedule, while `Shadowy Backstreet` trades a tempo for a surveil toward the engine pieces.
+
+## Curve and mana
+
+Nineteen of the nonland cards cost two or less and only two cost more than three (the `Vein Ripper` pair), so the deck curves out aggressively and floods the board with bodies before the engine turns on. `Bleachbone Verge` needs a Plains or Swamp to tap for either color, so the eight basics guarantee it is live from turn one.
+
+# Gameplay strategy
+
+## Early game (turns 1-3)
+
+Lead with `Descendant of Storms` or `Fortress Kin-Guard`. Always take the Spirit token from endure triggers in the first turns — the board presence threatens damage while quietly banking sacrifice fodder. `Krumar Initiate` is the best turn-two play when you expect a long game: every spare mana becomes an X/X Spirit at sorcery speed, paying life you will win back from `Vein Ripper`, `Baron Bertram Graywater`, and `Treacherous Greed`.
+
+## Mid game (turns 4-6)
+
+Land `Anafenza, Unyielding Lineage` and start the engine. The key sequencing rule: sacrifice **nontoken** creatures while Anafenza is out (each one makes her +2/+2 or a 2/2 Spirit), and sacrifice **tokens** when you only need cards or life. `Ruthless Lawbringer` is removal and an engine in one: it enters, eats a creature, and destroys any nonland permanent — with Anafenza on board the eaten creature grows her at the same time. `Social Snub` clears a blocker or a hexproof threat from every opponent and gains a life per copy.
+
+## The combo turn
+
+With `Anafenza, Unyielding Lineage` and `Bartolomé del Presidio` on the battlefield, plus any nontoken creature and a token generator:
+
+- Sacrifice the nontoken creature to Bartolomé: Bartolomé grows +1/+1, Anafenza endures 2.
+- Repeat with each body: `Krumar Initiate` can be tapped to make an X/X Spirit first, then sacrificed as a nontoken creature on a later activation, or kept alive to keep generating.
+- Each death also triggers `Vein Ripper` for 2 damage if he is out.
+- When Anafenza (or Bartolomé, or Hei Bai) has enough counters, activate `Rogue's Passage` and attack for lethal through any board.
+
+`Hei Bai, Spirit of Balance` is the second engine that attacks: enter or attack, sacrifice a Spirit token, put two counters on it. A single Hei Bai attacking every turn while churning tokens through the outlet grows by +2/+2 per turn and beats as a 7/7 or larger fly-over blocker-free threat. When it finally leaves, its counters move onto your next attacker, so the growth is never wasted.
+
+## Win condition 2: Vein Ripper drain
+
+`Vein Ripper` turns the whole engine into a life-drain combo. Every creature death — tokens included — makes the opponent lose 2 life and you gain 2. A single engine turn with four or five sacrifices (Spirits from Krumar, an enduring creature, a lawbringer snack) is 8 to 10 damage. The 6/5 flying body with ward-sacrifice also ends games on its own, and `Treacherous Greed` closes: sacrifice a creature that already dealt combat damage this turn to draw three, drain 3, and gain 3 in one instant.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop. `Fortress Kin-Guard` or `Bartolomé del Presidio` on turn two is the ideal start; `Anafenza` in the opening seven is excellent but not required. Throw back hands full of three-drops with no early creature, hands with five or more lands, or hands with `Vein Ripper` and no black sources. `Rogue's Passage` alone does not count as a colored source in the opener.
+
+## Key interactions and edge cases
+
+- **Anafenza only sees nontoken deaths.** Tokens are fuel for outlets and draw; nontoken creatures are the ones that grow her. Sequence accordingly: make a Spirit, sacrifice the Spirit to `Vampiric Rites` for a card, then sacrifice a nontoken body to Bartolomé for the endure trigger.
+- **Endure is a choice.** "Put counters on it or create a Spirit." You may split decisions per trigger — counters when building a voltron kill, Spirits when you need fodder or blockers.
+- **Krumar Initiate's activation is sorcery-speed** and costs life; the X/X Spirit it makes can be sacrificed the same turn, but only after the activation resolves.
+- **Sandbender Scavengers reanimates on its own death** for a creature with mana value equal to or less than its power. Feed it counters by sacrificing other permanents, then when it dies it returns your `Anafenza` or `Vein Ripper` from the graveyard.
+- **Ruthless Lawbringer's destroy is optional** but the sacrifice is not: when it enters you may sacrifice a creature, and only if you do does the destroy trigger go on the stack.
+- **Vein Ripper's ward asks for a sacrifice** — your opponent pays it by losing a creature, which triggers the drain anyway. Ward here is often a free 2 damage.
+- **Social Snub copies** if you control a creature when you cast it, so it usually hits each opponent once (or twice in a mirror of two players) for an edict plus a drain.
+
+## Matchups
+
+- **Aggro:** You are the control deck. Trade endure creatures, use the life gain from Rites and Ripper, and stabilize behind Vein Ripper's 6/5 flying body. `Shadowy Backstreet`'s surveil finds answers.
+- **Midrange:** The engine out-values most fair decks — every removal spell they spend on your creatures is another Anafenza trigger and another drain from Ripper. Press the sacrifice loop every turn.
+- **Control:** Play around sweepers by keeping the voltron plan in hand until the turn you kill: grow Anafenza with activations, hold `Rogue's Passage`, and go over the top. `Social Snub` and Lawbringer answer their planeswalkers; ward on Vein Ripper taxes their spot removal.
+
+# Iterations
+
+| Round | Change | Metric delta |
+|---|---|---|
+| v1 | Initial 60-card build (Mortify x2 as removal) | synergy 69.96 (gate 70.0), sim 63.7%, T4 0.683, P4L 0.676 |
+| v1 to v2 | -2 Mortify, +2 Sandbender Scavengers (on-theme sacrifice payoff over generic removal) | synergy 69.81, sim 62.0% |
+| v2 to v3 | -3 Sinkhole Surveyor, -1 Descendant of Storms, +3 Hei Bai, Spirit of Balance, +1 Social Snub (higher-cohesion fusion pieces) | synergy 69.64, sim 63.7%, T4 0.706, P4L 0.716 |
+
+Final battery: sim 63.7% (gate 52), goldfish T4 0.706 (gate 0.55), P(4 lands by T4) 0.716 (gate 0.55), rotation 0. Synergy scored 69.6, a rounding short of the 70 gate after three iterations.
+
+# Deck list (Arena import)
+
+```
+3 Descendant of Storms
+4 Fortress Kin-Guard
+4 Anafenza, Unyielding Lineage
+4 Bartolomé del Presidio
+3 Ruthless Lawbringer
+3 Krumar Initiate
+3 Hei Bai, Spirit of Balance
+2 Baron Bertram Graywater
+2 Vein Ripper
+3 Vampiric Rites
+2 Sandbender Scavengers
+2 Treacherous Greed
+1 Social Snub
+4 Godless Shrine
+4 Concealed Courtyard
+4 Bleachbone Verge
+3 Shadowy Backstreet
+1 Rogue's Passage
+4 Plains
+4 Swamp
+```
