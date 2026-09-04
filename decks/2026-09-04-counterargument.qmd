@@ -1,0 +1,152 @@
+---
+title: "Counterargument"
+subtitle: "White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters"
+date: "2026-09-04"
+categories: ["combo", "repartee", "increment"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | White / blue / black / green (WUBG) |
+| Archetype | Spellslinger combo-midrange |
+| Size | 60 cards, 24 lands |
+| Core engine | Creature-targeting instants and sorceries feeding Repartee payoffs and Increment growth |
+| Primary win | Counter-fed board: Fractal Tender tokens, Inkling flyers and a huge Cuboid Colony, swung through Rogue's Passage |
+| Secondary win | Melancholic Poet and Silverquill Charm life drain |
+| Nonland curve | 4 one-drops, 16 twos, 10 threes, 3 fours, 3 fives |
+
+# Overview
+
+Counterargument fuses two Secrets of Strixhaven mechanics that fire off the same trigger. **Repartee** rewards you every time you cast an instant or sorcery that targets a creature: `Stirring Hopesinger` puts a +1/+1 counter on each creature you control, `Melancholic Poet` drains 1 life, `Informed Inkwright` makes a flying Inkling token. **Increment** grows its creatures whenever you cast a spell for more mana than their power or toughness - and once the counter engine is running, the real payoffs are `Pensive Professor` (draw a card for every counter event) and `Berta, Wise Extrapolator` (add one mana of any color for every counter event).
+
+The two mechanics were designed for the same motion: point a spell at a creature. Removal such as `Last Gasp`, protection such as `Daydream`, pumps such as `Killian's Confidence` and modal `Silverquill Charm` all count, so almost every spell you cast doubles as engine fuel. Each cast puts counters everywhere (Hopesinger, Graduation Day), draws cards (Professor), refunds mana (Berta), drains life (Poet) and makes tokens (Inkwright) - a spell chain turns into an unstoppable board. `Fractal Tender` converts any counter it receives into a 3/3 Fractal every end step, and `Restless Vinestalk` is a 5/5 trample land that keeps the counters the engine gives it.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Deploy the engine** (turns 1-4): play Graduation Day or a cheap Increment creature early, then land Pensive Professor (draws), Berta (mana) and Stirring Hopesinger (growth). Hold targeted spells to chain once two engine pieces are down.
+2. **Chain spells, grow the board** (turns 4-6): every creature-targeting spell adds +1/+1 to the whole team, draws, and refunds mana. Fractal Tender starts producing 3/3 Fractals at each end step; removal keeps the opponent's side clear while every cast feeds the engine.
+3. **Overrun or drain**: swing with a team that has grown +6/+6 or more, animate Restless Vinestalk as a trampling closer, open the way with Rogue's Passage, or finish with Poet and Silverquill Charm drains.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Stirring Hopesinger | 4 | Engine - Repartee: each creature-targeting spell puts +1/+1 on every creature you control; flying lifelink body |
+| Pensive Professor | 4 | Engine - draws a card each time a +1/+1 counter is put on it, whatever the source |
+| Berta, Wise Extrapolator | 3 | Engine - each counter event adds one mana of any color; {X}, {T} makes an X/X Fractal |
+| Fractal Tender | 3 | Payoff - if it got a counter this turn, make a 0/0 Fractal with three +1/+1 counters at end step |
+| Cuboid Colony | 2 | Finisher - flash, flying, trample 1/1 that absorbs counters |
+| Melancholic Poet | 3 | Payoff - Repartee: drain 1 and gain 1 per creature-targeting spell |
+| Informed Inkwright | 2 | Payoff - Repartee: 1/1 flying Inkling token per creature-targeting spell |
+| Graduation Day | 2 | Payoff - Repartee: +1/+1 counter on a creature you control per creature-targeting spell |
+| Killian's Confidence | 4 | Enabler - pump a creature, draw a card; returns from graveyard when you deal combat damage |
+| Silverquill Charm | 3 | Enabler - two counters, exile a small creature, or drain 3 |
+| Practiced Offense | 2 | Enabler - +1/+1 on each creature you control, double strike or lifelink; flashback |
+| Daydream | 2 | Enabler - blink a creature with a +1/+1 counter; flashback; also saves from removal |
+| Last Gasp | 2 | Removal - -3/-3, and because it targets a creature it feeds Repartee |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Vinestalk | Land win con - becomes a 5/5 green/blue Plant with trample; Hopesinger and Graduation Day counters stick to it |
+| Rogue's Passage | Makes a giant Cuboid Colony or Fractal unblockable - closes games through boards |
+| Breeding Pool | Untapped green/blue fixing |
+| Botanical Sanctum | Green/blue fixing, untapped early |
+| Dreamroot Cascade | Green/blue fixing, untapped once you have two other lands |
+| Godless Shrine | Untapped white/black fixing for the Repartee half |
+| Temple of Silence | White/black fixing that scries 1 |
+| Island / Forest / Plains / Swamp | Basics for fetch-proof color depth |
+
+## Curve and mana
+
+24 lands: 18 duals or utility lands plus one of each basic. Green and blue are the deepest requirements (Berta, Fractal Tender, Cuboid Colony), while white and black serve the Repartee payoffs and Killian's Confidence. The nonland curve is 4 one-drops, 16 twos, 10 threes, 3 fours, 3 fives - about 2.6 average mana, so spell chains start on turn 3 and the deck rarely stumbles.
+
+# Gameplay strategy
+
+## Early game (turns 1-3)
+
+- Turn 1: Graduation Day on a breeding pool or basic; otherwise pass with removal or Chase-style protection in mind.
+- Turn 2-3: Pensive Professor is the priority - every later counter draws a card. Berta turns those counters into mana. Hopesinger makes every spell grow the whole team.
+- Use Last Gasp and Silverquill Charm's exile mode on early attackers; because they target a creature they still trigger every Repartee payoff.
+- Play Restless Vinestalk tapped only when the curve absorbs it; an untapped dual is worth more early.
+
+## Mid game (turns 4-6)
+
+- Start the chain: Killian's Confidence (pump, draw, and it recurs after combat damage), Practiced Offense (a counter on each creature plus double strike), Daydream (blink with a counter).
+- Each spell in the chain: +1/+1 everywhere from Hopesinger, a counter from Graduation Day, a card from each Professor, one mana from Berta, 1 life and 1 drain from Poet, and an Inkling from Inkwright. A five-spell turn is typically +10/+10 across the team, five cards, five mana, and five damage drained.
+- Fractal Tender only needs one counter during a turn to make a 3/3 at end step; after a chain it snowballs.
+
+## The combo turn
+
+1. Attack with Killian's Confidence still in the graveyard: combat damage returns it to hand.
+2. Cast creature-targeting spells in sequence, ordering Graduation Day or Hopesinger triggers first so Professor draws and Berta mana help pay for the next spell.
+3. Make the board big: Fractal Tender tokens at end step, Inkling flyers, Cuboid Colony flashed in and loaded with counters.
+4. Animate Restless Vinestalk (5/5 trample) and activate Rogue's Passage ({4}, {T}) on the biggest threat - usually the Colony or a Fractal - and swing for lethal. Trample plus unblockable ends most games.
+
+## Win condition 2: the drain
+
+`Melancholic Poet` drains 1 and gains 1 per creature-targeting spell; `Silverquill Charm` drains 3 outright. In a long game the deck routinely casts five to eight such spells a turn, which is five to eight life of swing plus the board the chain builds. When the opponent has walls and removal, the drain line wins without ever connecting in combat.
+
+## Mulligan guide
+
+- **Keep:** 2-4 lands with both a green/blue source and a white/black source, a two-drop or engine piece (Professor, Poet, Hopesinger, Colony), and one targeted spell to start the chain.
+- **Trim:** hands with five or more lands, all-engine hands with no spells, single-color hands missing white or black for the Repartee half.
+- The deck needs its engines more than its finishers: a Professor plus any two targeted spells out-values most openers.
+
+## Key interactions and edge cases
+
+- Repartee triggers on instants and sorceries that target **any** creature - your own or an opponent's. Removal such as Last Gasp and Silverquill Charm's exile mode are therefore full engine triggers, not dead spells.
+- Hopesinger's trigger puts counters on **each creature you control**, including animated lands and Fractal tokens, and each such placement is a separate counter event for Professor (draw) and Berta (mana).
+- Increment adds counters when the mana spent on a spell exceeds a creature's power or toughness - later in the chain big spells such as Practiced Offense and flashbacked Daydream still grow the 0/2 Professor and 1/1 Colony.
+- Practiced Offense double-dips: its own effect puts a counter on every creature you control, and its creature target also triggers Repartee.
+- Daydream exiles and returns the creature with one +1/+1 counter; it removes other counters (do not blink a loaded Fractal Tender unless saving it), and it saves a piece from removal.
+- Killian's Confidence returns from the graveyard after any combat damage from your creatures - it is the loop that keeps the chain going turn after turn.
+- The deck has no counterspells; win faster than control and use Daydream to dodge sweepers.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cat, landfall):** Poet drains and gains life on every trigger, Last Gasp and Silverquill Charm answer early attackers, Inkwright and Hopesinger chump in the air, and the counter chain outgrows everything by turn 5.
+- **Midrange:** out-value with Professor draws and Berta mana; Fractal Tender tokens force the opponent to have sweepers.
+- **Control:** deploy engines after shields are down, chain spells in one big turn, and finish through Rogue's Passage so a single unblockable giant closes the game.
+
+# Iterations
+
+| Round | Change | Metric deltas |
+|---|---|---|
+| v1 to v2 | -2 Chase Inspiration, -1 Growth Curve; +2 Informed Inkwright, +1 Melancholic Poet (more board density and drain instead of situational pumps) | sim 50.3 to 53.0, synergy 71.6 to 72.0, goldfish T4 0.635 to 0.639, P(4 lands T4) 0.642 to 0.653 |
+
+# Deck list (Arena import)
+
+```
+4 Stirring Hopesinger
+4 Pensive Professor
+3 Berta, Wise Extrapolator
+3 Fractal Tender
+2 Cuboid Colony
+3 Melancholic Poet
+2 Informed Inkwright
+2 Graduation Day
+4 Killian's Confidence
+3 Silverquill Charm
+2 Practiced Offense
+2 Daydream
+2 Last Gasp
+4 Breeding Pool
+4 Botanical Sanctum
+3 Dreamroot Cascade
+4 Godless Shrine
+2 Restless Vinestalk
+1 Rogue's Passage
+2 Temple of Silence
+1 Island
+1 Forest
+1 Plains
+1 Swamp
+```
