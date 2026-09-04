@@ -1,0 +1,153 @@
+---
+title: "Steel and Saga"
+subtitle: "Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set"
+date: "2026-09-04"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White / Blue (Jeskai) |
+| Archetype | Storied Dwarves: legendary Dwarf core plus Equipment that wins through enter-the-battlefield triggers (avg nonland CMC ~2.6) |
+| Size | 60 cards |
+| Primary win | Balin, Loremaster wheel-burn: with an enduring story, every Dwarf that enters (including tokens) discards and redraws your hand and deals damage equal to the cards discarded to each opponent — one Dwarf cast with Fíli out is 10+ damage, a full grip, or lethal |
+| Secondary win | The equipped beatdown: Dáin Ironfoot's Axe tokens plus double strike, Dwalin's hone counters and Dwarven Mattock make one giant unanswerable swing; The Lonely Mountain and Iron Hills back it up |
+| Land win con | The Lonely Mountain: a Mountain that pays into 2/2 red Dwarf tokens, cheaper for every Equipment you control — each token also feeds Balin |
+
+# Overview
+
+Steel and Saga is the Mountain-king's army rebuilt as a trigger engine. The Hobbit set's *Storied* keyword turns on when you control three or more artifacts, legendaries, and/or Sagas, and once the story is enduring it stays on for the whole game. This deck lives in that state: a legend-heavy Dwarf core plus Equipment tokens means the story is usually told by turn three, at which point Thorin Oakenshield grants every artifact and creature ward {1}, Kíli the Resourceful equips for free and draws on every Dwarf or Equipment entry, Fíli the Pathfinder pumps the whole board and mints 2/2 Dwarf tokens.
+
+The engine is Dwarf enter triggers. Iron Hills Blacksmith and Dáin Ironfoot create Axe Equipment tokens on entry; Fíli turns every nontoken Dwarf into a 2/2 token; Dáin's Company tutors a Dwarf or Equipment from the top four; Kíli draws once per turn off any of it. The payoff is Balin, Loremaster, whose trigger fires on *every* Dwarf entering — cast or token. Each trigger lets you discard your hand, draw that many cards, and (with the enduring story, which is essentially always active by then) deal that much damage to each opponent. A Dwarf cast while Balin and Fíli are out triggers Balin twice (the Dwarf and its token), so one spell with a five-card hand is about 11 damage and a brand-new hand. The Lonely Mountain turns late mana into more 2/2 Dwarves — each one another Balin trigger.
+
+The set is scheduled for Arena on 2026-08-14 (arena_id is still empty in the database, so the import list works from that date).
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop: Iron Hills Blacksmith (Axe token) into Thorin Oakenshield or Kíli the Resourceful; the story reaches three artifacts/legendaries on turn two or three |
+| Turns 3-4 | Engine: Fíli the Pathfinder starts making Dwarf tokens, Dáin Ironfoot mints Axes and threatens double strike, Dáin's Company tutors, Kíli draws on every entry |
+| Turns 5-6 | The combo turn: Balin, Loremaster plus any Dwarf cast or token — each entry wheels the hand and burns for the wheel size; Mattock and hone counters make the follow-up swing lethal |
+| Late game | The Lonely Mountain: with three or four Equipment out, 2/2 Dwarf tokens cost {0}-{1} and each one re-fires Balin; Iron Hills puts +2/+2 counters on the finisher |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thorin Oakenshield | Legendary anchor: once the story endures, every artifact and creature you control has ward {1} — removal and counters get expensive fast |
+| Kíli the Resourceful | Draw engine and free equip: draws once per turn on any Dwarf or Equipment entry; storied first equip each turn costs {0} |
+| Fíli the Pathfinder | Token engine: storied +1/+1 anthem; every nontoken Dwarf that enters makes a 2/2 red Dwarf token — the token itself re-triggers Balin |
+| Dáin Ironfoot | Equipment mint: Axe token on entry; whenever he attacks, each equipped attacking creature gains double strike |
+| Dáin, Lord of the Iron Hills | Defense tax: with the story, creatures can't attack you unless their controller pays {1} each — buys the time the engine needs |
+| Balin, Loremaster | Primary payoff: on every Dwarf entering, discard your hand, draw that many, and with the story deal that much damage to each opponent |
+| Dwalin, Weaponmaster | Hone counters: first strike body that stacks +1/+0 per counter on every Equipment when he enters or attacks |
+| Iron Hills Blacksmith | Early storied piece: 1/1 double strike that creates an Axe Equipment token — artifact one, storied fuel two |
+| Dáin's Company | Tutor: on entry, digs four for a Dwarf or Equipment card; lifelink while another Dwarf is out |
+| Dwarven Mattock | The main Equipment: +2/+2 and ward {1}, enters attached to a Dwarf, discounts The Lonely Mountain, target of every hone counter |
+| Patient Instructor | Hybrid splash: vigilance 1/4 that recruits (draw, discard, Soldier token on a nonland discard) — early blocker and story fuel |
+| Esgaroth Garrison | Go-wide finisher: power equals your creature count and it recruits on entry, snowballing with the token army |
+| Opt | Scry 1, draw 1 — finds engine pieces without leaving blue |
+| Burst Lightning | Cheap removal or reach; kicked it deals 4 to any target |
+| Smaug's Fury | Combat trick: +3/+0 with first strike and reach — turns a blocker into a removal spell |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Land win condition: taps for red and spends spare mana on 2/2 Dwarf tokens, {1} cheaper per Equipment you control (Axe tokens count); each token re-triggers Balin |
+| Iron Hills | Red-white fixing that can sacrifice for two +1/+1 counters on a Dwarf — the finisher pump |
+| Cori Mountain Monastery | Untapped red source beside Plains or Island; its activation exiles the top card to play later — pseudo-card advantage |
+| Hidden Grotto | Surveil 1 fixing that makes any color — smooths the splash |
+| Raucous Carnival / Rabanastre, Royal City | Red-white sources; Carnival is untapped once any player is at 13 or less life |
+| Sharlayan, Nation of Scholars | White-blue source for the Opt / Patient Instructor splash |
+| Plains / Mountain / Island | Basic base — 5 / 5 / 2 |
+
+## Curve and mana
+
+Twenty-four lands: twelve basics (5 Plains, 5 Mountain, 2 Island) plus twelve nonbasics (3 The Lonely Mountain, 2 Iron Hills, 1 Raucous Carnival, 2 Rabanastre Royal City, 2 Cori Mountain Monastery, 1 Sharlayan, 1 Hidden Grotto). The base is white-red: the two-drop cluster (Thorin, Kíli, Dáin Lord of the Iron Hills, Blacksmith, Dwalin, Dáin's Company, Mattock) needs {W} and {R} on turns two and three, and there are enough red and white sources for double-color four-drops by turn four. Blue is a three-card splash (2 Opt, 2 hybrid Patient Instructor) kept honest by 2 Islands, Sharlayan and Cori Mountain Monastery. The curve is engine-shaped: three one-drops (2 Opt, 1 Burst Lightning), twenty-one two-drop plays, five three-drops (3 Dáin Ironfoot, 2 Patient Instructor), three four-drops (Fíli the Pathfinder), and a four-card five-plus cluster (2 Balin, 2 Esgaroth Garrison). The Lonely Mountain smooths the top end — late lands become 2/2 Dwarves instead of dead draws.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Iron Hills Blacksmith (Axe token) so the story is two artifacts deep on turn one. Thorin Oakenshield, Kíli the Resourceful, or Dáin's Company come next — with two legends plus the Axe the story endures, and from that moment Thorin taxes every spell aimed at your board and Kíli draws on each new Dwarf or Equipment. Against fast decks, Dáin, Lord of the Iron Hills slows every attack. Do not over-commit into sweepers before Balin arrives; the deck rebuilds faster than control clears.
+
+## Mid game
+
+Resolve Fíli the Pathfinder and start the token machine: every Dwarf cast adds a 2/2 token, and Kíli turns the busiest turn into extra cards. Dáin Ironfoot's Axe and Dwalin's hone counters turn one equipped creature into a 4/5+ double-striker, while Dáin's Company keeps the chain fed. The Lonely Mountain becomes active: each Equipment out discounts the Dwarf tokens it creates.
+
+## The combo turn
+
+With the story enduring, Balin on the battlefield, and a hand of four or more, the kill is any Dwarf entry — cast one or activate The Lonely Mountain:
+
+1. The Dwarf enters: Balin's trigger and (if Fíli is out) a 2/2 Dwarf token both go on the stack; Kíli adds a card for the turn's first Dwarf/Equipment entry.
+2. First Balin trigger resolves: discard your hand (say five cards), draw five, and deal 5 damage to each opponent.
+3. Fíli's token enters: Balin triggers again, discarding the fresh hand (six with Kíli's draw), drawing six, dealing 6.
+
+One Dwarf cast with a five-card hand is 11 damage and a new grip; two Dwarves or a Lonely Mountain activation on top is lethal. You may decline any Balin trigger — against a low-value hand of lands, let it pass rather than wheel into nothing.
+
+## Win condition 2
+
+The equipped beatdown. Dáin Ironfoot's Axe plus Dwarven Mattock on a storied board makes a 5/5-plus creature with double strike when Dáin attacks, ward from Thorin and Mattock, and Dwalin's hone counters still climbing. Esgaroth Garrison's power tracks your creature count, so the Fíli token swarm plus Garrison is a second wide clock. Iron Hills pumps the chosen Dwarf by +2/+2 when the last points are needed.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop (Thorin, Kíli, Blacksmith, Dáin's Company, Dwalin). Hands that reach three artifacts/legendaries by turn three are ideal. Ship one-landers, hands with Balin and no early plays, and hands without both colors. Against aggressive decks, prioritize Dáin, Lord of the Iron Hills and Patient Instructor; against control, keep Kíli and the tutors and lean on the ward stack.
+
+## Key interactions and edge cases
+
+- Storied is a state, not a trigger: once you control three or more artifacts, legendaries, and/or Sagas you have an enduring story for the rest of the game — Axe tokens count as artifacts, so Blacksmith and Dáin Ironfoot fuel it alone.
+- Balin triggers on tokens too. Fíli's 2/2 tokens, The Lonely Mountain's tokens, and any clone-style Dwarf all wheel and burn.
+- Each Balin trigger resolves separately: the second trigger discards the hand drawn by the first, so damage compounds — order your triggers so Kíli's draw lands between them.
+- Thorin's storied ward and Dwarven Mattock's ward are separate abilities: an equipped creature has two ward {1} triggers, and the opponent pays 1 for each.
+- The Lonely Mountain enters tapped unless you control an Equipment — Axe tokens and Mattock keep it untapped. Its token ability is sorcery-speed.
+- Dáin Ironfoot's double strike applies to each equipped attacking creature when he attacks — equip the Mattock before combat and swing with two double-strikers.
+- Smaug's Fury is first strike, so it is wasted on Dwalin (already first strike); it shines on an unequipped Dáin Ironfoot or a blocker.
+- Iron Hills is a land first: do not sacrifice it for counters unless the mana is no longer needed.
+- Patient Instructor and Esgaroth Garrison recruit at sorcery speed on entry: the Soldier tokens are not Dwarves, so they do not trigger Balin or Kíli, but they grow Garrison and chump-block.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug's Fury, and the Fíli token swarm races.
+- **Midrange (landfall, counters)**: the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison's power tracks the widening board.
+- **Control**: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin's Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.
+- **Combo and big mana**: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent's payoff lands.
+
+# Deck list (Arena import)
+
+```text
+Steel and Saga
+Deck
+4 Thorin Oakenshield
+4 Kíli the Resourceful
+3 Fíli the Pathfinder
+3 Dáin Ironfoot
+2 Dáin, Lord of the Iron Hills
+2 Balin, Loremaster
+2 Dwalin, Weaponmaster
+3 Iron Hills Blacksmith
+2 Dáin's Company
+3 Dwarven Mattock
+2 Patient Instructor
+2 Esgaroth Garrison
+2 Opt
+1 Burst Lightning
+1 Smaug's Fury
+3 The Lonely Mountain
+2 Iron Hills
+1 Raucous Carnival
+2 Rabanastre, Royal City
+2 Cori Mountain Monastery
+1 Sharlayan, Nation of Scholars
+1 Hidden Grotto
+5 Plains
+5 Mountain
+2 Island
+```

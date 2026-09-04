@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-09-04:\n\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
+    "text": "Deck guides published 2026-09-04:\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -1089,14 +1089,14 @@
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Card pool consumption — cycle started 2026-08-22 · 505 cards locked · Hobbit 49/193 remaining\n32 deck guides — newest first. Every daily deck keeps its own permanent page."
+    "text": "Card pool consumption — cycle started 2026-08-22 · 515 cards locked · Hobbit 46/193 remaining\n33 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
     "objectID": "archive.html#section",
     "href": "archive.html#section",
     "title": "Archive",
     "section": "2026-09-04",
-    "text": "2026-09-04\n\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
+    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
   },
   {
     "objectID": "archive.html#section-1",
@@ -1202,6 +1202,90 @@
     "title": "Archive",
     "section": "2026-08-20",
     "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html",
+    "href": "decks/2026-09-04-steel-and-saga.html",
+    "title": "Steel and Saga",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nRed / White / Blue (Jeskai)\n\n\nArchetype\nStoried Dwarves: legendary Dwarf core plus Equipment that wins through enter-the-battlefield triggers (avg nonland CMC ~2.6)\n\n\nSize\n60 cards\n\n\nPrimary win\nBalin, Loremaster wheel-burn: with an enduring story, every Dwarf that enters (including tokens) discards and redraws your hand and deals damage equal to the cards discarded to each opponent — one Dwarf cast with Fíli out is 10+ damage, a full grip, or lethal\n\n\nSecondary win\nThe equipped beatdown: Dáin Ironfoot’s Axe tokens plus double strike, Dwalin’s hone counters and Dwarven Mattock make one giant unanswerable swing; The Lonely Mountain and Iron Hills back it up\n\n\nLand win con\nThe Lonely Mountain: a Mountain that pays into 2/2 red Dwarf tokens, cheaper for every Equipment you control — each token also feeds Balin"
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#game-plan-phases",
+    "href": "decks/2026-09-04-steel-and-saga.html#game-plan-phases",
+    "title": "Steel and Saga",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-2\nDevelop: Iron Hills Blacksmith (Axe token) into Thorin Oakenshield or Kíli the Resourceful; the story reaches three artifacts/legendaries on turn two or three\n\n\nTurns 3-4\nEngine: Fíli the Pathfinder starts making Dwarf tokens, Dáin Ironfoot mints Axes and threatens double strike, Dáin’s Company tutors, Kíli draws on every entry\n\n\nTurns 5-6\nThe combo turn: Balin, Loremaster plus any Dwarf cast or token — each entry wheels the hand and burns for the wheel size; Mattock and hone counters make the follow-up swing lethal\n\n\nLate game\nThe Lonely Mountain: with three or four Equipment out, 2/2 Dwarf tokens cost {0}-{1} and each one re-fires Balin; Iron Hills puts +2/+2 counters on the finisher"
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#card-roles",
+    "href": "decks/2026-09-04-steel-and-saga.html#card-roles",
+    "title": "Steel and Saga",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThorin Oakenshield\nLegendary anchor: once the story endures, every artifact and creature you control has ward {1} — removal and counters get expensive fast\n\n\nKíli the Resourceful\nDraw engine and free equip: draws once per turn on any Dwarf or Equipment entry; storied first equip each turn costs {0}\n\n\nFíli the Pathfinder\nToken engine: storied +1/+1 anthem; every nontoken Dwarf that enters makes a 2/2 red Dwarf token — the token itself re-triggers Balin\n\n\nDáin Ironfoot\nEquipment mint: Axe token on entry; whenever he attacks, each equipped attacking creature gains double strike\n\n\nDáin, Lord of the Iron Hills\nDefense tax: with the story, creatures can’t attack you unless their controller pays {1} each — buys the time the engine needs\n\n\nBalin, Loremaster\nPrimary payoff: on every Dwarf entering, discard your hand, draw that many, and with the story deal that much damage to each opponent\n\n\nDwalin, Weaponmaster\nHone counters: first strike body that stacks +1/+0 per counter on every Equipment when he enters or attacks\n\n\nIron Hills Blacksmith\nEarly storied piece: 1/1 double strike that creates an Axe Equipment token — artifact one, storied fuel two\n\n\nDáin’s Company\nTutor: on entry, digs four for a Dwarf or Equipment card; lifelink while another Dwarf is out\n\n\nDwarven Mattock\nThe main Equipment: +2/+2 and ward {1}, enters attached to a Dwarf, discounts The Lonely Mountain, target of every hone counter\n\n\nPatient Instructor\nHybrid splash: vigilance 1/4 that recruits (draw, discard, Soldier token on a nonland discard) — early blocker and story fuel\n\n\nEsgaroth Garrison\nGo-wide finisher: power equals your creature count and it recruits on entry, snowballing with the token army\n\n\nOpt\nScry 1, draw 1 — finds engine pieces without leaving blue\n\n\nBurst Lightning\nCheap removal or reach; kicked it deals 4 to any target\n\n\nSmaug’s Fury\nCombat trick: +3/+0 with first strike and reach — turns a blocker into a removal spell"
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#lands-as-engines",
+    "href": "decks/2026-09-04-steel-and-saga.html#lands-as-engines",
+    "title": "Steel and Saga",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nLand win condition: taps for red and spends spare mana on 2/2 Dwarf tokens, {1} cheaper per Equipment you control (Axe tokens count); each token re-triggers Balin\n\n\nIron Hills\nRed-white fixing that can sacrifice for two +1/+1 counters on a Dwarf — the finisher pump\n\n\nCori Mountain Monastery\nUntapped red source beside Plains or Island; its activation exiles the top card to play later — pseudo-card advantage\n\n\nHidden Grotto\nSurveil 1 fixing that makes any color — smooths the splash\n\n\nRaucous Carnival / Rabanastre, Royal City\nRed-white sources; Carnival is untapped once any player is at 13 or less life\n\n\nSharlayan, Nation of Scholars\nWhite-blue source for the Opt / Patient Instructor splash\n\n\nPlains / Mountain / Island\nBasic base — 5 / 5 / 2"
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#curve-and-mana",
+    "href": "decks/2026-09-04-steel-and-saga.html#curve-and-mana",
+    "title": "Steel and Saga",
+    "section": "Curve and mana",
+    "text": "Curve and mana\nTwenty-four lands: twelve basics (5 Plains, 5 Mountain, 2 Island) plus twelve nonbasics (3 The Lonely Mountain, 2 Iron Hills, 1 Raucous Carnival, 2 Rabanastre Royal City, 2 Cori Mountain Monastery, 1 Sharlayan, 1 Hidden Grotto). The base is white-red: the two-drop cluster (Thorin, Kíli, Dáin Lord of the Iron Hills, Blacksmith, Dwalin, Dáin’s Company, Mattock) needs {W} and {R} on turns two and three, and there are enough red and white sources for double-color four-drops by turn four. Blue is a three-card splash (2 Opt, 2 hybrid Patient Instructor) kept honest by 2 Islands, Sharlayan and Cori Mountain Monastery. The curve is engine-shaped: three one-drops (2 Opt, 1 Burst Lightning), twenty-one two-drop plays, five three-drops (3 Dáin Ironfoot, 2 Patient Instructor), three four-drops (Fíli the Pathfinder), and a four-card five-plus cluster (2 Balin, 2 Esgaroth Garrison). The Lonely Mountain smooths the top end — late lands become 2/2 Dwarves instead of dead draws."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#early-game",
+    "href": "decks/2026-09-04-steel-and-saga.html#early-game",
+    "title": "Steel and Saga",
+    "section": "Early game",
+    "text": "Early game\nLead with Iron Hills Blacksmith (Axe token) so the story is two artifacts deep on turn one. Thorin Oakenshield, Kíli the Resourceful, or Dáin’s Company come next — with two legends plus the Axe the story endures, and from that moment Thorin taxes every spell aimed at your board and Kíli draws on each new Dwarf or Equipment. Against fast decks, Dáin, Lord of the Iron Hills slows every attack. Do not over-commit into sweepers before Balin arrives; the deck rebuilds faster than control clears."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#mid-game",
+    "href": "decks/2026-09-04-steel-and-saga.html#mid-game",
+    "title": "Steel and Saga",
+    "section": "Mid game",
+    "text": "Mid game\nResolve Fíli the Pathfinder and start the token machine: every Dwarf cast adds a 2/2 token, and Kíli turns the busiest turn into extra cards. Dáin Ironfoot’s Axe and Dwalin’s hone counters turn one equipped creature into a 4/5+ double-striker, while Dáin’s Company keeps the chain fed. The Lonely Mountain becomes active: each Equipment out discounts the Dwarf tokens it creates."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#the-combo-turn",
+    "href": "decks/2026-09-04-steel-and-saga.html#the-combo-turn",
+    "title": "Steel and Saga",
+    "section": "The combo turn",
+    "text": "The combo turn\nWith the story enduring, Balin on the battlefield, and a hand of four or more, the kill is any Dwarf entry — cast one or activate The Lonely Mountain:\n\nThe Dwarf enters: Balin’s trigger and (if Fíli is out) a 2/2 Dwarf token both go on the stack; Kíli adds a card for the turn’s first Dwarf/Equipment entry.\nFirst Balin trigger resolves: discard your hand (say five cards), draw five, and deal 5 damage to each opponent.\nFíli’s token enters: Balin triggers again, discarding the fresh hand (six with Kíli’s draw), drawing six, dealing 6.\n\nOne Dwarf cast with a five-card hand is 11 damage and a new grip; two Dwarves or a Lonely Mountain activation on top is lethal. You may decline any Balin trigger — against a low-value hand of lands, let it pass rather than wheel into nothing."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#win-condition-2",
+    "href": "decks/2026-09-04-steel-and-saga.html#win-condition-2",
+    "title": "Steel and Saga",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe equipped beatdown. Dáin Ironfoot’s Axe plus Dwarven Mattock on a storied board makes a 5/5-plus creature with double strike when Dáin attacks, ward from Thorin and Mattock, and Dwalin’s hone counters still climbing. Esgaroth Garrison’s power tracks your creature count, so the Fíli token swarm plus Garrison is a second wide clock. Iron Hills pumps the chosen Dwarf by +2/+2 when the last points are needed."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#mulligan-guide",
+    "href": "decks/2026-09-04-steel-and-saga.html#mulligan-guide",
+    "title": "Steel and Saga",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop (Thorin, Kíli, Blacksmith, Dáin’s Company, Dwalin). Hands that reach three artifacts/legendaries by turn three are ideal. Ship one-landers, hands with Balin and no early plays, and hands without both colors. Against aggressive decks, prioritize Dáin, Lord of the Iron Hills and Patient Instructor; against control, keep Kíli and the tutors and lean on the ward stack."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-04-steel-and-saga.html#key-interactions-and-edge-cases",
+    "title": "Steel and Saga",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nStoried is a state, not a trigger: once you control three or more artifacts, legendaries, and/or Sagas you have an enduring story for the rest of the game — Axe tokens count as artifacts, so Blacksmith and Dáin Ironfoot fuel it alone.\nBalin triggers on tokens too. Fíli’s 2/2 tokens, The Lonely Mountain’s tokens, and any clone-style Dwarf all wheel and burn.\nEach Balin trigger resolves separately: the second trigger discards the hand drawn by the first, so damage compounds — order your triggers so Kíli’s draw lands between them.\nThorin’s storied ward and Dwarven Mattock’s ward are separate abilities: an equipped creature has two ward {1} triggers, and the opponent pays 1 for each.\nThe Lonely Mountain enters tapped unless you control an Equipment — Axe tokens and Mattock keep it untapped. Its token ability is sorcery-speed.\nDáin Ironfoot’s double strike applies to each equipped attacking creature when he attacks — equip the Mattock before combat and swing with two double-strikers.\nSmaug’s Fury is first strike, so it is wasted on Dwalin (already first strike); it shines on an unequipped Dáin Ironfoot or a blocker.\nIron Hills is a land first: do not sacrifice it for counters unless the mana is no longer needed.\nPatient Instructor and Esgaroth Garrison recruit at sorcery speed on entry: the Soldier tokens are not Dwarves, so they do not trigger Balin or Kíli, but they grow Garrison and chump-block."
+  },
+  {
+    "objectID": "decks/2026-09-04-steel-and-saga.html#matchups",
+    "href": "decks/2026-09-04-steel-and-saga.html#matchups",
+    "title": "Steel and Saga",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro (fliers, lifegain, cats): Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug’s Fury, and the Fíli token swarm races.\nMidrange (landfall, counters): the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison’s power tracks the widening board.\nControl: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin’s Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.\nCombo and big mana: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent’s payoff lands."
   },
   {
     "objectID": "decks/2026-09-01-moon-and-dale.html",

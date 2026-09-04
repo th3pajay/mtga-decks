@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **505** cards locked · **Hobbit 49/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **515** cards locked · **Hobbit 46/193** remaining
 
-**32 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**33 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-09-04
 
+- **[Steel and Saga](decks/2026-09-04-steel-and-saga.html)** — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set  `hobbit` `dwarves`
 - **[Counterargument](decks/2026-09-04-counterargument.html)** — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters  `combo` `repartee` `increment`
 
 ## 2026-09-03
