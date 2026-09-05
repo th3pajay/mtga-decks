@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-04**:
+Deck guides published **2026-09-05**:
 
-- **[Steel and Saga](decks/2026-09-04-steel-and-saga.html)** — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set  `hobbit` `dwarves`
-- **[Counterargument](decks/2026-09-04-counterargument.html)** — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters  `combo` `repartee` `increment`
+- **[Web Slingback](decks/2026-09-05-web-slingback.html)** — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun  `combo` `web-slinging`

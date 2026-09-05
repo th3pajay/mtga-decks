@@ -1,0 +1,142 @@
+---
+title: "Web Slingback"
+subtitle: "Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun"
+date: "2026-09-05"
+categories: ["combo", "web-slinging"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Green / White (GW) |
+| Archetype | Web-slinging combo-aggro |
+| Size | 60 cards, 24 lands |
+| Core engine | Web-slinging: cast Spider legends at a discount by returning a tapped creature you control to its owner's hand, then cash in the cast and enter triggers |
+| Primary win | Wide board: Silk, Web Weaver Citizen tokens plus spider tokens, pumped by Wall Crawl, Spider-Ham and Silk's +2/+2 activation, swung with a Restless Prairie team buff |
+| Secondary win | Tall swing: Origin of Spider-Man chapter III double strike on a counter-loaded Spider |
+| Nonland curve | 7 one-drops, 9 twos, 7 threes, 7 fours, 6 fives |
+
+# Overview
+
+**Web-slinging** is an alternative cost: "You may cast this spell for its web-slinging cost if you also return a tapped creature you control to its owner's hand." Every creature that attacked, or that tapped for mana, becomes payment for a discount. `Spider-Man, Web-Slinger` (normally {2}{W}) slings for {W}; `Silk, Web Weaver` ({2}{G}{W}) slings for {1}{G}{W}; `Spider-Man India` ({3}{G}{W}) slings for {1}{G}{W}; `Spider-Man, Brooklyn Visionary` ({4}{G}) slings for {2}{G}. The deck is built so that bouncing and recasting is a feature, not a cost: green mana dorks tap for mana and then become the toll, attackers tap in combat and then become the toll, and every recast fires the deck's payoffs.
+
+The engine is a cast-and-enter loop. `Mary Jane Watson` draws a card whenever a Spider enters (once per turn); `Aunt May` gains life and puts a +1/+1 counter on every Spider that enters; `Silk, Web Weaver` creates a 1/1 Human Citizen for every creature spell cast and later turns the whole team into an overrun with its {3}{G}{W} activation; `Spider-Man India` puts a +1/+1 counter on a creature and gives it flying whenever you cast a creature spell. A single web-slinging turn with three creatures to return chains all four engines at once.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Set up the sling line** (turns 1-3): Aunt May or Llanowar Elves on turn 1, Mary Jane Watson and a second dork or Spider on turn 2, then Spider-Man, Web-Slinger or Get Lost on turn 3. Creatures that attack or tap for mana become the web-slinging toll.
+2. **Chain the recasts** (turns 4-6): attack with the team, then cast discounted Spiders by returning tapped creatures. Each cast draws (Mary Jane), gains life and counters (Aunt May), makes a Citizen (Silk) and spreads counters (India). Silk and Spider-UK are the best follow-up plays on the same turn they untap into the engine.
+3. **Overrun** (turn 5+): with five or six creatures on board, activate Silk's {3}{G}{W} for +2/+2 and vigilance, animate Restless Prairie for an extra +1/+1 to everything as it attacks, and swing. Web-Warriors and Origin of Spider-Man make the board big enough to kill through blockers.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Spider-Man, Web-Slinger | 4 | Core web-slinger - {2}{W} 3/3 that slings for {W}; the discount engine's cheapest, most repeatable body |
+| Llanowar Elves | 4 | Enabler - taps for mana, then becomes the tapped creature you return for a web-slinging cast |
+| Aunt May | 3 | Engine - gains 1 life per entering creature; entering Spiders get a +1/+1 counter |
+| Mary Jane Watson | 3 | Engine - draws a card whenever a Spider enters, once per turn |
+| Twitching Doll | 2 | Enabler - mana dork that taps for any color and later sacrifices for one 2/2 Spider per nest counter |
+| Spiders-Man, Heroic Horde | 1 | Web-slinger - {1}{G} 2/3 reach; if cast with web-slinging, gains 3 life and makes two 2/1 Spider tokens |
+| Silk, Web Weaver | 3 | Engine and finisher - Citizen per creature spell; {3}{G}{W} gives the team +2/+2 and vigilance |
+| Spider-UK | 2 | Web-slinger - end step: if two or more creatures entered this turn, draw a card and gain 2 life |
+| Spider-Man, Brooklyn Visionary | 2 | Web-slinger - {4}{G} 4/3 slinging for {2}{G}; fetches a basic land on entry |
+| Spider-Man India | 2 | Web-slinger - whenever you cast a creature spell, +1/+1 counter on a creature and flying |
+| Web-Warriors | 2 | Payoff - enters and puts +1/+1 on every other creature you control |
+| Origin of Spider-Man | 2 | Payoff - saga: Spider token, then a +1/+1 counter that makes a Spider Hero, then double strike |
+| Wall Crawl | 2 | Payoff - 2/1 Spider token, life per Spider, and Spiders get +1/+1 and can't be blocked by defenders |
+| Get Lost | 3 | Interaction - destroys a creature, enchantment or planeswalker |
+| Overprotect | 1 | Interaction - +3/+3, trample, hexproof and indestructible to close through blockers |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Prairie | Land win con - becomes a 3/3 green/white Llama for {2}{G}{W}; whenever it attacks, all other creatures get +1/+1, a repeatable anthem that ends games |
+| Three Tree City | Mana payoff - names Spider and taps for one mana of a color per Spider you control, funding Silk's overrun activation |
+| Hushwood Verge | Green/white fixing, untapped with a Forest or Plains |
+| Gathering Place | Green/white fixing that taps colored once you control a basic land |
+| Forest / Plains | Basics for the fetch-proof color depth |
+
+## Curve and mana
+
+24 lands: 11 basics (7 Forest, 4 Plains) plus 4 Hushwood Verge, 4 Restless Prairie, 4 Gathering Place and 1 Three Tree City. Green and white appear at near-equal weight and most key spells are hybrid {G/W}, so the base is forgiving; Plains count is kept at 4 because only white removal (Get Lost) and the saga demand early white. The nonland curve is 7 one-drops, 9 twos, 7 threes, 7 fours, 6 fives (about 3.0 average), which puts the first web-slinging chain on turns 3-4 and the overrun by turn 6.
+
+# Gameplay strategy
+
+## Early game (turns 1-3)
+
+- Turn 1: Aunt May or Llanowar Elves. Aunt May is the preferred engine start (every later Spider gains a counter); the Elf is the preferred sling toll (it has already made mana).
+- Turn 2: Mary Jane Watson first so Spider entries draw, then a second dork or Spider. Twitching Doll taps for any color and leaves a nest counter each time, so it both ramps and pays for itself later.
+- Turn 3: Spider-Man, Web-Slinger or Get Lost. Do not bounce the dork on the turn you need its mana; sling only when the creature being returned has already done its job.
+
+## Mid game (turns 4-6)
+
+- Attack with whatever the board has: attackers come back tapped, which is exactly the condition web-slinging needs.
+- Second main phase: cast Silk, Web Weaver or Spider-UK by returning a tapped attacker. If Silk is already out, every creature spell in the chain makes a Citizen; if Mary Jane is out, the entering Spider draws; Aunt May grows it.
+- Order the cast triggers for value: Mary Jane draws once per turn, so make the first Spider enter before casting the rest of the chain.
+- Spider-Man, Brooklyn Visionary smooths lands on entry; Web-Warriors turns a wide board into a big one in a single cast.
+
+## The combo turn
+
+1. Attack with four or more creatures; keep one dork back untapped if you need its mana for the chain.
+2. In the second main phase, return tapped attackers one at a time: each web-slinging cast is cheaper than the spell's normal cost, so three casts cost about five mana total.
+3. Each cast makes a Citizen (Silk), draws (Mary Jane, once), gains life and a counter on the entering Spider (Aunt May) and grows a creature (India).
+4. Cast Wall Crawl or Web-Warriors if available, then activate Silk's {3}{G}{W}: the team gets +2/+2 and vigilance.
+5. Animate Restless Prairie and attack: the Llama adds +1/+1 to everything as it swings. With a half-dozen creatures this is lethal.
+
+## Win condition 2: the double-strike Spider
+
+`Origin of Spider-Man` is a two-mana saga that builds its own finisher. Chapter I makes a 2/1 Spider token, chapter II puts a +1/+1 counter on a creature and turns it into a legendary Spider Hero (which keeps it inside every Spider payoff, including Mary Jane and Aunt May), and chapter III grants double strike. Point it at a Spider that Aunt May and India have been growing, or at a Web-Warriors-pumped 5/5, and the single unblocked hit is 10+ damage. `Overprotect` adds trample, hexproof and indestructible to make the swing unstoppable.
+
+## Mulligan guide
+
+- **Keep:** two to four lands with at least one white and one green source, a one- or two-drop engine (Aunt May, Mary Jane, Elf, Web-Slinger), and preferably one Spider to start the loop.
+- **Trim:** hands with five or more lands, all-toll hands with no actual web-slingers, and single-color hands that cannot cast both an engine and a Spider by turn 3.
+- Restless Prairie and Gathering Place enter tapped or conditionally, so count them as slow mana when judging a two-land hand.
+
+## Key interactions and edge cases
+
+- The returned creature must be tapped **as you cast the spell**; a creature that attacked this turn qualifies, and so does a dork you tapped for mana. Vigilance is not a problem because the deck grants it only through Silk's overrun, on the turn you are attacking with it.
+- Web-slinging is an alternative cost, not a reduction: you pay the sling cost plus any additional costs, and you cannot combine it with other alternative costs.
+- Mary Jane Watson triggers once per turn no matter how many Spiders enter, so time the first Spider of your chain before the flood of casts.
+- Silk's Citizen tokens are Humans, not Spiders, so they do not draw with Mary Jane or grow with Aunt May, but they do feed Wall Crawl, Web-Warriors, Silk's overrun and Three Tree City only if you choose Spider for the city (it counts Spiders).
+- Aunt May's counter trigger puts the counter on the Spider that entered; Spider-UK's end-step draw needs two enters in the turn, which a standard chain exceeds.
+- Get Lost gives the opponent two Map tokens; use it on their engine rather than their small creatures to avoid the ramp.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cat, landfall):** Aunt May and Silk outsize their early creatures; Twitching Doll and Spiders-Man chump or block with reach; Get Lost answers their key threat and the deck's lifegain (Aunt May, Spider-UK) buys the extra turn to overrun.
+- **Midrange:** win the board race with Web-Warriors and Wall Crawl; the recast chain out-values one-for-one removal because every bounced creature is replayed with a discount.
+- **Control:** hold Get Lost for their planeswalker, deploy Silk and India together so a single cast turn rebuilds the board after a sweeper, and lean on the Origin double-strike line to close before they stabilize.
+
+# Deck list (Arena import)
+
+```
+4 Llanowar Elves
+3 Aunt May
+3 Mary Jane Watson
+2 Twitching Doll
+1 Spiders-Man, Heroic Horde
+4 Spider-Man, Web-Slinger
+3 Get Lost
+3 Silk, Web Weaver
+2 Spider-UK
+2 Spider-Man, Brooklyn Visionary
+2 Spider-Man India
+2 Web-Warriors
+2 Origin of Spider-Man
+2 Wall Crawl
+1 Overprotect
+7 Forest
+4 Plains
+4 Hushwood Verge
+4 Restless Prairie
+4 Gathering Place
+1 Three Tree City
+```
