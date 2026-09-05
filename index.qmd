@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-05**:
 
 - **[Web Slingback](decks/2026-09-05-web-slingback.html)** — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun  `combo` `web-slinging`
+- **[Greenwood Ledger](decks/2026-09-05-greenwood-ledger.html)** — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set  `hobbit` `elves`

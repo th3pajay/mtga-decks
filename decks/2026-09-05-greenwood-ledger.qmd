@@ -1,0 +1,157 @@
+---
+title: "Greenwood Ledger"
+subtitle: "Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set"
+date: "2026-09-05"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Green (Sultai) |
+| Archetype | Elf legends: legendary-Elf enter triggers, self-mill, and graveyard recursion as one engine |
+| Size | 60 cards |
+| Primary win | Thranduil, the Elvenking makes every other legendary Elf draw two cards; lords and landfall tokens build a board that Galion or Mirkwood Pathmaker turns into one enormous, unblockable attacker |
+| Secondary win | Master's Councillors mills the opponent three cards every time you draw a second card — in a deck that draws constantly — while Cantankerous Keepers keeps recycling your own library into your hand |
+| Land win con | Restless Vinestalk as a 5/5 trample man-land, plus Rogue's Passage to push the biggest Elf through |
+
+# Overview
+
+Greenwood Ledger is the Elvenking's library as a deck: every card either is a legendary Elf, puts cards into your graveyard, or rewards you for having a full graveyard and a full hand. The engine is a closed loop. Cantankerous Keepers and the Silvan Rally adventure mill cards — Keepers then puts *all* Elf cards from the mill into your hand, Silvan Rally puts up to two lands into your hand — and every legendary Elf you cast off that supply makes Thranduil, the Elvenking draw two more cards. The graveyard is not a graveyard here; it is a second hand that Elvish Regrower, Silvan Reveler, Lluwen, and Morcant's Loyalist keep feeding back into play.
+
+The set identity is the elf half of The Hobbit: Thranduil the Elvenking, Elrond Moon-Reader, the Sindarin Liege, and Galion are the core, and the support slots are Hobbit-set lore pieces (Master's Councillors, Mirkwood Nurturer) alongside green-blue-black Elf druids and warriors from the wider Standard elf pool.
+
+The set lands on Arena 2026-08-14; the import list works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Wood Elves fetches a Forest, Elvish Archdruid or Woodland Weavemaster starts the mana engine, Silvan Reveler or Lluwen starts the mill |
+| Turns 4-5 | Engine: Thranduil, Sindarin Liege anthems the Elves and makes landfall tokens; Cantankerous Keepers mills four and grabs every Elf card from the mill; Thranduil the Elvenking starts drawing two per legendary Elf |
+| Turns 6+ | Convert: Galion copies his power onto the biggest Elf, Mirkwood Pathmaker is as large as your land count, and Rogue's Passage or Restless Vinestalk closes through blockers |
+| Late game | Master's Councillors mills the opponent three cards per second-draw while your recursion loop never runs out of Elves |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, the Elvenking | Engine and payoff: every other legendary Elf entering draws two cards (discard one); he also gains every activated ability of Elf cards in your graveyard |
+| Elrond, Moon-Reader | Draw on the first creature-ability activation each turn; his {5}{U}{U} activation blinks two of your own permanents to re-trigger Elves, landfall, and mill |
+| Thranduil, Sindarin Liege | Anthem for Elves; landfall makes a 1/1 Elf token; the Silvan Rally adventure mills four and puts up to two lands into your hand |
+| Galion, Elvenking's Butler | Attack finisher: sets another creature's base power and toughness equal to his own |
+| Cantankerous Keepers | Mill engine: affinity for Elves; on entry mills four, then puts all Elf cards from among them into your hand |
+| Elvish Archdruid | Lord and mana: other Elves get +1/+1; taps for {G} per Elf you control |
+| Mirkwood Pathmaker | Land-count finisher: power and toughness equal your lands |
+| Wood Elves | Ramp: fetches a Forest onto the battlefield and triggers landfall |
+| Woodland Weavemaster | Early mana and elf pump: grows on every Elf entry, taps for colored mana equal to its power (Elf spells only) |
+| Elvish Regrower | Recursion: on entry returns any permanent card from your graveyard to your hand |
+| Silvan Reveler | Loot and recursion: draws then discards (a discarded land enters tapped), and landfall returns it from the graveyard |
+| Morcant's Loyalist | Lord with recursion: other Elves get +1/+1; on death returns another Elf card from your graveyard |
+| Lluwen, Imperfect Naturalist | Legendary mill piece: mills four on entry (keeps a creature or land on top); later turns land cards in the graveyard into Worm tokens |
+| Mirkwood Nurturer | ETB value: bounces one of your own permanents to re-trigger it and puts a +1/+1 counter on itself |
+| Formidable Speaker | Tutor: on entry discards a card (fuel) to search a creature into hand; taps to untap another permanent |
+| Master's Councillors | Second win condition: vigilance, +2/+0 for each graveyard with seven or more cards; mills target player three on each second draw of a turn |
+| Thranduil, the Elvenking (land) | see Lands as engines |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Vinestalk | Land win condition: {3}{G}{U} makes a 5/5 trample Plant; its attack trigger sets another creature's base stats to 3/3 (or fixes Galion's target); also fixes blue-green |
+| Rogue's Passage | Land win condition: {4} makes a creature unblockable — the last piece for the Galion- or Pathmaker-sized attacker |
+| Lush Oasis | Blue-green fixing that pings the opponent for 1 on entry |
+| Jungle Hollow | Black-green fixing with 1 life on entry |
+| Forest / Island / Swamp | Basic base — 7 / 5 / 3 |
+
+## Curve and mana
+
+Twenty-four lands: fifteen basics (7 Forest, 5 Island, 3 Swamp) plus nine nonbasics (2 Restless Vinestalk, 1 Rogue's Passage, 4 Lush Oasis, 2 Jungle Hollow). The mana is Sultai in practice but green-first: the two-drop cluster (Woodland Weavemaster, Lluwen, Master's Councillors) and the three-drop lords (Elvish Archdruid, Morcant's Loyalist, Mirkwood Pathmaker, Formidable Speaker) need {G} and {U} on time, while black is a shallow third color carried by 3 Swamps, 2 Jungle Hollows, and the hybrid Lluwen. The curve is engine-shaped: nine two-drops, twelve three-drops, nine four-plus legends, and the flexible affinity on Cantankerous Keepers. Elvish Archdruid and Woodland Weavemaster give the extra mana the five-mana Thranduil and six-mana Keepers want by turn four or five.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one- or two-drop: Woodland Weavemaster, Lluwen (mills four immediately), Master's Councillors, or Wood Elves for the Forest. The goal of the first turns is to fill the graveyard and reach three mana. Silvan Reveler loots lands into play; Lluwen starts the mill the Keepers and Thranduil will exploit. Do not be afraid to discard — this deck's graveyard is a resource and Elvish Regrower, Silvan Reveler, and Morcant's Loyalist all reach back into it.
+
+## Mid game
+
+Resolve Thranduil, Sindarin Liege for the anthem and start making landfall Elf tokens, then land Cantankerous Keepers. Keepers typically mills four and returns two or three Elf cards to hand, which is a one-card refill. Cast a legendary Elf (Elrond, Galion, a second Sindarin Liege, or Thranduil himself) and Thranduil, the Elvenking draws two more. Every draw triggers Master's Councillors' mill — aim it at the opponent once your own graveyard is already fat.
+
+## The combo turn
+
+The loop, once Thranduil the Elvenking and a few Elves are on board:
+
+1. Cast Cantankerous Keepers (cheap from affinity). It mills four and puts every Elf card from the mill into your hand.
+2. Cast the Elves you just found. Each legendary Elf entering makes Thranduil draw two, then discard one; the discard keeps the graveyard stocked.
+3. Elrond, Moon-Reader draws once more off the first creature-ability activation, and Silvan Rally or Lluwen keeps the library turnover going.
+4. Attack: Galion sets a creature's base power and toughness equal to his own (4/4 plus lords and counters), Mirkwood Pathmaker is as big as your land count, and Rogue's Passage makes the chosen attacker unblockable. Restless Vinestalk adds a 5/5 trample attacker on the same turn.
+
+## Win condition 2
+
+Master's Councillors mills three cards from target player's library every time you draw your second card in a turn. This deck routinely draws two or more cards per turn from Thranduil, Elrond, Silvan Reveler, and Keepers — point the mill at the opponent and their library disappears a chunk per turn, while your recursion loop keeps your own side stocked. In a long game the Councillors also become a large vigilance creature: +2/+0 for every graveyard with seven or more cards, and with two self-milling decks in a match there are almost always two such graveyards.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop (Weavemaster, Lluwen, Wood Elves, Master's Councillors) or three lands plus a three-drop lord. Keep hands with Thranduil the Elvenking only if you also have fixing for all three colors. Ship one-landers, hands with three top-end cards and no early play, and hands with no green source. Against aggressive decks, prioritize the early bodies (Weavemaster, Wood Elves, Master's Councillors); against control, keep the mill and recursion pieces and play the long game.
+
+## Key interactions and edge cases
+
+- Thranduil, the Elvenking triggers on *every other* legendary Elf entering — including a second copy of himself, Elrond, Galion, the Sindarin Liege, and Lluwen.
+- Thranduil also gains all activated abilities of Elf cards in your graveyard: a milled Woodland Weavemaster lets Thranduil tap for Elf-cast mana, and a milled Formidable Speaker lets him tutor. Elrond's draw-on-activation makes the first such activation each turn draw a card.
+- Cantankerous Keepers' mill resolves before its "put Elf cards into your hand" clause: non-Elf cards milled stay in the graveyard, where Regrower and Silvan Reveler can reach them.
+- Silvan Rally (the Sindarin Liege adventure) mills four and takes up to two *land* cards — it never fetches lands from the library, only from the milled four.
+- Master's Councillors' mill targets any player: mill yourself early to fuel Thranduil and Keepers, switch to the opponent once your graveyard is loaded.
+- Mirkwood Nurturer returns one of your own permanents to hand — re-trigger Wood Elves for another Forest, Silvan Reveler for another loot, or a legendary Elf for another Thranduil draw.
+- Silvan Reveler's discarded land enters the battlefield tapped: that is a second landfall trigger on the same turn.
+- Elrond's blink ({5}{U}{U}) can exile a tapped land and return it next end step for a double landfall, or save an Elf from removal.
+- Restless Vinestalk's attack trigger sets *another* target creature's base stats to 3/3 — do not point it at your own Galion target on the turn you want the big number.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: Master's Councillors and Woodland Weavemaster block early, Morcant's Loyalist and the token Elves chump, and the recursion engine out-grinds. Aim the Councillors' mill at the opponent once stabilized.
+- **Midrange (landfall, counters)**: the draw-and-mill engine generates more cards than any midrange deck; Galion plus Rogue's Passage ends through blockers.
+- **Control**: the deck rebuilds after every sweeper — Keepers refills from the graveyard, and every legendary Elf draws two. Play at instant speed with Elrond's blink to dodge exile.
+- **Combo and big mana**: this deck is the value engine — keep milling the opponent with Master's Councillors while racing their combo with an unblockable Galion.
+
+# Iterations
+
+| Round | Change | Synergy | Sim avg | T4 | P(4L) |
+|-------|--------|---------|---------|----|-------|
+| v1 → v2 | −1 Wildborn Preserver, +1 Lluwen, Imperfect Naturalist (legendary Elf that mills four — a second Thranduil draw trigger and graveyard fuel) | 69.1 → 69.2 | 57.7 → 53.3 | 0.623 → 0.636 | 0.629 → 0.630 |
+| v2 → v3 | −2 Beast-Kin Ranger, −1 Champions of the Perfect, −1 Lathril, −2 Cavern of Souls, −1 Temple of Malady; +3 Formidable Speaker, +1 Thranduil, Sindarin Liege, +1 Lush Oasis, +1 Forest, +1 Island (more legend density and draw; basics over situational lands) | 69.2 → 70.3 | 53.3 → 58.3 | 0.636 → 0.625 | 0.630 → 0.630 |
+
+# Deck list (Arena import)
+
+```text
+Greenwood Ledger
+Deck
+3 Thranduil, the Elvenking
+3 Elrond, Moon-Reader
+4 Thranduil, Sindarin Liege
+2 Galion, Elvenking's Butler
+2 Cantankerous Keepers
+2 Mirkwood Nurturer
+2 Mirkwood Pathmaker
+2 Wood Elves
+2 Elvish Archdruid
+2 Elvish Regrower
+2 Silvan Reveler
+2 Morcant's Loyalist
+1 Woodland Weavemaster
+1 Lluwen, Imperfect Naturalist
+3 Formidable Speaker
+3 Master's Councillors
+2 Restless Vinestalk
+1 Rogue's Passage
+4 Lush Oasis
+2 Jungle Hollow
+7 Forest
+5 Island
+3 Swamp
+```
