@@ -1,0 +1,143 @@
+---
+title: "Cold Case Haunting"
+subtitle: "WUBRG (five-color) | Eerie x Clue"
+date: "2026-09-06"
+categories: ["combo", "Eerie", "Clue"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | WUBRG (five-color; Esper-weighted manabase with red and green splashes) |
+| Archetype | Enchantment-storm combo / value |
+| Size | 60 cards (33 spells, 27 lands) |
+| Primary win | Eerie chain: every enchantment that enters drains (Balemurk Leech), draws (Entity Tracker), and makes flyers (Ghostly Dancers, Gremlin Tamer) |
+| Secondary win | Poison: Persuasive Interrogators turns Clue sacrifices into 2 poison counters each (10 poison wins) |
+
+## Overview
+
+"Cold Case Haunting" fuses two Standard mechanics into one engine. **Eerie** (Duskmourn) rewards every enchantment that enters under your control; **Clue** (Murders at Karlov Manor and friends) rewards making, cracking, and sacrificing artifact tokens. The bridge cards do both at once: Case of the Filched Falcon is an enchantment that makes a Clue on entry, Curious Inquiry is an Aura that investigates on combat damage, and Teysa, Opulent Oligarch converts opponent life loss into Clues and Clues into flying Spirits.
+
+The game plan is an enchantment snowball. Play eerie creatures early, then chain cheap enchantments (Cases, Auras, Rooms, enchantment creatures) so each entry triggers every eerie payoff. Clues smooth the draws, keep the chain going, and feed the alternate poison kill. Rooms are the premium fuel because a single Room can produce two or three eerie events: entering, making a Glimmer enchantment-creature token, and unlocking its second door.
+
+The deck plays the full rolled color set WUBRG. Fetch lands and They Went This Way (itself a Clue maker) fix the five-color manabase; red arrives via Infernal Phantom, an eerie payoff that turns into reach.
+
+## Approach
+
+### Game plan by phase
+
+1. **Setup (turns 1-3).** Deploy eerie payoffs: Balemurk Leech, Entity Tracker, Gremlin Tamer, Teysa. Cast Case of the Filched Falcon for an early Clue and its eerie trigger. Curious Inquiry on a flier starts the Clue economy.
+2. **Engine (turns 4-5).** Land Ghostly Dancers or Fear of Infinity. Start chaining enchantments: each one makes a 3/1 Spirit (Dancers), drains 1 per Leech, draws a card per Tracker, and makes a Gremlin per Tamer.
+3. **Combo turn.** With two or more eerie payoffs in play, cast several enchantments in one turn. Grand Entryway counts twice on its own (entry plus its Glimmer token); unlocking Elegant Rotunda adds a third event plus +1/+1 counters. Crack Clues between spells to keep the chain fueled.
+4. **Finish.** Drain plus a flying swarm closes the game. If the opponent races ahead on life, pivot to poison: Persuasive Interrogators plus five Clue sacrifices ends the game regardless of life totals.
+
+### Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Balemurk Leech | {1}{B} | Core eerie payoff; each enchantment entry deals 1 damage per Leech |
+| Entity Tracker | {2}{U} | Flash eerie draw engine |
+| Ghostly Dancers | {3}{W}{W} | Makes a 3/1 flying Spirit per enchantment entry; recurs enchantments from the graveyard |
+| Fear of Infinity | {1}{U}{B} | Enchantment creature; eerie returns it from the graveyard to hand, so it keeps re-entering |
+| Gremlin Tamer | {W}{U} | 1/1 Gremlin per enchantment entry |
+| Teysa, Opulent Oligarch | {1}{W}{B} | End-step investigate after opponent life loss; Clue dying makes a 1/1 flying Spirit |
+| Infernal Phantom | {3}{R} | Eerie gives +2/+0; dying deals damage equal to its power |
+| Persuasive Interrogators | {4}{B}{B} | Alt-win; every Clue sacrificed gives 2 poison |
+| Case of the Filched Falcon | {U} | Fusion card: enchantment entry plus a Clue; solved, it animates an artifact into a flying Bird |
+| Curious Inquiry | {U} | Aura that investigates on combat damage |
+| Grand Entryway // Elegant Rotunda | {1}{W} | Room: entry unlocks a door (1/1 Glimmer enchantment token = extra eerie event); unlock the other half later for counters and a full-unlock eerie trigger |
+| They Went This Way | {2}{G} | Fetches any basic (fixing) and makes a Clue |
+| No Witnesses | {2}{W}{W} | Wipe that investigates if you control the most creatures |
+
+### Lands as engines
+
+| Land | Role |
+|---|---|
+| Rogue's Passage | Win-condition land: makes the solved Falcon Bird (a 4/4 flying Bird made from a Clue) or another large flier unblockable to close the game |
+| Fountainport | Sacrifice a token such as a Clue to draw; also makes Fish and Treasure tokens for the Falcon solve count |
+| Evolving Wilds / Terramorphic Expanse | Fetch any of the five basics for the WUBRG manabase |
+
+### Curve and mana
+
+27 lands: 23 basics across all five colors (7 Island, 7 Plains, 5 Swamp, 2 Forest, 2 Mountain) plus Rogue's Passage, Fountainport, and two fetch lands. Average mana value is about 2.9. Early spells are single-pip and blue-white heavy; the red and green cards arrive from turn 3 onward, enabled by fetch lands and They Went This Way.
+
+## Gameplay strategy
+
+### Early game
+
+Prioritize an eerie creature over a lone enchantment: payoffs first, fuel second. Leech on turn 2 then a Falcon or Inquiry on turn 3 already drains for 1 and draws a card. Teysa rewards any damage Leech or the Falcon Bird deals. Hold fetch lands until you know which color the hand needs.
+
+### Mid game
+
+Get a second eerie payoff down before chaining multiple enchantments in one turn. Fear of Infinity is best in the graveyard: every enchantment entry returns it to hand, so recasting it is another enchantment entry plus a 2/2 flying lifelink attacker. Ghostly Dancers doubles as recursion, pulling back a Falcon or Inquiry to cast again.
+
+### The combo turn
+
+A typical kill turn with two Leeches, one Dancers, and one Tracker: cast Grand Entryway (drain 2, draw 1, Spirit, Glimmer), cast Case of the Filched Falcon (drain 2, draw 1, Spirit, Clue), unlock Elegant Rotunda (drain 2, draw 1, Spirit, counters), then crack the Clue to draw into more enchantments. Four to five entries in a turn is 8 to 10 damage from Leeches alone, plus a growing flying army. Cracked Clues also trigger Teysa Spirits and Interrogators poison.
+
+### Win condition 2: poison
+
+Persuasive Interrogators turns the Clue economy into an alternative kill that ignores life totals and lifegain. Each Clue sacrificed (for {1} via the normal draw activation, or through Fountainport) deals 2 poison; five sacrifices wins. Keep Clues alive while Interrogators resolves rather than cracking them for cards.
+
+### Mulligan guide
+
+Keep hands with two to three lands and an early play (Leech, Gremlin Tamer, Falcon, Inquiry, or Tracker). A hand with Ghostly Dancers or Teysa but no early eerie payoff is slow; mulligan hands that need three colors by turn 3 unless a fetch land is present. Seven-card hands with four or more lands and no spell are playable but lean to mulligan at five lands.
+
+### Key interactions and edge cases
+
+- Eerie triggers on any enchantment entering under your control, including tokens: Grand Entryway's Glimmer tokens trigger eerie on their own entry.
+- A Room counts as a second eerie source when its last locked door is unlocked: casting the Room is one enchantment entry, unlocking the other door is a separate eerie event.
+- Fear of Infinity returns to hand only from the graveyard. If it is on the battlefield it stays there; it must die or be discarded first.
+- "When a Clue you control is put into a graveyard from the battlefield" (Teysa) includes cracking Clues for cards, not sacrificing via costs that exile them.
+- Case of the Filched Falcon solves once you control three artifacts; Clues and Treasure tokens count. The solved Falcon can animate a Clue token into a 4/4 flying Bird, which Rogue's Passage then sends through unblocked.
+- No Witnesses destroys your own creatures too. Play it after your Clues and before committing a second wave, or when the board state favors resetting.
+- Infernal Phantom wants enchantment density: each entry makes it a bigger threat, and even a chump block turns into direct damage.
+
+### Matchups
+
+- **Aggro swarms:** No Witnesses resets the ground; Leech and Teysa keep the life total safe while Gremlin Tamer blocks. The flying spirits race well.
+- **Control:** Prioritize Entity Tracker and Clue draw to out-card the opponent; Grand Entryway rooms and enchantment recursion are resilient to sorcery-speed removal. Avoid overcommitting into a wipe.
+- **Lifegain:** pivot to the poison route; do not race the life total.
+- **Big mana:** pressure with the enchantment chain and finish with Rogue's Passage on a solved Falcon Bird before the opponent's haymakers resolve.
+
+## Iterations
+
+v1 ran WUBG (no red); v2 completed the rolled WUBRG identity.
+
+| Round | Change | Result |
+|---|---|---|
+| v1 -> v2 | -2 Unwilling Vessel, +2 Infernal Phantom; manabase -1 Swamp, +2 Mountain (27 lands kept) | sim 53.7% -> 53.3%, synergy 73.2 -> 74.5, goldfish T4 0.766 -> 0.750, P(4 lands T4) 0.776 -> 0.743 |
+
+All gates pass on v2: 60 cards, Standard legal, no rotating cards, sim avg 53.3%, synergy 74.5, goldfish T4 0.750, P(4 lands by T4) 0.743.
+
+## Deck list (Arena import)
+
+```
+Cold Case Haunting
+Deck
+4 Balemurk Leech
+4 Case of the Filched Falcon
+3 Entity Tracker
+3 Fear of Infinity
+3 Ghostly Dancers
+2 Gremlin Tamer
+2 Teysa, Opulent Oligarch
+2 Infernal Phantom
+2 Persuasive Interrogators
+2 Curious Inquiry
+2 Grand Entryway
+2 They Went This Way
+2 No Witnesses
+1 Rogue's Passage
+1 Fountainport
+1 Evolving Wilds
+1 Terramorphic Expanse
+7 Island
+7 Plains
+5 Swamp
+2 Forest
+2 Mountain
+```
