@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-09-06**:
 
+- **[Goblin Growth](decks/2026-09-06-goblin-growth.html)** — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set  `hobbit` `amass`
 - **[Cold Case Haunting](decks/2026-09-06-cold-case-haunting.html)** — WUBRG (five-color) | Eerie x Clue  `combo` `Eerie` `Clue`

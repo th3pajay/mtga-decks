@@ -1,0 +1,148 @@
+---
+title: "Goblin Growth"
+subtitle: "Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set"
+date: "2026-09-06"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Amass-Goblins counter engine (avg nonland CMC ~2.6) |
+| Core mechanic | Amass Goblins × +1/+1 counter doubling |
+| Primary win | The Great Goblin turns every counter event on a Goblin, Orc, or Army into 2 damage while the Army grows; Innkeeper's Talent and Biogenic Upgrade double the counters so each amass spell snowballs |
+| Secondary win | Flashback and recursion — Tidings of War from the graveyard amasses 3, Gathering of Darkness recycles a creature while amassing, and Training Regimen gives the giant Army trample for combat |
+| Land win con | Goblin-town and Captivating Cave sacrifice for +1/+1 counters on the Army (which re-triggers the ping); Rogue's Passage makes it unblockable |
+
+# Overview
+
+Goblin Growth is the amass engine pushed through a green counter-doubling lens. The core is the same one every Goblin-town deck leans on: The Great Goblin, who deals 2 damage to the opponent every time you put one or more counters on a Goblin, Orc, or Army you control. An amassed Army is also a Goblin, so every amass spell is both a burn spell and a growth spell.
+
+The green splash is not a second plan — it multiplies the first one. Innkeeper's Talent puts a counter on the Army each combat, gives permanents with counters ward {1}, and at level 3 doubles every counter event: an amass 2 becomes amass 4, an amass 4 becomes amass 8. Biogenic Upgrade and Reputable Merchant stack more counters, and Training Regimen makes the counter-laden Army trample over chump blockers. Snakeskin Veil protects the Army for one green mana.
+
+The set identity is the goblin half of The Hobbit — The Great Goblin, Goblin-town Flunkies, Bothersome Noisemaker, Fearsome Goblin Pair, Misty Mountains Raider, and the Down, Down to Goblin-town saga — supported by Standard's +1/+1 counter toolkit.
+
+The set lands on Arena 2026-08-14; the import list works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop: Tidings of War or a one- or two-drop Goblin; Flunkies starts the Army on turn 2 |
+| Turns 3-4 | Engine: The Great Goblin resolves and every counter event becomes damage; Rage into the Valley draws while amassing 2; Innkeeper's Talent lands |
+| Turns 5-6 | Multiply: Talent reaches level 3, Training Regimen grants trample, and each amass event doubles; the Army is 10+ and pinging every time it grows |
+| Late game | Biogenic Upgrade doubles a huge Army; flashback Tidings of War amasses 3; Goblin-town and Captivating Cave pump; Rogue's Passage ends the game |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| The Great Goblin | Engine + payoff: every counter event on a Goblin, Orc, or Army deals 2 to the opponent; your dead Goblins exile-cast replacements from the top of the library |
+| Goblin-town Flunkies | Haste two-drop that amasses on entry |
+| Bothersome Noisemaker | Amasses on every noncreature spell you cast — removal, auras, equipment, and sagas all grow the Army |
+| Fearsome Goblin Pair | Death trigger amasses 4 — chump blocks and removal become Army growth |
+| Misty Mountains Raider | 4/4 that amasses 2 whenever you attack |
+| Rage into the Valley | Cantrip that amasses 2 |
+| Tidings of War | One-mana amass; flashback amasses 3 from the graveyard |
+| Down, Down to Goblin-town | Saga: hand disruption, amass, repeatable drain |
+| Gathering of Darkness | Recurs a creature while amassing 3 |
+| Goblin Plate Mail | Amasses on entry, then attaches menace to the Army |
+| Snakeskin Veil | One-mana counter plus hexproof — shields the Army from removal |
+| Innkeeper's Talent | Level 1 adds a counter each combat; level 2 grants ward {1} to permanents with counters; level 3 doubles every counter event |
+| Training Regimen | Gives all counter-bearing creatures trample; adds a counter each combat |
+| Reputable Merchant | Hybrid-cost creature that puts a counter on the Army when it enters and when it dies |
+| Biogenic Upgrade | Finisher: distributes three counters, then doubles the counters on each target |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | Land win condition: {B} or {R}; {2}{B}{R} sacrifice for two +1/+1 counters on a Goblin or Orc — the Army is a Goblin, and the counter event pings via The Great Goblin |
+| Captivating Cave | {1}: any color; {4}, sacrifice for two +1/+1 counters on a creature — a second Goblin-town effect and green fixer |
+| Rogue's Passage | Land win condition: makes the Army unblockable for the finish |
+| Training Compound | Red-green fixing, untapped when you control a basic land |
+| Hell's Kitchen / Ominous Asylum | Black-red fixing; Ominous Asylum adds surveil value |
+| Swamp / Mountain / Forest | Black-red core with a green engine splash |
+
+## Curve and mana
+
+Twenty-four lands: fifteen basics (6 Swamp, 5 Mountain, 4 Forest) plus nine fixing/value lands. Green is a genuine engine splash, not a light one — Innkeeper's Talent, Training Regimen, and Biogenic Upgrade all want {G} early and {G}{G} late, so the Forest count and Captivating Cave carry that load while Training Compound comes in untapped off basics.
+
+The nonland curve runs low and wide: eleven one- and two-drop plays (including three Tidings of War and four Flunkies), nine three-drops, and eight four-plus plays. Most games hit four mana on turn four without acceleration, and the deck is happy to operate on three mana while it waits for the engine.
+
+# Gameplay strategy
+
+## Early game
+
+Play a one- or two-drop Goblin and start the Army. Tidings of War on turn one and Flunkies on two creates a 1/1 Army by turn three alongside a developing board. Do not trade the Army away unless Fearsome Goblin Pair's death trigger replaces it — the Army is the plan. Against removal-heavy decks, hold a Snakeskin Veil for the turn the Army becomes worth protecting.
+
+## Mid game
+
+Resolve The Great Goblin, then every amass event is damage. Rage into the Valley replaces itself while amassing 2. Innkeeper's Talent is the priority four-drop: level 1 starts adding a counter every combat, and reaching level 3 turns each amass spell into a doubled event. Training Regimen gives the Army trample so growing it is also progress toward lethal. Goblin Plate Mail amasses on entry and hands the Army menace so it attacks profitably through small boards.
+
+## The combo turn
+
+The signature sequence: The Great Goblin with Innkeeper's Talent at level 3, Army at 4/4 or larger. Cast Rage into the Valley: the Army grows by two counters (doubled to four), and the ping deals 2. Follow with a noncreature spell to trigger Bothersome Noisemaker's amass — doubled again. Each spell is worth a bigger Army and a ping, so a three-spell turn is 6 damage plus a 10+ Army. When the Army is large enough, Training Regimen makes the attack lethal through blockers, or Goblin-town / Captivating Cave add two more counters (another ping) and Rogue's Passage makes it unblockable.
+
+## Win condition 2
+
+The flashback and recursion plan. Tidings of War from the graveyard amasses 3 for {3}{R}; Gathering of Darkness returns a creature while amassing 3; Reputable Merchant's death trigger adds another counter on its way out. After a sweeper, the deck rebuilds the Army from the graveyard and a fresh amass spell — control decks run out of answers before the deck runs out of growth.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a one- or two-drop Goblin. Hands with The Great Goblin plus any amass spell are strong. Ship one-lander openers, hands with three or more expensive spells, and hands without both black and red available on turn two. Against aggressive decks, prioritize Flunkies or a cheap amass spell over the green engine pieces.
+
+## Key interactions and edge cases
+
+- The Great Goblin triggers on "one or more counters" events — an amass 4 from Fearsome Goblin Pair is a single trigger for 2 damage, not 4.
+- Innkeeper's Talent's level 3 doubles counters as a replacement effect: amass 2 becomes four counters but still one ping event. Biogenic Upgrade's doubling likewise adds counters without extra pings — the damage comes from casting it and from the earlier counter event.
+- Innkeeper's Talent's ward {1} applies to permanents with counters — the Army, Plate Mail-equipped creatures, and anything Reputable Merchant touched gain protection from removal.
+- Bothersome Noisemaker triggers on every noncreature spell — including Goblin Plate Mail, Snakeskin Veil, Down, Down to Goblin-town, and the class level-up activations.
+- Training Regimen's trample applies to every creature you control with a +1/+1 counter — keep the Army's counters on the Army so it, not a 1/1 Goblin, gets through.
+- Goblin-town and Captivating Cave activations are sorcery-speed and sacrifice the land — activate them as finishers, not for value.
+- The Great Goblin's death trigger exiles your library top and lets you play it — Fearsome Goblin Pair and chumped Flunkies keep the cards flowing.
+- Reputable Merchant's hybrid cost ({2/W}{2/B}{2/G}) means any of the three colors casts it — a reliable source of counters in a three-color manabase.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: the low curve races early; Fearsome Goblin Pair chumps into an amass-4 replacement; Misty Mountains Raider blocks profitably while amassing on your attacks. Snakeskin Veil keeps the Army alive against their removal.
+- **Midrange (counters, landfall)**: the ping clock outpaces their board — every amass event damages face while the Army outgrows their creatures; Training Regimen's trample ends through their biggest blocker.
+- **Control**: Down, Down to Goblin-town and the saga's discard pressure their hand; flashback lines rebuild after sweepers; ward from Innkeeper's Talent and hexproof from Snakeskin Veil tax their answers; Rogue's Passage closes through a tapped-out counter war.
+- **Combo and big mana**: the deck is the aggressor — amass every turn, ping through their setup, and finish with a doubled Army before their engine comes online.
+
+# Deck list (Arena import)
+
+```text
+Goblin Growth
+Deck
+4 The Great Goblin
+4 Goblin-town Flunkies
+3 Bothersome Noisemaker
+2 Fearsome Goblin Pair
+2 Misty Mountains Raider
+2 Down, Down to Goblin-town
+3 Rage into the Valley
+3 Tidings of War
+2 Gathering of Darkness
+2 Goblin Plate Mail
+2 Snakeskin Veil
+2 Innkeeper's Talent
+2 Training Regimen
+2 Reputable Merchant
+1 Biogenic Upgrade
+2 Goblin-town
+1 Rogue's Passage
+1 Captivating Cave
+2 Training Compound
+2 Hell's Kitchen
+1 Ominous Asylum
+6 Swamp
+5 Mountain
+4 Forest
+```
