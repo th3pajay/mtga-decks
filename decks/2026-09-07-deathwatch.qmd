@@ -1,0 +1,143 @@
+---
+title: "Deathwatch"
+subtitle: "Jund sacrifice × morbid — death-drain engine with end-step growth"
+date: "2026-09-07"
+categories: ["combo", "sacrifice", "morbid"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Jund — black / red / green |
+| Archetype | Sacrifice × Morbid midrange combo |
+| Size | 60 cards, 24 lands |
+| Core engine | Death triggers (Venerated Stormsinger, Cauldron of Essence) + Morbid end-step payoffs |
+| Primary win | Death drain — multi-death turns where every sacrifice and dying token costs the opponent life |
+| Secondary win | Morbid beatdown — Needletooth Pack-fed giants with trample from The Huntsman's Redemption |
+| Lands as win con | Restless Vents — menace attacks that rummage (discard a card, draw a card) |
+| Nonland curve | 11 twos, 18 threes, 5 fours, 2 fives (avg ~2.9) |
+
+# Overview
+
+Deathwatch is a Jund deck built on a simple promise: **every creature that dies this turn is a resource**. The two rolled mechanics are fused into one engine — **sacrifice** makes things die on demand, and **morbid** pays you at the end of each step in which anything died. The result is a deck that wants the same thing on every single turn: make a creature die, then collect.
+
+The engine has three layers:
+
+- **Death payoffs.** `Venerated Stormsinger` and `Cauldron of Essence` both drain 1 life per creature that dies — with both on the table, a single sacrificed token costs the opponent 2 life and gains you 2.
+- **Morbid end-step rewards.** `Needletooth Pack` puts two +1/+1 counters on a creature, `Cackling Prowler` grows itself, `Wardens of the Cycle` draws or gains life, `Slumbering Cerberus` untaps, and `Tragic Banshee` arrives as a one-sided -13/-13 wipe. Each of them checks simply "did a creature die this turn" — your own sacrifices count, and so do your opponent's trades.
+- **Sacrifice fuel and recursion.** `Greed's Gambit` bursts out three flying Bats plus three cards and six life; `Lightless Evangel` and `Pirate Peddlers` convert every sacrifice into +1/+1 counters; `Cauldron of Essence` and `Sidisi, Regent of the Mire` return dead creatures from the graveyard so the same bodies can die again.
+
+The deck never needs a single big combo turn. It grinds a death toll: tokens attack, tokens get sacrificed at end step, drains tick, and the morbid engines put counters on whatever survives. Because the morbid checks fire at end step, the growth lands after combat — creatures attack first, die or trade, then come back bigger.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Establish the toll (turns 1–3):** `Lightless Evangel` on turn 2 starts collecting counters from day one. `Greed's Gambit` on turn 3 draws three, gains six life, and puts three 2/1 flying Bats into play — instant fodder and early damage.
+2. **Double the drain (turns 3–5):** resolve `Venerated Stormsinger` and `Cauldron of Essence` so every death costs 2 life. Play the morbid engines — `Needletooth Pack` and `Cackling Prowler` — and start sacrificing at end step: one bat dies, two drains fire, Pack adds two counters to a survivor.
+3. **Close the toll (turns 5+):** sac and recur — Cauldron or Sidisi brings back the best body each turn so it can die again. `Tragic Banshee` wipes a single blocker with -13/-13. Swings become lethal as counters pile up and `The Huntsman's Redemption` hands out trample.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Venerated Stormsinger | 4 | Engine — every death drains 1; Mobilize 1 attacks create dying Warriors |
+| Cauldron of Essence | 3 | Engine — every death drains 1; taps to sacrifice a creature and return one from the graveyard |
+| Lightless Evangel | 4 | Enabler + beater — +1/+1 per sacrifice, becomes the Pack's counter sink |
+| Greed's Gambit | 3 | Fuel — three Bats, draw three, gain six; each end step sacrifices a Bat for the morbid engines |
+| Needletooth Pack | 3 | Morbid payoff — +2/+2 to a creature every end step a creature died |
+| Cackling Prowler | 3 | Morbid payoff — 4/3 ward {2}, grows itself each dying turn |
+| Wardens of the Cycle | 2 | Morbid payoff — end-step draw or lifegain; 3/4 roadblock |
+| Tragic Banshee | 2 | Morbid payoff — enters as -1/-1, or -13/-13 if something died this turn |
+| Slumbering Cerberus | 2 | Aggro — 4/2 for {1}{R} that untaps every turn a creature died |
+| Sidisi, Regent of the Mire | 2 | Recursion ladder — sacrifice a creature, return a bigger one from the graveyard |
+| Pirate Peddlers | 3 | Enabler — deathtouch blocker that grows on every sacrifice |
+| The Huntsman's Redemption | 2 | Saga — 3/3 Beast, sacrifice-to-tutor, then +2/+2 and trample to two creatures |
+| Betrayer's Bargain | 2 | Removal — 5 damage at instant speed, sacrifice or {2} |
+| Ravenous Amulet | 1 | Outlet — repeatable sacrifice to draw; later drains for its soul counters |
+
+## Lands as engines
+
+| Land | How it wins |
+|---|---|
+| Restless Vents (4) | Manland — 2/3 menace attacker that rummages on contact, stocking the graveyard for Cauldron and Sidisi while chipping life |
+| Blooming Marsh (4) | Untapped black-green fast land for the early Evangel curve |
+| Overgrown Tomb (4) | Black-green shockland, primary fixing |
+| Blood Crypt (2) | Black-red shockland for Stormsinger-adjacent red |
+| Stomping Ground (1) | Red-green shockland for the splash |
+| Basics | 4 Swamp / 3 Forest / 2 Mountain — the pile is black-green first, red third |
+
+## Curve and mana
+
+The pile has no one-drops: it curves 2, 3, 4, 5 and never stalls on color — eleven black pips and ten green pips across the two-drops are covered by nineteen black and thirteen green sources. Red only needs eight sources for the two {1}{R} cards and Vents activations. Twenty-four lands with four each of Marsh, Tomb and Vents keeps the P(4 lands by turn 4) comfortably above the battery floor.
+
+# Gameplay strategy
+
+## Early game
+
+`Lightless Evangel` on two is the ideal start; every future sacrifice makes it a real threat. `Slumbering Cerberus` is the aggressive alternative — a 4/2 that keeps untapping as long as creatures are dying, which in this deck is every turn. Hold `Betrayer's Bargain` for anything with more than 5 toughness or that needs exiling.
+
+## Mid game
+
+Resolve the drain pair. Attack with Stormsinger to create the Mobilize Warrior (it dies at the start of your next end step, so it drains once on arrival turn if you sacrifice it). Greed's Gambit Bats attack as evasive 2/1s, then one is sacrificed each end step — ordering your end-step triggers matters: let Gambit's sacrifice resolve first, then the morbid triggers see the death and resolve. A typical late end step with Gambit, Stormsinger and Cauldron reads: sacrifice a Bat — opponent loses 2, you gain 2; Needletooth Pack puts two counters on a survivor; Wardens draws you a card.
+
+## The combo turn
+
+The best turns chain sacrifice into recursion into more sacrifice: tap `Cauldron of Essence` to sacrifice a 1/1 Bat and return a 2-drop from the graveyard; untap-and-repeat next turn, or use `Sidisi` as a second ladder — sacrifice the Bat (mana value 1) to return a mana-value-2 creature, sacrifice that to return a 3-drop like Stormsinger, and keep climbing. Every rung of the ladder drains if the drain pieces are out. `The Huntsman's Redemption` chapter II turns any spare sacrifice into a tutor for the exact engine piece missing.
+
+## Win condition 2
+
+If the drain is answered, the morbid growth plan takes over. Needletooth Pack adds two counters to Evangel or Peddlers every end step; Cackling Prowler grows itself behind ward {2}. After two or three dying turns these are 8/8s or bigger, and Huntsman chapter III gives two of them trample. Restless Vents joins as a 2/3 menace that cannot be chump-blocked by small utility creatures and rummages for more gas on contact.
+
+## Mulligan guide
+
+Keep: any hand with a two-drop plus a sacrifice outlet or drain piece; Greed's Gambit hands; hands with Cauldron or Stormsinger plus any creature. Ship: no-lander hands, hands with only five-drops, and hands with Betrayer's Bargain as the only spell — removal does nothing until the engine is ticking. Four lands and three spells is the target shape.
+
+## Key interactions and edge cases
+
+- Morbid checks "a creature died this turn" — *any* creature, including your opponent's. Trades and their removal feed Pack, Prowler and Wardens for free.
+- End-step ordering: with Greed's Gambit and morbid triggers waiting, resolve Gambit's sacrifice first so the death is visible to the morbid checks. If nothing has died yet that turn, Gambit's own end-step sacrifice is the trigger that makes the others fire.
+- `Betrayer's Bargain` exiles the creature instead of letting it die — the right call against recursion decks, but it will not feed morbid.
+- The Mobilize Warrior from Stormsinger is sacrificed at the beginning of your *next* end step, so a Warrior created this turn drains only if you sacrifice it yourself now.
+- Sidisi cannot sacrifice itself and needs another creature of mana value X; a Bat (1) chains to a 2-drop, a Warrior (1) to a 2-drop, an Evangel (2) up to a 3-drop.
+- If Cauldron or Gambit leaves play, the engine keeps running on combat deaths — don't over-commit all recursion to one basket.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Stormsinger and Cauldron lifegain outpace; Wardens' life mode; Banshee cleans up; Cerberus races 4/2 |
+| Midrange | Out-value via recursion — their removal just feeds your morbid engines and returns nothing |
+| Control | Wardens draw, Sidisi and Cauldron recur from exile-proof graveyards; bait counters with Gambit, resolve the drain pair |
+
+# Deck list (Arena import)
+
+```text
+Deathwatch
+Deck
+4 Lightless Evangel
+4 Venerated Stormsinger
+3 Greed's Gambit
+3 Cauldron of Essence
+3 Cackling Prowler
+3 Needletooth Pack
+3 Pirate Peddlers
+2 Betrayer's Bargain
+2 Sidisi, Regent of the Mire
+2 Slumbering Cerberus
+2 The Huntsman's Redemption
+2 Tragic Banshee
+2 Wardens of the Cycle
+1 Ravenous Amulet
+4 Blooming Marsh
+4 Overgrown Tomb
+4 Restless Vents
+2 Blood Crypt
+1 Stomping Ground
+4 Swamp
+3 Forest
+2 Mountain
+```

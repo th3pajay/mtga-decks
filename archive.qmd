@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-08-22 · **559** cards locked · **Hobbit 44/193** remaining
+**Card pool consumption** — cycle started 2026-08-22 · **570** cards locked · **Hobbit 44/193** remaining
 
-**37 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**38 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-09-07
+
+- **[Deathwatch](decks/2026-09-07-deathwatch.html)** — Jund sacrifice × morbid — death-drain engine with end-step growth  `combo` `sacrifice` `morbid`
 
 ## 2026-09-06
 
