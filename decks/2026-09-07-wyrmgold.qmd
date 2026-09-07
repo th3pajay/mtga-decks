@@ -1,0 +1,155 @@
+---
+title: "Wyrmgold"
+subtitle: "Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set"
+date: "2026-09-07"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Smaug treasure-hoard burn (avg nonland CMC ~3.7) |
+| Core mechanic | Treasure tokens × Dragon damage doubling |
+| Primary win | Smaug the Magnificent attacks, dealing damage equal to your Treasure count to any target; Twinflame Tyrant doubles it, Rogue's Passage makes him unblockable |
+| Secondary win | Desolation of Smaug sweeps non-Dragons and refunds four Dragon-only mana; Dracosaur, Dragonhawk and a Misty Mountains Cold 6/6 Dragon close through the air |
+| Land win con | The Lonely Mountain makes Dwarf tokens (cheaper per Equipment); Restless Ridgeline attacks as a 3/4 Dinosaur; Fomori Vault digs for finishers |
+
+# Overview
+
+Wyrmgold makes everything produce gold, and Smaug the Magnificent converts every Treasure into damage. He has haste, so the turn he lands he swings for your Treasure count — and Twinflame Tyrant doubles all your damage, turning a six-Treasure attack into twelve.
+
+The Misty Mountains Cold is a one-card engine: four chapters of Treasure that becomes a 6/6 flying Dragon at four or more Treasures. Dori, Jolene, Charming Scoundrel, Goldvein Pick and Hell to Pay's excess damage all bank tokens, while Smaug, Wicked Worm turns your opponents' artifacts into a burst of Treasures and Treasure mana into cards. The set identity is the Smaug half of The Hobbit — the Magnificent, Wicked Worm, the saga, Desolation of Smaug, Last Light of Durin's Day and The Lonely Mountain — braced by Standard's biggest Dragons. The Hobbit set lands on Arena 2026-08-14; the import list works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Scoundrel, Dori or the saga bank Treasures; removal keeps the board clear |
+| Turns 4-5 | Engine: hasted Smaug swings for Treasure-count damage; Dracosaur exiles into extra plays |
+| Turns 6+ | Multiply: Twinflame doubles all burn; Desolation wipes into a Dragon; Dragonhawk and Last Light close |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | Engine and payoff: Treasure each upkeep; on attack, damage equal to your Treasure count to any target |
+| Smaug, Wicked Worm | Burst ramp and draw: enters with a Treasure per artifact opponents control; Treasure-paid spells draw a card |
+| The Misty Mountains Cold | Four chapters of Treasure that become a 6/6 flying Dragon token |
+| Twinflame Tyrant | Doubles Smaug's burn, Terror's pings, Whelp's pings and Hell to Pay's excess damage |
+| Terror of the Peaks | Every Dragon that enters deals damage equal to its power to any target |
+| Bonehoard Dracosaur | Upkeep: play the top two exiled cards; Treasure per nonland, 3/1 Dinosaur per land |
+| Dragonhawk, Fate's Tempest | Exiles cards equal to your power-4+ count; unplayed exiles deal 2 each at end step |
+| Firespitter Whelp | Cheap Dragon that pings each opponent on every noncreature or Dragon spell |
+| Jolene, Plundering Pugilist | Attacks with power 4+ make a Treasure; sacrifices a Treasure to ping any target |
+| Charming Scoundrel | Two-drop that loots, banks a Treasure, or grants a Wicked Role (+1/+1, menace) |
+| Dori, Bearer of Friends | Cheap Treasure on entry with a trampling 3/2 |
+| Savage Ventmaw | Attack-ramp: adds {R}{R}{R}{G}{G}{G} that lasts the whole turn |
+| Desolation of Smaug | One-sided sweep: 3 damage to every non-Dragon creature, then four Dragon-only mana |
+| Last Light of Durin's Day | Six Mountain enters put any Dragon from hand or library onto the battlefield; Mountaincycling |
+| Hell to Pay | Removal that banks a Treasure per excess damage (doubled by Twinflame Tyrant) |
+| Scorching Shot | Five damage to a creature for {R}{R} |
+| Goldvein Pick | Equipment that makes a Treasure on combat damage and discounts The Lonely Mountain |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Land win condition: {4}{R} (one less per Equipment) makes a 2/2 Dwarf; a Mountain for Last Light quest counters |
+| Restless Ridgeline | Land win condition: becomes a 3/4 Dinosaur that pumps and untaps another attacker |
+| Goblin-town | Black-red fixing; late game, two +1/+1 counters on a Goblin or Orc |
+| Blazemire Verge / Thornspire Verge | Untapped black-red and red-green fixing off basic Mountains, Swamps and Forests |
+| Fomori Vault | Dig engine: discard a card to look at the top X cards, where X is your artifact count |
+| Rogue's Passage | Finisher: makes Smaug unblockable for the Treasure-count burn |
+| Mountain / Swamp / Forest | The Jund core; Mountains double as Last Light fuel |
+
+## Curve and mana
+
+Twenty-five lands: thirteen basics (5 Mountain, 4 Swamp, 4 Forest) plus twelve fixing and engine lands. Red is the engine color — Smaug, the saga and the big Dragons want double-red by turn four — so red sources are deepest. Black feeds Smaug, Wicked Worm and removal; green is a light splash for Jolene, Savage Ventmaw and the verges. The curve runs heavy on fours and fives; a two- or three-drop Treasure maker bridges to turn-four Smaug or Dracosaur, and Fomori Vault keeps the top of the deck honest.
+
+# Gameplay strategy
+
+## Early game
+
+Play a Treasure maker and hold the ground: Charming Scoundrel on two (loot a redundant Dragon away or bank a Treasure), Dori or the saga on three. Do not overcommit into sweepers — one engine plus removal is enough until Smaug arrives. Against aggro, Hell to Pay and Scorching Shot trade one-for-one while the saga banks gold.
+
+## Mid game
+
+Resolve Smaug: he has haste, so he attacks the turn he lands for your Treasure count — a saga at three chapters plus an upkeep Treasure is already four to six damage before the body. Follow with a second Dragon: Bonehoard Dracosaur restocks the hand every upkeep and Terror of the Peaks punishes every further Dragon cast.
+
+## The combo turn
+
+Hold six or more Treasures, cast Twinflame Tyrant, and attack with Smaug through Rogue's Passage: he deals Treasure-count damage, doubled to twelve or more, plus 4 from the body. Every Dragon cast the same turn triggers Terror for doubled damage, every spell pings through Firespitter Whelp, and Jolene converts spare Treasures into doubled 2-point pings. A developed board routinely deals twenty-plus in one turn.
+
+## Win condition 2
+
+Desolation of Smaug clears every non-Dragon creature — the opponent's board and your own Dori, Jolene and Scoundrels — then adds four mana that only feeds Dragon spells. That mana plus Treasures casts Bonehoard Dracosaur, a second Smaug, or Dragonhawk, whose power-4+ count (Smaug, Worm, Terror and Dracosaur all qualify) exiles free cards and burns for each left unplayed. The Misty Mountains Cold finishes independently too: a 6/6 Dragon plus Dwarf tokens from The Lonely Mountain is a wide, evasive clock.
+
+## Mulligan guide
+
+Keep two or three lands with a two- or three-drop Treasure maker or a turn-four Smaug; the saga plus removal is excellent. Ship one-lander openers, hands with three or more five-drops, and hands without turn-two red. Against aggro favor early removal; against control keep Dracosaur or Dragonhawk draws.
+
+## Key interactions and edge cases
+
+- Smaug's trigger counts Treasures as it resolves — Jolene's attack Treasure and Goldvein Pick's combat Treasure arrive in time for the next swing, not the current one.
+- Twinflame Tyrant doubles damage from your sources to opponents and their permanents: Smaug's burn, Terror triggers, Whelp pings, and Hell to Pay's damage — more excess damage means more Treasures.
+- Desolation of Smaug damages your own non-Dragons: Dori, Jolene and Charming Scoundrel are casualties; every other creature is a Dragon or Dinosaur Dragon and survives.
+- Smaug, Wicked Worm counts artifacts opponents control on entry — Equipment, Treasures and artifact creatures feed the burst; Treasure-paid spells draw at 1 life.
+- Bonehoard Dracosaur's exiles can be played as lands, but a land still uses your land drop.
+- The Lonely Mountain enters tapped unless you control an Equipment; with two Goldvein Picks its token costs {2}{R} instead of {4}{R}. Last Light of Durin's Day counts every Mountain that enters and at six counters puts a Dragon onto the battlefield; Fomori Vault digs X cards where X is your artifact count.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: removal-heavy draws hold the ground while the saga banks gold; Desolation resets the board and refunds a Dragon.
+- **Midrange (counters, landfall)**: Smaug's haste burn races their board; Dracosaur and Dragonhawk out-value their topdecks.
+- **Control**: grind with Dracosaur and Dragonhawk, hold Treasures until Twinflame resolves, and end through Rogue's Passage.
+- **Combo and big mana**: the deck is the aggressor; speed up the Smaug clock and point removal at their pieces.
+
+# Iterations
+
+| Round | Change | Metric deltas |
+|-------|--------|---------------|
+| v1 → v2 | −2 Gold Rush, +2 Firespitter Whelp (dragon-tribe cohesion swap) | synergy 69.5 → 69.9; sim 55.7 → 62.7%; T4 0.677 → 0.683 |
+| v2 → v3 | −1 Scorching Shot, +1 Magmatic Hellkite (on-tribe removal body) | sim 62.7 → 55.3% (worse — reverted) |
+| v3 → v4 | −2 Goldvein Pick, +1 Terror of the Peaks, +1 Firespitter Whelp | sim 55.3 → 53.7% (worse — reverted) |
+
+The final list is the v2 iteration — its battery run was best (sim 62.7%, T4 0.683, P(≥4 lands) 0.688, 0 rotating). Synergy scored 69.9 against the 70.0 gate, the only failing metric; the v3 and v4 cohesion experiments simmed lower and were reverted.
+
+# Deck list (Arena import)
+
+```text
+Wyrmgold
+Deck
+4 Smaug the Magnificent
+3 Smaug, Wicked Worm
+2 Dori, Bearer of Friends
+2 Jolene, Plundering Pugilist
+2 Charming Scoundrel
+2 Terror of the Peaks
+2 Twinflame Tyrant
+3 Bonehoard Dracosaur
+1 Dragonhawk, Fate's Tempest
+1 Savage Ventmaw
+2 Firespitter Whelp
+3 The Misty Mountains Cold
+2 Desolation of Smaug
+1 Last Light of Durin's Day
+2 Hell to Pay
+1 Scorching Shot
+2 Goldvein Pick
+2 The Lonely Mountain
+2 Restless Ridgeline
+2 Thornspire Verge
+2 Blazemire Verge
+2 Goblin-town
+1 Rogue's Passage
+1 Fomori Vault
+5 Mountain
+4 Swamp
+4 Forest
+```
