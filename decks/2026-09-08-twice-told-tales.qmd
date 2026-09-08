@@ -1,0 +1,150 @@
+---
+title: "Twice-Told Tales"
+subtitle: "Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set"
+date: "2026-09-08"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Red / Blue (Jeskai) |
+| Archetype | Storied Dwarf copy-trigger company (avg nonland CMC ~2.8) |
+| Core mechanic | Storied (three or more artifacts, legendaries, and/or Sagas) × trigger doubling |
+| Primary win | Dwarf-token swarm: Fíli the Pathfinder and The Lonely Mountain make 2/2 Dwarf tokens while Bifur and Wizard's Staff triple each token trigger; Fíli's enduring-story anthem pumps the whole army |
+| Secondary win | Balin, Loremaster wheel-burn: discard the hand, draw X, and deal X to each opponent while the story is told |
+| Land win con | The Lonely Mountain creates the attacking army itself; Cavern of Souls makes every Dwarf uncounterable |
+
+# Overview
+
+Twice-Told Tales is the storied Dwarf engine built around a simple idea: every Dwarf trigger is worth hearing twice. The deck plays almost entirely legendary Dwarves and Equipment, so the set keyword Storied — "if you control three or more artifacts, legendaries, and/or Sagas, you have an enduring story" — is effectively always on from turn three. That single fact switches on the entire engine: Thorin Oakenshield gives every artifact and creature ward {1}, Dáin, Lord of the Iron Hills taxes every attack, Óin the Brave becomes a haste loot, and Fíli the Pathfinder turns into a global +1/+1 anthem that also makes a 2/2 Dwarf token for every nontoken Dwarf that enters.
+
+The doubling layer stacks on top. Bifur, Melodic Rider makes every triggered ability of a Dwarf you control trigger an additional time while the story endures, and Wizard's Staff does the same for the creature it equips. Equip the Staff to Fíli and each nontoken Dwarf entering the battlefield creates three 2/2 tokens instead of one; Iron Hills Blacksmith's entry makes two Axe tokens; every Equipment entering through Kíli the Resourceful draws a card. The Lonely Mountain, a land, activates to create Dwarf tokens at a discount for each Equipment you control — the battlefield itself is the win condition, and every saga-told battle line ends in a wider board than the opponent can block.
+
+The set identity is the storied half of The Hobbit — Thorin's company in full: Thorin, Kíli, Óin, Dáin, Fíli, Bifur, Balin, Ori, Dwalin-adjacent Equipment and the Lonely Mountain land — supported by a light blue touch for Wizard's Staff and a Jeskai manabase.
+
+The set lands on Arena 2026-08-14; the import list works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop a legendary Dwarf: Thorin Oakenshield, Kíli the Resourceful, Óin the Brave, or Dáin, Lord of the Iron Hills |
+| Turns 3-4 | The story starts: two legendaries plus any Equipment (or Dáin's Axes) reach three artifacts/legendaries. Fíli the Pathfinder or Dáin Ironfoot land and the tokens begin |
+| Turns 5-6 | Double it: Bifur and Wizard's Staff multiply every Dwarf trigger; The Lonely Mountain floods 2/2s at a discount per Equipment |
+| Late game | Balin, Loremaster wheels for lethal or the equipped army — double strike from Dáin Ironfoot, trample and ward {1} from Thorin — attacks through |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thorin Oakenshield | Engine: with an enduring story, artifacts and creatures you control have ward {1}; a 3/2 trample that makes removal and sweepers expensive |
+| Kíli the Resourceful | Draw engine: draws a card on the first Dwarf or Equipment to enter each turn; with a story, the first equip activation each turn costs {0} |
+| Óin the Brave | Haste attacker and loot: with a story it gets +1/+0 and haste, and {1}, {T}, discard a card draws a card — fuels Balin's wheel |
+| Dáin, Lord of the Iron Hills | Tax: while the story endures, creatures can't attack you unless their controller pays {1} each — a full board lock against small aggro |
+| Fíli the Pathfinder | Engine + payoff: with a story, creatures you control get +1/+1; whenever Fíli or another nontoken Dwarf enters, create a 2/2 red Dwarf token |
+| Dáin Ironfoot | Finisher: creates an Axe token on entry and gives every equipped attacking creature double strike |
+| Iron Hills Blacksmith | Token maker: double strike 1/1 that creates an Axe Equipment token on entry — Axes count as Equipment for the story, Kíli's draw, and the Lonely Mountain discount |
+| Bifur, Melodic Rider | Doubler: puts a +1/+1 counter on entry or attack and, with a story, makes every Dwarf triggered ability trigger an additional time |
+| Balin, Loremaster | Win condition 2: on entry of Balin or another Dwarf, discard the hand, draw X (X = cards discarded), and with a story deal X to each opponent |
+| Ori, Keeper of Songs | Curve filler: a 3/3 that gains +1/+0 and vigilance with the story |
+| Dwarven Mattock | Equipment: +2/+2 and ward {1}; enters attached to a Dwarf and discounts The Lonely Mountain |
+| Dwarven Shortsword | Equipment that makes its own 2/2 Dwarf token, then attaches — a Kíli and Fíli trigger in one card |
+| Wizard's Staff | Doubler: gives prowess and makes the equipped creature's triggered abilities trigger an additional time — Fíli's token trigger fires twice |
+| Vow to Erebor | Combat trick: untaps, gives +2/+2, and attaches an Equipment to the Dwarf for free |
+| Thorin's Last Stand | Modal: +2/+1 to the army for the alpha strike, or artifact/enchantment removal with lifegain |
+| Burst Lightning | Reach and removal: 2 damage to any target, 4 with kicker |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Land win condition: a Mountain that enters untapped while you control an Equipment; {4}{R} creates a 2/2 Dwarf token, {1} cheaper per Equipment you control |
+| Cavern of Souls | Names Dwarf: every creature in the deck is a Dwarf, so each one is uncounterable and its mana can come from Cavern |
+| Iron Hills | Red-white fixing that enters tapped; {2}{R}{W}, sacrifice: two +1/+1 counters on a Dwarf as a sorcery — a pump for the equipped beater |
+| Sunbillow Verge / Floodfarm Verge / Riverpyre Verge | Untapped two-color fixing off the basic lands |
+| Plains / Mountain / Island | White-red core with a light blue splash for Wizard's Staff |
+
+## Curve and mana
+
+Twenty-four lands: ten basics (5 Plains, 4 Mountain, 1 Island) plus fourteen colored and utility lands. White and red are the core — every Dwarf except Wizard's Staff is {W}, {R}, or {R}{W} — so the verges and basics carry the early curve, while Cavern of Souls fixes any Dwarf spell and the blue sources (two Floodfarm, two Riverpyre, one Island) are enough for Wizard's Staff's single {U}.
+
+The nonland curve is a low, dense company: thirteen two-drops (Thorin, Kíli, Óin, Dáin, and the cheap Equipment), four three-drops, eleven four-plus plays, and eight lands that act as spells. The deck goldfishes four lands on turn four in roughly two games out of three and most wins are decided by turn six or seven — before that, ward {1} and the attack tax keep the growing army alive.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a two-drop legendary Dwarf — Thorin Oakenshield, Kíli the Resourceful, or Dáin, Lord of the Iron Hills are all fine openers, and Óin the Brave is the aggressive option. On turn two or three add Equipment: Dwarven Mattock enters attached to a Dwarf for +2/+2 and ward {1}, and Iron Hills Blacksmith's Axe token brings the permanent count to three artifacts and legendaries. Once the story begins — usually turn three — everything downstream unlocks.
+
+## Mid game
+
+Fíli the Pathfinder is the priority four-drop: with the story live it anthems the whole team and starts converting every nontoken Dwarf into a 2/2 token. Dáin Ironfoot and Dwarven Shortsword both produce Equipment and tokens on entry, and each one of those entries draws a card through Kíli. Do not overextend into sweepers before Thorin's ward is online; when it is, Day of Judgment-style answers cost extra and the story tax from Dáin discourages attacks entirely.
+
+## The combo turn
+
+The signature sequence: Fíli the Pathfinder equipped with Wizard's Staff while Bifur is on the battlefield and the story endures. Cast or reanimate a nontoken Dwarf — Dwarven Shortsword makes one of its own — and Fíli's trigger fires three times: once naturally, once from Bifur doubling a Dwarf's triggered ability, once from the Staff doubling the equipped creature's ability. One Dwarf in is three 2/2 tokens out, each draw through Kíli refilling the hand. Then The Lonely Mountain, discounted by every Equipment and Axe on the board, adds more 2/2s each activation, and the equipped attackers — double strike from Dáin Ironfoot, ward {1} from Thorin — attack for the game.
+
+## Win condition 2
+
+Balin, Loremaster is the wheel. With a hand of five or six cards, Balin's own entry trigger (or any later Dwarf entering) discards the hand and draws exactly that many, and with the story told Balin deals that many damage to each opponent. The deck is built to refill: Kíli draws on Dwarf and Equipment entries, Óin loots, and the tokens keep the board growing while Balin's triggers keep the life totals falling. A six-card wheel is 6 damage and a fresh hand; a second Dwarf in the same turn does it again.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop Dwarf. Hands with Fíli plus an Equipment or a Blacksmith are strong. Ship one-lander openers, hands full of four-plus drops, and hands without white and red available on turn two. Against aggressive decks, prioritize Thorin's ward and Dáin's tax over the doubling pieces; against control, Cavern of Souls and a cheap legendary are the keep.
+
+## Key interactions and edge cases
+
+- Storied counts artifacts, legendaries, and Sagas — every creature in the deck except Iron Hills Blacksmith is legendary, and every Equipment is an artifact, so three permanents is the story; the Blacksmith's Axe tokens count.
+- Fíli's token trigger only fires for nontoken Dwarves — tokens from The Lonely Mountain and Dwarven Shortsword do not chain into more tokens, but they do draw through Kíli and trigger Balin and Warleader-style effects.
+- Bifur doubles triggered abilities of Dwarves, and Wizard's Staff doubles those of the equipped creature — when both are on Fíli, the trigger fires three times; if the Staff equips Balin instead, his wheel also fires twice (be careful: the second wheel discards the hand drawn by the first).
+- Wizard's Staff's prowess and its trigger-doubling apply only while it remains attached.
+- Thorin's ward {1} needs the story; before turn three the Dwarves are vulnerable — sequence Equipment before the key creature when racing removal.
+- Dáin Ironfoot grants double strike only to equipped attacking creatures — Axes from his own entry and the Blacksmith count.
+- The Lonely Mountain enters tapped unless you control an Equipment, and its token activation is sorcery-speed — activate as part of the main-phase alpha strike, not in combat.
+- Cavern of Souls mana can only pay for Dwarf creature spells — it can't cast Wizard's Staff, Vow to Erebor, or the instants; the blue splash still needs its own sources.
+- Iron Hills and its counter ability are sorcery-speed and sacrifice the land — a finisher pump, not a value engine.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: the low curve races; Thorin's ward {1} taxes their removal, and Dáin, Lord of the Iron Hills ends their attacks entirely once the story is live. Burst Lightning clears an early threat.
+- **Midrange (counters, landfall)**: the token count outpaces their removal — every nontoken Dwarf replaced by three 2/2s through the doubling layer; double strike plus trample ends through their biggest blocker.
+- **Control**: Cavern of Souls makes every Dwarf uncounterable, ward {1} taxes sweepers and spot removal, and Kíli's draw keeps the hand full; Balin's wheel punishes their card-advantage game and wins through an empty battlefield.
+- **Combo and big mana**: the deck is the aggressor — establish the story early, tax their development, and close with an equipped double-striking team before their engine comes online.
+
+# Deck list (Arena import)
+
+```text
+Twice-Told Tales
+Deck
+4 Thorin Oakenshield
+3 Óin the Brave
+3 Kíli the Resourceful
+2 Dáin, Lord of the Iron Hills
+3 Fíli the Pathfinder
+2 Dáin Ironfoot
+3 Iron Hills Blacksmith
+2 Bifur, Melodic Rider
+2 Balin, Loremaster
+1 Ori, Keeper of Songs
+3 Dwarven Mattock
+2 Dwarven Shortsword
+2 Wizard's Staff
+2 Vow to Erebor
+1 Thorin's Last Stand
+1 Burst Lightning
+4 The Lonely Mountain
+2 Iron Hills
+2 Cavern of Souls
+2 Sunbillow Verge
+2 Floodfarm Verge
+2 Riverpyre Verge
+5 Plains
+4 Mountain
+1 Island
+```

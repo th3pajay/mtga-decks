@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-09-08**:
 
+- **[Twice-Told Tales](decks/2026-09-08-twice-told-tales.html)** — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set  `hobbit` `dwarves`
 - **[Plot Twist](decks/2026-09-08-plot-twist.html)** — Simic (Blue / Green) — Plot  `combo` `plot`
