@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-07**:
+Deck guides published **2026-09-08**:
 
-- **[Wyrmgold](decks/2026-09-07-wyrmgold.html)** — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set  `hobbit` `smaug`
-- **[Deathwatch](decks/2026-09-07-deathwatch.html)** — Jund sacrifice × morbid — death-drain engine with end-step growth  `combo` `sacrifice` `morbid`
+- **[Plot Twist](decks/2026-09-08-plot-twist.html)** — Simic (Blue / Green) — Plot  `combo` `plot`
