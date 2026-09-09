@@ -1,0 +1,160 @@
+---
+title: "Prismatic Departure"
+subtitle: "GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine"
+date: "2026-09-09"
+categories: ["combo", "disappear", "vivid", "spree"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Green / Blue / Black / Red (four-color) |
+| Archetype | Disappear sacrifice engine with Vivid color-count payoffs (avg nonland CMC ~3.0) |
+| Core mechanics | Disappear (end-step reward if a permanent left your control this turn) x Vivid (X = number of colors among permanents you control) x Spree (modal instants and sorceries) |
+| Primary win | Squawkroaster: double-striking attacker whose power equals the number of colors among permanents you control, pumped by Glister Bairn and made unblockable by Rogue's Passage for 8-12 damage in one swing |
+| Secondary win | Shimmercreep drain loop: each entry drains X life and gains X life, with Rat King's three-Rat reanimation and Krang and Shredder's free casts recurring the engine until the opponent runs out |
+| Land win con | Rogue's Passage makes the X-power Squawkroaster unblockable; Restless Vinestalk attacks as a 5/5 trampler as backup |
+
+# Overview
+
+Prismatic Departure is a four-color deck built on a feedback loop between two keywords that feed each other: Disappear wants you to lose permanents, and Vivid wants you to keep every color on the board. The bridge is colorless fodder. Six fetch lands (four Evolving Wilds, two Fabled Passage) crack for fixing and count as a permanent leaving the battlefield under your control, so every cracked fetch flips on every Disappear card at your end step: Rat King, Verminister grows and makes a Rat, Lord Dregg makes a flying Insect, Pizza Face, Gastromancer piles +1/+1 counters onto a creature. Bargain cards like Candy Grapple sacrifice tokens for the same switch while doing their job.
+
+The Vivid side turns that growing rainbow board into damage and mana. Squawkroaster has double strike and power equal to the number of colors among permanents you control, so a typical board (green Bloom Tender, black Rat King, red Squawkroaster, blue Krang and Shredder, plus a white Spirit token from Phantom Interference) makes it a 5-power double striker. Bloom Tender taps for one mana of each of those colors, which is enough to chain the five-mana payoffs and activate the big lands. Shimmercreep turns the same count into a life swing, and Krang and Shredder turns every Disappear end step into a free spell from the opponent's deck.
+
+The Spree suite is the interaction layer and doubles as engine fuel. Phantom Interference counters spells or makes a white Spirit (a fifth color for Vivid), Metamorphic Blast shrinks attackers or draws, Lively Dirge finds and reanimates engine pieces, and Insatiable Avarice tutors the card you need on top.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Develop a two-drop that adds a color: Bloom Tender, Explosive Prodigy, or Rat King, Verminister; hold a fetch land |
+| Turns 3-4 | Land the engine: Lord Dregg, Pizza Face, or Squawkroaster. Crack a fetch or bargain a spell so the end step fires every Disappear trigger |
+| Turns 5-6 | Convert the rainbow into a clock: Squawkroaster plus Glister Bairn, Shimmercreep drain, or Krang and Shredder's mill and free casts |
+| Late game | Rogue's Passage makes the Squawkroaster unblockable for lethal; recur Shimmercreep through Rat King and keep the drain loop going |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Bloom Tender | Mana engine: Vivid taps for one mana of each color among permanents you control, ramping from two mana to four or five once the rainbow is on board |
+| Explosive Prodigy | Early removal and a red permanent: on entry it deals X damage to a creature, where X is your color count |
+| Rat King, Verminister | Disappear engine: each triggered end step makes a 1/1 Rat and puts a +1/+1 counter on itself; tap and sacrifice three Rats to reanimate a creature |
+| Lord Dregg, Insect Invader | Disappear engine: makes a 1/1 flying Insect each triggered end step, and sacrifices a token to draw a card, converting Rats and Insects into cards |
+| Squawkroaster | Primary win condition: double strike with power equal to the number of colors among permanents you control |
+| Pizza Face, Gastromancer | Fodder and pump: creates a Food token on entry (a colorless artifact to bargain away), and its Disappear trigger puts three +1/+1 counters on a creature or artifact |
+| Shimmercreep | Secondary win condition: on entry each opponent loses X life and you gain X life, where X is your color count; menace 3/5 body |
+| Krang and Shredder | Value engine: on entry or attack each opponent exiles cards until they hit a nonland, and each Disappear end step lets you cast one of those cards for free |
+| Glister Bairn | Combat enabler: at the beginning of combat another creature gets +X/+X until end of turn, turning Squawkroaster into a one-shot kill |
+| Candy Grapple | Bargain removal: -3/-3 (or -5/-5 if bargained); sacrificing a token to it triggers Disappear |
+| Phantom Interference | Spree counterspell that also makes a 2/2 white Spirit token with flying, adding a fifth color to the Vivid count |
+| Metamorphic Blast | Spree tempo: makes a creature a 0/1 Rabbit or has a player draw two cards |
+| Lively Dirge | Spree recursion: mills a card to the graveyard or returns up to two creatures with total mana value 4 or less to the battlefield |
+| Insatiable Avarice | Spree tutor: puts any card from the library on top, or makes a player draw three and lose 3 life |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Evolving Wilds and Fabled Passage | The Disappear switch: sacrificing one is a permanent leaving the battlefield under your control, so cracking a fetch on any turn arms every Disappear end-step trigger; they also fix the four-color manabase |
+| Rogue's Passage | Land win condition: for 4 mana it makes the Squawkroaster unblockable for the lethal double-strike swing |
+| Restless Vinestalk | Backup beater and fixing: becomes a 5/5 green and blue trampler, and its attack trigger can set another creature's base power and toughness to 3/3 (never target Squawkroaster) |
+| Overgrown Tomb, Breeding Pool, Steam Vents, Watery Grave, Blood Crypt, Stomping Ground | Shocklands covering every enemy color pair in GUBR, untapped when the life payment is worth it |
+| Blooming Marsh, Botanical Sanctum, Dreamroot Cascade | Fastlands and checkland that enter untapped early for the two-drop curve |
+| Willowrush, Blazemire, Thornspire, Riverpyre Verges | Verge duals, untapped once a basic of the matching type is in play |
+| Forest, Island, Swamp, Mountain | Fetch targets and the only basics the deck needs |
+
+## Curve and mana
+
+Twenty-seven lands: six fetches, sixteen nonbasic duals and utility lands, and four basics (one of each color). The mana base is built to hit green or black on turn one or two, blue and red by turn three, and to keep a fetch uncracked when a Disappear trigger is needed later.
+
+The nonland curve is 33 cards with an average mana value of about 3.0: five one-drops (the Spree instants and Insatiable Avarice), fourteen two-drops (Bloom Tender, Explosive Prodigy, Rat King, Candy Grapple, Lively Dirge), six four-drops (Squawkroaster, Lord Dregg), six five-drops (Pizza Face, Shimmercreep, Glister Bairn) and two six-drops (Krang and Shredder). The deck reaches four lands on turn four roughly three games out of four, and the goldfish tests show a consistent turn-four board.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a two-drop that puts a color on the board: Bloom Tender (green), Explosive Prodigy (red, and it removes a creature on entry), or Rat King, Verminister (black). Hold fetch lands. A hand of fetch plus Rat King is the dream opener: turn two Rat King, turn three crack the fetch for a basic, and the Rat King's Disappear trigger makes a Rat and grows itself at your end step. Phantom Interference and Metamorphic Blast are fine turn-one plays against aggressive decks only when needed; mostly you want them saved as answers.
+
+## Mid game
+
+Land Lord Dregg, Insect Invader or Pizza Face on four mana. Lord Dregg turns every triggered end step into a flying token and every spare token into a card. Pizza Face creates the Food token that keeps your colored permanents safe as bargain fodder. Squawkroaster wants to come down when at least three colors are on board so it attacks as a 3-power double striker immediately. Do not sacrifice colored permanents casually: the Vivid count is the deck's mana and its damage, so sacrifice colorless tokens, Foods, and fetch lands first.
+
+## The combo turn
+
+The signature sequence starts with a fetch in play and a Disappear card on the battlefield. Crack the fetch at instant speed during combat or in the opponent's turn. At the beginning of your end step every Disappear ability sees a permanent left this turn and fires: Rat King makes a Rat and grows, Lord Dregg makes an Insect, Pizza Face puts three counters on your biggest creature. Then cash the tokens in: sacrifice a token to Lord Dregg to draw, or bank three Rats for Rat King's reanimation later. With Krang and Shredder, attack first to exile cards from the top of the opponent's library, then the same end step casts one of them for free. The kill turn: Bloom Tender taps for four or five mana, Glister Bairn pumps the Squawkroaster at the start of combat, and Rogue's Passage makes it unblockable; a 4-color Squawkroaster hits for 8, a 5-color one for 10, and with Glister Bairn's X pump the swing ends the game.
+
+## Win condition 2
+
+The Shimmercreep drain loop. Each Shimmercreep entry deals X damage to the opponent and gains X life, where X is the color count, so a single 5-color entry is a 10-life swing. The deck recurs it: Rat King sacrifices three Rats to return a creature from the graveyard (Shimmercreep included), Lively Dirge returns engine pieces up to total mana value 4, and Krang and Shredder keeps the board and hand stocked by casting the opponent's own cards. The drain, plus Food lifegain and Pizza Face's 15-life activation, outlasts anything that cannot kill in one turn.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and at least one two-drop creature in the deck's early colors (green, black, or red). A fetch land plus Rat King, Verminister or Lord Dregg is a strong engine start. Ship one-lander openers, hands without colored sources for the first two spells, and hands of nothing but five-drops and six-drops. Against aggro, favor early removal (Explosive Prodigy, Candy Grapple) and lifegain pieces; against control, keep the Spree counterspells and a fast Squawkroaster clock.
+
+## Key interactions and edge cases
+
+- Disappear checks the whole turn, not just your actions: a fetch crack, a bargain sacrifice, or a blocker dying all arm the end-step triggers.
+- The Vivid count is colors among permanents you control, so tokens matter: Phantom Interference's white Spirit adds a fifth color even though the deck is GUBR, and colored tokens (Rats, Insects) add black.
+- Squawkroaster's power is set by the count each time it is checked; it shrinks if you sacrifice your only red or green permanent, so keep one of each color when possible.
+- Bloom Tender produces one mana per color present, up to five, but it must tap after your colors are on board, so sequence spells before activating it.
+- Lord Dregg's draw requires sacrificing a token, which itself arms Disappear for the same end step, creating a small loop.
+- Rat King's reanimation needs exactly three Rats; Lord Dregg's Insects do not count, so save Rats when planning to reanimate Shimmercreep.
+- Krang and Shredder exiles from each opponent and you may cast one card exiled with it per Disappear end step, for free.
+- Restless Vinestalk's attack trigger sets another creature's base power and toughness to 3/3, which would erase Squawkroaster's color-count power, so never target it.
+- Rogue's Passage's activation is sorcery-speed only in the sense that it must be used before attackers are declared; activate it in the first main phase.
+- Metamorphic Blast's Rabbit mode is tempo: it shrinks an attacker or blocker to 0/1 until end of turn, buying a full turn against a large threat.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: Explosive Prodigy and Candy Grapple clear early threats, Lord Dregg's flying Insects block, and Food lifegain plus Shimmercreep's gain stabilize before the drain finishes the race.
+- **Midrange (counters, landfall)**: the recursion engine out-values one-for-one removal; every Rat and Insect is a card through Lord Dregg, and Krang and Shredder mills their best topdecks.
+- **Control**: Spree counterspells protect the engine, Disappear triggers rebuild the board after sweepers, and the tutor suite (Insatiable Avarice, Lively Dirge) finds the answer.
+- **Combo and big mana**: the deck is the aggressor, clocking with a double-striking Squawkroaster through Rogue's Passage before their engine comes online.
+
+
+# Deck list (Arena import)
+
+```text
+Prismatic Departure
+Deck
+4 Bloom Tender
+3 Explosive Prodigy
+3 Rat King, Verminister
+3 Lord Dregg, Insect Invader
+3 Squawkroaster
+2 Pizza Face, Gastromancer
+2 Shimmercreep
+2 Krang & Shredder
+2 Glister Bairn
+2 Candy Grapple
+2 Phantom Interference
+2 Metamorphic Blast
+2 Lively Dirge
+1 Insatiable Avarice
+4 Evolving Wilds
+2 Fabled Passage
+2 Overgrown Tomb
+2 Breeding Pool
+1 Watery Grave
+1 Steam Vents
+1 Blood Crypt
+1 Stomping Ground
+1 Blooming Marsh
+1 Botanical Sanctum
+1 Willowrush Verge
+1 Thornspire Verge
+1 Blazemire Verge
+1 Riverpyre Verge
+1 Dreamroot Cascade
+1 Restless Vinestalk
+1 Rogue's Passage
+1 Forest
+1 Island
+1 Swamp
+1 Mountain
+```
