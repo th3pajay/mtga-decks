@@ -1,0 +1,160 @@
+---
+title: "Silvan Surge"
+subtitle: "Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set"
+date: "2026-09-09"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Green (Sultai) |
+| Archetype | Elf-legend landfall: legendary Elves, extra land drops, and landfall tokens feeding one engine (avg nonland CMC ~3.6; Keepers plays well under curve via affinity) |
+| Size | 60 cards |
+| Primary win | Landfall army: Thranduil, Sindarin Liege and Down in the Valley turn every land drop into an Elf token while Thranduil's Company pumps counters; the +1/+1 Liege anthem and vigilance anthems turn the swarm into an overwhelming attack |
+| Secondary win | Thranduil, the Elvenking draws two per legendary Elf entering, and with Elf activated abilities in the graveyard he becomes the engine himself — Weavemaster mana, Formidable Speaker untaps, Elrond's draw — ending in a land-count Mirkwood Pathmaker |
+| Land win con | Restless Vinestalk animates into a 5/5 trample Plant; Rogue's Passage clears the way for the biggest Elf; Elvenking's Halls spends spare green-blue mana to put counters on an Elf |
+
+# Overview
+
+Silvan Surge is the elf half of The Hobbit built around a simple equation: every land you play does something. The Sindarin Liege gives all Elves +1/+1 and makes a 1/1 Elf on every landfall; Down in the Valley fetches a basic land and adds its own landfall Elf-token clause plus a vigilance anthem; Thranduil's Company lets you play an extra land each turn and puts two +1/+1 counters on a creature whenever a land enters. Mirkwood Nurturer bounces one of your own lands so you can replay it for another landfall wave, Wood Elves fetches a Forest straight onto the battlefield, and Silvan Reveler turns a discarded land into an extra landfall trigger.
+
+The legend layer sits on top. Thranduil, the Elvenking draws two cards (and discards one) whenever another legendary Elf enters — Elrond, Moon-Reader, Galion, the Liege itself, even a second copy of Thranduil — converting every creature into cards. Thranduil also has every activated ability of Elf cards in your graveyard, which is where Cantankerous Keepers and the Silvan Rally adventure put them: a milled Woodland Weavemaster lets Thranduil tap for a burst of Elf-cast mana, a milled Formidable Speaker lets him untap permanents for {1}, and Elrond draws a card the first time you activate a creature ability each turn.
+
+Black is a shallow third color carried only by Thranduil, the Elvenking; the manabase plays green-first with blue second. The result is a midrange engine that out-grows control with card advantage and overwhelms aggro with chump-blocking tokens that keep getting bigger.
+
+The Hobbit cards report an empty `arena_id` until the set lands on Arena 2026-08-14, so the import list works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Develop: Woodland Weavemaster starts the Elf count, Wood Elves fetches a Forest, Mirkwood Nurturer or Down in the Valley sets up the first landfall wave |
+| Turns 4-5 | Engine: the Sindarin Liege anthems and makes landfall Elves; Thranduil's Company adds an extra land drop and counters; Thranduil, the Elvenking converts legendary Elf entries into cards |
+| Turns 6+ | Convert: Cantankerous Keepers refills from the graveyard, Galion copies a large body onto the biggest attacker, and Rogue's Passage or Restless Vinestalk closes through blockers |
+| Late game | Thranduil (with Speaker and Weavemaster in the yard) untaps and taps for bursts of Elf mana; every legendary Elf still draws two; the board out-sizes anything |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, Sindarin Liege | Core anthem and token engine: Elves get +1/+1, every landfall makes a 1/1 Elf; its Silvan Rally adventure mills four to find up to two lands |
+| Thranduil, the Elvenking | Draw engine and late-game tool: each other legendary Elf entering draws two; he gains all activated abilities of Elf cards in your graveyard |
+| Elrond, Moon-Reader | Draws on the first creature-ability activation each turn; his {5}{U}{U} activation blinks two of your own permanents to re-trigger landfall and Elves |
+| Galion, Elvenking's Butler | Attack finisher: sets another creature's base power and toughness equal to his own (pair with Pathmaker or a counter-heavy Elf) |
+| Thranduil's Company | Extra land per turn with an Elf out; landfall puts two +1/+1 counters on a creature and gives it vigilance |
+| Down in the Valley | Saga: fetches a basic, grants a landfall Elf-token clause, then a +1/+0 vigilance anthem |
+| Cantankerous Keepers | Refill: affinity for Elves makes it cheap; on entry mills four, then puts every Elf card from the mill into your hand — including fuel for Thranduil's ability suite |
+| Woodland Weavemaster | Early Elf and mana engine: grows whenever another Elf enters; taps for colored mana equal to its power (Elf spells and abilities only) |
+| Formidable Speaker | Tutor and untapper: on entry discards a card to search a creature; {1}, {T} untaps another permanent — untap Weavemaster for another mana burst, or untap a blocker |
+| Silvan Reveler | Loot and recursion: draws then discards; a discarded land enters tapped (extra landfall); landfall can return it from the graveyard |
+| Mirkwood Nurturer | Landfall amplifier: bounces one of your own permanents (usually a land) and puts a +1/+1 counter on itself |
+| Wood Elves | Ramp: fetches a Forest onto the battlefield and triggers landfall |
+| Elvish Regrower | Recursion: on entry returns any permanent card from your graveyard to hand |
+| Mirkwood Pathmaker | Land-count finisher: power and toughness equal the number of lands you control |
+| Elven Raft-Steerer | Landfall tempo: taps an opponent's creature or untaps one of yours |
+| Elrond, Moon-Reader (land) | see Lands as engines |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Vinestalk | Land win condition: {3}{G}{U} makes a 5/5 trample Plant that also resets another creature's base stats to 3/3 on attack |
+| Rogue's Passage | Land win condition: {4} makes a creature unblockable — the last piece for Pathmaker or a Galion-copied attacker |
+| Elvenking's Halls | Fixing plus pump: adds {G} or {U}, and {2}{G}{U}, sacrifice puts two +1/+1 counters on an Elf — a mana sink that grows the army |
+| Elven Passage | Fetch: sacrifices to find a basic land; behold an Elf to untap it (an extra landfall on the same turn) |
+| Lush Oasis | Green-blue fixing that pings the opponent for 1 on entry |
+| Jungle Hollow | Black-green fixing with 1 life on entry |
+| Forest / Island / Swamp | Basic base — 8 / 4 / 2 |
+
+## Curve and mana
+
+Twenty-four lands: fourteen basics (8 Forest, 4 Island, 2 Swamp) plus ten nonbasics (2 Restless Vinestalk, 1 Rogue's Passage, 2 Elvenking's Halls, 1 Elven Passage, 2 Lush Oasis, 2 Jungle Hollow). Green is the engine color — the Liege, Company, Pathmaker, and Keepers all want {G} early — so the land count leans Forest-first, with blue as the steady second color and black a shallow splash for Thranduil, the Elvenking. The spell curve clusters at three and four mana with two cheap Weavemasters at the front; Cantankerous Keepers' affinity usually brings its real cost down to three or four, and Thranduil's Company stretches each land drop into two. This is a deck that wants to hit four lands on time and then play two lands a turn from turn five on.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Woodland Weavemaster or Wood Elves. Turn three you want either Down in the Valley (fetch a land, start the token clause) or Mirkwood Nurturer, whose bounce ability makes your land drops recursive. If the hand has Thranduil, the Elvenking, make sure the fixing exists — he needs all three colors by turn five. Do not overcommit to one big creature early; the deck wins by compounding landfall triggers, not by racing.
+
+## Mid game
+
+Resolve the Sindarin Liege as soon as possible: it is the anthem and the token generator, and a second copy draws two cards through Thranduil the Elvenking. Play Thranduil's Company to double your land drops, then feed it with Wood Elves, Mirkwood Nurturer bounces, and Silvan Reveler discards. Each land that enters makes an Elf from the Liege, two +1/+1 counters from the Company, and a possible Raft-Steerer tap or untap.
+
+## The combo turn
+
+The engine, once Thranduil, the Elvenking is on the battlefield with the Sindarin Liege and Thranduil's Company:
+
+1. Cast Cantankerous Keepers (usually for three or four mana thanks to affinity). It mills four and puts every Elf card from the mill into your hand.
+2. Cast the legendary Elves you just found — each one makes Thranduil draw two, then discard one, keeping the graveyard stocked.
+3. With a Woodland Weavemaster or Formidable Speaker in the graveyard, Thranduil has its abilities: tap Thranduil for a burst of Elf-cast mana, then untap him with the Speaker's {1} ability (or a Raft-Steerer landfall). Elrond draws off the first activation.
+4. Attack: Galion sets a chosen creature's base power and toughness equal to his own, Mirkwood Pathmaker is as large as your land count, and Rogue's Passage or Restless Vinestalk pushes the kill through.
+
+## Win condition 2
+
+Mirkwood Pathmaker's size equals your land count, and this deck routinely plays two lands a turn from turn five on — a 9/9 or 10/10 Pathmaker by turn seven is normal. Galion copies his own counter-pumped body onto a second attacker, Restless Vinestalk adds a 5/5 trample on the same combat, and Rogue's Passage makes the largest one unblockable. In longer games, Thranduil plus a graveyard full of Elves is its own engine: Weavemaster mana, Speaker untaps, Elrond's draw, and Keepers' refills chain legendaries indefinitely.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a play on two or three (Weavemaster, Wood Elves, Down in the Valley, the Liege with fixing). Keep hands with Thranduil, the Elvenking only when the mana can cast him — green plus blue plus black on time. Ship one-landers, hands with three top-end cards and no early play, and hands with no green source. Against aggressive decks, prioritize Weavemaster and early blockers; against control, keep the recursion and card advantage and plan for the long game.
+
+## Key interactions and edge cases
+
+- Thranduil, the Elvenking triggers on every other legendary Elf entering — Elrond, Galion, the Sindarin Liege, and additional copies of Thranduil himself all draw two.
+- Thranduil also has all activated abilities of Elf cards in your graveyard: a milled Weavemaster gives him a tap-for-Elf-mana ability, a milled Formidable Speaker gives him a {1} untap, and a milled Raft-Steerer gives him a landfall untap. Elrond's trigger draws a card off the first such activation each turn.
+- Cantankerous Keepers mills before it collects: non-Elf cards milled stay in the graveyard, where Silvan Reveler and Elvish Regrower can reach them.
+- Silvan Rally (the Liege's adventure) mills four and takes up to two lands from the milled cards — cast it early to set up extra land drops, never to find specific lands in the library.
+- Mirkwood Nurturer returns one of your own permanents: bounce a tapped land to replay it for a fresh landfall wave, or bounce an Elf to re-trigger a Thranduil draw.
+- Restless Vinestalk's attack trigger resets another creature's base stats to 3/3 — do not aim it at your own Galion-copied attacker on the turn you want the big number.
+- Down in the Valley's chapter II grants the landfall-token clause to the Saga itself; tokens arrive on every subsequent landfall while it stays on the battlefield.
+- Thranduil's Company's extra-land permission only applies while you control another Elf — sequence your land drops before combat tricks that might remove your only other Elf.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: early Weavemasters and tokens chump, Down in the Valley's vigilance anthem keeps the blockers up, and the recursion engine out-grinds. Raft-Steerer taps their biggest attacker on every landfall.
+- **Midrange (landfall, counters)**: the draw-and-token engine generates more bodies and cards than any midrange deck; Galion plus Rogue's Passage ends through blockers.
+- **Control**: every sweeper is answered by Keepers refilling from the graveyard and each legendary Elf drawing two; Elrond's blink dodges exile and re-triggers landfall at end step.
+- **Combo and big mana**: pressure early with the Liege's tokens and finish with an unblockable Pathmaker before their combo turn; Elvenking's Halls keeps the threats growing past sorcery-speed answers.
+
+# Iterations
+
+| Round | Change | Synergy | Sim avg | T4 | P(4L) |
+|-------|--------|---------|---------|----|-------|
+| v1 → v2 | −2 Guardian of the Halls, −2 Mirkwood Meditator, +2 Formidable Speaker, +2 Elvish Regrower (tutor-untap and recursion are stronger elf-engine pieces) | 69.5 → 69.7 | 52.0 → 60.0 | 0.625 → 0.635 | 0.625 → 0.645 |
+| v2 → v3 | −1 Elvenking's Harper, −1 Cavern of Souls, +1 Formidable Speaker, +1 Forest (third Speaker and smoother green cross the 70 synergy line) | 69.7 → 70.1 | 60.0 → 55.0 | 0.635 → 0.645 | 0.645 → 0.659 |
+
+# Deck list (Arena import)
+
+```text
+Silvan Surge
+Deck
+4 Thranduil, Sindarin Liege
+3 Thranduil, the Elvenking
+2 Elrond, Moon-Reader
+2 Galion, Elvenking's Butler
+3 Thranduil's Company
+3 Wood Elves
+2 Silvan Reveler
+2 Mirkwood Nurturer
+2 Mirkwood Pathmaker
+2 Elven Raft-Steerer
+2 Woodland Weavemaster
+3 Formidable Speaker
+2 Elvish Regrower
+2 Cantankerous Keepers
+2 Down in the Valley
+2 Restless Vinestalk
+1 Rogue's Passage
+2 Elvenking's Halls
+1 Elven Passage
+2 Lush Oasis
+2 Jungle Hollow
+8 Forest
+4 Island
+2 Swamp
+```

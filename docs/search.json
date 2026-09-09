@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-09-09:\n\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
+    "text": "Deck guides published 2026-09-09:\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -1505,102 +1505,102 @@
     "text": "Matchups\n\nAggro (fliers, lifegain, cats, landfall): Bard the Bowman’s lifelink, the 1/1 Elf wall, and Ravenhill Flock as a flying blocker stabilize; Thranduil’s Company gives vigilance to hold back and attack. Mirkwood Meditator blocks as a 4/2.\nMidrange: out-value with the draw engine; Galion plus Rogue’s Passage ends games through blockers; Troll Negotiations removes the biggest threat.\nControl: the engine rebuilds after every sweeper because every legendary Elf draws two; Thranduil’s Decree and Mistrise Village’s uncounterable spell fight the counter war; Bard, King of Dale’s doubled draws outpace one-for-one answers.\nCombo race: draw-engine speed wins the race; Gone Fishing can blink a key piece to dodge removal, and the token army provides instant chumpers."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html",
-    "href": "decks/2026-09-04-steel-and-saga.html",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html",
+    "href": "decks/2026-08-25-swarm-calculus.html",
+    "title": "Swarm Calculus",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nRed / White / Blue (Jeskai)\n\n\nArchetype\nStoried Dwarves: legendary Dwarf core plus Equipment that wins through enter-the-battlefield triggers (avg nonland CMC ~2.6)\n\n\nSize\n60 cards\n\n\nPrimary win\nBalin, Loremaster wheel-burn: with an enduring story, every Dwarf that enters (including tokens) discards and redraws your hand and deals damage equal to the cards discarded to each opponent — one Dwarf cast with Fíli out is 10+ damage, a full grip, or lethal\n\n\nSecondary win\nThe equipped beatdown: Dáin Ironfoot’s Axe tokens plus double strike, Dwalin’s hone counters and Dwarven Mattock make one giant unanswerable swing; The Lonely Mountain and Iron Hills back it up\n\n\nLand win con\nThe Lonely Mountain: a Mountain that pays into 2/2 red Dwarf tokens, cheaper for every Equipment you control — each token also feeds Balin"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#game-plan-phases",
-    "href": "decks/2026-09-04-steel-and-saga.html#game-plan-phases",
-    "title": "Steel and Saga",
-    "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-2\nDevelop: Iron Hills Blacksmith (Axe token) into Thorin Oakenshield or Kíli the Resourceful; the story reaches three artifacts/legendaries on turn two or three\n\n\nTurns 3-4\nEngine: Fíli the Pathfinder starts making Dwarf tokens, Dáin Ironfoot mints Axes and threatens double strike, Dáin’s Company tutors, Kíli draws on every entry\n\n\nTurns 5-6\nThe combo turn: Balin, Loremaster plus any Dwarf cast or token — each entry wheels the hand and burns for the wheel size; Mattock and hone counters make the follow-up swing lethal\n\n\nLate game\nThe Lonely Mountain: with three or four Equipment out, 2/2 Dwarf tokens cost {0}-{1} and each one re-fires Balin; Iron Hills puts +2/+2 counters on the finisher"
+    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "title": "Swarm Calculus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#card-roles",
-    "href": "decks/2026-09-04-steel-and-saga.html#card-roles",
-    "title": "Steel and Saga",
-    "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThorin Oakenshield\nLegendary anchor: once the story endures, every artifact and creature you control has ward {1} — removal and counters get expensive fast\n\n\nKíli the Resourceful\nDraw engine and free equip: draws once per turn on any Dwarf or Equipment entry; storied first equip each turn costs {0}\n\n\nFíli the Pathfinder\nToken engine: storied +1/+1 anthem; every nontoken Dwarf that enters makes a 2/2 red Dwarf token — the token itself re-triggers Balin\n\n\nDáin Ironfoot\nEquipment mint: Axe token on entry; whenever he attacks, each equipped attacking creature gains double strike\n\n\nDáin, Lord of the Iron Hills\nDefense tax: with the story, creatures can’t attack you unless their controller pays {1} each — buys the time the engine needs\n\n\nBalin, Loremaster\nPrimary payoff: on every Dwarf entering, discard your hand, draw that many, and with the story deal that much damage to each opponent\n\n\nDwalin, Weaponmaster\nHone counters: first strike body that stacks +1/+0 per counter on every Equipment when he enters or attacks\n\n\nIron Hills Blacksmith\nEarly storied piece: 1/1 double strike that creates an Axe Equipment token — artifact one, storied fuel two\n\n\nDáin’s Company\nTutor: on entry, digs four for a Dwarf or Equipment card; lifelink while another Dwarf is out\n\n\nDwarven Mattock\nThe main Equipment: +2/+2 and ward {1}, enters attached to a Dwarf, discounts The Lonely Mountain, target of every hone counter\n\n\nPatient Instructor\nHybrid splash: vigilance 1/4 that recruits (draw, discard, Soldier token on a nonland discard) — early blocker and story fuel\n\n\nEsgaroth Garrison\nGo-wide finisher: power equals your creature count and it recruits on entry, snowballing with the token army\n\n\nOpt\nScry 1, draw 1 — finds engine pieces without leaving blue\n\n\nBurst Lightning\nCheap removal or reach; kicked it deals 4 to any target\n\n\nSmaug’s Fury\nCombat trick: +3/+0 with first strike and reach — turns a blocker into a removal spell"
+    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "title": "Swarm Calculus",
+    "section": "Why these cards",
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#lands-as-engines",
-    "href": "decks/2026-09-04-steel-and-saga.html#lands-as-engines",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "title": "Swarm Calculus",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nLand win condition: taps for red and spends spare mana on 2/2 Dwarf tokens, {1} cheaper per Equipment you control (Axe tokens count); each token re-triggers Balin\n\n\nIron Hills\nRed-white fixing that can sacrifice for two +1/+1 counters on a Dwarf — the finisher pump\n\n\nCori Mountain Monastery\nUntapped red source beside Plains or Island; its activation exiles the top card to play later — pseudo-card advantage\n\n\nHidden Grotto\nSurveil 1 fixing that makes any color — smooths the splash\n\n\nRaucous Carnival / Rabanastre, Royal City\nRed-white sources; Carnival is untapped once any player is at 13 or less life\n\n\nSharlayan, Nation of Scholars\nWhite-blue source for the Opt / Patient Instructor splash\n\n\nPlains / Mountain / Island\nBasic base — 5 / 5 / 2"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#curve-and-mana",
-    "href": "decks/2026-09-04-steel-and-saga.html#curve-and-mana",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "title": "Swarm Calculus",
     "section": "Curve and mana",
-    "text": "Curve and mana\nTwenty-four lands: twelve basics (5 Plains, 5 Mountain, 2 Island) plus twelve nonbasics (3 The Lonely Mountain, 2 Iron Hills, 1 Raucous Carnival, 2 Rabanastre Royal City, 2 Cori Mountain Monastery, 1 Sharlayan, 1 Hidden Grotto). The base is white-red: the two-drop cluster (Thorin, Kíli, Dáin Lord of the Iron Hills, Blacksmith, Dwalin, Dáin’s Company, Mattock) needs {W} and {R} on turns two and three, and there are enough red and white sources for double-color four-drops by turn four. Blue is a three-card splash (2 Opt, 2 hybrid Patient Instructor) kept honest by 2 Islands, Sharlayan and Cori Mountain Monastery. The curve is engine-shaped: three one-drops (2 Opt, 1 Burst Lightning), twenty-one two-drop plays, five three-drops (3 Dáin Ironfoot, 2 Patient Instructor), three four-drops (Fíli the Pathfinder), and a four-card five-plus cluster (2 Balin, 2 Esgaroth Garrison). The Lonely Mountain smooths the top end — late lands become 2/2 Dwarves instead of dead draws."
+    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#early-game",
-    "href": "decks/2026-09-04-steel-and-saga.html#early-game",
-    "title": "Steel and Saga",
-    "section": "Early game",
-    "text": "Early game\nLead with Iron Hills Blacksmith (Axe token) so the story is two artifacts deep on turn one. Thorin Oakenshield, Kíli the Resourceful, or Dáin’s Company come next — with two legends plus the Axe the story endures, and from that moment Thorin taxes every spell aimed at your board and Kíli draws on each new Dwarf or Equipment. Against fast decks, Dáin, Lord of the Iron Hills slows every attack. Do not over-commit into sweepers before Balin arrives; the deck rebuilds faster than control clears."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "title": "Swarm Calculus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#mid-game",
-    "href": "decks/2026-09-04-steel-and-saga.html#mid-game",
-    "title": "Steel and Saga",
-    "section": "Mid game",
-    "text": "Mid game\nResolve Fíli the Pathfinder and start the token machine: every Dwarf cast adds a 2/2 token, and Kíli turns the busiest turn into extra cards. Dáin Ironfoot’s Axe and Dwalin’s hone counters turn one equipped creature into a 4/5+ double-striker, while Dáin’s Company keeps the chain fed. The Lonely Mountain becomes active: each Equipment out discounts the Dwarf tokens it creates."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "title": "Swarm Calculus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#the-combo-turn",
-    "href": "decks/2026-09-04-steel-and-saga.html#the-combo-turn",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "title": "Swarm Calculus",
     "section": "The combo turn",
-    "text": "The combo turn\nWith the story enduring, Balin on the battlefield, and a hand of four or more, the kill is any Dwarf entry — cast one or activate The Lonely Mountain:\n\nThe Dwarf enters: Balin’s trigger and (if Fíli is out) a 2/2 Dwarf token both go on the stack; Kíli adds a card for the turn’s first Dwarf/Equipment entry.\nFirst Balin trigger resolves: discard your hand (say five cards), draw five, and deal 5 damage to each opponent.\nFíli’s token enters: Balin triggers again, discarding the fresh hand (six with Kíli’s draw), drawing six, dealing 6.\n\nOne Dwarf cast with a five-card hand is 11 damage and a new grip; two Dwarves or a Lonely Mountain activation on top is lethal. You may decline any Balin trigger — against a low-value hand of lands, let it pass rather than wheel into nothing."
+    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#win-condition-2",
-    "href": "decks/2026-09-04-steel-and-saga.html#win-condition-2",
-    "title": "Steel and Saga",
-    "section": "Win condition 2",
-    "text": "Win condition 2\nThe equipped beatdown. Dáin Ironfoot’s Axe plus Dwarven Mattock on a storied board makes a 5/5-plus creature with double strike when Dáin attacks, ward from Thorin and Mattock, and Dwalin’s hone counters still climbing. Esgaroth Garrison’s power tracks your creature count, so the Fíli token swarm plus Garrison is a second wide clock. Iron Hills pumps the chosen Dwarf by +2/+2 when the last points are needed."
+    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "title": "Swarm Calculus",
+    "section": "Win condition 2: the ETB burn loop",
+    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#mulligan-guide",
-    "href": "decks/2026-09-04-steel-and-saga.html#mulligan-guide",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "title": "Swarm Calculus",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop (Thorin, Kíli, Blacksmith, Dáin’s Company, Dwalin). Hands that reach three artifacts/legendaries by turn three are ideal. Ship one-landers, hands with Balin and no early plays, and hands without both colors. Against aggressive decks, prioritize Dáin, Lord of the Iron Hills and Patient Instructor; against control, keep Kíli and the tutors and lean on the ward stack."
+    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-09-04-steel-and-saga.html#key-interactions-and-edge-cases",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "title": "Swarm Calculus",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nStoried is a state, not a trigger: once you control three or more artifacts, legendaries, and/or Sagas you have an enduring story for the rest of the game — Axe tokens count as artifacts, so Blacksmith and Dáin Ironfoot fuel it alone.\nBalin triggers on tokens too. Fíli’s 2/2 tokens, The Lonely Mountain’s tokens, and any clone-style Dwarf all wheel and burn.\nEach Balin trigger resolves separately: the second trigger discards the hand drawn by the first, so damage compounds — order your triggers so Kíli’s draw lands between them.\nThorin’s storied ward and Dwarven Mattock’s ward are separate abilities: an equipped creature has two ward {1} triggers, and the opponent pays 1 for each.\nThe Lonely Mountain enters tapped unless you control an Equipment — Axe tokens and Mattock keep it untapped. Its token ability is sorcery-speed.\nDáin Ironfoot’s double strike applies to each equipped attacking creature when he attacks — equip the Mattock before combat and swing with two double-strikers.\nSmaug’s Fury is first strike, so it is wasted on Dwalin (already first strike); it shines on an unequipped Dáin Ironfoot or a blocker.\nIron Hills is a land first: do not sacrifice it for counters unless the mana is no longer needed.\nPatient Instructor and Esgaroth Garrison recruit at sorcery speed on entry: the Soldier tokens are not Dwarves, so they do not trigger Balin or Kíli, but they grow Garrison and chump-block."
+    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
   },
   {
-    "objectID": "decks/2026-09-04-steel-and-saga.html#matchups",
-    "href": "decks/2026-09-04-steel-and-saga.html#matchups",
-    "title": "Steel and Saga",
+    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "title": "Swarm Calculus",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro (fliers, lifegain, cats): Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug’s Fury, and the Fíli token swarm races.\nMidrange (landfall, counters): the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison’s power tracks the widening board.\nControl: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin’s Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.\nCombo and big mana: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent’s payoff lands."
+    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
   },
   {
     "objectID": "archive.html",
     "href": "archive.html",
     "title": "Archive",
     "section": "",
-    "text": "Card pool consumption — cycle started 2026-09-07 · 65 cards locked · Hobbit 176/193 remaining\n42 deck guides — newest first. Every daily deck keeps its own permanent page."
+    "text": "Card pool consumption — cycle started 2026-09-07 · 84 cards locked · Hobbit 162/193 remaining\n43 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
     "objectID": "archive.html#section",
     "href": "archive.html#section",
     "title": "Archive",
     "section": "2026-09-09",
-    "text": "2026-09-09\n\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
+    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
   },
   {
     "objectID": "archive.html#section-1",
@@ -1743,88 +1743,172 @@
     "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html",
-    "href": "decks/2026-08-25-swarm-calculus.html",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html",
+    "href": "decks/2026-09-04-steel-and-saga.html",
+    "title": "Steel and Saga",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nRed / White / Blue (Jeskai)\n\n\nArchetype\nStoried Dwarves: legendary Dwarf core plus Equipment that wins through enter-the-battlefield triggers (avg nonland CMC ~2.6)\n\n\nSize\n60 cards\n\n\nPrimary win\nBalin, Loremaster wheel-burn: with an enduring story, every Dwarf that enters (including tokens) discards and redraws your hand and deals damage equal to the cards discarded to each opponent — one Dwarf cast with Fíli out is 10+ damage, a full grip, or lethal\n\n\nSecondary win\nThe equipped beatdown: Dáin Ironfoot’s Axe tokens plus double strike, Dwalin’s hone counters and Dwarven Mattock make one giant unanswerable swing; The Lonely Mountain and Iron Hills back it up\n\n\nLand win con\nThe Lonely Mountain: a Mountain that pays into 2/2 red Dwarf tokens, cheaper for every Equipment you control — each token also feeds Balin"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "title": "Swarm Calculus",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+    "objectID": "decks/2026-09-04-steel-and-saga.html#game-plan-phases",
+    "href": "decks/2026-09-04-steel-and-saga.html#game-plan-phases",
+    "title": "Steel and Saga",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-2\nDevelop: Iron Hills Blacksmith (Axe token) into Thorin Oakenshield or Kíli the Resourceful; the story reaches three artifacts/legendaries on turn two or three\n\n\nTurns 3-4\nEngine: Fíli the Pathfinder starts making Dwarf tokens, Dáin Ironfoot mints Axes and threatens double strike, Dáin’s Company tutors, Kíli draws on every entry\n\n\nTurns 5-6\nThe combo turn: Balin, Loremaster plus any Dwarf cast or token — each entry wheels the hand and burns for the wheel size; Mattock and hone counters make the follow-up swing lethal\n\n\nLate game\nThe Lonely Mountain: with three or four Equipment out, 2/2 Dwarf tokens cost {0}-{1} and each one re-fires Balin; Iron Hills puts +2/+2 counters on the finisher"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "title": "Swarm Calculus",
-    "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+    "objectID": "decks/2026-09-04-steel-and-saga.html#card-roles",
+    "href": "decks/2026-09-04-steel-and-saga.html#card-roles",
+    "title": "Steel and Saga",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThorin Oakenshield\nLegendary anchor: once the story endures, every artifact and creature you control has ward {1} — removal and counters get expensive fast\n\n\nKíli the Resourceful\nDraw engine and free equip: draws once per turn on any Dwarf or Equipment entry; storied first equip each turn costs {0}\n\n\nFíli the Pathfinder\nToken engine: storied +1/+1 anthem; every nontoken Dwarf that enters makes a 2/2 red Dwarf token — the token itself re-triggers Balin\n\n\nDáin Ironfoot\nEquipment mint: Axe token on entry; whenever he attacks, each equipped attacking creature gains double strike\n\n\nDáin, Lord of the Iron Hills\nDefense tax: with the story, creatures can’t attack you unless their controller pays {1} each — buys the time the engine needs\n\n\nBalin, Loremaster\nPrimary payoff: on every Dwarf entering, discard your hand, draw that many, and with the story deal that much damage to each opponent\n\n\nDwalin, Weaponmaster\nHone counters: first strike body that stacks +1/+0 per counter on every Equipment when he enters or attacks\n\n\nIron Hills Blacksmith\nEarly storied piece: 1/1 double strike that creates an Axe Equipment token — artifact one, storied fuel two\n\n\nDáin’s Company\nTutor: on entry, digs four for a Dwarf or Equipment card; lifelink while another Dwarf is out\n\n\nDwarven Mattock\nThe main Equipment: +2/+2 and ward {1}, enters attached to a Dwarf, discounts The Lonely Mountain, target of every hone counter\n\n\nPatient Instructor\nHybrid splash: vigilance 1/4 that recruits (draw, discard, Soldier token on a nonland discard) — early blocker and story fuel\n\n\nEsgaroth Garrison\nGo-wide finisher: power equals your creature count and it recruits on entry, snowballing with the token army\n\n\nOpt\nScry 1, draw 1 — finds engine pieces without leaving blue\n\n\nBurst Lightning\nCheap removal or reach; kicked it deals 4 to any target\n\n\nSmaug’s Fury\nCombat trick: +3/+0 with first strike and reach — turns a blocker into a removal spell"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html#lands-as-engines",
+    "href": "decks/2026-09-04-steel-and-saga.html#lands-as-engines",
+    "title": "Steel and Saga",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nLand win condition: taps for red and spends spare mana on 2/2 Dwarf tokens, {1} cheaper per Equipment you control (Axe tokens count); each token re-triggers Balin\n\n\nIron Hills\nRed-white fixing that can sacrifice for two +1/+1 counters on a Dwarf — the finisher pump\n\n\nCori Mountain Monastery\nUntapped red source beside Plains or Island; its activation exiles the top card to play later — pseudo-card advantage\n\n\nHidden Grotto\nSurveil 1 fixing that makes any color — smooths the splash\n\n\nRaucous Carnival / Rabanastre, Royal City\nRed-white sources; Carnival is untapped once any player is at 13 or less life\n\n\nSharlayan, Nation of Scholars\nWhite-blue source for the Opt / Patient Instructor splash\n\n\nPlains / Mountain / Island\nBasic base — 5 / 5 / 2"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html#curve-and-mana",
+    "href": "decks/2026-09-04-steel-and-saga.html#curve-and-mana",
+    "title": "Steel and Saga",
     "section": "Curve and mana",
-    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+    "text": "Curve and mana\nTwenty-four lands: twelve basics (5 Plains, 5 Mountain, 2 Island) plus twelve nonbasics (3 The Lonely Mountain, 2 Iron Hills, 1 Raucous Carnival, 2 Rabanastre Royal City, 2 Cori Mountain Monastery, 1 Sharlayan, 1 Hidden Grotto). The base is white-red: the two-drop cluster (Thorin, Kíli, Dáin Lord of the Iron Hills, Blacksmith, Dwalin, Dáin’s Company, Mattock) needs {W} and {R} on turns two and three, and there are enough red and white sources for double-color four-drops by turn four. Blue is a three-card splash (2 Opt, 2 hybrid Patient Instructor) kept honest by 2 Islands, Sharlayan and Cori Mountain Monastery. The curve is engine-shaped: three one-drops (2 Opt, 1 Burst Lightning), twenty-one two-drop plays, five three-drops (3 Dáin Ironfoot, 2 Patient Instructor), three four-drops (Fíli the Pathfinder), and a four-card five-plus cluster (2 Balin, 2 Esgaroth Garrison). The Lonely Mountain smooths the top end — late lands become 2/2 Dwarves instead of dead draws."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "title": "Swarm Calculus",
-    "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+    "objectID": "decks/2026-09-04-steel-and-saga.html#early-game",
+    "href": "decks/2026-09-04-steel-and-saga.html#early-game",
+    "title": "Steel and Saga",
+    "section": "Early game",
+    "text": "Early game\nLead with Iron Hills Blacksmith (Axe token) so the story is two artifacts deep on turn one. Thorin Oakenshield, Kíli the Resourceful, or Dáin’s Company come next — with two legends plus the Axe the story endures, and from that moment Thorin taxes every spell aimed at your board and Kíli draws on each new Dwarf or Equipment. Against fast decks, Dáin, Lord of the Iron Hills slows every attack. Do not over-commit into sweepers before Balin arrives; the deck rebuilds faster than control clears."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "title": "Swarm Calculus",
-    "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+    "objectID": "decks/2026-09-04-steel-and-saga.html#mid-game",
+    "href": "decks/2026-09-04-steel-and-saga.html#mid-game",
+    "title": "Steel and Saga",
+    "section": "Mid game",
+    "text": "Mid game\nResolve Fíli the Pathfinder and start the token machine: every Dwarf cast adds a 2/2 token, and Kíli turns the busiest turn into extra cards. Dáin Ironfoot’s Axe and Dwalin’s hone counters turn one equipped creature into a 4/5+ double-striker, while Dáin’s Company keeps the chain fed. The Lonely Mountain becomes active: each Equipment out discounts the Dwarf tokens it creates."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html#the-combo-turn",
+    "href": "decks/2026-09-04-steel-and-saga.html#the-combo-turn",
+    "title": "Steel and Saga",
     "section": "The combo turn",
-    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+    "text": "The combo turn\nWith the story enduring, Balin on the battlefield, and a hand of four or more, the kill is any Dwarf entry — cast one or activate The Lonely Mountain:\n\nThe Dwarf enters: Balin’s trigger and (if Fíli is out) a 2/2 Dwarf token both go on the stack; Kíli adds a card for the turn’s first Dwarf/Equipment entry.\nFirst Balin trigger resolves: discard your hand (say five cards), draw five, and deal 5 damage to each opponent.\nFíli’s token enters: Balin triggers again, discarding the fresh hand (six with Kíli’s draw), drawing six, dealing 6.\n\nOne Dwarf cast with a five-card hand is 11 damage and a new grip; two Dwarves or a Lonely Mountain activation on top is lethal. You may decline any Balin trigger — against a low-value hand of lands, let it pass rather than wheel into nothing."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "title": "Swarm Calculus",
-    "section": "Win condition 2: the ETB burn loop",
-    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+    "objectID": "decks/2026-09-04-steel-and-saga.html#win-condition-2",
+    "href": "decks/2026-09-04-steel-and-saga.html#win-condition-2",
+    "title": "Steel and Saga",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nThe equipped beatdown. Dáin Ironfoot’s Axe plus Dwarven Mattock on a storied board makes a 5/5-plus creature with double strike when Dáin attacks, ward from Thorin and Mattock, and Dwalin’s hone counters still climbing. Esgaroth Garrison’s power tracks your creature count, so the Fíli token swarm plus Garrison is a second wide clock. Iron Hills pumps the chosen Dwarf by +2/+2 when the last points are needed."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html#mulligan-guide",
+    "href": "decks/2026-09-04-steel-and-saga.html#mulligan-guide",
+    "title": "Steel and Saga",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+    "text": "Mulligan guide\nKeep any hand with two or three lands and a two-drop (Thorin, Kíli, Blacksmith, Dáin’s Company, Dwalin). Hands that reach three artifacts/legendaries by turn three are ideal. Ship one-landers, hands with Balin and no early plays, and hands without both colors. Against aggressive decks, prioritize Dáin, Lord of the Iron Hills and Patient Instructor; against control, keep Kíli and the tutors and lean on the ward stack."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-04-steel-and-saga.html#key-interactions-and-edge-cases",
+    "title": "Steel and Saga",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+    "text": "Key interactions and edge cases\n\nStoried is a state, not a trigger: once you control three or more artifacts, legendaries, and/or Sagas you have an enduring story for the rest of the game — Axe tokens count as artifacts, so Blacksmith and Dáin Ironfoot fuel it alone.\nBalin triggers on tokens too. Fíli’s 2/2 tokens, The Lonely Mountain’s tokens, and any clone-style Dwarf all wheel and burn.\nEach Balin trigger resolves separately: the second trigger discards the hand drawn by the first, so damage compounds — order your triggers so Kíli’s draw lands between them.\nThorin’s storied ward and Dwarven Mattock’s ward are separate abilities: an equipped creature has two ward {1} triggers, and the opponent pays 1 for each.\nThe Lonely Mountain enters tapped unless you control an Equipment — Axe tokens and Mattock keep it untapped. Its token ability is sorcery-speed.\nDáin Ironfoot’s double strike applies to each equipped attacking creature when he attacks — equip the Mattock before combat and swing with two double-strikers.\nSmaug’s Fury is first strike, so it is wasted on Dwalin (already first strike); it shines on an unequipped Dáin Ironfoot or a blocker.\nIron Hills is a land first: do not sacrifice it for counters unless the mana is no longer needed.\nPatient Instructor and Esgaroth Garrison recruit at sorcery speed on entry: the Soldier tokens are not Dwarves, so they do not trigger Balin or Kíli, but they grow Garrison and chump-block."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-04-steel-and-saga.html#matchups",
+    "href": "decks/2026-09-04-steel-and-saga.html#matchups",
+    "title": "Steel and Saga",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
+    "text": "Matchups\n\nAggro (fliers, lifegain, cats): Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug’s Fury, and the Fíli token swarm races.\nMidrange (landfall, counters): the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison’s power tracks the widening board.\nControl: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin’s Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.\nCombo and big mana: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent’s payoff lands."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html",
+    "href": "decks/2026-09-09-silvan-surge.html",
+    "title": "Silvan Surge",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlue / Black / Green (Sultai)\n\n\nArchetype\nElf-legend landfall: legendary Elves, extra land drops, and landfall tokens feeding one engine (avg nonland CMC ~3.6; Keepers plays well under curve via affinity)\n\n\nSize\n60 cards\n\n\nPrimary win\nLandfall army: Thranduil, Sindarin Liege and Down in the Valley turn every land drop into an Elf token while Thranduil’s Company pumps counters; the +1/+1 Liege anthem and vigilance anthems turn the swarm into an overwhelming attack\n\n\nSecondary win\nThranduil, the Elvenking draws two per legendary Elf entering, and with Elf activated abilities in the graveyard he becomes the engine himself — Weavemaster mana, Formidable Speaker untaps, Elrond’s draw — ending in a land-count Mirkwood Pathmaker\n\n\nLand win con\nRestless Vinestalk animates into a 5/5 trample Plant; Rogue’s Passage clears the way for the biggest Elf; Elvenking’s Halls spends spare green-blue mana to put counters on an Elf"
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#game-plan-phases",
+    "href": "decks/2026-09-09-silvan-surge.html#game-plan-phases",
+    "title": "Silvan Surge",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nDevelop: Woodland Weavemaster starts the Elf count, Wood Elves fetches a Forest, Mirkwood Nurturer or Down in the Valley sets up the first landfall wave\n\n\nTurns 4-5\nEngine: the Sindarin Liege anthems and makes landfall Elves; Thranduil’s Company adds an extra land drop and counters; Thranduil, the Elvenking converts legendary Elf entries into cards\n\n\nTurns 6+\nConvert: Cantankerous Keepers refills from the graveyard, Galion copies a large body onto the biggest attacker, and Rogue’s Passage or Restless Vinestalk closes through blockers\n\n\nLate game\nThranduil (with Speaker and Weavemaster in the yard) untaps and taps for bursts of Elf mana; every legendary Elf still draws two; the board out-sizes anything"
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#card-roles",
+    "href": "decks/2026-09-09-silvan-surge.html#card-roles",
+    "title": "Silvan Surge",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nThranduil, Sindarin Liege\nCore anthem and token engine: Elves get +1/+1, every landfall makes a 1/1 Elf; its Silvan Rally adventure mills four to find up to two lands\n\n\nThranduil, the Elvenking\nDraw engine and late-game tool: each other legendary Elf entering draws two; he gains all activated abilities of Elf cards in your graveyard\n\n\nElrond, Moon-Reader\nDraws on the first creature-ability activation each turn; his {5}{U}{U} activation blinks two of your own permanents to re-trigger landfall and Elves\n\n\nGalion, Elvenking’s Butler\nAttack finisher: sets another creature’s base power and toughness equal to his own (pair with Pathmaker or a counter-heavy Elf)\n\n\nThranduil’s Company\nExtra land per turn with an Elf out; landfall puts two +1/+1 counters on a creature and gives it vigilance\n\n\nDown in the Valley\nSaga: fetches a basic, grants a landfall Elf-token clause, then a +1/+0 vigilance anthem\n\n\nCantankerous Keepers\nRefill: affinity for Elves makes it cheap; on entry mills four, then puts every Elf card from the mill into your hand — including fuel for Thranduil’s ability suite\n\n\nWoodland Weavemaster\nEarly Elf and mana engine: grows whenever another Elf enters; taps for colored mana equal to its power (Elf spells and abilities only)\n\n\nFormidable Speaker\nTutor and untapper: on entry discards a card to search a creature; {1}, {T} untaps another permanent — untap Weavemaster for another mana burst, or untap a blocker\n\n\nSilvan Reveler\nLoot and recursion: draws then discards; a discarded land enters tapped (extra landfall); landfall can return it from the graveyard\n\n\nMirkwood Nurturer\nLandfall amplifier: bounces one of your own permanents (usually a land) and puts a +1/+1 counter on itself\n\n\nWood Elves\nRamp: fetches a Forest onto the battlefield and triggers landfall\n\n\nElvish Regrower\nRecursion: on entry returns any permanent card from your graveyard to hand\n\n\nMirkwood Pathmaker\nLand-count finisher: power and toughness equal the number of lands you control\n\n\nElven Raft-Steerer\nLandfall tempo: taps an opponent’s creature or untaps one of yours\n\n\nElrond, Moon-Reader (land)\nsee Lands as engines"
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#lands-as-engines",
+    "href": "decks/2026-09-09-silvan-surge.html#lands-as-engines",
+    "title": "Silvan Surge",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nRestless Vinestalk\nLand win condition: {3}{G}{U} makes a 5/5 trample Plant that also resets another creature’s base stats to 3/3 on attack\n\n\nRogue’s Passage\nLand win condition: {4} makes a creature unblockable — the last piece for Pathmaker or a Galion-copied attacker\n\n\nElvenking’s Halls\nFixing plus pump: adds {G} or {U}, and {2}{G}{U}, sacrifice puts two +1/+1 counters on an Elf — a mana sink that grows the army\n\n\nElven Passage\nFetch: sacrifices to find a basic land; behold an Elf to untap it (an extra landfall on the same turn)\n\n\nLush Oasis\nGreen-blue fixing that pings the opponent for 1 on entry\n\n\nJungle Hollow\nBlack-green fixing with 1 life on entry\n\n\nForest / Island / Swamp\nBasic base — 8 / 4 / 2"
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#curve-and-mana",
+    "href": "decks/2026-09-09-silvan-surge.html#curve-and-mana",
+    "title": "Silvan Surge",
+    "section": "Curve and mana",
+    "text": "Curve and mana\nTwenty-four lands: fourteen basics (8 Forest, 4 Island, 2 Swamp) plus ten nonbasics (2 Restless Vinestalk, 1 Rogue’s Passage, 2 Elvenking’s Halls, 1 Elven Passage, 2 Lush Oasis, 2 Jungle Hollow). Green is the engine color — the Liege, Company, Pathmaker, and Keepers all want {G} early — so the land count leans Forest-first, with blue as the steady second color and black a shallow splash for Thranduil, the Elvenking. The spell curve clusters at three and four mana with two cheap Weavemasters at the front; Cantankerous Keepers’ affinity usually brings its real cost down to three or four, and Thranduil’s Company stretches each land drop into two. This is a deck that wants to hit four lands on time and then play two lands a turn from turn five on."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#early-game",
+    "href": "decks/2026-09-09-silvan-surge.html#early-game",
+    "title": "Silvan Surge",
+    "section": "Early game",
+    "text": "Early game\nLead with Woodland Weavemaster or Wood Elves. Turn three you want either Down in the Valley (fetch a land, start the token clause) or Mirkwood Nurturer, whose bounce ability makes your land drops recursive. If the hand has Thranduil, the Elvenking, make sure the fixing exists — he needs all three colors by turn five. Do not overcommit to one big creature early; the deck wins by compounding landfall triggers, not by racing."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#mid-game",
+    "href": "decks/2026-09-09-silvan-surge.html#mid-game",
+    "title": "Silvan Surge",
+    "section": "Mid game",
+    "text": "Mid game\nResolve the Sindarin Liege as soon as possible: it is the anthem and the token generator, and a second copy draws two cards through Thranduil the Elvenking. Play Thranduil’s Company to double your land drops, then feed it with Wood Elves, Mirkwood Nurturer bounces, and Silvan Reveler discards. Each land that enters makes an Elf from the Liege, two +1/+1 counters from the Company, and a possible Raft-Steerer tap or untap."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#the-combo-turn",
+    "href": "decks/2026-09-09-silvan-surge.html#the-combo-turn",
+    "title": "Silvan Surge",
+    "section": "The combo turn",
+    "text": "The combo turn\nThe engine, once Thranduil, the Elvenking is on the battlefield with the Sindarin Liege and Thranduil’s Company:\n\nCast Cantankerous Keepers (usually for three or four mana thanks to affinity). It mills four and puts every Elf card from the mill into your hand.\nCast the legendary Elves you just found — each one makes Thranduil draw two, then discard one, keeping the graveyard stocked.\nWith a Woodland Weavemaster or Formidable Speaker in the graveyard, Thranduil has its abilities: tap Thranduil for a burst of Elf-cast mana, then untap him with the Speaker’s {1} ability (or a Raft-Steerer landfall). Elrond draws off the first activation.\nAttack: Galion sets a chosen creature’s base power and toughness equal to his own, Mirkwood Pathmaker is as large as your land count, and Rogue’s Passage or Restless Vinestalk pushes the kill through."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#win-condition-2",
+    "href": "decks/2026-09-09-silvan-surge.html#win-condition-2",
+    "title": "Silvan Surge",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nMirkwood Pathmaker’s size equals your land count, and this deck routinely plays two lands a turn from turn five on — a 9/9 or 10/10 Pathmaker by turn seven is normal. Galion copies his own counter-pumped body onto a second attacker, Restless Vinestalk adds a 5/5 trample on the same combat, and Rogue’s Passage makes the largest one unblockable. In longer games, Thranduil plus a graveyard full of Elves is its own engine: Weavemaster mana, Speaker untaps, Elrond’s draw, and Keepers’ refills chain legendaries indefinitely."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#mulligan-guide",
+    "href": "decks/2026-09-09-silvan-surge.html#mulligan-guide",
+    "title": "Silvan Surge",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep any hand with two or three lands and a play on two or three (Weavemaster, Wood Elves, Down in the Valley, the Liege with fixing). Keep hands with Thranduil, the Elvenking only when the mana can cast him — green plus blue plus black on time. Ship one-landers, hands with three top-end cards and no early play, and hands with no green source. Against aggressive decks, prioritize Weavemaster and early blockers; against control, keep the recursion and card advantage and plan for the long game."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-09-silvan-surge.html#key-interactions-and-edge-cases",
+    "title": "Silvan Surge",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nThranduil, the Elvenking triggers on every other legendary Elf entering — Elrond, Galion, the Sindarin Liege, and additional copies of Thranduil himself all draw two.\nThranduil also has all activated abilities of Elf cards in your graveyard: a milled Weavemaster gives him a tap-for-Elf-mana ability, a milled Formidable Speaker gives him a {1} untap, and a milled Raft-Steerer gives him a landfall untap. Elrond’s trigger draws a card off the first such activation each turn.\nCantankerous Keepers mills before it collects: non-Elf cards milled stay in the graveyard, where Silvan Reveler and Elvish Regrower can reach them.\nSilvan Rally (the Liege’s adventure) mills four and takes up to two lands from the milled cards — cast it early to set up extra land drops, never to find specific lands in the library.\nMirkwood Nurturer returns one of your own permanents: bounce a tapped land to replay it for a fresh landfall wave, or bounce an Elf to re-trigger a Thranduil draw.\nRestless Vinestalk’s attack trigger resets another creature’s base stats to 3/3 — do not aim it at your own Galion-copied attacker on the turn you want the big number.\nDown in the Valley’s chapter II grants the landfall-token clause to the Saga itself; tokens arrive on every subsequent landfall while it stays on the battlefield.\nThranduil’s Company’s extra-land permission only applies while you control another Elf — sequence your land drops before combat tricks that might remove your only other Elf."
+  },
+  {
+    "objectID": "decks/2026-09-09-silvan-surge.html#matchups",
+    "href": "decks/2026-09-09-silvan-surge.html#matchups",
+    "title": "Silvan Surge",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro (fliers, lifegain, cats): early Weavemasters and tokens chump, Down in the Valley’s vigilance anthem keeps the blockers up, and the recursion engine out-grinds. Raft-Steerer taps their biggest attacker on every landfall.\nMidrange (landfall, counters): the draw-and-token engine generates more bodies and cards than any midrange deck; Galion plus Rogue’s Passage ends through blockers.\nControl: every sweeper is answered by Keepers refilling from the graveyard and each legendary Elf drawing two; Elrond’s blink dodges exile and re-triggers landfall at end step.\nCombo and big mana: pressure early with the Liege’s tokens and finish with an unblockable Pathmaker before their combo turn; Elvenking’s Halls keeps the threats growing past sorcery-speed answers."
   },
   {
     "objectID": "decks/2026-08-26-wing-and-coin.html",
