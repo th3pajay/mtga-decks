@@ -1,0 +1,166 @@
+---
+title: "Bellow and Burn"
+subtitle: "Jund (Black / Red / Green) — Amass Goblins counter-burn engine from The Hobbit set"
+date: "2026-09-10"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Amass Goblins: every +1/+1 counter placed on the Army is a trigger, and every trigger is damage |
+| Size | 60 cards |
+| Primary win | The Goblin Army: amass effects pile counters onto one black Goblin Army token, Great Ugly-Looking Goblin gives every counter creature menace, and Rogue's Passage makes the biggest attacker unblockable |
+| Secondary win | The Great Goblin burn: each counter event on a Goblin, Orc, or Army deals 2 damage to target opponent, so a dozen cheap amass spells plus landfall and combat counters close the game without combat |
+| Land win con | Goblin-town sacrifices itself for two +1/+1 counters on the Army (another Great Goblin trigger, another 2 damage); Rogue's Passage clears the path; Restless Vents attacks as a 2/3 menace Insect when the board stalls |
+
+# Overview
+
+Bellow and Burn takes the Amass Goblins mechanic literally: one 0/0 black Goblin Army token absorbs every amass in the deck, and The Great Goblin converts each of those counter placements into 2 damage. The token is also a Goblin, so the triggers line up perfectly — a one-mana Tidings of War is a 2-damage burn spell that also puts a counter on the Army, and its flashback version (amass 3) is another 2 damage plus three counters.
+
+The counter events come from every direction. Goblin-town Flunkies and Bothersome Noisemaker amass on entry or on every noncreature spell; Rage into the Valley draws a card and amasses 2; Fearsome Goblin Pair amasses 4 when it dies; Misty Mountains Raider amasses 2 on every attack; the Great Ugly-Looking Goblin's Clap! Snap! adventure amasses 2 from exile; Beorn's Hospitality amasses on every landfall; Innkeeper's Talent adds a counter at the beginning of each combat and later doubles every counter you place; even Goblin-town sacrifices itself for two more counters. Each of those events is a separate Great Goblin trigger, so the damage accumulates faster than the board looks.
+
+Red and black supply the bodies and the interaction — Azog, Moria's Ruin and Bolg of the North are removal spells with goblin bodies attached, Gnashing of Teeth and Stir Up Trouble clear blockers, and Warg Tactics doubles as a flyer answer or as hexproof-plus-trample protection for the Army. Green is a light but load-bearing third color: Beorn's Hospitality and Innkeeper's Talent are the two repeatable counter engines, and Warg Tactics is the cheapest way to make the Army unanswerable.
+
+The deck wins by attacking with a large menace token backed by direct damage, and it can also win with the burn alone if the ground stalls out.
+
+The Hobbit set reports an empty `arena_id` until the set lands on Arena 2026-08-14, so the import list works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Drop a two-drop (Goblin-town Flunkies, Bothersome Noisemaker, Beorn's Hospitality) and start amassing; hold Stir Up Trouble for the first real threat |
+| Turns 4-5 | Resolve The Great Goblin, then chain amass spells — each one is 2 damage; Azog or Gnashing of Teeth keeps the board clear while the Army grows |
+| Turns 6+ | The Army is a menace threat with trample or hexproof; Bolg of the North and Misty Mountains Raider add real bodies, and Rogue's Passage or Restless Vents finishes through blockers |
+| Late game | The Great Goblin's second ability turns every dying Goblin into a card off the top of the library, so trading the board still builds toward the burn finish |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| The Great Goblin | The engine and the win condition: every counter placed on a Goblin, Orc, or Army deals 2 damage to target opponent; every other Goblin, Orc, or Army that dies exiles the top card of your library and lets you play it |
+| Goblin-town Flunkies | Two-mana amass 1 with haste: a 2-damage trigger on turn two that also leaves a 1/1 attacker behind |
+| Bothersome Noisemaker | Amass 1 on every noncreature spell — every removal spell, amass sorcery, and Clap! Snap! becomes 2 damage |
+| Fearsome Goblin Pair | Amass 4 when it dies: the deck's biggest single counter event, and a fine blocker to trade away |
+| Azog, Moria's Ruin | Removal with a body: destroys up to one other creature and amasses Goblins equal to its power (for its controller — kill small creatures or your own) |
+| Bolg of the North | A 5/5 legend that sacrifices another creature (Fearsome Goblin Pair is ideal, since its death also amasses 4) and deals that creature's power as damage, with excess converting to more counters |
+| Misty Mountains Raider | Repeatable amass engine: 2 counters on every attack, from a 4/4 body |
+| Duskwatch Hunter | Counter trigger on entry that also grows the Army, and it cannot be blocked by tokens |
+| Great Ugly-Looking Goblin | Menace for every creature with a +1/+1 counter, so the Army is hard to block; Clap! Snap! is a two-mana amass 2 from exile |
+| Tidings of War | The cheapest trigger at one mana; flashback for amass 3 means the same card burns twice |
+| Rage into the Valley | Draws a card, drains 1 life, and amasses 2 — the engine's card advantage |
+| Warg Tactics | Flexible instant: destroys a flyer, or gives the Army a counter, trample, and hexproof for the turn |
+| Beorn's Hospitality | Landfall counter engine — every land drop is another Great Goblin trigger |
+| Innkeeper's Talent | Combat-step counter at level 1, ward {1} for counter permanents at level 2, and doubled counters at level 3 |
+| Gnashing of Teeth | Board removal: -5/-5 on a blocker or -1/-1 to a whole team |
+| Stir Up Trouble | One-mana destroy spell when you have a spare artifact or creature to sacrifice |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | Land win condition and engine: enters tapped for {B} or {R}, then sacrifices for two +1/+1 counters on the Army — a Great Goblin trigger for 2 damage and two counters in one activation |
+| Rogue's Passage | Land win condition: {4} and a tap makes the Army unblockable, which is normally the last point of damage |
+| Restless Vents | Manland: animates into a 2/3 menace Insect for {1}{B}{R} and loots a card whenever it attacks |
+| Blood Crypt / Overgrown Tomb | Untapped fixing when the life is available; the two life is usually cheaper than a tapped land in this curve |
+| Blazemire Verge / Thornspire Verge | Untapped fixing: Blazemire Verge always adds {B} and adds {R} once you control a Swamp or Mountain; Thornspire Verge always adds {R} and adds {G} off a Mountain or Forest |
+| Deathcap Glade | Fast black-green fixing that arrives untapped from turn three onward |
+| Swamp / Mountain / Forest | Basic base — 4 / 4 / 4 |
+
+## Curve and mana
+
+Twenty-three lands: twelve basics (4 Swamp, 4 Mountain, 4 Forest) and eleven nonbasics (2 Goblin-town, 1 Rogue's Passage, 1 Restless Vents, 2 Blood Crypt, 1 Blazemire Verge, 2 Overgrown Tomb, 1 Deathcap Glade, 1 Thornspire Verge). Black is the deepest color — The Great Goblin, Rage into the Valley, Azog, Fearsome Goblin Pair, Gnashing of Teeth, and Stir Up Trouble all want it — so the manabase is black-first with red as the second color and green as a light splash for two enchantments and one instant. Every source that produces black also produces a second color (Blood Crypt, Blazemire Verge, Overgrown Tomb, Deathcap Glade, Goblin-town, Restless Vents), which is what keeps a three-color deck this consistent.
+
+The spell curve is deliberately flat: eleven cards at two mana or less, six at three, and only three cards above four mana. The deck wants to be at four lands on turn four, then spend every mana on a counter event rather than on a big spell.
+
+# Gameplay strategy
+
+## Early game
+
+Open on Goblin-town Flunkies or Bothersome Noisemaker if The Great Goblin is not in hand — amass tokens bank the counters even without the payoff. Beorn's Hospitality on turn two is usually the strongest play when the hand has lands to follow it, because every subsequent land drop is a free counter event. Hold Stir Up Trouble for the first creature that actually matters; sacrificing a spare Goblin-town Flunkies to kill a two-drop is rarely worth it.
+
+## Mid game
+
+Resolve The Great Goblin and then convert. Each amass spell now deals 2 damage to the opponent, so the plan changes from "build a token" to "count the triggers": Tidings of War, Rage into the Valley, a Bothersome Noisemaker follow-up, an Azog entry, Beorn's Hospitality landfall, and the beginning-of-combat counter from Innkeeper's Talent all stack up. Keep the Army alive — it is the only Army token the deck makes, and every amass aims at it.
+
+## The combo turn
+
+The engine, once The Great Goblin is on the battlefield with one amass source available:
+
+1. Cast any cheap amass spell. The Army gains counters, The Great Goblin deals 2 damage to the opponent, and Bothersome Noisemaker amasses another counter if the spell was noncreature.
+2. If you have five mana, activate Goblin-town's sacrifice ability for two more counters — that is another 2 damage on top of the same counter pile.
+3. Level Innkeeper's Talent to three when the game goes long: doubled counters mean each amass places twice as many, and each placement is still a single Great Goblin trigger.
+4. Attack with the Army, giving it trample with Warg Tactics or unblockability with Rogue's Passage; Great Ugly-Looking Goblin means every counter-carrying creature must be double-blocked.
+
+## Win condition 2
+
+The Great Goblin's burn does not require combat. Counting the triggers in a typical game — four amass spells, two Beorn's Hospitality landfalls, three combat-step counters from Innkeeper's Talent, one Goblin-town activation, and a Misty Mountains Raider attack — thirteen counter events is 26 damage from one card. That is the plan against decks that can block forever: stop attacking, keep placing counters, and let the bellow finish. Great Ugly-Looking Goblin's exile clause and The Great Goblin's impulse draw keep the amass spells coming while the opponent's blockers rot.
+
+## Mulligan guide
+
+Keep any hand with two or three lands, a source of black, and a two-drop (Goblin-town Flunkies, Bothersome Noisemaker, Beorn's Hospitality, Innkeeper's Talent). The Great Goblin is a fine four-card payoff hand if the mana is there. Ship one-landers, hands with three or more five-plus-drops and no early plays, and hands with no black source at all. Against fast aggro, prioritize Beorn's Hospitality and Fearsome Goblin Pair, which block and convert into amass when they trade.
+
+## Key interactions and edge cases
+
+- The Great Goblin triggers once per "put one or more counters" event, not once per counter. A flashback Tidings of War (amass 3) is still a single 2-damage trigger — but it grows the Army three times as much.
+- Innkeeper's Talent level 3 doubles the counters placed, not the number of Great Goblin triggers. Use it for Army size, not for extra burn.
+- Azog, Moria's Ruin gives the counters to the controller of the destroyed creature. Kill a small creature, your own creature (you draw a card), or a token — do not casually destroy a large creature an opponent controls unless you can answer the Army it creates.
+- Bolg of the North's sacrifice and Fearsome Goblin Pair's death trigger both resolve in the same turn if you sacrifice the Pair: 4 counters from the death plus Bolg's damage, with excess damage converting to even more counters.
+- Amass always targets the single Army you control. If the opponent kills the Army, every future amass makes a new 0/0 and starts again — which is why Warg Tactics' hexproof and Innkeeper's Talent's ward matter more than they look.
+- Goblin-town enters tapped. Sequence it on a turn where the tapped source does not cost you a play, or keep it for the sacrifice activation in the late game.
+- Clap! Snap! is cast from exile, so Bothersome Noisemaker sees it as a noncreature spell and amasses on top of the adventure's own amass 2.
+- Gnashing of Teeth's first mode exiles the creature if it would die — useful against opponents recycling their own graveyard.
+
+## Matchups
+
+- **Aggro (fliers, lifegain, cats)**: Fearsome Goblin Pair and Duskwatch Hunter trade early, Gnashing of Teeth's -1/-1 mode sweeps token swarms, Warg Tactics answers fliers, and the Army grows faster than their board.
+- **Midrange (landfall, counters, dinosaurs)**: Azog, Bolg, and Stir Up Trouble answer their key creatures, while the burn win condition ignores whichever large body they deploy. Beorn's Hospitality matches their landfall engine counter for counter.
+- **Control**: The Great Goblin's impulse draw and Bothersome Noisemaker rebuild after every sweeper, Great Ugly-Looking Goblin's menace makes blocking awkward, and the burn finish does not care about a stabilized board.
+- **Combo and big mana**: pressure with the Army and the burn together; Warg Tactics' hexproof protects the token from targeted removal, and Misty Mountains Raider attacks for amass 2 every turn regardless of the opponent's plan.
+
+# Iterations
+
+| Round | Change | Synergy | Sim avg | T4 | P(4L) |
+|-------|--------|---------|---------|----|-------|
+| v1 → v2 | -1 Orcrist, Goblin-cleaver, -1 My Precious, -1 Goblin Plate Mail, -1 Warg Tactics; +2 Gnashing of Teeth, +2 Stir Up Trouble (the equipment subtheme was dead weight; interaction density is what the engine actually converts) | 72.5 → 72.8 | 51.0 → 59.7 | 0.581 → 0.568 | 0.574 → 0.555 |
+
+# Deck list (Arena import)
+
+```text
+Bellow and Burn
+Deck
+4 The Great Goblin
+4 Goblin-town Flunkies
+2 Bothersome Noisemaker
+3 Fearsome Goblin Pair
+2 Azog, Moria's Ruin
+2 Bolg of the North
+2 Misty Mountains Raider
+2 Duskwatch Hunter
+1 Great Ugly-Looking Goblin
+3 Tidings of War
+3 Rage into the Valley
+1 Warg Tactics
+2 Beorn's Hospitality
+2 Innkeeper's Talent
+2 Gnashing of Teeth
+2 Stir Up Trouble
+2 Goblin-town
+1 Rogue's Passage
+1 Restless Vents
+2 Blood Crypt
+1 Blazemire Verge
+2 Overgrown Tomb
+1 Deathcap Glade
+1 Thornspire Verge
+4 Swamp
+4 Mountain
+4 Forest
+```
