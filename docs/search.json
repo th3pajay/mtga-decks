@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-09-09:\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
+    "text": "Deck guides published 2026-09-10:\n\nCompound Interest — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage combo increment expend delirium"
   },
   {
     "objectID": "decks/2026-08-24-grave-team-six.html",
@@ -1505,242 +1505,88 @@
     "text": "Matchups\n\nAggro (fliers, lifegain, cats, landfall): Bard the Bowman’s lifelink, the 1/1 Elf wall, and Ravenhill Flock as a flying blocker stabilize; Thranduil’s Company gives vigilance to hold back and attack. Mirkwood Meditator blocks as a 4/2.\nMidrange: out-value with the draw engine; Galion plus Rogue’s Passage ends games through blockers; Troll Negotiations removes the biggest threat.\nControl: the engine rebuilds after every sweeper because every legendary Elf draws two; Thranduil’s Decree and Mistrise Village’s uncounterable spell fight the counter war; Bard, King of Dale’s doubled draws outpace one-for-one answers.\nCombo race: draw-engine speed wins the race; Gone Fishing can blink a key piece to dodge removal, and the token army provides instant chumpers."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html",
-    "href": "decks/2026-08-25-swarm-calculus.html",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html",
+    "href": "decks/2026-09-10-compound-interest.html",
+    "title": "Compound Interest",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nTemur — green / blue / red\n\n\nArchetype\nMidrange aggro-combo (mana-threshold engine)\n\n\nSize\n60 cards, 23 lands\n\n\nRolled mechanics\nIncrement x Expend x Delirium\n\n\nPrimary win\nCross the four-mana threshold with a big spell: every Raccoon payoff fires and every Increment creature grows, then swing with tramplers\n\n\nSecondary win\nThe Rollercrusher Ride doubles noncombat damage once delirium is on, turning Teapot Slinger’s pings into a burn finish\n\n\nBattery\n55.3% over 3 x 500 games, synergy 73.2, T4 consistency 0.59, P(4 lands by turn 4) 0.60\n\n\nNonland curve\n5 ones, 14 twos, 13 threes, 2 fours, 3 fives (average 2.57)"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#game-plan-in-three-phases",
+    "href": "decks/2026-09-10-compound-interest.html#game-plan-in-three-phases",
+    "title": "Compound Interest",
     "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+    "text": "Game plan in three phases\n\nBank early (turns 1–3). Deploy cheap, efficient bodies: Ambitious Augmenter, Bakersbane Duo, Bark-Knuckle Boxer, Textbook Tabulator, Wandertale Mentor. Textbook Tabulator’s surveil 2 is your first graveyard deposit. Ramp with Wandertale Mentor and, on turn three, Muerra, Trash Tactician, who adds one red or green mana for every Raccoon you control during your first main phase.\nCross the threshold (turns 3–5). Cast one expensive spell and let it do everything: The Rollercrusher Ride for four or more, Impossible Inferno at five, Beastie Beatdown on a fight, or Balustrade Wurm at five. That single cast crosses four mana spent and triggers every expend 4 ability at once, while giving every Increment creature a counter.\nCash the interest. With Delirium online, Fear of Missing Out untaps your best attacker and grants an additional combat phase, Omnivorous Flytrap doubles its counters, and Wildfire Wickerfolk attacks as a 4/3 trampler. Restless Ridgeline becomes a 3/4 Dinosaur that also untaps and pumps another attacker. Two combats with a trampling, counters-heavy board usually ends it."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
-    "title": "Swarm Calculus",
-    "section": "Why these cards",
-    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+    "objectID": "decks/2026-09-10-compound-interest.html#card-roles",
+    "href": "decks/2026-09-10-compound-interest.html#card-roles",
+    "title": "Compound Interest",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nAmbitious Augmenter\n4\nEngine — one-mana Increment body; dies into a Fractal holding its counters\n\n\nWandertale Mentor\n4\nEngine — expend 4 grows it; taps for red or green to fund the threshold\n\n\nBakersbane Duo\n3\nEngine — expend 4 pump plus a Food token for a later big turn\n\n\nTextbook Tabulator\n3\nEnabler — Increment body whose surveil 2 stocks Delirium\n\n\nBark-Knuckle Boxer\n2\nEnabler — expend 4 makes it indestructible, so it survives the alpha strike\n\n\nPensive Professor\n2\nPayoff — every counter drawn by Increment draws a card\n\n\nOmnivorous Flytrap\n2\nPayoff — Delirium hands out counters and doubles them at six card types\n\n\nWildfire Wickerfolk\n2\nPayoff — haste, and a 4/3 trampler with Delirium\n\n\nMuerra, Trash Tactician\n2\nEngine — mana per Raccoon, expend 4 lifegain, expend 8 card advantage\n\n\nByway Barterer\n2\nEnabler — expend 4 loots four cards deep and fills the graveyard\n\n\nTeapot Slinger\n2\nPayoff — expend 4 drains each opponent for 2, doubled by the Ride\n\n\nFear of Missing Out\n2\nPayoff — loot on entry, extra combat with Delirium\n\n\nBalustrade Wurm\n1\nHaymaker — uncounterable 5/5 hasty trampler that recurs from the graveyard\n\n\nThe Rollercrusher Ride\n2\nPayoff — damage doubler and a scalable sweeper that crosses the threshold\n\n\nImpossible Inferno\n2\nInteraction — six damage, then a free card with Delirium\n\n\nBeastie Beatdown\n1\nInteraction — fight plus two counters with Delirium\n\n\nViolent Urge\n1\nTrick — first strike early, double strike with Delirium"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#lands-as-engines",
+    "href": "decks/2026-09-10-compound-interest.html#lands-as-engines",
+    "title": "Compound Interest",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRestless Ridgeline\nPrimary win con land — becomes a 3/4 Dinosaur for two plus red and green, and every attack gives another attacker +2/+0 and untaps it\n\n\nRestless Spire\nTwo mana 2/1 with first strike on your turn; attacks and scrys, digging toward Delirium or a threshold spell\n\n\nTerramorphic Expanse\nFixes colours and puts a land card in the graveyard for Delirium\n\n\nStormcarved Coast\nUntapped blue-red source once you have two other lands, powering the blue Increment half\n\n\nForest / Mountain / Island\nFast, unconditional sources; green leads, red second, blue for the Wizards"
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#curve-and-mana",
+    "href": "decks/2026-09-10-compound-interest.html#curve-and-mana",
+    "title": "Compound Interest",
     "section": "Curve and mana",
-    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+    "text": "Curve and mana\nThe nonland curve is 5 ones, 14 twos, 13 threes, 2 fours and 3 fives: nothing costs more than five, and the average is 2.57. That matters because Expend cares about total mana spent, not about a single expensive card. Three cheap spells spend four mana just as well as one four-drop, and each of them separately triggers Increment.\nTwenty-three lands, fifteen of them basics: 6 Forest, 5 Mountain, 5 Island, 2 Restless Ridgeline, 2 Restless Spire, 2 Terramorphic Expanse, 1 Stormcarved Coast. Green is the primary curve colour (turn-one Augmenter, turn-two Duo or Boxer), red carries the Raccoon payoffs and the threshold spells, and blue is a small but real splash for five cards, so fetch islands late and let Terramorphic Expanse find the exact source you are missing."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#early-game-turns-13",
+    "href": "decks/2026-09-10-compound-interest.html#early-game-turns-13",
+    "title": "Compound Interest",
     "section": "Early game (turns 1–3)",
-    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter is the ideal play. It grows off any two-mana spell, and if it dies with counters it becomes a Fractal carrying those counters, which is a second body for free.\nTurn 2: Wandertale Mentor is the best two-drop because it ramps: tap it for red or green and you reach four mana spent a full turn earlier. Bakersbane Duo and Bark-Knuckle Boxer are the aggressive alternatives.\nTurn 3: Textbook Tabulator for surveil 2, or Muerra, Trash Tactician if you already have a couple of Raccoons. Muerra’s first-main mana makes the threshold trivial; keep her alive and the deck stops needing lands.\nDo not spend removal here. Impossible Inferno and Beastie Beatdown are for the turn they double as threshold spells."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#mid-game-turns-46",
+    "href": "decks/2026-09-10-compound-interest.html#mid-game-turns-46",
+    "title": "Compound Interest",
     "section": "Mid game (turns 4–6)",
-    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+    "text": "Mid game (turns 4–6)\n\nPick the spell that crosses four mana spent and cast it when your board is widest, not on curve. The expend 4 trigger is once per turn, so the payoff is proportional to how many Raccoons you have assembled.\nTextbook Tabulator, Byway Barterer and Fear of Missing Out are your graveyard taps. Surveil and looting feel like card selection; they are actually Delirium enablers, so favour them over a slightly better body once the yard is one or two types short.\nTrack card types actively: creature, land, instant, sorcery, enchantment, artifact. Wildfire Wickerfolk and Fear of Missing Out each count as two types in the yard (artifact creature, enchantment creature), which is how a single loot can flip Delirium on."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#the-combo-turn",
+    "href": "decks/2026-09-10-compound-interest.html#the-combo-turn",
+    "title": "Compound Interest",
     "section": "The combo turn",
-    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+    "text": "The combo turn\n\nAssemble at least one expend 4 payoff, ideally two or three, plus an Increment creature or two.\nKeep four or more mana available with a spell in hand that costs four or more, or an X spell such as The Rollercrusher Ride.\nCast the expensive spell. Rule 700.14 gives exactly one expend 4 trigger this turn: Wandertale Mentor gains a counter, Bark-Knuckle Boxer turns indestructible, Byway Barterer loots a fresh hand and fills the yard, while Bakersbane Duo and Teapot Slinger pump and drain.\nThe same cast grows every Increment creature whose power or toughness is lower than the mana you spent, and Pensive Professor draws a card for each of its own counters.\nWith Delirium on, move to combat. Fear of Missing Out untaps your best attacker and grants an additional combat phase; Restless Ridgeline pumps and untaps another attacker. Two combat steps with trample and counters is the kill."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
-    "title": "Swarm Calculus",
-    "section": "Win condition 2: the ETB burn loop",
-    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+    "objectID": "decks/2026-09-10-compound-interest.html#win-condition-2-the-doubling-burn",
+    "href": "decks/2026-09-10-compound-interest.html#win-condition-2-the-doubling-burn",
+    "title": "Compound Interest",
+    "section": "Win condition 2: the doubling burn",
+    "text": "Win condition 2: the doubling burn\nTeapot Slinger drains each opponent for 2 every time you expend 4. The Rollercrusher Ride states that while you have four or more card types in your graveyard, any noncombat damage a source you control would deal is doubled instead. Each Slinger ping becomes 4, and the Ride’s own entry trigger (X damage to each of up to X target creatures) doubles too. Against a stalled board, this is the win that does not need an attack step: hold two Slingers and a Ride, cross the threshold, and the table drains while the Ride clears blockers."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#mulligan-guide",
+    "href": "decks/2026-09-10-compound-interest.html#mulligan-guide",
+    "title": "Compound Interest",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+    "text": "Mulligan guide\n\nKeep: two or three lands with green in them, a turn-one or turn-two creature, and at least one graveyard tap (Textbook Tabulator, Byway Barterer, Fear of Missing Out) or a Muerra.\nKeep aggressively if the hand has three mana, a Raccoon and any four-mana spell: that is the whole plan.\nTrim: one-land hands; hands with no green source; hands of only expensive spells with no cheap Raccoons to convert the threshold into damage."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-09-10-compound-interest.html#key-interactions-and-edge-cases",
+    "title": "Compound Interest",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+    "text": "Key interactions and edge cases\n\nExpend 4 triggers once per turn. It is a threshold, not a counter that resets. Spending mana on activated abilities does not count; only mana spent to cast spells does. Sequence your biggest spell so the crossing mana is the one that pays for it.\nIncrement checks each spell separately and compares against current power or toughness, so a creature that already grew needs an even bigger spell next time. Small bodies stay live longest, which is why the one- and two-mana creatures are the engine.\nDelirium counts types, not cards. One artifact creature and one enchantment creature plus a land and a spell already satisfy it.\nBalustrade Wurm recurs for two plus green and green from the graveyard while Delirium is on, and comes back with a finality counter. It is the follow-up threat that beats sweepers.\nOmnivorous Flytrap doubles at six card types, so if you can hold a seventh and eighth type (an instant and a sorcery) the counters explode.\nFear of Missing Out untaps any target creature, including the Dinosaur that Restless Ridgeline animated, so the pumped attacker can hit twice.\nTerramorphic Expanse is a Delirium enabler first and fixing second — sacrificing it puts a land card in the graveyard, which is often the fourth type you needed."
   },
   {
-    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
-    "title": "Swarm Calculus",
+    "objectID": "decks/2026-09-10-compound-interest.html#matchups",
+    "href": "decks/2026-09-10-compound-interest.html#matchups",
+    "title": "Compound Interest",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Card pool consumption — cycle started 2026-09-07 · 84 cards locked · Hobbit 162/193 remaining\n43 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-09-09",
-    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-09-08",
-    "text": "2026-09-08\n\nTwice-Told Tales — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set hobbit dwarves\nPlot Twist — Simic (Blue / Green) — Plot combo plot"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-09-07",
-    "text": "2026-09-07\n\nWyrmgold — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set hobbit smaug\nDeathwatch — Jund sacrifice × morbid — death-drain engine with end-step growth combo sacrifice morbid"
-  },
-  {
-    "objectID": "archive.html#section-3",
-    "href": "archive.html#section-3",
-    "title": "Archive",
-    "section": "2026-09-06",
-    "text": "2026-09-06\n\nGoblin Growth — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set hobbit amass\nCold Case Haunting — WUBRG (five-color) | Eerie x Clue combo Eerie Clue"
-  },
-  {
-    "objectID": "archive.html#section-4",
-    "href": "archive.html#section-4",
-    "title": "Archive",
-    "section": "2026-09-05",
-    "text": "2026-09-05\n\nWeb Slingback — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun combo web-slinging\nGreenwood Ledger — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-5",
-    "href": "archive.html#section-5",
-    "title": "Archive",
-    "section": "2026-09-04",
-    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
-  },
-  {
-    "objectID": "archive.html#section-6",
-    "href": "archive.html#section-6",
-    "title": "Archive",
-    "section": "2026-09-03",
-    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-7",
-    "href": "archive.html#section-7",
-    "title": "Archive",
-    "section": "2026-09-02",
-    "text": "2026-09-02\n\nLandwarp — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak combo landfall warp sneak\nAmass to Arms — Mardu (WBR) Amass Goblins — The Hobbit set identity deck hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-8",
-    "href": "archive.html#section-8",
-    "title": "Archive",
-    "section": "2026-09-01",
-    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-9",
-    "href": "archive.html#section-9",
-    "title": "Archive",
-    "section": "2026-08-31",
-    "text": "2026-08-31\n\nBanner Fall — Red / Black — Token creation × Mobilize engine combo token-creation mobilize\nBalin’s Company — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-10",
-    "href": "archive.html#section-10",
-    "title": "Archive",
-    "section": "2026-08-30",
-    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending\nDragon’s Ledger — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-11",
-    "href": "archive.html#section-11",
-    "title": "Archive",
-    "section": "2026-08-29",
-    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
-  },
-  {
-    "objectID": "archive.html#section-12",
-    "href": "archive.html#section-12",
-    "title": "Archive",
-    "section": "2026-08-28",
-    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
-  },
-  {
-    "objectID": "archive.html#section-13",
-    "href": "archive.html#section-13",
-    "title": "Archive",
-    "section": "2026-08-27",
-    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
-  },
-  {
-    "objectID": "archive.html#section-14",
-    "href": "archive.html#section-14",
-    "title": "Archive",
-    "section": "2026-08-26",
-    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
-  },
-  {
-    "objectID": "archive.html#section-15",
-    "href": "archive.html#section-15",
-    "title": "Archive",
-    "section": "2026-08-25",
-    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-16",
-    "href": "archive.html#section-16",
-    "title": "Archive",
-    "section": "2026-08-24",
-    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
-  },
-  {
-    "objectID": "archive.html#section-17",
-    "href": "archive.html#section-17",
-    "title": "Archive",
-    "section": "2026-08-23",
-    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
-  },
-  {
-    "objectID": "archive.html#section-18",
-    "href": "archive.html#section-18",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-19",
-    "href": "archive.html#section-19",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-20",
-    "href": "archive.html#section-20",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+    "text": "Matchups\n\nAggro: the deck wins the long game, so trade early and lean on Bark-Knuckle Boxer’s indestructible trigger plus Bakersbane Duo’s Food life. Teapot Slinger’s drain buys the turns the threshold engine needs; do not race with a slower hand.\nControl: Force them to answer your Raccoons one at a time before the threshold turn; Balustrade Wurm cannot be countered and recurs from the graveyard, which is your best answer to a sweeper. Keep The Rollercrusher Ride in hand until it can clear the board and cross the threshold in the same cast.\nGraveyard hate: Delirium is upside, not dependency. Without it you still have a solid curve, expend 4 payoffs and the Ride’s entry damage; re-sequence toward the combat plan with Fear of Missing Out as a loot spell rather than a combo piece.\nFast creature decks: The Rollercrusher Ride for X equals three is a one-sided sweeper once Delirium is live (doubled damage), and Beastie Beatdown turns any grown Increment creature into a removal spell. The Ride is the card you are digging for."
   },
   {
     "objectID": "decks/2026-09-04-steel-and-saga.html",
@@ -1825,6 +1671,251 @@
     "title": "Steel and Saga",
     "section": "Matchups",
     "text": "Matchups\n\nAggro (fliers, lifegain, cats): Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug’s Fury, and the Fíli token swarm races.\nMidrange (landfall, counters): the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison’s power tracks the widening board.\nControl: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin’s Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.\nCombo and big mana: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent’s payoff lands."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Card pool consumption — cycle started 2026-09-07 · 105 cards locked · Hobbit 162/193 remaining\n44 deck guides — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-09-10",
+    "text": "2026-09-10\n\nCompound Interest — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage combo increment expend delirium"
+  },
+  {
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-09-09",
+    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-09-08",
+    "text": "2026-09-08\n\nTwice-Told Tales — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set hobbit dwarves\nPlot Twist — Simic (Blue / Green) — Plot combo plot"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-09-07",
+    "text": "2026-09-07\n\nWyrmgold — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set hobbit smaug\nDeathwatch — Jund sacrifice × morbid — death-drain engine with end-step growth combo sacrifice morbid"
+  },
+  {
+    "objectID": "archive.html#section-4",
+    "href": "archive.html#section-4",
+    "title": "Archive",
+    "section": "2026-09-06",
+    "text": "2026-09-06\n\nGoblin Growth — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set hobbit amass\nCold Case Haunting — WUBRG (five-color) | Eerie x Clue combo Eerie Clue"
+  },
+  {
+    "objectID": "archive.html#section-5",
+    "href": "archive.html#section-5",
+    "title": "Archive",
+    "section": "2026-09-05",
+    "text": "2026-09-05\n\nWeb Slingback — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun combo web-slinging\nGreenwood Ledger — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-6",
+    "href": "archive.html#section-6",
+    "title": "Archive",
+    "section": "2026-09-04",
+    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
+  },
+  {
+    "objectID": "archive.html#section-7",
+    "href": "archive.html#section-7",
+    "title": "Archive",
+    "section": "2026-09-03",
+    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-8",
+    "href": "archive.html#section-8",
+    "title": "Archive",
+    "section": "2026-09-02",
+    "text": "2026-09-02\n\nLandwarp — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak combo landfall warp sneak\nAmass to Arms — Mardu (WBR) Amass Goblins — The Hobbit set identity deck hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-9",
+    "href": "archive.html#section-9",
+    "title": "Archive",
+    "section": "2026-09-01",
+    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-10",
+    "href": "archive.html#section-10",
+    "title": "Archive",
+    "section": "2026-08-31",
+    "text": "2026-08-31\n\nBanner Fall — Red / Black — Token creation × Mobilize engine combo token-creation mobilize\nBalin’s Company — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-11",
+    "href": "archive.html#section-11",
+    "title": "Archive",
+    "section": "2026-08-30",
+    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending\nDragon’s Ledger — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-12",
+    "href": "archive.html#section-12",
+    "title": "Archive",
+    "section": "2026-08-29",
+    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
+  },
+  {
+    "objectID": "archive.html#section-13",
+    "href": "archive.html#section-13",
+    "title": "Archive",
+    "section": "2026-08-28",
+    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
+  },
+  {
+    "objectID": "archive.html#section-14",
+    "href": "archive.html#section-14",
+    "title": "Archive",
+    "section": "2026-08-27",
+    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
+  },
+  {
+    "objectID": "archive.html#section-15",
+    "href": "archive.html#section-15",
+    "title": "Archive",
+    "section": "2026-08-26",
+    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+  },
+  {
+    "objectID": "archive.html#section-16",
+    "href": "archive.html#section-16",
+    "title": "Archive",
+    "section": "2026-08-25",
+    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-17",
+    "href": "archive.html#section-17",
+    "title": "Archive",
+    "section": "2026-08-24",
+    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
+  },
+  {
+    "objectID": "archive.html#section-18",
+    "href": "archive.html#section-18",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
+  },
+  {
+    "objectID": "archive.html#section-19",
+    "href": "archive.html#section-19",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-20",
+    "href": "archive.html#section-20",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-21",
+    "href": "archive.html#section-21",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html",
+    "href": "decks/2026-08-25-swarm-calculus.html",
+    "title": "Swarm Calculus",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (curated pool)\n\n\nColors\nWURG — white / blue / red / green\n\n\nArchetype\nAggro-combo (Alliance ETB burn + Increment counters)\n\n\nSize\n60 cards, 26 lands\n\n\nCore engine\nAlliance ETB triggers x Increment counter growth\n\n\nPrimary win\nETB burn loop — Raphael and Slash drain opponents with every creature that enters\n\n\nSecondary win\nCounter-combat — Tester of the Tangential moves a huge counter stack onto an unblockable Fractal\n\n\nNonland curve\n3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "href": "decks/2026-08-25-swarm-calculus.html#game-plan-in-three-phases",
+    "title": "Swarm Calculus",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nDeploy the arithmetic (turns 1–4): Ambitious Augmenter or Cuboid Colony on curve, then EPF Point Squad and Raphael to establish the Alliance tax. Cast 3+ mana spells to start Increment growth — every spell makes every Increment creature bigger.\nCompound (turns 4–6): land Berta (mana per counter) and Fractal Tender (3/3 Fractal every end step). Tokens enter, Raphael and Slash ping, Mutanimals spreads counters, Delney doubles the small entries. Pensive Professor and Topiary Lecturer convert the counter pile into cards and mana.\nCash out: either burn the opponent out with a multi-entry turn (Fountainport Fish at instant speed + Neutrinos flickers + Slash attack tokens) or move a 10+ counter stack onto a Fractal with Tester of the Tangential and send it through Rogue’s Passage."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "href": "decks/2026-08-25-swarm-calculus.html#why-these-cards",
+    "title": "Swarm Calculus",
+    "section": "Why these cards",
+    "text": "Why these cards\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nRaphael, Tough Turtle\n4\nAlliance burn — 1 damage per entry; the deck’s tax collector\n\n\nEPF Point Squad\n4\nAlliance counter engine — grows itself on every entry; hybrid mana\n\n\nCuboid Colony\n4\nFlash Increment — cast on the opponent’s turn to grow and surprise-block\n\n\nMighty Mutanimals\n3\nToken maker + Alliance counter spreader in one body\n\n\nSlash, Reptile Rampager\n2\nAlliance payoff — 2 damage to each opponent per entry; makes Mutants on attack\n\n\nAmbitious Augmenter\n3\nOne-drop Increment; dies into a Fractal carrying its counters\n\n\nFractal Tender\n2\nToken engine — 3/3 Fractal every end step you grew it; Ward 2\n\n\nBerta, Wise Extrapolator\n2\nMana engine — one mana of any color per counter; X-cost Fractals\n\n\nThe Neutrinos\n2\nFlicker engine — attack to re-enter a creature, re-firing its ETB and all Alliances\n\n\nDelney, Streetwise Lookout\n2\nDoubler — small entries trigger their abilities an extra time\n\n\nTester of the Tangential\n2\nFinisher enabler — moves X counters onto the kill creature\n\n\nPensive Professor\n1\nDraw — a card per counter\n\n\nTopiary Lecturer\n1\nMana — taps for green equal to its power\n\n\nGet Lost\n2\nRemoval — answers creatures, enchantments, and planeswalkers"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "href": "decks/2026-08-25-swarm-calculus.html#lands-as-engines",
+    "title": "Swarm Calculus",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nRogue’s Passage\nMakes the counter-stacked Fractal (or Slash) unblockable — the kill enabler\n\n\nFountainport\nInstant-speed 1/1 Fish tokens trigger Alliance on demand; sac tokens to draw; Treasure in a pinch\n\n\nRestless Prairie\n3/3 Llama attacker; on attack all other creatures get +1/+1 — the wide-finish anthem\n\n\nRestless Ridgeline\n3/4 Dinosaur attacker; on attack pumps another attacker +2/+0 and untaps it\n\n\nSecluded Courtyard\nFree colored mana for creature spells (name Wizard — most of the engine)\n\n\nFrontier Bivouac\nTemur tri-land for the Increment core"
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "href": "decks/2026-08-25-swarm-calculus.html#curve-and-mana",
+    "title": "Swarm Calculus",
+    "section": "Curve and mana",
+    "text": "Curve and mana\n26 lands: 4 utility/token lands (2 Fountainport, 1 Rogue’s Passage), 5 manlands (3 Restless Prairie, 2 Restless Ridgeline), 3 Secluded Courtyard, 2 Frontier Bivouac, 9 Verge/fixing lands (2 Sandstorm, 2 Hushwood, 2 Sunbillow, 1 Riverpyre, 1 Floodfarm), and 6 basics (2 Forest, 1 Island, 1 Plains, 1 Mountain). The Verge lands need a basic to enter untapped, so fetch basics early; Frontier Bivouac and Secluded Courtyard smooth the three-color Increment spells.\nThe nonland curve is 3 one-drops, 10 twos, 9 threes, 7 fours, 4 fives — average mana value about 2.9. The deck is low to the ground but every 3+ mana spell is an Increment trigger, so the midgame naturally accelerates: Berta and Topiary turn the counter pile into mana for a Fractal Tender turn."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "href": "decks/2026-08-25-swarm-calculus.html#early-game-turns-13",
+    "title": "Swarm Calculus",
+    "section": "Early game (turns 1–3)",
+    "text": "Early game (turns 1–3)\n\nTurn 1: Ambitious Augmenter — a 1/1 that will grow with every spell and pays into a Fractal when it dies.\nTurn 2: Cuboid Colony (flash, flying, trample — hold it up as a surprise blocker and Increment grower) or Raphael, Tough Turtle to start taxing entries.\nTurn 3: EPF Point Squad (grows on every entry) or Delney if you have tokens coming. Get Lost any problematic permanent.\nPrioritize lands that enter untapped; play Fountainport early to build toward its activated abilities."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "href": "decks/2026-08-25-swarm-calculus.html#mid-game-turns-46",
+    "title": "Swarm Calculus",
+    "section": "Mid game (turns 4–6)",
+    "text": "Mid game (turns 4–6)\n\nLand Berta and Fractal Tender. Every spell now does quadruple duty: Increment counters, Berta mana, a Fractal at end step, and Alliance pings from that Fractal.\nAttack with manlands to trigger Prairies anthem and Ridgelines pump; Slash’s attack makes a Mutant that pings again.\nThe Neutrinos: attack, exile a Raphael or EPF, return it tapped and attacking — that entry re-fires every Alliance trigger and re-triggers its own ETB."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "href": "decks/2026-08-25-swarm-calculus.html#the-combo-turn",
+    "title": "Swarm Calculus",
+    "section": "The combo turn",
+    "text": "The combo turn\n\nBuild a counter stack on Tester of the Tangential (Increment makes it grow with each spell; it is 1/3, so any 2+ mana spell adds a counter; a 4-mana spell adds two).\nAt combat, activate Tester, pay X equal to the stack, and move every counter onto a Fractal (from Fractal Tender or Berta) or Slash.\nActivate Rogue’s Passage ({4}, {T}) on that creature — it can’t be blocked this turn.\nSwing for lethal. With Delney out, the small creatures’ abilities double all the way down, and Venom-style deathtouch or Prairie anthems make the wide attack nearly unblockable too."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "href": "decks/2026-08-25-swarm-calculus.html#win-condition-2-the-etb-burn-loop",
+    "title": "Swarm Calculus",
+    "section": "Win condition 2: the ETB burn loop",
+    "text": "Win condition 2: the ETB burn loop\nRaphael (1) plus Slash (2) plus a source of entries equals 3 damage per creature that enters. Sources of entries on a single turn: Mutanimals tokens, Slash attack tokens, Fractal Tender’s end-step Fractal, Berta’s X-Fractals, Fountainport Fish at instant speed (pay 1 life each), Cuboid Colony flashed on the opponent’s turn, and Neutrinos flickers. With Delney on the battlefield, each small entry triggers everything twice — a four-entry turn becomes 24 damage. Fountainport’s sacrifice-draw keeps the hand full while the Fish keep pinging."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "href": "decks/2026-08-25-swarm-calculus.html#mulligan-guide",
+    "title": "Swarm Calculus",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\n\nKeep: 2–3 lands with two or more colors, a two-drop, and at least one Alliance or Increment piece. Ambitious Augmenter plus any 3-drop is a strong open.\nTrim: 5+ land hands; hands with only 4- and 5-drops; single-color hands (the deck needs green for the one-drops and red for Raphael).\nThe deck wants density, not specific cards — almost every creature is both engine and payoff, so mulligan on mana and curve, not on particular names."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-08-25-swarm-calculus.html#key-interactions-and-edge-cases",
+    "title": "Swarm Calculus",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nDelney doubles entry abilities of creatures with power 2 or less. That includes every Alliance trigger (they are abilities of the entering creature’s triggers… in practice: when a 2/2 Mutant or 1/1 Fish enters, all Alliance abilities trigger an additional time). Creatures with power 3+ (Mutanimals, Slash, Neutrinos, Fractal Tender) are not doubled.\nIncrement checks mana spent, not mana value. A Get Lost cast for {1}{W} is a 2-mana spell; kicked or extra-cost spells count more. Counters are added by any spell you cast, so instant-speed Fountainport activations do not grow Increment creatures — only spells do.\nAmbitious Augmenter’s death trigger puts its counters onto a 0/0 Fractal — a great way to move a counter stack in a pinch, and that Fractal entering triggers Alliance.\nTester of the Tangential moves counters at the beginning of combat — activate before declaring attackers, and remember the {X} is paid from your mana pool, so Berta’s floating mana pays for it.\nFountainport’s Fish token costs 1 life — in a burn race, prefer Mutanimals and Fractal Tender as the entry sources.\nThe Neutrinos’ flicker returns the creature tapped and attacking — it deals combat damage that same combat, so flickering Raphael or a big EPF is both triggers and damage.\nSecluded Courtyard — name Wizard: Ambitious Augmenter, Berta, Fractal Tender, Pensive Professor, Tester, and Topiary are all Wizards."
+  },
+  {
+    "objectID": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "href": "decks/2026-08-25-swarm-calculus.html#matchups",
+    "title": "Swarm Calculus",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: Cuboid Colony’s flash flying blocker and deathtouch-adjacent pressure buy time; Get Lost removes the biggest threat; race with Slash pings — the burn loop outdamages most combat plans.\nControl: manlands are uncounterable and keep the Alliance clock running through sweepers; Delney’s unblockability clause (power 2 or less can’t be blocked by 3+) is irrelevant here, but Increment growth on uncounterable manlands is not; rebuild fast with Fountainport draws.\nMidrange: the counter spread from Mutanimals and EPF outgrows most ground armies; Tester + Rogue’s Passage punches through the biggest blocker.\nBoard wipes: everything except the manlands dies, but Ambitious Augmenter dies into a Fractal, Slash’s tokens already pings, and the manlands survive to keep attacking."
   },
   {
     "objectID": "decks/2026-09-09-silvan-surge.html",

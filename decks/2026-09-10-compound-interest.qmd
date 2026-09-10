@@ -1,0 +1,160 @@
+---
+title: "Compound Interest"
+subtitle: "Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage"
+date: "2026-09-10"
+categories: ["combo", "increment", "expend", "delirium"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Temur — green / blue / red |
+| Archetype | Midrange aggro-combo (mana-threshold engine) |
+| Size | 60 cards, 23 lands |
+| Rolled mechanics | Increment x Expend x Delirium |
+| Primary win | Cross the four-mana threshold with a big spell: every Raccoon payoff fires and every Increment creature grows, then swing with tramplers |
+| Secondary win | The Rollercrusher Ride doubles noncombat damage once delirium is on, turning Teapot Slinger's pings into a burn finish |
+| Battery | 55.3% over 3 x 500 games, synergy 73.2, T4 consistency 0.59, P(4 lands by turn 4) 0.60 |
+| Nonland curve | 5 ones, 14 twos, 13 threes, 2 fours, 3 fives (average 2.57) |
+
+# Overview
+
+Compound Interest plays three mechanics that all want the same thing: a turn where you spend a lot of mana.
+
+- **Expend** (rule 700.14): a player expends 4 when a spell's cost crosses the four-mana mark spent on spells that turn. Every Raccoon in the deck has "whenever you expend 4," so a single four-plus mana spell turns the whole board on at once. Expend is a once-per-turn threshold, which is exactly why the deck plays so many payoffs rather than one.
+- **Increment**: your Wizard creatures grow whenever you cast a spell that costs more mana than their power or toughness. A two-mana spell grows a 1/1 Ambitious Augmenter; a five-mana spell grows almost everything on the board. Every expensive spell is therefore also a team pump, and because the threshold compares against current power and toughness, the creatures stay greasy at one or two mana and only want the big ones.
+- **Delirium**: with four or more card types in the graveyard, the Duskmourn half of the deck turns from filler into finishers. Fear of Missing Out grants an extra combat phase, Omnivorous Flytrap doubles the counters it hands out at six card types, Wildfire Wickerfolk gets trample, and The Rollercrusher Ride doubles all noncombat damage.
+
+The three mechanics feed each other. The Expend payoffs that stock the graveyard (Byway Barterer discards your hand and draws two; Fear of Missing Out loots on entry) are the same cards that switch Delirium on. Delirium then doubles the counters Increment has been accumulating and adds extra combat phases to the tramplers Expend built. Nothing in the deck is a passenger.
+
+It is called Compound Interest because the deck literally compounds: mana spent becomes counters, counters become Fractal tokens and cards, cards become more mana spent, and the second big turn is always bigger than the first.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Bank early (turns 1–3).** Deploy cheap, efficient bodies: Ambitious Augmenter, Bakersbane Duo, Bark-Knuckle Boxer, Textbook Tabulator, Wandertale Mentor. Textbook Tabulator's surveil 2 is your first graveyard deposit. Ramp with Wandertale Mentor and, on turn three, Muerra, Trash Tactician, who adds one red or green mana for every Raccoon you control during your first main phase.
+2. **Cross the threshold (turns 3–5).** Cast one expensive spell and let it do everything: The Rollercrusher Ride for four or more, Impossible Inferno at five, Beastie Beatdown on a fight, or Balustrade Wurm at five. That single cast crosses four mana spent and triggers every expend 4 ability at once, while giving every Increment creature a counter.
+3. **Cash the interest.** With Delirium online, Fear of Missing Out untaps your best attacker and grants an additional combat phase, Omnivorous Flytrap doubles its counters, and Wildfire Wickerfolk attacks as a 4/3 trampler. Restless Ridgeline becomes a 3/4 Dinosaur that also untaps and pumps another attacker. Two combats with a trampling, counters-heavy board usually ends it.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Ambitious Augmenter | 4 | Engine — one-mana Increment body; dies into a Fractal holding its counters |
+| Wandertale Mentor | 4 | Engine — expend 4 grows it; taps for red or green to fund the threshold |
+| Bakersbane Duo | 3 | Engine — expend 4 pump plus a Food token for a later big turn |
+| Textbook Tabulator | 3 | Enabler — Increment body whose surveil 2 stocks Delirium |
+| Bark-Knuckle Boxer | 2 | Enabler — expend 4 makes it indestructible, so it survives the alpha strike |
+| Pensive Professor | 2 | Payoff — every counter drawn by Increment draws a card |
+| Omnivorous Flytrap | 2 | Payoff — Delirium hands out counters and doubles them at six card types |
+| Wildfire Wickerfolk | 2 | Payoff — haste, and a 4/3 trampler with Delirium |
+| Muerra, Trash Tactician | 2 | Engine — mana per Raccoon, expend 4 lifegain, expend 8 card advantage |
+| Byway Barterer | 2 | Enabler — expend 4 loots four cards deep and fills the graveyard |
+| Teapot Slinger | 2 | Payoff — expend 4 drains each opponent for 2, doubled by the Ride |
+| Fear of Missing Out | 2 | Payoff — loot on entry, extra combat with Delirium |
+| Balustrade Wurm | 1 | Haymaker — uncounterable 5/5 hasty trampler that recurs from the graveyard |
+| The Rollercrusher Ride | 2 | Payoff — damage doubler and a scalable sweeper that crosses the threshold |
+| Impossible Inferno | 2 | Interaction — six damage, then a free card with Delirium |
+| Beastie Beatdown | 1 | Interaction — fight plus two counters with Delirium |
+| Violent Urge | 1 | Trick — first strike early, double strike with Delirium |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Ridgeline | Primary win con land — becomes a 3/4 Dinosaur for two plus red and green, and every attack gives another attacker +2/+0 and untaps it |
+| Restless Spire | Two mana 2/1 with first strike on your turn; attacks and scrys, digging toward Delirium or a threshold spell |
+| Terramorphic Expanse | Fixes colours and puts a land card in the graveyard for Delirium |
+| Stormcarved Coast | Untapped blue-red source once you have two other lands, powering the blue Increment half |
+| Forest / Mountain / Island | Fast, unconditional sources; green leads, red second, blue for the Wizards |
+
+## Curve and mana
+
+The nonland curve is 5 ones, 14 twos, 13 threes, 2 fours and 3 fives: nothing costs more than five, and the average is 2.57. That matters because Expend cares about total mana spent, not about a single expensive card. Three cheap spells spend four mana just as well as one four-drop, and each of them separately triggers Increment.
+
+Twenty-three lands, fifteen of them basics: 6 Forest, 5 Mountain, 5 Island, 2 Restless Ridgeline, 2 Restless Spire, 2 Terramorphic Expanse, 1 Stormcarved Coast. Green is the primary curve colour (turn-one Augmenter, turn-two Duo or Boxer), red carries the Raccoon payoffs and the threshold spells, and blue is a small but real splash for five cards, so fetch islands late and let Terramorphic Expanse find the exact source you are missing.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+- **Turn 1:** Ambitious Augmenter is the ideal play. It grows off any two-mana spell, and if it dies with counters it becomes a Fractal carrying those counters, which is a second body for free.
+- **Turn 2:** Wandertale Mentor is the best two-drop because it ramps: tap it for red or green and you reach four mana spent a full turn earlier. Bakersbane Duo and Bark-Knuckle Boxer are the aggressive alternatives.
+- **Turn 3:** Textbook Tabulator for surveil 2, or Muerra, Trash Tactician if you already have a couple of Raccoons. Muerra's first-main mana makes the threshold trivial; keep her alive and the deck stops needing lands.
+- Do not spend removal here. Impossible Inferno and Beastie Beatdown are for the turn they double as threshold spells.
+
+## Mid game (turns 4–6)
+
+- Pick the spell that crosses four mana spent and cast it when your board is widest, not on curve. The expend 4 trigger is once per turn, so the payoff is proportional to how many Raccoons you have assembled.
+- Textbook Tabulator, Byway Barterer and Fear of Missing Out are your graveyard taps. Surveil and looting feel like card selection; they are actually Delirium enablers, so favour them over a slightly better body once the yard is one or two types short.
+- Track card types actively: creature, land, instant, sorcery, enchantment, artifact. Wildfire Wickerfolk and Fear of Missing Out each count as two types in the yard (artifact creature, enchantment creature), which is how a single loot can flip Delirium on.
+
+## The combo turn
+
+1. Assemble at least one expend 4 payoff, ideally two or three, plus an Increment creature or two.
+2. Keep four or more mana available with a spell in hand that costs four or more, or an X spell such as The Rollercrusher Ride.
+3. Cast the expensive spell. Rule 700.14 gives exactly one expend 4 trigger this turn: Wandertale Mentor gains a counter, Bark-Knuckle Boxer turns indestructible, Byway Barterer loots a fresh hand and fills the yard, while Bakersbane Duo and Teapot Slinger pump and drain.
+4. The same cast grows every Increment creature whose power or toughness is lower than the mana you spent, and Pensive Professor draws a card for each of its own counters.
+5. With Delirium on, move to combat. Fear of Missing Out untaps your best attacker and grants an additional combat phase; Restless Ridgeline pumps and untaps another attacker. Two combat steps with trample and counters is the kill.
+
+## Win condition 2: the doubling burn
+
+Teapot Slinger drains each opponent for 2 every time you expend 4. The Rollercrusher Ride states that while you have four or more card types in your graveyard, any noncombat damage a source you control would deal is doubled instead. Each Slinger ping becomes 4, and the Ride's own entry trigger (X damage to each of up to X target creatures) doubles too. Against a stalled board, this is the win that does not need an attack step: hold two Slingers and a Ride, cross the threshold, and the table drains while the Ride clears blockers.
+
+## Mulligan guide
+
+- **Keep:** two or three lands with green in them, a turn-one or turn-two creature, and at least one graveyard tap (Textbook Tabulator, Byway Barterer, Fear of Missing Out) or a Muerra.
+- **Keep aggressively** if the hand has three mana, a Raccoon and any four-mana spell: that is the whole plan.
+- **Trim:** one-land hands; hands with no green source; hands of only expensive spells with no cheap Raccoons to convert the threshold into damage.
+
+## Key interactions and edge cases
+
+- **Expend 4 triggers once per turn.** It is a threshold, not a counter that resets. Spending mana on activated abilities does not count; only mana spent to cast spells does. Sequence your biggest spell so the crossing mana is the one that pays for it.
+- **Increment checks each spell separately** and compares against current power or toughness, so a creature that already grew needs an even bigger spell next time. Small bodies stay live longest, which is why the one- and two-mana creatures are the engine.
+- **Delirium counts types, not cards.** One artifact creature and one enchantment creature plus a land and a spell already satisfy it.
+- **Balustrade Wurm recurs** for two plus green and green from the graveyard while Delirium is on, and comes back with a finality counter. It is the follow-up threat that beats sweepers.
+- **Omnivorous Flytrap doubles at six card types**, so if you can hold a seventh and eighth type (an instant and a sorcery) the counters explode.
+- **Fear of Missing Out untaps any target creature**, including the Dinosaur that Restless Ridgeline animated, so the pumped attacker can hit twice.
+- **Terramorphic Expanse is a Delirium enabler first and fixing second** — sacrificing it puts a land card in the graveyard, which is often the fourth type you needed.
+
+## Matchups
+
+- **Aggro:** the deck wins the long game, so trade early and lean on Bark-Knuckle Boxer's indestructible trigger plus Bakersbane Duo's Food life. Teapot Slinger's drain buys the turns the threshold engine needs; do not race with a slower hand.
+- **Control:** Force them to answer your Raccoons one at a time before the threshold turn; Balustrade Wurm cannot be countered and recurs from the graveyard, which is your best answer to a sweeper. Keep The Rollercrusher Ride in hand until it can clear the board and cross the threshold in the same cast.
+- **Graveyard hate:** Delirium is upside, not dependency. Without it you still have a solid curve, expend 4 payoffs and the Ride's entry damage; re-sequence toward the combat plan with Fear of Missing Out as a loot spell rather than a combo piece.
+- **Fast creature decks:** The Rollercrusher Ride for X equals three is a one-sided sweeper once Delirium is live (doubled damage), and Beastie Beatdown turns any grown Increment creature into a removal spell. The Ride is the card you are digging for.
+
+# Deck list (Arena import)
+
+```text
+Compound Interest
+Deck
+4 Ambitious Augmenter
+4 Wandertale Mentor
+3 Bakersbane Duo
+3 Textbook Tabulator
+2 Bark-Knuckle Boxer
+2 Pensive Professor
+2 Omnivorous Flytrap
+2 Wildfire Wickerfolk
+2 Muerra, Trash Tactician
+2 Byway Barterer
+2 Teapot Slinger
+2 Fear of Missing Out
+1 Balustrade Wurm
+2 The Rollercrusher Ride
+2 Impossible Inferno
+1 Beastie Beatdown
+1 Violent Urge
+2 Restless Ridgeline
+2 Restless Spire
+2 Terramorphic Expanse
+1 Stormcarved Coast
+6 Forest
+5 Mountain
+5 Island
+```

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-09-10">
+
+<title>Compound Interest – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game-turns-13" id="toc-early-game-turns-13" class="nav-link" data-scroll-target="#early-game-turns-13">Early game (turns 1–3)</a></li>
+  <li><a href="#mid-game-turns-46" id="toc-mid-game-turns-46" class="nav-link" data-scroll-target="#mid-game-turns-46">Mid game (turns 4–6)</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2-the-doubling-burn" id="toc-win-condition-2-the-doubling-burn" class="nav-link" data-scroll-target="#win-condition-2-the-doubling-burn">Win condition 2: the doubling burn</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Compound Interest</h1>
+<p class="subtitle lead">Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">increment</div>
+    <div class="quarto-category">expend</div>
+    <div class="quarto-category">delirium</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 10, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (curated pool)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Temur — green / blue / red</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Midrange aggro-combo (mana-threshold engine)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 23 lands</td>
+</tr>
+<tr class="odd">
+<td>Rolled mechanics</td>
+<td>Increment x Expend x Delirium</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Cross the four-mana threshold with a big spell: every Raccoon payoff fires and every Increment creature grows, then swing with tramplers</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>The Rollercrusher Ride doubles noncombat damage once delirium is on, turning Teapot Slinger’s pings into a burn finish</td>
+</tr>
+<tr class="even">
+<td>Battery</td>
+<td>55.3% over 3 x 500 games, synergy 73.2, T4 consistency 0.59, P(4 lands by turn 4) 0.60</td>
+</tr>
+<tr class="odd">
+<td>Nonland curve</td>
+<td>5 ones, 14 twos, 13 threes, 2 fours, 3 fives (average 2.57)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Compound Interest plays three mechanics that all want the same thing: a turn where you spend a lot of mana.</p>
+<ul>
+<li><strong>Expend</strong> (rule 700.14): a player expends 4 when a spell’s cost crosses the four-mana mark spent on spells that turn. Every Raccoon in the deck has “whenever you expend 4,” so a single four-plus mana spell turns the whole board on at once. Expend is a once-per-turn threshold, which is exactly why the deck plays so many payoffs rather than one.</li>
+<li><strong>Increment</strong>: your Wizard creatures grow whenever you cast a spell that costs more mana than their power or toughness. A two-mana spell grows a 1/1 Ambitious Augmenter; a five-mana spell grows almost everything on the board. Every expensive spell is therefore also a team pump, and because the threshold compares against current power and toughness, the creatures stay greasy at one or two mana and only want the big ones.</li>
+<li><strong>Delirium</strong>: with four or more card types in the graveyard, the Duskmourn half of the deck turns from filler into finishers. Fear of Missing Out grants an extra combat phase, Omnivorous Flytrap doubles the counters it hands out at six card types, Wildfire Wickerfolk gets trample, and The Rollercrusher Ride doubles all noncombat damage.</li>
+</ul>
+<p>The three mechanics feed each other. The Expend payoffs that stock the graveyard (Byway Barterer discards your hand and draws two; Fear of Missing Out loots on entry) are the same cards that switch Delirium on. Delirium then doubles the counters Increment has been accumulating and adds extra combat phases to the tramplers Expend built. Nothing in the deck is a passenger.</p>
+<p>It is called Compound Interest because the deck literally compounds: mana spent becomes counters, counters become Fractal tokens and cards, cards become more mana spent, and the second big turn is always bigger than the first.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Bank early (turns 1–3).</strong> Deploy cheap, efficient bodies: Ambitious Augmenter, Bakersbane Duo, Bark-Knuckle Boxer, Textbook Tabulator, Wandertale Mentor. Textbook Tabulator’s surveil 2 is your first graveyard deposit. Ramp with Wandertale Mentor and, on turn three, Muerra, Trash Tactician, who adds one red or green mana for every Raccoon you control during your first main phase.</li>
+<li><strong>Cross the threshold (turns 3–5).</strong> Cast one expensive spell and let it do everything: The Rollercrusher Ride for four or more, Impossible Inferno at five, Beastie Beatdown on a fight, or Balustrade Wurm at five. That single cast crosses four mana spent and triggers every expend 4 ability at once, while giving every Increment creature a counter.</li>
+<li><strong>Cash the interest.</strong> With Delirium online, Fear of Missing Out untaps your best attacker and grants an additional combat phase, Omnivorous Flytrap doubles its counters, and Wildfire Wickerfolk attacks as a 4/3 trampler. Restless Ridgeline becomes a 3/4 Dinosaur that also untaps and pumps another attacker. Two combats with a trampling, counters-heavy board usually ends it.</li>
+</ol>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ambitious Augmenter</td>
+<td>4</td>
+<td>Engine — one-mana Increment body; dies into a Fractal holding its counters</td>
+</tr>
+<tr class="even">
+<td>Wandertale Mentor</td>
+<td>4</td>
+<td>Engine — expend 4 grows it; taps for red or green to fund the threshold</td>
+</tr>
+<tr class="odd">
+<td>Bakersbane Duo</td>
+<td>3</td>
+<td>Engine — expend 4 pump plus a Food token for a later big turn</td>
+</tr>
+<tr class="even">
+<td>Textbook Tabulator</td>
+<td>3</td>
+<td>Enabler — Increment body whose surveil 2 stocks Delirium</td>
+</tr>
+<tr class="odd">
+<td>Bark-Knuckle Boxer</td>
+<td>2</td>
+<td>Enabler — expend 4 makes it indestructible, so it survives the alpha strike</td>
+</tr>
+<tr class="even">
+<td>Pensive Professor</td>
+<td>2</td>
+<td>Payoff — every counter drawn by Increment draws a card</td>
+</tr>
+<tr class="odd">
+<td>Omnivorous Flytrap</td>
+<td>2</td>
+<td>Payoff — Delirium hands out counters and doubles them at six card types</td>
+</tr>
+<tr class="even">
+<td>Wildfire Wickerfolk</td>
+<td>2</td>
+<td>Payoff — haste, and a 4/3 trampler with Delirium</td>
+</tr>
+<tr class="odd">
+<td>Muerra, Trash Tactician</td>
+<td>2</td>
+<td>Engine — mana per Raccoon, expend 4 lifegain, expend 8 card advantage</td>
+</tr>
+<tr class="even">
+<td>Byway Barterer</td>
+<td>2</td>
+<td>Enabler — expend 4 loots four cards deep and fills the graveyard</td>
+</tr>
+<tr class="odd">
+<td>Teapot Slinger</td>
+<td>2</td>
+<td>Payoff — expend 4 drains each opponent for 2, doubled by the Ride</td>
+</tr>
+<tr class="even">
+<td>Fear of Missing Out</td>
+<td>2</td>
+<td>Payoff — loot on entry, extra combat with Delirium</td>
+</tr>
+<tr class="odd">
+<td>Balustrade Wurm</td>
+<td>1</td>
+<td>Haymaker — uncounterable 5/5 hasty trampler that recurs from the graveyard</td>
+</tr>
+<tr class="even">
+<td>The Rollercrusher Ride</td>
+<td>2</td>
+<td>Payoff — damage doubler and a scalable sweeper that crosses the threshold</td>
+</tr>
+<tr class="odd">
+<td>Impossible Inferno</td>
+<td>2</td>
+<td>Interaction — six damage, then a free card with Delirium</td>
+</tr>
+<tr class="even">
+<td>Beastie Beatdown</td>
+<td>1</td>
+<td>Interaction — fight plus two counters with Delirium</td>
+</tr>
+<tr class="odd">
+<td>Violent Urge</td>
+<td>1</td>
+<td>Trick — first strike early, double strike with Delirium</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the combo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restless Ridgeline</td>
+<td>Primary win con land — becomes a 3/4 Dinosaur for two plus red and green, and every attack gives another attacker +2/+0 and untaps it</td>
+</tr>
+<tr class="even">
+<td>Restless Spire</td>
+<td>Two mana 2/1 with first strike on your turn; attacks and scrys, digging toward Delirium or a threshold spell</td>
+</tr>
+<tr class="odd">
+<td>Terramorphic Expanse</td>
+<td>Fixes colours and puts a land card in the graveyard for Delirium</td>
+</tr>
+<tr class="even">
+<td>Stormcarved Coast</td>
+<td>Untapped blue-red source once you have two other lands, powering the blue Increment half</td>
+</tr>
+<tr class="odd">
+<td>Forest / Mountain / Island</td>
+<td>Fast, unconditional sources; green leads, red second, blue for the Wizards</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>The nonland curve is 5 ones, 14 twos, 13 threes, 2 fours and 3 fives: nothing costs more than five, and the average is 2.57. That matters because Expend cares about total mana spent, not about a single expensive card. Three cheap spells spend four mana just as well as one four-drop, and each of them separately triggers Increment.</p>
+<p>Twenty-three lands, fifteen of them basics: 6 Forest, 5 Mountain, 5 Island, 2 Restless Ridgeline, 2 Restless Spire, 2 Terramorphic Expanse, 1 Stormcarved Coast. Green is the primary curve colour (turn-one Augmenter, turn-two Duo or Boxer), red carries the Raccoon payoffs and the threshold spells, and blue is a small but real splash for five cards, so fetch islands late and let Terramorphic Expanse find the exact source you are missing.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game-turns-13" class="level2">
+<h2 class="anchored" data-anchor-id="early-game-turns-13">Early game (turns 1–3)</h2>
+<ul>
+<li><strong>Turn 1:</strong> Ambitious Augmenter is the ideal play. It grows off any two-mana spell, and if it dies with counters it becomes a Fractal carrying those counters, which is a second body for free.</li>
+<li><strong>Turn 2:</strong> Wandertale Mentor is the best two-drop because it ramps: tap it for red or green and you reach four mana spent a full turn earlier. Bakersbane Duo and Bark-Knuckle Boxer are the aggressive alternatives.</li>
+<li><strong>Turn 3:</strong> Textbook Tabulator for surveil 2, or Muerra, Trash Tactician if you already have a couple of Raccoons. Muerra’s first-main mana makes the threshold trivial; keep her alive and the deck stops needing lands.</li>
+<li>Do not spend removal here. Impossible Inferno and Beastie Beatdown are for the turn they double as threshold spells.</li>
+</ul>
+</section>
+<section id="mid-game-turns-46" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-turns-46">Mid game (turns 4–6)</h2>
+<ul>
+<li>Pick the spell that crosses four mana spent and cast it when your board is widest, not on curve. The expend 4 trigger is once per turn, so the payoff is proportional to how many Raccoons you have assembled.</li>
+<li>Textbook Tabulator, Byway Barterer and Fear of Missing Out are your graveyard taps. Surveil and looting feel like card selection; they are actually Delirium enablers, so favour them over a slightly better body once the yard is one or two types short.</li>
+<li>Track card types actively: creature, land, instant, sorcery, enchantment, artifact. Wildfire Wickerfolk and Fear of Missing Out each count as two types in the yard (artifact creature, enchantment creature), which is how a single loot can flip Delirium on.</li>
+</ul>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<ol type="1">
+<li>Assemble at least one expend 4 payoff, ideally two or three, plus an Increment creature or two.</li>
+<li>Keep four or more mana available with a spell in hand that costs four or more, or an X spell such as The Rollercrusher Ride.</li>
+<li>Cast the expensive spell. Rule 700.14 gives exactly one expend 4 trigger this turn: Wandertale Mentor gains a counter, Bark-Knuckle Boxer turns indestructible, Byway Barterer loots a fresh hand and fills the yard, while Bakersbane Duo and Teapot Slinger pump and drain.</li>
+<li>The same cast grows every Increment creature whose power or toughness is lower than the mana you spent, and Pensive Professor draws a card for each of its own counters.</li>
+<li>With Delirium on, move to combat. Fear of Missing Out untaps your best attacker and grants an additional combat phase; Restless Ridgeline pumps and untaps another attacker. Two combat steps with trample and counters is the kill.</li>
+</ol>
+</section>
+<section id="win-condition-2-the-doubling-burn" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2-the-doubling-burn">Win condition 2: the doubling burn</h2>
+<p>Teapot Slinger drains each opponent for 2 every time you expend 4. The Rollercrusher Ride states that while you have four or more card types in your graveyard, any noncombat damage a source you control would deal is doubled instead. Each Slinger ping becomes 4, and the Ride’s own entry trigger (X damage to each of up to X target creatures) doubles too. Against a stalled board, this is the win that does not need an attack step: hold two Slingers and a Ride, cross the threshold, and the table drains while the Ride clears blockers.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<ul>
+<li><strong>Keep:</strong> two or three lands with green in them, a turn-one or turn-two creature, and at least one graveyard tap (Textbook Tabulator, Byway Barterer, Fear of Missing Out) or a Muerra.</li>
+<li><strong>Keep aggressively</strong> if the hand has three mana, a Raccoon and any four-mana spell: that is the whole plan.</li>
+<li><strong>Trim:</strong> one-land hands; hands with no green source; hands of only expensive spells with no cheap Raccoons to convert the threshold into damage.</li>
+</ul>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>Expend 4 triggers once per turn.</strong> It is a threshold, not a counter that resets. Spending mana on activated abilities does not count; only mana spent to cast spells does. Sequence your biggest spell so the crossing mana is the one that pays for it.</li>
+<li><strong>Increment checks each spell separately</strong> and compares against current power or toughness, so a creature that already grew needs an even bigger spell next time. Small bodies stay live longest, which is why the one- and two-mana creatures are the engine.</li>
+<li><strong>Delirium counts types, not cards.</strong> One artifact creature and one enchantment creature plus a land and a spell already satisfy it.</li>
+<li><strong>Balustrade Wurm recurs</strong> for two plus green and green from the graveyard while Delirium is on, and comes back with a finality counter. It is the follow-up threat that beats sweepers.</li>
+<li><strong>Omnivorous Flytrap doubles at six card types</strong>, so if you can hold a seventh and eighth type (an instant and a sorcery) the counters explode.</li>
+<li><strong>Fear of Missing Out untaps any target creature</strong>, including the Dinosaur that Restless Ridgeline animated, so the pumped attacker can hit twice.</li>
+<li><strong>Terramorphic Expanse is a Delirium enabler first and fixing second</strong> — sacrificing it puts a land card in the graveyard, which is often the fourth type you needed.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> the deck wins the long game, so trade early and lean on Bark-Knuckle Boxer’s indestructible trigger plus Bakersbane Duo’s Food life. Teapot Slinger’s drain buys the turns the threshold engine needs; do not race with a slower hand.</li>
+<li><strong>Control:</strong> Force them to answer your Raccoons one at a time before the threshold turn; Balustrade Wurm cannot be countered and recurs from the graveyard, which is your best answer to a sweeper. Keep The Rollercrusher Ride in hand until it can clear the board and cross the threshold in the same cast.</li>
+<li><strong>Graveyard hate:</strong> Delirium is upside, not dependency. Without it you still have a solid curve, expend 4 payoffs and the Ride’s entry damage; re-sequence toward the combat plan with Fear of Missing Out as a loot spell rather than a combo piece.</li>
+<li><strong>Fast creature decks:</strong> The Rollercrusher Ride for X equals three is a one-sided sweeper once Delirium is live (doubled damage), and Beastie Beatdown turns any grown Increment creature into a removal spell. The Ride is the card you are digging for.</li>
+</ul>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre class="text"><code>Compound Interest
+Deck
+4 Ambitious Augmenter
+4 Wandertale Mentor
+3 Bakersbane Duo
+3 Textbook Tabulator
+2 Bark-Knuckle Boxer
+2 Pensive Professor
+2 Omnivorous Flytrap
+2 Wildfire Wickerfolk
+2 Muerra, Trash Tactician
+2 Byway Barterer
+2 Teapot Slinger
+2 Fear of Missing Out
+1 Balustrade Wurm
+2 The Rollercrusher Ride
+2 Impossible Inferno
+1 Beastie Beatdown
+1 Violent Urge
+2 Restless Ridgeline
+2 Restless Spire
+2 Terramorphic Expanse
+1 Stormcarved Coast
+6 Forest
+5 Mountain
+5 Island</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

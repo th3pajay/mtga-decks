@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-09**:
+Deck guides published **2026-09-10**:
 
-- **[Silvan Surge](decks/2026-09-09-silvan-surge.html)** — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set  `hobbit` `elves`
-- **[Prismatic Departure](decks/2026-09-09-prismatic-departure.html)** — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine  `combo` `disappear` `vivid` `spree`
+- **[Compound Interest](decks/2026-09-10-compound-interest.html)** — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage  `combo` `increment` `expend` `delirium`
