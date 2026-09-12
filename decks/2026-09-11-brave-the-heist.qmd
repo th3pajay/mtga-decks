@@ -1,0 +1,163 @@
+---
+title: "Brave the Heist"
+subtitle: "Five-color (WUBRG) — Valiant x Connive x Treasure: target your own creatures, hoard the pay, spend it on dragons"
+date: "2026-09-11"
+categories: ["combo", "valiant", "connive", "treasure"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Five-color (White / Blue / Black / Red / Green) |
+| Archetype | Aggro-combo: a target-trigger engine that turns every cheap spell into a Valiant trigger, a connive and a Treasure token |
+| Size | 60 cards |
+| Primary win | Magda, the Hoardmaster trades three Treasures for a 4/4 red Scorpion Dragon with flying and haste, repeatedly, while the Valiant Mice grow underneath |
+| Secondary win | Monument to Endurance: every connive and every self-discard drains each opponent for 3 life, so the loot half of the deck is also a burn clock |
+| Land win con | Villainous Hideout connives a Villain from a land, which is a free discard trigger for the drain clock and a +1/+1 counter every turn; Fountainport makes the Treasure that feeds the dragons; Rogue's Passage makes the winning attacker unblockable |
+
+# Overview
+
+Targeting your own creature is never just a pump here. Valiant rewards the first spell or ability you control to target a creature each turn, and connive rewards a creature for discarding a nonland card. Every cheap instant and creature ability in the list is written to do both at once, and nearly all of them leave a Treasure token behind.
+
+The three rolled mechanics are the crew. Valiant (white and red) is who gets pointed at: Emberheart Challenger, Whiskerquill Scribe, Flowerfoot Swordmaster and Seedglaive Mentor all pay off the moment they are targeted. Connive (blue and black) is the lookout: Red Room Recruit connives on entry, Mob Lookout makes another creature connive on entry, and Unstable Experiment connives at instant speed. Treasure (all five colors) is the loot: Gold Rush, Ancestors' Aid, Reckless Ransacking, Reckless Lackey, Charming Scoundrel and Fountainport bury the board in Treasures that double as the deck's five-color fixing.
+
+The payoff line is deliberately cheap, because Magda costs two mana and converts three Treasures into a 4/4 flying haste token. The average mana value of the nonland cards is 1.9.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Deploy a Valiant Mouse (Flowerfoot Swordmaster, Emberheart Challenger, Whiskerquill Scribe) or Reckless Lackey, and hold a one-mana instant |
+| Turns 2-4 | Start the double-dip: Gold Rush, Ancestors' Aid or Reckless Ransacking targets a Valiant creature and makes a Treasure; Unstable Experiment connives one at instant speed |
+| Turns 3-5 | Red Room Recruit and Mob Lookout add connive triggers; Collector's Vault and Monument to Endurance turn every discard into cards, Treasures and drains |
+| Turn 5+ | Magda converts Treasures into Scorpion Dragons, Rogue's Passage clears a lane, Monument to Endurance finishes through blockers |
+
+## Card roles
+
+| Card | Cost | Role in the engine |
+|------|------|--------------------|
+| Emberheart Challenger | {1}{R} | Valiant payoff: targeting him exiles the top card and lets you play it this turn |
+| Whiskerquill Scribe | {1}{R} | Valiant payoff and the cheapest discard outlet for Monument |
+| Flowerfoot Swordmaster | {W} | One-mana Valiant body; targeting her pumps every Mouse you control |
+| Seedglaive Mentor | {1}{R}{W} | Valiant payoff that grows permanently, on a 3/2 vigilance haste body |
+| Red Room Recruit | {1}{B} | Villain that connives on entry; a legal Villainous Hideout target |
+| Mob Lookout | {1}{U/B} | Points a connive at any creature you control, so it also fires Valiant |
+| Magda, the Hoardmaster | {1}{R} | Primary win: three Treasures become a 4/4 flying haste Scorpion Dragon, once a turn |
+| Reckless Lackey | {R} | One-mana first strike attacker that later trades for a card and a Treasure |
+| Charming Scoundrel | {1}{R} | Modal two-drop: a Treasure, a loot, or a Wicked Role on a Valiant creature |
+| Gold Rush | {1}{G} | Signature enabler: a Treasure plus +2/+2 per Treasure on a targeted creature |
+| Ancestors' Aid | {1}{R} | Treasure plus first strike; a combat trick that is also an engine piece |
+| Reckless Ransacking | {1}{R} | Treasure plus +3/+2, to win a blocked attack |
+| Unstable Experiment | {1}{U} | Instant-speed connive, a card for you or a crime against an opponent |
+| Monument to Endurance | {3} | Discard payoff: draw, Treasure, or each opponent loses 3 life |
+| Collector's Vault | {2} | Repeatable loot and Treasure every turn, and a Monument trigger |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Villainous Hideout (2) | Any-color mana for Villain spells; {3}, {T} connives a Villain, which is a land-driven discard, counter and drain |
+| Fountainport (2) | {4}, {T} makes a Treasure for Magda; {2}, {T} sacrifices a Treasure to draw; {3}, {T} makes a 1/1 Fish blocker |
+| Rogue's Passage (1) | {4}, {T} makes a targeted creature unblockable, and targeting your own Mouse fires Valiant |
+| Nineteen basics | Mountains 5, Islands 4, Swamps 4, Forests 3, Plains 3; Treasures cover the color gaps |
+
+## Curve and mana
+
+The nonland curve is 1 mana (6 cards), 2 mana (15 cards) and 3 mana (3 cards), for an average of 1.9. Twenty-four lands put four lands by turn four at 0.63, with turn-four consistency of 0.62. Nineteen basics plus five colorless utility lands all enter untapped; Treasure tokens are the real five-color fixing.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest creature that matches your land, not the biggest one. Flowerfoot Swordmaster on turn one is ideal because she is a Valiant target for every later spell. Reckless Lackey attacks from turn one with first strike and haste, and is a Treasure later.
+
+Hold your two-mana instants until a Valiant creature is on the battlefield. Gold Rush on an empty board is a Treasure; Gold Rush targeting Emberheart Challenger is a Treasure, a +2/+2-per-Treasure pump, an exiled card you can play, and one more card toward the hoard.
+
+## Mid game
+
+Aim for two or three Valiant creatures so each cheap spell can point at a different one: Valiant triggers once per creature per turn, but for every creature, every turn. Cast Mob Lookout or Red Room Recruit and immediately point an instant at the same creature. Once Collector's Vault or Villainous Hideout is online you discard something every turn, so Monument to Endurance keeps paying out a card, a Treasure, or 3 life from each opponent.
+
+## The combo turn
+
+1. Count your Treasures. Three is the magic number; six is lethal-ish.
+2. Before combat, activate Magda: sacrifice three Treasures for a 4/4 red Scorpion Dragon with flying and haste.
+3. Attack with the Dragon and any grown Mice. Four mana on Rogue's Passage clears the key attacker and fires one more Valiant trigger.
+4. Keep the rest of the hoard for a second activation next turn, or hold up Unstable Experiment and Reckless Ransacking.
+
+The deck does this on turns five and six rather than eight because the Treasures come from the same cards that advance the board: Gold Rush, Ancestors' Aid, Reckless Ransacking and Charming Scoundrel all pump or loot while leaving a Treasure behind.
+
+## Win condition 2
+
+Monument to Endurance reads: whenever you discard a card, choose one that has not been chosen this turn — draw a card, create a Treasure token, or each opponent loses 3 life. The deck discards constantly for free: Whiskerquill Scribe's loot, Collector's Vault, Charming Scoundrel's first mode, Villainous Hideout's connive activation, and every connive from Red Room Recruit, Mob Lookout and Unstable Experiment. Each event is a separate trigger and the 3-life mode can be chosen once per turn, so a stalled board still bleeds opponents. Against decks that can block Scorpion Dragons, this is the plan that gets there.
+
+## Mulligan guide
+
+| Hand | Keep score | Verdict |
+|------|-----------|---------|
+| Mountain, Flowerfoot Swordmaster, Gold Rush, Emberheart Challenger, Reckless Lackey, Swamp, Ancestors' Aid | 1.00 | Keep — engine online from turn two |
+| Mountain, Mountain, Magda, Gold Rush, Charming Scoundrel, Island, Monument to Endurance | 1.00 | Keep — three Treasures by turn four |
+| Island, Swamp, Mob Lookout, Red Room Recruit, Unstable Experiment, Forest, Villainous Hideout | 1.00 | Keep — double connive and a Valiant trigger on turn three |
+| Seven lands | 0.60 | Mulligan — this deck needs a turn-one or turn-two play more than mana |
+
+Keep any hand with two or three lands and at least two cards that make or use Treasures. A one-land hand with two one-drops is acceptable only on the play; on the draw, mulligan to six.
+
+## Key interactions and edge cases
+
+- Valiant is once per creature per turn and needs a spell or ability you control to target it: Gold Rush, Ancestors' Aid, Reckless Ransacking, Unstable Experiment, Mob Lookout's entry trigger, Villainous Hideout's activation on a Villain, and Rogue's Passage all qualify.
+- Connive is draw first, then discard; discarding a nonland also adds a +1/+1 counter. Conniving on an empty hand still draws.
+- Unstable Experiment may target an opponent for the draw. Targeting an opponent is a crime, which turns on Magda's Treasure trigger for the turn.
+- Monument to Endurance triggers once per discard, but each option only once per turn: with three discards, take the life loss first and the card second.
+- Villainous Hideout's colored mana only pays for Villain spells and abilities, so it fixes Red Room Recruit and Mob Lookout.
+- Sacrificing Reckless Lackey in response to removal still nets a card and a Treasure.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro fliers and prowess | Race with 4/4 flying Dragons; the pump instants win exchanges, and the drain is often the difference |
+| Lifegain counters | Do not grind on the ground; hold Magda for a turn where the Dragons attack twice and let the drain finish |
+| Cat and aura aggro | Mob Lookout blocks profitably and the Hideout's counters keep it relevant |
+| Heavy removal and sweepers | The weakest matchup: hold two Treasures in reserve, rebuild with Collector's Vault, and lean on the drain |
+
+# Iterations
+
+One tuning round was run against the pre-publish viability gates (60-card legality, rotation, simulated win rate, turn-four consistency, four-land probability by turn four, synergy score).
+
+| Round | Change | Metric deltas |
+|-------|--------|---------------|
+| v1 to v2 | Cut Smaug the Magnificent (2), Seedglaive Mentor (1), Collector's Vault (1) and Diamond Pick-Axe (1); added Reckless Lackey (3) and Charming Scoundrel (2). The four-mana top end lost the play-versus-draw race, so it was replaced with one and two mana Treasure bodies | Turn-4 consistency 0.621 to 0.623; win rate 51 to 59 percent; four-land probability 0.631 to 0.631; synergy 74.4 to 73.4 |
+
+# Deck list (Arena import)
+
+```
+Brave the Heist
+Deck
+4 Emberheart Challenger
+4 Whiskerquill Scribe
+3 Flowerfoot Swordmaster
+1 Seedglaive Mentor
+3 Red Room Recruit
+2 Mob Lookout
+2 Magda, the Hoardmaster
+3 Reckless Lackey
+2 Charming Scoundrel
+4 Gold Rush
+2 Ancestors' Aid
+2 Unstable Experiment
+1 Reckless Ransacking
+2 Monument to Endurance
+1 Collector's Vault
+5 Mountain
+4 Island
+4 Swamp
+3 Forest
+3 Plains
+2 Villainous Hideout
+2 Fountainport
+1 Rogue's Passage
+```

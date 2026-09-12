@@ -2,7 +2,4 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-10**:
-
-- **[Compound Interest](decks/2026-09-10-compound-interest.html)** — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage  `combo` `increment` `expend` `delirium`
-- **[Bellow and Burn](decks/2026-09-10-bellow-and-burn.html)** — Jund (Black / Red / Green) — Amass Goblins counter-burn engine from The Hobbit set  `hobbit` `amass`
+No deck published yet today (2026-09-12) — check back after the morning runs.
