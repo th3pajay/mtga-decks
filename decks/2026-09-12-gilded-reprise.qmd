@@ -1,0 +1,162 @@
+---
+title: "Gilded Reprise"
+subtitle: "Mardu (Black / Red / White) — a Treasure-and-flashback celebration engine"
+date: "2026-09-12"
+categories: ["combo", "celebration", "flashback", "treasure"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / White (Mardu) |
+| Archetype | Aggro-midrange token engine (go wide, drain as the closer) |
+| Size | 60 cards (18 creatures, 19 noncreature spells, 23 lands) |
+| Primary win | Celebration combat: Goddric, Cloaked Reveler becomes a 4/4 flying Dragon, Grand Ball Guest swings as a 3/3 trampler, Belligerent of the Ball hands out menace and Practiced Offense adds double strike |
+| Secondary win | Drain and burn: Monument to Endurance drains 3 per discard, Death to Our Enemies cashes four plan counters into 7 damage, The Sackville-Bagginses drains 1 per token sacrificed |
+| Land win con | Restless Fortress attacks as a 1/4 Nightmare that drains 2 life a turn; Restless Bivouac attacks as a 2/2 Ox that grows the team |
+
+# Overview
+
+Gilded Reprise is built on one observation: a Treasure token is a nonland permanent that entered the battlefield this turn, so the thing that pays for your spells is also the thing that switches on Celebration. Every card in the deck either makes Treasures, spends Treasures, or converts a full board into damage.
+
+Three mechanics carry the deck, and they feed each other in a loop rather than sitting side by side:
+
+- **Treasure** is the mana and the counting mechanism. Seize the Spoils, Charming Scoundrel, Magda, the Hoardmaster, Reckless Ransacking, Death to Our Enemies and Monument to Endurance all add Treasures, and every one of them counts as a permanent entering for Celebration.
+- **Flashback** is the second half of the value. Antiquities on the Loose, Moment of Glory, Dig Site Inventory, Practiced Offense and Laughing Mad all come back from the graveyard for a second, upgraded effect, and Treasure mana is what pays those costs. Because flashback spells are noncreature spells, each recast also advances Death to Our Enemies toward its 7-damage payoff.
+- **Celebration** is the payoff. Goddric, Cloaked Reveler, Grand Ball Guest, Belligerent of the Ball and The Sackville-Bagginses read "two or more nonland permanents entered" and turn that into flying, trample, menace, extra counters and life loss.
+
+The looting is deliberate: Charming Scoundrel, Seize the Spoils and Laughing Mad all discard, which simultaneously makes a Treasure, stocks the graveyard with flashback cards, and triggers Monument to Endurance. Discard is not a cost in this deck, it is the engine's intake valve.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Curve out with Charming Scoundrel, Grand Ball Guest and Belligerent of the Ball. Charming Scoundrel picks Treasure or a loot depending on whether you need mana or graveyard; a turn-two play plus either mode already leaves one permanent short of Celebration |
+| Turns 3-5 | Turn on Celebration every turn. Any two of a creature, a Treasure, a Spirit token or a cracked Monument trigger gets there. Goddric attacks as a 4/4 flying Dragon and Belligerent of the Ball pushes a threat through |
+| Turns 5-7 | Convert the board. Practiced Offense on a wide board, flashback Antiquities on the Loose for two more Spirits with counters, and Monument to Endurance drains 3 a turn off the discard |
+| Turns 7+ | Close with Death to Our Enemies (7 damage), The Sackville-Bagginses draining on every Treasure cracked, and Restless Fortress attacking as a Nightmare while the ground stalls |
+
+## Card roles
+
+| Role | Cards | Notes |
+|------|-------|-------|
+| Treasure makers | Seize the Spoils, Charming Scoundrel, Magda, the Hoardmaster, Reckless Ransacking, Death to Our Enemies, Monument to Endurance | Seven sources; every one is also a nonland permanent entering for Celebration |
+| Celebration payoffs | Goddric, Cloaked Reveler, Grand Ball Guest, Belligerent of the Ball | The combat plan. Goddric is the single best threat in the deck |
+| Flashback package | Antiquities on the Loose, Moment of Glory, Dig Site Inventory, Practiced Offense, Laughing Mad | Cast them once for value, flash them back for the upgraded text |
+| Token payoffs | The Sackville-Bagginses, Monument to Endurance | Every Treasure cracked for mana costs the opponent a life |
+| Reach and removal | Reckless Ransacking, Belligerent of the Ball, Death to Our Enemies | Reckless Ransacking also makes a Treasure, so it never blanks |
+| Discard outlets | Charming Scoundrel, Seize the Spoils, Laughing Mad | Every discard is gas here: Treasure, graveyard fuel, Monument drain |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Restless Fortress (x3) | The land win condition. Attacks as a 1/4 Nightmare: defending player loses 2 life and you gain 2 every attack step. It also fixes white and black |
+| Restless Bivouac (x2) | Attacks as a 2/2 Ox and puts a +1/+1 counter on target creature when it does, which keeps the Celebration creatures ahead of blockers |
+| Inspiring Vantage / Concealed Courtyard | Untapped red-white and black-white fixing in the first three turns, exactly when the deck cannot afford a tapped land |
+| Sacred Foundry / Godless Shrine | Shock fixing for the black splash on The Sackville-Bagginses and for the double-white on Antiquities on the Loose |
+| Mountain / Plains / Swamp | Basics. The deck runs three colours but only needs a single black source for its black cards except Antiquities, which wants white-white |
+
+## Curve and mana
+
+| Cost | Count | What lives there |
+|------|-------|------------------|
+| 1 | 4 | Dig Site Inventory, Moment of Glory (both have cheap flashback halves) |
+| 2 | 16 | Charming Scoundrel, Grand Ball Guest, Magda, the Hoardmaster, The Sackville-Bagginses, Reckless Ransacking, Dig Site Inventory, Moment of Glory |
+| 3 | 13 | Goddric, Cloaked Reveler, Belligerent of the Ball, Death to Our Enemies, Seize the Spoils, Laughing Mad, Antiquities on the Loose, Practiced Offense, Monument to Endurance |
+| 4+ | 0 | The deck tops out at three; the expensive halves of the flashback cards are paid for with Treasures, not with lands |
+
+Average mana value of the nonland cards is 2.5, and nothing in the maindeck costs more than three. The deck is a 23-land three-colour build, so the manabase leans on untapped duals rather than a fourth colour; the flashback costs ({4}{W}{W} on Antiquities, {4}{W} on Moment of Glory) are deliberately paid with Treasure mana on turns when the lands are already spent.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a two-drop. Charming Scoundrel is the ideal turn two: hasty 1/1 that either banks a Treasure or loots away a flashback card you intend to reuse. Grand Ball Guest is the clock, and it is a fully armed 3/3 trampler on any turn where two permanents enter.
+
+Do not be precious about Treasures early. Cracking one for mana costs the opponent a life under The Sackville-Bagginses, advances Death to Our Enemies' plan counters, and the Treasure that made it already did its job by turning on Celebration for the combat step.
+
+## Mid game and the combo turn
+
+The "combo turn" in this deck is a stacked combat step rather than an infinite loop. A representative turn:
+
+1. Two nonland permanents enter (a Treasure plus a Spirit token, or two Treasures, or a Monument trigger plus a creature).
+2. Celebration is live, so Goddric is a 4/4 flying Dragon and the Grand Ball Guest is a 3/3 trampler.
+3. Belligerent of the Ball's beginning-of-combat trigger gives the unblocked attacker +1/+0 and menace.
+4. Attack with everything, including Restless Fortress as a 1/4 Nightmare for 2 drain and 2 life.
+
+The reprise half doubles this up. Antiquities on the Loose cast from the graveyard for {4}{W}{W} makes two more Spirits and puts a +1/+1 counter on every Spirit you control, including the pair from the first cast. Moment of Glory flashed back puts a counter on every other creature you control. Practiced Offense costs just {1}{W} from the graveyard and gives the whole team a counter plus double strike or lifelink on the best body.
+
+## Win condition 2: drain and burn
+
+The deck can win without ever connecting. Three independent life-loss effects stack:
+
+- Monument to Endurance drains 3 whenever you discard and choose that mode; with Charming Scoundrel, Seize the Spoils and Laughing Mad all discarding, that is 3 life a turn from an artifact that also makes Treasures.
+- Death to Our Enemies collects a plan counter on every noncreature spell and cashes four counters into 7 damage divided between one or two targets. Flashback spells trigger it twice on their own.
+- The Sackville-Bagginses turns every Treasure crack into 1 life lost, including Treasures spent on flashback costs.
+
+Against a board stall, this is the plan: keep the ground locked with Restless Fortress and let the drain finish the game.
+
+## Mulligan guide
+
+Keep any hand with two to four lands, at least one two-drop, and either a Treasure source or a flashback spell. The deck's failure mode is a hand of three- and four-cost cards with no turn-two play, or a hand of only tapped lands.
+
+- Snap keeps: two lands, Charming Scoundrel, Grand Ball Guest, any spell.
+- Acceptable: four lands including one Restless land, plus Seize the Spoils and a payoff.
+- Mulligan: one-land hands, hands where both white sources are Restless Fortress (tapped, and Antiquities needs white-white), or hands with no creature at all.
+- Never keep a hand that cannot cast a spell on turn two.
+
+## Key interactions and edge cases
+
+- **Celebration counts permanents, not cards.** A Treasure token, a Spirit token, a cracked Monument trigger and a resolved creature all count. Two Treasures on the same turn is the cheapest way to switch it on.
+- **Treasure tokens are artifacts that sacrifice for mana.** The Sackville-Bagginses triggers on any token you sacrifice, so cashing a Treasure for the flashback half of Antiquities on the Loose both pays the spell and drains the opponent.
+- **Flashback casts are cast from the graveyard, not from the hand.** Antiquities on the Loose reads "if this spell was cast from anywhere other than your hand", so the flashback half gives the Spirits their counters. It also triggers Death to Our Enemies, because the spell is a noncreature spell.
+- **Goddric keeps the Dragon stats only that turn.** The Celebration check happens continuously, so if you can make two permanents enter before combat, attack first and cast afterwards when the stats do not matter.
+- **Magda, the Hoardmaster needs a crime.** Targeting an opponent, something they control, or a card in their graveyard turns on the Treasure. Reckless Ransacking aimed at a blocker and Belligerent of the Ball are the usual ways to commit one.
+- **Monument to Endurance modes cannot repeat in one turn.** Choose the drain on turns you are racing and the Treasure on turns you are developing.
+- **Exiling is relevant.** Flashback exiles the card after the second cast, so plan the first cast; there is no third use.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro fliers | Race with Goddric (a 4/4 flier blocks and attacks) and use Practiced Offense for lifelink; Restless Fortress blocks and gains 2 a turn |
+| Lifegain and counters | Do not try to outsize them; switch to the drain plan with Monument to Endurance and Death to Our Enemies |
+| Cat and aura aggro | Reckless Ransacking and Belligerent of the Ball trade up; Grand Ball Guest tramples over small blockers |
+| Landfall and ramp | The deck is faster to a lethal attack; use the flashback halves to rebuild after a sweeper |
+| Control | Hold Magda, the Hoardmaster and Death to Our Enemies; make them spend removal on Treasures by keeping the board wide |
+
+# Deck list (Arena import)
+
+```text
+Gilded Reprise
+Deck
+4 Charming Scoundrel
+4 Grand Ball Guest
+4 Goddric, Cloaked Reveler
+3 Belligerent of the Ball
+2 Magda, the Hoardmaster
+1 The Sackville-Bagginses
+3 Antiquities on the Loose
+2 Moment of Glory
+2 Dig Site Inventory
+2 Practiced Offense
+2 Laughing Mad
+3 Death to Our Enemies
+3 Seize the Spoils
+2 Monument to Endurance
+4 Inspiring Vantage
+4 Concealed Courtyard
+3 Sacred Foundry
+2 Godless Shrine
+3 Restless Fortress
+2 Restless Bivouac
+2 Mountain
+2 Plains
+1 Swamp
+```

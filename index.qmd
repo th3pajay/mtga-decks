@@ -2,4 +2,6 @@
 title: "Today's Decks"
 ---
 
-No deck published yet today (2026-09-12) — check back after the morning runs.
+Deck guides published **2026-09-12**:
+
+- **[Gilded Reprise](decks/2026-09-12-gilded-reprise.html)** — Mardu (Black / Red / White) — a Treasure-and-flashback celebration engine  `combo` `celebration` `flashback` `treasure`
