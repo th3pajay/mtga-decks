@@ -1,0 +1,176 @@
+---
+title: "Hammerhone Saga"
+subtitle: "Mardu (Red / White / Black) — Storied Dwarves x Equipment, built on The Hobbit set identity"
+date: "2026-09-12"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White with a black splash (three colors) |
+| Archetype | Aggro-midrange — Storied Dwarves x Equipment |
+| Size | 60 cards (37 spells and permanents, 23 lands, average mana value 2.51) |
+| Signature mechanic | Storied (three or more artifacts, legendaries or Sagas) plus Equipment hone counters |
+| Primary win | Dwarf token swarm under An Unexpected Party and Thorin Oakenshield |
+| Secondary win | Equipment rack on one Dwarf — Thorin, Mountain-king attaches the rack and bites a blocker |
+| Land win condition | The Lonely Mountain, repeatable 2/2 red Dwarf tokens |
+| Measured performance | Sim 60.0 percent over three 500-game runs, turn-4 consistency 0.607, four-land probability by turn 4 of 0.614, cohesion 70.9 |
+
+# Overview
+
+Hammerhone Saga is a two-loop Dwarf deck. The first loop is Storied: the list is loaded with cheap artifacts, legendary Dwarves and Sagas so three or more are on the battlefield by turn three, which switches the whole Dwarf suite on for the rest of the game. The second loop is the hone counter: Dwalin, Weaponmaster puts a hone counter on every Equipment you control whenever it enters or attacks, and each counter is a permanent +1/+0 for whoever carries that Equipment. The rack gets better every turn instead of staying a fixed stat bonus.
+
+The loops feed each other. Kíli the Resourceful and Óin the Brave only cash in once you have an enduring story, and they need artifacts on board to get there, while every Equipment you cast both pays toward Storied and carries a hone counter. Dáin Ironfoot and Iron Hills Blacksmith each mint an Equipment artifact token named Axe on entry, so one creature can push the artifact count over three by itself and simultaneously shave mana off the win-condition land. The black splash is a single card, Crude Bent Blade: an Equipment that makes an opponent sacrifice a creature, and at the same time a Storied artifact, a hone counter target and the removal spell the deck otherwise lacks.
+
+The deck wins wide rather than tall. The Lonely Mountain turns surplus Equipment into 2/2 red Dwarf tokens at a discount, and An Unexpected Party turns those tokens into 4/4 attackers that also carry ward once Thorin Oakenshield is out. When the token plan is answered, Thorin, Mountain-king is the pivot: he hands the whole rack to one Dwarf and turns its power into a removal spell.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Set up | 1 to 2 | Land a two-drop that builds board: Dáin's Company digs for the next Dwarf or Equipment, Kíli the Resourceful draws off Equipment entry, Iron Hills Blacksmith leaves an Axe token behind |
+| Establish Storied | 3 | The third artifact, legendary or Saga arrives. An Axe from Dáin Ironfoot or Iron Hills Blacksmith crosses the line alone, Crude Bent Blade supplies removal and an artifact at once |
+| Turn the corner | 4 to 5 | Thorin Oakenshield grants ward to the team, Dáin Ironfoot attacks with double strike, The Lonely Mountain converts spare mana into 2/2 Dwarf tokens |
+| Close | 6 plus | An Unexpected Party pumps every Dwarf by +2/+2 while the land keeps making tokens, or one Dwarf carries four or more Equipment and Thorin, Mountain-king converts that power into damage |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Hone engine | Dwalin, Weaponmaster (3), Sting, Bilbo's Sword (2) | Dwalin adds a hone counter to each Equipment you control on entry and on every attack. Sting enters with one per opposing creature and attaches itself for free, so it scales against any board |
+| Storied enablers | Kíli the Resourceful (3), Óin the Brave (2), Thorin Oakenshield (2) | Kíli pays {0} for the first equip each turn and draws when another Dwarf or Equipment enters. Óin gains +1/+0 and haste. Thorin Oakenshield gives artifacts and creatures ward {1} and tramples |
+| Body and artifact makers | Dáin Ironfoot (3), Iron Hills Blacksmith (3), Dwarven Shortsword (2) | The first two create a colorless Equipment artifact token named Axe on entry; Dwarven Shortsword creates a 2/2 red Dwarf token and attaches to it. All three are artifacts toward Storied and Equipment for the land discount, and they carry double strike or a free body |
+| Rack payoffs | Thorin, Mountain-king (2), Dwarven Mattock (2), Ragged Short Spear (2) | Mattock gives +2/+2 and ward {1} and attaches free to a Dwarf. Spear gives +2/+0 and loots two. Thorin, Mountain-king attaches any number of Equipment to one creature, which then deals damage equal to its power to a blocker |
+| Flow and interaction | Dáin's Company (3), Crude Bent Blade (2), Stone by Sunlight (1), Burn, Burn, Tree and Fern (1), Giant's Boulder (1) | Company looks at the top four and takes a Dwarf or Equipment. Blade forces a sacrifice on entry and is the deck's cheapest answer to a large blocker. Stone by Sunlight kills anything with power four or greater. The Burn saga deals six damage, then destroys an artifact. Boulder fixes a color and scries two |
+| Team pump | An Unexpected Party (2), The Mountain-king's Return (1) | Unexpected Party gives every Dwarf +2/+2, and its Adventure makes X 2/2 red Dwarf tokens for {X}{2}{W}. The Return saga recruits a Soldier and returns a creature of mana value three or less |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| The Lonely Mountain | 3 | The win-condition land. It enters untapped if you control an Equipment, taps for red as a Mountain, and for {4}{R} creates a 2/2 red Dwarf token, reduced by {1} for each Equipment you control. With three Equipment out the activation costs one mana |
+| Sundown Pass / Shattered Sanctum | 3 / 3 | Untapped once you control two other lands: red and white from the Pass, black and white from the Sanctum. The Sanctum is the main black source for Crude Bent Blade |
+| Nomad Outpost | 2 | Enters tapped, but produces red, white or black, so it fixes the splash without spending a spell slot |
+| Temple of Triumph | 2 | Scry one, then red or white. Keeps two-drop-heavy draws from stalling |
+| Mountain / Plains / Swamp | 4 / 4 / 2 | Basics to bring the check lands in untapped and to give land finds real targets |
+
+Colored sources: fourteen red, fourteen white, seven black. The black count is deliberately low because only Crude Bent Blade needs it; this is a red-white deck that occasionally casts a three-mana black Equipment.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One and two | 24 | Giant's Boulder, Dáin's Company, Dwalin, Kíli, Iron Hills Blacksmith, Thorin Oakenshield, Óin, Ragged Short Spear, Stone by Sunlight |
+| Three | 6 | Dáin Ironfoot, Dwarven Mattock, Sting, Crude Bent Blade, The Mountain-king's Return |
+| Four | 7 | Thorin, Mountain-king, Dwarven Shortsword, An Unexpected Party, Burn, Burn, Tree and Fern |
+
+The deck wants three lands and stops caring at four. Four-land probability by turn four is 0.614 and turn-four consistency is 0.607, both above the 0.55 threshold the build is held to.
+
+# Gameplay strategy
+
+## Early game
+
+Open on whichever two-drop builds the most board. Dáin's Company is the best turn-two play because it looks at four cards and takes a Dwarf or an Equipment; Iron Hills Blacksmith is the fastest because it leaves an Axe token, which counts toward Storied immediately. Dwalin, Weaponmaster is the play when an Equipment is already down, since every later attack adds a hone counter to the whole rack. Never hold Equipment back to protect a creature that has not arrived: the rack is the engine, and empty Equipment still counts for Storied.
+
+## Mid game
+
+Turns three to five are about crossing the Storied threshold and holding it. The magic number is three artifacts, legendaries or Sagas. Two Equipment plus one legendary Dwarf gets there, an Axe token counts, and the Sagas count on their own.
+
+Once the story is enduring, Kíli equips for zero on the first activation each turn and draws off every other Dwarf or Equipment that enters, and Óin attacks with haste. The Lonely Mountain's token activation drops by one mana per Equipment, so with four Equipment out it is effectively free each turn. Hold Crude Bent Blade for the biggest blocker the opponent has committed rather than firing it early; it is one of only two clean removal effects in the list.
+
+## The combo turn
+
+The big swing is Thorin, Mountain-king in the four slot with four or more Equipment on the battlefield:
+
+1. Cast Thorin, Mountain-king. His trigger attaches any number of Equipment you control to one target creature you control.
+2. Stack the rack on the best carrier. Mattock, Spear, Sting's hone counters and a couple of Axe tokens routinely make a 10 power Dwarf that also has ward and double strike from another body.
+3. The same trigger makes the equipped creature deal damage equal to its power to up to one target creature, so the carrier doubles as a removal spell. Point it at the best blocker before attackers are declared.
+4. Attack with the carrier, Dáin Ironfoot holding double strike and Thorin Oakenshield's trample carrying the excess through.
+
+Sequence it after combat if the opponent has instant-speed removal, so the trigger cannot be answered before damage is assigned.
+
+## Win condition 2
+
+The second win is attrition by tokens, and it is the plan when the rack is answered. Dáin Ironfoot and Iron Hills Blacksmith make Axe Equipment tokens, Dwarven Shortsword makes a real 2/2 Dwarf, and The Lonely Mountain makes a 2/2 red Dwarf every turn for one or two mana. An Unexpected Party then turns the board into 4/4s by naming Dwarf, and Thorin Oakenshield gives it ward {1}.
+
+Order matters: cast the Adventure face of An Unexpected Party at sorcery speed to make tokens, then cast the enchantment face later from exile once the board is wide. The enchantment is the payoff and the Adventure is the setup, and six mana is not available on one turn, so plan a two-turn sequence.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two lands plus Dáin's Company or Iron Hills Blacksmith | Keep. Two mana is where the deck lives |
+| One land with Dwalin and an Equipment | Mulligan. The deck needs three mana by turn three to keep the engine turning |
+| Two lands with no Dwarf and no Equipment | Mulligan. Both loops need a body or a rack piece on turn two |
+| Three lands with Dwalin, Dáin Ironfoot and Crude Bent Blade | Keep. Hone engine, artifact count and removal in one hand |
+
+Treat a Crude Bent Blade in the opener as a reason to keep rather than a bonus.
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Axe tokens count for everything | The Axe from Dáin Ironfoot and Iron Hills Blacksmith is a colorless Equipment artifact token. It counts toward Storied, receives hone counters from Dwalin, reduces The Lonely Mountain's activation and can be attached by Thorin, Mountain-king. It is not a creature, so it cannot attack or block |
+| Kíli's free equip and draw | The discount applies to the first equip each turn and only while you have an enduring story. The draw fires once per turn, on the first other Dwarf or Equipment that enters, so an Axe made before Kíli lands does not draw |
+| Thorin, Mountain-king needs a target | His trigger requires a target creature you control as well as the Equipment. Casting him into an empty board is a 3/4 trampler with no trigger |
+| Ward is not protection from sweepers | Thorin Oakenshield's and Dwarven Mattock's ward {1} taxes targeted removal only. Neither stops a sweeper, and Sting is at its worst against creature-light control |
+| Stone by Sunlight is modal | Destroy a creature with power four or greater, or make one of your own creatures an indestructible artifact. The second mode blanks damage-based removal and adds an artifact toward Storied at instant speed |
+| No evasion in the list | The deck attacks on the ground. Trample, double strike and Crude Bent Blade's sacrifice are the only ways through a stalled board |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Race with An Unexpected Party and the Axe tokens, but keep Stone by Sunlight and Crude Bent Blade for the biggest threat. Dáin's Company's lifegain and Mattock's +2/+2 and ward {1} are the stabilizers |
+| Midrange | The strong matchup. The rack outgrows one-for-one removal, and Thorin, Mountain-king removes the best blocker while attacking |
+| Control | The weak matchup. Ward {1} does not stop sweepers and the deck has no card advantage engine beyond Kíli. Commit two bodies at a time and rebuild with land tokens |
+| Combo | Crude Bent Blade and Stone by Sunlight are the only interaction. Point the damage trigger at their key creature and race with double strike |
+
+# Iterations
+
+One tuning round was run against the viability battery (three 500-game simulations per round). No gate failed in either round; round two was taken because the first list passed inside the noise band.
+
+| Round | Change | Result |
+|-------|--------|--------|
+| v1 to v2 | Removed 2 Bofur, Reliable Guardian (a 1/2 lifelink body with no artifact or token payoff), added 2 Dwarven Shortsword (a 2/2 red Dwarf token plus an Equipment on one card) | Sim 53.3 to 60.0 percent, turn-4 consistency 0.582 to 0.607, four-land probability 0.568 to 0.614, cohesion 70.6 to 70.9 |
+
+The final list below is the v2 list.
+
+# Deck list (Arena import)
+
+```text
+Hammerhone Saga
+Deck
+3 Dáin's Company
+3 Dwalin, Weaponmaster
+3 Kíli the Resourceful
+3 Iron Hills Blacksmith
+3 Dáin Ironfoot
+2 Thorin Oakenshield
+2 Óin the Brave
+2 Thorin, Mountain-king
+2 Dwarven Mattock
+2 Ragged Short Spear
+2 Sting, Bilbo's Sword
+2 Crude Bent Blade
+1 Giant's Boulder
+2 An Unexpected Party
+1 Burn, Burn, Tree and Fern
+1 Stone by Sunlight
+1 The Mountain-king's Return
+3 The Lonely Mountain
+3 Sundown Pass
+3 Shattered Sanctum
+2 Nomad Outpost
+2 Temple of Triumph
+4 Mountain
+4 Plains
+2 Swamp
+2 Dwarven Shortsword
+```
