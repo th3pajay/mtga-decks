@@ -1,0 +1,155 @@
+---
+title: "Nightveil Offering"
+subtitle: "Five-color (White / Blue / Black / Red / Green) — an Eerie x Sneak x Sacrifice Ninja drain deck"
+date: "2026-09-13"
+categories: ["combo", "Eerie", "Sneak", "Sacrifice"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | All five: White / Blue / Black / Red / Green |
+| Archetype | Ninja tempo-aggro with an Eerie drain sub-engine (go wide, then bleed) |
+| Size | 60 cards (29 creatures, 4 enchantments, 27 lands) |
+| Primary win | Ninja combat: Splinter, Hamato Yoshi pumps every Ninja, Dark Leo & Shredder gives attacking Ninjas deathtouch and makes a Ninja token on every hit; at five or more Ninjas its trigger makes the defending player lose half their life, rounded up |
+| Secondary win | Drain: Balemurk Leech drains each opponent 1 for every enchantment that enters, Ninja Teen drains each opponent 1 for every creature that leaves the battlefield (Sneak returns, sacrifices and trades all count) |
+| Land win con | Turtle Lair: it pays for Ninja and Turtle spells in any color, and for {3} it makes a Ninja or Turtle unblockable, which forces damage through and switches Sneak on (return an unblocked attacker to hand) |
+
+# Overview
+
+Nightveil Offering is a Ninja deck that uses enchantments and a sacrifice outlet as its fuel supply. The three mechanics it is built on are not decoration: each one does a specific job in the same loop.
+
+- **Sneak** converts an unblocked attacker into a second body. Splinter, Hamato Yoshi (Sneak {B}) and Dark Leo & Shredder (Sneak {W}{B}) are both cast during the declare blockers step for a heavily discounted cost, as long as you return an unblocked attacker to hand. The returned attacker is a permanent leaving the battlefield, which is exactly what the deck's two payoffs care about: Super Shredder gets a +1/+1 counter and Ninja Teen drains each opponent 1.
+- **Sacrifice** turns spare bodies into cards and counters. Mechanized Ninja Cavalry arrives with a 1/1 Robot token, and Dark Leo & Shredder keeps making 1/1 black Ninja tokens. Vampiric Rites eats whatever is smallest (usually a Robot) for a card and a life, Lightless Evangel grows a +1/+1 counter every time you sacrifice, and each sacrifice is another permanent leaving the battlefield for Ninja Teen.
+- **Eerie** is the long game. Balemurk Leech and Entity Tracker both read "whenever an enchantment you control enters", and the deck's four enchantments (Ninja Teen, Vampiric Rites) are cheap enough to be played early and often. Every one of those entries drains the table for 1 or draws a card, and Ninja Teen's level 3 is the payoff that ties the whole deck together: creature cards in your graveyard gain sneak {3}{B}, so the creatures you sacrifice can be cast again out of the graveyard using the Sneak mechanic itself.
+
+The five-color shell is deliberate and cheap. Mechanized Ninja Cavalry costs {1}{R/W} and Mikey & Leo, Chaos & Order costs {G/W}{G/W}: red and green are supplied by hybrid mana on Ninja and Turtle bodies, so the deck casts its red and green cards off Plains. No dual lands are required, and every spell in the deck is castable from the Swamps, Plains and Islands the manabase already wants.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land and deploy. Super Shredder, Splinter, Hamato Yoshi, Mechanized Ninja Cavalry and Mikey & Leo, Chaos & Order are all two-drops, so the deck commits two threats before most decks have one answer |
+| Turns 2-4 | Turn on the loop. Ninja Teen or Vampiric Rites comes down (each one drains 1 through Balemurk Leech and draws a card through Entity Tracker), and the Cavalry's Robot token or a spare Ninja becomes sacrifice fodder |
+| Turns 4-6 | Sneak turns. Attack with an unblocked Ninja (Splinter has menace, Turtle Lair makes one unblockable for {3}), then sneak in Splinter or Dark Leo & Shredder during blockers. The returned attacker grows Super Shredder and drains 1 from Ninja Teen; Dark Leo's combat damage trigger starts building a Ninja army |
+| Turns 6+ | Close. With five or more Ninjas, Dark Leo & Shredder's trigger makes the defending player lose half their life; Balemurk Leech and Ninja Teen have been draining 1-3 a turn the whole game, and Ninja Teen's level 3 lets you sneak sacrificed creatures back out of the graveyard for another wave |
+
+## Card roles
+
+| Role | Cards | Notes |
+|------|-------|-------|
+| Ninja payoffs | Dark Leo & Shredder, Splinter, Hamato Yoshi | Dark Leo is the win condition (deathtouch for attacking Ninjas, a Ninja token per hit, then half of the opponent's life at five Ninjas); Splinter pumps the team and is the cheapest Sneak in the deck at {B} |
+| Eerie payoffs | Balemurk Leech, Entity Tracker | Balemurk Leech drains 1 per enchantment entry, Entity Tracker draws a card per enchantment entry and has flash so it can be held up |
+| Eerie enablers | Ninja Teen, Vampiric Rites | Both are enchantments that enter for 1-3 mana, and both keep producing after they land |
+| Sacrifice payoffs | Super Shredder, Lightless Evangel, Ninja Teen | Super Shredder grows on any permanent leaving; Lightless Evangel grows on each sacrifice; Ninja Teen converts every departure into 1 life from each opponent |
+| Sacrifice outlet | Vampiric Rites | {1}{B}, sacrifice a creature: gain 1 life and draw a card. The deck's Robot and Ninja tokens make this free card advantage |
+| Token makers | Mechanized Ninja Cavalry, Dark Leo & Shredder | Robot token on entry, black Ninja token on combat damage. The tokens are the sacrifice fuel and the Ninja count |
+| Counter payoff | Mikey & Leo, Chaos & Order | Draws a card once a turn whenever a counter lands on a creature, which Super Shredder and Lightless Evangel do constantly |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Turtle Lair | The land win condition. Taps for any color on Ninja and Turtle spells (fixing the five-color shell for 15 of the deck's creatures) and {3}, {T} makes a Ninja or Turtle unblockable, which both forces damage and guarantees the unblocked attacker that Sneak needs |
+| 11 Swamp | Primary source for the black core: Balemurk Leech, Super Shredder, Splinter, Lightless Evangel, Dark Leo & Shredder, Ninja Teen, Vampiric Rites |
+| 9 Plains | Casts Dark Leo & Shredder's white half and pays the white side of both hybrid cards, Mechanized Ninja Cavalry and Mikey & Leo, Chaos & Order |
+| 4 Island | Casts Entity Tracker and any blue costs |
+| 1 Mountain, 1 Forest | Blood-moon insurance: present so that the hybrid red and green cards can always be cast in the colour they ask for |
+
+## Curve and mana
+
+| Cost | Cards | Count |
+|------|-------|-------|
+| 1 | Vampiric Rites | 2 |
+| 2 | Balemurk Leech, Super Shredder, Splinter, Hamato Yoshi, Mechanized Ninja Cavalry, Mikey & Leo, Chaos & Order, Dark Leo & Shredder, Lightless Evangel | 25 |
+| 3 | Entity Tracker, Ninja Teen | 6 |
+| Lands | 26 basics + Turtle Lair | 27 |
+
+Average mana value of the 33 nonland cards is 2.12, and 27 of the 33 cost two or less, so the deck functions off two or three lands. Twenty-seven lands (against that curve) is a deliberate over-supply: Treasure-free five-color decks miss colour more than they flood, and every extra land is another chance to hit the double-typed costs on turns four and five.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest body you have, then a two-drop that does something. Splinter, Hamato Yoshi is the best turn-two play in the deck: 1/3, menace, and every other Ninja gets +1/+1. Mechanized Ninja Cavalry is the best turn-two play if you expect to need sacrifice fodder, because the Robot token arrives with it. Hold Entity Tracker if you suspect a sweeper - it has flash, and flashing it in response to an enchantment already on the stack is a free card.
+
+## Mid game
+
+This is where the deck separates itself from a normal Ninja list. Every attack step is a decision between three resources: the unblocked attacker you return (Super Shredder and Ninja Teen both care), the sneak cost you pay (usually {B} for Splinter), and the token you make (Cavalry on entry, Dark Leo on damage). If you have Vampiric Rites down and a Robot token out, sac the token before combat: it triggers Lightless Evangel, drains through Ninja Teen, draws a card, and (through Mikey & Leo, Chaos & Order) draws a second card if the counter is the first one this turn.
+
+## The combo turn (Sneak plus sacrifice)
+
+The loop to aim for on turn five or six:
+
+1. Attack with a Ninja that cannot be blocked (Splinter with menace, or any Ninja after Turtle Lair's {3}, {T} ability).
+2. During declare blockers, return that attacker to hand and cast Splinter, Hamato Yoshi for its sneak cost of {B}, or Dark Leo & Shredder for {W}{B}. The new body enters tapped and attacking, so it deals combat damage in the same combat.
+3. The returned attacker triggered Super Shredder (+1/+1) and Ninja Teen (each opponent loses 1).
+4. Post-combat, replay the returned creature if you have the mana, then sacrifice a Robot or Ninja token to Vampiric Rites for a card. That sacrifice is another creature leaving the battlefield: Super Shredder again, Ninja Teen again, Lightless Evangel counter, Mikey and Leo draw.
+5. With Ninja Teen at level 3 ({B} after the {1}{B} level 2), the sacrificed creatures can be cast out of the graveyard with sneak {3}{B}, which restarts the loop with bodies the opponent already killed.
+
+## Win condition 2
+
+Dark Leo & Shredder is the finisher. It gives attacking Ninjas deathtouch, so even a 1/1 Robot token trades with anything it touches; each combat damage trigger makes another 1/1 black Ninja, and once you control five or more Ninjas the trigger makes the defending player lose half their life, rounded up. Splinter, Hamato Yoshi turns those tokens into 2/2s, and Turtle Lair make them unblockable when the ground stalls. Balemurk Leech plus Ninja Teen is the parallel route: every enchantment entry and every creature departure is 1 life, and the deck produces a lot of both.
+
+## Mulligan guide
+
+- Keep any two- or three-land hand with at least one Swamp and one Plains; the deck's core is black with a white side, and the splash only needs one source.
+- Keep hands with two cheap creatures plus an enchantment, even with three lands: the deck wins on bodies, not on reach.
+- Ship one-land hands and hands with no black source. Entity Tracker, Island and Mountain are never the reason to keep.
+- A hand with Vampiric Rites, a token maker and two lands is a keep: the sacrifice loop is the engine, not the payoff.
+
+## Key interactions and edge cases
+
+- Sneak is cast during the declare blockers step, and the returned attacker does not need to survive combat - it only needs to be unblocked.
+- Returning the attacker to hand counts as a permanent leaving the battlefield, so Super Shredder and Ninja Teen both trigger even though nothing died.
+- Ninja Teen's level 3 turns the graveyard into a hand: creature cards get sneak {3}{B}, so the creatures you sacrificed (or that died in combat) come back as attacking bodies, and each of those returns triggers the drain again.
+- Dark Leo & Shredder's half-their-life clause needs five Ninjas. Splinter, Hamato Yoshi, Mechanized Ninja Cavalry, Mikey & Leo, Chaos and Order and Super Shredder are all Ninjas themselves, and Dark Leo's tokens are Ninjas too, so five is reached with any two of them plus one token.
+- Balemurk Leech and Entity Tracker say "each opponent", so in multiplayer the drain and the draw scale; the Room clause on their Eerie text is irrelevant here because the deck runs no Rooms.
+- Turtle Lair's colour ability only pays for Ninja and Turtle spells. Use it on Splinter, Dark Leo, the Cavalry or Mikey and Leo, not on the enchantments.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with menace and deathtouch. Splinter, Hamato Yoshi blocks anything, Dark Leo & Shredder's deathtouch makes attacks unprofitable, and Ninja Teen turns every trade into life loss for them |
+| Control | Grind, do not over-commit. Entity Tracker is best held as a flash threat; Ninja Teen level 3 recycles creatures the sweepers kill, and Balemurk Leech plus Ninja Teen finish the game through the board |
+| Midrange | Go underneath. The deck's curve averages 2.12 with 27 lands behind it, so it lands two threats before a midrange deck has one, and Menace plus Turtle Lair makes blocking bad |
+| Other Ninja or tribal decks | Race the Ninja count. Splinter's +1/+1 and the Robot and Ninja tokens matter more than the Sneak discount, so attack on board size, not on card quality |
+
+# Iterations
+
+The list was tuned against the viability battery before delivery. Two rounds were needed; the sim win rate was the only gate that failed.
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 | First build: 30 creatures and 6 enchantments on a five-colour basic manabase, with heavier Eerie payoffs (Infernal Phantom, Enduring Vitality, Karai, Future of the Foot, Fear of Infinity) | sim 47.3, synergy 73.4, T4 0.686, P(4 lands) 0.677 - sim FAIL |
+| v1 to v2 | Cut the four- and five-mana payoffs and the extra enchantment slots, doubled down on one- and two-mana Ninja bodies (Splinter, Mechanized Ninja Cavalry, Mikey and Leo) | sim 49.0, synergy 74.5, T4 0.688, P(4 lands) 0.677 - sim FAIL |
+| v2 to v3 (final) | Cut the uncastable three-colour spells and the remaining top-heavy slots, went to 29 creatures with 25 of them at one or two mana, 4 enchantments and 27 lands, and moved red and green onto hybrid Ninja bodies so the mana curves out | sim 58.3, synergy 75.8, T4 0.787, P(4 lands) 0.781 - all gates PASS |
+
+# Deck list (Arena import)
+
+```
+Nightveil Offering
+Deck
+4 Balemurk Leech
+4 Entity Tracker
+4 Super Shredder
+4 Splinter, Hamato Yoshi
+4 Mechanized Ninja Cavalry
+4 Mikey & Leo, Chaos & Order
+3 Dark Leo & Shredder
+2 Lightless Evangel
+2 Ninja Teen
+2 Vampiric Rites
+11 Swamp
+9 Plains
+4 Island
+1 Mountain
+1 Forest
+1 Turtle Lair
+```
