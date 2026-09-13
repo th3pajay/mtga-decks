@@ -1,0 +1,178 @@
+---
+title: "Wilderland Howl"
+subtitle: "Golgari core with a red splash (Black / Green / Red) — Wilderlands Bears x the ferocious Warg pack, built on The Hobbit set"
+date: "2026-09-13"
+categories: ["hobbit", "bears"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Green with a red removal splash (three colors) |
+| Archetype | Synergy midrange — Bear payoffs with a ferocious Wolf engine |
+| Size | 60 cards (36 spells and permanents, 24 lands, average mana value 3.03) |
+| Signature mechanic | Ferocious (power four or greater) plus Beorn the Fierce's Bear anthem |
+| Primary win | Beorn the Fierce plus Bear tokens: every land drop makes a 2/2 Bear that Beorn turns into a 4/4 trampler |
+| Secondary win | One counter-stacked Wolf or Bear pushed through an unstoppable Rogue's Passage |
+| Land win condition | Mirkwood, repeated two-counter activations on a Bear, Spider or Wolf |
+| Measured performance | Sim 62.3 percent over three 500-game runs, turn-4 consistency 0.634, four-land probability by turn 4 of 0.624, cohesion 72.5 |
+
+# Overview
+
+Wilderland Howl is a black-green creature deck with a red removal splash, and it is built on two interlocking Wilderlands mechanics. The first is ferocious. Wargling, Ravening Warg, Nighthowl Pursuer, Wilderland Scrounger and The Chief Warg all switch on the moment you control a creature with power four or greater, and this deck has an unusually easy time meeting that condition: Ordinary Bear is a four-power four-drop, Large Bear is a 5/5 with haste, and Beorn the Fierce is a 6/6 that also hands out a trample counter. A Wargling attack then gives the whole team trample, a Scrounger attack puts a +1/+1 counter on every creature, and The Chief Warg draws a card.
+
+The second is the Bear payoff. Dancing from Dark to Dawn makes a 2/2 green Bear token on every land that enters, and Beorn the Fierce gives other Bears +2/+2, so the same token is a 4/4 trampler. Beorn's combat trigger turns any creature you control into a Bear in addition to its other types, which means the Warg pack itself starts collecting the anthem. With three or more Bears, Beorn draws two cards at the start of combat, and the deck stops running out of gas.
+
+The deck attacks from two directions and neither line depends on the other. The wide line is Dancing from Dark to Dawn plus Beorn the Fierce: play lands, make Bears, make them bigger, attack with trample. The tall line is counters. Dancing from Dark to Dawn puts counters equal to the mana value of every creature spell you cast, Mirkwood sacrifices itself for two more counters on a Bear or Wolf, and Quarrel and Pinecone Strike clear the blockers. Once one creature is large enough, Rogue's Passage makes it unblockable and the game ends in one or two attacks.
+
+**Note on the set:** The Hobbit set lands on Arena 2026-08-14; Arena IDs are still empty for many of these printings in the card database, so the list below imports by card name from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Land a two-drop that attacks or trades: Wargling and Ravening Warg are both 2/2s, Ravening Warg has deathtouch. Thrór's Map or Troop of Ponies fixes a colour and finds the fourth land |
+| Turn on ferocious | 3 to 4 | Ordinary Bear is the switch: four power for four mana, and from that point every ferocious trigger on the board is live. Chief Warg's Company starts making a 2/2 Wolf every upkeep |
+| Pivot | 5 | Beorn the Fierce or Dancing from Dark to Dawn. Beorn makes the Wolves into Bears and the Bears into 4/4s; Dancing turns every later land into a Bear token |
+| Close | 6 plus | Attack with trample behind Wargling or Wilderland Scrounger, sacrifice Mirkwood for counters, and finish with Rogue's Passage on the largest body |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Ferocious engine | Wargling (4), Ravening Warg (4), Nighthowl Pursuer (2), Wilderland Scrounger (2), The Chief Warg (1) | Wargling gives the team trample when it attacks with power four or greater on the board. Scrounger puts a +1/+1 counter on each creature you control on the same condition. Ravening Warg gains you 2 life, Nighthowl Pursuer grows to 3/3, and The Chief Warg draws a card |
+| Bear payoffs | Beorn the Fierce (2), Ordinary Bear (3), Little Bear (3), Large Bear (2) | Beorn is a 6/6 trampler that gives other Bears +2/+2, hands out a trample counter, and draws two cards with three or more Bears. Ordinary Bear is the four-power switch. Little Bear flashes in and untaps a Bear with a counter. Large Bear arrives as a hasty 5/5 with reach and trample |
+| Token engines | Dancing from Dark to Dawn (2), Chief Warg's Company (2), Head of the Hunt (1) | Dancing makes a 2/2 Bear on every landfall and puts counters equal to a creature spell's mana value on a creature you control. Chief Warg's Company makes a 2/2 Wolf every upkeep. Head of the Hunt flashes in and converts opposing creature deaths into 2/2 Wolf tokens |
+| Interaction | Quarrel (2), Pinecone Strike (2) | Quarrel makes your largest creature fight, which is usually a one-sided exchange once a Bear has counters. Pinecone Strike deals three damage to a creature and can also blow up artifact tokens |
+| Mana and selection | Thrór's Map (2), Troop of Ponies (2) | Map finds a basic land on entry and loots thereafter. Troop of Ponies blocks, then trades itself for two basic lands and a guaranteed fourth land drop |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Mirkwood | 3 | The win-condition land. It is a black and green dual that enters tapped, and for two mana of each colour it sacrifices itself to put two +1/+1 counters on target Bear, Spider or Wolf. Two counters turn a 2/2 Wolf token into a 4/4 threat, push ordinary bodies over the ferocious threshold, and make Beorn an 8/8 trampler |
+| Rogue's Passage | 1 | The finisher land. Four mana makes any creature unblockable for the turn; combined with a counter-stacked Bear or a 6/6 trampling Beorn it is a two-turn clock through a stalled board |
+| Forest | 8 | Primary green source, and the target for Troop of Ponies and Thrór's Map |
+| Swamp | 7 | Primary black source. Black carries the deathtouch bodies, Head of the Hunt and the two Chief Warg cards |
+| Mountain | 5 | Red for Pinecone Strike, and a fifth untapped land type so the deck does not stall on double-black or double-green |
+
+Coloured sources: eleven green, ten black, five red. The red count is deliberately low because only Pinecone Strike needs it; the double-green cards (Beorn the Fierce, Dancing from Dark to Dawn) and the single double-black card (Head of the Hunt) both sit comfortably behind their colours.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 2 | Nighthowl Pursuer |
+| Two | 16 | Wargling, Ravening Warg, Thrór's Map, Troop of Ponies, Quarrel, Pinecone Strike |
+| Three | 5 | Little Bear, Chief Warg's Company |
+| Four | 5 | Ordinary Bear, Head of the Hunt, The Chief Warg |
+| Five | 8 | Large Bear, Beorn the Fierce, Wilderland Scrounger, Dancing from Dark to Dawn |
+
+The deck wants four lands and is happy at five. Four-land probability by turn four is 0.624 and turn-four consistency is 0.634, both above the 0.55 threshold the build is held to. Twenty-four lands back a curve that peaks at five, and the two land-finding artifacts effectively add two more sources.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about bodies that matter later. Wargling is the best turn-two play: it is a 2/2 that becomes a trample anthem the moment anything with four power is on the board. Ravening Warg trades with anything thanks to deathtouch and gains you 2 life on every attack once ferocious is live, which is the deck's cheapest way to survive an aggressive start. Thrór's Map on turn two is never wrong when the hand is short of lands, and Troop of Ponies should be held until it can be sacrificed in a turn where the land drop matters.
+
+Do not panic about the tapped Mirkwood. Losing one turn of mana is worth a land that later adds two permanent counters to the creature of your choice.
+
+## Mid game
+
+Turns three to five are where the deck takes over. Ordinary Bear is the pivot card at four mana because it turns on every ferocious trigger in the deck by itself. From that point Wargling attacks give the whole team trample, Wilderland Scrounger attacks put a +1/+1 counter on each creature you control, and The Chief Warg draws a card every attack.
+
+Chief Warg's Company needs two other Wolves to attack, which the deck has no trouble supplying: Wargling, Ravening Warg, Nighthowl Pursuer, Wilderland Scrounger and the Wolf tokens it makes itself all count. Once it can attack it is a 5/3 trampler that also leaves a 2/2 Wolf behind every upkeep, and those tokens are the raw material for Beorn's anthem and Mirkwood's counters.
+
+## The combo turn
+
+The engine turn is Dancing from Dark to Dawn, then Beorn the Fierce, then a land drop:
+
+1. Cast Dancing from Dark to Dawn. Every creature spell from now on puts counters equal to its mana value on a creature you control, and every land that enters makes a 2/2 green Bear token.
+2. Cast Beorn the Fierce. His own trigger puts five counters on the best creature you have, and from now on all other Bears get +2/+2, so each Bear token is a 4/4.
+3. Play a land. Landfall makes a Bear token, which Beorn immediately turns into a 4/4. If you have three or more Bears, Beorn's combat trigger draws you two cards.
+4. Attack. Wargling gives the team trample, Wilderland Scrounger adds a +1/+1 counter to everything, and Beorn's trample counter on a Wolf converts that Wolf into a Bear for the anthem.
+
+Order matters: cast Beorn before the turn's land drop if you can, so the Bear token arrives with the anthem already online.
+
+## Win condition 2
+
+The second win is the counters line, and it is the plan when the ground is stalled. Every creature spell pumps a target for its mana value, Mirkwood sacrifices for two more counters, Little Bear untaps a Bear and adds a counter, and Quarrel trades the largest body for their best blocker. Once a single creature is at seven or more power, Rogue's Passage makes it unblockable for four mana and it ends the game on its own — Beorn's own trample usually makes the second Rogue's Passage activation lethal.
+
+Note the ordering detail on Mirkwood: it sacrifices itself as a sorcery, so activate it after the land has produced its mana for the turn.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two or three lands with Wargling and Ravening Warg | Keep. Two land types plus early pressure is exactly the shape the deck wants |
+| Land-light hand with Thrór's Map and a two-drop | Keep. Map or Troop of Ponies finds the fourth land |
+| Five lands and no creature | Mulligan. The deck needs a body on turn two |
+| One land, Beorn the Fierce and Dancing from Dark to Dawn | Mulligan. Both five-drops need four lands in play before they matter |
+| Three lands with Ordinary Bear and Chief Warg's Company | Keep. This is the ferocious switch plus a token engine |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Ferocious checks power four or greater | All five ferocious cards check for any creature you control with power four or greater when the ability triggers. Ordinary Bear (4/5), Beorn the Fierce (6/6) and Large Bear (5/5) get there on their own; a Bear token with counters or a Wolf under Beorn does too |
+| Beorn's combat trigger makes new Bears | The trample counter goes on up to one target creature you control and that creature becomes a Bear in addition to its other types. Point it at a Wargling or a Wolf token and the anthem begins applying to it, and it counts toward the three-Bear condition for the draw |
+| Chief Warg's Company needs two other Wolves | It is a Wolf itself, but the attack restriction counts only other Wolves. Two of Wargling, Ravening Warg, Nighthowl Pursuer, Wilderland Scrounger, The Chief Warg or a Wolf token satisfy it |
+| Dancing from Dark to Dawn counts creature spells only | The counter trigger fires on casting a creature spell, so the activation uses the mana value of what you cast. Landfall tokens do not trigger it, but they do trigger on the land itself |
+| Mirkwood is a sorcery-speed sacrifice | The two counters must be used at sorcery speed, and the land is gone afterwards. Activate it after tapping it for mana in the same turn |
+| Little Bear's untap | It untaps another target creature you control on entry; if that creature is a Bear it also gets a +1/+1 counter. Flashing it in during combat untaps an attacker you have already attacked with |
+| Pinecone Strike is modal | Three damage to a creature, or destroying an artifact token, or both if you have two targets. It is the cleanest answer to Treasure and Map tokens |
+| No reach in the red splash | Beyond Large Bear's reach and Wilderland Scrounger's size, the deck is soft to fliers. Quarrel and Pinecone Strike are the answers, and racing with trample is often better than trading |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Ravening Warg's deathtouch and lifegain is the stabiliser, and Pinecone Strike answers the first two-drop. Trade early, then take over with Ordinary Bear and Chief Warg's Company |
+| Midrange | The strong matchup. Beorn plus repeated landfall Bear tokens outgrow one-for-one removal, and Mirkwood counters win the counter war against anything that does not fly |
+| Control | The weak matchup. There is no card advantage beyond The Chief Warg and Beorn's draw, so commit two threats at a time and rebuild with Dancing from Dark to Dawn's landfall tokens |
+| Combo | Quarrel and Pinecone Strike are the only interaction, so the plan is speed: Wargling and Nighthowl Pursuer pressure, then Beorn plus Rogue's Passage to close before they assemble |
+
+# Iterations
+
+Two tuning rounds were run against the viability battery (three 500-game simulations per round). Both rounds were refinements after a passing list, not gate failures.
+
+| Round | Change | Result |
+|-------|--------|--------|
+| v1 to v2 | Removed Goblin-town (a tapped black and red dual whose activation only pumps Goblins and Orcs) and played the fifth Mountain instead, cutting the budget spend to two cards | Sim 60.7 to 62.7, turn-4 consistency 0.619 to 0.629, four-land probability 0.599 to 0.641, synergy 72.8 to 72.8 |
+| v2 to v3 | Removed 2 Nasty Little Rabbit (a 1/2 that only grows after ferocious is already online), added Head of the Hunt and The Chief Warg | Sim mean over three repeat runs 55.9 to 60.8, turn-4 consistency 0.643 to 0.634, four-land probability 0.645 to 0.624, synergy 72.8 to 72.5 |
+
+The final battery run on the v3 list returned sim 62.3 percent, turn-4 consistency 0.634, four-land probability 0.624 and synergy 72.5, with every gate passing.
+
+# Deck list (Arena import)
+
+```text
+Wilderland Howl
+Deck
+4 Wargling
+4 Ravening Warg
+2 Nighthowl Pursuer
+1 Head of the Hunt
+1 The Chief Warg
+3 Little Bear
+3 Ordinary Bear
+2 Large Bear
+2 Chief Warg's Company
+2 Beorn the Fierce
+2 Wilderland Scrounger
+2 Dancing from Dark to Dawn
+2 Thrór's Map
+2 Troop of Ponies
+2 Quarrel
+2 Pinecone Strike
+3 Mirkwood
+1 Rogue's Passage
+8 Forest
+7 Swamp
+5 Mountain
+```
