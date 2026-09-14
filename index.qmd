@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-13**:
+Deck guides published **2026-09-14**:
 
-- **[Wilderland Howl](decks/2026-09-13-wilderland-howl.html)** — Golgari core with a red splash (Black / Green / Red) — Wilderlands Bears x the ferocious Warg pack, built on The Hobbit set  `hobbit` `bears`
-- **[Nightveil Offering](decks/2026-09-13-nightveil-offering.html)** — Five-color (White / Blue / Black / Red / Green) — an Eerie x Sneak x Sacrifice Ninja drain deck  `combo` `Eerie` `Sneak` `Sacrifice`
+- **[Vanishing Act](decks/2026-09-14-vanishing-act.html)** — Four-color (WUBG) | Investigate, Sneak and Disappear  `combo` `investigate` `sneak` `disappear`

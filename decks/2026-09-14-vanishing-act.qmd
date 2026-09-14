@@ -1,0 +1,162 @@
+---
+title: "Vanishing Act"
+subtitle: "Four-color (WUBG) | Investigate, Sneak and Disappear"
+date: "2026-09-14"
+categories: ["combo", "investigate", "sneak", "disappear"]
+---
+
+
+# At a glance
+
+| | |
+|---|---|
+| Format | Standard (60 cards, MTG Arena) |
+| Colors | White, Blue, Black, Green (four-color, no red) |
+| Archetype | Tempo combo — evasive Ninja pressure plus a Clue and Disappear value engine |
+| Size | 60 cards: 28 creatures, 8 non-creature spells, 24 lands |
+| Primary win | Combat damage from Sneak Ninjas that attack the turn they are cast, pushed through by unblockable lands |
+| Secondary win | Ten poison counters from Persuasive Interrogators, earned by sacrificing Clue tokens |
+
+# Overview
+
+Vanishing Act is built on three Standard mechanics that feed each other: Investigate, Sneak and Disappear.
+
+Investigate makes Clue tokens, and every Clue is an artifact that can be cashed in with two mana to draw a card. Sneak lets you cast a spell for its reduced sneak cost if you also return an unblocked attacker to your hand during the declare blockers step — the card comes back to hand, the Sneak creature enters tapped and attacking, and you effectively got a free extra attacker. Disappear text reads "if a permanent left the battlefield under your control this turn", so it is switched on by exactly the two things the deck does constantly: sacrificing Clues and bouncing attackers back to hand.
+
+The result is a deck that never takes a turn off. Clues convert mana into cards, bounced attackers convert into discounted reinforcement, and every sacrifice turns on the end-step Disappear payoffs (Michelangelo, Game Master growing; Lord Dregg, Insect Invader making fliers; Putrid Pals arriving with counters). The damage plan is evasion-first: Turtle Lair and Rogue's Passage both hand out "can't be blocked", which is a damage engine and a Sneak enabler at the same time.
+
+Four colors would normally be a liability, so the mana base is deliberately built out of colorless fixing rather than coloured duals: eight lands that fetch basics, plus utility lands that happen to be combo pieces.
+
+# Approach
+
+## Game plan phases
+
+**Turns 1 to 2 — set the table.** Land, then either Deduce or Toxin Analysis. Both Investigate, so you trade a card for a card and leave a Clue behind. A first-turn Scene of the Crime is also fine: it enters tapped but it is a Clue that later cashes in for a card, a poison counter pair, and a Disappear trigger all at once.
+
+**Turns 3 to 4 — establish pressure.** Turncoat Kunoichi, Oroku Saki, Shredder Rising and Michelangelo, Game Master are the three-mana core. Turncoat Kunoichi removes a blocker while it attacks; Oroku Saki refills your hand every time it connects; Michelangelo banks a +1/+1 counter at every end step in which something left your battlefield, which is most of them.
+
+**Turns 4 to 6 — start the Sneak loop.** Every attack step is now a decision: if a Ninja goes unblocked, return it to hand during declare blockers and pay a sneak cost. That is a rebate, a Disappear trigger and often lethal damage in the same moment. Lord Dregg and Putrid Pals convert that online Disappear into tokens and counters once the turn ends.
+
+**Turns 6 and later — close.** Foot Ninjas and Shredder, Unrelenting are the big finishers, and Persuasive Interrogators gives the deck a way to win that ignores the opponent's creatures entirely.
+
+## Card roles
+
+| Role | Cards | Count |
+|---|---|---|
+| Clue generation (Investigate) | Deduce, Toxin Analysis, Persuasive Interrogators, Scene of the Crime | 10 |
+| Sneak attackers (enter tapped and attacking) | Turncoat Kunoichi, Oroku Saki, Shark Shredder, Elektra, Shredder Unrelenting, Michelangelo Improviser, Foot Ninjas | 19 |
+| Disappear payoffs | Michelangelo Game Master, Lord Dregg, Putrid Pals | 7 |
+| Interaction | Turncoat Kunoichi (exile on entry), Elektra (destroy power 3 or less), Shredder's Technique, Toxin Analysis (deathtouch and lifelink) | 11 |
+| Poison payoff | Persuasive Interrogators | 2 |
+| Mana and utility | the 24 lands | 24 |
+
+## Lands as engines
+
+| Land | What it does | Why it wins games |
+|---|---|---|
+| Turtle Lair | Three mana plus tap: target Ninja or Turtle cannot be blocked | Cheapest unblockable source in the deck; the whole creature base is Ninjas and Turtles, so its Ninja or Turtle mana also fixes green |
+| Rogue's Passage | Four mana plus tap: target creature cannot be blocked | Sends a lethal Shredder, Unrelenting or Foot Ninjas through a stalled board, and guarantees the unblocked attacker you need to pay a sneak cost |
+| Scene of the Crime | Artifact Land, Clue. Two mana, sacrifice it: draw a card | A land that is also a Clue: sacrificing it draws, counts as sacrificing a Clue for Persuasive Interrogators, and counts as a permanent leaving for Disappear |
+| Evolving Wilds, Terramorphic Expanse, Fabled Passage | Fetch a basic land, tapped | Four-color fixing; every crack is also a permanent leaving your battlefield, which switches Disappear on before your end step |
+| Fabled Passage | As above, untaps the fetched land with four or more lands | Keeps a four-color curve on time |
+
+## Curve and mana
+
+Twenty-four lands: four Evolving Wilds, two Terramorphic Expanse, two Fabled Passage, two Rogue's Passage, two Turtle Lair, two Scene of the Crime, four Swamp, two Forest, two Plains, two Island.
+
+| Turn | Mana value | Cards |
+|---|---|---|
+| 1 | 1 | Toxin Analysis |
+| 2 | 2 | Deduce |
+| 3 | 3 | Turncoat Kunoichi, Oroku Saki, Michelangelo Game Master, Lord Dregg, Shredder's Technique |
+| 4 | 4 | Shark Shredder, Elektra, Putrid Pals, Michelangelo Improviser |
+| 5 | 5 | Shredder, Unrelenting |
+| 6 | 6 | Foot Ninjas, Persuasive Interrogators |
+
+The deck's average non-land mana value is about 3.5, weighted to three drops so that the Sneak rebate matters. Black is the deepest colour (Elektra, Shark Shredder and Persuasive Interrogators each want two black), so lead on Swamp or a fetch land, and treat the first Forest or Plains as a splash you fetch when it is needed.
+
+# Gameplay strategy
+
+## Early game
+
+Spend the first two turns on cards that do not cost you anything: Deduce and Toxin Analysis both draw a card and leave a Clue, so the deck starts ahead on material. Do not attack into a bad block just to look busy. Against faster decks, hold Toxin Analysis to give a blocker deathtouch and lifelink; a Putrid Pals or Foot Mystic with deathtouch and lifelink blanks most ground assaults.
+
+## Mid game and the combo turn
+
+The pattern that wins is always the same, and it happens inside one combat step:
+
+1. Before combat, cast your draw spells and leave Clue tokens on the battlefield.
+2. Attack with everything that can get through. Turtle Lair or Rogue's Passage guarantees at least one unblocked attacker.
+3. During declare blockers, return an unblocked attacker to your hand to pay a sneak cost. Cast Elektra for one and two black to kill a blocker and add a tapped, attacking 3/3; cast Oroku Saki for one and one black to keep the pressure and draw; cast Michelangelo, Improviser for two and two green to add a 4/4 that rewards connecting.
+4. After combat, sacrifice each Clue you do not need (two mana each). Every sacrifice draws a card, turns Disappear on and, if a Persuasive Interrogators is on the battlefield, hands an opponent two poison counters.
+5. At the end step, collect: Michelangelo, Game Master gets a counter, Lord Dregg makes a 1/1 flying Insect Warrior, and Putrid Pals arrives with two +1/+1 counters on any turn where something already left your battlefield.
+
+Note that Turncoat Kunoichi exiles a creature only until it leaves the battlefield, so bouncing Turncoat to hand to pay a sneak cost returns that creature to its owner — pay the sneak cost instead when you want the exile to be permanent.
+
+## Win condition two: poison
+
+Persuasive Interrogators turns every sacrificed Clue into two poison counters, and a player with ten or more poison counters loses regardless of life total. Clues come from Deduce, Toxin Analysis, the Interrogators' own enters-the-battlefield trigger and Scene of the Crime, so five Clue sacrifices finish the game. This is the route to take when the opponent clogs the ground with bigger creatures: keep two mana open, crack a Clue every turn, and let the poison accumulate while your Ninjas hold the board.
+
+## Mulligan guide
+
+Keep hands with two or three lands, at least one black source, and a play on turns two and three. A hand of six or seven lands is a mulligan. Since the mana base fetches basics, a one-land hand with an Evolving Wilds and a two-drop is playable; a one-land hand with only utility lands is not. Do not keep a hand that has no creature at all — this deck wins by attacking.
+
+## Key interactions and edge cases
+
+- Sleight of hand and Sneak: you pay a sneak cost only "if you also return an unblocked attacker you control to hand during the declare blockers step". The attacker must actually be unblocked, so unblockable effects (Turtle Lair, Rogue's Passage, Escape-style effects) are what make the mechanic reliable.
+- The bounced creature is not lost: casting it again later re-triggers its enters-the-battlefield ability, so returning Turncoat Kunoichi or Oroku Saki is rarely a real cost.
+- Shark Shredder, Killer Clone has first strike and steals a creature card from the defending player's graveyard whenever it connects, and that creature enters tapped and attacking that player. Trade early, then take their best dead creature.
+- Shredder, Unrelenting gives another creature deathtouch when it enters and whenever it attacks. Pair it with first strike damage (Shark Shredder) or trample from a pumped Michelangelo, Game Master to make blocks hopeless.
+- Michelangelo, Improviser puts a creature card and a land card from hand onto the battlefield when it connects — free acceleration, and the land entering is not a sacrifice, so Disappear still needs a Clue or a bounce.
+- Fetch lands are Disappear triggers: cracking an Evolving Wilds in your second main phase switches Disappear on for the end step even if you never sacrificed a Clue that turn.
+- Clue sacrifices cost two mana each. Sequence them into spare mana rather than tapping out for a big creature and leaving three Clues unused.
+
+## Matchups
+
+**Against aggro.** You have more interaction than it looks: Elektra kills a small attacker on entry, Turncoat Kunoichi exiles one, Shredder's Technique kills anything, and Toxin Analysis turns a blocker into a deathtouch lifelink wall. Foot Ninjas gains three life. Stabilise, then race with Lord Dregg's fliers.
+
+**Against control.** Sneak costs make your threats cheap enough to double-spell, Oroku Saki and Deduce keep your hand full, and the Disappear tokens rebuild a board after a sweeper. Persuasive Interrogators is the trump: poison ignores their life total.
+
+**Against midrange.** Shark Shredder and Shredder, Unrelenting outclass most four- and five-drop blockers, and their graveyards become your resources. Use Rogue's Passage to make the biggest deathtouch threat unblockable rather than fighting on the ground.
+
+# Iterations
+
+The list was tuned against a simulated gauntlet before publishing. One round of iteration:
+
+| Round | Change | Simulated win rate | Synergy score | Turn-4 goldfish consistency | Four lands by turn 4 |
+|---|---|---|---|---|---|
+| v1 | Investigate value build: low-power bodies (Novice Inspector, Rat King, Verminister) and trick spells | 48.3 | 73.3 | 0.628 | 0.614 |
+| v2 | Cut the small value creatures and trick spells for high-power evasive Sneak threats: Shark Shredder, Elektra, Shredder Unrelenting, Michelangelo Improviser, Foot Ninjas, Lord Dregg | 52.3 | 74.5 | 0.629 | 0.630 |
+
+The change moved the deck from a grindy Clue pile to a tempo deck: the engine is identical, but the creatures that carry it now end games.
+
+# Deck list (Arena import)
+
+```
+Vanishing Act
+Deck
+4 Turncoat Kunoichi
+4 Oroku Saki, Shredder Rising
+3 Shark Shredder, Killer Clone
+3 Elektra, Daughter of the Hand
+3 Michelangelo, Game Master
+2 Shredder, Unrelenting
+1 Michelangelo, Improviser
+2 Foot Ninjas
+2 Putrid Pals
+2 Lord Dregg, Insect Invader
+2 Persuasive Interrogators
+4 Deduce
+2 Toxin Analysis
+2 Shredder's Technique
+4 Evolving Wilds
+2 Terramorphic Expanse
+2 Fabled Passage
+2 Rogue's Passage
+2 Turtle Lair
+2 Scene of the Crime
+4 Swamp
+2 Forest
+2 Plains
+2 Island
+```
