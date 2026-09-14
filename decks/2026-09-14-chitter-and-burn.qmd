@@ -1,0 +1,167 @@
+---
+title: "Chitter and Burn"
+subtitle: "Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set"
+date: "2026-09-14"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red with a green splash (three colors) |
+| Archetype | Synergy aggro — Amass Goblins engine with a counter-burn payoff |
+| Size | 60 cards (35 spells and permanents, 25 lands, average mana value 2.57) |
+| Signature mechanic | Amass Goblins plus The Great Goblin's damage trigger |
+| Primary win | The Great Goblin turns every counter placement into 2 damage to the opponent, and the deck places counters on almost every turn |
+| Secondary win | One oversized Goblin Army with trample and menace closes the game in two attacks |
+| Land win condition | Goblin-town, a black and red land that sacrifices itself for two +1/+1 counters on the Army, which is 2 damage and two more power |
+| Measured performance | Sim 58.0 percent over three 500-game runs, turn-4 consistency 0.654, four-land probability by turn 4 of 0.654, synergy 74.1 |
+
+# Overview
+
+Chitter and Burn is a black-red goblin deck with a green trample splash, and it is built on the one engine The Hobbit set gives Goblins: amass. Amass is the set's token mechanic. The first time you amass, you create a 0/0 black Goblin Army token and put the counters on it; every time after that, the same Army simply grows. Twelve of the deck's thirty-five nonland cards amass, and the rest of the deck is built to trigger them faster.
+
+The payoff is The Great Goblin. It does not care about the size of the Army, only the act: whenever you put one or more counters on a Goblin, Orc, or Army you control, it deals 2 damage to the opponent. Because each amass is its own counter-placement event, a turn with two amass spells and a Bothersome Noisemaker on the board is four separate triggers, and four triggers is 8 damage. None of that damage needs a combat step.
+
+The second half of the deck is about making the resulting Army lethal. Misty Mountains Raider is a 4/4, which switches on Wargling's ferocious ability and gives the whole team trample for the turn. Goblin Plate Mail arrives, amasses, and attaches itself to the Army with menace. Warg Tactics adds a counter and hands out trample and hexproof when the opponent aims removal at the Army. The deck attacks for a lot and burns for the rest.
+
+**Note on the set:** The Hobbit set landed on Arena on 2026-08-14, and every one of its 193 printings carries an Arena ID in the card database, so the import list below is playable as-is and needs no substitutions.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Establish the amass base. Tidings of War on one is a 1-mana amass. Goblin-town Flunkies is the best turn two: a hasty body that also amasses. Goblin Plate Mail amasses and arms the Army in the same play |
+| Build | 3 to 4 | Fearsome Goblin Pair makes the opponent decide whether to trade with a 1/1 that turns into four counters when it dies. Azog removes their best creature, and The Great Goblin converts every trigger from here on into damage |
+| Multiply | 5 plus | Bothersome Noisemaker is the multiplier: from the moment it lands, every noncreature spell is another amass trigger. Misty Mountains Raider arrives as the 4/4 that switches on ferocious |
+| Close | 5 plus | Attack with trample and menace behind a large Army, and use Goblin-town and Tidings of War's flashback to finish the burn count |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Amass engine | Goblin-town Flunkies (4), Bothersome Noisemaker (4), Fearsome Goblin Pair (4), Misty Mountains Raider (2) | Flunkies is a hasty 1/1 that amasses on entry. Noisemaker amasses on every noncreature spell you cast, which is the deck's real engine. Fearsome Goblin Pair amasses 4 when it dies. Misty Mountains Raider amasses 2 on every attack |
+| Counter-burn payoff | The Great Goblin (3) | Deals 2 damage to the opponent each time counters are placed on a Goblin, Orc, or Army you control. Its second ability exiles the top card of the library whenever another Goblin, Orc, or Army you control dies, and you may play that card until the end of your next turn |
+| Amass spells | Tidings of War (3), Rage into the Valley (2), Gathering of Darkness (2) | Tidings is 1 mana for amass 1 and flashes back for amass 3. Rage draws a card and amasses 2. Gathering amasses 3 and returns a creature card from the graveyard to hand |
+| Evasion and protection | Goblin Plate Mail (3), Wargling (2), Warg Tactics (2) | Plate Mail amasses on entry and attaches with menace. Wargling gives the whole team trample once a 4-power creature is on the board. Warg Tactics counters, tramples and hexproofs the Army, or shoots down a flier |
+| Removal | Azog, Moria's Ruin (2), Warg Tactics (2) | Azog destroys any other creature on entry. Point it at an opposing creature for a clean answer, or at your own Fearsome Goblin Pair to draw a card and amass 1 yourself |
+| Attrition | Down, Down to Goblin-town (2) | A four-chapter Saga: chapter one takes a card from their hand, chapter two amasses, and chapters three and four drain 1 life each |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Goblin-town | 2 | The win-condition land. It is a black and red dual that enters tapped, and for {2}{B}{R} it sacrifices itself to put two +1/+1 counters on a Goblin or Orc. With The Great Goblin on the board that activation is 2 damage on top of the two power, and it is the only way the deck places counters without spending a card |
+| Swamp | 9 | Primary black source. Black carries Azog, Rage into the Valley, Gathering of Darkness and Down, Down to Goblin-town |
+| Mountain | 8 | Primary red source. Red carries Flunkies, Noisemaker, Misty Mountains Raider and Tidings of War |
+| Forest | 6 | Green source for Wargling and Warg Tactics. Only two cards in the deck require green, and both need a single green mana |
+
+Coloured sources: eleven black, ten red, six green. The black and red counts include the two Goblin-town copies, which produce either colour. Three cards in the deck have hybrid black-red costs (The Great Goblin, Fearsome Goblin Pair, Goblin Plate Mail), so a hand with either colour can still cast them.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 3 | Tidings of War |
+| Two | 15 | Goblin-town Flunkies, Bothersome Noisemaker, Goblin Plate Mail, Wargling, Warg Tactics |
+| Three | 13 | Fearsome Goblin Pair, The Great Goblin, Azog, Moria's Ruin, Rage into the Valley, Down, Down to Goblin-town |
+| Four | 2 | Gathering of Darkness |
+| Five | 2 | Misty Mountains Raider |
+
+The deck curves out at three and operates on three or four lands. Four-land probability by turn four is 0.654 and turn-four consistency is 0.654, both well above the 0.55 threshold the build is held to. Twenty-five lands support a curve whose median is two, so most hands can double-spell from turn three onward.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two build the Army before anything else. Tidings of War on turn one is the cheapest possible start, and it is worth remembering that the card is not spent: the flashback later in the game is amass 3 for {3}{R}, which is the single largest amass in the deck. Goblin-town Flunkies is the ideal turn two because it attacks immediately and still adds the counter, and Bothersome Noisemaker is the correct turn two whenever the hand holds several spells, since from then on every one of them amasses.
+
+Goblin Plate Mail on turn two is the most efficient play in the deck. It amasses 1, attaches to the Army automatically, and gives it +1/+0 and menace. A 2/2 Army that cannot be blocked by a single creature is a real clock, and the Equipment stays useful after the Army grows.
+
+## Mid game
+
+Turns three to five win the exchange game. Fearsome Goblin Pair is the awkward card for the opponent: it is only a 1/1, so trading with it is unattractive, but letting it live is also unattractive because of the four counters it leaves behind. Azog is the removal spell, and the choice of target matters. Destroying an opposing creature is clean removal, but that creature's controller amasses counters equal to its power, so Azog on a small opposing creature is the better exchange. Pointing Azog at your own Fearsome Goblin Pair is a legitimate line: you draw a card and amass 1 yourself.
+
+The turn The Great Goblin lands the deck changes character. From that point every amass is also a Shock. Two Noisemakers on the board mean each noncreature spell is 4 damage, and the deck is full of cheap noncreature spells. This is also the point where the two lines start feeding each other: the same triggers that burn the opponent are the ones growing the Army that is about to attack.
+
+## The combo turn
+
+The engine turn needs The Great Goblin and at least one Bothersome Noisemaker on the board, plus a hand of cheap spells.
+
+1. Cast Tidings of War for {R}. Amass 1 triggers, and The Great Goblin deals 2.
+2. Cast Goblin Plate Mail for {1}{B/R}. Amass 1 triggers, 2 more damage, and the Equipment attaches to the Army with menace.
+3. Cast Rage into the Valley for {2}{B}. Draw a card, lose 1 life, amass 2, and deal 2 more.
+4. Attack. Misty Mountains Raider amasses 2 on the attack, Wargling gives the team trample because the Raider is a 4/4, and the Army connects for whatever its power is.
+5. Flash back Tidings of War for {3}{R}. That is amass 3, so The Great Goblin deals another 2, and the Army adds three more counters.
+
+That sequence is five separate counter-placement events, so The Great Goblin alone deals 10 damage across the turn while the Army grows by nine counters. Order matters: cast the cheap spells first to force the opponent to spend removal early, and keep Warg Tactics for the spell that actually targets the Army.
+
+## Win condition 2
+
+The second win is the Army itself, and it is usually how the game ends once the burn has brought the opponent inside range. Wargling is the switch: it needs any creature with power four or greater, which Misty Mountains Raider provides on its own and an amassed Army provides from four counters onwards. With trample online, Goblin Plate Mail's menace makes the Army effectively unblockable, and Warg Tactics adds a counter plus trample and hexproof in response to removal.
+
+Goblin-town is the land that belongs to this plan. For {2}{B}{R} it sacrifices itself for two +1/+1 counters on the Army, which is 2 damage from The Great Goblin and a permanent two-power increase on the same turn. Sacrifice it after tapping it for mana, and only when the Army is attacking, because the land is gone afterwards.
+
+Down, Down to Goblin-town is the third piece of reach. Chapter one takes their best card, chapter two grows the Army, and chapters three and four drain 2 life each while the Army is attacking. Against a deck that has stabilised on the ground, that drain plus the Goblin-town activation is often the last four damage.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two or three lands with Goblin-town Flunkies and a two-cost spell | Keep. This is the deck's ideal opening |
+| One land with Tidings of War and Goblin Plate Mail | Mulligan. The deck needs three lands before the payoffs matter |
+| Three lands, Bothersome Noisemaker and two cheap noncreature spells | Keep. Noisemaker plus spells is the engine, and it does not need The Great Goblin to be good |
+| Five lands and no creature | Mulligan. The deck wants a body and an amass spell, not mana |
+| Two lands with Wargling and Warg Tactics | Keep if a red or black source is present. The green cards are a splash and can wait until turn three |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Amass and the Army token | The first amass in a game creates the 0/0 black Goblin Army token and then puts the counters on it. Every later amass just adds counters to that same Army, so the deck only ever has one Army unless it dies |
+| The Great Goblin counts events, not counters | Its trigger reads "one or more counters", so amass 4 is a single trigger and a single 2 damage. Two separate amass 1 spells are two triggers and 4 damage. Cheap spells are worth more than large ones with this card on the board |
+| The Great Goblin's second ability | Whenever another Goblin, Orc, or Army you control dies, you exile the top card of your library and may play it until the end of your next turn. Fearsome Goblin Pair dying triggers both abilities: amass 4 first, then the exile |
+| Azog gives counters to whoever owned the creature | Azog destroys another creature and its controller amasses counters equal to that creature's power. Killing an opposing 1/1 hands them a single counter. If you control the destroyed creature, you amass and draw a card |
+| Wargling needs power four | Ferocious checks for any creature you control with power four or greater when Wargling attacks. Misty Mountains Raider (4/4) and an Army with four or more counters both qualify |
+| Warg Tactics is an instant | The counter, trample and hexproof mode can be cast in response to removal, during combat, or on the opponent's turn. The flying mode is the deck's only clean answer to fliers |
+| Goblin-town is sorcery speed and one-shot | The sacrifice ability can only be activated as a sorcery, and the land is gone afterwards. Activate it in the second main phase after the Army has attacked |
+| Tidings of War flashback | The flashback cast is a spell cast from the graveyard, so it counts as a noncreature spell for Bothersome Noisemaker and gives the Army another counter on top of the amass 3 |
+| Hybrid costs | The Great Goblin, Fearsome Goblin Pair and Goblin Plate Mail can each be paid with black or red mana, so the deck rarely gets stuck on a colour |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Trade early with Fearsome Goblin Pair and Azog, and let The Great Goblin's ping race. Warg Tactics killing a flier is often the whole game against evasion decks |
+| Midrange | The strong matchup. Their blockers do not stop menace plus trample, and the burn line ignores the ground stall entirely. Force them to answer the Army, then rebuild with Gathering of Darkness |
+| Control | The weak matchup. Board wipes take the Army with them, so commit the Army plus one Noisemaker and keep the second in hand. The Great Goblin's exile trigger turns their removal into cards for you, which is the deck's best route back |
+| Combo | Noisemaker plus The Great Goblin is the fastest clock in the deck. Azog and Warg Tactics are the only interaction, so the plan is to amass every turn and put the opponent inside burn range before they assemble |
+
+# Deck list (Arena import)
+
+```text
+Chitter and Burn
+Deck
+4 Goblin-town Flunkies
+4 Bothersome Noisemaker
+4 Fearsome Goblin Pair
+3 The Great Goblin
+2 Azog, Moria's Ruin
+2 Misty Mountains Raider
+2 Wargling
+3 Goblin Plate Mail
+3 Tidings of War
+2 Warg Tactics
+2 Rage into the Valley
+2 Down, Down to Goblin-town
+2 Gathering of Darkness
+2 Goblin-town
+9 Swamp
+8 Mountain
+6 Forest
+```

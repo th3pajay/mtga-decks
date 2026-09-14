@@ -2,13 +2,14 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-07 · **232** cards locked · **Hobbit 107/193** remaining
+**Card pool consumption** — cycle started 2026-09-07 · **235** cards locked · **Hobbit 104/193** remaining
 
-**52 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**53 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-09-14
 
 - **[Vanishing Act](decks/2026-09-14-vanishing-act.html)** — Four-color (WUBG) | Investigate, Sneak and Disappear  `combo` `investigate` `sneak` `disappear`
+- **[Chitter and Burn](decks/2026-09-14-chitter-and-burn.html)** — Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set  `hobbit` `amass`
 
 ## 2026-09-13
 
