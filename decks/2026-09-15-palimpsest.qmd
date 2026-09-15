@@ -1,0 +1,167 @@
+---
+title: "Palimpsest"
+subtitle: "WUBR four-color — Flashback x Discover"
+date: "2026-09-15"
+categories: ["combo", "Flashback", "Discover"]
+---
+
+
+## At a glance
+
+| Item | Value |
+|---|---|
+| Format | Standard (60 cards, no sideboard) |
+| Colors | WUBR — white, blue, black, red (no green) |
+| Archetype | Combo-midrange: discover engine with a flashback recursion layer |
+| Size | 60 maindeck, 25 lands, 35 spells |
+| Primary win | Quintorius Kand burn: every spell cast from exile (each discover) deals 2 damage to each opponent and gains 2 life |
+| Secondary win | Trample clock: Trumpeting Carnosaur 7/6 and Geological Appraiser 3/2, doubled by Bulk Up and pushed through with Rogue's Passage |
+
+## Overview
+
+Palimpsest is a four-color Standard deck built on the fusion of two mechanics. **Discover** does the digging: it exiles cards from the library until it finds a nonland card cheap enough, then lets you cast it for free from exile. **Flashback** does the recycling: it lets the deck cast its cheap spells a second time out of the graveyard, so every card spent early is still a card later.
+
+The two halves meet on one card: Quintorius Kand. Its static ability reads "Whenever you cast a spell from exile, Quintorius Kand deals 2 damage to each opponent and you gain 2 life." Discover, by rule, casts the found card out of exile, so every discover trigger is two points of damage to the opponent plus two life. Flashback is what keeps the deck long enough to fire those triggers over and over, and Archmage's Newt turns any graveyard instant or sorcery into a free recast.
+
+The result is a deck that never truly runs out of cards: dead spells are re-cast at flashback cost, discovers replace themselves for free, and the graveyard is a second hand.
+
+## Approach
+
+### Game plan phases
+
+| Phase | Turns | What the deck does |
+|---|---|---|
+| Set up | 1-2 | Land drops only, hold Duel Tactics, Lightning Strike and Get Lost as interaction, play Archmage's Newt to start attacking |
+| Deploy engine | 3-4 | Etali's Favor and Caparocti Sunborn turn on discover; Geological Appraiser discovers 3 on the way in; Quintorius Kand lands and starts pinging |
+| Grind and convert | 5+ | Flashback the cheap spells, sacrifice the Hidden Cave lands, rebuy with the Newt, and let every discover trigger carry the game |
+| Close | Any | Either the burn count reaches 20 through repeated discover triggers, or Carnosaur plus Bulk Up plus Rogue's Passage ends it in two swings |
+
+### Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Discover engines | Geological Appraiser x4, Etali's Favor x3, Caparocti Sunborn x2, Trumpeting Carnosaur x2, Hidden Cave cycle x5, Buried Treasure x1 | Seventeen discover sources; the discover value is what triggers Kand |
+| Flashback spells | Duel Tactics x4, Bulk Up x3, Resentful Revelation x2, Plunder the Trollshaws x1, Tome Blast x1 | Eleven cards that can be cast twice |
+| Flashback rebuy | Archmage's Newt x4 | Combat damage lets you recast an instant or sorcery from the graveyard at its mana cost, or at flashback zero when saddled |
+| Graveyard filler | Resentful Revelation x2, discover itself | Revelation puts two cards into the graveyard while digging for a third; discover exiles what it does not use |
+| Payoffs | Quintorius Kand x2, Trumpeting Carnosaur x2 | Burn plus a 7/6 trample body |
+| Interaction | Get Lost x3, Lightning Strike x3, Duel Tactics x4, Tome Blast x1 | Seven unconditional or damage-based answers, most of them recastable |
+| Reach | Lightning Strike x3, Tome Blast x1, Duel Tactics x4 | Damage that also finishes games |
+
+### Lands as engines and as a win condition
+
+| Land | Count | Role |
+|---|---|---|
+| Rogue's Passage | 1 | The win-condition land: four mana and a tap makes the pumped Carnosaur or Appraiser unblockable, which turns Bulk Up into a lethal swing |
+| Hidden Volcano | 2 | Enters tapped, taps for red, and later sacrifices for a discover 4 that casts a free spell out of exile and pings with Kand |
+| Hidden Cataract | 1 | Same cycle, blue mana, discover 4 |
+| Hidden Courtyard | 1 | Same cycle, white mana, discover 4 |
+| Hidden Necropolis | 1 | Same cycle, black mana, discover 4 |
+| Evolving Wilds, Terramorphic Expanse | 6 | Colorless fixing that fetches any basic, effectively five-color access with a one-turn delay |
+| Basics | 13 | Six Mountain, three Island, two Swamp, two Plains |
+
+The Hidden Cave lands are literally part of the win condition: sacrificing one for four mana plus its color discovers 4, casts the found spell from exile, and immediately triggers Quintorius Kand for 2 damage to each opponent.
+
+### Curve and mana
+
+| CMC | Cards | Count |
+|---|---|---|
+| 1 | Duel Tactics | 4 |
+| 2 | Archmage's Newt, Bulk Up, Get Lost, Lightning Strike, Resentful Revelation, Plunder the Trollshaws, Tome Blast, Buried Treasure | 18 |
+| 3 | Etali's Favor | 3 |
+| 4 | Geological Appraiser, Caparocti Sunborn | 6 |
+| 5 | Quintorius Kand | 2 |
+| 6 | Trumpeting Carnosaur | 2 |
+
+Average mana value of the 35 nonland cards: 2.71. Twenty-five lands, of which thirteen are basics and six fetch basics, give a 69 percent chance of four lands by turn four. Red is the primary color, blue the secondary, and white and black are splashes that still matter: white for Get Lost and Caparocti Sunborn, black for Resentful Revelation.
+
+## Gameplay strategy
+
+### Early game
+
+Lead on lands and hold interaction. Duel Tactics and Lightning Strike trade one mana for one mana against small attackers; Get Lost answers anything larger. Archmage's Newt is the best turn-two play because it attacks for two, and its combat damage turns a graveyard Duel Tactics or Bulk Up into a fresh spell. Do not rush an Appraiser into open mana if a cheaper discover source is coming: Etali's Favor at three mana is the safest engine piece because the aura replaces itself through discover 3.
+
+### The combo turn
+
+The deck's "combo turn" is any turn where two or more discover triggers resolve while Quintorius Kand is on the battlefield.
+
+1. Land Quintorius Kand first, plus one point of loyalty.
+2. Cast Geological Appraiser: it discovers 3, exiling until a card with mana value three or less appears, and casts it for free from exile. Kand deals 2 to the opponent.
+3. Attack with Caparocti Sunborn, tap two creatures or artifacts, and discover 3 again for another free spell and another 2 damage.
+4. At the end of the turn, use Buried Treasure's graveyard ability, five mana plus exile, for a discover 5 and a fourth trigger.
+
+Four triggers in a turn is 8 damage to the opponent, 8 life gained, and four free spells. Two such turns usually end the game, because Lightning Strike and Tome Blast add reach on top.
+
+### Win condition 2
+
+When the burn route stalls, the deck just attacks. Trumpeting Carnosaur is a 7/6 with trample that already discovered 5 on the way in, and Etali's Favor gives any creature plus one plus one and trample. Bulk Up doubles a creature's power for one mana, so a Carnosaur that connects through Rogue's Passage hits for fourteen. Quintorius Kand's plus one makes a 3/2 Spirit every turn as a second attacker, and the Hidden Cave lands keep the pressure on after the graveyard runs dry.
+
+### Mulligan guide
+
+| Keep | Ship |
+|---|---|
+| Two to four lands including at least one red source, plus one engine piece (Appraiser or Etali's Favor) and one two-mana play | Zero or one land, or four-plus lands with no engine and no interaction |
+| One-land hands with only a Duel Tactics, if two of the next three cards are lands | Hands with only six-drops and no discover worth casting early |
+
+The deck's low curve means functional five-card and six-card hands often win; flooding is the real loss condition.
+
+### Key interactions and edge cases
+
+- Discover casts the found card from exile, so it triggers Quintorius Kand even when the spell was free.
+- Anything the discover whiffs on goes to the bottom of the library, not the graveyard, so discover does not feed flashback. Resentful Revelation and flashback itself are what put cards into the graveyard.
+- Archmage's Newt's granted flashback uses the card's mana cost. Saddling the Newt, three power of other creatures, upgrades the same ability to flashback zero, which makes Duel Tactics a free spell every attack.
+- Bulk Up doubles power after the plus one plus one from Etali's Favor, so the order matters: pump first, then double.
+- Rogue's Passage costs four mana to activate, so plan the turn around it if the opponent has a blocker that matters.
+- Buried Treasure's discover 5 is sorcery speed and needs five mana, but it is one of the few engines that works from the graveyard.
+- Hidden Cave lands enter tapped: they are the slowest cards in the deck, so sacrifice them once the mana is no longer needed.
+
+### Matchups
+
+| Opponent type | Plan |
+|---|---|
+| Aggro | Get Lost and Lightning Strike early, trade Duel Tactics for their best one-drop, then stabilize behind two discover triggers per turn and win the race with reach |
+| Midrange | The deck wins the long game: flashback gives every spell a second use and Carnosaur outclasses most bodies in combat |
+| Control | Do not overextend into a board wipe; keep Lands and Buried Treasure in reserve so the discover plan works from an empty hand |
+| Combo | Get Lost is the main answer, and the deck can win as early as turn five or six with a pumped trampler if the opponent spends their turn assembling |
+
+## Iterations
+
+The list below is the fourth build. The viability battery gates on simulated win rate, synergy, turn-four consistency and land-drop probability. Three fixes were applied; the final build passes every gate.
+
+| Round | Change | Metric deltas |
+|---|---|---|
+| v1 to v2 | minus 2 Moment of Glory, minus 1 Laughing Mad, minus 1 Sphinx of Forgotten Lore, minus 1 Daring Discovery, plus 2 Get Lost, plus 1 Lightning Strike, plus 2 Chimil, the Inner Sun (interaction plus a repeatable end-step discover engine) | sim 49.3 to 48.0, synergy 73.2 to 73.1, T4 0.681 to 0.672, P4 lands 0.667 to 0.666 |
+| v2 to v3 | minus 3 lands for speed, minus Buried Treasure and the six-drops, plus a full set of Duel Tactics and Bulk Up (lower curve, more recastable spells) | sim 48.0 to 47.3, synergy 73.1 to 73.6, T4 0.672 to 0.537, P4 lands 0.666 to 0.528 (land gates broke) |
+| v3 to v4 | restore the 25-land manabase, minus Curator of Sun's Creation, minus Chimil, plus Get Lost and Lightning Strike (two mana interaction plus the land count the gates need) | sim 47.3 to 53.3, synergy 73.6 to 73.6, T4 0.537 to 0.696, P4 lands 0.528 to 0.693 (all gates pass) |
+
+## Deck list (Arena import)
+
+```text
+Palimpsest
+Deck
+4 Geological Appraiser
+4 Archmage's Newt
+2 Caparocti Sunborn
+2 Trumpeting Carnosaur
+2 Quintorius Kand
+4 Duel Tactics
+3 Bulk Up
+3 Etali's Favor
+3 Get Lost
+3 Lightning Strike
+2 Resentful Revelation
+1 Plunder the Trollshaws
+1 Tome Blast
+1 Buried Treasure
+1 Rogue's Passage
+2 Hidden Volcano
+1 Hidden Cataract
+1 Hidden Courtyard
+1 Hidden Necropolis
+4 Evolving Wilds
+2 Terramorphic Expanse
+6 Mountain
+3 Island
+2 Swamp
+2 Plains
+```

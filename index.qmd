@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-14**:
+Deck guides published **2026-09-15**:
 
-- **[Vanishing Act](decks/2026-09-14-vanishing-act.html)** — Four-color (WUBG) | Investigate, Sneak and Disappear  `combo` `investigate` `sneak` `disappear`
-- **[Chitter and Burn](decks/2026-09-14-chitter-and-burn.html)** — Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set  `hobbit` `amass`
+- **[Palimpsest](decks/2026-09-15-palimpsest.html)** — WUBR four-color — Flashback x Discover  `combo` `Flashback` `Discover`
