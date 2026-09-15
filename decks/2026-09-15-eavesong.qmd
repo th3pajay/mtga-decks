@@ -1,0 +1,198 @@
+---
+title: "Eavesong"
+subtitle: "White / Blue / Black / Green (four colors) — legendary-Elf landfall engine with the Bard draw-and-token package, built on The Hobbit set"
+date: "2026-09-15"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black / Green (four colors) |
+| Archetype | Synergy midrange-combo — Elf legends plus landfall, with a doubled-token finish |
+| Size | 60 cards (36 spells and permanents, 24 lands, average mana value 3.36 across nonlands) |
+| Signature mechanic | Landfall on legendary Elves, doubled by Bard, King of Dale |
+| Primary win | Mirkwood Pathmaker grows with every land, Thranduil's Company and Elvenking's Halls add counters, and Elvenking's Harper makes the result unblockable |
+| Secondary win | Thranduil, Sindarin Liege and Down in the Valley make 1/1 Elf tokens on landfall, Bard, King of Dale doubles every token made, and Bard's Company turns the swarm into a real army |
+| Land win condition | Elvenking's Halls, a green-blue land that sacrifices itself for two +1/+1 counters on an Elf |
+| Measured performance | Sim 61.0 percent over three 500-game runs, turn-4 consistency 0.625, four-land probability by turn 4 of 0.632, synergy 70.6 |
+
+# Overview
+
+Eavesong is the Elf-legends build of The Hobbit set, and its engine is the one thing Elves and lands share in this set: landfall. Ten of the deck's thirty-six nonland cards either trigger on a land entering or put extra lands onto the battlefield, and the two payoffs are both legendary Elves. Thranduil, Sindarin Liege gives the whole Elf team +1/+1 and makes a 1/1 green Elf token every time a land enters. Thranduil's Company lets you play an extra land each turn and puts two +1/+1 counters on a creature on every landfall, with vigilance attached. Two creatures, one land per turn, and the board grows in three directions at once.
+
+The second engine is mana. Wood Elves puts a Forest onto the battlefield, Woodland Weavemaster taps for one mana for each point of its power (and it grows whenever another Elf enters), and Thranduil's Company adds a land drop. The deck reaches five and six mana early, which is where Thranduil, the Elvenking and Bard, King of Dale live.
+
+Thranduil, the Elvenking is the top of the curve and the reason the deck is four colors. He draws two cards every time another legendary Elf enters — and there are six legendary Elves in the list. His first ability is the sharper one: he has all activated abilities of all Elf cards in your graveyard, so the unblockable activation from Elvenking's Harper, the three counters from Guardian of the Halls and the mana ability from Woodland Weavemaster stay available to him after those creatures die. Elrond, Moon-Reader converts each of those activations into a card.
+
+Bard, King of Dale closes the loop from the other side. Every draw after the first in a turn becomes two draws, and every token the deck creates is doubled. Down in the Valley chapter two turns every land into two 1/1 Elf tokens instead of one, Bard's Company is a lord that recruits a Soldier on every attack, and Galion, Elvenking's Butler turns whichever token you point it at into a 4/4.
+
+**Note on the set:** The Hobbit releases on Arena on 2026-08-14. Arena IDs are still empty for most of the set's printings in the card database, so the import list below takes effect from that release date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Play a land every turn and land a two-drop. Woodland Weavemaster is the best turn two because it ramps from turn three onward; Guardian of the Halls and Elvenking's Harper are the other two-drops and both later feed Thranduil, the Elvenking from the graveyard |
+| Build | 3 to 4 | Wood Elves accelerates, Thranduil, Sindarin Liege turns every land drop into a token, and Mirkwood Pathmaker arrives as a creature whose power equals the number of lands you control |
+| Multiply | 4 to 5 | Thranduil's Company doubles the land drops and puts +1/+1 counters on the team, Bard's Company arrives as a lord, and Down in the Valley turns every land into a token |
+| Close | 5 plus | Thranduil, the Elvenking refills the hand, Bard, King of Dale doubles draws and tokens, and the deck attacks wide with a doubled Elf army or tall with one unblockable land-sized Elf |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Landfall payoffs | Thranduil, Sindarin Liege (3), Thranduil's Company (2), Mirkwood Meditator (2) | Sindarin Liege gives other Elves +1/+1 and creates a 1/1 green Elf token on landfall. Thranduil's Company lets you play an extra land while you control another Elf, and its landfall puts two +1/+1 counters on a creature and grants vigilance. Mirkwood Meditator becomes a 4/2 until end of turn on each landfall |
+| Mana engine | Wood Elves (3), Woodland Weavemaster (3), Down in the Valley (2) | Wood Elves searches a Forest onto the battlefield. Woodland Weavemaster taps for X mana of one color where X is its power. Down in the Valley chapter one searches a basic land to hand, and chapter two gives the Saga a landfall ability that makes a 1/1 green Elf token; chapters three and four give Elves +1/+0 and vigilance |
+| Legendary-Elf engine | Thranduil, the Elvenking (2), Elrond, Moon-Reader (2) | Thranduil has every activated ability of every Elf card in your graveyard and draws two cards when another legendary Elf enters. Elrond draws a card whenever you activate an ability of a creature, once each turn |
+| Token doubling and draw | Bard, King of Dale (2), Bard the Bowman (2) | Bard, King of Dale doubles every draw after your first each turn and doubles every token you create. Bard the Bowman puts a +1/+1 counter on a creature and gives it lifelink whenever you draw your second card in a turn |
+| Lord and recruit | Bard's Company (2) | A 2/3 that can be cast as though it had flash while you control a Human, gives your other creatures +1/+1, and recruits on entry and on every attack — draw a card, discard a card, and if the discarded card is not a land, create a 1/1 white Human Soldier token |
+| Evasion and reach | Elvenking's Harper (2), Key to the Side-Door (1), Guardian of the Halls (2), Galion, Elvenking's Butler (2) | Harper's {4}{U} activation makes a creature unblockable. Key to the Side-Door does the same for {2} and taps for it, and can discard a duplicate legendary to draw two. Guardian of the Halls is a 2/2 trampler that pays {5}{G}{G} for three counters. Galion sets another attacker's base power and toughness to 4/4 |
+| Refuel and interaction | Cantankerous Keepers (1), Confusticate and Bebother (1) | Cantankerous Keepers has affinity for Elves, mills four cards and returns every Elf among them to hand. Confusticate and Bebother counters a spell unless they pay {4}, or draws two and discards one |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Elvenking's Halls | 2 | The win-condition land. It is a green-blue dual that enters tapped, and for {2}{G}{U} it sacrifices itself to put two +1/+1 counters on a target Elf — the cheapest permanent boost the deck has, and it lands on the same turn Mirkwood Pathmaker attacks |
+| Hedge Maze | 3 | Green-blue dual that enters tapped and surveils 1, which fills the graveyard for Thranduil, the Elvenking's ability-stealing clause |
+| Underground Mortuary | 2 | Black-green dual, tapped with surveil 1. One of only five black sources |
+| Opulent Palace | 2 | Three-color land that enters tapped and taps for black, green or blue — the reason a single land can cast Thranduil, the Elvenking |
+| Temple Garden | 2 | Green-white shock land for the Bard package and Down in the Valley's white-free base |
+| Hallowed Fountain | 2 | White-blue shock land. Bard's Company, Bard the Bowman and Bard, King of Dale all want white and blue together |
+| Lake-town | 1 | White-blue dual that can sacrifice itself for two +1/+1 counters on a Human, which is the same effect as Elvenking's Halls aimed at the Bard creatures |
+| Forest, Island, Plains, Swamp | 4 / 3 / 2 / 1 | Basics. Black is a splash for exactly two cards, so a single Swamp plus the black-producing duals is enough |
+
+Coloured sources: fifteen green, thirteen blue, seven white, five black, including the dual lands that produce two or three colours. Black exists only for Thranduil, the Elvenking, and white only for the three Bard cards plus the Lake-town activation, so the deck plays like a green-blue base with two splashes.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 1 | Key to the Side-Door |
+| Two | 7 | Woodland Weavemaster, Elvenking's Harper, Guardian of the Halls |
+| Three | 14 | Elrond, Moon-Reader, Wood Elves, Mirkwood Pathmaker, Mirkwood Meditator, Down in the Valley, Bard the Bowman, Confusticate and Bebother |
+| Four | 9 | Galion, Elvenking's Butler, Thranduil's Company, Bard's Company, Thranduil, Sindarin Liege |
+| Five | 2 | Thranduil, the Elvenking |
+| Six | 3 | Bard, King of Dale, Cantankerous Keepers |
+
+Six of the fourteen three-cost cards and both five-drops are castable earlier than the table suggests: Cantankerous Keepers has affinity for Elves and routinely costs four or five, Woodland Weavemaster taps for two or three mana in the mid game, and Wood Elves plus Thranduil's Company mean the deck often has six or seven lands by turn five. Four-land probability by turn four is 0.632 and turn-four consistency is 0.625, both above the 0.55 threshold the build is held to.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about lands and one cheap body. Woodland Weavemaster is the priority two-drop: it blocks, it grows whenever another Elf enters, and once its power is two or three it taps for that much mana, which is what pays for the four-drop half of the deck without slowing the land count. Guardian of the Halls is the aggressive option at the same cost, and Elvenking's Harper is the one that matters later, because its unblockable activation is an ability Thranduil, the Elvenking inherits from the graveyard.
+
+Never trade a land drop for a spell in the first three turns. Every land is a Thranduil, Sindarin Liege token, a Thranduil's Company counter, a Mirkwood Pathmaker point of power, and a Mirkwood Meditator trigger, so the deck's mana base is also its threat base.
+
+## Mid game
+
+Thranduil, Sindarin Liege on turn four is the pivot. From that point you land tokens on every land, and the whole Elf team is one point bigger, which changes every combat. Thranduil's Company on top of it means two lands per turn: one land makes a token, and the Company's landfall trigger adds two +1/+1 counters with vigilance.
+
+Mirkwood Pathmaker is the card opponents consistently misjudge. It is a three-drop whose power is your land count — usually 5/5 or 6/6 by turn five in this deck — and Galion, Elvenking's Butler can point at any other attacker and set its base power and toughness to 4/4, which turns a 1/1 Elf token into a real threat. Down in the Valley should be played before the big attack turn: chapter two turns each land into a token, and chapters three and four add +1/+0 and vigilance across the team.
+
+## The combo turn
+
+The deck's engine turn needs Thranduil's Company or Thranduil, Sindarin Liege, a handful of lands, and one evasion source.
+
+1. Land for the turn. Thranduil, Sindarin Liege makes a 1/1 Elf token, and Thranduil's Company's landfall puts two +1/+1 counters on Mirkwood Pathmaker and grants it vigilance.
+2. Play a second land if Thranduil's Company or another Elf is out. Same two triggers again: another token, another two counters.
+3. Cast Down in the Valley if it is not already on the board. Chapter two turns your next land into two Elf tokens, and with Bard, King of Dale those tokens are doubled again.
+4. Activate Elvenking's Halls for {2}{G}{U}, sacrificing it, to put two more +1/+1 counters on the attacking Elf.
+5. Activate Elvenking's Harper for {4}{U} to make that creature unblockable. Elrond, Moon-Reader draws you a card for the activation, and Bard the Bowman puts a counter and lifelink on a creature for that second draw.
+6. Attack with everything. Galion, Elvenking's Butler can upgrade whichever token is smallest, and Bard's Company gives the team +1/+1 before damage.
+
+Two lands and one evasion activation is typically eight or more points of unblockable damage on a board that was two creatures wide one turn earlier. Order matters: make the land drops and the Halls activation before the unblockable activation, because both can change which creature should carry the attack.
+
+## Win condition 2
+
+The second win does not need Mirkwood Pathmaker at all. Thranduil, Sindarin Liege and Down in the Valley create Elf tokens on landfall, Bard, King of Dale doubles each creation, Bard's Company recruits a Human Soldier on every attack and attack trigger, and Galion, Elvenking's Butler turns the largest token into a 4/4 attacker each combat. Against a deck that answers one big creature, the wide plan is the better one; against a deck with many small blockers, the tall Pathmaker plan is.
+
+Bard, King of Dale is worth protecting with Confusticate and Bebother: while it is on the board every draw spell in the deck is worth double and every token the deck makes arrives twice. Down in the Valley's chapters three and four giving the team vigilance is what makes the alpha strike safe, since the Elf tokens can stay back to block on the following turn.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Three lands, Woodland Weavemaster and any three-drop | Keep. This is the deck's ideal opening |
+| Two lands, Wood Elves and Thranduil, Sindarin Liege | Keep. Wood Elves finds the third land and the Liege converts every later land into a token |
+| One land with a four-drop and no two-drop | Mulligan. The deck needs three lands before its payoffs function |
+| Four lands, Thranduil's Company and a landfall three-drop | Keep. Thranduil's Company is the best card in the deck with four lands in hand |
+| Five lands and both Bards but no Elf | Mulligan. The Bard package doubles the Elf engine; it does not replace it |
+| Two lands with a green source and one Swamp plus Thranduil, the Elvenking | Keep. Black is a one-card splash, and a single Swamp plus Opulent Palace or Underground Mortuary is enough |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Thranduil, the Elvenking and the graveyard | His ability grants him all activated abilities of all Elf cards in your graveyard, so an Elvenking's Harper that died still makes his unblockable activation available, and a Woodland Weavemaster in the graveyard gives him its mana ability |
+| Elrond, Moon-Reader triggers once per turn | Any activation of an ability of a creature draws a card, but only the first activation each turn. Pair it with the unblockable activation, not with mana abilities you would rather activate twice |
+| Landfall needs a land, not a token | Only a land entering triggers landfall. Ramp that puts a land onto the battlefield (Wood Elves, Down in the Valley chapter one) does trigger it, and Thranduil's Company's extra land drop is a second trigger on the same turn |
+| Bard, King of Dale doubles draws | Every draw after the first in each of your draw steps becomes two draws, so a single recruited card from Bard's Company becomes two cards and immediately triggers Bard the Bowman's second-draw ability |
+| Bard, King of Dale doubles tokens | Thranduil, Sindarin Liege's 1/1 Elf token becomes two, Down in the Valley's tokens become two each, and Bard's Company's Human Soldier becomes two. This is the entire wide plan, so the Bard is a removal magnet |
+| Recruit and the discard | Recruit draws a card and then discards one; if the discarded card is a nonland, you create a 1/1 white Human Soldier token. Discarding a spare land is often correct, and it feeds Thranduil, the Elvenking's graveyard clause |
+| Galion sets base power and toughness | The change is to base values until end of turn, so it overwrites Mirkwood Pathmaker's land-based strength if you point Galion at the Pathmaker. Point it at a token instead |
+| Elvenking's Halls and Lake-town are one-shot | Both lands sacrifice themselves for two +1/+1 counters, and only as a sorcery. Tap them for mana first, then sacrifice in the second main phase |
+| Key to the Side-Door | The unblockable activation costs {2} and taps the artifact, so it is the cheap evasion for the turn you need it; the second ability needs a legendary card in hand with the same name as a legendary permanent you control, which happens after a second Thranduil, the Elvenking or Bard, King of Dale is drawn |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Guardian of the Halls blocks and grows, Mirkwood Meditator switches to a 4/2 on every landfall, and Bard the Bowman's lifelink counter offsets their clock. Race with the wide token plan and keep Confusticate and Bebother for their pump spell |
+| Midrange | The strong matchup. Thranduil, the Elvenking outdraws them, Thranduil's Company's landfall counters outgrow their blockers, and Galion, Elvenking's Butler makes any token a 4/4 that trades up |
+| Control | The weak matchup. Board wipes take the tokens with them, so commit Thranduil's Company plus one token-maker and hold the second. Cantankerous Keepers returns the Elf cards that a wipe puts into the graveyard, and Thranduil, the Elvenking's ability-stealing clause means the Elves that died still contribute |
+| Combo | The deck's clock is turn five or six, so interaction is minimal: Confusticate and Bebother is the only counter and Key to the Side-Door's unblockable is the only way to push damage through a stalled board. Land Thranduil, Sindarin Liege early and attack every turn to force them to block instead of assembling |
+
+# Iterations
+
+The list was run through the viability battery twice before publishing. Round one missed the cohesion gate by half a point, so round two replaced the cards that were not feeding the engine with the highest-affinity Elf and Bard slots.
+
+| Round | What changed | Gate results |
+|-------|--------------|--------------|
+| v1 | Baseline list: Elf legends core plus landfall creatures (Elven Raft-Steerer, Silvan Reveler, Boughside Wanderers), with Attercop and Gigantic Big Bear as curve fillers | synergy 69.49 (FAIL vs 70), sim 58.3 percent, turn-4 0.595, four lands 0.584 |
+| v2 | -2 Attercop, -2 Boughside Wanderers, -2 Gigantic Big Bear, -2 Silvan Reveler, -2 Elven Raft-Steerer, -1 Mirkwood Pathmaker, -1 Thranduil's Company, -1 Cantankerous Keepers; +3 Thranduil, Sindarin Liege, +2 Bard's Company, +2 Bard, King of Dale, +2 Bard the Bowman, +1 Guardian of the Halls, +1 Key to the Side-Door, +1 Confusticate and Bebother; manabase -3 Forest, -2 Swamp, -1 Opulent Palace, +2 Temple Garden, +2 Hallowed Fountain, +1 Lake-town, +2 Plains (why: Thranduil, Sindarin Liege is the highest-affinity partner for Thranduil, the Elvenking, and the Bard package is the highest-affinity unlocked cluster in the set, while the Spider, Bear and off-theme Elf slots were not feeding the landfall engine) | synergy 69.49 to 70.57, sim 58.3 to 61.0 percent, turn-4 0.595 to 0.625, four lands 0.584 to 0.632 |
+
+All gates pass on the final list: size 60 with no missing cards, Standard legal, zero rotating cards, sim 61.0 percent, synergy 70.6, turn-4 consistency 0.625, four-land probability 0.632.
+
+# Deck list (Arena import)
+
+```text
+Eavesong
+Deck
+2 Thranduil, the Elvenking
+2 Elrond, Moon-Reader
+3 Thranduil, Sindarin Liege
+3 Wood Elves
+3 Woodland Weavemaster
+2 Mirkwood Pathmaker
+2 Galion, Elvenking's Butler
+2 Thranduil's Company
+2 Down in the Valley
+1 Cantankerous Keepers
+2 Bard's Company
+2 Bard, King of Dale
+2 Bard the Bowman
+2 Elvenking's Harper
+2 Guardian of the Halls
+2 Mirkwood Meditator
+1 Confusticate and Bebother
+1 Key to the Side-Door
+2 Elvenking's Halls
+3 Hedge Maze
+2 Underground Mortuary
+2 Opulent Palace
+2 Temple Garden
+2 Hallowed Fountain
+1 Lake-town
+4 Forest
+3 Island
+2 Plains
+1 Swamp
+```

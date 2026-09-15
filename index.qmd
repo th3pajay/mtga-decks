@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-15**:
 
 - **[Palimpsest](decks/2026-09-15-palimpsest.html)** — WUBR four-color — Flashback x Discover  `combo` `Flashback` `Discover`
+- **[Eavesong](decks/2026-09-15-eavesong.html)** — White / Blue / Black / Green (four colors) — legendary-Elf landfall engine with the Bard draw-and-token package, built on The Hobbit set  `hobbit` `elves`
