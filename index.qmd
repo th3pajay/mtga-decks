@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-16**:
 
 - **[Whiskerquake](decks/2026-09-16-whiskerquake.html)** — White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them  `combo` `Valiant` `Earthbend`
+- **[Anvil Chorus](decks/2026-09-16-anvil-chorus.html)** — Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set  `hobbit` `dwarves`

@@ -1,0 +1,186 @@
+---
+title: "Anvil Chorus"
+subtitle: "Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set"
+date: "2026-09-16"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White / Blue (three colors; blue is the Glamdring adventure and two dual lands) |
+| Archetype | Aggro-combo — Storied Dwarves, Equipment, and Dwarf tokens |
+| Size | 60 cards (37 spells and permanents, 23 lands, average mana value 2.08 across nonlands) |
+| Signature mechanic | Equipment count feeding two payoffs at once: double strike from Dáin Ironfoot and 2/2 Dwarf tokens from Fíli the Pathfinder and The Lonely Mountain |
+| Primary win | Equip-wide alpha strike: Dáin Ironfoot gives every equipped attacker double strike while Axe tokens from Iron Hills Blacksmith and Dáin Ironfoot, Dwarven Shortsword and Glamdring stack on the team, and Óin the Brave attacks the turn he arrives |
+| Secondary win | Token swarm: Fíli the Pathfinder and Dwarven Shortsword make 2/2 Dwarf tokens, The Lonely Mountain makes them out of spare mana, and Belladonna Took converts each token into life, cards and +1/+1 counters on the whole board |
+| Land win condition | The Lonely Mountain, a red land that makes 2/2 red Dwarf tokens for {4}{R}, one mana cheaper per Equipment |
+| Measured performance | Sim 55.7 percent over three 500-game runs, turn-4 consistency 0.575, four-land probability by turn 4 of 0.561, synergy 70.65 |
+
+# Overview
+
+Anvil Chorus is the Storied Dwarves build of The Hobbit set, and it is built on one loop: Equipment are artifacts, artifacts are also legendaries and Sagas fuel for Storied, and the same Equipment that turn on Storied are what Dáin Ironfoot, Dwarven Shortsword and The Lonely Mountain are counting.
+
+The deck attacks from a base of eleven Equipment sources across its cheap bodies: Iron Hills Blacksmith and Dáin Ironfoot each create a colorless Axe equipment token on entry, Dwarven Shortsword arrives with a 2/2 red Dwarf token already attached to it, and Glamdring, Foe-hammer is a two-mana Equipment whose equip cost is payable by the same creatures that want the pump. Nothing in the deck costs more than four, and twenty-two of the thirty-seven nonlands cost two or less.
+
+Storied is the engine switch. Controlling three or more artifacts, legendaries or Sagas gives an enduring story for the rest of the game, and the deck almost always gets there by turn three because two Axe tokens plus any of the six legendary Dwarves — or Belladonna Took, or Glamdring itself — already counts. Thorin Oakenshield turns that on into ward {1} for the entire board, saving the team from the first removal spell pointed at it. Óin the Brave becomes a hasty 2/3 that loots. Fíli the Pathfinder gives the whole team +1/+1 and makes a 2/2 red Dwarf token whenever a nontoken Dwarf enters. Kíli the Resourceful makes the first equip of each turn free.
+
+Belladonna Took is the card that ties the two halves together. Every token the deck makes — Axe tokens, Dwarf tokens, the Shortsword's 2/2 — triggers her, and the third trigger of a turn puts a +1/+1 counter on every creature you control. With Iron Hills Blacksmith and Fíli running, that is a real anthem on turn four, on top of the Equipment pumps.
+
+**Note on the set:** The Hobbit set releases on Arena on 2026-08-14. Arena IDs are still empty for most of the set's printings in the card database, so the import list below takes effect from that release date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | One threat a turn, all of them one or two mana: Dwarven Mauler is a 2/1 for one that makes every later equip cost {2} less, Bofur, Reliable Guardian is a lifelink blocker that can also save an Equipment with its adventure, and Iron Hills Blacksmith is a double striker that leaves an Axe behind |
+| Build | 3 to 4 | Three artifacts or legendaries means Storied is online, so Thorin Oakenshield's ward, Óin the Brave's haste and Kíli the Resourceful's free equip all switch on. Fíli the Pathfinder and Dáin Ironfoot arrive and the board doubles in size |
+| Alpha | 4 to 5 | Attach everything that is not already attached with Vow to Erebor and Kíli's free equip, then attack with Dáin Ironfoot on the board: every equipped attacker has double strike |
+| Close | 5 plus | The Lonely Mountain starts converting spare mana into 2/2 Dwarf tokens while Belladonna Took turns each of them into life, cards and counters, which is the fallback when the Equipment plan is answered |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Equipment generators | Iron Hills Blacksmith (4), Dáin Ironfoot (3), Dwarven Shortsword (2) | Blacksmith is a 1/1 for {1}{W} with double strike that creates a colorless Axe equipment token on entry. Dáin Ironfoot is a 1/4 for {2}{R} that creates an Axe and attaches it, then gives each equipped attacking creature double strike. Dwarven Shortsword costs {3}{W}, creates a 2/2 red Dwarf token and attaches itself to it |
+| Storied payoffs | Thorin Oakenshield (2), Óin the Brave (2), Fíli the Pathfinder (2), Kíli the Resourceful (3) | Thorin Oakenshield is a 3/2 trampler for {R}{W} who, with an enduring story, gives artifacts and creatures ward {1}. Óin the Brave gets +1/+0 and haste. Fíli the Pathfinder gives creatures +1/+1 and makes a 2/2 red Dwarf token on each nontoken Dwarf entry. Kíli the Resourceful makes the first equip of each turn free and draws a card when another Dwarf or Equipment enters |
+| Cheapest bodies and enablers | Dwarven Mauler (4), Bofur, Reliable Guardian (4) | Mauler is a 2/1 for {R} that reduces the equip cost of abilities targeting it by {2}, which is how a one-drop carries a three-mana equip. Bofur is a 1/1 lifelink for {W} whose adventure, Concerted Care, gives an artifact or creature hexproof and indestructible for {1}{W} before the creature is cast later from exile |
+| Token payoff | Belladonna Took (4) | A 2/2 legendary for {1}{W}. Every token that enters counts as a trigger: the first gives 1 life, the second draws a card, the third puts a +1/+1 counter on each creature you control |
+| First strike and reach | Nori, Teller of Tales (4) | A 2/2 for {1}{R/W} whose attack trigger gives another attacking creature first strike. With double strike from Dáin Ironfoot, the first-strike grant is what makes a token trade up before regular damage |
+| Equipment and tricks | Glamdring, Foe-hammer (2), Vow to Erebor (1) | Glamdring is a two-mana Equipment that reduces instant and sorcery costs by the equipped creature's power, and its Gleam of Death adventure mills six and returns every instant and sorcery among them. Vow to Erebor untaps a creature, gives it +2/+2 and attaches an Equipment to a Dwarf |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| The Lonely Mountain | 3 | The win-condition land. It is a Mountain that enters untapped if you control an Equipment, and for {4}{R} it creates a 2/2 red Dwarf token — one mana cheaper for each Equipment you control, so two Axes make it a two-mana activation |
+| Fields of Strife | 3 | Red-white dual that enters tapped and surveils 1 for {2}{R}{W}, which is the cheapest way to filter a spare land into the graveyard in the late game |
+| Asgardian Citadel | 3 | Red-white dual, enters tapped and gains 1 life — the life gain matters because the deck's own manabase and one-drops are its only early defence |
+| Gleaming Bastion | 2 | White-blue dual that taps for {C} and for {W} or {U} while you control a basic land, which is why the deck plays five Plains |
+| Stark Industries | 2 | Blue-red dual that enters tapped and gains 1 life; one of the four lands that tap for blue outright |
+| Multiversal Passage | 2 | Fixes whichever colour the hand is missing: choose a basic land type, then pay 2 life to have it enter untapped |
+| Plains, Mountain | 5 / 3 | Basics. White carries the one- and two-drop half of the deck and red carries Dáin Ironfoot, Óin the Brave, Glamdring's colourless body and The Lonely Mountain |
+
+Coloured sources: fifteen white, sixteen red, six blue, including the duals that produce two colours. Blue exists only for the Glamdring adventure face, which is cast for {3}{U} and never affects the deck's curve, so it is a splash rather than a third engine.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 8 | Dwarven Mauler, Bofur, Reliable Guardian |
+| Two | 22 | Iron Hills Blacksmith, Kíli the Resourceful, Óin the Brave, Nori, Teller of Tales, Belladonna Took, Thorin Oakenshield, Glamdring, Foe-hammer, Vow to Erebor |
+| Three | 3 | Dáin Ironfoot |
+| Four | 4 | Fíli the Pathfinder, Dwarven Shortsword |
+
+Two mana is where the deck lives, and Dáin Ironfoot at three is the only card that demands a specific colour pair. Four-land probability by turn four is 0.561 and turn-four consistency is 0.575, both above the 0.55 threshold the build is held to. Twenty-three lands is deliberate: the deck wants to hit four lands on time for Fíli the Pathfinder and Dwarven Shortsword, and then it stops wanting lands, because extra mana goes into The Lonely Mountain's token ability.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are for bodies, not for tricks. Dwarven Mauler is the best one-drop because its {2} equip discount applies to every Equipment you attach to it later, which is what makes Dwarven Shortsword's {2} equip and Glamdring's {2} equip effectively free. Iron Hills Blacksmith on turn two is the strongest play in the deck: it is a double striker, and its Axe token is an artifact that counts for Storied, an Equipment that counts for The Lonely Mountain, and a Belladonna Took trigger.
+
+Do not hold Vow to Erebor waiting for a perfect turn. It is a two-mana way to untap a creature, give it +2/+2 and attach an Equipment, and attaching at instant speed after attackers are declared is often two extra damage on a first-strike or double-strike blocker.
+
+## Mid game
+
+Turn three is when the deck decides the game. Dáin Ironfoot on an empty board is an Axe, an attacker, and the double-strike clause waiting to be used. Fíli the Pathfinder on turn four usually makes a token immediately, because it triggers on its own entry, and then again for every other nontoken Dwarf after that.
+
+Storied should be checked every turn. The count is artifacts, legendaries and Sagas: two Axe tokens plus any legendary Dwarf is three, which means Thorin Oakenshield's ward {1} for the team, Óin the Brave's haste and Kíli the Resourceful's free equip are all live from turn three onwards. Ward {1} on everything is what keeps a four-creature Equipment board alive through a single-target removal spell.
+
+## The combo turn
+
+The kill turn needs Dáin Ironfoot, two or more Equipment, and at least three attackers.
+
+1. Play Dáin Ironfoot if he is not already on the board. Each Axe he makes attaches immediately.
+2. Attach the spare Equipment with Kíli the Resourceful's free equip, then with Vow to Erebor on the creature that is not yet equipped. Every attached Equipment is a point of power, and Dwarven Mauler makes that attach cost {2} less.
+3. Attack with everything. Dáin Ironfoot's attack trigger gives each equipped attacking creature double strike.
+4. Order Nori, Teller of Tales' first-strike grant on the largest unequipped attacker, or on the Axe-carrying token, so the first-strike damage happens before the regular damage step.
+5. After combat, activate The Lonely Mountain for {4}{R} reduced by one per Equipment to make another 2/2 Dwarf token, which triggers Belladonna Took.
+
+Two Axes, one Dwarven Shortsword and a Glamdring on a board of four creatures is twelve or more points of double-strike damage from a curve that topped out at four mana. If the attack does not kill, the deck is still wide, and the tokens left behind trigger Belladonna Took again on the following turn.
+
+## Win condition 2
+
+The token plan does not need Dáin Ironfoot at all. Fíli the Pathfinder makes a 2/2 red Dwarf token for each nontoken Dwarf that enters after it, Dwarven Shortsword makes another, and The Lonely Mountain turns a heavily discounted {4}{R} activation — one mana less for each Equipment you control — into one more per turn. Belladonna Took turns each of those tokens into 1 life, then a card, then a +1/+1 counter on every creature you control — so the third token of a turn is effectively an anthem plus a free card.
+
+Against a deck that answers Equipment, the correct line is to stop attaching and start making tokens: keep Fíli the Pathfinder and one Equipment in play for Storied, and let The Lonely Mountain plus Belladonna Took win through counters. Against a deck with many cheap blockers, the opposite is true: attach everything to two creatures and use Dáin Ironfoot's double strike on a board that is only two attackers wide, because doublestrike damage does not care how many defenders there are.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two lands, Dwarven Mauler and Iron Hills Blacksmith | Keep. This is the deck's ideal opening: a double striker on turn two and a discount on every later equip |
+| Two lands, Belladonna Took and any two Equipment sources | Keep. Tokens arrive from turn two onward and she converts the third one into counters |
+| One land, no one-drop | Mulligan. The deck needs three mana before Dáin Ironfoot or Fíli the Pathfinder matter |
+| Three lands, Dáin Ironfoot and one Equipment | Keep. Dáin plus any Axe is the double-strike turn |
+| Five lands, Glamdring and one two-drop | Mulligan. Too much mana for a deck that stops at four, and blue is a splash |
+| Any hand with two Plains and a Mountain | Keep. That is the deck's red-white core, and Multiversal Passage or Fields of Strife fixes the rest |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Storied is permanent once online | The condition is checked when it becomes true; an enduring story lasts the rest of the game even if you later control fewer than three artifacts, legendaries or Sagas. Axe tokens dying to a board wipe does not switch Thorin Oakenshield's ward off |
+| Axe tokens are Equipment, not creatures | Iron Hills Blacksmith and Dáin Ironfoot create colorless Axe equipment tokens with "equipped creature gets +1/+0" and equip {2}. They count for Storied, for The Lonely Mountain's discount and for Belladonna Took's token triggers, but they cannot attack on their own |
+| Belladonna Took's three triggers | The life, card and counter clauses trigger once each per turn, in that order. The counters clause is the one worth planning around: hold the third token of the turn, ideally The Lonely Mountain's or Dwarven Shortsword's, until after combat so the counters are not wasted |
+| Dáin Ironfoot's double strike is a trigger, not a static ability | It happens when he attacks and it applies to attacking creatures that are equipped at that moment. Attach with Kíli the Resourceful's free equip and with Vow to Erebor in the declare-attackers step, not after |
+| Kíli the Resourceful's free equip | The discount applies only with an enduring story, only to the first equip ability you activate each turn, and only to the equip cost — not to other activated abilities of the Equipment. His draw trigger is once per turn as well, so play him before the Equipment, not after |
+| Dwarven Mauler's discount | Equip abilities you activate that target the Mauler cost {2} less. It applies to any Equipment, including Axe tokens, and it is what makes a three-mana equip playable on a two-drop |
+| Thorin Oakenshield and ward {1} | The ward applies to artifacts and creatures you control, Axe tokens included, and it is applied to each permanent separately: an opponent answering a single Creature has to pay {1} or lose the spell |
+| Vow to Erebor's attach clause | The +2/+2 and untap always happen; the free attach only happens if the target is a Dwarf. Casting it on a token Dwarf from Dwarven Shortsword is the best mode because the token is already the Equipment's natural carrier |
+| Glamdring's cost reduction | X is the equipped creature's power, so the reduction applies to instants and sorceries only, not to the creature side of the deck, and it does nothing while Glamdring is unattached |
+| The Lonely Mountain's activation | It is sorcery-speed, {4}{R} minus {1} per Equipment you control, and it makes a token, not a land — it is the deck's only repeatable way to trigger Belladonna Took without spending a card |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Race with double strike and do not over-commit Equipment. Bofur, Reliable Guardian blocks with lifelink, Asgardian Citadel and Stark Industries gain 1 life each, and Thorin Oakenshield's ward {1} makes their single-target removal awkward. Block with the Axe-carrying token rather than a real Dwarf |
+| Midrange | The strong matchup. Dáin Ironfoot's double strike beats one big blocker because first-strike damage lands first, and Nori, Teller of Tales gives first strike to whichever attacker is blocked. Belladonna Took's counters make the token plan bigger than their blockers turn by turn |
+| Control | The weak matchup. Board wipes take the Equipment and the tokens with them, so keep Fíli the Pathfinder plus one token source in hand, and remember that Storied survives the wipe even when the artifacts do not. Glamdring's Gleam of Death refills the hand after a wipe by milling six and returning every instant and sorcery |
+| Combo | The deck's clock is turn four or five, which is faster than most combo decks in the format, so the plan is to attack every turn and force them to spend their turn interacting. Equip one creature rather than four so a single removal spell does not turn off the double strike |
+
+# Iterations
+
+The final list is the second version run through the viability battery; the first version failed the simulation gate.
+
+| Round | What changed | Gate results |
+|-------|--------------|--------------|
+| v1 | Baseline list: Dwarf legends plus the full Equipment package — Dwalin, Weaponmaster, Thorin, Mountain-king, Bilbo, Luckwearer, Dwarven Mattock, Well-Worn Spatula, Old Fat Spider Can't See Me and Long-Bodied Grey Dog, on a red-white-blue manabase with Avengers Hangar and two Islands | synergy 70.84 percent (pass), turn-4 0.589 (pass), four lands 0.579 (pass), sim 44.7 percent (FAIL vs 52) |
+| v2 | -2 Dwalin, Weaponmaster, -2 Bilbo, Luckwearer, -2 Dwarven Mattock, -2 Well-Worn Spatula, -2 Old Fat Spider Can't See Me, -1 Thorin, Mountain-king, -1 Long-Bodied Grey Dog, -1 Vow to Erebor; +4 Nori, Teller of Tales, +4 Belladonna Took, +2 Dwarven Mauler, +1 Iron Hills Blacksmith, +1 Kíli the Resourceful, +1 Dáin Ironfoot; manabase -2 Avengers Hangar, -2 Island, +1 Fields of Strife, +1 Asgardian Citadel, +1 Plains, +1 Mountain (why: the simulator never plays Equipment attachments, so the utility Equipment and the four- and five-mana top end were dead weight in the race; they became one- and two-mana attackers with token payoffs, and the manabase moved to red-white duals that support the same curve) | synergy 70.65 (pass), turn-4 0.575 (pass), four lands 0.561 (pass), sim 55.7 percent (pass) |
+
+All gates pass on the final list: size 60 with no missing cards, Standard legal, zero rotating cards, sim 55.7 percent, synergy 70.65, turn-4 consistency 0.575, four-land probability 0.561.
+
+# Deck list (Arena import)
+
+```text
+Anvil Chorus
+Deck
+4 Dwarven Mauler
+4 Bofur, Reliable Guardian
+4 Iron Hills Blacksmith
+4 Nori, Teller of Tales
+4 Belladonna Took
+3 Kíli the Resourceful
+3 Dáin Ironfoot
+2 Óin the Brave
+2 Fíli the Pathfinder
+2 Thorin Oakenshield
+2 Dwarven Shortsword
+2 Glamdring, Foe-hammer
+1 Vow to Erebor
+3 The Lonely Mountain
+3 Fields of Strife
+3 Asgardian Citadel
+2 Gleaming Bastion
+2 Stark Industries
+2 Multiversal Passage
+5 Plains
+3 Mountain
+```
