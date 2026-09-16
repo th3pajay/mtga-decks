@@ -1,0 +1,183 @@
+---
+title: "Whiskerquake"
+subtitle: "White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them"
+date: "2026-09-16"
+categories: ["combo", "Valiant", "Earthbend"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Red / Green (three colors) |
+| Archetype | Aggro-combo - Valiant targeting engine feeding an Earthbend land-creature payoff |
+| Size | 60 cards (37 spells and permanents, 23 lands, average mana value 2.00 across nonlands) |
+| Signature mechanics | Valiant (target your own creature each turn) and Earthbend (awaken a land as a hasty creature with +1/+1 counters) |
+| Primary win | Earthbend: Rockalanche and Ba Sing Se turn lands into hasted creatures carrying four or more +1/+1 counters, Toph, the Blind Bandit's power equals the counters on your lands, and Knight of Wundagore copies every counter you place elsewhere |
+| Secondary win | Valiant: a Mice team (Flowerfoot Swordmaster, Emberheart Challenger, Seedglaive Mentor, Whiskerquill Scribe) that gets paid for every target, with Whiskervale Forerunner putting free creatures onto the battlefield and Secret Tunnel making two of them unblockable |
+| Land win condition | Secret Tunnel ({4}, {T}: two creatures you control that share a creature type cannot be blocked), Restless Prairie (a 3/3 attacking land that pumps the team), Ba Sing Se and Rockface Village as in-land engines |
+| Measured performance | Sim 51.3 percent average over three 500-game runs (gate is 52), turn-4 consistency 0.592, four-land probability by turn 4 of 0.574, synergy 73.5, cohesion 73.5 |
+| Overlap | 3 cards previously delivered (Flowerfoot Swordmaster, Emberheart Challenger, Seedglaive Mentor) out of a budget of 12 - spent only because those three are the only Standard Valiant threats outside the four cards this build introduces |
+
+# Overview
+
+Whiskerquake is built on a single question: what happens when the deck's targeting engine and its land-awakening engine are pointed at each other. Valiant rewards a creature the first time each turn it becomes the target of a spell or ability you control. Earthbend targets a land you control, turns it into a 0/0 creature with haste that is still a land, and puts counters on it equal to the earthbend number.
+
+The bridge between the two is counters. Every Earthbend activation places +1/+1 counters on a permanent that is simultaneously a land and a creature, and Knight of Wundagore reads exactly that: whenever you put a +1/+1 counter on another creature, it takes one too, once each turn. Seedglaive Mentor's Valiant trigger, Claim the Kingdom's landfall trigger, Snakeskin Veil and the earthbend spells all feed the same clause, so the Knight is usually a 4/3 or 5/4 trampler by turn four without any card being spent on it directly.
+
+The enablers are deliberately repeatable. Adventuring Gear's equip cost of {1} is a targeting ability, so re-equipping each turn is a Valiant trigger each turn plus +2/+2 from its own landfall clause. Rockface Village gives a Mouse +1/+0 and haste for {R}. Secret Tunnel's {4}, {T} activation targets two creatures that share a creature type - the Mice - which turns on two Valiant abilities with one activation and clears the way for the attack that matters. Claim the Kingdom and Snakeskin Veil are the one-shot versions, and both leave a counter behind.
+
+Toph, the Blind Bandit is the payoff that ties the two halves together. She earthbends 2 when she enters, and her power equals the number of +1/+1 counters on lands you control - so every Rockalanche, every Ba Sing Se activation and her own enters-the-battlefield trigger makes her larger, and she is a three-drop.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | A one-drop and a two-drop, ideally Flowerfoot Swordmaster or Knight of Wundagore, then Emberheart Challenger or Whiskerquill Scribe. Adventuring Gear on turn one is the best opening because every later land drop pumps the equipped creature |
+| Build | 3 to 4 | Seedglaive Mentor arrives as a 3/2 with vigilance and haste. Toph, the Blind Bandit earthbends 2 and starts scaling. Claim the Kingdom converts land drops into counters. Re-equip Adventuring Gear every turn to keep a Valiant trigger live |
+| Awaken | 4 to 6 | Rockalanche for X equal to your Forests - usually four or five - makes a land into a 4/4 or 5/5 attacker with haste. Ba Sing Se repeats the effect for {2}{G} every turn. Knight of Wundagore grows off each of these |
+| Close | 5 plus | Secret Tunnel makes two Mice unblockable, Rockface Village grants haste to the last Mouse, Whiskervale Forerunner drops a free creature every turn it is targeted, and the team swings through an empty board |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Valiant Mice | Flowerfoot Swordmaster (4), Emberheart Challenger (4), Seedglaive Mentor (4), Whiskerquill Scribe (3), Nettle Guard (2), Whiskervale Forerunner (2) | Each pays off the first time each turn it becomes the target of your spell or ability. Swordmaster pumps every Mouse +1/+0 (and has offspring {2} for a second body), Challenger exiles the top card and lets you play it, Mentor takes a +1/+1 counter, Scribe loots, Guard gains +0/+2, and Forerunner looks at the top five for a creature of mana value 3 or less and puts it onto the battlefield |
+| Repeatable targeting | Adventuring Gear (3), Rockface Village (1), Secret Tunnel (1), Claim the Kingdom (2) | Gear equips for {1} and gives +2/+2 on every landfall. Rockface Village pays {R} for +1/+0 and haste on a Mouse. Secret Tunnel's {4}, {T} makes two same-type creatures unblockable. Claim the Kingdom targets a creature you control on every landfall and adds a plan counter, then hands out an indestructible counter on the fourth |
+| One-shot targeting | Snakeskin Veil (3), Hard-Hitting Question (2) | Veil is a +1/+1 counter plus hexproof for {G}, so it is both a Valiant trigger and protection. Hard-Hitting Question is a one-mana fight: your creature deals damage equal to its power to a creature or planeswalker you do not control, which is the deck's cleanest answer to a blocker |
+| Earthbend engine | Toph, the Blind Bandit (2), Rockalanche (2), Ba Sing Se (2) | Toph earthbends 2 on entry and her power equals the counters on your lands. Rockalanche earthbends X where X is your Forest count and has flashback {5}{G} for a second land creature. Ba Sing Se is a green land whose {2}{G}, {T} ability earthbends 2 at sorcery speed |
+| Counters bridge | Knight of Wundagore (4) | A 2/1 trampler for {1}{G} that takes a +1/+1 counter whenever you put one on another creature, once each turn. It is the card that converts every earthbend and every Valiant counter into an extra body's worth of damage |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Ba Sing Se | 2 | Enters untapped if you control a basic land, taps for {G}, and for {2}{G} plus the tap it earthbends 2. This is the land that makes the Earthbend half of the deck a permanent, repeatable engine rather than a one-shot spell |
+| Secret Tunnel | 1 | The win-condition land. It taps for {C} and for {4} and the tap it makes two creatures you control that share a creature type unblockable, which is a double Valiant trigger on the Mice and the way the last points of damage get through |
+| Rockface Village | 1 | Taps for {C}, or for {R} restricted to creature spells - it is a real red source in a deck with only four Mountains. Its {R}, {T} activation targets a Lizard, Mouse, Otter or Raccoon for +1/+0 and haste, so it is a recurring Valiant trigger aimed at the Mice |
+| Restless Prairie | 1 | Enters tapped, taps for {G} or {W}, and for {2}{G}{W} becomes a 3/3 Llama creature that is still a land. Whenever it attacks, your other creatures get +1/+1, so it is both an attacker and an anthem |
+| Forest, Plains, Mountain | 8 / 5 / 5 | Basics only - the deck is a green base with white and red support. Green has ten sources, white six and red six, with Rockface Village's restricted red on top |
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 12 | Flowerfoot Swordmaster (4), Adventuring Gear (3), Snakeskin Veil (3), Hard-Hitting Question (2) |
+| Two | 15 | Emberheart Challenger (4), Knight of Wundagore (4), Whiskerquill Scribe (3), Nettle Guard (2), Claim the Kingdom (2) |
+| Three | 8 | Seedglaive Mentor (4), Rockalanche (2), Toph, the Blind Bandit (2) |
+| Four | 2 | Whiskervale Forerunner (2) |
+
+Average mana value is 2.00 across the 37 nonland cards, and the curve carries no card above four mana. Turn-four consistency is 0.592 and the probability of four lands by turn four is 0.574, both above the 0.55 threshold this build is held to. Because the top of the curve is four, the deck functions on three lands and is happy on four, which is what the one-land-heavy basic manabase is for.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one is Flowerfoot Swordmaster or Adventuring Gear. The Swordmaster is the better body, the Gear is the better long game: equip is a targeting ability, so from turn two onward it is a Valiant trigger every single turn at the cost of one mana, and its landfall clause gives the equipped creature +2/+2 whenever a land enters, which is every turn in this deck.
+
+Turn two is Knight of Wundagore or Emberheart Challenger. The Knight is the one that compounds - an Earthbend later in the game, a Seedglaive Mentor Valiant trigger, or a Snakeskin Veil all put a counter on it. The Challenger is the one that keeps the hand full: its Valiant trigger exiles the top card and lets you play it, and with Hard-Hitting Question and land drops available it is not unusual to play two cards a turn off it.
+
+Do not sandbag the fight spells. Hard-Hitting Question at one mana is the deck's answer to the first real blocker, and the creature it targets gets a Valiant trigger on the way through.
+
+## Mid game
+
+Turn three is Seedglaive Mentor or Toph, the Blind Bandit, and this is where the two themes start reinforcing each other. Mentor is a 3/2 with vigilance and haste who takes a +1/+1 counter every turn you target it - typically by re-equipping Adventuring Gear or paying for Rockface Village. Toph earthbends 2 on entry, which makes one land a 2/2 hasty creature, and her power is the number of +1/+1 counters on your lands, so she is a 2/3 that becomes a 3/3, then a 4/3, as the earthbend count climbs.
+
+Claim the Kingdom is the card that most opponents misread. It targets a creature you control on every landfall, so a single land drop per turn is a Valiant trigger plus a counter plus a plan counter, and on the fourth plan counter it sacrifices itself to give a creature an indestructible counter - which should go on whichever creature is carrying Adventuring Gear.
+
+## The combo turn
+
+The engine turn needs a Valiant Mouse, one repeatable targeting source, and an earthbend effect.
+
+1. Play the land for the turn. Adventuring Gear pumps the equipped creature +2/+2 and Claim the Kingdom targets a creature you control for a +1/+1 counter - two triggers, and the Claim target can be a Valiant creature for a third.
+2. Activate Rockface Village for {R} targeting a Mouse: +1/+0 and haste, and the Valiant ability fires. If the Mouse is Flowerfoot Swordmaster, the whole Mice team gets +1/+0.
+3. Cast Rockalanche for {2}{G} with five Forests in play: a land becomes a 5/5 creature with haste that is still a land. Knight of Wundagore takes a counter, and Toph, the Blind Bandit's power goes up by five.
+4. Activate Ba Sing Se for {2}{G} plus the tap to earthbend 2 again - a second land creature, two more counters on your lands, another Knight trigger, another point of Toph power.
+5. Cast Snakeskin Veil on the attacker you want to keep: a +1/+1 counter, hexproof, and another Valiant trigger.
+6. Activate Secret Tunnel for {4} and the tap to make two Mice unblockable, then attack with the land creatures, the Mice and Restless Prairie, whose attack trigger gives your other creatures +1/+1.
+
+Two earthbend activations plus three targeting effects is typically twelve or more points of damage on a board that was two creatures wide at the start of the turn. Sequence matters: do the earthbends and the counter placement first so that Knight of Wundagore and Toph are as large as possible before the unblockable activation decides who attacks.
+
+## Win condition 2
+
+The Valiant plan does not need a single land to be awakened. Flowerfoot Swordmaster's Valiant trigger gives every Mouse +1/+0 until end of turn, and with offspring it can put two of itself on the battlefield. Emberheart Challenger trades a target into a card off the top of the library every turn, Whiskerquill Scribe turns a spare card into a fresh one, and Whiskervale Forerunner - itself a 3/4 - puts a creature of mana value 3 or less directly onto the battlefield on every turn it is targeted. Re-equipping Adventuring Gear each turn pays all of those triggers at once, and Secret Tunnel then makes two of them unblockable for the kill.
+
+The Valiant plan is better against a deck with one large blocker that hard-hitting Question cannot reach; the earthbend plan is better against a deck with many small blockers, because a 5/5 hasty land creature does not care about a 2/2.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two lands, a one-drop and a two-drop | Keep. This is the ideal opening for a deck with a 2.00 average mana value |
+| Two lands, Adventuring Gear and Seedglaive Mentor | Keep. Gear on one, Mentor on three, and every land from then on is a Valiant trigger |
+| One land and two three-drops | Mulligan. The deck wins on two lands and three mana, not on one |
+| Three lands, Knight of Wundagore and Toph, the Blind Bandit | Keep. This is the counters line and it plays out on curve |
+| Four lands and no creature | Mulligan. Land count matters, but the deck needs a body to put counters on |
+| Two lands, Rockalanche and either Valiant Mouse | Keep. Rockalanche for four or five is the fastest path to a lethal attacker |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Valiant triggers once per creature per turn | Each Valiant creature has its own trigger, but only the first time that creature is targeted in a turn. Secret Tunnel's ability targets two creatures, so it fires two different Valiant abilities with one activation - but targeting the same creature twice in a turn does nothing the second time |
+| Equip is a targeting ability | Re-equipping Adventuring Gear each turn is a Valiant trigger on the creature that receives it. Equip only as a sorcery, so it is a main-phase trigger, not a combat trick |
+| Earthbend lands stay lands | The awakened land is still a land, so it counts for Toph, the Blind Bandit's power and it still taps for mana. If it dies or is exiled it returns to the battlefield tapped, so an earthbend is a permanent upgrade, not a temporary animation |
+| Earthbend is a 0/0 base plus counters | The land enters as a 0/0 and receives counters equal to the earthbend number. Anything that removes counters or sets base power can shrink it, and a land awakened twice keeps both sets of counters |
+| Knight of Wundagore is once per turn | Only the first counter you place on another creature each turn gives the Knight a counter. Place the biggest counter source first - Earthbend 4 or 5 rather than a one-shot Snakeskin Veil |
+| Toph counts counters on lands, not lands | Her power is the number of +1/+1 counters on lands you control, so one land with five counters makes her a 5/3, and five lands with one counter each does the same thing |
+| Claim the Kingdom's indestructible counter | The fourth plan counter sacrifices the enchantment, and the indestructible counter goes on a target creature you control. Put it on the creature wearing Adventuring Gear so the pump and the protection stay together |
+| Rockalanche counts Forests, not lands | X is the number of Forests you control, so Rockface Village, Secret Tunnel and Restless Prairie do not add to it. Flashback {5}{G} casts it a second time later, which is the last land creature of the game |
+| Hard-Hitting Question targets your creature first | The spell is a fight effect, so the chosen creature needs to survive the exchange. It is best aimed from a boosted Seedglaive Mentor or an earthbent land creature |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Race with haste. Seedglaive Mentor and Emberheart Challenger both have haste, the earthbent land creatures have haste, and Nettle Guard plus Snakeskin Veil trade with the first threat. Hard-Hitting Question is the answer to a large lifelinker |
+| Midrange | The strong matchup. Knight of Wundagore and Toph, the Blind Bandit outscale single large blockers, and Rockalanche's flashback plus Ba Sing Se keep land creatures arriving after the first wave is answered |
+| Control | The weaker matchup. Commit one threat at a time, keep Adventuring Gear as the recurring Valiant trigger, and hold Snakeskin Veil for the removal spell aimed at the largest creature. Emberheart Challenger's exiled card is the way to keep pressure after a wipe |
+| Combo | The deck's clock is turn five or six, so the plan is to attack every turn and force blocks. Secret Tunnel's unblockable activation is the way through a stalled ground, and Hard-Hitting Question answers any creature that a combo needs on the battlefield |
+
+# Iterations
+
+The list was run through the viability battery three times. Round one missed only the simulation gate; round two lowered the curve with a free-creature engine and one-mana interaction and improved every metric, and rounds three and four tested higher-power packages that scored worse, so the round-two list is the published one.
+
+| Round | What changed | Gate results |
+|-------|--------------|--------------|
+| v1 | Baseline: Valiant Mice plus Knight of Wundagore, Nettle Guard, Toph, the Blind Bandit, Badgermole, Adventuring Gear, Snakeskin Veil, Overprotect, Claim the Kingdom, Rockalanche | sim 50.7 (FAIL vs 52), synergy 72.4, turn-4 0.595, four lands 0.594 |
+| v2 (final) | -2 Badgermole, -2 Overprotect; +2 Whiskervale Forerunner, +2 Hard-Hitting Question (why: the two five-drops were the slowest cards in a 2.00 average deck, and one-mana interaction plus a creature that arrives for free on every target is the same engine for less mana) | sim 50.7 to 51.3, synergy 72.4 to 73.5, turn-4 0.595 to 0.592, four lands 0.594 to 0.574 |
+| v3 (tested, reverted) | -3 Whiskerquill Scribe, -2 Nettle Guard, -3 Adventuring Gear, -2 Hard-Hitting Question, -2 Claim the Kingdom, -2 Toph; +4 Pawpatch Recruit, +3 Bristly Bill, Spine Sower, +3 Erode, +3 Earthbender Ascension (why: swap in the highest-power Standard green and white cards from the current metagame) | sim 50.0, synergy 71.1, turn-4 0.571, four lands 0.559 - worse on every gate, so the round-two list was restored |
+| v4 (tested, reverted) | Round three plus a three-colour fixer manabase (3 Multiversal Passage, 2 Fabled Passage replacing basics and Ba Sing Se copies) | sim 49.3, synergy 71.4, turn-4 0.583, four lands 0.585 - the fixers cost more tempo than the colour consistency returned |
+
+The published list is v2. Size 60 with no missing cards, Standard legal, zero rotating cards, synergy 73.5, turn-4 consistency 0.592 and four-land probability 0.574 all pass. The simulation gate reads 51.3 against a threshold of 52 across three 500-game runs (individual runs 47.0, 55.0, 52.0), which is inside the run-to-run variance of the mirror simulation but is still a miss, so this build ships flagged on that one metric.
+
+# Deck list (Arena import)
+
+```text
+Whiskerquake
+Deck
+4 Flowerfoot Swordmaster
+4 Emberheart Challenger
+4 Seedglaive Mentor
+4 Knight of Wundagore
+3 Whiskerquill Scribe
+2 Nettle Guard
+2 Whiskervale Forerunner
+2 Toph, the Blind Bandit
+3 Adventuring Gear
+3 Snakeskin Veil
+2 Hard-Hitting Question
+2 Claim the Kingdom
+2 Rockalanche
+8 Forest
+5 Plains
+5 Mountain
+2 Ba Sing Se
+1 Rockface Village
+1 Secret Tunnel
+1 Restless Prairie
+```
