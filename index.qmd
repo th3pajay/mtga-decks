@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-16**:
+Deck guides published **2026-09-17**:
 
-- **[Whiskerquake](decks/2026-09-16-whiskerquake.html)** — White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them  `combo` `Valiant` `Earthbend`
-- **[Anvil Chorus](decks/2026-09-16-anvil-chorus.html)** — Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set  `hobbit` `dwarves`
+- **[Gift Economy](decks/2026-09-17-gift-economy.html)** — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger  `combo` `gift`

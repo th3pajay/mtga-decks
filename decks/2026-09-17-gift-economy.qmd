@@ -1,0 +1,177 @@
+---
+title: "Gift Economy"
+subtitle: "Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger"
+date: "2026-09-17"
+categories: ["combo", "gift"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / White (three colors) |
+| Archetype | Midrange combo — Gift spells plus a draw-punishment drain engine |
+| Size | 60 cards (36 spells and permanents, 24 lands, average mana value 2.61 across nonlands) |
+| Signature mechanic | Gift: you may promise an opponent a gift as you cast the spell, which makes them draw a card or create a token before the spell's other effects |
+| Primary win | Drain engine: Razorkin Needlehead and Scrawling Crawler punish every card the opponent draws, and each promised Gift-a-card spell hands them a card first, so removal doubles as damage |
+| Secondary win | Lethal loop: Marauding Blight-Priest plus Bloodthirsty Conqueror loop without end — an opponent losing life makes you gain that much life, and every life gain makes each opponent lose 1 life |
+| Land win condition | Restless Fortress, the black-white land that becomes a 1/4 Nightmare and drains 2 life from the defending player every time it attacks; Soulstone Sanctuary is the backup 3/3 vigilance attacker |
+| Measured performance | Sim 52.3 percent over three 500-game runs (50, 58, 49), turn-4 consistency 0.623, four-land probability by turn 4 of 0.602, synergy 72.04, cohesion 72 |
+
+# Overview
+
+Gift Economy is built on the one thing the Gift mechanic always does: it pays a cost. Promising a gift means an opponent draws a card or creates a token before the spell's other effects resolve, and every single Gift card in the deck is a card that would be played anyway — removal, an edict, recursion, a two-card draw spell. The deck simply refuses to pay that cost in a vacuum.
+
+Every promised gift of a card is a draw for the opponent, and that draw is the engine. Razorkin Needlehead deals 1 damage to the opponent each time they draw a card. Scrawling Crawler makes them lose 1 life for the same event and keeps both players' hands full at every upkeep. Gleaming Splendor turns the opponent's second draw of a turn into a Treasure token for us. Cast Consumed by Greed with the gift promised and the opponent draws a card first — so the spell is an edict plus 1 or 2 points of drain, and on their own draw step it also pays a Treasure. Seven copies across three Gift spells promise a card, and every one of them is a spell the deck wants to cast anyway.
+
+The other four Gift spells promise a token instead — a tapped Fish, a Food, a Treasure. Those promises cost the opponent nothing in cards, so the drain engine ignores them, but they cost the deck nothing either: Nocturnal Hunger destroys any creature for {2}{B} once the Food is promised and only costs us 2 life when it is not, Parting Gust exiles a creature permanently for {W}{W}, and Blooming Blast adds 3 damage to the controller's face. In this deck the gift is never the downside it looks like on the card.
+
+The second half of the deck is the life ledger. Sanguine Syphoner drains 1 on every attack. Melancholic Poet drains 1 every time an instant or sorcery targets a creature, which in this list is most of the deck. Marauding Blight-Priest turns every point of life we gain into a point each opponent loses. Bloodthirsty Conqueror refunds us every point of life an opponent loses. Put Blight-Priest and Conqueror together and the ledger never closes: as soon as one life is lost anywhere, the loop runs until the table is dead.
+
+**Note on the mechanic:** a promised gift resolves before the rest of the spell, and the word "gift" in the reminder text means exactly the object named — a card (the opponent draws), a tapped 1/1 blue Fish token, a Food token, or a Treasure token. Nothing else changes about the spell, and the promise is always optional, so a Gift spell cast without a promise is just a worse card.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Nothing costs one. Turn two is the engine turn: Razorkin Needlehead as a 2/2 for {R}{R}, Gleaming Splendor as a two-mana enchantment, Sanguine Syphoner as a blocker that drains, or Melancholic Poet in front of a hand full of removal |
+| Build | 3 to 4 | Scrawling Crawler, Marauding Blight-Priest and the first Gift spells. Every removal spell is now a drain trigger, and the opponent is drawing into a board they cannot keep up with |
+| Drain | 4 to 6 | Parting Gust and Consumed by Greed clear the way while the opponent loses 2 to 3 life a turn to their own draw steps. Sanguine Syphoner and Marauding Blight-Priest convert attacks and life gain into more damage |
+| Close | 5 plus | Bloodthirsty Conqueror, an active Marauding Blight-Priest, or the attacking Restless Fortress end it. Coiling Rebirth and Dewdrop Cure rebuild the engine after a wipe |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Draw-punishment engine | Razorkin Needlehead (4), Scrawling Crawler (3) | Needlehead is a 2/2 for {R}{R} with first strike during your turn that deals 1 damage to an opponent whenever they draw a card. Crawler is a colorless 3/2 artifact creature for {3} that makes each player draw during your upkeep and takes 1 life from an opponent whenever they draw |
+| Gift-to-Treasure engine | Gleaming Splendor (3) | A two-mana white enchantment that hands us a Treasure token every time an opponent draws their second card in a turn. Its own {2}{W} ability, two target players each draw a card, is both a repeatable way to trigger the rest of the engine and a way to keep our own hand full |
+| Gift spells, removal | Parting Gust (4), Nocturnal Hunger (3), Blooming Blast (3), Consumed by Greed (3) | Parting Gust exiles a nontoken creature permanently with a promised Fish, and is a +1/+1 flicker for our own creatures without one. Nocturnal Hunger destroys any creature and only costs life if the Food is not promised. Blooming Blast kills a small creature and adds 3 damage to its controller. Consumed by Greed is an edict that returns a creature card from our graveyard to hand on a promised gift |
+| Gift spells, recursion and reach | Dewdrop Cure (2), Coiling Rebirth (2), Sazacap's Brew (2) | Dewdrop Cure returns up to three creatures with mana value 2 or less — the whole engine, including Needlehead and Melancholic Poet — for three mana. Coiling Rebirth reanimates and, with a promised gift, also makes a 1/1 copy of the body if it is not legendary. Sazacap's Brew discards one and lets a player draw two: point it at the opponent and it is 2 drain triggers plus a Treasure |
+| Life ledger | Marauding Blight-Priest (2), Sanguine Syphoner (2), Melancholic Poet (2), Bloodthirsty Conqueror (1) | Blight-Priest converts our life gain into 1 life lost by each opponent. Syphoner drains on every attack. Poet drains on every instant or sorcery that targets a creature. Conqueror is a 5/5 flying deathtouch body that refunds us every point an opponent loses and completes the loop with Blight-Priest |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Restless Fortress | 2 | The win-condition land. It enters tapped and taps for white or black, and for {2}{W}{B} it becomes a 1/4 white and black Nightmare that drains 2 from the defending player and gains us 2 every time it attacks — which is itself a Marauding Blight-Priest trigger and, with Bloodthirsty Conqueror, a refund |
+| Soulstone Sanctuary | 1 | Colorless backup attacker: {4} turns it into a 3/3 with vigilance and all creature types. It is the land that keeps attacking after a wipe has taken the creatures |
+| Temple of Malice | 2 | Black-red dual that enters tapped and scries 1, which is one of only seven red sources in the deck |
+| Temple of Silence | 2 | Black-white dual that enters tapped and scries 1; the scry is how the deck digs for a missing engine piece in the first four turns |
+| Bleachbone Verge | 2 | Black always, white once a Plains or Swamp is down, which is usually turn two |
+| Plains, Swamp, Mountain | 5 / 5 / 5 | Basics. Fifteen basics are deliberate: the deck plays scry lands and one colorless utility land, so it wants its first four land drops to be untapped and on colour |
+
+Coloured sources: thirteen black, eleven white including the two conditional white sources on Bleachbone Verge, seven red. Black is the deepest colour and carries the win condition; red is the splash that pays for Razorkin Needlehead, Blooming Blast and Sazacap's Brew, and the four copies of a {R}{R} two-drop are the reason the two Temples of Malice are in the manabase.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 0 | none — the deck starts at two |
+| Two | 22 | Razorkin Needlehead, Melancholic Poet, Sanguine Syphoner, Gleaming Splendor, Parting Gust, Blooming Blast, Sazacap's Brew |
+| Three | 10 | Scrawling Crawler, Marauding Blight-Priest, Nocturnal Hunger, Consumed by Greed, Dewdrop Cure |
+| Four | 0 | none |
+| Five | 3 | Bloodthirsty Conqueror, Coiling Rebirth |
+
+There is no one-drop and no four-drop, which is the shape of a deck whose turn two is the engine and whose turn three is interaction. Two mana holds twenty-two of the thirty-six nonlands, and the average nonland mana value is 2.61, well under the four-mana ceiling the build is held to. Twenty-four lands is deliberate: four-land probability by turn four is 0.602 and turn-four consistency 0.623, and the deck genuinely wants the fourth land so that Coiling Rebirth or Consumed by Greed plus a promise can be cast on curve.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are for the engine, not for damage. Razorkin Needlehead is the best turn-two play in the deck because it turns every later Gift spell into damage, but Gleaming Splendor is the more important one against anything slow: it starts paying Treasures the moment the opponent's draw step plus any gift draw makes two cards, and the Treasures are what pay for the three- and five-mana halves of the deck.
+
+Do not cast removal without the gift. Parting Gust without a promise is a temporary exile that gives the creature back with a +1/+1 counter; with the promise it exiles the creature forever, and if Needlehead or Crawler is out the card the opponent draws costs them 1 or 2 life. The same logic applies to Nocturnal Hunger, which only makes us lose 2 life when the Food is not promised, and to Blooming Blast, which loses 3 points of reach without its Treasure.
+
+Sanguine Syphoner is the safest turn-two body: a 1/3 that drains on every attack and survives most one- and two-mana removal. Melancholic Poet, on the other hand, is a 2/2 that should be played on a turn when a Parting Gust, Nocturnal Hunger or Blooming Blast is already in hand, because otherwise it does nothing.
+
+## Mid game
+
+Turn three is when the drain engine starts compounding. Scrawling Crawler draws both players a card in the upkeep, taking 1 life off the opponent, and then any Gift-a-card spell that turn takes another 1 or 2 and hands us a Treasure from Gleaming Splendor. A turn of Crawler, Consumed by Greed with the gift promised and a Melancholic Poet trigger is 4 points of life loss and a creature sacrificed, from three cards.
+
+The board is meant to be small. Marauding Blight-Priest is a 3/2 that exists only for its trigger; Sanguine Syphoner attacks every turn whether or not it can be blocked. What matters is that the opponent keeps drawing: their draw step, our Gift spells, Scrawling Crawler's upkeep trigger and Gleaming Splendor's {2}{W} ability all feed the same three payoffs, so the deck is never short of triggers, only of cards — which is why the Splendor ability targeting us and the opponent at once is almost always correct in the mid game.
+
+Dewdrop Cure is the engine's reset button. With the gift promised it returns up to three creatures with mana value 2 or less, which is Razorkin Needlehead, Melancholic Poet and Sanguine Syphoner in one card. Against a wipe, that is the play that decides whether the deck still has a game.
+
+## The combo turn
+
+The kill turn is either a drain turn or the loop.
+
+1. Get Marauding Blight-Priest and Bloodthirsty Conqueror onto the board at the same time. The loop is mandatory on both sides: an opponent losing life makes Conqueror gain us that much life, and every life gain makes Blight-Priest drain each opponent for 1. One point of life loss anywhere — a Needlehead ping, a Syphoner attack, a Restless Fortress swing, one damage from Blooming Blast — and the drain repeats without end.
+2. If the loop pieces are not both available, drain instead: play two Gift-a-card spells in one turn with Needlehead and Crawler on the board. Each promised gift is a draw, and each draw is 2 life — 1 from Needlehead and 1 from Crawler — so two gifts plus the opponent's own draw step is 6 life, and Scrawling Crawler's upkeep trigger makes it 8. Blooming Blast adds 3 more to a creature controller's face.
+3. Attack with Restless Fortress activated for {2}{W}{B}. The attacking Nightmare drains 2 from the defending player and gains us 2, which triggers Blight-Priest for 1 more to each opponent.
+4. Hold Parting Gust for the turn the opponent commits their best creature. With the Fish promised it exiles it permanently for two mana, and the Fish token is the cheapest gift in the deck because it costs the opponent no cards.
+
+## Win condition 2
+
+The deck also wins with creatures, and that plan needs no loop: Sanguine Syphoner drains on every attack, Melancholic Poet drains on every removal spell, Restless Fortress attacks as a 1/4 that drains 2, and Soulstone Sanctuary becomes a 3/3 vigilant attacker out of spare mana. Against a deck that removes the engine, keep attacking with whatever survives and let the split damage from attacks, drain triggers and the Restless Fortress activation add up.
+
+Coiling Rebirth is the bridge between the two plans. Reanimating a Bloodthirsty Conqueror with the gift promised returns a 5/5 flying deathtouch body plus a 1/1 copy of it, which is two Conqueror triggers on the stack and two attack steps from one card. Reanimating a Scrawling Crawler after a wipe restarts the draw engine immediately.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two lands, Razorkin Needlehead and any Gift spell | Keep. This is the deck's ideal opening: the engine online on turn two with a way to fire it |
+| Two lands, Gleaming Splendor and two black removal spells | Keep. The Splendor pays for the rest and the removal is drain once anything is on the board |
+| One land, any hand | Mulligan. The deck has no one-drop and needs three mana before the drain plan is worth anything |
+| Four lands, Dewdrop Cure, Coiling Rebirth, Scrawling Crawler | Keep. Crawler restarts the engine and the recursion spells mean the first wipe is survivable |
+| Five lands, Bloodthirsty Conqueror, Coiling Rebirth | Mulligan. Two five-drops in the opener without an engine is a hand that loses to its own curve |
+| Two lands, but only one colour of source in hand | Mulligan. Black is the deepest colour but Razorkin Needlehead wants two red, so an opener with no black source is the one to send back |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| The gift resolves before the spell | A promised gift happens first, so the opponent draws (or makes the token) before the spell's main effect. Parting Gust's exile and Consumed by Greed's edict still happen after the gift draw, and the draw can never take the target away because the gift is not a spell the opponent controls |
+| Gift is optional and the word means exactly what it says | Gift a card means the opponent draws a card. Gift a tapped Fish, Gift a Food and Gift a Treasure create those tokens for them. Of the seven Gift spells in the deck only Consumed by Greed, Dewdrop Cure and Coiling Rebirth promise a card, so only those three feed Razorkin Needlehead and Scrawling Crawler |
+| Needlehead triggers on any draw | Razorkin Needlehead does not care whose turn it is or why the card was drawn — the opponent's own draw step counts, so the engine deals damage every turn even when the deck casts nothing |
+| Gleaming Splendor counts draws, not turns | It triggers on the opponent's second card drawn in a single turn. A Scrawling Crawler upkeep draw plus a promised Consumed by Greed on the same turn is exactly two, which is a Treasure. Two Splendors make two Treasures |
+| Melancholic Poet's repartee | It needs an instant or sorcery that targets a creature, and it triggers on the cast, not the resolution, so a Gift spell cast into a counterspell still drains 1 and gains us 1 |
+| Marauding Blight-Priest plus Bloodthirsty Conqueror | Both triggers are mandatory and neither is a may, so once one point of life is lost by an opponent the loop cannot be stopped. The loop needs both permanents in play; it does not need a Gift spell or an attack to start, and Scrawling Crawler's upkeep trigger is enough to begin it |
+| Nocturnal Hunger without the gift | Destroying a creature without promising the Food costs us 2 life. In races, that is sometimes correct — but the Food costs nothing and only ever gains the opponent 3 life, so promise it |
+| Parting Gust on our own creatures | With no gift promised, the exiled creature returns at the beginning of the next end step with a +1/+1 counter, which is a way to reset a Razorkin Needlehead that has been hit by a -3/-3 effect or to re-trigger nothing at all. Its real value against our own board is protection from a sorcery-speed wipe |
+| Coiling Rebirth's copy | The 1/1 token copy only appears if the gift was promised and the returned creature is not legendary, which is why the deck runs no legends. Copying a Scrawling Crawler doubles the upkeep draw and both drain triggers |
+| Restless Fortress activation timing | It is an activated ability, so it can be used after blockers are declared. The 2 life loss is the defending player's, and the 2 life gained is ours, which is one Blight-Priest trigger whether it connects or not |
+| Soulstone Sanctuary's mana | It taps for colorless. Treat it as a spell land, not a source for a colored spell, and count it only when the deck has four lands and spare mana |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain counters | Race the drain rather than the board. Nocturnal Hunger and Parting Gust with the promised gift kill the biggest threat outright, Sanguine Syphoner blocks and drains, and the deck's damage comes from their own draw steps, so it wins with almost no attackers. Bloodthirsty Conqueror is the card that ends these games: every point they take is a point we gain |
+| Midrange | The strong matchup. Every removal spell two-for-ones against a curve of expensive threats because the gift's only drawback is a card the opponent draws into a Needlehead ping, and Consumed by Greed forces the sacrifice of their largest creature. Board the drain plan first, keep the loop as the closer |
+| Control | The weak matchup. Wipes do remove the engine, so keep Dewdrop Cure for after the first wipe and do not over-commit the enchantments: one Gleaming Splendor plus one Needlehead is enough pressure to force a wipe, and Scrawling Crawler refills the hand afterwards. The loop is the way through countermagic, because it needs only two permanents already in play |
+| Combo | Faster combo decks are the real problem, because this deck's clock is turn five or six. The interaction is Parting Gust and Nocturnal Hunger, both of which should be held for the turn the opponent commits, plus Blooming Blast's 3 damage to a controller's face as reach. Melancholic Poet drains while the removal is spent, which is what closes these games |
+
+# Deck list (Arena import)
+
+```text
+Gift Economy
+Deck
+4 Razorkin Needlehead
+3 Scrawling Crawler
+2 Melancholic Poet
+2 Sanguine Syphoner
+2 Marauding Blight-Priest
+1 Bloodthirsty Conqueror
+3 Gleaming Splendor
+4 Parting Gust
+3 Nocturnal Hunger
+3 Blooming Blast
+3 Consumed by Greed
+2 Dewdrop Cure
+2 Sazacap's Brew
+2 Coiling Rebirth
+2 Temple of Malice
+2 Temple of Silence
+2 Bleachbone Verge
+2 Restless Fortress
+1 Soulstone Sanctuary
+5 Plains
+5 Swamp
+5 Mountain
+```
