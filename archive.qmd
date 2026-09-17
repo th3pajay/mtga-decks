@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-07 · **308** cards locked · **Hobbit 90/193** remaining
+**Card pool consumption** — cycle started 2026-09-07 · **326** cards locked · **Hobbit 74/193** remaining
 
-**58 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**59 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-09-17
 
+- **[Muster Roll](decks/2026-09-17-muster-roll.html)** — White / Blue / Black (three colors) — Hobbit recruit tokens and second-draw payoffs  `hobbit` `recruit`
 - **[Gift Economy](decks/2026-09-17-gift-economy.html)** — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger  `combo` `gift`
 
 ## 2026-09-16
