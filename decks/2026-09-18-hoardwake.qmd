@@ -1,0 +1,187 @@
+---
+title: "Hoardwake"
+subtitle: "Blue / Black / Red (three colors) — Hobbit Treasure engine into Dragon payoffs"
+date: "2026-09-18"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Red (three colors — red 20 cards, black 11, blue 9) |
+| Archetype | Treasure combo — a hoard engine that turns tokens into burn and into Dragons |
+| Size | 60 cards (21 creatures, 15 other spells and permanents, 24 lands; average mana value 3.86 across the 36 nonlands) |
+| Signature mechanic | Treasure — fourteen cards either make Treasures, multiply what Treasures are worth, or eat them |
+| Primary win | Smaug the Magnificent: a 4/3 flying, haste Dragon for {2}{R}{R} that makes a Treasure every upkeep and, whenever he attacks, deals damage equal to the number of Treasures you control to any target |
+| Secondary win | The Misty Mountains Cold: a saga that makes a Treasure on every chapter and sacrifices itself for a 6/6 red Dragon with flying as soon as you control four or more Treasures |
+| Land win condition | The Lonely Mountain — {4}{R}, {T}: create a 2/2 red Dwarf creature token, one mana cheaper per Equipment you control, so spare Treasure mana becomes a board |
+| Measured performance | Sim 54.7 percent over three 500-game runs (59 / 52 / 53), synergy 70.9, turn-4 consistency 0.639, four-land probability by turn 4 of 0.660 |
+| Set note | The Hobbit (set code hob, 193 cards: 70 common / 55 uncommon / 53 rare / 15 mythic) is Standard legal, releases on Arena 2026-08-14, and the import list below takes effect from that date. All 193 printings already carry Arena IDs in the card database |
+
+# Overview
+
+Hoardwake is the Treasure build of The Hobbit. The set's red half is a hoard engine: Dori, Bearer of Friends, The Misty Mountains Cold, Smaug the Magnificent and Smaug, Wicked Worm all make Treasure tokens, and two of them are paid directly in Treasures — Smaug the Magnificent's attack trigger is "damage equal to the number of Treasures you control", and The Misty Mountains Cold cashes four Treasures in for a 6/6 flying Dragon token. Treasure is therefore not mana in this deck. It is the counter that the deck's two biggest payoffs read.
+
+The rest of the list is built to keep that counter climbing without spending cards. Fateful Discovery draws a card off every artifact that enters, and a Treasure token is an artifact, so every Treasure the engine makes is also a card. Long-Bodied Grey Dog is a three-mana flash 2/2 that makes a tapped Treasure as it enters, which turns turn three into a free card off Fateful Discovery and a free artifact for the sacrifice outlets. The Arkenstone is a five-mana artifact that gives the whole team +1/+1 and draws a card at every end step — again a Treasure trigger and a body pump in one card.
+
+The black and blue pieces are the two things the hoard lacks: a sacrifice outlet and a way to spend the mana. The Sackville-Bagginses draw a card and make a Treasure when they eat another creature or artifact, and they drain an opponent for 1 life on every token you sacrifice afterwards. Stone-Giant of High Pass is the other end of that: {2}{R} and an artifact to deal 4 damage to any target. Because a Treasure is an artifact and a Stone Boulder token is an artifact creature, the Giant turns spare hoard pieces into 4-damage burn, and Getaway Barrel makes that trade better — when the Barrel goes to the graveyard it reveals the top thirteen cards and puts a random creature card from among them directly onto the battlefield.
+
+The deck is a loop rather than a two-card combo. Treasures make cards through Fateful Discovery, cards find Smaug and the saga, Smaug counts the Treasures, the saga eats four of them for a Dragon, spare Treasures and Barrels feed the Giant, and the Giant's sacrifice pays the Sackville-Bagginses' drain. Every card in the list either adds to the hoard, reads the hoard, or spends it.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | The Sackville-Bagginses on two is the best start: a 2/2 that eats a Treasure later, draws a card and drains. Bilbo, Thief in the Night on two is the other, and he is the deck's cheapest way to reuse a spent artifact |
+| Build | 3 to 4 | Dori, Bearer of Friends (a 3/2 trampler that makes a Treasure), The Misty Mountains Cold (a Treasure every chapter), Long-Bodied Grey Dog (a flash Treasure) and Fateful Discovery come down. By turn four the deck usually has two to four Treasures, a card engine and a Dragon on the way |
+| Engine | 4 to 5 | Smaug the Magnificent lands as a hasty flier and starts charging for hoard size. Glóin the Mighty adds {R}{R} in the first main phase, which is what actually pays for the five- and seven-mana Dragons. Smaug, Wicked Worm, Orcrist, Goblin-cleaver and The Arkenstone arrive around here |
+| Close | 5 plus | The hoard is four or more Treasures, so The Misty Mountains Cold flips into 6/6 Dragons and Stone-Giant of High Pass starts trading artifacts for 4 damage. Rogue's Passage makes the largest Dragon unblockable, and The Lonely Mountain turns leftover mana into 2/2 Dwarves |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Treasure producers | Dori, Bearer of Friends (3), The Misty Mountains Cold (4), Smaug the Magnificent (3), Long-Bodied Grey Dog (4), The Sackville-Bagginses (2), Orcrist, Goblin-cleaver (2), Smaug, Wicked Worm (2) | Dori is a 3/2 trampler for {2}{R} that makes a Treasure as it enters. The Misty Mountains Cold makes a Treasure on every one of its four chapters. Smaug the Magnificent makes one at every upkeep, unattended. Long-Bodied Grey Dog is a flash 2/2 with reach for {3} that makes a tapped Treasure, so it is both a surprise blocker and an engine piece. Orcrist makes one Treasure per creature you control of a chosen type whenever the equipped creature connects |
+| Hoard payoffs | Smaug the Magnificent (3), The Misty Mountains Cold (4), Smaug, Wicked Worm (2), Smaug, the Great Calamity (2) | These are the cards that read the counter. Smaug the Magnificent converts the hoard into direct damage. The Misty Mountains Cold converts four Treasures into a 6/6 flying Dragon token. Smaug, Wicked Worm is a 5/5 flying Dragon for {3}{B}{R} that makes tapped Treasures equal to the artifacts your opponents control and draws a card whenever Treasure mana is spent on a spell |
+| Draw engine | Fateful Discovery (3), The Arkenstone (2), Bilbo, Thief in the Night (2), The Sackville-Bagginses (2) | Fateful Discovery draws a card whenever an artifact you control enters, and Treasure tokens are artifacts, so it turns every Treasure the deck makes into a card. The Arkenstone gives the team +1/+1 and draws at every end step. Bilbo draws nothing himself but lets you recast an artifact, instant or sorcery out of the graveyard on every attack. The Sackville-Bagginses draw a card when they eat a Treasure |
+| Sacrifice outlets and burn | Stone-Giant of High Pass (1), The Sackville-Bagginses (2), Getaway Barrel (2) | The Giant is a 7/7 for {5}{R}{R} that makes a 3/1 Wall artifact token on entry and on every attack, and can eat an artifact for 4 damage to any target. The Sackville-Bagginses eat one creature or artifact for a card and a Treasure, then drain an opponent for 1 on every token sacrifice for the rest of the game. Getaway Barrel is an artifact that puts a random creature from the top thirteen onto the battlefield when it dies, which is what makes sacrificing it cheap |
+| Ramp and fixing | Glóin the Mighty (2) | A 4/3 for {3}{R} that adds {R}{R} at the beginning of your first main phase, every turn. That is the card that turns a five-drop Dragon on curve into a turn-four Dragon, and its adventure Easy Pickings ({2}{R}) sweeps every opposing creature for 1 damage |
+| Removal and sweepers | Desolation of Smaug (2), Smaug, the Great Calamity (2), Orcrist, Goblin-cleaver (2) | Desolation of Smaug deals 3 damage to each non-Dragon creature and adds four mana that can only be spent on Dragon spells, so it is a one-sided sweeper for this deck. Smaug, the Great Calamity's Spew Flame adventure deals 5 damage to a single creature while still leaving the 5/5 Dragon in exile to cast later. Orcrist's +2/+2 and trample is the deck's answer to a small blocker |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| The Lonely Mountain | 3 | The win-condition land. It is a Mountain, so it pays for every red card in the deck, and its {4}{R}, {T} ability makes a 2/2 red Dwarf token one mana cheaper for each Equipment you control. With an Orcrist in play that is {3}{R} for a body, paid with Treasure mana the deck does not otherwise need |
+| Rogue's Passage | 1 | The second win-condition land. {4}, {T} makes a target creature unblockable for the turn, which is how a charged Smaug the Magnificent or a 6/6 Dragon token gets through a board that has stabilised |
+| Gloomlake Verge | 3 | Blue-black dual that enters untapped and adds {B} while you control an Island or a Swamp, which is the fixing that lets Fateful Discovery and Smaug, Wicked Worm live in the same deck |
+| Mistrise Village | 2 | Untapped blue source whenever you control a Mountain, and {U}, {T} makes the next spell uncounterable — a real card against control when you are casting a five-mana Dragon |
+| Thundering Falls, Undercity Sewers | 2 / 2 | Blue-red and blue-black duals that enter tapped and surveil 1. The surveil is not incidental: getting a fifth land or a Treasure piece into the graveyard, or keeping one on top, is how the deck finds its fourth land on curve |
+| Mountain, Swamp, Island | 4 / 5 / 2 | Basics. Red carries the Dragons and the hoard payoffs, black carries the Sackville-Bagginses and the black-red Dragon, blue carries Fateful Discovery and Bilbo |
+
+Coloured sources: nine red, eleven blue and ten black across the twenty-four lands. Red is the scarcest source but carries double-red costs, which is why The Lonely Mountain is a full four-of Mountain subtype in the land count rather than a utility land, and why Glóin the Mighty (who adds {R}{R}) is in the deck at all. Twenty-four lands is deliberate: the deck wants four lands on turn four for Smaug and a fifth not long after for Fateful Discovery or the Giant.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| Two | 4 | The Sackville-Bagginses, Bilbo, Thief in the Night |
+| Three | 13 | The Misty Mountains Cold, Dori, Bearer of Friends, Long-Bodied Grey Dog, Orcrist, Goblin-cleaver |
+| Four | 9 | Smaug the Magnificent, Desolation of Smaug, Getaway Barrel, Glóin the Mighty |
+| Five | 7 | Smaug, Wicked Worm, Fateful Discovery, The Arkenstone |
+| Seven | 3 | Smaug, the Great Calamity, Stone-Giant of High Pass |
+
+The deck lives at three and four. Seventeen of the thirty-six nonlands cost three or less, and the expensive end is deliberately made up of cards that are playable in two halves: Glóin the Mighty adds {R}{R} the turn he lands, Smaug, the Great Calamity carries a 5-damage removal spell on its adventure, Desolation of Smaug adds four mana back when it sweeps, and Stone-Giant of High Pass makes its own sacrifice fodder. Nothing in the list needs more than six mana in one turn, and Treasure tokens pay for the top end.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about getting the hoard started and getting the first non-Treasure artifact on the board. Bilbo, Thief in the Night on two is the strongest opening: he is a 2/2 that can be attacking on turn three and, from then on, every attack lets you recast an artifact or a removal spell out of the graveyard. The Sackville-Bagginses on two is the value alternative — hold them until you have a Treasure or a spare body, because eating one on entry is a card and a Treasure at the same time.
+
+Turn three is Dori, Bearer of Friends or The Misty Mountains Cold. Dori is the faster body (3/2 trample plus a Treasure), the saga is the better long game (a Treasure every chapter and a Dragon at four). Long-Bodied Grey Dog is the third option and the one to play at instant speed when the opponent attacks — a flash 2/2 with reach that makes a Treasure is a clean two-for-one against a flier.
+
+If you have a Fateful Discovery in hand, play it before the next Treasure rather than after: a Treasure made with Discovery on the battlefield is a card, and the sequencing is the difference between a two-card turn and a three-card turn.
+
+## Mid game
+
+Smaug the Magnificent on four is the pivot. He has haste, so he attacks the turn he lands, and he is only worth attacking with once the hoard is real — count the Treasures before combat, not after, because the trigger reads the board at the moment it resolves. A typical turn four with two Treasures in play is 4 damage in the air plus 2 damage to any target, and the upkeep Treasure means the number only goes up.
+
+Glóin the Mighty on three is the turn that makes five-drops early: {R}{R} at the beginning of your first main phase each turn pays for Smaug, Wicked Worm or Fateful Discovery a turn ahead of schedule, and his adventure Easy Pickings deals 1 damage to each creature your opponents control, which is the answer to a board of one-toughness tokens.
+
+From the middle of the game the deck is playing with spare artifacts, and that is when the sacrifice outlets become live. Stone-Giant of High Pass makes a 3/1 artifact Wall on entry and on every attack, so it always has food. Sacrificing a Treasure, a spent Getaway Barrel or a Stone Boulder to the Giant is 4 damage, and if The Sackville-Bagginses are in play that same sacrifice is also 1 life off an opponent.
+
+## The combo turn
+
+The engine turn is: a Treasure producer, Fateful Discovery or The Arkenstone on the board, and either Smaug the Magnificent or a saga with three counters of lore.
+
+1. Start the turn with the producers already in play, so the upkeep Treasure from Smaug and the chapter Treasure from The Misty Mountains Cold have both resolved.
+2. Cast Long-Bodied Grey Dog or Dori, Bearer of Friends for another Treasure; Fateful Discovery draws a card for each of those Treasures as they enter.
+3. Attack with Smaug the Magnificent. His trigger deals damage equal to the number of Treasures you control — with four Treasures that is 4 damage to a creature or to the opponent, on top of 4 in the air.
+4. If the hoard has four or more Treasures and a saga is at any chapter, the saga sacrifices itself for a 6/6 red Dragon token with flying. Doing this on the same turn as the Smaug attack is usually the turn the game ends.
+5. Spend the leftover mana on The Lonely Mountain for a 2/2 Dwarf, or on Stone-Giant of High Pass for 4 damage, whichever the board needs.
+
+A realistic turn five: three Treasures plus a Treasure made by Dori, Fateful Discovery drawing twice, Smaug landing for 4 damage plus 4 in the air, and the saga flipping into a 6/6 Dragon on the following upkeep.
+
+## Win condition 2
+
+The Dragons do not need Smaug the Magnificent. The Misty Mountains Cold is a four-chapter saga that turns itself into a 6/6 red flying Dragon token, and multiple copies are cumulative: a second copy starts a new Treasure every chapter and can flip as soon as the hoard is at four. Smaug, Wicked Worm is a 5/5 flying Dragon that pays you a card every time you cast a spell with Treasure mana and arrives with tapped Treasures equal to the artifacts your opponents control, which makes it a strong follow-up against artifact decks. Smaug, the Great Calamity is the top end: a 5/5 flying Dragon with five damage of removal stapled to its adventure.
+
+The third, quiet win condition is burn. Stone-Giant of High Pass converts a spare artifact into 4 damage to any target, Getaway Barrel makes that sacrifice a free creature off the top thirteen cards, and the Sackville-Bagginses add 1 life per token sacrificed. Two Giants, a few Stone Boulders and a stocked hoard is 12 to 16 damage that never has to attack.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two or three lands including a red source, Dori, Bearer of Friends, The Misty Mountains Cold | Keep. This is the ideal opening: turn three into turn four with a Treasure already in play |
+| Two lands, Bilbo, Thief in the Night, any three-drop | Keep. Bilbo gets the engine going from the graveyard and the three-drop makes the first Treasure |
+| Two lands, Long-Bodied Grey Dog, Smaug the Magnificent | Keep. The Dog makes a Treasure on three and Smaug attacks on four |
+| Two lands, Glóin the Mighty, a five-drop Dragon | Keep. Glóin pays the extra red on turn four and the Dragon lands a turn early |
+| One land | Mulligan. The deck needs three mana on turn three and four on turn four for its engine pieces |
+| No red source at all | Mulligan. Red is nine of the twenty-four lands and every Dragon, the Giant and the sweepers need it |
+| Five lands, Fateful Discovery and The Arkenstone | Mulligan. The deck floods easily with twenty-four lands; it wants Treasures, not lands |
+| No Treasure producer, no Fateful Discovery | Borderline. Keep only if the hand is Smaug the Magnificent plus removal and a four-land curve |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| The Misty Mountains Cold counts the Treasure it just made | The chapter creates a Treasure token and then checks whether you control four or more Treasures. The token from the same chapter counts, so with three Treasures in play the saga flips into a 6/6 Dragon on that chapter, and it can flip on chapter one if the hoard is already large |
+| The saga is sacrificed whether or not it flips | The four-or-more check sacrifices the saga, and only if it sacrifices do you get the Dragon. If the hoard is at four and the saga has already sacrificed itself, a second copy is the way to get a second Dragon |
+| Smaug the Magnificent's trigger reads the board when it resolves | "Damage equal to the number of Treasures you control" is checked at resolution, not at attack declaration, so sacrificing Treasures for Stone-Giant damage before the trigger resolves shrinks it. Order the sacrifices after combat if the damage is going at the opponent |
+| Smaug, Wicked Worm counts the opponent's artifacts | Its entry trigger creates X tapped Treasures where X is the number of artifacts your opponents control, not yours. Against an artifact-light opponent it is a 5/5 flying Dragon for {3}{B}{R} and nothing more, which is still a fine body in a deck with this much reach |
+| The Wicked Worm's draw needs Treasure mana actually spent | The card draw only triggers if mana from a Treasure was spent on the spell. Casting a spell with lands alone is fine, it just does not draw |
+| Desolation of Smaug kills your own non-Dragons | It deals 3 damage to each non-Dragon creature, including Dori, the Sackville-Bagginses, the Dog, Bilbo and Glóin. Cast it when your board is Dragons, Treasures and Stone Boulders, or when the opponent's board is worth more than yours; the four extra mana can only be spent on Dragon spells |
+| Orcrist, Goblin-cleaver chooses one creature type per hit | The trigger creates one Treasure for each creature you control of the chosen type. With Dragons in play, choosing Dragon is usually the biggest number; with a token board, choose whatever type is most numerous |
+| The Arkenstone is played as an artifact in this list | The front face is a legendary artifact for {5} that gives your creatures +1/+1 and draws a card at every end step. Its adventure, Seek the Heart, costs {2}{W}, and this manabase produces no white, so treat the card as an artifact only |
+| Fateful Discovery draws on every Treasure | A Treasure token is an artifact, so it triggers Fateful Discovery. Two Treasure producers in one turn with a Discovery out is three cards, which is how a deck this mana-hungry keeps hitting its land drops |
+| Long-Bodied Grey Dog's Treasure enters tapped | The token comes in tapped, so it cannot pay for a spell the turn it is made, but it still triggers Fateful Discovery and still counts for Smaug the Magnificent the same turn |
+| Bilbo, Thief in the Night recasts artifacts from the graveyard | When he attacks you may cast an artifact, instant or sorcery from your graveyard. Getaway Barrel and Desolation of Smaug are the two best targets, and Bilbo's cost reduction also applies to spells cast this way |
+| Stone-Giant of High Pass eats artifacts only | The {2}{R} sacrifice requires an artifact: a Treasure token, a Stone Boulder, a Getaway Barrel or The Arkenstone. It cannot eat a creature, which is why the Sackville-Bagginses matter as the other outlet |
+| The Lonely Mountain enters tapped without an Equipment | The land enters untapped only while you control an Equipment, and Orcrist is the only Equipment in the list. On the first three turns it is a tapped Mountain; from the turn Orcrist lands it is a normal Mountain that also makes 2/2 Dwarves with spare mana |
+| Rogue's Passage has no timing restriction | {4}, {T} can be activated in the declare-blockers step, after blockers are chosen. It pays for itself in any colour and is how a 6/6 Dragon token or a charged Smaug gets through a stalled board |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain | Race with Smaug the Magnificent and the Dragon tokens, and use Long-Bodied Grey Dog's flash plus reach to ambush a flier. Desolation of Smaug is a one-sided sweeper for this deck — it kills their board and leaves your Dragons and Treasures untouched. The Sackville-Bagginses' drain matters in games that stay close |
+| Midrange | The strong matchup. The hoard grows without spending cards, Fateful Discovery keeps the hand full, and a 6/6 flying Dragon outclasses most midrange bodies. Save Stone-Giant of High Pass sacrifices for the turn the opponent taps out, and use The Lonely Mountain to turn flood into attackers |
+| Control | Play one threat at a time and keep Fateful Discovery and The Arkenstone as the post-sweeper engine. Mistrise Village's {U}, {T} makes the next spell uncounterable, which is best spent on Smaug, Wicked Worm or Smaug the Magnificent. Bilbo, Thief in the Night rebuying Desolation of Smaug from the graveyard is the deck's best answer to a planeswalker-heavy control draw |
+| Combo | The clock is turn five or six, so Smaug the Magnificent's attack trigger and Spew Flame are the interaction. Glóin the Mighty's Easy Pickings sweeps small enabler creatures, Desolation of Smaug clears everything that is not a Dragon, and the Dragons themselves fly over most blockers |
+
+# Deck list (Arena import)
+
+```text
+Hoardwake
+Deck
+3 Smaug the Magnificent
+4 The Misty Mountains Cold
+3 Dori, Bearer of Friends
+2 Smaug, Wicked Worm
+2 The Sackville-Bagginses
+2 Desolation of Smaug
+2 Orcrist, Goblin-cleaver
+4 Long-Bodied Grey Dog
+3 Fateful Discovery
+2 Getaway Barrel
+2 The Arkenstone
+2 Bilbo, Thief in the Night
+2 Glóin the Mighty
+2 Smaug, the Great Calamity
+1 Stone-Giant of High Pass
+3 The Lonely Mountain
+1 Rogue's Passage
+3 Gloomlake Verge
+2 Mistrise Village
+2 Thundering Falls
+2 Undercity Sewers
+4 Mountain
+5 Swamp
+2 Island
+```
