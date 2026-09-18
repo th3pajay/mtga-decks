@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-17**:
+Deck guides published **2026-09-18**:
 
-- **[Muster Roll](decks/2026-09-17-muster-roll.html)** — White / Blue / Black (three colors) — Hobbit recruit tokens and second-draw payoffs  `hobbit` `recruit`
-- **[Gift Economy](decks/2026-09-17-gift-economy.html)** — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger  `combo` `gift`
+- **[Incognito Incendiary](decks/2026-09-18-incognito-incendiary.html)** — Naya (White, Red, Green) — Disguise x Valiant  `combo` `Disguise` `Valiant`

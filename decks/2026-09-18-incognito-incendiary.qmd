@@ -1,0 +1,159 @@
+---
+title: "Incognito Incendiary"
+subtitle: "Naya (White, Red, Green) — Disguise x Valiant"
+date: "2026-09-18"
+categories: ["combo", "Disguise", "Valiant"]
+---
+
+
+# At a glance
+
+| Field | Value |
+|---|---|
+| Format | Standard, 60 cards |
+| Colors | Naya: White, Red, Green |
+| Archetype | Disguise flip aggro-combo |
+| Rolled mechanics | Disguise x Valiant |
+| Primary win | Pyrotechnic Performer flip burn |
+| Secondary win | Counters plus double strike strike, made unblockable by Rogue's Passage |
+| Land in the win condition | Rogue's Passage (unblockable finisher) |
+| Average mana value | 2.44, no one-drops, 24 cards at two mana |
+| Lands | 24 (14 basic, 8 surveil duals, 2 Rogue's Passage) |
+
+# Overview
+
+The deck presses two clocks that are paid for by the same action: a creature turning face up.
+
+Disguise supplies the bodies. Every disguise creature can be cast face down for three generic mana as a 2/2 with ward 2, so the deck's early board dodges cheap removal and blocks well while holding mana up. Each disguise creature then turns face up for its disguise cost and pays off immediately: Dog Walker makes two 1/1 Dogs, Unyielding Gatekeeper exiles a nonland permanent, Nervous Gardener finds a land, Crowd-Control Warden arrives with a fistful of counters, and Concealed Weapon attaches itself to a creature you control.
+
+Pyrotechnic Performer converts that motion into damage: whenever it or another creature you control is turned face up, that creature deals damage equal to its power to each opponent. A Lizard Assassin that flips for a single red mana is three damage; a Crowd-Control Warden that flips for five mana with four other creatures out is eight damage. Multiple flips in one turn stack into a burn kill.
+
+Valiant supplies the second half of the engine. Valiant triggers the first time each turn a Valiant creature becomes the target of a spell or ability you control, and this deck is built to aim something at a Mouse every single turn. Seedglaive Mentor grows, Emberheart Challenger draws a card it may play, Whiskervale Forerunner cheats a small creature onto the battlefield, and Mouse Trapper taps down a blocker. The fusion is that the Disguise half generates the triggers: a flip ability that targets your own creature, Concealed Weapon's attach and its repeatable equip, Ferocification's beginning-of-combat choice, and Dual-Sun Technique all point at Mice while doing their own work.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Set up | 1 to 3 | Deploy two-drops; at three mana prefer a face-down disguise body over a fragile threat. Valiant Mice come down and start pressuring. |
+| Convert | 4 to 6 | Turn creatures face up in combat for surprise blocks or surprise damage; aim a target at a Mouse each turn to keep Valiant firing. |
+| Finish | 6 and later | Chain flips with Expose the Culprit for a burn turn, or swing with counters plus double strike and an unblockable attacker. |
+
+## Card roles
+
+| Card | Cost | Role | Why it is here |
+|---|---|---|---|
+| Pyrotechnic Performer | 1R | Engine, primary win | Turns every face-up flip into damage equal to that creature's power to each opponent; disguise R makes it a one-mana flip. |
+| Dog Walker | RW | Engine | Three power for two mana with vigilance; flips for a single hybrid mana into two 1/1 Dogs, which is both board and a burn trigger. |
+| Concealed Weapon | 1R | Engine and enabler | Disguise artifact that flips, attaches to a creature you control (a Valiant trigger) and gives plus three plus zero; equip 1R repeats the trigger every turn. |
+| Expose the Culprit | 1R | Combo enabler | Turns a face-down creature face up for two mana, skipping the disguise cost, and re-cloaks face-up disguise creatures so the flips can be repeated. |
+| Unyielding Gatekeeper | 1W | Engine, interaction | Two-mana 3/2 that flips for 1W to exile any nonland permanent. |
+| Nervous Gardener | 1G | Engine, ramp | Flips for a single green mana and finds a land, funding the four and five mana flips. |
+| Crowd-Control Warden | 3GW | Engine, top end | Arrives or flips with X plus one plus one counters, where X is your other creatures. The largest single burn trigger in the deck. |
+| Emberheart Challenger | 1R | Valiant payoff | Haste plus prowess; its Valiant trigger exiles the top card and lets you play it, which finds more flip pieces. |
+| Seedglaive Mentor | 1RW | Valiant payoff | Vigilance and haste; each Valiant trigger is a permanent plus one plus one counter, which also turns on Dual-Sun Technique's draw. |
+| Whiskervale Forerunner | 3W | Valiant payoff | Cheats a creature with mana value three or less onto the battlefield when targeted. |
+| Mouse Trapper | 2W | Valiant payoff | Flash body that taps a blocker on the first target of the turn. |
+| Ferocification | 2R | Enabler | Every combat it targets a creature you control for plus two plus zero, or grants menace and haste. A free Valiant trigger every turn. |
+| Dual-Sun Technique | 1W | Enabler, reach | Double strike on demand; draws a card when the target already has a counter. Targets a Mouse, so Valiant fires first. |
+| Rabid Gnaw | 1R | Enabler, removal | Pumps a creature you control, triggers Valiant, then makes it fight an opposing creature. |
+
+## Lands as engines
+
+| Land | Count | Function |
+|---|---|---|
+| Rogue's Passage | 2 | The win-condition land. Four mana plus the tap makes the pumped attacker unblockable, so a double-striking Seedglaive Mentor or a counter-loaded Crowd-Control Warden cannot be chump blocked. |
+| Elegant Parlor | 4 | Red and white fixing that surveils, putting a card in the graveyard or smoothing the next draw. |
+| Lush Portico | 2 | Green and white fixing with surveil, supports Nervous Gardener and the Warden. |
+| Commercial District | 2 | Red and green fixing with surveil. |
+| Plains, Mountain, Forest | 14 | 5 Plains, 5 Mountains, 4 Forests. Red is the primary colour, white is secondary, green is the splash. |
+
+## Curve and mana
+
+Twenty four lands, average mana value 2.44, and twenty four cards at two mana: the deck wants four lands, casts two spells a turn from turn three onward, and never needs more than five. Eight of the duals enter tapped with surveil attached, so a two land opening that holds a surveil dual is still a keep as long as the other land is a basic of the right colour. Green appears on only six cards, so a Forest count of four is enough; the green sources matter most on turn two for Nervous Gardener and on turn five for Crowd-Control Warden.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with whatever two-drop your colours support, and remember that a face-down disguise creature at three mana is often the strongest development: it dodges two-mana removal through ward 2, blocks anything up to a 3/3, and threatens a flip later. Aim your first target effect at the Valiant creature that matters most in that matchup: Seedglaive Mentor against decks you must race, Emberheart Challenger when you need to dig, Mouse Trapper against decks that attack.
+
+## Mid game
+
+Flip on the opponent's turn when it matters. Dog Walker flipping into two Dogs is a combat blowout and a burn trigger at the same time; Unyielding Gatekeeper's flip removes a key permanent. Concealed Weapon is the quiet engine of this phase: flip it onto a Mouse for a Valiant trigger, then equip 1R during every following combat to trigger Valiant again and keep the plus three plus zero moving. Ferocification does the same job for free from turn four onward.
+
+## The combo turn
+
+Set the board with face-down bodies and one face-up Pyrotechnic Performer, then flip as many creatures as your mana allows in one turn.
+
+| Sequence | Damage to each opponent |
+|---|---|
+| Flip Pyrotechnic Performer for R | 3 |
+| Flip Dog Walker for a hybrid mana | 3, plus two 1/1 Dogs |
+| Expose the Culprit, mode one, on a face-down Crowd-Control Warden | 8 or more depending on your other creatures |
+| Expose the Culprit, mode two, re-cloaking the flipped creatures | 0 now, but repeats the entire turn later for their mana costs |
+
+Three mana of flips (a Pyrotechnic Performer at one red, a Dog Walker at two hybrid) is already six damage to each opponent on top of the board, and Crowd-Control Warden's counters and Seedglaive Mentor's Valiant counters push single flips into double digits. The re-cloak mode is what makes the plan repeatable: cloaked cards may be turned face up again for their mana cost, which is another turn-up event, which is another Pyrotechnic Performer trigger.
+
+## Win condition two
+
+Counters plus double strike. Seedglaive Mentor collects plus one plus one counters from every Valiant trigger, Dual-Sun Technique grants double strike and draws a card once a counter is present, and haste means the damage starts the turn it lands. Mouse Trapper clears a blocker on the way in. When a single large attacker is the plan, Rogue's Passage makes it unblockable, which is the deck's answer to a stalled ground. Crowd-Control Warden is the deck's biggest body and its best burn trigger; Whiskervale Forerunner can put a small creature directly onto the battlefield during combat, which is extra pressure and an extra body for the Warden's flip.
+
+## Mulligan guide
+
+Keep hands with two or three lands, at least one red source, and a two-mana play. A two land hand that contains Nervous Gardener or a surveil dual is a keep. Send back hands with no two-drop, all tapped lands with a five-cost plan, or fewer than two red sources. In this deck the disguise creatures are the flexible slots: they are castable at three mana face down regardless of colour, so a hand of three lands, a disguise creature and a Valiant Mouse is always functional.
+
+## Key interactions and edge cases
+
+- Cloak is not the same as disguise. Expose the Culprit re-cloaks face-up disguise creatures, and a cloaked card turns face up for its mana cost rather than its disguise cost. That is a turn-up event, so Pyrotechnic Performer triggers and the creature's own flip ability repeats.
+- Do not exile your own face-down creature with Unyielding Gatekeeper's flip trigger if you want the flip payoff. It returns to the battlefield tapped and face up, which is not a turn-up event: no flip ability, no burn.
+- Valiant fires only the first time each turn. Order your enablers deliberately: Ferocification at the beginning of combat, then the equip, then a spell, so each Valiant creature gets exactly one meaningful target and the counters land where the attack is going.
+- Emberheart Challenger's Valiant trigger exiles a card you may play this turn. A creature card exiled this way can still be cast face down for three mana, so the impulse draw feeds the disguise plan.
+- Whiskervale Forerunner's Valiant trigger works at instant speed on your turn only for the battlefield clause; if it is not your turn the creature goes to hand instead, which is still a fine way to draw past lands.
+- Face-down 2/2s with ward 2 make cheap removal and targeted discard awkward. Do not flip early just because you can: hold the mana and the information.
+- Crowd-Control Warden's counters are counted on entry or flip, so flip it after the Dogs from Dog Walker are already on the battlefield.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Race with haste and double strike, use Mouse Trapper's flash trigger to tap their best attacker, Rabid Gnaw to trade up, and disguise bodies to block profitably. |
+| Control | Deploy face-down, force a sweeper, then flip in the window after. Ward 2 makes single-target removal cost two extra mana. |
+| Midrange | Trade early, then close with a counter-loaded Warden or Seedglaive Mentor made unblockable by Rogue's Passage. |
+| Combo | Race. The burn plan does not need the attack step, so flips plus Dual-Sun Technique end games through a stalled board. |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | Initial build: 4 Greenbelt Radical and 2 Might of the Ancestors, three Expose the Culprit, three Concealed Weapon, three Lush Portico and three Commercial District. | sim 46.7 (48 / 46 / 46), synergy 73.7, T4 0.625, P(4 lands) 0.619: sim FAIL. |
+| v2 | Minus 2 Greenbelt Radical, minus 2 Might of the Ancestors, minus 1 Concealed Weapon, minus 1 Lush Portico, minus 1 Commercial District, plus 2 Nervous Gardener, plus 2 Dual-Sun Technique, plus 1 Seedglaive Mentor, plus 1 Plains, plus 1 Mountain (cheaper curve and more Valiant triggers; two mana flips instead of seven mana flips). | sim 52.0 (48 / 52 / 56), synergy 73.5, T4 0.630, P(4 lands) 0.632: all gates PASS. v1 to v2: sim 46.7 to 52.0, T4 0.625 to 0.630, P(4 lands) 0.619 to 0.632. |
+
+# Deck list (Arena import)
+
+```
+Incognito Incendiary
+Deck
+4 Pyrotechnic Performer
+4 Dog Walker
+3 Emberheart Challenger
+4 Seedglaive Mentor
+2 Mouse Trapper
+2 Unyielding Gatekeeper
+2 Nervous Gardener
+2 Crowd-Control Warden
+2 Whiskervale Forerunner
+3 Expose the Culprit
+2 Concealed Weapon
+2 Ferocification
+2 Dual-Sun Technique
+2 Rabid Gnaw
+4 Elegant Parlor
+2 Lush Portico
+2 Commercial District
+2 Rogue's Passage
+5 Plains
+5 Mountain
+4 Forest
+```
