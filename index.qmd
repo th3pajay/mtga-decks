@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-18**:
+Deck guides published **2026-09-19**:
 
-- **[Incognito Incendiary](decks/2026-09-18-incognito-incendiary.html)** — Naya (White, Red, Green) — Disguise x Valiant  `combo` `Disguise` `Valiant`
-- **[Hoardwake](decks/2026-09-18-hoardwake.html)** — Blue / Black / Red (three colors) — Hobbit Treasure engine into Dragon payoffs  `hobbit` `smaug`
+- **[Break Ground](decks/2026-09-19-break-ground.html)** — Five colors (white / blue / black / red / green) — Token creation x Start your engines! x Earthbend  `combo` `Token creation` `Start your engines!` `Earthbend`

@@ -1,0 +1,169 @@
+---
+title: "Break Ground"
+subtitle: "Five colors (white / blue / black / red / green) — Token creation x Start your engines! x Earthbend"
+date: "2026-09-19"
+categories: ["combo", "Token creation", "Start your engines!", "Earthbend"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Five colors — white, blue, black, red, green |
+| Archetype | Land-creature combo midrange — every land drop is damage, a token, a counter, or a creature |
+| Size | 60 cards (36 nonlands, 24 lands; average mana value 2.86) |
+| Signature mechanics | Earthbend (lands into creatures), Token creation (Allies, Goblins, Elves, Zombies), Start your engines! (speed and max-speed payoffs) |
+| Primary win | Landfall burn plus attack drain: Sabotender, Tannuk, Memorial Ensign and Spitfire Lagac deal 1 damage to each opponent on every land that enters, and Dai Li Agents drains each opponent for the number of creatures you control with +1/+1 counters |
+| Secondary win | Token and land-creature beatdown: earthbent lands (2/2 to 5/5 with haste and counters) plus Allies, Elves and Goblins, with Far Fortune, End Boss amplifying every point of damage at max speed |
+| Land win condition | Ba Sing Se earthbends 2 on a {2}{G} activation — a land that manufactures the deck's win-condition creatures; Jasmine Dragon Tea Shop fixes five colors and makes a 1/1 Ally token; Rogue's Passage makes a land creature unblockable |
+| Measured performance | Sim 56.0 percent over three 500-game runs (50 / 61 / 57), synergy 72.7, turn-4 consistency 0.625, four-land probability by turn 4 of 0.619 |
+
+# Overview
+
+Break Ground is a five-color deck built on one circular idea: **lands that become creatures**. Earthbend turns a land you control into a 0/0 creature with haste that is still a land, and puts counters on it; when that land creature dies or is exiled, it returns to the battlefield tapped. Every part of that sentence is a resource the deck uses. The land creature attacks the turn it appears because earthbend grants haste. It counts as a creature with +1/+1 counters for the deck's drain payoffs. And when it dies in combat, it comes back tapped — one more land entering the battlefield, which is the trigger that the deck's landfall engine reads.
+
+The engine pieces are cheap and they multiply each other:
+
+- **Haru, Hidden Talent** earthbends 1 every time another Ally enters, and Invasion Reinforcements and Kyoshi Warriors each add an Ally token on entry — so a two-mana Ally is often two earthbend triggers and two bodies.
+- **Tannuk, Memorial Ensign** deals 1 damage to each opponent on every land that enters, and draws a card the second time that trigger resolves in a turn. Because earthbent lands keep returning to the battlefield tapped, the second trigger is routine rather than a special case. **Sabotender** and **Spitfire Lagac** repeat the first line, so the deck's clock is made of land drops the opponent cannot interact with.
+- **Elfsworn Giant** and **Earthbender Ascension** convert the same land drops into bodies and counters. Ascension even fetches a basic land into play tapped on entry — another landfall trigger, plus fixing.
+
+Those repeated points of life loss do a second job: they raise **speed**. Every Start your engines! card here counts life lost by an opponent on your turn, capping at 4. Sabotender pings and Dai Li Agents drains push speed to max within a couple of turns, and at max speed the payoffs switch on — Far Fortune, End Boss adds 1 to every damage source you control, Embalmed Ascendant drains on every creature death (earthbent lands dying count), and Walking Sarcophagus simply gets bigger.
+
+Nine cards cost one or two mana and the most expensive plays cost five, so the deck is wide rather than tall. Great Divide Guide is the quietest card in the list and probably the most important: it grants every land and every Ally you control "{T}: Add one mana of any color", which is what makes five colors function on a basics-heavy manabase.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Groundwork | 1-3 | Deploy Haru, Great Divide Guide, Invasion Reinforcements and Earth Kingdom Protectors. Every Ally that enters earthbends a land, so by turn three there are already one or two land creatures with counters. Sabotender or Tannuk starts the landfall clock. |
+| Raise the stakes | 4-6 | Kyoshi Warriors, The Boulder, Ready to Rumble and Rebellious Captives widen the board. Earthbender Ascension adds a land and stacks quest counters. Dai Li Agents arrives as the drain payoff. Speed climbs toward 4 as landfall pings accumulate. |
+| Close the ground | 7+ | Far Fortune, End Boss and max speed turn the board lethal. Rogue's Passage clears the biggest land creature, Elfsworn Giant and Howlsquad Heavy keep producing bodies, and Embalmed Ascendant converts each trade into a drain. |
+
+## Card roles
+
+| Card | Copies | Role |
+|------|--------|------|
+| Tannuk, Memorial Ensign | 4 | Engine — 1 damage to each opponent per land, draw on the second trigger; the deck's best topdeck |
+| Haru, Hidden Talent | 4 | Engine — earthbend 1 on every Ally entry; the token-to-land-creature link |
+| Invasion Reinforcements | 3 | Fuel — two Ally entries for two mana (itself plus a token), so two earthbend triggers |
+| Sabotender | 2 | Clock — one-mana landfall burn with reach |
+| Earth Kingdom Protectors | 2 | Protection — sacrifice to make another Ally indestructible; also a one-mana earthbend trigger |
+| Rebellious Captives | 2 | Mana sink — six mana for two counters and earthbend 2, on a 2/2 body |
+| Dai Li Agents | 2 | Payoff — earthbends twice on entry, then drains X on attack, X being creatures with +1/+1 counters (mostly land creatures) |
+| Kyoshi Warriors | 2 | Bodies — 3/3 that brings a 1/1 Ally token and another earthbend trigger |
+| Spitfire Lagac | 2 | Clock — landfall burn on a 3/4 body |
+| Great Divide Guide | 2 | Fixing — every land and Ally taps for any color, which is how five colors get cast |
+| Elfsworn Giant | 2 | Token engine — landfall makes a 1/1 Elf Warrior each time |
+| Walking Sarcophagus | 2 | Speed — colorless two-drop that starts the engine and grows at max speed |
+| Earthbender Ascension | 2 | Ramp and growth — earthbend 2, a fetched basic, then quest counters into counters and trample |
+| Embalmed Ascendant | 1 | Speed payoff — Zombie token on entry; at max speed every creature death drains |
+| Glitch Ghost Surveyor | 1 | Evasion and blue — flying body that starts the engine |
+| Far Fortune, End Boss | 1 | Damage amplifier — 1 damage to each opponent per attack, then plus 1 to all your damage |
+| The Boulder, Ready to Rumble | 1 | Earthbend payoff — attacks and earthbends for the number of creatures with power 4 or greater |
+| Howlsquad Heavy | 1 | Token engine — a free attacking Goblin every combat, plus max-speed red mana |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Ba Sing Se | A land that earthbends 2 for {2}{G} — it manufactures the deck's win-condition creatures without spending a card |
+| Jasmine Dragon Tea Shop | Taps for colorless, taps for any color for Ally spells and abilities, and makes a 1/1 white Ally token for five mana — an Ally entry is a Haru earthbend |
+| Rogue's Passage | The land-creature finisher: makes a 5/5 earthbent land unblockable for {4} |
+| Forest, Plains, Mountain, Swamp, Island | The earthbend targets. Basic lands are the safest thing to animate because an earthbent basic that dies simply returns tapped and taps for mana the rest of the game |
+
+## Curve and mana
+
+Twenty-four lands: 18 basics (6 Forest, 5 Plains, 4 Mountain, 2 Swamp, 1 Island), 2 Great Divide Guide-fuelled utility lands (Jasmine Dragon Tea Shop, Ba Sing Se) and 2 Rogue's Passage. Thirty-six nonlands — 2 one-drops, 15 twos, 9 threes, 6 fours, 4 fives — average mana value 2.86.
+
+Five colors on a basics manabase sounds greedy, and it would be without Great Divide Guide: two copies make every land in the deck produce any color, so the basic count is a curve decision rather than a color decision. Green is deepest (Haru, the Guide, the Ascension, Elfsworn Giant, The Boulder), white carries the token half, red carries the landfall burn, and black and blue are single-card splashes: Dai Li Agents, Embalmed Ascendant, Far Fortune, End Boss and Glitch Ghost Surveyor. Jasmine Dragon Tea Shop casts every Ally in the deck and makes tokens late; Ba Sing Se earthbends on its own.
+
+# Gameplay strategy
+
+## Early game (turns 1-3)
+
+- **Turn 1:** Earth Kingdom Protectors or hold up Invasion Reinforcements' flash. A one-mana Ally is a one-mana earthbend once Haru is down.
+- **Turn 2:** Haru, Hidden Talent first, then keep chaining Allies. Sabotender, Walking Sarcophagus and Rebellious Captives are the other two-drops; Sabotender starts the clock the opponent cannot answer.
+- **Turn 3:** Tannuk, Memorial Ensign or Earthbender Ascension. Ascension fetches a basic tapped, which both fixes your colors and adds one more landfall trigger.
+- Earthbend targets basics early. Land creatures with a single counter are fragile, so keep them back as blockers until they can trade or attack profitably.
+
+## Mid game (turns 4-6)
+
+- Deploy wide: Kyoshi Warriors, The Boulder, Ready to Rumble and Dai Li Agents. Dai Li Agents earthbends twice on entry, which usually converts two spare lands into 1/1 and 2/2 creatures with counters.
+- Watch the second Tannuk trigger. Two land entries in one turn (an earthbend return, an Ascension fetch, a Ba Sing Se activation) turns Tannuk into a card engine.
+- Attack with the land creatures before combat tricks matter. They have haste, they count for Dai Li Agents' drain, and if they die they return tapped — which is exactly what the landfall cards want.
+- Great Divide Guide converts the manabase the moment it lands: from then on every land and every Ally taps for any color, so the black and blue splashes stop being awkward.
+
+## The combo turn
+
+1. Have Haru (or any Ally-entry engine) plus a token source: Invasion Reinforcements, Kyoshi Warriors, Elfsworn Giant's landfall Elves, Howlsquad Heavy's Goblin, Jasmine Dragon Tea Shop at five mana.
+2. Every token is an Ally entering, so Haru earthbends 1. Spread the earthbends across two lands rather than stacking one, unless you need a single big blocker.
+3. The land creatures attack the turn they are made. Dai Li Agents' attack trigger counts each of them for the drain, and each point drained raises speed by 1 the next turn.
+4. Land creatures that trade return to the battlefield tapped, re-triggering Sabotender, Tannuk and Spitfire Lagac, and making an Elf Warrior if Elfsworn Giant is out. The loop costs no cards.
+5. At speed 4, Far Fortune, End Boss closes: 1 damage to each opponent per attack, plus 1 to every subsequent damage source. Rogue's Passage clears the last blocker.
+
+## Win condition 2: the token and land-creature swarm
+
+Not every game needs the burn. The deck's board is wide and cheap: 1/1 Ally tokens from three sources, 2/2 Zombies from Embalmed Ascendant, 1/1 Elves from Elfsworn Giant's landfall, 1/1 Goblins from Howlsquad Heavy, and land creatures that grow with every earthbend. Rogue's Passage makes the largest land creature unblockable for {4}, which is a one-card answer to a stalled board, and Far Fortune, End Boss at max speed turns every one of those small attackers into a slightly larger clock. Embalmed Ascendant makes racing painful for the opponent: at max speed each of your creature deaths drains 1 and gains you 1.
+
+## Mulligan guide
+
+- **Keep:** two or three lands with green and a white or red source, one Haru or one landfall clock (Sabotender, Tannuk), and at least one Ally that makes a token.
+- **Keep (no Haru):** any hand with two lands, Great Divide Guide and a two-drop. The Guide fixes the rest.
+- **Trim:** five-land hands with no engine; hands with Dai Li Agents, Elfsworn Giant and Far Fortune and no early play; hands that need both black and blue with neither a Guide nor Jasmine Dragon Tea Shop.
+- One land plus Guide is a real keep if the rest of the hand is two-drops — the deck's curve starts at one.
+
+## Key interactions and edge cases
+
+- **Earthbend targets are chosen on resolution.** With Haru in play and two Allies entering, choose different lands so a single removal spell does not erase all your board.
+- **Returning lands trigger landfall.** An earthbent land that dies in combat comes back tapped, which is another land entry for Sabotender, Tannuk, Spitfire Lagac, Elfsworn Giant and Earthbender Ascension. Blocking with land creatures is often a value play.
+- **Rebellious Captives' exhaust is a late-game earthbend.** Six mana buys two counters on a body plus a fresh land creature; each exhaust ability can be activated only once per game.
+- **Earth Kingdom Protectors can save a land creature** by sacrificing itself, granting another Ally indestructible. It is the deck's only protection, so keep the one white mana up when a key land creature attacks into open mana.
+- **Dai Li Agents counts every creature with a +1/+1 counter,** not just land creatures. Earthbent lands, Rebellious Captives after its exhaust and anything grown by Earthbender Ascension all count.
+- **Start your engines! needs opponent life loss.** Speed rises only while your opponent is losing life on your turn, so landfall pings and Dai Li Agents are what switch the max-speed payoffs on. Do not trade away the burn creatures.
+- **Embalmed Ascendant's max-speed trigger watches your creatures dying,** which includes earthbent lands returning to the battlefield. It is both the drain and the reason blocking is good.
+- **Rogue's Passage costs {4} to activate** and produces colorless mana, so it is a real tempo cost. Land it on a turn where the attack is lethal rather than as a fourth land.
+
+## Matchups
+
+- **Aggro:** the deck trades well — its attackers are expendable lands and its blockers come back. Earth Kingdom Protectors protects the relevant bodies and Dai Li Agents' drain is often the difference in a close race.
+- **Control:** landfall burn ignores sweepers, because every returning earthbent land is another trigger. Rebuild with Howlsquad Heavy's Goblin and Jasmine Dragon Tea Shop's token after a wipe.
+- **Ramp and big mana:** the burn clock is the plan; Rogue's Passage plus a large earthbent land beats a stalled ground, and speed 4 with Far Fortune closes before a slower deck stabilises.
+- **Mirror:** whoever resolves Haru and Tannuk first usually leads. Kill Haru on sight — the Ally chains are the engine, not the win conditions.
+
+# Deck list (Arena import)
+
+```text
+Break Ground
+Deck
+4 Tannuk, Memorial Ensign
+4 Haru, Hidden Talent
+3 Invasion Reinforcements
+2 Sabotender
+2 Earth Kingdom Protectors
+2 Rebellious Captives
+2 Dai Li Agents
+2 Kyoshi Warriors
+2 Spitfire Lagac
+2 Great Divide Guide
+2 Elfsworn Giant
+2 Walking Sarcophagus
+2 Earthbender Ascension
+1 Embalmed Ascendant
+1 Glitch Ghost Surveyor
+1 Far Fortune, End Boss
+1 The Boulder, Ready to Rumble
+1 Howlsquad Heavy
+6 Forest
+5 Plains
+4 Mountain
+2 Swamp
+1 Island
+2 Jasmine Dragon Tea Shop
+2 Ba Sing Se
+2 Rogue's Passage
+```
