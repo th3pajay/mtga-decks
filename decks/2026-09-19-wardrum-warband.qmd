@@ -1,0 +1,177 @@
+---
+title: "Wardrum Warband"
+subtitle: "Black / Red / Green (three colors) — Goblin amass counters into The Great Goblin burn"
+date: "2026-09-19"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green (three colors — red in 22 of the 37 nonlands, black in 13, green in 8; two cards are colourless artifacts) |
+| Archetype | Amass Goblins, built as a counters-and-burn warband |
+| Size | 60 cards (22 creatures, 15 other spells and permanents, 23 lands; average mana value 2.35 across the 37 nonlands) |
+| Signature mechanic | Amass Goblins and +1/+1 counters — the deck measures its turn in counter events, not in creatures |
+| Primary win | The Great Goblin: a 3/2 for {1}{B/R}{B/R} that deals 2 damage to target opponent every time you put one or more counters on a Goblin, Orc or Army you control |
+| Secondary win | The Goblin Army itself: an ever-growing Army made unblockable and hexproof by My Precious, plus Gandalf, Goblins' Bane's 1 damage to each opponent on every noncreature spell |
+| Land win condition | Goblin-town — {2}{B}{R}, {T}, sacrifice it: put two +1/+1 counters on target Goblin or Orc, which is two damage off The Great Goblin and two power on the Army |
+| Measured performance | Sim 57.7 percent over three 500-game runs (63 / 49 / 61), synergy score 72.4, turn-4 consistency 0.605, four-land probability by turn 4 of 0.612, overall score 79.7 (archetypes: midrange, aggro) |
+| Set note | The Hobbit (set code hob, 193 cards: 70 common / 55 uncommon / 53 rare / 15 mythic) is Standard legal and lands on Arena 2026-08-14, so the import list below is live from that date onward; the arena_id field is empty for some Hobbit printings until release |
+
+# Overview
+
+The Hobbit's black-red goblins are built around one keyword: amass. Amass Goblins N puts N +1/+1 counters on an Army you control and makes that Army a Goblin, which means every amass card in the set is quietly also a Goblin card. This list takes that literally. The Great Goblin turns the keyword into damage: whenever you put one or more counters on a Goblin, Orc or Army you control, he deals 2 damage to target opponent, once per event regardless of how many counters arrive.
+
+That single clause defines the whole build. A card is worth its slot when it produces a counter event, and the two best producers are the cheapest ones. Bothersome Noisemaker is a 2/2 for {1}{R} that amasses 1 on every noncreature spell you cast, so a one-mana spell with a Noisemaker and The Great Goblin on the board is already 4 damage: two from the spell's own amass and two from the Noisemaker's. Tidings of War is the cheapest amass in the set at {R}, and its flashback of {3}{R} amasses 3 from the graveyard, which matters because the flashback is a noncreature spell that triggers the Noisemaker again. Goblin-town Flunkies is a hasty 1/1 that amasses on entry, Fearsome Goblin Pair amasses 4 when it dies, Rage into the Valley draws a card and loses 1 life on the way to amassing 2, and Gathering of Darkness rebuys a dead Goblin from the graveyard and amasses 3.
+
+Green is the second engine, not a splash. Nasty Little Rabbit is the turn-one play that turns a large Army into a growing attacker through ferocious. Warg Tactics is a two-mana instant that either kills a flier or puts a counter on a Goblin — another damage trigger — while granting trample and hexproof so the Army connects. Troll Negotiations puts two counters on your own Goblin or Army and then makes it fight, which is the deck's only real removal spell and also a burn trigger.
+
+The blue-free, white-free manabase is deliberate: the deck wants to spend every turn on counter events, and the cheapest ones live in black and red.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Nasty Little Rabbit on one, then Bothersome Noisemaker or Goblin-town Flunkies on two. Every cheap body is also a counter source, so turn two is worth 2 to 4 damage if The Great Goblin is already down |
+| Engine | 3 to 4 | The Great Goblin lands on three as a 3/2 that changes the maths of every later card. Fearsome Goblin Pair, Bolg's Company and Rage into the Valley come down in the same window |
+| Trigger turn | 4 to 6 | Two or three cheap noncreature spells in one turn, each one amassing off the Noisemaker and burning 2 through the Great Goblin. Flashback Tidings of War for amass 3, sac a Goblin to Bolg's Company for {B}{R}, and spend the mana on more of the same |
+| Close | 5 plus | The Army is a 5/5 or larger, My Precious makes it unblockable and hexproof, Goblin-town adds two counters at a time and Warg Tactics gives trample. Games that go long end on Army damage, not on burn |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Burn payoffs | The Great Goblin (3), Gandalf, Goblins' Bane (2) | The Great Goblin is the deck's title card: 2 damage to target opponent per counter event, and a second ability that exiles the top card of the library whenever another Goblin, Orc or Army you control dies. Gandalf, Goblins' Bane grows by +1/+1 and deals 1 damage to each opponent whenever you cast a noncreature spell, which stacks on top of every amass trigger |
+| Counter engines | Bothersome Noisemaker (4), Goblin-town Flunkies (4), Tidings of War (4), Rage into the Valley (3), Gathering of Darkness (2), Fearsome Goblin Pair (3) | Noisemaker amasses 1 per noncreature spell. Flunkies amasses 1 as it enters and attacks the turn it lands. Tidings of War amasses 1 for {R} and 3 if it is flashed back. Rage into the Valley trades 1 life for a card and amass 2. Gathering of Darkness returns a creature card from the graveyard and amasses 3. Fearsome Goblin Pair is the sacrifice fodder that amasses 4 as it dies |
+| Sacrifice and mana | Bolg's Company (2), My Precious (2) | Bolg's Company has haste while you control another Goblin and taps to sacrifice another Goblin for {B}{R}, which is both a death trigger and the mana for the next spell. My Precious's adventure, Allure of Power, sacrifices a creature to draw two cards, the cleanest way to cash in a Fearsome Goblin Pair |
+| Combat support | Warg Tactics (2), My Precious (2), Nasty Little Rabbit (4) | Warg Tactics puts a counter on a Goblin (2 damage off The Great Goblin) and gives it trample and hexproof, or destroys a flier. My Precious gives the equipped creature hexproof and makes it unblockable. Nasty Little Rabbit grows a counter every combat once you control anything with power 4 or greater, which a pumped Army usually is |
+| Removal | Troll Negotiations (2), Warg Tactics (2) | Troll Negotiations adds two counters and then makes that same creature fight, so it is removal that advances the burn plan. Warg Tactics kills fliers in its first mode. Neither spell can deal with a large ground blocker, which is why the Army is played unblockable rather than through |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Goblin-town | 3 | The win-condition land. It enters tapped and taps for {B} or {R}, and {2}{B}{R} plus the land sacrifices it for two +1/+1 counters on target Goblin or Orc — two damage to the opponent off The Great Goblin, two power on the Army, and no card spent. It converts flood into burn, which is the deck's answer to drawing too many lands |
+| Swamp | 9 | The largest basic count because black carries Rage into the Valley, Gathering of Darkness and the black half of every hybrid cost |
+| Mountain | 7 | Red carries Bothersome Noisemaker, Goblin-town Flunkies, Tidings of War and Gandalf, Goblins' Bane, and both hybrid cards can be paid in red |
+| Forest | 4 | The green splash: a Forest covers all eight green cards, and Nasty Little Rabbit is the only one that wants green on turn one |
+
+Coloured sources: ten red, twelve black and four green across the twenty-three lands; the hybrid costs on Fearsome Goblin Pair and The Great Goblin are payable with either black or red. Green is deliberately thin — a hand with one Forest should sequence Nasty Little Rabbit early and hold Troll Negotiations until a second green source appears.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 8 | Nasty Little Rabbit, Tidings of War |
+| Two | 12 | Bothersome Noisemaker, Goblin-town Flunkies, Bolg's Company, Warg Tactics |
+| Three | 13 | Fearsome Goblin Pair, The Great Goblin, Gandalf, Goblins' Bane, Rage into the Valley, My Precious |
+| Four | 4 | Gathering of Darkness, Troll Negotiations |
+
+Twenty-four of the thirty-seven nonlands cost two or less, and nothing costs more than four, so the deck plays its whole hand on a four-land curve. The top of the curve is utility rather than power: Gathering of Darkness rebuys a dead Goblin and amasses 3, Troll Negotiations is the removal spell, and both are worth four mana because they also pay the burn.
+
+# Gameplay strategy
+
+## Early game
+
+The ideal opening is Nasty Little Rabbit into Bothersome Noisemaker. The Rabbit is a 1/2 that gains a counter at the beginning of every combat once you control a creature with power 4 or greater, so it is a real clock behind a large Army, and the Noisemaker is the deck's most important cheap engine.
+
+Turns two and three are Goblin-town Flunkies and The Great Goblin, in that order. Flunkies amasses 1 as it enters and has haste, so it attacks on turn two for 1 and leaves a counter behind. The Great Goblin on three turns every one of those counters into 2 damage, and he is a 3/2 that blocks and trades, so the turn is not wasted when the burn is not yet relevant.
+
+Bolg's Company on two is the alternative curve and the better one against a deck with removal: a 2/2 that has haste while you control another Goblin, and a sacrifice outlet that turns a dead Fearsome Goblin Pair or Flunkies into {B}{R}.
+
+## Mid game
+
+Turns four through six should be spent casting two or three cheap spells a turn rather than one expensive one. Every noncreature spell is a counter event through Bothersome Noisemaker and a point of damage through Gandalf, Goblins' Bane, so the turn is counted in triggers: Tidings of War for {R}, Rage into the Valley for {2}{B}, a flashed-back Tidings of War for {3}{R}, and the free amass 2 off Goblin-town's activation.
+
+Rage into the Valley is the deck's only natural source of card advantage in the early turns: it draws a card and loses 1 life for {2}{B}, and the Army it amasses is usually the biggest creature on the board from turn four onward. Gathering of Darkness then rebuys whichever Goblin the opponent dealt with, which turns every removal spell they cast into a second counter event.
+
+The Army is the permanent that matters. Keep it in play and keep adding to it; the deck's damage is delivered in twos, so the attacker does not have to be enormous, only unblockable.
+
+## The combo turn
+
+The engine turn needs three things on the board: The Great Goblin, Bothersome Noisemaker, and an Army (or any Goblin) to receive the counters.
+
+1. Start the turn with The Great Goblin and Bothersome Noisemaker in play. Any amassed Army already on the board counts as the Goblin for the counters.
+2. Cast Tidings of War for {R}. Its own amass 1 triggers The Great Goblin for 2, and the Noisemaker's amass 1 triggers him again for 2. Gandalf, Goblins' Bane, if he is out, adds 1 more and grows.
+3. Flash back Tidings of War for {3}{R}. Amassing 3 is one event, so it is one trigger for 2 damage, plus the Noisemaker's 2 — but the Army grows by 4 counters in total and the spell still counts for Gandalf.
+4. Activate Goblin-town: {2}{B}{R}, sacrifice the land, two +1/+1 counters on the Army. That is 2 more damage and a permanent +2/+2.
+5. Sacrifice a Goblin to Bolg's Company for {B}{R}, then spend it on Rage into the Valley: the sacrifice sets off any death trigger (Fearsome Goblin Pair amasses 4), and the sorcery amasses 2 more and draws a card.
+
+A realistic turn five with both engines in play is 10 to 12 damage that never attacks, on top of a 6/6 or larger Army sitting in play.
+
+## Win condition 2
+
+The Army wins games that the burn does not. Every amass in the list grows the same token: Flunkies, the Noisemaker, both halves of Tidings of War, Rage into the Valley, Gathering of Darkness, Fearsome Goblin Pair and Goblin-town all feed one creature, and a single Army that has been through three of them is a 7/7 or larger.
+
+My Precious is what makes it lethal. Equipped creature has hexproof and cannot be blocked, and the equip cost is {2} plus 2 life, which is payable every turn. A hexproof unblockable Army is a two-turn clock that ignores most removal and every blocker, and Warg Tactics adds trample and hexproof for a turn on top of it.
+
+Gandalf, Goblins' Bane is the third, quiet win condition. He grows with every noncreature spell and deals 1 damage to each opponent each time, so a long game of cheap spells and flashback kills a player who has stabilised against the ground attack.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two or three lands including black or red, Bothersome Noisemaker, any one-mana spell | Keep. This is the engine hand: Noisemaker on two, The Great Goblin on three, and the cheap spells start burning |
+| Two lands, Goblin-town Flunkies, Bolg's Company | Keep. Two hasty bodies and a sacrifice outlet that pays in {B}{R} |
+| Two lands, The Great Goblin, Fearsome Goblin Pair, a sacrifice outlet | Keep. The pair amasses 4 when it dies and the outlet is how it dies |
+| Two lands, Nasty Little Rabbit, Warg Tactics, Troll Negotiations | Borderline keep. One Forest is enough for the Rabbit but the other two green cards need a second green source |
+| One land | Mulligan. The deck plays three mana on turn three every game and wants four on turn four |
+| No black and no red source | Mulligan. Green alone cannot cast a single engine card |
+| Five lands, Gathering of Darkness, Troll Negotiations | Mulligan. The deck floods; it wants two-mana plays, and Goblin-town is the only land that does something on its own |
+| Zero counter events in hand | Mulligan. A hand of lands, Troll Negotiations and My Precious with no amass has no way to trigger The Great Goblin |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| The Great Goblin counts events, not counters | "Whenever you put one or more counters" is a single trigger no matter how many counters arrive. Amass Goblins 4 from Fearsome Goblin Pair is 2 damage, and so is amass 1 from a Noisemaker — which is why the cheap repeatable amass cards beat the big ones |
+| The Army is a Goblin for every other card | Amass creates the Army as a Goblin, so the counters on it trigger The Great Goblin, Goblin-town can target it, Warg Tactics can put a counter on it and Bolg's Company can sacrifice it for {B}{R} |
+| Amass creates the 0/0 first, then adds counters | If you control no Army, amass creates a 0/0 black Goblin Army token and then puts the counters on it — still one event, still one burn trigger, and the token survives because the counters arrive with it |
+| The Great Goblin is legendary | A second copy cannot stay on the battlefield. Play the first one and hold the rest as removal-proof re-buys after a sweeper; his second ability does not trigger when he himself dies |
+| Gandalf, Goblins' Bane triggers on his own adventure | Flameshape is a sorcery while it is on the stack, so casting it is a noncreature spell and triggers the +1/+1 and the 1 damage. The adventured cards are then castable while you control a Wizard, which Gandalf is |
+| Flashback is a noncreature spell | Tidings of War cast from the graveyard for {3}{R} triggers Bothersome Noisemaker for amass 1 and Gandalf for 1 damage, on top of its own amass 3 |
+| Bolg's Company needs another Goblin to have haste | It is a 2/2 that only has haste while you control another Goblin, and its ability requires sacrificing another Goblin — Goblin-town Flunkies, Bothersome Noisemaker, Fearsome Goblin Pair and the Army all qualify |
+| Fearsome Goblin Pair is a 1/1 that dies into a 4-counter amass | The amass happens on death, not on entry, so the pair is a blocker that trades and then feeds the burn. Sacrificing it to Bolg's Company or to Allure of Power gets both halves of the card |
+| Allure of Power needs a creature to sacrifice | It is an instant for {1}{B} that costs a creature as an additional cost and draws two cards. With no creature on the board it cannot be cast, so keep a spare Goblin in play before you need the cards |
+| Warg Tactics counters a creature you control, including a non-Goblin | The +1/+1 counter only triggers The Great Goblin when the target is a Goblin, Orc or Army. Warg Tactics targets any creature, and putting the counter on Nasty Little Rabbit or Gandalf is a wasted burn trigger |
+| Troll Negotiations fights with the creature that received the counters | The same creature gets two counters and then fights a creature an opponent controls. Cast it on the Army or a Goblin for the burn trigger, and remember that the fight is not optional — do not aim it at something that will die |
+| Goblin-town enters tapped and is sacrificed for its ability | Three copies are in the list because the land is the only card that turns a flooded board into damage. Tapping for {B} or {R} and then sacrificing it for the counters in the same turn is legal as long as you have {2}{B}{R} available |
+| My Precious can be re-equipped every turn | Equip is {2} and 2 life, not a tap, so the Equipment moves between the Army and any blocking Goblin as needed. Hexproof plus unblockable means the opponent must answer the Equipment or the Army itself |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain | Race with the Army and use Warg Tactics to kill the first flier that attacks. The burn plan punishes a deck that spends its turns attacking rather than blocking, and Goblin-town adds damage without a card. Trade the small Goblins early so the Army survives |
+| Midrange | The strongest matchup for the burn plan: midrange decks do not pressure life totals, so The Great Goblin's two-damage triggers accumulate unanswered. Save Troll Negotiations for their largest threat and make the Army unblockable with My Precious rather than attacking into blockers |
+| Control | The worst matchup. Their sweepers kill the Army and the Noisemaker, so play two threats at a time and keep Gandalf, Goblins' Bane and flashback Tidings of War as the post-sweeper engine. Gathering of Darkness rebuys whichever Goblin they killed, and Goblin-town plus a single surviving Goblin is 2 damage that does not need a full board |
+| Combo | The clock is turn five or six. Warg Tactics killing a flier and Troll Negotiations fighting are the only interaction, so the plan is to spend every card on damage rather than holding anything back — a Goblin Army that is unblockable ends the game faster than the combo does if the burn is pointed at the player |
+
+# Deck list (Arena import)
+
+```text
+Wardrum Warband
+Deck
+4 Nasty Little Rabbit
+4 Bothersome Noisemaker
+4 Goblin-town Flunkies
+3 Fearsome Goblin Pair
+3 The Great Goblin
+2 Gandalf, Goblins' Bane
+2 Bolg's Company
+4 Tidings of War
+3 Rage into the Valley
+2 Gathering of Darkness
+2 Warg Tactics
+2 Troll Negotiations
+2 My Precious
+3 Goblin-town
+9 Swamp
+7 Mountain
+4 Forest
+```
