@@ -1,0 +1,151 @@
+---
+title: "Anvil Verse"
+subtitle: "Red / White / Blue (three colors) — Storied Dwarves with Equipment counters and a token win"
+date: "2026-09-20"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White / Blue (three colors — white in 20 of the 36 nonlands, red in 16, blue in 3; five artifacts are colourless) |
+| Archetype | Storied Dwarves, built as a low-curve Equipment aggro deck |
+| Size | 60 cards (28 creatures, 8 other spells and permanents, 24 lands; average mana value 2.22 across the 36 nonlands) |
+| Signature mechanic | Storied — with three or more artifacts, legendaries and/or Sagas you have an enduring story for the rest of the game, and every Dwarf in the deck turns on |
+| Primary win | Equipmented double strike: Dáin Ironfoot gives every equipped attacker double strike, Iron Hills Blacksmith already has it, and Dwalin, Weaponmaster stacks hone counters on the axes |
+| Secondary win | Dwarf tokens — Fíli the Pathfinder makes a 2/2 red Dwarf on every nontoken Dwarf entry and pumps the team, while The Lonely Mountain makes a token a turn |
+| Land win condition | The Lonely Mountain — {4}{R}, {T} for a 2/2 red Dwarf token, {1} cheaper for each Equipment you control, so four Equipment make it a one-mana token per turn |
+| Measured performance | Sim 58.7 percent over three 500-game runs (62 / 59 / 55), synergy score 71.9, turn-4 consistency 0.631, four-land probability by turn 4 of 0.627, overall score 90.65 (archetypes: midrange, aggro) |
+| Set note | The Hobbit (set code hob, 193 cards: 70 common / 55 uncommon / 53 rare / 15 mythic) is Standard legal and landed on Arena 2026-08-14, so the import list below is live from that date onward; the arena_id field is still empty for some Hobbit printings |
+
+# Overview
+
+Anvil Verse is the Storied Dwarf deck played as a curve deck rather than a legend pile. The Hobbit's newest keyword asks one question — do you control three or more artifacts, legendaries and/or Sagas? — and answers it permanently. That makes the deck's whole job simple: put three permanent types on the board, then let every payoff in the deck switch on at once.
+
+The deck answers that question with Equipment, because Equipment is the only permanent type that is also a pump spell. Iron Hills Blacksmith arrives with an Axe token attached, Dáin Ironfoot arrives with a second Axe, Dwalin puts hone counters on every Equipment whenever he enters or attacks, and Dwarven Mattock attaches itself to a Dwarf the moment it resolves. Three Equipment plus one legendary Dwarf is an enduring story by turn three in most games, and from there Kíli the Resourceful, Óin the Brave, Thorin Oakenshield, Dáin, Lord of the Iron Hills, Fíli the Pathfinder and Bombur, Gentle Dreamer are all live.
+
+The combo layer is the double strike. Iron Hills Blacksmith is a 1/1 for {1}{W} with double strike, and Dáin Ironfoot hands double strike to every equipped attacker on each attack. A single Axe token turns the Blacksmith into four damage; Dwarven Mattock turns her into six; two Axes plus a Mattock plus hone counters from Dwalin is a lethal swing out of nowhere on turn four or five. The second win is the token half of the deck: Fíli anthems the team and turns every Dwarf entry into a 2/2, and The Lonely Mountain converts spare Equipment into a token per turn, so a board that stalls on the ground simply grows taller.
+
+Blue is the third colour and a deliberate miniature splash. Bilbo, Luckwearer is a one-mana unblockable threat that carries an Equipment into an unblockable double strike, and his loot clause digs for the next Equipment or legend while Spirebluff Canal and Meticulous Archive provide the sources without slowing the base.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Develop | 1–2 | Kíli the Resourceful or Iron Hills Blacksmith, then any two-mana Dwarf. Well-Worn Spatula for one mana is a free artifact toward Storied, and Dwarven Mattock attaches itself to a Dwarf the turn it lands |
+| Story | 2–3 | Third artifact or legendary resolves and Storied flips: Óin gains haste, Thorin gives ward {1} to every artifact and creature, Fíli pumps the team |
+| Convert | 4–5 | Dáin Ironfoot or Dwalin, Weaponmaster before combat; the equipped attackers get double strike and the axes carry the damage |
+| Grind | 6+ | The Lonely Mountain and Fíli make two 2/2 Dwarves per turn between them, while Thorin's ward and Dáin's attack tax make racing impossible |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Kíli the Resourceful | Draw engine: a card on the first Dwarf or Equipment entry each turn, and the first equip each turn is free once Storied |
+| Iron Hills Blacksmith | Two-mana double striker that arrives with an Axe token — two artifacts toward Storied on turn two |
+| Thorin Oakenshield | Storied payoff: ward {1} on every artifact and creature you control, which protects the Equipment and the board at once |
+| Óin the Brave | Storied payoff: haste plus a loot ability that trades spare cards for action |
+| Dáin, Lord of the Iron Hills | Storied payoff: opponents pay {1} per attacker, which buys the extra turns a mid-curve deck needs |
+| Dwalin, Weaponmaster | Hone counters on every Equipment on entry and on each attack — the deck's cheapest permanent damage scaling |
+| Dáin Ironfoot | Axe token on entry and double strike for every equipped attacker on each attack: the primary kill |
+| Dáin's Company | Two-mana 2/2 with lifelink that looks four cards deep for the next Dwarf or Equipment — the deck's consistency valve |
+| Bombur, Gentle Dreamer | 5/3 for two mana; untaps normally only with an enduring story, which the deck has by turn three |
+| Fíli the Pathfinder | Storied payoff and win condition two: +1/+1 to the team and a 2/2 red Dwarf on every nontoken Dwarf entry |
+| Well-Worn Spatula | One-mana Equipment that triggers Kíli, counts for Storied and gains 2 life on entry |
+| Dwarven Mattock | Attaches itself on entry for +2/+2 and ward {1}; the best Equipment to put on an unblockable Bilbo or a double striker |
+| Bilbo, Luckwearer | One-mana unblockable Equipment carrier that loots on damage — the blue splash's only job |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Enters untapped whenever you control an Equipment; {4}{R} makes a 2/2 red Dwarf token, {1} cheaper per Equipment — the win-condition land and a Mountain for the red half |
+| Spirebluff Canal | Untapped on turns one to three, and the blue source for Bilbo without costing a land drop |
+| Meticulous Archive | White-blue dual that surveils 1 on entry, binning spare copies and digging toward Equipment |
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| 1 | 2 | Well-Worn Spatula (2) |
+| 2 | 26 | Kíli the Resourceful (4), Iron Hills Blacksmith (4), Thorin Oakenshield (4), Óin the Brave (2), Dwalin, Weaponmaster (2), Dáin, Lord of the Iron Hills (2), Dáin's Company (2), Dwarven Mattock (3), Bilbo, Luckwearer (3) |
+| 3 | 6 | Dáin Ironfoot (3), Bombur, Gentle Dreamer (3) |
+| 4 | 2 | Fíli the Pathfinder (2) |
+| Lands | 24 | The Lonely Mountain (4), Spirebluff Canal (3), Meticulous Archive (2), Plains (8), Mountain (7) |
+
+Twenty-four lands with a top of four mana means the deck floods easily, which is exactly what The Lonely Mountain wants: a land that makes creatures turns a flooded draw into a board. The white requirement is the heaviest — every one of the deck's one-drops and payoffs except Óin and Dáin Ironfoot wants white — so the Plains count is deliberately higher than the Mountain count, with The Lonely Mountain picking up the slack on the red side.
+
+# Gameplay strategy
+
+## Early game
+
+Two drops are the whole game. Kíli the Resourceful first when you have Equipment in hand, because he draws a card on each of the first two entries; Iron Hills Blacksmith first when you do not, because the Axe token she makes is an artifact, a pump and a Storied count all at once. Dwarven Mattock on turn two is the strongest follow-up available: it attaches itself to a Dwarf, so the turn is two permanents toward Storied, and it counts as both an artifact and a source of damage.
+
+Do not spend turn one on nothing. Well-Worn Spatula for one mana is a real play: it is an artifact for Storied, it triggers Kíli, and 2 life matters against fast decks. Bilbo, Luckwearer is the other turn-one play, and he is the deck's best Equipment carrier because he cannot be blocked.
+
+## The combo turn
+
+The double strike turn is assembled from three pieces: an equipped attacker, Dáin Ironfoot, and a pump. Dáin is the enabler — whenever he attacks, each equipped attacking creature gains double strike until end of turn — so the order of operations is Dáin, then Dwalin if you have him, then equip, then attack.
+
+Numbers, with the cards the deck actually plays: an Axe token gives +1/+0, Dwarven Mattock gives +2/+2 and ward {1}, a hone counter from Dwalin gives +1/+0 each. Iron Hills Blacksmith with a Mattock and one hone counter is a 4/3 double striker for eight damage. Thorin Oakenshield with the same Mattock and two hone counters is a 7/4 trampler swinging for fourteen. The attack tax from Dáin, Lord of the Iron Hills and the ward from Thorin mean the opponent often cannot race back, because attacking costs mana while ward counters their removal.
+
+## Win condition 2: the token anvil
+
+Fíli the Pathfinder plus The Lonely Mountain is the second engine and there is real overlap between the halves. Fíli's trigger fires on each nontoken Dwarf entering, so every Dwarf you cast is also a 2/2, and his Storied pump makes those tokens 3/3 attackers. The Lonely Mountain's token costs {4}{R} minus {1} for each Equipment, so with three Equipment it is {1}{R} per turn, which is rarely a decision worth thinking about. If the ground stalls, stop equipping and just make tokens: a Fíli on the board turns every further Dwarf cast, and every token the Mountain makes, into a 3/3, and Thorin's ward covers them.
+
+## Mulligan guide
+
+Keep any hand with two lands, a two-drop Dwarf and one artifact. Kíli the Resourceful or Iron Hills Blacksmith plus a Well-Worn Spatula is a keep on two lands. Mulligan hands with no two-drop, hands with Fíli and Bombur but nothing before them, and hands of more than four lands — the deck needs Storied online by turn three and cannot afford to skip the second turn. A one-land hand is only keepable with Well-Worn Spatula and two more one-mana plays, which is rare enough to ignore.
+
+## Key interactions and edge cases
+
+| Interaction | Detail |
+|-------------|--------|
+| Storied never turns off | Once you have an enduring story it lasts for the rest of the game, even after the third artifact or legend leaves. Board wipes do not switch the payoff cards back off |
+| Hone counters live on the Equipment | A hone counter from Dwalin, Weaponmaster is placed on the Equipment, so it moves with the Equipment when you re-equip and it survives the equipped creature dying. A Mattock with two hone counters is +4/+2 |
+| Dáin Ironfoot's double strike is an attack trigger | The double strike is granted when he attacks, so the Equipment must already be attached before the attack; equipping after attackers are declared is too late |
+| The Lonely Mountain enters untapped with any Equipment | Artifact tokens count, so an Axe from the Blacksmith or from Dáin is enough for an untapped Mountain on turn two. It is a Mountain, so it can cast Óin, Dáin Ironfoot and Bombur |
+| Axe tokens are Equipment, not creatures | They are artifacts that count for Storied, they can be re-equipped to a different creature, and Fíli's tokens get nothing from them until equipped |
+| Bombur needs an enduring story to untap | He is a 5/3 for {2}{R}, and if Storied has not flipped he stays tapped after his first attack. Play him only when two other artifacts or legends are already on the board |
+| Kíli draws only once each turn | His trigger is once per turn, so ordering matters: play the artifact and the Dwarf in the same turn and draw one card, not two. The first equip each turn being free is separate and always available |
+| Bilbo carries Equipment because he cannot be blocked | An unblockable 1/1 with a Mattock is a 3/3 ward {1} that cannot be blocked, which is the cleanest way to use Dáin Ironfoot's double strike through a stall |
+| Spirebluff Canal is untapped only early | It enters tapped unless you control two or fewer other lands, so it is a turn-one to turn-three land. Do not count it as a fourth or fifth land for a double-strike turn |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain | Race with double strike and let Dáin, Lord of the Iron Hills tax their attacks. Well-Worn Spatula and Dáin's Company's lifelink decide close games; Dwarven Mattock's ward {1} blanks small removal |
+| Midrange | The best matchup. Storied flips and never turns off, the Equipment keeps scaling through hone counters, and the token engine out-grows a board that wins by trading. Hold Dwarven Mattock for whichever Dwarf they do not block |
+| Control | The primary worry is a sweeper on turns four to five. Play two threats at a time, keep The Lonely Mountain in hand as a land until you need the tokens, and remember that Storied survives the wipe even when the creatures do not — Kíli plus one Equipment rebuilds the board in two turns |
+| Combo | The clock is their turn four to six against yours. Bilbo plus an Equipment is the fastest unblockable clock, and Thorin Oakenshield's ward {1} is the only interaction the deck has: point the double strike at their life total rather than their board and use Fíli plus The Lonely Mountain to add damage without a card |
+
+# Deck list (Arena import)
+
+```text
+Anvil Verse
+Deck
+4 Kíli the Resourceful
+4 Iron Hills Blacksmith
+4 Thorin Oakenshield
+2 Óin the Brave
+2 Dwalin, Weaponmaster
+2 Dáin, Lord of the Iron Hills
+2 Dáin's Company
+3 Dáin Ironfoot
+3 Bombur, Gentle Dreamer
+2 Fíli the Pathfinder
+2 Well-Worn Spatula
+3 Dwarven Mattock
+3 Bilbo, Luckwearer
+4 The Lonely Mountain
+3 Spirebluff Canal
+2 Meticulous Archive
+8 Plains
+7 Mountain
+```
