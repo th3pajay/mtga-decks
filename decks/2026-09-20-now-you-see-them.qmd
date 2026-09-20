@@ -1,0 +1,170 @@
+---
+title: "Now You See Them"
+subtitle: "Four colors (white / blue / black / green) — Convoke x Disappear"
+date: "2026-09-20"
+categories: ["combo", "convoke", "disappear"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Four colors — white, blue, black, green (no red) |
+| Archetype | Token combo midrange — permanents leave, tokens arrive, tokens pay for everything |
+| Size | 60 cards (36 nonlands, 24 lands; nominal nonland average mana value 4.11, heavily discounted by convoke) |
+| Signature mechanics | Convoke (tap creatures to pay) and Disappear (payoff when a permanent leaves the battlefield under your control) |
+| Primary win | Rat swarm: Rat King, Verminister grows a Rat token plus a +1/+1 counter on every end step where a permanent left your control, then Winnowing picks a Rat for you and wipes every non-Rat creature on the other side |
+| Secondary win | Manland beatdown: Restless Cottage attacks as a 4/4 Horror and mints a Food token each attack, Restless Anchorage attacks as a 2/3 flying Bird and mints a Map token, and Pizza Face, Gastromancer turns those tokens into 3/3 Mutants |
+| Land as win condition | Restless Cottage and Restless Anchorage are the deck's win-condition lands: they attack, they make the artifacts that pay for Disappear, and Restless Cottage alone can close a game as a 4/4 that also feeds the engine |
+| Measured performance | Sim 59.3 percent over three 500-game runs (61 / 60 / 57), synergy 72.2, turn-4 consistency 0.661, four-land probability by turn 4 of 0.663 |
+
+# Overview
+
+Now You See Them is a four-color Standard combo deck built on two mechanics that pull in the same direction. Convoke lets every creature you control help pay for a spell, and Disappear pays you off whenever a permanent leaves the battlefield under your control during a turn. Read together, the two mechanics describe one loop: sacrifice or bounce a permanent, get a token at the end step, then tap the whole board to convoke something enormous.
+
+The engine is dense and cheap. Rat King, Verminister costs two mana and produces a Rat token plus a +1/+1 counter every single end step in which a permanent left your control. Lord Dregg, Insect Invader does the same with a 1/1 flying Insect Warrior and doubles as a sacrifice outlet. Experimental Confectioner turns Food into extra Rats. Michelangelo, Game Master and Pizza Face, Gastromancer convert the same trigger into counters, and Foot Mystic makes a Ninja on the way down.
+
+The enablers are deliberately interchangeable. Hardened Tactician, Lord Dregg and the Food tokens from Restless Cottage and Pizza Face let you sacrifice a token at will; Splash Portal flickers a Rat to draw a card and satisfy Disappear in exactly the same motion; Wanderwine Farewell and Disruptor of Currents return your own tokens to hand, which is the cleanest possible way to make a permanent leave. Any of these enablers on any turn turns the end step into a small army.
+
+Cracks in the plan are covered by the payoffs. Harmonized Crescendo names Rat and draws a card per Rat permanent, which is usually four or five cards after a single engine turn. Winnowing names Rat for you and forces each opponent to sacrifice every creature that is not the one you picked for them. The Wandering Rescuer arrives at flash speed with double strike and hands hexproof to every tapped creature you control, which is your entire board the moment you convoke.
+
+# Approach
+
+## Game plan by phase
+
+| Phase | Turns | What you are doing | Cards doing it |
+|-------|-------|--------------------|----------------|
+| Setup | 1-2 | Land, then a two-drop engine piece. Hold Splash Portal as a combat trick or Disappear trigger. | Rat King, Verminister, Splash Portal |
+| Build | 3-4 | Add a token source and a free sacrifice. Start collecting Rats, Insects, Clues, Foods and Maps. | Experimental Confectioner, Michelangelo, Game Master, Lord Dregg, Restless Cottage |
+| Convert | 5-7 | Attack with a manland, sacrifice the token it made, then convoke a six- or seven-drop for two or three mana. | Restless Cottage, Restless Anchorage, Winnowing, Harmonized Crescendo, Wanderwine Farewell |
+| Close | 7+ | Rat King is a 5/5 or larger, the board is all Rats, and Winnowing leaves the opponent with one creature. | Rat King, Verminister, Winnowing, Pizza Face, Gastromancer |
+
+## Card roles
+
+| Role | Cards | Notes |
+|------|-------|-------|
+| Disappear engine | Rat King, Verminister (4), Lord Dregg, Insect Invader (3), Michelangelo, Game Master (2), Foot Mystic (2) | Each one converts "a permanent left" into a token or a counter at the end step |
+| Token amplifier | Experimental Confectioner (3), Pizza Face, Gastromancer (2) | Food in, Rats and 3/3 Mutants out |
+| Sacrifice outlets | Lord Dregg, Insect Invader, Hardened Tactician (2), Food tokens, Map tokens | Repeatable, free, and instant speed matters more than the card it draws |
+| Flicker and bounce enablers | Splash Portal (2), Wanderwine Farewell (2), Disruptor of Currents (1) | Make your own permanent leave without losing a card |
+| Convoke payoffs | Winnowing (2), Harmonized Crescendo (2), Wanderwine Farewell (2), The Wandering Rescuer (2), Merrow Skyswimmer (3) | Big effects that cost two to four mana in practice |
+| Protection and reach | The Wandering Rescuer (2), Merrow Skyswimmer (3), Disruptor of Currents (1) | Hexproof for tapped creatures plus flying bodies |
+| Interaction | Vote Out (2), Temporal Cleansing (1), Winnowing (2) | Convoke removal keeps the mana open for the engine |
+
+## Lands as engines
+
+| Land | Count | What it does for the deck |
+|------|-------|---------------------------|
+| Restless Cottage | 3 | Enters tapped, taps for black or green. Attacks as a 4/4 Horror and creates a Food token on every attack — the Food is a free Disappear enabler and a sacrifice for Pizza Face. Also exiles a card from a graveyard. |
+| Restless Anchorage | 2 | Enters tapped, taps for white or blue. Attacks as a 2/3 flying Bird and creates a Map token on every attack — the Map can be sacrificed for an explore, which is another permanent leaving your control. This is the deck's evasive finisher. |
+| Secluded Courtyard | 3 | Names Rat and pays for every creature spell in the deck in any color, which is how a four-color manabase casts a two-drop on turn 2. |
+| Sandsteppe Citadel, Urban Retreat, Hushwood Verge | 6 | Three-color and verge fixing that covers white, blue, black and green. |
+| Basics | 10 | Three Forest, three Swamp, three Plains, one Island. |
+
+## Curve and mana
+
+| Mana value | Cards | Count |
+|------------|-------|-------|
+| 1 | Splash Portal | 2 |
+| 2 | Rat King, Verminister | 4 |
+| 3 | Experimental Confectioner, Hardened Tactician, Michelangelo, Game Master | 7 |
+| 4 | Lord Dregg, Insect Invader, Foot Mystic, Vote Out, Temporal Cleansing | 7 |
+| 5 | Merrow Skyswimmer, The Wandering Rescuer, Pizza Face, Gastromancer, Disruptor of Currents | 8 |
+| 6 | Winnowing, Harmonized Crescendo | 4 |
+| 7 | Wanderwine Farewell, West Wind Avatar | 3 |
+
+Colored sources in the manabase: eleven white, twelve green, eight black, five blue, plus three Secluded Courtyard that cast any creature in the deck. The deck is black-green at heart, with white and blue reserved for the convoke finishers. Every blue or white spell that asks for a double pip can be paid with a Merfolk or a Rat, which is the whole point of the mechanic: the tokens you make with Disappear are the mana you spend on Convoke. Black is the tightest color and the one to fetch for first.
+
+# Gameplay strategy
+
+## Early game
+
+Turns 1 and 2 want a Rat King, Verminister or a Splash Portal plus a land that produces black. If you have neither, play a token-making three-drop or a Secluded Courtyard naming Rat and pass. Do not fire Splash Portal simply to cycle it: hold it until the end step before your next turn is relevant, because the permanent leaves on the turn it resolves and pays Disappear on the same turn.
+
+## Mid game
+
+From turn 3 onward the plan is one sacrifice per turn, no exceptions. Attack with Restless Cottage, get a Food, then sacrifice that Food to Experimental Confectioner or Lord Dregg before the end step. Rat King, Lord Dregg, Michelangelo and Foot Mystic all check the same condition, so a single sacrifice can pay four cards at once. That is the turn where the board goes from two creatures to six.
+
+Keep a token in hand for Hardened Tactician and Lord Dregg. Drawing a card is what keeps the engine running through a stalled board, and both outlets are free at instant speed.
+
+## The combo turn
+
+The deck's best turn looks like this: attack with a manland, sacrifice the token it produced, then tap the rest of the board to convoke Harmonized Crescendo naming Rat for four or five cards, or Winnowing naming Rat to leave the opponent with exactly one creature. Because convoke pays for colored pips, a board of three Rats casts a six-drop for {1}{W} or {1}{U} in practice, and the freshly tapped board is hexproof the moment The Wandering Rescuer is on the battlefield.
+
+Wanderwine Farewell is the same turn's second half: return your own two tokens and an opponent's permanent, and you get two 1/1 Merfolk tokens plus two Disappear triggers. With a Merfolk on board (Merrow Skyswimmer or Disruptor of Currents) the Farewell replaces what it bounces.
+
+## Win condition 2
+
+When the Rat plan is answered, the lands take over. Restless Cottage becomes a 4/4 Horror for four mana and makes a Food on every attack; Restless Anchorage becomes a 2/3 flying Bird for three mana and makes a Map on every attack. Both triggers satisfy Disappear on their own because the tokens they create can be sacrificed. Pizza Face, Gastromancer then turns a leftover Food or Map into a 3/3 Mutant with three +1/+1 counters and repeats it every end step, which converts a defensive board into a second wave of attackers.
+
+West Wind Avatar is the late-game bridge: seven mana, trample, and an attack trigger that sacrifices a token or a land to gain 3 life and a Disappear trigger that draws a card.
+
+## Mulligan guide
+
+| Hand | Action |
+|------|--------|
+| Two lands, one of them black, plus a Rat King or a two-mana play | Keep |
+| One land with Rat King, Verminister | Keep on the play only if the land is a Swamp or Restless Cottage |
+| Zero lands or all-expensive convoke spells | Mulligan |
+| Three or more lands of a single non-black color with no engine piece | Mulligan |
+| Splash Portal plus two lands and any Disappear creature | Keep, the Portal is the enabler |
+
+Aim for three lands by turn 3 and four by turn 4. The deck has twenty-four lands and the simulation puts four-land turn-4 probability at 0.663, so do not keep hands that need a fifth land to function.
+
+## Key interactions and edge cases
+
+* Disappear checks the whole turn, not the moment. A sacrifice in your first main phase pays every end-step trigger hours later. Order your sacrifices before the end step, not during it.
+* Restless Cottage and Restless Anchorage leaving the battlefield after animation also satisfies Disappear, so a chump-blocking manland is a trigger, not a tempo loss.
+* Wanderwine Farewell counts permanents returned, not targets chosen. Returning two of your own tokens with a Merfolk in play gives two Merfolk tokens and two Disappear triggers.
+* Winnowing picks a creature for every player, including you. Name Rat and your Rats survive; Michelangelo, Merfolk and West Wind Avatar do not. Cast it when the Rat count is higher than the non-Rat count, or when the opponent's board matters more than two Merfolk.
+* Harmonized Crescendo counts permanents, not creatures, so Restless Cottage tokens, Foods, Maps and Clues all add to the draw if you name the right type. Name Rat for the clean count.
+* Rat King's second ability returns every card with the same name as the target, so a graveyard holding three Rat Kings is a full rebuild after a sweeper.
+* The Wandering Rescuer's hexproof applies to other tapped creatures only. Convoke first, then flash it in, and the whole tapped board is protected for the turn.
+* Pizza Face, Gastromancer animates non-creature artifacts into 0/0 Mutants, so animate a Food or a Map you were never going to sacrifice.
+* Splash Portal draws a card only for a Bird, Frog, Otter or Rat. Return a Rat token for the card, return a Merfolk only when the trigger matters more than the draw.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early Rats, keep Foot Mystic and Merrow Skyswimmer for lifelink and blocking, and lean on The Wandering Rescuer at flash speed. Restless Cottage blocks as a 4/4. |
+| Control | Hold Splash Portal and build the board before committing. Winnowing and Harmonized Crescendo are cheap after convoke, so a sweeper is survivable, and Rat King rebuilds from the graveyard. |
+| Midrange | Race with Rat King's counters and use Vote Out on the one creature that blocks. Restless Anchorage's flying Bird is the usual unblockable clock. |
+| Ramp and big mana | Winnowing is the answer to a battlefield of one enormous creature; Temporal Cleansing tucks what Vote Out cannot kill. |
+| Other token decks | Winnowing names Rat and strips every non-Rat on both sides, which usually leaves you with more bodies. |
+
+# Deck list (Arena import)
+
+```text
+Now You See Them
+Deck
+4 Rat King, Verminister
+3 Lord Dregg, Insect Invader
+3 Merrow Skyswimmer
+3 Experimental Confectioner
+2 Hardened Tactician
+2 The Wandering Rescuer
+2 Foot Mystic
+2 Michelangelo, Game Master
+2 Pizza Face, Gastromancer
+1 West Wind Avatar
+2 Splash Portal
+2 Vote Out
+2 Winnowing
+2 Harmonized Crescendo
+2 Wanderwine Farewell
+1 Disruptor of Currents
+1 Temporal Cleansing
+3 Secluded Courtyard
+3 Restless Cottage
+2 Restless Anchorage
+2 Sandsteppe Citadel
+2 Urban Retreat
+2 Hushwood Verge
+3 Forest
+3 Swamp
+3 Plains
+1 Island
+```
