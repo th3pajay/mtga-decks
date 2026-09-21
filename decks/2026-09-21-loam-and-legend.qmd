@@ -1,0 +1,160 @@
+---
+title: "Loam and Legend"
+subtitle: "Green / Blue / White (three colors) — Hobbit Elf legends and landfall tokens with a counter-overrun land"
+date: "2026-09-21"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Green / Blue / White (three colors — green in 26 of the 36 nonlands, blue in 21, white in 2; the four Elf legends cost hybrid green-blue) |
+| Archetype | Elf legends from The Hobbit, built as a landfall token deck |
+| Size | 60 cards (27 creatures, 9 other spells, 24 lands; average mana value 3.28 across the 36 nonlands) |
+| Primary win | Landfall Elves: Thranduil, Sindarin Liege makes a 1/1 Elf on every land entry and pumps the team, Thranduil's Company pays two counters per land entry, and Bard, King of Dale doubles every token the deck makes |
+| Secondary win | Counter overrun: Mirkwood Pathmaker is a land-count-sized threat and Abandoned Air Temple puts a +1/+1 counter on every creature you control, twice a turn if you have the mana |
+| Land win condition | Abandoned Air Temple — a land that turns a wide board into a lethal one with {3}{W}, {T}: put a +1/+1 counter on each creature you control, and enters untapped while you control a basic land |
+| Measured performance | Sim 55.0 percent over three 500-game runs (58 / 50 / 57), synergy score 70.3, turn-4 consistency 0.627, four-land probability by turn 4 of 0.623, overall score 77.75 (archetypes: midrange, control, combo, aggro) |
+| Set note | The Hobbit (set code hob, 193 cards: 70 common / 55 uncommon / 53 rare / 15 mythic) is Standard legal and lands on Arena 2026-08-14, so the import list below is live from that date onward; the arena_id field is still empty for most Hobbit printings, so the list will not resolve on Arena before that date |
+
+# Overview
+
+Loam and Legend asks one question of the Hobbit set — how many lands can this deck put onto the battlefield in a turn — and answers it with Elves. Every land entry in this deck is a resource, because the deck's three payoffs all read the same trigger: Thranduil, Sindarin Liege creates a 1/1 green Elf token on landfall and gives other Elves +1/+1, Thranduil's Company pays two +1/+1 counters onto any creature you control on landfall and lets you play an additional land each turn while you control another Elf, and Down in the Valley adds the landfall clause to itself as a Saga chapter, then pumps and gives vigilance to the team.
+
+The multiplier is Bard, King of Dale. If one or more tokens would be created under your control, twice that many are created instead, so a single extra land drop becomes two Elf tokens, and Bard also turns every extra draw into two cards. Wood Elves, Silvan Rally and Silvan Reveler put lands into play without spending land drops, and Roll-Roll-Roll-Roll re-triggers a land entry by exiling a land and returning it at the end of the turn, so a resolved Thranduil's Company plus any of these is a two-landfall turn without drawing a second land.
+
+The second win is height rather than width. Mirkwood Pathmaker's power and toughness are each equal to the number of lands you control, so the same engine that makes tokens also makes a threat; Abandoned Air Temple then converts the wide board into a lethal one by putting a +1/+1 counter on each creature you control, and it is a land, so it costs no slot that the deck wanted for something else. Mirkwood Pathmaker, Thranduil's Company counters and Elvenking-style pumps stack on the same creatures.
+
+The glue is a draw engine that no other Standard deck has: Woodland Weavemaster taps for X mana of any one colour where X is its power, spendable on Elf spells and Elf abilities, and Elrond, Moon-Reader draws a card whenever you activate an ability of a creature. Tap the Weavemaster for four or five mana, draw a card, and cast an Elf with the mana that the same activation produced.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Develop | 1–2 | Attercop or Woodland Weavemaster. Attercop is the cheapest landfall payoff in the deck and its deathtouch plus reach holds the ground against fliers |
+| Assemble | 3–4 | Thranduil, Sindarin Liege or Thranduil's Company. Both are hybrid or two-colour, both are landfall, and Wood Elves fetches a Forest so one card adds an Elf and a land entry |
+| Multiply | 5–6 | Down in the Valley, Woodland Weavemaster and the second land drop. Land entries now make two tokens and two counters each; Silvan Reveler returns itself from the graveyard if the ground stalls |
+| Convert | 7+ | Bard, King of Dale doubles every further token; Abandoned Air Temple adds a counter to each creature for {3}{W}; Mirkwood Pathmaker is already as large as your land count |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, Sindarin Liege | The engine. Other Elves get +1/+1 and every land entry makes a 1/1 Elf token; its adventure Silvan Rally mills four and takes up to two lands, which is the deck's cheapest way to find land four |
+| Thranduil's Company | Second land drop while you control another Elf, plus two +1/+1 counters on any creature per land entry — the counter half of the deck |
+| Woodland Weavemaster | Mana and the draw engine's tap piece. It grows on each other Elf entry, then taps for X mana where X is its power, restricted to Elf spells and Elf abilities |
+| Wood Elves | Three-mana Elf that puts a Forest onto the battlefield: one card, one body, one landfall trigger, one land of ramp |
+| Silvan Reveler | Loot on entry, recovers a discarded land onto the battlefield tapped, and returns itself from the graveyard for {1}{G}{U} on any later land entry |
+| Mirkwood Pathmaker | Second win condition: power and toughness each equal to the number of lands you control, so every ramp piece is also a pump |
+| Elrond, Moon-Reader | Draws a card the first time each turn you activate an ability of a creature, which is exactly what the Weavemaster and Wood Elves do |
+| Bard, King of Dale | The multiplier. Every token created under your control is created twice over, and every non-first draw becomes two cards |
+| Attercop | Two-mana 2/1 with reach and deathtouch that grows on landfall; the deck's blocker against the flier decks and its best trade against a big attacker |
+| Down in the Valley | Saga that finds a basic land, then gains landfall to make 1/1 Elf tokens, then gives Elves +1/+0 and vigilance |
+| Roll-Roll-Roll-Roll | Saga that exiles a land or creature you control and returns it at the end of the turn, which is a second landfall trigger and a second tap of the same permanent |
+| Riddles in the Dark | Dig: look at the top four and split them, and an opponent hands you the better pile |
+| Enchanted River's Grasp | The deck's removal. Taps the creature, strips its abilities and stops it untapping, which is enough against a single large attacker |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Abandoned Air Temple | The win-condition land: enters untapped while you control a basic land, taps for white, and {3}{W}, {T} puts a +1/+1 counter on every creature you control — two activations usually end a game the deck has stabilised |
+| Eclipsed Realms | Choose Elf on entry: it is an untapped source of any one colour for Elf spells and Elf abilities, which covers every core card except Bard, King of Dale |
+| Starting Town | Untapped on turns one to three and then any colour for one life, so it is a keepable turn-one land and a fixer later |
+| Forest | Nine copies, because Forest is also the fetch target of Wood Elves — Wood Elves is a landfall trigger and a land drop at the same time |
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| 2 | 7 | Woodland Weavemaster (4), Attercop (3) |
+| 3 | 16 | Wood Elves (3), Mirkwood Pathmaker (2), Elrond, Moon-Reader (2), Down in the Valley (3), Roll-Roll-Roll-Roll (2), Riddles in the Dark (2), Enchanted River's Grasp (2) |
+| 4 | 11 | Thranduil, Sindarin Liege (4), Thranduil's Company (4), Silvan Reveler (3) |
+| 6 | 2 | Bard, King of Dale (2) |
+| Lands | 24 | Forest (9), Island (4), Plains (3), Eclipsed Realms (3), Starting Town (3), Abandoned Air Temple (2) |
+
+Twenty-four lands, eight of which produce any colour and another three of which produce any colour for Elf spells, means the deck keeps two- and three-land hands without fear. The four hybrid Elf legends cost {2}{G/U}{G/U}, so they can be cast off any mix of Forests, Islands and Eclipsed Realms, and white is a two-card splash: Bard, King of Dale and the Air Temple activation, paid for by three Plains, three Starting Town and two Temples.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one is not a real turn for this deck, so plan for turn two and three. Attercop into Thranduil, Sindarin Liege is the strongest opening the deck has: the Spider trades with anything, and the Liege turns the third land into a token while making the Spider a 3/2 on the attack. Woodland Weavemaster is the better first play when you are holding Thranduil's Company, because the Company's extra land drop is worth more when you already have the Elf that turns it on.
+
+Wood Elves is the deck's best three-drop and it looks unremarkable: a 1/1 for {2}{G} that fetches a Forest. What it actually does is put a land onto the battlefield, which is a landfall trigger for the Liege, the Company and Attercop, and it does it without using the land drop you still have in hand. Casting Wood Elves before the Liege is usually right, because the Liege then makes a token off the Forest that arrives with it.
+
+## The combo turn
+
+The doubled landfall turn is assembled from four pieces: Thranduil's Company on the battlefield, another Elf to unlock its extra land drop, a landfall token maker, and Bard, King of Dale. With all four, a single turn plays two lands, each of which makes two Elf tokens and puts two counters on a creature, and each of which grows the Weavemaster and Attercop as it arrives.
+
+The sequence matters. Play the land you have held for the extra drop first, let the triggers resolve, then play the second land. Put the Company's two counters on the creature that is already blocked or already unblocked rather than on the newest token, and remember that the counters and the vigilance last until end of turn — the swung-in Elf that received them untaps. Down in the Valley adds a third and fourth trigger by giving itself landfall at chapter two, and Roll-Roll-Roll-Roll adds one more by exiling a land you already control and returning it at the end step, tapping it for mana in between.
+
+## Win condition 2: width becomes height
+
+Abandoned Air Temple is the card that ends games the deck has survived. It enters untapped as long as you control a basic land, and {3}{W}, {T} puts a +1/+1 counter on each creature you control. With six Elves on the board that is six counters for four mana, and it repeats. Mirkwood Pathmaker is the other half: its power and toughness are each equal to the number of lands you control, so a deck that has played ten lands by turn seven attacks with a 10/10 for three mana, and every Down in the Valley, extra land drop and Wood Elves trigger since then has added to it.
+
+Mirkwood Pathmaker plus Thranduil's Company is the cleanest kill in the deck: the Company's landfall counters go on the Pathmaker, which is already the largest creature in play, and its vigilance means it attacks and still blocks.
+
+## Mulligan guide
+
+Keep any two- or three-land hand with an Elf that costs two or three and one landfall payoff. A hand of Woodland Weavemaster, Thranduil, Sindarin Liege and three lands is a snap keep. Mulligan hands with no play before turn four, hands where the only threat is Bard, King of Dale, and one-land hands that do not contain Woodland Weavemaster plus a second two-drop. Do not keep a hand that needs white on turn six unless it has the Plains to make it real.
+
+## Key interactions and edge cases
+
+| Interaction | Detail |
+|-------------|--------|
+| Every land entry counts, including fetched ones | Wood Elves puts a Forest onto the battlefield, Silvan Reveler returns a discarded land onto the battlefield tapped, and Down in the Valley's first chapter finds a basic — the first two are landfall triggers, the saga chapter is not |
+| Thranduil's Company needs another Elf, not any creature | The additional land drop is conditional on controlling another Elf; the landfall counters are not, and can go on any creature you control |
+| Bard, King of Dale doubles before anything else counts | Its replacement effect applies to each token creation event, so one landfall trigger becomes two Elves, and Down in the Valley's landfall clause becomes two Elves as well |
+| Bard also doubles your draws | Any card drawn other than the first one in your draw step becomes two cards, which is why Riddles in the Dark and Silvan Reveler get better with it on the battlefield |
+| Elrond, Moon-Reader triggers once per turn | It draws off the Weavemaster's mana ability or any other creature ability, but only the first activation each turn; the Weavemaster's mana is spent on Elf spells and Elf abilities only |
+| Eclipsed Realms only pays for Elves | The chosen type must be Elf. It cannot cast Bard, King of Dale or pay for the Air Temple ability, so keep a Forest, Island, Plains or Starting Town for those |
+| Enchanted River's Grasp is not a kill spell | It taps the creature, removes its counters and abilities and stops it untapping, which buys the turns the deck needs against one big threat; it does nothing against a wide board |
+| Abandoned Air Temple enters untapped with a basic land | Sixteen of the twenty-four lands are basic, so this is almost always untapped, and it is still a white source for the splash |
+| The adventure half is the land finder | Cast Silvan Rally when you are short of lands and Thranduil, Sindarin Liege when you are not; the creature is cast later from exile, so nothing is lost |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain | Attercop is the whole early game: reach and deathtouch block fliers and trade with anything larger. Race with tokens only once Down in the Valley has given vigilance, and keep Enchanted River's Grasp for the creature that is actually killing you |
+| Midrange | The best matchup. Landfall triggers out-value single large threats, Mirkwood Pathmaker outgrows anything on the ground, and the Air Temple counters break the stall. Hold the Grasp for their best creature |
+| Control | Sweepers on turns four and five are the danger, so commit two threats at a time and keep a land in hand to rebuild. Landfall triggers survive a wipe if you have a land to play, because the deck's payoffs and its lands are separate cards |
+| Combo | The clock is their turn four to six against your turn five to seven. Attack with whatever is unblocked, use the Grasp to buy one turn rather than to kill, and remember that the Weavemaster plus Elrond draws cards without spending mana the deck needs for the board |
+
+# Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 → v2 | -2 Radagast of Rhosgobel, -1 Through the Forest Gate, +3 Attercop (cut the eight-mana sorcery and two four-drops for a two-drop with landfall and deathtouch, which lowered the average mana value from 3.56 to 3.28) | sim 52.0 → 55.0, T4 0.626 → 0.627, synergy 70.4 → 70.3, P(4 lands) 0.628 → 0.623 |
+
+# Deck list (Arena import)
+
+```text
+Loam and Legend
+Deck
+4 Thranduil, Sindarin Liege
+4 Thranduil's Company
+4 Woodland Weavemaster
+3 Wood Elves
+3 Silvan Reveler
+2 Mirkwood Pathmaker
+2 Elrond, Moon-Reader
+2 Bard, King of Dale
+3 Attercop
+3 Down in the Valley
+2 Roll-Roll-Roll-Roll
+2 Riddles in the Dark
+2 Enchanted River's Grasp
+2 Abandoned Air Temple
+3 Eclipsed Realms
+3 Starting Town
+9 Forest
+4 Island
+3 Plains
+```

@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-21**:
 
 - **[Redline Alibi](decks/2026-09-21-redline-alibi.html)** — Rakdos (Black-Red) | Max speed x Suspect  `combo` `max-speed` `suspect`
+- **[Loam and Legend](decks/2026-09-21-loam-and-legend.html)** — Green / Blue / White (three colors) — Hobbit Elf legends and landfall tokens with a counter-overrun land  `hobbit` `elves`
