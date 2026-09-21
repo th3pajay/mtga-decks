@@ -1,0 +1,141 @@
+---
+title: "Redline Alibi"
+subtitle: "Rakdos (Black-Red) | Max speed x Suspect"
+date: "2026-09-21"
+categories: ["combo", "max-speed", "suspect"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (60 cards, Arena importable) |
+| Colors | Black and Red (Rakdos) |
+| Archetype | Aggro-combo, speed engine with a suspect layer |
+| Size | 60 cards, 23 lands, average mana value 2.16 |
+| Primary win | Menace attackers that cannot be profitably blocked, topped by max speed payoffs (double strike, deathtouch, +1 damage) |
+| Secondary win | Non-combat damage: Outpace Oblivion's max speed ability, Gastal Thrillseeker entry pings, Barbed Servitor reflection |
+
+## Overview
+
+Two mechanics share one engine. **Max speed** is a counter that starts at 1 the moment any "Start your engines!" permanent is on the battlefield, increases once on each of your turns when an opponent loses life, and caps at 4. Every card with a "Max speed —" clause switches on permanently once you reach 4, and speed never drops. The problem with most speed decks is that they need combat damage every single turn to climb the ladder.
+
+**Suspect** solves that problem. A suspected creature has menace and cannot block. Suspecting the creatures you already wanted to attack inverts the drawback (a creature that cannot block is one you were never blocking with) and turns on the part of the deck that outraces a stalled board. J. Jonah Jameson rewards the board state directly: whenever a creature you control with **menace** attacks, you get a Treasure. Suspected creatures have menace for free, so every suspected attacker is also a Treasure, and Treasures pay for the last points of damage.
+
+The engine is therefore: suspect a board, attack with menace, collect Treasures and life loss, let speed climb, then convert at 4. Speed is charged by damage to opponents from attack triggers that do not care about blockers (Far Fortune, End Boss), from land drops (Jagged Barrens) and from entry pings (Gastal Thrillseeker), so the deck reaches max speed on schedule even when a creature is stonewalled.
+
+## Approach
+
+### Game plan phases
+
+| Phase | Turns | What you are doing |
+|-------|-------|--------------------|
+| Charge | 1-2 | Land one "Start your engines!" permanent (a one drop), begin suspecting bodies, make an opponent lose 1-2 life |
+| Climb | 3-4 | Attack with menace, resolve Far Fortune or an entry ping, land Jagged Barrens, take speed 3 and 4 |
+| Convert | 5+ | Max speed is online permanently: Burnout Bashtronaut gains double strike, Gastal Thrillseeker gains deathtouch and haste, Hazoret can attack, Outpace Oblivion becomes a finisher |
+| Close | any | Unblockable suspect through Rogue's Passage, Treasure-fuelled pump, or burn to the face |
+
+### Card roles
+
+| Role | Cards | Notes |
+|------|-------|-------|
+| Speed starters | Burnout Bashtronaut, Gastal Thrillseeker, Momentum Breaker, Kickoff Celebrations, Outpace Oblivion, Hazoret, Godseeker, Far Fortune, End Boss | Every "Start your engines!" permanent starts speed at 1 |
+| Life-loss triggers that raise speed | Gastal Thrillseeker, Far Fortune, End Boss, Jagged Barrens, Barbed Servitor, Generous Plunderer | One increase per turn is all you need; the deck has several independent ways to get it |
+| Suspect engines | Frantic Scapegoat, J. Jonah Jameson, Clandestine Meddler, Rune-Brand Juggler | Move suspicion onto the creature you want attacking, keep the small bodies out of it |
+| Menace payoffs | J. Jonah Jameson, Generous Plunderer, Burnout Bashtronaut, Restless Vents | Menace attackers make Treasures and are hard to block profitably |
+| Max speed payoffs | Burnout Bashtronaut (double strike), Gastal Thrillseeker (deathtouch, haste), Hazoret (can attack, unblockable enabler), Outpace Oblivion (finisher) | All permanent once speed hits 4 |
+| Removal | Betrayer's Bargain, Outpace Oblivion, Momentum Breaker, Rune-Brand Juggler | Removal that also charges speed or generates bodies |
+| Recursion and protection | Presumed Dead, Barbed Servitor | Presumed Dead returns a dead attacker already suspected |
+| Card selection | Kickoff Celebrations, Clandestine Meddler, Barbed Servitor | Discard then draw, surveil on suspect attacks, draw on combat damage |
+
+### Lands as engines
+
+| Land | Text that matters | How it wins or charges the engine |
+|------|-------------------|-----------------------------------|
+| Restless Vents | {1}{B}{R}: becomes a 2/3 black and red Insect creature with menace, still a land; when it attacks you may discard a card to draw a card | A land that attacks as a menace creature: it triggers J. Jonah Jameson for a Treasure, is a suspect-grade evasive body, and filters a card every attack |
+| Rogue's Passage | {4}, {T}: target creature cannot be blocked this turn | The finisher land. Put it on the largest suspected attacker, or on Hazoret once you are at max speed, and the last points of damage are unblockable |
+| Jagged Barrens | Enters tapped; when it enters it deals 1 damage to target opponent | Direct life loss on a land drop, which is exactly the condition that raises speed, and it turns on Razortrap Gorge |
+| Razortrap Gorge | Enters tapped unless a player has 13 or less life | Once your own pings and attacks bring someone to 13, this is an untapped black and red source |
+| Blood Crypt | Enters untapped for 2 life | Curve land; the deck's average mana value is low and untapped mana matters more than a 2 life payment |
+
+### Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| 1 | 8 | Frantic Scapegoat, Burnout Bashtronaut |
+| 2 | 18 | Gastal Thrillseeker, Hazoret, Godseeker, Generous Plunderer, Rune-Brand Juggler, Momentum Breaker, Kickoff Celebrations, Presumed Dead, Betrayer's Bargain |
+| 3 | 8 | J. Jonah Jameson, Clandestine Meddler, Outpace Oblivion |
+| 4 | 3 | Far Fortune, End Boss, Barbed Servitor |
+| Lands | 23 | 4 Blood Crypt, 2 Restless Vents, 2 Razortrap Gorge, 2 Jagged Barrens, 1 Rogue's Passage, 7 Mountain, 5 Swamp |
+
+23 lands with 15 black sources and 17 red sources, and no card in the deck costs two pips of the same color, so a seven card hand with two lands and any one drop plays out on curve. Double faced and adventure cards are absent, so the Arena import is a clean list.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with whichever one drop is in hand. Burnout Bashtronaut is the best turn one because it is both a "Start your engines!" permanent (speed 1) and a menace body that turns on J. Jonah Jameson later. Frantic Scapegoat is the alternative: it enters already suspected, and from then on every other creature you cast lets you move the suspicion onto the newcomer. That means Scapegoat itself stops being suspected and can block, while the new creature becomes the menace attacker. Keep that loop in mind before combat.
+
+Turn two or three, Gastal Thrillseeker is the cleanest climb: it deals 1 damage to an opponent on entry, which is a life loss event, so speed increases that turn without attacking into a bad block. Momentum Breaker and Kickoff Celebrations do the same job while trading for a card or an opposing creature: Kickoff Celebrations filters your draw, Momentum Breaker makes each opponent sacrifice a creature or a Vehicle, and punishes anyone who cannot by making them discard.
+
+### The combo turn
+
+The turn you want is one where speed reaches 4 with a board already in place. The reliable line on turn 4 is Far Fortune, End Boss: whenever you attack, it deals 1 damage to each opponent, so the attack step itself charges speed, and because the damage goes to every opponent rather than to blockers, a stalled board does not stop the counter. Max speed then applies from that point on: Far Fortune adds 1 to every damage source you control (Outpace Oblivion's 2 becomes 3, Gastal Thrillseeker's entry ping becomes 2, combat damage gets strictly better), Burnout Bashtronaut gains double strike, Gastal Thrillseeker gains deathtouch and haste, and Hazoret becomes a legal attacker.
+
+From there the kill is usually blunt: suspect everything, attack with menace so single blockers are illegal blocks, bank Treasures from J. Jonah Jameson, and use Rogue's Passage or Hazoret's {1}, {T} ability on a power 2 or less creature to make the final attacker unblockable. Burnout Bashtronaut at max speed with {2} of pump and Far Fortune's bonus attacks as a 2/1 double striker that deals 4, and any blocker trading with Gastal Thrillseeker dies to deathtouch.
+
+### Win condition 2: burn that does not need the red zone
+
+Outpace Oblivion is a removal spell first (5 damage to a creature or planeswalker on entry, 6 with Far Fortune online) and a finisher second: {2}, sacrifice it and it deals 2 damage to each player who does not have max speed, which is every opponent in practice, 3 with Far Fortune. Two of them plus Gastal Thrillseeker pings and a Restless Vents attack close games where the ground is locked. Generous Plunderer adds a second non-combat axis: its attack trigger deals damage to the defending player equal to the number of artifacts they control, and its upkeep trigger hands them a Treasure, so the damage grows every turn you keep it alive.
+
+### Mulligan guide
+
+Keep any hand with two or three lands and at least one one-drop, especially Burnout Bashtronaut or Frantic Scapegoat. Keep a hand with a Jagged Barrens or Gastal Thrillseeker because it guarantees the first speed increase on schedule. Send back four or more land hands without action, hands with no "Start your engines!" permanent, and hands that are all three and four drops, because speed starts only when a permanent is on the battlefield and this deck needs to be charging from turn one.
+
+### Key interactions and edge cases
+
+- Suspected creatures cannot block. Frantic Scapegoat's transfer ability is the fix: cast a creature, hand the suspicion to the newcomer, and Scapegoat is free to block again.
+- J. Jonah Jameson can suspect an opposing creature. A suspected blocker has menace and cannot block, so it can be used as tempo before your attack.
+- Presumed Dead on Gastal Thrillseeker is a two-for-one in disguise: the creature dies, returns already suspected, and the entry ping fires again for another damage and another speed increase.
+- Rune-Brand Juggler sacrifices a suspected creature (a suspect that has done its job, a Treasure is not a creature, so use a redundant body) to give an opposing creature -5/-5, which kills anything with 5 toughness or less and is not damage, so it beats indestructible.
+- Betrayer's Bargain can be paid with a spent enchantment instead of mana: Momentum Breaker and Kickoff Celebrations have already done their entry work by the time you want the 5 damage.
+- Barbed Servitor is indestructible and suspects itself, so it is a permanent menace attacker that draws a card on combat damage, and any damage dealt to it makes a target opponent lose that much life, which charges speed.
+- Max speed is permanent. Once you touch 4, every "Max speed —" clause on the battlefield is on for the rest of the game, including the ones on cards you have not drawn yet.
+- Restless Vents animating does not use a creature slot, and it triggers J. Jonah Jameson because it has menace when it attacks as an Insect.
+
+### Matchups
+
+- **Against aggro:** you have the better race. Momentum Breaker makes them sacrifice a creature, Gastal Thrillseeker gains you 1 and blocks as a 2/3, and Betrayer's Bargain is efficient removal. Suspected creatures cannot block, so do not over-extend into their attack; keep Frantic Scapegoat unsuspected where possible.
+- **Against control:** speed climbing does not require connecting, thanks to Far Fortune and Gastal Thrillseeker, so wipes are survivable. Presumed Dead returns a dead attacker already suspected, Clandestine Meddler surveils every suspect attack, and Barbed Servitor draws. Hold Rogue's Passage for the turn after their board wipe.
+- **Against midrange:** suspected attackers with menace force double blocks, which trades badly against deathtouch and double strike at max speed. Outpace Oblivion answers a single large blocker and then converts into reach.
+- **Against decks with no creatures:** the burn axis carries. Two Outpace Oblivion activations plus Plunderer and Thrillseeker pings is 10 or more damage without a single attacker connecting.
+
+## Deck list (Arena import)
+
+```
+Redline Alibi
+Deck
+4 Frantic Scapegoat
+4 Burnout Bashtronaut
+4 Gastal Thrillseeker
+3 J. Jonah Jameson
+2 Hazoret, Godseeker
+2 Generous Plunderer
+2 Clandestine Meddler
+2 Rune-Brand Juggler
+2 Far Fortune, End Boss
+1 Barbed Servitor
+3 Outpace Oblivion
+2 Momentum Breaker
+2 Kickoff Celebrations
+2 Presumed Dead
+2 Betrayer's Bargain
+4 Blood Crypt
+2 Restless Vents
+2 Razortrap Gorge
+2 Jagged Barrens
+1 Rogue's Passage
+7 Mountain
+5 Swamp
+```
