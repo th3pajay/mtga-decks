@@ -1,0 +1,167 @@
+---
+title: "Firefeeding"
+subtitle: "Five-color (WUBRG) — Forage × Firebending × Warp"
+date: "2026-09-22"
+categories: ["combo", "Forage", "Firebending", "Warp"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (BO1 / BO3) |
+| Colors | WUBRG (five-color, basics plus colorless utility lands) |
+| Archetype | Synergy midrange with a drain combo finish |
+| Size | 60 cards (36 spells and creatures, 24 lands) |
+| Primary win | Attrition drain: Weftstalker Ardent pings each opponent for 1 every time another creature or artifact you control enters, and the deck makes entries on every single turn |
+| Secondary win | Combat: firebenders grown by Fire Lord Zuko's counters, forced through by Rogue's Passage, with Soulstone Sanctuary as a recurring 3/3 vigilance attacker |
+| Rolled mechanics | Forage, Firebending, Warp |
+
+## Overview
+
+Firefeeding is a five-color engine deck that turns three Standard mechanics into one loop: **Warp** provides the bodies and the recycling, **Firebending** pays for them, and **Forage** converts the leftovers into fuel.
+
+The core insight is that Warp creatures are the cheapest "enters the battlefield" events in the format. Weftstalker Ardent deals 1 damage to each opponent whenever another creature or artifact you control enters, so every warped body, every Food token and every Squirrel is a point of damage to both opponents at once. Warp's exile clause is not a drawback here: at the beginning of the next end step the warped permanent leaves the battlefield, which switches on every Void card in the deck, and on a later turn you simply cast it again from exile. That second cast gives Fire Lord Zuko two separate triggers (one for casting a spell from exile, one for a permanent entering from exile), putting two +1/+1 counters on every creature you control. Because Zuko's own firebending is equal to his power, those counters also convert directly into red mana.
+
+Firebending is what makes the mana work. Every firebender that attacks adds that much red mana, usable until end of combat. Since Warp costs are tiny ({R}, {B}, {U}, {1}{W}, {1}{G}), the deck can attack first and then pay for two or three warped spells from combat mana alone. That is also why a five-color basics manabase is viable at all: outside of Fire Lord Zuko and a couple of two-color cards, every colored requirement in the deck is a single pip.
+
+Forage is the third leg. Vinereap Mentor, Camellia, the Seedmiser and Thornvault Forager all turn Food into something more useful: Thornvault Forager forages for two mana of any combination of colors, which is exactly the fixing a five-color deck with basic lands needs; Camellia makes a 1/1 Squirrel whenever you sacrifice a Food, and that Squirrel entering is another Weftstalker trigger; Corpseberry Cultivator forages at the beginning of combat and grows itself in the process. Feed the Cycle uses the same forage clause for removal.
+
+## Approach
+
+### Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Setup | 1-3 | Land drop every turn, deploy two-drop firebenders and Foragers, make the first Food. Eat removal with cheap bodies, not with your payoffs. |
+| Engine online | 3-5 | Weftstalker Ardent plus any token source. Start attacking with firebenders so combat pays for warped spells after attackers are declared. |
+| Combo turn | 4-7 | Attack with two or more firebenders, then spend the floating red on one or two warped creatures in the same turn: each entry is 1 damage to each opponent, each warped spell turns on Void for the end step. |
+| Close | 6+ | Loop warped cards out of exile for Zuko counters, force the biggest firebender through with Rogue's Passage, and finish with drain plus Void damage. |
+
+### Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Drain engine | Weftstalker Ardent | 4 | The primary win condition. Warp {R}, so it also re-enters later for more triggers. |
+| Mana engine | Firebending Student, Fire Sages, Vindictive Warden, Fire Lord Zuko | 10 | 2/2 and 3/3 attackers that produce red mana and, in Zuko's case, grow the whole team. |
+| Warp bodies | Timeline Culler, Knight Luminary, Sinister Cryologist, Weftstalker Ardent | 8 | Single-pip warp costs. Timeline Culler is the only one you can reuse from the graveyard as well. |
+| Void payoffs | Voidforged Titan, Alpharael, Stonechosen, Plasma Bolt, Decode Transmissions | 8 | All are switched on by any warped spell or by a warped permanent leaving at end of turn. |
+| Forage engine | Thornvault Forager, Corpseberry Cultivator, Camellia, the Seedmiser | 6 | Food in, mana, counters and Squirrels out. |
+| Forage removal | Feed the Cycle | 2 | Forage instead of paying the extra {B} whenever you have a Food to spare. |
+| Food sources | Vinereap Mentor | 2 | Makes a Food on the way in and on the way out. |
+| Finishers | Alpharael, Stonechosen, Voidforged Titan | 2 | Alpharael attacking with Void live halves a defending player's life; Voidforged Titan draws a card at every end step where something left the battlefield (which is every end step in this deck). |
+
+### Lands as engines
+
+| Land | Count | How it wins |
+|---|---|---|
+| Rogue's Passage | 2 | {4}, {T}: target creature can't be blocked this turn. The combo finisher's delivery system: a firebender with counters, or Alpharael, walks through any board. Also a colorless land, so it never costs you a colored source. |
+| Soulstone Sanctuary | 2 | {4}: becomes a 3/3 creature with vigilance and all creature types. A free recurring attacker that also triggers Weftstalker Ardent when it enters as a creature, and it survives every sorcery-speed sweeper. |
+| Basic lands (Forest, Island, Swamp, Mountain, Plains) | 20 | Four of each. Every warp cost is a single pip, so the deck only needs one source of a color at a time. |
+
+### Curve and mana
+
+| CMC | Count | Cards |
+|---|---|---|
+| 1 | 4 | Plasma Bolt |
+| 2 | 14 | Firebending Student, Fire Sages, Timeline Culler, Vinereap Mentor, Thornvault Forager, Corpseberry Cultivator |
+| 3 | 15 | Weftstalker Ardent, Vindictive Warden, Fire Lord Zuko, Sinister Cryologist, Camellia, the Seedmiser, Decode Transmissions, Feed the Cycle |
+| 4 | 2 | Knight Luminary, Alpharael, Stonechosen |
+| 5 | 1 | Voidforged Titan |
+| Lands | 24 | 20 basics plus 2 Soulstone Sanctuary, 2 Rogue's Passage |
+
+Average nonland cost is 2.27, and nothing in the deck costs more than five, so you can double-spell from turn four onward. Twenty-four lands with four of each basic gives a 67 percent chance of four lands by turn four, which is what the deck wants: it is a synergy deck, not a ramp deck, and it would rather draw action than flood.
+
+## Gameplay strategy
+
+### Early game (turns 1-3)
+
+Lead on a two-drop that does something on entry: Vinereap Mentor (Food), Thornvault Forager (mana and forage), or Firebending Student (a firebender that pays you to keep casting). Plasma Bolt is the one-drop, and it is a perfectly fine turn-one play against an opposing one-drop or mana creature.
+
+Do not rush Weftstalker Ardent into open removal if you have a cheaper body to spend first. The pinger is the deck's actual win condition; the firebenders are there to pay for it.
+
+### Mid game (turns 4-6) and the combo turn
+
+The ideal turn looks like this:
+
+1. Begin combat with two or more firebenders on board (Firebending Student, Fire Sages, Vindictive Warden, Fire Lord Zuko). Attack with all of them.
+2. Firebending triggers on the attack, so you float two to four red mana before blockers are even assigned. Blockers cannot take the mana away.
+3. After combat, spend it: a warped Weftstalker Ardent for {R}, a warped Timeline Culler for {B} and 2 life, or a warped Knight Luminary for {1}{W} to make a 1/1 Soldier.
+4. Each of those entries pings each opponent for 1 (Weftstalker Ardent), and each counts as a warped spell, so the end step is live: Voidforged Titan draws you a card, and the warped creatures exile themselves, which is a second "nonland permanent left the battlefield" event for anything that checks it.
+5. Next turn, cast the exiled cards normally. Fire Lord Zuko turns that single cast into two triggers (a spell cast from exile, a permanent entering from exile), so the whole team gets two counters and your firebenders produce more red mana than they did last turn.
+
+Forage slots into any gap in that sequence. Thornvault Forager converts one Food into two mana of any colors, which is how you cast a card in your third or fourth color without the right basic. Camellia, the Seedmiser turns the Food sacrifice into a Squirrel, and Squirrels get menace from her, so the token side of the board is hard to block profitably. Corpseberry Cultivator forages at the beginning of combat and adds a counter each time, which conveniently happens before you attack with it.
+
+### Win condition 2 and the finish
+
+Drain alone will not always get there against lifegain, so the deck carries a combat plan. Counters from Fire Lord Zuko and Vindictive Warden's activated {3} (1 damage to each opponent) keep the pressure on, while Alpharael, Stonechosen ends games outright: with any Void condition live, an Alpharael attack makes the defending player lose half their life, rounded up. Warp a creature, declare the attack, and the condition is satisfied by the warped spell itself.
+
+When the board stalls, Rogue's Passage breaks it: target the largest firebender (or Alpharael) and the damage is unavoidable. Soulstone Sanctuary does the same job from the other direction by being an attacker that never really leaves.
+
+### Mulligan guide
+
+| Hand | Action |
+|---|---|
+| Two to three lands, a firebender and a Weftstalker or Forager | Keep. This is the deck's normal opening. |
+| One land, or a hand where every spell needs a second color you do not have | Mulligan. Four lands by turn four is the target, and the manabase is five-color basics, so a greedy hand punishes you. |
+| All lands plus Plasma Bolt | Mulligan past six; the deck needs a body. |
+| No lands but Food and Plasma Bolt | Never keep. |
+
+### Key interactions and edge cases
+
+- Firebending mana lasts until end of combat, so spend it before the combat step ends: cast warped creatures after attackers are declared but before you move to your second main phase, and hold instant-speed forage mana for a Feed the Cycle in the same window.
+- Warped permanents are exiled at the beginning of the next end step, so they are gone for combat and available to recast on any later turn. This is why the deck never really runs out of cards.
+- Weftstalker Ardent triggers on any other creature or artifact entering, including Food tokens and the Squirrels from Camellia. Stacking two Weftstalkers doubles the drain on every entry.
+- Camellia, the Seedmiser's trigger is on sacrificing one or more Foods, so a single forage that eats one Food makes exactly one Squirrel. Foraging through graveyard exile (three cards) does not make a Squirrel, but it does trigger Corpseberry Cultivator's counter.
+- Void checks "a spell was warped this turn" as well as "a nonland permanent left the battlefield", so you never need to sacrifice anything to switch it on. A single warp in a turn turns on Voidforged Titan, Alpharael, Plasma Bolt and Decode Transmissions at once.
+- Thornvault Forager's forage ability exiles three cards from your graveyard if you do not want to spend a Food. Do not strip your graveyard clean if you still want to recast something with Timeline Culler.
+- Timeline Culler costs {B} and 2 life from the graveyard, which makes it a repeatable drain-adjacent engine with Weftstalker Ardent, at the price of your life total. Do not loop it when you are under pressure.
+
+### Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade early, use Plasma Bolt and Feed the Cycle on curve, and lean on drain; Weftstalker Ardent punishes any board where both players are making tokens. Vinereap Mentor's Food is real life gain when you are behind. |
+| Control | Never overcommit. Warp cards are perfect here: cast one, let it get exiled, recast it later for free value. Soulstone Sanctuary attacks through sorcery-speed sweepers, and Decode Transmissions refills your hand. |
+| Midrange | Grind. Fire Lord Zuko's counters make every body a threat, and Rogue's Passage decides the race in your favour. |
+| Combo | Race with drain plus firebender damage. Feed the Cycle and Plasma Bolt buy the two or three turns you need. |
+
+## Iterations
+
+Battery run before publication: gates are sim win rate (3 runs of 500 games, target 52), synergy score (target 70), goldfish turn-four consistency (target 0.55) and probability of four lands by turn four (target 0.55).
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 → v2 | -1 Tough Cookie, -1 Heaped Harvest, -1 Knight Luminary, -1 Sinister Cryologist; +2 Plasma Bolt, +1 Voidforged Titan, +1 Alpharael, Stonechosen (cut the slowest four-drops and the ramp slot for cheap interaction and real Void payoffs) | sim 51.0 → 55.0, synergy 74.2 → 74.4, goldfish T4 0.631 → 0.653, P(4 lands by T4) 0.619 → 0.670 |
+
+## Deck list (Arena import)
+
+```
+Firefeeding
+Deck
+4 Weftstalker Ardent
+4 Firebending Student
+2 Fire Sages
+2 Vindictive Warden
+2 Fire Lord Zuko
+1 Knight Luminary
+1 Sinister Cryologist
+2 Timeline Culler
+2 Vinereap Mentor
+2 Thornvault Forager
+2 Corpseberry Cultivator
+2 Camellia, the Seedmiser
+1 Voidforged Titan
+1 Alpharael, Stonechosen
+4 Plasma Bolt
+2 Feed the Cycle
+2 Decode Transmissions
+2 Soulstone Sanctuary
+2 Rogue's Passage
+4 Forest
+4 Mountain
+4 Swamp
+4 Plains
+4 Island
+```
