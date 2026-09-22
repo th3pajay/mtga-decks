@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-07 · **439** cards locked · **Hobbit 60/193** remaining
+**Card pool consumption** — cycle started 2026-09-07 · **443** cards locked · **Hobbit 56/193** remaining
 
-**68 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**69 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-09-22
 
+- **[Sack and Sunder](decks/2026-09-22-sack-and-sunder.html)** — Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn  `hobbit` `amass`
 - **[Firefeeding](decks/2026-09-22-firefeeding.html)** — Five-color (WUBRG) — Forage × Firebending × Warp  `combo` `Forage` `Firebending` `Warp`
 
 ## 2026-09-21

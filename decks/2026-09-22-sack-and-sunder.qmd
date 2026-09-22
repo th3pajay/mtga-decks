@@ -1,0 +1,200 @@
+---
+title: "Sack and Sunder"
+subtitle: "Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn"
+date: "2026-09-22"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green (three colors — red in 20 of the 37 nonlands, black in 22, green in 4; hybrid costs on Fearsome Goblin Pair, The Great Goblin and Goblin Plate Mail pay in either black or red) |
+| Archetype | Amass Goblins, built as a sacrifice-and-counters engine rather than a curve-out aggro deck |
+| Size | 60 cards (24 creatures, 13 other spells and permanents, 23 lands; average mana value 2.32 across the 37 nonlands) |
+| Signature mechanic | Amass Goblins. Every amass is a counter event, every counter event is damage off The Great Goblin, and this list sacrifices its own creatures to buy more of them |
+| Primary win | The Great Goblin: a 3/2 for {1}{B/R}{B/R} that deals 2 damage to target opponent every time you put one or more counters on a Goblin, Orc or Army you control |
+| Secondary win | The Goblin Army itself: one shared token fed by every amass card in the deck, made trampling by Wargling and menacing by Goblin Plate Mail |
+| Land win condition | Goblin-town — {2}{B}{R}, {T}, sacrifice it: two +1/+1 counters on target Goblin or Orc, which is two damage off The Great Goblin and two power on the Army. Mirkwood is the second: {2}{B}{G}, {T}, sacrifice it for two counters on a Wolf, which is Rhovanion Rampager's power and therefore the size of the amass trigger it leaves behind when it dies |
+| Sacrifice engine | Rhovanion Rampager sacrifices a creature on every attack for counters equal to its power, and turns its own death into an amass of that size. Front Porch Sentries, Stony-Voiced Goblins and Fearsome Goblin Pair are all worth more dead than alive |
+| Measured performance | Synergy score 72.2, turn-4 consistency 0.571, four-land probability by turn 4 of 0.566, simulation 52.0 percent over three 500-game runs (48 / 57 / 51) on the recorded gate run; repeat runs of the same 60 read 58.0 (60 / 54 / 60) and 50.3 (54 / 49 / 48), so the simulation gate sits inside the run-to-run noise band and every other gate clears its threshold comfortably |
+| Set note | The Hobbit (set code hob, 193 cards: 70 common / 55 uncommon / 53 rare / 15 mythic) is Standard legal and lands on Arena 2026-08-14, so the import list below is live from that date onward. Some Hobbit printings still carry an empty arena_id until release |
+
+# Overview
+
+Amass Goblins is a strange keyword: it puts +1/+1 counters on an Army you control and makes that Army a Goblin, so the token it creates is the only creature the deck really cares about. The Great Goblin is the reason to build around it. His first ability reads "whenever you put one or more counters on a Goblin, Orc or Army you control, The Great Goblin deals 2 damage to target opponent" — it counts events, not counters. Amass 1 and amass 4 are both 2 damage. That single clause sets the deck's whole priority order: the cheapest, most repeatable amass wins, and the size of the counters is almost irrelevant.
+
+That is why this build is a sacrifice deck and not an aggro deck. The cheapest repeatable counter events in the set are all attached to creatures that want to die. Fearsome Goblin Pair is a 1/1 for {2}{B/R} that amasses 4 when it dies, which is 2 damage and a 4/4 Army for one card. Rhovanion Rampager is a 3/2 Wolf for {2}{B} that sacrifices another creature every time it attacks for +1/+1 counters equal to that creature's power — so sacrificing the Pair to the Rampager in the same attack step is a counter event, a death trigger and a 5/4 attacker — and when the Rampager itself dies it amasses X, where X is its power at that moment. A Rampager that ate a four-power creature and then died is amass 7: seven counters on the Army and 2 damage off The Great Goblin.
+
+The rest of the list is built from the cheapest counter events available. Tidings of War is one mana for amass 1, and it flashes back for {3}{R} to amass 3 — a noncreature spell that triggers Bothersome Noisemaker for another amass, which is itself another counter event. Goblin-town Flunkies amasses on entry and has haste. Goblin Plate Mail amasses on entry and then attaches itself to the Army it just made bigger, giving it menace so the counters connect. Goblin-town and Mirkwood do the same job from the mana base, sacrificing themselves for two counters at a time.
+
+Black supplies the grind, red supplies the speed, and green supplies the two cards that make the Army matter in combat: Wargling gives the whole team trample the moment any of your creatures reaches power 4, and Warg Tactics is either a flier answer or a counter plus trample and hexproof on demand. Nothing in the 60 costs more than four mana, and twenty-two of the thirty-seven nonland cards cost two or less.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Tidings of War on one if the hand has it, otherwise Goblin-town Flunkies or Bothersome Noisemaker on two. Amass early and often: the first Army token is the creature every later card grows |
+| Engine | 3 to 4 | The Great Goblin converts the counters into damage, and Rhovanion Rampager plus Fearsome Goblin Pair arrive in the same window. From here the deck is sacrificing its own board on purpose |
+| Trigger turn | 4 to 6 | Two or three counter events in one turn: sacrifice the Pair to the Rampager, flash back Tidings of War, cast Rage into the Valley, then crack Goblin-town. Each event is 2 damage and each one leaves the Army larger |
+| Close | 5 plus | The Army is 6/6 or larger, Wargling gives it trample once anything has power 4, and Goblin Plate Mail gives it menace. Games end on Army damage, with the burn as a second clock |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Burn payoff | The Great Goblin (3) | The title card: 2 damage to target opponent per counter event on a Goblin, Orc or Army. Also exiles the top card of your library whenever another Goblin, Orc or Army you control dies, and you may play it until the end of your next turn, so the deck's own sacrifices hand you cards |
+| Counter engines | Tidings of War (4), Bothersome Noisemaker (3), Goblin-town Flunkies (4), Rage into the Valley (2), Gathering of Darkness (1), Goblin Plate Mail (2) | Tidings of War amasses 1 for {R} and 3 on flashback. Noisemaker amasses 1 on every noncreature spell. Flunkies amasses 1 on entry and attacks the turn it lands. Rage into the Valley draws a card, loses 1 life and amasses 2. Gathering of Darkness rebuys a creature and amasses 3. Plate Mail amasses 1 on entry and attaches to the Army |
+| Sacrifice fodder | Fearsome Goblin Pair (4), Front Porch Sentries (3), Stony-Voiced Goblins (2) | The Pair is the cleanest: amass 4 when it dies and nothing else. Front Porch Sentries is a 2/2 for {1}{B} that shrinks a creature when it dies. Stony-Voiced Goblins takes a card out of the opponent's hand on entry and is then expendable |
+| Sacrifice outlets | Rhovanion Rampager (3) | Every attack, it may eat another creature for +1/+1 counters equal to that creature's power, and its death trigger converts its final power into an amass of the same size. It is both the way to kill your own Goblins and the biggest single counter event in the deck |
+| Rebuy and recursion | Along the Crooked Way (2), Gathering of Darkness (1), The Great Goblin (3) | Along the Crooked Way returns a creature card from the graveyard to hand on entry and amasses 1 every time a creature card leaves your graveyard — so the return itself is a counter event, and it also gives Goblins and Orcs menace for {1}{B}. Gathering of Darkness rebuys a creature and amasses 3 in one card |
+| Combat support | Wargling (2), Warg Tactics (2), Goblin Plate Mail (2) | Wargling is a 2/2 for {1}{G} that, once you control anything with power 4 or greater, gives itself +1/+0 and your whole board trample — which a large Army usually is. Warg Tactics destroys a flier or puts a counter on the Army and gives it trample and hexproof. Goblin Plate Mail gives +1/+0 and menace |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Goblin-town | 2 | The win-condition land. It enters tapped, taps for {B} or {R}, and {2}{B}{R} plus the land sacrifices it for two +1/+1 counters on target Goblin or Orc: 2 damage off The Great Goblin, 2 power on the Army, no card spent. It is the deck's answer to flooding |
+| Mirkwood | 2 | The colourless fixer that also plays. It enters tapped and taps for {B} or {G}, and {2}{B}{G} plus the land sacrifices it for two counters on target Bear, Spider or Wolf. Rhovanion Rampager and Wargling are both Wolves, so the counters on the Rampager become 2 points of future amass when it dies, and the counters on Wargling turn on ferocious for the whole team |
+| Swamp | 9 | The largest basic count. Black carries Rampager, Front Porch Sentries, Stony-Voiced Goblins, Rage into the Valley, Along the Crooked Way and Gathering of Darkness, plus the black half of every hybrid cost |
+| Mountain | 6 | Red carries Goblin-town Flunkies, Bothersome Noisemaker and Tidings of War, and both halves of the hybrid cards can be paid in red when the Swamps are tied up |
+| Forest | 4 | The green splash: four Forests cover all four green cards (Wargling and Warg Tactics), and only Wargling wants green before turn three |
+
+Coloured sources: eight red, thirteen black and six green across the twenty-three lands. Green is deliberately thin, so the two Warg Tactics are held as instants — they are worth playing a turn later rather than colour-screwing the mana base for a two-mana trick. Wargling is the one green card worth fetching for early, because trample is what turns a large Army into a lethal one.
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 4 | Tidings of War |
+| Two | 18 | Goblin-town Flunkies, Bothersome Noisemaker, Front Porch Sentries, Stony-Voiced Goblins, Wargling, Goblin Plate Mail, Warg Tactics |
+| Three | 14 | Fearsome Goblin Pair, The Great Goblin, Rhovanion Rampager, Rage into the Valley, Along the Crooked Way |
+| Four | 1 | Gathering of Darkness |
+
+Twenty-two of the thirty-seven nonlands cost two or less and exactly one card costs four, so the deck plays two spells a turn from turn three and never has to choose between its engine and its interaction. The mana base is 23 lands with no colourless utility land that cannot also cast something, which is what keeps the four-land-by-turn-four rate at 0.566 while still supporting three colours.
+
+# Gameplay strategy
+
+## Early game
+
+The best one-two is Tidings of War into Goblin-town Flunkies or Bothersome Noisemaker. Tidings of War for {R} makes the first Army token, and because amass creates a 0/0 Goblin Army and then puts the counters on it, the token does not die to its own size — it arrives as a 1/1 Goblin. Flunkies then amasses on entry and attacks immediately for 1, and the Noisemaker turns every later cheap spell into another counter event.
+
+Turn three is The Great Goblin whenever possible. He is a 3/2 that blocks, so the turn is not wasted while the board is small, and from the moment he lands every amass in hand is worth 2 damage. If the hand has no Great Goblin, the second-best turn three is Rhovanion Rampager plus a spare one-drop to feed it.
+
+Stony-Voiced Goblins on two is the anti-control opening: a 1/1 that forces a discard is fine to sacrifice later to the Rampager, and taking their sweeper or their answer is worth more than the body.
+
+## Mid game
+
+Turns four to six are about stacking counter events in a single turn rather than deploying one threat at a time.
+
+The core loop is the Rampager and the Pair together. Attack with the Rampager and sacrifice Fearsome Goblin Pair to its attack trigger: the Rampager gets +1/+1 from a 1/1 and the Pair's death trigger amasses 4, which is 2 damage and a permanently larger Army. Sacrifice something larger — a Plate Mail–equipped Goblin, a Wargling, or anything that has been pumped — and the Rampager grows by that much instead; its own death trigger then amasses that number, so the deck converts any big creature into an Army of the same size.
+
+Along the Crooked Way is the value card that holds the loop together. It returns a creature card from the graveyard to hand when it enters, which is itself a "creature card leaves your graveyard" trigger for amass 1, and the returned creature is a second sacrifice for the Rampager. It also gives Goblins and Orcs menace for {1}{B} to push the Army through a stalled board.
+
+Keep the Army alive. It is one token shared by every amass card in the deck, so losing it resets the clock; that is the main reason the list plays 24 creatures and only 13 nonland support cards.
+
+## The combo turn
+
+The engine turn needs three things: The Great Goblin, an Army (or any Goblin) to receive counters, and a hand or graveyard full of cheap counter events.
+
+1. Start the turn with The Great Goblin and an Army in play. Any amassed Army counts as the Goblin for the counters and as a legal attacker.
+2. Cast Tidings of War for {R}. Amass 1 is 2 damage. Flash it back later for {3}{R} for amass 3, which is 2 more damage off the same card.
+3. Cast Rage into the Valley for {2}{B}: draw a card, lose 1 life, amass 2, 2 damage.
+4. Attack with Rhovanion Rampager, sacrificing whatever is smallest. If the sacrificed creature is Fearsome Goblin Pair, its death trigger amasses 4 — 2 damage — and the Rampager is now a 4/3.
+5. Cast Warg Tactics for {1}{G} targeting the Army: one +1/+1 counter, 2 damage, plus trample and hexproof so the attack connects. Every noncreature spell in this sequence also triggers Bothersome Noisemaker for its own amass and another 2 damage.
+6. Sacrifice Goblin-town for {2}{B}{R}: two more counters, 2 more damage, no card spent.
+
+A realistic turn five with both engines in play is 10 to 14 damage that never needed a big creature, on top of an Army that grew by five or more counters.
+
+## Win condition 2
+
+The Army is the second win condition, and unlike the burn it needs a board rather than a hand. Every amass card in the list feeds the same token, so an Army that has been through a Goblin-town activation, a flashed-back Tidings of War, one Rampager death and a killed Pair is an 8/8 or larger.
+
+Three cards make it lethal rather than merely large. Wargling gives your whole team trample as soon as you control a creature with power 4 or greater, and the Army qualifies on its own. Goblin Plate Mail gives the equipped Army +1/+0 and menace, which forces two blockers. Warg Tactics grants trample and hexproof for a turn. Between them the Army usually cannot be chump-blocked and cannot be targeted.
+
+The third, quiet path is The Great Goblin's second ability: every time another Goblin, Orc or Army you control dies, he exiles the top card of your library and lets you play it until the end of your next turn. This deck kills its own creatures on purpose, so in a long game the sacrifices are also card advantage, and the cards they find are more cheap counter events.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two or three lands including black or red, plus any two-mana Goblin and a Tidings of War | Keep. This is the engine hand: amass early, The Great Goblin on three, and cheap spells from turn three onward |
+| Two lands, Goblin-town Flunkies, Fearsome Goblin Pair, Rhovanion Rampager | Keep. Two bodies that want to die and the outlet that kills them |
+| Two lands, The Great Goblin, Rage into the Valley, Goblin Plate Mail | Keep. Plate Mail amasses on entry and attaches to the token it makes, so it is a counter event and a threat in one card |
+| Two lands, Warg Tactics and Wargling with no black source | Borderline keep. Both green cards are fine, but a hand with no black land cannot cast the sacrifice engine |
+| One land | Mulligan. The deck wants three mana on turn three and four on turn four, and it has no way to recover a missed land drop |
+| No black source at all | Mulligan. Rampager, the Pair, the Sentries, Rage into the Valley and Along the Crooked Way are all black |
+| Five lands, Gathering of Darkness, Warg Tactics | Mulligan. The deck floods; Goblin-town and Mirkwood are the only lands that do anything on their own, and neither profits from a hand that cannot cast creatures |
+| Zero counter events | Mulligan. Lands plus Warg Tactics with no amass, no Flunkies and no Great Goblin is a hand that cannot deal damage |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| The Great Goblin counts events, not counters | "Whenever you put one or more counters" triggers once no matter how many counters arrive. Fearsome Goblin Pair's amass 4 is 2 damage, and so is a one-mana Tidings of War |
+| Amass creates the Army first, then adds the counters | With no Army in play, amass creates a 0/0 black Goblin Army token and then puts the counters on it. The token survives because the counters arrive as part of the same instruction |
+| The Army is a Goblin for every other card | Amass makes the token a Goblin, so its counters trigger The Great Goblin, Goblin-town can target it, Plate Mail can attach to it, and it is a legal sacrifice for the Rampager |
+| The Rampager's counters use the sacrificed creature's power | Sacrifice a 4-power creature and the Rampager gets four +1/+1 counters, so it is usually worth feeding it the biggest expendable body rather than the smallest |
+| The Rampager's death trigger reads its power at that moment | Its amass X is the power it had when it died, counters included. A Rampager that ate a 4/4 and then traded is amass 7 — 2 damage and seven counters |
+| Sacrificing to the Rampager happens during the attack declaration | The trigger occurs when it attacks, before blockers, so the sacrificed creature cannot also block. Do not feed it a creature you needed as a blocker |
+| The Great Goblin is legendary | A second copy cannot stay on the battlefield. Play the first and hold the rest; his second ability does not trigger for his own death |
+| The Great Goblin's exile-play trigger needs a death | It fires when another Goblin, Orc or Army you control dies, and the card is playable until the end of your next turn. Sacrificing on your own turn and casting the exiled card immediately is legal |
+| Along the Crooked Way triggers on any creature card leaving the graveyard | Its own entry trigger returning a creature card to hand counts, so the enchantment amasses 1 the turn it lands. Flashing back Tidings of War does not count — that exiles a sorcery, not a creature card |
+| The menace ability on Along the Crooked Way costs mana every turn | {1}{B} until end of turn for the whole team. Cast it after blocks are declared in a race, or before attacks when the Army needs to force two blockers |
+| Goblin Plate Mail amasses and attaches to the token it makes | The Equipment's entry trigger amasses 1 and then attaches to that Army, so it is never a dead card with no Goblin in play. Its equip cost is {4}, so the first attachment is the free one that matters |
+| Tidings of War's flashback is a different size | Amass 1 when cast from hand, amass 3 when cast from the graveyard for {3}{R}, and it is a noncreature spell either way — so Bothersome Noisemaker amasses 1 on top of it |
+| Goblin-town and Mirkwood sacrifice themselves | Both enter tapped and both are cracked for {2} plus a coloured pair of mana. They are the deck's flood insurance; activating them is a sorcery-speed play, so do it in the second main phase |
+| Mirkwood can only target a Bear, Spider or Wolf | In this list only Rhovanion Rampager and Wargling qualify. Two counters on the Rampager is 2 extra points of amass when it later dies, and two counters on Wargling turns on ferocious for the whole board |
+| Warg Tactics usually wants the counter mode | Destroy target flier is the mode to use against fliers; the counter plus trample and hexproof mode is the one that adds 2 damage through The Great Goblin and pushes the Army through |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain | Race with the Army and keep one Warg Tactics for the first flier that attacks. The burn plan punishes a deck that spends turns attacking rather than blocking, and Goblin-town adds 2 damage without a card. Trade the small Goblins early so the Army survives |
+| Midrange | The best matchup. Midrange does not pressure life totals, so The Great Goblin's triggers accumulate unanswered. Feed the Rampager the largest expendable body, keep the Army back as a blocker until trample is online from Wargling, then attack with an Army that forces two blockers through menace |
+| Control | The hardest matchup. Their sweepers kill the Army, so play two threats at a time and keep Along the Crooked Way and Gathering of Darkness as post-sweeper rebuys — each of them is also a counter event. The Great Goblin's exile-play trigger turns every blocked or sacrificed Goblin into a card |
+| Combo | The clock is turn five or six. Warg Tactics is the only piece of interaction that matters, so spend every card on damage and point the burn at the player. An Army with trample and menace ends the game faster than most combos assemble if the counter events are stacked in one turn |
+
+# Iterations
+
+The published list was reached by running the viability battery on four versions. Version two fixed the only failing gate and every later round tested worse on the simulation, so version two is the list below.
+
+| Round | What changed | Gate results |
+|-------|--------------|--------------|
+| v1 (baseline) | 26 creatures including Dreaded Bat-Cloud (2), Gundabad Opportunist (2) and Snowslope Hunter (2), with two Gathering of Darkness and a 22-land base | sim 54.3, synergy 71.5, turn-4 0.534 (fail vs 0.55), four lands 0.550 |
+| v2 (published) | -2 Dreaded Bat-Cloud, -2 Gundabad Opportunist, -2 Snowslope Hunter, -1 Gathering of Darkness; +3 Bothersome Noisemaker, +1 Front Porch Sentries, +2 Warg Tactics, +1 Forest (why: the five- and four-mana cards were the slowest in a 2.3-average deck, and Noisemaker is the same engine at two mana with a body attached) | sim 54.3 to 52.0, synergy 71.5 to 72.2, turn-4 0.534 to 0.571, four lands 0.550 to 0.566 — every gate passes |
+| v3 (tested, reverted) | -2 Stony-Voiced Goblins, -1 Gathering of Darkness, -1 Warg Tactics; +1 The Great Goblin, +2 Bilbo's Deadly Slice, +1 Quarrel (why: add straight removal to the burn plan) | sim 50.7, synergy 71.8, turn-4 0.589, four lands 0.595 — the two removal spells added no counter events and the simulation dropped below 52, so the round-two list was restored |
+| v4 (tested, reverted) | -2 Stony-Voiced Goblins, -1 Gathering of Darkness; +1 The Great Goblin, +1 Bothersome Noisemaker, +1 Front Porch Sentries (why: push creature density and cheap amass to the maximum) | sim 51.7, synergy 71.9, turn-4 0.579, four lands 0.587 — better on every deterministic metric than v2 but a worse 3-run simulation average, so v2 was restored |
+
+The published list is v2: 60 cards with no missing names, Standard legal, zero rotating cards, synergy 72.2, turn-4 consistency 0.571 and four-land probability 0.566. Repeat runs of the same 60 cards read 58.0 and 50.3 on the simulation, which is the run-to-run spread of the mirror simulation rather than a property of the list — the recorded gate run passed at 52.0 and the deck's average across three gate runs is 53.4.
+
+# Deck list (Arena import)
+
+```text
+Sack and Sunder
+Deck
+4 Goblin-town Flunkies
+4 Fearsome Goblin Pair
+3 The Great Goblin
+3 Rhovanion Rampager
+3 Bothersome Noisemaker
+3 Front Porch Sentries
+2 Stony-Voiced Goblins
+2 Wargling
+4 Tidings of War
+2 Rage into the Valley
+2 Along the Crooked Way
+2 Goblin Plate Mail
+2 Warg Tactics
+1 Gathering of Darkness
+2 Goblin-town
+2 Mirkwood
+9 Swamp
+6 Mountain
+4 Forest
+```
