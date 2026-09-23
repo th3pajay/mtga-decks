@@ -1,0 +1,204 @@
+---
+title: "Tallywurm"
+subtitle: "Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid"
+date: "2026-09-23"
+categories: ["combo", "counters"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Green / White (two colors — green on 30 of the 37 nonlands, white on 10, with Caradora carrying both) |
+| Archetype | +1/+1 counters, built as a landfall-fed engine that ends games with one enormous combat step rather than a curve-out aggro deck |
+| Size | 60 cards (26 creatures, 11 other spells and permanents, 23 lands; average mana value 2.35 across the 37 nonlands) |
+| Signature mechanic | +1/+1 counters. Lands are the fuel: every fetch land is a landfall counter, every counter is a Caradora trigger, and Ouroboroid converts the whole board into counters on every combat |
+| Primary win | Ouroboroid: a 1/3 for {2}{G}{G} that, at the beginning of combat on your turn, puts X +1/+1 counters on each creature you control, where X is its own power. It feeds itself, so the second combat is four times the first |
+| Secondary win | The air and the unblockable lane: Skyknight Squire has flying from three counters, Restless Prairie attacks as a 3/3 Llama and pumps the rest of the team, and Rogue's Passage makes whichever creature is biggest unblockable |
+| Land win condition | Restless Prairie animates into a 3/3 green and white Llama for {2}{G}{W} and gives every other attacking creature +1/+1 when it attacks, so the land is a clock on its own and a team pump for the counter creatures. Rogue's Passage is the finisher: four mana and a tap makes the Ouroboroid-pumped attacker unblockable |
+| Measured performance | Synergy score 70.2, turn-4 consistency 0.579, four-land probability by turn 4 of 0.584, simulation 54.0 percent over three 500-game runs (59 / 54 / 49) on the recorded gate run |
+| Engine in one line | Fetch lands and Restless Prairie make landfall counters, Ouroboroid multiplies counters on every combat, Caradora adds one to each counter event, Training Regimen and Mossborn Hydra make the result trample, and Inspiring Call and Stocking the Pantry turn the counters into cards |
+
+# Overview
+
+Every card in this list is a counter event, a counter multiplier, or a way to spend counters. The plan is to make land drops that are also spells.
+
+Bristly Bill, Spine Sower and Mossborn Hydra both read "Landfall — whenever a land you control enters". Bristly Bill puts a +1/+1 counter on any creature you control and can double the counters on the whole board for {3}{G}{G}; Mossborn Hydra doubles its own counters instead, and it has trample. With seven fetch lands in the base (Terramorphic Expanse, Evolving Wilds and Promising Vein) plus Restless Prairie, the deck runs landfall triggers on turns where it is not casting anything, and those triggers arrive as counters that Ouroboroid then multiplies.
+
+Ouroboroid is the engine's ceiling. It puts X counters on each creature you control at the beginning of combat, where X is its own power — and the ability counts its power as the trigger resolves, so the first combat (X equals 1) hands out one counter to everything, the next combat X is larger, and one Caradora, Heart of Alacria adds a counter to each of those events because any time counters would be put on a creature you control, it puts that many plus one instead.
+
+The support cards exist to make those counters lethal and to keep the deck from running dry. Training Regimen gives every creature with a counter trample and adds a counter of its own every combat. Pawpatch Recruit brings offspring {2} for a second body and tramples. Wildwood Scourge grows every time another non-Hydra creature of yours receives counters, so Ouroboroid's combat trigger is a second Ouroboroid. Skyknight Squire converts three counters into a flier. Inspiring Call draws one card per creature with a counter and makes them indestructible for the turn. Stocking the Pantry turns every counter event into a supply counter and every two mana into a card.
+
+The mana is deliberately boring: five Forests, four Plains, two Temple of Plenty, two Restless Prairie, and seven lands that fetch a basic. Green is needed early (Bristly Bill, Wildwood Scourge, Pawpatch Recruit, Stocking the Pantry), white is needed from turn two (Skyknight Squire, Take Up the Shield) and turn four (Caradora), and the fetch lands thin the deck and trigger landfall in the same motion. Nothing in the 60 costs more than four mana, and 24 of the 37 nonlands cost two or less.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|-------|-------|------------------------|
+| Open | 1 to 2 | Pawpatch Recruit or Stocking the Pantry on one, then Bristly Bill, Skyknight Squire, Broodguard Elite or Take Up the Shield on two. Start the counter ledger: every creature that lands should arrive with counters or make counters |
+| Build | 3 to 4 | Ouroboroid, Caradora, Heart of Alacria or Training Regimen. Crack a fetch land the turn you cast Ouroboroid so the landfall counter and the Caradora bonus land before the first combat trigger resolves |
+| Multiplier turn | 4 to 6 | Two or three counter events in one combat: landfall trigger, Ouroboroid trigger, Training Regimen trigger, all of them plus one off Caradora and doubled by Bristly Bill if you have the mana. This is the turn the board stops being a board and becomes a clock |
+| Close | 5 plus | Attack with everything. Training Regimen and Mossborn Hydra give trample, Skyknight Squire flies, Rogue's Passage removes the one blocker that matters, and Inspiring Call protects the team from a sweeper while drawing into the next wave |
+
+## Card roles
+
+| Role | Cards | What the card actually does |
+|------|-------|-----------------------------|
+| Engine | Ouroboroid (3) | At the beginning of combat on your turn, put X +1/+1 counters on each creature you control, where X is its power. Because the trigger includes Ouroboroid itself, its power grows every combat and so does X |
+| Multipliers | Caradora, Heart of Alacria (3), Bristly Bill, Spine Sower (4), Mossborn Hydra (2) | Caradora makes every counter event one counter larger for every creature you control, and searches up a Mount or Vehicle on entry. Bristly Bill doubles the counters on each creature you control for {3}{G}{G}. Mossborn Hydra doubles only its own counters, but it does so for free on every land drop |
+| Landfall payoffs | Bristly Bill, Spine Sower (4), Mossborn Hydra (2) | The two cards that turn Terramorphic Expanse, Evolving Wilds, Promising Vein, Temple of Plenty and Restless Prairie into counter events. Fetch lands trigger landfall the turn they are cracked, so they are one-mana spells that also fix the mana |
+| Counter carriers | Broodguard Elite (4), Wildwood Scourge (4), Skyknight Squire (4) | Broodguard Elite enters with X counters and passes its counters to another creature when it leaves, and its warp cost lets you buy it back later. Wildwood Scourge enters with X counters and adds one every time another non-Hydra creature of yours receives counters. Skyknight Squire gains a counter whenever any other creature enters and has flying from three counters |
+| Body supply | Pawpatch Recruit (2) | A 2/1 trampler for {G} that makes a 1/1 token copy of itself for an extra {2}. Two bodies means two Skyknight Squire triggers, two Wildwood Scourge triggers and two attackers, and it also moves a counter onto another creature when the opponent points removal at it |
+| Combat fuel | Training Regimen (3) | Creatures you control with +1/+1 counters on them have trample, and at the beginning of combat on your turn you put a +1/+1 counter on a creature you control. It is a permanent counter event with the payoff attached |
+| Card advantage | Stocking the Pantry (3), Inspiring Call (2) | Stocking the Pantry banks a supply counter on every counter event and converts two mana into a card. Inspiring Call draws one card per creature with a counter and grants the team indestructible for the turn, which is both the refill and the sweeper answer |
+| Protection | Take Up the Shield (3), Inspiring Call (2) | Take Up the Shield is a counter plus lifelink plus indestructible for one creature, which is how the deck wins a race or survives a removal spell on the turn it goes for lethal |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|------|-------|-----------------------|
+| Restless Prairie | 2 | The win-condition land. It enters tapped, taps for {G} or {W}, and for {2}{G}{W} it becomes a 3/3 green and white Llama creature that is still a land; whenever it attacks, every other creature you control gets +1/+1 until end of turn. It is a threat that dodges sorcery-speed creature removal and a team pump for the counter creatures at the same time |
+| Rogue's Passage | 2 | The finisher. It taps for {C} and for four mana and a tap it makes target creature unblockable for the turn, so the single largest counter carrier in play connects regardless of the opponent's board. It is the land that turns an Ouroboroid trigger into damage |
+| Terramorphic Expanse | 3 | One mana, one landfall trigger, one Forest or Plains. With Bristly Bill or Mossborn Hydra in play it is a spell that fixes the mana |
+| Evolving Wilds | 3 | The second copy of the same effect, and a different name, which matters because the deck wants a high land count without drawing dead duplicates |
+| Promising Vein | 2 | A Cave that taps for colourless and, for one mana, sacrifices itself for a basic land. Colourless early is fine in a deck that curves Pawpatch Recruit into Bristly Bill, and the fetch mode is another landfall trigger |
+| Temple of Plenty | 2 | The only unconditional green and white dual in the base, plus a free scry 1 that helps find the fourth land or the second engine piece |
+| Forest | 5 | Green carries Bristly Bill, Wildwood Scourge, Broodguard Elite, Mossborn Hydra, Pawpatch Recruit, Stocking the Pantry, Training Regimen and Inspiring Call |
+| Plains | 4 | White carries Skyknight Squire and Take Up the Shield, and it pays the white half of Caradora, Heart of Alacria. Four Plains plus fetches is enough because only two cards in the deck need white before turn four |
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|------------|-------|-------|
+| One | 9 | Wildwood Scourge (4), Stocking the Pantry (3), Pawpatch Recruit (2) |
+| Two | 15 | Bristly Bill, Spine Sower (4), Broodguard Elite (4), Skyknight Squire (4), Take Up the Shield (3) |
+| Three | 4 | Mossborn Hydra (2), Inspiring Call (2) |
+| Four | 9 | Ouroboroid (3), Caradora, Heart of Alacria (3), Training Regimen (3) |
+
+Twenty-four of the thirty-seven nonlands cost two or less, and the deck never needs more than four mana for any single card. The two X-spells (Wildwood Scourge and Broodguard Elite) are counted at their minimum in the table and are usually cast for three or four mana once the third land is down. The twenty-three land base holds a four-land-by-turn-four rate of 0.584 with seven fetches, so the deck hits its fourth land on schedule while still triggering landfall on the way.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about putting counter sources on the board, not about pressure. Stocking the Pantry on one is the best opening because it converts every later counter event into a card; Pawpatch Recruit on one is the fastest, because a 2/1 trampler that can make a token copy gives Skyknight Squire and Wildwood Scourge two triggers in one card.
+
+Turn two is Bristly Bill whenever the mana allows it. Bristly Bill is the card that makes the fetch lands matter, and it is also the only way the deck doubles the whole board, so it is worth cracking Terramorphic Expanse or Evolving Wilds the same turn to put a counter somewhere immediately. Skyknight Squire on two is the alternative, and it snowballs by itself once the deck starts dropping creatures.
+
+Take Up the Shield is the turn-two play to hold rather than cast: it is a counter, lifelink and indestructible for two mana, and it is nearly always better spent protecting the creature that is about to be pumped than on a 1/1 on turn two.
+
+## Mid game
+
+Turns three to five are about stacking counter events in a single combat rather than deploying one threat at a time.
+
+The highest-value sequence is to land Ouroboroid and then crack a fetch land before the beginning of the next combat. Ouroboroid's trigger puts X counters on every creature (X equals its power, so one counter per creature on the first combat), the fetch land adds a landfall counter through Bristly Bill or Mossborn Hydra, Caradora makes each of those events one larger, and Wildwood Scourge adds a counter for each non-Hydra creature that received counters. A single combat step with those pieces in play adds four to six counters across the board at a cost of zero cards.
+
+Broodguard Elite is the deck's insurance policy. Cast for three or four mana it enters as a 3/3 or 4/4 with warp, and if it dies its counters move to another creature, so the investment is never wasted; warping it back later re-triggers the entry. Wildwood Scourge is the other card worth protecting, because every future counter event is worth an extra counter while it is in play.
+
+Do not over-commit into a sweeper. The deck's answer is Inspiring Call: hold it until the opponent taps out for a board wipe, cast it in response, draw four or five cards and keep every creature with a counter alive for the turn.
+
+## The combo turn
+
+The engine turn needs three things: Ouroboroid in play, at least two other creatures with counters already on them, and a land drop or a fetch land still to use.
+
+1. Start the turn with Ouroboroid and a board of counter carriers. Any Wildwood Scourge or Broodguard Elite counts double for the purposes of the next step.
+2. Beginning of combat: Ouroboroid triggers for X, where X is its power. With Caradora in play every one of those placements becomes X plus one.
+3. Crack a fetch land before the trigger resolves if the mana is open, so Bristly Bill or Mossborn Hydra adds its landfall counter to the same combat. Mossborn Hydra doubling its own counters is the single largest growth event in the deck.
+4. Training Regimen adds one more counter and turns the whole board into tramplers, so the counters convert to damage in the same turn.
+5. Attack with everything. Restless Prairie animates for {2}{G}{W} and pumps the rest of the team by +1/+1 when it attacks, which is the difference between a chump block and lethal.
+6. If one blocker matters, Rogue's Passage for four mana makes the biggest attacker unblockable, and Take Up the Shield gives it lifelink and indestructible so the swing is safe.
+
+A realistic turn five with Ouroboroid, Caradora and Training Regimen in play is six to eight counters on the team plus trample, which is lethal against most boards that do not have a sweeper.
+
+## Win condition 2
+
+The second path does not need Ouroboroid: it needs counters on creatures that cannot be blocked.
+
+Skyknight Squire is the cheapest route. It gains a counter every time any other creature enters, so a turn of Pawpatch Recruit plus offspring token, a fetch land and a Broodguard Elite takes it past three counters and turns it into a 4/4 or larger flier. Mossborn Hydra is the other: a landfall doubling trigger on top of trample makes it a two-turn clock from three mana, and its counters keep doubling for free as the deck plays lands.
+
+The lands are part of both paths. Restless Prairie attacking gives every other attacker +1/+1, so the Llama is a team pump on a land that survives sorcery-speed removal, and Rogue's Passage makes whichever of these creatures is largest unblockable. That combination is the deck's answer to a stalled board: pump the team with the manland, clear the last blocker with the Passage, and attack for the win with counters rather than with card advantage.
+
+## Mulligan guide
+
+| Hand shape | Verdict |
+|------------|---------|
+| Two or three lands including a green source, plus Bristly Bill, Spine Sower and any other creature | Keep. This is the engine hand: landfall counters early, Ouroboroid on four |
+| Two lands, Pawpatch Recruit, Skyknight Squire, Stocking the Pantry | Keep. Three cheap counter sources and a way to turn them into cards |
+| Two lands, Ouroboroid, Caradora, Heart of Alacria, plus a fetch land | Keep. The fetch land is the fourth land and a counter event in one card |
+| Three lands, Wildwood Scourge, Broodguard Elite, Training Regimen | Keep. Two X-spells with a payoff that makes them lethal |
+| One land | Mulligan. The deck wants three mana on turn three and four on turn four, and it has no way to recover a missed land drop except the fetches it did not draw |
+| No green source | Mulligan. Thirty of the thirty-seven nonlands are green or partly green |
+| Zero one- and two-mana spells | Mulligan. A hand of four-mana cards cannot start the counter ledger, and the deck has no removal to buy time |
+| Five lands and Ouroboroid with no other creature | Mulligan. Ouroboroid with X equal to 1 and nothing to pump is a 1/3 that does nothing for two turns |
+
+## Key interactions and edge cases
+
+| Interaction | Ruling detail |
+|-------------|---------------|
+| Ouroboroid's X is locked in as the trigger resolves | It puts X counters on each creature, X being its power at that moment. Its own counters arrive with the same instruction, so its power grows every combat and the next trigger is larger |
+| Caradora, Heart of Alacria adds one per counter event | Any time one or more counters would be put on a creature you control, that many plus one are put on it instead. Ouroboroid's mass placement counts as one event per creature, and so does a fetch land's landfall trigger |
+| Wildwood Scourge only counts non-Hydra recipients | It is a Hydra itself, so Ouroboroid's counters on it do not trigger it, but every non-Hydra creature that receives counters does. A mass trigger across four non-Hydra creatures is four separate counters on the Scourge |
+| Mossborn Hydra doubles only its own counters | Its landfall trigger is "double the number of +1/+1 counters on this creature", so it does not interact with Caradora for the rest of the team. It does stack with Bristly Bill's doubling on a later combat |
+| Skyknight Squire counts three counters, not three triggers | As long as it has three or more counters total it has flying and is a Knight. Broodguard Elite's exit trigger and Take Up the Shield both push it over the line without a single landfall trigger |
+| Broodguard Elite passes counters when it leaves | The counters move to target creature you control, so using it as a chump blocker is a transfer rather than a loss. Its warp {X}{G} lets you recast it later, and the exit trigger fires again if it leaves a second time |
+| Pawpatch Recruit's second ability needs an opponent's spell | Whenever a creature you control becomes the target of a spell or ability an opponent controls, put a +1/+1 counter on a different creature you control. Point their removal at the Recruit and the counter lands on Mossborn Hydra or Skyknight Squire instead |
+| The offspring token arrives with the entry trigger | Paying the extra {2} creates the token copy as the Recruit enters, so Skyknight Squire and Wildwood Scourge see two entries, not one |
+| Training Regimen triggers every combat, not every turn | A single +1/+1 counter per combat step on a creature you control, and every creature you control with a counter has trample for as long as the enchantment is in play |
+| Inspiring Call is a draw spell first | It draws for each creature with a counter and only then grants indestructible, so cast it in response to a sweeper with the board already built. Board wipes that exile avoid it, and so do sacrifice effects |
+| Take Up the Shield answers removal and wins races | The counter is permanent, the lifelink and indestructible are until end of turn. Cast it on the attacking creature in the turn you go for lethal to gain four or more life and survive the crack back |
+| Stocking the Pantry tracks events, not counters | One or more counters is one supply counter, so Ouroboroid's mass trigger adds one supply counter, not five. Each supply counter is two mana for a card at sorcery speed |
+| Restless Prairie is a land until end of turn | Animating it does not stop it from being a land, so landfall triggers still fire if it enters after animation, and it keeps tapping for mana. It also counts for Training Regimen because it has counters only if something puts them on it |
+| Rogue's Passage ability timing | Four mana and a tap, at sorcery speed in practice because it is an activated ability of a land. Use it in the second main phase before attackers so the mana is not telegraphed, or in the mana you floated for a fetch |
+| Fetches enter tapped but trigger landfall immediately | Terramorphic Expanse and Evolving Wilds sacrifice themselves and put the basic in tapped, and the basic entering is what triggers landfall. Promising Vein costs one mana for the same effect on a colourless land |
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro, including fliers and lifegain | Race with counters and take the lifelink shield. Take Up the Shield is at its best here: the indestructible block plus four life swings the race by a full turn. Keep Skyknight Squire as a blocker until it has three counters, then race in the air |
+| Midrange | The best matchup. Midrange gives the deck time to assemble Ouroboroid plus Caradora plus Training Regimen, and a trampling counter board outclasses anything midrange can block. Fetch lands should be saved for the turn of the big attack so the landfall counters arrive with the Ouroboroid trigger |
+| Control | The hardest matchup. Play two threats at a time rather than four, keep Stocking the Pantry and Inspiring Call for the turns after a sweeper, and treat Broodguard Elite as the creature that wants to die because its counters move to whatever survived. Restless Prairie dodges creature removal entirely |
+| Combo | The clock is turn five or six, so spend every card on damage. Rogue's Passage and Restless Prairie are the cards that end the game through a stalled ground board, and Inspiring Call is the only card worth holding back because it refills after an interaction-heavy turn |
+
+# Iterations
+
+The published list is version three. Version one failed the simulation and synergy gates, version two fixed the simulation with cheaper counter bodies but left cohesion short of the threshold, and version three rebuilt the top of the curve around landfall-fed counter creatures and a fetch-heavy mana base, which cleared both.
+
+| Round | What changed | Gate results |
+|-------|--------------|--------------|
+| v1 (baseline) | 26 creatures built around Ouroboroid and Bristly Bill with Innkeeper's Talent, Daydream, Emil, Vastlands Roamer, Byrke, Long Ear of the Law, Tendril of the Mycotyrant and a nine-tapland green and white base | sim 51.0, synergy 68.69, turn-4 0.579, four lands 0.585 (fail: simulation and synergy) |
+| v2 | -2 Felling Blow, -1 Biosynthic Burst; +2 Ironpaw Aspirant, +1 Warden of the Inner Sky (why: the two removal spells added no counter events, and the one-mana and two-mana counter bodies lift the early clock) | sim 51.0 to 52.0, synergy 68.69 to 68.37, turn-4 0.579 to 0.593, four lands 0.585 to 0.590 (simulation passes, synergy still short) |
+| v3 (published) | -3 Innkeeper's Talent, -3 Creosote Heath, -2 Daydream, -2 Emil, Vastlands Roamer, -2 Byrke, Long Ear of the Law, -2 Ironpaw Aspirant, -2 Warden of the Inner Sky, -2 Tendril of the Mycotyrant, -4 Sunshower Druid, -2 Temple of Plenty, -1 Forest; +4 Wildwood Scourge, +4 Broodguard Elite, +3 Training Regimen, +3 Take Up the Shield, +3 Terramorphic Expanse, +3 Evolving Wilds, +2 Mossborn Hydra, +2 Pawpatch Recruit, +1 Skyknight Squire (why: cohesion was the only failing metric, so the deck swapped off-theme and off-curve cards for counters-plus-landfall pieces that share the matrix, and the cheaper counter carriers kept the simulation rising) | sim 52.0 to 54.0, synergy 68.37 to 70.22, turn-4 0.593 to 0.579, four lands 0.590 to 0.584 — every gate passes |
+
+The published 60 cards: no missing names, Standard legal, zero rotating cards, synergy 70.22, turn-4 consistency 0.579, four-land probability 0.584 and a simulation average of 54.0 across the recorded three 500-game runs (59 / 54 / 49).
+
+# Deck list (Arena import)
+
+```text
+Tallywurm
+Deck
+4 Bristly Bill, Spine Sower
+4 Wildwood Scourge
+4 Skyknight Squire
+4 Broodguard Elite
+3 Ouroboroid
+3 Caradora, Heart of Alacria
+2 Mossborn Hydra
+2 Pawpatch Recruit
+3 Stocking the Pantry
+3 Training Regimen
+3 Take Up the Shield
+2 Inspiring Call
+3 Terramorphic Expanse
+3 Evolving Wilds
+2 Promising Vein
+2 Temple of Plenty
+2 Restless Prairie
+2 Rogue's Passage
+5 Forest
+4 Plains
+```

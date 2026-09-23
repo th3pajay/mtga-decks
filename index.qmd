@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-22**:
+Deck guides published **2026-09-23**:
 
-- **[Sack and Sunder](decks/2026-09-22-sack-and-sunder.html)** — Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn  `hobbit` `amass`
-- **[Firefeeding](decks/2026-09-22-firefeeding.html)** — Five-color (WUBRG) — Forage × Firebending × Warp  `combo` `Forage` `Firebending` `Warp`
+- **[Tallywurm](decks/2026-09-23-tallywurm.html)** — Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid  `combo` `counters`
