@@ -2,13 +2,14 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-07 · **457** cards locked · **Hobbit 56/193** remaining
+**Card pool consumption** — cycle started 2026-09-07 · **462** cards locked · **Hobbit 51/193** remaining
 
-**70 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**71 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-09-23
 
 - **[Tallywurm](decks/2026-09-23-tallywurm.html)** — Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid  `combo` `counters`
+- **[Cinder and Coin](decks/2026-09-23-cinder-and-coin.html)** — Black / Red / Green Smaug Dragon x Treasure — The Hobbit set identity deck  `hobbit` `smaug`
 
 ## 2026-09-22
 

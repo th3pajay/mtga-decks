@@ -1,0 +1,157 @@
+---
+title: "Cinder and Coin"
+subtitle: "Black / Red / Green Smaug Dragon x Treasure — The Hobbit set identity deck"
+date: "2026-09-23"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green |
+| Archetype | Smaug Dragon x Treasure hoard engine (avg nonland CMC 2.89) |
+| Size | 60 cards |
+| Primary win | Smaug the Magnificent: a Treasure on every upkeep, then an attack trigger that deals damage equal to your Treasure count to any target |
+| Secondary win | The Misty Mountains Cold turns a four-Treasure hoard into a 6/6 flying Dragon token, and Radagast of Rhosgobel rebates the next Dragon into play |
+| Land win con | The Lonely Mountain is a Mountain-typed land — every copy adds a quest counter to Last Light of Durin's Day, which at six counters puts a Dragon straight onto the battlefield |
+
+# Overview
+
+Cinder and Coin is today's The Hobbit set identity deck, and it takes the Smaug x Treasure axis rather than the storied Dwarves, the amass Goblins, or the Elf legends. The thesis is short: everything in the deck is either gold, a dragon, or a way to move one into the other.
+
+The engine is Treasure, produced five different ways — Smaug the Magnificent's upkeep trigger, The Misty Mountains Cold's four saga chapters, Dori's enter trigger, Bejeweled Warg's combat damage, and The Sackville-Bagginses' sacrifice trigger. The payoff is Smaug himself: whenever he attacks he deals damage equal to the number of Treasures you control to any target, on top of a 4/3 flying hasty body. Six Treasures turns one attack into ten damage. The gold also pays for everything, which is the quiet part of the deck: in a three-color list, Treasures are the real mana fixing.
+
+The second kill line is on the board, not in the graveyard. The Misty Mountains Cold sacrifices itself at four or more Treasures into a 6/6 flying Dragon token, and Last Light of Durin's Day converts a Mountain count into a free Dragon from hand or library. Radagast of Rhosgobel rebates two mana off the first creature spell each turn and gives it flash, so those Dragons arrive early and at instant speed. Every card in the list feeds that loop: no filler, no sideboard cards in the maindeck.
+
+The Hobbit set (hob, 193 cards) landed on Arena on 2026-08-14; the import list below works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Hoard start: The Sackville-Bagginses or Bejeweled Warg, plus Stir Up Trouble held up as one-mana removal |
+| Turns 2-3 | Engine online: The Misty Mountains Cold starts stacking Treasures, Dori adds one on entry, Desolation Prowler holds the ground |
+| Turns 3-5 | The combo turn: Smaug the Magnificent lands on a growing hoard; The Misty Mountains Cold pops into a 6/6 flying Dragon |
+| Turn 5+ | Smaug, Wicked Worm tops the curve; each point of gold spent on a spell draws a card, and each attack burns for the hoard total |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | The engine and the payoff: a Treasure every upkeep and an attack trigger dealing damage equal to your Treasure count to any target |
+| The Misty Mountains Cold | Treasure every chapter for four chapters, then sacrifices itself into a 6/6 red flying Dragon token once the hoard hits four |
+| Dori, Bearer of Friends | Three-mana legendary Dwarf that tramples in and makes a Treasure on entry |
+| The Sackville-Bagginses | Turns a spare artifact or creature into a card and a Treasure, and pings the opponent for 1 on every token sacrifice |
+| Bejeweled Warg | Two-mana 3/2 trampler; combat damage to a player either grows a Wolf or mints another Treasure |
+| Smaug, Wicked Worm | Treasure burst on entry (one tapped Treasure per artifact the opponent controls) and a card whenever a spell is cast with Treasure mana |
+| Last Light of Durin's Day | Mountain quest counter; at six Mountains it sacrifices itself to put any Dragon from hand or library onto the battlefield |
+| Radagast of Rhosgobel | The first creature spell each turn costs two less and can be cast as though it had flash — this is how Smaug arrives early |
+| Snowslope Hunter | Three-mana 2/3 that eats a spare Treasure to exile and play the top card of the library, once per turn |
+| Desolation Prowler | Cheapest body in the deck: a two-mana 2/2 that pays 2 life for +2/+2 each turn |
+| Gundabad Opportunist | Four-mana 4/2 that exiles the top card on entry and lets you play it — Treasure mana pays for it |
+| The Master of Lake-town | Deathtouch 3/2 that mills any player for each point of life they lose, so Smaug's burn becomes library damage |
+| Stir Up Trouble | One-mana removal that is happy to eat a Treasure or a spent token as its additional cost |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | The win-con land: it is a Mountain, so every copy advances Last Light of Durin's Day's quest counters; at four mana plus red it also makes 2/2 red Dwarf tokens, one cheaper per Equipment |
+| Mountain | Primary red source and a quest counter the moment it enters — eight copies is what turns Last Light into a real card |
+| Swamp | Black source for Stir Up Trouble, Desolation Prowler, The Master of Lake-town, and Smaug, Wicked Worm |
+| Forest | Green source for Bejeweled Warg and Radagast of Rhosgobel; six copies because green is a light splash |
+
+## Curve and mana
+
+24 lands: 4 The Lonely Mountain, 8 Mountain, 6 Swamp, 6 Forest. Red sources 12, black 6, green 6. Red is the workhorse; black and green are supported but thin, which is why every Treasure token in the deck is also mana fixing — treasure gold is what actually casts Radagast and Wicked Worm on curve.
+
+Nonland curve: 1-drop x2, 2-drop x12, 3-drop x12, 4-drop x8, 5-drop x2. Average nonland CMC 2.89. The deck wants a two-drop on turn 2, a Treasure maker or saga on turn 3, and Smaug the Magnificent on turn 4 with at least two Treasures already banked.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about the hoard and the board, in that order. The Sackville-Bagginses is the ideal turn-2 play: sacrifice nothing and it is just a 2/2, but sacrificing a later Treasure draws a card and mints a replacement, and every token sacrifice pings the opponent for 1. Bejeweled Warg is the aggressive alternative — a 3/2 trampler that converts its first connection into a Treasure. Hold Stir Up Trouble as a one-mana answer; the additional cost is any artifact or creature, so a Treasure token doubles as the removal spell's fuel.
+
+Do not be precious with Desolation Prowler. It is the cheapest way to keep the ground stable while the engine assembles, and 2 life for +2/+2 is a fine rate when the alternative is dying to a 3/3.
+
+## Mid game
+
+The Misty Mountains Cold is the centerpiece of turns three through five. It makes a Treasure on every chapter and, at four or more Treasures, sacrifices itself to create a 6/6 red Dragon token with flying. Dori, Bearer of Friends accelerates the count; Bejeweled Warg and The Sackville-Bagginses add to it. Radagast of Rhosgobel is the mana engine that ties the phase together: the first creature spell you cast each turn costs two less and can be cast as though it had flash, which means Smaug the Magnificent can come down on turn four with mana held up, or at the end of an opponent's turn once the board is clear.
+
+Snowslope Hunter and Gundabad Opportunist are the card-flow pair. Both exile the top card of your library and let you play it; Snowslope Hunter pays a Treasure, Gundabad Opportunist pays nothing but arrives a turn later. Together they keep the land drops and the removal coming while the hoard grows.
+
+## The combo turn
+
+1. Bank the hoard. Four Treasures is the magic number — at four, The Misty Mountains Cold trades itself for a 6/6 flying Dragon.
+2. Cast Smaug the Magnificent for two red and two generic minus two if Radagast is on the battlefield. He has flying and haste, so he attacks the turn he lands.
+3. Attack. Smaug's trigger deals damage equal to your Treasure count to any target — the opponent, a planeswalker, or the one blocker that matters — and his 4 combat damage rides along on top.
+4. Repeat. Every upkeep makes another Treasure, so each swing is one point bigger than the last. Four Treasures is 8 damage per turn, six is 10, eight is 12.
+
+A typical kill: a Misty Mountains Dragon token plus Smaug attacking on turn five with four Treasures is 6 flying plus 8 to the face with 4 more from Smaug's own body. Most boards that are not already dead are dead on the next swing.
+
+## Win condition 2
+
+The Master of Lake-town converts the same attack into library damage: whenever a player loses life, that player mills that many cards. Smaug's trigger causes loss of life, so a four-Treasure attack mills 8 and then hits for 8. When The Master dies, it draws a card for each graveyard holding seven or more cards, so the mill line refills your own hand as the opponent's library empties. Last Light of Durin's Day is the third door: with six quest counters it puts a Dragon directly onto the battlefield for free, and its Mountaincycling for two means the card never rots in hand.
+
+## Mulligan guide
+
+Keep hands with two to three lands and either a Treasure maker (The Sackville-Bagginses, Bejeweled Warg, Dori, The Misty Mountains Cold) or Stir Up Trouble. The best openers are two lands, a two-drop, and a three-drop. Mulligan one-land hands and hands with five or more lands and no engine. Because green and black are light splashes, a hand of red lands plus a Treasure maker is keepable, but a hand that can never cast a two-drop is not.
+
+## Key interactions and edge cases
+
+- Smaug the Magnificent counts Treasures you control at the moment the trigger resolves, not when you attack — do not sacrifice a Treasure for Stir Up Trouble's cost before combat if you plan to attack with Smaug.
+- The Misty Mountains Cold checks four or more Treasures after each chapter, so with Dori and Bejeweled Warg already banked it can pop its Dragon as early as chapter two.
+- Last Light of Durin's Day counts Mountains entering, not lands. The Lonely Mountain is a Mountain; Swamp and Forest are not. Search Mountains specifically if you are racing the six counters.
+- Smaug, Wicked Worm counts artifacts the opponent controls at entry, so it is weakest against creature decks and enormous against artifact and Equipment decks. Its second ability triggers on any spell cast with Treasure mana, which includes spells paid for by the Treasures it just made.
+- Snowslope Hunter's ability is once per turn and only during your turn, and it can eat the Warg's Treasure or a spent token — it is a Treasure outlet, not a Treasure tax.
+- Radagast of Rhosgobel's rebate applies to the first creature spell each turn, so sequence a cheap creature first only if you do not want the discount on a Dragon. It grants flash to the spell it discounts.
+- The Lonely Mountain enters tapped unless you control an Equipment. This list plays no Equipment, so treat it as an untapped-red-land on turn one or a tapped red source later, and do not count on the Dwarf token ability as a plan.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Desolation Prowler and Stir Up Trouble trade up; The Sackville-Bagginses chump-blocks into a card; race with Smaug's burn once the hoard hits four |
+| Midrange | Go over the top: a 6/6 flying Dragon token plus a hasted Smaug outclasses most ground boards, and Wicked Worm punishes artifact payoffs |
+| Control | Bank Treasures instead of overextending; hold Smaug until they tap out, and use Radagast's flash to deploy him at end of turn; Last Light of Durin's Day cheats a Dragon past countermagic |
+| Combo | The clock is Smaug plus the hoard; The Master of Lake-town mills their library while they dig, and Snowslope Hunter keeps your hand full of answers |
+
+# Iterations
+
+The list below is the output of the viability battery, not a first draft. One round was needed.
+
+| Round | Change | Metric delta |
+|-------|--------|--------------|
+| v1 to v2 | -2 Smaug, the Great Calamity, -1 Gundabad Opportunist, -1 The Master of Lake-town, +4 lands (2 Mountain, 1 Swamp, 1 Forest) — the first build failed on land count and curve, and the seven-mana Dragon was the least efficient way to grow the hoard | T4 0.447 goes to 0.625, P(4 lands) 0.440 goes to 0.624, sim 49.7 goes to 53.7 |
+
+Final battery: 60 cards, Standard legal, zero rotating cards, sim 53.7 percent, synergy 72.4, T4 consistency 0.625, P(4 lands by turn 4) 0.624.
+
+# Deck list (Arena import)
+
+```
+Cinder and Coin
+Deck
+3 Smaug the Magnificent
+4 The Misty Mountains Cold
+3 Dori, Bearer of Friends
+3 The Sackville-Bagginses
+3 Bejeweled Warg
+2 Smaug, Wicked Worm
+2 Last Light of Durin's Day
+2 Stir Up Trouble
+3 Radagast of Rhosgobel
+3 Snowslope Hunter
+4 Desolation Prowler
+2 The Master of Lake-town
+2 Gundabad Opportunist
+4 The Lonely Mountain
+8 Mountain
+6 Swamp
+6 Forest
+```
