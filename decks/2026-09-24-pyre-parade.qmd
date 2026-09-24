@@ -1,0 +1,181 @@
+---
+title: "Pyre Parade"
+subtitle: "White / Black / Red Celebration x Firebending — Mardu token-burst midrange"
+date: "2026-09-24"
+categories: ["combo", "Celebration", "Firebending"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Black / Red (Mardu) |
+| Archetype | Celebration x Firebending token-burst midrange (avg nonland CMC 2.78) |
+| Size | 60 cards |
+| Primary win | Token swarm plus Celebration boons: Goddric, Cloaked Reveler becomes a 4/4 flying Dragon, Gallant Pie-Wielder swings with double strike, Grand Ball Guest tramples in for 3 |
+| Secondary win | Drain burn: Vindictive Warden activations paid from Firebending mana, Pactdoll Terror and Acolyte of Aclazotz bleeding on every artifact, plus Lightning Helix and Silverquill Charm reach |
+| Land win con | Restless Fortress animates into a 1/4 Nightmare that drains 2 on every attack, and Fountainport mints Fish and Treasure tokens that keep the Celebration engine and the Pactdoll Terror drain running |
+
+# Overview
+
+Pyre Parade fuses the two mechanics rolled for today, **Celebration** and **Firebending**, into a single engine rather than running them side by side. Celebration rewards a turn in which two or more nonland permanents entered under your control; Firebending pays you red mana in combat, based on the size of the board, and that mana has to be spent before combat ends. The deck is built so each half pays the other's bill.
+
+Celebration is the enabler side. Dragon Fodder, Frontline Rush, Tinker's Tote and Heroic Reinforcements each put two bodies onto the battlefield from a single card, which switches the Celebration text on by themselves: Goddric, Cloaked Reveler stops being a 3/3 haste Human and becomes a 4/4 flying Dragon, Gallant Pie-Wielder gains double strike, Grand Ball Guest becomes a 3/3 trampler, and Ash, Party Crasher grows a +1/+1 counter every attack.
+
+Firebending is the payoff side. Sun Warriors adds one red mana per creature you control when it attacks, Firebending Student adds mana equal to its power including prowess, Azula, On the Hunt adds two, and Vindictive Warden adds one. On a wide board that is four to eight red mana per combat, spent at instant speed while the attack is still happening. Vindictive Warden turns that mana into direct damage ({3}: one damage to each opponent), Sun Warriors turns it into more Ally tokens at {5} each, Frontline Rush turns it into two Goblins mid-combat, and Silverquill Charm or Lightning Helix turns it into reach.
+
+The fusion is what makes the deck tick. The permanents that Firebending mana buys in the middle of combat also refresh Celebration for the rest of the turn, and every artifact token among them (Treasure, Clue, Gnome, Tote) drains the opponent through Pactdoll Terror. Nothing in the list is filler: thirty-seven nonland cards split between token producers, Celebration payoffs, Firebending bodies and the sinks that spend the burst.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Two-drop start: Grand Ball Guest, Firebending Student, Ash, Party Crasher or Vindictive Warden. Hold Frontline Rush or Lightning Helix as interaction |
+| Turns 2-3 | Celebration online: Dragon Fodder, Tinker's Tote or Frontline Rush puts two permanents down, then swing with the boosted board and float Firebending mana |
+| Turns 3-5 | Engine turn: Goddric, Cloaked Reveler or Sun Warriors joins; Sun Warriors alone can add four to six red mana per attack |
+| Turn 4+ | Spend the burst: Vindictive Warden drains, Sun Warriors mints Allies, Pactdoll Terror bleeds on every artifact token, Restless Fortress animates and drains 2 |
+| Late | Heroic Reinforcements and Silverquill Charm finish: hasty pump to close, or three damage to the face when the board stalls |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Firebending Student | Two-drop 1/2 with prowess; every noncreature spell grows it, and Firebending X equals its power, so a pumped Student is also a mana burst |
+| Sun Warriors | The engine's furnace: Firebending X equals the number of creatures you control, and {5} creates a 1/1 Ally token mid-combat to widen the board and keep Celebration live |
+| Vindictive Warden | Two-drop menace blocker that adds {R} on attack and converts spare mana into damage at {3} per activation |
+| Grand Ball Guest | Cheapest Celebration payoff: swings as a 3/3 trampler whenever two permanents entered this turn |
+| Goddric, Cloaked Reveler | Top payoff: hasty 3/3 that becomes a 4/4 flying Dragon with a Dragon-pumping firebreathing ability while Celebration is on |
+| Gallant Pie-Wielder | First strike becomes double strike under Celebration, which makes it the deck's best blocker deterrent and a two-hit clock |
+| Ash, Party Crasher | Hasty two-drop that gains a +1/+1 counter on every Celebration attack, so it scales without extra investment |
+| Azula, On the Hunt | 4/3 Firebending 2 attacker that also makes a Clue on every attack: a card, an artifact that drains through Pactdoll Terror, and a permanent that keeps Celebration on |
+| Pactdoll Terror | The drain payoff: every artifact that enters (Treasure, Clue, Gnome, Tote) bleeds each opponent for 1 |
+| Acolyte of Aclazotz | Free sac outlet: taps to trade a spare token or artifact for a drain and a life, and turns used Clues into reach |
+| Dragon Fodder | Two Goblins from one card, which is exactly the Celebration requirement |
+| Frontline Rush | Instant-speed two tokens, or a lethal +X/+X where X is your creature count; castable in combat with Firebending mana |
+| Tinker's Tote | Two artifact creature tokens on entry (Celebration plus two Pactdoll Terror triggers) and a life-gain sac later |
+| Heroic Reinforcements | Two Soldiers plus a team-wide +1/+1 and haste: the alpha-strike card |
+| Lightning Helix | Three damage and three life at instant speed, payable with the Firebending burst |
+| Silverquill Charm | Flexible instant: two +1/+1 counters for a lethal swing, exile a small creature, or drain 3 |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Fortress | The land win condition: {2}{W}{B} animates it into a 1/4 Nightmare that deals 2 to the defending player and gains you 2 on every attack, so a stalled board still loses life |
+| Fountainport | Colourless engine land: {3}, pay 1 life and tap for a 1/1 Fish, {4} for a Treasure (a Pactdoll Terror trigger), and {2} plus a token to draw a card |
+| Sun-Blessed Peak | Red-white fixer that cashes itself in for a card late |
+| Shadowy Backstreet | White-black fixer with surveil 1, which also feeds the Silverquill Charm and Acolyte lines |
+| Concealed Courtyard | Untapped white-black early, which is what a two-drop-heavy curve needs |
+| Sacred Foundry, Blood Crypt, Godless Shrine | Untapped three-colour fixing for 2 life; the shocks are what let Sun Warriors and Heroic Reinforcements be cast on time |
+
+## Curve and mana
+
+| Bucket | Count | Notes |
+|--------|-------|-------|
+| One mana | 0 | Ash, Party Crasher is the cheapest play at two |
+| Two mana | 20 | The core: Firebending Student, Grand Ball Guest, Vindictive Warden, Ash, plus the token spells |
+| Three mana | 8 | Goddric, Gallant Pie-Wielder, Tinker's Tote, Acolyte of Aclazotz |
+| Four mana | 9 | Sun Warriors, Azula, Pactdoll Terror, Heroic Reinforcements |
+
+| Source | Count |
+|--------|-------|
+| White | 16 |
+| Black | 13 |
+| Red | 10 (Vindictive Warden's hybrid symbol adds effectively four more) |
+| Colourless | 2 (Fountainport) |
+
+Total 23 lands, 37 nonland cards, average nonland CMC 2.78. Seventeen of the 23 lands enter untapped (nine shocks, three Concealed Courtyard, two Fountainport, three basics) and only six enter tapped, which keeps the turn two and turn three plays on schedule.
+
+# Gameplay strategy
+
+## Early game
+
+Deploy two-drops and pick the axis you drew into. If the opener has a two-permanent spell (Dragon Fodder, Tinker's Tote, Heroic Reinforcements) alongside a Celebration creature, play the spell first, then attack with the pump already active. If it has Sun Warriors plus a couple of bodies, play the board first and hold the token spells for the combat step, where the Firebending mana pays for them.
+
+Do not trade away Vindictive Warden or a pre-Celebration Goddric just to add a point of damage. The deck wins by attacking on turns four through six with a board that is two to four power larger than it looks.
+
+## Mid game and the combo turn
+
+The signature turn looks like this:
+
+| Step | Action |
+|------|--------|
+| Main phase 1 | Cast Dragon Fodder or Tinker's Tote, then Heroic Reinforcements if you have it. Two or more nonland permanents have now entered this turn |
+| Attackers | Declare Sun Warriors, Firebending Student, Vindictive Warden, Goddric, Party Crasher. Celebration is on, so Goddric swings as a 4/4 flyer, Grand Ball Guest as a 3/3 trampler, Gallant Pie-Wielder with double strike |
+| Firebending triggers | Sun Warriors adds red equal to your creature count, each other firebender adds its own, all lasting until end of combat |
+| Combat, instant speed | Spend it: Vindictive Warden for 1 damage each at {3}, Sun Warriors for an Ally token at {5}, Frontline Rush for two more Goblins at {R}{W}, Silverquill Charm for drain 3, Lightning Helix for 3 damage |
+| Damage and end of turn | Combat damage resolves on an inflated board; every token or artifact that arrived in combat still counts, so Celebration stays live for the rest of the turn |
+
+The order matters: Firebending mana empties at end of combat, so every Vindictive Warden activation and every instant has to be spent before the damage step ends. Float first, then commit.
+
+## Win condition 2: the drain line
+
+When the ground stalls, the deck does not need to attack to win. Pactdoll Terror drains 1 for every artifact that enters, and the deck produces artifacts constantly: Treasure from Fountainport, Clues from Azula, Gnome tokens from Tinker's Tote, and the Tote itself. Acolyte of Aclazotz taps to convert any spare token into another drain and life. Restless Fortress animates and drains 2 per attack without costing a card. Vindictive Warden's {3} ability converts the entire Firebending burst into direct damage, and Silverquill Charm's third mode deals 3 on its own. Against a deck that can block all day, this is the plan: never attack into a wall, just bleed and hold Restless Fortress back as a blocker.
+
+## Mulligan guide
+
+| Keep | Ship |
+|------|------|
+| Two or three lands plus a two-drop and a two-permanent spell (Dragon Fodder, Tinker's Tote, Frontline Rush) | Zero or one land, or five lands |
+| Any hand with Sun Warriors and three lands: the mana burst carries the mid game | All four-drops with no early bodies, unless a shock or fastland makes turn three Heroic Reinforcements certain |
+| One-land hands with Frontline Rush and a two-drop only if the single land is a shock or fastland | Hands with only payoffs and no enabler: Celebration creatures with nothing to turn them on |
+
+The deck needs 23 lands to hit its four four-drops, so a two-land hand with a realistic turn three play is fine, but a one-land hand is not.
+
+## Key interactions and edge cases
+
+- **Firebending mana expires at end of combat.** It is not end-of-turn mana: any unspent red is gone before your second main phase. Sequence the drains and instants inside combat.
+- **Celebration checks the whole turn.** A permanent that enters during the combat step still counts, so a Clue from Azula or an Ally from Sun Warriors keeps Goddric a Dragon after the attack, and the static parts of Grand Ball Guest and Gallant Pie-Wielder stay on through the end step.
+- **Celebration payoffs differ in timing.** Goddric, Grand Ball Guest and Gallant Pie-Wielder are continuous, so they are live as soon as the second permanent lands. Ash, Party Crasher checks on attack, which means a Clue made by another attacker during combat does not retroactively grow him: sequence that permanent in the first main phase if you want the counter.
+- **Sun Warriors counts creatures, not power.** Token spells cast before combat inflate the mana burst directly, which is why Dragon Fodder and Tinker's Tote are the best turn-three plays before a Sun Warriors attack.
+- **Firebending Student pumps with prowess.** Frontline Rush, Lightning Helix and Silverquill Charm all grow it, and its Firebending X equals its power at the moment it attacks, so casting an instant in the first main phase adds both damage and mana.
+- **Fountainport's Fish is a token, not an artifact.** It counts for Celebration but not for Pactdoll Terror; its Treasure mode is the one that drains.
+- **Acolyte of Aclazotz needs another permanent.** It cannot sacrifice itself, so keep a Goblin, Fish, Clue or Tote around as fuel.
+- **Restless Fortress enters tapped.** Animate it only when you can also afford to keep the drain attacker profitable; a 1/4 that dies to a removal spell is worse than a land.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro (red or white weenies) | Race with Grand Ball Guest and Gallant Pie-Wielder; Lightning Helix and Silverquill Charm's exile mode trade up, and Acolyte of Aclazotz's lifegain buys the extra turn the drain line needs |
+| Midrange and ramp | Do not overcommit into sweepers: keep a token spell in hand, rebuild two permanents in one turn, and lean on Pactdoll Terror plus Vindictive Warden drains so the clock does not depend on the board |
+| Control | Play one threat at a time until they tap out, hold Frontline Rush as a combat trick, and use Azula's Clues and Fountainport to out-card them; Heroic Reinforcements plus Firebending mana is the burst that ends a tapped-out control turn |
+| Combo | Attack first, remove the combo piece with Lightning Helix or Silverquill Charm, and use Vindictive Warden's menace body to keep blockers honest while the drain finishes |
+
+## Deck list (Arena import)
+
+```
+Pyre Parade
+Deck
+4 Firebending Student
+3 Sun Warriors
+3 Vindictive Warden
+3 Grand Ball Guest
+2 Goddric, Cloaked Reveler
+2 Gallant Pie-Wielder
+2 Ash, Party Crasher
+2 Azula, On the Hunt
+2 Pactdoll Terror
+2 Acolyte of Aclazotz
+2 Dragon Fodder
+2 Frontline Rush
+2 Tinker's Tote
+2 Heroic Reinforcements
+2 Lightning Helix
+2 Silverquill Charm
+4 Sacred Foundry
+3 Blood Crypt
+2 Godless Shrine
+3 Concealed Courtyard
+2 Sun-Blessed Peak
+2 Shadowy Backstreet
+2 Fountainport
+2 Restless Fortress
+1 Mountain
+1 Swamp
+1 Plains
+```
