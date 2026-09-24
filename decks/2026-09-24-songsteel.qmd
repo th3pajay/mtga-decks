@@ -1,0 +1,159 @@
+---
+title: "Songsteel"
+subtitle: "Red / White with a blue splash — Storied Dwarves, Equipment, and the enduring story"
+date: "2026-09-24"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White with a blue splash |
+| Archetype | Storied Dwarves — legendary Dwarf core, Equipment, and a token swarm (avg nonland CMC 2.72) |
+| Size | 60 cards |
+| Primary win | An anthem-boosted Dwarf swarm: Fíli the Pathfinder makes a 2/2 token on every nontoken Dwarf entry, An Unexpected Party adds +2/+2 to Dwarves, Dwalin, Weaponmaster stacks hone counters on the Equipment, and Dáin Ironfoot gives every equipped attacker double strike |
+| Secondary win | Balin, Loremaster turns the same entry triggers into a drain kill: with an enduring story, each Dwarf that enters lets you discard your hand, redraw that many cards, and deal that much damage to each opponent — doubled by Bifur, Melodic Rider |
+| Land win con | The Lonely Mountain is a Mountain-typed land that creates a 2/2 red Dwarf token every turn for four red minus one per Equipment you control, so the land itself keeps the swarm coming |
+
+# Overview
+
+Songsteel is today's The Hobbit set identity deck, and it takes the Storied Dwarves axis rather than the amass Goblins, the Smaug and Treasure hoard, or the Elf legends. The thesis: the set's Storied mechanic is a switch, and this deck flips it on turn three and never looks back.
+
+Storied reads "if you control three or more artifacts, legendaries, and/or Sagas, you have an enduring story for the rest of the game." The deck carries twenty-six legendary cards and two Equipment, plus Axe Equipment tokens from Iron Hills Blacksmith and Dáin Ironfoot, so two Dwarves and one Axe is enough to turn the story on permanently. Once it is on, four cheap Dwarves become finishers: Fíli the Pathfinder gives every creature +1/+1 and mints a 2/2 Dwarf token on each nontoken Dwarf entry, Thorin Oakenshield gives your whole board ward {1}, Dáin, Lord of the Iron Hills taxes every attacker for {1}, Kíli the Resourceful makes the first equip of each turn free, and Óin the Brave gains haste.
+
+The kill comes from volume plus Equipment. Dáin Ironfoot makes an Axe on entry and grants double strike to every equipped attacker; Dwalin, Weaponmaster puts a hone counter on each Equipment whenever he enters or attacks, and each counter is +1/+0 to the equipped creature; The Black Arrow is a three-mana flash Equipment with equip {1} that also pings for 1 on entry. An Unexpected Party named Dwarf adds +2/+2 on top. Five or six Dwarves with two Axes and an anthem is 20-plus damage no single blocker can stop.
+
+The second line is a burn kill. Balin, Loremaster, with the story active, makes every Dwarf entry drain each opponent for your hand size, and Bifur, Melodic Rider doubles every Dwarf triggered ability — including Fíli's tokens, Kíli's draw, and the Axe-making of Dáin Ironfoot and Iron Hills Blacksmith. Bifur plus Balin and two more Dwarves is often lethal without a single attack step.
+
+The Hobbit set (hob, 193 cards) landed on Arena on 2026-08-14; the import list below works from that date.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | No one-drops: the deck's first play is a two-drop. Thorin Oakenshield (3/2 trample), Iron Hills Blacksmith (Axe plus double strike), Kíli the Resourceful (draw engine), Dáin, Lord of the Iron Hills, Óin the Brave, or Dwalin, Weaponmaster |
+| Turns 3-4 | Story online: any third artifact or legendary flips Storied permanently, then Fíli the Pathfinder arrives and starts converting every Dwarf into two bodies |
+| Turns 4-6 | Combo turn: Dáin Ironfoot plus Axe tokens, An Unexpected Party named Dwarf, and a full attack step with double strike on every equipped attacker |
+| Turn 6+ | Two finishers: the drain loop (Bifur plus Balin) or the land engine — The Lonely Mountain makes a token each turn for as little as {1}{R} once three Equipment are in play |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Fíli the Pathfinder | The engine: 3/2 for four that, with an enduring story, gives all creatures +1/+1 and creates a 2/2 red Dwarf token whenever Fíli or another nontoken Dwarf enters |
+| Kíli the Resourceful | Card flow: draws on the first Dwarf or Equipment that enters each turn, and with the story active the first equip each turn costs {0} instead of its equip cost |
+| Iron Hills Blacksmith | Two-mana 1/1 double strike that makes an Axe Equipment token on entry — the cheapest way to add both a body and an artifact to the board |
+| Dáin Ironfoot | Primary payoff: makes an Axe on entry, and each attack gives every equipped attacking creature double strike until end of turn |
+| Dwalin, Weaponmaster | Equipment scaling: first strike, and a hone counter on each Equipment whenever he enters or attacks, each counter granting +1/+0 to the equipped creature |
+| Thorin Oakenshield | Two-mana 3/2 trampler; with the story up, all your artifacts and creatures have ward {1}, which makes removal and combat tricks expensive |
+| Óin the Brave | One of four two-mana legendaries; with the story he gains haste and becomes a repeatable loot engine ({1}, tap, discard a card: draw a card) |
+| Dáin, Lord of the Iron Hills | Story enabler and defensive tax: while you have an enduring story, opponents must pay {1} per creature just to attack you |
+| An Unexpected Party | The anthem and the token burst: choose Dwarf and your team gets +2/+2; cast it as the Adventure At the Door instead for X 2/2 red Dwarf tokens, then the enchantment later from exile |
+| Bifur, Melodic Rider | Force multiplier: 4/5 for four that puts a +1/+1 counter on a creature when he enters or attacks, and doubles every Dwarf triggered ability once the story is on |
+| Balin, Loremaster | Secondary win: every Dwarf entry (including Balin himself) may discard your hand, redraw that many, and, with the story up, deal that much damage to each opponent |
+| Dwarven Provisioner | Two-mana 2/2 body and a mana sink: three white and one generic pumps the whole team +1/+1 until end of turn |
+| Iron Hills Stalwart | Five-mana 4/5 with reach and trample that re-attaches an Equipment when it enters — it moves a stranded Axe onto a token or a fresh threat |
+| The Black Arrow | Legendary Equipment with flash: 1 damage to any target on entry (destroying a Dragon hit this way), +1/+1 and reach to the equipped creature, and equip {1} |
+| Bilbo Baggins, Burglar | The blue splash: a legendary 2/1 that draws a card on entry and adds the third colour; the Adventure scries 2 before you commit |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | The win-con land: it is a Mountain, it enters untapped once you control an Equipment, and for four red minus {1} per Equipment you control it makes a 2/2 red Dwarf token each turn |
+| Mystic Monastery | The three-colour fixer: enters tapped, taps for blue, red, or white, and it is the reason a red-white deck can cast Bilbo Baggins on curve |
+| Temple of Epiphany | Blue and red source that scries 1 on entry — the deck's only library manipulation outside Bilbo's Adventure |
+| Plains | Primary white source at nine copies; white carries the two-drop core |
+| Mountain | Red source at five copies, and the fifth land type that makes The Lonely Mountain's token ability castable early |
+
+## Curve and mana
+
+24 lands: 4 The Lonely Mountain, 4 Mystic Monastery, 2 Temple of Epiphany, 9 Plains, 5 Mountain. White sources 13, red sources 15, blue sources 6. Six of the lands enter tapped, which is why the deck wants nothing cheaper than two mana: turn one is a tapped dual or a basic, and every real play starts on turn two.
+
+Nonland curve: 2-drop x22, 3-drop x6, 4-drop x5, 5-drop x2, 6-drop x1. Average nonland CMC 2.72. The deck is nineteen-percent six-plus drops by design — the swarm is cheap, the payoffs are legendaries, and Dwarven Provisioner turns surplus mana into +1/+1.
+
+# Gameplay strategy
+
+## Early game
+
+The deck has no one-drop, so turn one is a land and nothing else. Turn two is the identity decision. Iron Hills Blacksmith is the best aggressive start: a 1/1 double strike plus an Axe token gives you two of the three Storied requirements before turn three. Thorin Oakenshield is the best defensive start: 3/2 trample blocks well and makes the board expensive to attack into once the story turns on.
+
+Sequence Kíli the Resourceful after another Dwarf when possible — his draw fires on the first Dwarf or Equipment that enters each turn, so leading with him wastes the trigger on himself. Óin the Brave and Dáin, Lord of the Iron Hills exist to turn the story on early and to make the opponent's attack step awkward.
+
+## Mid game
+
+Turn three to five is where the deck separates. Fíli the Pathfinder converts every subsequent nontoken Dwarf into two permanents — the Dwarf plus a 2/2 red token — and once the story is active, both get +1/+1 from his static ability. Play the cheap Dwarf first and Fíli second: that way Kíli's once-per-turn draw and Fíli's token come from the same turn.
+
+The Axe count matters more than it looks. Every Equipment is a Storied requirement, a Dwalin hone counter target, a discount on The Lonely Mountain's token ability, and an extra double-striking attacker once Dáin Ironfoot is on the board. Iron Hills Stalwart is in the list mainly to move an Axe from a dead Dwarf onto a live one.
+
+## The combo turn
+
+1. Story check. Three or more artifacts, legendaries, and/or Sagas: typically Fíli, Kíli or Óin, and an Axe or The Black Arrow. Once achieved, it lasts the rest of the game.
+2. Assemble Equipment. Dáin Ironfoot or Iron Hills Blacksmith makes an Axe; The Black Arrow and Dwarven Provisioner fill the curve. Kíli makes the first equip free.
+3. Anthem up. An Unexpected Party naming Dwarf gives every Dwarf +2/+2; Dwarven Provisioner's activated ability adds another +1/+1 for four mana.
+4. Attack with Dáin Ironfoot. Each equipped attacking creature gains double strike until end of turn. A 2/2 token with an Axe and +2/+2 is a 5/5 double strike, so ten damage per token that connects.
+
+A typical kill from an empty board: Fíli the Pathfinder, two Dwarves, and Dáin Ironfoot over two turns is four bodies; add two Axes and An Unexpected Party and the attack step is 20-plus damage across double-striking attackers.
+
+## Win condition 2
+
+Balin, Loremaster is a burn spell disguised as a 4/4. Whenever Balin or another Dwarf enters, you may discard your hand, draw that many cards, and, if you have an enduring story, Balin deals that much damage to each opponent. With five cards in hand, that is five damage to each opponent and a fresh five-card hand. Bifur, Melodic Rider makes every Dwarf triggered ability trigger an additional time, and the second drain resolves after the first redraw, so it drains for the new hand size too. Balin plus Bifur plus two cheap Dwarves is often ten to sixteen points without an attack step, and each entry refills your hand, so the loop does not run out of cards.
+
+The land backs this up. The Lonely Mountain needs four red minus one per Equipment, so with three Equipment out the token costs {1}{R}, and the token is a Dwarf: it triggers Fíli and Balin and becomes another drain trigger the following turn. That is the slow, inevitable half of the deck.
+
+## Mulligan guide
+
+Keep two to four lands with at least two Dwarves. Because the deck has twenty-two two-drops, almost any two lands plus any two Dwarves is keepable; the ideal opener is a white source, a red source, Iron Hills Blacksmith or Thorin Oakenshield, and a second Dwarf for turn three. Mulligan hands with fewer than two lands, hands with six or more lands and no Dwarf, and hands whose only blue source is Bilbo Baggins — the splash is a bonus, never a plan. With six tapped lands in the mana base, treat a hand of one tapped dual plus one basic as a functional two-land hand only if it casts a two-drop on turn two.
+
+## Key interactions and edge cases
+
+- Storied is a state check on permanents you control, not a spell count: Equipment tokens, legendary creatures, and Sagas all count, and an enduring story persists for the rest of the game even if you lose the board. An Unexpected Party is an enchantment — it does not help turn the story on.
+- Kíli the Resourceful draws only once each turn, and his free-equip clause applies only to the first equip ability you activate each turn. Play the permanent you want to draw off first.
+- Equip is sorcery speed, and Dáin Ironfoot's double strike trigger happens when he attacks, so attach every Axe and The Black Arrow before combat — re-equipping mid-combat does not retroactively grant double strike.
+- Dwalin, Weaponmaster's hone counters sit on the Equipment, not the creature, so the bonus moves with the Axe if you re-equip it.
+- Balin, Loremaster's discard is optional and resolves as one effect: you discard the hand you have, then draw that many. Discarding a land-heavy hand is a deliberate gamble on the redraw.
+- Bifur, Melodic Rider doubles triggered abilities of Dwarves only — Fíli's token, Kíli's draw, Dáin Ironfoot's Axe, Balin's drain, and his own +1/+1 counter trigger, but not Fíli's static anthem or Thorin's ward.
+- The Black Arrow has flash and equip {1}: cast it on the opponent's turn to ping a one-toughness attacker or a key utility creature, and its anti-Dragon clause is a clean answer to Smaug decks.
+- The Lonely Mountain enters tapped unless you control an Equipment, so keep an Axe or The Black Arrow around before playing it if you want the untapped red source on curve; Iron Hills Stalwart's enter trigger can move an Equipment to blank a removal spell or re-attach after a wipe.
+- Óin the Brave's loot costs one mana and taps him, and his discard is a real cost when a Balin drain is coming — loot before casting Dwarves, not after.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Thorin Oakenshield's storied ward and Dáin, Lord of the Iron Hills' {1}-per-attacker tax slow the race; The Black Arrow pings the key one-toughness attacker; Fíli tokens trade in combat, and double strike lets your Equipment'd creatures eat two blockers |
+| Midrange | Go wider than they can: Fíli makes a token per nontoken Dwarf and An Unexpected Party puts the whole team above their best blocker; Balin's drain ignores the ground stall entirely |
+| Control | Do not overcommit into sweepers: cast one threat plus Kíli, keep The Black Arrow in hand with flash up, and lean on storied ward {1} to make targeted removal cost extra; the drain kill needs only one Dwarf entry |
+| Combo | Race with the double-strike alpha strike, and keep The Black Arrow's flash ping for their key utility creature; Bifur plus Balin can kill through a board stall while they assemble |
+
+# Deck list (Arena import)
+
+```
+Songsteel
+Deck
+4 Thorin Oakenshield
+4 Kíli the Resourceful
+4 Iron Hills Blacksmith
+3 Fíli the Pathfinder
+3 Óin the Brave
+2 Dáin Ironfoot
+2 Dáin, Lord of the Iron Hills
+2 Dwalin, Weaponmaster
+2 An Unexpected Party
+1 Bifur, Melodic Rider
+1 Balin, Loremaster
+3 Dwarven Provisioner
+1 Iron Hills Stalwart
+2 The Black Arrow
+2 Bilbo Baggins, Burglar
+4 The Lonely Mountain
+4 Mystic Monastery
+2 Temple of Epiphany
+9 Plains
+5 Mountain
+```

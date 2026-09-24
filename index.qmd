@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-09-24**:
 
+- **[Songsteel](decks/2026-09-24-songsteel.html)** — Red / White with a blue splash — Storied Dwarves, Equipment, and the enduring story  `hobbit` `dwarves`
 - **[Pyre Parade](decks/2026-09-24-pyre-parade.html)** — White / Black / Red Celebration x Firebending — Mardu token-burst midrange  `combo` `Celebration` `Firebending`
