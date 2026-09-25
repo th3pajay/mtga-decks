@@ -1,0 +1,163 @@
+---
+title: "Stoke the Veins"
+subtitle: "Black / Red / Green Firebending x Infusion — Jund attack-trigger combo"
+date: "2026-09-25"
+categories: ["combo", "Firebending", "Infusion"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Attack-trigger aggro-combo (avg nonland CMC 2.39) |
+| Size | 60 cards, 24 lands |
+| Primary win | Combat: Infusion-doubled pump spells on trampling Pests and firebenders, closed out with an unblockable attacker |
+| Secondary win | Drain: Fire Nation Palace grants Firebending 4 to any creature, and that red burst pays for Vindictive Warden activations and Foolish Fate drains |
+| Land win con | Fire Nation Palace ({1}{R}, {T}: a creature gains firebending 4) and Rogue's Passage ({4}, {T}: unblockable) — the deck's kill turns are made by lands |
+
+# Overview
+
+Stoke the Veins fuses the two mechanics rolled for the day, **Firebending** and **Infusion**, into one turn cycle instead of running them side by side. Firebending pays red mana when a creature attacks, and that mana expires at end of combat. Infusion upgrades a spell only if you gained life this turn. The deck is built so that the same attack step delivers both halves: Pests and Teacher's Pest gain life as they attack, firebenders add red in the same window, and the red is immediately spent on Infusion instants that are already switched on.
+
+Infusion is the payoff side. Lumaret's Favor targets one creature for +2/+4 and copies itself when you have gained life, which is +4/+8 across two bodies for two mana. Efflorescence puts two +1/+1 counters on a creature and, with life gained, grants trample and indestructible. Foolish Fate destroys a blocker and drains 3. Follow the Lumarets keeps the engine fed by digging two creature or land cards deep. Every one of those cards is a full-rate card on a turn where a Pest has attacked, and a half-rate card on a turn where it has not, which is exactly why the deck runs twelve lifegain triggers.
+
+Firebending is the mana side. Firebending Student, Fire Sages and Vindictive Warden each add red when they attack, and Firebending Student adds mana equal to its power, so prowess triggers and pump spells convert directly into more mana in later combats. That red is what pays for the Infusion instants during combat, for Vindictive Warden's {3} activations, and for the generic half of every pump spell.
+
+The bridge between the halves is the Pest. Moseo, Vein's New Dean and Send in the Pest both create 1/1 Pests with "whenever this token attacks, you gain 1 life", and Teacher's Pest gains life on its own attacks. Those triggers resolve in the same declare-attackers window as the firebending triggers, so the deck can order its own stack: gain the life first, add the red second, then cast the doubled spell with both conditions satisfied. Pest Mascot and Blech, Loafing Pest turn every one of those lifegain triggers into +1/+1 counters, so the board grows as a by-product of casting spells that were going to be cast anyway.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Two-drop start on a tapland: Teacher's Pest, Bogwater Lumaret, Firebending Student or Fire Sages. Hold Lumaret's Favor as the first pump |
+| Turns 2-3 | First engine turn: attack with a Pest or a firebender, gain life, float red, cast one Infusion spell during combat |
+| Turns 3-5 | Widen: Moseo makes a Pest, Send in the Pest makes another while stripping a card, Pest Mascot and Blech start stacking counters |
+| Turn 5+ | Alpha strike: Efflorescence for indestructible trample, Rogue's Passage to remove the last blocker, Lumaret's Favor copied across two attackers |
+| Late | Fire Nation Palace converts any surviving creature into a four-mana firebender; the burst pays for Vindictive Warden drains when the ground stalls |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Firebending Student | Two-drop 1/2 with prowess; every Infusion spell grows it, and its Firebending X equals its power, so a pumped Student is also a bigger mana burst |
+| Fire Sages | Two-drop 2/2 firebender that adds one red per attack and can sink spare mana into a +1/+1 counter at {1}{R}{R} |
+| Vindictive Warden | Two-drop menace body that adds red on attack and converts spare red into damage: {3} deals 1 to each opponent, repeatable as long as the burst lasts |
+| Teacher's Pest | The cheapest lifegain attacker: a 1/1 menace that gains 1 life on every attack and can be rebought from the graveyard tapped for {B}{G} |
+| Bogwater Lumaret | Lifegain on every creature entry, including Pest tokens, which keeps Infusion live through the whole turn |
+| Moseo, Vein's New Dean | Pest factory and recursion engine: flying 2/1 that makes a lifegain Pest, then returns a creature from the graveyard at end of turn with mana value up to the life gained that turn |
+| Pest Mascot | Trampling 2/3 that gains a +1/+1 counter on every lifegain trigger; the deck's most consistent win condition |
+| Blech, Loafing Pest | Puts a counter on every Pest on every lifegain trigger, so Pest tokens, Teacher's Pest and Pest Mascot all grow at once |
+| Lumaret's Favor | The engine's headline spell: +2/+4 that copies itself when life was gained this turn |
+| Efflorescence | Two counters plus, under Infusion, trample and indestructible: the lethal-combat trick and the removal-proof answer in one card |
+| Foolish Fate | Unconditional creature destruction plus a 3-life drain when Infusion is on: removal that also advances the drain plan |
+| Send in the Pest | Two mana for a discard and a lifegain Pest token: the cheapest way to turn Infusion on while adding a body |
+| Follow the Lumarets | Infusion card selection, revealing one creature or land, or two when life was gained |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Fire Nation Palace | The land win condition: {1}{R} and a tap grant a creature firebending 4, so any Pest or leftover creature adds {R}{R}{R}{R} on attack; that red pays for Vindictive Warden drains and Infusion instants |
+| Rogue's Passage | Second win-con land: {4}, {T} makes the pumped attacker unblockable, which is how a 4/5 Pest Mascot or a pumped Student connects through a stalled board |
+| Bloodfell Caves | Black-red tapland that gains 1 life on entry, which switches Infusion on in the same turn it is played |
+| Illegitimate Business | The green half of the same idea: black-green tapland, 1 life on entry, Infusion online before the first main phase spell |
+| Dark Fortress | Untapped black-red source as long as it entered this turn or you control a basic land |
+| Overgrown Tomb | Black-green shock land; the 2 life is irrelevant in a deck that gains life every combat |
+| Razortrap Gorge | Black-red land that enters untapped once either player is at 13 or less life, which is most of the game for an attacking deck |
+| Forest, Swamp, Mountain | Basic lands, three green, two black, one red, with the taplands and shocks supplying double-coloured fixing |
+
+## Curve and mana
+
+Twenty-four lands support a curve where twenty-one of the thirty-six nonland cards cost two or less. The deck wants two coloured sources by turn two and three by turn four, which the twelve untapped black and green sources plus the eight lifegain taplands deliver. Red is the splash colour for the firebenders, and every red card in the list is castable at two or three mana, or in the case of Vindictive Warden, with black mana through the {B/R} hybrid symbol. Green is the Infusion colour: Lumaret's Favor, Efflorescence and Follow the Lumarets are all green, so the manabase keeps nine green sources without slowing the black-red core.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a tapland that gains life, because turning Infusion on for free is worth more than the tempo. Turn two is Teacher's Pest, Bogwater Lumaret or Firebending Student. Turn three is the pivot: attack with whatever has summoning sickness clear, gain life from the Pest, then either cast Lumaret's Favor on the attacking creature before blockers are declared or hold it for a later combat where the copy matters more. Using the first Infusion spell as a two-for-one on two attackers is the goal, not a one-for-one pump.
+
+## The combo turn
+
+The engine turn is one declare-attackers window and it resolves in a fixed order.
+
+| Step | Action |
+|------|--------|
+| Declare attackers | Attack with every Pest, Teacher's Pest, firebender and Pest Mascot that can profit |
+| Stack the attack triggers | Put the firebending triggers on the stack first and the lifegain triggers on top, so the life is gained before the red arrives |
+| Resolve | Pest and Teacher's Pest triggers gain 1 life each, Bogwater Lumaret triggers add on any creature entry, and then each firebender adds its red, all lasting until end of combat |
+| Spend | With life gained and red floating, cast Lumaret's Favor (copied for +4/+8), Efflorescence (counters plus trample and indestructible), Foolish Fate (destroy and drain 3) or Follow the Lumarets, or activate Vindictive Warden at {3} per damage |
+| Damage and end step | An indestructible trampler ends the game or survives it; Moseo's Infusion trigger then returns a creature with mana value up to the life gained this turn |
+
+The sequencing rule is absolute: firebending mana empties at end of combat, so every Infusion spell and every Vindictive Warden activation has to be spent inside the combat phase. Do not plan to use that red in the second main phase.
+
+## Win condition 2: the drain line
+
+When the board stalls, the deck stops needing combat damage. Fire Nation Palace grants firebending 4 to a single creature for {1}{R}, and a creature with firebending 4 adds four red mana on attack. Four red pays a Vindictive Warden activation with one mana to spare, so with two Wardens on the board the Palace alone converts one attack into 2 damage to each opponent, or 6 damage across three attackers. Foolish Fate adds 3 more life loss every time it is cast with Infusion on, and the Pest tokens keep attacking for chip damage. This line also sidesteps blockers entirely: Palace mana is paid before damage, and Rogue's Passage takes the ground game out of the equation when the drain is not enough.
+
+## Mulligan guide
+
+| Keep | Ship |
+|------|------|
+| Two or three lands with a Pest or Firebending Student and one Infusion spell | One-land hands without a tapland that gains life |
+| Any hand with Moseo, Vein's New Dean plus two lands: the Pest it makes is both a lifegain trigger and a chip attacker | Hands of only payoffs and pumps with no lifegain source: Infusion spells at half rate lose to everything |
+| Hands with a lifegain tapland, Teacher's Pest and Lumaret's Favor, even with a single Forest in play | Fives and sixes of lands, or Vindictive Warden plus removal with no threat to pressure |
+
+The deck wins on turn five or six, so a hand without a two-drop is a mulligan even if the colours are perfect; a hand with two lands, a Pest and a pump is a keep even if the third land costs two life.
+
+## Key interactions and edge cases
+
+- **Infusion checks the whole turn, not just combat.** Bloodfell Caves and Illegitimate Business gain 1 life as they enter, so a spell cast in the first main phase of the turn a tapland lands is already doubled. Bogwater Lumaret does the same for every creature that follows it.
+- **Losing life never turns Infusion off.** Overgrown Tomb's 2 life, Razortrap Gorge's pain and combat damage are all irrelevant; only "gained life this turn" matters.
+- **Firebending mana dies with the combat step.** There is no window in the second main phase. Cast the pump, the removal and the drain activations while attackers are still attacking.
+- **Firebending Student's X is its power at the moment the trigger resolves.** Casting Lumaret's Favor after attackers are declared does not retroactively increase its mana, but it does make next turn's burst larger.
+- **Efflorescence is only a trick with Infusion on.** Without life gained it is two counters at sorcery speed value; with Infusion it is indestructible plus trample, which is the card that beats a wipe or a trade.
+- **Vindictive Warden costs {3} of any colour.** Fire Nation Palace's four red mana, the burst from a firebender attack and even spare basic lands all pay for it; it is the deck's best mana sink once the ground is locked.
+- **Teacher's Pest and Moseo are a loop, not a one-shot.** {B}{G} returns Teacher's Pest tapped for another lifegain attack, and Moseo returns whatever the Pest traded with, so a stalled board still generates Infusion fuel every turn.
+- **Blech, Loafing Pest is legendary.** Hold the second copy as recursion fodder for Moseo or a Pest attack trigger rather than deploying a dead card.
+- **Rogue's Passage needs {4} plus its own activation tap.** Plan the alpha strike a turn ahead, and remember that the same four mana cannot also pay a Vindictive Warden activation.
+- **Dark Fortress needs a basic land or its first turn.** It is an untapped source on the turn it enters and a reliable black-red source once a Forest, Swamp or Mountain is down.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Gain the life back: Pest attacks, Bogwater Lumaret entries and the lifegain taplands turn their race into your race, and Efflorescence with Infusion on blanks a removal spell or a big attacker for the turn |
+| Midrange | Do not trade pumps for single blocks; keep attackers wide, use Foolish Fate plus drain as removal-on-advantage and grind with Moseo's end-step recursion |
+| Control | Play one threat at a time, keep two mana up for Lumaret's Favor as a combat trick, and hold Follow the Lumarets for the turn they tap out; Pest Mascot's trample plus Rogue's Passage ends a tapped-out control player |
+| Combo | Attack first, aim Foolish Fate at the combo piece, and race with the Pest board; the deck's clock is fast enough to force a combo deck to play defense |
+| Ramp and big mana | Use Rogue's Passage and Vindictive Warden drains to push damage without walking into their blockers, and keep firebending mana available as the burst that finishes after their big play |
+
+## Deck list (Arena import)
+
+```
+Stoke the Veins
+Deck
+4 Firebending Student
+3 Fire Sages
+3 Vindictive Warden
+4 Teacher's Pest
+3 Bogwater Lumaret
+2 Moseo, Vein's New Dean
+2 Pest Mascot
+1 Blech, Loafing Pest
+4 Lumaret's Favor
+3 Efflorescence
+3 Foolish Fate
+2 Send in the Pest
+2 Follow the Lumarets
+2 Fire Nation Palace
+4 Bloodfell Caves
+3 Illegitimate Business
+3 Dark Fortress
+3 Overgrown Tomb
+2 Razortrap Gorge
+1 Rogue's Passage
+3 Forest
+2 Swamp
+1 Mountain
+```
