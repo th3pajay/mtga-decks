@@ -1,0 +1,176 @@
+---
+title: "Verdant Liege"
+subtitle: "Green and blue with a black splash - Elf legends, landfall tokens, and lands that attack"
+date: "2026-09-25"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Green and blue with a black splash |
+| Archetype | Elf legends fused with landfall - every Elf in the list either feeds a land into play or turns a land into damage (average nonland CMC 3.57) |
+| Size | 60 cards |
+| Primary win | The landfall swarm: Thranduil, Sindarin Liege gives every other Elf +1/+1 and makes a 1/1 green Elf token on every landfall, Thranduil's Company lets you play a second land each turn and puts two +1/+1 counters plus vigilance on an attacker per landfall, and Down in the Valley adds another landfall token clause |
+| Secondary win | Lands as power: Mirkwood Pathmaker is a star-star creature whose power and toughness equal your land count, Elvenking's Halls sacrifices itself for two +1/+1 counters on an Elf, and Gigantic Big Bear arrives as a hasty uncounterable hexproof 10/7 |
+| Land win con | Elvenking's Halls is a green-blue land that trades itself in for two +1/+1 counters on an Elf, so the mana base itself adds lethal counters; the entire engine is powered by lands entering, and Silvan Reveler and Lake-town Mariners recycle lands to retrigger it |
+
+# Overview
+
+Verdant Liege is today's The Hobbit set identity deck, and it takes the Elf legends axis rather than the Storied Dwarves, the amass Goblins, or the Smaug and Treasure hoard. The thesis: Thranduil's court does not win with equipment or burn, it wins with land drops. The set's Elves are all landfall cards, so this list turns the mana base into the engine instead of the support.
+
+Thranduil, Sindarin Liege is the lord and the token maker. He is a 2/3 for two hybrid green-blue mana that gives every other Elf +1/+1, and his landfall trigger creates a 1/1 green Elf token every single time a land enters under your control. That clause is a permanent, not a one-shot, and it is the reason six cards in the list exist purely to put lands onto the battlefield: Wood Elves fetches a Forest directly onto the battlefield, Down in the Valley tutors a basic land into hand and then hands its own landfall token clause to the board, Silvan Reveler discards a land and returns it to the battlefield tapped, Old Thrush puts a basic land on top of the library for the next draw step, Lake-town Mariners deploys an instant adventure that flickers two of your lands and returns them for two fresh landfall triggers, and Thranduil's Company simply plays a second land every turn for nothing.
+
+Thranduil's Company is the payoff half of that loop. As long as you control another Elf, you may play an additional land each turn, and every landfall puts two +1/+1 counters on a target creature you control and gives it vigilance until end of turn. One extra land per turn with a lord and a token maker on board is four bodies, four counters and one very large attacker per turn cycle. Down in the Valley's third and fourth chapters add +1/+0 and vigilance to all Elves for the kill turn.
+
+The second line of attack is lands as raw power. Mirkwood Pathmaker's power and toughness are each equal to the number of lands you control, so a five-land board makes it a 5/5 for three mana. Elvenking's Halls is a green and blue land that enters tapped and can be sacrificed for two +1/+1 counters on an Elf, and Gigantic Big Bear is a ten-power haste hexproof threat that cannot be countered and ends games where the ground is stalled.
+
+The Hobbit set (hob, 193 cards) landed on Arena on 2026-08-14; the import list below works from that date. At the time of writing the set's arena_id field is still empty in the card database, so the decklist imports once Arena publishes the set, not before.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Most Decrepit Old Bird as a one-drop flier, then Woodland Weavemaster, Attercop, or a tapped dual plus Old Thrush. The deck has almost nothing to do on turn one, so turn one is a land |
+| Turns 3-4 | The engine lands: Thranduil, Sindarin Liege, Thranduil's Company, Down in the Valley, Mirkwood Pathmaker, or Wood Elves. Each land after that point makes a token, a counter, or both |
+| Turns 5-6 | Multi-trigger turns: Thranduil's Company's extra land plus a fetched land plus a recycled land is three landfall triggers in one turn, which is three Elf tokens and six +1/+1 counters |
+| Turn 6+ | Two closers: the vigilance swarm with a lord and stacked counters, or Mirkwood Pathmaker at land-size with Elvenking's Halls counters and Gigantic Big Bear as the haste finisher |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, Sindarin Liege | The engine and the lord: 2/3 for two hybrid mana, other Elves get +1/+1, and every landfall makes a 1/1 green Elf token. The Adventure Silvan Rally mills four and returns up to two lands to hand for the next landfall turn |
+| Thranduil's Company | The combo piece: a 3/4 for four that lets you play an additional land each turn while you control another Elf, and turns each landfall into two +1/+1 counters plus vigilance on a target creature |
+| Down in the Valley | Support saga that does three jobs: chapter one tutors a basic land to hand, chapter two permanently grants the board a landfall clause creating 1/1 green Elf tokens, and chapters three and four pump the team and grant vigilance |
+| Silvan Reveler | Land recursion: a 3/2 that loots on entry and puts a discarded land onto the battlefield tapped, so the entry itself is a landfall trigger. Its own landfall clause buys it back from the graveyard for one green one blue |
+| Wood Elves | Two-trigger ramp: three mana, search a Forest and put it onto the battlefield, which is a landfall trigger the turn it arrives plus a body that grows the lord's anthem |
+| Mirkwood Meditator | Landfall beater: base power and toughness become 4/2 whenever a land enters, so it attacks as a 4/2 every turn in a deck that plays two lands per turn |
+| Mirkwood Pathmaker | Lands-as-power finisher: power and toughness each equal the number of lands you control, which is four to seven in the mid game for three mana |
+| Woodland Weavemaster | Mana and trigger density: a 1/2 vigilance that grows whenever another Elf enters, and taps for X mana of one colour where X is its power, spendable on Elf spells and Elf abilities |
+| Attercop | Early defence that scales: a two-mana 2/1 with reach and deathtouch that becomes a 3/2 or 4/3 attacker on landfall turns |
+| Elrond, Moon-Reader | Card advantage: draws a card the first time each turn you activate an ability of a creature, which is Woodland Weavemaster's mana ability, Thranduil copying graveyard abilities, or any future Elf ability |
+| Thranduil, the Elvenking | The black splash and the graveyard engine: he has all activated abilities of all Elf cards in your graveyard, and every other legendary Elf that enters draws two cards and discards one |
+| Boughside Wanderers | The only unlocked Hobbit Elf: 4/4 for six that digs four deep for a permanent on entry and gets +2/+2 on every landfall |
+| Old Thrush | Fixing and future landfalls: two mana, a 1/2 flier, two life, and a basic land placed on top of the library so the next draw is a guaranteed land drop |
+| Most Decrepit Old Bird | One-drop flier with threshold, and the Adventure Speak Secrets mills four and returns an instant or sorcery from among them, which fills the graveyard for Thranduil or Old Fat Spider's threshold |
+| Lake-town Mariners | A 6/5 vigilance ward body with the Adventure Gone Fishing, an instant that exiles two of your own creatures or lands and returns them, which is a double landfall trigger plus a way to reuse an enter trigger |
+| The Notary Hobbits | Mana and bodies: enters as three Halflings and taps for one colourless mana per Halfling, so it pays for the Elf spells and Elf abilities that Woodland Weavemaster restricts its mana to |
+| Old Fat Spider | Defensive wall that cannot be blocked by small creatures, draws a card when an opponent targets it, and is a six-power body for Mirkwood Meditator to copy or a landfall counter to land on |
+| Gigantic Big Bear | The haste closer: seven mana, ten power, hexproof, cannot be countered |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Elvenking's Halls | The win-con land: green and blue source that enters tapped and can be sacrificed with two mana for two +1/+1 counters on an Elf. In a deck that makes tokens every landfall, two counters on the right Elf is often the last two points |
+| Thornwood Falls | Primary green-blue dual at three copies, enters tapped and gains a life |
+| Temple of Mystery | Green and blue source that scries 1 on entry - the deck's only library manipulation, which is how you find a land or a landfall payoff |
+| Mutant Town | Green and blue dual that gains a life on entry, the flattest of the fixing |
+| Strangled Cemetery | Black-green dual that enters untapped once a player is at thirteen or less life, the deck's cheapest source of the splash |
+| Subterranean Cavern | Black-green dual that gains a life, the splash colour at a low cost |
+| Murky Sewer | Black-blue dual that enters untapped once a player is at thirteen or less life |
+| Forest | Primary green source at four copies and the target of Wood Elves |
+
+## Curve and mana
+
+23 lands: 1 Elvenking's Halls, 3 Thornwood Falls, 2 Temple of Mystery, 2 Mutant Town, 2 Strangled Cemetery, 2 Subterranean Cavern, 2 Murky Sewer, 4 Forest, 3 Island, 2 Swamp. Green sources 13, blue sources 12, black sources 6. Ten of the lands enter tapped unconditionally and four more (Strangled Cemetery and Murky Sewer) enter tapped until a player is at thirteen or less life, which is why the deck starts on turn two and wants a green source in every opening hand.
+
+Nonland curve: one-drop x2, two-drops x6, three-drops x11, four-drops x11, five-drops x2, six-drops x4, seven-drop x1. Average nonland CMC 3.57. The deck is creature-dense at thirty-four creatures plus three sagas, so it is never short of a landfall trigger to put counters on. Playing two lands per turn from Thranduil's Company is the single biggest upgrade the deck has: it doubles the number of triggers per turn cycle and effectively adds a mana per turn.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one is a land, and the only true one-drop is Most Decrepit Old Bird, which is a 1/1 flier that mills you towards threshold with its Adventure. Turn two is where the deck commits to a colour pair: Woodland Weavemaster is the best green follow-up because it is a mana Elf that grows, Attercop is the best defensive one, and Old Thrush is the fixing play that guarantees a land on top.
+
+Do not play Mirkwood Pathmaker early if you have something else to do. It is a tiny creature on turn three with three lands and a real threat on turn six with six, so it is a finisher you hold until the land count is real.
+
+## Mid game
+
+Turn three to five is when Thranduil, Sindarin Liege and Thranduil's Company turn the board into a machine. The order matters: cast the lord first so the tokens he makes are already 2/2 with his anthem, then the Company, so that the Company's additional-land clause starts applying on the turn it resolves. Down in the Valley bridges the two by tutoring the land you need and then granting the board its own token clause on chapter two.
+
+The land count is the scoreboard. Count your lands before every attack: with Thranduil's Company and Down in the Valley out, each land drop is a token, two counters and a vigilance attacker, and Wood Elves, Old Thrush, Silvan Reveler, Gone Fishing and Down in the Valley's first chapter all put lands into play from hand, library, graveyard or exile.
+
+## The combo turn
+
+1. Land count check, then land drop one. If Thranduil's Company is on the board and you control another Elf, take the second land drop in the same turn.
+2. Resolve each landfall trigger in the order that matters: put the two +1/+1 counters from Thranduil's Company on the creature that is actually being blocked, not the token.
+3. Add triggers from hand: Wood Elves (a Forest onto the battlefield), Silvan Reveler (discard a land, return it tapped), Old Thrush (a basic on top of the library) or Gone Fishing (two of your lands leave and return).
+4. Sacrifice Elvenking's Halls for two more counters once the board is stable and the coloured mana is no longer needed. Two counters on an evasive Elf is usually the difference between a stall and a kill.
+5. Attack with the vigilance team. Down in the Valley's chapters three and four give +1/+0 and vigilance, so the same creatures that made the tokens also attack and still block.
+
+A worked example: Thranduil, Sindarin Liege on board, Thranduil's Company on board, four lands. Play a land (token plus two counters on the Company), play the extra land from the Company (a second token plus two more counters), then cast Silvan Reveler and pitch a land (a third token, and the pitched land returns tapped). That is four Elf tokens, four +1/+1 counters and a 3/4 or 4/4 Company attacking on turn five, and the lord has not attacked yet.
+
+## Win condition 2
+
+When the ground clogs with tokens, the lands themselves finish the game. Mirkwood Pathmaker is a three-mana creature whose power and toughness equal your land count, so in a deck that plays two lands per turn it is routinely a 6/6 or 7/7 for three. Attack with it while Thranduil's Company's landfall counters and Elvenking's Halls' sacrifice counters pile up, and it stops being blockable by anything reasonable.
+
+The backup is Gigantic Big Bear: seven mana for a ten-power hasty hexproof creature that cannot be countered. It comes down the turn after a wipe, ignores the sweepers that hit the token swarm, and does not need the lord or a single counter to be lethal. The Notary Hobbits exists for the opposite situation: when you are short of mana for those finishers, it enters as three Halflings and taps for one colourless mana each, which pays for the Elf-restricted mana Woodland Weavemaster produces.
+
+## Mulligan guide
+
+Keep two to four lands with at least two green sources, and at least one play at two or three mana. The ideal opener is a Forest or Thornwood Falls, a second land, Woodland Weavemaster or Attercop, and one of Thranduil, Sindarin Liege, Thranduil's Company, or Down in the Valley. Mulligan hands with fewer than two lands, hands with no green source, hands with three or more copies of the six-drop slot and no cheap play, and hands whose only blue source is Temple of Mystery if the curve depends on Mirkwood Meditator or Elrond, Moon-Reader. Because fifteen of the lands enter tapped in the early turns, value hands that go tapped dual into basic two-drop; do not keep a hand that needs untapped blue on turn three and cannot get it.
+
+## Key interactions and edge cases
+
+- Thranduil, Sindarin Liege's token clause is a triggered ability with the landfall trigger, so the token arrives after the land. Token Elves get +1/+1 from his own anthem, which makes them 2/2, and they trigger Woodland Weavemaster's growth on entry.
+- Thranduil's Company's additional land drop requires you to control another Elf. Play the Company second, not first, or the extra land is wasted for the turn.
+- The extra land drop and Down in the Valley's tutored land do not conflict: the tutor puts the basic into hand, the extra drop plays it, and both generate landfall triggers.
+- Down in the Valley's chapter two grants the saga itself a permanent landfall clause, so the tokens keep coming on chapters three and four as well. Chapter one is a basic land to hand, not onto the battlefield, so it does not trigger landfall on its own.
+- Silvan Reveler's recursion clause costs one green one blue and returns it from the graveyard to your hand, not to the battlefield. Casting it again is a second enter trigger and a second loot, which is how the deck grinds through removal.
+- Gone Fishing exiles two creatures or lands you control and returns them at the same time, so a land returned this way triggers landfall twice, and an Elf returned this way enters twice for Woodland Weavemaster and Boughside Wanderers.
+- Thranduil, the Elvenking copies activated abilities, not triggered abilities, from Elves in your graveyard. Woodland Weavemaster's mana ability and any future Elf's activated ability are the targets; the lord's own landfall token clause is not.
+- Elrond, Moon-Reader draws only once each turn and only from a creature's activated ability, so activate Woodland Weavemaster on your second main phase if you are also casting spells, not before combat.
+- Mirkwood Pathmaker's power is a characteristic-defining ability, not a trigger: it counts lands at all times, including lands that enter after it is on the board, so the extra land from Thranduil's Company makes it bigger immediately.
+- Elvenking's Halls enters tapped. Play it on a turn when your curve is already complete, and sacrifice it only when the counters matter more than the green and blue source.
+- Most Decrepit Old Bird's threshold needs seven cards in a graveyard, which Silvan Rally and Speak Secrets both work towards.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Attercop's deathtouch and Old Fat Spider's reach hold the ground early, and Down in the Valley's vigilance chapters let the same creatures attack and block. Once Thranduil, Sindarin Liege is down, every land you play is a free blocker |
+| Midrange | Go wider and taller at once: the elf tokens trade up with the lord and Company counters, Mirkwood Pathmaker outclasses anything they play on rate, and Gone Fishing blanks a removal spell by flickering your best creature |
+| Control | Do not overcommit. Cast one engine plus one payoff, keep Silvan Reveler in hand as a second wave, and remember Thranduil, the Elvenking draws two cards every time another legendary Elf enters, which punishes them for letting you resolve one. Gigantic Big Bear is the post-wipe threat they cannot counter |
+| Combo | Race with the token engine and keep Thranduil's Company's landfall counters on the creature that can actually attack. Most Decrepit Old Bird and Attercop buy the early turns the deck needs, and the swarm usually kills faster than a combo can assemble |
+
+# Deck list (Arena import)
+
+```
+Verdant Liege
+Deck
+4 Thranduil, Sindarin Liege
+4 Thranduil's Company
+3 Down in the Valley
+3 Silvan Reveler
+3 Wood Elves
+2 Mirkwood Meditator
+2 Mirkwood Pathmaker
+2 Woodland Weavemaster
+2 Attercop
+1 Elrond, Moon-Reader
+1 Thranduil, the Elvenking
+2 Boughside Wanderers
+2 Old Thrush
+2 Most Decrepit Old Bird
+1 Lake-town Mariners
+1 The Notary Hobbits
+1 Old Fat Spider
+1 Gigantic Big Bear
+1 Elvenking's Halls
+3 Thornwood Falls
+2 Temple of Mystery
+2 Mutant Town
+2 Strangled Cemetery
+2 Subterranean Cavern
+2 Murky Sewer
+4 Forest
+3 Island
+2 Swamp
+```
