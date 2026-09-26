@@ -1,0 +1,160 @@
+---
+title: "Deep-Down Thunder"
+subtitle: "Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage"
+date: "2026-09-26"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black and red with a green splash |
+| Archetype | Amass Goblins - every nonland card in the list either makes an Army bigger or punishes the opponent for it (average nonland CMC 2.78) |
+| Size | 60 cards |
+| Primary win | The Great Goblin ping engine: amass puts counters on an Army that is also a Goblin, so every single amass event deals 2 damage to the opponent. With him and Bothersome Noisemaker both on the board, one noncreature spell is 4 damage and two counters |
+| Secondary win | The Army itself: one 0/0 Army token collects every counter in the deck, wears Goblin Plate Mail for menace, and Rogue's Passage makes it unblockable for the kill |
+| Land win con | Goblin-town is a black-red land that enters tapped, and its sacrifice ability puts two +1/+1 counters on a Goblin or Orc, which grows the winning Army and pings for 2 through The Great Goblin; Rogue's Passage is the second land in the win condition |
+
+# Overview
+
+Deep-Down Thunder is today's The Hobbit set identity deck, and it takes the amass Goblins axis of the set rather than the Storied Dwarves, the Smaug and Treasure hoard, or the Elf legends. The thesis is simple: amass is not a go-wide mechanic, it is a burn combo. Every amass trigger builds one enormous Army token, and The Great Goblin converts each of those triggers into a free Lightning Strike at the opponent's face.
+
+The Great Goblin is the card the list is built around. He is a 3/2 legendary Goblin Noble for one and two hybrid black-red mana, and his first ability reads: whenever you put one or more counters on a Goblin, Orc, or Army you control, he deals 2 damage to target opponent. Amass puts +1/+1 counters on an Army, and the amass reminder text makes that Army a Goblin. So every amass in the deck is a 2-damage burn spell stapled to it. His second ability keeps the engine running through removal: whenever another Goblin, Orc, or Army you control dies, you exile the top card of your library and may play it until the end of your next turn, which is a card advantage clause that turns chump blocks and sacrifice outlets into gas.
+
+Bothersome Noisemaker is the amplifier. He is a 2/2 Goblin Bard for two mana whose only text is that whenever you cast a noncreature spell, amass Goblins 1. He is the reason the deck wants maximum noncreature density alongside its amass spells: with him and The Great Goblin on the board, casting Rage into the Valley is four damage (two from the Noisemaker's amass trigger and two from Rage's own amass 2) plus a card drawn and a 2/2 Army. Goblin Plate Mail, Tidings of War and its flashback, and Misty Mountains Raider's attack trigger all double the same way.
+
+The counters do not have to all arrive at once. Tidings of War amasses 1 for one red mana, and its flashback for three and a red amasses 3 instead, so the same card pings twice across two turns. Goblin-town Flunkies is a hasty 1/1 that amasses 1 on entry, which means turn two is two damage and a body. Fearsome Goblin Pair is a 1/1 for three that turns a chump block into amass 4, and Rhovanion Rampager amasses a number of counters equal to its own power when it dies, which is how the deck converts a removal spell into a lethal Army.
+
+The Hobbit set (hob, 193 cards) lands on Arena on 2026-08-14; the import list below works from that date. Here on 2026-09-26 the set's individual arena_id fields are still empty in the card database for some printings, so the decklist imports once Arena publishes those entries, not before.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turn 1 | Tidings of War is the only true one-drop: one red mana, amass 1, and a 0/0 Goblin Army token enters. Every other turn one is a land |
+| Turns 2-3 | Goblin-town Flunkies (haste plus amass 1), Bothersome Noisemaker (the amplifier), Goblin Plate Mail (amass 1 and menace), or Dreaded Bat-Cloud as a discount flier if something already died. The Great Goblin comes down on turn three and immediately turns the board into a clock |
+| Turns 4-5 | Multi-trigger turns: Rage into the Valley, Azog, Moria's Ruin, Goblin-town's sacrifice ability, and the flashed-back Tidings of War stack counters and pings in the same turn cycle |
+| Turn 6+ | One giant Army, unblockable via Rogue's Passage or menacing via Goblin Plate Mail, plus the ping damage that has been accumulating since turn two |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| The Great Goblin | The payoff and the reason the deck exists: a 3/2 for one and two hybrid black-red mana. Every counter you place on a Goblin, Orc or Army deals 2 damage to the opponent, and every other Goblin, Orc or Army that dies exiles the top card of your library for you to play until the end of your next turn |
+| Bothersome Noisemaker | The amplifier: a 2/2 Goblin Bard for two mana that amasses Goblins 1 on every noncreature spell you cast. Doubles every amass spell in the deck into two separate counter events, which is two separate Great Goblin triggers |
+| Tidings of War | One-mana amass 1 with flashback three and a red for amass 3 instead. The cheapest way to start the Army and the cheapest way to restart it after a wipe |
+| Goblin-town Flunkies | Turn-two pressure: a hasty 1/1 that amasses 1 on entry, so the body and the ping arrive together |
+| Fearsome Goblin Pair | A 1/1 for three hybrid mana that converts any death into amass 4. Chump block it, sacrifice it to Rhovanion Rampager, or destroy it with your own Azog |
+| Rage into the Valley | Value amass: three mana, draw a card, lose 1 life, amass 2. With Bothersome Noisemaker out it is 4 damage and a card |
+| Goblin Plate Mail | Equipment that amasses 1 on entry, then attaches itself to the amassed Army: plus one power and menace for the creature that is trying to win the game. The entry trigger is the real card |
+| Azog, Moria's Ruin | Removal that feeds the engine: on entry he destroys up to one other target creature, its controller amasses Goblins equal to that creature's power, and if you controlled it you draw a card. Point him at your own Fearsome Goblin Pair for a double trigger plus a card |
+| Rhovanion Rampager | A 3/2 that grows by eating your own creatures on the attack: sacrifice another creature, put +1/+1 counters equal to its power on the Rampager. When it dies it amasses its own power, so a big Rampager is a big Army |
+| Misty Mountains Raider | The top end: a 4/4 for five that amasses 2 on every attack, which is 2 damage every combat step from a single card |
+| Gollum, Silent Slinker | A 4/3 legendary with menace for four, plus the Adventure Meager Meal for one black mana: a +1/+1 counter on any creature (another Great Goblin trigger) and 2 life. Cast the Adventure first, the creature later |
+| Dreaded Bat-Cloud | Discount flier: a 4/2 with flying and deathtouch for five that costs three less if a creature died this turn. In this deck something died this turn most of the time, so it is often a one-mana answer to a flier race |
+| Part in Friendship | The green splash and the grind engine: five mana, whenever a nontoken creature you control dies, reveal cards until you hit a creature and put it onto the battlefield if its mana value is at most your land count. Goblins die constantly here |
+| Tom, Bert, and William | Sacrifice outlet for value: a 5/5 legendary for five, and one mana plus another creature draws cards equal to the sacrificed creature's power. Sacrifice a 6/6 Army to draw six. When they die they return as an artifact |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | The win-con land: enters tapped, taps for black or red, and for two black and a red it sacrifices itself to put two +1/+1 counters on a target Goblin or Orc. Those counters grow the Army and trigger The Great Goblin for 2 damage |
+| Rogue's Passage | The second half of the win condition: a colourless land that taps for four to make the giant Army unblockable for the turn. This is how the deck beats a stalled board |
+| Swamp | Primary black source at nine copies; black is the heavier colour with Azog, Rhovanion Rampager, Rage into the Valley, Gollum and Dreaded Bat-Cloud |
+| Mountain | Primary red source at seven copies, for Tidings of War, Goblin-town Flunkies, Bothersome Noisemaker and Misty Mountains Raider |
+| Forest | Green source at four copies, purely for the Part in Friendship splash and the green half of Tom, Bert, and William |
+
+## Curve and mana
+
+23 lands: 2 Goblin-town, 1 Rogue's Passage, 9 Swamp, 7 Mountain, 4 Forest. That is 11 black sources, 9 red sources and 4 green sources in a deck whose green cards are two copies of a five-mana enchantment and one five-mana legend, so the green splash is a late-game luxury rather than a requirement. Only two lands enter tapped and none of them cost life, so the deck can play an untapped land every turn and cast its hybrid cards with whatever it drew.
+
+Nonland curve: one-drop x4, two-drops x12, three-drops x14, four-drops x2, five-drops x5. Average nonland CMC 2.78. Twenty-six creatures plus eleven noncreature cards, and nine of those eleven amass. The deck is deliberately top-light: the largest thing it casts costs five, so the Army does the heavy lifting and the curve keeps re-triggering The Great Goblin instead of tapping out for a single threat.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one to three are about setting the board so that the first real amass turn is worth double. Lead with Tidings of War if you have it, because a one-mana amass 1 puts a 1/1 Goblin Army on the board and starts the ping counter at zero cost. Goblin-town Flunkies on turn two is the ideal follow-up: a hasty 1/1 that amasses 1 means three power swinging on turn two and 2 damage from The Great Goblin once he arrives.
+
+The Great Goblin is the priority on turn three. Everything else in the deck is worth more after he is on the board, so do not trade a Goblin-town Flunkies into a block on turn two if it delays him. If you have no Great Goblin, Bothersome Noisemaker plus any amass spell is the fallback: the Noisemaker still builds the Army even without the payoff attached.
+
+## Mid game
+
+Turns four to six are the engine turns. The rule that matters most is that The Great Goblin triggers once per counter-placing event, not once per counter, so amass 1 and amass 4 both deal 2 damage. That inverts the usual priority: many small amass events beat one big one. Cast Tidings of War before Rage into the Valley, and cast the Noisemaker before both, because his trigger is a separate event for every noncreature spell.
+
+Sacrifice outlets are the second half of the mid game. Rhovanion Rampager's attack trigger and Tom, Bert, and William's one-mana ability both turn your own creatures into counters, and Fearsome Goblin Pair and Rhovanion Rampager both amass when they die, so sacrificing them is a net gain rather than a cost. Azog, Moria's Ruin is the cleanest version of the trick: destroy your own Fearsome Goblin Pair, draw a card from Azog's last clause, amass 1 from Azog and amass 4 from the Pair's death trigger, which is two Great Goblin triggers, five counters and a card for three mana.
+
+## The combo turn
+
+1. Land drop, then Goblin-town if you can afford to spend it: two black and a red, sacrifice, two +1/+1 counters on the Army and 2 damage from The Great Goblin.
+2. Cast Goblin Plate Mail: amass 1 (2 damage), then it attaches itself to the Army, which is now a menacing plus-one-power threat. If Bothersome Noisemaker is out, that amass 1 is a second event and another 2 damage.
+3. Cast Rage into the Valley: draw a card, lose 1 life, amass 2 (2 damage), plus the Noisemaker's amass 1 (2 damage).
+4. Flash back Tidings of War for three and a red: amass 3 (2 damage), plus the Noisemaker's amass 1 (2 damage).
+5. Attack with the Army and any hasty Goblin. Goblin Plate Mail gives menace, so the Army has to be double blocked; Dreaded Bat-Cloud is often a one-mana 4/2 flier that attacks in the same turn.
+
+A worked example with The Great Goblin and Bothersome Noisemaker on board and three mana up: Goblin-town sacrifice (2 damage, two counters), then Rage into the Valley (2 damage from Rage, 2 damage from the Noisemaker, two more counters) is 8 damage and four counters on the Army in a single turn, and the Army attacks for at least four. That is a lethal swing from an empty-looking board.
+
+## Win condition 2
+
+The ping damage is not a backup, it is the other half of the plan, but it can stall once the opponent stabilises behind blockers or gains life. That is what the Army is for. All the counters in the deck go onto one token, so the token is usually a 5/5 or better by turn five, and Rogue's Passage's four-mana activation makes it unblockable. Goblin Plate Mail's menace does the same job cheaply against single blockers.
+
+If the Army is answered, the deck rebuilds from the graveyard sideways: Part in Friendship puts a fresh creature onto the battlefield every time a nontoken creature dies, Tom, Bert, and William returns from the dead as an artifact and its sacrifice ability converts a large creature into drawn cards, and The Great Goblin's second ability exiles a card from the top of your library on every Goblin death so the next wave is sitting in exile ready to be cast.
+
+## Mulligan guide
+
+Keep two to four lands with at least one black source and one red source, plus at least one play that costs two or less. The ideal opener is Tidings of War or Goblin-town Flunkies, a second land, and The Great Goblin or Bothersome Noisemaker. Mulligan hands with fewer than two lands, hands with no red source (Tidings of War, Goblin-town Flunkies, Bothersome Noisemaker and Misty Mountains Raider are all red), hands with three or more five-drops and no action before turn three, and hands whose only black source is a Goblin-town that will enter tapped. Because only two lands in the deck enter tapped, there is no real reason to keep a slow hand.
+
+## Key interactions and edge cases
+
+- The Great Goblin triggers on "one or more counters", so amass 4 is one trigger worth 2 damage, exactly like amass 1. Fire your smallest amass effects first if the opponent is at a life total the pings can finish.
+- The reminder text is the rules text: amass creates a 0/0 black Goblin Army token that becomes a Goblin, so The Great Goblin's second ability (another Goblin, Orc or Army dying) applies to the Army itself. Losing the Army to a removal spell still draws you a card.
+- Azog, Moria's Ruin gives the counters to the creature's controller, not to you. Destroying an opposing creature hands the opponent an Army; destroying your own gives you the counters and a card, which is why Fearsome Goblin Pair is his best target.
+- Rhovanion Rampager's death trigger amasses a number of counters equal to its power at the moment it died, not its base power, so pump it with the attack trigger before chumping.
+- Goblin-town sacrifices itself for two counters at sorcery speed, and the target has to be a Goblin or Orc, never a Bat or a Wolf. The Army is a Goblin, so the Army is always a legal target.
+- Flashback exiles Tidings of War, so the flashed-back copy is a one-shot. Cast the one-mana copy first and hold the three-mana one for the turn the ping damage matters.
+- Bothersome Noisemaker only cares about noncreature spells. Goblin Plate Mail, Rage into the Valley, Goblin-town's ability and both halves of Tidings of War all trigger him; playing a creature does not.
+- Meager Meal puts a +1/+1 counter on a creature and gives a target player 2 life. Both halves are separate targets, so target yourself with the life gain or the opponent with a counter. The counter is another Great Goblin trigger.
+- Part in Friendship triggers only on nontoken creatures, so the Army token does not feed it. It also triggers only once each turn, so keep one nontoken Goblin in reserve rather than trading the whole board.
+- Dreaded Bat-Cloud's discount checks whether a creature died this turn at all, yours or theirs. Goblin-town Flunkies attacking into a trade, a sacrificed Fearsome Goblin Pair, or an Azog trigger all turn it into a one-mana 4/2 flying deathtouch.
+- Tom, Bert, and William's sacrifice ability draws cards equal to the sacrificed creature's power. Sacrificing the Army to it is a real play when the Army is unblockable-size and you need to find the last burn spell.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with the ping engine rather than trying to out-block. Tidings of War, Goblin-town Flunkies and Goblin Plate Mail all put counters on the board on turn two or three, and the 2 damage per trigger usually beats a pure ground assault because the damage does not care about blockers |
+| Midrange | Go wide with triggers instead of tall with one Army. The Great Goblin plus Bothersome Noisemaker turns every cheap spell into 4 damage, and Azog, Moria's Ruin trades one removal spell for a card. Save Rogue's Passage for the turn their best blocker is online |
+| Control | Do not overcommit into a sweeper. Keep Bothersome Noisemaker and Goblin-town Flunkies in reserve as a second wave, and remember that a dead Army exiles a card for you to cast. Rogue's Passage makes a single rebuilt Army lethal without needing a board presence |
+| Combo | The clock starts on turn two, which is fast enough to matter. Keep the pressure in the air and on the ground with Goblin-town Flunkies and Dreaded Bat-Cloud, and aim the ping damage at the opponent rather than at their creatures so the game ends before their engine does |
+
+# Deck list (Arena import)
+
+```
+Deep-Down Thunder
+Deck
+4 Goblin-town Flunkies
+4 Bothersome Noisemaker
+4 Fearsome Goblin Pair
+4 Tidings of War
+3 The Great Goblin
+3 Rage into the Valley
+2 Goblin Plate Mail
+2 Azog, Moria's Ruin
+2 Rhovanion Rampager
+2 Misty Mountains Raider
+2 Gollum, Silent Slinker
+2 Dreaded Bat-Cloud
+2 Part in Friendship
+1 Tom, Bert, and William
+2 Goblin-town
+1 Rogue's Passage
+9 Swamp
+7 Mountain
+4 Forest
+```

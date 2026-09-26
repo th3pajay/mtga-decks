@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-09-26**:
 
+- **[Deep-Down Thunder](decks/2026-09-26-deep-down-thunder.html)** — Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage  `hobbit` `amass`
 - **[Boneyard Bloom](decks/2026-09-26-boneyard-bloom.html)** — Sultai (Blue, Black, Green) — Renew  `combo` `renew`
