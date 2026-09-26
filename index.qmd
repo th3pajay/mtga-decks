@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-25**:
+Deck guides published **2026-09-26**:
 
-- **[Verdant Liege](decks/2026-09-25-verdant-liege.html)** — Green and blue with a black splash - Elf legends, landfall tokens, and lands that attack  `hobbit` `elves`
-- **[Stoke the Veins](decks/2026-09-25-stoke-the-veins.html)** — Black / Red / Green Firebending x Infusion — Jund attack-trigger combo  `combo` `Firebending` `Infusion`
+- **[Boneyard Bloom](decks/2026-09-26-boneyard-bloom.html)** — Sultai (Blue, Black, Green) — Renew  `combo` `renew`
