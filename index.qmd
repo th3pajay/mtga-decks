@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-26**:
+Deck guides published **2026-09-27**:
 
-- **[Deep-Down Thunder](decks/2026-09-26-deep-down-thunder.html)** — Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage  `hobbit` `amass`
-- **[Boneyard Bloom](decks/2026-09-26-boneyard-bloom.html)** — Sultai (Blue, Black, Green) — Renew  `combo` `renew`
+- **[Race the Reaper](decks/2026-09-27-race-the-reaper.html)** — Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill  `combo` `Fathomless descent` `Manifest dread` `Max speed`

@@ -1,0 +1,188 @@
+---
+title: "Race the Reaper"
+subtitle: "Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill"
+date: "2026-09-27"
+categories: ["combo", "Fathomless descent", "Manifest dread", "Max speed"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue, black, red and green (four colors, no white) |
+| Archetype | Combo-midrange: a graveyard engine that turns manifest dread into fathomless descent, and an attacking clock that turns combat damage into max speed |
+| Size | 60 cards (36 nonlands, 24 lands) |
+| Primary win | The max speed mill engine: Aether Syphon plus Vnwxt, Verbose Host and The Speed Demon. At max speed every card you draw mills each opponent two cards, and the deck draws four extra cards a turn, so the opponent's library is a clock |
+| Secondary win | Fathomless descent beatdown: Souls of the Lost is a two mana creature whose power equals the number of permanent cards in your graveyard, Squirming Emergence returns a big permanent from the graveyard for free, and The Speed Demon closes with flying trample |
+| Land win cons | Avishkar Raceway is a land that starts your engines and, at max speed, loots for three mana (discard a card, draw a card) — every one of those draws is two more cards milled off each opponent with Aether Syphon on board. Amonkhet Raceway grants haste at max speed, which turns a freshly cast Souls of the Lost or Speed Demon into unexpected lethal |
+
+# Overview
+
+Race the Reaper is built on three rolled mechanics: Fathomless descent, Manifest dread and Max speed, in four colors. They fit together better than they look, because all three want the same thing: a body on the board every turn and a life total that keeps moving down.
+
+Manifest dread is the fuel line. Every manifest dread looks at the top two cards of the library, puts one onto the battlefield face down as a 2/2 and the other into the graveyard. That is two resources from one spell: a creature that can attack, and a permanent card in the graveyard. Fathomless descent counts exactly those permanent cards, so each manifest dread also grows the descent payoffs. There are thirteen cards that manifest dread: four Manifest Dread at two mana, three Hauntwoods Shrieker that trigger on every attack, two Growing Dread at instant speed, two Threats Around Every Corner that also ramp a basic land every time a face down permanent enters, and two Abhorrent Oculus that trigger on each opponent's upkeep.
+
+Fathomless descent is the payoff. Souls of the Lost costs two mana and its power is the number of permanent cards in your graveyard, with toughness one higher, so after three or four manifest dreads it is a four or five power creature for two. Squirming Emergence is the free reanimation spell: return any nonland permanent card from the graveyard with mana value at most that same count, which comfortably reaches Hauntwoods Shrieker, Abhorrent Oculus, Racers' Scoreboard and The Speed Demon.
+
+Max speed is the finish line. Every card that starts your engines gives you speed 1, and speed increases once each of your turns when an opponent loses life, up to 4. Attacking is how this deck pays for that: three Deep-Cavern Bat with flying and lifelink, three Sinkhole Surveyor that grow every attack, face down 2/2s, and eventually a 5/5 flying trample Speed Demon. Once speed reaches 4 the max speed clauses switch on: Aether Syphon mills each opponent two cards on every draw, Vnwxt doubles every draw, The Speed Demon draws four cards at end of turn, Racers' Scoreboard makes every spell cost one less, Endrider Catalyzer taps for two red mana and Avishkar Raceway loots. Mill two per draw, draw four a turn, and the opponent's deck is the win condition.
+
+The deck is genuinely a combo, but a resilient one. It has 23 creatures, so it attacks from turn two while the engine assembles, and it never needs both halves at once: manifest dread into descent beats wins games on its own, and so does an aggressive start that reaches max speed with two mana open.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turn 1 | A land. The three Raceways and every dual land come in untapped, and each Raceway starts your engines on turn one, so the speed clock is running before the deck casts anything |
+| Turns 2-3 | The engine starts: Manifest Dread, Souls of the Lost fed by a discarded card or a spare body, Deep-Cavern Bat for flying lifelink and a look at the opponent's hand, Sinkhole Surveyor to grow every attack, Vnwxt to start drawing a turn early |
+| Turns 4-5 | Depth and a clock: Hauntwoods Shrieker attacks and manifests every combat, Aether Syphon starts milling, Threats Around Every Corner ramps a land per face down permanent, Racers' Scoreboard refuels and starts the discount, The Speed Demon arrives as a 5/5 flying trampler |
+| Turns 6+ | Max speed. Every draw mills the opponent, Vnwxt doubles the draws, Avishkar Raceway and Racers' Scoreboard keep the hand full while the graveyard feeds Souls of the Lost and Squirming Emergence for a second wave |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Manifest Dread | The enabler: two mana, one face down 2/2, one permanent card into the graveyard. Every copy is one step of fathomless descent plus a body that attacks for speed |
+| Hauntwoods Shrieker | Repeatable manifest dread on every attack, on a 3/3 for three. Its one green and a green also reveals and flips a face down creature for free, which is how the deck cheats expensive creatures onto the board without paying their cost |
+| Paranormal Analyst | The value engine: whenever you manifest dread, the card that would have gone to the graveyard goes to your hand instead. She turns manifest dread into a two for one, at the price of a shallower graveyard |
+| Growing Dread | Instant speed manifest dread for two, plus a plus one counter on any permanent you turn face up. Flash means it is also a surprise blocker that leaves a permanent in the graveyard |
+| Threats Around Every Corner | Four mana, manifest dread on entry, then a free basic land every time a face down permanent enters. With Hauntwoods Shrieker and Abhorrent Oculus online this is a one-sided ramp engine |
+| Abhorrent Oculus | The best creature in the deck and the most expensive question: a 5/5 flying for three that manifests dread on every opponent's upkeep. The cost is exiling six cards from your graveyard, so cast it before the descent count matters or after Squirming Emergence has done its work |
+| Souls of the Lost | The descent payoff that costs two: power equals the permanent cards in your graveyard, toughness one higher, and the additional cost of discarding a card or sacrificing a permanent is itself fuel for the next one |
+| Squirming Emergence | Free reanimation scaled to the graveyard: three mana returns any nonland permanent with mana value at most the permanent count, which in this deck means Hauntwoods Shrieker, Abhorrent Oculus, Racers' Scoreboard or The Speed Demon |
+| Sinkhole Surveyor | The speed clock: a 1/3 flier for two that loses you one life and endures one on every attack, meaning it becomes a plus one counter or a 1/1 Spirit token each combat |
+| Deep-Cavern Bat | Flying lifelink, plus it exiles a nonland card from the opponent's hand while it lives. The lifelink pays for the Speed Demon's end step and for the Surveyor's attacks |
+| Vnwxt, Verbose Host | Speed payoff and combo piece: no maximum hand size, and at max speed every card you draw becomes two cards |
+| Aether Syphon | The primary win condition: three mana artifact that taps for a card, and at max speed every draw mills each opponent two cards. With Vnwxt and The Speed Demon it is eight cards off the top of each opponent's library per turn |
+| The Speed Demon | Closer and engine: 5/5 flying trample for five, and at the end of each of your turns you draw X cards and lose X life, where X is your speed. At max speed that is four cards and four life a turn |
+| Endrider Catalyzer | Speed enabler and ramp: a 3/1 for two that taps for two red mana once you are at max speed, which pays for the second halves of the top end |
+| Racers' Scoreboard | Card flow and ramp: four mana, draw two then discard one on entry, and at max speed every spell costs one less. The discard is a graveyard permanent for fathomless descent |
+
+## Lands as engines
+
+| Land | What it does |
+|------|--------------|
+| Avishkar Raceway (2) | The win condition land. It starts your engines, and at max speed three mana plus a tap and a discard draws a card. With Aether Syphon out each of those loots mills every opponent two cards, and the discarded card itself grows fathomless descent |
+| Amonkhet Raceway (1) | Starts engines, and at max speed it taps to give a creature haste. Casting Souls of the Lost as a six power creature and attacking with it the same turn is often the kill |
+| Watery Grave, Breeding Pool, Overgrown Tomb, Blood Crypt, Steam Vents, Stomping Ground (9) | The four color fixing. All nine come in untapped if you pay two life, which the deck can afford because Deep-Cavern Bat gains it back |
+| Forest, Island, Swamp, Mountain (11) | Untapped basics, weighted to green and blue for the manifest dread half of the deck, with a single Mountain for Endrider Catalyzer |
+
+Both Raceways produce only colorless mana, so they are the land slots that do not fix your colors: treat them as spells you can play for free, and lead on a dual or a basic instead.
+
+## Curve and mana
+
+| Mana value | Cards | Notes |
+|------------|-------|-------|
+| 2 | 22 | Manifest Dread, Paranormal Analyst, Growing Dread, Souls of the Lost, Sinkhole Surveyor, Deep-Cavern Bat, Vnwxt, Endrider Catalyzer |
+| 3 | 8 | Hauntwoods Shrieker, Abhorrent Oculus, Aether Syphon, Squirming Emergence |
+| 4 | 4 | Threats Around Every Corner, Racers' Scoreboard |
+| 5 | 2 | The Speed Demon |
+
+Average nonland mana value is 2.61 and there are no one mana spells at all: the deck wants its first two turns to be a land plus a creature or a Manifest Dread, and it never needs more than five mana to win. Twenty four lands plus Threats Around Every Corner's land triggers make the fourth land drop very reliable, and everything above three mana is a card the deck is happy to draw late.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a dual land or a basic, not a Raceway, unless you have nothing else to do with the colorless mana. Turn two is Manifest Dread when you are setting up depth, Deep-Cavern Bat when you want the hand information and the lifelink, or Souls of the Lost once the graveyard already holds two or three permanents. Sinkhole Surveyor is the best turn two when you expect a race, because attacking with it every turn is how speed climbs to 4.
+
+The first attack is what matters most: speed only rises on turns the opponent actually loses life. A 1/3 flier attacking into nothing is one point of damage and one point of speed. Do not hold back attacks to protect creatures you are willing to trade; the deck's plan is to run the clock in both directions at once.
+
+## Mid game
+
+Turns three to five are about stacking engines. Hauntwoods Shrieker turns every attack into another face down 2/2 and another permanent in the graveyard, which makes Threats Around Every Corner ramp a land on every combat and Aether Syphon's milling start to matter. Growing Dread held up with flash is a blocker on demand that also deepens the graveyard, and Paranormal Analyst is the card that keeps the hand from running dry while the graveyard empties into the board.
+
+The graveyard is a resource with two speeds: it grows with every manifest dread, and it shrinks with every Abhorrent Oculus and every Squirming Emergence. Spend it before you refill it. The usual sequence is manifest dread for several turns, cast Squirming Emergence to bring back the best permanent in the graveyard, then cast Abhorrent Oculus once the yard is deep enough to lose six cards and still keep three or four for the next Souls of the Lost.
+
+## The combo turn
+
+Max speed arrives on the third turn that an opponent loses life, and the deck can usually turn that corner by turn four or five with one flier plus the Raceway lands' start your engines. The turn itself is simple: attack with everything that can profitably attack, keep Aether Syphon and Vnwxt on the board, and let the draws do the work. At max speed the arithmetic is brutal: Vnwxt doubles each draw, Aether Syphon mills two per draw, and if The Speed Demon is out the end step draws four cards, which is eight cards milled off each opponent plus eight cards in your hand.
+
+Racers' Scoreboard's max speed clause stacks with that turn: every spell you cast costs one less, so a hand of four cards often contains two spells and the mana to spare. Endrider Catalyzer's max speed tap for two red mana is the other half, and it is the only red card in the deck that matters after turn two.
+
+## The second win condition
+
+When the mill plan is interrupted or the opponent is gaining life, the deck still kills with its graveyard. Souls of the Lost is frequently a five or six power creature for two mana, and Hauntwoods Shrieker's free flip ability plus Growing Dread's plus one counter turns a nameless face down 2/2 into a real threat without paying for it. Squirming Emergence returning The Speed Demon for three mana ends games from an empty board, and Amonkhet Raceway's max speed haste means the creature that comes back swings in the same turn it arrives.
+
+## Mulligan guide
+
+| Hand | Keep or mulligan |
+|------|------------------|
+| Two or three lands, a manifest dread card, one two mana creature | Keep. This is the whole deck in four cards |
+| Two lands, no green source, no manifest dread card | Mulligan. The engine needs green, and Paranormal Analyst and Vnwxt alone do not pressure anyone |
+| Three Raceways or other colorless lands, one coloured source | Mulligan. Colorless lands cannot cast anything in the deck except the artifacts, and Racers' Scoreboard is the only artifact worth four mana on turn four |
+| Five lands and two four drops | Mulligan against aggro, keep on the play against control. Twenty four lands means flood is real and the deck has no way to convert spare lands into cards except Squirming Emergence and Avishkar Raceway |
+
+## Key interactions and edge cases
+
+Abhorrent Oculus exiles six cards from your graveyard as an additional cost. In a deck where Souls of the Lost and Squirming Emergence read that same graveyard, this is a real cost: cast it when the yard holds eight or more permanent cards, or after Squirming Emergence has already spent them for you.
+
+Paranormal Analyst redirects the graveyard half of every manifest dread into your hand. That is a two for one every single time, and it is also the reason the descent count can stall: if you need a deep graveyard, do not lean on her, and if you need cards she is the best three drop in the deck.
+
+Hauntwoods Shrieker's one green and a green ability reveals a face down permanent and turns it face up for free if it is a creature card. That is the deck's cost cheat: flip an expensive creature your manifest dread happened to hide, then put a plus one counter on it with Growing Dread.
+
+Manifest dread is a choice, not a coin flip. You look at the top two cards: put the permanent you want as a 2/2 blocker (or the one you want to flip) onto the battlefield, and the other into the graveyard, where it counts for fathomless descent.
+
+Souls of the Lost's additional cost can be paid with a spare face down 2/2 rather than a card from hand, which is the cheapest way to make it a six power creature, and it also puts a creature card into the graveyard for the next copy.
+
+Speed rises only once per turn, no matter how much life the opponent loses. One attacker is enough to keep the clock moving, but you must attack every turn or the deck loses a turn of max speed.
+
+The Speed Demon's end step costs you real life: at max speed it draws four and loses four. Deep-Cavern Bat's lifelink and the opponent's own damage output decide whether that is a clock or a suicide note, so hold the Demon until you are above ten life or the opponent is nearly dead.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Sinkhole Surveyor and face down 2/2s, gain life with Deep-Cavern Bat, and win the race later with flying trample. Never tap out for Aether Syphon before turn five against a deck that can punish it |
+| Control | Paranormal Analyst and Vnwxt make every removal spell a bad trade, and Squirming Emergence rebuys whatever the opponent destroys. Bait the sweeper, then rebuild from the graveyard, which is exactly what the deck is good at |
+| Midrange | Souls of the Lost outclasses anything fair on rate, and Hauntwoods Shrieker's manifest engine goes wider than most midrange boards. Attack on the ground to grow speed, then mill out the top of their deck |
+| Ramp and combo | The mill plan does not need to race to a damage kill: Aether Syphon plus Vnwxt plus The Speed Demon takes sixteen cards off the top of the opponent's library every turn, regardless of their life total |
+
+# Iterations
+
+Three rounds of the viability battery, each fixing the weakest gate.
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 | First pass: the full manifest dread suite, both descent payoffs, the speed package, 24 lands | sim 36.0, synergy 77.3, T4 0.621, lands 0.620 |
+| v1 to v2 | minus 2 Valgavoth's Onslaught, minus 2 Twist Reality, minus 2 Under the Skin, minus 1 Unnerving Grasp, minus 1 Chupacabra Echo, plus 2 Abhorrent Oculus, plus 2 Sinkhole Surveyor, plus 2 Deep-Cavern Bat, plus 2 Racers' Scoreboard (a seven mana X spell and three clunky sorceries became evasive attackers and card flow) | sim 36.0 to 45.7, synergy 77.3 to 77.0, T4 0.621 to 0.635, lands 0.620 to 0.625 |
+| v2 to v3 | minus 1 Unnerving Grasp, minus 1 Squirming Emergence, plus 1 Sinkhole Surveyor, plus 1 Deep-Cavern Bat (trim the last do-nothing sorcery, add two more fliers that damage the opponent every turn) | sim 45.7 to 49.0, synergy 77.0 to 77.1, T4 0.635 to 0.651, lands 0.625 to 0.657 |
+
+The battery's simulated win rate is the one gate the final list still misses (49.0 against a 52.0 threshold, with individual runs between 45 and 56), so the list is flagged on that metric. Every other gate passes with room: Standard legal, zero rotating cards, synergy 77.1 against 70, goldfish turn four consistency 0.651 against 0.55, and four lands by turn four 0.657 against 0.55.
+
+# Deck list (Arena import)
+
+```
+Race the Reaper
+Deck
+4 Manifest Dread
+3 Paranormal Analyst
+2 Growing Dread
+2 Threats Around Every Corner
+1 Squirming Emergence
+3 Souls of the Lost
+3 Hauntwoods Shrieker
+2 Abhorrent Oculus
+3 Sinkhole Surveyor
+3 Deep-Cavern Bat
+2 Vnwxt, Verbose Host
+2 Aether Syphon
+2 The Speed Demon
+2 Endrider Catalyzer
+2 Racers' Scoreboard
+2 Avishkar Raceway
+1 Amonkhet Raceway
+3 Watery Grave
+2 Breeding Pool
+2 Overgrown Tomb
+1 Blood Crypt
+1 Steam Vents
+1 Stomping Ground
+4 Forest
+3 Island
+3 Swamp
+1 Mountain
+```
