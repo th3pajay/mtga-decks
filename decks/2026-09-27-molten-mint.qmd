@@ -1,0 +1,162 @@
+---
+title: "Molten Mint"
+subtitle: "Red / Black / Green Smaug Dragon x Treasure — The Hobbit set identity deck"
+date: "2026-09-27"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / Black / Green |
+| Archetype | Smaug Dragon x Treasure hoard engine (avg nonland CMC 3.06) |
+| Size | 60 cards |
+| Primary win | Smaug the Magnificent: a Treasure on every upkeep, then an attack trigger that deals damage equal to your Treasure count to any target |
+| Secondary win | The Misty Mountains Cold pays off four Treasures with a 6/6 flying Dragon token, and Last Light of Durin's Day puts a Dragon from hand or library straight onto the battlefield |
+| Land win con | The Lonely Mountain is a Mountain-typed land, so every copy adds a quest counter to Last Light of Durin's Day and mints 2/2 Dwarf tokens that the Gold Pan discounts |
+
+# Overview
+
+Molten Mint is today's The Hobbit set identity deck, built on the Smaug x Treasure axis rather than the storied Dwarves, the amass Goblins, or the Elf legends. The thesis is one sentence long: every card either makes gold, is a dragon, or turns gold into a dragon.
+
+The engine is Treasure, produced twelve different ways. Smaug the Magnificent makes one on every upkeep. The Misty Mountains Cold makes one on each of its four chapters. Dori, Flamekin Gildweaver, Plundering Pirate, Redcap Thief and Rapacious Dragon each mint one or two on entry. Piggy Bank pays out when it dies, Gold Pan pays out when it arrives, Bejeweled Warg pays out on combat damage, and The Sackville-Bagginses pays out when you feed it something. Sarkhan, Dragon Ascendant cashes in a Dragon in hand for a Treasure. That is 27 of the 36 nonland cards in the deck touching the hoard directly.
+
+The payoff is Smaug himself. A 4/3 flying hasty Dragon for four mana, he deals damage equal to the number of Treasures you control to any target whenever he attacks. Four Treasures is eight damage on top of four combat damage; eight Treasures is sixteen. He also pays his own tax, because the upkeep Treasure grows the count every turn he lives. The gold doubles as mana fixing in a three-color list, which is why a deck this greedy still functions on curve.
+
+The second kill is in the air and does not need Smaug at all. The Misty Mountains Cold trades itself for a 6/6 flying Dragon token once the hoard hits four, Rapacious Dragon and Flamekin Gildweaver add evasive and trampling bodies, and Last Light of Durin's Day converts six Mountains into a free Dragon from the library. Desolation of Smaug is the asymmetric sweeper that clears the ground for all of them while leaving your Dragons untouched.
+
+The Hobbit set (hob, 193 cards) lands on Arena 2026-08-14; the import list works from that date. Standard-legal card data here was pulled from MTGADB (validate: 60 cards, legal, zero rotating).
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Sow the hoard: The Sackville-Bagginses, Gold Pan or Piggy Bank. Stir Up Trouble stays up as one-mana removal that eats a spare artifact |
+| Turns 2-3 | Engine online: The Misty Mountains Cold starts stacking Treasures, Plundering Pirate and Redcap Thief add bodies plus gold, Sarkhan adds a Treasure off a Dragon in hand |
+| Turns 3-5 | The combo turn: Smaug the Magnificent lands on top of four or more Treasures, then attacks for the hoard total |
+| Turn 5+ | Close with quantity: Rapacious Dragon and Smaug, Wicked Worm top the curve, and each spell paid with Treasure mana draws a card |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | The engine and the payoff: a Treasure every upkeep, and an attack trigger dealing damage equal to your Treasure count to any target |
+| The Misty Mountains Cold | Four chapters of Treasure, then sacrifices itself into a 6/6 red flying Dragon token once the hoard reaches four |
+| Smaug, Wicked Worm | Five-mana 5/5 flying Dragon, treasure burst on entry (one tapped Treasure per artifact the opponent controls), and a card every time Treasure mana pays for a spell |
+| Dori, Bearer of Friends | Three-mana 3/2 trampler that mints a Treasure on entry — the cheapest way to raise the hoard by one |
+| Bejeweled Warg | Two-mana 3/2 trampler; combat damage either grows a Wolf or creates a Treasure |
+| The Sackville-Bagginses | Sacrifice a spare Treasure for a card and a fresh Treasure, and every token you sacrifice pings the opponent for 1 |
+| Last Light of Durin's Day | Quest counters off Mountains; at six it sacrifices itself to put any Dragon from hand or library onto the battlefield, and it cycles for two if the game goes long |
+| Desolation of Smaug | Three damage to every non-Dragon creature, then four mana spendable only on Dragon spells — the sweeper that is also a ramp spell |
+| Stir Up Trouble | One-mana destroy target creature, paid for with an artifact or a creature instead of mana |
+| Radagast of Rhosgobel | The first creature spell each turn costs two less and can be cast as though it had flash, so Smaug arrives a turn early |
+| Rapacious Dragon | Two Treasures on entry stapled to a 3/3 flyer |
+| Flamekin Gildweaver | Four-mana 4/3 trampler that brings a Treasure with it |
+| Plundering Pirate | Three-mana 3/2 that creates a Treasure on entry |
+| Redcap Thief | Three-mana 2/3 that creates a Treasure on entry |
+| Piggy Bank | Two-mana 3/2 artifact creature; its death is a Treasure, so it trades and ramps at the same time |
+| Gold Pan | Two-mana Equipment: a Treasure on entry, +1/+1, and the only card in the deck that turns The Lonely Mountain on untapped |
+| Sarkhan, Dragon Ascendant | Two-mana 2/2 that converts a Dragon in hand into a Treasure, then grows and turns into a flying Dragon every time one of your Dragons enters |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | The win-con land: a Mountain, so it feeds Last Light of Durin's Day, and for four mana plus red it makes 2/2 red Dwarf tokens, one cheaper for each Equipment you control |
+| Mountain | Primary red source and the fuel for Last Light of Durin's Day — ten copies plus four The Lonely Mountain is fourteen quest-counter triggers |
+| Swamp | Black source for The Sackville-Bagginses, Smaug, Wicked Worm and Stir Up Trouble |
+| Forest | Green source for Bejeweled Warg and Radagast of Rhosgobel; five copies because green is the lightest splash |
+
+## Curve and mana
+
+24 lands: 4 The Lonely Mountain, 10 Mountain, 5 Swamp, 5 Forest. Red sources 14, black 5, green 5, and every Treasure token in the deck is a wildcard source on top of that.
+
+Nonland curve: 1-drop x2, 2-drop x11, 3-drop x10, 4-drop x9, 5-drop x4. Average nonland CMC 3.06. The deck wants a two-drop hoard piece on turn two, a Treasure maker on turn three, and Smaug the Magnificent on turn four with at least two Treasures already banked. There are no one-mana plays other than Stir Up Trouble, which is deliberate: the deck spends its early turns building, not attacking.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two belong to the hoard. Gold Pan is the ideal turn-two play in a list this greedy: it creates a Treasure, it is an Equipment (so The Lonely Mountain comes in untapped), and it discounts the Mountain's Dwarf-token ability by one. Piggy Bank is the aggressive alternative — a 3/2 that turns into a Treasure when it dies, which makes every block profitable. The Sackville-Bagginses is the engine piece: feed it any spare artifact, draw a card, make a Treasure, and from that point on every Treasure you crack for mana also drains the opponent for 1.
+
+Sarkhan, Dragon Ascendant is the quiet setup card. Beholding a Dragon in hand costs nothing, produces a Treasure on entry, and turns Sarkhan into a growing Dragon the moment a real Dragon lands.
+
+Do not chain-cast for value yet. Hold Stir Up Trouble as a one-mana answer; its additional cost is any artifact or creature, so a spent Treasure doubles as the removal spell's fuel.
+
+## Mid game
+
+Turns three through five are when the hoard becomes a threat. The Misty Mountains Cold is the centerpiece: a Treasure on every chapter, and as soon as the count reaches four the Saga sacrifices itself for a 6/6 flying Dragon token. Because it checks after each chapter, a board with Dori and a Plundering Pirate already running can flip the Dragon on chapter two.
+
+Flamekin Gildweaver, Plundering Pirate and Redcap Thief keep the board populated while they raise the hoard. Rapacious Dragon is where the phase peaks: two Treasures and a 3/3 flyer, and the Treasures pay for the next Dragon.
+
+Desolation of Smaug is the reset button. It deals three to each non-Dragon creature, which kills almost every two- and three-drop on the other side while leaving your Dragons untouched, and then gives you four mana that can only be spent on Dragon spells — with five mana in play that is Smaug, Wicked Worm for one black.
+
+## The combo turn
+
+1. Bank the hoard. Four Treasures is the threshold that The Misty Mountains Cold trades in for a 6/6 flying Dragon, and it is also roughly the point where Smaug's attack trigger halves life totals.
+2. Deploy Smaug the Magnificent. Four mana, or two if Radagast of Rhosgobel discounted him, and he can come down at end of turn thanks to Radagast's flash clause.
+3. Attack. Smaug deals damage equal to your Treasure count to any target — the opponent, a planeswalker, or the one blocker that matters — and his 4 combat damage rides on top. The upkeep trigger already added a Treasure, so each swing is one point bigger than the last.
+4. Let the swing repeat. Four Treasures is 8 to the face, six is 10, eight is 12. A typical kill line is turn four Smaug attack for 8, upkeep Treasure, turn five attack for 10.
+
+## Win condition 2
+
+The second win does not need Smaug. The Misty Mountains Cold's 6/6 flying Dragon token plus Rapacious Dragon and Flamekin Gildweaver is a legitimate flying clock in a deck that clears the ground with Desolation of Smaug. Last Light of Durin's Day is the shortcut: fourteen red sources means six quest counters arrive quickly, and the payoff is any Dragon from hand or library directly onto the battlefield. Sarkhan, Dragon Ascendant joins the beatdown on his own once Dragons are entering, adding a +1/+1 counter and becoming a flying Dragon each turn.
+
+## Mulligan guide
+
+Keep hands with two to three lands and any two-drop that touches the hoard (Gold Pan, Piggy Bank, Bejeweled Warg, Sarkhan, Last Light of Durin's Day). The best openers are two lands, a two-drop and a three-drop. Ship one-land hands and hands with five or more lands and no engine. Because black and green are splashes, a hand of Mountains plus Treasure makers is keepable — Treasure tokens cast Smaug, Wicked Worm and Radagast without a single Swamp or Forest.
+
+## Key interactions and edge cases
+
+- Smaug the Magnificent counts Treasures at the moment his attack trigger resolves, not when he attacks. Do not crack a Treasure for Stir Up Trouble's cost before combat if you intend to attack with him.
+- The Misty Mountains Cold checks for four or more Treasures after every chapter, so with Dori, Plundering Pirate and a Gold Pan already banked it can pop its Dragon as early as chapter two.
+- Last Light of Durin's Day counts Mountains entering, not lands. The Lonely Mountain is a Mountain; Swamp and Forest are not. Search Mountains specifically when racing the six counters.
+- Sarkhan, Dragon Ascendant's behold is a choice: reveal a Dragon card from hand or pick a Dragon you control, then create a Treasure. His second ability triggers on every Dragon that enters, including the 6/6 token from The Misty Mountains Cold and the creature fetched by Last Light of Durin's Day.
+- Smaug, Wicked Worm's treasure burst counts artifacts the opponent controls, so it is weak against creature decks and enormous against Equipment and artifact lists. Its draw trigger fires whenever Treasure mana was spent on the spell, which includes spells paid for by the Treasures it just made.
+- The Sackville-Bagginses triggers on any token you sacrifice, not just creatures — cracking a Treasure for mana drains the opponent for 1. That makes the ping a real clock when you are chaining Dragons.
+- The Lonely Mountain enters tapped unless you control an Equipment, and Gold Pan is the only Equipment in the list. Curving Gold Pan into The Lonely Mountain gives you an untapped Mountain that also arms the Dwarf-token ability at one mana off.
+- Radagast of Rhosgobel discounts only the first creature spell each turn, so sequence a cheap creature first only if you do not want the discount on a Dragon. The discounted spell also gains flash.
+- Desolation of Smaug's four mana can only be spent on Dragon spells. Smaug the Magnificent, Smaug, Wicked Worm and Rapacious Dragon are the only legal uses in this list.
+- Stir Up Trouble's additional cost is an artifact or creature or four generic mana. Piggy Bank is the ideal sacrifice, because it turns into a Treasure on the way out.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Piggy Bank and Redcap Thief block profitably, Stir Up Trouble answers their best threat for one mana, and Desolation of Smaug is a one-sided sweeper once your Dragons are out |
+| Midrange | Go over the top: a 6/6 flying Dragon token plus a hasted Smaug outclasses most ground boards, and Smaug, Wicked Worm punishes artifact payoffs |
+| Control | Bank Treasures instead of overextending; hold Smaug until they tap out, use Radagast's flash to deploy him at end of turn, and let Last Light of Durin's Day cheat a Dragon past countermagic |
+| Combo | The clock is Smaug plus the hoard; force interaction with Desolation of Smaug and keep Stir Up Trouble for their engine piece |
+
+# Deck list (Arena import)
+
+```
+Molten Mint
+Deck
+3 Smaug the Magnificent
+3 The Misty Mountains Cold
+2 Dori, Bearer of Friends
+2 Smaug, Wicked Worm
+2 Bejeweled Warg
+2 The Sackville-Bagginses
+2 Last Light of Durin's Day
+1 Desolation of Smaug
+2 Stir Up Trouble
+2 Radagast of Rhosgobel
+2 Rapacious Dragon
+3 Flamekin Gildweaver
+3 Plundering Pirate
+2 Redcap Thief
+1 Piggy Bank
+2 Gold Pan
+2 Sarkhan, Dragon Ascendant
+4 The Lonely Mountain
+10 Mountain
+5 Swamp
+5 Forest
+```
