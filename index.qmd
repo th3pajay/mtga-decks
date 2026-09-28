@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-28**:
 
 - **[Tidewater Tally](decks/2026-09-28-tidewater-tally.html)** — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending  `combo` `+1/+1 Counters` `Surveil` `Waterbending`
+- **[Storyforge](decks/2026-09-28-storyforge.html)** — Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash  `hobbit` `dwarves`

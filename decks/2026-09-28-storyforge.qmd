@@ -1,0 +1,164 @@
+---
+title: "Storyforge"
+subtitle: "Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash"
+date: "2026-09-28"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / White / Green |
+| Archetype | Aggro-midrange (avg CMC 2.31, 75 percent creatures) |
+| Core mechanic | Storied (3+ artifacts, legendaries or Sagas) x Equipment |
+| Primary win | Equipped Dwarf alpha strike — Dáin Ironfoot gives double strike to every equipped attacker |
+| Secondary win | Token swarm (The Lonely Mountain, Fíli, Sandstorm Salvager) under Warleader's Call |
+| Score | 90.13 (color 100, curve 100, synergy 70.4) |
+
+# Overview
+
+Storyforge is a red-white Dwarf legendary core with a small green artifact engine bolted on, built around the Hobbit set's Storied mechanic: once you control three or more artifacts, legendaries or Sagas, every legendary Dwarf in the deck flips on at the same time. The cheap side of the deck provides those three pieces for free — Axe equipment tokens from Iron Hills Blacksmith and Dáin Ironfoot, Dwarven Mattock, the legendary creatures themselves — so Storied is normally live by turn three.
+
+The engine is looped rather than linear. Kíli the Resourceful and Giott, King of the Dwarves both convert Dwarf and Equipment entries into cards, Dáin's Company digs four deep for the next Dwarf or Equipment, and Elvish Archivist turns every artifact you drop into two +1/+1 counters while Warleader's Call pays you a card. Everything you draw is either another artifact, another legend, or a way to make the artifacts hit harder.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land a Dwarven Mauler (equips on it cost {2} less) or start the Kíli the Resourceful / Iron Hills Blacksmith chain; under no pressure, a Leyline Axe in the opener is already on the battlefield for free |
+| Turns 2-4 | Reach three artifacts plus legends: Blacksmith's Axe, Dwarven Mattock, Giott or Thorin Oakenshield. Storied turns on and Dáin's Company finds whatever is missing |
+| Turns 4-6 | Convert: Dáin Ironfoot grants double strike to every equipped attacker, Dwalin, Weaponmaster puts hone counters on all Equipment, Mattock pushes +2/+2 and ward |
+| Late game | The Lonely Mountain makes a 2/2 Dwarf every turn for {4}{R} minus {1} per Equipment; Warleader's Call pings each opponent on every token that enters |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Dwarven Mauler | {R} 2/1 — equip abilities targeting it cost {2} less, so Mattock and Leyline Axe turn on immediately |
+| Kíli the Resourceful | Storied payoff — first equip each turn is free; draws a card off the first Dwarf or Equipment that enters |
+| Iron Hills Blacksmith | {1}{W} double strike body that enters with an Axe Equipment token: two Storied pieces from one card |
+| Dáin's Company | Finds Dwarves and Equipment four cards deep; lifelink while you control another Dwarf |
+| Dáin Ironfoot | Primary payoff — Axe token on entry, and each equipped attacker gains double strike when it attacks |
+| Thorin Oakenshield | Storied payoff — ward {1} on artifacts and creatures makes the whole board awkward to answer |
+| Fíli the Pathfinder | Storied payoff — +1/+1 to the team; makes a 2/2 red Dwarf token on every nontoken Dwarf entry |
+| Dáin, Lord of the Iron Hills | Vigilance attacker and attack tax; buys the turns the engine needs |
+| Dwalin, Weaponmaster | Hone counters on each Equipment whenever it enters or attacks ({+1}/{+0} to each equipped creature) |
+| Thorin, Mountain-king | Attaches any number of Equipment on entry and turns the piled-up power into removal |
+| Dwarven Mattock | +2/+2 and ward {1}, auto-attached to a Dwarf; the cheapest way to keep Storied on |
+| Leyline Axe | Free on the battlefield from the opening hand; +1/+1 with double strike and trample |
+| Warleader's Call | Team +1/+1 and a 1-damage ping to each opponent per creature that enters |
+| Giott, King of the Dwarves | Double strike; discards to draw on Dwarf entries and Equipment entries |
+| Erode | {W} unconditional creature or planeswalker removal |
+| Elvish Archivist | Green engine — artifacts entering put two +1/+1 counters on it, enchantments entering draw a card |
+| Sandstorm Salvager | Makes a 3/3 Golem artifact token, then puts +1/+1 counters and trample on your tokens |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Win-condition land. Untapped if you control an Equipment; {4}{R}, {T} makes a 2/2 red Dwarf, one mana cheaper per Equipment |
+| Gathering Place | {G} or {W} once you control a basic land — the green splash and white fixing in one slot |
+| Training Compound | {R} or {G} on the same condition — carries the green splash without slowing the red base |
+| Wind-Scarred Crag | Red-white dual that gains a life; the fourth Equipment-adjacent land drop |
+| Mountain / Plains / Forest | Basic base: 5 / 4 / 2 |
+
+## Curve and mana
+
+The deck curves out at 1-2 and stops there on purpose: 4 one-drops, 23 two-drops, 3 three-drops and 6 four-drops. Red is the primary colour (Dáin Ironfoot, Dwarven Mauler, Leyline Axe, Erode is white), white supplies the legendary Dwarf core, and green is a three-card splash for Elvish Archivist and Sandstorm Salvager off Gathering Place, Training Compound and the two Forests. Fifteen sources produce white, twelve produce red, and seven produce green — enough for a splash that only wants to see one green card a game.
+
+# Gameplay strategy
+
+## Early game
+
+Open on Dwarven Mauler or a two-drop legend rather than on an Equipment: the storied count is what turns the deck on, and the legends are themselves artifacts-or-legendaries. Iron Hills Blacksmith is the best turn two — it enters with an Axe, attacks for two with double strike, and gives you a free artifact for the Storied check. Kíli the Resourceful on two is the value line: hold the first Dwarf or Equipment of the turn and it draws you a card.
+
+## Mid game
+
+Turn three to five is where the deck separates from a vanilla tribal deck. Dáin's Company re-fills the hand and finds the missing piece, Giott and Kíli make every subsequent permanent a cantrip, and Elvish Archivist grows into the biggest creature on the board if the artifact half of the deck shows up. Keep one Equipment unattached if you are about to cast Thorin, Mountain-king — it attaches everything on entry, so every extra Equipment is extra damage.
+
+## The combo turn
+
+The killing turn is assembled from three pieces that are each fine on their own:
+
+1. An Equipment on a Dwarf — Dwarven Mattock (+2/+2, ward) or Leyline Axe (double strike and trample).
+2. Dáin Ironfoot, whose attack trigger gives every equipped attacking creature double strike.
+3. Dwalin, Weaponmaster, whose attack trigger puts a hone counter on each Equipment ({+1}/{+0} per counter).
+
+With Mattock on a Dwarven Mauler and Dáin Ironfoot attacking, a single 2/1 becomes a 5/4 double striker for eight damage, and Dwalin's hone counters scale every Equipment you control, including the Axe tokens the Blacksmith and Dáin hand you. Kíli's Storied ability makes the first equip of that turn free, so the whole package costs nothing extra to assemble and Fíli's +1/+1 is applied on top of it.
+
+## Win condition 2
+
+When the combat route is bottled up, the deck wins off tokens. The Lonely Mountain activates for {4}{R} minus {1} for each Equipment you control — with three Equipment that is {1}{R} for a 2/2 Dwarf, every turn, forever. Fíli the Pathfinder makes a 2/2 token off every nontoken Dwarf entry, Sandstorm Salvager makes a 3/3 Golem artifact token and then puts +1/+1 counters and trample on the whole token team, and Warleader's Call turns each of those entries into a point of damage to each opponent. Leyline Axe and Dwarven Mattock sit on whichever token lives, so the tokens are not simply chump blockers.
+
+## Mulligan guide
+
+Keep any hand with two or three lands, one one-drop or Blacksmith, and one Equipment. A hand with Leyline Axe plus The Lonely Mountain is a keep even on four lands: the Axe begins on the battlefield, which turns on the untapped Mountain and puts you one permanent away from Storied before you cast anything. Ship hands that are all four-drops, and ship hands with three or more colourless lands (Gathering Place and Training Compound only produce coloured mana once you control a basic land).
+
+## Key interactions and edge cases
+
+- Leyline Axe starts on the battlefield when it is in your opening hand. That is a free Storied piece and it leaves The Lonely Mountain untapped on turn one.
+- Dwarven Mauler discounts equip abilities that target it — it does not make them free, but it makes Leyline Axe's and Mattock's {3} equips cost {1}.
+- Dáin Ironfoot's Axe token counts toward Storied and is the cheapest equip in the deck at {2}, which Dwarven Mauler reduces to nothing.
+- Kíli the Resourceful triggers only once per turn: sequence a Dwarf first, then an Equipment, so the single draw lands when you want it.
+- Giott, King of the Dwarves triggers on your own entry as well as on each Dwarf and Equipment, so he is a three-card dig engine by himself once the board is assembled.
+- Thorin, Mountain-king's trigger deals damage equal to the attached creature's power to a target creature, so it is removal, not reach: point it at the biggest blocker before combat.
+- Elvish Archivist has two separate once-per-turn triggers — artifacts give counters, enchantments draw cards. Warleader's Call entering is a card, and each subsequent Equipment is two counters.
+- Gathering Place and Training Compound produce coloured mana only if the land entered this turn or you control a basic land. Play them behind a basic whenever possible; otherwise they are a {C} source for that turn.
+- Erode is unconditional, but the opponent fetches a basic land. Use it on the creature that actually kills you, not on the first thing that attacks.
+- Sandstorm Salvager's Golem is an artifact creature token: it counts for Storied, it is a legal target for its own pump ability, and it carries Equipment.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Dáin, Lord of the Iron Hills taxes attacks, Mattock's ward {1} taxes removal; trade Dwarves early and let Warleader's Call win the race on pings |
+| Midrange | You have more two-for-ones: Kíli, Giott and Dáin's Company all replace themselves. Keep Thorin, Mountain-king for the biggest blocker |
+| Control | The Lonely Mountain and Sandstorm Salvager win through sorcery-speed sweepers; Elvish Archivist rebuilds after a wipe, and Leyline Axe in the opener beats a turn-one Duress-style start |
+| Combo | Erode and Dáin Ironfoot's double strike are the clock pieces; Dwarven Mauler plus Leyline Axe is a turn-four kill if they stumble |
+
+# Iterations
+
+The deck went through one viability pass; the first list failed the simulation gate and was rebuilt around the cheapest half of the Dwarf shell.
+
+| Round | Change | sim win rate | goldfish T4 | P(4 lands by T4) | synergy |
+|-------|--------|--------------|-------------|------------------|---------|
+| v1 | initial list — Balin, Bifur, Roads Go Ever Ever On, Crossroads Watcher, Herd Heirloom, Diamond Pick-Axe, Hard-Won Jitte, Lavaspur Boots | 49.0 | 0.639 | 0.654 | 70.5 |
+| v2 | cut the five-drop and six-drop payoffs, the Sagas and the unplayed Equipment; added 4 Dwarven Mauler, 3 Leyline Axe, 2 Erode, 2 Elvish Archivist, 1 Sandstorm Salvager, 1 Thorin, Mountain-king — cheaper curve and free-equip pressure | 54.3 | 0.634 | 0.628 | 70.4 |
+
+v1 to v2: sim 49.0 to 54.3, goldfish T4 0.639 to 0.634, P(4 lands by T4) 0.654 to 0.628, synergy 70.5 to 70.4. All gates pass on v2.
+
+# Deck list (Arena import)
+
+```
+Storyforge
+Deck
+4 Dwarven Mauler
+3 Kíli the Resourceful
+3 Iron Hills Blacksmith
+3 Dáin's Company
+2 Dáin Ironfoot
+2 Thorin Oakenshield
+2 Dwarven Mattock
+2 Fíli the Pathfinder
+1 Dáin, Lord of the Iron Hills
+1 Dwalin, Weaponmaster
+1 Thorin, Mountain-king
+3 Leyline Axe
+2 Warleader's Call
+2 Giott, King of the Dwarves
+2 Erode
+2 Elvish Archivist
+1 Sandstorm Salvager
+4 The Lonely Mountain
+3 Gathering Place
+3 Training Compound
+3 Wind-Scarred Crag
+5 Mountain
+4 Plains
+2 Forest
+```
