@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-27**:
+Deck guides published **2026-09-28**:
 
-- **[Race the Reaper](decks/2026-09-27-race-the-reaper.html)** — Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill  `combo` `Fathomless descent` `Manifest dread` `Max speed`
-- **[Molten Mint](decks/2026-09-27-molten-mint.html)** — Red / Black / Green Smaug Dragon x Treasure — The Hobbit set identity deck  `hobbit` `smaug`
+- **[Tidewater Tally](decks/2026-09-28-tidewater-tally.html)** — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending  `combo` `+1/+1 Counters` `Surveil` `Waterbending`
