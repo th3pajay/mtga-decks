@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-07 · **588** cards locked · **Hobbit 40/193** remaining
+**Card pool consumption** — cycle started 2026-09-07 · **598** cards locked · **Hobbit 40/193** remaining
 
-**81 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**82 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-09-29
+
+- **[Overtake at Midnight](decks/2026-09-29-overtake-at-midnight.html)** — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop  `combo` `start-your-engines`
 
 ## 2026-09-28
 

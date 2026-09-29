@@ -1,0 +1,169 @@
+---
+title: "Overtake at Midnight"
+subtitle: "Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop"
+date: "2026-09-29"
+categories: ["combo", "start-your-engines"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black / Red |
+| Archetype | Speed aggro-combo (avg CMC 2.28, 83 percent creatures) |
+| Core mechanic | Start your engines! (speed 1 to 4, max speed payoffs) |
+| Primary win | Max-speed evasive kill: Hazoret, The Speed Demon and Streaking Oilgorger attack for lethal while Far Fortune adds a point to every source |
+| Secondary win | Death-drain loop: Embalmed Ascendant drains each opponent on every creature death, fed by Zahur, Gas Guzzler, Hour of Victory and Nesting Bot |
+| Land as win condition | Restless Reef attacks as a 4/4 deathtouch Shark and mills four a turn; Amonkhet Raceway and Muraganda Raceway turn on at max speed |
+| Score | 71.14 overall (synergy 73.4, aggro/midrange) |
+
+# Overview
+
+Overtake at Midnight is a four-colour speed deck. Every permanent in it either grants the Start your engines! mechanic or profits from being at speed 4, so the deck does not need a specific two-card combo to function: it needs a body on turn one and one point of damage per turn, and the whole list turns on at once.
+
+Speed is the engine. When any Start your engines! permanent is on the battlefield, your speed starts at 1 and rises by one on each of your turns in which an opponent loses life, up to a maximum of 4. One point of damage a turn is therefore enough to reach max speed by turn four, which is why eleven one-drops and a full set of Gas Guzzler make up the bottom of the curve. From turn four onward every card in the deck has a second mode: Burnout Bashtronaut gains double strike, Hazoret stops being a wall and starts attacking for five, The Speed Demon draws four cards a turn, Embalmed Ascendant drains on every death, and the two Raceway lands and Restless Reef take over the late game.
+
+The second engine is a sacrifice loop. Nesting Bot, Hour of Victory and Embalmed Ascendant all produce bodies, Zahur, Glory's Past converts any spare creature into a surveil, and Gas Guzzler converts one into a card. At max speed each of those deaths is a point of damage to each opponent from Embalmed Ascendant and, with Zahur in play, replaces the sacrificed body with a tapped 2/2 Zombie. That loop is also the deck's answer to a stalled board: it kills without attacking.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turn 1 | Gas Guzzler, Nesting Bot or Burnout Bashtronaut. Speed is 1 and the clock has started; Nesting Bot is the best of the three because it leaves a Servo behind when it dies |
+| Turns 2-3 | Gastal Thrillseeker (one damage on entry, which is a free speed step), Endrider Catalyzer, Zahur or Slick Imitator. Keep attacking with whatever can get through: one point of damage is all the turn needs |
+| Turns 3-4 | Speed hits 4. Embalmed Ascendant and Perilous Snare come down, Hazoret starts attacking for five, Burnout Bashtronaut becomes a double striker and Far Fortune doubles the whole board's damage |
+| Turns 5+ | The Speed Demon and Streaking Oilgorger close the game; the sacrifice loop (Zahur plus Embalmed Ascendant plus Gas Guzzler) drains opponents who refuse to block, and Hour of Victory tutors for the missing payoff |
+| Stalled board | Stop attacking into bigger blockers and switch to the loop: sacrifice a token a turn to Zahur (surveil, then a fresh Zombie) and Gas Guzzler (a card), draining each opponent once per death |
+
+## Card roles
+
+| Card | Role (with its key text) |
+|------|--------------------------|
+| Gas Guzzler | {B} 2/1 enabler and card advantage; enters tapped, and at max speed {B} plus sacrificing another creature or Vehicle draws a card |
+| Nesting Bot | {W} 1/1 artifact body; when it dies it leaves a 1/1 colorless Servo artifact token, and at max speed it is a 2/1 |
+| Burnout Bashtronaut | {R} 1/1 menace with a {2} pump, and the deck's cheapest attacker once max speed gives it double strike |
+| Endrider Catalyzer | {1}{R} 3/1 pressure that also guarantees the first speed step on turn two; at max speed it taps for {R}{R} |
+| Gastal Thrillseeker | {B}{R} 2/3 that deals 1 damage to a target opponent and gains 1 life on entry, so the speed step never depends on combat; at max speed it has deathtouch and haste |
+| Slick Imitator | {1}{U} 1/3, the blue splash; at max speed {1} and sacrificing it copies target spell you control, and a copy of a permanent spell becomes a token |
+| Zahur, Glory's Past | {W}{B} 3/2 legendary; sacrifice another creature to surveil 1 once each turn, and at max speed every nontoken creature death makes a tapped 2/2 black Zombie |
+| Embalmed Ascendant | {1}{W}{B} 1/2 that arrives with a 2/2 black Zombie; at max speed every creature you control dying drains each opponent for 1 and gains you 1 |
+| Far Fortune, End Boss | {2}{B}{R} 4/5 legendary; attacking deals 1 damage to each opponent, and at max speed all damage from your sources to opponents and their permanents is increased by 1 |
+| Hazoret, Godseeker | {1}{R} 5/3 indestructible haste; {1} and {T} make a creature with power 2 or less unblockable, but she can only attack or block once you have max speed |
+| The Speed Demon | {3}{B}{B} 5/5 flying trample legend and the main clock; at end of turn you draw X and lose X life, where X is your speed |
+| Streaking Oilgorger | {4}{B} 3/3 flying haste that races anything and, at max speed, gains lifelink |
+| Perilous Snare | {2}{W} exiles a nonland permanent on entry until it leaves the battlefield, and at max speed taps to put a +1/+1 counter on a creature at sorcery speed |
+| Hour of Victory | {2}{B} makes a 2/2 black Zombie on entry, and at max speed {1}{B} plus sacrificing it searches your library for any card |
+| Starting Column | {3} tap for one mana of any colour, which is the deck's only true four-colour fixer; at max speed sacrificing it draws two cards and discards one |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Reef | Win-condition land. Enters tapped, taps for {U} or {B}, and for {2}{U}{B} becomes a 4/4 blue-black Shark with deathtouch that mills four cards whenever it attacks. It triggers Far Fortune's attack damage and wins games on its own when the ground is locked |
+| Amonkhet Raceway | Start your engines! on a land, and at max speed {T} grants haste, which lets Hazoret, The Speed Demon or the Reef attack the turn it arrives |
+| Muraganda Raceway | Start your engines! and a {C} source; at max speed it makes {C}{C}, paying for Starting Column looting and artifact activations |
+| Swamp / Mountain / Plains / Island | Basic base: 6 / 5 / 4 / 3. Black is primary, red secondary, white and blue are one-pip splashes |
+
+## Curve and mana
+
+The deck is 24 lands, 30 creatures and 6 non-creature permanents. The curve is 11 one-drops, 12 two-drops, 8 three-drops, 2 four-drops and 3 five-drops, for an average CMC of 2.28, so a land-light hand still functions and the deck keeps deploying threats while it raises speed.
+
+Coloured sources: eight black (6 Swamp, 2 Restless Reef), five red, five blue (3 Island, 2 Restless Reef) and four white, plus two Starting Column that tap for any colour. Black and red are the bones of the deck (Gas Guzzler, Gastal Thrillseeker, Burnout Bashtronaut, Far Fortune, The Speed Demon), white is a four-card splash for Embalmed Ascendant, Zahur, Nesting Bot and Perilous Snare, and blue is a two-card splash for Slick Imitator. Only Restless Reef enters tapped, so the deck plays an untapped land on turns one and two almost every game.
+
+# Gameplay strategy
+
+## Early game
+
+Play a one-drop before anything else, even if it is only a Nesting Bot. The deck's whole plan is to have an opponent lose life on each of your turns from turn two onward, and every Start your engines! permanent only pays off once speed reaches 4. Gastal Thrillseeker is the turn-two play that guarantees the step: its entry trigger deals one damage to a target opponent whether or not your attack connects. Endrider Catalyzer and Zahur apply real pressure while doing the same job.
+
+## Mid game
+
+Turns three to five are about flipping the switches. Once speed is 4, the cards change meaning: Burnout Bashtronaut attacks as a 1/1 double striker with menace for one mana, Hazoret leaves the defence and starts attacking for five, Embalmed Ascendant turns every future trade into a point of drain, and Perilous Snare starts handing out counters while it holds a permanent exiled. Hold Perilous Snare or Embalmed Ascendant for the opponent's turn-three threat rather than running out your own four-drop into nothing.
+
+## The combo turn
+
+Max speed is a permanent state once reached, so the "combo" is what the deck does with it every turn afterwards:
+
+1. Speed 4 means Far Fortune's max-speed clause adds one damage to every source you control, including the one point from Far Fortune's own attack trigger and Embalmed Ascendant's drain.
+2. Burnout Bashtronaut plus Hazoret plus The Speed Demon attack for 2, 5 and 5 with evasion and trample, where the 2 is a double striker and the Demon draws four cards at end of step.
+3. Streaking Oilgorger's lifelink and Embalmed Ascendant's drain pay the life The Speed Demon costs, so the draw engine is free.
+
+An attack step with Far Fortune, Hazoret and The Speed Demon on a clear board is 14 damage before blocks, and every point is increased by Far Fortune's clause. Hour of Victory's max-speed mode tutors for whichever of those pieces is missing.
+
+## Win condition 2
+
+When the board stalls, the deck stops attacking and starts sacrificing. Embalmed Ascendant at max speed drains each opponent for one on every creature death, and the deck manufactures deaths cheaply: Nesting Bot leaves a Servo when it dies, Hour of Victory and Embalmed Ascendant both arrive with a 2/2 Zombie, and Embalmed Ascendant's own clause replaces creatures with Zombies when Zahur is in play. Zahur, Glory's Past sacrifices a creature a turn to surveil, Gas Guzzler sacrifices one to draw a card, and Slick Imitator sacrifices itself to copy a spell. Each of those sacrifices is a drain trigger with Far Fortune on the board, and the Zombie tokens rebuild the board for the next one. The loop needs no attack step, which is how the deck beats a wall of blockers or a lifelink race.
+
+Restless Reef is part of that plan rather than a footnote: for {2}{U}{B} it attacks as a 4/4 deathtouch creature, which is a body the opponent must block, it mills four cards whenever it attacks, and it turns on Far Fortune's attack trigger and Embalmed Ascendant's drain on turns when you otherwise cannot attack.
+
+## Mulligan guide
+
+Keep any hand with two or three lands, a black or red source, and at least one one-drop or Gastal Thrillseeker. A hand with two lands, Gas Guzzler, Nesting Bot and a two-drop is a clear keep on the play: the deck only needs to reach three mana to play most of its cards, and speed climbs on its own. Ship hands whose only cheap cards are Hazoret or a Raceway, ship hands with neither black nor red mana (the deck cannot apply pressure without them), and ship four-land hands with no one-drops. Never keep a hand that cannot deal a point of damage by turn three.
+
+## Key interactions and edge cases
+
+- Speed rises only once per turn no matter how much damage is dealt, so split your damage rather than overcommitting: one point on turn two is as good as ten.
+- Hazoret can neither attack nor block until you have max speed. Cast her early as a 5/3 indestructible blocker, then flip her into the attacker once speed is 4.
+- Far Fortune's max-speed clause modifies damage from any source you control, including Burnout Bashtronaut's pump, Embalmed Ascendant's drain, Perilous Snare's counters, Gastal Thrillseeker's entry ping and Restless Reef's combat damage.
+- Embalmed Ascendant's drain triggers on every creature you control dying, tokens included, so sacrificing a Servo from Nesting Bot or a 2/2 Zombie is a real point of damage.
+- Zahur's sacrifice ability is once each turn and only sacrifices another creature; use it on a token, and at max speed the death immediately makes a tapped 2/2 Zombie if the sacrificed creature was a nontoken.
+- Gas Guzzler can sacrifice a Vehicle as well as a creature, and its ability is the only card draw in the deck that costs nothing but a body.
+- Slick Imitator's copy becomes a token if it copies a permanent spell: copying Perilous Snare exiles a second permanent, copying Hour of Victory makes another Zombie and a second tutor outlet, and copying a non-legendary creature such as Gastal Thrillseeker or Streaking Oilgorger adds a real body. Do not copy Far Fortune, Hazoret or The Speed Demon, because the legend rule kills the token.
+- The Speed Demon's end step draws X and loses X where X is your speed, so at max speed it is four cards and four life each turn. Pair it with Streaking Oilgorger's lifelink or hold it until Embalmed Ascendant is draining.
+- Starting Column is the deck's only true four-colour fixer. Lead with it when your hand holds white and blue cards, and cash it in for the loot once speed is 4 and the colours are online.
+- Amonkhet Raceway's haste mode is instant-speed-ish pressure: a hasty Hazoret or Restless Reef out of nowhere is often the last two points.
+- Muraganda Raceway produces only {C}, so it pays for Starting Column and artifact activations, never for your black, red, white or blue spells.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with evasion: Hazoret is an indestructible blocker before max speed, Streaking Oilgorger's lifelink stabilises, and Far Fortune's attack ping means you win any pure damage race once speed is 4 |
+| Midrange | Do not trade bodies one for one; let Perilous Snare exile their best permanent and use the sacrifice loop with Embalmed Ascendant and Zahur to drain past their blockers |
+| Control | Deploy two threats a turn early, keep Gas Guzzler and Hour of Victory as post-sweeper rebuilding, and hold The Speed Demon until you can attack with it. Slick Imitator on a creature spell beats a single removal spell |
+| Combo | Hazoret plus Far Fortune is a fast clock and Perilous Snare exiles their key permanent. Hour of Victory's max-speed tutor finds the piece you need, and Embalmed Ascendant's drain ends games without attacking |
+
+# Iterations
+
+The first viability pass passed every gate, so the final list is v1. Two lower-curve refinements were tested against the same battery and both scored worse, so the original list was kept.
+
+| Round | Change | sim win rate | goldfish T4 | P(4 lands by T4) | synergy |
+|-------|--------|--------------|-------------|------------------|---------|
+| v1 | initial list (final) | 54.0 | 0.621 | 0.638 | 73.4 |
+| v1 to v2 | -1 Gas Guzzler, -1 Nesting Bot, +2 Outpace Oblivion (reach over bodies) | 52.3 | 0.631 | 0.621 | 73.2 |
+| v1 to v3 | -1 Nesting Bot, +1 Far Fortune, End Boss (third copy of the multiplier) | 48.7 | 0.627 | 0.624 | 73.4 |
+
+v1 to v2: sim 54.0 to 52.3, synergy 73.4 to 73.2 — reverted. v1 to v3: sim 54.0 to 48.7 on an identical manabase — reverted, the extra legendary copy cost more consistency than it added damage. All gates pass on v1: sim 54.0 (gate 52), synergy 73.4 (gate 70), goldfish T4 0.621 (gate 0.55), P(4 lands by T4) 0.638 (gate 0.55).
+
+# Deck list (Arena import)
+
+```
+Overtake at Midnight
+Deck
+4 Gas Guzzler
+4 Nesting Bot
+3 Burnout Bashtronaut
+3 Endrider Catalyzer
+3 Gastal Thrillseeker
+2 Slick Imitator
+2 Zahur, Glory's Past
+2 Embalmed Ascendant
+2 Far Fortune, End Boss
+2 Hazoret, Godseeker
+2 The Speed Demon
+1 Streaking Oilgorger
+2 Perilous Snare
+2 Hour of Victory
+2 Starting Column
+6 Swamp
+5 Mountain
+4 Plains
+3 Island
+2 Restless Reef
+2 Amonkhet Raceway
+2 Muraganda Raceway
+```

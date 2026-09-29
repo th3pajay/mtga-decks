@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-28**:
+Deck guides published **2026-09-29**:
 
-- **[Tidewater Tally](decks/2026-09-28-tidewater-tally.html)** — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending  `combo` `+1/+1 Counters` `Surveil` `Waterbending`
-- **[Storyforge](decks/2026-09-28-storyforge.html)** — Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash  `hobbit` `dwarves`
+- **[Overtake at Midnight](decks/2026-09-29-overtake-at-midnight.html)** — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop  `combo` `start-your-engines`
