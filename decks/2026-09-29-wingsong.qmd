@@ -1,0 +1,166 @@
+---
+title: "Wingsong"
+subtitle: "Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs"
+date: "2026-09-29"
+categories: ["hobbit", "eagles"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Green |
+| Archetype | Aerial tempo-aggro (83 percent creatures, average CMC 3.4) |
+| Size | 60 cards — 36 non-land, 24 lands |
+| Core mechanic | Recruit plus "draw your second card each turn" triggers on a Bird and token board |
+| Primary win | Empyrean Eagle and Bard's Company anthems on an evasive board |
+| Secondary win | The Lord of the Eagles as a discounted 8/8 with flash, backed by a Ravenhill Flock that grows with every draw |
+| Win-condition land | Lake-town — cashes a land in for two +1/+1 counters on a Human |
+| Score | overall 88.97 (color 100, curve 95.9, synergy 71.0) |
+
+# Overview
+
+Wingsong is the Hobbit set's Bant draw engine: recruit cards turn every entry and every attack into a card, and draw-trigger payoffs turn those cards into bodies and counters. Recruit reads "draw a card, then discard a card; if you discarded a nonland card, create a 1/1 white Human Soldier" — so a single Bard's Company attack gives you a card, a Soldier, and a second draw for the turn. That second draw is the engine: Mischievous Mystic makes a 1/1 blue Faerie with flying, Lakeshore Apothecary and Bard the Bowman put +1/+1 counters on your team, Master's Councillors mills three, and Ravenhill Flock adds a +1/+1 counter for every card you draw at all.
+
+The board those cards build is small and evasive, and two anthems make it lethal: Empyrean Eagle gives every other flyer +1/+1, and Bard's Company gives every other creature +1/+1. A Faerie token, a Soldier token and a Ravenhill Flock that has drawn four cards are all hitting for two or three through the air while the ground is held by Bard the Bowman's reach and, later, a 5/5 Beorn.
+
+The top end is The Lord of the Eagles, which costs {X} less where X is the total power of your creatures with flying — on a normal board that is a four-to-six mana 8/8 with flash. Lake-town is the land slot that closes games that stall: sacrifice it for two +1/+1 counters on a Human, which in this deck includes every Soldier token, both Bards, the Mystic, the Apothecary, the Councillors and Beorn himself.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | There are no one-drops: open on Mischievous Mystic, Lakeshore Apothecary, Master's Councillors or Roads Go Ever, Ever On, which removes two Plains from the library and gains 2 life |
+| Turns 2-4 | Empyrean Eagle and Bard's Company turn the small bodies into a real clock; every recruit and every attack adds a card, a token or a counter |
+| Turns 3-5 | Long Lake Nuisance and Bard's Company attacks convert combat into cards and Soldiers; Gaze in Wonder taps the blockers that matter before swinging |
+| Turn 5+ | Ravenhill Flock is a large flier by now, so The Lord of the Eagles costs a fraction of its nine mana; Lake-town cashes in for the last two counters |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Empyrean Eagle | {1}{W}{U} 2/3 Bird Spirit — flying anthem: every other flyer you control gets +1/+1 |
+| Ravenhill Flock | {3}{U} 1/2 Bird — the growth engine: a +1/+1 counter for every card you draw |
+| Mischievous Mystic | {1}{U} 2/1 Human Wizard, flying — second card each turn makes a 1/1 blue Faerie with flying |
+| Master's Councillors | {1}{U} 1/3 Human Advisor, vigilance — second card each turn mills three; grows +2/+0 per graveyard holding seven or more cards |
+| Bard's Company | {2}{W}{U} 2/3 Human Citizen — flash while you control a Human, other creatures get +1/+1, recruit on entry and on every attack |
+| Long Lake Nuisance | {3}{U} 3/1 Bird, flying — three power in the air plus a recruit Soldier on entry |
+| Lakeshore Apothecary | {1}{U} 1/2 Human Cleric, vigilance — a +1/+1 counter on every second draw |
+| Bard the Bowman | {1}{W}{U} 1/3 legendary Human Archer, reach — second draw puts a +1/+1 counter on a creature and gives it lifelink |
+| Velvetwing Butterflies | {2}{W} 2/2 Insect, flying — Gaze in Wonder ({1}{W}) taps up to two creatures before the swing |
+| The Lord of the Eagles | {7}{U}{U} 8/8 legendary Bird Noble, flash and flying — costs {X} less, X being the total power of your flyers |
+| Beorn, Reluctant Host | {4}{G} 5/5 legendary Human Bear Shapeshifter, trample — Till and Tend ({1}{G}) first for an extra land drop |
+| Eagle of the Great Shelf | {4}{W} 2/5 Bird Soldier, flying — gains +1/+1 on attack for each other creature you control |
+| Old Fat Spider Can't See Me | {2}{U} Saga — chapter I hexproof, II a damage shield, III and IV draw a card |
+| Roads Go Ever, Ever On | {1}{W} Saga — two Plains out of the library, then two cards back to hand, then a pump for each Plains you control |
+| Settle the Wreckage | {2}{W}{W} — exiles every attacking creature one player controls |
+| Uneasy Partings | {3}{U} — tucks a creature on the top or bottom of its owner's library ({1} cheaper against an attacker) |
+| Lake-town | Land win-condition: {W} or {U}, then sacrifice for two +1/+1 counters on a Human |
+| Tranquil Cove / Blossoming Sands / Uncharted Haven | Tapped dual base; Uncharted Haven names whichever colour is missing |
+| Island / Plains / Forest | 6 / 4 / 2 basic base for the white-blue core and the two-card green splash |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Lake-town | Win-condition land. Enters tapped for {W} or {U}, then {2}{W}{U}, {T}, sacrifice: two +1/+1 counters on target Human — the tokens, both Bards and Beorn are all Humans |
+| Tranquil Cove | White and blue in one slot plus 1 life |
+| Blossoming Sands | White and green in one slot plus 1 life — this is what carries Beorn |
+| Uncharted Haven | Fixes the colour the hand is missing; the only land that can be blue, white or green on demand |
+| Island / Plains / Forest | 12 of the 24 lands are basic; the deck would rather curve two-drop into two-drop than fix early |
+
+## Curve and mana
+
+The 36 non-land cards are 10 two-drops, 10 three-drops, 11 four-drops, 3 five-drops and 2 cards at seven or more, for an average CMC of 3.4 — a tempo curve that starts on two and tops out with a discounted 8/8 rather than a real nine-drop. Sixteen lands produce white, fourteen produce blue, and six produce green (eight if Uncharted Haven is named green), which is enough for a splash of exactly two Beorn. The cost of that base is speed: twelve of the twenty-four lands enter tapped, so the first turn is always off-curve and the deck's double-spell turns arrive a turn late.
+
+# Gameplay strategy
+
+## Early game
+
+Open on a two-drop, never a tapland-and-pass. Mischievous Mystic is the best of them: a 2/1 flyer that starts making more flyers the moment you draw your second card. Roads Go Ever, Ever On is the value alternative — chapter one exiles two basic Plains from the library (two fewer lands to draw) and gains 2 life, and chapters two and three hand them back as land drops for Lake-town later. Master's Councillors blocks all day and mills, and Lakeshore Apothecary holds the ground while getting bigger.
+
+Keep one Human on the battlefield at all times so Bard's Company keeps its flash. Flashing it in is a defensive play; casting it on your own turn is the play that turns on your second-draw payoffs, because the recruit draw then lands on your turn.
+
+## Mid game
+
+Turns three to five are about density. Empyrean Eagle is the best card in the deck: it turns a pair of 1/1 Faeries, a Soldier token and a Mystic into a clock, and it counts itself for The Lord of the Eagles. Bard's Company and Long Lake Nuisance turn attacks into cards and Soldiers, so the board gets wider without spending cards. Bard the Bowman's reach plus lifelink counters race an aggro deck, and Old Fat Spider Can't See Me protects whichever creature is carrying your counters.
+
+Do not trade flyers for ground creatures. The deck wins in the air; the Soldiers exist to block, to be sacrificed to Lake-town's counters, and to make Beorn's and Bard's Company's anthem math add up.
+
+## The combo turn
+
+The kill is a draw chain, not a two-card infinite:
+
+1. Attack with Bard's Company — recruit draws a card and makes a 1/1 Human Soldier.
+2. That draw is your second card of the turn if you have already drawn, so every second-draw payoff fires at once: a 1/1 blue Faerie (Mystic), a +1/+1 counter (Apothecary), a +1/+1 counter plus lifelink (Bard the Bowman), three milled cards (Councillors), and a +1/+1 counter on Ravenhill Flock for the card itself.
+3. Empyrean Eagle and Bard's Company are both online, so every flyer is at +2/+2 and every token has +1/+1 from the Company.
+4. Cast Gaze in Wonder to tap the two blockers that would have chump-blocked, then swing with the team.
+
+A representative turn: Empyrean Eagle (2/3), Ravenhill Flock at 1/2 with three counters, Mischievous Mystic, a Faerie token, a Soldier token and a 2/3 Bard's Company attack as 4/5, 6/7, 4/3, 4/4, 2/2 and 4/5 respectively — around twenty-five evasive damage from a board that cost eight mana.
+
+## Win condition 2
+
+When the ground stalls or a sweeper clears the small fliers, the deck wins with one card: The Lord of the Eagles. Its cost reduction counts the total power of your creatures with flying, so Empyrean Eagle (2), a pumped Ravenhill Flock (often 5 or more), the Mystic (2), Velvetwing (2) and Eagle of the Great Shelf (2) knock six or seven mana off the nine. It arrives with flash, which means end of turn on their side, and it is an 8/8 that flies — it ends games through board stalls that the tokens cannot break, and it is the deck's best answer to a planeswalker.
+
+The alternate second route is Lake-town plus an anthem: two +1/+1 counters on a Soldier token that is already under Bard's Company and Empyrean Eagle is a 4/4 flier-equivalent attacker for the cost of a land you have already played. Old Fat Spider Can't See Me's two draw chapters then refill you to keep going.
+
+## Mulligan guide
+
+Keep any hand with two to four lands and at least two cards that cost two. A two-lander with Roads Go Ever, Ever On is a keep — the saga finds two more lands and gains 2 life. Keep Mischievous Mystic plus any second-draw payoff; those two cards alone make a board. Ship five-land hands and ship hands with no blue source, because the card advantage and the top end are blue. Never keep a hand whose only action costs four or more.
+
+## Key interactions and edge cases
+
+- Recruit is a draw, not just a token: hold Bard's Company for your own main phase when the second-draw trigger matters more than the surprise, and flash it on defence when you need a body.
+- Bard's Company's flash condition is "you control a Human" — that includes the Mystic, the Councillors, the Apothecary, Bard the Bowman, Beorn and every Soldier token.
+- Gaze in Wonder is an adventure. Casting it first exiles the card, and Velvetwing Butterflies is cast later from exile as a 2/2 flier — two spells, one card, and the tap half is also a fine defensive play.
+- The Lord of the Eagles counts the total power of your flyers, not how many you control: a Ravenhill Flock with four counters pays four mana on its own.
+- Old Fat Spider Can't See Me's chapter one grants hexproof for as long as the saga stays; put it on the creature holding counters, then let chapters three and four draw.
+- Roads Go Ever, Ever On's exiled Plains return to your hand, which means extra land drops for the Lake-town plan, and they count for chapter four, which pumps one creature by the number of Plains you control.
+- Lake-town can only target a Human: Faerie tokens, Velvetwing Butterflies and the Birds are not Humans, so aim the counters at a Soldier token, Bard's Company or Beorn.
+- Master's Councillors counts every graveyard with seven or more cards, including the ones your own discards fill in a long game — it is a 5/3 for two mana late.
+- Uneasy Partings never destroys anything: it puts the card on top or bottom of the library, which blanks death triggers and reanimation, but it still targets, so hexproof stops it.
+- Settle the Wreckage exiles the attackers but ramps the opponent with basics. Cast it when the attack is lethal, not on the first three-power swing.
+- Twelve of twenty-four lands enter tapped. Plan the first double-spell turn for turn four or five rather than turn three.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Bard the Bowman's reach plus lifelink counters and Settle the Wreckage hold the ground; race in the air with tokens the opponent cannot block |
+| Midrange | You have more cards: recruit replaces every attacker, and Ravenhill Flock plus Beorn are bigger than most midrange bodies at parity |
+| Control | Keep Bard's Company and The Lord of the Eagles for after the sweeper; Old Fat Spider Can't See Me's hexproof blanks the first removal spell, and flash threats beat sorcery-speed answers |
+| Combo | Uneasy Partings and Settle the Wreckage buy the turns; the clock is fast enough that a deck that stumbles once is dead by turn six |
+
+# Deck list (Arena import)
+
+```
+Wingsong
+Deck
+4 Empyrean Eagle
+4 Ravenhill Flock
+3 Mischievous Mystic
+3 Master's Councillors
+3 Bard's Company
+2 Long Lake Nuisance
+2 Lakeshore Apothecary
+2 Bard the Bowman
+2 Velvetwing Butterflies
+2 The Lord of the Eagles
+2 Beorn, Reluctant Host
+1 Eagle of the Great Shelf
+2 Old Fat Spider Can't See Me
+2 Roads Go Ever, Ever On
+1 Settle the Wreckage
+1 Uneasy Partings
+4 Tranquil Cove
+4 Blossoming Sands
+2 Uncharted Haven
+2 Lake-town
+6 Island
+4 Plains
+2 Forest
+```

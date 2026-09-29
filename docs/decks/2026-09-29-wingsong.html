@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-09-29">
+
+<title>Wingsong – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-phases" id="toc-game-plan-phases" class="nav-link" data-scroll-target="#game-plan-phases">Game plan phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game" id="toc-mid-game" class="nav-link" data-scroll-target="#mid-game">Mid game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Wingsong</h1>
+<p class="subtitle lead">Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">hobbit</div>
+    <div class="quarto-category">eagles</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 29, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 61%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (MTGA)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>White / Blue / Green</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Aerial tempo-aggro (83 percent creatures, average CMC 3.4)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards — 36 non-land, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Core mechanic</td>
+<td>Recruit plus “draw your second card each turn” triggers on a Bird and token board</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Empyrean Eagle and Bard’s Company anthems on an evasive board</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>The Lord of the Eagles as a discounted 8/8 with flash, backed by a Ravenhill Flock that grows with every draw</td>
+</tr>
+<tr class="even">
+<td>Win-condition land</td>
+<td>Lake-town — cashes a land in for two +1/+1 counters on a Human</td>
+</tr>
+<tr class="odd">
+<td>Score</td>
+<td>overall 88.97 (color 100, curve 95.9, synergy 71.0)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Wingsong is the Hobbit set’s Bant draw engine: recruit cards turn every entry and every attack into a card, and draw-trigger payoffs turn those cards into bodies and counters. Recruit reads “draw a card, then discard a card; if you discarded a nonland card, create a 1/1 white Human Soldier” — so a single Bard’s Company attack gives you a card, a Soldier, and a second draw for the turn. That second draw is the engine: Mischievous Mystic makes a 1/1 blue Faerie with flying, Lakeshore Apothecary and Bard the Bowman put +1/+1 counters on your team, Master’s Councillors mills three, and Ravenhill Flock adds a +1/+1 counter for every card you draw at all.</p>
+<p>The board those cards build is small and evasive, and two anthems make it lethal: Empyrean Eagle gives every other flyer +1/+1, and Bard’s Company gives every other creature +1/+1. A Faerie token, a Soldier token and a Ravenhill Flock that has drawn four cards are all hitting for two or three through the air while the ground is held by Bard the Bowman’s reach and, later, a 5/5 Beorn.</p>
+<p>The top end is The Lord of the Eagles, which costs {X} less where X is the total power of your creatures with flying — on a normal board that is a four-to-six mana 8/8 with flash. Lake-town is the land slot that closes games that stall: sacrifice it for two +1/+1 counters on a Human, which in this deck includes every Soldier token, both Bards, the Mystic, the Apothecary, the Councillors and Beorn himself.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Turns 1-2</td>
+<td>There are no one-drops: open on Mischievous Mystic, Lakeshore Apothecary, Master’s Councillors or Roads Go Ever, Ever On, which removes two Plains from the library and gains 2 life</td>
+</tr>
+<tr class="even">
+<td>Turns 2-4</td>
+<td>Empyrean Eagle and Bard’s Company turn the small bodies into a real clock; every recruit and every attack adds a card, a token or a counter</td>
+</tr>
+<tr class="odd">
+<td>Turns 3-5</td>
+<td>Long Lake Nuisance and Bard’s Company attacks convert combat into cards and Soldiers; Gaze in Wonder taps the blockers that matter before swinging</td>
+</tr>
+<tr class="even">
+<td>Turn 5+</td>
+<td>Ravenhill Flock is a large flier by now, so The Lord of the Eagles costs a fraction of its nine mana; Lake-town cashes in for the last two counters</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Empyrean Eagle</td>
+<td>{1}{W}{U} 2/3 Bird Spirit — flying anthem: every other flyer you control gets +1/+1</td>
+</tr>
+<tr class="even">
+<td>Ravenhill Flock</td>
+<td>{3}{U} 1/2 Bird — the growth engine: a +1/+1 counter for every card you draw</td>
+</tr>
+<tr class="odd">
+<td>Mischievous Mystic</td>
+<td>{1}{U} 2/1 Human Wizard, flying — second card each turn makes a 1/1 blue Faerie with flying</td>
+</tr>
+<tr class="even">
+<td>Master’s Councillors</td>
+<td>{1}{U} 1/3 Human Advisor, vigilance — second card each turn mills three; grows +2/+0 per graveyard holding seven or more cards</td>
+</tr>
+<tr class="odd">
+<td>Bard’s Company</td>
+<td>{2}{W}{U} 2/3 Human Citizen — flash while you control a Human, other creatures get +1/+1, recruit on entry and on every attack</td>
+</tr>
+<tr class="even">
+<td>Long Lake Nuisance</td>
+<td>{3}{U} 3/1 Bird, flying — three power in the air plus a recruit Soldier on entry</td>
+</tr>
+<tr class="odd">
+<td>Lakeshore Apothecary</td>
+<td>{1}{U} 1/2 Human Cleric, vigilance — a +1/+1 counter on every second draw</td>
+</tr>
+<tr class="even">
+<td>Bard the Bowman</td>
+<td>{1}{W}{U} 1/3 legendary Human Archer, reach — second draw puts a +1/+1 counter on a creature and gives it lifelink</td>
+</tr>
+<tr class="odd">
+<td>Velvetwing Butterflies</td>
+<td>{2}{W} 2/2 Insect, flying — Gaze in Wonder ({1}{W}) taps up to two creatures before the swing</td>
+</tr>
+<tr class="even">
+<td>The Lord of the Eagles</td>
+<td>{7}{U}{U} 8/8 legendary Bird Noble, flash and flying — costs {X} less, X being the total power of your flyers</td>
+</tr>
+<tr class="odd">
+<td>Beorn, Reluctant Host</td>
+<td>{4}{G} 5/5 legendary Human Bear Shapeshifter, trample — Till and Tend ({1}{G}) first for an extra land drop</td>
+</tr>
+<tr class="even">
+<td>Eagle of the Great Shelf</td>
+<td>{4}{W} 2/5 Bird Soldier, flying — gains +1/+1 on attack for each other creature you control</td>
+</tr>
+<tr class="odd">
+<td>Old Fat Spider Can’t See Me</td>
+<td>{2}{U} Saga — chapter I hexproof, II a damage shield, III and IV draw a card</td>
+</tr>
+<tr class="even">
+<td>Roads Go Ever, Ever On</td>
+<td>{1}{W} Saga — two Plains out of the library, then two cards back to hand, then a pump for each Plains you control</td>
+</tr>
+<tr class="odd">
+<td>Settle the Wreckage</td>
+<td>{2}{W}{W} — exiles every attacking creature one player controls</td>
+</tr>
+<tr class="even">
+<td>Uneasy Partings</td>
+<td>{3}{U} — tucks a creature on the top or bottom of its owner’s library ({1} cheaper against an attacker)</td>
+</tr>
+<tr class="odd">
+<td>Lake-town</td>
+<td>Land win-condition: {W} or {U}, then sacrifice for two +1/+1 counters on a Human</td>
+</tr>
+<tr class="even">
+<td>Tranquil Cove / Blossoming Sands / Uncharted Haven</td>
+<td>Tapped dual base; Uncharted Haven names whichever colour is missing</td>
+</tr>
+<tr class="odd">
+<td>Island / Plains / Forest</td>
+<td>6 / 4 / 2 basic base for the white-blue core and the two-card green splash</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lake-town</td>
+<td>Win-condition land. Enters tapped for {W} or {U}, then {2}{W}{U}, {T}, sacrifice: two +1/+1 counters on target Human — the tokens, both Bards and Beorn are all Humans</td>
+</tr>
+<tr class="even">
+<td>Tranquil Cove</td>
+<td>White and blue in one slot plus 1 life</td>
+</tr>
+<tr class="odd">
+<td>Blossoming Sands</td>
+<td>White and green in one slot plus 1 life — this is what carries Beorn</td>
+</tr>
+<tr class="even">
+<td>Uncharted Haven</td>
+<td>Fixes the colour the hand is missing; the only land that can be blue, white or green on demand</td>
+</tr>
+<tr class="odd">
+<td>Island / Plains / Forest</td>
+<td>12 of the 24 lands are basic; the deck would rather curve two-drop into two-drop than fix early</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>The 36 non-land cards are 10 two-drops, 10 three-drops, 11 four-drops, 3 five-drops and 2 cards at seven or more, for an average CMC of 3.4 — a tempo curve that starts on two and tops out with a discounted 8/8 rather than a real nine-drop. Sixteen lands produce white, fourteen produce blue, and six produce green (eight if Uncharted Haven is named green), which is enough for a splash of exactly two Beorn. The cost of that base is speed: twelve of the twenty-four lands enter tapped, so the first turn is always off-curve and the deck’s double-spell turns arrive a turn late.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Open on a two-drop, never a tapland-and-pass. Mischievous Mystic is the best of them: a 2/1 flyer that starts making more flyers the moment you draw your second card. Roads Go Ever, Ever On is the value alternative — chapter one exiles two basic Plains from the library (two fewer lands to draw) and gains 2 life, and chapters two and three hand them back as land drops for Lake-town later. Master’s Councillors blocks all day and mills, and Lakeshore Apothecary holds the ground while getting bigger.</p>
+<p>Keep one Human on the battlefield at all times so Bard’s Company keeps its flash. Flashing it in is a defensive play; casting it on your own turn is the play that turns on your second-draw payoffs, because the recruit draw then lands on your turn.</p>
+</section>
+<section id="mid-game" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game">Mid game</h2>
+<p>Turns three to five are about density. Empyrean Eagle is the best card in the deck: it turns a pair of 1/1 Faeries, a Soldier token and a Mystic into a clock, and it counts itself for The Lord of the Eagles. Bard’s Company and Long Lake Nuisance turn attacks into cards and Soldiers, so the board gets wider without spending cards. Bard the Bowman’s reach plus lifelink counters race an aggro deck, and Old Fat Spider Can’t See Me protects whichever creature is carrying your counters.</p>
+<p>Do not trade flyers for ground creatures. The deck wins in the air; the Soldiers exist to block, to be sacrificed to Lake-town’s counters, and to make Beorn’s and Bard’s Company’s anthem math add up.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<p>The kill is a draw chain, not a two-card infinite:</p>
+<ol type="1">
+<li>Attack with Bard’s Company — recruit draws a card and makes a 1/1 Human Soldier.</li>
+<li>That draw is your second card of the turn if you have already drawn, so every second-draw payoff fires at once: a 1/1 blue Faerie (Mystic), a +1/+1 counter (Apothecary), a +1/+1 counter plus lifelink (Bard the Bowman), three milled cards (Councillors), and a +1/+1 counter on Ravenhill Flock for the card itself.</li>
+<li>Empyrean Eagle and Bard’s Company are both online, so every flyer is at +2/+2 and every token has +1/+1 from the Company.</li>
+<li>Cast Gaze in Wonder to tap the two blockers that would have chump-blocked, then swing with the team.</li>
+</ol>
+<p>A representative turn: Empyrean Eagle (2/3), Ravenhill Flock at 1/2 with three counters, Mischievous Mystic, a Faerie token, a Soldier token and a 2/3 Bard’s Company attack as 4/5, 6/7, 4/3, 4/4, 2/2 and 4/5 respectively — around twenty-five evasive damage from a board that cost eight mana.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>When the ground stalls or a sweeper clears the small fliers, the deck wins with one card: The Lord of the Eagles. Its cost reduction counts the total power of your creatures with flying, so Empyrean Eagle (2), a pumped Ravenhill Flock (often 5 or more), the Mystic (2), Velvetwing (2) and Eagle of the Great Shelf (2) knock six or seven mana off the nine. It arrives with flash, which means end of turn on their side, and it is an 8/8 that flies — it ends games through board stalls that the tokens cannot break, and it is the deck’s best answer to a planeswalker.</p>
+<p>The alternate second route is Lake-town plus an anthem: two +1/+1 counters on a Soldier token that is already under Bard’s Company and Empyrean Eagle is a 4/4 flier-equivalent attacker for the cost of a land you have already played. Old Fat Spider Can’t See Me’s two draw chapters then refill you to keep going.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep any hand with two to four lands and at least two cards that cost two. A two-lander with Roads Go Ever, Ever On is a keep — the saga finds two more lands and gains 2 life. Keep Mischievous Mystic plus any second-draw payoff; those two cards alone make a board. Ship five-land hands and ship hands with no blue source, because the card advantage and the top end are blue. Never keep a hand whose only action costs four or more.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>Recruit is a draw, not just a token: hold Bard’s Company for your own main phase when the second-draw trigger matters more than the surprise, and flash it on defence when you need a body.</li>
+<li>Bard’s Company’s flash condition is “you control a Human” — that includes the Mystic, the Councillors, the Apothecary, Bard the Bowman, Beorn and every Soldier token.</li>
+<li>Gaze in Wonder is an adventure. Casting it first exiles the card, and Velvetwing Butterflies is cast later from exile as a 2/2 flier — two spells, one card, and the tap half is also a fine defensive play.</li>
+<li>The Lord of the Eagles counts the total power of your flyers, not how many you control: a Ravenhill Flock with four counters pays four mana on its own.</li>
+<li>Old Fat Spider Can’t See Me’s chapter one grants hexproof for as long as the saga stays; put it on the creature holding counters, then let chapters three and four draw.</li>
+<li>Roads Go Ever, Ever On’s exiled Plains return to your hand, which means extra land drops for the Lake-town plan, and they count for chapter four, which pumps one creature by the number of Plains you control.</li>
+<li>Lake-town can only target a Human: Faerie tokens, Velvetwing Butterflies and the Birds are not Humans, so aim the counters at a Soldier token, Bard’s Company or Beorn.</li>
+<li>Master’s Councillors counts every graveyard with seven or more cards, including the ones your own discards fill in a long game — it is a 5/3 for two mana late.</li>
+<li>Uneasy Partings never destroys anything: it puts the card on top or bottom of the library, which blanks death triggers and reanimation, but it still targets, so hexproof stops it.</li>
+<li>Settle the Wreckage exiles the attackers but ramps the opponent with basics. Cast it when the attack is lethal, not on the first three-power swing.</li>
+<li>Twelve of twenty-four lands enter tapped. Plan the first double-spell turn for turn four or five rather than turn three.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aggro</td>
+<td>Bard the Bowman’s reach plus lifelink counters and Settle the Wreckage hold the ground; race in the air with tokens the opponent cannot block</td>
+</tr>
+<tr class="even">
+<td>Midrange</td>
+<td>You have more cards: recruit replaces every attacker, and Ravenhill Flock plus Beorn are bigger than most midrange bodies at parity</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Keep Bard’s Company and The Lord of the Eagles for after the sweeper; Old Fat Spider Can’t See Me’s hexproof blanks the first removal spell, and flash threats beat sorcery-speed answers</td>
+</tr>
+<tr class="even">
+<td>Combo</td>
+<td>Uneasy Partings and Settle the Wreckage buy the turns; the clock is fast enough that a deck that stumbles once is dead by turn six</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Wingsong
+Deck
+4 Empyrean Eagle
+4 Ravenhill Flock
+3 Mischievous Mystic
+3 Master's Councillors
+3 Bard's Company
+2 Long Lake Nuisance
+2 Lakeshore Apothecary
+2 Bard the Bowman
+2 Velvetwing Butterflies
+2 The Lord of the Eagles
+2 Beorn, Reluctant Host
+1 Eagle of the Great Shelf
+2 Old Fat Spider Can't See Me
+2 Roads Go Ever, Ever On
+1 Settle the Wreckage
+1 Uneasy Partings
+4 Tranquil Cove
+4 Blossoming Sands
+2 Uncharted Haven
+2 Lake-town
+6 Island
+4 Plains
+2 Forest</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
