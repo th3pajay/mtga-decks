@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-09-30**:
 
 - **[Exhaust Manifold](decks/2026-09-30-exhaust-manifold.html)** — Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs  `combo` `mill` `teamwork` `exhaust`
+- **[Evergreen Requiem](decks/2026-09-30-evergreen-requiem.html)** — Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves  `hobbit` `elves`

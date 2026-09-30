@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-09-30">
+
+<title>Evergreen Requiem – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-phases" id="toc-game-plan-phases" class="nav-link" data-scroll-target="#game-plan-phases">Game plan phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game" id="toc-mid-game" class="nav-link" data-scroll-target="#mid-game">Mid game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Evergreen Requiem</h1>
+<p class="subtitle lead">Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">hobbit</div>
+    <div class="quarto-category">elves</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 30, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 61%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (MTGA)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Blue / Black / Green (Sultai)</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Combo-midrange (31 creatures, average CMC 3.42)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards — 36 non-land, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Core mechanic</td>
+<td>Legendary Elf entry triggers plus “Thranduil, the Elvenking has all activated abilities of all Elf cards in your graveyard”</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Fill the graveyard, then tap ten Elves to Thranduil’s copied Lathril ability: each opponent loses 10 life and you gain 10</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Landfall Elf swarm under Thranduil, Sindarin Liege and Down in the Valley, with counters from Thranduil’s Company and a trampling Restless Vinestalk</td>
+</tr>
+<tr class="even">
+<td>Win-condition lands</td>
+<td>Restless Vinestalk (5/5 trample land), Rogue’s Passage (unblockable), Elvenking’s Halls (two counters on an Elf)</td>
+</tr>
+<tr class="odd">
+<td>Viability</td>
+<td>sim 56.0 percent over 3 x 500 games, goldfish T4 0.622, P(4 lands by T4) 0.612</td>
+</tr>
+<tr class="even">
+<td>Score</td>
+<td>overall 89.10 (color 100, curve 97.25, synergy 70.04)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Evergreen Requiem is the Hobbit set’s Sultai Elf deck, built around one sentence of rules text: Thranduil, the Elvenking has all activated abilities of all Elf cards in your graveyard. Every Elf you discard, mill or lose is not gone — it is a permanent upgrade stapled to a 5/6 body. Discard Elrond, Moon-Reader and Thranduil gains a repeatable blink. Discard Woodland Weavemaster and he gains a mana ability that scales with his power. Discard Lathril, Blade of the Elves and he gains the kill: tap ten untapped Elves you control, each opponent loses 10 life and you gain 10.</p>
+<p>That makes the deck’s own card selection into its engine. Thranduil draws two and discards one every time another legendary Elf enters, Silvan Reveler loots on entry, Confusticate and Bebother draws two and discards one, and the Silvan Rally adventure mills four cards and hands back up to two lands. Every one of those effects is a discard outlet pointed at the graveyard, and the graveyard is where the payoffs live.</p>
+<p>The board is built the same way. Thranduil, Sindarin Liege gives other Elves +1/+1 and makes a 1/1 green Elf token on every landfall; Thranduil’s Company puts two +1/+1 counters on a creature on every landfall and lets you play an extra land; Down in the Valley fetches a land, then makes landfall tokens, then pumps the team. Ten Elves is not a fantasy in this deck — it is turn six. Once ten are untapped, the copied Lathril ability ends the game on the spot, and it does not care about blockers, life totals or fog effects.</p>
+<p>The backup plan is combat, and it is real: Mirkwood Pathmaker is as large as your land count, Thranduil’s Company hands out counters with vigilance, Galion, Elvenking’s Butler copies a 4/4 onto the smallest attacker, Restless Vinestalk is a 5/5 trampler that is still a land, and Rogue’s Passage or the copied Elvenking’s Harper ability pushes the biggest one through unblocked.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Turns 1-2</td>
+<td>Woodland Weavemaster or Llanowar Elves starts the mana; Elvenking’s Harper is a fine two-drop that later grants unblockable. Elvenking’s Halls and the fetch lands fix the three colours</td>
+</tr>
+<tr class="even">
+<td>Turns 2-4</td>
+<td>Thranduil, Sindarin Liege and Thranduil’s Company turn each land drop into tokens and counters; Silvan Rally mills four and returns lands for the extra land drops</td>
+</tr>
+<tr class="odd">
+<td>Turns 4-5</td>
+<td>Thranduil, the Elvenking arrives as a 5/6 that immediately starts looting on every legendary Elf entry; Silvan Reveler and Confusticate and Bebother churn the hand into the graveyard</td>
+</tr>
+<tr class="even">
+<td>Turns 5-7</td>
+<td>With ten Elves untapped, the copied Lathril ability drains 10; otherwise the team attacks under a Down in the Valley pump and counters</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Thranduil, the Elvenking</td>
+<td>{2}{B}{G}{U} 5/6 legendary Elf Noble — the engine: all activated abilities of Elf cards in your graveyard, and draw two then discard one whenever another legendary Elf you control enters</td>
+</tr>
+<tr class="even">
+<td>Thranduil, Sindarin Liege</td>
+<td>{2}{G/U}{G/U} 2/3 legendary Elf Noble — other Elves get +1/+1 and every land drop makes a 1/1 green Elf token; Silvan Rally ({1}{G/U}{G/U}) mills four and returns up to two lands to hand</td>
+</tr>
+<tr class="odd">
+<td>Elrond, Moon-Reader</td>
+<td>{2}{U} 3/3 legendary Elf Noble — a card every time you activate a creature ability, once each turn; in the graveyard he gives Thranduil a {5}{U}{U} blink of two nonland permanents</td>
+</tr>
+<tr class="even">
+<td>Lathril, Blade of the Elves</td>
+<td>{2}{B}{G} 2/3 legendary Elf Noble, menace — Elf Warrior tokens from combat damage, and the win: {T}, tap ten untapped Elves, each opponent loses 10 and you gain 10</td>
+</tr>
+<tr class="odd">
+<td>Thranduil’s Company</td>
+<td>{2}{G}{U} 3/4 Elf Soldier — an extra land drop while you control another Elf and two +1/+1 counters plus vigilance on every landfall</td>
+</tr>
+<tr class="even">
+<td>Woodland Weavemaster</td>
+<td>{1}{G} 1/2 Elf Druid, vigilance — {T} for X mana of any one colour, X being its power, spendable on Elf spells and Elf abilities; a mana engine the moment it is in the graveyard</td>
+</tr>
+<tr class="odd">
+<td>Galion, Elvenking’s Butler</td>
+<td>{2}{G}{G} 4/4 legendary Elf Advisor — on attack, another creature’s base power and toughness become 4/4</td>
+</tr>
+<tr class="even">
+<td>Silvan Reveler</td>
+<td>{2}{G}{U} 3/2 Elf Citizen — loot on entry, put a discarded land straight onto the battlefield tapped, and return from the graveyard on landfall for {1}{G}{U}</td>
+</tr>
+<tr class="odd">
+<td>Mirkwood Pathmaker</td>
+<td>{2}{G} Elf Ranger — power and toughness each equal to the number of lands you control</td>
+</tr>
+<tr class="even">
+<td>Llanowar Elves</td>
+<td>{G} 1/1 Elf Druid — turn one acceleration, and a {T} mana ability for Thranduil to inherit later</td>
+</tr>
+<tr class="odd">
+<td>Mirkwood Meditator</td>
+<td>{2}{U} 2/4 Elf Druid — landfall switches it to 4/2, a landfall body that blocks early and attacks late</td>
+</tr>
+<tr class="even">
+<td>Mirkwood Nurturer</td>
+<td>{2}{G/U} 3/2 Elf Ranger — entry bounces one of your own permanents for a +1/+1 counter, which replays a land for another landfall</td>
+</tr>
+<tr class="odd">
+<td>Elvenking’s Harper</td>
+<td>{1}{U} 2/2 Elf Bard — {4}{U} makes a creature unblockable, an ability Thranduil keeps after the Harper dies</td>
+</tr>
+<tr class="even">
+<td>Down in the Valley</td>
+<td>{2}{G} Saga — chapter I finds a land, chapter II adds landfall Elf tokens, chapters III and IV pump Elves +1/+0 with vigilance</td>
+</tr>
+<tr class="odd">
+<td>Confusticate and Bebother</td>
+<td>{2}{U} instant — counter unless they pay {4}, or draw two and discard one, which is the graveyard half of the engine</td>
+</tr>
+<tr class="even">
+<td>The Arkenstone</td>
+<td>{5} legendary artifact — creatures you control get +1/+1 and you draw a card at the beginning of every end step; Seek the Heart ({2}{W}) tutors a legendary creature for free</td>
+</tr>
+<tr class="odd">
+<td>Elvenking’s Halls</td>
+<td>Land engine — {G} or {U}, then {2}{G}{U} and sacrifice for two +1/+1 counters on an Elf</td>
+</tr>
+<tr class="even">
+<td>Elven Passage</td>
+<td>Land — pays 1 life and sacrifices for a basic land, untapping it if you behold an Elf, so it is a colourless-free three-colour fixer</td>
+</tr>
+<tr class="odd">
+<td>Restless Vinestalk</td>
+<td>Land and win condition — {3}{G}{U} turns it into a 5/5 green and blue Plant with trample that is still a land</td>
+</tr>
+<tr class="even">
+<td>Dreamroot Cascade / Deathcap Glade / Watery Grave</td>
+<td>The untapped-with-a-price Sultai core: green-blue, black-green and blue-black</td>
+</tr>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>Land and win condition — {4}, {T} makes the attacking Pathmaker or Vinestalk unblockable</td>
+</tr>
+<tr class="even">
+<td>Forest / Island / Swamp</td>
+<td>Four basics that Elven Passage and Down in the Valley reliably find</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Elvenking’s Halls</td>
+<td>The only land that directly feeds the combo: two +1/+1 counters on a target Elf at sorcery speed, so an unblocked attacker or a blocking Elf stabilises while the drain plan develops</td>
+</tr>
+<tr class="even">
+<td>Restless Vinestalk</td>
+<td>Win-condition land. A 24th threat that survives sorcery-speed creature removal and turns any stalled board into a trample clock; its attack trigger also shrinks a blocker to 3/3</td>
+</tr>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>Colourless mana early, then unblockable for the largest Elf — normally Mirkwood Pathmaker at seven or eight lands, or a counter-loaded Thranduil</td>
+</tr>
+<tr class="even">
+<td>Elven Passage</td>
+<td>Fetches a basic for one life and untaps it when you behold an Elf, which is how the deck finds its second and third colour without slowing down</td>
+</tr>
+<tr class="odd">
+<td>Dreamroot Cascade and Deathcap Glade</td>
+<td>Untapped from the third land onward; together they are the backbone of the green-blue and black-green halves</td>
+</tr>
+<tr class="even">
+<td>Watery Grave</td>
+<td>Untapped blue-black for two life; this is the land that makes Lathril, Elvenking’s Halls activations and Thranduil all castable on curve</td>
+</tr>
+<tr class="odd">
+<td>Forest / Island / Swamp</td>
+<td>The basic slots, deliberately shallow because ten nonbasic lands make all three colours</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>The 36 non-land cards are 2 one-drops, 4 two-drops, 15 three-drops, 10 four-drops and 5 five-drops, for an average CMC of 3.42 on the API’s score (midrange, with a combo tag from the deck’s tutor and engine density). Sixteen lands produce green, fourteen produce blue and eight produce black, with two Elven Passage to fetch whichever basic the hand is missing; colour consistency scores 100 on the API. Six lands always enter tapped — the four Elvenking’s Halls and two Restless Vinestalk — while Dreamroot Cascade and Deathcap Glade are untapped from the third land onward and Watery Grave is untapped for 2 life, so the deck usually opens with a tapland or a one-drop and starts double-spelling from turn four. The curve tops out at Thranduil and The Arkenstone: everything expensive in this deck is a payoff, never a filler.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>There is no pressure to attack. Turns one to three are about mana, land drops and stocking the graveyard. Woodland Weavemaster is the best turn two: it ramps only into Elf spells and Elf abilities, which is all this deck has, and its power grows every time another Elf enters. Thranduil’s Company should be played before you need the extra land, because its additional-land clause is what makes the landfall triggers happen twice a turn.</p>
+<p>The first real decision is what to discard. Thranduil, the Elvenking’s entry trigger and Silvan Reveler both read draw one and discard one, and the correct discard is almost always an Elf you would rather have in the graveyard than on the battlefield: Elrond, Moon-Reader if you have Thranduil, Woodland Weavemaster if you need mana, Lathril, Blade of the Elves if you are building a wide board. Silvan Rally does the same job from the top of the library — mill four, keep up to two lands — and every Elf that lands in the graveyard is a tool Thranduil will pick up later.</p>
+</section>
+<section id="mid-game" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game">Mid game</h2>
+<p>Turns four to six decide the game. Thranduil, the Elvenking is the priority: a 5/6 that blocks almost everything in Standard, does not die to most burn, and turns the rest of your deck into triggers. Each time a legendary Elf enters after him — another Thranduil, the Sindarin Liege, Galion, Llanowar Elves is not legendary, but the other Thranduils, Elrond, Lathril and Galion all are — you draw two and discard one, which is two cards deeper into the graveyard and one land closer to the drain.</p>
+<p>Count Elves constantly. The kill needs ten untapped Elves, and the deck produces them from five sources: Thranduil, Sindarin Liege’s landfall tokens, Down in the Valley chapters II through IV, Lathril’s combat-damage tokens, Mirkwood Nurturer replayed lands, and the creatures themselves. Do not attack with Elves you need untapped unless the attack wins: menace on Lathril and vigilance from Thranduil’s Company mean several Elves can attack without ever tapping out of the drain.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<ol type="1">
+<li>Have Thranduil, the Elvenking on the battlefield and Lathril, Blade of the Elves in the graveyard (which happens through any loot, any discard, any trade, or Silvan Rally).</li>
+<li>Build to ten untapped Elves. Landfall tokens do most of this work: a single turn with Thranduil’s Company plus two land drops is four new Elves with counters on them.</li>
+<li>Activate the inherited ability: tap ten untapped Elves you control. Each opponent loses 10 life and you gain 10 life. Thranduil may tap himself as one of the ten, since he is an Elf.</li>
+<li>If the game is not over, Elrond, Moon-Reader in the graveyard gives Thranduil {5}{U}{U}: exile up to two other nonland permanents you control and return them at the beginning of the next end step. Blink Thranduil, Sindarin Liege for a fresh landfall token, or blink Silvan Reveler to loot again and put a discarded land onto the battlefield tapped — the blink is not a win condition by itself, it is how the deck keeps the ten Elves coming after a sweeper.</li>
+</ol>
+<p>A representative turn with seven lands in play and Thranduil plus Down in the Valley: play land (landfall makes a 1/1 Elf token), replay the land Mirkwood Nurturer bounced earlier (a second landfall, two more counters), cast Thranduil’s Company’s counter trigger on the token, then activate the drain for 10 through a board of mostly 1/1s.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>When the graveyard is not cooperating, the deck attacks. Mirkwood Pathmaker is the deck’s largest body for three mana once the land count reaches six or seven, and Rogue’s Passage or the inherited Elvenking’s Harper ability ({4}{U}: target creature can’t be blocked this turn) delivers it through any blocker. Galion, Elvenking’s Butler adds a free 4/4: on attack, the smallest Elf’s base power and toughness become Galion’s 4/4 until end of turn, which turns a 1/1 landfall token into a 4/4 attacker with no additional investment.</p>
+<p>The third route is the win-condition land itself: Restless Vinestalk becomes a 5/5 green and blue Plant with trample for {3}{G}{U} and stays a land, so it is a threat that survives creature sweepers, and its attack trigger sets up a trade by making another creature’s base power and toughness 3/3. Between Pathmaker, Vinestalk, Galion’s copies, Thranduil’s Company counters and The Arkenstone’s team anthem, the deck has lethal combat damage available in any game where the drain plan is one Elf short.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep any hand with two to four lands plus a two- or three-drop Elf, and keep a hand with one of Thranduil, the Elvenking or Thranduil’s Company plus a green source and a black or blue source. Ship hands with fewer than two lands, hands with no green source (the deck’s mana base leans green: sixteen of twenty-four lands produce green), and five-land hands where the only spells cost four or more — the deck needs landfall triggers, not a flooded draw. A two-land hand with Silvan Rally or Down in the Valley is a keep: both find the third and fourth land.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>Thranduil copies activated abilities only. Elvenking’s Harper’s unblockable ability, Llanowar Elves’ mana ability, Woodland Weavemaster’s scaling mana ability, Elrond’s blink and Lathril’s drain all count; Down in the Valley and The Arkenstone are not Elf cards and grant nothing.</li>
+<li>The drain ability’s cost is tapping ten untapped Elves, not sacrificing them. An Elf with vigilance, or one that has already attacked without tapping (Thranduil’s Company grants vigilance), can be used for the drain in the same turn it attacked.</li>
+<li>Thranduil, Sindarin Liege and Thranduil, the Elvenking are both legendary; the extra copies are not dead, because discarding a duplicate legendary Elf is exactly the graveyard-filling play the deck wants.</li>
+<li>Silvan Reveler’s landfall trigger returns it from the graveyard to your hand for {1}{G}{U}, which is a repeatable body and a repeatable loot if you have the mana; it is the deck’s most resilient engine piece.</li>
+<li>Mirkwood Nurturer returns a permanent you control to its hand — target your own land or a Silvan Reveler, then replay it for a landfall trigger. Do not target the permanent you are about to sacrifice to Elvenking’s Halls in the same turn.</li>
+<li>Elven Passage’s behold clause lets you untap the fetched land if you control or reveal an Elf, which is the difference between a two-mana turn and a full turn; hold it until you have an Elf in hand or in play.</li>
+<li>Dreamroot Cascade and Deathcap Glade enter untapped only if you already control two or more other lands, so play basics and Watery Grave first and let the check lands follow.</li>
+<li>The Arkenstone’s end step draw is a free card every turn, and it makes the whole team +1/+1 — with ten Elves it is also ten extra power on the drain turn’s follow-up attack.</li>
+<li>Confusticate and Bebother’s discard half is a real engine play, not just a fallback: discarding Lathril, Elrond or a duplicate legendary Elf is often better than drawing two.</li>
+<li>Menace on Lathril means it cannot be blocked by a single creature, which matters for the token plan but not for the drain; keep Lathril attacking only when the tokens are worth more than the drain turn’s timing.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aggro</td>
+<td>Mirkwood Meditator, Thranduil and Thranduil’s Company’s vigilance bodies hold the ground; Mirkwood Meditator’s 2/4 blocks all day, and the drain for 10 swings any race you are losing</td>
+</tr>
+<tr class="even">
+<td>Midrange</td>
+<td>Your top end is bigger: Thranduil is a 5/6, Pathmaker grows with every land, and Galion makes a 4/4 for free each attack; counter-based removal and trading are what the graveyard plan wants</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Discard outlets beat counterspells — an Elf in the graveyard is online even after a sweeper. Hold Silvan Reveler and Thranduil, the Elvenking for the turn after the wipe, and remember that Restless Vinestalk is a land, so it survives creature removal</td>
+</tr>
+<tr class="even">
+<td>Combo</td>
+<td>The deck is fast enough to matter from turn five, and Confusticate and Bebother’s counter mode is a real answer; the drain does not target, so hexproof and protection do not stop it</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Evergreen Requiem
+Deck
+4 Thranduil, the Elvenking
+4 Thranduil, Sindarin Liege
+3 Elrond, Moon-Reader
+2 Lathril, Blade of the Elves
+3 Thranduil's Company
+2 Woodland Weavemaster
+2 Galion, Elvenking's Butler
+2 Silvan Reveler
+2 Mirkwood Pathmaker
+2 Llanowar Elves
+2 Mirkwood Meditator
+1 Mirkwood Nurturer
+2 Elvenking's Harper
+2 Down in the Valley
+2 Confusticate and Bebother
+1 The Arkenstone
+4 Elvenking's Halls
+4 Dreamroot Cascade
+4 Deathcap Glade
+3 Watery Grave
+2 Restless Vinestalk
+2 Elven Passage
+1 Rogue's Passage
+2 Forest
+1 Island
+1 Swamp</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

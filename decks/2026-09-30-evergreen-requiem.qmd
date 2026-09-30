@@ -1,0 +1,174 @@
+---
+title: "Evergreen Requiem"
+subtitle: "Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves"
+date: "2026-09-30"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Green (Sultai) |
+| Archetype | Combo-midrange (31 creatures, average CMC 3.42) |
+| Size | 60 cards — 36 non-land, 24 lands |
+| Core mechanic | Legendary Elf entry triggers plus "Thranduil, the Elvenking has all activated abilities of all Elf cards in your graveyard" |
+| Primary win | Fill the graveyard, then tap ten Elves to Thranduil's copied Lathril ability: each opponent loses 10 life and you gain 10 |
+| Secondary win | Landfall Elf swarm under Thranduil, Sindarin Liege and Down in the Valley, with counters from Thranduil's Company and a trampling Restless Vinestalk |
+| Win-condition lands | Restless Vinestalk (5/5 trample land), Rogue's Passage (unblockable), Elvenking's Halls (two counters on an Elf) |
+| Viability | sim 56.0 percent over 3 x 500 games, goldfish T4 0.622, P(4 lands by T4) 0.612 |
+| Score | overall 89.10 (color 100, curve 97.25, synergy 70.04) |
+
+# Overview
+
+Evergreen Requiem is the Hobbit set's Sultai Elf deck, built around one sentence of rules text: Thranduil, the Elvenking has all activated abilities of all Elf cards in your graveyard. Every Elf you discard, mill or lose is not gone — it is a permanent upgrade stapled to a 5/6 body. Discard Elrond, Moon-Reader and Thranduil gains a repeatable blink. Discard Woodland Weavemaster and he gains a mana ability that scales with his power. Discard Lathril, Blade of the Elves and he gains the kill: tap ten untapped Elves you control, each opponent loses 10 life and you gain 10.
+
+That makes the deck's own card selection into its engine. Thranduil draws two and discards one every time another legendary Elf enters, Silvan Reveler loots on entry, Confusticate and Bebother draws two and discards one, and the Silvan Rally adventure mills four cards and hands back up to two lands. Every one of those effects is a discard outlet pointed at the graveyard, and the graveyard is where the payoffs live.
+
+The board is built the same way. Thranduil, Sindarin Liege gives other Elves +1/+1 and makes a 1/1 green Elf token on every landfall; Thranduil's Company puts two +1/+1 counters on a creature on every landfall and lets you play an extra land; Down in the Valley fetches a land, then makes landfall tokens, then pumps the team. Ten Elves is not a fantasy in this deck — it is turn six. Once ten are untapped, the copied Lathril ability ends the game on the spot, and it does not care about blockers, life totals or fog effects.
+
+The backup plan is combat, and it is real: Mirkwood Pathmaker is as large as your land count, Thranduil's Company hands out counters with vigilance, Galion, Elvenking's Butler copies a 4/4 onto the smallest attacker, Restless Vinestalk is a 5/5 trampler that is still a land, and Rogue's Passage or the copied Elvenking's Harper ability pushes the biggest one through unblocked.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Woodland Weavemaster or Llanowar Elves starts the mana; Elvenking's Harper is a fine two-drop that later grants unblockable. Elvenking's Halls and the fetch lands fix the three colours |
+| Turns 2-4 | Thranduil, Sindarin Liege and Thranduil's Company turn each land drop into tokens and counters; Silvan Rally mills four and returns lands for the extra land drops |
+| Turns 4-5 | Thranduil, the Elvenking arrives as a 5/6 that immediately starts looting on every legendary Elf entry; Silvan Reveler and Confusticate and Bebother churn the hand into the graveyard |
+| Turns 5-7 | With ten Elves untapped, the copied Lathril ability drains 10; otherwise the team attacks under a Down in the Valley pump and counters |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, the Elvenking | {2}{B}{G}{U} 5/6 legendary Elf Noble — the engine: all activated abilities of Elf cards in your graveyard, and draw two then discard one whenever another legendary Elf you control enters |
+| Thranduil, Sindarin Liege | {2}{G/U}{G/U} 2/3 legendary Elf Noble — other Elves get +1/+1 and every land drop makes a 1/1 green Elf token; Silvan Rally ({1}{G/U}{G/U}) mills four and returns up to two lands to hand |
+| Elrond, Moon-Reader | {2}{U} 3/3 legendary Elf Noble — a card every time you activate a creature ability, once each turn; in the graveyard he gives Thranduil a {5}{U}{U} blink of two nonland permanents |
+| Lathril, Blade of the Elves | {2}{B}{G} 2/3 legendary Elf Noble, menace — Elf Warrior tokens from combat damage, and the win: {T}, tap ten untapped Elves, each opponent loses 10 and you gain 10 |
+| Thranduil's Company | {2}{G}{U} 3/4 Elf Soldier — an extra land drop while you control another Elf and two +1/+1 counters plus vigilance on every landfall |
+| Woodland Weavemaster | {1}{G} 1/2 Elf Druid, vigilance — {T} for X mana of any one colour, X being its power, spendable on Elf spells and Elf abilities; a mana engine the moment it is in the graveyard |
+| Galion, Elvenking's Butler | {2}{G}{G} 4/4 legendary Elf Advisor — on attack, another creature's base power and toughness become 4/4 |
+| Silvan Reveler | {2}{G}{U} 3/2 Elf Citizen — loot on entry, put a discarded land straight onto the battlefield tapped, and return from the graveyard on landfall for {1}{G}{U} |
+| Mirkwood Pathmaker | {2}{G} Elf Ranger — power and toughness each equal to the number of lands you control |
+| Llanowar Elves | {G} 1/1 Elf Druid — turn one acceleration, and a {T} mana ability for Thranduil to inherit later |
+| Mirkwood Meditator | {2}{U} 2/4 Elf Druid — landfall switches it to 4/2, a landfall body that blocks early and attacks late |
+| Mirkwood Nurturer | {2}{G/U} 3/2 Elf Ranger — entry bounces one of your own permanents for a +1/+1 counter, which replays a land for another landfall |
+| Elvenking's Harper | {1}{U} 2/2 Elf Bard — {4}{U} makes a creature unblockable, an ability Thranduil keeps after the Harper dies |
+| Down in the Valley | {2}{G} Saga — chapter I finds a land, chapter II adds landfall Elf tokens, chapters III and IV pump Elves +1/+0 with vigilance |
+| Confusticate and Bebother | {2}{U} instant — counter unless they pay {4}, or draw two and discard one, which is the graveyard half of the engine |
+| The Arkenstone | {5} legendary artifact — creatures you control get +1/+1 and you draw a card at the beginning of every end step; Seek the Heart ({2}{W}) tutors a legendary creature for free |
+| Elvenking's Halls | Land engine — {G} or {U}, then {2}{G}{U} and sacrifice for two +1/+1 counters on an Elf |
+| Elven Passage | Land — pays 1 life and sacrifices for a basic land, untapping it if you behold an Elf, so it is a colourless-free three-colour fixer |
+| Restless Vinestalk | Land and win condition — {3}{G}{U} turns it into a 5/5 green and blue Plant with trample that is still a land |
+| Dreamroot Cascade / Deathcap Glade / Watery Grave | The untapped-with-a-price Sultai core: green-blue, black-green and blue-black |
+| Rogue's Passage | Land and win condition — {4}, {T} makes the attacking Pathmaker or Vinestalk unblockable |
+| Forest / Island / Swamp | Four basics that Elven Passage and Down in the Valley reliably find |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Elvenking's Halls | The only land that directly feeds the combo: two +1/+1 counters on a target Elf at sorcery speed, so an unblocked attacker or a blocking Elf stabilises while the drain plan develops |
+| Restless Vinestalk | Win-condition land. A 24th threat that survives sorcery-speed creature removal and turns any stalled board into a trample clock; its attack trigger also shrinks a blocker to 3/3 |
+| Rogue's Passage | Colourless mana early, then unblockable for the largest Elf — normally Mirkwood Pathmaker at seven or eight lands, or a counter-loaded Thranduil |
+| Elven Passage | Fetches a basic for one life and untaps it when you behold an Elf, which is how the deck finds its second and third colour without slowing down |
+| Dreamroot Cascade and Deathcap Glade | Untapped from the third land onward; together they are the backbone of the green-blue and black-green halves |
+| Watery Grave | Untapped blue-black for two life; this is the land that makes Lathril, Elvenking's Halls activations and Thranduil all castable on curve |
+| Forest / Island / Swamp | The basic slots, deliberately shallow because ten nonbasic lands make all three colours |
+
+## Curve and mana
+
+The 36 non-land cards are 2 one-drops, 4 two-drops, 15 three-drops, 10 four-drops and 5 five-drops, for an average CMC of 3.42 on the API's score (midrange, with a combo tag from the deck's tutor and engine density). Sixteen lands produce green, fourteen produce blue and eight produce black, with two Elven Passage to fetch whichever basic the hand is missing; colour consistency scores 100 on the API. Six lands always enter tapped — the four Elvenking's Halls and two Restless Vinestalk — while Dreamroot Cascade and Deathcap Glade are untapped from the third land onward and Watery Grave is untapped for 2 life, so the deck usually opens with a tapland or a one-drop and starts double-spelling from turn four. The curve tops out at Thranduil and The Arkenstone: everything expensive in this deck is a payoff, never a filler.
+
+# Gameplay strategy
+
+## Early game
+
+There is no pressure to attack. Turns one to three are about mana, land drops and stocking the graveyard. Woodland Weavemaster is the best turn two: it ramps only into Elf spells and Elf abilities, which is all this deck has, and its power grows every time another Elf enters. Thranduil's Company should be played before you need the extra land, because its additional-land clause is what makes the landfall triggers happen twice a turn.
+
+The first real decision is what to discard. Thranduil, the Elvenking's entry trigger and Silvan Reveler both read draw one and discard one, and the correct discard is almost always an Elf you would rather have in the graveyard than on the battlefield: Elrond, Moon-Reader if you have Thranduil, Woodland Weavemaster if you need mana, Lathril, Blade of the Elves if you are building a wide board. Silvan Rally does the same job from the top of the library — mill four, keep up to two lands — and every Elf that lands in the graveyard is a tool Thranduil will pick up later.
+
+## Mid game
+
+Turns four to six decide the game. Thranduil, the Elvenking is the priority: a 5/6 that blocks almost everything in Standard, does not die to most burn, and turns the rest of your deck into triggers. Each time a legendary Elf enters after him — another Thranduil, the Sindarin Liege, Galion, Llanowar Elves is not legendary, but the other Thranduils, Elrond, Lathril and Galion all are — you draw two and discard one, which is two cards deeper into the graveyard and one land closer to the drain.
+
+Count Elves constantly. The kill needs ten untapped Elves, and the deck produces them from five sources: Thranduil, Sindarin Liege's landfall tokens, Down in the Valley chapters II through IV, Lathril's combat-damage tokens, Mirkwood Nurturer replayed lands, and the creatures themselves. Do not attack with Elves you need untapped unless the attack wins: menace on Lathril and vigilance from Thranduil's Company mean several Elves can attack without ever tapping out of the drain.
+
+## The combo turn
+
+1. Have Thranduil, the Elvenking on the battlefield and Lathril, Blade of the Elves in the graveyard (which happens through any loot, any discard, any trade, or Silvan Rally).
+2. Build to ten untapped Elves. Landfall tokens do most of this work: a single turn with Thranduil's Company plus two land drops is four new Elves with counters on them.
+3. Activate the inherited ability: tap ten untapped Elves you control. Each opponent loses 10 life and you gain 10 life. Thranduil may tap himself as one of the ten, since he is an Elf.
+4. If the game is not over, Elrond, Moon-Reader in the graveyard gives Thranduil {5}{U}{U}: exile up to two other nonland permanents you control and return them at the beginning of the next end step. Blink Thranduil, Sindarin Liege for a fresh landfall token, or blink Silvan Reveler to loot again and put a discarded land onto the battlefield tapped — the blink is not a win condition by itself, it is how the deck keeps the ten Elves coming after a sweeper.
+
+A representative turn with seven lands in play and Thranduil plus Down in the Valley: play land (landfall makes a 1/1 Elf token), replay the land Mirkwood Nurturer bounced earlier (a second landfall, two more counters), cast Thranduil's Company's counter trigger on the token, then activate the drain for 10 through a board of mostly 1/1s.
+
+## Win condition 2
+
+When the graveyard is not cooperating, the deck attacks. Mirkwood Pathmaker is the deck's largest body for three mana once the land count reaches six or seven, and Rogue's Passage or the inherited Elvenking's Harper ability ({4}{U}: target creature can't be blocked this turn) delivers it through any blocker. Galion, Elvenking's Butler adds a free 4/4: on attack, the smallest Elf's base power and toughness become Galion's 4/4 until end of turn, which turns a 1/1 landfall token into a 4/4 attacker with no additional investment.
+
+The third route is the win-condition land itself: Restless Vinestalk becomes a 5/5 green and blue Plant with trample for {3}{G}{U} and stays a land, so it is a threat that survives creature sweepers, and its attack trigger sets up a trade by making another creature's base power and toughness 3/3. Between Pathmaker, Vinestalk, Galion's copies, Thranduil's Company counters and The Arkenstone's team anthem, the deck has lethal combat damage available in any game where the drain plan is one Elf short.
+
+## Mulligan guide
+
+Keep any hand with two to four lands plus a two- or three-drop Elf, and keep a hand with one of Thranduil, the Elvenking or Thranduil's Company plus a green source and a black or blue source. Ship hands with fewer than two lands, hands with no green source (the deck's mana base leans green: sixteen of twenty-four lands produce green), and five-land hands where the only spells cost four or more — the deck needs landfall triggers, not a flooded draw. A two-land hand with Silvan Rally or Down in the Valley is a keep: both find the third and fourth land.
+
+## Key interactions and edge cases
+
+- Thranduil copies activated abilities only. Elvenking's Harper's unblockable ability, Llanowar Elves' mana ability, Woodland Weavemaster's scaling mana ability, Elrond's blink and Lathril's drain all count; Down in the Valley and The Arkenstone are not Elf cards and grant nothing.
+- The drain ability's cost is tapping ten untapped Elves, not sacrificing them. An Elf with vigilance, or one that has already attacked without tapping (Thranduil's Company grants vigilance), can be used for the drain in the same turn it attacked.
+- Thranduil, Sindarin Liege and Thranduil, the Elvenking are both legendary; the extra copies are not dead, because discarding a duplicate legendary Elf is exactly the graveyard-filling play the deck wants.
+- Silvan Reveler's landfall trigger returns it from the graveyard to your hand for {1}{G}{U}, which is a repeatable body and a repeatable loot if you have the mana; it is the deck's most resilient engine piece.
+- Mirkwood Nurturer returns a permanent you control to its hand — target your own land or a Silvan Reveler, then replay it for a landfall trigger. Do not target the permanent you are about to sacrifice to Elvenking's Halls in the same turn.
+- Elven Passage's behold clause lets you untap the fetched land if you control or reveal an Elf, which is the difference between a two-mana turn and a full turn; hold it until you have an Elf in hand or in play.
+- Dreamroot Cascade and Deathcap Glade enter untapped only if you already control two or more other lands, so play basics and Watery Grave first and let the check lands follow.
+- The Arkenstone's end step draw is a free card every turn, and it makes the whole team +1/+1 — with ten Elves it is also ten extra power on the drain turn's follow-up attack.
+- Confusticate and Bebother's discard half is a real engine play, not just a fallback: discarding Lathril, Elrond or a duplicate legendary Elf is often better than drawing two.
+- Menace on Lathril means it cannot be blocked by a single creature, which matters for the token plan but not for the drain; keep Lathril attacking only when the tokens are worth more than the drain turn's timing.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Mirkwood Meditator, Thranduil and Thranduil's Company's vigilance bodies hold the ground; Mirkwood Meditator's 2/4 blocks all day, and the drain for 10 swings any race you are losing |
+| Midrange | Your top end is bigger: Thranduil is a 5/6, Pathmaker grows with every land, and Galion makes a 4/4 for free each attack; counter-based removal and trading are what the graveyard plan wants |
+| Control | Discard outlets beat counterspells — an Elf in the graveyard is online even after a sweeper. Hold Silvan Reveler and Thranduil, the Elvenking for the turn after the wipe, and remember that Restless Vinestalk is a land, so it survives creature removal |
+| Combo | The deck is fast enough to matter from turn five, and Confusticate and Bebother's counter mode is a real answer; the drain does not target, so hexproof and protection do not stop it |
+
+# Deck list (Arena import)
+
+```
+Evergreen Requiem
+Deck
+4 Thranduil, the Elvenking
+4 Thranduil, Sindarin Liege
+3 Elrond, Moon-Reader
+2 Lathril, Blade of the Elves
+3 Thranduil's Company
+2 Woodland Weavemaster
+2 Galion, Elvenking's Butler
+2 Silvan Reveler
+2 Mirkwood Pathmaker
+2 Llanowar Elves
+2 Mirkwood Meditator
+1 Mirkwood Nurturer
+2 Elvenking's Harper
+2 Down in the Valley
+2 Confusticate and Bebother
+1 The Arkenstone
+4 Elvenking's Halls
+4 Dreamroot Cascade
+4 Deathcap Glade
+3 Watery Grave
+2 Restless Vinestalk
+2 Elven Passage
+1 Rogue's Passage
+2 Forest
+1 Island
+1 Swamp
+```
