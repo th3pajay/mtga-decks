@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-09-29**:
+Deck guides published **2026-09-30**:
 
-- **[Wingsong](decks/2026-09-29-wingsong.html)** — Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs  `hobbit` `eagles`
-- **[Overtake at Midnight](decks/2026-09-29-overtake-at-midnight.html)** — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop  `combo` `start-your-engines`
+- **[Exhaust Manifold](decks/2026-09-30-exhaust-manifold.html)** — Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs  `combo` `mill` `teamwork` `exhaust`

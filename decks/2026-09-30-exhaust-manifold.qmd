@@ -1,0 +1,178 @@
+---
+title: "Exhaust Manifold"
+subtitle: "Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs"
+date: "2026-09-30"
+categories: ["combo", "mill", "teamwork", "exhaust"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Red / Green |
+| Archetype | Tap-out aggro-combo (31 of 37 non-land slots are creatures, average CMC 2.1) |
+| Size | 60 cards — 37 non-land, 23 lands |
+| Core mechanics | Exhaust, fed by Mill and paid for with Teamwork |
+| Primary win | Mill-out: The Water Crystal turns every opponent mill into plus four, and Riverchurn Monument's exhaust mills a player for the size of their own graveyard |
+| Secondary win | A wide board of exhaust counters, made lethal by Sita Varma's power equalisation and pushed through by Rogue's Passage |
+| Win-condition land | Restless Reef — a 4/4 deathtouch Shark that mills four on every attack |
+| Score | overall 90.77 (cohesion 75.6, synergy 75.6, sim 58.7 percent) |
+
+# Overview
+
+Exhaust Manifold is a four-colour tap-out deck built on one rule: every card in it wants to be tapped, and every tap is worth a card, a counter, or a chunk of the opponent's library. Exhaust abilities are the engine — each can be activated only once, so a deck full of them trades burst for reach, and Elvish Refueler plus Afterburner Expert turn that once-only rule into a repeating loop.
+
+Mill is the clock the engine is bolted to. Scarblade Scout mills two on entry, Master's Councillors mills three every time you draw your second card in a turn, Veteran Ice Climber mills its own power on every attack, and Restless Reef mills four whenever it attacks as a 4/4 deathtouch Shark. The Water Crystal makes all of that bigger: if an opponent would mill one or more cards, they mill that many plus four instead, so a two-card Scout entry is six cards and a single Reef attack is eight. Riverchurn Monument's exhaust then mills a player for cards equal to the number of cards already in their graveyard, which is why the deck wins the long game against anything that fills its own graveyard.
+
+Teamwork is the third leg, and it is what makes the tapping pay. Too Evil to Stay Dead, Go Nuts! and Cruel Alliance all cost "tap any number of creatures with total power N or more" if you want the bonus — and tapping the team is not a cost for this deck so much as a second activation. Volatile Wanderglyph loots whenever it becomes tapped, Master's Councillors turns your second draw into a mill trigger, and the graveyard those loots fill is exactly what Afterburner Expert and Too Evil to Stay Dead want to see. Cast Too Evil to Stay Dead with teamwork and it returns any creature card, at any mana value, straight to the battlefield.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Open on Greasewrench Goblin or a two-mana body: Volatile Wanderglyph, Greenbelt Guardian, Prowcatcher Specialist, Scarblade Scout or Master's Councillors. Shocklands come in untapped for 2 life so the second turn is never off-curve |
+| Turns 2-4 | Two drops come down two at a time in the best draws. Scarblade Scouts start milling, Prowcatchers chip in for 2 with haste, and Riverchurn Monument starts dribbling two cards off both libraries |
+| Turns 3-5 | The engine turns on: Greasewrench Goblin and Greenbelt Guardian exhaust for cards and counters, afterburner Expert sits in the graveyard waiting, and The Water Crystal upgrades every mill by four |
+| Turns 4-6 | Master's Councillors and Riverchurn Monument grind the opponent's library while the team attacks. Sita Varma and Redshift give the deck its big turns |
+| Turn 6+ | The mill lock: Riverchurn Monument's exhaust, chained by Elvish Refueler, strips the opponent's library; Rogue's Passage makes the pumped team unblockable for the damage win |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Volatile Wanderglyph | {1}{R} 2/2 artifact Golem — tap engine: whenever it becomes tapped you may discard a card, then draw; the discard is graveyard fuel for Afterburner Expert |
+| Greenbelt Guardian | {1}{G} 2/2 Elf Ranger — pump and counter payoff: {G} gives trample, exhaust {3}{G} puts three plus-one counters on it |
+| Prowcatcher Specialist | {1}{R} 2/1 Goblin Warrior, haste — the turn-one clock: exhaust {3}{R} adds two plus-one counters |
+| Scarblade Scout | {1}{B} 2/2 Elf Scout, lifelink — the cheapest mill: two cards off your own library on entry, and lifelink races aggro |
+| Master's Councillors | {1}{U} 1/3 Human Advisor, vigilance — second-draw mill three and it grows plus two plus zero for every graveyard holding seven or more cards |
+| Sita Varma, Masked Racer | {G}{U} 2/3 legendary Human Rogue — the alpha strike: exhaust {X}{G}{G}{U} adds X counters, then sets every other creature's base power and toughness equal to hers |
+| Redshift, Rocketeer Chief | {R}{G} 2/3 legendary Goblin Pilot, vigilance — mana for abilities (tap for one mana per point of power) and a twelve-mana exhaust that dumps your hand onto the battlefield |
+| Greasewrench Goblin | {R} 2/1 Goblin Artificer — the cheapest exhaust: {2}{R} discards up to two, draws that many, and adds a counter |
+| Afterburner Expert | {2}{G} 4/2 Goblin Artificer — the recursion engine: exhaust {2}{G}{G} for two counters, and every exhaust activation you make returns it from the graveyard to the battlefield |
+| Elvish Refueler | {2}{G} 2/3 Elf Druid — the loop: during your turn, if you have not activated an exhaust ability yet, you may activate exhaust abilities as though they had never been used |
+| Veteran Ice Climber | {1}{U} 1/3 Human Scout, vigilance — unblockable attacker that mills cards equal to its power, which Sita Varma can make very large |
+| Riverchurn Monument | {1}{U} artifact — repeatable two-card mill for both players, and the exhaust kill: every targeted player mills cards equal to the number already in their graveyard |
+| The Water Crystal | {2}{U}{U} legendary artifact — mill amplifier (every opponent mill is plus four), blue spells cost one less, and a repeatable mill for cards equal to your hand size |
+| Too Evil to Stay Dead | {2}{B} sorcery, Teamwork 4 — returns a creature card from your graveyard; cast with teamwork and the mana value limit disappears |
+| Go Nuts! | {G} sorcery, Teamwork 3 — a counter plus a fight for one mana, both modes when paid with teamwork |
+| Cruel Alliance | {2}{B} sorcery, Teamwork 2 — exiles a creature with mana value three or less, or any creature plus three life with teamwork |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Reef | The win-condition land. A 4/4 deathtouch Shark for {2}{U}{B} that mills four on every attack — eight with The Water Crystal out — and blocks anything on the ground |
+| Rogue's Passage | Turns the largest attacker (usually Sita Varma or a triple-counter Greenbelt Guardian) unblockable for the lethal swing |
+| Watery Grave / Breeding Pool / Overgrown Tomb | Blue-black, green-blue and black-green: the three pairs the deck needs most, and the reason the four-colour base works |
+| Steam Vents / Stomping Ground / Blood Crypt | Red-blue, red-green and black-red complete the colour wheel so every two-colour card in the deck is castable by turn three |
+| Island / Forest | The two basics, kept in for Restless Reef's and the deck's colour spread when a shockland would rather come in tapped |
+
+## Curve and mana
+
+The 37 non-land cards are three one-drops, twenty-eight two-drops, five three-drops and one four-drop, for an average CMC of 2.1. Twenty-seven of the thirty-one creatures cost exactly two mana, which is the point: the deck wants to spend its early turns making two threats, and The Water Crystal is the only card that costs more than three.
+
+The mana base is eighteen shocklands, two Restless Reef and Rogue's Passage plus one Island and one Forest. Twenty-two of the twenty-three lands produce at least one of the four colours and every colour has at least eight sources: eleven blue, eleven black, ten green, eight red. The shocks are the fix: paying 2 life to bring one in untapped means a hand with Breeding Pool and Blood Crypt casts any green, blue, black or red card on turn two. The cost is real against aggro — expect to pay four to eight life over a game — but Master's Councillors and Scarblade Scout's lifelink usually buy it back.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one to three are two-drop turns: the deck has no one-drop plan beyond Greasewrench Goblin, and every other creature costs two. Prioritise by what the opponent is doing. Against aggro, Scarblade Scout first (lifelink plus mill) so the ground holds. Against control, Volatile Wanderglyph and Prowcatcher Specialist first, because a two-power clock backed by haste is how you punish a slow start. Riverchurn Monument can come down on turn two over a creature if the hand is removal-light.
+
+Play shocklands untapped for the first four or five turns. The deck's own lifelink and Master's Councillors' growth make the life payment an investment; a two-colour hand that comes in tapped is how this deck loses a turn it cannot spare.
+
+## Mid game
+
+Turns four to six are when the engine assembles. The Water Crystal is the highest-impact card in the deck: with it out, Scarblade Scout's entry mills six, Master's Councillors' second-draw trigger mills seven, Restless Reef's attack mills eight and Riverchurn Monument's exhaust tacks four onto every target. Play it before spending any exhaust abilities.
+
+The tap triggers are the deck's card advantage. Volatile Wanderglyph turns every Teamwork cost into a free loot, and the discard feeds Afterburner Expert into the graveyard. Greasewrench Goblin's exhaust is a second draw, which turns Master's Councillors into a mill engine on its own: exhaust the Goblin (discard, draw two), and the second card drawn fires Councillors' trigger.
+
+Do not attack into open blocks with the small bodies once the mill clock is online. The deck wins with its library plan far more often than it wins with damage, and every creature that dies is one fewer body to pay Teamwork costs with.
+
+## The combo turn
+
+The mill kill is a chained exhaust, not an infinite loop:
+
+1. Get The Water Crystal onto the battlefield, then let Riverchurn Monument's {1}, {T} ability put two cards into every graveyard until each player has seven or more.
+2. Activate Riverchurn Monument's exhaust ({2}{U}{U}, {T}): every targeted player mills cards equal to the number already in their graveyard, plus four from The Water Crystal. A graveyard of ten becomes fourteen.
+3. Next turn, activate that same exhaust again while Elvish Refueler is untapped and nothing else has been exhausted that turn: Refueler lets you activate exhaust abilities as though they had never been used, so the sixteen-card graveyard becomes twenty.
+4. Each turn the number roughly doubles, and The Water Crystal's own tap ability adds hand-size-plus-four per turn in between. Against a deck that fills its own graveyard, this closes out the game in three turns.
+
+A representative turn: The Water Crystal and Elvish Refueler out, four cards in hand. Tap Crystal for eight to the opponent, exhaust Riverchurn Monument for their graveyard plus four, attack with Restless Reef for another eight. Thirty-plus cards off a library in one turn.
+
+## Win condition 2
+
+When milling is too slow or a single large threat has to die, the deck attacks. Prowcatcher Specialist with two counters is a 4/1, Greenbelt Guardian with three is a 5/5 trampler, and Sita Varma's exhaust is the finisher: with four mana invested, X equals four counters and every other creature's base power and toughness becomes five or more for the turn. Attack with everything, hold Rogue's Passage's {4}, {T} activation for the biggest creature, and the board that was milling for three a turn suddenly swings for twenty.
+
+Afterburner Expert is the second route: because it returns from the graveyard whenever you activate an exhaust ability, a 4/2 that dies in combat comes back for free the turn you activate Greasewrench Goblin's or Greenbelt Guardian's exhaust, and Too Evil to Stay Dead with teamwork brings back anything else.
+
+## Mulligan guide
+
+Keep any hand with two to four lands, at least two two-drops, and at least one of each colour pair you need for the cards in hand. A hand with Riverchurn Monument plus The Water Crystal is an automatic keep despite having little board presence: that pair is the game plan. Ship hands that need two specific colours and have only shocklands of a third, and ship hands with no creatures — the deck cannot pay Teamwork costs without a board, and its mill engine needs a blocker to survive to turn five.
+
+## Key interactions and edge cases
+
+- The Water Crystal's plus four applies to every opponent mill, including its own tap ability: with five cards in hand that ability mills nine, not five.
+- Elvish Refueler's permission works only while you have not activated an exhaust ability this turn, so sequence it first: re-use Riverchurn Monument's exhaust before touching Greasewrench Goblin or Greenbelt Guardian.
+- Every exhaust activation returns Afterburner Expert from the graveyard to the battlefield, not just your own exhaust abilities' costs — any activation triggers it, and it can only be answered by exile.
+- Sita Varma's exhaust sets base power and toughness, not counters: Veteran Ice Climber becomes a large unblockable creature that mills its new power when it attacks.
+- Master's Councillors counts every graveyard with seven or more cards, including yours: after a couple of Riverchurn Monument activations it is a 5/3 for two.
+- Volatile Wanderglyph's loot is optional when you tap it for Teamwork, and mandatory only in the sense that you want it: discard a land when you are flooded, a creature when Afterburner Expert is in the graveyard.
+- Too Evil to Stay Dead's teamwork mode removes the mana value limit entirely — that is how a milled Sita Varma or Afterburner Expert comes back for three mana.
+- Restless Reef enters tapped, so plan the land drop a turn before you need the Shark; the mill trigger fires on attack, not on activation.
+- Rogue's Passage produces colourless mana: it does not help cast anything, so it is a spell-land, not a mana source.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Scarblade Scout's lifelink and Restless Reef's deathtouch hold the ground while you race with the mill clock; Cruel Alliance answers their turn-two threat |
+| Midrange | Mill beats card quality. Their big creatures do not matter if they never draw them, and The Water Crystal doubles every trigger |
+| Control | Keep a two-power clock and exhaust in bursts; Afterburner Expert's recursion is the engine they cannot answer with removal, only with exile |
+| Combo | The deck has no counterspells, so the plan is speed: two-drop into two-drop into Crystal plus Riverchurn, and Go Nuts! is the only interaction that buys a turn |
+
+# Iterations
+
+| Round | Change | sim | synergy | goldfish T4 | P(4 lands T4) |
+|-------|--------|-----|---------|-------------|----------------|
+| v1 | First 60: the same three mechanics on a basics-and-fetch four-colour manabase, with Silvergill Peddler, Keen Buccaneer, Venomized Cat, Enduring Vitality, Adrenaline Jockey and Boom Scholar carrying the theme | 48.0 FAIL | 74.2 | 0.577 | 0.565 |
+| v2 | Manabase rebuilt as UBRG shocklands and the creature slots rebuilt around two-mana two-power bodies: 4 Evolving Wilds, 2 Terramorphic Expanse, 5 Mountain, 3 Island, 2 Swamp, 2 Forest out for 4 Watery Grave, 3 Breeding Pool, 3 Steam Vents, 3 Overgrown Tomb, 3 Stomping Ground, 2 Blood Crypt; Silvergill Peddler 2, Keen Buccaneer 2, Venomized Cat 3, Enduring Vitality 2, Adrenaline Jockey 3, Boom Scholar 1, Repulsor Blast 1 and 2 Veteran Ice Climber out for 4 Greenbelt Guardian, 4 Scarblade Scout, 3 Master's Councillors, 2 Sita Varma, 2 Redshift and 1 more Prowcatcher Specialist | 58.7 PASS | 75.6 | 0.585 | 0.570 |
+
+The failing metric in v1 was the simulated win rate, and the cause was mana, not synergy: a four-colour manabase built from basics and Evolving Wilds cannot cast a deck that wants two different colours on turn two, and the creature slots were paying three mana for two-power bodies. The v1 to v2 iteration moved sim 48.0 to 58.7, synergy 74.2 to 75.6, goldfish T4 0.577 to 0.585 and P(4 lands by turn 4) 0.565 to 0.570.
+
+# Deck list (Arena import)
+
+```
+Exhaust Manifold
+Deck
+4 Volatile Wanderglyph
+4 Greenbelt Guardian
+4 Prowcatcher Specialist
+4 Scarblade Scout
+3 Master's Councillors
+2 Sita Varma, Masked Racer
+2 Redshift, Rocketeer Chief
+2 Greasewrench Goblin
+2 Afterburner Expert
+2 Elvish Refueler
+2 Veteran Ice Climber
+1 Riverchurn Monument
+1 The Water Crystal
+2 Too Evil to Stay Dead
+1 Go Nuts!
+1 Cruel Alliance
+4 Watery Grave
+3 Breeding Pool
+3 Steam Vents
+3 Overgrown Tomb
+3 Stomping Ground
+2 Blood Crypt
+2 Restless Reef
+1 Rogue's Passage
+1 Island
+1 Forest
+```
