@@ -1,0 +1,175 @@
+---
+title: "Wargwake"
+subtitle: "Jund (B/G/R) Wolf and Bear tribal — ferocious payoffs fed by landfall counters and a Mirkwood engine"
+date: "2026-10-01"
+categories: ["hobbit", "wolves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), Hobbit set core |
+| Colors | Black / Green / Red (Jund) |
+| Archetype | Aggro-midrange (26 creatures, average CMC 2.97) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Ferocious (power 4 or greater) plus counters from landfall |
+| Primary win | Counter-stacked trample alpha strike — Beorn the Fierce, Large Bear and Chief Warg's Company carry the board, Wargling turns the whole team trampling |
+| Secondary win | Wolf and Bear token swarm — Chief Warg's Company, Head of the Hunt and Dancing from Dark to Dawn under Beorn the Fierce |
+| Engine land | Mirkwood (two counters on a Wolf or Bear) and Rogue's Passage (unblockable finisher) |
+| Viability score | 90.57 overall, synergy 71.7, simulated win rate 64.0 |
+
+# Overview
+
+Wargwake is a three-colour tribal deck built out of the Hobbit set's Wilderland half. The plan is simple on the surface — play Wolves and Bears, attack — but every card in it does one of three jobs: it puts counters on a creature, it turns power four or greater into a payoff, or it makes a body that is bigger than the opponent's blockers.
+
+The deck's spine is the ferocious mechanic. Five creatures in the deck trigger ferocious, and they all read the same condition: while you attack with a creature of power four or greater, something extra happens. The deck supplies that condition reliably because its Wolves are unusually fat — Chief Warg's Company is a 5/3 with trample, Head of the Hunt is a 4/3 with flash, Large Bear is a 5/5 with haste, and Beorn the Fierce is a 6/6 that makes everything else bigger. Ferocious is not a hoop to jump through here, it is the default state of the board from turn three.
+
+The second engine is counters, and it is fed by lands. Beorn's Hospitality puts a counter on a creature every time a land enters, Mirkwood sacrifices itself for two more, and Dancing from Dark to Dawn adds counters equal to the mana value of every creature you cast. A single ordinary Wolf that picks up two counters and a trample counter stops being a chump blocker and becomes the thing that ends the game.
+
+Finally, the top end is hard to answer cleanly: Cavern of Souls cast naming Wolf makes the entire tribal core uncounterable, Head of the Hunt arrives at flash speed, and Large Bear enters with haste.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Nighthowl Pursuer or Wargling as the cheap ferocious trigger, Beorn's Hospitality to start banking counters on every land drop |
+| Turns 3-4 | Chief Warg's Company (5/3 trample, taps out for a Wolf every upkeep) or Duskwatch Hunter plus a counter; power four is now on the battlefield and every ferocious trigger in hand is live |
+| Turns 4-6 | Beorn the Fierce or Large Bear lands, Dancing from Dark to Dawn starts converting creature spells into counters and land drops into 2/2 Bears, and the attack turns become lethal quickly |
+| Late game | Mirkwood sacrifices for the last two counters, Rogue's Passage makes the biggest trampler unblockable, and The Chief Warg plus Wilderland Scrounger keep the board growing while drawing cards |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Nighthowl Pursuer | One-drop ferocious payoff: menace plus +2/+2 every attack while you control power four |
+| Wargling | Ferocious payoff that grants the entire team trample for the turn, plus a counter-friendly statline |
+| Ravening Warg | Deathtouch blocker that gains 2 life per attack once ferocious is online |
+| Duskwatch Hunter | Three-power two-drop that cannot be blocked by tokens and hands out a counter on entry |
+| Chief Warg's Company | The 5/3 trample that turns on ferocious and makes a 2/2 green Wolf every upkeep |
+| Rhovanion Rampager | Sacrifice outlet for spare tokens, converting their power into counters; its death amasses a Goblin Army as a fallback body |
+| Head of the Hunt | Flash 4/3 that exiles opposing creatures and turns each one into a 2/2 green Wolf token |
+| Large Bear | Five-power hasty trampler with reach — the fastest ferocious enabler and a two-turn clock by itself |
+| Beorn the Fierce | Anthem for Bears, a trample counter every combat, and two cards once three Bears are out |
+| Wilderland Scrounger | Ferocious payoff that puts a counter on every creature you control when it attacks |
+| The Chief Warg | Ferocious payoff that draws a card on each attack, and menace makes it hard for the opponent to block profitably |
+| Beorn's Hospitality | Landfall counter engine on turn two; later animates into a Bear as large as your land count |
+| Dancing from Dark to Dawn | Converts each creature spell into counters and each land drop into a 2/2 Bear token |
+| Quarrel | One-sided removal: your creature deals damage equal to its power to a blocker |
+| Gnashing of Teeth | Sweeper or single-creature removal with exile, for small boards and big threats |
+| Pinecone Strike | Three damage to a creature or the destruction of an artifact token, or both |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Mirkwood | Win-condition land: taps for black or green, and sacrifices for two +1/+1 counters on a Wolf or Bear at sorcery speed |
+| Rogue's Passage | Win-condition land: the fourth land of a winning turn turns the pumped trampler into an unblockable attacker |
+| Cavern of Souls | Names Wolf, making the tribal core uncounterable and fixing red for the splash creatures |
+| Blooming Marsh | Untapped black-green on the first two turns, exactly when the one-drop wants it |
+| Wastewood Verge | Green on demand, black once a Swamp or Forest is out |
+| Thornspire Verge | The red source for the splash; also green once a Mountain or Forest is out |
+| Overgrown Tomb | Pain-free black-green that pays two life for an untapped entry |
+| Forest / Swamp / Mountain | Two Forests, one Swamp and one Mountain round out the basic count |
+
+## Curve and mana
+
+The deck curves 4 / 11 / 10 / 4 / 7 across one through five mana with an average nonland cost of 2.97, so it can operate on three lands and rarely needs to hold more than four. Counting the conditional Verge lands and Cavern of Souls for creature spells, the mana base offers roughly sixteen sources of black, twenty of green and four of red — green is the deepest because Beorn the Fierce and Dancing from Dark to Dawn both ask for double green, while red is a four-source splash for Pinecone Strike alone.
+
+Twenty-four lands support the landfall engine as well as the curve: Beorn's Hospitality and Dancing from Dark to Dawn both pay off on every land drop, so seeing land number four and five is worth more here than in a normal midrange deck. The cost is eight lands that enter tapped (four Mirkwood, two Overgrown Tomb, two Rogue's Passage), which is why Blooming Marsh and the Verge lands matter: they are the untapped early drops.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about setting up the counter bank. Beorn's Hospitality on turn two is the best opening — it converts every subsequent land drop into a permanent +1/+1 counter, and it can animate itself later into a Bear as large as your land count. If the opponent is trying to race, Ravening Warg is the better two-drop: deathtouch plus two life per attack makes combat maths miserable for them.
+
+Do not hold Nighthowl Pursuer because ferocious is not online yet. It attacks as a 1/1 with menace, which is usually a free point of damage through a lone blocker, and it becomes a 3/3 trample-relevant attacker the moment a single power-four body lands next to it.
+
+## Mid game
+
+Turn three is where the deck stops being a tribal deck and starts being a machine. Chief Warg's Company is the single most important card in this window: a 5/3 with trample turns on every ferocious trigger in your hand at once and adds a 2/2 Wolf every upkeep. Remember its restriction — it cannot attack unless you control two or more other Wolves, so pair it with Nighthowl Pursuer, Wargling, a Wolf token, or hold it back as the blocker that also makes attackers.
+
+Once power four is present, sequence your attacks so the payoffs stack: Wargling first, because it grants trample to the whole team for the turn, then Nighthowl Pursuer's +2/+2 and Wilderland Scrounger's team counters, with The Chief Warg drawing you a card on the same swing. Dancing from Dark to Dawn is what makes this repeatable; every creature you cast after it is two things at once, a body and a permanent counter on your best attacker.
+
+## The combo turn
+
+The killing turn is three moves that cost nothing extra:
+
+1. A counter payday — a land drop for Beorn's Hospitality, a creature cast under Dancing from Dark to Dawn, or a sacrificed Mirkwood for two counters.
+2. A power-four attacker with trample — Chief Warg's Company, Large Bear or Beorn the Fierce.
+3. A ferocious trigger stack — Wargling grants the team trample, Nighthowl Pursuer becomes a 3/3 menace, The Chief Warg draws a card, and Wilderland Scrounger adds a counter to every creature.
+
+A representative turn: Chief Warg's Company and Beorn the Fierce on the board, Wargling in hand. Cast Wargling, put two counters on the Company from Dancing from Dark to Dawn, sacrifice Mirkwood for two more, then attack. The Company is now a 9/7 trampler and Beorn attacks for six — fifteen trample damage from two creatures, with Wargling's trigger giving everything else on the board trample as well. Rogue's Passage converts any remaining single blocker into a non-issue.
+
+## Win condition 2
+
+When the ground is stalled, the deck goes wide without ever casting a token spell. Chief Warg's Company makes a 2/2 green Wolf every upkeep, Head of the Hunt turns every opposing creature that dies into a 2/2 green Wolf, and Dancing from Dark to Dawn makes a 2/2 green Bear token on every land drop. Beorn the Fierce then does double duty: each Bear token is a 4/4, and with three or more Bears on the battlefield you draw two cards at the start of combat.
+
+The tokens are not just chaff. Rhovanion Rampager eats the smallest of them to grow itself equal to their power, Duskwatch Hunter walks past token blockers entirely, and Beorn the Fierce's combat trigger can promote a Wolf token into a Bear to pick up the anthem. Against a board of 1/1s and 2/2s, this half of the deck wins by itself.
+
+## Mulligan guide
+
+Keep hands with two or three lands, one one-drop or two-drop, and one card that puts counters on something. A hand with Beorn's Hospitality plus four lands is a keep: the enchantment turns every land into a counter and the deck's top end does not need a fast start. Ship hands that show only tapped lands and no action, and ship one-land hands even with a perfect curve, because the deck's engine wants to see land four on schedule.
+
+## Key interactions and edge cases
+
+- Chief Warg's Company counts other Wolves only: a 2/2 Wolf token from its own upkeep trigger is one of the two it needs to attack.
+- Wargling grants trample to every creature you control, not just Wolves, and the trigger only fires while a power-four creature is attacking.
+- Beorn the Fierce's combat trigger makes the target a Bear in addition to its other types, so a Wolf can be an anthem target and still count for Mirkwood and Chief Warg's Company.
+- Large Bear has haste: casting it on turn five with a Wolf token already attacking turns ferocious on in the same combat step.
+- Duskwatch Hunter's entry trigger can put the counter on any creature, including itself or one of your tokens, and it cannot be blocked by tokens at all.
+- Rhovanion Rampager sacrifices before it grows: feed it a 2/2 Wolf token and it gains two counters, so a single Company token per turn turns it into a genuine threat.
+- Quarrel is one-way damage, not a fight — your creature deals damage equal to its power and takes none. Aim a 5/3 Company at a four-toughness blocker and the Company survives.
+- Gnashing of Teeth exiles instead of destroying, which is exactly what you want against graveyard decks, but it does not feed Head of the Hunt's token trigger — use Quarrel or a Pinecone Strike when you specifically want the 2/2 Wolf.
+- Pinecone Strike can choose both modes, so it can kill an artifact creature token outright, and its damage also exiles the creature it kills.
+- Beorn's Hospitality's animation makes it a Bear creature whose power and toughness equal your land count, which also counts towards Beorn the Fierce's three-Bear draw trigger.
+- Mirkwood enters tapped and can only be sacrificed at sorcery speed, so play it on a turn you are not holding up interaction, and sacrifice it in a second main phase after attackers are set.
+- Twenty-four lands is deliberate: the two landfall engines both convert land drops into board presence, so a flood is closer to a win than to a loss.
+- Name Wolf with Cavern of Souls: it covers nine creature cards in the deck, while Bear would only cover Large Bear and Beorn the Fierce.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Ravening Warg and Duskwatch Hunter buy time, Quarrel and Pinecone Strike trade up, and Beorn's Hospitality outgrows their attack once it has two landfall triggers |
+| Midrange | You have the bigger bodies and the counter bank: stack Beorn's Hospitality, Mirkwood and Dancing from Dark to Dawn and attack through their best blocker with trample |
+| Control | Cavern of Souls naming Wolf makes the tribal core uncounterable; do not over-commit into a sweeper, keep one pay-off in hand and rebuild off token generation |
+| Tokens | Duskwatch Hunter cannot be blocked by tokens, Pinecone Strike destroys artifact tokens, and Gnashing of Teeth's second mode shrinks a whole token board |
+| Combo | Large Bear's haste and the turn-five counter pile make for a fast, uninteractive clock; save Pinecone Strike for the one permanent the combo needs |
+
+# Deck list (Arena import)
+
+```
+Wargwake
+Deck
+4 Nighthowl Pursuer
+3 Wargling
+2 Ravening Warg
+3 Duskwatch Hunter
+3 Chief Warg's Company
+2 Rhovanion Rampager
+2 Head of the Hunt
+2 Large Bear
+2 Beorn the Fierce
+1 Wilderland Scrounger
+2 The Chief Warg
+2 Beorn's Hospitality
+2 Dancing from Dark to Dawn
+2 Quarrel
+2 Gnashing of Teeth
+2 Pinecone Strike
+4 Mirkwood
+4 Blooming Marsh
+3 Wastewood Verge
+3 Thornspire Verge
+2 Overgrown Tomb
+2 Cavern of Souls
+2 Rogue's Passage
+2 Forest
+1 Swamp
+1 Mountain
+```
