@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-01**:
+Deck guides published **2026-10-02**:
 
-- **[Wargwake](decks/2026-10-01-wargwake.html)** — Jund (B/G/R) Wolf and Bear tribal — ferocious payoffs fed by landfall counters and a Mirkwood engine  `hobbit` `wolves`
-- **[Cloak and Celerity](decks/2026-10-01-cloak-and-celerity.html)** — Esper (White / Blue / Black) Eerie enchantment engine with Disguise bodies and a Max speed finish  `combo` `eerie` `disguise` `max speed`
+- **[Haggle the Horizon](decks/2026-10-02-haggle-the-horizon.html)** — Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder  `combo` `bargain` `exhaust` `explore`

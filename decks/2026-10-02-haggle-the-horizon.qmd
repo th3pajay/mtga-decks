@@ -1,0 +1,162 @@
+---
+title: "Haggle the Horizon"
+subtitle: "Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder"
+date: "2026-10-02"
+categories: ["combo", "bargain", "exhaust", "explore"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Temur — green / blue / red |
+| Archetype | Tempo combo (token engine plus exhaust finishers) |
+| Size | 60 cards, 23 lands |
+| Primary win | Sita Varma, Masked Racer exhaust: pump, then every other creature's base power and toughness becomes hers, attack for lethal |
+| Secondary win | Animated lands — Restless Ridgeline, Restless Spire, Brave the Wilds and Bitter Work Earthbend turn the manabase into attackers |
+| Mechanic identity | Bargain × Exhaust × Explore |
+| Nonland curve | 18 one-drops, 7 twos, 8 threes, 2 fours, 2 fives |
+
+# Overview
+
+Haggle the Horizon is a Temur tempo-combo deck that fuses three mechanics around a single resource: the Map token.
+
+- **Explore** is the engine. `Cenote Scout`, `River Herald Guide` and `Jadelight Spelunker` explore on entry, `Sentinel of the Nameless City` explores through Map tokens, and `Over the Edge` explores a creature twice. Every explore either puts a land into hand (fixing and ramping) or puts a +1/+1 counter on the explorer.
+- **Bargain** is the value conversion. A Map token is an artifact, which makes every Map a free sacrifice for `Torch the Tower` and `Brave the Wilds`. The same token can instead be spent on its own ability to make a creature explore — so each Map is a choice between a bigger spell now and a counter or land later.
+- **Exhaust** is the payoff. `Mindspring Merfolk` exhausts to draw cards and put a +1/+1 counter on every Merfolk, `Sita Varma, Masked Racer` exhausts to set the whole team's power to hers, and `Loot, the Pathfinder` offers three exhaust abilities (mana, cards, damage) on a double-striking body. `Boommobile` and `Boom Scholar` exist to make those exhausts cheap and repeatable: the Vehicle adds four mana that can only be spent on abilities, and the Goblin discounts every other exhaust ability by two.
+
+The fusion is what makes it work. Explore produces the tokens that Bargain eats, Bargain spells protect the board that Exhaust then converts into a lethal swing, and the exhaust enablers (a Vehicle and an Advisor) also give the deck its mid-game body. Because the deck is full of Merfolk, `Mindspring Merfolk` is a team pump as well as a draw spell, and `Nicanzil, Current Conductor` turns every land off an explore into a free land drop and every nonland into a counter.
+
+The manabase is a weapon, not just fixing. `Restless Ridgeline` attacks as a 3/4 Dinosaur and untaps another attacker, `Restless Spire` attacks as a first-striking 2/1, `Bitter Work` Earthbends a land into a hasty 4/4 that keeps drawing cards, and `Brave the Wilds` turns a land into a hasty 3/3 Elemental while fetching the next one.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1–3, build the board and the tokens.** Deploy one-drops on curve — `Cenote Scout`, `Spyglass Siren`, `Mindspring Merfolk`, `Jadelight Spelunker`. Siren and Sentinel hand you Map tokens; hold them as Bargain fodder or crack them to push an explorer into a land. `Nicanzil, Current Conductor` converts every land-card explore into a free land drop.
+2. **Turns 3–5, convert.** Use `Torch the Tower` and `Over the Edge` to clear blockers, using a Map as the Bargain sacrifice for Torch's scry-and-exile mode. `Bitter Work` starts drawing a card a turn as soon as any 4-power creature attacks, and `Boommobile` arrives as a 5/5 crew 2 that also banks four ability-only mana.
+3. **Turns 5+, close.** Spend the banked mana on exhaust abilities. `Mindspring Merfolk` for X (draw and counter every Merfolk), then `Sita Varma, Masked Racer` for X to make the whole team's power equal to hers. Attack with everything, including whichever lands animate. `Loot, the Pathfinder` is the top-end that keeps the engine running: double strike and haste, plus exhaust draw three and exhaust three damage.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Cenote Scout | 4 | Engine — one-mana Merfolk that explores on entry |
+| Spyglass Siren | 4 | Engine — flying body plus a Map token on entry |
+| Sentinel of the Nameless City | 3 | Engine — 3/4 vigilance, Map token on entry and on every attack |
+| Nicanzil, Current Conductor | 3 | Engine — explore payoff: free land drops and +1/+1 counters |
+| River Herald Guide | 2 | Engine — vigilance Merfolk that explores on entry |
+| Jadelight Spelunker | 2 | Engine — explores X times, a scalable one-drop |
+| Mindspring Merfolk | 3 | Exhaust payoff — draw X and counter each Merfolk you control |
+| Boom Scholar | 1 | Exhaust enabler — other exhaust abilities cost two less; trample exhaust |
+| Sita Varma, Masked Racer | 2 | Win condition 1 — exhaust to set the team's base power to hers |
+| Loot, the Pathfinder | 2 | Top-end — three exhaust abilities on a double-striking, hasty body |
+| Boommobile | 2 | Exhaust enabler — four ability-only mana on entry, then X damage exhaust |
+| Brave the Wilds | 3 | Ramp and land-animation win condition, Bargain mode |
+| Bitter Work | 2 | Card draw engine plus Earthbend 4 exhaust for a hasty land attacker |
+| Over the Edge | 2 | Explore doubler or artifact and enchantment removal |
+| Torch the Tower | 2 | Removal that upgrades to three damage and scry with a Bargain |
+
+## Lands as engines
+
+| Land | What it does for the plan |
+|---|---|
+| Restless Ridgeline | Enters tapped, taps for red or green, becomes a 3/4 Dinosaur that gives another attacker +2/+0 and untaps it — untapping the creature that crewed Boommobile lets it attack too |
+| Restless Spire | Enters tapped, taps for blue or red, becomes a 2/1 Elemental with first strike on your turn and scries 1 whenever it attacks |
+| Fountainport | Colourless token factory: pay mana and 1 life for a 1/1 blue Fish, four mana for a Treasure, or sacrifice any token to draw a card — the deck's repeatable Bargain fuel |
+| Terramorphic Expanse and Evolving Wilds | Fetch a basic of the colour you are short of; the shuffle also resets the top of the library before an explore |
+| Fabled Passage | Fetches a basic untapped from four lands onward — a free extra land drop for Nicanzil and Bitter Work |
+| Forest, Island, Mountain | 11 basics: green for the Merfolk and ramp, blue for the exhaust payoffs, red for removal and the Vehicles |
+
+## Curve and mana
+
+23 lands: 4 manlands (2 Restless Ridgeline, 2 Restless Spire), 6 fetch lands (3 Terramorphic Expanse, 2 Evolving Wilds, 1 Fabled Passage), 2 Fountainport, and 11 basics (4 Forest, 4 Island, 3 Mountain). The curve is deliberately low: 18 one-drops and 7 two-drops mean the deck rarely stumbles on colour, and the fetch lands let you pick the colour you are missing. Green is the primary colour (Merfolk, ramp, Brave the Wilds), blue pays for the exhaust payoffs and Over the Edge, red covers Torch the Tower and Boommobile.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+- **Turn 1:** `Cenote Scout` is the best play — it explores immediately and becomes a 2/2 or hands you a land. `Spyglass Siren` is the alternative when you want a flying body and a Map token to hold.
+- **Turn 2:** `Nicanzil, Current Conductor` or a second one-drop plus a held-up `Torch the Tower` with a Map ready to bargain. If your hand has `Jadelight Spelunker`, cast it for X = 2 or 3 once you have lands in hand, so each explore has a real chance of finding a land.
+- Do not crack Maps early by reflex. A Map is an artifact first: it turns `Torch the Tower` into three damage plus scry, and `Brave the Wilds` into a 3/3 hasty Elemental. Crack it only when you need the explore trigger or a colour.
+
+## Mid game (turns 4–6)
+
+- `Sentinel of the Nameless City` is the best mid-game body: vigilance means it blocks and still triggers an explore on the attack, and each trigger makes another Map.
+- Crew `Boommobile` and attack — its four ability-only mana is worthless until you have an exhaust to spend it on, so treat it as a mana battery that also blocks.
+- `Bitter Work` converts a wide board into cards: any attack with a 4-power creature draws. That is usually `Sentinel` with a counter, an enlarged explorer, or an animated land.
+
+## The combo turn
+
+1. Build to five or more lands with at least two Merfolk on board (`Cenote Scout`, `Sentinel of the Nameless City`, `River Herald Guide`, `Jadelight Spelunker`, `Mindspring Merfolk` and `Nicanzil` all count).
+2. Cast or crew `Boommobile` for four mana that can only be spent activating abilities, and land `Boom Scholar` if you have it to discount every other exhaust by two.
+3. **Mindspring Merfolk** exhaust, `{X}{U}{U}`: draw X cards and put a +1/+1 counter on each Merfolk you control. This is both the refill and the setup.
+4. **Sita Varma, Masked Racer** exhaust, `{X}{G}{G}{U}`: put X +1/+1 counters on her, then the base power and toughness of every *other* creature you control becomes equal to her power until end of turn. With three counters she is a 5/6 and the rest of the team swings as 5/5s.
+5. Attack with everything. `Restless Ridgeline` joins as a 3/4 and untaps your best other attacker, `Restless Spire` as a first-striking 2/1.
+
+## Win condition 2: the animated land
+
+The manabase closes games on its own. `Bitter Work`'s exhaust is `{4}` for Earthbend 4 — a land you control becomes a 0/0 creature with haste that is still a land, with four +1/+1 counters, and it returns to the battlefield tapped if it dies. That 4/4 haste attacker also satisfies `Bitter Work`'s own trigger, so attacking with it draws a card. `Brave the Wilds` in Bargain mode does the same job a turn earlier at one mana for a 3/3 hasty Elemental, and both `Restless Ridgeline` and `Restless Spire` attack as creatures without any help at all. Against a deck that has stabilised behind ground blockers, this is the plan that gets there.
+
+## Mulligan guide
+
+- **Keep:** two or three lands in the right colours, at least one one-drop explorer, and either a Map-maker (`Spyglass Siren`, `Sentinel of the Nameless City`) or a removal spell with a bargain outlet.
+- **Keep aggressive:** `Cenote Scout` plus `Nicanzil, Current Conductor` plus lands is a real hand; the deck wins off a wide, pumped board rather than a single haymaker.
+- **Trim:** hands with no turn-one or turn-two play; hands where all three colours are required before turn three; five-land hands with only `Boommobile` and `Loot, the Pathfinder` as action.
+
+## Key interactions and edge cases
+
+- **A Map token is both a Bargain cost and an explore.** Bargain is paid as you cast the spell, before it resolves; the Map's own explore ability costs `{1}` and a tap and can only be activated as a sorcery. Decide which one you need before you commit.
+- **Nicanzil triggers off the explore, not the explorer.** It sees any creature you control exploring, so a Map cracked on your best attacker still adds a land or a counter.
+- **Jadelight Spelunker's X is locked in on cast.** It explores X times on entry; if a land shows up, it goes to hand and the next explore can find another.
+- **Boommobile's mana and Boom Scholar's discount only pay for abilities.** They cannot cast spells, so plan the exhaust turn rather than the spell turn.
+- **Sita Varma sets base power and toughness.** Counters and other bonuses on your other creatures are overwritten for the turn; put counters on Sita Varma instead, and attack with the Merfolk whose counters you cashed in on the previous turn.
+- **Exhaust abilities can only be activated once each.** With no repeat-enabler in the deck, spend each exhaust on the turn it actually wins or stabilises.
+- **Torch the Tower exiles the permanent it kills.** Do not expect to remove something and leave it in a graveyard.
+
+## Matchups
+
+- **Aggro:** the deck's early bodies are small, so block with `Sentinel of the Nameless City` (3/4 vigilance) and trade up with `Torch the Tower`. `Boommobile` is a 5/5 blocker for four mana. Race only when you already have a pump in hand.
+- **Control:** hold Map tokens to force `Torch the Tower` and `Brave the Wilds` through as two-for-ones, and use manlands and `Bitter Work` Earthbend so your threats are lands that sweepers miss. `Loot, the Pathfinder`'s exhaust draw three replaces a wiped board.
+- **Midrange:** your counters accumulate faster than theirs because explore triggers are free. Keep `Over the Edge` for an artifact or enchantment that matters and win the long game with `Bitter Work` card draw.
+- **Combo:** you rarely have interaction beyond `Torch the Tower` and `Over the Edge`, so apply pressure early and hold `Boommobile` mana to threaten an exhaust that ends the game first.
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | Initial 60: 23 creatures, `Boommobile` exhaust engine, `Brave the Wilds` and `Bitter Work` as land payoffs | sim 49.0 (FAIL, needs 52), synergy 72.3, T4 0.604, P(4 lands) 0.601 |
+| v2 | -1 Stonesplitter Bolt, -1 Ice Out, -1 Rangers' Refueler, -1 Boom Scholar; +2 Sita Varma, Masked Racer, +2 Loot, the Pathfinder (payoff density over marginal interaction) | sim 49.0 → 54.7 (PASS), synergy 72.3 → 71.8, T4 0.604 → 0.569, P(4 lands) 0.601 → 0.585 |
+
+# Deck list (Arena import)
+
+```text
+Haggle the Horizon
+Deck
+4 Cenote Scout
+4 Spyglass Siren
+3 Sentinel of the Nameless City
+3 Nicanzil, Current Conductor
+2 River Herald Guide
+2 Jadelight Spelunker
+3 Mindspring Merfolk
+1 Boom Scholar
+2 Sita Varma, Masked Racer
+2 Loot, the Pathfinder
+2 Boommobile
+3 Brave the Wilds
+2 Bitter Work
+2 Over the Edge
+2 Torch the Tower
+2 Fountainport
+2 Restless Ridgeline
+2 Restless Spire
+3 Terramorphic Expanse
+2 Evolving Wilds
+1 Fabled Passage
+4 Forest
+4 Island
+3 Mountain
+```
