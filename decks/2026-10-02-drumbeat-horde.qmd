@@ -1,0 +1,164 @@
+---
+title: "Drumbeat Horde"
+subtitle: "Jund (B/R/G) Goblin amass — one Army, endless counters, drained through The Great Goblin"
+date: "2026-10-02"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), Hobbit set core |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Aggro-midrange (21 creatures, average nonland CMC 2.58) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Amass Goblins — every source grows a single Goblin Army |
+| Primary win | The Great Goblin drain: each amass event deals 2 damage to the opponent |
+| Secondary win | One oversized Army, made evasive and hexproof, swinging for lethal |
+| Engine land | Goblin-town (two +1/+1 counters on your Army) |
+| Viability score | 90.94 overall, synergy 72.8, simulated win rate 58.0 |
+
+# Overview
+
+Drumbeat Horde is a three-colour aggro-midrange deck built entirely around one mechanic and one payoff. Thirty of the thirty-six nonland cards either amass Goblins, place counters, or move the Army in and out of the graveyard, and The Great Goblin turns every one of those counter events into direct damage.
+
+Amass is an all-or-nothing mechanic: whatever creates the counters, they all land on the single Army you control, and that one token becomes a Goblin as well. That means the deck never goes wide in the ordinary sense. It builds one enormous black Goblin Army and then keeps feeding it — Goblin-town Flunkies and Tidings of War on the cheap end, Fearsome Goblin Pair and Bolg of the North on the midrange, Misty Mountains Raider and Azog, Moria's Ruin as the big swings. Because the Army keeps its counters when the source dies, every trade the opponent makes against your small Goblins effectively grows your win condition.
+
+The second engine is recursion. Gathering of Darkness and Along the Crooked Way bring creature cards back from the graveyard to hand, and Along the Crooked Way converts each of those returns into another amass trigger. Fearsome Goblin Pair is the best fuel in the deck: it amasses Goblins 4 when it dies, replaying it is trivial, and each death trip also exiles a card off the top of your library through The Great Goblin's second ability.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Goblin-town Flunkies as a hasty blocker, Bothersome Noisemaker as the amass engine, or Stir Up Trouble plus a spare body as cheap removal |
+| Turns 3-4 | The Great Goblin lands and the deck becomes a burn deck; Azog, Moria's Ruin and Fearsome Goblin Pair start stacking counters, and Goblin-town can be cracked for two more |
+| Turns 4-6 | Misty Mountains Raider and Bolg of the North add counters on every attack or entry, Gathering of Darkness loops the Pair back out of the graveyard, and the Army is usually lethal by turn six |
+| Late game | Warg Tactics gives the Army trample and hexproof for a protected killing attack, Along the Crooked Way grants menace to the whole Goblin team, and The Great Goblin keeps draining through every amass trigger |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Goblin-town Flunkies | Two-mana 1/1 with haste that amasses 1 on entry — the cheapest way to start the Army and to trigger The Great Goblin |
+| Bothersome Noisemaker | The engine card: a 2/2 that amasses 1 every time you cast a noncreature spell, which includes Tidings of War, Rage into the Valley and both removal spells |
+| The Great Goblin | Primary payoff: a three-mana 3/2 that deals 2 damage to the opponent for each counter event, and exiles a card to play whenever another Goblin, Orc or Army dies |
+| Azog, Moria's Ruin | Removal plus amass: destroys another creature, its controller amasses counters equal to that creature's power, and destroying your own draws you a card |
+| Fearsome Goblin Pair | Recruitable amass bomb: amasses Goblins 4 when it dies, so blocking, trading or sacrificing it all grow the Army |
+| Misty Mountains Raider | Five-mana 4/4 that amasses 2 on every attack — a one-card clock that keeps adding to itself |
+| Bolg of the North | Five-mana 5/5 that sacrifices a creature to deal damage equal to its power, converting excess damage into more counters |
+| Tidings of War | One-mana amass 1 and, flashed back for three red, amass 3 instead — the most efficient counter spell in the deck |
+| Warg Tactics | The green splash: a counter on the Army (another 2 damage) plus trample and hexproof until end of turn for a protected lethal swing |
+| Rage into the Valley | Three-mana cantrip that amasses 2 and costs one life — keeps the engine running while digging for the next payoff |
+| Along the Crooked Way | Enchantment engine: amasses 1 whenever a creature card leaves your graveyard, returns a creature on entry, and grants the Goblin team menace |
+| Gathering of Darkness | Recursion plus amass 3: brings a creature card back to hand, which immediately triggers Along the Crooked Way |
+| Stir Up Trouble | One-mana removal that wants a sacrifice — feed it Fearsome Goblin Pair to destroy a creature and amass 4 at the same time |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | Win-condition land: a black-red dual that can be sacrificed for two +1/+1 counters on the Army, which is also two damage from The Great Goblin |
+| Blazemire Verge | The turn-one black source; red once a Swamp or Mountain is down |
+| Deathcap Glade | Black-green that usually enters untapped, carrying the Warg Tactics splash |
+| Thornspire Verge | Red on demand and green once a Mountain or Forest is out |
+| Raucous Theater | Redundant black-red fixing that surveils 1 on entry, filling the graveyard for Gathering of Darkness and Along the Crooked Way |
+| Forest, Swamp, Mountain | Two Forests, two Swamps and three Mountains round out the basic count |
+
+## Curve and mana
+
+The deck curves 6 / 11 / 14 / 2 / 3 across one through five mana with an average nonland cost of 2.58, so it operates comfortably on three lands and rarely wants more than five. Eleven of the twenty-one creatures cost two or three mana, which matters because Bothersome Noisemaker wants a steady stream of cheap noncreature spells and Azog wants a creature of yours on the board to convert into cards.
+
+Twenty-four lands is a deliberate choice: the deck's spells are cheap, but Goblin-town and Raucous Theater enter tapped, so the land count has to carry some slack. Blazemire Verge supplies black from turn one and red as soon as a Swamp or Mountain appears, Thornspire Verge supplies red from turn one and green as soon as a Mountain or Forest appears, and Deathcap Glade supplies black or green untapped once two other lands are out. Roughly sixteen sources of black, sixteen of red and nine of green make the Warg Tactics splash reliable without stretching the manabase.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about establishing a board that can grow. Goblin-town Flunkies is the ideal opener: it attacks immediately as a 1/1 and puts the first counter on the Army, which means The Great Goblin is already dealing 2 damage the turn it arrives. Bothersome Noisemaker is the better long-term play because it converts every subsequent removal spell, Tidings of War and Rage into the Valley into another counter.
+
+Stir Up Trouble is the most efficient interaction in the deck and should be spent early rather than saved. Sacrificing a Goblin-town Flunkies token, or a Fearsome Goblin Pair, converts a dead body into a destroyed creature, and in the Pair's case also amasses 4.
+
+## Mid game
+
+Turn three is the pivot. The Great Goblin is the single most important card in the deck and should be deployed as soon as three mana is available, before more increment. Once it is on the battlefield every amass event is worth 2 damage, so the order of operations matters: hold the follow-up amass cards until the Goblin is out, then chain them.
+
+Azog, Moria's Ruin is the deck's best tempo swing, but read its text carefully. When it destroys an opponent's creature, that opponent amasses counters equal to the destroyed creature's power, and an opposing Army is a real drawback. The clean uses are destroying a small opposing creature, or destroying one of your own creatures — in which case you draw a card and keep the counters for yourself.
+
+Fearsome Goblin Pair is the engine's flywheel. It trades badly in combat, which is the point: the moment it dies you amass 4, The Great Goblin drains for 2, and its own death trigger exiles the top card of your library to play. Gathering of Darkness pulls it straight back to hand.
+
+## The combo turn
+
+The killing turn is a chain of cheap effects that all point the same direction:
+
+1. The Great Goblin is on the battlefield and the Army already has counters on it.
+2. Cast one or more amass spells in sequence — Tidings of War, Rage into the Valley, Goblin-town Flunkies — so each one both grows the Army and drains the opponent for 2.
+3. Finish with Warg Tactics, targeting the Army: a counter, another 2 damage, and trample plus hexproof until end of turn.
+4. Attack. Crack Goblin-town in the second main phase if the Army still cannot connect.
+
+A representative turn with four mana, The Great Goblin already in play and the Army at four counters: cast Tidings of War (Army to five, opponent to 18), then Rage into the Valley (Army to seven, opponent to 16, draw a card), then Warg Tactics on the Army (Army to eight, opponent to 14, trample and hexproof). Attack for eight, then sacrifice Goblin-town in the second main phase for two more counters and the final 2 drain, leaving the opponent at 4 with the Army still standing at ten counters.
+
+## Win condition 2
+
+When the drain plan is too slow, the deck switches to a single protected attacker. Warg Tactics grants trample and hexproof, which answers both chump blockers and the removal spell the opponent has been holding for the Army. Along the Crooked Way's activated ability gives every Goblin and Orc you control menace for a mana, so even a modest Army becomes hard to block and the small Goblins left on the board start chipping in.
+
+The alternative clock is Bolg of the North. Sacrificing a high-power creature to its entry trigger deals that much damage to another target creature, and any excess damage converts into amass counters — a one-card removal spell that also grows the main threat. Misty Mountains Raider plays the same role from the other side, adding two counters on every attack so the Army outgrows whatever the opponent can block with.
+
+## Mulligan guide
+
+Keep two or three lands if the hand has a turn-one or turn-two play plus one card that amasses. Hands with Goblin-town Flunkies, Bothersome Noisemaker and a removal spell are ideal. Ship hands whose only lands are Goblin-town and Raucous Theater with no two-drop, because the deck cannot afford to fall a full turn behind on board. Keep any hand containing The Great Goblin and two lands of different colours — the Goblin is the payoff and the rest of the hand only has to be playable.
+
+## Key interactions and edge cases
+
+- Amass always grows the same Army: there is only ever one Army token, so counters from different spells accumulate on the same creature rather than creating multiple bodies.
+- The Great Goblin counts events, not counters: an amass 4 and an amass 1 each deal 2 damage, they do not scale with the number of counters placed.
+- Warg Tactics' counter also triggers The Great Goblin, because the target is a Goblin or an Army — the spell is both protection and another point of drain.
+- Azog, Moria's Ruin hands an opposing Army to the opponent whose creature it destroys. Destroy your own expendable creature when you can, or aim at something with power one.
+- Fearsome Goblin Pair dies on purpose: Stir Up Trouble and Bolg of the North both turn its death into amass 4 plus damage.
+- Tidings of War is amass 3 when cast from the graveyard through flashback, not amass 1 — the flashback line is the deck's biggest single counter swing.
+- Gathering of Darkness triggers Along the Crooked Way because the returned creature card leaves your graveyard, so the recursion spell is effectively amass 1 plus a body back.
+- Along the Crooked Way's menace activation is a mana sink for turns when you hold up nothing else, and it applies to the Army as well as your other Goblins.
+- Goblin-town enters tapped: sequence it on a turn when you do not need the mana, and sacrifice it only at sorcery speed.
+- Raucous Theater's surveil fills the graveyard for Gathering of Darkness, so surveilling a creature away is often better than keeping it on top.
+- The Great Goblin's death trigger exiles the top card of your library for every Goblin, Orc or Army that dies, so attacking into a bad block is not always wrong — the exchange usually pays you back a card.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Goblin-town Flunkies trades up as a hasty blocker, Stir Up Trouble and Warg Tactics keep the board clear, and the Army outclasses their attackers by turn five |
+| Midrange | The drain does the work: chain amass triggers with The Great Goblin out and race their slower threats while Warg Tactics protects the Army from their removal |
+| Control | Do not over-commit. Deploy The Great Goblin, then feed it one amass a turn; Warg Tactics' hexproof blanks their spot removal and Along the Crooked Way rebuilds after a sweeper |
+| Tokens | Menace from Along the Crooked Way and trample from Warg Tactics make the Army unblockable in practice, and The Great Goblin's drain ignores the board entirely |
+| Combo | The deck is the aggressor: Flunkies and Tidings of War put the opponent on a fast clock, and Stir Up Trouble removes the one creature their combo needs |
+
+# Deck list (Arena import)
+
+```
+Drumbeat Horde
+Deck
+4 Goblin-town Flunkies
+4 Bothersome Noisemaker
+4 The Great Goblin
+3 Azog, Moria's Ruin
+3 Fearsome Goblin Pair
+2 Misty Mountains Raider
+1 Bolg of the North
+4 Tidings of War
+3 Warg Tactics
+2 Rage into the Valley
+2 Along the Crooked Way
+2 Gathering of Darkness
+2 Stir Up Trouble
+4 Goblin-town
+4 Blazemire Verge
+4 Deathcap Glade
+3 Thornspire Verge
+2 Raucous Theater
+2 Forest
+2 Swamp
+3 Mountain
+```
