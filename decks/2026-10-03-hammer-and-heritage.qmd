@@ -1,0 +1,162 @@
+---
+title: "Hammer and Heritage"
+subtitle: "Red-White Storied Dwarves — Equipment, Sagas and The Lonely Mountain"
+date: "2026-10-03"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), Hobbit set core |
+| Colors | Red / White (Boros) |
+| Archetype | Aggro-midrange (21 creatures, average nonland CMC 2.44) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Storied — three artifacts, legendaries and/or Sagas turn on an enduring story |
+| Primary win | Wide Dwarf army with double strike from Dáin Ironfoot and anthems |
+| Secondary win | One tall Equipment carrier grown by hone counters, cleared through Thorin, Mountain-king |
+| Engine land | The Lonely Mountain (repeatable 2/2 Dwarf tokens, cheaper for each Equipment) |
+| Viability score | 90.16 overall, synergy 70.5, simulated win rate 55.0 |
+
+# Overview
+
+Hammer and Heritage is a two-colour legendary-Dwarf deck built on the Storied keyword. Storied gives you an enduring story for the rest of the game the moment you control three or more artifacts, legendaries and/or Sagas — and this list reaches that threshold almost without trying, because seventeen of the twenty-one creatures are legendary and every Equipment, including each Axe token, is an artifact. Once the story is on, Thorin Oakenshield gives every artifact and creature you control ward {1}, Kíli the Resourceful makes the first equip free each turn, Dáin, Lord of the Iron Hills taxes attacks, and Óin the Brave gains haste.
+
+The engine is Equipment. Dáin Ironfoot and Iron Hills Blacksmith each enter with a colorless Axe token, Dwarven Shortsword arrives with a 2/2 Dwarf already attached, and Dwarven Mattock attaches itself to a Dwarf for free on entry. Those same Equipment are the fuel for The Lonely Mountain, which makes a fresh 2/2 red Dwarf every turn and costs {1} less for each Equipment you control — with three Equipment online the ability is a {1}{R} token, and the deck usually has more.
+
+The payoff layer is Dwalin, Weaponmaster and Sting, Bilbo's Sword. Hone counters sit on the Equipment, not the creature, so they travel with the weapon when it moves, and Dwalin adds one to every Equipment you control every time it enters or attacks. Dáin Ironfoot then gives each equipped attacker double strike on the swing, and Thorin, Mountain-king can pour every Equipment you control onto a single carrier and convert its power into removal.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Deploy two-mana legendary Dwarves — Thorin Oakenshield as the ward lord, Iron Hills Blacksmith for a double-striking body plus an Axe, or Dwalin, Weaponmaster to start stacking hone counters. Dwarven Mattock attaches itself the turn it arrives |
+| Turns 2-3 | Reach three artifacts or legendaries and the enduring story locks on for the rest of the game. Kíli the Resourceful starts drawing a card every turn the deck adds a Dwarf or Equipment, and the Axe tokens keep coming |
+| Turns 3-4 | Dáin Ironfoot gives every equipped attacker double strike; The Lonely Mountain starts minting 2/2 Dwarves at a discount. This is the window where the board goes from parity to lethal |
+| Turns 4-6 | Thorin, Mountain-king consolidates the Equipment onto one creature for a large damage trigger, and Vow to Erebor untaps a Dwarf for a second combat step worth of damage |
+| Late game | The Lonely Mountain keeps producing tokens every turn while ward {1} from Thorin Oakenshield and Dwarven Mattock makes the opponent pay extra for every removal spell |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thorin Oakenshield | Two-mana 3/2 trampler and the Storied lord: while you have an enduring story, every artifact and creature you control has ward {1} |
+| Kíli the Resourceful | Card advantage: draws on each other Dwarf or Equipment entering (once per turn), and makes the first equip of each turn free once the story is on |
+| Dwalin, Weaponmaster | Hone engine: a 2/1 first striker that puts a hone counter on every Equipment you control when it enters or attacks |
+| Iron Hills Blacksmith | Two-mana double striker that arrives with an Axe Equipment token attached to the board |
+| Dáin Ironfoot | Double-strike payoff: enters with an Axe attached, and grants double strike to every equipped attacker |
+| Óin the Brave | Storied haste: a 1/3 that gains haste and +1/+0, with a mana-and-discard loot for flooding turns |
+| Thorin, Mountain-king | Finisher: mass-attaches every Equipment to one creature, which then deals damage equal to its power to a target creature |
+| Dwarven Mattock | The core Equipment: attaches free to a Dwarf, gives +2/+2 and ward {1} |
+| Dwarven Shortsword | Two bodies for one card: creates a 2/2 red Dwarf token and attaches itself to it |
+| Sting, Bilbo's Sword | Flash Equipment that puts a hone counter on itself for each creature the target opponent controls, then attaches |
+| Vow to Erebor | Combat trick and Equipment mover: untaps a creature, gives +2/+2, and re-attaches an Equipment if the target is a Dwarf |
+| The Mountain-king's Return | Saga support that counts toward Storied, loots, returns a cheap creature from the graveyard, and adds a counter |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Win-condition land and the deck's token factory: a Mountain that enters untapped when you control an Equipment, and turns {4}{R} into a 2/2 red Dwarf, reduced by {1} for each Equipment |
+| Inspiring Vantage | The best turn-one red or white source; untapped whenever you control two or fewer other lands |
+| Sunbillow Verge | White on any turn, red once a Mountain or Plains is down — nineteen other lands in the deck satisfy that condition |
+| Sundown Pass | Red or white fixing that enters untapped from turn three onward, when you control two or more other lands |
+| Elegant Parlor | Typed Mountain Plains that enters tapped and surveils 1, smoothing both colours and digging for the next Equipment |
+| Mountain, Plains | Three of each round out the count as fetchable basic types |
+
+## Curve and mana
+
+The deck curves 0 / 25 / 6 / 5 across one through four mana, so it plays almost entirely at two and three. Twenty-five two-drops is the whole point: Kíli wants a steady stream of cheap Dwarves and Equipment, Dwalin wants to attack every turn, and the Equipment package needs bodies to carry it. Three cards at four mana — Thorin, Mountain-king and Dwarven Shortsword — are the top of the curve, and the deck is happy to stop there.
+
+Twenty-four lands is deliberate. The Lonely Mountain needs four mana to fire, Thorin, Mountain-king wants four, and The Lonely Mountain, Elegant Parlor and (sometimes) Sundown Pass come in tapped, so the land count carries the slack. The manabase provides roughly twenty-one red sources and seventeen white sources, which is ample for a deck whose red cards are almost all one or two mana.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two decide the shape of the game. Thorin Oakenshield is the strongest opener when you have follow-up, because the ward {1} it grants is the cheapest protection the deck has. Iron Hills Blacksmith is the most aggressive: a double-striking body plus an Axe, which is two permanents toward the Storied threshold in a single card. Dwalin, Weaponmaster is the engine piece — every Equipment you control gets a hone counter the moment it lands, so it is worth leading with an Equipment already in play.
+
+Dwarven Mattock should almost always be cast before combat, since it attaches itself to a Dwarf on entry for free. That single card turns a 1/2 Kíli into a 3/4 with ward {1} and moves you two-thirds of the way to an enduring story.
+
+## Mid game
+
+Turn three and four are when the deck stops trading and starts winning. Dáin Ironfoot is the pivot: it arrives with an Axe already attached, and from then on every equipped attacker has double strike. With a Mattock on a Dwarf that is six damage from a two-mana creature; with hone counters on top it is lethal in two swings.
+
+The Lonely Mountain should be activated in any turn where you have spare mana, because the ability is sorcery-speed and the token arrives ready to block. With three Equipment in play it costs {1}{R} — the same rate as a two-mana 2/2, except the land itself is also a Mountain and the token carries whatever Equipment you move onto it.
+
+## The combo turn
+
+The deck's best turns chain Equipment entries into damage:
+
+1. Start with Dáin Ironfoot and a Dwarven Mattock on the battlefield, and at least six mana available.
+2. Cast Dwalin, Weaponmaster ({1}{R/W}): every Equipment you control, including the Mattock, gets a hone counter.
+3. Cast Dwarven Shortsword ({3}{W}): it creates a 2/2 red Dwarf token and attaches itself to it. If Kíli the Resourceful is in play, that Equipment entering draws you a card.
+4. Use Kíli's free first equip to move the hone-charged Mattock onto the Shortsword token.
+5. Attack. Dáin Ironfoot grants double strike to every equipped attacker, so both Equipment carriers hit twice.
+
+A representative turn with seven mana and Dáin Ironfoot plus a Dwarven Mattock already in play: Dwalin, Weaponmaster adds a hone counter to the Mattock (now granting +3/+2), Dwarven Shortsword makes a 2/2 Dwarf token and attaches, and the free equip from Kíli moves the Mattock onto the token, which attacks as a 5/4 with double strike. Add Dáin Ironfoot's own Axe-equipped body and the swing is comfortably over ten damage before The Lonely Mountain has been activated once.
+
+## Win condition 2
+
+When the opponent stabilises against the wide plan, the deck goes tall instead. Hone counters live on the Equipment, so a single Dwarven Mattock can accumulate three or four counters across a game and hand out +6/+6 or more. Put that weapon on a double-striking Iron Hills Blacksmith and the deck has a two-card clock that ignores most blockers.
+
+Thorin, Mountain-king is the finisher for that plan. On entry it attaches any number of your Equipment to one creature, and that creature deals damage equal to its power to a target creature — with three Equipment moved, the trigger is usually a one-sided board wipe. Because the damage is read after the Equipment are attached, it includes every bonus you just handed over.
+
+## Mulligan guide
+
+Keep any hand with two or three lands and a two-drop, and keep aggressively when the two-drop is Thorin Oakenshield or Iron Hills Blacksmith. A hand of Dwarven Mattock plus any legendary Dwarf is a keep on two lands. Ship hands with four or more lands and no Equipment, and ship hands whose only creatures are Óin the Brave and The Mountain-king's Return, because neither attacks profitably on turn two. Kíli the Resourceful and Dwalin, Weaponmaster are the two cards worth keeping a slower hand for.
+
+## Key interactions and edge cases
+
+- Storied is a one-way switch: once you control three artifacts, legendaries and/or Sagas, you have an enduring story for the rest of the game, even if those permanents are later destroyed.
+- Axe tokens are Equipment artifacts. They count toward Storied, they gain hone counters from Dwalin, and they each reduce The Lonely Mountain's activation cost by {1}.
+- Hone counters stay on the Equipment, not on the creature. Moving a Mattock with a free equip from Kíli moves the whole bonus with it.
+- Kíli's free first equip is a may-ability: it can pay {0} instead of the equip cost once per turn, which is the cheapest way to re-attach an Axe or move a hone-stacked weapon.
+- Thorin Oakenshield's ward {1} applies to artifacts as well as creatures, and Dwarven Mattock grants the equipped creature its own ward {1}. Both triggers resolve separately, so a single removal spell costs the opponent {2} more.
+- Dáin Ironfoot only grants double strike when it attacks, and only to attacking creatures that are already equipped.
+- The Lonely Mountain enters tapped unless you control an Equipment, so a turn-one Mattock or Sting turns it into an untapped Mountain.
+- The Lonely Mountain's ability is sorcery speed and can be activated the turn it enters if it comes in untapped.
+- Thorin, Mountain-king's damage trigger resolves after the Equipment are attached, so the power it uses includes every Equipment you just moved onto the target.
+- Sting, Bilbo's Sword counts the opponent's creatures at the moment it enters, so casting it as a flash blocker against a wide board is worth several hone counters.
+- Vow to Erebor can attach an Equipment to the untapped creature, which is a second, unexpected way to move a hone counter stack.
+- The Mountain-king's Return chapter II returns any creature with mana value three or less, which is every creature in the deck except Thorin, Mountain-king.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with double strike. Dáin Ironfoot plus any Equipment outraces faster decks, and Dwarven Mattock's ward {1} plus Thorin Oakenshield's ward {1} makes their removal expensive |
+| Midrange | Go tall. Stack hone counters on one Mattock, then use Thorin, Mountain-king to attach everything and clear their best blocker with the damage trigger |
+| Control | Do not over-commit into a sweeper. Keep Kíli the Resourceful and The Lonely Mountain in reserve so the deck rebuilds from a single land, and lean on ward {1} to tax their spot removal |
+| Tokens | The deck has no sweepers, so the plan is to go over the top: double-striking equipment carriers punch through chump blocks, and Thorin, Mountain-king's trigger removes their biggest token |
+| Combo | Play the aggressor. Two-mana double strikers put a real clock on the opponent, and ward {1} from Thorin Oakenshield and Dwarven Mattock taxes every removal spell aimed at the key attacker |
+
+# Deck list (Arena import)
+
+```
+Hammer and Heritage
+Deck
+4 The Lonely Mountain
+4 Inspiring Vantage
+4 Sunbillow Verge
+3 Sundown Pass
+3 Elegant Parlor
+3 Mountain
+3 Plains
+4 Thorin Oakenshield
+4 Kíli the Resourceful
+3 Dwalin, Weaponmaster
+3 Iron Hills Blacksmith
+3 Dáin Ironfoot
+2 Óin the Brave
+2 Thorin, Mountain-king
+4 Dwarven Mattock
+3 Dwarven Shortsword
+2 Sting, Bilbo's Sword
+3 Vow to Erebor
+3 The Mountain-king's Return
+```
