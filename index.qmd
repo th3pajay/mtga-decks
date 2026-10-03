@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-02**:
+Deck guides published **2026-10-03**:
 
-- **[Haggle the Horizon](decks/2026-10-02-haggle-the-horizon.html)** — Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder  `combo` `bargain` `exhaust` `explore`
-- **[Drumbeat Horde](decks/2026-10-02-drumbeat-horde.html)** — Jund (B/R/G) Goblin amass — one Army, endless counters, drained through The Great Goblin  `hobbit` `amass`
+- **[Graveyard Shift](decks/2026-10-03-graveyard-shift.html)** — Mardu (W/B/R) Job select equipment plus flashback token swarms  `combo` `job-select` `flashback` `token-creation`

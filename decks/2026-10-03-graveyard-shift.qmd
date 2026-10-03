@@ -1,0 +1,173 @@
+---
+title: "Graveyard Shift"
+subtitle: "Mardu (W/B/R) Job select equipment plus flashback token swarms"
+date: "2026-10-03"
+categories: ["combo", "job-select", "flashback", "token-creation"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), Final Fantasy job-select equipment core |
+| Colors | White / Black / Red (Mardu) |
+| Archetype | Midrange token-equipment (11 creatures, average nonland CMC 2.44) |
+| Size | 60 cards, 24 lands |
+| Core mechanics | Job select (equipment that makes a Hero and attaches itself), Flashback, token creation |
+| Primary win | Wide equipped token board under Warleader's Call, pushed through by Rogue's Passage |
+| Secondary win | Noncreature-spell burn from Black Mage's Rod and Mysidian Elder's Wizard token |
+| Engine land | Restless Fortress and Restless Vents, plus Rogue's Passage as the finisher land |
+| Viability score | 91.18 overall, synergy 73.5, simulated win rate 55.3 |
+
+# Overview
+
+Graveyard Shift fuses three mechanics that all point at the same board. Job select is the engine: every job-select Equipment creates a 1/1 colorless Hero token as it enters and then attaches itself to that token for free, so each Equipment is two cards worth of board for one card and one mana payment. Token creation is the resource: Heroes, Spirits, Robots, Goblins and Faerie tokens all arrive cheaply and all count as bodies. Flashback is the value engine: the token spells in the deck come back out of the graveyard for a second body, and because the deck's cheap spells naturally fill the graveyard, the second cast is often free of opportunity cost.
+
+The two halves feed each other. Ravenous Robots creates a 1/1 Robot artifact token every time an artifact spell resolves, and the deck plays nine job-select Equipment plus one more artifact creature, so the Robots engine converts each Equipment into two bodies. Warleader's Call then turns every one of those entries into a +1/+1 anthem plus a point of damage to the opponent, and Mysidian Elder and Black Mage's Rod turn every noncreature spell into another point of drain. The deck wins with a wide board that is bigger than the opponent expects and cannot be blocked cleanly, backed by a burn clock that ignores that board entirely.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land a two-drop engine piece: Ravenous Robots, Mysidian Elder or a job-select Equipment, which immediately leaves a Hero token behind |
+| Turns 3-4 | Warleader's Call or Cosmogrand Zenith converts the accumulated tokens into an anthem plus repeated token generation; Antiquities on the Loose adds two Spirits at once |
+| Turns 4-6 | The wide board attacks, Red Mage's Rapier and Paladin's Arms push damage through, and Get Lost clears the one blocker that matters |
+| Late game | Flashback the token spells out of the graveyard, activate Restless Fortress or Restless Vents as attackers, and finish with Rogue's Passage making the biggest equipped token unblockable |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Ravenous Robots | Engine: a two-mana 2/1 artifact creature that creates a 1/1 Robot artifact token whenever an artifact spell resolves, which every Equipment is |
+| Mysidian Elder | Engine and win condition: enters with a 0/1 black Wizard token that deals 1 damage to each opponent on every noncreature spell, and the deck plays twenty-five of them |
+| Cosmogrand Zenith | Token payoff: on your second spell each turn, either two 1/1 Soldiers or a +1/+1 counter on the whole team |
+| Bitterbloom Bearer | Evasive engine: a two-mana flash flyer that leaves a 1/1 flying Faerie behind every upkeep, giving the deck an unblockable clock that grows by itself |
+| Black Mage's Rod | Job-select Equipment: makes a Hero, then turns its bearer into a Wizard that pings each opponent for 1 on every noncreature spell |
+| Dragoon's Lance | Job-select Equipment: the cheapest job-select body, and its bearer flies on your turn so the Hero connects |
+| Red Mage's Rapier | Job-select Equipment: turns its bearer into a Wizard that grows by +2/+0 on every noncreature spell, the best Equipment to keep a threat alive |
+| Paladin's Arms | Job-select Equipment: +2/+1 and ward {1}, the resilient option when the opponent is holding removal |
+| Group Project | Flashback token spell: a 2/2 Spirit for two mana, flashed back for tapping three tokens that the job-select Equipment already provided |
+| Antiquities on the Loose | Flashback token spell: two 2/2 Spirits, and both get a +1/+1 counter when cast from anywhere other than your hand |
+| The Final Days | Flashback token spell: two 2/2 Horrors, and it scales off the graveyard, which the deck fills with its own creatures |
+| Electroduplicate | Combo payoff: copies the largest equipped token with haste, and can be flashed back for a second copy in the same game |
+| Warleader's Call | Primary payoff: +1/+1 to the team and 1 damage to each opponent for every creature that enters, which includes every job-select Hero and every token |
+| Get Lost | Catch-all removal that answers a creature, enchantment or planeswalker; the Map tokens it gives away are irrelevant to a deck this fast |
+| Long Goodbye | Uncounterable removal for cheap threats, which covers the early turns when the deck is still assembling its board |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Fortress | Win-condition land: attacks as a 1/4 Nightmare and drains the defending player for 2 while gaining 2, so it closes games the creatures cannot |
+| Restless Vents | Win-condition land: attacks as a 2/3 menace Insect and loots on every attack, turning spare lands into reach |
+| Rogue's Passage | Finisher land: five mana makes the biggest equipped token unblockable, which converts a stalled board into lethal |
+| Godless Shrine | Untapped white and black once you pay 2 life, the deck's primary black source for Black Mage's Rod and The Final Days |
+| Sacred Foundry | Untapped white and red, carrying both the Warleader's Call and the job-select red Equipment |
+| Blood Crypt | Untapped black and red, the source that lets Black Mage's Rod and Red Mage's Rapier share a turn |
+| Concealed Courtyard | White and black untapped while you have two or fewer other lands, which covers the first two turns |
+| Plains, Mountain | Two of each round out the count; the deck has fourteen white, twelve black and twelve red sources |
+
+## Curve and mana
+
+The deck curves 0 / 22 / 12 / 2 across one through four mana with an average nonland cost of 2.44, so it functions entirely on two to four lands and never wants more than four in play. Twenty-two of the thirty-six nonland cards cost exactly two mana, which matters because Ravenous Robots wants a steady stream of artifact spells and Cosmogrand Zenith wants two spells in a turn.
+
+Twenty-four lands is deliberate. The deck's spells are cheap, but four of its duals can enter tapped and the two Restless manlands always do, so the land count carries the slack. The shock lands should be paid for rather than allowed to enter tapped whenever the life total allows, because a two-mana play on turn two is worth more than two life in this deck. Concealed Courtyard covers turn one and two perfectly, and the twelve untapped dual lands mean the deck rarely stumbles on colours.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about quantity of bodies, not quality. Ravenous Robots is the ideal opener: it is a 2/1 that attacks, and every Equipment and artifact spell after it leaves another 1/1 behind. Mysidian Elder is the better long-term play when red is available, because its Wizard token converts the rest of the deck into damage. A job-select Equipment is never a wasted two-drop: it puts a Hero on the board and attaches itself, so a two-mana Equipment is effectively a two-mana creature with a permanent buff.
+
+Against aggressive decks, hold Get Lost for the first threat that actually attacks and let the tokens trade. Against slower decks, deploy the engines first and let the Equipment follow, because the tokens are free bodies and the anthems are worth more once the board is wide.
+
+## Mid game
+
+Warleader's Call is the pivot card. Once it is on the battlefield every Hero, Robot, Spirit, Faerie and copy that arrives is a +1/+1 body and a point of damage, so the correct order is to land the enchantment first and only then cast Antiquities on the Loose, Group Project and the Equipment. Cosmogrand Zenith does the same job from the creature slot and should be played after the first spell of a turn so that its trigger fires immediately.
+
+Electroduplicate is the deck's explosive turn. Copying the largest equipped token gives a hasty attacker for one turn, and because the spell has flashback it can be replayed later for a second copy of the same permanent. The copy is sacrificed at the end step, so it is a damage spell, not a permanent.
+
+## The combo turn
+
+The killing turn is a wide attack backed by a burn finish:
+
+1. Warleader's Call is on the battlefield and the board already holds several equipped Hero and Spirit tokens.
+2. Cast one or more job-select Equipment: each makes a new Hero, each buffs the team from the Call, and each deals another point of damage.
+3. Cast a flashback token spell from hand or graveyard; every Spirit or Horror that arrives is again +1/+1 and a point of damage.
+4. Attack with everything, then use Rogue's Passage on the largest equipped token if a single blocker can stop the lethal swing.
+
+A representative turn with five mana, Warleader's Call and three tokens in play: cast Black Mage's Rod (Hero appears, opponent to 17), flash back Group Project by tapping the three untapped tokens (2/2 Spirit appears, opponent to 16), then attack for roughly twelve with the equipped team and pay five for Rogue's Passage to make the biggest token unblockable.
+
+## Win condition 2
+
+When the board is stalled, the deck wins without attacking. Black Mage's Rod turns its bearer into a Wizard that deals 1 damage to each opponent whenever a noncreature spell is cast, and Mysidian Elder's token does exactly the same thing. With twenty-five noncreature spells, and with the same triggers repeated through flashback, that is a steady clock that ignores blockers, lifegain on the ground and combat math entirely. Red Mage's Rapier's bearer also grows by +2/+0 on each of those spells, so the turn spent draining also builds the attacker that ends the game.
+
+The third route is the manlands. Restless Fortress hits for 1 and drains 2 while gaining 2, which is a two-point swing every attack, and Restless Vents attacks as a 2/3 with menace and loots on every swing. Both lands are immune to sorcery-speed creature removal after the fact and can be activated after a sweeper has cleared the token board, which makes them the most reliable threat in long games.
+
+## Mulligan guide
+
+Keep any two- or three-land hand that contains one engine piece and one token spell. Ideal hands have Ravenous Robots or Mysidian Elder plus a job-select Equipment, because that line creates three bodies by turn three. Ship hands whose only lands are Restless Fortress, Restless Vents and a shock land, because two tapped lands in the first two turns costs the deck its whole curve. A hand with Warleader's Call and two lands of different colours is always a keep, since the Call is the payoff and the rest of the hand only has to be playable.
+
+## Key interactions and edge cases
+
+- Job select attaches for free: the Equipment enters, the Hero token is created, and the Equipment is attached to it in the same resolution, so no equip cost is ever paid for the first attachment.
+- Ravenous Robots counts artifact spells, not artifacts, so each job-select Equipment and each copied Equipment triggers it once for a 1/1 Robot.
+- Warleader's Call triggers on tokens as well as creatures, so every job-select Hero, every Robot and every Spirit is another point of damage to the opponent.
+- Antiquities on the Loose is better out of the graveyard than from hand: casting it from anywhere other than your hand gives both Spirits a +1/+1 counter.
+- The Final Days scales with the graveyard, and because the deck plays eleven creatures plus its own discarded spells, the flashed-back version usually creates more than two Horrors.
+- Electroduplicate's copy is sacrificed at the end step, so it is a haste attacker and a Warleader's Call trigger, not a permanent.
+- Group Project's flashback cost is tapping three untapped creatures, which the job-select Equipment provides for free; attack with the tokens first, then flash it back in the second main phase.
+- Black Mage's Rod and Mysidian Elder's token both say each opponent, so they scale in multiplayer-style board states and cannot be blocked or redirected.
+- Rogue's Passage adds colourless mana, so it can be played on turn one without breaking the curve and cashed in later as the finisher.
+- Restless Fortress and Restless Vents enter tapped, so sequence them on a turn when the mana is not needed.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade tokens early, hold Get Lost for the first real threat, and let Warleader's Call plus the drained life total win the race |
+| Midrange | Go wider than their single threat: each Equipment is two bodies and the anthem makes every one of them a problem, while the Rod burn ignores their board |
+| Control | Deploy one engine at a time, keep a flashback token spell in the graveyard as a threat that survives a sweeper, and finish with the manlands after their removal is spent |
+| Tokens | Red Mage's Rapier grows an attacker past theirs, Paladin's Arms' ward blanks their removal, and Rogue's Passage makes one large equipped token unblockable |
+| Combo | The deck is the aggressor: Robots and Elder create a fast clock and Get Lost removes the one creature their combo needs |
+
+# Iterations
+
+| Round | Change | Metric delta |
+|-------|--------|--------------|
+| v1 to v2 | -16 job-select Equipment and flashback spells, +11 token-making creatures (Ravenous Robots, Mysidian Elder, Cosmogrand Zenith, Underfoot Underdogs) to give the shell an actual board | sim 16.3 to 49.3, T4 0.629 to 0.637 |
+| v2 to v3 | -2 Underfoot Underdogs, -1 Dark Knight's Greatsword, +2 Bitterbloom Bearer (evasive token engine), +1 Warleader's Call | sim 49.3 to 55.3, T4 0.637 to 0.649 |
+
+# Deck list (Arena import)
+
+```
+Graveyard Shift
+Deck
+4 Ravenous Robots
+3 Mysidian Elder
+2 Cosmogrand Zenith
+2 Bitterbloom Bearer
+3 Black Mage's Rod
+2 Dragoon's Lance
+2 Red Mage's Rapier
+2 Paladin's Arms
+3 Group Project
+3 Antiquities on the Loose
+2 The Final Days
+2 Electroduplicate
+3 Warleader's Call
+2 Get Lost
+1 Long Goodbye
+4 Godless Shrine
+4 Sacred Foundry
+4 Blood Crypt
+2 Concealed Courtyard
+2 Restless Fortress
+2 Restless Vents
+2 Rogue's Passage
+2 Plains
+2 Mountain
+```
