@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-04**:
 
 - **[Weaving Suspicion](decks/2026-10-04-weaving-suspicion.html)** — WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell  `combo` `eerie` `suspect` `web-slinging`
+- **[Cinderhoard](decks/2026-10-04-cinderhoard.html)** — Grixis (U/B/R) Dragons and Treasures — Smaug's hoard engine ramps, draws and burns  `hobbit` `smaug`

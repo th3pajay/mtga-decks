@@ -1,0 +1,171 @@
+---
+title: "Cinderhoard"
+subtitle: "Grixis (U/B/R) Dragons and Treasures — Smaug's hoard engine ramps, draws and burns"
+date: "2026-10-04"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), The Hobbit set core |
+| Colors | Blue / Black / Red (Grixis) |
+| Archetype | Combo-ramp midrange (17 creatures, average nonland cost 3.6) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Treasure tokens as mana, as damage and as a Dragon trigger |
+| Primary win | Smaug the Magnificent plus a Treasure hoard: a hasty 4/3 flier that deals damage equal to your Treasure count on every attack while making a fresh Treasure each upkeep |
+| Secondary win | The Misty Mountains Cold turns four Treasures into a 6/6 flying Dragon token, and Last Light of Durin's Day cheats a Dragon directly onto the battlefield |
+| Engine land | The Lonely Mountain (Mountain subtype for the Durin's Day quest, and a mana sink that builds 2/2 Dwarf tokens) |
+| Viability | 88.82 overall, synergy 71.6, simulated win rate 54.3 over three 500-game runs |
+
+# Overview
+
+Cinderhoard is a three-colour dragon deck that treats Treasure tokens as every resource at once. They are mana to cast a seven-drop on turn five, they are the burn count that Smaug the Magnificent reads when he attacks, and they are the four-object requirement that The Misty Mountains Cold turns into a 6/6 flying Dragon. The whole deck is built so that the same token does three jobs.
+
+The spine is the Smaug package. Smaug the Magnificent is the cheapest and most important card in the deck: a four-mana 4/3 with flying and haste that deals damage equal to the number of Treasures you control to any target whenever he attacks, and creates a Treasure token at the beginning of your upkeep. That upkeep trigger is the engine — every turn the board gets richer and every attack gets larger, without spending a card. Smaug, Wicked Worm adds a second Treasure source and, more importantly, converts Treasure mana into cards: whenever you cast a spell and spent Treasure mana on it, you draw a card and lose one life. Once Wicked Worm is down the deck stops running out of gas, because Treasures become a draw engine.
+
+The second engine is blue. Fateful Discovery is an enchantment that draws a card whenever an artifact you control enters. Every Treasure, every Dwarf token from The Lonely Mountain, every Boulder is a card, so the deck grinds through a normal deck's worth of cards while the board grows.
+
+The top end closes. Desert Were-Worm is a 0/5 that grows by +2/+0 for every Mountain you control and untaps your whole attacking team for a second combat phase the first time you attack with twelve or more power. Smaug, the Great Calamity arrives as a 5/5 flier and carries a removal adventure, Spew Flame, that deals five damage to a creature on the way. Last Light of Durin's Day is the cheat: six Mountains and the quest completes, putting a Dragon from your hand or library straight onto the battlefield.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Giant's Boulder or Thrór's Map to smooth draws and fix colours, Last Light of Durin's Day or Pinecone Strike as interaction |
+| Turns 3-4 | Smaug the Magnificent lands on curve as a hasty flier, or Dori, Bearer of Friends and The Misty Mountains Cold start the Treasure bank |
+| Turns 4-6 | Fateful Discovery converts the Treasure stream into cards; Desolation of Smaug wipes small boards and pays four mana toward the next Dragon; Smaug, Wicked Worm refills |
+| Winning turn | Smaug attacks for damage equal to the Treasure count, Desert Were-Worm untaps the team for a second combat, or The Misty Mountains Cold cashes four Treasures into a 6/6 Dragon |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | Win condition: hasty 4/3 flier, upkeep Treasure, attack damage equal to your Treasure count to any target |
+| Smaug, Wicked Worm | 5/5 flier that makes Treasures equal to the opponent's artifact count and converts Treasure mana into cards |
+| Smaug, the Great Calamity | Top-end 5/5 flier with the Spew Flame adventure, five damage to a creature, as removal on the way down |
+| Desert Were-Worm | Finisher that scales with Mountains and untaps every attacker for an extra combat phase |
+| Dori, Bearer of Friends | Three-mana 3/2 trampler that enters with a Treasure; the curve's main ramp body |
+| Long-Bodied Grey Dog | Flash blocker that arrives with a tapped Treasure and can ambush an attacker |
+| The Sackville-Bagginses | Two-drop that eats a spare token for a card plus a Treasure, and drains an opponent whenever you sac a token |
+| The Misty Mountains Cold | Treasure every chapter, then four Treasures become a 6/6 flying Dragon token |
+| Fateful Discovery | Card engine: every artifact that enters draws a card |
+| Last Light of Durin's Day | Win condition: six Mountains completes the quest and drops a Dragon onto the battlefield for free |
+| Desolation of Smaug | Sweeper for non-Dragons plus four mana that only pays for Dragon spells |
+| Bilbo's Deadly Slice | Unconditional removal at instant speed |
+| Pinecone Strike | Flexible removal: three damage to a creature, or destroy an artifact token, or both |
+| Thrór's Map | Two-mana fixer that fetches a basic land and later loots |
+| Giant's Boulder | One-mana artifact that scries on entry, taps for any colour and converts late into a removal spell |
+| Orcrist, Goblin-cleaver | Equipment that turns a combat step into a pile of Treasures and pushes damage through with trample |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Win-condition land: a Mountain for the Durin's Day quest that also sacrifices into 2/2 Dwarf tokens, which feed Fateful Discovery |
+| Stormcarved Coast | The fast blue-red dual; enters untapped once two other lands are out |
+| Swiftwater Cliffs | Blue-red fixing that pays a life on entry |
+| Dismal Backwater | Blue-black fixing that pays a life on entry |
+| Bloodfell Caves | Black-red fixing that pays a life on entry |
+| Mountain / Island / Swamp | Five Mountains deepen Desert Were-Worm and the Durin's Day quest, three Islands and two Swamps carry the blue and black costs |
+
+## Curve and mana
+
+The deck curves 2 / 7 / 11 / 6 / 5 / 3 / 2 across one through seven mana with an average nonland cost of 3.6, and the Treasure tokens pay the top of that curve early. Counting only lands and applying the Treasures as wildcards, the base offers roughly sixteen red sources, thirteen blue and seven black — red is the deepest because Smaug the Magnificent, Desert Were-Worm and Desolation of Smaug all ask for double red, while black is the shallowest and is covered by the four Treasure-makers plus Giant's Boulder's any-colour activation.
+
+Twenty-four lands is deliberate. The deck has no one-mana accelerant, so hitting land three on time matters, and The Lonely Mountain's token ability wants to be activated only after the fourth land is down. The Lonely Mountain also enters tapped unless you control an Equipment, so curve it behind Thrór's Map, Orcrist or Giant's Boulder rather than leading with it on a slow hand.
+
+# Gameplay strategy
+
+## Early game
+
+The first two turns are about not falling behind. Giant's Boulder is the best one-drop: it scries two on entry, which fixes a stumble, and it later taps for any colour, which lets the deck cast Smaug, Wicked Worm off a hand that only drew Mountains. Thrór's Map does the same job with a guaranteed land; cast it before the first Smaug so that the four-drop never misses its fourth land.
+
+Against aggro, hold Pinecone Strike and Bilbo's Deadly Slice rather than developing. A Smaug the Magnificent that survives to attack is worth more than a two-drop, so trade removal for their best attacker and land the dragon on turn four.
+
+## Mid game
+
+Turn four is Smaug the Magnificent, almost every game. He attacks the turn he is cast, so the first attack is already two or three damage from the Treasures made by Dori, Grey Dog and the Misty Mountains chapter. From there the upkeep trigger compounds: each turn adds a Treasure, which raises the attack damage by one and moves The Misty Mountains Cold one step closer to a 6/6 Dragon.
+
+Fateful Discovery is the card that makes the middle turns unfair. Every Treasure the deck makes is an extra card, so a turn that produces three artifacts draws three cards. Because Smaug, Wicked Worm also draws off Treasure mana, the deck can spend a turn making Treasures and still come out ahead in cards.
+
+Desolation of Smaug is the reset button for the middle game. It deals three damage to every non-Dragon creature — the deck's own Dragons are immune — and then pays four mana toward the next Dragon spell. Cast it with a Dragon in hand and it becomes a two-for-one plus a mana refund.
+
+## The combo turn
+
+The kill usually arrives in one of three forms, all fed by the same Treasure bank.
+
+1. Smaug burn. With six or more Treasures out, Smaug the Magnificent attacks for six or more to any target, and the upkeep trigger adds another Treasure for next turn. Two Smaugs on the board attack for double the hoard.
+2. Misty Mountains Dragon. The Misty Mountains Cold needs four Treasures when a chapter resolves; once it has them the Saga sacrifices itself and leaves a 6/6 flying Dragon token behind, and the Saga's own chapters supply two of the four Treasures it needs.
+3. Were-Worm extra combat. Attack with twelve or more total power and Desert Were-Worm untaps every attacker for a second combat phase. A 6/6 Dragon token plus a Smaug is already twelve.
+
+A representative turn: Smaug the Magnificent and a 6/6 Misty Mountains Dragon token attack for eleven, Desert Were-Worm's trigger untaps them, and the second combat step attacks for eleven more — twenty-two through the air with two fliers.
+
+## Win condition 2
+
+When the opponent stabilises the ground, the deck wins from the library instead. Last Light of Durin's Day puts a quest counter on itself every time a Mountain enters; six counters sacrifice it and put a Dragon from hand or library directly onto the battlefield. With five Mountains, The Lonely Mountain and Thrór's Map fetching a seventh, the quest is realistically complete by turn six or seven, and the payoff is Smaug, the Great Calamity or Desert Were-Worm for free.
+
+The second route to the same finish is the token hoard. The Lonely Mountain makes a 2/2 Dwarf token for four mana, one cheaper for each Equipment, and every token draws a card under Fateful Discovery. Those Dwarves then provide the twelve power Desert Were-Worm needs for the extra combat, so the mana sink and the finisher are the same plan.
+
+## Mulligan guide
+
+Keep two or three lands, one two-drop and one card that makes Treasures. A hand with Smaug the Magnificent, a Treasure-maker and four lands is a clear keep — the deck's whole plan is to bank Treasures, and four lands casts the dragon and leaves room to activate The Lonely Mountain later. Ship one-land hands, and ship hands with no Treasure source at all; without Treasures the deck is a pile of expensive Dragons that arrive late.
+
+## Key interactions and edge cases
+
+- Smaug the Magnificent makes his Treasure at the beginning of your upkeep, so the attack on that same turn already counts it — the first swing after a fresh Smaug is one damage larger than it looks.
+- Smaug's attack trigger can target any target, including creatures for removal or opposing planeswalkers, not just the player.
+- Smaug, Wicked Worm counts artifacts your opponents control when it enters, so it is worst against a creature deck and best after an opposing Treasure or Equipment has hit the board.
+- The Misty Mountains Cold checks for four Treasures when a chapter resolves; if you already have four, the very first chapter sacrifices the Saga and makes the Dragon immediately, so it can be a three-mana 6/6 flier.
+- Last Light of Durin's Day counts Mountains, not lands — only The Lonely Mountain and Mountain trigger it, so Islands and Swamps never advance the quest.
+- Desert Were-Worm is a 0/5 that only becomes lethal with Mountains; leave it back as a blocker when your Mountain count is low and attack with it only once the team's power clears twelve.
+- Desolation of Smaug spares Dragons, so it is a one-sided sweeper while your own fliers are on the board, and its four mana can pay for Smaug, the Great Calamity in the same turn.
+- Pinecone Strike can choose both modes, so it destroys an opposing Treasure or Equipment and deals three to a creature in the same spell.
+- The Sackville-Bagginses can sacrifice a Treasure or a Dwarf token to itself, drawing a card and replacing the token while draining an opponent.
+- Fateful Discovery triggers on Treasure tokens as well as artifacts, so an Orcrist combat step that makes three Treasures draws three cards.
+- The Lonely Mountain enters tapped unless you control an Equipment, so cast it behind Thrór's Map, Orcrist or Giant's Boulder when the turn's mana is tight.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Bilbo's Deadly Slice and Pinecone Strike trade up, Desolation of Smaug wipes the small board, and the Treasure bank outclasses their attack once Smaug is attacking |
+| Midrange | You have the bigger fliers and a card engine; grind with Fateful Discovery, then finish with extra combat or the Misty Mountains Dragon token |
+| Control | Do not over-commit; keep one Smaug in hand, force the sweeper with token Treasures, and rebuild with Smaug, Wicked Worm drawing off Treasure mana |
+| Tokens | Desolation of Smaug is a one-sided sweeper against non-Dragon boards, and Pinecone Strike deletes the artifact token engines |
+| Combo | The Smaug clock is fast and hard to interact with in the air; hold Pinecone Strike or Bilbo's Deadly Slice for the single permanent their combo needs |
+
+# Deck list (Arena import)
+
+```
+Cinderhoard
+Deck
+4 Smaug the Magnificent
+3 Smaug, Wicked Worm
+2 Smaug, the Great Calamity
+3 Desert Were-Worm
+3 Dori, Bearer of Friends
+1 Long-Bodied Grey Dog
+1 The Sackville-Bagginses
+4 The Misty Mountains Cold
+2 Fateful Discovery
+2 Last Light of Durin's Day
+2 Desolation of Smaug
+2 Bilbo's Deadly Slice
+2 Pinecone Strike
+2 Thrór's Map
+2 Giant's Boulder
+1 Orcrist, Goblin-cleaver
+4 Stormcarved Coast
+3 Swiftwater Cliffs
+3 Dismal Backwater
+2 Bloodfell Caves
+2 The Lonely Mountain
+5 Mountain
+3 Island
+2 Swamp
+```
