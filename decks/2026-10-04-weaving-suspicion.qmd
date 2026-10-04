@@ -1,0 +1,155 @@
+---
+title: "Weaving Suspicion"
+subtitle: "WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell"
+date: "2026-10-04"
+categories: ["combo", "eerie", "suspect", "web-slinging"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), four colour WUBR |
+| Colors | White / Blue / Black / Red |
+| Archetype | Enchantment fuelled menace aggro (24 creatures, average nonland CMC 2.08) |
+| Size | 60 cards, 24 lands |
+| Core mechanics | Eerie (enchantment entry triggers) x Suspect (menace attackers) x Web-slinging (cheap spiders) |
+| Primary win | A suspected menace team wearing +1/+1 counters, backed by J. Jonah Jameson Treasures |
+| Secondary win | Eerie drain: Balemurk Leech plus Impact Tremors pinging on every enchantment and token entry |
+| Engine lands | Restless Anchorage and Restless Bivouac, manlands that also attack and buff |
+| Viability | 90.11 overall, synergy 70.3, simulated win rate 53.3 (goldfish T4 0.623, P four lands by T4 0.628) |
+
+# Overview
+
+Weaving Suspicion is a low-curve, four colour aggro deck whose entire engine is enchantment entries. Twelve of the thirty-six nonland cards are enchantments, and every one of them is a two-mana-or-cheaper permanent that enters the battlefield early and keeps entering again later. That matters because the deck's payoffs all share a single trigger word: Eerie.
+
+The deck holds three mechanics together in one loop. Suspect is the pressure engine: Convenient Target, Case of the Stashed Skeleton, J. Jonah Jameson, Clandestine Meddler and Frantic Scapegoat all turn your own creatures into suspected attackers, which is to say menace bodies that cannot block. Menace is not just evasion, it is a Jameson trigger, so attacking with suspected creatures also manufactures Treasure. Eerie is the value engine: Optimistic Scavenger, Gremlin Tamer, Entity Tracker, Balemurk Leech and Victor, Valgavoth's Seneschal all fire whenever an enchantment you control enters, so the very cards that make your creatures suspected are also the cards that grow them, drain the opponent, draw cards and make Gremlin tokens. Web-slinging is the tempo release valve: Arachne, Psionic Weaver, Spider-Man, Web-Slinger and Spider-Sense can be cast for one mana by returning a tapped creature to hand, and suspected attackers are almost always tapped after combat, so the mechanic converts a spent attacker into a fresh body or a free counter.
+
+The result is a deck that plays a normal aggressive curve but keeps accruing value on both sides of the turn. It attacks with a menaced board, gets paid for attacking, then refunds its tapped attackers into cheap spiders that re-trigger every Eerie payoff on the way back down. Nothing in the deck costs more than three mana.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Drop Optimistic Scavenger or Frantic Scapegoat, then an enchantment. Convenient Target both suspects a creature and fires every Eerie payoff you control for one red mana |
+| Turns 3-4 | Add Gremlin Tamer, Balemurk Leech, J. Jonah Jameson and Clandestine Meddler. The board is now a menaced attacking team that drains and draws on every enchantment |
+| Turns 4-6 | Entity Tracker and Victor, Valgavoth's Seneschal take over as the card advantage; Case of the Stashed Skeleton tutors a finisher once it solves, and the manlands join the attack |
+| Late game | Recursion closes it: Convenient Target returns from the graveyard for {2}{R} to re-trigger the whole Eerie line, Balemurk Leech and Impact Tremors finish through a stalled board, and Restless Bivouac pumps a lethal attacker |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Frantic Scapegoat | One-mana hasty suspect enabler; when other creatures enter it can pass the suspicion onward, keeping a menace attacker online every combat |
+| Optimistic Scavenger | Cheapest Eerie payoff: a +1/+1 counter on target creature every time an enchantment enters, usually on itself so it grows into a real clock |
+| Gremlin Tamer | Eerie token maker; every enchantment creates a 1/1 red Gremlin, which is another Impact Tremors ping and another Jameson Treasure |
+| Convenient Target | The engine card: one-mana Aura that suspects the enchanted creature and gives +1/+1, and returns from the graveyard for {2}{R} to start the Eerie chain again |
+| Case of the Stashed Skeleton | Makes a 2/1 Skeleton and immediately suspects it; solving the Case turns it into a reusable tutor for a win condition |
+| Demonic Ruckus | Two-mana Aura granting +1/+1, menace and trample, and it replaces itself with a card when it dies, so removing it feeds you |
+| Impact Tremors | Cheap Eerie-adjacent clock: every creature that enters, including Gremlin and Skeleton tokens, deals 1 damage to the opponent |
+| Sheltered by Ghosts | Interaction stapled to an enchantment entry: exiles a nonland permanent and gives the enchanted creature lifelink plus ward |
+| Balemurk Leech | The drain payoff; each enchantment entry costs the opponent 1 life, and the deck makes those entries every turn |
+| Entity Tracker | Flash Eerie draw engine, the best card selection in the deck, held up as an instant to Eerie-trigger on an opponent's turn |
+| J. Jonah Jameson | Suspects a creature on entry and turns every menace attack into a Treasure, funding next turn's plays and the Convenient Target recursion |
+| Clandestine Meddler | Suspects an existing attacker safely and surveils on each suspected attack, smoothing draws toward the payoffs |
+| Victor, Valgavoth's Seneschal | Escalating Eerie payoff in one turn: surveil 2 first, a discard second, and a reanimation on the third trigger |
+| Arachne, Psionic Weaver | Web-slinging threat for one white that taxes the opponent's chosen card type, disrupting their curve while attacking for three |
+| Spider-Man, Web-Slinger | Efficient web-slinger; returns a spent attacker to hand and re-deploys as a 3/3 for {W} |
+| Spider-Sense | One-mana web-slinging counter, castable for {U} by bouncing a tapped attacker, so interaction never slows the clock |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Anchorage | Win-condition land: a white-blue manland that animates into a 2/3 flier and makes a Map token on every attack |
+| Restless Bivouac | Win-condition land: a red-white manland that animates into a 2/2 Ox and puts a +1/+1 counter on a creature whenever it attacks |
+| Hallowed Fountain | The premium white-blue source, untapped for two life, carrying both the Eerie payoffs and the spider splash |
+| Shadowy Backstreet | White-black surveil dual; the surveil feeds Entity Tracker and Victor and the colours carry Victor and Balemurk Leech |
+| Spirebluff Canal | Blue-red fastland, the cleanest way to hold up a turn-one red enchantment and a turn-two blue payoff |
+| Gloomlake Verge | Blue from turn one, black once an Island or Swamp is down, smoothing the four colour spread |
+| Mystic Monastery | Three-colour fixer that covers the Arachne and Spider-Man double cost in one slot |
+| Plains, Swamp, Mountain | Two Plains, three Swamps and two Mountains round out the basics and keep the manlands and surveil lands castable |
+
+## Curve and mana
+
+The deck curves 10 / 13 / 13 across one through three mana with nothing above three, an average nonland cost of 2.08. That flat curve is deliberate: Eerie triggers want enchantments to keep arriving, and the cheapest enchantments (Convenient Target, Case of the Stashed Skeleton, Demonic Ruckus, Impact Tremors, Sheltered by Ghosts) are exactly the cost range where you can cast a threat and an enchantment in the same turn.
+
+Twenty-four lands support four colours. Hallowed Fountain and Shadowy Backstreet are the two true duals, Spirebluff Canal and Gloomlake Verge carry the red and black requirements, Mystic Monastery fixes the three-colour Arachne, and the two Restless manlands double as win conditions. Roughly fourteen white, twelve blue, eight black and eight red sources are enough because the deck is white and blue at heart, with red as the enchantment colour and black as the drain colour. Six of the twenty-four lands enter tapped, so keep two-land hands only when one of the two is an untapped source.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one is Optimistic Scavenger or Frantic Scapegoat, and turn two is an enchantment. Convenient Target is the ideal two-spell start: it costs a single red, it turns the Scavenger into a 2/2 menace attacker, and it fires the Scavenger's Eerie trigger for a third counter. Case of the Stashed Skeleton does the same job a turn slower but leaves a 2/1 menace token that keeps attacking after the Case has solved itself.
+
+Do not be afraid to attack with everything suspected. Suspected creatures cannot block, so they are dead weight on defence regardless; converting them into damage, Jameson Treasures and meddler surveils is always better than holding them back.
+
+## Mid game
+
+Once Gremlin Tamer or Balemurk Leech lands, the deck stops being a pure aggro deck. Every enchantment you play from here is a token plus a point of drain, and Entity Tracker turns the same trigger into a card. The correct line is usually to lead with the cheapest enchantment each turn, let the Eerie triggers resolve, then attack with the menaced team. J. Jonah Jameson should be deployed before a big attack so that each menace attacker pays you a Treasure.
+
+## The engine turn
+
+The deck's best turn is a chain rather than a single play. With a payoff or two in play, cast the enchantment you held from last turn: Convenient Target (suspect plus Eerie), followed by Demonic Ruckus on the same creature (menace plus trample plus Eerie), then attack with the menaced team for Jameson Treasures and meddler surveils. Because Demonic Ruckus draws when it dies and Convenient Target returns from the graveyard, a single removal spell does not break the loop. Entity Tracker held up as an instant lets you run the same line on the opponent's turn.
+
+## Win condition 2: the drain
+
+The deck does not have to win through combat. Balemurk Leech drains one life per enchantment entry, Gremlin Tamer and Case of the Stashed Skeleton add bodies that Impact Tremors converts into damage, and Victor, Valgavoth's Seneschal grinds the opponent's hand and graveyard while you do it. When the board is stalled by a bigger defence, stop attacking into it, keep cycling enchantments through Convenient Target's graveyard recursion, and let the drain and the manlands finish the game.
+
+## Mulligan guide
+
+Keep two or three lands when the hand has a one-drop and an enchantment; a two-lander with Optimistic Scavenger plus two enchantments is a keep because the deck's curve stops at three. A hand of only three-drops should be mulliganed: the deck needs a turn-one or turn-two play to make the Eerie engine function. Always keep a hand with an untapped white or blue source and one of the two-mana payoffs.
+
+## Key interactions and edge cases
+
+- Eerie fires on any enchantment entering, including Auras cast onto creatures you already control, so a pump spell is also a drain trigger and a card.
+- Convenient Target recurs from the graveyard for {2}{R}, which means the deck has a repeatable Eerie enabler every turn once a Treasure or a land spare is available.
+- Case of the Stashed Skeleton solves as soon as you control no suspected Skeletons; attacking the 2/1 into a trade, or simply letting Frantic Scapegoat move the suspicion elsewhere, solves it and unlocks the tutor.
+- Frantic Scapegoat moves suspicion from itself to another creature whenever a creature enters, so it can re-arm a Jameson attack or free a blocker at instant-relevant timing on your own turn.
+- Web-slinging returns a tapped creature to hand, not a land: bounce a spent suspected attacker, not a blocker you might need. Suspected creatures cannot block anyway, which makes them the natural fodder.
+- Arachne, Psionic Weaver names a card type when it enters and taxes it; against a deck that leans on one card type, keep it, but do not agonise over the choice.
+- Suspected creatures have menace and cannot block. If the opponent races, remember that the whole team is offence only; Sheltered by Ghosts and the lifelink it grants are the best way to stabilise.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with the manlands and lifelink bodies; Sheltered by Ghosts exiles their best attacker and the drain from Balemurk Leech and Impact Tremors closes the gap |
+| Midrange | Go wide: the menaced team plus Gremlin tokens outnumber their few large threats, and Entity Tracker finds the drain pieces |
+| Control | Do not over-commit into a sweeper; deploy one payoff and one enchantment at a time, and hold Spider-Sense up to counter their answer to the manlands |
+| Combo | Arachne's tax delays their key spell while the deck attacks for a fast clock, and Spider-Sense counters a critical ritual or tutor |
+
+# Deck list (Arena import)
+
+```
+Weaving Suspicion
+Deck
+3 Frantic Scapegoat
+3 Optimistic Scavenger
+3 Gremlin Tamer
+2 Arachne, Psionic Weaver
+2 Spider-Man, Web-Slinger
+3 Entity Tracker
+2 Balemurk Leech
+2 J. Jonah Jameson
+2 Clandestine Meddler
+2 Victor, Valgavoth's Seneschal
+4 Convenient Target
+2 Case of the Stashed Skeleton
+2 Demonic Ruckus
+2 Impact Tremors
+2 Sheltered by Ghosts
+4 Hallowed Fountain
+3 Shadowy Backstreet
+3 Spirebluff Canal
+2 Gloomlake Verge
+2 Restless Bivouac
+2 Restless Anchorage
+1 Mystic Monastery
+2 Plains
+3 Swamp
+2 Mountain
+```
