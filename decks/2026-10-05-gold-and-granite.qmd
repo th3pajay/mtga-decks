@@ -1,0 +1,163 @@
+---
+title: "Gold and Granite"
+subtitle: "Naya (R/W/G) Storied Dwarves and Equipment — ten artifacts arm the company and every legend cashes them in"
+date: "2026-10-05"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), The Hobbit set core |
+| Colors | Red / White / Green (Naya) |
+| Archetype | Equipment aggro-midrange (23 creatures, 10 artifacts, 36 nonlands, average nonland cost 2.5) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Storied plus Equipment: artifacts and legends turn the enduring story on, and the story pays every Dwarf |
+| Primary win | Equipped Dwarf swarm — Fíli the Pathfinder's tokens and Dáin Ironfoot's double strike turn every artifact into damage |
+| Secondary win | Balin, Loremaster drains: each Dwarf that enters discards and redraws your hand, and with an enduring story Balin deals that many damage to each opponent |
+| Engine lands | The Lonely Mountain (Dwarf tokens, one mana cheaper per Equipment) and Iron Hills (two +1/+1 counters on a Dwarf) |
+| Viability | 90.72 overall, synergy 72.15, simulated win rate 58.0 across three 500-game runs; goldfish turn-4 consistency 0.635, P(four lands by turn 4) 0.619 |
+
+# Overview
+
+Gold and Granite is a Dwarf company deck that treats Equipment as both the clock and the switch. Every equipment is an artifact, every Dwarf legend is a legendary permanent, and three or more of those on the battlefield turn Storied on permanently. Once the story is running it never turns off — the count is checked once and the "enduring story" lasts the rest of the game — so turns two and three are about dumping cheap rocks, and from turn four every card in the deck is a payoff.
+
+The engine is a three-card loop. Kíli the Resourceful draws a card the first time another Dwarf or Equipment enters each turn, so every equipment you cast is a cantrip and every Dwarf you cast replaces itself. Dáin Ironfoot makes a free Axe attached to a creature when it enters and gives each equipped attacking creature double strike, which converts a board of 2/2 Dwarves into a lethal swing. Fíli the Pathfinder makes a 2/2 red Dwarf token whenever Fíli or another nontoken Dwarf enters, so the company grows two bodies per Dwarf spell.
+
+The closing half of the deck is Balin, Loremaster. Whenever Balin or another Dwarf enters, you may discard your hand, draw that many cards, and — because the story is online — deal that many damage to each opponent. Fíli's tokens are Dwarves, so a single nontoken Dwarf can trigger Balin twice: discard four, draw four, drain four, twice. That is the non-combat kill, and it needs no attack step.
+
+The equipment is chosen for cost, not flash. Meltstrider's Gear costs one green, attaches on entry, and gives +2/+1 with reach. Diamond Pick-Axe costs a red, is indestructible, and makes a Treasure every time the equipped creature attacks — a Treasure is another artifact, which discounts The Lonely Mountain and feeds the Storied count. Ragged Short Spear loots two cards on entry. Dwarven Mattock is +2/+2 and ward {1} for two colorless, attached the moment it lands.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Dwarven Mauler, Diamond Pick-Axe, Meltstrider's Gear and Kíli the Resourceful build the artifact count; Óin the Brave or Thorin Oakenshield lands as a second legend and the enduring story is usually online by turn three |
+| Turns 3-4 | Dáin Ironfoot and Fíli the Pathfinder arrive; Dwarven Mattock and Ragged Short Spear arm the team while Kíli draws off each entry |
+| Turns 4-6 | An Unexpected Party names Dwarf for +2/+2, War Effort adds an attacker every combat, Iron Hills pumps the best Dwarf, The Lonely Mountain starts making tokens |
+| Winning turn | Dáin Ironfoot attacks alongside two or three equipped Dwarves for double-strike damage, or Balin, Loremaster drains the table for the size of your hand |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Dwarven Mauler | One-mana 2/1 that makes every equip ability targeting it cost {2} less — the cheap body that carries the whole rack |
+| Kíli the Resourceful | Draw engine: a card the first time another Dwarf or Equipment enters each turn, and with an enduring story the first equip each turn is free |
+| Thorin Oakenshield | Two-mana 3/2 trampler that gives your artifacts and creatures ward {1} once the story is online |
+| Óin the Brave | Two-mana legend that gains +1/+0 and haste with the story, and loots for {1} when you need a new card |
+| Fíli the Pathfinder | Token engine: a 2/2 red Dwarf whenever Fíli or another nontoken Dwarf enters, plus a +1/+1 anthem while storied |
+| Ori, Keeper of Songs | Three-mana 3/3 that becomes a 4/3 vigilant attacker with the story; a cheap third legend for the count |
+| Balin, Loremaster | Win condition: each Dwarf entry discards and redraws your hand and deals that damage to each opponent |
+| Dáin Ironfoot | Double strike for every equipped attacker, plus a free Axe token every time it enters |
+| Dwarven Mattock | Two mana for +2/+2 and ward {1}, auto-attached to a Dwarf on entry |
+| Meltstrider's Gear | One green for +2/+1 and reach on entry; the cheapest artifact in the deck |
+| Ragged Short Spear | Two mana for +2/+0 that discards a card and draws two when it enters — the best topdeck in the deck |
+| Dwarven Shortsword | Four mana for a 2/2 Dwarf token plus +1/+2 attached to it; two bodies for one card |
+| Diamond Pick-Axe | One red for +1/+1, indestructible, and a Treasure token on every attack |
+| An Unexpected Party | Names Dwarf for +2/+2 to the whole company; the At the Door adventure makes X 2/2 Dwarf tokens first |
+| War Effort | Team-wide +1/+0 and a free 1/1 attacker every combat |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Win-condition land: enters untapped if you control an Equipment, taps for red, and turns {4}{R} into a 2/2 Dwarf token, one cheaper for each Equipment |
+| Iron Hills | Two +1/+1 counters on target Dwarf for {2}{R}{W} and a land; the pump that finishes a double-striking attacker |
+| Temple Garden | The green-white dual that enters untapped for two life |
+| Etched Cornfield | Green-white dual, untapped while a player is at 13 or less life |
+| Rugged Highlands | Red-green fixing that pays a life |
+| Wind-Scarred Crag | Red-white fixing that pays a life |
+| Training Compound | Red or green once a basic land is out, colorless before that |
+| Plains | Three basics guarantee a white source and switch Training Compound's colours on |
+
+## Curve and mana
+
+The deck curves 8 / 13 / 5 / 8 / 2 across one through five mana (36 nonlands, average cost 2.5), and 23 of the 36 cost two or less. Counting only lands, the base gives sixteen white sources, thirteen green and thirteen red. White is the deepest because An Unexpected Party asks for {2}{W}{W}; red carries Balin, Loremaster's {3}{R}{R} and the double strike payoffs; green exists mainly for Meltstrider's Gear, which one green source is enough to cast. Plains plus Training Compound means the colour-conditional land is live from the moment a basic hits the board, and The Lonely Mountain is an untapped red source in any hand with an artifact.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are artifacts first, legends second. Dwarven Mauler into two Equipment is a real opening: the Mauler makes its own equip abilities cost {2} less, so a turn-three Dwarven Mattock equips for {1} and a Diamond Pick-Axe equips for free. Kíli the Resourceful should be the first legend down when you have an artifact to follow, because the extra card starts immediately.
+
+Do not hold Equipment waiting for a better carrier. Every unattached artifact still counts for Storied and still discounts The Lonely Mountain, and Kíli will draw off it. The deck wants the story online by turn three; three artifacts, legends or Sagas on the battlefield is the whole requirement.
+
+## Mid game
+
+Turn four is where the deck stops playing fair. Fíli the Pathfinder turns every subsequent Dwarf — including the 2/2 tokens from Dwarven Shortsword and The Lonely Mountain — into two bodies. Dáin Ironfoot then gives every equipped attacker double strike, so a 2/2 Dwarf with a Mattock (+2/+2) and a Meltstrider's Gear (+2/+1) attacks as a 6/5 for ten damage.
+
+An Unexpected Party is the turn that ends games: cast At the Door for X = 2 first for two 2/2 Dwarf tokens, then cast the enchantment from exile naming Dwarf so the entire company — including those tokens — is +2/+2. A board of three Dwarves and an Equipment becomes fifteen or more power on the attack, doubled by Dáin Ironfoot.
+
+## The combo turn
+
+The drain kill is the cleanest line in the deck. With Balin, Loremaster and Fíli the Pathfinder on the battlefield and an enduring story, cast any nontoken Dwarf. Fíli makes a 2/2 Dwarf token, Balin sees two Dwarf entries, and each trigger discards your hand, draws that many cards and deals that many damage to each opponent. A four-card hand is eight damage to each opponent from one Dwarf; a loop of Dwarven Shortsword, The Lonely Mountain tokens and Fíli's triggers keeps the hand full while the table drains.
+
+The swarm kill is the parallel line. Dáin Ironfoot plus two equipped attackers and Iron Hills' two +1/+1 counters is a fourteen-to-twenty damage attack out of nowhere, and Diamond Pick-Axe's Treasures pay for the next Equipment while the attack happens.
+
+## Win condition 2
+
+When the ground is stalled, the deck wins without the red zone. Balin, Loremaster converts every Dwarf entry into life loss, so Fíli's tokens, Dwarven Shortsword tokens and The Lonely Mountain tokens are all points of damage. Because the trigger is "may discard your hand", it can also be used purely as a free draw spell when the board is safe — discard three, draw three, no damage if the story is not yet online.
+
+## Mulligan guide
+
+Keep two or three lands, one cheap artifact and one Dwarf. A hand with Dwarven Mauler, Diamond Pick-Axe, Kíli the Resourceful and three lands is the ideal keep; it turns the story on by turn three and starts drawing immediately. Ship one-land hands and ship hands with no artifact at all — without three artifacts or legends the deck is a pile of small Dwarves with no anthem, no ward and no drain. A hand that is all Equipment and no creatures is also a ship unless it contains Kíli.
+
+## Key interactions and edge cases
+
+- Storied is checked once: the moment you control three artifacts, legendaries or Sagas you have an enduring story for the rest of the game, even if the board is wiped afterwards.
+- Kíli the Resourceful draws only once each turn, so sequence two entries into one turn only if the second one matters for combat.
+- Kíli's free equip applies to the first equip ability you activate each turn, not the first Equipment you cast; equip before casting the second artifact if the discount matters.
+- Dáin Ironfoot's Axe token is a real artifact — it counts for Storied, for Kíli's trigger and for The Lonely Mountain's discount.
+- Dáin Ironfoot's attack trigger gives double strike to every equipped attacker, and it resolves before blockers, so an unblocked equipped Dwarf doubles its damage that turn.
+- Fíli the Pathfinder only triggers on nontoken Dwarves; the 2/2 tokens it makes do not chain further, but they do trigger Balin, Loremaster.
+- Balin's trigger is optional. Never discard a hand you need to keep for a lethal attack; the draw is only worth it when the story is online or your hand is disposable.
+- An Unexpected Party's adventure resolves first, so the tokens exist before the enchantment is cast from exile — the +2/+2 applies to them in the same turn.
+- Ragged Short Spear can be cast with an empty hand and still be a two-mana +2/+0; only discard when you have a card worth trading.
+- Dwarven Mattock enters attached to target Dwarf, so it is an Equipment, a Storied count and a Kíli trigger for two mana even with no creature to equip.
+- The Lonely Mountain enters untapped only if you already control an Equipment, so cast an artifact before playing it.
+- Iron Hills sacrifices itself; keep it until the turn you can attack with a pumped double-striking Dwarf, not as a colour fixer you give away early.
+- Training Compound makes red or green only if it entered this turn or you control a basic land, so it doubles as a colourless source for Dwarven Mattock early.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early Dwarves, lean on Thorin Oakenshield's ward {1} once storied, and race with Dáin Ironfoot's double strike; the drain kill does not need the attack step |
+| Midrange | You out-card them: Kíli the Resourceful and Ragged Short Spear keep the hand full, and Balin, Loremaster turns their blockers into damage |
+| Control | Do not over-commit into a sweeper. Keep one Equipment and one Dwarf in hand, rebuild with Kíli draws, and use Balin as a recurring drain that survives creature removal |
+| Tokens | Dáin Ironfoot's double strike races wider boards, and An Unexpected Party's +2/+2 keeps your Dwarves bigger than theirs |
+| Combo | The deck is fast and redundant; attack with equipped Dwarves to force blocks and hold Balin, Loremaster for the turn you can drain them out |
+
+# Deck list (Arena import)
+
+```
+Gold and Granite
+Deck
+4 Temple Garden
+4 Etched Cornfield
+3 Rugged Highlands
+3 Wind-Scarred Crag
+3 The Lonely Mountain
+2 Iron Hills
+2 Training Compound
+3 Plains
+4 Dwarven Mauler
+4 Kíli the Resourceful
+3 Thorin Oakenshield
+3 Dáin Ironfoot
+2 Óin the Brave
+3 Fíli the Pathfinder
+2 Ori, Keeper of Songs
+2 Balin, Loremaster
+2 Dwarven Mattock
+2 Meltstrider's Gear
+2 Ragged Short Spear
+2 Dwarven Shortsword
+2 Diamond Pick-Axe
+2 An Unexpected Party
+1 War Effort
+```
