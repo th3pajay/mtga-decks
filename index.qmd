@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-04**:
+Deck guides published **2026-10-05**:
 
-- **[Weaving Suspicion](decks/2026-10-04-weaving-suspicion.html)** — WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell  `combo` `eerie` `suspect` `web-slinging`
-- **[Cinderhoard](decks/2026-10-04-cinderhoard.html)** — Grixis (U/B/R) Dragons and Treasures — Smaug's hoard engine ramps, draws and burns  `hobbit` `smaug`
+- **[Charged Into the Void](decks/2026-10-05-charged-into-the-void.html)** — Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs  `combo` `Station` `Void`

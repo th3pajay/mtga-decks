@@ -1,0 +1,166 @@
+---
+title: "Charged Into the Void"
+subtitle: "Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs"
+date: "2026-10-05"
+categories: ["combo", "Station", "Void"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Mardu — white / black / red (3 colors) |
+| Rolled mechanics | Station x Void (2 mechanics) |
+| Archetype | Midrange aggro-combo (charge-counter engine plus sacrifice value) |
+| Size | 60 cards, 24 lands |
+| Core engine | Station: tap a creature, put charge counters equal to its power on a Spacecraft or Planet |
+| Primary win | Charged Spacecraft — they become flying artifact creatures at their threshold and attack |
+| Secondary win | Void attrition — Robot tokens, burn, and Alpharael halving the defending player's life |
+| Land win | Adagia, Windswept Bastion copies your biggest artifact as a legendary token |
+| Nonland curve | 10 one-drops, 14 twos, 6 threes, 3 fours, 2 fives, 1 six (average 2.33) |
+
+# Overview
+
+Two mechanics, one loop. **Station** is an activated ability that reads "Tap another creature you control: Put charge counters equal to its power on this Spacecraft or Planet. Station only as a sorcery." Every Spacecraft has a threshold — at 4+, 6+, or 12+ charge counters it stops being a dormant artifact and becomes a real artifact creature, usually with flying. **Void** is a condition: "if a nonland permanent left the battlefield this turn or a spell was warped this turn." Void cards pay you off at end of turn for things leaving the battlefield.
+
+The fusion is direct: **the sacrifice engine is what turns Void on, and the creatures that survive the sacrifice are what charge Station.** Every permanent you sacrifice — a Robot token, a Treasure, a spent Greedy Freebooter, a creature eaten by Corrupted Conviction — satisfies Void for the whole turn, so every Void trigger on the board fires at end of turn. Meanwhile Wurmwall Sweeper, Lumen-Class Frigate, and Warmaker Gunship sit there collecting charge counters from the creatures you did *not* sacrifice, and once charged they fly over for the win.
+
+Two sacrifice outlets make the loop repeatable at instant speed, which is the important detail: `Bartolomé del Presidio` ("Sacrifice another creature or artifact: Put a +1/+1 counter on Bartolomé del Presidio") and `Umbral Collar Zealot` ("Sacrifice another creature or artifact: Surveil 1") can each eat one permanent per turn for free. `Susur Secundi, Void Altar` — the black Station Planet land — adds a third outlet that converts a creature into cards.
+
+The deck is black-heavy with a red burn/removal package and a white support shell (Bartolomé, Lumen-Class Frigate, and Adagia).
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1-3, build the fodder.** Deploy cheap permanents: Greedy Freebooter and Deep-Cavern Bat on turn one, then Umbral Collar Zealot, Bartolomé del Presidio, and Wurmwall Sweeper. Umbral Collar Zealot is a 3/2 for two mana — the best rate in the deck and a free outlet. Deep-Cavern Bat strips a card from the opponent's hand while it is on the battlefield, so it is pure tempo.
+2. **Turns 3-5, start the cycle.** Sacrifice something every turn (a Robot token, a Treasure, a spent creature) so Void stays online, then station your Spacecraft with whatever power is left over. Corrupted Conviction sacrifices a creature and draws two cards — it is the cheapest way to switch Void on. Plasma Bolt and Tragic Trajectory are Void spells: play them in a turn where a permanent already left and they upgrade to three damage or minus ten.
+3. **Turns 5+, convert.** Charged Spacecraft attack. Wurmwall Sweeper becomes a 2/2 flier at four counters, Warmaker Gunship a 4/3 flier at six, Lumen-Class Frigate starts giving every other creature +1/+1 at just two counters, and Galvanizing Sawship is a 6/5 with flying and haste at three. Once a board is established, Alpharael's half-life drain and Adagia's artifact copy close it out.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Wurmwall Sweeper | 4 | Engine — cheapest Spacecraft; surveil 2 on entry stocks the yard, 4+ counters makes it a 2/2 flier |
+| Lumen-Class Frigate | 2 | Engine — 3/5 body; at 2+ counters every other creature gets +1/+1, which also speeds up stationing |
+| Warmaker Gunship | 2 | Engine — 4/3; entry damage equal to your artifacts, 6+ counters makes it a flier |
+| Galvanizing Sawship | 1 | Finisher — 6/5, becomes a flying haste creature at only 3+ counters |
+| Bartolomé del Presidio | 3 | Enabler — free repeatable sacrifice outlet that grows itself |
+| Umbral Collar Zealot | 3 | Enabler — 3/2 for two; free sacrifice outlet that surveils |
+| Greedy Freebooter | 2 | Fodder — dies for a Treasure, which is itself sacrifice fuel and an artifact for Warmaker |
+| Deep-Cavern Bat | 2 | Disruption — flying lifelink two-drop that exiles a card from the opponent's hand |
+| Elegy Acolyte | 3 | Payoff — 4/4 lifelink; Void makes a 2/2 Robot every end step, and combat damage draws |
+| Interceptor Mechan | 3 | Payoff — flying; returns an artifact or creature from the graveyard, Void grows it |
+| Insatiable Skittermaw | 1 | Payoff — menace; Void adds a +1/+1 counter each end step |
+| Alpharael, Stonechosen | 2 | Win con 2 — Void makes attacking Alpharael take half the defending player's life |
+| Corrupted Conviction | 3 | Enabler — sacrifice a creature, draw two; switches Void on for one mana |
+| Plasma Bolt | 3 | Interaction — two damage, three with Void online |
+| Tragic Trajectory | 2 | Interaction — minus two, minus ten with Void online |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Adagia, Windswept Bastion | Station Planet. At 12+ charge counters it makes a copy of a target artifact or enchantment you control (the token is legendary) — copy a charged Sawship or Gunship and the second copy is a second win condition |
+| Susur Secundi, Void Altar | Station Planet. A free sacrifice outlet and the deck's card draw: sacrifice a creature to draw cards equal to its power, which turns Void on in the same turn |
+| 20 basics (Swamp, Mountain, Plains) | The mana base is deliberately basic-heavy so the only non-basic lands in the deck are mechanic pieces |
+
+## Curve and mana
+
+| Bracket | Cards | Notes |
+|---|---|---|
+| One mana | 10 | Three Corrupted Conviction, three Plasma Bolt, two Tragic Trajectory, two Greedy Freebooter |
+| Two mana | 14 | Wurmwall Sweeper, Umbral Collar Zealot, Bartolomé del Presidio, Deep-Cavern Bat, Lumen-Class Frigate |
+| Three mana | 6 | Interceptor Mechan, Warmaker Gunship, Insatiable Skittermaw |
+| Four mana | 3 | Elegy Acolyte |
+| Five and six | 3 | Alpharael, Stonechosen and Galvanizing Sawship |
+
+Average nonland mana value is 2.33 and 24 of the 36 nonland slots cost three or less, so the deck functions without ever drawing a land beyond its fourth. Sources: 10 black, 8 white, 6 red across the 24 lands (Adagia and Susur Secundi count for white and black respectively).
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one-drop and a two-drop. Deep-Cavern Bat is the strongest turn-two play because it both attacks and removes an answer from the opponent's hand. Umbral Collar Zealot is the best blocker — three power for two mana means it also puts three charge counters on a Spacecraft when you station with it. Do not be precious about sacrificing: Greedy Freebooter wants to die, and every death keeps Void switched on.
+
+## Mid game
+
+This is where the deck separates from a normal aggro deck. Each turn you want to do two things: leave at least one permanent on the battlefield and then remove or sacrifice a different one. The default line is to station during your precombat main phase (Station is sorcery-speed), then attack, then sacrifice a token or a spent creature in the second main phase so Void is satisfied before the end step.
+
+Key sequencing rule: **do your Void-dependent spells in the second main phase, not the first.** Plasma Bolt and Tragic Trajectory upgrade only if a nonland permanent has already left the battlefield this turn, so cast your sacrifice effect first and the burn second.
+
+## The combo turn
+
+1. Untap with one or more dormant Spacecraft and at least two creatures, one of which you do not need.
+2. Precombat main: choose a Spacecraft and station it repeatedly — each activation taps another creature and adds charge counters equal to its power. Tapping multiple creatures in one turn is legal, because Station has no once-per-turn restriction, only a sorcery-timing restriction.
+3. Check thresholds: 4+ for Wurmwall Sweeper, 6+ for Warmaker Gunship, 3+ for Galvanizing Sawship, 12+ for Lumen-Class Frigate. The moment a Spacecraft hits its threshold it is an artifact creature and can attack.
+4. Attack with the newly created fliers. Sweeper and Gunship fly, Galvanizing Sawship has haste.
+5. Second main: sacrifice a leftover permanent — a Robot token from last turn's Elegy Acolyte, a Treasure, or a creature to Corrupted Conviction — to keep Void online, and hold Tragic Trajectory or Plasma Bolt to punish any crack-back.
+
+## Win condition 2: Void attrition
+
+The Robot tokens are the second clock. `Elegy Acolyte` makes a 2/2 colorless Robot artifact creature token at every end step in which a permanent left the battlefield — and it draws a card whenever your creatures deal combat damage to a player, so it refills your hand while it builds a board. Those Robots then do double duty: they attack, they block, they charge Station (two power each), and they are free sacrifice fodder for Bartolomé or Corrupted Conviction.
+
+`Alpharael, Stonechosen` is the finisher: when it attacks with Void online, the defending player loses half their life, rounded up. Two attacks — or one attack after burn — ends a game that was never close. Plasma Bolt and Tragic Trajectory also count as reach, and Susur Secundi converts a large creature into cards.
+
+## Mulligan guide
+
+- **Keep:** two or three lands that cover black plus either white or red, one one-drop, one two-drop, and one sacrifice outlet or Corrupted Conviction.
+- **Keep a one-lander only** if it is a Swamp and the hand has Greedy Freebooter plus Umbral Collar Zealot — the curve is low enough to recover.
+- **Ship:** hands with no black source, hands with only five- and six-drops, and hands with three or more lands that enter tapped (Adagia and Susur Secundi both enter tapped, so two of them plus no basic is a real cost).
+- The deck is more resilient than most midrange decks because sacrificing is a feature, not a cost — a hand of interchangeable small creatures plus one outlet is playable.
+
+## Key interactions and edge cases
+
+- **Station is sorcery-speed only.** You cannot charge a Spacecraft in response to removal or during combat. Do it in your main phase before you attack.
+- **Station has no once-per-turn limit.** Multiple creatures can be tapped in the same turn to charge one Spacecraft; a single Lumen-Class Frigate tap adds three counters, an Umbral Collar Zealot tap adds three more, and a Warmaker Gunship tap adds four.
+- **Charge counters do not add up across cards.** Each Spacecraft tracks its own counters; Adagia and Susur Secundi are Planets with their own 12+ abilities, they are not Spacecraft and never become creatures.
+- **Void checks the whole turn, not the end step.** A permanent that left the battlefield during combat still satisfies Void at the end step, so trading creatures in combat is a legitimate way to switch Void on.
+- **Void counts any player's permanents.** When removal or an opponent's own sacrifice effect makes them lose a permanent, that also turns your Void triggers on — your end-step payoffs only care that *something* left the battlefield, not whose it was.
+- **Lumen-Class Frigate's anthem is live at two counters, not twelve.** The twelve-counter mode (flying lifelink) is a bonus; the +1/+1 pump is the reason to play it, and it also makes your stationing creatures hit harder next turn.
+- **Sacrificing to Corrupted Conviction is an additional cost.** If the spell is countered the creature is still gone, so treat it as a sacrifice outlet with a draw-two rider rather than a protection spell.
+- **Adagia copies artifacts you control, including charged Spacecraft.** The copy is legendary, so copying a legendary Spacecraft means you keep only one; copy a non-legendary charged Warmaker Gunship or Galvanizing Sawship instead.
+
+## Matchups
+
+- **Aggro:** the deck has cheap blockers (Umbral Collar Zealot, Deep-Cavern Bat), lifelink, and a very low curve. Trade early, keep Void switched on so Elegy Acolyte keeps producing Robots, and win the ground fight with Bartolomé growing into a real threat.
+- **Control:** play into Void deliberately. Sacrifice tokens to force the payoffs, keep a Wurmwall Sweeper or Galvanizing Sawship back as a threat that only needs three or four counters, and hold Alpharael for a turn where the opponent has tapped out. The deck's threats are artifacts, so artifact removal is the main concern.
+- **Midrange:** the mirror-ish grind — Interceptor Mechan returns your best artifact or creature from the graveyard, so the deck recovers from sweepers better than it looks. Susur Secundi is the long-game engine: sacrifice a big creature to draw four or five cards and refill.
+- **Combo:** no counterspells, so the plan is speed and disruption. Deep-Cavern Bat's exile is the best tool; Tragic Trajectory with Void online kills a combo creature through most protection.
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 to v2 | -2 Dawnsire, Sunstar Dreadnought, -2 Fell Gravship, -2 Decode Transmissions; +3 The Seriema, +2 Final Vengeance, +1 Plasma Bolt (cut do-nothing top end) | sim 50.0 to 47.0, synergy 72.2 to 72.7, T4 0.629 to 0.617 |
+| v2 to v3 | -3 The Seriema, -2 Final Vengeance, -1 Lumen-Class Frigate, -1 Galvanizing Sawship, -1 Insatiable Skittermaw; +3 Bartolomé del Presidio, +3 Umbral Collar Zealot, +2 Greedy Freebooter (added free sacrifice outlets) | sim 47.0 to 46.3, synergy 72.7 to 72.6, T4 0.617 to 0.621 |
+| v3 to v4 | -1 Lumen-Class Frigate, -1 Warmaker Gunship; +2 Deep-Cavern Bat (cheaper disruption, lower curve) | sim 46.3 to 52.0, synergy 72.6 to 72.5, T4 0.621 to 0.642, P(4 lands by T4) 0.600 to 0.633 — gate PASS |
+
+# Deck list (Arena import)
+
+```
+Charged Into the Void
+Deck
+4 Wurmwall Sweeper
+2 Lumen-Class Frigate
+2 Warmaker Gunship
+1 Galvanizing Sawship
+3 Bartolomé del Presidio
+3 Umbral Collar Zealot
+2 Greedy Freebooter
+2 Deep-Cavern Bat
+3 Elegy Acolyte
+3 Interceptor Mechan
+1 Insatiable Skittermaw
+2 Alpharael, Stonechosen
+3 Corrupted Conviction
+3 Plasma Bolt
+2 Tragic Trajectory
+2 Adagia, Windswept Bastion
+2 Susur Secundi, Void Altar
+8 Swamp
+6 Mountain
+6 Plains
+```
