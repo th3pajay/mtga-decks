@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-05**:
+Deck guides published **2026-10-06**:
 
-- **[Gold and Granite](decks/2026-10-05-gold-and-granite.html)** — Naya (R/W/G) Storied Dwarves and Equipment — ten artifacts arm the company and every legend cashes them in  `hobbit` `dwarves`
-- **[Charged Into the Void](decks/2026-10-05-charged-into-the-void.html)** — Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs  `combo` `Station` `Void`
+- **[Tap Dance](decks/2026-10-06-tap-dance.html)** — WUBG — Blink/Flicker × Convoke  `combo` `blink` `convoke`

@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-29 · **222** cards locked · **Hobbit 114/193** remaining
+**Card pool consumption** — cycle started 2026-09-29 · **243** cards locked · **Hobbit 114/193** remaining
 
-**95 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**96 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-10-06
+
+- **[Tap Dance](decks/2026-10-06-tap-dance.html)** — WUBG — Blink/Flicker × Convoke  `combo` `blink` `convoke`
 
 ## 2026-10-05
 

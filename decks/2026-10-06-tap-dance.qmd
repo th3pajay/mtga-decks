@@ -1,0 +1,157 @@
+---
+title: "Tap Dance"
+subtitle: "WUBG — Blink/Flicker × Convoke"
+date: "2026-10-06"
+categories: ["combo", "blink", "convoke"]
+---
+
+
+## At a glance
+
+| Field | Value |
+|---|---|
+| Format | Standard |
+| Colors | WUBG — white, blue, black, green (no red) |
+| Archetype | Convoke token engine inside a flicker value shell |
+| Size | 60 cards (36 spells and creatures, 24 lands) |
+| Primary win | Merfolk, Faerie and Spirit token swarm, made lethal by Restless Prairie |
+| Secondary win | The Wandering Rescuer double strike with hexproof on every tapped attacker, plus free creatures from Web of Life and Destiny |
+
+## Overview
+
+Tap Dance is built on one exchange rate: **creatures become mana, and mana becomes creatures again**.
+
+Convoke lets you tap your board to pay for spells, so every body you own is a discount. Blink spells buy those bodies back — the same Silvergill Mentor or Merrow Skyswimmer enters again and again, each time making another Merfolk token that can be tapped for the next spell. Pestered Wellguard closes the loop from the other side: the instant it is tapped to help pay a convoke cost, it hands you a 1/1 Faerie with flying, so even paying for spells leaves you further ahead.
+
+Nothing in the list is decorative. The creatures are all enter-the-battlefield payoffs worth flickering, the spells are either flicker effects or convoke payoffs, and the lands tap for coloured mana and then turn into attackers. The deck plays as a midrange value engine that can suddenly go wide and kill with one or two attack steps.
+
+## Approach
+
+### Game plan phases
+
+**Turns 1–2 — seed the board.** Drop cheap bodies that pay off later. Silvergill Mentor and Charming Prince cost two, and both leave value behind: a 1/1 Merfolk token, or a scry, or a flicker. Casting Kykar is the real turn two or three goal, because from then on every noncreature spell you cast is also a token or a flicker.
+
+**Turns 3–5 — turn on the engine.** This is where the deck separates from a normal token deck. Personify and Daydream re-trigger your best enters-the-battlefield creature, and the tokens they leave behind pay for Merrow Skyswimmer and The Wandering Rescuer ahead of curve. Pestered Wellguard and Kykar both convert spells into extra bodies, so the board grows twice per spell.
+
+**Turns 5+ — cash out.** With six or more creatures the convoke spells are effectively free. Web of Life and Destiny starts putting a creature onto the battlefield every combat, Harmonized Crescendo refills your hand, and Winnowing clears the opponent's side. From there, two or three attack steps with Restless Prairie in play end the game.
+
+### Card roles
+
+| Role | Cards | What they do |
+|---|---|---|
+| Flicker effects | Personify x4, Daydream x2, Splash Portal x2 | Exile and return your own creature, re-triggering its enter ability; Personify also leaves a 1/1 changeling token |
+| Repeatable flicker | Kykar, Zephyr Awakener x3, Ennis, Debate Moderator x2, Charming Prince x2 | Kykar flickers or makes a Spirit every time you cast a noncreature spell; Ennis and Charming Prince flicker on entering |
+| Token engines | Pestered Wellguard x3, Silvergill Mentor x4, Merrow Skyswimmer x4 | Make Merfolk or Faerie tokens; Pestered Wellguard triggers whenever it becomes tapped, including for convoke |
+| Wide-board payoffs | Sandstorm Salvager x2, Head of the Homestead x1 | A 3/3 Golem on entry, and a repeatable anthem that gives every creature token a counter and trample |
+| Convoke finishers | The Wandering Rescuer, Web of Life and Destiny, Harmonized Crescendo x2, Winnowing, Vote Out x2 | Cheap-to-free spells paid with your board: a double-striking hexproof threat, a free creature each combat, a reload, and two removal options |
+| Lands | see below | Colour fixing plus two manlands that attack |
+
+### Lands as engines
+
+| Land | Count | Engine role |
+|---|---|---|
+| Restless Prairie | 3 | The win-con land. Taps for green or white, and for {2}{G}{W} becomes a 3/3 Llama that still counts as a land. **Whenever it attacks, your other creatures get +1/+1** — turning a wide token board into lethal damage |
+| Restless Cottage | 2 | Back-up manland and black source. Becomes a 4/4 Horror, and creates a Food token whenever it attacks |
+| Floodfarm Verge | 3 | White or blue, no life cost; the blue half needs a Plains or Island already in play |
+| Hushwood Verge | 2 | Green or white |
+| Willowrush Verge | 2 | Blue or green |
+| Island / Plains / Swamp | 5 / 4 / 3 | Basic lands; they also switch on the verge lands, so sequence them first |
+
+### Curve and mana
+
+The average mana value of the 36 nonland cards is about **3.4**, and convoke pulls the effective cost far below that — Merrow Skyswimmer is a five that routinely lands on turn three by tapping two tokens.
+
+| Cost | Cards |
+|---|---|
+| One | Daydream x2, Splash Portal x2 |
+| Two | Silvergill Mentor x4, Personify x4, Ennis x2, Charming Prince x2 |
+| Three | Sandstorm Salvager x2 |
+| Four | Pestered Wellguard x3, Kykar x3, Vote Out x2 |
+| Five | Merrow Skyswimmer x4, Head of the Homestead, The Wandering Rescuer |
+| Six | Harmonized Crescendo x2, Winnowing |
+| Eight | Web of Life and Destiny |
+
+Twenty-four lands with seven split lands (three of them entering tapped) is deliberate: the deck wants to hit four lands on time, and after that every extra land is either a verge or a manland that attacks for the win. Because convoke turns creatures into coloured mana, the deck is far more tolerant of awkward colour draws than its four-colour cost suggests.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with the cheapest body that does something when it arrives. Silvergill Mentor is the default turn-two play: you usually have a Merfolk to behold (Merrow Skyswimmer in hand counts), so the extra {2} is rarely paid, and you get a 1/1 Merfolk immediately. Hold Personify for a turn where it doubles as a token; a two-mana spell that blinks a creature and adds a body is the best rate in the deck.
+
+Do not be afraid to trade creatures early. Your bodies are ammunition as much as attackers, and anything that dies is one less blocker to worry about when you go wide later.
+
+### Mid game
+
+Kykar is the pivot. Once it is in play, every noncreature spell you cast is a second spell: choose the Spirit token when you want board width, and choose the flicker when you want a repeat enters-the-battlefield trigger. Pestered Wellguard does the same job without needing a spell at all — simply tap it to convoke something and the Faerie arrives anyway.
+
+Start using convoke aggressively from here. Tapping out to cast Merrow Skyswimmer on turn three is often better than holding up mana, because the Swimmer replaces one of the creatures you tapped and adds a flying vigilance body.
+
+### The combo turn
+
+The deck's big turn looks like this: you have Kykar plus one or two two-mana flicker spells and a board of tokens.
+
+1. Cast Personify targeting your best enters-the-battlefield creature (Silvergill Mentor or Merrow Skyswimmer). That creature re-enters and makes a Merfolk token, and Personify leaves a 1/1 changeling token. Kykar triggers — take the Spirit.
+2. Cast Daydream on the same creature. Another trigger, another counter, another Kykar choice. With flashback, Daydream can be cast a second time later in the game.
+3. Now convoke. Every token you just made pays for the next spell. Web of Life and Destiny at eight mana is realistically castable on turn five or six by tapping five or six creatures, and from then on it puts a free creature onto the battlefield at the start of every combat.
+
+### Win condition 2
+
+The Wandering Rescuer is a four-mana (with convoke, often two) 3/4 with flash and double strike that gives **every other tapped creature you control hexproof**. Attack with it alongside tokens, and the tokens are untargetable while they are attacking. Restless Prairie adds another +1/+1 to the whole team on the same attack, and Sandstorm Salvager's activated ability puts a counter and trample on each token. Two attack steps like that usually end the game.
+
+### Mulligan guide
+
+- Keep two to four lands, at least one of which is untapped.
+- Keep any hand with a two-drop enters-the-battlefield creature (Silvergill Mentor, Ennis, Charming Prince) and a flicker spell (Personify or Daydream).
+- Keep hands with Kykar and at least three lands.
+- Mulligan all-split-land hands with no basic land, since the verge lands need a basic to unlock their second colour.
+- Mulligan hands with no creature at all, however many spells they hold — the engine needs bodies to tap.
+
+### Key interactions and edge cases
+
+- **Pestered Wellguard and convoke.** Tapping it to pay a convoke cost counts as it becoming tapped, so a single convoke spell can leave a Faerie behind. This is the deck's cheapest source of repeatable board width.
+- **Personify's changeling token is every creature type.** That single token makes Winnowing one-sided: choose your changeling token as the creature you control, and every other creature you own shares a type with it and survives, while the opponent loses everything except their chosen creature.
+- **Harmonized Crescendo counts changelings.** If your changeling token is on the battlefield, choosing almost any creature type counts it, so the draw spell rarely misses.
+- **Kykar and flash.** The Wandering Rescuer has flash, so it can be cast at the end of an opponent's turn, triggering Kykar's flicker or Spirit ability before your own turn.
+- **Silvergill Mentor's additional cost.** Behold a Merfolk or pay {2}. A Merfolk token, Merrow Skyswimmer or Pestered Wellguard satisfies the behold, so the extra mana is usually avoidable.
+- **Splash Portal draws on Kykar.** Kykar is a Bird, so blinking it with Splash Portal replaces the card.
+- **Ennis and Charming Prince flicker at the next end step,** not immediately. Their value shows up on the following turn, so play them before you need the trigger.
+- **Daydream has flashback.** Casting it twice from hand and graveyard is a real card-advantage loop with a creature worth blinking.
+
+### Matchups
+
+- **Aggro.** Your tokens chump and trade, Pestered Wellguard grows the board while blocking, and Winnowing plus Vote Out take out the biggest threats. Restless Cottage's Food token is a small but real life buffer.
+- **Control.** Kykar and Pestered Wellguard make bodies that survive a single sweeper, and The Wandering Rescuer's hexproof protects tapped attackers. Hold Personify for after a wipe — rebuilding from one creature is what the deck does best.
+- **Midrange.** You win the long game with Web of Life and Destiny and repeatable enters-the-battlefield triggers, provided you keep at least one creature on the battlefield to keep flickering.
+- **Other token decks.** Winnowing is at its best here, and Restless Prairie tips creature-to-creature combat in your favour.
+
+## Deck list (Arena import)
+
+```
+Tap Dance
+Deck
+4 Silvergill Mentor
+4 Merrow Skyswimmer
+3 Pestered Wellguard
+3 Kykar, Zephyr Awakener
+2 Ennis, Debate Moderator
+2 Charming Prince
+2 Sandstorm Salvager
+1 Head of the Homestead
+4 Personify
+2 Daydream
+2 Splash Portal
+2 Harmonized Crescendo
+2 Vote Out
+1 The Wandering Rescuer
+1 Web of Life and Destiny
+1 Winnowing
+3 Restless Prairie
+2 Restless Cottage
+3 Floodfarm Verge
+2 Hushwood Verge
+2 Willowrush Verge
+5 Island
+4 Plains
+3 Swamp
+```
