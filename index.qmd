@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-06**:
 
 - **[Tap Dance](decks/2026-10-06-tap-dance.html)** — WUBG — Blink/Flicker × Convoke  `combo` `blink` `convoke`
+- **[Leaf and Landfall](decks/2026-10-06-leaf-and-landfall.html)** — Bant (G/U/W) landfall Elves — every land drop makes an Elf, and each new Elf makes the next land drop better  `hobbit` `elves`

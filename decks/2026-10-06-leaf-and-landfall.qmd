@@ -1,0 +1,161 @@
+---
+title: "Leaf and Landfall"
+subtitle: "Bant (G/U/W) landfall Elves — every land drop makes an Elf, and each new Elf makes the next land drop better"
+date: "2026-10-06"
+categories: ["hobbit", "elves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), The Hobbit set core |
+| Colors | Green / Blue / White (Bant) |
+| Archetype | Landfall elf tokens (30 creatures, 6 spells and artifacts, 36 nonlands, average nonland cost 3.14) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Landfall pays three separate cards at once: Thranduil makes a token, Thranduil's Company adds two counters, Boughside Wanderers gets +2/+2 |
+| Primary win | Elf token swarm — Thranduil, Sindarin Liege turns every land into a 1/1 Elf and his lord ability makes every Elf a 2/2 |
+| Secondary win | Go-tall lands — Mirkwood Pathmaker's power and toughness equal your land count, and Rogue's Passage makes the lethal attack unblockable |
+| Engine lands | Rogue's Passage (unblockable finisher), Botanical Sanctum (untapped green-blue while you are low on lands), Temple Garden and Breeding Pool (untapped for two life) |
+| Viability | 91.12 overall, synergy 73.36, simulated win rate 57.7 across three 500-game runs; goldfish turn-4 consistency 0.645, P(four lands by turn 4) 0.639 |
+
+# Overview
+
+Leaf and Landfall is a landfall deck that uses Elves as the payable part of the engine. The set gives the archetype three separate rewards for the same trigger — a land entering the battlefield — and this list plays all three at once. Thranduil, Sindarin Liege creates a 1/1 green Elf token every time a land enters. Thranduil's Company adds two +1/+1 counters on a landfall and lets you play an extra land each turn. Boughside Wanderers gets +2/+2 each time. One fetch, one extra land drop or one blinked land therefore produces three different effects, and the board grows in two directions every turn.
+
+The second half of the engine is land count itself. Mirkwood Pathmaker's power and toughness are each equal to the number of lands you control, so the same lands that make Elf tokens also build a single large attacker. Thranduil's Company's extra land drop, Wood Elves' Forest, Troop of Ponies' two lands, Silvan Reveler's discarded land and Silvan Rally's mill-to-hand all push that number up while they fire the token triggers.
+
+The closing card is Belladonna Took. She counts tokens as they enter: the first token each turn gains you a life, the second draws a card, and the third puts a +1/+1 counter on every creature you control. In a deck where a single land drop can make an Elf, a copied land can make another, and a replayed land makes a third, that third trigger is routine rather than exceptional, and it converts a wide board into a lethal one.
+
+The deck is a midrange-combo hybrid: it is 83 percent creatures, it curves out on turn two, and it has six tutor or selection effects that find land. It is built to be redundant rather than explosive — there is no single card the deck cannot win without, which is what makes the landfall plan resilient against removal.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Botanical Sanctum or a shock land untapped, then Guardian of the Halls, Belladonna Took or Key to the Side-Door; this is the setup turn, not the payoff turn |
+| Turns 3-4 | Wood Elves ramps and triggers landfall, Mirkwood Pathmaker arrives as a three-mana body that is already as large as your land count, and Thranduil, Sindarin Liege turns the engine on |
+| Turns 4-6 | Thranduil's Company adds the extra land drop and the counters; every land played now makes an Elf token, adds two counters and grows Boughside Wanderers |
+| Winning turn | Either seven or eight Elf tokens attack behind Belladonna Took's team pump, or one enormous Mirkwood Pathmaker attacks unblockable through Rogue's Passage |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thranduil, Sindarin Liege | The engine: a 2/3 lord who gives other Elves +1/+1 and makes a 1/1 Elf token on every landfall; the Silvan Rally adventure mills four and returns up to two lands to hand |
+| Thranduil's Company | The accelerator: a 3/4 that grants an extra land drop while you control another Elf and puts two +1/+1 counters on a creature on every landfall |
+| Mirkwood Pathmaker | Primary go-tall win condition: a three-mana creature whose power and toughness are each equal to your land count |
+| Wood Elves | Three-mana ramp that tutors a Forest directly onto the battlefield, which is both a land and a landfall trigger |
+| Guardian of the Halls | Two-mana 2/2 trampler; the cheap Elf that switches on Thranduil's Company and later grows with three counters for {5}{G}{G} |
+| Belladonna Took | Token payoff: first token each turn gains a life, second draws a card, third puts a +1/+1 counter on every creature you control |
+| Boughside Wanderers | Six-mana 4/4 that digs for a permanent on entry and gets +2/+2 on every landfall; the top of the curve and the biggest token-payoff body |
+| Mirkwood Meditator | Three-mana 2/4 that becomes a 4/2 on every landfall, so it attacks as a real card in a deck that never stops playing lands |
+| Silvan Reveler | Four-mana 3/2 that loots on entry and puts the discarded land onto the battlefield, then rebuys itself from the graveyard on landfall for {1}{G}{U} |
+| Troop of Ponies | Two-mana ramp that fetches two basic lands, one onto the battlefield and one to hand; two landfall triggers across two turns from one card |
+| Roll-Roll-Roll-Roll | The repeatable landfall engine: each lore counter exiles and returns one of your lands, so the deck gets a landfall trigger every single turn |
+| Plunder the Trollshaws | Cheap card selection with flashback, so it counts twice as a spell to dig for lands and payoffs |
+| Key to the Side-Door | Utility: makes the finisher unblockable for {2}, and turns a spare copy of Thranduil into two cards |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Rogue's Passage | Win-condition land: {4} and a tap makes the Mirkwood Pathmaker or Boughside Wanderers attack unblockable for lethal |
+| Botanical Sanctum | Green-blue dual that enters untapped while you control two or fewer other lands, which is exactly the turns one and two you need it |
+| Temple Garden | Green-white dual; pay two life for an untapped land when you need white on curve for Belladonna Took |
+| Breeding Pool | Green-blue dual; the untapped blue source for Mirkwood Meditator and Plunder the Trollshaws' flashback |
+| Tranquil Cove | White-blue dual that gains a life; the cheapest way to keep the white splash live |
+| Blossoming Sands | Green-white dual that gains a life; the second white source that also casts every Elf |
+| Forest | Four basics; the target for Wood Elves' tutor and the bulk of the green count |
+| Island | Three basics; keeps the blue count honest so Meditator and Plunder are castable on curve |
+
+## Curve and mana
+
+The deck curves 1 / 11 / 12 / 9 / 0 / 3 across one through six mana (36 nonlands, average nonland cost 3.14), with 24 of the 36 costing three or less. The curve is deliberately flat: the two-mana slot holds Guardian of the Halls, Belladonna Took, Troop of Ponies and Plunder the Trollshaws, and the three-mana slot holds Wood Elves, Mirkwood Pathmaker, Mirkwood Meditator and Roll-Roll-Roll-Roll, so the deck always has something to do on two and on three that advances the land plan.
+
+Counting sources, the mana base gives seventeen green, thirteen blue and nine white. Green is the base colour and every nonland card that costs a single coloured mana is green; blue carries the three-drops and the flashback on Plunder the Trollshaws; white is a light splash for Belladonna Took only. Because white is needed on turn two at the earliest and only for a two-drop, nine sources is comfortable, and both white duals gain a life on entry to blunt the cost of the tapped lands elsewhere.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about untapped mana and a cheap Elf, not about the payoff. Lead with Botanical Sanctum, then a shock land if you have a two-drop in hand, and hold the Tranquil Cove and Blossoming Sands for turns when the tempo does not matter. Guardian of the Halls is the best turn-two play because it is an Elf, so it switches on Thranduil's Company's extra land drop the turn the Company arrives. Belladonna Took is the best turn-two play when your hand has two or more token-makers, because she starts counting from the very next turn.
+
+Do not trade the early Elf away casually. Every Elf in play upgrades Thranduil's Company from a vanilla 3/4 into an extra land drop every turn, and the extra land drop is worth roughly one Elf token, two counters and a +2/+2 trigger every single turn thereafter.
+
+## Mid game
+
+Turn three is where the deck starts compounding. Wood Elves fetches a Forest onto the battlefield, which is a landfall trigger, which is already an Elf token if Thranduil has landed. Mirkwood Pathmaker comes down as a three-mana creature that is as large as your land count, so on turn three it is a 4/4 and by turn six it is a 7/7 that no common blocker can stop.
+
+Turn four is Thranduil, Sindarin Liege or Thranduil's Company, and the correct order is Company first if you can only afford one. The Company's extra land drop is what turns a single land per turn into two, and two landfall triggers per turn is the difference between a slow board and a lethal one. Once both are in play, playing two lands in one turn produces two Elf tokens, four +1/+1 counters and two +2/+2 triggers for Boughside Wanderers.
+
+## The combo turn
+
+The deck's engine turn is a sequence rather than a single card. With Thranduil, Sindarin Liege and Thranduil's Company on the battlefield and Roll-Roll-Roll-Roll at two or more lore counters, you attack for the turn, then at the end step the Saga returns the land it exiled earlier. That is a free landfall trigger: a 1/1 Elf token from Thranduil, two +1/+1 counters from the Company, +2/+2 on Boughside Wanderers, and a third Belladonna Took trigger that pumps the whole team. Because the Saga cycles the same land every turn, the loop is repeatable without drawing anything.
+
+The best single turn in the deck is the adventure line. Cast Silvan Rally for {1}{G/U}{G/U} first: mill four, take up to two lands into hand. Then cast Thranduil, Sindarin Liege from exile, play both lands — the Company's extra drop means you can — and end the turn with Thranduil, two 1/1 Elf tokens that are 2/2 thanks to his lord ability, four counters placed wherever they matter, and a hand that now holds the rest of the deck's lands.
+
+## Win condition 2
+
+When the ground is stalled, the deck wins with one attacker rather than six. Mirkwood Pathmaker's power and toughness are each equal to the number of lands you control, so a normal game has it at 7/7 or 8/8 by turn six without any investment. Rogue's Passage turns {4} and a tap into an unblockable attack, and Boughside Wanderers' landfall pump adds +2/+2 per land in the same turn you go for it. Six to eight mana committed on the turn before the attack sets up a twelve-to-sixteen damage swing that ignores blockers entirely.
+
+The wide plan and the tall plan use the same cards, so the deck does not have to choose. Thranduil's landfall tokens and the Company's counters build the swarm while the lands that produce them simultaneously build the Pathmaker.
+
+## Mulligan guide
+
+Keep two or three lands, one card that costs two or less, and at least one landfall payoff. A hand of Botanical Sanctum, a shock land, Guardian of the Halls, Thranduil's Company and two more lands is the ideal keep: it curves two into four and turns on the extra land drop immediately. Ship one-land hands even with a perfect curve, because the deck needs to hit four lands on turn four to activate Rogue's Passage and cast Boughside Wanderers. Ship hands with no landfall payoff at all — three Elves and no Company, no Thranduil and no Pathmaker is a pile of small bodies. A hand that is only lands and Belladonna Took is also a ship, because nothing in it makes a token.
+
+## Key interactions and edge cases
+
+- Landfall triggers on any land entering the battlefield, not just on a land played from hand. Wood Elves' Forest, Troop of Ponies, Silvan Reveler's discarded land, Roll-Roll-Roll-Roll's returned land and Silvan Rally's milled lands all trigger Thranduil, the Company and Boughside Wanderers.
+- Roll-Roll-Roll-Roll can also protect a creature: exiling a Thranduil or a Mirkwood Pathmaker and returning it at the end step dodges a sorcery-speed removal spell, and the returned permanent re-triggers any enters-the-battlefield ability.
+- Thranduil's Company's counters are placed on a target creature, so aim them at Mirkwood Pathmaker on the turn you intend to attack, and at a token on turns when you are building wide.
+- Thranduil, Sindarin Liege's tokens are Elves, so they receive his own +1/+1 and they satisfy the Company's requirement that you control another Elf.
+- Belladonna Took counts tokens per turn, not per source, so a single landfall token plus a Silvan Reveler land is already the second trigger and draws a card.
+- Silvan Reveler returns itself from the graveyard for {1}{G}{U} on any landfall, which makes it a repeatable three-mana enters-the-battlefield trigger as long as you keep playing lands.
+- Mirkwood Pathmaker's size is a static characteristic, so it changes the moment a land enters — it does not need to be pumped, and it shrinks if a land is destroyed.
+- Botanical Sanctum enters untapped only while you control two or fewer other lands, so it is a turn-one or turn-two land; drawn late it is just a tapped dual.
+- Key to the Side-Door's second ability needs a legendary card in hand with the same name as a legendary permanent you control, so a spare Thranduil, Sindarin Liege is two cards rather than a dead duplicate.
+- Troop of Ponies puts one land onto the battlefield and one into your hand, which is a landfall trigger now and a land drop next turn; sacrifice it before casting Boughside Wanderers so the land is already counted.
+- Plunder the Trollshaws is a fine turn-two play and a better flashback later: casting it from the graveyard draws two cards, which is the cheapest way to dig for the extra land drop.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Block with Guardian of the Halls and keep Belladonna Took's first-token life gain running; the deck stabilises behind 2/2 Elves and then wins with a single large Pathmaker |
+| Midrange | You out-value them on lands: Thranduil's Company converts every land into two counters, and Roll-Roll-Roll-Roll gives you a trigger every turn they cannot interact with |
+| Control | Do not over-commit into a sweeper. Keep Thranduil's Company and one payoff in hand, rebuild with Silvan Reveler's recursion, and use Rogue's Passage to force a single unblockable lethal attacker through a stalled board |
+| Tokens | Thranduil's lord ability makes every Elf a 2/2, so your tokens trade up, and Belladonna Took's third trigger puts a counter on the whole team |
+| Combo | Race with Mirkwood Pathmaker plus Rogue's Passage; the deck's clock is on the board from turn three and does not need a specific card to function |
+
+# Deck list (Arena import)
+
+```
+Leaf and Landfall
+Deck
+4 Thranduil, Sindarin Liege
+3 Thranduil's Company
+3 Mirkwood Pathmaker
+4 Wood Elves
+4 Guardian of the Halls
+3 Belladonna Took
+3 Boughside Wanderers
+2 Mirkwood Meditator
+2 Silvan Reveler
+3 Roll-Roll-Roll-Roll
+2 Troop of Ponies
+2 Plunder the Trollshaws
+1 Key to the Side-Door
+4 Botanical Sanctum
+3 Temple Garden
+3 Breeding Pool
+3 Tranquil Cove
+3 Blossoming Sands
+1 Rogue's Passage
+4 Forest
+3 Island
+```
