@@ -1,0 +1,161 @@
+---
+title: "Warren Muster"
+subtitle: "Jund (B/R/G) Goblin amass — one Army, recurring counter events, drained through The Great Goblin"
+date: "2026-10-07"
+categories: ["hobbit", "amass"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), Hobbit set core |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Aggro-midrange amass (24 creatures, average nonland mana value 2.39) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Amass Goblins — every counter event grows a single Goblin Army |
+| Primary win | The Great Goblin drain: every counter event deals 2 damage to the opponent |
+| Secondary win | One oversized Goblin Army, given menace, attacking for lethal |
+| Engine land | Goblin-town — two +1/+1 counters on your Goblin or Orc for {2}{B}{R} |
+| Viability | overall 90.95, synergy 72.8, simulated win rate 53.0 |
+
+# Overview
+
+Warren Muster is a three-colour aggro-midrange deck built around a single mechanic and a single payoff. Amass Goblins puts +1/+1 counters on one Army token — a 0/0 black Goblin Army created the first time an amass effect resolves — and never splits them across bodies. The Great Goblin, a three-mana 3/2, turns each of those counter events into two damage to the opponent, so the deck does not have to attack to win: it only has to keep putting counters somewhere.
+
+Eighteen of the thirty-six nonland cards either amass Goblins, place +1/+1 counters, or trade a body for one. Goblin-town Flunkies, Bothersome Noisemaker and Tidings of War are the cheap end; Fearsome Goblin Pair, Azog, Moria's Ruin and Goblin-town are the midrange swings; Misty Mountains Raider keeps adding counters on every attack. Because counters stay on the Army when the source dies, every trade the opponent makes against the small Goblins makes the win condition larger.
+
+The second engine is attrition. Fearsome Goblin Pair amasses Goblins 4 when it dies, which makes chump blocking a profitable play rather than a loss, and The Great Goblin's second ability exiles the top card of your library whenever another Goblin, Orc or Army you control dies, so the same trades also supply cards. Front Porch Sentries, Bolg's Company and Stir Up Trouble convert the small bodies into tempo while the Army grows underneath them.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Tidings of War starts the Army for one red mana, then Goblin-town Flunkies or Bothersome Noisemaker lands a body that keeps the counters flowing. Bolg's Company is the fastest clock: a 2/2 that attacks on turn two whenever another Goblin is already out |
+| Turns 3-4 | The Great Goblin turns the deck into a burn deck. Azog, Moria's Ruin destroys a creature and converts its power into counters, Fearsome Goblin Pair is played as a chump blocker that becomes amass 4, and Goblin-town can be cracked for two more counters |
+| Turns 4-6 | Misty Mountains Raider amasses 2 on every attack, Rage into the Valley cantrips into more counters, Goblin Plate Mail adds a counter and gives the Army menace, and the drain usually closes the game around turn six |
+| Late game | Troll Negotiations adds two more counters and clears a blocker with a fight; Tidings of War's flashback is amass 3; the Army simply outgrows whatever the opponent can block with |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Goblin-town Flunkies | Two-mana 1/1 with haste that amasses 1 on entry — the cheapest way to create the Army and to trigger The Great Goblin |
+| Bothersome Noisemaker | The engine: a 2/2 that amasses 1 every time you cast a noncreature spell, which includes Tidings of War, Rage into the Valley, Stir Up Trouble and Troll Negotiations |
+| The Great Goblin | Primary payoff: deals 2 damage to the opponent for every counter event on a Goblin, Orc or Army, and exiles the top card of your library whenever another Goblin, Orc or Army dies so the trades keep paying |
+| Fearsome Goblin Pair | The flywheel: a 1/1 for three that amasses Goblins 4 when it dies, so blocking, trading or feeding it to Stir Up Trouble all grow the Army |
+| Azog, Moria's Ruin | Removal plus amass: destroys another creature and its controller amasses counters equal to that creature's power; destroying one of your own draws you a card and keeps the counters |
+| Misty Mountains Raider | Five-mana 4/4 that amasses 2 on every attack — a one-card clock that grows itself |
+| Bolg's Company | Two-mana 2/2 with haste while you control another Goblin; taps and sacrifices a spare Goblin for {B}{R} |
+| Front Porch Sentries | Two-mana 2/2 that leaves a -1/-1 behind when it dies — a trade that keeps the board clear while the Army grows |
+| Tidings of War | One red mana for amass 1, and amass 3 when flashed back for {3}{R}: the most efficient counter spell in the deck |
+| Rage into the Valley | Three-mana cantrip that amasses 2 and costs one life — it digs for the next payoff without slowing the engine |
+| Stir Up Trouble | One-mana removal with a sacrifice cost: feed it a spare Goblin or Front Porch Sentries to destroy a creature and trigger The Great Goblin's exile |
+| Goblin Plate Mail | Two-mana Equipment that amasses 1 on entry, attaches itself to the Army, and grants +1/+0 and menace — evasion the Army otherwise lacks |
+| Troll Negotiations | Two +1/+1 counters (one counter event, two damage) followed by a fight that clears a blocker |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Goblin-town | Win-condition land: a black-red dual that can be sacrificed for two +1/+1 counters on your Goblin or Orc, which is two damage from The Great Goblin and two more power on the Army |
+| Mirkwood | Black-green dual carrying the Troll Negotiations splash; its own sacrifice ability has no legal target here (Bear, Spider or Wolf only) |
+| Hobbit Hole | Fixes a missing colour — sacrifice it for a basic land, tapped |
+| Mountain, Swamp, Forest | Six Mountains, five Swamps and three Forests round out the manabase |
+
+## Curve and mana
+
+The deck curves 6 / 16 / 10 / 2 / 2 across one through five mana, with an average nonland mana value of 2.39. Twenty-two of the thirty-six nonland cards cost two or three, which is where Bothersome Noisemaker wants to be — it converts every cheap spell into another counter event.
+
+Twenty-four lands is deliberate: Goblin-town, Mirkwood and Hobbit Hole all slow the mana down (two enter tapped, one fetches a tapped basic), and it brings the probability of four lands by turn four to 0.61. Roughly twelve sources of black (Swamp, Goblin-town, Mirkwood), ten of red (Mountain, Goblin-town) and six of green (Forest, Mirkwood) make the base reliable for the core, but only Troll Negotiations asks for {G}{G}, so the green spell is the one card to treat as a bonus rather than a plan.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about establishing a board that can grow. Tidings of War is the cleanest opener: one red mana, the Army appears with a counter on it, and The Great Goblin is already dealing 2 damage the turn it arrives. Goblin-town Flunkies does the same job with a body attached, and attacks immediately as a 1/1. Bothersome Noisemaker is the better long-term two-drop, because from turn three onward every removal spell, Rage into the Valley and Troll Negotiations becomes another counter.
+
+Bolg's Company should be deployed before the other two-drops when the mana allows, since a 2/2 attacking on turn two forces the opponent to spend a blocker or a removal spell early — both of which are cards that will not answer the Army later.
+
+## Mid game
+
+Turn three is the pivot. The Great Goblin is the single most important card in the deck and should be deployed as soon as three mana is available. Once it is on the battlefield the order of operations changes completely: hold the amass spells until the Goblin is out, then chain them, because each one is now two damage as well as two or more power.
+
+Azog, Moria's Ruin is the deck's best tempo swing, but read its text carefully — when it destroys an opponent's creature, that opponent amasses counters equal to the destroyed creature's power, so an opposing Army is a real drawback. The clean uses are destroying a creature with power zero or one, or destroying one of your own expendable Goblins, which draws you a card and keeps the counters.
+
+Fearsome Goblin Pair is the flywheel. It trades badly in combat, which is the point: the moment it dies you amass 4, The Great Goblin drains for 2, and its own death triggers The Great Goblin's exile for a fresh card.
+
+## The combo turn
+
+The killing turn is a chain of cheap effects that all point the same direction:
+
+1. The Great Goblin is on the battlefield and the Army already carries counters.
+2. Cast the amass spells in sequence — Tidings of War, Rage into the Valley, Goblin-town Flunkies — so each one both grows the Army and drains the opponent for 2.
+3. Add Goblin Plate Mail: the entry trigger amasses 1 (another 2 damage) and attaches itself, giving the Army +1/+0 and menace.
+4. Attack. Sacrifice Goblin-town in the second main phase if the Army still cannot connect.
+
+A representative turn with five mana, The Great Goblin in play and the Army at four counters: cast Tidings of War (Army to five, opponent to 18), cast Rage into the Valley (Army to seven, opponent to 16, draw a card), cast Goblin Plate Mail (Army to eight, opponent to 14, menace). Attack for eight with menace, then sacrifice Goblin-town for two more counters and the final 2 drain — the opponent is at 4 with the Army still standing at ten counters.
+
+## Win condition 2
+
+When the drain alone is too slow, the deck switches to a single protected attacker. Goblin Plate Mail grants menace, so the Army cannot be chump blocked by one creature, and Troll Negotiations both pumps it and fights a blocker. Azog, Moria's Ruin and Stir Up Trouble remove the one creature that could block profitably, and Front Porch Sentries' -1/-1 on death quietly shrinks a would-be blocker before the attack.
+
+The alternative clock is the Goblin team itself. Bolg's Company, Goblin-town Flunkies and Front Porch Sentries are all two-mana 2-power bodies, Goblin-town Flunkies has haste, and menace means the opponent has to double block rather than trade one for one — every block they make feeds Fearsome Goblin Pair and The Great Goblin's card advantage.
+
+## Mulligan guide
+
+Keep two or three lands if the hand has a turn-one or turn-two play plus one card that amasses. Hands with Tidings of War, Goblin-town Flunkies or Bothersome Noisemaker are ideal, and any hand containing The Great Goblin and two lands of different colours is a keep — the Goblin is the payoff and the rest of the hand only has to be playable. Ship hands whose only lands are Goblin-town and Mirkwood with no two-drop, because both enter tapped and the deck cannot afford to fall a full turn behind on board.
+
+## Key interactions and edge cases
+
+- Amass always grows the same Army: there is only ever one Army token, so counters from different spells accumulate on one creature instead of creating multiple bodies.
+- The Great Goblin counts events, not counters. An amass 4 and an amass 1 each deal exactly 2 damage; the size of the amass is irrelevant to the drain.
+- The Army is a Goblin, so sacrificing it to Stir Up Trouble still triggers The Great Goblin's exile, and Goblin-town's activation counts as a Goblin target.
+- Tidings of War is amass 3 when cast from the graveyard through flashback, not amass 1 — still one counter event for The Great Goblin, but three more power on the Army.
+- Azog, Moria's Ruin hands counters to the opponent whose creature it destroys, and a 0/0 Army they do not control yet is not amassed — aim it at a power-zero or power-one creature, or at your own expendable Goblin to draw a card.
+- Fearsome Goblin Pair dies on purpose: Stir Up Trouble and any chump block convert its death into amass 4 plus a fresh exiled card.
+- Goblin Plate Mail's entry amass resolves before the attach, so it always lands on the new or existing Army and cannot be stranded on a creature that dies first.
+- Stir Up Trouble's additional cost is "sacrifice an artifact or creature or pay {4}"; a spare Goblin is almost always better than four mana, and Goblin Plate Mail is a legal sacrifice if the Army no longer needs it.
+- Mirkwood's activated ability has no legal target in this deck — it is a black-green dual and nothing more.
+- Goblin-town enters tapped, so sequence it on a turn you do not need the mana, and remember the sacrifice is sorcery speed only.
+- Troll Negotiations needs {G}{G}: cast it on a turn with two green sources, ideally after Bothersome Noisemaker is out so the counters and the fight are both free value.
+- Bolg's Company only has haste while you control another Goblin, so sequence the cheap Goblins first when you want a turn-two attack.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Goblin-town Flunkies and Front Porch Sentries trade up, Stir Up Trouble removes their best attacker, and the Army outclasses their board by turn five while The Great Goblin drains through it |
+| Midrange | The drain does the work: chain counter events with The Great Goblin out, use Azog and Troll Negotiations on their biggest blocker, and let menace force bad blocks |
+| Control | Do not over-commit. Deploy The Great Goblin, then feed it one counter event a turn; Goblin Plate Mail's menace plus the drain mean the deck wins without ever risking the Army into a sweeper |
+| Tokens | Menace from Goblin Plate Mail makes the Army close to unblockable in practice, and The Great Goblin's drain ignores the board entirely |
+| Combo | The deck is the aggressor: hasty Flunkies and Bolg's Company put a fast clock down while Stir Up Trouble and Azog remove the one creature their combo needs |
+
+# Deck list (Arena import)
+
+```
+Warren Muster
+Deck
+4 Goblin-town Flunkies
+4 Bothersome Noisemaker
+3 The Great Goblin
+3 Fearsome Goblin Pair
+2 Azog, Moria's Ruin
+2 Misty Mountains Raider
+4 Bolg's Company
+2 Front Porch Sentries
+4 Tidings of War
+2 Rage into the Valley
+2 Stir Up Trouble
+2 Goblin Plate Mail
+2 Troll Negotiations
+4 Goblin-town
+3 Mirkwood
+3 Hobbit Hole
+6 Mountain
+5 Swamp
+3 Forest
+```
