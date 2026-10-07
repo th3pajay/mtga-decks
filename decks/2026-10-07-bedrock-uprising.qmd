@@ -1,0 +1,119 @@
+---
+title: "Bedrock Uprising"
+subtitle: "Jund (Black-Red-Green) — Earthbend"
+date: "2026-10-07"
+categories: ["combo", "Earthbend"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (no rotation risk) |
+| Colors | Black, Red, Green (Jund) |
+| Archetype | Midrange combo — animated land swarm |
+| Size | 60 cards (24 lands) |
+| Mechanic identity | Earthbend |
+| Primary win | Hasty land creatures with +1/+1 counters, led by Toph, the Blind Bandit |
+| Secondary win | Dai Li Agents drains the table; Bitter Work and Inspiring Call keep the gas flowing |
+| Land as win condition | Ba Sing Se (repeatable earthbend engine on a land) and Crawling Barrens (a land that becomes a counter-carrying creature) |
+
+## Overview
+
+Earthbend animates one of your own lands: it becomes a 0/0 land creature with haste, gets N +1/+1 counters, and when it dies or is exiled it returns to the battlefield tapped. That last clause is the whole deck. Every earthbend is a permanent threat that cannot be traded away permanently — the land comes back, and because it is still a land it also keeps tapping for mana.
+
+Bedrock Uprising is built so that a single earthbend feeds three separate payoffs. Toph, the Blind Bandit sizes her power off the total +1/+1 counters on your lands, so every animated Forest makes her bigger whether she is on the board or not. Wildwood Scourge and Knight of Wundagore each grow a counter whenever counters land on another creature you control, which means they grow off every earthbend in the deck, including the ones from Ba Sing Se and Rockalanche. And Dai Li Agents converts the resulting board of counter-carrying land creatures straight into life loss for the opponent, so the deck does not need to connect with every attacker to close a game.
+
+Nothing in the deck asks for a rare dual-land package. Great Divide Guide gives every land and every Ally you control the ability to tap for any color, which turns the eight Forests, three Swamps and two Mountains into a functional three-color mana base, and Ba Sing Se plus Crawling Barrens do double duty as both mana and win conditions.
+
+## Approach
+
+### Game plan by phase
+
+| Phase | Turn | What you are doing |
+|---|---|---|
+| Set up | 1-2 | Deploy Haru, Hidden Talent, Great Divide Guide or Wildwood Scourge. Fix colours and bank a cheap Ally trigger. |
+| First animation | 3-4 | Resolve Toph, the Blind Bandit, Rockalanche or Earthbender Ascension. Two to four counters on a hasty land is a real attacker. |
+| Snowball | 4-5 | Earth Kingdom General, The Boulder, Ready to Rumble and Earthbending Lesson stack counters; Knight of Wundagore and Wildwood Scourge keep growing. |
+| Close | 5+ | Trample lands plus Toph attack, Dai Li Agents drains, and Inspiring Call refills. |
+
+### Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Earthbend engines | Haru, Hidden Talent; Toph, the Blind Bandit; Earth Kingdom General; Earthbender Ascension; Earthbending Lesson; Rockalanche; Dai Li Indoctrination; Fatal Fissure; Ba Sing Se | Nine distinct earthbend sources, several of them repeatable. |
+| Enablers and fixing | Great Divide Guide; Ba Sing Se; Temple of Malady; Savage Mansion | Great Divide Guide is the colour fixer and an Ally for Haru. |
+| Payoffs | Toph, the Blind Bandit; Wildwood Scourge; Knight of Wundagore; Dai Li Agents; Inspiring Call; Bitter Work | Counters to power, counters to cards, counters to damage. |
+| Interaction | Fatal Fissure; Dai Li Indoctrination | Both also earthbend when they do their job. |
+| Reinforcement | Beifong's Bounty Hunters | Converts any creature death into a fresh animated land. |
+
+### Lands as engines
+
+| Land | Why it is here |
+|---|---|
+| Ba Sing Se (4) | Adds green, and its sorcery-speed activation earthbends 2 on a loop. A land that manufactures the win condition. |
+| Crawling Barrens (3) | Colourless land that puts two +1/+1 counters on itself and can become an Elemental. Counts for Toph, for Dai Li Agents and for every counters payoff without spending a spell. |
+| Temple of Malady (2) | Black-green source with a free scry to smooth the curve. |
+| Savage Mansion (2) | Red-green source with surveil, feeding the graveyard for Rockalanche flashback. |
+| Forests, Swamps, Mountains (8/3/2) | The bulk of the mana base; all become five-colour sources under Great Divide Guide. |
+
+### Curve and mana
+
+Nineteen spells and creatures cost two or less, and the top of the curve is a single five-drop in Dai Li Agents and a pair of fours. The deck wants four lands on turn four, and the mana base will not fight it: 24 lands, twenty-two of which are green or green-fixing. Black is a light splash for Fatal Fissure and the two black-green finishers, red is a lighter splash for Bitter Work and Savage Mansion. Great Divide Guide upgrades all of it, so do not be shy about leading on a Forest and following with a Guide.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with a two-drop. Haru, Hidden Talent is the best turn-two because every Ally afterwards (Toph, Earth Kingdom General, Great Divide Guide) triggers him for a free animated land. Great Divide Guide is the right play when your hand is colour-hungry or when you want the Ally trigger plus fixing in one card. Wildwood Scourge on one is a fine investment: it starts as a 1/1 and never stops growing, since every earthbend in the deck puts counters on another creature you control.
+
+### Mid game and the burst turn
+
+The deck's big turn is a turn where you stack two or more earthbends. Rockalanche and Earthbending Lesson both put four-plus counters on a single land, Toph adds two when she lands, and Ba Sing Se can add two more on the same turn as a sorcery. Because animated lands have haste, a turn that starts with four mana can end with a fresh 4/4 and a 6/6 swinging at the opponent. Do not spread earthbends across turns for value when you can concentrate them: Toph counts total counters on lands, so a single enormous land creature is worth more than three small ones, and Dai Li Agents counts creatures with counters on them, so three of them is worth more when you attack.
+
+### Win condition 2
+
+Dai Li Agents is the deck's non-combat kill. Whenever it attacks, each opponent loses X life and you gain X life, where X is the number of creatures you control with +1/+1 counters. Animated lands are creatures with +1/+1 counters, so a Ba Sing Se activation plus Toph plus one dormant Crawling Barrens can push X to four or five. Unlike Toph, Dai Li Agents does not need toughness or evasion, so it is the answer against decks that gum up the ground.
+
+### Mulligan guide
+
+Keep any two-land hand with a two-drop and a three-drop. Keep hands with Great Divide Guide plus a colour-hungry spell package, because the Guide fixes everything. Go to six on one-land hands and on hands with no earthbend source at all. Never keep a hand that is only payoffs: Toph, Wildwood Scourge and Knight of Wundagore are all blank without an earthbend to feed them, so a hand of three payoffs and no engine is a mulligan even at seven cards.
+
+### Key interactions and edge cases
+
+Animated land creatures keep their land type, so they still tap for mana, still count as lands for Toph, and still return tapped when they die instead of going to the graveyard. Do not be afraid to attack a 4/4 land into a bigger blocker if the trade sets up Beifong's Bounty Hunters, which earthbends for the dead creature's power. Inspiring Call draws a card for each creature with a +1/+1 counter and makes them indestructible, which is the cleanest way to protect a board of animated lands from a sweeper; remember that it counts land creatures too. Fatal Fissure is not a removal spell that earthbends later, it is an earthbend spell that also removes something: cast it on the creature you intend to kill this turn, then finish the job and take four counters. Ba Sing Se enters tapped unless you control a basic land, so it is a fine turn-one play only if you already know you want the green.
+
+### Matchups
+
+Against aggro, Earth Kingdom General's lifegain and Inspiring Call's indestructible mode are the key cards; trade animated lands early and let the lands come back. Against control, hold Inspiring Call for their sweeper, and lean on Crawling Barrens and Ba Sing Se, which rebuild the board from lands rather than from the hand. Against other midrange decks, Dai Li Agents is the trump: it does not need to connect, and the drain races any ground stall. Explosive combo decks are the worst matchup; the deck has two removal spells and no counterspells, so the plan is to race with hasty lands and use Fatal Fissure to break up the combo turn.
+
+## Deck list (Arena import)
+
+```text
+Bedrock Uprising
+Deck
+4 Haru, Hidden Talent
+4 Toph, the Blind Bandit
+3 Great Divide Guide
+3 Earth Kingdom General
+2 Wildwood Scourge
+2 Knight of Wundagore
+2 The Boulder, Ready to Rumble
+2 Dai Li Agents
+2 Beifong's Bounty Hunters
+2 Earthbender Ascension
+2 Earthbending Lesson
+2 Rockalanche
+2 Inspiring Call
+2 Fatal Fissure
+1 Dai Li Indoctrination
+1 Bitter Work
+4 Ba Sing Se
+3 Crawling Barrens
+2 Temple of Malady
+2 Savage Mansion
+8 Forest
+3 Swamp
+2 Mountain
+```
