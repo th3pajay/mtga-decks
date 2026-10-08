@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-08**:
 
 - **[Spectrum Stampede](decks/2026-10-08-spectrum-stampede.html)** — Gruul landfall and vivid combo — a colour-count engine in red and green  `combo` `landfall` `vivid`
+- **[Hoardwyrm](decks/2026-10-08-hoardwyrm.html)** — Jund (B/R/G) Dragons and Treasures — Smaug's hoard engine, Standard legal  `hobbit` `smaug`

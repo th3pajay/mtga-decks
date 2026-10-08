@@ -1,0 +1,172 @@
+---
+title: "Hoardwyrm"
+subtitle: "Jund (B/R/G) Dragons and Treasures — Smaug's hoard engine, Standard legal"
+date: "2026-10-08"
+categories: ["hobbit", "smaug"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), The Hobbit set core |
+| Colors | Black / Red / Green (Jund) |
+| Archetype | Combo-midrange Dragons (21 creatures, average nonland mana value 3.89) |
+| Size | 60 cards, 24 lands |
+| Core mechanic | Treasure tokens as mana, as attack damage and as a Dragon trigger |
+| Primary win | Smaug the Magnificent plus a Treasure hoard: a hasty 4/3 flier that deals damage equal to your Treasure count whenever he attacks, and makes a fresh Treasure every upkeep |
+| Secondary win | The Misty Mountains Cold turns four Treasures into a 6/6 flying Dragon token, and Desert Were-Worm attacks for a second combat phase once the team reaches twelve power |
+| Engine land | The Lonely Mountain (a Mountain for the Durin's Day quest that also sacrifices into 2/2 Dwarf tokens) |
+| Viability | 87.39 overall, synergy 70.8, simulated win rate 52.3 over three 500-game runs |
+
+# Overview
+
+Hoardwyrm treats Treasure tokens as every resource at once. They are mana to cast a seven-drop two turns early, they are the burn count Smaug the Magnificent reads on every attack, and they are the four-object requirement that The Misty Mountains Cold turns into a 6/6 flying Dragon. The deck is built so the same token does all three jobs.
+
+The spine is the Smaug package. Smaug the Magnificent is the cheapest and most important card in the deck: four mana for a 4/3 flier with haste that deals damage equal to the number of Treasures you control to any target when he attacks, and creates a Treasure token at the beginning of your upkeep (affinity 82 to Smaug, Wicked Worm and 79 to Smaug, the Great Calamity). That upkeep trigger is the engine: every turn the board grows richer and every attack grows larger without spending a card. Smaug, Wicked Worm turns the hoard into cards — whenever you cast a spell and spent Treasure mana on it you draw a card and lose 1 life — and arrives with tapped Treasures equal to the number of artifacts the opponent controls.
+
+The second engine is the Treasure bank itself. Dori, Bearer of Friends is a three-mana 3/2 trampler that enters with a Treasure, The Misty Mountains Cold adds one every chapter, Bejeweled Warg makes one on each connection and Orcrist, Goblin-cleaver turns a combat step into a pile of them. Getaway Barrel converts a spent artifact into a free creature, and Stone-Giant of High Pass eats any spare artifact for four damage to any target.
+
+The top end closes. Smaug, the Great Calamity is a 5/5 flier carrying Spew Flame, five damage to a creature, as removal on the way down. Desert Were-Worm grows by two power per Mountain you control and untaps the whole team for a second combat phase the first time you attack with twelve or more power. Last Light of Durin's Day cheats a Dragon straight onto the battlefield once six Mountains have entered, and Maelstrom of the Spirit Dragon sacrifices itself to tutor a Dragon into hand.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land and pass, or hold Last Light of Durin's Day as a two-mana play. Bejeweled Warg is the earliest body; Spew Flame and chapter one of Burn, Burn, Tree and Fern are the early interaction |
+| Turns 3-4 | Dori, Bearer of Friends lands on curve with a Treasure, or Smaug the Magnificent arrives as a hasty flier and starts the hoard |
+| Turns 4-6 | The Misty Mountains Cold banks Treasures toward a 6/6 Dragon, Gandalf, Goblins' Bane converts every saga and artifact into growing damage, and Smaug, Wicked Worm refills the hand from Treasure mana |
+| Winning turn | Smaug attacks for damage equal to the Treasure count, The Misty Mountains Cold cashes four Treasures into a 6/6 Dragon, or Desert Were-Worm untaps the team for a second combat |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Smaug the Magnificent | Win condition: hasty 4/3 flier, upkeep Treasure, attack damage equal to your Treasure count to any target |
+| Smaug, Wicked Worm | 5/5 flier that makes tapped Treasures equal to the opponent's artifact count and converts Treasure mana into cards |
+| Smaug, the Great Calamity | Top-end 5/5 flier whose Spew Flame adventure deals five damage to a creature on the way down |
+| Desert Were-Worm | Finisher that grows with Mountains and untaps every attacker for an extra combat phase |
+| Dori, Bearer of Friends | Three-mana 3/2 trampler that enters with a Treasure; the curve's main ramp body |
+| Bejeweled Warg | Two-mana 3/2 trampler; each connection makes a Treasure or grows a Wolf |
+| Gandalf, Goblins' Bane | Payoff for the noncreature half of the deck: every saga or artifact gives him +1/+1 and drains each opponent for 1 |
+| Stone-Giant of High Pass | 7/7 that arrives with a 3/1 artifact Wall and turns any spare artifact into four damage to any target |
+| The Misty Mountains Cold | Treasure every chapter, then four Treasures become a 6/6 flying Dragon token |
+| Last Light of Durin's Day | Win condition: six Mountains completes the quest and drops a Dragon onto the battlefield for free |
+| Orcrist, Goblin-cleaver | Equipment that converts a combat step into a pile of Treasures and pushes damage through with trample |
+| Getaway Barrel | Four-mana artifact that, when it dies, reveals the top thirteen cards and puts a random creature onto the battlefield |
+| My Precious | Equipment granting hexproof and unblockable; its Allure of Power adventure sacrifices a body to draw two |
+| The Arkenstone | Five-mana anthem that gives the team +1/+1 and draws a card every end step |
+| Burn, Burn, Tree and Fern | Saga that removes a creature, destroys an artifact and adds red mana on the way |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Win-condition land: a Mountain for the Durin's Day quest that also sacrifices into 2/2 Dwarf tokens, cheaper for each Equipment |
+| Maelstrom of the Spirit Dragon | Mana for Dragon spells, and a {4} activation that sacrifices it to tutor a Dragon into hand |
+| Hell's Kitchen | The black-red dual; enters tapped and gains a life |
+| Festering Gulch | The black-green dual; enters tapped and pings the opponent for 1 |
+| Bleeding Woods | The red-green dual; enters untapped while a player is at 13 or less life |
+| Frontier Bivouac | Three-colour land that taps for green, blue or red |
+| Mountain, Swamp, Forest | Five Mountains deepen Desert Were-Worm and the Durin's Day quest; three Swamps and three Forests carry the black and green costs |
+
+## Curve and mana
+
+The deck curves 5 / 13 / 9 / 3 / 2 / 4 across two through seven mana with an average nonland mana value of 3.89, and the Treasure tokens pay the top of that curve early. Counting lands, the base offers roughly fifteen red sources, nine black and nine green, with Maelstrom of the Spirit Dragon adding any colour for Dragon spells. Red is the deepest because Smaug the Magnificent wants {R}{R} and Desert Were-Worm and Stone-Giant of High Pass both cost {R}{R} as well; black is only needed for Smaug, Wicked Worm's {B} and My Precious' adventure.
+
+Twenty-four lands is deliberate. The deck has no one-mana accelerant, so hitting land three on time matters, and the Treasure makers want a fourth land before the top end arrives. The probability of four lands by turn four is 0.635, and the deck's goldfish turn-4 consistency is 0.629. The Lonely Mountain enters tapped unless you control an Equipment, so curve it behind Orcrist, My Precious or Getaway Barrel rather than leading with it.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about the cheapest possible board. Bejeweled Warg is the best turn-two play: a 3/2 trampler that turns any connection into either a Treasure or a +1/+1 counter on a Wolf, which means it is never a wasted card in a hand that lacks a Dragon. Against an aggressive opponent, hold Last Light of Durin's Day as a two-mana enchantment that will eventually hand you a free Dragon, and remember that its Mountaincycling lets you trade it for a land when the board does not want it.
+
+## Mid game
+
+Turn three is the pivot. Dori, Bearer of Friends is the deck's cleanest use of three mana: the 3/2 trampler adds a Treasure the moment it lands, which is one mana toward the next Dragon and one more count for Smaug. The Misty Mountains Cold wants to be cast in the same window, because every chapter adds a Treasure and the saga converts to a 6/6 flying Dragon the moment the count reaches four.
+
+Gandalf, Goblins' Bane is the deck's value glue. He triggers on every noncreature spell, which in this deck means the two sagas, every Equipment, Getaway Barrel and the Spew Flame adventure, so each of those cards drains each opponent for 1 and grows Gandalf by +1/+1. Sequence him before the sagas and the Equipment rather than after.
+
+## The combo turn
+
+The killing turn is a chain of Treasure events that all point at one number:
+
+1. Smaug the Magnificent is on the battlefield with a hoard already banked.
+2. Attack. Smaug's trigger deals damage equal to the number of Treasures you control to any target, and the attack itself is a 4/3 flier the opponent must answer.
+3. If the count is still short, cash The Misty Mountains Cold's fourth chapter: four Treasures become a 6/6 flying Dragon token that attacks from that point on.
+4. Sacrifice the spare artifacts. Stone-Giant of High Pass eats an artifact token for four damage to any target, and Getaway Barrel turns a spent artifact into a free creature.
+
+A representative turn with six mana, Smaug the Magnificent in play and three Treasures: attack for four in the air plus three damage to any target, cast The Misty Mountains Cold and make the fourth Treasure in the same turn to flip the saga into a 6/6 Dragon. The opponent is now facing five power in the air with a Dragon token arriving behind it.
+
+## Win condition 2
+
+When the burn plan is too slow, the deck switches to mass. Desert Were-Worm punishes a wide board: it gains +2/+0 for every Mountain you control and, the first time each turn you attack with twelve or more total power, untaps every attacker and grants an additional combat phase. With seven Mountains it is a 14/5 that turns a five-creature board into two full attacks.
+
+The alternative clock is Artifact bodies. Stone-Giant of High Pass is a 7/7 that adds a 3/1 Wall on entry and on every attack, Stone Boulder tokens are artifacts that can be sacrificed to the Giant's own ability, and The Arkenstone turns the whole team into bigger creatures while drawing a card each end step. Orcrist, Goblin-cleaver on any attacker turns a combat step into one Treasure per creature of the chosen type you control, which funds the next Dragon.
+
+## Mulligan guide
+
+Keep two or three lands if the hand has a turn-two play plus one card that banks Treasures. Hands with Bejeweled Warg and a three-drop, or Dori, Bearer of Friends and The Misty Mountains Cold, are ideal, and any hand containing Smaug the Magnificent with two lands of different colours is a keep — the Dragon is the payoff and the rest of the hand only has to be playable. Ship hands whose only lands enter tapped and that lack a two-mana play, because the deck cannot afford to fall a full turn behind on board, and ship one-land hands even with a perfect curve of Dragons.
+
+## Key interactions and edge cases
+
+- Smaug the Magnificent counts Treasures on the attack trigger, so hold Treasure cracking until after attackers are declared — the damage is dealt before you need the mana.
+- The upkeep Treasure from Smaug the Magnificent arrives before your draw step, so it is available to cast a spell that same turn.
+- Smaug, Wicked Worm creates Treasures equal to the opponent's artifact count, which can be zero: against an artifact-light deck treat it as a 5/5 flier with a Treasure-to-draw converter and not as a ramp spell.
+- The Misty Mountains Cold checks four Treasures on every chapter, not only on the fourth: if you already control four when the second chapter resolves, the saga immediately converts into the 6/6 Dragon.
+- Treasure tokens sacrifice for any colour, so they fix the deck's black and green costs as well as its red ones.
+- Smaug the Magnificent, Desert Were-Worm, Stone-Giant of High Pass and Smaug, the Great Calamity all want {R}{R}: do not keep a hand that can only make one red.
+- Last Light of Durin's Day needs six quest counters, and only Mountains add counters. Five basic Mountains and two The Lonely Mountain are the seven Mountain cards in the deck.
+- Maelstrom of the Spirit Dragon's own mana is restricted to Dragon and Omen spells; use it for Smaug, not for Dori.
+- Maelstrom of the Spirit Dragon's {4} activation sacrifices the land: use it when you already have six other lands, and search for the Dragon you actually need rather than the biggest one.
+- Orcrist, Goblin-cleaver makes one Treasure per creature of the chosen type, so choose the type the board actually has — Dragon is the biggest number once Smaug and friends are out.
+- Getaway Barrel triggers when it dies, so sacrifice it to Stone-Giant of High Pass or Allure of Power rather than letting it sit.
+- Bejeweled Warg's trigger is a choice on each connection: take the Treasure when you are short of mana or one step from four, and the counter when you need a bigger Wolf.
+- The Arkenstone is an artifact that anthems the whole team; its Seek the Heart adventure should be cast first when you need to find a legendary creature, then the artifact can follow from exile.
+- My Precious grants hexproof, not indestructible: it stops targeted removal, not a sweeper.
+- Burn, Burn, Tree and Fern's third and fourth chapters add red mana, which is one more way to pay for Smaug without tapping a land.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Bejeweled Warg and Dori trade up, Getaway Barrel and Stone-Giant of High Pass convert spare artifacts into blockers or burn, and Smaug attacks over the top while the hoard grows |
+| Midrange | Grind with The Arkenstone and Smaug, Wicked Worm, keep the Treasure count high, and use Spew Flame plus Burn, Burn, Tree and Fern to clear the one blocker that matters |
+| Control | Do not over-commit into a sweeper. Land one Dragon at a time, let Smaug's upkeep Treasure bank, and win with an attack that deals damage equal to the Treasure count from an empty board |
+| Tokens | Desert Were-Worm punishes a wide opponent, and Smaug's attack trigger ignores the board entirely; Stone-Giant's four damage removes their best token producer |
+| Combo | The deck is the aggressor: a hasty Smaug plus Burn, Burn, Tree and Fern's six damage keep the pressure on while Spew Flame removes the creature their combo needs |
+
+# Deck list (Arena import)
+
+```
+Hoardwyrm
+Deck
+4 Smaug the Magnificent
+2 Smaug, Wicked Worm
+2 Smaug, the Great Calamity
+2 Desert Were-Worm
+3 Dori, Bearer of Friends
+3 Bejeweled Warg
+3 Gandalf, Goblins' Bane
+2 Stone-Giant of High Pass
+3 The Misty Mountains Cold
+2 Last Light of Durin's Day
+2 Orcrist, Goblin-cleaver
+2 Getaway Barrel
+2 My Precious
+1 The Arkenstone
+3 Burn, Burn, Tree and Fern
+2 The Lonely Mountain
+2 Maelstrom of the Spirit Dragon
+3 Festering Gulch
+3 Hell's Kitchen
+2 Bleeding Woods
+1 Frontier Bivouac
+5 Mountain
+3 Swamp
+3 Forest
+```
