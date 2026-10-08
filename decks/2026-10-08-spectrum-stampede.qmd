@@ -1,0 +1,162 @@
+---
+title: "Spectrum Stampede"
+subtitle: "Gruul landfall and vivid combo — a colour-count engine in red and green"
+date: "2026-10-08"
+categories: ["combo", "landfall", "vivid"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Gruul — red / green (exactly two colours) |
+| Archetype | Landfall aggro-combo (go-wide plus drain) |
+| Size | 60 cards, 25 lands |
+| Rolled mechanics | Landfall x Vivid |
+| Core engine | Prismatic Undercurrents and Icetill Explorer into repeated land drops into landfall payoffs |
+| Primary win | Wide landfall board (Beast and counter army) finished with Rogue's Passage and Restless Ridgeline |
+| Secondary win | Landfall drain — Sabotender and Tannuk ping the opponent on every land that enters |
+| Land win condition | Restless Ridgeline (manland attacker) and Rogue's Passage (unblockable finisher) |
+| Nonland curve | 4 ones, 16 twos, 4 threes, 7 fours, 4 sixes |
+
+# Overview
+
+Spectrum Stampede is a Gruul deck that fuses two Standard mechanics into one engine.
+
+**Landfall** is the fuel line. Every land that enters the battlefield cashes in a trigger on a board of payoffs: `Sazh's Chocobo` and `Bristly Bill, Spine Sower` grow, `Tifa Lockhart` doubles her power, `Mossborn Hydra` doubles its counters, `Rampaging Baloths` makes a 4/4 Beast, and `Sabotender` and `Tannuk, Memorial Ensign` burn the opponent directly.
+
+**Vivid** is the payoff that reads the *number of colours among permanents you control*. It is the reason the deck wants both green and red bodies on the table at once, and it converts that board into mana, lands, removal, pump and raw power:
+
+- `Bloom Tender` taps for one mana of every colour among your permanents — with a green creature and a red creature out, it is a two-mana land in creature form that casts the six-drops.
+- `Prismatic Undercurrents` searches up to two basics into hand *and* lets you play an extra land each turn, so the Vivid count pays you back in exactly the resource Landfall wants.
+- `Explosive Prodigy` enters as two damage of removal.
+- `Squawkroaster` and `Prismabasher` turn the colour count into a double-striking body and a team pump.
+
+The two mechanics lock together: lands make the board wide, the wide board carries both colours, and Vivid cashes the colours into more lands (Prismatic Undercurrents) and more mana (Bloom Tender). The deck never needs a third colour because two is all Vivid requires to function, and the green half of the deck supplies the land drops that keep the loop running.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Establish (turns 1 to 3):** open on one-drops and two-drops that pay off lands — Sazh's Chocobo, Bristly Bill, Sabotender, Bloom Tender. Fetch with Evolving Wilds and Terramorphic Expanse to bank two landfall triggers per land.
+2. **Multiply (turns 3 to 5):** resolve Icetill Explorer (a second land drop plus replaying lands from the graveyard) or Prismatic Undercurrents (a second land drop plus two basics to hand). From here the deck takes three or more land drops in a turn, and the landfall payoffs compound.
+3. **Cash out:** swing with a wide counter-and-token board, or burn the opponent out with Sabotender and Tannuk. Open the final attack with Rogue's Passage, and attack with Restless Ridgeline to pump and untap a second attacker.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Sazh's Chocobo | 4 | Landfall grower — a one-mana body that snowballs into a real threat |
+| Bloom Tender | 4 | Vivid ramp — taps for green and red once both colours are on board |
+| Bristly Bill, Spine Sower | 4 | Landfall counters; late-game mass counter doubler for the team |
+| Tifa Lockhart | 2 | Landfall burst — trample plus repeated power doubling |
+| Sabotender | 4 | Landfall drain — a reach blocker that pings the opponent per land |
+| Explosive Prodigy | 2 | Vivid removal — damage equal to your colour count |
+| Tannuk, Memorial Ensign | 2 | Landfall drain plus card draw on the second trigger each turn |
+| Icetill Explorer | 2 | Land engine — extra land drop and lands from the graveyard |
+| Mossborn Hydra | 2 | Landfall finisher — trample with counters that double per land |
+| Prismatic Undercurrents | 3 | Vivid engine — fetches basics and adds a land drop every turn |
+| Squawkroaster | 2 | Vivid attacker — double strike with power equal to your colour count |
+| Rampaging Baloths | 2 | Landfall token maker — a 4/4 Beast per land |
+| Prismabasher | 2 | Vivid pump — a 6/6 trampler that buffs the team on entry |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Ridgeline | The land win condition — becomes a 3/4 Dinosaur, and each attack gives another attacker +2/+0 and untaps it |
+| Rogue's Passage | The other land win condition — makes the biggest landfall threat unblockable for the finish |
+| Evolving Wilds | Two landfall triggers for one card (itself, then the fetched basic) |
+| Terramorphic Expanse | The same double-trigger fetch, copies five and six |
+| Fabled Passage | A fetch that can untap its basic once you control four lands, effectively free |
+| Forest / Mountain | Fourteen basics, split to respect the green core and the red payoffs |
+
+## Curve and mana
+
+25 lands: 14 basics (8 Forest, 6 Mountain) plus 11 non-basic lands that all feed the engine — four Evolving Wilds, two Terramorphic Expanse and two Fabled Passage for landfall triggers, two Restless Ridgeline and one Rogue's Passage as the land-based win conditions.
+
+The nonland curve is 4 ones, 16 twos, 4 threes, 7 fours and 4 sixes. Sixteen two-drops means the deck always does something on turn 2, and the top end is deliberately shallow: the six-drops (Rampaging Baloths, Prismabasher) are finishers, not requirements, because Bloom Tender and the extra land drops push you there early. Every card in the deck is green, red, or a colourless land — exactly the two rolled colours, nothing splash.
+
+# Gameplay strategy
+
+## Early game (turns 1 to 3)
+
+- Turn 1: Sazh's Chocobo is the ideal opener — it grows with every land.
+- Turn 2: Bristly Bill, Sabotender or Bloom Tender. Bristly Bill spreads counters; Sabotender begins the drain clock; Bloom Tender is only worth it if you already have a red or green partner in hand.
+- Crack Evolving Wilds or Terramorphic Expanse only when you want the trigger or need the colour — they enter untapped and fetch a tapped basic, so they are never a wasted turn.
+- Do not overextend into a sweeper with a pure Bloom Tender board; its value is mana, not pressure.
+
+## Mid game (turns 4 to 6)
+
+- Land Icetill Explorer or Prismatic Undercurrents as soon as possible. These are the two cards that turn the deck from a normal curve deck into a combo deck.
+- With Icetill Explorer, lands in the graveyard are playable: replay a spent Evolving Wilds, sacrifice it again, and fetch another basic. One card produces two landfall triggers every turn.
+- With Prismatic Undercurrents, an empty hand of lands is a feature — it fetches two basics to hand and then lets you play two lands a turn.
+- Use Explosive Prodigy as removal, not as a body: with a green and a red permanent in play it kills a two-toughness creature on entry for two mana.
+
+## The combo turn
+
+The deck's big turn is a landfall storm, not an infinite loop:
+
+1. Have Prismatic Undercurrents or Icetill Explorer in play (ideally both) plus two or more landfall payoffs (Sazh's Chocobo, Bristly Bill, Tifa Lockhart, Mossborn Hydra, Rampaging Baloths, Sabotender, Tannuk, Memorial Ensign).
+2. Play your land for turn (trigger one), a second land via the extra land drop (trigger two), and if Icetill Explorer is out, replay a fetch land from the graveyard and sacrifice it for a basic — two more triggers.
+3. Each trigger fires independently on every payoff: Sabotender and Tannuk each deal 1 damage to the opponent, Mossborn Hydra doubles its counters, Rampaging Baloths makes a Beast, Tifa doubles her power.
+4. Attack with the resulting board. Mossborn Hydra is usually lethal alone after two doublings; Tifa Lockhart doubles per trigger and tramples; the Beast and counter army follows.
+5. Activate Rogue's Passage on the largest attacker, and attack with Restless Ridgeline to give another attacker +2/+0 and untap it for a second hit.
+
+## Win condition 2: the landfall drain
+
+Sabotender and Tannuk, Memorial Ensign both read "whenever a land you control enters, this creature deals 1 damage to each opponent." With two or three lands entering a turn, that is a steady 2 to 6 damage a turn that ignores combat entirely. Tannuk also draws a card on the second trigger each turn, so the drain engine refills your hand while it kills. This plan wins through board stalls, through blockers, and through decks that race better in combat — the land drops happen regardless.
+
+## Mulligan guide
+
+- **Keep:** two or three lands with green and red available, plus an early landfall payoff (Sazh's Chocobo, Bristly Bill, Sabotender) or Bloom Tender.
+- **Keep (engine hands):** a hand with Icetill Explorer or Prismatic Undercurrents plus four lands is a genuine keep even with no two-drop — the engine converts it.
+- **Trim:** hands with only six-drops, one-land hands, or hands whose only red source is a fetch land you must crack before casting anything.
+- The deck mulligans well because so many cards are interchangeable landfall payoffs; do not keep a hand for a single specific card.
+
+## Key interactions and edge cases
+
+- **Vivid counts colours, not cards.** Two green creatures and one red creature is a colour count of two, not three. Keep at least one red permanent alive if you are holding Explosive Prodigy, Squawkroaster or Prismabasher.
+- **Squawkroaster's power is a setting, not a base.** It is always equal to your current colour count, so it swings for 2 with double strike in a clean Gruul board and shrinks if your board is wiped to a single colour.
+- **Mossborn Hydra's counters double, they do not add.** Two landfall triggers in one turn take it from one counter to four; three take it to eight.
+- **Prismatic Undercurrents searches, it does not put lands onto the battlefield.** The lands go to hand and are played with your normal and extra land drops — so a full hand plus extra drops is the ideal state.
+- **Icetill Explorer's graveyard play is a land drop, not a spell.** Replaying Evolving Wilds uses your land for the turn; if you have already played a land, use Prismatic Undercurrents or another extra-drop effect to keep going.
+- **Tannuk draws only on the second resolution each turn.** Sequence land drops so that at least two lands enter after Tannuk resolves, ideally with a fetch land cracking in between.
+- **Restless Ridgeline enters tapped.** Play it on a turn where you do not need the mana immediately, or fetch it off Fabled Passage and untap it with four lands out.
+- **Bristly Bill's activated ability doubles counters on every creature you control** — it is the deck's late-game finisher and combos directly with Sazh's Chocobo and Mossborn Hydra piles.
+
+## Matchups
+
+- **Aggro:** Sabotender and Rampaging Baloths provide reach blockers, and the drain plan races well because it does not need to attack. Explosive Prodigy is your cheapest interaction — hold it for the biggest threat.
+- **Control:** the lands-and-counters plan is resilient. Rebuild with a single Rampaging Baloths or Mossborn Hydra after a sweeper, and lean on Tannuk's card draw. Rogue's Passage makes the rebuilt threat unblockable the turn it lands.
+- **Midrange:** your top end outclasses theirs once Mossborn Hydra and Tifa Lockhart have doubled a few times. Trade early, then attack with a single enormous trampler.
+- **Combo:** you have no counterspells, so race. The drain plus a fast counter clock often wins before a slower combo assembles; Explosive Prodigy can remove a key combo creature.
+
+# Deck list (Arena import)
+
+```
+Spectrum Stampede
+Deck
+4 Sazh's Chocobo
+4 Bloom Tender
+4 Bristly Bill, Spine Sower
+2 Tifa Lockhart
+4 Sabotender
+2 Explosive Prodigy
+2 Tannuk, Memorial Ensign
+2 Icetill Explorer
+2 Mossborn Hydra
+3 Prismatic Undercurrents
+2 Squawkroaster
+2 Rampaging Baloths
+2 Prismabasher
+4 Evolving Wilds
+2 Terramorphic Expanse
+2 Fabled Passage
+2 Restless Ridgeline
+1 Rogue's Passage
+8 Forest
+6 Mountain
+```

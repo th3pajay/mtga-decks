@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-07**:
+Deck guides published **2026-10-08**:
 
-- **[Warren Muster](decks/2026-10-07-warren-muster.html)** — Jund (B/R/G) Goblin amass — one Army, recurring counter events, drained through The Great Goblin  `hobbit` `amass`
-- **[Bedrock Uprising](decks/2026-10-07-bedrock-uprising.html)** — Jund (Black-Red-Green) — Earthbend  `combo` `Earthbend`
+- **[Spectrum Stampede](decks/2026-10-08-spectrum-stampede.html)** — Gruul landfall and vivid combo — a colour-count engine in red and green  `combo` `landfall` `vivid`
