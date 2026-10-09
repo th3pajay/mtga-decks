@@ -1,0 +1,147 @@
+---
+title: "Clachan Stampede"
+subtitle: "Naya (White / Green / Red) — Behold × Mount × Morbid"
+date: "2026-10-09"
+categories: ["combo", "behold", "mount", "morbid"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | White, Green, Red (Naya), 24 lands |
+| Archetype | Go-wide token midrange with a counter payoff |
+| Deck size | 60 (26 creatures, 10 non-creature spells, 24 lands) |
+| Primary win | Swarm of Kithkin and Mount-made tokens that grow every turn |
+| Secondary win | Evasive flying Mounts (Congregation Gryff, Seraphic Steed angels) |
+| Win-condition lands | Abandoned Air Temple, Secret Tunnel |
+
+## Overview
+
+Clachan Stampede fuses three mechanics into one board: **Behold** supplies the cheap Kithkin engine, **Mount** supplies the token bodies and the evasive finishers, and **Morbid** turns every chump block and sacrifice into permanent +1/+1 counters.
+
+The engine runs on creature entry. Kinsbaile Aspirant is a one-mana Kithkin that gains +1/+1 every time another creature enters, and Thoughtweft Lieutenant hands out +1/+1 and trample whenever a Kithkin arrives. Clachan Festival makes two Kithkin tokens on entry and can keep making them for {4}{W}. Behold matters because these Kithkin feed Champion of the Clachan (behold a Kithkin, exile it, and every other Kithkin gets +1/+1) and Celestial Reunion (choose Kithkin, behold two, and tutor any cheap creature straight onto the battlefield).
+
+Mounts convert that wide board into damage. Saddle taps spare bodies, so tokens are never wasted, and every saddled attack creates more material: Bridled Bighorn makes 1/1 Sheep, Seraphic Steed makes 3/3 flying Angels, and Ornery Tumblewagg doubles the counters you have been collecting.
+
+Morbid is the back end. Because the deck trades tokens constantly and Bulwark Ox can sacrifice itself, creatures die almost every turn. That turns on Needletooth Pack (two +1/+1 counters on a target every end step), Cackling Prowler (grows every end step) and Slumbering Cerberus (untaps every end step), so a stalled board still grows.
+
+## Approach
+
+### Game plan phases
+
+1. **Turns 1 to 3 — establish the engine.** Land Kinsbaile Aspirant, District Mascot, Thoughtweft Lieutenant and Seraphic Steed. Trade nothing yet; just build a board that grows for free.
+2. **Turns 3 to 5 — go wide and saddle.** Clachan Festival and Brigid's Command flood the board with Kithkin, then tap them to saddle Bridled Bighorn, Congregation Gryff and Seraphic Steed. Every saddled attack adds a token or a counter.
+3. **Turns 5 to 7 — convert.** Needletooth Pack and Abandoned Air Temple turn the accumulated board into an unrecoverable +1/+1 lead; Congregation Gryff closes through the air.
+
+### Card roles
+
+| Role | Cards | What they do |
+|---|---|---|
+| One-drop engine | Kinsbaile Aspirant, District Mascot | Grow whenever anything enters |
+| Token makers | Clachan Festival, Brigid's Command, Bridled Bighorn, Seraphic Steed | Widen the board for free |
+| Anthem and pump | Thoughtweft Lieutenant, Champion of the Clachan, Brigid's Command (+3/+3) | Make the swarm lethal |
+| Saddle enablers | Tokens from Clachan Festival, District Mascot, Bulwark Ox | Cheap bodies to tap for saddle |
+| Counter payoffs | Ornery Tumblewagg, Abandoned Air Temple, Needletooth Pack | Convert tokens into permanent size |
+| Behold payoffs | Champion of the Clachan, Celestial Reunion | Exile or reveal a Kithkin for value |
+| Morbid payoffs | Needletooth Pack, Cackling Prowler, Slumbering Cerberus | Reward creatures dying each turn |
+| Interaction | Molten Exhale, Osseous Exhale, Brigid's Command (fight) | Remove blockers and key threats |
+
+### Lands as engines
+
+| Land | Why it is in the deck |
+|---|---|
+| Abandoned Air Temple (4) | Repeatable {3}{W} ability puts a +1/+1 counter on every creature: the mana sink that wins long games |
+| Secret Tunnel (2) | Two creatures that share a type (Kithkin) become unblockable, the trample-free way to push damage |
+| Temple of Plenty (3) | Green and white fixing, scry 1 |
+| Temple of Abandon (2) | Red and green fixing, scry 1 |
+| Temple of Triumph (2) | Red and white fixing, scry 1 |
+| Plains 5 / Forest 4 / Mountain 2 | Basic backbone, and they turn Abandoned Air Temple on untapped |
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|---|---|---|
+| 1 | 7 | Kinsbaile Aspirant, District Mascot |
+| 2 | 12 | Thoughtweft Lieutenant, Seraphic Steed, Bulwark Ox, Slumbering Cerberus, Molten Exhale, Osseous Exhale |
+| 3 | 9 | Congregation Gryff, Ornery Tumblewagg, Clachan Festival, Brigid's Command |
+| 4 | 3 | Champion of the Clachan, Cackling Prowler |
+| 5 | 3 | Needletooth Pack |
+| X | 2 | Celestial Reunion |
+
+Average mana value is about 2.4. The mana base is white-heavy (roughly 14 white sources), green second (about 9) and red a light splash (about 6) — enough for Slumbering Cerberus and Molten Exhale but never a plan built around red.
+
+## Gameplay strategy
+
+### Early game
+
+Open on Kinsbaile Aspirant or District Mascot and keep adding bodies. Do not attack into blocks you lose in the first three turns; the deck wins by compounding, not by racing. Thoughtweft Lieutenant is the best turn-two play when you already have a Kithkin, because the trample it hands out is what makes the later swarm unblockable.
+
+### Mid game and the combo turn
+
+The "combo turn" is any turn where you can attack, saddle, and cash in on entry triggers:
+
+1. Tap two spare bodies to saddle Bridled Bighorn — it makes a Sheep while attacking.
+2. Saddle Seraphic Steed for a 3/3 flying Angel, or Congregation Gryff to pump it by the number of Mounts you control.
+3. Cast Clachan Festival or Brigid's Command so Aspirant, Lieutenant and Champion of the Clachan all trigger at once.
+4. Spend the leftover mana on Abandoned Air Temple to put a counter on every creature.
+
+Because saddling only taps creatures you are not attacking with, the tokens you make each turn are exactly the fuel the next turn needs.
+
+### Win condition two
+
+Congregation Gryff is a flying lifelinker that gets +X/+X where X is the number of Mounts you control. With Seraphic Steed, Bridled Bighorn, District Mascot, Bulwark Ox and Ornery Tumblewagg all on the board it swings for a large evasive chunk and gains the life back. Secret Tunnel removes the last blocker by making two Kithkin unblockable, and Abandoned Air Temple finishes stalled games one counter at a time.
+
+### Mulligan guide
+
+- Keep any hand with a one-drop plus two lands, or with a Temple plus a basic.
+- Keep hands with Clachan Festival and a two-drop: the tokens carry the early game by themselves.
+- Mulligan hands that are all four- and five-drops with one land, and hands with all three colors but no cheap creature.
+- A single red source is not needed early; treat the red cards as late-game removal.
+
+### Key interactions and edge cases
+
+- **Behold costs are optional or payable.** Kinsbaile Aspirant reads "behold a Kithkin or pay {2}", so you never lose tempo when you have no Kithkin. Champion of the Clachan and Celestial Reunion require the Kithkin, so cast them only when you have a token or a spare Kithkin to exile.
+- **Champion of the Clachan exiles a Kithkin and returns it when it leaves.** Exiling a token is fine; exiling a real Kithkin gives it back later.
+- **Celestial Reunion puts the card onto the battlefield** when the beheld creature is the chosen type, so choosing Kithkin and tutoring Seraphic Steed still nets a free body when the cost is paid with two Kithkin.
+- **Morbid checks "a creature died this turn"** at the end step. Chump-block with a token or sacrifice Bulwark Ox on the second main phase to turn it on every turn.
+- **Bulwark Ox's sacrifice ability** gives every creature with a counter hexproof and indestructible, which protects the Ornery Tumblewagg and Needletooth Pack payoffs from a sweeper.
+
+### Matchups
+
+- **Against aggro:** the tokens are fine blockers and Slumbering Cerberus comes back every turn after a trade. Osseous Exhale kills an attacker for two mana.
+- **Against control:** do not over-extend into a sweeper. Build with Clachan Festival and Abandoned Air Temple, hold a Kithkin in hand for Champion of the Clachan, and win with the flying Gryff.
+- **Against midrange:** Molten Exhale plus Brigid's Command fight a big creature; the token swarm out-sizes most ground boards.
+
+## Deck list (Arena import)
+
+```
+Clachan Stampede
+Deck
+4 Kinsbaile Aspirant
+3 District Mascot
+2 Bulwark Ox
+2 Ornery Tumblewagg
+3 Thoughtweft Lieutenant
+3 Seraphic Steed
+2 Congregation Gryff
+2 Champion of the Clachan
+3 Needletooth Pack
+1 Cackling Prowler
+1 Slumbering Cerberus
+3 Clachan Festival
+2 Celestial Reunion
+2 Molten Exhale
+1 Osseous Exhale
+2 Brigid's Command
+4 Abandoned Air Temple
+3 Temple of Plenty
+2 Temple of Abandon
+2 Temple of Triumph
+2 Secret Tunnel
+5 Plains
+4 Forest
+2 Mountain
+```
