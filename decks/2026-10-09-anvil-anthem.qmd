@@ -1,0 +1,166 @@
+---
+title: "Anvil Anthem"
+subtitle: "WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck"
+date: "2026-10-09"
+categories: ["hobbit", "dwarves"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Red / Blue |
+| Archetype | Aggro-midrange (avg nonland CMC 2.51) |
+| Core mechanic | Storied (three or more artifacts, legendaries and/or Sagas) x Equipment |
+| Primary win | Go-wide Dwarf swarm: Fíli tokens plus anthems, doubled by Bard, King of Dale |
+| Secondary win | Dáin Ironfoot alpha strike: equipped attackers gain double strike |
+| Land engine | The Lonely Mountain (2/2 Dwarf tokens, cheaper per Equipment) |
+| Verified score | overall 83.7 - synergy 72.3 - sim 59.3% - goldfish T4 0.576 - P(4 lands T4) 0.591 |
+
+# Overview
+
+Anvil Anthem is the Storied Dwarves identity of The Hobbit built as a token engine instead of a pile of legends. Every legendary Dwarf in the deck checks the same condition - three or more artifacts, legendaries or Sagas - and each one pays off differently once the story is running (Thorin Oakenshield hands out ward, Óin the Brave gains haste, Fíli the Pathfinder pumps the team, Dáin, Lord of the Iron Hills taxes attackers). The deck reaches three permanent types by turn three almost by accident: every Dwarf is a legendary, every Equipment is an artifact, and the Axe tokens made by Dáin Ironfoot and Iron Hills Blacksmith count as artifacts on their own.
+
+The second loop is equipment. Kíli the Resourceful draws a card every turn that another Dwarf or Equipment arrives and makes the first equip of each turn free, so Axe tokens, Dwarven Mattock and The Black Arrow keep the hand moving while Dwalin, Weaponmaster stacks hone counters on everything. Equipment also turns The Lonely Mountain untapped on entry and shaves {1} off every token activation.
+
+The third loop is the payoff. Dáin Ironfoot gives every equipped attacker double strike, Fíli the Pathfinder makes a 2/2 red Dwarf every time a nontoken Dwarf arrives, and Bard, King of Dale - the Men of Dale half of the deck - doubles every token you make and every card you draw beyond the first each turn. A board of three Dwarves and two Axes that looked like a fair midrange start becomes a twelve-point swing the turn Bard lands.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land plus Well-Worn Spatula, then a wall of two-mana legends: Thorin Oakenshield, Kíli the Resourceful, Dáin, Lord of the Iron Hills, Dáin's Company as the dig spell that finds the next Dwarf or Equipment |
+| Turns 2-3 | Add the second artifact source: Dáin Ironfoot or Iron Hills Blacksmith makes an Axe; Dwarven Mattock attaches itself to a Dwarf on entry. Three artifacts/legendaries means Storied is online |
+| Turns 3-5 | Dwalin, Weaponmaster puts hone counters on the Axes; Fíli the Pathfinder starts making 2/2 Dwarf tokens and pumping the team; Ori, Keeper of Songs and Stone by Sunlight hold the board |
+| Turn 5-6 | Bard, King of Dale doubles the token stream and the Kíli draws, then the equipped team attacks for double strike |
+| Late game | The Lonely Mountain converts spare red mana into two 2/2 Dwarves a turn once Bard is out, each of them a fresh double-strike body |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Thorin Oakenshield | Two-mana Storied body; once Storied, all artifacts and creatures you control have ward {1} |
+| Kíli the Resourceful | Draw engine: whenever another Dwarf or Equipment enters, draw a card (once per turn); first equip each turn is free while Storied |
+| Óin the Brave | Two-mana Storied attacker: +1/+0 and haste while Storied; loots to find Equipment |
+| Dáin, Lord of the Iron Hills | Storied tax: opponents pay {1} per creature to attack you |
+| Dáin's Company | Two-mana lifelink Dwarf that digs four cards for a Dwarf or Equipment |
+| Dáin Ironfoot | Makes an Axe token on entry; attacking equipped creatures gain double strike |
+| Fíli the Pathfinder | Storied anthem (+1/+1) and a 2/2 red Dwarf token whenever a nontoken Dwarf enters |
+| Iron Hills Blacksmith | Two-mana double-strike Dwarf that adds an Axe artifact on entry |
+| Ori, Keeper of Songs | Three-mana Storied body (+1/+0 and vigilance) that keeps the legendary count up |
+| Dwalin, Weaponmaster | First strike; hone counters on every Equipment each time he enters or attacks |
+| Bard, King of Dale | Doubles tokens created under your control, and doubles every non-first draw |
+| Dwarven Mattock | +2/+2 and ward {1}; attaches itself to a Dwarf on entry |
+| The Black Arrow | Flash Equipment; one damage on entry (destroys a Dragon), +1/+1 and reach |
+| Well-Worn Spatula | One-mana Equipment that gains 2 life - the cheapest way to make Storied |
+| Stone by Sunlight | Two-mana interaction: kills a power-4-plus creature, or makes a creature an indestructible artifact |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| The Lonely Mountain | Enters untapped if you control an Equipment; {4}{R} makes a 2/2 red Dwarf token, costing {1} less per Equipment - the win-condition land and the late-game mana sink |
+| Lake-town | Blue source for Bard, King of Dale; {2}{W}{U} sacrifice adds two +1/+1 counters to a Human |
+| Mountain and Plains | The red-white core of the deck: 8 and 8 |
+
+## Curve and mana
+
+The deck is 23 lands and 37 spells with an average nonland cost of 2.51. Twenty-five cards cost two mana, so double-spelling from turn four is normal and the deck functions on three lands in a pinch.
+
+| Cost | Count | Highlights |
+|------|-------|------------|
+| 1 | 1 | Well-Worn Spatula |
+| 2 | 25 | Thorin Oakenshield, Kíli the Resourceful, Óin the Brave, Dáin, Lord of the Iron Hills, Dáin's Company, Iron Hills Blacksmith, Dwalin, Weaponmaster, Dwarven Mattock, Stone by Sunlight |
+| 3 | 6 | Dáin Ironfoot, Ori, Keeper of Songs, The Black Arrow |
+| 4 | 3 | Fíli the Pathfinder |
+| 6 | 2 | Bard, King of Dale |
+
+Mana is red-white first: Mountains and Plains cover every Dwarf in the deck, and the two Islands plus two Lake-town exist only for Bard, King of Dale. Nothing in the deck needs blue before turn five, so the blue splash never costs a game to a colour screw.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest legendary: Thorin Oakenshield on turn two is a 3/2 trampler that will hand out ward later, and Dáin, Lord of the Iron Hills is a 2/2 vigilance that slows the opponent's attacks. Dáin's Company is the best turn-two play when you already have a Dwarf out, because it looks at the top four cards for the next Dwarf or Equipment. Well-Worn Spatula on turn one is not a wasted turn: it is an artifact toward Storied, it gains two life against aggro, and it makes The Lonely Mountain enter untapped.
+
+Do not hold Equipment waiting for a perfect target. Kíli the Resourceful turns every Equipment entry into a card, and Dwarven Mattock attaches itself for free, so a turn-three Mattock on a random Dwarf is a 2/4 ward body plus a card.
+
+## The Storied turn
+
+Storied is a one-time switch, not a repeating trigger: as soon as you control three artifacts, legendaries and/or Sagas, you have an enduring story for the rest of the game. Count carefully before combat - two legends plus one Axe is enough, and the Axe from Dáin Ironfoot arrives attached to a creature. Order the turn: Dáin Ironfoot first if you want the Axe, Dwalin, Weaponmaster next so the hone counter lands on that Axe, then Fíli the Pathfinder last, because Fíli's token trigger fires for each nontoken Dwarf that entered before it.
+
+## The combo turn
+
+The deck's big turn is Bard, King of Dale resolving onto a board that already makes tokens.
+
+- Bard plus Dáin Ironfoot: every Axe token is doubled, and every equipped attacker still gets double strike.
+- Bard plus Fíli the Pathfinder: each nontoken Dwarf that enters makes four 2/2 Dwarf tokens instead of two.
+- Bard plus The Lonely Mountain: one activation makes four power of Dwarf tokens for {3}{R} once three Equipment are on board.
+- Bard plus Kíli the Resourceful: Kíli's "draw a card" becomes "draw two", because Bard replaces every draw after your first in a turn.
+
+That last line is the reason the deck plays blue at all. Bard turns the equipment loop into pure card advantage, and the extra cards are all cheap legends that keep the Storied engine and the token count climbing.
+
+## Win condition 2
+
+The second kill is a single big attack rather than a swarm. Assemble two or three Equipment (Axe tokens count), attach them to a team of Dwarves, then attack with Dáin Ironfoot on board: each equipped attacking creature gains double strike until end of turn. With Dwalin's hone counters and a Mattock, a 3/2 Thorin Oakenshield can swing for ten. Fíli's anthem adds another point per creature, and a doubled Axe from Bard pushes the same attack over the top.
+
+## Mulligan guide
+
+| Hand | Keep or ship |
+|------|--------------|
+| Two or three lands, any two-mana Dwarf, one Equipment | Keep - this is the deck's average start |
+| One land, no one-mana play | Ship |
+| Four or more lands | Ship unless the hand has Kíli the Resourceful and two Equipment |
+| No Dwarves at all | Ship - the deck cannot operate on Equipment alone |
+| Island as the only land | Ship; blue is a splash, never the base |
+
+## Key interactions and edge cases
+
+- Dáin Ironfoot creates the Axe and attaches it in the same trigger, so a single card can flip Storied or complete the third Equipment for The Lonely Mountain's discount.
+- Kíli the Resourceful triggers on Equipment entering, including Axe tokens, so a Dáin Ironfoot entry that makes an Axe draws a card if Kíli is already on board - and only once per turn, so sequence the biggest entry last.
+- Dwalin, Weaponmaster puts a hone counter on each Equipment, and hone counters stack: three Equipment plus Dwalin's trigger is +3/+0 spread across the team each combat.
+- Dwarven Mattock attaches to a Dwarf on entry; if the only Dwarf is also the one you want to keep back, attach anyway - ward {1} is what protects it.
+- The Black Arrow flashes in as instant-speed interaction that also contributes an artifact, and its one damage destroys a Dragon outright. Burn, Burn, Tree and Fern and Smaug, the Great Calamity are both answered this way.
+- Stone by Sunlight's second mode makes a creature an indestructible artifact, which both saves it and adds an artifact toward Storied.
+- Beard the board wipe: keep one Equipment in hand after a sweeper so The Lonely Mountain can keep making tokens.
+- Storied never turns off once achieved, even if the artifacts leave - do not rebuild the story from scratch after a wipe.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Dáin, Lord of the Iron Hills tax plus ward {1} from Thorin Oakenshield blunts the first attack; trade Dwarves and win the token race with Fíli |
+| Midrange | Out-value them: Dáin's Company digs, Kíli draws, and Bard doubles every token and extra draw |
+| Control | Deploy two threats at a time and keep a cheap Equipment in hand; The Lonely Mountain tokens survive sorcery-speed wipes and Dáin Ironfoot converts a single window into lethal |
+| Dragons | The Black Arrow's entry trigger destroys any Dragon it damages, which answers the Smaug payoffs before they attack |
+
+# Deck list (Arena import)
+
+```
+Anvil Anthem
+Deck
+4 Thorin Oakenshield
+4 Kíli the Resourceful
+3 Óin the Brave
+3 Dáin, Lord of the Iron Hills
+3 Dáin's Company
+3 Dáin Ironfoot
+3 Fíli the Pathfinder
+2 Iron Hills Blacksmith
+2 Ori, Keeper of Songs
+2 Dwalin, Weaponmaster
+2 Bard, King of Dale
+2 Dwarven Mattock
+1 The Black Arrow
+1 Well-Worn Spatula
+2 Stone by Sunlight
+3 The Lonely Mountain
+2 Lake-town
+2 Island
+8 Mountain
+8 Plains
+```

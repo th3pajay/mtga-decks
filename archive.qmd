@@ -2,13 +2,14 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-29 · **323** cards locked · **Hobbit 97/193** remaining
+**Card pool consumption** — cycle started 2026-09-29 · **330** cards locked · **Hobbit 90/193** remaining
 
-**102 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**103 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-10-09
 
 - **[Clachan Stampede](decks/2026-10-09-clachan-stampede.html)** — Naya (White / Green / Red) — Behold × Mount × Morbid  `combo` `behold` `mount` `morbid`
+- **[Anvil Anthem](decks/2026-10-09-anvil-anthem.html)** — WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck  `hobbit` `dwarves`
 
 ## 2026-10-08
 
