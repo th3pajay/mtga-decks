@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-10**:
 
 - **[Terracotta Charge](decks/2026-10-10-terracotta-charge.html)** — White-Black-Red-Green (no blue) — Attack matters × Earthbend  `combo` `attack-matters` `earthbend`
+- **[Ravenhill Rally](decks/2026-10-10-ravenhill-rally.html)** — WUG Recruit Company x draw-two payoffs x Eagles — The Hobbit set identity deck  `hobbit` `recruit`

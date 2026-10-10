@@ -1,0 +1,151 @@
+---
+title: "Ravenhill Rally"
+subtitle: "WUG Recruit Company x draw-two payoffs x Eagles — The Hobbit set identity deck"
+date: "2026-10-10"
+categories: ["hobbit", "recruit"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Green |
+| Archetype | Go-wide tribal-adjacent aggro (avg nonland CMC 2.94) |
+| Size | 60 |
+| Core mechanic | Lake-town recruit (draw a card, then discard; if you discarded a nonland card make a 1/1 white Human Soldier) |
+| Primary win | Human Soldier swarm: Bard's Company anthem, Belladonna Took counters, tokens doubled by Bard, King of Dale |
+| Secondary win | The Eagles Are Coming! alpha strike: return the team, then a 4/4 flying Bird Soldier per returned creature |
+| Land engine | Fountainport (1/1 Fish tokens and a sacrifice-a-token draw to re-trigger the draw-two payoffs) |
+| Verified score | overall 90.3 — synergy 71.0 — sim 57.7% — goldfish T4 0.637 — P(4 lands T4) 0.639 |
+
+# Overview
+
+The Hobbit's Lake-town commons and uncommons are secretly a single engine: recruit. Every recruit spell draws a card, discards a card and - if the discarded card was not a land - leaves a 1/1 white Human Soldier behind. Because recruit happens on your own turn, the recruit draw plus the draw step is already your second card of the turn, which switches on every "whenever you draw your second card each turn" payoff in the set.
+
+Ravenhill Rally is built on that loop and nothing else. Lake-town Lookout, Patient Instructor and Bard's Company are the recruit sources. Bard the Bowman and Lakeshore Apothecary are the second-draw payoffs that turn each recruit into a permanent +1/+1 counter (Bard the Bowman even hands out lifelink). Ravenhill Flock converts every one of those draws into a flying +1/+1 counter instead. Belladonna Took pays you off for the soldiers themselves - first token gains life, second token draws a card, third token adds a counter to the whole team - so the token stream feeds the draw stream, and the draw stream feeds the counter stream.
+
+The engine has two multipliers. Bard, King of Dale doubles both halves at once: each recruit makes two Soldiers instead of one, and every draw beyond your first each draw step draws two cards instead. Wizard's Staff makes a single creature's triggered ability trigger twice, which turns an attacking Bard's Company into two recruits (two cards, two Soldiers) every combat. One turn with either card out is usually enough to leave a board that cannot be raced.
+
+The green splash is not filler. Radagast of Rhosgobel discounts the first creature spell of each turn by two and gives it flash, so the recruit creatures can be deployed on the opponent's turn for an instant-speed draw-two, and the four-mana Company costs two. Abandoned Campground, Lush Portico and Hedge Maze provide the green and the fixing without giving up untapped white-blue sources.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Lake-town Lookout, Lakeshore Apothecary, Belladonna Took or The Queen of Dale. Land a recruit body early; do not trade the Lookout, its death trigger is a recruit |
+| Turns 2-4 | Patient Instructor and Bard the Bowman start the loop. Every recruit is a card, a Soldier and, with a payoff out, a +1/+1 counter |
+| Turns 4-6 | Bard's Company lands (at flash speed with Radagast or any Human) and the team becomes 2/2s and 3/3s. Wizard's Staff on the Company turns each attack into two recruits |
+| Turn 5-6 | Bard, King of Dale doubles tokens and non-first draws. From here the Soldier count grows four at a time: two per recruit, doubled |
+| Combo turn | With four or more creatures, kick The Eagles Are Coming! to return the whole team, then rebuild it - every creature that re-enters re-triggers its recruit |
+| Late game | Ravenhill Flock, now a 4/4-plus flier from all the draws, and Fountainport Fish close the game in the air |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Lake-town Lookout | One-mana recruit body; the death trigger is a recruit, so it is fine to trade it |
+| Patient Instructor | Recruit on entry plus vigilance; the two-drop that starts the draw engine |
+| Bard's Company | The engine's centre: +1/+1 to the other creatures, flash if you control a Human, and a recruit on entry and on every attack |
+| Bard the Bowman | Second-draw payoff: a +1/+1 counter and lifelink on each recruit draw |
+| Lakeshore Apothecary | Second-draw payoff and vigilance blocker; grows into a real threat on its own |
+| Belladonna Took | Token payoff: first token each turn gains 1 life, second draws a card, third puts a +1/+1 counter on every creature you control |
+| Bard, King of Dale | Doubles all tokens you create and doubles every non-first draw; both halves of the engine at once |
+| The Queen of Dale | Recruits off the opponent's first noncreature spell each turn, so interaction feeds your board |
+| Radagast of Rhosgobel | Green splash and curve-fixer: first creature spell each turn costs {2} less and gains flash |
+| Ravenhill Flock | Flying second-draw payoff; every card you draw adds a +1/+1 counter |
+| The Eagles Are Coming! | The combo finisher: return the team, then make a 4/4 white Bird Soldier with flying per returned creature |
+| Wizard's Staff | Trigger doubler; on Bard's Company it doubles the attack recruit, on Belladonna Took it doubles her token trigger |
+| Magnificent End | Five damage for {1}{W} once the target is tapped - the deck's answer to a blocker or a big threat |
+| Sound the Trumpets | Two-mana counter that recruits when it stops a cheap spell, so interaction advances the board |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Fountainport | The win-condition land: {3}, {T}, pay 1 life makes a 1/1 blue Fish (another Belladonna Took and anthem trigger), and {2}, {T}, sacrifice a token draws a card - a second draw on demand for Bard the Bowman, Lakeshore Apothecary and Ravenhill Flock |
+| Meticulous Archive | Plains Island: white and blue from one card, enters tapped and surveils 1 to smooth the next draws |
+| Lush Portico | Forest Plains: the green source that is also a white source, surveil 1 |
+| Hedge Maze | Forest Island: green plus blue, surveil 1 |
+| Abandoned Campground | White-blue that enters untapped as soon as any player is at 13 life or less, which is where this deck always plays |
+| Plains, Island, Forest | Basics for the long game; the deck only needs two green sources, so Forests stay few |
+
+## Curve and mana
+
+| Cost | Cards |
+|------|-------|
+| 1 | Lake-town Lookout, Lakeshore Apothecary |
+| 2 | Bard the Bowman, Belladonna Took, The Queen of Dale, The Eagles Are Coming!, Wizard's Staff |
+| 3 | Patient Instructor, Sound the Trumpets |
+| 4 | Bard's Company, Ravenhill Flock, Magnificent End, Radagast of Rhosgobel |
+| 6 | Bard, King of Dale |
+
+Twenty-four lands plus two surveil lands and fourteen recruit sources is enough to hit the fourth land on time; the deck's average nonland cost of 2.94 means it is usually double-spelling by turn four. Green is a splash of exactly two cards plus the Portico/Hedge Maze pair, so never keep a hand that needs Forest plus two blue sources.
+
+# Gameplay strategy
+
+## Early game
+
+Open on a one-drop recruit body and hold Patient Instructor until you can use the recruit. The lookahead is simple: a recruit on your turn is card neutral but board positive, and with Bard the Bowman or Lakeshore Apothecary on the battlefield it is also a +1/+1 counter and, for the Bowman, lifelink. Belladonna Took wants tokens, so do not fire The Eagles Are Coming! early just to cycle it.
+
+## Mid game and the combo turn
+
+The deck's explosive turn is The Eagles Are Coming! with kicker. With four creatures, the kicked spell returns all four to hand, and at the beginning of the next upkeep you get four 4/4 white Bird Soldiers with flying. That is sixteen power in the air for one card, and every creature you replay afterwards re-triggers recruit. Sequence it as the last action of your turn after attacking: the returned creatures are safe from sorcery-speed removal, the Birds arrive on the opponent's upkeep, and the rebuild turn is a fresh wave of draws and Soldiers. Bard, King of Dale turns that rebuild into four Soldiers per Company attack instead of two.
+
+## Win condition 2
+
+The ground swarm is the primary kill: Bard's Company plus Belladonna Took counters plus Bard, King of Dale doubling means a four-Soldier board becomes twenty power in two turns. When the opponent has a stalled ground board, switch to the air - Ravenhill Flock grows on every draw, The Eagles Are Coming! makes 4/4 fliers, and Fountainport adds Fish to the count for Belladonna Took.
+
+## Mulligan guide
+
+Keep any hand with two to four lands and at least one one- or two-mana body. Keep hands that have Meticulous Archive or Lush Portico even if the colours look awkward, because they are two colours on one card. Pitch hands that need both a Forest and double blue, hands with no creature, and hands with three or more four-drops and no early play.
+
+## Key interactions and edge cases
+
+- Recruit is a draw and a discard: the discard is a cost you can aim. Discard surplus lands to keep the Soldier, or discard a creature when you already have a board, and remember Bard, King of Dale changes the draw to two cards - but you still only discard one.
+- Wizard's Staff's trigger doubling applies to triggered abilities of the equipped creature, so the best hosts are Bard's Company (attack recruit twice), Belladonna Took (each token trigger twice) and Bard the Bowman (each second draw counters twice).
+- Bard, King of Dale's token doubling applies to every token, including The Eagles Are Coming! Birds (eight 4/4 fliers, not four) and Fountainport Fish.
+- The Eagles Are Coming! returns creatures you own, not just creatures you control, so it can rescue a stolen creature.
+- Magnificent End costs {3} less when it targets a tapped creature, so attack first, then kill the blocker for one mana.
+- Sound the Trumpets only recruits if the countered spell's mana value was 2 or less, so it is a tempo play, not a hard answer to a five-drop.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Wall up with Patient Instructor and Lakeshore Apothecary, trade the Lookout for a recruit, then stabilise with Bard the Bowman lifelink counters and Magnificent End |
+| Midrange | Go wide first, keep Bard's Company for flash, and use The Eagles Are Coming! to blank a sorcery-speed sweeper by returning the team |
+| Control | Deploy at flash speed with Radagast, hold Sound the Trumpets for their cheapest game-ending spell, and win with the Bird Soldier alpha strike rather than the ground |
+| Ramp | Race. The anthem plus doubled Soldiers is faster than most ramp payoffs; do not trade recruits for value, just attack |
+
+# Deck list (Arena import)
+
+```text
+Ravenhill Rally
+Deck
+4 Lake-town Lookout
+4 Patient Instructor
+4 Bard's Company
+3 Bard the Bowman
+3 Lakeshore Apothecary
+2 Belladonna Took
+2 Bard, King of Dale
+2 The Queen of Dale
+2 Radagast of Rhosgobel
+2 Ravenhill Flock
+3 The Eagles Are Coming!
+2 Wizard's Staff
+2 Magnificent End
+1 Sound the Trumpets
+4 Meticulous Archive
+3 Lush Portico
+2 Hedge Maze
+3 Abandoned Campground
+2 Fountainport
+5 Plains
+3 Island
+2 Forest
+```
