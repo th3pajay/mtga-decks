@@ -1,0 +1,122 @@
+---
+title: "Terracotta Charge"
+subtitle: "White-Black-Red-Green (no blue) — Attack matters × Earthbend"
+date: "2026-10-10"
+categories: ["combo", "attack-matters", "earthbend"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (no rotation risk) |
+| Colors | White, Black, Red, Green (four colours, no blue) |
+| Archetype | Aggro-combo — animated land swarm with attack payoffs |
+| Size | 60 cards (24 lands) |
+| Mechanic identity | Attack matters × Earthbend |
+| Primary win | Hasty land creatures with +1/+1 counters swing again and again, led by Bumi, Unleashed and Earth Rumble Wrestlers |
+| Secondary win | Dai Li Agents drains the table for X life on every attack; The Earth King turns attacks into a land flood |
+| Land as win condition | Ba Sing Se (a land that earthbends 2 on a loop) and Restless Bivouac (a land that animates, attacks and hands out +1/+1 counters) |
+
+## Overview
+
+Earthbend animates one of your own lands: it becomes a 0/0 land creature with haste, it receives N +1/+1 counters, and if it dies or is exiled the land returns to the battlefield tapped. Because the permanent is still a land, it keeps tapping for mana, it keeps counting for landfall, and it never truly leaves. That is the engine half of this deck.
+
+The other half is the attack step. Terracotta Charge is built so that every earthbend is also an attacker, and every attacker is also a payoff. Earthbend is a sorcery-speed threat only in the sense that you cast the spell — the land arrives with haste, so the turn you animate it is the turn it hits. From there the deck stacks attack triggers: Bumi, Unleashed untaps all your lands on combat damage and gives you a second combat phase in which only land creatures may attack, which is the same as saying "swing with the entire earthbent board again". The Earth King converts any attack by a power-4-or-greater creature into a stack of basic lands entering tapped, which is mana, landfall and fresh earthbend targets in one trigger. Earth Rumble Wrestlers gets +1/+0 and trample simply for controlling a land creature or having played a land this turn, which in this deck is always true.
+
+The fusion is the point: attack payoffs here do not want normal creatures, they want lands that are creatures. The deck therefore gets to run a land count worthy of a midrange deck, a creature count worthy of aggro, and a wipe-resistant threat base: sweepers that kill the animated lands return those lands to play tapped, ready to be animated again.
+
+## Approach
+
+### Game plan by phase
+
+| Phase | Turn | What you are doing |
+|---|---|---|
+| Set up | 1-2 | Rebellious Captives or Earth King's Lieutenant. Both are Allies, so they bank early counters and set up the Ally triggers. Origin of Metalbending is the cheap interactive spell. |
+| First animation | 3-4 | Earthbender Ascension (earthbend 2 plus a free basic land) or Earth Village Ruffians. Cast either, then pressure with the land creature while you keep developing. |
+| Engine online | 4-5 | Toph, Hardheaded Teacher, The Earth King, Toph, the First Metalbender. Every spell from here animates another land; every attack with a big creature fetches lands. |
+| Close | 5+ | Bumi, Unleashed for the double combat, Dai Li Agents for the drain, Badgermole to make every counter creature trample. |
+
+### Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Earthbend engines | Toph, Hardheaded Teacher; Earthbender Ascension; Earthbending Lesson; Bumi, Unleashed; Toph, the First Metalbender; Ba Sing Se | Ten earthbend sources total, several repeatable. Toph, Hardheaded Teacher animates a land every time you cast any spell, and adds an extra counter when that spell is a Lesson. |
+| Attack payoffs | Bumi, Unleashed; The Earth King; Earth Rumble Wrestlers; Dai Li Agents; Bitter Work; Restless Bivouac | The Earth King wants power 4 or greater attackers (the Bear token, Bumi, Badgermole, a 4/4 land, Earth Rumble Wrestlers with its land-creature bonus). Bitter Work draws a card off the same trigger. |
+| Counter payoffs | Ouroboroid; Badgermole; Earth King's Lieutenant; Suki, Courageous Rescuer | Ouroboroid adds its own power in counters to every creature at each combat, so counters, power and trample all compound. |
+| Ally support | Rebellious Captives; Earth King's Lieutenant; Suki, Courageous Rescuer | The Ally lines turn one token into a board of counter-carrying attackers; Suki rewards losing an animated land mid-turn with a fresh 1/1 Ally. |
+| Interaction | Origin of Metalbending; Earth Village Ruffians | Origin of Metalbending answers artifacts and enchantments, or protects a land creature with a counter and indestructible. Earth Village Ruffians trades down and animates a land. |
+
+### Lands as engines
+
+| Land | Why it is here |
+|---|---|
+| Ba Sing Se (2) | Adds green, and for {2}{G} it earthbends 2 at sorcery speed. A land that manufactures the win condition without spending a card from hand. |
+| Restless Bivouac (3) | Red-white source that animates into a 2/2 Ox for {1}{R}{W}, and puts a +1/+1 counter on a creature you control whenever it attacks. It is an attacker, an earthbend target and a counter engine at once. |
+| Fabled Passage (4) | Fixes any colour, triggers landfall for Earthbender Ascension, and gives Suki a permanent to replace the turn you crack it. |
+| Stomping Ground (4), Temple Garden (3), Sacred Foundry (1), Godless Shrine (1) | The four-colour core: red and green are the heaviest requirements (Toph, Bumi, Wrestlers, Bitter Work), white pays for Suki and Earth King's Lieutenant, black is a light splash for Dai Li Agents and the black-green half of Earth Village Ruffians. |
+| Forest, Plains, Swamp (3/2/1) | The basics. Fabled Passage fetches them, The Earth King floods them onto the battlefield tapped, and every one of them is a future earthbend target. |
+
+### Curve and mana
+
+Thirty-six spells and creatures, average mana value 3.4, on twenty-four lands. The deck is green-first: every two-drop in the deck is green or green-white (Rebellious Captives, Earth King's Lieutenant, Origin of Metalbending), and a Forest on turn one is almost always correct. Red is the second colour (Toph, Hardheaded Teacher, Bumi, Unleashed, Earth Rumble Wrestlers, Bitter Work), white is a genuine third colour (Suki, Earth King's Lieutenant, and the white half of Toph, the First Metalbender), and black is a splash paid for by Godless Shrine, Swamp, Fabled Passage and the {B/G} hybrid cost on Earth Village Ruffians. There is no turn-one play by design: the deck would rather hold Origin of Metalbending as interaction than deploy a 1/1.
+
+## Gameplay strategy
+
+### Early game
+
+Two-drops first. Rebellious Captives is the cleanest turn two: a 2/2 Ally that later, with six mana spare, turns into two +1/+1 counters plus an earthbend 2. Earth King's Lieutenant is the better card when you have more Allies behind it — it arrives, hands a counter to each other Ally, and grows a counter of its own every time another Ally appears, so Suki's tokens and the Captives keep growing it. Keep Origin of Metalbending in hand until it does something: the destroy mode answers an equipment or enchantment, and the counter-plus-indestructible mode is how a 4/4 land creature survives a fight it should lose.
+
+### Midgame and the combo turn
+
+The burst turn is any turn where two earthbends point at the same land. Earthbend sets the land's base to 0/0 and then adds counters, so repeated earthbends stack on one permanent: a land that gets earthbend 2 from Earthbender Ascension, then earthbend 4 from Earthbending Lesson, is an 8/8 that attacked the moment each spell resolved. With Toph, Hardheaded Teacher in play, every spell you cast afterwards adds another counter to a land for free, so a sequence like Captives, Origin of Metalbending, Earthbending Lesson can hand out three separate animations on one turn. Then attack, and let Bumi, Unleashed start the second combat: Bumi untaps all lands when it connects, and the extra phase only allows land creatures, which is exactly the board you have built.
+
+### Win condition 2
+
+Dai Li Agents is the non-combat kill. Whenever it attacks, each opponent loses X life and you gain X, where X is the number of creatures you control with +1/+1 counters. In this deck that is nearly the whole board, because animated lands carry counters and the Ally line piles counters onto itself. A typical board of an animated land, an earthbent Ba Sing Se creature, a Lieutenant and a Suki token is X = 4, and Bumi's extra combat doubles it in one turn. Against a ground stall the drain does not care about blockers at all.
+
+### Mulligan guide
+
+Keep any hand with two or three lands and a creature or an earthbend source. Keep hands that contain Earthbender Ascension: it is the only card that both animates a land and finds a land, so it fixes the deck's two failure modes at once. Go to six on one-land hands, on hands with no two-drop, and on hands that are only payoffs (The Earth King, Ouroboroid and Badgermole do nothing without either a land creature or a power-4 attacker). Never keep a hand whose only green source is Fabled Passage plus a Ba Sing Se that will enter tapped.
+
+### Key interactions and edge cases
+
+An earthbent land is a land in every zone: it still taps for mana while it is a creature, it triggers landfall when it enters or returns, and it triggers Suki, Courageous Rescuer when it dies during your turn, because "leaves the battlefield" is satisfied before the land comes back tapped. Earthbend targets a land you control, not a land that must be untapped, so Ba Sing Se can animate a Forest you already tapped for mana that turn — the new creature has haste and can attack immediately. The Earth King's trigger looks at creatures with power 4 or greater that are attacking, so it counts the Bear token, Bumi, Badgermole, Earth Rumble Wrestlers with its land-creature bonus, and any land carrying four or more counters; the lands it finds arrive tapped, which does not stop them from being attacked with next turn or animated the same turn by a spell. Restless Bivouac's counter trigger happens when it attacks, so it grows another attacker even in Bumi's land-only second combat. Ouroboroid's trigger is a beginning-of-combat counter placement, which means it also grows animated lands and the game's mana base if those lands are creatures.
+
+### Matchups
+
+Against aggro, the deck races well but wants to trade animated lands early: they come back tapped, so a chump block costs tempo rather than a card. Origin of Metalbending's indestructible mode and Suki's token generation are the stabilisers, and Dai Li Agents' lifegain swing is the race-flipper. Against control, the important resource is the land count, not the hand: Ba Sing Se, Restless Bivouac and Earthbender Ascension rebuild after a sweeper, and the earthbent lands return to play tapped, so a wipe usually leaves you with mana and a fresh animation on the next turn. Against other midrange decks, The Earth King is the trump: attacking with two power-4 creatures fetches two lands a turn, which both ramps and arms the next wave of animates. Against fast combo, the deck has almost no interaction beyond Origin of Metalbending's artifact and enchantment mode, so the plan is to race with haste land creatures and aim the second combat phase at the combo turn.
+
+## Deck list (Arena import)
+
+```text
+Terracotta Charge
+Deck
+3 Rebellious Captives
+3 Earth King's Lieutenant
+2 Origin of Metalbending
+3 Earth Village Ruffians
+3 Earthbender Ascension
+2 Suki, Courageous Rescuer
+1 Bitter Work
+3 Toph, Hardheaded Teacher
+3 The Earth King
+3 Earth Rumble Wrestlers
+2 Toph, the First Metalbender
+2 Earthbending Lesson
+1 Ouroboroid
+2 Bumi, Unleashed
+2 Dai Li Agents
+1 Badgermole
+4 Fabled Passage
+4 Stomping Ground
+3 Temple Garden
+1 Sacred Foundry
+1 Godless Shrine
+2 Ba Sing Se
+3 Restless Bivouac
+3 Forest
+2 Plains
+1 Swamp
+```

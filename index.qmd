@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-09**:
+Deck guides published **2026-10-10**:
 
-- **[Clachan Stampede](decks/2026-10-09-clachan-stampede.html)** — Naya (White / Green / Red) — Behold × Mount × Morbid  `combo` `behold` `mount` `morbid`
-- **[Anvil Anthem](decks/2026-10-09-anvil-anthem.html)** — WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck  `hobbit` `dwarves`
+- **[Terracotta Charge](decks/2026-10-10-terracotta-charge.html)** — White-Black-Red-Green (no blue) — Attack matters × Earthbend  `combo` `attack-matters` `earthbend`
