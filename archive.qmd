@@ -2,13 +2,14 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-29 · **370** cards locked · **Hobbit 78/193** remaining
+**Card pool consumption** — cycle started 2026-09-29 · **383** cards locked · **Hobbit 68/193** remaining
 
-**106 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**107 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-10-11
 
 - **[Flicker Clock](decks/2026-10-11-flicker-clock.html)** — WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win  `combo` `Impending` `Blink`
+- **[Fire and Feather](decks/2026-10-11-fire-and-feather.html)** — White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck  `hobbit` `wizards`
 
 ## 2026-10-10
 

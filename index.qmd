@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-11**:
 
 - **[Flicker Clock](decks/2026-10-11-flicker-clock.html)** — WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win  `combo` `Impending` `Blink`
+- **[Fire and Feather](decks/2026-10-11-fire-and-feather.html)** — White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck  `hobbit` `wizards`

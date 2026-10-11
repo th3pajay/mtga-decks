@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-11">
+
+<title>Fire and Feather – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-phases" id="toc-game-plan-phases" class="nav-link" data-scroll-target="#game-plan-phases">Game plan phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game-and-the-combo-turn" id="toc-mid-game-and-the-combo-turn" class="nav-link" data-scroll-target="#mid-game-and-the-combo-turn">Mid game and the combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Fire and Feather</h1>
+<p class="subtitle lead">White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">hobbit</div>
+    <div class="quarto-category">wizards</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 11, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 61%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (MTGA)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>White / Blue / Red</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Spellslinger tempo (Jeskai)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60</td>
+</tr>
+<tr class="odd">
+<td>Core mechanic</td>
+<td>Noncreature spells matter: Gandalf, Goblins’ Bane grows and pings each opponent, Glamdring makes instants and sorceries cost less, Uncover the Moon-Letters converts each cast into cards</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Gandalf, Goblins’ Bane plus a stream of cheap spells: every noncreature spell is a +1/+1 and one damage to each opponent, and Glamdring, Foe-hammer eventually makes those spells free</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Flying beatdown: Eagle of the Great Shelf grows off every other creature, Long Lake Nuisance and Velvetwing Butterflies attack over the top, and Restless Anchorage joins the air force as a 2/3 Bird land</td>
+</tr>
+<tr class="even">
+<td>Land engine</td>
+<td>Restless Anchorage (2/3 flying Bird, Map token on attack) and Restless Spire (2/1 first-strike Elemental, scry 1) — both attack for the win</td>
+</tr>
+<tr class="odd">
+<td>Verified score</td>
+<td>overall 90.4 — synergy 72.4 — sim 53.3% — goldfish T4 0.639 — P(4 lands T4) 0.642</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>The Hobbit set hides a spellslinger engine inside three cards. Gandalf, Goblins’ Bane is a three-mana 2/3 that reads: whenever you cast a noncreature spell, he gets +1/+1 and deals 1 damage to each opponent. Glamdring, Foe-hammer is a two-mana Equipment with no power bonus at all — instead it reduces the cost of every instant and sorcery you cast by the equipped creature’s power. Equip Glamdring to Gandalf and the two halves lock together: the Equipment is cheaper than any lord, and the discount scales with the very creature the spells are feeding.</p>
+<p>The rest of the deck exists to (a) turn the discount on and (b) keep the spell stream flowing. An Unexpected Party names Wizard and gives every Gandalf plus two plus two — eight Wizards in the deck, and each point of power on the equipped creature is another point off every spell. Flameshape, Gandalf’s own Adventure, exiles the top two cards and lets you play them while you control a Wizard; since Gandalf is a Wizard, he turns himself on. Uncover the Moon-Letters trades each noncreature cast for cards, and Riddles in the Dark tops the hand up in piles an opponent has to split for you.</p>
+<p>The pressure comes from the air. Eagle of the Great Shelf is a 2/5 flier that adds a counter-per-other-creature every attack, and the Lake-town recruit creatures — Long Lake Nuisance and Esgaroth Garrison — draw a card, discard a card and leave a 1/1 white Soldier behind when the discard is not a land. That Soldier is another body for the Eagle and another point of power for the Garrison, and the draw is another chance to find Gandalf or Glamdring. The two Restless manlands finish the job: Restless Anchorage becomes a 2/3 flying Bird, Restless Spire a 2/1 first striker, so even a stalled board keeps attacking.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Turns 1-2</td>
+<td>Bilbo, Luckwearer or a Turn-one Adventure: Gaze in Wonder taps blockers, Bilbo’s Gambit answers a spell. Do not spend Moment of Glory yet</td>
+</tr>
+<tr class="even">
+<td>Turns 2-3</td>
+<td>Land Gandalf, Goblins’ Bane, then Glamdring, Foe-hammer and equip it to him. From here every spell is a debuff on the opponent’s life total</td>
+</tr>
+<tr class="odd">
+<td>Turns 3-4</td>
+<td>Riddles in the Dark and Moment of Glory start the loop; the flashback on Moment of Glory becomes nearly free once Glamdring’s discount reaches four</td>
+</tr>
+<tr class="even">
+<td>Turns 4-5</td>
+<td>An Unexpected Party naming Wizard makes the whole Wizard team plus two plus two, which deepens the Glamdring discount for the rest of the game</td>
+</tr>
+<tr class="odd">
+<td>Combo turn</td>
+<td>With Uncover the Moon-Letters out, cast two or three cheap spells that each draw cards and discard the surplus; Gandalf pings two or three times and grows into a real threat in one turn</td>
+</tr>
+<tr class="even">
+<td>Late game</td>
+<td>Eagle of the Great Shelf and the Restless Anchorage Bird close from the air while Gandalf and Gandalf, Spark Starter hold the ground</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gandalf, Goblins’ Bane</td>
+<td>The engine: 2/3 for three, grow and ping each opponent on every noncreature spell</td>
+</tr>
+<tr class="even">
+<td>Flameshape</td>
+<td>His Adventure: exile the top two cards face down and play them while you control a Wizard</td>
+</tr>
+<tr class="odd">
+<td>Gandalf, Wandering Wizard</td>
+<td>4/5 with ward 3 for the long game; the biggest Glamdring carrier, and a Wizard for An Unexpected Party</td>
+</tr>
+<tr class="even">
+<td>Gandalf, Spark Starter</td>
+<td>Six-mana finisher: three damage divided as you choose on entry, reach to block fliers</td>
+</tr>
+<tr class="odd">
+<td>Glamdring, Foe-hammer</td>
+<td>The enabler: instants and sorceries cost less by the equipped creature’s power, so the loop turns free</td>
+</tr>
+<tr class="even">
+<td>Gleam of Death</td>
+<td>Glamdring’s Adventure: mill six and take every instant and sorcery, reloading the hand</td>
+</tr>
+<tr class="odd">
+<td>Uncover the Moon-Letters</td>
+<td>Cast a noncreature spell, draw X where X is the mana spent, discard two — the draw and the discard both feed Bilbo and Flameshape</td>
+</tr>
+<tr class="even">
+<td>An Unexpected Party</td>
+<td>Name Wizard: every Gandalf gets plus two plus two, and the Glamdring discount grows with the team</td>
+</tr>
+<tr class="odd">
+<td>At the Door</td>
+<td>Its Adventure: X 2/2 red Dwarf tokens when a wide turn is better than a tall one</td>
+</tr>
+<tr class="even">
+<td>Bilbo’s Gambit</td>
+<td>One-mana answer to a spell, and with the gift promised the opponent simply cannot cast for the rest of the turn</td>
+</tr>
+<tr class="odd">
+<td>Riddles in the Dark</td>
+<td>Two mana for the better of two piles an opponent splits — the best card selection in the deck</td>
+</tr>
+<tr class="even">
+<td>Moment of Glory</td>
+<td>A cheap counter now and a team-wide counter later from the graveyard via flashback</td>
+</tr>
+<tr class="odd">
+<td>Bilbo, Luckwearer</td>
+<td>Unblockable two-drop that loots on damage, so the spell count keeps climbing</td>
+</tr>
+<tr class="even">
+<td>Long Lake Nuisance</td>
+<td>Recruit flier: a card, a discard and usually a 1/1 Soldier</td>
+</tr>
+<tr class="odd">
+<td>Esgaroth Garrison</td>
+<td>Recruit body whose power equals the number of creatures, so it arrives large in a token board</td>
+</tr>
+<tr class="even">
+<td>Eagle of the Great Shelf</td>
+<td>The secondary win: a 2/5 flier that gains a counter per other creature every attack</td>
+</tr>
+<tr class="odd">
+<td>Velvetwing Butterflies</td>
+<td>Cheap flier with Gaze in Wonder, a one-mana tap-down Adventure</td>
+</tr>
+<tr class="even">
+<td>Old Thrush</td>
+<td>Two-mana flier that gains two life and fixes the next draw</td>
+</tr>
+<tr class="odd">
+<td>Evolving Wilds</td>
+<td>Fetch that finds whichever of the three colours the hand is missing</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 81%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the deck</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restless Anchorage</td>
+<td>The win-condition land: two mana turns it into a 2/3 white and blue Bird with flying, and attacking with it creates a Map token. It adds white or blue while it waits</td>
+</tr>
+<tr class="even">
+<td>Restless Spire</td>
+<td>The second manland: one blue and one red makes a 2/1 Elemental with first strike during your turn, and attacking with it scries 1</td>
+</tr>
+<tr class="odd">
+<td>Hallowed Fountain, Steam Vents, Sacred Foundry</td>
+<td>The three shock lands; pay two life to keep them untapped in the first three turns, take them tapped later</td>
+</tr>
+<tr class="even">
+<td>Evolving Wilds</td>
+<td>One fetch covers any of the three colours and thins the deck for the Restless lands</td>
+</tr>
+<tr class="odd">
+<td>Plains, Island, Mountain</td>
+<td>Eight basics keep the deck cheap and give Evolving Wilds real targets; the blue count is the highest because Gandalf’s second and third copies and every Adventure back face need blue</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 53%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Cost</th>
+<th>Cards</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Bilbo’s Gambit, Moment of Glory, Gaze in Wonder</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bilbo, Luckwearer, Glamdring, Foe-hammer, Old Thrush, Velvetwing Butterflies, Gandalf, Goblins’ Bane</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Riddles in the Dark, Long Lake Nuisance, Uncover the Moon-Letters, Gleam of Death</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Eagle of the Great Shelf, Esgaroth Garrison, An Unexpected Party</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Gandalf, Wandering Wizard</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Gandalf, Spark Starter</td>
+</tr>
+</tbody>
+</table>
+<p>Twenty-four lands, four of them fetches and two of them manlands, is enough to hit four lands on turn four in 64 percent of games. The average nonland cost sits at three, but the deck rarely taps out for it: Glamdring’s discount means the expensive half of the curve is paid for by the creature holding the sword, and the Adventures provide a second spell for the same card.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Open on Bilbo, Luckwearer or hold one mana for Bilbo’s Gambit. The goal for the first three turns is a Gandalf, Goblins’ Bane on the battlefield and a Glamdring in hand or on the stack — nothing else matters as much, because every turn after that the pair converts one card into a point of damage to the opponent. Gaze in Wonder is the best Turn-one play against a deck that tries to race: tapping their two best creatures is often a full turn of tempo.</p>
+</section>
+<section id="mid-game-and-the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-and-the-combo-turn">Mid game and the combo turn</h2>
+<p>Sequence the turn so the ping happens as many times as possible. Cast the Adventure half first when it is cheaper — Flameshape for one red, then Gandalf — because the Adventure is a noncreature spell that triggers him. With Uncover the Moon-Letters on the battlefield, cast spells from smallest to largest: each one draws X where X is the mana actually spent, so a discounted four-mana spell still draws four and the discards feed the graveyard for Moment of Glory’s flashback. Once Glamdring is attached to a four- or five-power Wizard, Riddles in the Dark, Bilbo’s Gambit and Moment of Glory all cost one or less, and the loop becomes: cast, ping, draw, discard, cast again.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>When the ground stalls, switch to the air. Eagle of the Great Shelf plus two or three Soldiers makes every attack a one-shot kill attempt, and An Unexpected Party naming Bird instead of Wizard turns Long Lake Nuisance, Velvetwing Butterflies and the Restless Anchorage Bird into a real clock — the naming choice is the deck’s main decision point, and against a removal-heavy opponent Bird is usually right because it spreads the bonus across more bodies over more turns. At the Door is the third option: name Dwarf after making X Dwarf tokens for an instant anthem.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep any two- to four-land hand that has a Gandalf, Goblins’ Bane or a Glamdring, and keep hands with an Evolving Wilds plus any two colours, because the fetch repairs the rest. Pitch hands with no blue source and no Gandalf — the deck cannot function without either; pitch hands that need two of the three shock lands untapped with only one land; and pitch hands with three or more five-plus drops and no early interaction.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>An Unexpected Party’s type is chosen as it enters, so decide before the first ping of the turn: Wizard grows the engine, Bird or Dwarf grows the clock.</li>
+<li>Glamdring’s discount is fixed by the equipped creature’s power at the moment of casting, so equip first, then cast. An Unexpected Party naming Wizard raises the discount by two on every Wizard.</li>
+<li>Flameshape needs a Wizard to play the exiled cards. Gandalf, Goblins’ Bane is a Wizard, so he satisfies his own Adventure; if he dies before you play them, they stay exiled face down.</li>
+<li>Uncover the Moon-Letters draws X where X is mana spent, not mana value, so a discounted spell draws less. Cast the big spells before Glamdring’s discount eats them.</li>
+<li>Moment of Glory’s flashback is a sorcery cast from the graveyard; it gives the counter to each other creature only when cast from a graveyard, so the first copy is a single counter and the flashback is a team pump.</li>
+<li>Bilbo’s Gambit returns target spell to its owner’s hand. The gift clause is optional but the Treasure is a real cost — give it when the lock matters more than the mana.</li>
+<li>Recruit discards, so a discarded nonland card makes a Soldier: with Esgaroth Garrison out, every recruit is also a power increase.</li>
+<li>Restless Anchorage enters tapped; do not count it as a land drop you can use, and remember it stops being a creature at end of turn, so it cannot block after attacking.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aggro</td>
+<td>Trade early with Bilbo’s Gambit and Gaze in Wonder, then race with the ping, which does not care about blockers. First-strike Restless Spire blocks well</td>
+</tr>
+<tr class="even">
+<td>Midrange</td>
+<td>Do not fight their best creature: keep Glamdring’s discount online, cast two spells a turn and let Gandalf grow past their blockers</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Hold An Unexpected Party until you can also cast a spell the same turn, and hold Bilbo’s Gambit for their sweeper — the gift clause means they cannot cast anything else that turn</td>
+</tr>
+<tr class="even">
+<td>Ramp</td>
+<td>Race. The ping plus flying damage is faster than a seven-mana payoff, and Flameshape’s exiled cards keep the pressure on after a wipe</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre class="text"><code>Fire and Feather
+Deck
+4 Gandalf, Goblins' Bane
+2 Gandalf, Wandering Wizard
+2 Gandalf, Spark Starter
+2 Eagle of the Great Shelf
+2 Esgaroth Garrison
+3 Long Lake Nuisance
+2 Velvetwing Butterflies
+2 Bilbo, Luckwearer
+1 Old Thrush
+4 Glamdring, Foe-hammer
+3 Riddles in the Dark
+3 Bilbo's Gambit
+2 Uncover the Moon-Letters
+2 An Unexpected Party
+2 Moment of Glory
+4 Evolving Wilds
+3 Hallowed Fountain
+2 Steam Vents
+2 Sacred Foundry
+2 Restless Anchorage
+2 Restless Spire
+4 Plains
+3 Island
+2 Mountain</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

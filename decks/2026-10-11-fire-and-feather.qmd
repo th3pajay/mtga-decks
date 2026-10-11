@@ -1,0 +1,158 @@
+---
+title: "Fire and Feather"
+subtitle: "White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck"
+date: "2026-10-11"
+categories: ["hobbit", "wizards"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Red |
+| Archetype | Spellslinger tempo (Jeskai) |
+| Size | 60 |
+| Core mechanic | Noncreature spells matter: Gandalf, Goblins' Bane grows and pings each opponent, Glamdring makes instants and sorceries cost less, Uncover the Moon-Letters converts each cast into cards |
+| Primary win | Gandalf, Goblins' Bane plus a stream of cheap spells: every noncreature spell is a +1/+1 and one damage to each opponent, and Glamdring, Foe-hammer eventually makes those spells free |
+| Secondary win | Flying beatdown: Eagle of the Great Shelf grows off every other creature, Long Lake Nuisance and Velvetwing Butterflies attack over the top, and Restless Anchorage joins the air force as a 2/3 Bird land |
+| Land engine | Restless Anchorage (2/3 flying Bird, Map token on attack) and Restless Spire (2/1 first-strike Elemental, scry 1) — both attack for the win |
+| Verified score | overall 90.4 — synergy 72.4 — sim 53.3% — goldfish T4 0.639 — P(4 lands T4) 0.642 |
+
+# Overview
+
+The Hobbit set hides a spellslinger engine inside three cards. Gandalf, Goblins' Bane is a three-mana 2/3 that reads: whenever you cast a noncreature spell, he gets +1/+1 and deals 1 damage to each opponent. Glamdring, Foe-hammer is a two-mana Equipment with no power bonus at all — instead it reduces the cost of every instant and sorcery you cast by the equipped creature's power. Equip Glamdring to Gandalf and the two halves lock together: the Equipment is cheaper than any lord, and the discount scales with the very creature the spells are feeding.
+
+The rest of the deck exists to (a) turn the discount on and (b) keep the spell stream flowing. An Unexpected Party names Wizard and gives every Gandalf plus two plus two — eight Wizards in the deck, and each point of power on the equipped creature is another point off every spell. Flameshape, Gandalf's own Adventure, exiles the top two cards and lets you play them while you control a Wizard; since Gandalf is a Wizard, he turns himself on. Uncover the Moon-Letters trades each noncreature cast for cards, and Riddles in the Dark tops the hand up in piles an opponent has to split for you.
+
+The pressure comes from the air. Eagle of the Great Shelf is a 2/5 flier that adds a counter-per-other-creature every attack, and the Lake-town recruit creatures — Long Lake Nuisance and Esgaroth Garrison — draw a card, discard a card and leave a 1/1 white Soldier behind when the discard is not a land. That Soldier is another body for the Eagle and another point of power for the Garrison, and the draw is another chance to find Gandalf or Glamdring. The two Restless manlands finish the job: Restless Anchorage becomes a 2/3 flying Bird, Restless Spire a 2/1 first striker, so even a stalled board keeps attacking.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Bilbo, Luckwearer or a Turn-one Adventure: Gaze in Wonder taps blockers, Bilbo's Gambit answers a spell. Do not spend Moment of Glory yet |
+| Turns 2-3 | Land Gandalf, Goblins' Bane, then Glamdring, Foe-hammer and equip it to him. From here every spell is a debuff on the opponent's life total |
+| Turns 3-4 | Riddles in the Dark and Moment of Glory start the loop; the flashback on Moment of Glory becomes nearly free once Glamdring's discount reaches four |
+| Turns 4-5 | An Unexpected Party naming Wizard makes the whole Wizard team plus two plus two, which deepens the Glamdring discount for the rest of the game |
+| Combo turn | With Uncover the Moon-Letters out, cast two or three cheap spells that each draw cards and discard the surplus; Gandalf pings two or three times and grows into a real threat in one turn |
+| Late game | Eagle of the Great Shelf and the Restless Anchorage Bird close from the air while Gandalf and Gandalf, Spark Starter hold the ground |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Gandalf, Goblins' Bane | The engine: 2/3 for three, grow and ping each opponent on every noncreature spell |
+| Flameshape | His Adventure: exile the top two cards face down and play them while you control a Wizard |
+| Gandalf, Wandering Wizard | 4/5 with ward 3 for the long game; the biggest Glamdring carrier, and a Wizard for An Unexpected Party |
+| Gandalf, Spark Starter | Six-mana finisher: three damage divided as you choose on entry, reach to block fliers |
+| Glamdring, Foe-hammer | The enabler: instants and sorceries cost less by the equipped creature's power, so the loop turns free |
+| Gleam of Death | Glamdring's Adventure: mill six and take every instant and sorcery, reloading the hand |
+| Uncover the Moon-Letters | Cast a noncreature spell, draw X where X is the mana spent, discard two — the draw and the discard both feed Bilbo and Flameshape |
+| An Unexpected Party | Name Wizard: every Gandalf gets plus two plus two, and the Glamdring discount grows with the team |
+| At the Door | Its Adventure: X 2/2 red Dwarf tokens when a wide turn is better than a tall one |
+| Bilbo's Gambit | One-mana answer to a spell, and with the gift promised the opponent simply cannot cast for the rest of the turn |
+| Riddles in the Dark | Two mana for the better of two piles an opponent splits — the best card selection in the deck |
+| Moment of Glory | A cheap counter now and a team-wide counter later from the graveyard via flashback |
+| Bilbo, Luckwearer | Unblockable two-drop that loots on damage, so the spell count keeps climbing |
+| Long Lake Nuisance | Recruit flier: a card, a discard and usually a 1/1 Soldier |
+| Esgaroth Garrison | Recruit body whose power equals the number of creatures, so it arrives large in a token board |
+| Eagle of the Great Shelf | The secondary win: a 2/5 flier that gains a counter per other creature every attack |
+| Velvetwing Butterflies | Cheap flier with Gaze in Wonder, a one-mana tap-down Adventure |
+| Old Thrush | Two-mana flier that gains two life and fixes the next draw |
+| Evolving Wilds | Fetch that finds whichever of the three colours the hand is missing |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Restless Anchorage | The win-condition land: two mana turns it into a 2/3 white and blue Bird with flying, and attacking with it creates a Map token. It adds white or blue while it waits |
+| Restless Spire | The second manland: one blue and one red makes a 2/1 Elemental with first strike during your turn, and attacking with it scries 1 |
+| Hallowed Fountain, Steam Vents, Sacred Foundry | The three shock lands; pay two life to keep them untapped in the first three turns, take them tapped later |
+| Evolving Wilds | One fetch covers any of the three colours and thins the deck for the Restless lands |
+| Plains, Island, Mountain | Eight basics keep the deck cheap and give Evolving Wilds real targets; the blue count is the highest because Gandalf's second and third copies and every Adventure back face need blue |
+
+## Curve and mana
+
+| Cost | Cards |
+|------|-------|
+| 1 | Bilbo's Gambit, Moment of Glory, Gaze in Wonder |
+| 2 | Bilbo, Luckwearer, Glamdring, Foe-hammer, Old Thrush, Velvetwing Butterflies, Gandalf, Goblins' Bane |
+| 3 | Riddles in the Dark, Long Lake Nuisance, Uncover the Moon-Letters, Gleam of Death |
+| 4 | Eagle of the Great Shelf, Esgaroth Garrison, An Unexpected Party |
+| 5 | Gandalf, Wandering Wizard |
+| 6 | Gandalf, Spark Starter |
+
+Twenty-four lands, four of them fetches and two of them manlands, is enough to hit four lands on turn four in 64 percent of games. The average nonland cost sits at three, but the deck rarely taps out for it: Glamdring's discount means the expensive half of the curve is paid for by the creature holding the sword, and the Adventures provide a second spell for the same card.
+
+# Gameplay strategy
+
+## Early game
+
+Open on Bilbo, Luckwearer or hold one mana for Bilbo's Gambit. The goal for the first three turns is a Gandalf, Goblins' Bane on the battlefield and a Glamdring in hand or on the stack — nothing else matters as much, because every turn after that the pair converts one card into a point of damage to the opponent. Gaze in Wonder is the best Turn-one play against a deck that tries to race: tapping their two best creatures is often a full turn of tempo.
+
+## Mid game and the combo turn
+
+Sequence the turn so the ping happens as many times as possible. Cast the Adventure half first when it is cheaper — Flameshape for one red, then Gandalf — because the Adventure is a noncreature spell that triggers him. With Uncover the Moon-Letters on the battlefield, cast spells from smallest to largest: each one draws X where X is the mana actually spent, so a discounted four-mana spell still draws four and the discards feed the graveyard for Moment of Glory's flashback. Once Glamdring is attached to a four- or five-power Wizard, Riddles in the Dark, Bilbo's Gambit and Moment of Glory all cost one or less, and the loop becomes: cast, ping, draw, discard, cast again.
+
+## Win condition 2
+
+When the ground stalls, switch to the air. Eagle of the Great Shelf plus two or three Soldiers makes every attack a one-shot kill attempt, and An Unexpected Party naming Bird instead of Wizard turns Long Lake Nuisance, Velvetwing Butterflies and the Restless Anchorage Bird into a real clock — the naming choice is the deck's main decision point, and against a removal-heavy opponent Bird is usually right because it spreads the bonus across more bodies over more turns. At the Door is the third option: name Dwarf after making X Dwarf tokens for an instant anthem.
+
+## Mulligan guide
+
+Keep any two- to four-land hand that has a Gandalf, Goblins' Bane or a Glamdring, and keep hands with an Evolving Wilds plus any two colours, because the fetch repairs the rest. Pitch hands with no blue source and no Gandalf — the deck cannot function without either; pitch hands that need two of the three shock lands untapped with only one land; and pitch hands with three or more five-plus drops and no early interaction.
+
+## Key interactions and edge cases
+
+- An Unexpected Party's type is chosen as it enters, so decide before the first ping of the turn: Wizard grows the engine, Bird or Dwarf grows the clock.
+- Glamdring's discount is fixed by the equipped creature's power at the moment of casting, so equip first, then cast. An Unexpected Party naming Wizard raises the discount by two on every Wizard.
+- Flameshape needs a Wizard to play the exiled cards. Gandalf, Goblins' Bane is a Wizard, so he satisfies his own Adventure; if he dies before you play them, they stay exiled face down.
+- Uncover the Moon-Letters draws X where X is mana spent, not mana value, so a discounted spell draws less. Cast the big spells before Glamdring's discount eats them.
+- Moment of Glory's flashback is a sorcery cast from the graveyard; it gives the counter to each other creature only when cast from a graveyard, so the first copy is a single counter and the flashback is a team pump.
+- Bilbo's Gambit returns target spell to its owner's hand. The gift clause is optional but the Treasure is a real cost — give it when the lock matters more than the mana.
+- Recruit discards, so a discarded nonland card makes a Soldier: with Esgaroth Garrison out, every recruit is also a power increase.
+- Restless Anchorage enters tapped; do not count it as a land drop you can use, and remember it stops being a creature at end of turn, so it cannot block after attacking.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Bilbo's Gambit and Gaze in Wonder, then race with the ping, which does not care about blockers. First-strike Restless Spire blocks well |
+| Midrange | Do not fight their best creature: keep Glamdring's discount online, cast two spells a turn and let Gandalf grow past their blockers |
+| Control | Hold An Unexpected Party until you can also cast a spell the same turn, and hold Bilbo's Gambit for their sweeper — the gift clause means they cannot cast anything else that turn |
+| Ramp | Race. The ping plus flying damage is faster than a seven-mana payoff, and Flameshape's exiled cards keep the pressure on after a wipe |
+
+# Deck list (Arena import)
+
+```text
+Fire and Feather
+Deck
+4 Gandalf, Goblins' Bane
+2 Gandalf, Wandering Wizard
+2 Gandalf, Spark Starter
+2 Eagle of the Great Shelf
+2 Esgaroth Garrison
+3 Long Lake Nuisance
+2 Velvetwing Butterflies
+2 Bilbo, Luckwearer
+1 Old Thrush
+4 Glamdring, Foe-hammer
+3 Riddles in the Dark
+3 Bilbo's Gambit
+2 Uncover the Moon-Letters
+2 An Unexpected Party
+2 Moment of Glory
+4 Evolving Wilds
+3 Hallowed Fountain
+2 Steam Vents
+2 Sacred Foundry
+2 Restless Anchorage
+2 Restless Spire
+4 Plains
+3 Island
+2 Mountain
+```
