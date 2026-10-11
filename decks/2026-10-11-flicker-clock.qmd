@@ -1,0 +1,159 @@
+---
+title: "Flicker Clock"
+subtitle: "WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win"
+date: "2026-10-11"
+categories: ["combo", "Impending", "Blink"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black / Green |
+| Archetype | Low-curve evasive aggro-combo (avg nonland CMC 3.31, most of it cast at the impending cost) |
+| Size | 60 |
+| Core mechanics | Impending (Overlords cast as cheap non-creatures that still trigger on entry) x Blink (exile and return your own creatures to re-trigger them) |
+| Primary win | Two 2/1 flying Insects every time an Overlord enters or attacks, plus the small fliers, chained with blink until the air is full |
+| Secondary win | Infinite drain: Bloodthirsty Conqueror plus Enduring Tenacity turns any single life-loss or life-gain event into a lethal loop |
+| Land win condition | Rogue's Passage makes the biggest flier unblockable for the last attack |
+| Land engine | Everywhere tokens from Overlord of the Hauntwoods, the four-colour fixer the deck cannot cast spells without |
+| Verified score | overall 76.8 — synergy 79.7 — sim 52.3 — goldfish T4 0.631 — P(4 lands by T4) 0.635 |
+
+# Overview
+
+Impending and blink look like opposites: one is a countdown that keeps a permanent from being a creature, the other is an instant-speed loop that keeps putting creatures back onto the battlefield. Flicker Clock uses each one to pay for the other.
+
+The Overlords are the deck's engine pieces. Each of them reads "whenever this permanent enters or attacks", so Impending turns a six-mana 6/6 into a three or four-mana spell that already pays you once on the way in: Overlord of the Mistmoors makes two 2/1 white Insects with flying, Overlord of the Floodpits draws two cards, Overlord of the Hauntwoods makes a tapped land token named Everywhere that has every basic land type. The time counters are the clock in the deck's name — four end steps later the Overlord is a creature, and from then on every attack is another trigger. Blink is what makes that cheap: Personify for two mana, Another Round for three, or Abuelo, Ancestral Echo's repeatable activation put the permanent back onto the battlefield, and the enters half of the trigger fires again for the price of the flicker spell rather than the Overlord's mana cost.
+
+The second half of the engine is the drain package, and it is where the deck stops being a fair token deck. Bloodthirsty Conqueror gains you the life an opponent loses; Enduring Tenacity makes an opponent lose the life you gain. Together they form a mandatory loop with no exit: one life gained is one life drained, which is one life gained. Any single drain or lifegain event ends the game, and this deck has more of those than it has lands: Dream Beavers drains on entry, Virulent Emissary gains a life every time any other creature enters, Sanguine Evangelist leaves a flying Bat behind, Kyoshi Warriors brings an Ally, the Overlords bring Insects, and Personify leaves a Shapeshifter token. Every flicker in the deck is therefore also a combo piece.
+
+The mana is the honest cost of a four-colour deck built on basics. Overlord of the Hauntwoods is not optional here: each Everywhere token is a Plains, Island, Swamp, Mountain and Forest at once, which is exactly the fixing a WUBG deck with eight colourless utility lands needs. Do not trade it and do not blink it into a board where you cannot use the extra land.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Dream Beavers or Virulent Emissary. Both are one-mana and both start the drain count. Abuelo, Ancestral Echo on turn two if the hand is light |
+| Turns 2-4 | Impending the cheap Overlords: Hauntwoods and Floodpits cost {1}{G}{G} and {1}{U}{U}, so a turn-three Everywhere land or a two-card filter happens while the rest of the board develops |
+| Turns 3-5 | Sanguine Evangelist and Kyoshi Warriors widen the board. Personify and Abuelo start flickering the two-drop drain creatures |
+| Turns 4-6 | Overlord of the Mistmoors at its impending cost ({2}{W}{W}) is four mana for two fliers now and a 6/6 later. Flickering it is the deck's best rate |
+| Combo turn | With Conqueror and Tenacity both on the battlefield, any creature entering ends the game. Flicker anything, or simply attack with a Bat |
+| Late game | Another Round with X at one or more returns the whole team repeatedly; with the Overlords out each pass adds two Insects, and Rogue's Passage pushes the damage through |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Dream Beavers | One-mana 1/1 flier, drains each opponent 1 and gains you 1 on entry, smooths the draw with scry 1. The cheapest drain event in the deck |
+| Virulent Emissary | One-mana 1/1 with deathtouch that gains a life on every other creature entering; the non-combo half of the drain engine |
+| Abuelo, Ancestral Echo | Two-mana 2/2 flier with ward. Its activation blinks one of your creatures or artifacts, and the creature returns at the beginning of the next end step |
+| Sanguine Evangelist | Three mana for a 2/1 that brings a 1/1 flying Bat when it enters or dies, and gives the team battle cry |
+| Kyoshi Warriors | Four mana for a 3/3 that brings a 1/1 Ally; two bodies for one card, and two drain triggers with the payoffs out |
+| Overlord of the Mistmoors | The main payoff: two 2/1 white Insects with flying every time it enters or attacks. Impending 4 for {2}{W}{W} |
+| Overlord of the Hauntwoods | The mana engine: a tapped land token with every basic land type on every entry or attack. Impending 4 for {1}{G}{G} |
+| Overlord of the Floodpits | A 5/3 flier that filters two cards on every entry or attack. Impending 4 for {1}{U}{U} |
+| Bloodthirsty Conqueror | 5/5 flying deathtouch; whenever an opponent loses life you gain that much. One half of the kill |
+| Enduring Tenacity | Whenever you gain life, target opponent loses that much. The other half; it also comes back as an enchantment when it dies |
+| Personify | Two-mana instant flicker that leaves a 1/1 changeling behind, so it is never a card spent for nothing |
+| Another Round | The mass flicker: exile and return any number of your creatures, then repeat X more times. With two Overlords out this is a lethal alpha strike |
+| Rogue's Passage | The win-condition land: unblockable for the last attacker |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|------|---------------------------|
+| Rogue's Passage | The land that closes games: {4}, {T} makes a target creature unblockable, so the 6/6 Overlord or a large flier cannot be chumped |
+| Evolving Wilds | Fetches whichever of the four basics is missing; the cheapest way to keep a WUBG deck on colour |
+| Terramorphic Expanse | Second copy of the same effect; between them the deck has four any-basic fetch lands |
+| Crystal Grotto | Scries 1 on entry and turns {1} into any colour, which is how Blue or Green gets paid for on a five-land hand |
+| Plains, Island, Swamp, Forest | Seventeen basics. The green count is deliberately low because Hauntwoods is a green card that makes its own lands |
+| Everywhere tokens | Not a card in the deck, but the deck's real fixing: each Overlord of the Hauntwoods entry is a land that is all five basic types |
+
+## Curve and mana
+
+| Cost | Cards |
+|------|-------|
+| 1 | Dream Beavers, Virulent Emissary |
+| 2 | Personify |
+| 3 | Abuelo, Ancestral Echo, Sanguine Evangelist |
+| 4 | Kyoshi Warriors |
+| 5 | Bloodthirsty Conqueror, Overlord of the Hauntwoods, Overlord of the Floodpits |
+| 7 | Overlord of the Mistmoors |
+
+The listed costs overstate the deck. Overlord of the Mistmoors is a seven-mana card that is usually cast for its impending cost of four, the other two Overlords are five-mana cards cast for three, so the average nonland cost of 3.31 plays closer to three. Twenty-four lands plus four fetch lands is what carries a four-colour deck to the fourth land on time at 0.635. The eight colourless utility lands mean the deck needs basics, so keep hands that show three colours rather than two perfect and one missing.
+
+# Gameplay strategy
+
+## Early game
+
+Open with a one-drop. Dream Beavers is the best of them because the drain is damage and the scry is a free look; Virulent Emissary is the better blocker and the better card once the board is wide. Turn two is Abuelo, Ancestral Echo if you have it, because a 2/2 flier that threatens a repeatable flicker changes how the opponent attacks. Do not spend Personify on a one-drop just to gain a card's worth of value; hold it for a creature the opponent must answer.
+
+## Mid game and the combo turn
+
+The first Overlord to impending is Overlord of the Hauntwoods, because the Everywhere land is the mana for everything afterwards. The second is whatever the hand supports: Floodpits if the hand is short on action, Mistmoors if you want the clock. Once an Overlord is on the battlefield, Personify and Abuelo are two-mana repeat triggers of its enters ability, which is why the deck plays eight cheap flicker effects around seven Overlords.
+
+The actual kill is Bloodthirsty Conqueror plus Enduring Tenacity. With both on the battlefield, one life gained is one life drained, which is one life gained, with no player choice to break the chain: an opponent at any life total loses the game the moment a single drain or lifegain trigger resolves. Chain it from Dream Beavers entering, from Virulent Emissary watching any creature enter, from a Bat token, or from an Overlord's Insects. Against opponents who can remove the pair, Another Round and the Overlords are the plan B, and Rogue's Passage is how the plan B actually finishes.
+
+## Win condition 2
+
+When the drain pair is answered or never arrives, the deck wins on the classic evasion axis. Overlord of the Mistmoors makes two 2/1 fliers per entry or attack, Another Round with X at two makes that three times over in one turn, and Sanguine Evangelist's Bats and Kyoshi Warriors' Allies add bodies to the count. Rogue's Passage then removes the only relevant blocker, and Overlord of the Hauntwoods makes the extra lands so the passage and the Overlords can both be paid for. Note that Another Round also re-triggers Virulent Emissary's lifegain once per pass, so a large Another Round can end the game through the drain loop instead of through damage.
+
+## Mulligan guide
+
+Keep two to four lands with at least two of the four colours showing and one creature that costs one or two. Keep any hand with Rogue's Passage plus an Overlord, because those hands have a real clock. Pitch hands with only one colour of source and no Crystal Grotto, hands with Overlords but no early play, and hands with both copies of Enduring Tenacity and no Conqueror and no creatures.
+
+## Key interactions and edge cases
+
+- Impending means the Overlord is not a creature while time counters remain, so creature-only flickers (Personify, Abuelo, Another Round) cannot target it until the last counter comes off. Blink the small creatures instead; the Overlord still triggers once on entry, and the counters tick down every end step, including your opponent's.
+- Overlord of the Hauntwoods makes a tapped land token, so it is mana for the following turn, not the current one. Plan the Everywhere land one turn ahead of the Overlord you want to cast with it.
+- Abuelo, Ancestral Echo returns the exiled creature at the beginning of the next end step, not immediately. It is a slow flicker with a fast body; use it on the opponent's end step when you can, so the creature comes back before your own turn.
+- Enduring Tenacity returns as an enchantment when it dies, not as a creature, and it still drains. Do not let the opponent's removal convince you the combo is gone.
+- Bloodthirsty Conqueror's lifegain triggers on any life loss, including damage and combat, so the loop can start from a combat step rather than from a spell.
+- Another Round returns creatures under their owners' control, so it also resets a creature an opponent has stolen.
+- Crystal Grotto and the fetch lands enter or cost mana to use, so an opening hand of Crystal Grotto plus two fetch lands is a slow hand even with three lands in it.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with fliers rather than trade on the ground. Dream Beavers and Virulent Emissary chump well, and Virulent Emissary's deathtouch makes the opponent's attacks worse |
+| Midrange | Impending the Overlords early forces them to answer a permanent that is not even a creature yet, and the drain pair punishes any board stall |
+| Control | Do not overcommit into a sweeper; keep a flicker in hand so that a board wipe is followed by a rebuild, and hold the drain pair until both halves can be deployed in one turn |
+| Ramp | The flier clock plus Rogue's Passage is usually fast enough. Aim the removal at their payoff, not at their mana |
+
+# Iterations
+
+| Round | Change | Metric delta |
+|-------|--------|--------------|
+| v1 to v2 | v1 was a midrange value build: -2 Overlord of the Balemurk, -2 Wispdrinker Vampire, -2 Case of the Uneaten Feast, -1 Shroudstomper, -2 Dreadwing Scavenger, -2 Banishing Light, -2 Stroke of Midnight, -2 Daydream, -1 Overlord of the Hauntwoods; +4 Dream Beavers, +4 Kyoshi Warriors, +4 Sanguine Evangelist, +2 Virulent Emissary, +1 Abuelo, +1 Personify. Reason: the gate that failed was the simulated win rate, and the midrange shell could not close; the fix was a lower curve and a faster clock in the same colours and the same two mechanics | sim 47.7 to 52.3; synergy 74.2 to 79.7; goldfish T4 0.633 to 0.631; P(4 lands T4) 0.647 to 0.635 |
+
+# Deck list (Arena import)
+
+```text
+Flicker Clock
+Deck
+4 Dream Beavers
+4 Virulent Emissary
+4 Abuelo, Ancestral Echo
+4 Sanguine Evangelist
+4 Kyoshi Warriors
+3 Overlord of the Mistmoors
+2 Overlord of the Hauntwoods
+2 Overlord of the Floodpits
+2 Bloodthirsty Conqueror
+2 Enduring Tenacity
+3 Personify
+2 Another Round
+5 Plains
+4 Island
+5 Swamp
+3 Forest
+2 Evolving Wilds
+2 Terramorphic Expanse
+2 Crystal Grotto
+1 Rogue's Passage
+```
