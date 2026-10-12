@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-29 · **383** cards locked · **Hobbit 68/193** remaining
+**Card pool consumption** — cycle started 2026-09-29 · **398** cards locked · **Hobbit 68/193** remaining
 
-**107 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**108 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-10-12
+
+- **[Veiled Cavalry](decks/2026-10-12-veiled-cavalry.html)** — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn  `combo` `disguise` `saddle`
 
 ## 2026-10-11
 

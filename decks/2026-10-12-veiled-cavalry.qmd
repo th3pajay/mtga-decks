@@ -1,0 +1,164 @@
+---
+title: "Veiled Cavalry"
+subtitle: "Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn"
+date: "2026-10-12"
+categories: ["combo", "disguise", "saddle"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black / Red / Green (five-colour) |
+| Archetype | Low-curve aggro-combo built on cast-for-{3} bodies |
+| Size | 60 cards, 25 lands, 35 spells (avg nonland CMC 2.63) |
+| Core mechanics | Disguise (cast face down for {3} as a 2/2 with ward {2}, turn face up later for value) x Saddle (tap creatures with total power N to make a Mount attack better) |
+| Primary win | Pyrotechnic Performer turns every face-up flip into damage equal to that creature's power to each opponent — a burn kill that ignores blockers |
+| Secondary win | Saddled Mounts: Seraphic Steed Angels, Guardian Sunmare free tutors, Ornery Tumblewagg counter doubling, Crowd-Control Warden trampling over |
+| Land win condition | Rogue's Passage makes the biggest attacker unblockable; Branch of Vitu-Ghazi is a land that comes down face down as a 2/2 saddler and flips for two mana of any colour |
+| Verified score | overall 63.4 - synergy 74.3 - sim 52.0 (55/53/48) - goldfish T4 0.659 - P(4 lands by T4) 0.666 |
+
+# Overview
+
+Disguise and Saddle are two mechanics that have never needed each other, and that is exactly why they fit. A disguise card is cast face down for three generic mana as a 2/2 with ward {2}: a cheap, colourless body that nothing in the deck's mana base has to support and that removal has to pay two extra mana to touch. Saddle asks you to tap any number of other creatures with total power N. A face-down 2/2 is power 2, so one disguise body saddles anything with Saddle 1 or 2, and two of them saddle the Saddle 4 payoffs. The same body then turns face up whenever the colour arrives, and the flip is where the deck actually wins.
+
+Pyrotechnic Performer is the reason. It says that whenever it or another creature you control is turned face up, that creature deals damage equal to its power to each opponent. Flipping is a special action that does not use the stack and cannot be responded to, so the damage is not something an opponent can stop by killing the creature first. Hunted Bonebrute is a 6/2 for {2}{B} with a flip cost of only {1}{B}: six damage to each opponent, once, for two mana. Concealed Weapon is an equipment that is itself a disguise card, and when it turns face up it attaches for free and gives +3/+0, so the same Bonebrute flip becomes nine damage to each opponent. Crowd-Control Warden enters or flips with a +1/+1 counter for every other creature you control, and Greenbelt Radical gives the whole team a counter and trample on the way up. Every flip in the deck is a resource, and the board that was saddling your Mounts is the same board that gets flipped for damage.
+
+The two halves share a turn structure. Early on the deck plays as an aggro deck: face-down 2/2s, cheap Mounts that turn those taps into Angels, Treasures, drain, and free tutors. Later it plays as a burn deck: the disguise bodies are already on the battlefield, so the cost of turning them face up is the only mana the kill requires, and Branch of Vitu-Ghazi adds two mana of any one colour when it flips, which is exactly the mana a multi-flip turn needs.
+
+The mana base is honest about being five colours: it is basics plus colourless fixers, and the disguise cost of {3} is the reason that works. Face-down bodies never need a colour, so the coloured lands exist only for the seven coloured castings and the flip costs that matter that turn.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Forum Familiar or Nervous Gardener face down for {3} on turn two is the default opener: a 2/2 with ward {2} that draws removal and blocks. If you have a coloured land pair instead, Gilded Ghoda or Seraphic Steed come down ready to be saddled |
+| Turns 2-4 | Mounts arrive (Gilded Ghoda, Caustic Bronco, Ornery Tumblewagg, Seraphic Steed). Saddle them with the face-down 2/2s; the bodies stay untapped-and-flippable only if the Mount needs them, and Dog Walker's vigilance means it can saddle and attack in the same turn |
+| Turns 3-5 | Pyrotechnic Performer lands, ideally for its own disguise cost of {R} or face down if red is missing. From here every face-up flip is damage. Hunted Bonebrute and Bubble Smuggler are the payload flips; Concealed Weapon makes them bigger |
+| Combo turn | Two or three flips in one turn with the Performer out is 10-15 damage to each opponent. Branch of Vitu-Ghazi's flip adds two mana of any colour mid-turn to pay for the next flip |
+| Late game | Guardian Sunmare saddled tutors a free Pyrotechnic Performer, Ornery Tumblewagg, or second Mount onto the battlefield every attack; Rogue's Passage pushes the largest attacker through for the last points |
+| Battle of attrition | Forum Familiar bounces a flipped creature back to hand so it can be re-cast face down and flipped again, which re-arms the Performer without a second copy |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Pyrotechnic Performer | Payoff and engine. {1}{R} 3/2, Disguise {R}. Every face-up flip deals that creature's power to each opponent |
+| Hunted Bonebrute | Finisher flip. {2}{B} 6/2 menace, Disguise {1}{B} — the cheapest two mana for six damage in the deck. Its death trigger drains three more |
+| Dog Walker | Saddle fuel that does not stop attacking. {R}{W} 3/1 vigilance, Disguise {R/W}{R/W}; flips into two 1/1 Dogs, which then saddle the next Mount |
+| Crowd-Control Warden | Body and Saddle-4 enabler. {3}{G}{W}; enters or flips with a +1/+1 counter per other creature you control, so it routinely lands as a 6/6 or larger |
+| Bubble Smuggler | Flip payload. {1}{U} 2/1, Disguise {5}{U}; turning it face up puts four +1/+1 counters on it, and the flip itself is a Performer trigger for six |
+| Nervous Gardener | Fixing. {1}{G} 2/2, Disguise {G}; flips to tutor a basic land into hand, which is how the fifth colour is found on demand |
+| Forum Familiar | Loop piece. {W} 1/1, Disguise {1}{W}; flips to bounce another permanent you control (a flipped creature, or a spent Branch of Vitu-Ghazi) and grows itself |
+| Exit Specialist | Evasion and tempo. {1}{U} 2/1 that cannot be blocked by power 3 or greater; flips to bounce an opposing creature |
+| Concealed Weapon | Damage multiplier. {1}{R} equipment, itself a disguise card: +3/+0, attaches free when it flips, Equip {1} after that |
+| Greenbelt Radical | Team pump. {3}{G} 4/4; flips to put a +1/+1 counter on each creature you control and give the team trample for the turn |
+| Gilded Ghoda | Fixing and ramp. {1}{R} 2/2, Saddle 1; attacks while saddled to make a Treasure, which pays for the next face-down body or a flip |
+| Caustic Bronco | Reach and drain. {1}{B} 2/2, Saddle 3; attacking while saddled drains each opponent for the mana value of the revealed card instead of costing you that life |
+| Seraphic Steed | Win condition two. {G}{W} 2/2 first strike lifelink, Saddle 4; every saddled attack makes a 3/3 white Angel with flying |
+| Ornery Tumblewagg | Counter engine. {2}{G}, Saddle 2; puts a counter on a creature at the start of combat, and doubles all counters on a creature when it attacks saddled |
+| Guardian Sunmare | Engine payoff. {3}{W}{W} 5/5 with ward {2}, Saddle 4; saddled attacks tutor any nonland permanent with mana value 3 or less directly onto the battlefield |
+
+## Lands as engines
+
+| Land | What it does for the plan |
+|------|---------------------------|
+| Branch of Vitu-Ghazi | A land that is also a disguise card: cast it face down for {3} as a 2/2 saddler, and its flip adds two mana of any one colour that does not drain between steps — the enabler for a multi-flip kill turn |
+| Rogue's Passage | {4}, {T}: target creature cannot be blocked. The last-attack land: use it on the saddled Seraphic Steed, the oversized Warden, or a Bonebrute |
+| Uncharted Haven | Enters tapped, taps for any colour: the only land that casts every coloured spell in the deck on its own |
+| Terramorphic Expanse | Fetches the basic you are missing, and shuffles away the cards Guardian Sunmare sends to the bottom |
+| Forest / Plains / Island / Swamp / Mountain | Four Forest, four Plains, three Island, three Swamp, two Mountain. Green and white first (Mounts, Dog Walker, Warden), then the flip colours |
+
+## Curve and mana
+
+Twenty-five lands: three Uncharted Haven, two Branch of Vitu-Ghazi, two Rogue's Passage, two Terramorphic Expanse, and sixteen basics. There are no dual lands, so the disguise mechanic is doing the fixing: a face-down creature costs {3} from any combination of lands, and roughly a third of the deck is played that way. Spend the early lands on the colours you actually need to cast (white for Dog Walker and Seraphic Steed, green for the Mounts and Gardener, black for Bonebrute), and let the fetch lands and Uncharted Haven carry the rest.
+
+The nonland curve is 2 one-drops, 21 twos, 5 threes, 2 fours, 5 fives: low enough that the deck plays a spell every turn from turn two, and deliberately so, because the sim gate on turn-four consistency is what a five-colour basics deck usually fails.
+
+# Gameplay strategy
+
+## Early game (turns 1-3)
+
+- The default turn two is a face-down disguise creature. It is a 2/2 with ward {2} for three generic mana: it blocks almost everything, and any removal aimed at it costs the opponent two extra mana.
+- Turn two with real colours: Gilded Ghoda (Treasure engine) or Seraphic Steed (Angel engine) with a face-down body behind them.
+- Do not race to flip. Flipping without Pyrotechnic Performer on the battlefield spends mana for a body you already had. The exception is Nervous Gardener ({G}) when you are missing a colour, and Hunted Bonebrute when the 6/2 body ends the game.
+
+## Mid game (turns 4-6)
+
+- Saddle whenever it is free. A 2/2 face-down body tapped to saddle a Mount is not wasted: it can still be turned face up later, and it can still block on the following turn. Saddle only as a sorcery, so decide at the start of combat whether the body attacks or rides.
+- Keep track of total power for the Saddle 4 payoffs. Two face-down 2/2s, or one flipped Crowd-Control Warden, covers Seraphic Steed and Guardian Sunmare; Dog Walker's Dog tokens cover anything with Saddle 2.
+- Guardian Sunmare is the deck's best tutor: every saddled attack puts a Pyrotechnic Performer, Ornery Tumblewagg, or another Mount onto the battlefield directly, which is one more flip trigger and one more body with no card spent.
+- Ornery Tumblewagg plus Crowd-Control Warden is the combat half of the combo: the Warden flips with counters equal to your board, then the Tumblewagg doubles that number at the start of the next combat.
+
+## The combo turn
+
+1. Have Pyrotechnic Performer on the battlefield (face up) and at least two disguise creatures already face down.
+2. Turn the biggest one face up. Hunted Bonebrute for {1}{B} is six damage to each opponent; with Concealed Weapon attached beforehand it is nine. Bubble Smuggler for {5}{U} is six as well and leaves a 6/5 behind. Flipping the Performer itself is three.
+3. Turn a second body face up. Two flips in a turn with a Performer out is usually lethal.
+4. If a flip is one mana short, flip Branch of Vitu-Ghazi: it adds two mana of any one colour and that mana does not drain at end of step. This is the turn's tutor for its own combo.
+5. If the opponent survives, attack with whatever is standing, using Rogue's Passage on the largest creature.
+
+## Win condition 2: the saddled Mounts
+
+The combat plan does not need the Performer. Seraphic Steed makes a 3/3 flying Angel on every saddled attack, and saddle 4 is two face-down bodies or one Warden. Guardian Sunmare adds a free permanent per saddled attack. Ornery Tumblewagg doubles the counters that Crowd-Control Warden, Bubble Smuggler, Greenbelt Radical and Seraphic Steed's own counters create, so a board of 2/2s becomes a board of 6/6s in two combats. Greenbelt Radical's flip gives the team trample on the turn everything swings, Caustic Bronco drains each opponent for a card's mana value, and Rogue's Passage makes the largest attacker unblockable.
+
+## Mulligan guide
+
+- Keep: two or three lands that include at least one of white, green or black, plus a turn-two face-down body or a two-mana Mount. Five-colour hands without Uncharted Haven or a fetch land are slow even when they have three lands.
+- Keep: any hand with Pyrotechnic Performer and two disguise creatures. The Performer doubles the value of every body you already planned to play.
+- Trim: hands of only Saddle 4 payoffs (Seraphic Steed, Guardian Sunmare) with no cheap bodies; hands with fewer than two lands; hands with three different basic lands and no fetch or Haven, which usually means no turn-two play.
+
+## Key interactions and edge cases
+
+- Turning a creature face up is a special action: it does not use the stack, so an opponent cannot kill the creature in response and stop the flip. The Performer trigger happens afterwards and can be responded to, but the damage source is already face up.
+- A face-down creature has no name and no creature types, so two disguise cards cannot be targeted by effects that name a type, and a face-down card is not a Mount, a Soldier, or anything else. It is still a creature for Saddle, and it is still power 2.
+- Saddle taps the saddling creatures, and tapped creatures can still be turned face up later (the flip does not tap anything). Dog Walker's vigilance is the exception that lets one body saddle and attack in the same combat.
+- Forum Familiar's flip trigger returns a permanent you control to your hand: use it on a flipped Hunted Bonebrute to re-cast it face down for {3} and flip it again, or on a spent Branch of Vitu-Ghazi, whose flip already produced its mana.
+- Branch of Vitu-Ghazi stops being a land while it is face down. Count your lands before casting it, and cast it in a turn where a creature is worth more than a colourless land.
+- Caustic Bronco drains each opponent only when it is saddled; when it is not, you take the life loss instead. Saddle it or do not attack with it.
+- Hunted Bonebrute gifts the opponent two 1/1 Dogs when it enters face up, which is worth remembering when you are one point short of lethal and the opponent is blocking with them.
+- Guardian Sunmare finds mana value 3 or less, so it cannot fetch the flipped Crowd-Control Warden (mana value 5). Aim it at Pyrotechnic Performer, Ornery Tumblewagg, Dog Walker, or Concealed Weapon.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Face-down 2/2s trade on the ground and ward {2} makes them expensive to remove. Seraphic Steed's lifelink and Caustic Bronco's drain buy the time the Performer needs |
+| Control | Do not overcommit flips into open mana; the disguise bodies are the bait they must answer with two extra mana. Hold two flips for one turn and win with the Performer instead of grinding |
+| Midrange | Race with the flipped Bonebrute and the Angel tokens. Rogue's Passage turns any stall into a lethal attack, and Warden's counters make spot removal lose value |
+| Ramp | The Performer's damage goes to each opponent regardless of blockers, so a big-board stall is not a problem. Keep two flips in reserve for the turn after their sweeper |
+
+# Deck list (Arena import)
+
+```text
+Veiled Cavalry
+Deck
+4 Pyrotechnic Performer
+3 Dog Walker
+3 Hunted Bonebrute
+3 Crowd-Control Warden
+2 Bubble Smuggler
+2 Nervous Gardener
+2 Forum Familiar
+2 Exit Specialist
+2 Gilded Ghoda
+2 Caustic Bronco
+2 Seraphic Steed
+2 Ornery Tumblewagg
+2 Guardian Sunmare
+2 Concealed Weapon
+2 Greenbelt Radical
+3 Uncharted Haven
+2 Branch of Vitu-Ghazi
+2 Rogue's Passage
+2 Terramorphic Expanse
+4 Forest
+4 Plains
+3 Island
+3 Swamp
+2 Mountain
+```
