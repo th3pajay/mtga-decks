@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-12**:
 
 - **[Veiled Cavalry](decks/2026-10-12-veiled-cavalry.html)** — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn  `combo` `disguise` `saddle`
+- **[Second Breakfast Raid](decks/2026-10-12-second-breakfast-raid.html)** — White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish  `hobbit` `halflings`

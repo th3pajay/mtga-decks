@@ -1,0 +1,163 @@
+---
+title: "Second Breakfast Raid"
+subtitle: "White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish"
+date: "2026-10-12"
+categories: ["hobbit", "halflings"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Green |
+| Archetype | Token swarm midrange (Halfling company) |
+| Size | 60 |
+| Set identity | The Hobbit (`hob`) — 193 cards, all Standard-legal, lands on Arena 2026-08-14 |
+| Core mechanic | Recruit: every attack draws a card, discards a card, and leaves a 1/1 white Human Soldier behind when the discard is not a land. The Hobbit company converts those Soldiers into the win |
+| Primary win | Soldier swarm: Great Gilded Boat and Celebrate the Mountain-king recruit on every attack, An Unexpected Party names Soldier for plus two plus two, Dwarven Provisioner and The Arkenstone pile on, and eight to twelve power of tokens attack every turn |
+| Secondary win | Flying finish: Eagle's Rescue turns any 1/1 into a plus two plus two flier, Velvetwing Butterflies attacks over the top, and The Lord of the Eagles flashes in as an 8/8 whose cost drops by the total power of your fliers |
+| Land engine | Soulstone Sanctuary — a land that becomes a 3/3 vigilance creature for four mana and is a legitimate part of the win condition; Urban Retreat fixes and re-deploys itself |
+| Verified score | overall 90.1 — cohesion 72.3 — synergy 72.3 — sim 58.3% — goldfish T4 0.641 — P(4 lands T4) 0.628 |
+
+# Overview
+
+The Hobbit set hands the burglar cards an engine that is easy to miss: **recruit**. Great Gilded Boat says "whenever you attack, recruit" — draw a card, discard a card, and if the discarded card is not a land, create a 1/1 white Human Soldier. The card is technically a 4/4 Vehicle for three mana. In practice it is a free card every combat plus a free body roughly two times out of three, because this deck is built with very few lands to discard and a full grip of spells.
+
+The rest of the company exists to make those Soldiers lethal. An Unexpected Party is an enchantment that names a creature type and gives creatures of that type plus two plus two — name Soldier and every recruit token attacks as a 3/3. Dwarven Provisioner pumps the whole team for four mana. The Arkenstone gives every creature plus one plus one and draws a card every end step. Celebrate the Mountain-king recruits again while removing an opponent's best permanent for as long as it stays on the battlefield.
+
+The Notary Hobbits is the value bomb: five mana buys three bodies, since the entry trigger copies them twice as non-legendary tokens, and each Halfling taps for colorless mana while the company is assembled. Bilbo, Luckwearer and Bilbo Baggins, Burglar keep the hand full — one loots on damage and cannot be blocked, the other is a cantrip — and Bilbo's loot is exactly the discard that recruit wants.
+
+The alternative finish is the air force. Eagle's Rescue is an Aura that grants plus two plus two and flying, and it can be re-bought from the graveyard for four mana onto any creature with power 1 or less — which is every token in the deck. Velvetwing Butterflies is a natural flier, and The Lord of the Eagles is an eight-power flash threat whose cost drops by the total power of your creatures with flying, so a board of Soldiers wearing Eagle's Rescue makes it nearly free.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Bofur, Reliable Guardian holds the ground with lifelink, Bilbo, Luckwearer starts chipping in unblockable. Spend Gaze in Wonder or Concerted Care only when they save a creature |
+| Turn 3 | Great Gilded Boat lands. From the first attack onwards you draw an extra card each combat, so the hand never shrinks. Bilbo Baggins, Burglar refills while trading |
+| Turn 4 | Lake-town Toymaker or Celebrate the Mountain-king. The Toymaker rewards the draw engine directly: two cards drawn this turn means another attacker gets plus three plus zero and first strike |
+| Turn 5-6 | The Notary Hobbits arrives as three bodies, or An Unexpected Party names Soldier and the recruit tokens become real attackers. Dwarven Provisioner pumps on the attack that kills |
+| Combo turn | Great Gilded Boat plus Celebrate the Mountain-king both trigger on the same attack, so combat draws two cards, discards two, makes up to two Soldiers and exiles a blocker. An Unexpected Party plus two to Soldiers and one pump activation is usually twenty damage |
+| Late game | The Arkenstone turns the top of the deck into a card every turn and closes from the air with Eagle's Rescue and The Lord of the Eagles. Soulstone Sanctuary attacks as a 3/3 when the ground stalls |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Great Gilded Boat | The engine: attack trigger recruits, drawing a card and leaving a Soldier whenever the discard is not a land. Crew 2 with two tokens |
+| Celebrate the Mountain-king | Second engine and answer in one: recruit on entry, and exile an opponent's best nonland permanent for as long as it stays |
+| An Unexpected Party | The anthem: name Soldier for the recruit tokens, Halfling for the burglar team. Its Adventure, At the Door, makes X 2/2 red Dwarf tokens when going wide beats going tall |
+| The Arkenstone | Team plus one plus one and a card every end step. Its Adventure, Seek the Heart, tutors The Notary Hobbits or The Lord of the Eagles |
+| The Notary Hobbits | Three bodies for five mana, two of them non-legendary copies, and a colorless mana source once three or more Halflings are in play |
+| Dwarven Provisioner | Repeatable team pump on the ground; two power for two mana while it waits |
+| Lake-town Toymaker | Converts the draw engine into damage: plus three plus zero and first strike on a recruited Soldier |
+| Bilbo, Luckwearer | Unblockable one-drop that loots on damage — the discard recruit wants, and the trigger that turns the Toymaker on |
+| Bilbo Baggins, Burglar | Three-mana cantrip body with a one-mana scry 2 Adventure for awkward keeps |
+| Bofur, Reliable Guardian | Turn-one lifelink blocker; Concerted Care is a one-mana protection spell for the engine creature |
+| Eagle's Rescue | Win condition two: plus two plus two and flying, re-buyable from the graveyard onto any 1/1 |
+| Velvetwing Butterflies | Two-power flier that carries Eagle's Rescue into the red zone |
+| The Lord of the Eagles | Flash finisher: 8/8 flying, cost cut by the total power of your fliers, so a token air force makes it a three or four mana play |
+| Soulstone Sanctuary | The land that attacks: four mana turns it into a 3/3 vigilance creature, and it is still a land |
+
+## Lands as engines
+
+| Land | Why it is in the list |
+|------|------------------------|
+| Soulstone Sanctuary (2) | Land win condition: becomes a 3/3 vigilance creature and keeps attacking after a sweeper |
+| Floodfarm Verge (4) | Untapped white source, blue once a Plains or Island is out |
+| Hushwood Verge (4) | Untapped green source, white once a Forest or Plains is out |
+| Willowrush Verge (4) | Untapped blue source, green once a Forest or Island is out |
+| Urban Retreat (2) | Three-color fixer that also re-deploys itself from hand for two mana by returning a tapped creature — with The Notary Hobbits or a recruit token you can trade a spent body for a land |
+| Plains (2), Island (3), Forest (3) | Basic slots that turn the Verge lands on and keep the recruit discards honest |
+
+## Curve and mana
+
+| Mana value | Cards | Notes |
+|------------|-------|-------|
+| 1 | 4 | Bofur, Reliable Guardian |
+| 2 | 6 | Bilbo, Luckwearer, Dwarven Provisioner |
+| 3 | 9 | Great Gilded Boat, Bilbo Baggins, Burglar, Velvetwing Butterflies |
+| 4 | 11 | Lake-town Toymaker, Celebrate the Mountain-king, An Unexpected Party, Eagle's Rescue |
+| 5 | 5 | The Notary Hobbits, The Arkenstone |
+| 9 | 1 | The Lord of the Eagles (usually cast for three or four with a flier board) |
+
+Twenty-four lands: twenty-two colored sources plus two Soulstone Sanctuary, and Urban Retreat is the only land that always enters tapped. The Verge lands make the colors conditional on basics, so the eight basics are working lands, not filler. The deepest single pip is The Notary Hobbits at two green, which is why the Forest count is three and a green Verge leads most openers. The curve peaks at four, which the deck reaches on curve in roughly two out of three games.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Bofur, Reliable Guardian or Bilbo, Luckwearer. Bofur blocks profitably with lifelink and its Adventure buys a turn against removal later; Bilbo is unblockable, so it always connects and always loots, which is the discard recruit is looking for. Against a fast opponent, hold the mana for Concerted Care rather than tapping out.
+
+## Mid game
+
+Turn three is Great Gilded Boat. The attack trigger is the deck's engine, so attack every turn even into a worse board: the card and the possible Soldier are worth more than the three damage you give up. Add Lake-town Toymaker on four; the turn it lands is usually a turn you have drawn two or more cards, which turns a 1/1 token into a 4/1 first striker.
+
+## The combo turn
+
+Once Great Gilded Boat and Celebrate the Mountain-king are both out, a single attack triggers both: draw a card and discard a card twice, make one or two Soldiers, and exile an opponent's blocker for as long as the enchantment lives. Sequence it like this: attack with everything, resolve the exile first to clear a blocker, then resolve the recruits to add two attackers after blocks are made. An Unexpected Party plus two to Soldiers plus one Dwarven Provisioner activation on the same turn adds five power to every token.
+
+## Win condition two
+
+Eagle's Rescue is the pivot. Four mana buys plus two plus two and flying on a token, and the graveyard ability re-buys it for another four onto anything with power 1 or less — every token in the deck, and The Lord of the Eagles is reduced by the total power of your fliers, so two enchanted tokens cut its cost by six. The line is: build three or four tokens, land one Eagle's Rescue, then flash the 8/8 end of turn and attack with everything.
+
+## Mulligan guide
+
+| Hand | Decision |
+|------|----------|
+| Two to three lands, one Verge, one two-drop, one three-drop | Keep — this is the average keep |
+| One land | Mulligan, even with a Bilbo in hand |
+| Five lands, no two-drop | Mulligan, the deck needs early action to start recruiting |
+| Urban Retreat, three basics, Great Gilded Boat, Bilbo, Luckwearer | Keep — the tapped land costs a turn, not the game |
+| Any hand with The Arkenstone and four lands | Keep only if it also has a two-drop; the Arkenstone is a payoff, not a plan |
+
+## Key interactions and edge cases
+
+- **Recruit is a may-effect on the discard, not the draw.** If the discarded card is a land, you get the card but no Soldier; the deck runs light on lands it wants to keep, and every loot effect is a chance to bin a spell that the next recruit turns into a body.
+- **An Unexpected Party is typed at entry.** Choose Soldier for the swarm, Halfling when The Notary Hobbits and both Bilbos are out, and remember the choice is permanent for that enchantment.
+- **The Notary Hobbits enters as three permanents.** The copies are not legendary, so they stay when a second copy of the original would have to be sacrificed — and each one taps for colorless, which pays for a Dwarven Provisioner activation.
+- **The Arkenstone triggers on every end step, including the turn it enters.** Its Adventure side, Seek the Heart, finds a legendary creature, and The Notary Hobbits is the best legal target.
+- **Eagle's Rescue from the graveyard has a restriction.** The target must have power 1 or less; enchanting a 1/1 token and then pumping it is legal, enchanting a 3/3 Soldier that already got the anthem is not.
+- **Soulstone Sanctuary is still a land after it animates.** Crew, anthem effects and the recruit tokens all still work, and a sweeper that hits creatures does not kill it.
+- **Celebrate the Mountain-king returns the exiled permanent when it leaves.** Do not sacrifice it to crew the Boat unless the exile already did its job.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade Bofur early, keep the lifelink alive with Concerted Care, and race with the Boat's card advantage. Celebrate the Mountain-king exiling their best attacker is often the whole game |
+| Control | Do not over-commit into a sweeper. Hold The Notary Hobbits until after the first board wipe; Soulstone Sanctuary and the fliers rebuild fastest, and An Unexpected Party on a fresh token wave is a one-turn kill |
+| Midrange | Value race. The Arkenstone and the Boat both draw every turn, so grind with tokens and keep Eagle's Rescue for whichever creature can attack through |
+| Combo | Pressure early with unblockable Bilbo and the Boat, then point Celebrate the Mountain-king at the combo piece — it exiles the permanent for as long as the enchantment stays. Seek the Heart into The Lord of the Eagles gives a flash clock that does not need a full turn |
+
+# Deck list (Arena import)
+
+```text
+Second Breakfast Raid
+Deck
+4 Bofur, Reliable Guardian
+4 Bilbo, Luckwearer
+3 Bilbo Baggins, Burglar
+2 Dwarven Provisioner
+2 Velvetwing Butterflies
+3 Lake-town Toymaker
+3 The Notary Hobbits
+1 The Lord of the Eagles
+4 Great Gilded Boat
+3 Celebrate the Mountain-king
+3 An Unexpected Party
+2 The Arkenstone
+2 Eagle's Rescue
+4 Floodfarm Verge
+4 Hushwood Verge
+4 Willowrush Verge
+2 Urban Retreat
+2 Soulstone Sanctuary
+2 Plains
+3 Island
+3 Forest
+```

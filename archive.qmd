@@ -2,13 +2,14 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-29 · **398** cards locked · **Hobbit 68/193** remaining
+**Card pool consumption** — cycle started 2026-09-29 · **409** cards locked · **Hobbit 61/193** remaining
 
-**108 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**109 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-10-12
 
 - **[Veiled Cavalry](decks/2026-10-12-veiled-cavalry.html)** — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn  `combo` `disguise` `saddle`
+- **[Second Breakfast Raid](decks/2026-10-12-second-breakfast-raid.html)** — White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish  `hobbit` `halflings`
 
 ## 2026-10-11
 
