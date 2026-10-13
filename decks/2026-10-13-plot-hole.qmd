@@ -1,0 +1,170 @@
+---
+title: "Plot Hole"
+subtitle: "White / blue / black / green attrition combo — Graveyard x Void x Plot"
+date: "2026-10-13"
+categories: ["combo", "Graveyard", "Void", "Plot"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | White / blue / black / green (four colors) |
+| Archetype | Attrition midrange combo (sacrifice engine) |
+| Size | 60 cards, 24 lands |
+| Rolled mechanics | Graveyard, Void, Plot |
+| Primary win | Rise of the Varmints — plotted, then free-cast for a Varmint swarm scaled to creature cards in the graveyard |
+| Secondary win | Alpharael, Stonechosen — Void-halved life totals on attack, plus Cauldron of Essence drain |
+| Land win cons | Restless Cottage (4/4 Horror attacker that creates Food) and Rogue's Passage (unblockable Alpharael) |
+| Nonland curve | 4 ones, 8 twos, 12 threes, 8 fours, 4 fives (average 3.0) |
+
+# Overview
+
+Plot Hole is a four-color attrition deck that treats the graveyard as a bank account and the battlefield as a turnstile. Three mechanics share one backbone:
+
+- **Void** — every Void card asks the same question: did a nonland permanent leave the battlefield this turn? Sacrifice outlets make the answer yes, every single turn.
+- **Graveyard** — mill, surveil and sacrifice all pile creature cards into the yard, where they become ammunition for reanimation and for `Rise of the Varmints`.
+- **Plot** — cards exiled from hand are cast later for free, which means the turns you spend paying sacrifice costs and activating Cauldron of Essence are not turns where you run out of gas.
+
+The engine is `Cauldron of Essence` plus a board of cheap bodies. Feed a creature to the Cauldron and four things happen at once: the creature dies (Cauldron drains each opponent for 1), a nonland permanent left the battlefield (Void is online), a creature card went to the graveyard (Graveyard count rises), and the Cauldron's own ability can return a creature card straight to the battlefield. `Vampiric Rites` is the redundant outlet — one mana, sacrifice a creature, gain a life and draw a card — so the deck is never stuck without a way to move a permanent off the board.
+
+That is the whole trick: the deck does not need to find a two-card combo. It needs an outlet and a body, and it plays sixteen of each. Void converts the sacrifice into free Robots, extra cards, extra damage, and eventually half of the opponent's life total. Plot makes the payoffs cheap enough to cast on the same turn the engine turns.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Stock and set up (turns 1 to 3).** Land a two-drop that fills the yard (`Seedship Broodtender`, `Aftermath Analyst`) or a cheap outlet (`Cauldron of Essence`, `Vampiric Rites`). Plot anything you cannot cast yet — `Pitiless Carnage`, `Rise of the Varmints`, `Freestrider Commando`, `Slickshot Lockpicker`. Plotting on turn two is free value: the card waits in exile and costs nothing later.
+2. **Turn the turnstile (turns 3 to 5).** With an outlet online, sacrifice something every turn. Each sacrifice turns on every Void card in hand and grows the graveyard. `Elegy Acolyte` starts printing a 2/2 Robot token every end step, which is both a lifelink attacker and the next sacrifice. `Hymn of the Faller` and `Decode Transmissions` become two-for-ones that also drain.
+3. **Convert (turns 5 plus).** `Rise of the Varmints` free-cast off plot for a token swarm sized to the graveyard, `Lich-Knights' Conquest` sacrificing that swarm to return the same number of creatures to the battlefield, and `Alpharael, Stonechosen` attacking into a halved life total. Drain from Cauldron and `Treacherous Greed` closes games where the board stalls.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Cauldron of Essence | 4 | Engine — drain on every creature death, and a sacrifice outlet that reanimates a creature card |
+| Vampiric Rites | 2 | Engine — one-mana sacrifice outlet that gains a life and draws a card |
+| Elegy Acolyte | 4 | Void payoff — 4/4 lifelinker that makes a free 2/2 Robot token each end step Void is online |
+| Alpharael, Stonechosen | 2 | Win con 2 — Void attack trigger halves the defending player's life, rounded up |
+| Rise of the Varmints | 2 | Win con 1 — X 2/1 Varmints, X equals creature cards in your graveyard; plotted then cast free |
+| Lich-Knights' Conquest | 2 | Payoff — sacrifice tokens and artifacts to return that many creature cards to the battlefield |
+| Pitiless Carnage | 2 | Enabler plus refuel — sacrifice any number of permanents, draw that many cards; plotted free |
+| Treacherous Greed | 2 | Drain and draw — sacrifice a creature that dealt damage for three cards and 3 life swing |
+| Tolls of War | 2 | Sacrifice payoff — every sacrifice during your turn makes a 1/1 white Ally token |
+| Decode Transmissions | 2 | Void payoff — draw two and drain each opponent for 2 instead of losing 2 life |
+| Hymn of the Faller | 2 | Void payoff and filter — surveil 1, then draw one card, or two when Void is online |
+| Tragic Trajectory | 2 | Void interaction — one mana removal that becomes -10/-10 while the engine is running |
+| Freestrider Commando | 2 | Plot body — free-cast off plot it enters as a 5/5 |
+| Slickshot Lockpicker | 2 | Plot body and recursion — gives a graveyard instant or sorcery flashback |
+| Seedship Broodtender | 2 | Graveyard filler — mills three, then sacrifices itself to reanimate a creature |
+| Aftermath Analyst | 2 | Graveyard filler — mills three, then sacrifices itself to return all your lands |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Cottage | Two jobs: a 4/4 Horror attacker that creates a Food token whenever it attacks (Food is a free sacrifice for Lich-Knights' Conquest), and a black-green dual for the main engine colors |
+| Rogue's Passage | Makes Alpharael, Stonechosen unblockable, which is how the halve-life trigger is guaranteed through a stalled board |
+| Fabled Passage | Fetches whichever basic the hand is missing; it untaps once you control four lands, so it does not cost a turn |
+| Swamp, Forest, Island, Plains | The rolled four-color basics. Six Swamps and five Forests carry the engine; four Islands and three Plains cover the Plot and drain splash |
+
+## Curve and mana
+
+24 lands, 36 spells, average nonland mana value 3.0 — nothing above five. The curve is 4 ones, 8 twos, 12 threes, 8 fours and 4 fives, so the deck has a play on every turn from turn one.
+
+The mana is deliberately green-black heavy: `Cauldron of Essence`, `Seedship Broodtender` and `Restless Cottage` sit in both engine colors. Blue and white are true splashes — `Slickshot Lockpicker` is the only blue maindeck card, and white appears only on `Tolls of War` and `Treacherous Greed`, both of which are half black. Fabled Passage and the three Restless Cottage copies find the two base colors when the opener is short.
+
+# Gameplay strategy
+
+## Early game (turns 1 to 3)
+
+- **Turn 1:** `Vampiric Rites` or `Tragic Trajectory` held up as removal. Do not fire Tragic Trajectory for -2/-2 if you can wait a turn — once a permanent has left the battlefield it kills almost anything.
+- **Turn 2:** `Cauldron of Essence` is the best play. Otherwise `Seedship Broodtender` or `Aftermath Analyst` to start milling, or plot `Freestrider Commando`.
+- **Turn 3:** Start the sacrifice loop. Feed a milled creature or a Robot token to the Cauldron, then cast the Void card you have been holding — `Hymn of the Faller`, `Decode Transmissions` or `Elegy Acolyte`. Order matters: sacrifice first, cast second.
+- Plot aggressively when you cannot use the mana: an exiled `Rise of the Varmints` or `Pitiless Carnage` is a free spell later. Plot only as a sorcery, so do it on your own turn.
+
+## Mid game (turns 4 to 6)
+
+- `Elegy Acolyte` compounds: each end step with Void online adds a 2/2 Robot, which is the next sacrifice and a lifelink attacker that draws a card on combat damage.
+- `Alpharael, Stonechosen` should not be cast until you can also sacrifice something the same turn. A 3/3 with ward is not the point; the halved life total is. Its ward cost (discard at random) also feeds the graveyard when opponents target it.
+- `Lich-Knights' Conquest` is the biggest turn available: sacrifice Food, Clue and Robot tokens plus any spare creatures, then put that many creature cards back onto the battlefield. Return `Elegy Acolyte` and `Seedship Broodtender` first when the sacrifice outlets are already down.
+
+## The combo turn
+
+1. Confirm an outlet is untapped: Cauldron of Essence or Vampiric Rites.
+2. Sacrifice a creature. Cauldron drains each opponent for 1 and, if you have the mana, reanimates a creature card from your graveyard. Void is now online for the whole turn.
+3. Cast the plotted payload for free — `Rise of the Varmints` for a Varmint for every creature card in your graveyard, or `Pitiless Carnage` to sacrifice the whole board and redraw it.
+4. If the board is real, attack with `Alpharael, Stonechosen` to halve the defending player's life. Use `Rogue's Passage` (`{4}`, tap) to make it unblockable when the ground is clogged.
+5. Repeat next turn. Void triggers are checked at end step, so the sacrifice only has to happen once per turn cycle to keep the Robots and the growth coming.
+
+## Win condition 2: the drain plan
+
+`Cauldron of Essence` drains each opponent for 1 every time a creature you control dies, and the deck generates disposable bodies deliberately — Robot tokens from Elegy Acolyte, Food from Restless Cottage, Clues from Tolls of War, Allies from Tolls of War's sacrifice trigger, and Varmints from Rise of the Varmints. Sacrifice them for value and the drain adds up without ever attacking. `Treacherous Greed` adds a six-point life swing plus three cards, and `Decode Transmissions` drains 2 from each opponent while replacing itself. Against a deck that can block forever, this is the real clock.
+
+## Mulligan guide
+
+- **Keep:** two or three lands with a green or black source plus a two-mana engine piece (`Cauldron of Essence`, `Seedship Broodtender`) or a sacrifice outlet, and at least one card that does something with the graveyard.
+- **Keep on five or six:** any hand with Cauldron of Essence plus two lands. The engine is redundant enough to run on a small hand.
+- **Trim:** one-land hands; hands with no black or green source; hands that are all five-drops (`Alpharael, Stonechosen`, `Lich-Knights' Conquest`) with no early engine.
+- Plot cards make mediocre hands keepable. If you can plot on turn two and three, the hand is effectively cheaper than it looks.
+
+## Key interactions and edge cases
+
+- **Void checks once, at end step.** The trigger condition is "a nonland permanent left the battlefield this turn or a spell was warped this turn". A single sacrifice enables every Void card in the same turn, so batch your plays.
+- **Cauldron of Essence reanimation is sorcery speed.** Sacrifice first, then activate the Cauldron before your combat step if you want the returned creature to attack.
+- **Pitiless Carnage counts permanents, not creatures.** Sacrifice lands in a flood and you still draw the cards; there is no requirement that the permanents be creatures.
+- **Lich-Knights' Conquest wants artifacts and enchantments too.** Food from Restless Cottage, Clues from Tolls of War, and the Robots from Elegy Acolyte are all valid fodder, and they return creature cards from the graveyard one for one.
+- **Rise of the Varmints counts creature cards only.** Noncreature mill (instants, sorceries) does nothing for it; prioritise creature-heavy milling when you are setting up the swarm.
+- **Restless Cottage exiles a graveyard card on attack.** It says "up to one", so decline it — your own graveyard is the resource Rise of the Varmints measures.
+- **Treacherous Greed needs a creature that dealt damage this turn.** Attack first, then cast it in the post-combat main phase.
+- **Tolls of War triggers once per turn.** One sacrifice per turn keeps the Ally tokens coming; extra sacrifices still drain through the Cauldron.
+
+## Matchups
+
+- **Aggro:** the Cauldron's drain and Elegy Acolyte's lifelink make races winnable. Tragic Trajectory at -10/-10 is a one-mana answer to any threat the turn after you sacrifice something. Trade Robot tokens freely; they come back.
+- **Control:** plot the payoffs, then cast them on a turn the opponent taps out for a sweeper. `Lich-Knights' Conquest` rebuilds from the graveyard after a wipe, and `Slickshot Lockpicker` giving flashback to a discarded `Pitiless Carnage` turns a dead card into a restock.
+- **Graveyard hate:** the deck is soft to heavy exile, but every threat has a non-graveyard path. `Alpharael, Stonechosen` halves a life total with an empty yard, and the drain plan is entirely board-based.
+- **Other midrange:** the deck wins long games. Cauldron of Essence is a free engine that never stops draining, and Rise of the Varmints gets bigger every turn the game goes on.
+
+# Iterations
+
+Two lists were tested through the viability battery before publishing.
+
+| Round | Change | Why | Metric deltas |
+|---|---|---|---|
+| v1 | Starting list (2 Insatiable Skittermaw, 0 Tragic Trajectory) | Baseline build | sim 52.3, synergy 71.0, T4 0.669, P(4 lands) 0.660 — all gates passed but the sim margin was 0.3 |
+| v2 | -2 Insatiable Skittermaw, +2 Tragic Trajectory | The weakest metric was simulated win rate; swapping a growth creature for one-mana Void removal improved interaction without losing an engine piece | sim 52.3 -> 54.7, synergy 71.0 -> 70.8, T4 0.669 -> 0.679, P(4 lands) 0.660 -> 0.671 |
+
+v2 is the published list. All gates pass: 60 cards, Standard legal, zero rotating cards, simulated win rate 54.7 (threshold 52), synergy score 70.8 (threshold 70), turn-four goldfish consistency 0.679 (threshold 0.55), and probability of four lands by turn four 0.671 (threshold 0.55).
+
+# Deck list (Arena import)
+
+```
+Plot Hole
+Deck
+4 Elegy Acolyte
+2 Tragic Trajectory
+2 Alpharael, Stonechosen
+2 Seedship Broodtender
+2 Aftermath Analyst
+2 Freestrider Commando
+2 Slickshot Lockpicker
+2 Hymn of the Faller
+2 Decode Transmissions
+2 Pitiless Carnage
+2 Rise of the Varmints
+2 Lich-Knights' Conquest
+2 Treacherous Greed
+4 Cauldron of Essence
+2 Vampiric Rites
+2 Tolls of War
+3 Restless Cottage
+2 Fabled Passage
+1 Rogue's Passage
+6 Swamp
+5 Forest
+4 Island
+3 Plains
+```

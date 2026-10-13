@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-13">
+
+<title>Plot Hole – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game-turns-1-to-3" id="toc-early-game-turns-1-to-3" class="nav-link" data-scroll-target="#early-game-turns-1-to-3">Early game (turns 1 to 3)</a></li>
+  <li><a href="#mid-game-turns-4-to-6" id="toc-mid-game-turns-4-to-6" class="nav-link" data-scroll-target="#mid-game-turns-4-to-6">Mid game (turns 4 to 6)</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2-the-drain-plan" id="toc-win-condition-2-the-drain-plan" class="nav-link" data-scroll-target="#win-condition-2-the-drain-plan">Win condition 2: the drain plan</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Plot Hole</h1>
+<p class="subtitle lead">White / blue / black / green attrition combo — Graveyard x Void x Plot</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">Graveyard</div>
+    <div class="quarto-category">Void</div>
+    <div class="quarto-category">Plot</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 13, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>White / blue / black / green (four colors)</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Attrition midrange combo (sacrifice engine)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Rolled mechanics</td>
+<td>Graveyard, Void, Plot</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Rise of the Varmints — plotted, then free-cast for a Varmint swarm scaled to creature cards in the graveyard</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Alpharael, Stonechosen — Void-halved life totals on attack, plus Cauldron of Essence drain</td>
+</tr>
+<tr class="even">
+<td>Land win cons</td>
+<td>Restless Cottage (4/4 Horror attacker that creates Food) and Rogue’s Passage (unblockable Alpharael)</td>
+</tr>
+<tr class="odd">
+<td>Nonland curve</td>
+<td>4 ones, 8 twos, 12 threes, 8 fours, 4 fives (average 3.0)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Plot Hole is a four-color attrition deck that treats the graveyard as a bank account and the battlefield as a turnstile. Three mechanics share one backbone:</p>
+<ul>
+<li><strong>Void</strong> — every Void card asks the same question: did a nonland permanent leave the battlefield this turn? Sacrifice outlets make the answer yes, every single turn.</li>
+<li><strong>Graveyard</strong> — mill, surveil and sacrifice all pile creature cards into the yard, where they become ammunition for reanimation and for <code>Rise of the Varmints</code>.</li>
+<li><strong>Plot</strong> — cards exiled from hand are cast later for free, which means the turns you spend paying sacrifice costs and activating Cauldron of Essence are not turns where you run out of gas.</li>
+</ul>
+<p>The engine is <code>Cauldron of Essence</code> plus a board of cheap bodies. Feed a creature to the Cauldron and four things happen at once: the creature dies (Cauldron drains each opponent for 1), a nonland permanent left the battlefield (Void is online), a creature card went to the graveyard (Graveyard count rises), and the Cauldron’s own ability can return a creature card straight to the battlefield. <code>Vampiric Rites</code> is the redundant outlet — one mana, sacrifice a creature, gain a life and draw a card — so the deck is never stuck without a way to move a permanent off the board.</p>
+<p>That is the whole trick: the deck does not need to find a two-card combo. It needs an outlet and a body, and it plays sixteen of each. Void converts the sacrifice into free Robots, extra cards, extra damage, and eventually half of the opponent’s life total. Plot makes the payoffs cheap enough to cast on the same turn the engine turns.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Stock and set up (turns 1 to 3).</strong> Land a two-drop that fills the yard (<code>Seedship Broodtender</code>, <code>Aftermath Analyst</code>) or a cheap outlet (<code>Cauldron of Essence</code>, <code>Vampiric Rites</code>). Plot anything you cannot cast yet — <code>Pitiless Carnage</code>, <code>Rise of the Varmints</code>, <code>Freestrider Commando</code>, <code>Slickshot Lockpicker</code>. Plotting on turn two is free value: the card waits in exile and costs nothing later.</li>
+<li><strong>Turn the turnstile (turns 3 to 5).</strong> With an outlet online, sacrifice something every turn. Each sacrifice turns on every Void card in hand and grows the graveyard. <code>Elegy Acolyte</code> starts printing a 2/2 Robot token every end step, which is both a lifelink attacker and the next sacrifice. <code>Hymn of the Faller</code> and <code>Decode Transmissions</code> become two-for-ones that also drain.</li>
+<li><strong>Convert (turns 5 plus).</strong> <code>Rise of the Varmints</code> free-cast off plot for a token swarm sized to the graveyard, <code>Lich-Knights' Conquest</code> sacrificing that swarm to return the same number of creatures to the battlefield, and <code>Alpharael, Stonechosen</code> attacking into a halved life total. Drain from Cauldron and <code>Treacherous Greed</code> closes games where the board stalls.</li>
+</ol>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cauldron of Essence</td>
+<td>4</td>
+<td>Engine — drain on every creature death, and a sacrifice outlet that reanimates a creature card</td>
+</tr>
+<tr class="even">
+<td>Vampiric Rites</td>
+<td>2</td>
+<td>Engine — one-mana sacrifice outlet that gains a life and draws a card</td>
+</tr>
+<tr class="odd">
+<td>Elegy Acolyte</td>
+<td>4</td>
+<td>Void payoff — 4/4 lifelinker that makes a free 2/2 Robot token each end step Void is online</td>
+</tr>
+<tr class="even">
+<td>Alpharael, Stonechosen</td>
+<td>2</td>
+<td>Win con 2 — Void attack trigger halves the defending player’s life, rounded up</td>
+</tr>
+<tr class="odd">
+<td>Rise of the Varmints</td>
+<td>2</td>
+<td>Win con 1 — X 2/1 Varmints, X equals creature cards in your graveyard; plotted then cast free</td>
+</tr>
+<tr class="even">
+<td>Lich-Knights’ Conquest</td>
+<td>2</td>
+<td>Payoff — sacrifice tokens and artifacts to return that many creature cards to the battlefield</td>
+</tr>
+<tr class="odd">
+<td>Pitiless Carnage</td>
+<td>2</td>
+<td>Enabler plus refuel — sacrifice any number of permanents, draw that many cards; plotted free</td>
+</tr>
+<tr class="even">
+<td>Treacherous Greed</td>
+<td>2</td>
+<td>Drain and draw — sacrifice a creature that dealt damage for three cards and 3 life swing</td>
+</tr>
+<tr class="odd">
+<td>Tolls of War</td>
+<td>2</td>
+<td>Sacrifice payoff — every sacrifice during your turn makes a 1/1 white Ally token</td>
+</tr>
+<tr class="even">
+<td>Decode Transmissions</td>
+<td>2</td>
+<td>Void payoff — draw two and drain each opponent for 2 instead of losing 2 life</td>
+</tr>
+<tr class="odd">
+<td>Hymn of the Faller</td>
+<td>2</td>
+<td>Void payoff and filter — surveil 1, then draw one card, or two when Void is online</td>
+</tr>
+<tr class="even">
+<td>Tragic Trajectory</td>
+<td>2</td>
+<td>Void interaction — one mana removal that becomes -10/-10 while the engine is running</td>
+</tr>
+<tr class="odd">
+<td>Freestrider Commando</td>
+<td>2</td>
+<td>Plot body — free-cast off plot it enters as a 5/5</td>
+</tr>
+<tr class="even">
+<td>Slickshot Lockpicker</td>
+<td>2</td>
+<td>Plot body and recursion — gives a graveyard instant or sorcery flashback</td>
+</tr>
+<tr class="odd">
+<td>Seedship Broodtender</td>
+<td>2</td>
+<td>Graveyard filler — mills three, then sacrifices itself to reanimate a creature</td>
+</tr>
+<tr class="even">
+<td>Aftermath Analyst</td>
+<td>2</td>
+<td>Graveyard filler — mills three, then sacrifices itself to return all your lands</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the combo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restless Cottage</td>
+<td>Two jobs: a 4/4 Horror attacker that creates a Food token whenever it attacks (Food is a free sacrifice for Lich-Knights’ Conquest), and a black-green dual for the main engine colors</td>
+</tr>
+<tr class="even">
+<td>Rogue’s Passage</td>
+<td>Makes Alpharael, Stonechosen unblockable, which is how the halve-life trigger is guaranteed through a stalled board</td>
+</tr>
+<tr class="odd">
+<td>Fabled Passage</td>
+<td>Fetches whichever basic the hand is missing; it untaps once you control four lands, so it does not cost a turn</td>
+</tr>
+<tr class="even">
+<td>Swamp, Forest, Island, Plains</td>
+<td>The rolled four-color basics. Six Swamps and five Forests carry the engine; four Islands and three Plains cover the Plot and drain splash</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>24 lands, 36 spells, average nonland mana value 3.0 — nothing above five. The curve is 4 ones, 8 twos, 12 threes, 8 fours and 4 fives, so the deck has a play on every turn from turn one.</p>
+<p>The mana is deliberately green-black heavy: <code>Cauldron of Essence</code>, <code>Seedship Broodtender</code> and <code>Restless Cottage</code> sit in both engine colors. Blue and white are true splashes — <code>Slickshot Lockpicker</code> is the only blue maindeck card, and white appears only on <code>Tolls of War</code> and <code>Treacherous Greed</code>, both of which are half black. Fabled Passage and the three Restless Cottage copies find the two base colors when the opener is short.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game-turns-1-to-3" class="level2">
+<h2 class="anchored" data-anchor-id="early-game-turns-1-to-3">Early game (turns 1 to 3)</h2>
+<ul>
+<li><strong>Turn 1:</strong> <code>Vampiric Rites</code> or <code>Tragic Trajectory</code> held up as removal. Do not fire Tragic Trajectory for -2/-2 if you can wait a turn — once a permanent has left the battlefield it kills almost anything.</li>
+<li><strong>Turn 2:</strong> <code>Cauldron of Essence</code> is the best play. Otherwise <code>Seedship Broodtender</code> or <code>Aftermath Analyst</code> to start milling, or plot <code>Freestrider Commando</code>.</li>
+<li><strong>Turn 3:</strong> Start the sacrifice loop. Feed a milled creature or a Robot token to the Cauldron, then cast the Void card you have been holding — <code>Hymn of the Faller</code>, <code>Decode Transmissions</code> or <code>Elegy Acolyte</code>. Order matters: sacrifice first, cast second.</li>
+<li>Plot aggressively when you cannot use the mana: an exiled <code>Rise of the Varmints</code> or <code>Pitiless Carnage</code> is a free spell later. Plot only as a sorcery, so do it on your own turn.</li>
+</ul>
+</section>
+<section id="mid-game-turns-4-to-6" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-turns-4-to-6">Mid game (turns 4 to 6)</h2>
+<ul>
+<li><code>Elegy Acolyte</code> compounds: each end step with Void online adds a 2/2 Robot, which is the next sacrifice and a lifelink attacker that draws a card on combat damage.</li>
+<li><code>Alpharael, Stonechosen</code> should not be cast until you can also sacrifice something the same turn. A 3/3 with ward is not the point; the halved life total is. Its ward cost (discard at random) also feeds the graveyard when opponents target it.</li>
+<li><code>Lich-Knights' Conquest</code> is the biggest turn available: sacrifice Food, Clue and Robot tokens plus any spare creatures, then put that many creature cards back onto the battlefield. Return <code>Elegy Acolyte</code> and <code>Seedship Broodtender</code> first when the sacrifice outlets are already down.</li>
+</ul>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<ol type="1">
+<li>Confirm an outlet is untapped: Cauldron of Essence or Vampiric Rites.</li>
+<li>Sacrifice a creature. Cauldron drains each opponent for 1 and, if you have the mana, reanimates a creature card from your graveyard. Void is now online for the whole turn.</li>
+<li>Cast the plotted payload for free — <code>Rise of the Varmints</code> for a Varmint for every creature card in your graveyard, or <code>Pitiless Carnage</code> to sacrifice the whole board and redraw it.</li>
+<li>If the board is real, attack with <code>Alpharael, Stonechosen</code> to halve the defending player’s life. Use <code>Rogue's Passage</code> (<code>{4}</code>, tap) to make it unblockable when the ground is clogged.</li>
+<li>Repeat next turn. Void triggers are checked at end step, so the sacrifice only has to happen once per turn cycle to keep the Robots and the growth coming.</li>
+</ol>
+</section>
+<section id="win-condition-2-the-drain-plan" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2-the-drain-plan">Win condition 2: the drain plan</h2>
+<p><code>Cauldron of Essence</code> drains each opponent for 1 every time a creature you control dies, and the deck generates disposable bodies deliberately — Robot tokens from Elegy Acolyte, Food from Restless Cottage, Clues from Tolls of War, Allies from Tolls of War’s sacrifice trigger, and Varmints from Rise of the Varmints. Sacrifice them for value and the drain adds up without ever attacking. <code>Treacherous Greed</code> adds a six-point life swing plus three cards, and <code>Decode Transmissions</code> drains 2 from each opponent while replacing itself. Against a deck that can block forever, this is the real clock.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<ul>
+<li><strong>Keep:</strong> two or three lands with a green or black source plus a two-mana engine piece (<code>Cauldron of Essence</code>, <code>Seedship Broodtender</code>) or a sacrifice outlet, and at least one card that does something with the graveyard.</li>
+<li><strong>Keep on five or six:</strong> any hand with Cauldron of Essence plus two lands. The engine is redundant enough to run on a small hand.</li>
+<li><strong>Trim:</strong> one-land hands; hands with no black or green source; hands that are all five-drops (<code>Alpharael, Stonechosen</code>, <code>Lich-Knights' Conquest</code>) with no early engine.</li>
+<li>Plot cards make mediocre hands keepable. If you can plot on turn two and three, the hand is effectively cheaper than it looks.</li>
+</ul>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>Void checks once, at end step.</strong> The trigger condition is “a nonland permanent left the battlefield this turn or a spell was warped this turn”. A single sacrifice enables every Void card in the same turn, so batch your plays.</li>
+<li><strong>Cauldron of Essence reanimation is sorcery speed.</strong> Sacrifice first, then activate the Cauldron before your combat step if you want the returned creature to attack.</li>
+<li><strong>Pitiless Carnage counts permanents, not creatures.</strong> Sacrifice lands in a flood and you still draw the cards; there is no requirement that the permanents be creatures.</li>
+<li><strong>Lich-Knights’ Conquest wants artifacts and enchantments too.</strong> Food from Restless Cottage, Clues from Tolls of War, and the Robots from Elegy Acolyte are all valid fodder, and they return creature cards from the graveyard one for one.</li>
+<li><strong>Rise of the Varmints counts creature cards only.</strong> Noncreature mill (instants, sorceries) does nothing for it; prioritise creature-heavy milling when you are setting up the swarm.</li>
+<li><strong>Restless Cottage exiles a graveyard card on attack.</strong> It says “up to one”, so decline it — your own graveyard is the resource Rise of the Varmints measures.</li>
+<li><strong>Treacherous Greed needs a creature that dealt damage this turn.</strong> Attack first, then cast it in the post-combat main phase.</li>
+<li><strong>Tolls of War triggers once per turn.</strong> One sacrifice per turn keeps the Ally tokens coming; extra sacrifices still drain through the Cauldron.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> the Cauldron’s drain and Elegy Acolyte’s lifelink make races winnable. Tragic Trajectory at -10/-10 is a one-mana answer to any threat the turn after you sacrifice something. Trade Robot tokens freely; they come back.</li>
+<li><strong>Control:</strong> plot the payoffs, then cast them on a turn the opponent taps out for a sweeper. <code>Lich-Knights' Conquest</code> rebuilds from the graveyard after a wipe, and <code>Slickshot Lockpicker</code> giving flashback to a discarded <code>Pitiless Carnage</code> turns a dead card into a restock.</li>
+<li><strong>Graveyard hate:</strong> the deck is soft to heavy exile, but every threat has a non-graveyard path. <code>Alpharael, Stonechosen</code> halves a life total with an empty yard, and the drain plan is entirely board-based.</li>
+<li><strong>Other midrange:</strong> the deck wins long games. Cauldron of Essence is a free engine that never stops draining, and Rise of the Varmints gets bigger every turn the game goes on.</li>
+</ul>
+</section>
+</section>
+<section id="iterations" class="level1">
+<h1>Iterations</h1>
+<p>Two lists were tested through the viability battery before publishing.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Change</th>
+<th>Why</th>
+<th>Metric deltas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v1</td>
+<td>Starting list (2 Insatiable Skittermaw, 0 Tragic Trajectory)</td>
+<td>Baseline build</td>
+<td>sim 52.3, synergy 71.0, T4 0.669, P(4 lands) 0.660 — all gates passed but the sim margin was 0.3</td>
+</tr>
+<tr class="even">
+<td>v2</td>
+<td>-2 Insatiable Skittermaw, +2 Tragic Trajectory</td>
+<td>The weakest metric was simulated win rate; swapping a growth creature for one-mana Void removal improved interaction without losing an engine piece</td>
+<td>sim 52.3 -&gt; 54.7, synergy 71.0 -&gt; 70.8, T4 0.669 -&gt; 0.679, P(4 lands) 0.660 -&gt; 0.671</td>
+</tr>
+</tbody>
+</table>
+<p>v2 is the published list. All gates pass: 60 cards, Standard legal, zero rotating cards, simulated win rate 54.7 (threshold 52), synergy score 70.8 (threshold 70), turn-four goldfish consistency 0.679 (threshold 0.55), and probability of four lands by turn four 0.671 (threshold 0.55).</p>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Plot Hole
+Deck
+4 Elegy Acolyte
+2 Tragic Trajectory
+2 Alpharael, Stonechosen
+2 Seedship Broodtender
+2 Aftermath Analyst
+2 Freestrider Commando
+2 Slickshot Lockpicker
+2 Hymn of the Faller
+2 Decode Transmissions
+2 Pitiless Carnage
+2 Rise of the Varmints
+2 Lich-Knights' Conquest
+2 Treacherous Greed
+4 Cauldron of Essence
+2 Vampiric Rites
+2 Tolls of War
+3 Restless Cottage
+2 Fabled Passage
+1 Rogue's Passage
+6 Swamp
+5 Forest
+4 Island
+3 Plains</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

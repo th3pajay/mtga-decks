@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-09-29 · **409** cards locked · **Hobbit 61/193** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **19** cards locked · **Reality Fracture 285/285** remaining
 
-**109 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**110 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-10-13
+
+- **[Plot Hole](decks/2026-10-13-plot-hole.html)** — White / blue / black / green attrition combo — Graveyard x Void x Plot  `combo` `Graveyard` `Void` `Plot`
 
 ## 2026-10-12
 
