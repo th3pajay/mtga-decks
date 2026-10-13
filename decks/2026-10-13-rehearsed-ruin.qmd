@@ -1,0 +1,161 @@
+---
+title: "Rehearsed Ruin"
+subtitle: "Black / red / green prepared combo — Prepared x Heartwood x Threshold"
+date: "2026-10-13"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (Reality Fracture set deck) |
+| Colors | Black / red / green (Jund), with blue-black hybrid cards |
+| Archetype | Creature combo — Prepared re-trigger engine |
+| Size | 60 cards, 24 lands |
+| Focused mechanic | Prepared (24 cards in Reality Fracture), supported by Heartwood artifacts and threshold |
+| Primary win | Draconic Visitor turns every Heartwood token your prepared creatures make into a 5/5 red Dragon token with flying |
+| Secondary win | Artifact-count pump — Pia, Determined Rebuilder and Aerid Konstrari convert a board of Heartwood and Thopter tokens into one enormous attacker; Tarmogoyf and threshold Void Extrapolator add a second clock off the same self-mill |
+| Land win con | Hexhaven Dueling Arena — pays 2 to make a creature that attacked this turn prepared, which is one extra free spell every turn |
+| Curve | 9 ones, 15 twos, 6 threes, 2 fours, 4 fives (average nonland mana value 2.36) |
+
+# Overview
+
+Reality Fracture's flagship mechanic is **Prepared**. A creature that is prepared may cast a copy of its own spell; doing so unprepares it. The set's twenty-one double-faced "creature // spell" cards are the payload — and the payload is free. This deck is built to make that free spell happen *every single turn*, then point the free spells at a single payoff: artifact tokens.
+
+Three pieces carry the engine:
+
+- **Re-preparers.** `Woodwork Prodigy` (3/3), `Paradox Shaper` (1/3) and `Stingerquill Voxmancer` (1/2) each say "at the beginning of your upkeep, if this creature isn't prepared, it becomes prepared." Left alone, each one hands you a free spell on every one of your turns for the rest of the game.
+- **The Soul Tether cycle.** `Heartwood Crafter`, `Konstrari Improviser` and `Woodwork Prodigy` all carry `Soul Tether` on the back face: two mana for a Heartwood token, a red and green artifact with "{T}: Add {R} or {G}." Free mana rocks, one a turn, no card spent.
+- **The converter.** `Draconic Visitor` says: if one or more artifact tokens would be created under your control, that many 5/5 red Dragon creature tokens with flying are created instead.
+
+Put those together and the deck stops playing small ball. A single re-preparing creature plus a Draconic Visitor is a 5/5 flying Dragon every turn, out of nowhere, for free. `Codie, Ravenous Codex` copies every prepared spell you cast, so the same upkeep produces two Heartwoods and therefore two Dragons. The deck's own self-mill (`Omit Variables`, the back face of `Paradox Shaper` and `Void Extrapolator`) feeds `Tarmogoyf` and turns on threshold as a side effect, so the turns you spend setting up are never wasted.
+
+Everything in the deck is a creature or a land, and every creature either prepares, re-prepares, or converts prepared spells into damage. The engine is the win condition.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Establish the tap (turns 1 to 3).** Land one-drops that enter prepared — `Heartwood Crafter` (a free Heartwood on turn one), `Pompous Battlemage` (a free loot), `Stingerquill Voxmancer` — then a two-drop that re-prepares itself. `Konstrari Improviser` and `Carnivorous Cultivator` are the best turn-two plays: both are 2-power bodies that hand you a free spell on arrival. Cast the free spells as soon as they are useful; holding a prepared creature does nothing.
+2. **Open the valve (turns 3 to 5).** Once an upkeep re-preparer is on the battlefield, every turn begins with a free spell. Use `Soul Tether` to make Heartwood tokens, `Omit Variables` to mill yourself toward threshold and `Tarmogoyf`, `Vicious Verse` to chip. This is the turn where you stop tapping out for creatures and start banking mana for `Draconic Visitor` and `Pia, Determined Rebuilder`.
+3. **Convert (turns 5 plus).** `Draconic Visitor` turns the Heartwood stream into Dragons. Before that it is worth nothing, so hold it until you have a re-preparer and at least one live Soul Tether. From there the deck attacks with three or four 5/5 fliers and finishes with a pumped attacker.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Heartwood Crafter | 4 | Enabler — one mana, enters prepared, so the first free Soul Tether (and the first Heartwood) arrives on turn one; also a colourless mana dork for the free spells |
+| Konstrari Improviser | 4 | Enabler — two-mana 2/2 that enters prepared; the most reliable early Heartwood |
+| Carnivorous Cultivator | 4 | Enabler and recursion — 2/3 deathtouch that enters prepared; its free `Enroot` puts a land into the graveyard, and its combat damage trigger pulls lands back out of the yard |
+| Woodwork Prodigy | 3 | Engine — 3/3 that re-prepares on every upkeep, so it is a free Soul Tether (and a Heartwood) every turn |
+| Paradox Shaper | 3 | Engine and graveyard filler — re-prepares on upkeep for a free mill three |
+| Pompous Battlemage | 3 | Enabler — one-mana prowess body with a free loot, keeps the hand full through the cheap turns |
+| Stingerquill Voxmancer | 2 | Engine — re-prepares on upkeep for a free point of damage to the opponent |
+| Void Extrapolator | 2 | Payoff — enters prepared for a free mill three, then sits at threshold as a 3/3 |
+| Tarmogoyf | 2 | Payoff — two mana, grows off the card types the deck mills into every graveyard |
+| Pia, Determined Rebuilder | 2 | Win con 2 — makes a Thopter on entry, then pays 5 and red mana to give a creature +X/+0 where X is the number of artifacts you control |
+| Aerid Konstrari | 2 | Win con 2 and value — 5/4 flying Elder Sphinx that makes a Heartwood on entry and on death, and pumps itself off the artifact count |
+| Draconic Visitor | 3 | Win con 1 — every artifact token you would create becomes a 5/5 flying Dragon instead |
+| Codie, Ravenous Codex | 1 | Multiplier — copies each prepared spell you cast, doubling every Soul Tether, mill and loot trigger |
+| Hungering Puppetbeast | 1 | Payoff and outlet — 5/5 artifact creature that makes a Heartwood, then eats spare artifacts for +1/+1 counters and trample, hexproof or haste |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Hexhaven Dueling Arena | The land half of the win condition. Two mana and a tap makes a creature that attacked this turn prepared, and four mana prepares any creature at all. With a re-preparer already running, this is a second free spell in the same turn, and with `Draconic Visitor` down that free spell is another Dragon |
+| Rockfall Vale | Red-green dual that enters untapped from turn three onward, covering both halves of the Soul Tether cost |
+| Haunted Ridge | Black-red dual on the same untap condition, paying for `Void Extrapolator`, `Paradox Shaper` and the black half of `Stingerquill Voxmancer` |
+| Forest, Mountain, Swamp | Seven Forests carry the green half of the deck, four Mountains pay for `Draconic Visitor` and `Aerid Konstrari`, three Swamps cover the black splash |
+
+## Curve and mana
+
+36 creatures and 24 lands, average nonland mana value 2.36 — the curve is 9 ones, 15 twos, 6 threes, 2 fours and 4 fives, so there is a play on turn one and turn two in nearly every game. Nothing costs more than five.
+
+Twenty of the thirty-six creatures are one or two mana, which matters because the deck wants to reach turn three with a prepared body and a re-preparer on the battlefield, not with a hand it cannot empty. The four five-drops are the only real top end: three `Draconic Visitor` and one `Hungering Puppetbeast`.
+
+The mana base is green-red with a black splash. Green sources number fifteen and red twelve, which comfortably covers `{G}`, `{R}` and the `{R/G}` hybrid symbols on the Soul Tether cycle; the seven black sources exist for `Void Extrapolator` and `Paradox Shaper`, both of which are also castable through their hybrid `{U/B}` symbol if a black source is missing. `Rockfall Vale` and `Haunted Ridge` both enter untapped once you control two other lands, so the deck rarely loses a turn to its own duals. `Hexhaven Dueling Arena` produces only colourless mana, which is a real cost — treat it as the fourth land you play, not the second.
+
+# Gameplay strategy
+
+## Early game (turns 1 to 3)
+
+- **Turn 1:** `Heartwood Crafter` is the best play — it enters prepared, so you can immediately cast the free `Soul Tether` for a Heartwood token, or hold the free spell until you need it. `Pompous Battlemage` is the second-best one-drop, and its free `Improvised Act` loots away a spare land.
+- **Turn 2:** `Konstrari Improviser` or `Carnivorous Cultivator`. Both arrive prepared. If you already have a Heartwood token, cast the free `Soul Tether` again — two Heartwoods is real mana.
+- **Turn 3:** Land a re-preparer (`Woodwork Prodigy`, `Paradox Shaper`, `Stingerquill Voxmancer`). From this point forward, each of your upkeeps starts with a free spell whether you do anything or not.
+- Do not attack into bigger blockers with `Carnivorous Cultivator` unless you need the land recursion — a 2/3 deathtouch that survives is worth more than two damage.
+
+## Mid game (turns 4 to 6)
+
+- Cast the free spells in the right order: `Soul Tether` first (tokens and mana), then `Omit Variables` (mills toward threshold and `Tarmogoyf`), then whatever is left over.
+- `Draconic Visitor` is the turn the deck turns the corner. Cast it only with a re-preparer already running or a prepared creature in hand; a 5/5 flier with no token stream behind it is just a fair Dragon.
+- `Pia, Determined Rebuilder` does two jobs at once. The Thopter it makes is an artifact that counts for its own pump ability, and the ability's cost ({5} and one red) is exactly the kind of spare mana four Heartwoods provide.
+- `Codie, Ravenous Codex` is worth a turn when you have two or more prepared creatures. Every Soul Tether becomes two Heartwoods, and with a `Draconic Visitor` on the battlefield that is two Dragons.
+
+## The combo turn
+
+1. Untap with a re-preparer (`Woodwork Prodigy`, `Paradox Shaper` or `Stingerquill Voxmancer`) on the battlefield, or a prepared body plus two spare mana for `Hexhaven Dueling Arena`.
+2. Upkeep: the creature becomes prepared. Cast the copy of its spell — `Soul Tether` for a Heartwood token, doubled to two if `Codie, Ravenous Codex` is out.
+3. If `Draconic Visitor` is on the battlefield, those Heartwood tokens arrive as 5/5 red Dragons with flying instead. Each one is a fresh attacker; three of them is a lethal swing in two turns.
+4. With the mana the Heartwoods produced (they tap for red or green), activate `Hexhaven Dueling Arena` on a creature that attacked to prepare a second body, and cast that free spell too. `Pia, Determined Rebuilder`'s pump ability costs five mana and one red — Heartwood tokens are what pays for it.
+5. Repeat on the next upkeep. Nothing here consumes a card: the creatures stay, the tokens stay, and the free spell comes back every turn.
+
+## Win condition 2: attack with the whole board
+
+The Heartwood and Thopter tokens are not just mana. `Pia, Determined Rebuilder` gives a target creature +X/+0 where X is the number of artifacts you control, and `Aerid Konstrari` does the same for itself with `{6}` — on a board with six or seven artifacts that is a 12-power attack out of a 2/2 and a 5/4. `Hungering Puppetbeast` converts spare artifacts into +1/+1 counters and either trample, hexproof or haste, and `Tarmogoyf` is usually a 3/4 or 4/5 for two mana by the time the self-mill has done its work. This is the plan when the opponent has an answer to the Dragons (a sweeper, a big flier, or a planeswalker that keeps making blockers).
+
+## Mulligan guide
+
+- **Keep:** two or three lands including a green source, plus one prepared one-drop or two-drop and one re-preparer. That is a functional hand — the deck needs a body and a way to re-prepare it, nothing more.
+- **Keep on six:** any hand with `Heartwood Crafter` plus two lands. One mana for a free Heartwood token is enough of a start.
+- **Trim:** one-land hands; hands with no green source; hands of `Draconic Visitor` plus lands with no token stream; four-land hands with no creature.
+- Because fifteen of the thirty-six nonland cards cost two, most six-card hands are playable. Do not go to five chasing a perfect curve.
+
+## Key interactions and edge cases
+
+- **Prepared is a state, not a trigger to spend.** A creature that enters prepared has one free spell available whenever you want it. Casting the copy unprepares it — with a re-preparer, the state comes back at the next upkeep, which is the entire engine.
+- **`Draconic Visitor` replaces tokens, it does not copy them.** "If one or more artifact tokens would be created under your control, that many 5/5 red Dragon creature tokens with flying are created instead" — so the Heartwood token never exists, and you lose the mana rock but gain a Dragon. Only cast it once you have already banked the mana you need.
+- **`Draconic Visitor` also affects the Thopter from `Pia, Determined Rebuilder`.** A Thopter that becomes a 5/5 Dragon is a strict upgrade, and Pia's pump ability still counts artifacts, so keep at least one non-token artifact on the battlefield if you want her ability to stay large.
+- **`Heartwood Crafter`'s own mana is restricted.** Its "{T}: Add {C}. This mana can't be spent to cast spells from your hand" pays for `Hexhaven Dueling Arena` activations and other abilities, not for the next creature.
+- **`Codie, Ravenous Codex` copies prepared spells only.** The five-colour activation on its second ability needs all five colours and is not realistically usable in a three-colour deck — it is a bonus, not a plan.
+- **`Paradox Shaper` can recycle.** Its `{2}` ability puts a card from your graveyard on the bottom of your library, which matters once `Tarmogoyf` and threshold are online: do not let it shrink the yard you are counting on without a reason.
+- **`Carnivorous Cultivator` plus `Enroot` is a land loop.** The free `Enroot` puts a land into your graveyard; combat damage then returns a land card from the graveyard to your hand, so a chump-blocked Cultivator still returns a land you sacrificed nothing for.
+- **`Void Extrapolator` and `Theorix Metamage`-style threshold cards want seven cards.** Between `Omit Variables` (mill three, twice a turn with two copies of the effect) and the free soul-tether turns, that arrives around turn five without dedicating cards to it.
+- **`Hexhaven Dueling Arena` is sorcery-speed.** Prepare the attacker in your second main phase, after combat, so the free spell is available on the opponent's turn if it is an instant-speed effect.
+
+## Matchups
+
+- **Aggro:** the deck blocks badly early (1/1s and 2/2s), but `Carnivorous Cultivator` trades with anything thanks to deathtouch, and `Draconic Visitor` plus two Heartwoods stabilises fast — 5/5 fliers beat ground decks. Race with Dragons, not with one-drops.
+- **Control:** the prepared engine is resilient because the value sits on the battlefield, not in the graveyard or on the stack. A sweeper kills the re-preparers, so hold `Codie, Ravenous Codex` and `Aerid Konstrari` until after the first wipe, then rebuild from a board of Heartwood tokens and `Pia, Determined Rebuilder`.
+- **Midrange:** the long game favours this deck. Every turn past six is another free spell, `Tarmogoyf` gets bigger in both graveyards, and `Pia`'s pump scales with a board the opponent has to answer every turn.
+- **Heavy artifact removal:** `Draconic Visitor` turns the tokens into creatures before removal can target them, so games where the opponent is holding artifact answers are actually the ones where you want the Dragon line over the mana-rock line.
+- **Fliers and reach:** the deck's clock is aerial, which is a liability against large fliers. `Hungering Puppetbeast` with trample and `Aerid Konstrari`'s pump are the answer in those games.
+
+# Deck list (Arena import)
+
+```
+Rehearsed Ruin
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+4 Carnivorous Cultivator
+3 Pompous Battlemage
+3 Paradox Shaper
+3 Woodwork Prodigy
+2 Stingerquill Voxmancer
+2 Void Extrapolator
+2 Tarmogoyf
+2 Pia, Determined Rebuilder
+2 Aerid Konstrari
+3 Draconic Visitor
+1 Codie, Ravenous Codex
+1 Hungering Puppetbeast
+4 Rockfall Vale
+4 Haunted Ridge
+2 Hexhaven Dueling Arena
+7 Forest
+4 Mountain
+3 Swamp
+```

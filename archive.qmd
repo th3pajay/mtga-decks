@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **19** cards locked · **Reality Fracture 285/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **36** cards locked · **Reality Fracture 268/285** remaining
 
-**110 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**111 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-10-13
 
+- **[Rehearsed Ruin](decks/2026-10-13-rehearsed-ruin.html)** — Black / red / green prepared combo — Prepared x Heartwood x Threshold  `reality-fracture` `prepared`
 - **[Plot Hole](decks/2026-10-13-plot-hole.html)** — White / blue / black / green attrition combo — Graveyard x Void x Plot  `combo` `Graveyard` `Void` `Plot`
 
 ## 2026-10-12

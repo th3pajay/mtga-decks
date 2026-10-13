@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-13**:
 
+- **[Rehearsed Ruin](decks/2026-10-13-rehearsed-ruin.html)** — Black / red / green prepared combo — Prepared x Heartwood x Threshold  `reality-fracture` `prepared`
 - **[Plot Hole](decks/2026-10-13-plot-hole.html)** — White / blue / black / green attrition combo — Graveyard x Void x Plot  `combo` `Graveyard` `Void` `Plot`
