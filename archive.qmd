@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **36** cards locked · **Reality Fracture 268/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **55** cards locked · **Reality Fracture 268/285** remaining
 
-**111 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**112 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-10-14
+
+- **[Ride the Rot](decks/2026-10-14-ride-the-rot.html)** — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle  `combo` `sacrifice` `graveyard` `saddle`
 
 ## 2026-10-13
 

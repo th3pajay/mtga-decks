@@ -1,0 +1,173 @@
+---
+title: "Ride the Rot"
+subtitle: "Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle"
+date: "2026-10-14"
+categories: ["combo", "sacrifice", "graveyard", "saddle"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Sultai — blue / black / green |
+| Archetype | Midrange creature combo (graveyard as fuel, Mounts as the weapon) |
+| Size | 60 cards, 24 lands |
+| Focused mechanics | Sacrifice x Graveyard x Saddle |
+| Primary win | Saddled Mount alpha strike — `Stubborn Burrowfiend` grows with a fat graveyard, `Drover Grizzly` gives the team trample, `Rogue's Passage` makes the biggest body unblockable |
+| Secondary win | Scavenger's Talent at level 3 — every end step sacrifice three expendable permanents and return a creature from the graveyard, an engine that never runs out of bodies |
+| Land win con | `Restless Cottage` attacks as a 4/4 Horror and creates a Food token every time it does; `Fountainport` turns spare tokens into cards and makes more tokens |
+| Curve | 8 ones, 20 twos, 6 threes, 2 fives (average nonland mana value 2.11) |
+
+# Overview
+
+Three mechanics, one loop. **Saddle** needs creatures you control tapped, **Sacrifice** wants those same creatures to die, and **Graveyard** pays you for every card that lands there. This deck is built so those three demands pull in the same direction instead of competing: cheap recurring bodies do the saddling, then become the sacrifice fodder, then fill the yard that makes the Mounts enormous.
+
+The chassis is `Stubborn Burrowfiend`. It is a two-mana 2/2 Mount with Saddle 2, and every time it becomes saddled it mills two cards and then gets +X/+X where X is the number of creature cards in your graveyard. It is simultaneously the saddler's payoff, the mill engine and the win condition — the yard it fills is the yard that pumps it.
+
+Around that card the deck plays three interlocking pieces:
+
+- **Recurring saddlers.** `Bloodghast` returns from the graveyard whenever a land enters (its own landfall trigger), `Molt Tender` fixes mana by exiling a card from the yard, and `Vinereap Mentor` leaves a Food token behind whether it enters or dies. Saddle 1 and Saddle 2 costs are trivially met by bodies that never actually stay dead.
+- **A sacrifice outlet suite.** `Fanatical Offering` and `Corrupted Conviction` both turn a body into two cards, `Worthy Cost` turns a body into an exile, and `Fountainport` turns a spare token into a card. `Scavenger's Talent` rewards all of it: Foods on every creature death, a mill on every sacrifice, and at level 3 an end-step reanimation.
+- **A graveyard payoff.** `Squirming Emergence` reanimates any nonland permanent with mana value less than or equal to the permanent cards in your yard, and `Insidious Roots` creates a 0/1 Plant token (then adds a +1/+1 counter to every Plant you control) whenever creature cards leave your graveyard.
+
+`The Gitrog, Ravenous Ride` is the top of the curve and the deck's best single turn: a 6/5 trample and haste body with Saddle 1 that, on combat damage, lets you sacrifice the creature that saddled it to draw X cards and put up to X lands from your hand onto the battlefield tapped, where X is that creature's power. Saddle it with a pumped `Stubborn Burrowfiend` and the ride draws a fistful of cards and ramps a fistful of lands — and every one of those lands triggers `Bloodghast` back out of the graveyard while triggering `Insidious Roots`.
+
+Nothing in the deck is a blank. Every creature saddles, dies for value, or comes back; every spell either sacrifices, reanimates or refills; every land does something the engine wants.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Build the yard (turns 1 to 3).** Land `Molt Tender` or `Scavenger's Talent` on one, then start stacking two-drops: `Stubborn Burrowfiend` first, then `Venomsac Lagac` as a deathtouch blocker that also saddles. Every `Fanatical Offering` and `Corrupted Conviction` is a free mill-to-graveyard for the body you sacrifice, so the deck's early trades build the engine.
+2. **Turn the yard into a board (turns 3 to 5).** Saddle the Burrowfiend every turn you can. Mill two, watch it jump in size, and let `Drover Grizzly` come down to give the whole team trample. `Squirming Emergence` buys back anything that died — the yard count is almost always high enough by turn four because every sacrifice, mill and trade feeds it.
+3. **Ride (turn 5 plus).** Cast `The Gitrog, Ravenous Ride`, saddle it with the biggest body you have, and connect. The sacrifice trigger converts that body's power into cards and lands; the lands return `Bloodghast` and grow the `Insidious Roots` Plants. Repeat with `Squirming Emergence` until the board is lethal.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Stubborn Burrowfiend | 4 | Engine and win condition — 2/2 Mount, Saddle 2; when saddled it mills two and grows by the creature cards in your yard |
+| Venomsac Lagac | 4 | Enabler and defence — 2/1 deathtouch, Saddle 2; while saddled and attacking it gets +0/+3, so it blocks profitably and attacks safely |
+| Drover Grizzly | 3 | Payoff — 4/2 Mount, Saddle 1; while saddled and attacking, your whole team gains trample |
+| Bloodghast | 3 | Engine — 2/1 that cannot block but returns from the graveyard on every landfall; free saddle power and free sacrifice fodder, over and over |
+| Archmage's Newt | 2 | Engine (blue) — 2/2 Mount, Saddle 3; combat damage gives an instant or sorcery in your graveyard flashback, and flashback {0} while it is saddled |
+| Molt Tender | 2 | Enabler — 1/1 that mills on demand, then exiles a graveyard card to add one mana of any colour; the deck's colour fixer |
+| Vinereap Mentor | 2 | Enabler — 3/2 that creates a Food token on entering and again on dying; two sacrifice bodies from one card |
+| The Gitrog, Ravenous Ride | 2 | Payoff — 6/5 trample, haste, Saddle 1; on combat damage sacrifice the saddler to draw X and put up to X lands down tapped, where X is its power |
+| Fanatical Offering | 3 | Sacrifice outlet — sacrifice an artifact or creature, draw two cards and make a Map token that later explores |
+| Squirming Emergence | 3 | Graveyard payoff — return any nonland permanent card with mana value up to your permanent-card count |
+| Corrupted Conviction | 2 | Sacrifice outlet — one mana, sacrifice a creature, draw two |
+| Scavenger's Talent | 2 | Engine — Foods on creature deaths, a mill per sacrifice, and at level 3 an end-step reanimation |
+| Worthy Cost | 2 | Removal — sacrifice a creature to exile any creature or planeswalker for one mana |
+| Insidious Roots | 2 | Payoff — creature tokens tap for any colour, and every creature card leaving the graveyard makes a Plant and pumps every Plant |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Cottage | Turns into a 4/4 Horror for `{2}{B}{G}` and creates a Food token whenever it attacks — a win condition and a sacrifice body on the same card, and it can exile a card from a graveyard |
+| Fountainport | `{2}`, `{T}`, sacrifice a token: draw a card. The only sacrifice outlet that costs no card; also makes 1/1 Fish and Treasures |
+| Rogue's Passage | `{4}`, `{T}`: target creature cannot be blocked — the finisher for a pumped `Stubborn Burrowfiend` or `The Gitrog` |
+| Bucolic Ranch | Adds one mana of any colour for a Mount spell, and for three mana digs the top card for a Mount |
+| Deathcap Glade | Black and green untapped once you have two other lands |
+| Hedge Maze | Green and blue, with a free surveil to stock the graveyard |
+| Undercity Sewers | Blue and black, with a free surveil to stock the graveyard |
+
+## Curve and mana
+
+24 lands: 4 `Forest`, 3 `Swamp`, 2 `Island`, 4 `Deathcap Glade`, 2 `Hedge Maze`, 1 `Undercity Sewers`, and the utility package of 2 `Restless Cottage`, 2 `Fountainport`, 2 `Rogue's Passage` and 2 `Bucolic Ranch`.
+
+The mana is deliberately green-first because thirteen of the deck's twenty-two creatures cost green, black is the second requirement (`Bloodghast`'s double black on turn two, `The Gitrog` at five), and blue is a light splash for `Archmage's Newt`. The split is 14 green sources, 10 black sources and 6 blue sources counting the lands that make both. `Molt Tender` and `Bucolic Ranch` smooth the rest: the Tender exiles a graveyard card for any colour, and the Ranch pays for Mounts in any colour.
+
+The nonland curve is 8 ones, 20 twos, 6 threes and 2 fives — an average nonland mana value of 2.11. Fourteen cards cost one or two mana and do something the engine wants, so the deck is functional with two lands and dangerous with four.
+
+# Gameplay strategy
+
+## Early game (turns 1 to 3)
+
+- **Turn 1:** `Scavenger's Talent` if you expect a grind, otherwise `Molt Tender` to mill and fix. Both cost one.
+- **Turn 2:** `Stubborn Burrowfiend` is the default; `Venomsac Lagac` is the better choice against an aggressive start because deathtouch plus +0/+3 while saddled blocks almost anything. `Bloodghast` is fine when you have a land in hand to bring it back.
+- **Turn 3:** `Drover Grizzly`, or hold up `Corrupted Conviction` and sacrifice something the opponent spent a removal spell on anyway. Sacrificing a body you were going to lose is the deck's cheapest card advantage.
+- Start saddling as soon as you have two power available: `Stubborn Burrowfiend`'s saddled trigger mills two cards, and every one of those cards is either graveyard fuel for itself, reanimation material for `Squirming Emergence`, or a Plant token from `Insidious Roots`.
+
+## Mid game (turns 4 to 6)
+
+- Sequence `Scavenger's Talent` levels before committing bodies. At level 2 every sacrifice mills someone two cards; at level 3 the end step starts returning creatures.
+- `Squirming Emergence` at three mana almost always has a legal target: by turn four your yard typically holds four or more permanent cards from mills, trades and sacrifices. Getting back `Stubborn Burrowfiend` or `Drover Grizzly` restarts the whole engine.
+- `Insidious Roots` turns every `Bloodghast` return into a Plant token and a +1/+1 counter on every Plant you already have. A stalled board of Plants is still a growing board, and the Plants tap for any colour to keep paying costs.
+- `Worthy Cost` is your answer to anything that outclasses your board, and it is at its best when the sacrificed creature was going to be reanimated or was a token.
+
+## The combo turn
+
+1. Have a big body. `Stubborn Burrowfiend` after two saddled attacks with a stocked yard is usually 6/6 or larger; `Bloodghast` and Plants can also saddle.
+2. Cast `The Gitrog, Ravenous Ride`. It has haste, so it can attack the turn it lands.
+3. Saddle it with the biggest creature (Saddle 1 only needs one power, so any body qualifies).
+4. Before combat, activate `Rogue's Passage` if a blocker would stop the 6/5 — trample usually gets there, but unblockable guarantees the trigger. `Drover Grizzly` is the cheaper option: saddle the Grizzly first and the whole team has trample.
+5. Gitrog deals combat damage, you sacrifice the creature that saddled it, and you draw X cards and put up to X lands from your hand onto the battlefield tapped, where X is that creature's power.
+6. Each of those lands triggers `Bloodghast` out of the graveyard, triggers `Insidious Roots`, and untaps nothing — so plan the order: resolve landfall first, then use the returned bodies to saddle again next turn.
+7. Rebuy `The Gitrog` with `Squirming Emergence` (five mana value, so you need five permanent cards in the yard) and do it again.
+
+## Win condition 2: the Scavenger's Talent loop
+
+`Scavenger's Talent` at level 3 reads: at the beginning of your end step you may sacrifice three other nonland permanents, and if you do, return a creature card from your graveyard to the battlefield with a finality counter on it. The deck feeds that cost without spending real cards — Food tokens from `Vinereap Mentor` and from Talent's own level 1 trigger, Map tokens from `Fanatical Offering`, Plants from `Insidious Roots`, and returned `Bloodghast`s. Level 2's mill keeps filling the yard that `Squirming Emergence` and the Talent both draw from. You trade a handful of trinkets each turn for one real creature, and the trinkets regenerate from the deaths, the sacrifices and the landfalls.
+
+## Mulligan guide
+
+- **Keep:** two or three lands with green plus one of black or blue, at least one sacrifice outlet or graveyard filler, and a two-drop that saddles.
+- **Keep aggressively:** any hand with `Stubborn Burrowfiend` and a mill source, because the Burrowfiend is both the engine and a clock.
+- **Trim:** one-land hands, hands with no green source, and five-land hands without a two-drop.
+- The deck is fine discarding or sacrificing its own cards; card quality matters far more than card count, so do not keep a hand just because it has seven cards.
+
+## Key interactions and edge cases
+
+- **Saddle is a sorcery-speed activation and tapping is the cost.** Tapping a `Bloodghast` to saddle does not remove its landfall trigger — the trigger only cares about the land entering, so a saddled and tapped Bloodghast still returns the next time a land drops.
+- **`Stubborn Burrowfiend` triggers only on the first time it becomes saddled each turn**, but it can be saddled again for combat and combat only cares that it is saddled at the moment it attacks.
+- **Saddle 2 and Saddle 3 are power-based, not creature-count-based.** One 3-power creature saddles Saddle 3 by itself; three 1-power Plants do it too.
+- **`The Gitrog` sacrifices a creature that saddled it this turn** — not any creature. If you saddle it with a token and then sacrifice that token, the draw is small. Saddle it with the Burrowfiend if you want the big draw.
+- **Gitrog puts lands from your hand onto the battlefield tapped.** If your hand has no lands, the ride only draws. Keep lands in hand when a ride is coming.
+- **`Squirming Emergence` needs permanent cards in the graveyard, not cards.** Milled instants and sorceries do not count, which is why `Molt Tender`'s exile-for-mana ability is worth using on a spare sorcery.
+- **`Insidious Roots` triggers on creature cards leaving the graveyard, in either direction.** A reanimated creature counts; so does one exiled by `Molt Tender`.
+- **`Archmage's Newt` gives flashback to instants and sorceries, and flashback {0} while it is saddled.** With a Newt saddled, a `Fanatical Offering` or `Corrupted Conviction` in the graveyard can be recast for free, which is another two cards and another sacrifice.
+- **`Restless Cottage` exiles a card from any graveyard when it attacks.** Use it on an opponent's reanimation target or on your own key card if an opponent is exiling your yard.
+- **Finality counters matter.** Creatures returned by `Scavenger's Talent` cannot be returned again after they die, so reanimate a body you intend to keep, not one you intend to sacrifice.
+
+## Matchups
+
+- **Aggro:** `Venomsac Lagac`'s deathtouch and +0/+3 while saddled is the wall, `Restless Cottage`'s Foods buy life, and `Worthy Cost` removes the biggest threat for one mana plus a spare body. Trade early and let the graveyard grow from the trades.
+- **Control:** the deck is resilient because nothing important stays dead. `Bloodghast` and `Squirming Emergence` ignore a single sweeper, `Restless Cottage` attacks under sorcery-speed removal, and `Fountainport` plus `Fanatical Offering` keep the hand full. Do not over-commit into a wipe; hold one reanimation in hand.
+- **Graveyard hate:** the deck's one soft spot. Against exile effects, lean on the board instead: the Mounts are still real creatures, `Drover Grizzly` still gives trample, and `Scavenger's Talent` still makes Foods. Keep a `Worthy Cost` for their hate permanent.
+- **Ramp and midrange:** go under them with saddled Mounts. `Drover Grizzly` plus `Stubborn Burrowfiend` is often ten trample damage by turn five, and `Rogue's Passage` removes the blocker that would have saved them.
+- **Mirror:** whoever saddles first usually wins the race. Hold `Worthy Cost` for their Burrowfiend rather than using it on a token.
+
+# Deck list (Arena import)
+
+```
+Ride the Rot
+Deck
+4 Stubborn Burrowfiend
+4 Venomsac Lagac
+3 Drover Grizzly
+3 Bloodghast
+2 Archmage's Newt
+2 Molt Tender
+2 Vinereap Mentor
+2 The Gitrog, Ravenous Ride
+3 Fanatical Offering
+3 Squirming Emergence
+2 Corrupted Conviction
+2 Scavenger's Talent
+2 Worthy Cost
+2 Insidious Roots
+4 Forest
+3 Swamp
+2 Island
+4 Deathcap Glade
+2 Hedge Maze
+1 Undercity Sewers
+2 Restless Cottage
+2 Fountainport
+2 Rogue's Passage
+2 Bucolic Ranch
+```

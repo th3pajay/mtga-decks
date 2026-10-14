@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-13**:
+Deck guides published **2026-10-14**:
 
-- **[Rehearsed Ruin](decks/2026-10-13-rehearsed-ruin.html)** — Black / red / green prepared combo — Prepared x Heartwood x Threshold  `reality-fracture` `prepared`
-- **[Plot Hole](decks/2026-10-13-plot-hole.html)** — White / blue / black / green attrition combo — Graveyard x Void x Plot  `combo` `Graveyard` `Void` `Plot`
+- **[Ride the Rot](decks/2026-10-14-ride-the-rot.html)** — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle  `combo` `sacrifice` `graveyard` `saddle`
