@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-14**:
 
 - **[Ride the Rot](decks/2026-10-14-ride-the-rot.html)** — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle  `combo` `sacrifice` `graveyard` `saddle`
+- **[Loyalty Lattice](decks/2026-10-14-loyalty-lattice.html)** — Blue / white / black empower superfriends — Empower x loyalty counters x Jace  `reality-fracture` `empower`

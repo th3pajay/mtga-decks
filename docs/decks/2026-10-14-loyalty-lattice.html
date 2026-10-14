@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-14">
+
+<title>Loyalty Lattice – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game-turns-1-to-3" id="toc-early-game-turns-1-to-3" class="nav-link" data-scroll-target="#early-game-turns-1-to-3">Early game (turns 1 to 3)</a></li>
+  <li><a href="#mid-game-turns-4-to-6" id="toc-mid-game-turns-4-to-6" class="nav-link" data-scroll-target="#mid-game-turns-4-to-6">Mid game (turns 4 to 6)</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2-the-lurker-board" id="toc-win-condition-2-the-lurker-board" class="nav-link" data-scroll-target="#win-condition-2-the-lurker-board">Win condition 2: the Lurker board</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Loyalty Lattice</h1>
+<p class="subtitle lead">Blue / white / black empower superfriends — Empower x loyalty counters x Jace</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">reality-fracture</div>
+    <div class="quarto-category">empower</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 14, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (Reality Fracture set deck)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Blue / white / black (Esper)</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Planeswalker combo — Empower loyalty engine</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Focused mechanic</td>
+<td>Empower (35 cards in Reality Fracture), the Jace planeswalker token it creates, and loyalty counters</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Jace, Reality Sculptor’s zero-loyalty ability: with twenty-five or more loyalty counters among Jaces you control, exile all but the bottom card of each opponent’s library and let them deck themselves</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Sanctum Lurker turns every planeswalker into a “+2: one damage to each opponent and you gain one life” pinger that never dies, and every point of that life gain feeds Way of the Mentor, which puts a loyalty counter on <em>each</em> planeswalker — a board that grows and drains every single turn</td>
+</tr>
+<tr class="even">
+<td>Land win con</td>
+<td>Theorist’s Sanctum — an Island that enters untapped once you behold a Jace and can pay two plus blue to empower Jace 2, a repeatable loyalty source for the primary win</td>
+</tr>
+<tr class="odd">
+<td>Deck IDs</td>
+<td>MTGADB deck 20 — cohesion 73.9, synergy 73.8, goldfish T4 consistency 0.637</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Reality Fracture’s Empower mechanic does one thing beautifully: <strong>it puts loyalty counters on a Jace planeswalker token, and if you do not control one, it creates the token first.</strong> Every empower spell is therefore both a spell and a planeswalker, and the planeswalker it leaves behind has “[-1]: Surveil 1” and “[-3]: Draw a card.” A deck built around empower is a deck that goes wide with planeswalkers without spending cards on them.</p>
+<p>Two cards convert that into a win. <strong>Sanctum Lurker</strong> is the linchpin: your planeswalkers are not put into graveyards for having zero loyalty, and every planeswalker you control gains “[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life.” A planeswalker sitting at zero loyalty is still a permanent that can add counters, so the Lurker board is a wall of enchantments-grade permanents that ping and gain life every turn and cannot be killed by attacking them down to zero. <strong>Jace, Reality Sculptor</strong> is the kill: its zero-cost ability exiles all but the bottom card of each opponent’s library, gated only on there being twenty-five or more loyalty counters among Jaces you control. Empower cards exist to pile those counters on.</p>
+<p>The third piece is <strong>Way of the Mentor</strong>: whenever you gain life, put a loyalty counter on <em>each</em> planeswalker you control. Sanctum Lurker’s ping gains life. Ajani Resolute’s zero ability gains life. Liliana the Faultless gains life every time a creature or planeswalker enters — and every empower spell enters as a planeswalker. Once Way of the Mentor is on the battlefield, each ping both shreds the opponent and grows the entire board, which is exactly what the twenty-five-loyalty threshold wants.</p>
+<p>Nothing in the deck is a fair card played fairly. The empower spells are the win condition’s fuel, the Jace tokens are the win condition’s body, and the Ways are the multipliers that make both grow for free.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Seed the lattice (turns 1 to 3).</strong> One untapped basic, then the cheapest empower effects. <code>Way of the Necromancer</code> on turn two creates a Jace token and puts two counters on it; <code>Theorist's Proxy</code> is a flashed-in 0/3 that empowers Jace 3 and protects the token at instant speed; <code>Ajani Resolute</code> on turn one is a zero ability that gains a life every turn and grows itself off that life. From the moment you control a planeswalker, the Annex lands stop entering tapped, so this phase is also the mana-fixing phase.</li>
+<li><strong>Build the stack (turns 4 to 6).</strong> <code>Sanctum Lurker</code> turns every planeswalker into a pinger and makes them immortal at zero loyalty. <code>Jace's Machinations</code> is the biggest single loyalty swing in the deck — empower Jace 8, plus the ability to activate Jace loyalty abilities on any player’s turn at instant speed. <code>Mindseeker Oculus</code>, <code>Protege's Awakening</code> and <code>Way of the Mind Sculptor</code> each add four, six and five more counters. <code>Way of the Mentor</code> and <code>Way of the Healer</code> are the multipliers: Mentor converts every point of life you gain (and the Lurker gains life on every activation) into a counter on every planeswalker, while Healer gives every planeswalker “[-2]: Create a 2/2 colorless Wizard Soldier token named Cadet. Surveil 1.”</li>
+<li><strong>Convert (turn six plus).</strong> With a Jace token carrying twenty-five or more counters, with <code>Jace, Reality Sculptor</code> on the battlefield, activate its zero ability and exile the opponent’s library down to one card. From there the opponent draws their last card and loses on the following draw step. If the Sculptor is not there yet, the Lurker board is already winning: each planeswalker pings for one and gains a life every turn, Cadets and Illusions attack, and <code>The Theorist, Jace Beleren</code> draws you an extra card on each opponent’s draw step while you find the kill.</li>
+</ol>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sanctum Lurker</td>
+<td>4</td>
+<td>Linchpin — 3/2 for three that empowers Jace 1 on entry, then keeps every planeswalker alive at zero loyalty and gives them all a “+2: deal 1 damage to each opponent and you gain 1 life” ability</td>
+</tr>
+<tr class="even">
+<td>The Theorist, Jace Beleren</td>
+<td>3</td>
+<td>Engine and Jace — draws a card at the beginning of each opponent’s draw step, makes 1/1 Illusion tokens with its plus ability, and its ultimate dumps the hand onto the whole board as +1/+1 counters</td>
+</tr>
+<tr class="odd">
+<td>Jace, Reality Sculptor</td>
+<td>2</td>
+<td>Win condition — its plus ability empowers Jace X where X is your Island count, its minus three softens attackers, and its zero ability exiles all but the bottom card of each opponent’s library at twenty-five loyalty</td>
+</tr>
+<tr class="even">
+<td>Ajani Resolute</td>
+<td>2</td>
+<td>Engine — two-mana planeswalker whose zero ability gains a life, which grows Ajani itself and every other planeswalker with Way of the Mentor out; also a source of 2/2 Cat Soldier tokens later</td>
+</tr>
+<tr class="odd">
+<td>Liliana the Faultless</td>
+<td>2</td>
+<td>Engine — one-mana 1/1 that gains a life every time another creature or planeswalker enters, which every empower spell triggers</td>
+</tr>
+<tr class="even">
+<td>Mindseeker Oculus</td>
+<td>2</td>
+<td>Enabler — three-mana 2/1 that empowers Jace 4 on entry, the cheapest big counter swing in the set</td>
+</tr>
+<tr class="odd">
+<td>Theorist’s Proxy</td>
+<td>2</td>
+<td>Enabler and protection — flash 0/3 that empowers Jace 3 at instant speed, and can be sacrificed so the next spell cannot be countered</td>
+</tr>
+<tr class="even">
+<td>Way of the Mentor</td>
+<td>3</td>
+<td>Multiplier — empowers Jace 5 on entry, then puts a loyalty counter on each planeswalker every time you gain life</td>
+</tr>
+<tr class="odd">
+<td>Way of the Necromancer</td>
+<td>3</td>
+<td>Enabler — two-mana enchantment that empowers Jace 2 on entry and adds a loyalty counter to each planeswalker whenever a creature you control dies</td>
+</tr>
+<tr class="even">
+<td>Way of the Mind Sculptor</td>
+<td>2</td>
+<td>Enabler and draw — empowers Jace 5 on entry, then draws a card whenever you activate a loyalty ability that removed two or more counters</td>
+</tr>
+<tr class="odd">
+<td>Way of the Healer</td>
+<td>1</td>
+<td>Win condition 2 enabler — empowers Jace 5 and grants every planeswalker “[-2]: create a 2/2 Cadet token, surveil 1”</td>
+</tr>
+<tr class="even">
+<td>Jace’s Machinations</td>
+<td>4</td>
+<td>The big swing — instant that empowers Jace 8 and lets you activate Jace loyalty abilities on any player’s turn at instant speed</td>
+</tr>
+<tr class="odd">
+<td>Protege’s Awakening</td>
+<td>2</td>
+<td>Enabler — four mana, empower Jace 6, draw a card</td>
+</tr>
+<tr class="even">
+<td>Vraska’s Final Mercy</td>
+<td>2</td>
+<td>Removal and win fuel — two mana, pay two life for either “destroy target creature or planeswalker” or “empower Jace 6”</td>
+</tr>
+<tr class="odd">
+<td>Fatehold Charm</td>
+<td>2</td>
+<td>Flexibility — two mana instant: draw a card and empower Jace 2, bounce a creature or spell, or give the team +1/+2</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the combo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Theorist’s Sanctum</td>
+<td>The land half of the win condition. It is an Island, it enters untapped if you behold a Jace (choose one you control or reveal a Jace card from your hand — the deck has five Jaces), and for two plus blue it empowers Jace 2 on any turn. That is a free loyalty counter pair every single turn out of a land slot, and it is what pushes a nineteen-counter board over the twenty-five threshold</td>
+</tr>
+<tr class="even">
+<td>Fatehold Annex</td>
+<td>White-blue dual that enters untapped once you control a planeswalker — which an empower spell guarantees from turn two</td>
+</tr>
+<tr class="odd">
+<td>Theorix Annex</td>
+<td>Blue-black dual on the same condition, paying for Sanctum Lurker, Way of the Necromancer and Vraska’s Final Mercy</td>
+</tr>
+<tr class="even">
+<td>Meticulous Commons</td>
+<td>White-black dual on the same condition, covering the black half of the Ways and the white half of Way of the Mentor</td>
+</tr>
+<tr class="odd">
+<td>Deserted Beach</td>
+<td>Blue-white dual that enters untapped once you control two other lands, so it is live before the first planeswalker lands</td>
+</tr>
+<tr class="even">
+<td>Shipwreck Marsh</td>
+<td>Blue-black dual on the same two-land condition</td>
+</tr>
+<tr class="odd">
+<td>Island, Plains, Swamp</td>
+<td>The untapped basics. Four Islands pay for the blue-heavy curve and make Jace, Reality Sculptor’s plus ability large; two Plains and a Swamp cover the white and black halves</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>36 nonland cards and 24 lands, average nonland mana value 2.97 — two ones, eleven twos, thirteen threes, six fours and four fives. The deck wants a turn-one play almost always and a turn-two empower effect in most games, then spends the mid game on four- and five-mana engines.</p>
+<p>The mana base is blue with white and black support: eighteen blue sources, eleven white and ten black. Blue is that deep on purpose. It pays for a heavy blue top end (<code>The Theorist</code> and <code>Jace, Reality Sculptor</code> both cost two blue, and the Sculptor’s plus ability counts Islands), and it is the colour that the Annex cycle and Shipwreck Marsh share.</p>
+<p>The six Annex and Commons lands all enter untapped once you control a planeswalker, so the first empower spell of the game is also the moment the mana base comes online. Run the basics first: turn one should be an untapped basic or a Deserted Beach, never a tapped Annex. After the first Jace lands, all six duals are free.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game-turns-1-to-3" class="level2">
+<h2 class="anchored" data-anchor-id="early-game-turns-1-to-3">Early game (turns 1 to 3)</h2>
+<ul>
+<li><strong>Turn 1:</strong> <code>Liliana the Faultless</code> is the best one-drop — a 1/1 that gains a life every time a creature or planeswalker enters, which is the deck’s entire game plan arriving early. <code>Ajani Resolute</code> is the other option: a two-mana planeswalker that gains a life every turn and grows itself.</li>
+<li><strong>Turn 2:</strong> <code>Way of the Necromancer</code> is the cheapest way to put a Jace token (and two counters) on the battlefield, and it turns every future trade into a loyalty counter on every planeswalker. <code>Theorist's Proxy</code> at flash speed is the safe version: hold up two mana, and if the opponent does nothing relevant, empower Jace 3 at end of turn.</li>
+<li><strong>Turn 3:</strong> <code>Sanctum Lurker</code> is the priority. It makes the board of planeswalkers permanent and turns each of them into a pinger. <code>Mindseeker Oculus</code> (empower Jace 4) and <code>Fatehold Charm</code> (draw a card, empower Jace 2) are the backup plays.</li>
+<li>Every one of those spells also untaps your Annex lands for the rest of the game. Treat the first empower spell of the game as the mana-fixing play, not just the engine play.</li>
+</ul>
+</section>
+<section id="mid-game-turns-4-to-6" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-turns-4-to-6">Mid game (turns 4 to 6)</h2>
+<ul>
+<li><code>Jace's Machinations</code> is the turn the clock starts. Eight counters in one instant, plus instant-speed loyalty activation for the rest of the turn — with <code>Sanctum Lurker</code> down that means a ping and a life point for every planeswalker even on the opponent’s turn.</li>
+<li><code>Way of the Mentor</code> doubles the value of every ping, every Ajani activation and every Liliana trigger. Cast it before the next batch of empower spells, not after.</li>
+<li><code>The Theorist, Jace Beleren</code> is the card-advantage engine: it draws on each opponent’s draw step, so holding mana for <code>Theorist's Proxy</code> or a charm costs you nothing in the long run.</li>
+<li>Hold <code>Vraska's Final Mercy</code> for the mode you actually need. Two life for “destroy target creature or planeswalker” is a bargain against a resolved threat; two life for empower Jace 6 is a bargain when you are two counters short of the combo.</li>
+<li><code>Jace, Reality Sculptor</code>’s minus three is a real defensive play: every creature that attacks you or a planeswalker you control gets minus five minus zero until your next turn. It buys the extra turn the deck needs.</li>
+</ul>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<ol type="1">
+<li>Have <code>Jace, Reality Sculptor</code> on the battlefield and a Jace token (or any Jace) with a stack of loyalty counters. <code>Sanctum Lurker</code> is strongly preferred, because it keeps every planeswalker alive at zero loyalty and adds the ping ability.</li>
+<li>Count the loyalty among all Jaces you control. Common contributions: <code>Jace's Machinations</code> eight, <code>Protege's Awakening</code> six, <code>Way of the Mind Sculptor</code> five, <code>Way of the Mentor</code> five, <code>Mindseeker Oculus</code> four, <code>Theorist's Proxy</code> three, <code>Way of the Necromancer</code> two, <code>Vraska's Final Mercy</code> six, <code>Fatehold Charm</code> two, <code>Theorist's Sanctum</code> two per activation, and the Sculptor’s own plus ability for one per Island.</li>
+<li>Two or three empower spells plus a Sanctum activation is normally enough. When the total reaches twenty-five, activate <code>Jace, Reality Sculptor</code>’s zero ability: exile all but the bottom card of each opponent’s library.</li>
+<li>The opponent is not decked immediately — they still have one card. They draw it, then lose on their next draw step. In the meantime the Lurker board keeps pinging and gaining life, so there is no window where they can race back.</li>
+<li>If the combo is disrupted, you have not lost anything. The empower spells left a board of planeswalkers, the Ways keep growing them, and <code>Way of the Healer</code> keeps making 2/2 Cadets every turn.</li>
+</ol>
+</section>
+<section id="win-condition-2-the-lurker-board" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2-the-lurker-board">Win condition 2: the Lurker board</h2>
+<p><code>Sanctum Lurker</code> turns every planeswalker — the token from an empower spell, The Theorist, Jace Reality Sculptor, Ajani Resolute — into a permanent that deals one damage to each opponent and gains you a life for two loyalty counters. In a normal game the deck fields between three and six planeswalkers, so that is three to six damage a turn from permanents the opponent cannot kill by attacking them to zero loyalty. <code>Way of the Mentor</code> adds a counter to every one of them on each of those life gains, <code>Way of the Necromancer</code> adds another counter every time a Cadet or Illusion chump-blocks, and <code>Way of the Healer</code> makes every planeswalker a Cadet factory at minus two. The result is a board that grows while it drains; <code>The Theorist, Jace Beleren</code>’s ultimate then converts the hand into +1/+1 counters on every creature for a lethal swing.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<ul>
+<li><strong>Keep:</strong> two or three lands with at least one untapped basic, plus a cheap empower effect (<code>Way of the Necromancer</code>, <code>Theorist's Proxy</code>, <code>Mindseeker Oculus</code>) and one payoff or multiplier (<code>Sanctum Lurker</code>, <code>Way of the Mentor</code>, <code>Jace's Machinations</code>).</li>
+<li><strong>Keep on six:</strong> one basic land plus <code>Liliana the Faultless</code> or <code>Ajani Resolute</code> and two more lands. A turn-one lifegain engine is a functional start.</li>
+<li><strong>Trim:</strong> hands with four or more lands but nothing to cast under three mana; hands that are all defence; one-land hands with no one-drop.</li>
+<li>Do not go to five looking for <code>Jace's Machinations</code>. The deck’s floor is cheap empower spells, and the Ways and Lurkers are the cards that make them matter.</li>
+</ul>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>A planeswalker at zero loyalty is not dead here.</strong> Sanctum Lurker stops your planeswalkers from being put into graveyards for having zero loyalty. Costs that remove loyalty cannot be paid below zero, but a cost that adds counters — the Lurker’s granted plus-two, Jace, Reality Sculptor’s plus one — is always payable, so a zero-loyalty planeswalker keeps working.</li>
+<li><strong>Empower targets a Jace token, not a Jace card.</strong> “Put counters on a Jace token you control; if you do not control one, first create a blue Jace planeswalker token.” <code>The Theorist, Jace Beleren</code> is a Jace for the loyalty-count and for beholding, but the counters from empower land on the token.</li>
+<li><strong>Way of the Mentor and Sanctum Lurker are the engine pair.</strong> The Lurker’s ping gains a life on every activation, and Mentor converts every life gain into a counter on each planeswalker. Ajani Resolute’s zero ability and Liliana the Faultless’s enters-trigger do the same job on their own.</li>
+<li><strong>Way of the Necromancer wants bodies, not bombs.</strong> It only triggers when a creature dies, so Cadets, Illusions and Cat Soldiers are the fuel — chump-blocking is often a loyalty counter on every planeswalker.</li>
+<li><strong>Behold a Jace is a cost, not a sacrifice.</strong> Theorist’s Sanctum either chooses a Jace you control or reveals a Jace card from your hand; the permanent stays. Casting the Sanctum with a Jace in hand makes it an untapped Island.</li>
+<li><strong>Jace’s Machinations lifts timing, not the once-per-turn rule.</strong> Each planeswalker still activates one loyalty ability per turn, but with the instant it can activate on the opponent’s turn as well.</li>
+<li><strong>The last-card rule.</strong> Jace, Reality Sculptor leaves the opponent exactly one library card. That player draws it and then loses on the following draw. If they have a way to skip draws or shuffle back in, keep the Lurker board attacking; the ping-plus-Cadets plan does not care.</li>
+<li><strong>Vraska’s Final Mercy always costs two life</strong>, whichever mode you pick. Do not fire it at three life against a deck with reach.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> the deck’s early bodies are 1/1s and 0/3s, so the opening turns are about survival, not tempo. <code>Ajani Resolute</code> and <code>Liliana the Faultless</code> gain the life back, <code>Jace, Reality Sculptor</code>’s minus three makes attacking into the board miserable, and once <code>Sanctum Lurker</code> arrives pressure stops mattering — the board pings back every turn and cannot be killed.</li>
+<li><strong>Midrange:</strong> this is the best matchup. The deck out-grows whatever the opponent plays, because the Ways add counters every turn and the empower spells never spend a card on the engine itself. Save <code>Vraska's Final Mercy</code> for the one threat that actually blocks the combo.</li>
+<li><strong>Control:</strong> the value sits on enchantments and planeswalkers rather than on spells, so counterspells trade down. <code>Theorist's Proxy</code> can be sacrificed to make the next spell uncounterable, and Way of the Mentor and Way of the Necromancer are the survivals after a sweeper because they keep the rebuilt board growing.</li>
+<li><strong>Combo and graveyard decks:</strong> the deck has no graveyard interaction beyond Fatehold Charm and Vraska’s Final Mercy, so racing with the Lurker board plus the Jace deck-out is the plan. <code>The Theorist, Jace Beleren</code>’s draw step trigger means the deck finds its kill quickly against decks that do not pressure life totals.</li>
+<li><strong>Artifact and enchantment removal:</strong> <code>Way of the Healer</code> and <code>Way of the Necromancer</code> are the expendable pieces; <code>Way of the Mentor</code> and <code>Sanctum Lurker</code> are the ones worth protecting with <code>Theorist's Proxy</code>’s sacrifice ability or by simply doubling up.</li>
+</ul>
+<p><em>Reality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there.</em></p>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Loyalty Lattice
+Deck
+4 Sanctum Lurker
+3 The Theorist, Jace Beleren
+2 Jace, Reality Sculptor
+2 Ajani Resolute
+2 Liliana the Faultless
+2 Mindseeker Oculus
+2 Theorist's Proxy
+3 Way of the Mentor
+3 Way of the Necromancer
+2 Way of the Mind Sculptor
+1 Way of the Healer
+4 Jace's Machinations
+2 Protege's Awakening
+2 Vraska's Final Mercy
+2 Fatehold Charm
+4 Fatehold Annex
+4 Theorix Annex
+3 Meticulous Commons
+2 Theorist's Sanctum
+2 Deserted Beach
+2 Shipwreck Marsh
+4 Island
+2 Plains
+1 Swamp</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

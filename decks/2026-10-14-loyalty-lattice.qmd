@@ -1,0 +1,167 @@
+---
+title: "Loyalty Lattice"
+subtitle: "Blue / white / black empower superfriends — Empower x loyalty counters x Jace"
+date: "2026-10-14"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (Reality Fracture set deck) |
+| Colors | Blue / white / black (Esper) |
+| Archetype | Planeswalker combo — Empower loyalty engine |
+| Size | 60 cards, 24 lands |
+| Focused mechanic | Empower (35 cards in Reality Fracture), the Jace planeswalker token it creates, and loyalty counters |
+| Primary win | Jace, Reality Sculptor's zero-loyalty ability: with twenty-five or more loyalty counters among Jaces you control, exile all but the bottom card of each opponent's library and let them deck themselves |
+| Secondary win | Sanctum Lurker turns every planeswalker into a "+2: one damage to each opponent and you gain one life" pinger that never dies, and every point of that life gain feeds Way of the Mentor, which puts a loyalty counter on *each* planeswalker — a board that grows and drains every single turn |
+| Land win con | Theorist's Sanctum — an Island that enters untapped once you behold a Jace and can pay two plus blue to empower Jace 2, a repeatable loyalty source for the primary win |
+| Deck IDs | MTGADB deck 20 — cohesion 73.9, synergy 73.8, goldfish T4 consistency 0.637 |
+
+# Overview
+
+Reality Fracture's Empower mechanic does one thing beautifully: **it puts loyalty counters on a Jace planeswalker token, and if you do not control one, it creates the token first.** Every empower spell is therefore both a spell and a planeswalker, and the planeswalker it leaves behind has "[-1]: Surveil 1" and "[-3]: Draw a card." A deck built around empower is a deck that goes wide with planeswalkers without spending cards on them.
+
+Two cards convert that into a win. **Sanctum Lurker** is the linchpin: your planeswalkers are not put into graveyards for having zero loyalty, and every planeswalker you control gains "[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life." A planeswalker sitting at zero loyalty is still a permanent that can add counters, so the Lurker board is a wall of enchantments-grade permanents that ping and gain life every turn and cannot be killed by attacking them down to zero. **Jace, Reality Sculptor** is the kill: its zero-cost ability exiles all but the bottom card of each opponent's library, gated only on there being twenty-five or more loyalty counters among Jaces you control. Empower cards exist to pile those counters on.
+
+The third piece is **Way of the Mentor**: whenever you gain life, put a loyalty counter on *each* planeswalker you control. Sanctum Lurker's ping gains life. Ajani Resolute's zero ability gains life. Liliana the Faultless gains life every time a creature or planeswalker enters — and every empower spell enters as a planeswalker. Once Way of the Mentor is on the battlefield, each ping both shreds the opponent and grows the entire board, which is exactly what the twenty-five-loyalty threshold wants.
+
+Nothing in the deck is a fair card played fairly. The empower spells are the win condition's fuel, the Jace tokens are the win condition's body, and the Ways are the multipliers that make both grow for free.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Seed the lattice (turns 1 to 3).** One untapped basic, then the cheapest empower effects. `Way of the Necromancer` on turn two creates a Jace token and puts two counters on it; `Theorist's Proxy` is a flashed-in 0/3 that empowers Jace 3 and protects the token at instant speed; `Ajani Resolute` on turn one is a zero ability that gains a life every turn and grows itself off that life. From the moment you control a planeswalker, the Annex lands stop entering tapped, so this phase is also the mana-fixing phase.
+2. **Build the stack (turns 4 to 6).** `Sanctum Lurker` turns every planeswalker into a pinger and makes them immortal at zero loyalty. `Jace's Machinations` is the biggest single loyalty swing in the deck — empower Jace 8, plus the ability to activate Jace loyalty abilities on any player's turn at instant speed. `Mindseeker Oculus`, `Protege's Awakening` and `Way of the Mind Sculptor` each add four, six and five more counters. `Way of the Mentor` and `Way of the Healer` are the multipliers: Mentor converts every point of life you gain (and the Lurker gains life on every activation) into a counter on every planeswalker, while Healer gives every planeswalker "[-2]: Create a 2/2 colorless Wizard Soldier token named Cadet. Surveil 1."
+3. **Convert (turn six plus).** With a Jace token carrying twenty-five or more counters, with `Jace, Reality Sculptor` on the battlefield, activate its zero ability and exile the opponent's library down to one card. From there the opponent draws their last card and loses on the following draw step. If the Sculptor is not there yet, the Lurker board is already winning: each planeswalker pings for one and gains a life every turn, Cadets and Illusions attack, and `The Theorist, Jace Beleren` draws you an extra card on each opponent's draw step while you find the kill.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Sanctum Lurker | 4 | Linchpin — 3/2 for three that empowers Jace 1 on entry, then keeps every planeswalker alive at zero loyalty and gives them all a "+2: deal 1 damage to each opponent and you gain 1 life" ability |
+| The Theorist, Jace Beleren | 3 | Engine and Jace — draws a card at the beginning of each opponent's draw step, makes 1/1 Illusion tokens with its plus ability, and its ultimate dumps the hand onto the whole board as +1/+1 counters |
+| Jace, Reality Sculptor | 2 | Win condition — its plus ability empowers Jace X where X is your Island count, its minus three softens attackers, and its zero ability exiles all but the bottom card of each opponent's library at twenty-five loyalty |
+| Ajani Resolute | 2 | Engine — two-mana planeswalker whose zero ability gains a life, which grows Ajani itself and every other planeswalker with Way of the Mentor out; also a source of 2/2 Cat Soldier tokens later |
+| Liliana the Faultless | 2 | Engine — one-mana 1/1 that gains a life every time another creature or planeswalker enters, which every empower spell triggers |
+| Mindseeker Oculus | 2 | Enabler — three-mana 2/1 that empowers Jace 4 on entry, the cheapest big counter swing in the set |
+| Theorist's Proxy | 2 | Enabler and protection — flash 0/3 that empowers Jace 3 at instant speed, and can be sacrificed so the next spell cannot be countered |
+| Way of the Mentor | 3 | Multiplier — empowers Jace 5 on entry, then puts a loyalty counter on each planeswalker every time you gain life |
+| Way of the Necromancer | 3 | Enabler — two-mana enchantment that empowers Jace 2 on entry and adds a loyalty counter to each planeswalker whenever a creature you control dies |
+| Way of the Mind Sculptor | 2 | Enabler and draw — empowers Jace 5 on entry, then draws a card whenever you activate a loyalty ability that removed two or more counters |
+| Way of the Healer | 1 | Win condition 2 enabler — empowers Jace 5 and grants every planeswalker "[-2]: create a 2/2 Cadet token, surveil 1" |
+| Jace's Machinations | 4 | The big swing — instant that empowers Jace 8 and lets you activate Jace loyalty abilities on any player's turn at instant speed |
+| Protege's Awakening | 2 | Enabler — four mana, empower Jace 6, draw a card |
+| Vraska's Final Mercy | 2 | Removal and win fuel — two mana, pay two life for either "destroy target creature or planeswalker" or "empower Jace 6" |
+| Fatehold Charm | 2 | Flexibility — two mana instant: draw a card and empower Jace 2, bounce a creature or spell, or give the team +1/+2 |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Theorist's Sanctum | The land half of the win condition. It is an Island, it enters untapped if you behold a Jace (choose one you control or reveal a Jace card from your hand — the deck has five Jaces), and for two plus blue it empowers Jace 2 on any turn. That is a free loyalty counter pair every single turn out of a land slot, and it is what pushes a nineteen-counter board over the twenty-five threshold |
+| Fatehold Annex | White-blue dual that enters untapped once you control a planeswalker — which an empower spell guarantees from turn two |
+| Theorix Annex | Blue-black dual on the same condition, paying for Sanctum Lurker, Way of the Necromancer and Vraska's Final Mercy |
+| Meticulous Commons | White-black dual on the same condition, covering the black half of the Ways and the white half of Way of the Mentor |
+| Deserted Beach | Blue-white dual that enters untapped once you control two other lands, so it is live before the first planeswalker lands |
+| Shipwreck Marsh | Blue-black dual on the same two-land condition |
+| Island, Plains, Swamp | The untapped basics. Four Islands pay for the blue-heavy curve and make Jace, Reality Sculptor's plus ability large; two Plains and a Swamp cover the white and black halves |
+
+## Curve and mana
+
+36 nonland cards and 24 lands, average nonland mana value 2.97 — two ones, eleven twos, thirteen threes, six fours and four fives. The deck wants a turn-one play almost always and a turn-two empower effect in most games, then spends the mid game on four- and five-mana engines.
+
+The mana base is blue with white and black support: eighteen blue sources, eleven white and ten black. Blue is that deep on purpose. It pays for a heavy blue top end (`The Theorist` and `Jace, Reality Sculptor` both cost two blue, and the Sculptor's plus ability counts Islands), and it is the colour that the Annex cycle and Shipwreck Marsh share.
+
+The six Annex and Commons lands all enter untapped once you control a planeswalker, so the first empower spell of the game is also the moment the mana base comes online. Run the basics first: turn one should be an untapped basic or a Deserted Beach, never a tapped Annex. After the first Jace lands, all six duals are free.
+
+# Gameplay strategy
+
+## Early game (turns 1 to 3)
+
+- **Turn 1:** `Liliana the Faultless` is the best one-drop — a 1/1 that gains a life every time a creature or planeswalker enters, which is the deck's entire game plan arriving early. `Ajani Resolute` is the other option: a two-mana planeswalker that gains a life every turn and grows itself.
+- **Turn 2:** `Way of the Necromancer` is the cheapest way to put a Jace token (and two counters) on the battlefield, and it turns every future trade into a loyalty counter on every planeswalker. `Theorist's Proxy` at flash speed is the safe version: hold up two mana, and if the opponent does nothing relevant, empower Jace 3 at end of turn.
+- **Turn 3:** `Sanctum Lurker` is the priority. It makes the board of planeswalkers permanent and turns each of them into a pinger. `Mindseeker Oculus` (empower Jace 4) and `Fatehold Charm` (draw a card, empower Jace 2) are the backup plays.
+- Every one of those spells also untaps your Annex lands for the rest of the game. Treat the first empower spell of the game as the mana-fixing play, not just the engine play.
+
+## Mid game (turns 4 to 6)
+
+- `Jace's Machinations` is the turn the clock starts. Eight counters in one instant, plus instant-speed loyalty activation for the rest of the turn — with `Sanctum Lurker` down that means a ping and a life point for every planeswalker even on the opponent's turn.
+- `Way of the Mentor` doubles the value of every ping, every Ajani activation and every Liliana trigger. Cast it before the next batch of empower spells, not after.
+- `The Theorist, Jace Beleren` is the card-advantage engine: it draws on each opponent's draw step, so holding mana for `Theorist's Proxy` or a charm costs you nothing in the long run.
+- Hold `Vraska's Final Mercy` for the mode you actually need. Two life for "destroy target creature or planeswalker" is a bargain against a resolved threat; two life for empower Jace 6 is a bargain when you are two counters short of the combo.
+- `Jace, Reality Sculptor`'s minus three is a real defensive play: every creature that attacks you or a planeswalker you control gets minus five minus zero until your next turn. It buys the extra turn the deck needs.
+
+## The combo turn
+
+1. Have `Jace, Reality Sculptor` on the battlefield and a Jace token (or any Jace) with a stack of loyalty counters. `Sanctum Lurker` is strongly preferred, because it keeps every planeswalker alive at zero loyalty and adds the ping ability.
+2. Count the loyalty among all Jaces you control. Common contributions: `Jace's Machinations` eight, `Protege's Awakening` six, `Way of the Mind Sculptor` five, `Way of the Mentor` five, `Mindseeker Oculus` four, `Theorist's Proxy` three, `Way of the Necromancer` two, `Vraska's Final Mercy` six, `Fatehold Charm` two, `Theorist's Sanctum` two per activation, and the Sculptor's own plus ability for one per Island.
+3. Two or three empower spells plus a Sanctum activation is normally enough. When the total reaches twenty-five, activate `Jace, Reality Sculptor`'s zero ability: exile all but the bottom card of each opponent's library.
+4. The opponent is not decked immediately — they still have one card. They draw it, then lose on their next draw step. In the meantime the Lurker board keeps pinging and gaining life, so there is no window where they can race back.
+5. If the combo is disrupted, you have not lost anything. The empower spells left a board of planeswalkers, the Ways keep growing them, and `Way of the Healer` keeps making 2/2 Cadets every turn.
+
+## Win condition 2: the Lurker board
+
+`Sanctum Lurker` turns every planeswalker — the token from an empower spell, The Theorist, Jace Reality Sculptor, Ajani Resolute — into a permanent that deals one damage to each opponent and gains you a life for two loyalty counters. In a normal game the deck fields between three and six planeswalkers, so that is three to six damage a turn from permanents the opponent cannot kill by attacking them to zero loyalty. `Way of the Mentor` adds a counter to every one of them on each of those life gains, `Way of the Necromancer` adds another counter every time a Cadet or Illusion chump-blocks, and `Way of the Healer` makes every planeswalker a Cadet factory at minus two. The result is a board that grows while it drains; `The Theorist, Jace Beleren`'s ultimate then converts the hand into +1/+1 counters on every creature for a lethal swing.
+
+## Mulligan guide
+
+- **Keep:** two or three lands with at least one untapped basic, plus a cheap empower effect (`Way of the Necromancer`, `Theorist's Proxy`, `Mindseeker Oculus`) and one payoff or multiplier (`Sanctum Lurker`, `Way of the Mentor`, `Jace's Machinations`).
+- **Keep on six:** one basic land plus `Liliana the Faultless` or `Ajani Resolute` and two more lands. A turn-one lifegain engine is a functional start.
+- **Trim:** hands with four or more lands but nothing to cast under three mana; hands that are all defence; one-land hands with no one-drop.
+- Do not go to five looking for `Jace's Machinations`. The deck's floor is cheap empower spells, and the Ways and Lurkers are the cards that make them matter.
+
+## Key interactions and edge cases
+
+- **A planeswalker at zero loyalty is not dead here.** Sanctum Lurker stops your planeswalkers from being put into graveyards for having zero loyalty. Costs that remove loyalty cannot be paid below zero, but a cost that adds counters — the Lurker's granted plus-two, Jace, Reality Sculptor's plus one — is always payable, so a zero-loyalty planeswalker keeps working.
+- **Empower targets a Jace token, not a Jace card.** "Put counters on a Jace token you control; if you do not control one, first create a blue Jace planeswalker token." `The Theorist, Jace Beleren` is a Jace for the loyalty-count and for beholding, but the counters from empower land on the token.
+- **Way of the Mentor and Sanctum Lurker are the engine pair.** The Lurker's ping gains a life on every activation, and Mentor converts every life gain into a counter on each planeswalker. Ajani Resolute's zero ability and Liliana the Faultless's enters-trigger do the same job on their own.
+- **Way of the Necromancer wants bodies, not bombs.** It only triggers when a creature dies, so Cadets, Illusions and Cat Soldiers are the fuel — chump-blocking is often a loyalty counter on every planeswalker.
+- **Behold a Jace is a cost, not a sacrifice.** Theorist's Sanctum either chooses a Jace you control or reveals a Jace card from your hand; the permanent stays. Casting the Sanctum with a Jace in hand makes it an untapped Island.
+- **Jace's Machinations lifts timing, not the once-per-turn rule.** Each planeswalker still activates one loyalty ability per turn, but with the instant it can activate on the opponent's turn as well.
+- **The last-card rule.** Jace, Reality Sculptor leaves the opponent exactly one library card. That player draws it and then loses on the following draw. If they have a way to skip draws or shuffle back in, keep the Lurker board attacking; the ping-plus-Cadets plan does not care.
+- **Vraska's Final Mercy always costs two life**, whichever mode you pick. Do not fire it at three life against a deck with reach.
+
+## Matchups
+
+- **Aggro:** the deck's early bodies are 1/1s and 0/3s, so the opening turns are about survival, not tempo. `Ajani Resolute` and `Liliana the Faultless` gain the life back, `Jace, Reality Sculptor`'s minus three makes attacking into the board miserable, and once `Sanctum Lurker` arrives pressure stops mattering — the board pings back every turn and cannot be killed.
+- **Midrange:** this is the best matchup. The deck out-grows whatever the opponent plays, because the Ways add counters every turn and the empower spells never spend a card on the engine itself. Save `Vraska's Final Mercy` for the one threat that actually blocks the combo.
+- **Control:** the value sits on enchantments and planeswalkers rather than on spells, so counterspells trade down. `Theorist's Proxy` can be sacrificed to make the next spell uncounterable, and Way of the Mentor and Way of the Necromancer are the survivals after a sweeper because they keep the rebuilt board growing.
+- **Combo and graveyard decks:** the deck has no graveyard interaction beyond Fatehold Charm and Vraska's Final Mercy, so racing with the Lurker board plus the Jace deck-out is the plan. `The Theorist, Jace Beleren`'s draw step trigger means the deck finds its kill quickly against decks that do not pressure life totals.
+- **Artifact and enchantment removal:** `Way of the Healer` and `Way of the Necromancer` are the expendable pieces; `Way of the Mentor` and `Sanctum Lurker` are the ones worth protecting with `Theorist's Proxy`'s sacrifice ability or by simply doubling up.
+
+*Reality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there.*
+
+# Deck list (Arena import)
+
+```
+Loyalty Lattice
+Deck
+4 Sanctum Lurker
+3 The Theorist, Jace Beleren
+2 Jace, Reality Sculptor
+2 Ajani Resolute
+2 Liliana the Faultless
+2 Mindseeker Oculus
+2 Theorist's Proxy
+3 Way of the Mentor
+3 Way of the Necromancer
+2 Way of the Mind Sculptor
+1 Way of the Healer
+4 Jace's Machinations
+2 Protege's Awakening
+2 Vraska's Final Mercy
+2 Fatehold Charm
+4 Fatehold Annex
+4 Theorix Annex
+3 Meticulous Commons
+2 Theorist's Sanctum
+2 Deserted Beach
+2 Shipwreck Marsh
+4 Island
+2 Plains
+1 Swamp
+```
