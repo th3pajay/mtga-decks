@@ -1,0 +1,178 @@
+---
+title: "Everything Must Go"
+subtitle: "Five-color (WUBRG) — Sacrifice"
+date: "2026-10-15"
+categories: ["combo", "Sacrifice"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|---|---|
+| Format | Standard (60 cards) |
+| Colors | Five-color: WUBRG |
+| Archetype | Sacrifice engine, combo-midrange |
+| Primary win | Infinite drain loop: Bloodthirsty Conqueror plus Enduring Tenacity |
+| Secondary win | Token swarm with Fountainport Fish and Restless Cottage Horror, backed by non-infinite drain |
+
+## Overview
+
+Nothing in this deck is meant to stay on the battlefield. Every permanent is fuel, and the deck wins by converting that fuel into life loss for the opponent.
+
+The engine has three layers:
+
+1. **Fuel.** Market Gnome, Piggy Bank, Vinereap Mentor and Tolls of War all leave something behind when they die. Dying is not a cost here, it is the plan.
+2. **Outlets.** Popular Egotist, Cauldron of Essence and Fountainport let you kill your own permanents on demand, every turn, without spending cards to do it.
+3. **Payoffs.** Vengeful Bloodwitch, Cauldron of Essence, Wispdrinker Vampire, Bloodletter of Aclazotz and Vein Ripper each turn a death into an opponent losing life while you gain it.
+
+The combo finish comes from the two vampires at the top of the curve. Bloodthirsty Conqueror gives you back every point an opponent loses, and Enduring Tenacity turns every point you gain back into a point an opponent loses. Put both on the battlefield and any single point of opponent life loss, from a dying creature, a sacrifice to Popular Egotist, the start of combat with Sinister Monolith, or a Fountainport activation, becomes an endless loop of life loss. Three copies of each piece plus nine separate drain triggers means the deck finds the loop in most games it survives to turn five.
+
+Sinister Monolith is the quiet all-star: it drains at the beginning of every combat on your turn for free, which is exactly the spark the loop needs, and it can be cashed in later for two cards.
+
+## Approach
+
+### Game plan
+
+**Turns 1 to 2, build the fuel line.** Deploy Market Gnome or Piggy Bank, ideally both. These are the cards opponents least want to spend removal on, and they replace themselves the moment an outlet eats them. Vengeful Bloodwitch is the best two-drop in the deck: it is simultaneously an outlet target, a drain payoff, and the trigger that starts the combo.
+
+**Turns 3 to 4, add the machinery.** Land an outlet (Popular Egotist, Cauldron of Essence) and a drain body. Start sacrificing on every end step. Tolls of War converts each sacrifice into a 1/1 Ally, and Gleaming Geardrake grows a counter every time an artifact, Treasure, Clue or Food hits the graveyard. Sinister Monolith can come down here as a free engine that drains without any input.
+
+**Turn 5 and later, close.** A single Bloodthirsty Conqueror plus a single Enduring Tenacity plus any drain trigger ends the game on the spot. If the loop is not assembled, the deck still wins through a swarm of Fish, Ally, Food and Treasure tokens that get sacrificed for cards and pushed through with the Restless Cottage manland.
+
+### Card roles
+
+| Role | Cards | Function |
+|---|---|---|
+| Fuel | Market Gnome (4), Piggy Bank (2), Vinereap Mentor (2), Tolls of War (2) | Leave a Food, Treasure, Clue or card behind when they die |
+| Outlets | Popular Egotist (2), Cauldron of Essence (2), Fountainport (2) | Repeatable ways to sacrifice your own permanents |
+| Drain payoffs | Vengeful Bloodwitch (4), Cauldron of Essence (2), Wispdrinker Vampire (2), Bloodletter of Aclazotz (2), Vein Ripper (1) | Convert deaths into opponent life loss and your life gain |
+| Combo pieces | Bloodthirsty Conqueror (3), Enduring Tenacity (3) | The two halves of the infinite drain loop |
+| Free trigger | Sinister Monolith (2) | Drains at the start of your combat, no sacrifice required |
+| Artifact payoff | Gleaming Geardrake (2) | Flying threat that grows off every sacrificed artifact |
+| Interaction | Get Lost (3) | Answers any creature, enchantment or planeswalker |
+
+### Lands as engines
+
+| Land | Role in the win |
+|---|---|
+| Fountainport (2) | An outlet and a token factory in one: sacrifice a token to draw a card, pay three plus one life for a 1/1 blue Fish, or pay four for a Treasure. Every activation is combo fuel |
+| Restless Cottage (2) | Becomes a 4/4 Horror attacker, makes a Food token whenever it attacks, and exiles a card from a graveyard |
+| Terramorphic Expanse (2), Fabled Passage (2) | Sacrifice-on-command fixing that guarantees the basic you are missing |
+| Uncharted Haven (3) | Enters tapped, then taps for any one color; the glue of a five-color manabase |
+| Nomad Outpost (2), Sandsteppe Citadel (2), Opulent Palace (2), Mystic Monastery (1), Frontier Bivouac (1) | Three-color rocks that map black onto every other color |
+
+### Curve and mana
+
+Twenty-four lands, thirty-six spells, average mana value 2.86. The curve is deliberately flat at two: fifteen cards cost two mana, and only four cards cost five or more, so the deck functions on three or four lands while it digs for the loop.
+
+Mana is five colors, but black carries the deck and the manabase knows it. Thirteen lands can produce black (three tri-lands, Swamp, both Restless Cottage, three Uncharted Haven, both Terramorphic Expanse, both Fabled Passage). White, blue and red each have eleven, green has thirteen. In practice you draft the tri-lands for black plus two other colors, spend the sacrifice-fetch lands on whichever basic is missing, and save Uncharted Haven for the splash that never showed up.
+
+Curve summary:
+
+| Cost | Count | Notes |
+|---|---|---|
+| 1 | 4 | Market Gnome |
+| 2 | 15 | Vengeful Bloodwitch, Get Lost, Tolls of War, Gleaming Geardrake, Vinereap Mentor, Piggy Bank |
+| 3 | 4 | Popular Egotist, Cauldron of Essence |
+| 4 | 9 | Enduring Tenacity, Sinister Monolith, Wispdrinker Vampire, Bloodletter of Aclazotz |
+| 5 | 3 | Bloodthirsty Conqueror |
+| 6 | 1 | Vein Ripper |
+
+## Gameplay strategy
+
+### Early game
+
+Lead with fuel that pays you back. Market Gnome is the ideal turn one: a 0/3 that draws a card and gains a life when it dies is a card that trades up against any removal spell. Piggy Bank ramps you toward the four and five mana combo pieces. Against an opponent with a fast start, hold Get Lost rather than tapping out for a sacrificial body.
+
+Do not attack with the fodder. These creatures are worth more dead than alive, and every point of damage they deal is incidental.
+
+### Mid game
+
+The turn you deploy an outlet, the deck stops being a pile of small creatures and starts being an engine. Popular Egotist is the cleanest: pay one black and sacrifice a permanent each turn, and every sacrifice drains the opponent for one and gains you one, which also makes Bloodthirsty Conqueror gain life on its own.
+
+Wispdrinker Vampire is the other key midgame card. Every creature token with power two or less that enters under your control (the 1/1 Ally tokens from Tolls of War and the 1/1 Fish from Fountainport both qualify) makes each opponent lose one life and gains you one. Since the deck produces creature tokens on every sacrifice, Wispdrinker turns the trickle into a stream, and any one of those triggers is enough to ignite the loop once the two combo pieces are down.
+
+### The combo turn
+
+Assemble Bloodthirsty Conqueror and Enduring Tenacity, then make the opponent lose one life. The order matters only for the first trigger:
+
+1. Opponent loses 1 life to any drain effect.
+2. Bloodthirsty Conqueror gains you that 1 life.
+3. Enduring Tenacity makes a target opponent lose 1 life.
+4. Back to step 2, forever.
+
+Bloodthirsty Conqueror is also a 5/5 flying deathtouch body, so it wins games the slow way when the loop is not online, and Enduring Tenacity is a 4/3 that returns to the battlefield as a non-creature enchantment when it dies, which makes it very difficult to answer permanently with creature removal.
+
+### Win condition 2
+
+Without both combo pieces, the deck goes wide and finishes with tiny creatures. Tolls of War turns each sacrifice into an Ally, Fountainport manufactures Fish and Treasures, Vinereap Mentor and Restless Cottage produce Food, and Gleaming Geardrake grows into a real flying threat off every artifact sacrificed. Add the non-infinite drain from Vengeful Bloodwitch, Cauldron of Essence, Wispdrinker Vampire and a single Bloodletter of Aclazotz, which doubles every point of life the opponent loses on your turn, and the swarm only needs to connect once or twice.
+
+### Mulligan guide
+
+Keep hands with two or three lands, at least one two-drop, and at least one card that drains or sacrifices. Six-card keeps are fine if they contain Vengeful Bloodwitch plus a land-heavy start.
+
+Send back hands with no black source, hands with four or more lands and no engine, and hands that are all combo pieces and no fodder. A hand of Bloodthirsty Conqueror, Enduring Tenacity, Vein Ripper and four lands looks powerful and does nothing until turn five.
+
+### Key interactions and edge cases
+
+- **Bloodletter of Aclazotz** doubles opponent life loss on your turn only. With Bloodthirsty Conqueror out, each point of drain becomes two life gained, and with Enduring Tenacity it accelerates the loop rather than being required for it.
+- **Cauldron of Essence** does double duty: every creature that dies drains the table, and its activation sacrifices a creature to return a creature card from your graveyard for {1}{B}{G}. Recycling a Vinereap Mentor or Market Gnome re-arms the engine.
+- **Enduring Tenacity returns as an enchantment**, which matters twice. Creature removal will not keep it dead, and it can later be fed to Popular Egotist, which accepts creatures or enchantments.
+- **Fountainport needs a token to sacrifice.** Play Treasures and Fish before you need cards; keep one spare token in reserve so the draw is always available.
+- **Popular Egotist only sacrifices permanents you control that are creatures or enchantments**, so Treasures and Clues are not legal fuel for it. Use Cauldron of Essence and the outlets on creature tokens instead.
+- **Vein Ripper** drains two per creature death, which is a full loop's worth of triggers with a single sacrifice, and its ward, sacrifice a creature, makes it painful to remove.
+- **Sinister Monolith** drains at the beginning of combat on your turn with no input from you. If the opponent is at a low life total, do not forget it can be cashed in for two cards at instant speed during the end step.
+
+### Matchups
+
+**Against aggro.** You have more life gain than most decks can punch through. Trade fodder for time, use Get Lost on the biggest threat, and let Cauldron of Essence and Vengeful Bloodwitch undo their work. If the loop appears before turn six, racing stops mattering.
+
+**Against control.** Do not overextend into a sweeper; the deck's creatures are meant to be sacrificed, not kept. Force them to answer Bloodthirsty Conqueror on sight, then rebuild with Enduring Tenacity, which survives creature removal.
+
+**Against midrange.** This is the deck's best matchup. Your creatures die for value, so their removal always leaves you with a token, a Food or a card.
+
+**Against graveyard decks.** Restless Cottage exiles a card every time it attacks, and sacrifice outlets let you choose what never reaches the graveyard. Fountainport and Cauldron of Essence give you more relevant actions per turn than most recursion decks.
+
+## Iterations
+
+| Round | Change | Metric deltas |
+|---|---|---|
+| v1 → v2 | Cut 3 Buzz Bots, 2 Experimental Confectioner, 1 Camellia, the Seedmiser and 1 Ravenous Amulet; added 1 Bloodthirsty Conqueror, 2 Sinister Monolith, 2 Bloodletter of Aclazotz, 1 Vein Ripper and 1 Get Lost | sim win rate 49.0 → 55.3, synergy 70.9 → 71.4, goldfish T4 0.698 → 0.718, P(4 lands by T4) 0.710 → 0.723 |
+
+## Deck list (Arena import)
+
+```text
+Everything Must Go
+Deck
+3 Bloodthirsty Conqueror
+3 Enduring Tenacity
+4 Vengeful Bloodwitch
+2 Popular Egotist
+2 Cauldron of Essence
+2 Wispdrinker Vampire
+2 Bloodletter of Aclazotz
+1 Vein Ripper
+2 Sinister Monolith
+4 Market Gnome
+2 Piggy Bank
+2 Tolls of War
+2 Gleaming Geardrake
+2 Vinereap Mentor
+3 Get Lost
+2 Fountainport
+2 Restless Cottage
+3 Uncharted Haven
+2 Terramorphic Expanse
+2 Fabled Passage
+2 Nomad Outpost
+2 Sandsteppe Citadel
+2 Opulent Palace
+1 Mystic Monastery
+1 Frontier Bivouac
+1 Plains
+1 Island
+1 Mountain
+1 Swamp
+1 Forest
+```
