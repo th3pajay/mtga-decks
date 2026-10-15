@@ -1,0 +1,211 @@
+---
+title: "Prep Rally"
+subtitle: "Grixis prepared spells — Reality Fracture set deck"
+date: "2026-10-15"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (Reality Fracture set deck, 2026-10-15) |
+| Colors | Blue / Black / Red (hybrid blue-white and blue-black backs are paid with blue or black mana) |
+| Archetype | Prepared-spell engine: upkeep re-prepare plus noncombat-damage payoffs |
+| Deck size | 60 (36 spells, 24 lands) |
+| Average mana value | 2.33 |
+| Primary win | Prepared drain: repeatable Vicious Verse and Ancestral Craving, amplified by Tomik |
+| Secondary win | Evasive beatdown: flying prowess creatures and 2/2 Cadet tokens under Master of Barbs |
+| Land in the win condition | Skycoach Waypoint, Hexhaven Dueling Arena (both re-prepare the creatures that pay the damage) |
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so the import list
+below becomes playable on Arena once the set is enabled there. Skycoach Waypoint already exists on
+Arena, but the Reality Fracture cards do not yet.
+
+## Overview
+
+Prep Rally is built entirely around Reality Fracture's flagship mechanic. A creature that is
+prepared lets you cast a copy of its spell once; doing so unprepares it. Every nonland card here is
+either a prepared creature with a spell worth casting, a card that prepares a creature again, or a
+payoff that turns those free spells into damage.
+
+The engine is the small re-prepare loop. Stingerquill Voxmancer and Paradox Shaper prepare
+themselves during your upkeep, so each turn they hand you a free spell: Vicious Verse for 1 damage
+to the opponent, or Omit Variables to mill three. Skycoach Waypoint (3 generic, tap: target creature
+becomes prepared) and Hexhaven Dueling Arena (2 generic, tap: target creature that attacked this
+turn becomes prepared) extend that loop to every other prepared creature in the deck, including the
+bigger bodies such as Variable Chaser and Pyre Rhymer. Codie, Ravenous Codex then copies each
+prepared spell you cast, which doubles the per-turn payload for as long as it lives.
+
+The payoffs convert that trickle into a clock. Tomik, Izzet Sparkmage raises each noncombat damage
+instance by 1, so a single Vicious Verse copy hits for 2 (4 with Codie out). Master of Barbs turns
+any noncombat damage into a team-wide +1/+0, and Whiplash Wordsmith gains flying and haste on the
+same condition, so the drain and the beatdown plan feed each other.
+
+## Approach
+
+Plan by phases:
+
+1. Turns 1 to 2: deploy two prepared bodies (Diviner of Victory, Stingerquill Voxmancer, Pompous
+   Battlemage) and start collecting free spells. Diviner of Victory grows on every scry or surveil,
+   so Thundering Falls, Unwind History and Peer Review all make it bigger.
+2. Turns 3 to 4: land the payoffs. Tomik, Izzet Sparkmage and Master of Barbs convert every free
+   spell into either extra damage or a team pump. This is also when the deck starts winning combat
+   steps with flying prowess creatures.
+3. Turns 4+: settle into the re-prepare loop with Skycoach Waypoint and Hexhaven Dueling Arena,
+   keep drawing with Improvised Act, Hallway Heckler's tap ability and Cruel Calculations, and let
+   the drain plus evasive damage close the game.
+
+### Card roles
+
+| Role | Cards | Copies | Function |
+|------|-------|--------|----------|
+| Free-spell engine, self-preparing | Stingerquill Voxmancer, Paradox Shaper | 4, 2 | Prepare themselves each upkeep; the loop that makes the deck run |
+| Free-spell engine, one shot | Diviner of Victory, Pompous Battlemage, Variable Chaser, Pyre Rhymer, Whiplash Wordsmith, Semester Foreseer, Prudent Fateseer, Hallway Heckler, Bloodline Recollector | 4, 2, 3, 3, 2, 2, 2, 2, 2 | Enter prepared, so each one is a spell plus a body; re-preparing them doubles their output |
+| Spell copier | Codie, Ravenous Codex | 2 | Copies every prepared spell you cast |
+| Damage amplifier | Tomik, Izzet Sparkmage | 2 | Noncombat damage from your sources to an opponent goes up by 1 |
+| Noncombat damage payoff | Master of Barbs | 2 | One or more noncombat damage to opponents gives the whole team +1/+0 |
+| Spells the engine casts | Vicious Verse, Ancestral Craving, Omit Variables, Improvised Act, Peer Review, Arc of Fortune, Unwind History, Molten Tide | on the backs above | The actual payloads; Vicious Verse is the drain, Omit Variables feeds the graveyard, Peer Review makes Cadets |
+| Card advantage | Cruel Calculations, Improvised Act, Hallway Heckler, Arc of Fortune | 2, 2, 2, 3 | Cruel Calculations counts cards milled this turn, Improvised Act and Heckler loot, Arc of Fortune reloads a full hand |
+
+### Lands as engines
+
+| Land | Copies | What it does for the deck |
+|------|--------|---------------------------|
+| Skycoach Waypoint | 2 | 3 generic, tap: target creature becomes prepared. The repeatable re-prepare that turns a one-shot free spell into a per-turn free spell |
+| Hexhaven Dueling Arena | 2 | 2 generic, tap: an attacker becomes prepared (sorcery speed), or 4 generic, tap for any creature. Preps a body you already attacked with |
+| Thundering Falls | 2 | Enters tapped and surveils 1, which grows Diviner of Victory and triggers Prudent Fateseer |
+| Watery Grave, Blood Crypt, Steam Vents | 4, 4, 3 | Untapped blue, black and red. Blood Crypt and Steam Vents carry the Mountain type that Molten Tide pays off |
+| Gloomlake Verge, Blazemire Verge | 3, 3 | Turn-one untapped sources of their first colour, and a second colour once a basic-typed land is out |
+| Island | 1 | Insurance for the hybrid blue costs |
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|------|-------|-------|
+| One | 10 | Diviner of Victory, Stingerquill Voxmancer, Pompous Battlemage |
+| Two | 8 | Master of Barbs, Tomik Izzet Sparkmage, Paradox Shaper, Bloodline Recollector |
+| Three | 14 | Hallway Heckler, Variable Chaser, Pyre Rhymer, Prudent Fateseer, Codie Ravenous Codex, Cruel Calculations |
+| Four | 4 | Whiplash Wordsmith, Semester Foreseer |
+
+Twenty-four lands with thirteen blue, fourteen black and twelve red sources. Four copies of Watery
+Grave and Blood Crypt cover the black-heavy early turns, and the six Verge lands are untapped
+sources of their first colour from turn one, so the deck is not forced to pay life to stay on curve.
+Molten Tide on the stack turns the seven Mountain-typed lands into extra red mana for a big turn.
+
+## Gameplay strategy
+
+### Early game
+
+Lead on cheap prepared creatures rather than pure attackers. Diviner of Victory and Stingerquill
+Voxmancer both cost one mana and both hand you a spell: Unwind History clears a small blocker and
+surveils, Vicious Verse starts the drain. Pompous Battlemage is a prowess body that comes with
+Improvised Act attached, which filters a land into a real card. Trading early is fine: Bloodline
+Recollector re-prepares itself at the end step whenever three or more creatures died that turn.
+
+### Mid game
+
+Turn three and four are about payoffs, not bodies. Tomik, Izzet Sparkmage and Master of Barbs turn
+every free spell into progress, and Variable Chaser plus Pyre Rhymer give the deck a real clock
+while it grinds. Paradox Shaper's upkeep Omit Variables quietly fills the graveyard, which makes
+Cruel Calculations a two-mana draw spell that scales with the number of mills you stacked that turn.
+Once Skycoach Waypoint or Hexhaven Dueling Arena is untapped, every creature with a prepare spell
+becomes a repeatable resource, and Semester Foreseer and Prudent Fateseer add Cadets to the board
+while doing it.
+
+### The combo turn
+
+The deck's best turn follows a fixed shape: start with one or more creatures left prepared from the
+previous upkeep, cast the cheap prepared spells first (Vicious Verse, Improvised Act) to trigger
+prowess and to switch Whiplash Wordsmith to flying and haste, then attack, then activate Hexhaven
+Dueling Arena in the second main phase to re-prepare the attacker you want next turn. With Codie out
+every prepared spell happens twice, so a board of four or five prepared creatures represents eight
+to ten spell effects, most of them damage. Tomik turns each Vicious Verse copy into 2 damage and
+each Ancestral Craving into 4, and Master of Barbs converts the whole sequence into a lethal attack
+step.
+
+### Win condition two
+
+The second win is plain evasive damage. Variable Chaser is a 2/3 flier with prowess, Pyre Rhymer is
+a 3/3 with prowess, Whiplash Wordsmith is a 3/3 that gains flying and haste after any noncombat
+damage, and Peer Review supplies 2/2 Cadets. Master of Barbs stacks +1/+0 on the team for every
+turn you dealt noncombat damage, so the drain plan actively builds the combat plan. Codie's second
+ability (one of each colour for each creature you control to become prepared) is a late-game dream
+this manabase cannot actually pay, so treat the copy clause as its real job.
+
+### Mulligan guide
+
+Keep hands with one or two cheap prepared creatures plus a re-prepare engine or a payoff. Two or
+three lands with at least one black and one red source is the sweet spot. Six-card hands are fine
+when they contain Stingerquill Voxmancer plus any payoff; the deck snowballs from small boards.
+Ship hands that are all four-drops, hands with only colourless lands, and hands with no way to
+prepare anything past the first spell.
+
+### Key interactions and edge cases
+
+- Casting a prepared spell unprepares that creature, so time the copies. If Skycoach Waypoint is
+  untapped, casting a copy this turn costs you nothing.
+- Prepared spells are real spells, so they trigger prowess on Pompous Battlemage, Variable Chaser,
+  Pyre Rhymer and Tomik, and Codie copies them. Cast the cheap ones first.
+- Prudent Fateseer's pump triggers only once each turn, so surveil before combat to make the attack
+  step count.
+- Diviner of Victory grows on scry or surveil only. Omit Variables is a mill, not a surveil, but
+  Unwind History, Peer Review and Thundering Falls all trigger it.
+- Cruel Calculations counts cards put into a graveyard from a library this turn, so cast it after
+  Omit Variables (and after Codie has copied it).
+- Ancestral Craving is a drain: aim it at the opponent, who draws three and loses 3 life. With
+  Tomik that is 4. With Codie, twice.
+- Bloodline Recollector only re-prepares when three or more creatures died in the turn, so use it
+  after combat trades or a board wipe.
+
+### Matchups
+
+The deck races rather than answers. Against aggro it wins the damage race with drain plus fliers,
+but it has almost no removal, so Diviner of Victory's Unwind History and good blocks are the only
+interaction. Against grindy midrange it out-values most opponents: each upkeep re-prepares a
+creature and Codie doubles the payoff. Against combo it must be the aggressor, converting Vicious
+Verse copies and Whiplash Wordsmith's haste into a fast clock. Against control it leans on Codie's
+copy clause, Bloodline Recollector's free card advantage and Arc of Fortune to rebuild after a wipe.
+
+## Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 → v2 | minus 1 Terminal Criticism, minus 2 Whiplash Wordsmith, plus 2 Dark Matter Manipulator, plus 1 Ajani's Anguish (chased raw graveyard and removal synergy) | synergy 69.8 → 69.5, sim 59.7 → 56.7 percent, T4 0.619 → 0.651. Gate still failed, reverted |
+| v2 → v3 | minus 1 Master of Barbs, minus 1 Tomik Izzet Sparkmage, minus the v2 additions, plus 2 Hallway Heckler, plus 2 Prudent Fateseer (added the deck's highest affinity prepared pairs: 79 with Stingerquill Voxmancer, 84 with Semester Foreseer) | synergy 69.5 → 70.2, sim 56.7 → 57.7 percent, T4 0.630, P(4 lands by turn 4) 0.607. All gates pass |
+
+Battery gates for the final list: 60 cards, no missing cards, Standard legal, zero rotating cards,
+simulated win rate 57.7 percent over three 500-game runs, synergy 70.2, goldfish turn-four
+consistency 0.630, probability of four lands by turn four 0.607.
+
+## Deck list (Arena import)
+
+```text
+Prep Rally
+Deck
+4 Diviner of Victory
+4 Stingerquill Voxmancer
+2 Pompous Battlemage
+2 Hallway Heckler
+3 Variable Chaser
+3 Pyre Rhymer
+2 Master of Barbs
+2 Tomik, Izzet Sparkmage
+2 Paradox Shaper
+2 Bloodline Recollector
+2 Whiplash Wordsmith
+2 Semester Foreseer
+2 Prudent Fateseer
+2 Codie, Ravenous Codex
+2 Cruel Calculations
+4 Watery Grave
+4 Blood Crypt
+3 Steam Vents
+3 Gloomlake Verge
+3 Blazemire Verge
+2 Thundering Falls
+2 Skycoach Waypoint
+2 Hexhaven Dueling Arena
+1 Island
+```
