@@ -1,0 +1,215 @@
+---
+title: "Crypt Curriculum"
+subtitle: "Esper surveil and graveyard — Reality Fracture set deck"
+date: "2026-10-16"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (Reality Fracture set deck, 2026-10-16) |
+| Colors | White / Blue / Black (Esper) |
+| Archetype | Surveil and self-mill: fill the graveyard, cash it in |
+| Deck size | 60 (36 spells, 24 lands) |
+| Average mana value | 2.14 |
+| Primary win | Surveil-grown evasive damage: Denzilore Fatehold adds a +1/+1 counter to every creature you control on each scry or surveil, behind fliers and the Restless Reef manland |
+| Secondary win | Eye of Jace drain — once the graveyard holds seven or more cards, each copy sacrifices itself for 2 damage to each opponent, and Uldaros Theorix rebuys the pieces |
+| Land in the win condition | Restless Reef (attacks as a 4/4 deathtouch Shark that mills four cards, which is both clock and graveyard fuel) |
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so the import list
+below becomes playable on Arena once the set is enabled there.
+
+## Overview
+
+Surveil is the set's graveyard mechanic and this deck runs it as an engine, not as card selection.
+Every surveil does three jobs at once: it grows Denzilore Fatehold's team, it counts down the seven
+cards Eye of Jace and threshold spells ask for, and it feeds Dark Matter Manipulator, which gains
++2/+0 for every seven cards in your graveyard.
+
+| Engine piece | Copies | What it does |
+|--------------|--------|--------------|
+| Eye of Jace | 4 | Upkeep surveil 1 every turn, then cashes itself in for 2 damage to each opponent once the graveyard holds seven or more cards |
+| Proctor of Potential | 4 | Surveils on every creature entering, including itself; later returns from the graveyard for two mana if you surveilled this turn |
+| Surveillance Phantasm | 4 | A 2/3 flying blocker that can attack on any turn you surveilled |
+| Yuriko, Hope from the Shadows | 4 | One-mana flash surveil 2, or a removal spell scaling off the graveyard count |
+| Seasoned Cryomancer | 4 | Draws two and discards two, filling the graveyard and tapping attackers down with stun counters |
+| Liliana the Repentant | 2 | Mills two on every creature or planeswalker entering, and rebuys one card from the graveyard |
+
+The deck is not a fragile two-card combo. It is a midrange pile where sixteen cards surveil or
+reward surveilling, and the payoffs are all counting the same resource.
+
+## Approach
+
+Plan by phases:
+
+1. Turns 1 and 2: deploy the engine. Eye of Jace and Yuriko are one mana, Proctor of Potential and
+   Surveillance Phantasm are two. Every creature that enters triggers another surveil, so the
+   graveyard crosses seven cards quickly without spending a card to do it.
+2. Turns 3 and 4: start cashing in. Seasoned Cryomancer refills the hand, Sphinx of False
+   Conclusions lands on defence at instant speed, and Denzilore Fatehold converts every surveil
+   trigger from that point on into a +1/+1 counter on the whole board.
+3. Turns 5 and up: finish with an evasive board, Eye of Jace triggers, and Restless Reef attacking
+   as a 4/4 deathtouch Shark. Uldaros Theorix is the reset button that rebuys the best card of each
+   type out of the graveyard for free.
+
+### Card roles
+
+| Role | Cards | Copies | Function |
+|------|-------|--------|----------|
+| Surveil engine | Eye of Jace, Proctor of Potential, Yuriko Hope from the Shadows, Surveillance Phantasm | 4, 4, 4, 4 | Put cards in the graveyard and count triggers; all four also do something else useful |
+| Surveil payoff | Denzilore Fatehold | 2 | A flash 3/4 flier that puts a +1/+1 counter on each creature you control whenever you scry or surveil |
+| Graveyard payoffs | Dark Matter Manipulator, Proft Sinister Mastermind, Uldaros Theorix | 3, 3, 1 | +2/+0 per seven cards in the graveyard, a 5/5 menace that can only be cast with seven cards down there, and a free-cast rebuy |
+| Self-mill and loot | Liliana the Repentant, Seasoned Cryomancer, Cryotheory Adept | 2, 4, 1 | Mill and discard to reach seven cards; Cryotheory Adept also exiles itself from the graveyard to tap a creature |
+| Evasive bodies | Surveillance Phantasm, Sphinx of False Conclusions, Denzilore Fatehold, Uldaros Theorix | 4, 1, 2, 1 | Flying damage that gets carried by the counter plan |
+| Card advantage | Seasoned Cryomancer, Sphinx's Approach | 4, 3 | Instant-speed draw that refills after a mill-heavy turn |
+| Graveyard recursion | Proctor of Potential, Liliana the Repentant, Uldaros Theorix | 4, 2, 1 | The reanimation half of the plan: cards that left the library come back to the battlefield |
+
+### Lands as engines
+
+| Land | Copies | What it does for the deck |
+|------|--------|---------------------------|
+| Restless Reef | 4 | Enters tapped for blue or black, then becomes a 4/4 deathtouch Shark that mills four cards whenever it attacks. It is a clock and a graveyard filler at the same time |
+| Deserted Beach | 4 | Untapped white and blue as soon as you control two other lands |
+| Shipwreck Marsh | 4 | Untapped blue and black under the same condition |
+| Island | 5 | Blue is the deck's heaviest colour: Seasoned Cryomancer, Sphinx's Approach and Uldaros Theorix all want double blue |
+| Plains | 4 | Castle the white cards: Proctor of Potential, Denzilore Fatehold |
+| Swamp | 3 | Black for Dark Matter Manipulator, Proft Sinister Mastermind, Liliana the Repentant and Uldaros Theorix |
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|------|-------|-------|
+| One | 12 | Yuriko Hope from the Shadows, Dark Matter Manipulator, Eye of Jace, Cryotheory Adept |
+| Two | 13 | Proctor of Potential, Surveillance Phantasm, Proft Sinister Mastermind, Liliana the Repentant |
+| Three | 7 | Seasoned Cryomancer, Sphinx's Approach |
+| Four | 3 | Denzilore Fatehold, Sphinx of False Conclusions |
+| Six | 1 | Uldaros Theorix |
+
+Twenty-four lands, seventeen blue sources, eleven black and eight white. Twelve of the spells cost
+one or two mana, so the deck keeps deploying while it mills; the curve tops out at a single
+six-drop, which means the only card that can rot in hand is Uldaros Theorix.
+
+## Gameplay strategy
+
+### Early game
+
+Open on Eye of Jace and Yuriko. Eye of Jace is the perfect one-drop here: it surveils every upkeep
+on its own, so the graveyard count climbs whether or not you draw anything else. Yuriko's surveil 2
+mode is almost always the right choice on turn one; the minus-X mode is a real removal spell later,
+when the graveyard count is what decides a block. Proctor of Potential is the two-drop that makes
+the engine stick: it surveils on every creature entering, so a hand with two or three cheap bodies
+turns into six or seven cards in the graveyard by turn four.
+
+### Mid game
+
+From turn three the deck stops paying for its graveyard and starts spending it. Seasoned Cryomancer
+is the turn-three play that keeps the plan moving: draw two, discard two, then tap the opponent's
+best attackers and put stun counters on them, which is how this deck survives aggro without removal.
+Denzilore Fatehold at instant speed is the real payoff, and once it is on the battlefield every
+surveil trigger is a team-wide pump, so Eye of Jace's upkeep, Proctor of Potential's entry trigger
+and the Restless Reef attack all become combat math the opponent cannot profitably block.
+
+### The combo turn
+
+The deck's best turn is a self-mill loop into a reanimation. Surveil once to satisfy Proctor of
+Potential, then pay two mana to return it to the battlefield from the graveyard. It enters, which
+surveils again, which pays for the next Proctor, and each of those entries is another +1/+1 counter
+on the team with Denzilore Fatehold out. Two Proctors in the graveyard plus five mana is two
+surveil triggers, two counters on the whole board, and two extra cards filtered into the yard, all
+in one turn, and the same loop turns on threshold for Proft Sinister Mastermind and the seven-card
+clause on Eye of Jace. Use the loop before combat; the counters land on the attackers you are about
+to use.
+
+### Win condition two
+
+The second win is a drain, not a combat step. Every copy of Eye of Jace that reaches an upkeep with
+seven or more cards in the graveyard sacrifices itself for 2 damage to each opponent and 2 life for
+you, so four copies are eight damage to the face spread over four turns and eight points of life
+buffer. Dark Matter Manipulator turns the same graveyard count into a body: it is a one-drop that
+grows by +2/+0 for every seven cards in the graveyard, so a game that goes long turns a one-mana 1/2
+into a lethal attacker. When the drain plan is not quite enough, Uldaros Theorix rebuys a creature
+and a spell out of the graveyard and casts them for free, and Denzilore Fatehold is the usual
+creature half of that.
+
+### Mulligan guide
+
+Keep two or three lands with at least one blue source and one engine card, ideally Eye of Jace or
+Yuriko. Hands with a surveil engine plus a payoff are keeps even without a plan for turn two,
+because the deck's engine pays out on its own triggers. Be careful with hands that have no black or
+white source at all: Proft Sinister Mastermind, Denzilore Fatehold and Proctor of Potential are all
+locked behind a second colour. Ship hands of five lands, hands with Uldaros Theorix and no early
+plays, and hands with Restless Reef as the only blue source, because it always enters tapped.
+
+### Key interactions and edge cases
+
+- Eye of Jace sacrifices itself when the trigger resolves, so it is a one-shot. Do not treat it as a
+  permanent; four copies are four separate drains, and they stage over the game.
+- Denzilore Fatehold triggers on each scry or surveil, not each card. A single Surveil 2 that puts
+  two cards into the graveyard is still one +1/+1 counter on each creature.
+- Proctor of Potential's recursion needs you to have scried or surveilled this turn, and the
+  returned body carries a finality counter, so it is exiled instead of dying. Return it in the turn
+  you are attacking, not as a blocker.
+- Proft Sinister Mastermind cannot be cast at all until the graveyard holds seven or more cards.
+  Treat it as a turn-four-plus card, and note that its discard ability is a real removal spell on
+  any turn the seven-card clause is live.
+- Seasoned Cryomancer's tap-and-stun clause only triggers if you discard at least one nonland card.
+  When the hand is all lands, the discard is a blank; that is the correct time to mill into a spell
+  with Sphinx's Approach instead.
+- Sphinx's Approach can be cast from the graveyard only in the sense that it can be milled into
+  value for threshold. With three copies, the exile-five-copies clause can never turn on; the spell
+  is here as an instant-speed draw-two that a mill-heavy turn makes cheap in card terms.
+- Dark Matter Manipulator counts every seven cards in the graveyard, both players included, and it
+  counts card types only for Tarmogoyf-style effects, not here: it is a flat +2/+0 per seven cards,
+  so it is a 3/2 at seven cards, a 5/2 at fourteen.
+- Uldaros Theorix casts copies of permanents as tokens. Exiling a creature and a sorcery from the
+  graveyard and casting both is legitimate as long as the total mana value is six or less.
+
+### Matchups
+
+Against aggro, the plan is to race with Drain and to blank attackers with Seasoned Cryomancer's stun
+counters and Surveillance Phantasm's 2/3 flying body; this is the deck's tightest matchup, because
+there is no removal spell in the list. Against midrange it is a favourite: Denzilore Fatehold grows
+the board faster than most decks can trade, and the Proctor loop converts spare mana into counters.
+Against control, keep Eye of Jace for the drain and hold Sphinx of False Conclusions for flash
+blocks, and expect to win slowly through the drain plus the Recursion from Liliana the Repentant and
+Uldaros Theorix after a wipe. Against combo, the deck has no interaction beyond tapping attackers
+down, so it must count on Denzilore Fatehold plus fliers to close before the opponent goes off.
+
+## Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 → v2 | minus 2 Chandra Chill of Compliance, minus 2 Theorix Charm, minus 2 Your Fate Ends Here, minus 1 Rewrite Regrets, minus 1 Dark Matter Manipulator, minus 1 Sphinx of False Conclusions, minus 3 Room of Refuge; plus 1 Seasoned Cryomancer, plus 3 Proft Sinister Mastermind, plus 1 Uldaros Theorix, plus 1 Cryotheory Adept, plus 3 Sphinx's Approach, plus 2 Island, plus 1 Plains (cut the off-theme empower and removal slots for cards that count the graveyard, and replaced the always-tapped utility land with basics) | synergy 69.2 to 71.1, sim 53.7 to 63.0 percent, T4 0.618 to 0.641, P(4 lands by turn 4) 0.633 to 0.649. All gates pass |
+
+Battery gates for the final list: 60 cards, no missing cards, Standard legal, zero rotating cards,
+simulated win rate 63.0 percent over three 500-game runs, synergy 71.1, goldfish turn-four
+consistency 0.641, probability of four lands by turn four 0.649.
+
+## Deck list (Arena import)
+
+```text
+Crypt Curriculum
+Deck
+4 Yuriko, Hope from the Shadows
+4 Proctor of Potential
+4 Surveillance Phantasm
+4 Seasoned Cryomancer
+3 Dark Matter Manipulator
+3 Proft, Sinister Mastermind
+2 Denzilore Fatehold
+2 Liliana the Repentant
+1 Uldaros Theorix
+1 Sphinx of False Conclusions
+1 Cryotheory Adept
+4 Eye of Jace
+3 Sphinx's Approach
+4 Restless Reef
+4 Deserted Beach
+4 Shipwreck Marsh
+5 Island
+3 Swamp
+4 Plains
+```

@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-16**:
 
 - **[Tidepool Tithe](decks/2026-10-16-tidepool-tithe.html)** — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending  `combo` `Lifegain` `Waterbending` `Impending`
+- **[Crypt Curriculum](decks/2026-10-16-crypt-curriculum.html)** — Esper surveil and graveyard — Reality Fracture set deck  `reality-fracture` `surveil`
