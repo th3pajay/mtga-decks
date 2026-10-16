@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-15**:
+Deck guides published **2026-10-16**:
 
-- **[Prep Rally](decks/2026-10-15-prep-rally.html)** — Grixis prepared spells — Reality Fracture set deck  `reality-fracture` `prepared`
-- **[Everything Must Go](decks/2026-10-15-everything-must-go.html)** — Five-color (WUBRG) — Sacrifice  `combo` `Sacrifice`
+- **[Tidepool Tithe](decks/2026-10-16-tidepool-tithe.html)** — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending  `combo` `Lifegain` `Waterbending` `Impending`

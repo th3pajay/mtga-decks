@@ -1,0 +1,176 @@
+---
+title: "Tidepool Tithe"
+subtitle: "Esper (White / Blue / Black) — Lifegain x Waterbending x Impending"
+date: "2026-10-16"
+categories: ["combo", "Lifegain", "Waterbending", "Impending"]
+---
+
+
+## At a glance
+
+| Field | Value |
+|---|---|
+| Format | Standard (Arena, BO1 or BO3) |
+| Colors | White / Blue / Black |
+| Archetype | Tap-and-drain midrange combo |
+| Size | 60 cards — 24 creatures, 12 other spells, 24 lands |
+| Primary win | Lifegain drain loop: every point of life you gain becomes damage |
+| Secondary win | Katara, Water Tribe's Hope waterbend pump plus Restless Reef attacks |
+| Average mana value | 3.19 (nonland) |
+| Difficulty | Medium — the deck rewards sequencing taps, not raw speed |
+
+## Overview
+
+Tidepool Tithe is built on one piece of rules text: "While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}." Three mechanics are wired into that sentence.
+
+**Lifegain** is the fuel. Wanderbrine Preacher gains 2 life every time it becomes tapped, Compassionate Healer gains 1 and scrys, and Hinterland Sanctifier gains 1 whenever any other creature enters. Marauding Blight-Priest and Enduring Tenacity convert each of those gains straight into opponent life loss, so the life you gain while paying costs is also the damage that closes the game.
+
+**Waterbending** is the engine. Every waterbend cost in the deck sits on a card you already want: Katara, Water Tribe's Hope; Katara, Bending Prodigy; Waterbender Ascension; Crashing Wave; Waterbending Lesson; Ruinous Waterbending and Aang's Iceberg. Paying a cost is therefore never a wasted tap, because the creatures you tap are the ones that reward being tapped.
+
+**Impending** is the resilience. The Overlords enter for a cheap impending cost as noncreature enchantments with time counters, blanking sorcery-speed creature removal and creature wipes, then become 5/5 or 6/6 bodies a few turns later. Overlord of the Balemurk mills four and returns a creature card to hand, reloading the engine; Overlord of the Mistmoors makes two evasive tokens the turn it lands, even while it is not yet a creature.
+
+This is a midrange machine rather than a two-card infinite combo: the "combo" is a repeatable tap loop, and it usually kills between turns 6 and 8 through drips, drains and one large attack.
+
+## Approach
+
+### Game plan phases
+
+**Turns 1-3 — Establish bodies.** Deploy the cheapest lifegain creatures: Hinterland Sanctifier, Wanderbrine Preacher, Compassionate Healer. These are not attack pressure; they are the payment source for every waterbend cost and the trigger source for every drain payoff.
+
+**Turns 3-5 — Assemble the tap loop.** Add Marauding Blight-Priest or Enduring Tenacity as the conversion piece, then North Pole Patrol, which untaps another permanent you control. Patrol turns a one-shot tap into a two-a-turn loop: tap Preacher for a waterbend cost, untap it with Patrol, tap it again. Katara, Bending Prodigy is a 2/3 that actively wants to be tapped and grows every end step you leave her that way.
+
+**Turns 5+ — Convert.** Either resolve Katara, Water Tribe's Hope and waterbend into a lethal team pump, or keep grinding with Enduring Tenacity and Blight-Priest while the Overlords arrive via impending. Crashing Wave clears blockers, then the same turn Katara pumps the whole board.
+
+### Card roles
+
+| Card | Mana | Role | Notes |
+|---|---|---|---|
+| Hinterland Sanctifier | {W} | Lifegain trigger source | 1/2; gains 1 whenever another creature enters — triggers on Ally and Insect tokens too |
+| Wanderbrine Preacher | {1}{W} | Core tap engine plus lifegain | 2/2; gains 2 every time it becomes tapped |
+| Compassionate Healer | {1}{W} | Tap engine with selection | 2/2; when tapped, gain 1 and scry 1 |
+| Katara, Bending Prodigy | {2}{U} | Tapped-payoff body | 2/3; +1/+1 counter each end step if tapped; waterbend {6}: draw a card |
+| North Pole Patrol | {2}{U} | Loop enabler | 2/3; {T} untaps another permanent; waterbend {3}, {T} taps an opponent's creature |
+| Marauding Blight-Priest | {2}{B} | Drain payoff | 3/2; whenever you gain life, each opponent loses 1 |
+| Enduring Tenacity | {2}{B}{B} | Drain payoff, sticky | 4/3; whenever you gain life, one opponent loses that much; returns as an enchantment when it dies |
+| Katara, Water Tribe's Hope | {2}{W}{U}{U} | Win condition 1 | 3/3 vigilance; makes a 1/1 Ally on entry; waterbend {X}: your creatures become base X/X |
+| Overlord of the Balemurk | {3}{B}{B} | Impending top end plus reload | Impending 5 for {1}{B}; mills four and returns a creature card to hand |
+| Overlord of the Floodpits | {3}{U}{U} | Impending flying threat | Impending 4 for {1}{U}{U}; draws two and discards one |
+| Overlord of the Mistmoors | {5}{W}{W} | Impending go-wide | Impending 4 for {2}{W}{W}; makes two 2/1 flying Insects on entry |
+| Waterbender Ascension | {1}{U} | Card advantage and evasion | Quest counters on combat damage; waterbend {4} grants unblockable |
+| Crashing Wave | {U}{U} | Tempo sweeper | waterbend {X} as an additional cost; taps X creatures and adds three stun counters |
+| Waterbending Lesson | {3}{U} | Refuel | Draw three; discard one unless you waterbend {2} |
+| Ruinous Waterbending | {1}{B}{B} | Sweeper plus lifegain | All creatures get -2/-2; if the waterbend {4} cost was paid, every death gains you 1 life |
+| Aang's Iceberg | {2}{W} | Flash removal | Exiles any other nonland permanent until it leaves; waterbend {3} sacrifices it to scry 2 |
+
+### Lands as engines
+
+| Land | Count | Role |
+|---|---|---|
+| Restless Reef | 2 | Win condition land. Manland: {2}{U}{B} makes it a 4/4 deathtouch Shark that survives every sorcery-speed wipe, and attacking mills four on the way |
+| Tranquil Cove | 1 | Enters and gains 1 life — an untapped land drop is a drain trigger |
+| Scoured Barrens | 1 | Same: one life in, one damage out through Blight-Priest or Enduring Tenacity |
+| Dismal Backwater | 1 | Same, in the blue-black pair |
+| Hidden Lair | 3 | Untapped blue-black source while it is fresh or while you control a basic land |
+| Concealed Courtyard | 2 | Untapped white-black source in the first three turns, exactly when the deck wants it |
+| Hallowed Fountain | 4 | Untapped white-blue shock |
+| Godless Shrine | 3 | Untapped white-black shock |
+| Island / Swamp / Plains | 3 / 2 / 2 | Basics, which also switch Hidden Lair on permanently |
+
+### Curve and mana
+
+| Mana value | Count | Cards |
+|---|---|---|
+| 1 | 5 | Hinterland Sanctifier, Crashing Wave |
+| 2 | 9 | Wanderbrine Preacher, Compassionate Healer, Waterbender Ascension |
+| 3 | 11 | Katara Bending Prodigy, North Pole Patrol, Marauding Blight-Priest, Ruinous Waterbending, Aang's Iceberg |
+| 4 | 4 | Enduring Tenacity, Waterbending Lesson |
+| 5 | 5 | Katara Water Tribe's Hope, Overlord of the Balemurk, Overlord of the Floodpits |
+| 7 | 1 | Overlord of the Mistmoors (usually cast for its impending cost of {2}{W}{W}) |
+
+The manabase is 24 lands: 18 nonbasics and 6 basics spread roughly evenly across the three colours, weighted to white and black because those carry the drain payoffs. Blue is a light splash for the waterbend suite and Katara.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with lifegain bodies over card draw. Hinterland Sanctifier on turn 1 and Wanderbrine Preacher on turn 2 is the ideal opening: the Preacher is the deck's cheapest repeatable waterbend payment, and the Sanctifier turns every later token into another life gain. Against aggressive opponents, Compassionate Healer plus Aang's Iceberg on flash buys the turns you need.
+
+### Mid game
+
+This is where the loop comes online. With a Preacher plus a Blight-Priest or Enduring Tenacity in play, every waterbend cost you pay is damage. Use Katara, Bending Prodigy's waterbend {6} to draw cards by tapping three creatures and paying three mana, or pay six mana and keep the board untapped for blocks. North Pole Patrol then untaps the best tap-payoff creature, so the same Preacher can gain life twice in one turn cycle.
+
+### The combo turn
+
+1. Board: Wanderbrine Preacher, Compassionate Healer, North Pole Patrol, Katara WTH (or Katara, Bending Prodigy), Marauding Blight-Priest, five or six lands.
+2. Activate Katara, Water Tribe's Hope's waterbend {X} for X = 5, paying by tapping Preacher, Compassionate Healer, Patrol, Katara's Ally token and one more body.
+3. Those taps fire Preacher (gain 2) and Healer (gain 1), which makes Blight-Priest and/or Enduring Tenacity drain 3 to 5 life before combat.
+4. Every creature you control is now base 5/5 (Katara herself included, and she has vigilance, so she pseudo-attacks and still got tapped for value).
+5. Attack with the team, or first clear the way with Crashing Wave's waterbend {X} to tap blockers and stun them for three turns.
+
+Note that X may be paid with any mix of mana and taps. A hand with 6 mana and only two creatures can still waterbend {X} for 6.
+
+### Win condition 2
+
+Restless Reef plus waterbend aggression. Two Reefs each become 4/4 deathtouch Sharks for {2}{U}{B}, which is a real clock that ignores creature sweepers and block-based removal, and each attack mills four cards for Overlord of the Balemurk. Waterbender Ascension's waterbend {4} grants unblockable to whichever creature actually matters, and Giant-style unblockable tricks are irrelevant to the Reef because deathtouch plus a 4/4 body forces bad blocks anyway. The drain loop usually finishes what the Reef starts.
+
+### Mulligan guide
+
+Keep: 2-4 lands including at least one white source, one or two one- and two-drop lifegain creatures, and either a payoff (Blight-Priest, Enduring Tenacity) or a waterbend engine card (Katara WTH, North Pole Patrol, Waterbender Ascension).
+
+Ship: hands with zero creatures, hands with both Katara, Water Tribe's Hope and Overlord of the Mistmoors and no action before turn 4, and any hand with fewer than two lands. Six-card hands are fine; the deck is redundant by design and drawn by Waterbending Lesson, Katara, Bending Prodigy and Overlord of the Floodpits.
+
+### Key interactions and edge cases
+
+- **Waterbend costs are paid by tapping, or by mana, or both.** Each artifact or creature pays for {1}; nothing forces you to tap. Katara, Bending Prodigy's waterbend {6} for a card is frequently best paid as three mana plus three taps.
+- **Tapped creatures cannot pay twice.** Already-tapped bodies are not available, which is why North Pole Patrol (untap another target permanent) is a genuine engine card.
+- **Vigilance creatures attack and still tap.** Katara WTH, Flexible-style vigilance bodies and the Ally token are the best payment sources because attacking costs them nothing.
+- **Ruinous Waterbending kills your own small bodies.** Minus two toughness removes Hinterland Sanctifier (1/2) and Wanderbrine Preacher (2/2); Katara, Bending Prodigy (2/3) and North Pole Patrol (2/3) live. Cast it when the exchange favours you, and pay the waterbend {4} so that every creature that dies this turn, including your own, gains you 1 life.
+- **Enduring Tenacity survives sweepers.** When it dies as a creature it returns to the battlefield as a noncreature enchantment, so the drain trigger keeps working after a wipe.
+- **Impending dodges removal.** While time counters remain, the Overlord is an enchantment, not a creature: it cannot be attacked profitably, is immune to "destroy target creature" and to sorcery-speed wipes, and cannot be tapped for waterbend. The end step that removes the last counter is when it becomes a creature, so it can attack on the following turn.
+- **Overlord of the Mistmoors while impending.** Its entry trigger makes two 2/1 flying Insects even though the Overlord itself is not yet a creature; those tokens gain you two life via Hinterland Sanctifier and can pay two toward any waterbend cost.
+- **Crashing Wave timing.** Waterbend {X} is an additional cost, so X is locked in as you cast it. Tap the creatures you want to remove, then stack the three stun counters on whatever also has to be kept down.
+- **Aang's Iceberg is a blink-style answer.** Exiling a permanent keeps it exiled only while the Iceberg stays; its waterbend {3} sacrifice mode is what makes it permanent, so only use it on something you never want back.
+
+### Matchups
+
+**Aggro.** Favourable: cheap blockers, three lands that gain life, Ruinous Waterbending as a reset and the drain loop all line up well; the danger is a fast flying start, answered by Aang's Iceberg and Crashing Wave.
+
+**Control.** Slightly favourable: Overlords ignore wraths, Enduring Tenacity returns from the graveyard and Blight-Priest punishes anyone who taps out.
+
+**Midrange.** Even to favourable: the deck out-grinds on card flow and Katara WTH's pump ends stalls, but do not trade drain payoffs into removal for no value.
+
+**Combo.** Unfavourable before sideboarding: the plan is speed plus disruption, using Crashing Wave and Aang's Iceberg while Overlords and Reefs pressure the kill.
+
+## Deck list (Arena import)
+
+```text
+Tidepool Tithe
+Deck
+4 Wanderbrine Preacher
+4 Hinterland Sanctifier
+2 Compassionate Healer
+3 Katara, Bending Prodigy
+3 Marauding Blight-Priest
+2 North Pole Patrol
+2 Katara, Water Tribe's Hope
+2 Overlord of the Balemurk
+1 Overlord of the Floodpits
+1 Overlord of the Mistmoors
+2 Enduring Tenacity
+2 Waterbender Ascension
+2 Crashing Wave
+2 Waterbending Lesson
+2 Ruinous Waterbending
+2 Aang's Iceberg
+4 Hallowed Fountain
+3 Godless Shrine
+2 Concealed Courtyard
+3 Hidden Lair
+2 Restless Reef
+1 Tranquil Cove
+1 Scoured Barrens
+1 Dismal Backwater
+3 Island
+2 Swamp
+2 Plains
+```
