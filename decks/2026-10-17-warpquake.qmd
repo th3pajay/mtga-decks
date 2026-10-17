@@ -1,0 +1,223 @@
+---
+title: "Warpquake"
+subtitle: "Boros Warp — white and red, warp re-entries turned into drain"
+date: "2026-10-17"
+categories: ["combo", "warp"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (60-card constructed, 2026-10-17) |
+| Colors | White and Red (Boros) |
+| Mechanic | Warp |
+| Archetype | Warp drain: every creature that enters the battlefield is damage, and warp puts the same creatures back into play again and again |
+| Deck size | 60 (36 spells, 24 lands) |
+| Average mana value | 3.44 |
+| Primary win | Impact Tremors, Warleader's Call and Weftstalker Ardent turn each entering creature into damage to each opponent; warp casts and token makers multiply the number of entries per turn |
+| Secondary win | Combat with warped fliers (Nova Hellkite, Exalted Sunborn) behind a pumped token board, with Rogue's Passage clearing the last blocker |
+| Land in the win condition | Fountainport makes a 1/1 Fish every turn, and that token retriggers the entire drain package; Rogue's Passage makes the biggest warped body unblockable |
+
+## Overview
+
+Warp lets you cast a card for its warp cost instead of its mana cost, exiles it at the beginning
+of the next end step, and then lets you cast it from exile on a later turn. That single line gives
+the deck two things at once: a permanent that enters the battlefield for far less than its printed
+price, and a card that is not spent when it leaves — it comes back as a real card in exile, ready
+to be cast again when the mana is there.
+
+The deck converts those entries into damage. Three cards are paid for the same resource: Impact
+Tremors, Warleader's Call and Weftstalker Ardent each deal 1 damage to every opponent when a
+creature you control enters. With all three on the battlefield a single creature entering is 3
+damage; with Delney, Streetwise Lookout doubling Weftstalker Ardent's trigger it is 4. Warp keeps
+supplying entries for two mana, and the token makers — Knight Luminary, Rayblade Trooper, Exalted
+Sunborn, Fountainport — turn one entry into three.
+
+| Engine piece | Copies | What it does |
+|--------------|--------|--------------|
+| Weftstalker Ardent | 4 | Warp {R}. A 2/3 that pings each opponent whenever another creature or artifact you control enters, and one of the cheapest re-entries in the deck |
+| Impact Tremors | 4 | Two mana, one damage to each opponent per creature entering. The deck's cheapest payoff and the reason a two-mana warp is a real clock |
+| Warleader's Call | 3 | Damage on entry plus +1/+1 to the whole team, so the same tokens that ping also win combat |
+| Tannuk, Steadfast Second | 3 | Other creatures you control have haste, so warped bodies attack the turn they land; also the Kavu that makes Possibility Technician's exiled cards castable |
+| Delney, Streetwise Lookout | 2 | Doubles the triggered abilities of creatures with power 2 or less — Weftstalker Ardent, Rayblade Trooper and All-Fates Stalker all qualify |
+| Knight Luminary | 3 | Warp {1}{W} for a 3/2 that brings a 1/1 Soldier with it. One warped entry becomes two drain triggers, four with Exalted Sunborn |
+| Possibility Technician | 2 | Warp {1}{R}. Every Kavu entry exiles the top card of your library and lets you play it while you control a Kavu, so the warp loop also draws |
+| Haliya, Guided by Light | 2 | Warp {W}. One life per entry, and a card at end of turn once you have gained three |
+
+## Approach
+
+### Game plan by phase
+
+1. Turns one and two: Impact Tremors is the best opening in the deck, and Lightning Helix is the
+   interaction that keeps you alive while the enchantments come down. A warped Knight Luminary or
+   Weftstalker Ardent on turn two is already two damage per opponent before any attack.
+2. Turns three and four: add the second and third payoff. Warleader's Call pumps the board,
+   Weftstalker Ardent stacks another point per entry, and Delney doubles it. Tannuk, Steadfast
+   Second gives the team haste, which matters because most of the bodies only live for one turn.
+3. Turns five and up: token doubling and reach. Exalted Sunborn makes every Soldier and every
+   Rayblade Trooper death token into two, Fountainport adds a Fish every turn, and Rogue's Passage
+   pushes a 4/5 flier or a pumped token through for the last points.
+
+### Card roles
+
+| Role | Cards | Copies | Function |
+|------|-------|--------|----------|
+| Drain payoffs | Impact Tremors, Warleader's Call, Weftstalker Ardent | 4, 3, 4 | Convert creature entries into damage to each opponent; they are the deck's clock |
+| Trigger doubler | Delney, Streetwise Lookout | 2 | Doubles the ping from Weftstalker Ardent and the counter trigger from Rayblade Trooper |
+| Warp bodies | Weftstalker Ardent, Knight Luminary, Haliya, Rayblade Trooper, Exalted Sunborn, Nova Hellkite, Weftblade Enhancer, Possibility Technician, All-Fates Stalker | 4, 3, 2, 3, 2, 2, 2, 2, 1 | Every one of them is a cheap entry now and a castable card later |
+| Enablers | Tannuk, Steadfast Second, Memorial Team Leader | 3, 1 | Haste for one-turn bodies, the Kavu body that turns on Possibility Technician, and a team pump during your turn |
+| Token makers | Knight Luminary, Rayblade Trooper, Exalted Sunborn, Fountainport | 3, 3, 2, 2 | Multiply entries per spell; Exalted Sunborn doubles every token made |
+| Card advantage | Possibility Technician, Haliya, Guided by Light | 2, 2 | Exile-and-play off Kavu entries, and a draw at end of turn off three points of lifegain |
+| Interaction | Lightning Helix, All-Fates Stalker, Nova Hellkite | 2, 1, 2 | Three damage plus three life, a temporary exile on a creature, and a ping on entry |
+
+### Lands as engines
+
+| Land | Copies | What it does for the deck |
+|------|--------|---------------------------|
+| Fountainport | 2 | Three mana and a tap makes a 1/1 blue Fish, which is another drain trigger on every payoff; spare tokens can be sacrificed for a card instead |
+| Rogue's Passage | 2 | Four mana and a tap makes a creature unblockable, which is how a warped Nova Hellkite or a pumped Soldier finishes a game through a stalled board |
+| Evolving Wilds | 2 | Finds whichever basic the hand is missing, and the land entering is not a trigger this deck cares about, so the tapped entry costs little |
+| Plains | 10 | The heavier colour: Exalted Sunborn wants two white, and Knight Luminary, Rayblade Trooper, Haliya and Weftblade Enhancer all want white |
+| Mountain | 8 | Red for Weftstalker Ardent, Tannuk, Steadfast Second, Possibility Technician and Nova Hellkite, with two Mountains needed for the double red cards |
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|------|-------|-------|
+| Two | 6 | Impact Tremors, Lightning Helix |
+| Three | 16 | Weftstalker Ardent, Delney Streetwise Lookout, Haliya Guided by Light, Rayblade Trooper, Possibility Technician, Warleader's Call |
+| Four | 8 | Tannuk Steadfast Second, Knight Luminary, Memorial Team Leader, All-Fates Stalker |
+| Five | 4 | Exalted Sunborn, Nova Hellkite |
+| Six | 2 | Weftblade Enhancer |
+
+Twenty-four lands, twenty white sources and nineteen red ones once Evolving Wilds is counted for
+either. The printed curve is deliberately top-heavy: the four, five and six mana cards are all
+warp cards, so their real cost on the turn that matters is two or three mana, and only the cards
+you draw late are paid for in full.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with Impact Tremors whenever it is in the opening hand; it turns every later warp into
+damage and costs only two mana. On turn two the correct play is usually a warped one: Knight
+Luminary for two mana brings a Soldier, Weftstalker Ardent for one red mana is the cheapest ping
+in the deck, and Haliya for one white mana starts the lifegain count that draws cards later.
+Lightning Helix is for the creature that would otherwise eat your enchantments, not for the face.
+The warped permanent leaving at end of turn is not a loss: it goes to exile and stays castable.
+
+### Mid game
+
+Turns three to five are about stacking payoffs. Warleader's Call is the single most important
+card in the mid game because it both pings and pumps, which is what lets a board of 1/1 Soldiers
+actually attack. Tannuk, Steadfast Second is what makes the plan work on the turn it is played:
+the whole team has haste, so a warped Nova Hellkite or a Knight Luminary can attack immediately
+and then leave at end of turn with its damage already dealt. Delney is the other key piece, since
+doubling Weftstalker Ardent doubles the deck's main clock.
+
+### The combo turn
+
+The deck's best turn is a two-mana warp that becomes four entries. With Impact Tremors,
+Warleader's Call and Weftstalker Ardent on the battlefield, and Delney out, every creature that
+enters deals 4 damage to each opponent. Warp Knight Luminary for two mana: the Knight is one
+entry, and with Exalted Sunborn on the battlefield its Soldier is doubled into two more. Three
+entries is 12 damage to each opponent for two mana, and the same turn the Soldiers are 1/1s with
+Warleader's Call's +1/+1 on them. Recast the same Knight from exile later in the game for four
+mana and do it again; Possibility Technician turns each Kavu entry into an extra card off the top,
+so the loop refuels itself.
+
+### Win condition two
+
+When the drain is not enough, the deck attacks. Nova Hellkite is a 4/5 flier with haste that also
+pings a creature on entry, Exalted Sunborn is a 4/5 flier with lifelink that doubles every token
+you make, and Warleader's Call plus Memorial Team Leader make even the Soldier tokens into a real
+board. Rogue's Passage is the finisher: four mana makes the largest body unblockable, which is
+usually the difference between a stalled board and lethal. Fountainport belongs to this plan too,
+since a free 1/1 each turn both adds to the attack and triggers all three drain payoffs.
+
+### Mulligan guide
+
+Keep two or three lands with at least one Impact Tremors or Weftstalker Ardent, plus a cheap warp
+card to cast. Hands with two payoffs and no action are worse than they look, because the payoffs
+do nothing alone. Ship hands that need double white or double red on turn three without the
+matching basics, and ship hands whose only plays cost four or more unless Tannuk is among them,
+since Tannuk is what makes those cards castable early.
+
+### Key interactions and edge cases
+
+- Warp exiles the permanent at the beginning of the next end step, so a warped creature gets
+  exactly one combat step and then leaves. Attack first, then let it go.
+- An exiled warped card can be cast again on a later turn, but that cast pays the printed cost,
+  not the warp cost. Warp is a discount once per copy, not a permanent discount.
+- All-Fates Stalker exiles a creature until it leaves the battlefield, so warping it out returns
+  the creature you removed. Cast it for four mana when you want the exile to stick.
+- Delney only doubles creatures with power 2 or less: Weftstalker Ardent, Rayblade Trooper and
+  All-Fates Stalker qualify, while Haliya, Knight Luminary, Tannuk and Possibility Technician do
+  not.
+- Haliya's draw needs three or more life gained in the same turn. Three entries does it, and so
+  does any entry plus Lightning Helix.
+- Rayblade Trooper only makes its Soldier when a nontoken creature with a +1/+1 counter dies.
+  Warped creatures are exiled, not destroyed, so the trigger usually comes from a counter placed
+  by Rayblade Trooper itself or by Weftblade Enhancer.
+- Tannuk, Steadfast Second is legendary. Warping a second copy while one is on the battlefield
+  means one of them dies to the legend rule, so hold the second copy until the first is gone.
+- Possibility Technician needs a Kavu on the battlefield to cast the card it exiles. It is a Kavu
+  itself, so it works alone, but if it is removed the exiled card is stranded until Tannuk or
+  Memorial Team Leader arrives.
+- Exalted Sunborn doubles tokens, not entries: the two Soldiers it creates are two separate
+  drain triggers, which is exactly why it is in the deck.
+
+### Matchups
+
+Against aggro the deck is a favourite after sideboarding in spirit rather than in cards: Lightning
+Helix and All-Fates Stalker buy the turns, and Weftstalker Ardent plus Impact Tremors race small
+creature decks well because the damage does not require attacking. Against midrange the plan is to
+grind: every warped card is a second card later, and the drain payoffs do not care about blockers.
+Against control the deck wants Impact Tremors and Warleader's Call down before the sweeper, since
+enchantments survive creature removal, and Delney makes the Soldier tokens unblockable against
+large blockers. Against combo there is no counterspell in the list, so the deck has to race with
+the drain plan and use Rogue's Passage for the last points.
+
+## Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 | First build: added Roaming Throne, two Bygone Colossus, two Windcrag Siege, three Delney and two Lightning Helix | synergy 69.6 (below the 70 gate), sim 53.7 percent, T4 0.640, P(4 lands by turn 4) 0.644 |
+| v1 to v2 | minus 1 Roaming Throne, minus 2 Bygone Colossus, minus 1 Windcrag Siege, minus 1 Lightning Helix, minus 1 Delney, plus 2 Weftblade Enhancer, plus 2 Possibility Technician, plus 1 All-Fates Stalker (trade the expensive colorless top end for cards that share the Drix and Kavu text and actually enter the battlefield) | synergy 69.6 to 71.3, sim 53.7 to 60.3 percent, T4 0.640 to 0.619, P(4 lands) 0.644 to 0.616 |
+| v2 to v3 | minus 1 Windcrag Siege, plus 1 Memorial Team Leader (the third Kavu turns on Possibility Technician and its pump is what makes the Soldier tokens attack) | synergy 71.3 to 71.1, sim 60.3 to 66.0 percent, T4 0.619 to 0.637, P(4 lands) 0.616 to 0.640 |
+
+A third variant, swapping All-Fates Stalker for Stone-Giant of High Pass, passed every gate but
+simulated at 58.0 percent against 66.0 percent for this list, so the current build was kept.
+
+Battery gates for the final list: 60 cards, no missing cards, Standard legal, zero rotating
+cards, simulated win rate 66.0 percent over three 500-game runs, synergy 71.1, goldfish turn-four
+consistency 0.637, probability of four lands by turn four 0.640.
+
+## Deck list (Arena import)
+
+```text
+Warpquake
+Deck
+4 Weftstalker Ardent
+3 Tannuk, Steadfast Second
+2 Delney, Streetwise Lookout
+3 Knight Luminary
+2 Haliya, Guided by Light
+3 Rayblade Trooper
+2 Exalted Sunborn
+2 Nova Hellkite
+2 Weftblade Enhancer
+2 Possibility Technician
+1 Memorial Team Leader
+1 All-Fates Stalker
+4 Impact Tremors
+3 Warleader's Call
+2 Lightning Helix
+10 Plains
+8 Mountain
+2 Fountainport
+2 Rogue's Passage
+2 Evolving Wilds
+```

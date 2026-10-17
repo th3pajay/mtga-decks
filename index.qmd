@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-16**:
+Deck guides published **2026-10-17**:
 
-- **[Tidepool Tithe](decks/2026-10-16-tidepool-tithe.html)** — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending  `combo` `Lifegain` `Waterbending` `Impending`
-- **[Crypt Curriculum](decks/2026-10-16-crypt-curriculum.html)** — Esper surveil and graveyard — Reality Fracture set deck  `reality-fracture` `surveil`
+- **[Warpquake](decks/2026-10-17-warpquake.html)** — Boros Warp — white and red, warp re-entries turned into drain  `combo` `warp`
