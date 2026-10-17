@@ -1,0 +1,222 @@
+---
+title: "Heartwood Hatchlings"
+subtitle: "Temur Heartwood artifacts — Reality Fracture set deck"
+date: "2026-10-17"
+categories: ["reality-fracture", "heartwood"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (Reality Fracture set deck, 2026-10-17) |
+| Colors | Green / Red / Blue (Temur) |
+| Archetype | Heartwood artifact-token engine into Dragon conversion |
+| Deck size | 60 (36 spells, 24 lands) |
+| Average mana value | 2.9, top of curve seven |
+| Primary win | Heartwood tokens plus Draconic Visitor: every artifact token you would create becomes a 5/5 red Dragon with flying instead |
+| Secondary win | Artifact beatdown: Craftwork Crusher, Karn, Gilded Guardian and a Hall of Echoes copy of the biggest body |
+| Land in the win condition | Hall of Echoes — for five mana the land becomes a copy of a creature you control, so it doubles Draconic Visitor or turns into a second 7/5 trampler |
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so the import list
+below becomes playable on Arena once the set is enabled there.
+
+## Overview
+
+The set's prepared mechanic is a free spell stapled to a body: a prepared creature lets you cast a
+copy of its back-face spell, and doing so unprepares it. The green-red half of that cycle all shares
+the same back face, Soul Tether, which makes a Heartwood token — a red and green artifact that taps
+for red or green. Six cards in the deck are Soul Tether creatures, so the deck's first job is to keep
+turning bodies into mana rocks.
+
+The second job is what makes it a combo rather than a ramp deck. Draconic Visitor replaces every
+artifact token you create with a 5/5 red Dragon with flying. Once it is on the battlefield, Soul
+Tether stops making mana and starts making Dragons, Saheeli's Thopters arrive as Dragons, and a
+single upkeep with Woodwork Prodigy prepared is a free 5/5 flier every turn.
+
+| Engine piece | Copies | What it does |
+|--------------|--------|--------------|
+| Heartwood Crafter | 4 | One-mana prepared body; its Soul Tether is a Heartwood, and it taps for colourless mana that cannot pay for spells from hand |
+| Konstrari Improviser | 4 | Two-mana prepared body, the cleanest turn-two play, same Soul Tether back face |
+| Woodwork Prodigy | 4 | Re-prepares itself every upkeep, so it is the repeatable Soul Tether — one Heartwood or one Dragon per turn, forever |
+| Tenured Tethermage | 3 | Two Heartwoods at once, tapped, for the price of a land; also grows itself by tapping two artifacts |
+| Aerid Konstrari | 2 | A 5/4 flier that makes a Heartwood on entering and on dying, and pumps itself by the artifact count |
+| Draconic Visitor | 3 | The converter: artifact tokens become 5/5 flying Dragons |
+| Saheeli, Jewel of Avishkar | 2 | Every noncreature spell makes a Thopter, which is a Dragon while Draconic Visitor is out |
+
+## Approach
+
+Plan by phases:
+
+1. Turns 1 and 2: deploy prepared bodies. Heartwood Crafter on one, then Konstrari Improviser or a
+   second Crafter. Do not cash the Soul Tether yet unless the mana is spare; the token is worth more
+   once there is something to convert.
+2. Turns 3 and 4: build the rock count. Woodwork Prodigy and Tenured Tethermage put two to four
+   Heartwoods on the battlefield, which is both ramp and the fuel for the combo turn. Karn, Gilded
+   Guardian refills the hand off the colours among those artifacts.
+3. Turns 5 and up: land Draconic Visitor and convert. From that point every Soul Tether, every
+   Saheeli trigger and every Aerid Konstrari death is a 5/5 flier. Craftwork Crusher and Hall of
+   Echoes close games that stall on the ground.
+
+### Card roles
+
+| Role | Cards | Copies | Function |
+|------|-------|--------|----------|
+| Prepared engine | Heartwood Crafter, Konstrari Improviser, Woodwork Prodigy | 4, 4, 4 | Bodies that carry Soul Tether; the Prodigy is the only repeatable one |
+| Token producers | Tenured Tethermage, Aerid Konstrari, Hungering Puppetbeast, Saheeli Jewel of Avishkar | 3, 2, 2, 2 | Heartwoods and Thopters, all of which become Dragons under the Visitor |
+| Converter | Draconic Visitor | 3 | Turns the whole token plan into 5/5 flying creatures |
+| Cost reduction | Geist of Saint Thalia | 2 | Soul Tether is a noncreature spell, so every copy costs one less |
+| Card advantage | Karn Gilded Guardian, The Echoverse Fulcrum, Artifist Acumen | 2, 2, 2 | Draw off artifact colours, loot off a two-mana artifact, and a one-mana cantrip that also gives the team first strike |
+| Finishers | Craftwork Crusher, Hungering Puppetbeast, Aerid Konstrari | 2, 2, 2 | 7/5 trample with a removal mode, a 5/5 that grows by eating spare artifacts, and a flier that pumps by artifact count |
+| Utility | Puppet Crafting | 2 | Turns a spare Heartwood or the Echoverse Fulcrum into a 5/5 Construct |
+
+### Lands as engines
+
+| Land | Copies | What it does for the deck |
+|------|--------|---------------------------|
+| Hall of Echoes | 2 | Colourless mana early, then five mana to become a copy of a creature you control until end of turn — a second Draconic Visitor, a second Aerid Konstrari, or a second 7/5 Craftwork Crusher. The legend rule is switched off for the turn, so copying a legend is legal |
+| Dreamroot Cascade | 4 | Untapped green and blue once you control two other lands; the only clean blue source that does not cost a turn |
+| Konstrari Annex | 2 | Red and green, but always tapped here because the deck plays no planeswalker. Treat it as a turn-one play |
+| Forest | 8 | Green is the deck's spine: every prepared creature except Saheeli is green |
+| Mountain | 4 | Red for Draconic Visitor, Craftwork Crusher and Aerid Konstrari |
+| Island | 4 | Blue for Saheeli and Geist of Saint Thalia |
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|------|-------|-------|
+| One | 6 | Heartwood Crafter, Artifist Acumen |
+| Two | 12 | Konstrari Improviser, Geist of Saint Thalia, Puppet Crafting, The Echoverse Fulcrum, Karn Gilded Guardian |
+| Three | 7 | Woodwork Prodigy, Tenured Tethermage |
+| Four | 4 | Aerid Konstrari, Saheeli Jewel of Avishkar |
+| Five | 5 | Hungering Puppetbeast, Draconic Visitor |
+| Seven | 2 | Craftwork Crusher |
+
+Twenty-four lands: fourteen green sources, eight blue and six red, plus every Heartwood token, which
+taps for red or green. Karn, Gilded Guardian is counted at two because its hybrid cost is payable
+with two generic mana. Twelve cards cost one or two, so the deck is never short of an early play,
+and the two seven-drops are the only cards that can sit dead in an opening hand.
+
+## Gameplay strategy
+
+### Early game
+
+Heartwood Crafter is the ideal one-drop: it enters prepared, blocks well enough as a 1/1, and its
+mana ability pays for the Soul Tether it is holding. Turn two is Konstrari Improviser, or a second
+Crafter plus Artifist Acumen to dig. The important discipline in the first three turns is not to
+fire Soul Tether into an empty board. A Heartwood token with nothing to convert is a 2/2-for-three
+rate; the same token on the turn Draconic Visitor lands is a 5/5 flier. Fire the tethers when the
+mana is otherwise going unused, or when a Tenured Tethermage or Woodwork Prodigy is about to make the
+board wide enough that the extra artifact count matters.
+
+### Mid game
+
+Woodwork Prodigy is the engine's centre. It re-prepares during every upkeep, so from turn three it
+offers a Soul Tether each turn without spending a card. With Geist of Saint Thalia out, that copy
+costs two mana total and can be paid with a Heartwood plus one land. Tenured Tethermage converts a
+spare land into two tapped Heartwoods, which is the fastest way to reach five mana for Draconic
+Visitor while keeping the board intact. Karn, Gilded Guardian is the mid-game refill: a Heartwood is
+two colours, so Karn usually draws two cards on entry and leaves a 5/5 vigilance trampler behind.
+
+### The combo turn
+
+The deck's best turn is the one where Draconic Visitor arrives on a board that already holds prepared
+bodies and artifacts. Order it like this: cast Draconic Visitor, then cast every Soul Tether you have
+queued. Each copy now creates a 5/5 red Dragon with flying instead of a Heartwood. Woodwork Prodigy
+re-prepares at the next upkeep, which is another Dragon. Saheeli, Jewel of Avishkar converts each of
+those noncreature spells into a Thopter that also arrives as a Dragon, and Puppet Crafting on the
+Echoverse Fulcrum gives the board a 5/5 Construct that survives a creature-only sweeper. Two prepared
+bodies plus Saheeli is three Dragons in one turn off six or seven mana.
+
+### Win condition two
+
+When the air plan is answered, the deck wins on the ground with artifact bodies. Craftwork Crusher is
+a 7/5 trampler that removes a creature or planeswalker and draws a card when it enters, Hungering
+Puppetbeast eats spare Heartwoods for +1/+1 counters and a keyword of choice, and Aerid Konstrari
+pumps itself by the number of artifacts you control. Hall of Echoes is the land half of this plan:
+five mana turns it into a copy of the biggest creature on the board, so the Crusher attacks as two
+7/5 tramplers and Draconic Visitor can be doubled for a second conversion effect in the same turn.
+
+### Mulligan guide
+
+Keep two or three lands with at least one green source, one prepared creature, and one payoff —
+Draconic Visitor, Karn, Gilded Guardian or Craftwork Crusher. A hand of Heartwood Crafter into
+Konstrari Improviser with no five-drop is still a keep, because Woodwork Prodigy and Tenured
+Tethermage are common enough that the deck finds its converter by turn five. Ship hands with no
+green source, hands whose only lands are Hall of Echoes and Konstrari Annex, and hands with two or
+more Draconic Visitor and no early creature.
+
+### Key interactions and edge cases
+
+- Prepared only re-arms through the card's own text or an outside effect. Heartwood Crafter and
+  Konstrari Improviser enter prepared once; after their Soul Tether resolves they are vanilla bodies.
+  Woodwork Prodigy is the only card here that re-prepares every turn, which is why it is a four-of.
+- Draconic Visitor replaces the creation, it does not copy the token. Soul Tether under the Visitor
+  makes one 5/5 Dragon and no Heartwood, so the mana rock is gone. Sequence ramp first, conversion
+  second.
+- Saheeli, Jewel of Avishkar triggers on casting, and Soul Tether copies are sorceries, so the Thopter
+  arrives before the Soul Tether resolves. With the Visitor out that Thopter is a 5/5 Dragon.
+- Tenured Tethermage's land sacrifice is optional and it is a real cost: only take it with four or
+  more lands, or when the two Heartwoods immediately pay for a five-drop.
+- Karn, Gilded Guardian counts colours among other artifacts you control. A Heartwood is both red and
+  green, so one Heartwood is already two cards; the deck has no other multicoloured artifact, so
+  expect two, not five.
+- The Echoverse Fulcrum's five-mana ability destroys all creatures, Dragons included. It is a reset
+  button for the turn the opponent has committed more than you, not a removal spell.
+- Puppet Crafting can enchant any non-Aura artifact, so a Heartwood token is a legal target and stays
+  a mana rock while it is a 5/5. Enchanting the Echoverse Fulcrum makes the sweeper body-safe.
+- Hall of Echoes taps for colourless only. Two copies are utility, not mana fixing; do not count them
+  as green or red sources when keeping a hand.
+- Craftwork Crusher's choose-two modes are picked on entry, and the damage mode can hit a planeswalker
+  or clear a blocker before the trample damage is assigned.
+
+### Matchups
+
+Against aggro the deck is soft: there is no removal spell in the list, so the plan is to trade
+Heartwood Crafter and Konstrari Improviser early, land Karn as a 5/5 blocker, and race with Dragons
+from turn five. Against midrange it is a favourite, because the token engine goes wider than most
+midrange boards and Craftwork Crusher answers their best creature on entry. Against control, hold
+Draconic Visitor until you can cast it with a Soul Tether or a Saheeli trigger behind it, and lean on
+Karn and the Echoverse Fulcrum to keep cards flowing; a single Visitor that resolves usually ends the
+game in two attacks. Against combo, the deck has no interaction beyond damage, so it must mulligan
+toward the fastest curve and count on flying Dragons closing before the opponent's engine comes
+online.
+
+## Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 | First list as built: 36 spells, 24 lands, six overlap cards from earlier decks (Heartwood Crafter, Konstrari Improviser, Woodwork Prodigy, Aerid Konstrari, Hungering Puppetbeast, Draconic Visitor) | synergy 71.5, sim 59.0 percent, T4 0.609, P(4 lands by turn 4) 0.62. All gates pass |
+| probe | minus 2 Artifist Acumen, plus 2 Pia, Determined Rebuilder (more Thopters, artifact pump) | sim 59.0 to 51.3, synergy 71.5 to 71.4, T4 0.609 to 0.629. Rejected, reverted to v1 |
+
+Battery gates for the final list: 60 cards, no missing cards, Standard legal, zero rotating cards,
+simulated win rate 59.0 percent over three 500-game runs, synergy 71.5, goldfish turn-four
+consistency 0.609, probability of four lands by turn four 0.62.
+
+## Deck list (Arena import)
+
+```text
+Heartwood Hatchlings
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+4 Woodwork Prodigy
+3 Tenured Tethermage
+2 Aerid Konstrari
+2 Hungering Puppetbeast
+3 Draconic Visitor
+2 Saheeli, Jewel of Avishkar
+2 Karn, Gilded Guardian
+2 Geist of Saint Thalia
+2 Craftwork Crusher
+2 Puppet Crafting
+2 Artifist Acumen
+2 The Echoverse Fulcrum
+4 Dreamroot Cascade
+2 Konstrari Annex
+2 Hall of Echoes
+8 Forest
+4 Mountain
+4 Island
+```

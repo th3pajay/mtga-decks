@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-17**:
 
 - **[Warpquake](decks/2026-10-17-warpquake.html)** — Boros Warp — white and red, warp re-entries turned into drain  `combo` `warp`
+- **[Heartwood Hatchlings](decks/2026-10-17-heartwood-hatchlings.html)** — Temur Heartwood artifacts — Reality Fracture set deck  `reality-fracture` `heartwood`
