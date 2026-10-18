@@ -1,0 +1,189 @@
+---
+title: "Fathom Ledger"
+subtitle: "Esper surveil and graveyard value — Reality Fracture set deck"
+date: "2026-10-18"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (Reality Fracture set deck, 2026-10-18) |
+| Colors | White / Blue / Black (Esper; blue-black core, white splash) |
+| Archetype | Surveil engine into token swarm, with a mass-reanimation second act |
+| Deck size | 60 (35 spells, 25 lands) |
+| Average mana value | 2.74, top of curve nine |
+| Primary win | Saheeli, Consul of Oversight turns every surveil into a 1/1 Thopter; Prudent Fateseer and Desperate Futurescribe pump the swarm, Restless Reef attacks for the last points |
+| Secondary win | Return to the Light Realms brings back every nonland permanent in the graveyard after the surveil engine has filled it |
+| Land in the win condition | Restless Reef — a land that becomes a 4/4 deathtouch Shark and mills four on every attack |
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so the import list
+below becomes playable on Arena once the set is enabled there. Several supporting cards in this list
+(Matoya, Archon Elder; Restless Reef) are already on Arena and playable today.
+
+## Overview
+
+This deck is built on the set's surveil cluster: a small number of repeatable surveil sources feed a
+payoff suite that all triggers off the words "scry or surveil". The whole deck is really one engine
+with several outlets, plus a graveyard that grows every turn as a side effect.
+
+The engine is Chandra, Chill of Compliance and Eye of Jace. Chandra's first loyalty ability surveils
+one and, crucially, returns a noncreature, nonland card from that surveil to your hand, so she is
+card-neutral or better every turn while stocking the graveyard. Eye of Jace surveils on every upkeep
+for one mana, and once seven cards sit in the graveyard it sacrifices itself for two damage to each
+opponent. Matoya, Archon Elder converts each of those triggers into a card; Saheeli, Consul of
+Oversight converts them into Thopters; Diviner of Victory and Prudent Fateseer convert them into
+power.
+
+The kill is a flying swarm that grows faster than most Standard boards can block. Saheeli is a 4/4
+flier that makes a 1/1 Thopter on the first surveil of each turn, and Prudent Fateseer pumps the whole
+team on the same trigger. Peer Review, the back face of three prepared creatures in the deck, adds 2/2
+Cadets while surveilling, which loops back into the same payoffs.
+
+The second act is the graveyard itself. By the time six or seven lands are in play the yard is usually
+ten or more cards deep, and Return to the Light Realms returns every nonland permanent card from it —
+creatures, Saheeli, Chandra, Matoya — for one sorcery. That is not a value play, it is usually a lethal
+rebuild, and it is why the deck can afford to trade bodies early.
+
+## Approach
+
+Plan by phases:
+
+1. Turns 1 and 2: deploy surveil bodies, not payoffs. Diviner of Victory on one, Dark Matter
+   Manipulator or Eye of Jace follows. Diviner is the best one-drop in the deck because it grows on
+   every surveil and its prepared back face, Unwind History, is a bounce spell with surveil attached.
+2. Turns 2 and 3: land the engine. Chandra on three is the priority play; Proft, Consulting Detective
+   and Matoya, Archon Elder convert the first surveil triggers into cards. Proft costs two mana per
+   trigger, so only pay when you have spare mana or need the card.
+3. Turn 4 and later: close with the swarm. Saheeli, Prudent Fateseer and Desperate Futurescribe all
+   want the same thing — a surveil every turn — and once two of them are down, each turn is a Thopter,
+   a Cadet, and two or three points of extra power on the attack.
+4. Long game: Return to the Light Realms. Cast it only when the graveyard holds at least two
+   planeswalkers or four creatures, and ideally after an opponent has spent their sweeper.
+
+| Card | Copies | Role |
+|------|--------|------|
+| Diviner of Victory | 4 | One-mana surveil payoff; grows on every surveil, prepared Unwind History bounces a small creature and surveils |
+| Dark Matter Manipulator | 3 | One-drop that mills three on entry and grows by +2/+0 for every seven cards in the graveyard |
+| Eye of Jace | 2 | Repeatable upkeep surveil, then a two-damage finisher once the yard is deep |
+| Proft, Consulting Detective | 2 | Surveil payoff: two mana for a +1/+1 counter and a card |
+| Enlightened Confidant | 2 | Lifelink body that surveils at end of turn and returns a cheap card to hand |
+| Fatehold Chronologist | 2 | Two-mana flier, enters prepared; Peer Review makes a Cadet and surveils |
+| Theorix Charm | 2 | Modal interaction: soft counter, -2/-2, or mill three then draw |
+| Chandra, Chill of Compliance | 3 | The engine: surveil plus graveyard-to-hand, mana for noncreature spells, stun counters for defence |
+| Matoya, Archon Elder | 2 | Draws a card on every scry or surveil |
+| Prudent Fateseer | 2 | One-sided team pump on the first surveil of each turn; Peer Review adds a Cadet |
+| Your Fate Ends Here | 1 | Unconditional creature or planeswalker answer with surveil attached |
+| Semester Foreseer | 3 | Four-mana 3/4 that surveils on entry and re-casts Peer Review for a Cadet |
+| Desperate Futurescribe | 2 | Three-power flier that puts a +1/+1 counter instead of a pump once you have surveilled |
+| Rewrite Regrets | 2 | Four-mana reanimation for anything with mana value six or less; resilience for the engine |
+| Saheeli, Consul of Oversight | 2 | Primary win condition: a 4/4 flier that makes a Thopter on each surveil turn |
+| Return to the Light Realms | 1 | Secondary win condition: mass reanimation of every nonland permanent |
+
+| Land | Copies | Role |
+|------|--------|------|
+| Restless Reef | 2 | Win-condition land: becomes a 4/4 deathtouch Shark for three mana and mills four on attack |
+| Hall of Echoes | 1 | Five mana to copy the best creature you control; the legend rule does not apply, so it doubles Saheeli or a pumped Dark Matter Manipulator |
+| Shipwreck Marsh | 3 | Blue-black, untapped from turn three |
+| Deserted Beach | 2 | White-blue, untapped from turn three |
+| Meticulous Commons | 2 | White-black, untapped while Chandra is on the battlefield |
+| Room of Refuge | 1 | Any colour on demand; late-game +1/+1 counters for five |
+| Island / Swamp / Plains | 14 | Five Islands, five Swamps, four Plains |
+
+Curve and mana: nine one-drops, eight two-drops, eight three-drops, seven four-drops, two five-drops
+and one nine-drop. Twenty-five lands is deliberate — the deck wants four lands on turn four every game
+and eight or nine for the reanimation turn, and the surveil engine supplies the card selection that a
+higher land count normally costs you.
+
+## Gameplay strategy
+
+**Early game.** Lead on Diviner of Victory or Dark Matter Manipulator. Both attack the same resource —
+the graveyard — from different angles: Diviner grows off surveil triggers, Manipulator mills three and
+then scales with the yard. Trade freely with Theorix Charm and Your Fate Ends Here; every card you put
+in the graveyard is fuel.
+
+**Mid game.** Chandra is the pivot. Her first ability surveils and returns a noncreature card, so she
+draws a card every turn as long as the surveil finds an instant or sorcery; her second ability pays for
+Theorix Charm and Rewrite Regrets; her minus ability taps a blocker and puts stun counters on it, which
+is how the deck survives a resolved large creature. Matoya plus Eye of Jace is a two-card draw engine:
+upkeep surveil, draw a card, every single turn.
+
+**The combo turn.** With Saheeli and Prudent Fateseer on the battlefield, sequence the surveil last:
+cast whatever sets up the trigger (a Peer Review from a prepared creature, or activate Chandra), then
+attack. Saheeli makes a Thopter on the first surveil of the turn, Prudent Fateseer gives the team
++1/+0 on the same trigger, and Desperate Futurescribe converts its combat trigger into a +1/+1 counter
+because you have surveilled. A typical turn four is two 1/1 Thopters, a 2/2 Cadet, and six or seven
+points of flying damage.
+
+**Win condition 2.** Return to the Light Realms. The deck surveils and mills itself constantly, so the
+graveyard holds the engine by turn six. Nine mana is real, but Chandra pays part of it and the deck
+plays 25 lands; the usual line is to cast it on the turn after a sweeper, returning Saheeli, Chandra,
+Matoya and every creature, then attack for lethal with a fresh board and an empty-handed opponent.
+
+**Mulligan guide.** Keep hands with two or three lands and at least one one-drop plus one engine card
+(Chandra, Eye of Jace, Proft). Six-card hands are fine if they contain Chandra. Ship hands with no
+surveil source at all — the deck's payoffs are blank without one. Do not keep hands that need double
+white early; the only white cards you want on curve are Enlightened Confidant and Desperate Futurescribe,
+and both can wait.
+
+**Key interactions and edge cases.**
+
+- Diviner of Victory enters prepared, so Unwind History is available immediately. Casting it
+  unprepares Diviner, and the surveil it causes pumps Diviner — the two halves feed each other.
+- Chandra's surveil-return only works on noncreature, nonland cards. Creature cards stay in the yard
+  for Return to the Light Realms; that is the correct outcome, not a loss.
+- Eye of Jace triggers on upkeep, before you draw. Order it first so you know what you are drawing into
+  before you choose your land drop.
+- Saheeli and Prudent Fateseer both say "triggers only once each turn". Multiple surveils in one turn do
+  not multiply them; spread the triggers across turns instead of dumping them.
+- Rewrite Regrets returns a creature or planeswalker with mana value six or less — Saheeli, Desperate
+  Futurescribe, Semester Foreseer and Chandra are all valid, and it empowers Jace on the way out.
+- Hall of Echoes copies until end of turn only, and the copy is a land, not a creature. Copy Saheeli for
+  a second 4/4 flier and a second Thopter trigger, or copy a large Dark Matter Manipulator to attack.
+
+**Matchups.** Against aggro, lean on Enlightened Confidant's lifelink, Theorix Charm and Chandra's stun
+counters, and win with a single big Return to the Light Realms. Against control, do not over-commit:
+keep one engine piece in hand, force the sweeper, then reanimate. Against midrange, the flying swarm is
+usually faster than their ground board — attack in the air and use Unwind History to clear the one
+blocker that matters.
+
+## Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 → v2 | -1 Semester Foreseer, -1 Your Fate Ends Here, +1 Blessed Ghoul, +1 Wretched Doll (lower the curve for turn-four consistency) | T4 0.542 → 0.536, P(4 lands) 0.564 → 0.525, sim 56.7 → 56.0 |
+| v2 → v3 | Manabase rebuilt to 25 lands (third Shipwreck Marsh, fifth Swamp, fourth Plains, one Room of Refuge, plus Hall of Echoes); -2 Gossip's Talent, -1 Blessed Ghoul, -1 Wretched Doll, -1 Last Gasp; +1 Semester Foreseer (spend more mana by turn four) | T4 0.536 → 0.665, P(4 lands) 0.525 → 0.683, sim 56.0 → 56.7 |
+
+## Deck list (Arena import)
+
+```
+Fathom Ledger
+Deck
+4 Diviner of Victory
+3 Dark Matter Manipulator
+2 Eye of Jace
+2 Proft, Consulting Detective
+2 Enlightened Confidant
+2 Fatehold Chronologist
+2 Theorix Charm
+3 Chandra, Chill of Compliance
+2 Matoya, Archon Elder
+2 Prudent Fateseer
+1 Your Fate Ends Here
+3 Semester Foreseer
+2 Desperate Futurescribe
+2 Rewrite Regrets
+2 Saheeli, Consul of Oversight
+1 Return to the Light Realms
+3 Shipwreck Marsh
+2 Deserted Beach
+2 Meticulous Commons
+2 Restless Reef
+1 Hall of Echoes
+5 Island
+5 Swamp
+4 Plains
+1 Room of Refuge
+```
