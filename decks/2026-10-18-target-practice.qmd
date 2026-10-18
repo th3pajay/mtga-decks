@@ -1,0 +1,150 @@
+---
+title: "Target Practice"
+subtitle: "Jeskai Valiant blink combo - target your own creatures and get paid twice"
+date: "2026-10-18"
+categories: ["combo", "Valiant", "Blink"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Jeskai - white / blue / red |
+| Archetype | Aggro-combo (targeted blink engine) |
+| Size | 60 cards, 23 lands |
+| Mechanics | Valiant x Blink |
+| Primary win | Arabella, Abandoned Doll drain - swing a board of power-2-or-less creatures and burn the opponent out |
+| Secondary win | Seedglaive Mentor / Cragflame voltron through Rogue's Passage |
+| Nonland curve | 11 one-drops, 16 twos, 7 threes, 3 fours |
+| Average nonland mana value | 2.05 |
+
+# Overview
+
+Target Practice is built on a single rules interaction: **Valiant triggers on being targeted, and a blinked creature comes back as a brand-new object.** Every blink spell in the deck targets a creature you control, so each one pays you twice - once by firing the Valiant trigger on the targeted creature, and once by resetting that creature so it can be targeted and trigger Valiant *again* in the same turn.
+
+That is the whole engine. `Daydream` is the cheapest, most repeatable enabler: one white mana, exile and return with a +1/+1 counter, and flashback `{2}{W}` means a single copy is two triggers. `Personify` does the same at instant speed and leaves a 1/1 changeling behind for Arabella. `Getaway Glamer` and `Go Ninja Go` are the flexible slots - blink when you need a trigger or a dodge, removal mode when you need to answer a blocker. `Kykar, Zephyr Awakener` and `Abuelo, Ancestral Echo` convert the engine into a repeatable, mana-based loop that does not need cards in hand.
+
+The Valiant payoffs are what make the targeting worth it. `Seedglaive Mentor` permanently grows one counter per turn of blinking. `Emberheart Challenger` turns each trigger into an extra card to play. `Whiskerquill Scribe` loots into the next blink. `Flowerfoot Swordmaster` pumps the whole Mice team - and its offspring token is a second Valiant body for one card. `Whiskervale Forerunner` is the top-end: each trigger digs five deep and can put a creature straight onto the battlefield.
+
+The deck wins by converting that targeted attention into either a wide Arabella drain or one very large unblockable Mentor.
+
+# Approach
+
+## Game plan phases
+
+**Turns 1-2, establish the trigger engines.** Deploy one-drops and two-drops that want to be targeted: `Flowerfoot Swordmaster`, `Emberheart Challenger`, `Whiskerquill Scribe`, `Arabella, Abandoned Doll`. Do not fire blink spells into an empty board - hold them until a Valiant creature is out, then start converting each spell into two triggers.
+
+**Turns 3-4, add the multiplier.** `Seedglaive Mentor` is the clock, `Mabel, Heir to Cragflame` is the anthem plus a free Equipment that doubles as a Valiant trigger every time you equip, and `Abuelo, Ancestral Echo` turns spare mana into a blink every single turn. This is the phase where the deck stops needing cards and starts needing mana.
+
+**Turns 5+, close.** Either Arabella attacks into a board of 1/1s and 2/2s for a large drain, or the Mentor (with Cragflame, Rogue's Passage, or both) attacks for unblockable lethal. `Kykar, Zephyr Awakener` upgrades every remaining blink spell into a second blink plus a flying Spirit if you prefer the token.
+
+## Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Valiant payoffs | Seedglaive Mentor (4), Emberheart Challenger (4), Whiskerquill Scribe (3), Flowerfoot Swordmaster (4), Whiskervale Forerunner (1) | Each rewards being targeted once per turn |
+| Blink enablers (spell) | Daydream (4), Personify (3), Go Ninja Go (2), Getaway Glamer (2) | All target your own creature |
+| Blink engines (permanent) | Abuelo, Ancestral Echo (2), Kykar, Zephyr Awakener (2), Ennis, Debate Moderator (2) | Repeatable, mana or cast based |
+| Token makers | Personify, Flowerfoot Swordmaster offspring, Kykar | Fuel Arabella's X |
+| Anthem / equipment | Mabel, Heir to Cragflame (Cragflame), Flowerfoot Swordmaster | Trample and vigilance for the voltron line |
+| Drain payoff | Arabella, Abandoned Doll (2) | X = power-2-or-less creatures |
+| Interaction | Torch the Tower, Go Ninja Go (damage mode), Getaway Glamer (destroy mode) | Never dead cards |
+
+## Lands as engines
+
+| Land | Count | What it does for the deck |
+|---|---|---|
+| Rogue's Passage | 1 | Wins the game outright with a large Seedglaive Mentor - four mana makes the kill unblockable |
+| Restless Bivouac | 2 | A 2/2 Ox attacker that puts a +1/+1 counter on a creature every time it attacks; a Valiant-friendly body when you flood |
+| Restless Spire | 1 | First-strike attacker during your turn and a scry every attack; smooths the top of the deck |
+| Sunbillow Verge | 4 | White or red, one of the two main colors |
+| Floodfarm Verge | 4 | White or blue, casts Kykar and Abuelo |
+| Riverpyre Verge | 3 | Red or blue, the splash bridge |
+| Plains / Mountain / Island | 4 / 2 / 2 | Basics to switch the Verges on |
+
+The manabase is deliberately white-first. White is the blink color (Daydream, Personify, Getaway Glamer, Ennis, Abuelo) and also carries the Mentor payoff; red supplies the cheap Valiant creatures and Torch the Tower; blue is a genuine splash for Kykar and Abuelo, which is why only three Riverpyre Verges and two Islands are needed.
+
+## Curve and mana
+
+- One mana: 11 cards. Four `Flowerfoot Swordmaster`, four `Daydream`, two `Getaway Glamer`, one `Torch the Tower`.
+- Two mana: 16 cards. The deck's core density - `Emberheart Challenger`, `Whiskerquill Scribe`, `Ennis`, `Arabella`, `Personify`, `Go Ninja Go`.
+- Three mana: 7 cards. `Seedglaive Mentor`, `Abuelo`, `Mabel`.
+- Four mana: 3 cards. `Kykar`, `Whiskervale Forerunner`.
+- 23 lands. The deck wants four lands by turn four far more than it wants a fifth; 23 plus three Restless lands is the consistency point that still lets you keep two-land hands with a one-drop.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one-drop, then a two-drop that carries Valiant. Do not trade your blink spells for value on an empty board: every blink needs a target, so the deck's first job is bodies, not spells. `Whiskerquill Scribe` is the best turn-two play when you suspect interaction, because its trigger loots and it can dodge removal by blinking itself. Against removal-heavy opponents, hold `Personify` as a protection spell - it counters a kill spell and re-triggers Valiant at the same time.
+
+## Mid game and the combo turn
+
+The combo turn is any turn where you have a Valiant creature, two or more blink effects and enough mana to use them. The correct order:
+
+1. Target the Valiant creature with the cheapest blink (`Daydream` first, since flashback makes it two uses).
+2. The creature returns as a new object with a +1/+1 counter and its Valiant is "fresh" again.
+3. Target the *same* creature with the next blink. Valiant triggers a second time this turn.
+4. If `Kykar, Zephyr Awakener` is out, each of those spells also triggers Kykar, which blinks a second creature - a third and fourth Valiant trigger.
+5. With `Abuelo, Ancestral Echo`, convert leftover mana `{1}{W}{U}` into another blink each turn without spending a card.
+
+That sequence is why the deck can chain: `Seedglaive Mentor` gains two or three counters in one turn, `Emberheart Challenger` exiles two or three cards to play, and `Whiskerquill Scribe` filters into the next enabler.
+
+## Win condition 2 - the Arabella drain
+
+`Arabella, Abandoned Doll` counts creatures with power 2 or less, which is almost the entire deck: 1/1 Ennis, 1/1 Kykar Spirits, 1/1 Personify shapeshifters, 1/2 Flowerfoot and its offspring token, 2/2 Emberheart and Scribe. A board of five such creatures turns one Arabella attack into five damage to the opponent and five life to you - twice per turn cycle that is a real clock, and it bypasses blockers entirely. Blinking is how you rebuild the board after a sweeper: one `Personify` is both a Valiant trigger and another body for Arabella.
+
+## Mulligan guide
+
+Keep any hand with a one-drop, a Valiant creature and a blink spell. Keep two-land hands only if the second land is a Verge and the hand has a one-drop. Ship hands with no creatures at all, and ship hands with `Kykar` plus no blue source. Six-card hands are fine for this deck because card selection (`Emberheart Challenger`, `Whiskerquill Scribe`, `Restless Spire` scry) recovers quickly.
+
+## Key interactions and edge cases
+
+- **Blink resets Valiant.** Valiant reads "for the first time each turn" per object. A blinked creature is a new object, so a second blink in the same turn triggers it again. This is the deck's core loop and the reason to fire blink spells at already-targeted creatures.
+- **Blink your own creature in response to removal.** `Personify`, `Getaway Glamer` and `Abuelo` all exile and return, which blanks a kill spell and still produces the Valiant trigger.
+- **`Go Ninja Go` and `Getaway Glamer` are modal, not dead.** Their damage and destroy modes answer a blocker without spending a blink.
+- **`Torch the Tower` bargains with a token.** Personify's shapeshifter, a Kykar Spirit, or a Flowerfoot offspring token pays the bargain cost for the extra damage and scry.
+- **`Ennis, Debate Moderator` blinks on entry and grows at end of turn** if anything was exiled that turn, which the entire deck does. Blinking Ennis is a repeatable source of +1/+1 counters.
+- **Cragflame's equip is a Valiant trigger.** Equipping is an ability you control that targets, so the Mentor can grow during your precombat main phase before attacking.
+- **`Whiskervale Forerunner` only puts the creature onto the battlefield on your turn.** On an opponent's turn the trigger still digs, but the creature goes to hand.
+- **`Abuelo` returns at the beginning of the next end step** - the creature is gone for the whole combat, so do not blink an attacker you need this turn.
+
+## Matchups
+
+- **Aggro:** you are faster on the play and your blinks blank their removal. Block with the Mentor, blink it, and let Arabella's lifegain swing the race. Bring in the Torch the Tower count.
+- **Control:** do not overextend into sweepers. Hold one Valiant creature and one blink, force them to spend removal, then rebuild with Personify. `Emberheart Challenger` and `Whiskerquill Scribe` are your card advantage engines, so protect them and let Restless lands chip in.
+- **Midrange:** the Mentor plus Cragflame plus Rogue's Passage line is the answer - they cannot block it and cannot race a giant with vigilance. Trade early creatures for tempo, then commit to the voltron turn.
+- **Ramp:** race. Arabella's drain does not care about their board, and `Go Ninja Go`'s damage mode clears a mana dork without spending a blink.
+
+# Deck list (Arena import)
+
+```text
+Target Practice
+Deck
+4 Flowerfoot Swordmaster
+4 Emberheart Challenger
+4 Seedglaive Mentor
+3 Whiskerquill Scribe
+2 Ennis, Debate Moderator
+2 Arabella, Abandoned Doll
+1 Mabel, Heir to Cragflame
+2 Abuelo, Ancestral Echo
+2 Kykar, Zephyr Awakener
+1 Whiskervale Forerunner
+4 Daydream
+3 Personify
+2 Go Ninja Go
+2 Getaway Glamer
+1 Torch the Tower
+4 Sunbillow Verge
+4 Floodfarm Verge
+3 Riverpyre Verge
+2 Restless Bivouac
+1 Restless Spire
+1 Rogue's Passage
+4 Plains
+2 Mountain
+2 Island
+```
