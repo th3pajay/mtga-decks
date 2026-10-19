@@ -1,0 +1,199 @@
+---
+title: "Quill Cadence"
+subtitle: "Four-color attack-trigger burn built on Reality Fracture's prepared and empower mechanics"
+date: "2026-10-19"
+categories: ["reality-fracture", "sphinx"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (Reality Fracture set deck, 2026-10-19) |
+| Colors | White / Red / Green / Black (four colors, red-white core with green and black splashes) |
+| Archetype | Elder Sphinx attack-trigger burn: haste swarm plus prepared one-shots, with a planeswalker drain as the second act |
+| Deck size | 60 (36 spells, 24 lands) |
+| Average mana value | 2.06 across the 36 nonland cards; curve tops out at three |
+| Primary win | Ingris Stingerquill turns every attacker into a Lava Spike: each creature that attacks deals 1 damage to each opponent, and Samut, Hazoret's Champion plus Gallia, the Merrymaker give the team haste |
+| Secondary win | Jace planeswalker tokens from the Way cycle, draining with Way of the Warlord's "-4: 2 damage to target player and 2 damage to a creature or planeswalker" |
+| Land in the win condition | Hall of Echoes becomes a copy of Ingris Stingerquill with the legend rule switched off, doubling every attack trigger |
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so the import list
+below becomes playable on Arena once the set is enabled there. Nothing in this list is castable on
+Arena today.
+
+## Overview
+
+The deck is a burn engine disguised as an aggro deck. Ingris Stingerquill is the whole idea: a
+three-mana 1/4 flier whose trigger reads "whenever a creature you control attacks, that creature
+deals 1 damage to each opponent". That is not a combat-damage payoff, so it does not care about
+blocks, toughness, or whether the attacker survives. Four attacking one-drops are four damage to
+each opponent even if all four are blocked.
+
+Everything else exists to put bodies on the board and make them attack the turn they arrive. Samut,
+Hazoret's Champion grants the team haste for two mana. Gallia, the Merrymaker is a hasty two-drop who
+gives haste to every creature carrying a +1/+1 counter and hands a counter to anything that entered
+this turn. Emergency Phytomedic and Vigorbloom Vanguard enter prepared, so they hand you a free Seed
+Suture — a +1/+1 counter and a life — the exact counter Gallia and Vanguard's vigilance static want.
+
+The second engine is the Way cycle. Way of the Warlord and Way of the Pyromancer each empower Jace
+on entry, which means they arrive as a five-loyalty or two-loyalty Jace token. Warlord gives every
+planeswalker you control a drain ability; Pyromancer gives them a mana ability. Repurposed Enforcer
+attacks for empower X equal to your board, Campus Crier empowers from the graveyard, and Arcane
+Amphisbaena empowers on entry, so the loyalty count keeps climbing without spending cards.
+
+The last piece is a land. Hall of Echoes copies a creature for five mana and ignores the legend rule
+that turn, so it becomes a second Ingris: five attackers then deal ten damage per opponent per attack
+step.
+
+## Approach
+
+Plan by phases:
+
+1. Turns 1 and 2: land a prepared body and a haste enabler. Emergency Phytomedic on one is the
+   ideal opener because the free Seed Suture immediately makes your next attacker bigger. Samut or
+   Gallia on two is the follow-up that makes the deck function.
+2. Turn 3: Ingris Stingerquill. From this point every attack step converts bodies into damage
+   regardless of blocks. If Ingris is answered, Repurposed Enforcer plus Way of the Warlord is the
+   pivot to the planeswalker plan.
+3. Turns 4 and 5: stack the board and get paid. Cast Seed Suture copies before combat, put counters
+   on the creatures that will attack, and hold Gallia's activated ability for anything that entered
+   this turn.
+4. Closing: Hall of Echoes on five mana copying Ingris, or a Way of the Warlord on a fat Jace token
+   to finish through a stalled board.
+
+### Card roles
+
+| Role | Cards | What they do |
+|------|-------|--------------|
+| Payoff | Ingris Stingerquill (3) | Attack trigger burns each opponent for each attacker; the {4} activation makes a 2/2 Cadet and hastes the team |
+| Haste enablers | Samut, Hazoret's Champion (4), Gallia, the Merrymaker (4) | Samut hastes everything; Gallia hastes counter carriers and adds counters to creatures that entered this turn |
+| Prepared one-shots | Emergency Phytomedic (4), Vigorbloom Vanguard (4) | Enter prepared for a free Seed Suture: +1/+1 counter and 1 life; Vanguard also gives counter carriers vigilance |
+| Empower bodies | Repurposed Enforcer (4), Campus Crier (4), Arcane Amphisbaena (4) | Enforcer empowers on attack for the size of your board, Crier empowers from the graveyard for {1}, Amphisbaena empowers on entry |
+| Planeswalker engines | Way of the Warlord (3), Way of the Pyromancer (2) | Arrive as a Jace token; Warlord adds a drain ability to every planeswalker, Pyromancer adds "+1: Add {R}" |
+| Fixing | Stingerquill Annex (3), Vigorbloom Annex (3), Dedicated Commons (3), Formidable Commons (2) | Ten duals that enter untapped once a planeswalker is in play |
+| Win-condition land | Hall of Echoes (1) | Five mana: copy Ingris, legend rule waived |
+
+### Lands as engines
+
+| Land | Count | Function |
+|------|-------|----------|
+| Stingerquill Annex | 3 | Black or red; untapped after any empower token lands |
+| Vigorbloom Annex | 3 | Green or white; the turn-one play that fixes the double-green and double-white costs |
+| Dedicated Commons | 3 | Red or white; the cleanest turn-one source for Samut and Gallia |
+| Formidable Commons | 2 | Black or green; carries Ingris's black pip and Amphisbaena's green |
+| Hall of Echoes | 1 | Colorless; the copy effect is a win condition, not a utility effect |
+| Forest / Plains / Mountain / Swamp | 4 / 3 / 3 / 2 | Unconditional sources so the conditional duals are never the only way to cast a spell |
+
+### Curve and mana
+
+Twenty-six of the thirty-six spells cost two, four cost one (Emergency Phytomedic), and six cost
+three (Ingris and Way of the Warlord). Nothing costs four or more. The land count is 24: ten
+conditional duals, twelve basics and Hall of Echoes.
+
+Twenty-four lands with twelve unconditional sources is deliberate: the duals carry the four-color
+manabase, but the deck never wants to miss its third land, because Ingris on three is the turn the
+deck starts winning. Black comes from seven sources (Stingerquill Annex, Formidable Commons, Swamp)
+and is only needed for Ingris, so a single black source is enough. Red sits at nine sources
+(Mountain, Stingerquill Annex, Dedicated Commons) because Samut, Gallia, both Ways and Ingris all
+want it; white and green also sit at nine, which is why the deck can afford one colorless land.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with Emergency Phytomedic over Vigorbloom Vanguard when a two-drop follows: the free Seed Suture
+grows the creature that will actually attack, so put the counter there, not on the Phytomedic. Against
+one-toughness blockers, Arcane Amphisbaena is the better two-drop — deathtouch trades up and it still
+empowers on entry. Play basics first; a dual only arrives untapped once a Jace token exists.
+
+### Mid game and the combo turn
+
+The deck's "combo turn" is any turn where a haste enabler and three or more bodies are on the
+board. Order of operations:
+
+1. Seed Suture copies first, counters on the creatures with the best combat math.
+2. Samut or Gallia, then attack with everything.
+3. Ingris's trigger resolves per attacker, so even a chump attack with a 1/1 is a point to each
+   opponent.
+4. Post-combat, Repurposed Enforcer's attack trigger has already empowered Jace for your board size;
+   spend that loyalty on Way of the Warlord's drain in the following turns.
+
+With Gallia in play, remember her activated ability targets a creature that entered this turn, so a
+Cadet made by Ingris's {4} activation can attack immediately and still carry a counter.
+
+### Win condition two
+
+Way of the Warlord arrives as a five-loyalty Jace token and gives every planeswalker you control
+"-4: this planeswalker deals 2 damage to up to one target creature or planeswalker and 2 damage to
+target player" — two points a turn per planeswalker, through blockers. Way of the Pyromancer pays for
+those activations with "+1: Add {R}", and Campus Crier's graveyard empower tops the loyalty back up.
+Slower than the Sphinx, but it beats a board stall.
+
+### Mulligan guide
+
+Keep hands with two or three lands, at least one unconditional colored source, and a two-drop.
+Samut or Gallia plus any two creatures is a keep. A hand of only conditional duals with no one- or
+two-drop is a mulligan even at four lands, because every dual enters tapped and the deck falls a full
+turn behind. Ingris is not a reason to keep a bad hand.
+
+### Key interactions and edge cases
+
+- Prepared is one-shot here. Neither prepared creature re-prepares, so treat Seed Suture as a
+  single free spell per body. Do not hold the creature back hoping for a second copy.
+- Vigorbloom Vanguard's vigilance static and Gallia's haste static both key off +1/+1 counters,
+  which makes Seed Suture and Gallia's activated ability double-duty.
+- Ingris is a 1/4 flier: it blocks well and attacks badly. Its {4} activation is the way it
+  contributes to the attack step, by making a Cadet and hasting the team.
+- Hall of Echoes copies until end of turn and waives the legend rule only for that turn, so the
+  second Ingris disappears at end of turn. Use the copy turn to attack, not to set up.
+- Hall of Echoes produces only colorless mana; it cannot pay for Ingris's black or red pips.
+- Jace tokens die at zero loyalty. Way of the Warlord's drain costs four, so do not spend the token
+  below four loyalty on the surveil ability unless the card is worth more than the drain.
+
+### Matchups
+
+- **Sweeper control:** do not commit four creatures into untapped four mana. Keep Campus Crier in the
+  graveyard and pivot to the Way of the Warlord drain, which needs no board.
+- **Spot-removal midrange:** expect Ingris to die. Repurposed Enforcer and the Cadet tokens keep the
+  attack triggers relevant, and Hall of Echoes copies whichever creature survived.
+- **Faster aggro or combo:** Amphisbaena's deathtouch and Vanguard's vigilance trade profitably, Seed
+  Suture's life gain buys a turn, and every attacker is worth a point even when blocked.
+
+## Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 | Baseline: Kwia Vigorbloom and Blossom-Blessed Angel top end, Ajani Unrelenting, three Chandra, eight Ways | sim 50.7 (55 / 46 / 50), synergy 75.5, T4 0.641, P4L 0.654 — sim gate failed |
+| v2 | -1 Ajani, -1 Kwia, -1 Violent Echoes; +1 Amphisbaena, +1 Ingris, +1 Chandra (cheaper curve) | sim 50.0 (55 / 46 / 49), synergy 76.6, T4 0.640, P4L 0.645 — sim gate failed |
+| v3 | Cut every four-plus mana card for Campus Crier, Gallia, Samut and two more Vanguards | sim 53.3 (48 / 54 / 58), synergy 77.4, T4 0.625, P4L 0.629 — all gates pass |
+
+The v3 change is the one that mattered: win rate tracked average mana value in every test, so the
+final list has no card above three mana.
+
+## Deck list (Arena import)
+
+```
+Quill Cadence
+Deck
+3 Stingerquill Annex
+3 Vigorbloom Annex
+3 Dedicated Commons
+2 Formidable Commons
+1 Hall of Echoes
+4 Forest
+3 Plains
+3 Mountain
+2 Swamp
+4 Emergency Phytomedic
+4 Arcane Amphisbaena
+4 Repurposed Enforcer
+4 Campus Crier
+4 Vigorbloom Vanguard
+4 Gallia, the Merrymaker
+4 Samut, Hazoret's Champion
+3 Ingris Stingerquill
+3 Way of the Warlord
+2 Way of the Pyromancer
+```

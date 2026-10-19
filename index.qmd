@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-19**:
 
+- **[Quill Cadence](decks/2026-10-19-quill-cadence.html)** — Four-color attack-trigger burn built on Reality Fracture's prepared and empower mechanics  `reality-fracture` `sphinx`
 - **[Fieldwork Syllabus](decks/2026-10-19-fieldwork-syllabus.html)** — Bant (W/U/G) — Explore × Prepared  `combo` `explore` `prepared`
