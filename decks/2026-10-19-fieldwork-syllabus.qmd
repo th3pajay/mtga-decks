@@ -1,0 +1,143 @@
+---
+title: "Fieldwork Syllabus"
+subtitle: "Bant (W/U/G) — Explore × Prepared"
+date: "2026-10-19"
+categories: ["combo", "explore", "prepared"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (2026 pool, zero rotating cards) |
+| Colors | Bant: white, blue, green |
+| Archetype | Low-curve explore aggro with a prepared value engine |
+| Size | 60 cards, 24 lands, average mana value 1.86 |
+| Primary win | Merfolk Cave-Diver grows on every explore and cannot be blocked, then finishes in one or two attacks |
+| Secondary win | Animated Restless Anchorage and Restless Vinestalk, backed by Map tokens and double strike |
+
+## Overview
+
+This deck fuses two mechanics that feed each other. **Explore** is the fuel: every explore either puts a land into hand (fixing and landfall) or puts a +1/+1 counter on a body that is already cheap. **Prepared** is the payoff: prepared creatures let you cast a free copy of their spell, so cards that enter prepared are effectively two-for-ones, and Tam turns each landfall trigger into another free card.
+
+The loop that matters is land-driven. Explore effects hand you lands, Nicanzil, Current Conductor puts those lands onto the battlefield tapped when a creature explores a land card, and each land that enters re-arms Tam, Observant Sequencer, which then casts a free Deep Sight to draw a card and gain a life. Studious First-Year does the same thing off the top: it enters prepared with Rampant Growth, so turn one is a 1/1 plus a free land onto the battlefield, which is a landfall trigger on turn one.
+
+Nothing in the deck costs more than four mana, so the engine is online while the opponent is still setting up. The deck wins by turning explores into damage: Merfolk Cave-Diver gets +1/+0 and becomes unblockable for each explore trigger, and the deck can generate a lot of triggers in a single turn between Map tokens, Jadelight Spelunker, Over the Edge, and animated Restless lands.
+
+## Approach
+
+### Game plan phases
+
+**Turns 1 to 2, establish the engine.** Land a one-drop that either explores (Cenote Scout), makes a Map token (Spyglass Siren), or enters prepared with a free spell (Studious First-Year, Elite Interceptor). Nicanzil on turn two is the best follow-up: it converts every future land-explore into an extra land drop.
+
+**Turns 3 to 4, convert explores into pressure.** Kinjalli's Dawnrunner and Merfolk Cave-Diver are the two payoffs that turn a board of small explorers into a clock. Over the Edge on turn two or three explores twice on one creature, which is four points of Cave-Diver growth if both are nonland cards.
+
+**Turns 5 and later, close.** Animate Restless Anchorage and attack with a flier that makes its own Map token, or animate Restless Vinestalk as a 5/5 trampler that also sets another attacker's base power and toughness to 3/3. Tam keeps drawing cards so the last points of damage do not run out of gas.
+
+### Card roles
+
+| Role | Cards | What they do |
+|---|---|---|
+| Explore bodies | Cenote Scout, Kinjalli's Dawnrunner, Jadelight Spelunker | Explore on entry; Dawnrunner has double strike so counters count twice |
+| Explore payoffs | Merfolk Cave-Diver, Nicanzil, Current Conductor | Cave-Diver converts triggers into unblockable damage; Nicanzil converts land-explores into extra land drops |
+| Map makers | Spyglass Siren, Sentinel of the Nameless City, Restless Anchorage | Map tokens are repeatable sorcery-speed explore triggers |
+| Prepared value | Studious First-Year, Elite Interceptor, Landscape Painter, Harmonized Trio, Tam | Each is a creature plus a free spell; Tam re-arms on every landfall |
+| Multiplier | Twists and Turns | Every explore becomes scry 1 then explore, so triggers improve card quality instead of whiffing |
+| Interaction | Over the Edge | Kills an artifact or enchantment, or double-explores a creature |
+
+### Lands as engines
+
+| Land | Role in the deck |
+|---|---|
+| Restless Anchorage (3) | Win condition land. Enters tapped, taps for W or U, and for {1}{W}{U} becomes a 2/3 white and blue Bird with flying. Every attack makes a Map token, which is another explore trigger for Cave-Diver |
+| Restless Vinestalk (2) | Win condition land. Taps for G or U, becomes a 5/5 green and blue Plant with trample for {3}{G}{U}, and on attack sets another creature's base power and toughness to 3/3 |
+| Overgrown Farmland (3) | G/W dual that enters untapped once you control two other lands |
+| Floodfarm Verge (2) | W/U dual, second color online with a Plains or Island |
+| Willowrush Verge (2) | U/G dual, second color online with a Forest or Island |
+
+### Curve and mana
+
+| Mana value | Count | Cards |
+|---|---|---|
+| 1 | 17 | Cenote Scout, Spyglass Siren, Studious First-Year, Elite Interceptor, Harmonized Trio, Twists and Turns |
+| 2 | 9 | Nicanzil, Over the Edge, Landscape Painter, Jadelight Spelunker |
+| 3 | 8 | Kinjalli's Dawnrunner, Merfolk Cave-Diver, Sentinel of the Nameless City |
+| 4 | 2 | Tam, Observant Sequencer |
+
+Twenty-four lands with twelve green, thirteen blue, and eleven white sources. Green is the deepest color because Nicanzil, Jadelight Spelunker and the two Verge activations all want it early; white is the shallowest but only Kinjalli's Dawnrunner and Elite Interceptor demand it, both at one white pip. The five lands that always enter tapped (three Anchorage, two Vinestalk) are the cost of having win conditions in the manabase, so keep hands that can play a one-drop on turn one.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with Cenote Scout or Spyglass Siren. Scout's explore is card selection plus a counter, and Siren's Map token is a stored explore for later. Studious First-Year is the strongest turn one when you already hold a two-drop: the free Rampant Growth ramps you to three mana on turn two and triggers landfall.
+
+Do not crack Map tokens early unless the explore does something. A Map is worth much more once Merfolk Cave-Diver or Nicanzil is on the battlefield, and Twists and Turns makes each one a scry plus an explore.
+
+### The combo turn
+
+The explosive turn is Jadelight Spelunker for a large X, or Over the Edge on a creature that already has explore synergies. Sequence it like this:
+
+1. Twists and Turns on the battlefield first if you have it, so every explore is scry 1 then explore.
+2. Nicanzil down, so land-explores put lands from hand onto the battlefield tapped.
+3. Cast Jadelight Spelunker with X = 4 or more. Each explore that hits a land pulls another land out of hand, which re-triggers Tam and any other landfall payoffs; each nonland explore puts a counter on the Spelunker.
+4. Merfolk Cave-Diver grows by one power per trigger and becomes unblockable, so a five-trigger turn usually ends the game on the following attack.
+
+Because Cave-Diver's bonus is until end of turn, the damage has to happen in the same turn as the triggers. Attack after the explores, not before.
+
+### Win condition 2
+
+When Cave-Diver is answered, the manabase finishes the game. Restless Anchorage becomes a 2/3 flier for {1}{W}{U} and makes a Map token whenever it attacks, so it grinds out damage and fuels Cave-Diver at the same time. Restless Vinestalk is a 5/5 trampler for {3}{G}{U} that also resets another attacker to base 3/3, which is a real upgrade on a 1/1 double striker or a 2/1 Painter.
+
+### Mulligan guide
+
+Keep one-land hands only with a one-drop and a second land in the top three. Keep any hand with two lands plus a one-drop and a two-drop. Ship hands with no one-drop, because the deck's whole plan is spending the first two turns building a board that makes explores matter. A hand of three lands, Nicanzil, and two explore creatures is a snap keep.
+
+### Key interactions and edge cases
+
+- Explore with a land on top puts the land into hand, not a counter. If the land is the only card you want, put the revealed nonland on the bottom only when the graveyard matters.
+- Nicanzil's land ability is optional and triggers on the land being explored, not on any land entering. With Twists and Turns the explore still counts as exploring a land card.
+- Tam becomes prepared from landfall but only unprepares when you actually cast the Deep Sight copy. Multiple landfall triggers in one turn still only give you one Deep Sight unless you cast it in between.
+- Prepared copies are cast for free, so the Rampant Growth copy from Studious First-Year ramps without mana and triggers landfall on the same turn.
+- Harmonized Trio needs two untapped creatures to become prepared; Map tokens are artifacts, not creatures, so they cannot pay that cost.
+- Restless Vinestalk's attack trigger sets base power and toughness, so +1/+1 counters from explore still apply on top of the 3/3.
+- Over the Edge's destroy mode is the only main-deck answer to artifacts and enchantments. Do not fire it as a double explore if a Rest in Peace style effect is about to lock the graveyard plan.
+
+### Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Trade early, keep Kinjalli's Dawnrunner back as a double-striking blocker, and race with Cave-Diver only when you can make it unblockable |
+| Midrange value | Grind with Tam and Landscape Painter; the deck draws more cards than most midrange shells once landfall is online |
+| Control | Do not overextend into sweepers. Hold one prepared creature and one Map token, then rebuild in a single turn with Jadelight Spelunker |
+| Combo | Race. The deck goldfishes quickly, so use Over the Edge on their engine piece and keep Cave-Diver unblockable every turn |
+
+## Deck list (Arena import)
+
+```
+Fieldwork Syllabus
+Deck
+4 Cenote Scout
+4 Spyglass Siren
+4 Studious First-Year
+2 Elite Interceptor
+3 Nicanzil, Current Conductor
+4 Kinjalli's Dawnrunner
+3 Merfolk Cave-Diver
+2 Tam, Observant Sequencer
+1 Sentinel of the Nameless City
+1 Jadelight Spelunker
+3 Over the Edge
+2 Twists and Turns
+2 Landscape Painter
+1 Harmonized Trio
+3 Restless Anchorage
+2 Restless Vinestalk
+3 Overgrown Farmland
+2 Floodfarm Verge
+2 Willowrush Verge
+5 Forest
+4 Island
+3 Plains
+```

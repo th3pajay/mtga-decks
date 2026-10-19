@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-18**:
+Deck guides published **2026-10-19**:
 
-- **[Target Practice](decks/2026-10-18-target-practice.html)** — Jeskai Valiant blink combo - target your own creatures and get paid twice  `combo` `Valiant` `Blink`
-- **[Fathom Ledger](decks/2026-10-18-fathom-ledger.html)** — Esper surveil and graveyard value — Reality Fracture set deck  `reality-fracture` `surveil`
+- **[Fieldwork Syllabus](decks/2026-10-19-fieldwork-syllabus.html)** — Bant (W/U/G) — Explore × Prepared  `combo` `explore` `prepared`
