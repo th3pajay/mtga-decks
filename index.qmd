@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-19**:
+Deck guides published **2026-10-20**:
 
-- **[Quill Cadence](decks/2026-10-19-quill-cadence.html)** — Four-color attack-trigger burn built on Reality Fracture's prepared and empower mechanics  `reality-fracture` `sphinx`
-- **[Fieldwork Syllabus](decks/2026-10-19-fieldwork-syllabus.html)** — Bant (W/U/G) — Explore × Prepared  `combo` `explore` `prepared`
+- **[Double Entry](decks/2026-10-20-double-entry.html)** — Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it  `combo` `card-draw`

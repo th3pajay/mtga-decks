@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-20">
+
+<title>Double Entry – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-by-phase" id="toc-game-plan-by-phase" class="nav-link" data-scroll-target="#game-plan-by-phase">Game plan by phase</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Double Entry</h1>
+<p class="subtitle lead">Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">card-draw</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 20, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Five-color — white / blue / black / red / green</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Combo-midrange (draw engine into token compounding)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Core engine</td>
+<td>Vnwxt, Verbose Host + Homunculus Horde</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Exponential Homunculus copies, boosted by Warleader’s Call, made unblockable with Rogue’s Passage</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>The Water Crystal milling a hand of 12+ cards per activation</td>
+</tr>
+<tr class="even">
+<td>Nonland curve</td>
+<td>5 one-drops, 14 twos, 11 threes, 6 fours (average 2.5)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Double Entry is built on one arithmetic idea: a single card draw should be worth two cards, and every extra card drawn should be worth a creature. <code>Vnwxt, Verbose Host</code> supplies the first half once you reach max speed — “If you would draw a card, draw two cards instead” — and <code>Homunculus Horde</code> supplies the second, creating a token copy of itself every time you draw your second card in a turn.</p>
+<p>That combination collapses the usual cost of a draw-payoff deck. Normally you have to spend two cards to get one payoff trigger. Here, one one-mana <code>Might of the Meek</code>, one <code>Quick Study</code>, or a single <code>Fountainport</code> activation is already two draws, so a lone Vnwxt turns your cheapest cantrip into a full trigger for every payoff on the board. Each Horde on the battlefield triggers separately, so the copies compound: one Horde becomes two, two become four, and the tokens arrive with <code>Warleader's Call</code> draining the opponent for each body.</p>
+<p>The deck plays five colors because the pieces live in different places: blue owns the engine, white owns the anthem and the guaranteed draw sink, black owns the drain and the recursion, red owns the one-mana cantrip and the looting glyph, green owns the mana. No dual lands are used, so the mana is deliberately cheap on colored pips (almost everything costs a single colored mana) and green one-drops plus <code>Uncharted Haven</code> carry the fixing.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-by-phase" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-by-phase">Game plan by phase</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Turns</th>
+<th>What you are doing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Setup</td>
+<td>1-2</td>
+<td>Land, <code>Llanowar Elves</code> or <code>Bloom Tender</code>, land a two-drop engine piece (<code>Vnwxt, Verbose Host</code> or <code>Mischievous Mystic</code>)</td>
+</tr>
+<tr class="even">
+<td>Turn on the engine</td>
+<td>3-4</td>
+<td>Reach max speed with Vnwxt (any life loss counts), land <code>Homunculus Horde</code>, draw two per turn</td>
+</tr>
+<tr class="odd">
+<td>Compound</td>
+<td>5-7</td>
+<td>Multiple Hordes and <code>Warleader's Call</code>; every token entering drains; attack with fliers</td>
+</tr>
+<tr class="even">
+<td>Close</td>
+<td>6+</td>
+<td><code>Rogue's Passage</code> for unblockable lethal, or switch to <code>The Water Crystal</code> and mill them out</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Cards</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Draw doubler</td>
+<td>4 Vnwxt, Verbose Host</td>
+<td>At max speed each draw becomes two draws; also removes your maximum hand size</td>
+</tr>
+<tr class="even">
+<td>Compounding payoff</td>
+<td>4 Homunculus Horde</td>
+<td>Every second draw makes a token copy of itself; copies trigger next turn</td>
+</tr>
+<tr class="odd">
+<td>Token payoffs</td>
+<td>4 Mischievous Mystic, 2 Thopter Fabricator</td>
+<td>Faerie and Thopter token per second draw; both bodies fly</td>
+</tr>
+<tr class="even">
+<td>Anthem and drain</td>
+<td>2 Warleader’s Call</td>
+<td>Team +1/+1 and 1 damage to each opponent per creature entering</td>
+</tr>
+<tr class="odd">
+<td>Drain and recursion</td>
+<td>3 Raven Eagle, 2 Wolfbat</td>
+<td>Life swing per trigger; Wolfbat returns itself for {B} with a finality counter</td>
+</tr>
+<tr class="even">
+<td>One-shot draw</td>
+<td>2 Quick Study, 2 Might of the Meek</td>
+<td>Two draws for three mana, or one draw for one mana that Vnwxt doubles</td>
+</tr>
+<tr class="odd">
+<td>Draw sink</td>
+<td>2 Gleaming Splendor</td>
+<td>{2}{W} forces two draws at instant speed; also makes Treasures</td>
+</tr>
+<tr class="even">
+<td>Looting engine</td>
+<td>2 Volatile Wanderglyph</td>
+<td>Taps on attack, loots, refuels the trigger every combat</td>
+</tr>
+<tr class="odd">
+<td>Mana</td>
+<td>3 Llanowar Elves, 2 Bloom Tender</td>
+<td>Green one-drop and a vivid two-drop that taps for every color you control</td>
+</tr>
+<tr class="even">
+<td>Win condition 2</td>
+<td>2 The Water Crystal</td>
+<td>Mills cards equal to your hand size, plus four, per activation</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Count</th>
+<th>Job in the deck</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>2</td>
+<td>The win-condition land: {4}, {T} makes the biggest Horde token unblockable for the lethal swing</td>
+</tr>
+<tr class="even">
+<td>Fountainport</td>
+<td>2</td>
+<td>Sacrifice a token to draw; with Vnwxt that activation is two draws, so it converts spare tokens into a full trigger</td>
+</tr>
+<tr class="odd">
+<td>Uncharted Haven</td>
+<td>4</td>
+<td>Any-color fixing and the reason a five-color deck can run basics</td>
+</tr>
+<tr class="even">
+<td>Fabled Passage</td>
+<td>2</td>
+<td>Fetches the basic you are missing, untaps itself at four or more lands</td>
+</tr>
+<tr class="odd">
+<td>Evolving Wilds</td>
+<td>1</td>
+<td>Fifth fetch effect for the splash colors</td>
+</tr>
+<tr class="even">
+<td>Basics</td>
+<td>12</td>
+<td>Four Island, three Swamp, two Mountain, two Plains, two Forest</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>The curve tops out at four. Twenty-two of thirty-six spells cost two or less, so the deck functions on three lands and starts drawing two cards a turn by turn four. Colored requirements are intentionally flat: the only double pip in the deck is <code>The Water Crystal</code> at {2}{U}{U}, and it is a four-drop you cast after your blue sources are online. Green sources come first (<code>Llanowar Elves</code>, <code>Bloom Tender</code>, <code>Forest</code>, <code>Uncharted Haven</code> naming green), then blue, and the red and white splash cards are all single-pip.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Lead with fixing over action when you have both: a turn-one <code>Llanowar Elves</code> into a turn-two <code>Vnwxt, Verbose Host</code> is the best opening in the deck, because Vnwxt needs time to climb to max speed. Speed rises once on each of your turns when an opponent loses life, so the first point of damage matters more than it looks — a <code>Raven Eagle</code> attack, a <code>Mischievous Mystic</code> in the air, or a <code>Warleader's Call</code> trigger all advance the clock that doubles your draws.</p>
+<p>If you do not have Vnwxt, <code>Mischievous Mystic</code> is the correct two-drop: it is a 2/1 flier that starts making Faeries as soon as any second draw happens, and it carries <code>Warleader's Call</code> well.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<p>The typical engine turn is three mana and no cards spent on payoffs: cast <code>Quick Study</code> (two draws, doubled to four cards by Vnwxt), and every payoff on the battlefield triggers once. With one Horde you get a copy; with two Hordes you get two copies; with a Mystic and a Fabricator as well you add a Faerie and a Thopter for each of those. <code>Warleader's Call</code> turns each of those bodies into a point of damage on entry, so a “draw two” spell commonly ends up as four to six cards, three to five creatures, and three to five damage.</p>
+<p><code>Fountainport</code> is the repeatable version: {2}, {T}, sacrifice a token, draw a card. Under Vnwxt that is two draws and a trigger, which means spare Faeries and Thopters convert directly into more Hordes.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p><code>The Water Crystal</code> is the alternate axis and it punishes anyone who tries to grind you out. Vnwxt already removes your maximum hand size, and the deck draws in bursts, so holding twelve to sixteen cards is normal. Activating the Crystal for {4}{U}{U} mills cards equal to your hand size, and its own replacement effect adds four on top: a fourteen-card hand mills eighteen. Two activations across two turns is a kill, and the Crystal also discounts every blue spell by {1} while it is out.</p>
+<p>The same artifact makes every future mill effect four cards larger, and <code>Raven Eagle</code>’s Clue tokens keep the hand stocked so the mill number keeps climbing.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Keep when</th>
+<th>Ship when</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Two or three lands including a blue source and a green source, plus a two-drop engine piece</td>
+<td>One land, or no blue source</td>
+</tr>
+<tr class="even">
+<td>Any hand with Vnwxt plus a one-mana draw spell</td>
+<td>All four-drops with no early interaction</td>
+</tr>
+<tr class="odd">
+<td>Hands with two Hordes and three lands on the play</td>
+<td>Hands that need white and red early but only have Islands</td>
+</tr>
+</tbody>
+</table>
+<p>Six-card hands are fine in this deck because the engine is redundant; seven-card hands with no two-drop are not.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>“Draw your second card each turn” triggers exactly once per turn. Extra draws after the second do nothing for the payoffs, so sequence the cheapest draw last only if you need the cards, not the triggers.</li>
+<li>Vnwxt only doubles draws at max speed (4). Before that it is a 0/4 that removes your maximum hand size, which is still relevant for the mill plan.</li>
+<li><code>Volatile Wanderglyph</code> triggers when it becomes tapped, so attacking with it loots; crewing <code>Thopter Fabricator</code> with it also taps it and loots.</li>
+<li><code>Wolfbat</code> returns only if you can pay {B}, and it comes back with a finality counter — it dies permanently the second time.</li>
+<li><code>Gleaming Splendor</code>’s {2}{W} ability targets two players, and you may target yourself and the opponent, which guarantees your second draw on a turn where you otherwise have no draw spell.</li>
+<li>Token copies made by <code>Homunculus Horde</code> are 2/2 creatures, not Hordes in the deck sense, but they do trigger <code>Warleader's Call</code> and they can be sacrificed to <code>Fountainport</code>.</li>
+<li><code>Might of the Meek</code> gives trample regardless; the +1/+0 clause needs a Mouse you do not have, so treat it as a one-mana cantrip.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aggro</td>
+<td>Trade early with Mystic and Wolfbat, land <code>Warleader's Call</code> to make blocks profitable, then out-draw them; the drain triggers buy the extra turn you need</td>
+</tr>
+<tr class="even">
+<td>Control</td>
+<td>Do not commit three Hordes into a sweeper; hold <code>Fountainport</code> and one draw spell, then rebuild in a single turn. Switch to the Crystal plan if the board is contested</td>
+</tr>
+<tr class="odd">
+<td>Midrange</td>
+<td>Go wide and use <code>Rogue's Passage</code> on the largest token; their removal is one-for-one against a deck that makes two bodies a turn</td>
+</tr>
+<tr class="even">
+<td>Other draw decks</td>
+<td>Your engine is cheaper; race with fliers and keep <code>Raven Eagle</code> draining every turn</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="iterations" class="level1">
+<h1>Iterations</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Change</th>
+<th>Metric delta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v1</td>
+<td>First 60: 3 Mystic, 3 Gleaming Splendor, 2 Kang, Temporal Tyrant, no Wolfbat</td>
+<td>sim 48.7, synergy 74.5, T4 0.651, P(4L) 0.662 — sim gate failed</td>
+</tr>
+<tr class="even">
+<td>v2</td>
+<td>-2 Kang, -1 Gleaming Splendor, +2 Wolfbat, +1 Mischievous Mystic (more two-drop threats, cheaper recursion, fewer clunky four-drops)</td>
+<td>sim 48.7 to 52.3, synergy 74.5 to 74.1, T4 0.651 to 0.659, P(4L) 0.662 to 0.667 — all gates pass</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre class="text"><code>Double Entry
+Deck
+3 Llanowar Elves
+2 Might of the Meek
+4 Vnwxt, Verbose Host
+4 Mischievous Mystic
+2 Bloom Tender
+2 Volatile Wanderglyph
+2 Gleaming Splendor
+3 Raven Eagle
+2 Wolfbat
+2 Thopter Fabricator
+2 Warleader's Call
+2 Quick Study
+4 Homunculus Horde
+2 The Water Crystal
+4 Uncharted Haven
+2 Fabled Passage
+1 Evolving Wilds
+2 Fountainport
+2 Rogue's Passage
+4 Island
+3 Swamp
+2 Mountain
+2 Plains
+2 Forest</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

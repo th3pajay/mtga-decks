@@ -1,0 +1,156 @@
+---
+title: "Double Entry"
+subtitle: "Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it"
+date: "2026-10-20"
+categories: ["combo", "card-draw"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Five-color — white / blue / black / red / green |
+| Archetype | Combo-midrange (draw engine into token compounding) |
+| Size | 60 cards, 24 lands |
+| Core engine | Vnwxt, Verbose Host + Homunculus Horde |
+| Primary win | Exponential Homunculus copies, boosted by Warleader's Call, made unblockable with Rogue's Passage |
+| Secondary win | The Water Crystal milling a hand of 12+ cards per activation |
+| Nonland curve | 5 one-drops, 14 twos, 11 threes, 6 fours (average 2.5) |
+
+# Overview
+
+Double Entry is built on one arithmetic idea: a single card draw should be worth two cards, and every extra card drawn should be worth a creature. `Vnwxt, Verbose Host` supplies the first half once you reach max speed — "If you would draw a card, draw two cards instead" — and `Homunculus Horde` supplies the second, creating a token copy of itself every time you draw your second card in a turn.
+
+That combination collapses the usual cost of a draw-payoff deck. Normally you have to spend two cards to get one payoff trigger. Here, one one-mana `Might of the Meek`, one `Quick Study`, or a single `Fountainport` activation is already two draws, so a lone Vnwxt turns your cheapest cantrip into a full trigger for every payoff on the board. Each Horde on the battlefield triggers separately, so the copies compound: one Horde becomes two, two become four, and the tokens arrive with `Warleader's Call` draining the opponent for each body.
+
+The deck plays five colors because the pieces live in different places: blue owns the engine, white owns the anthem and the guaranteed draw sink, black owns the drain and the recursion, red owns the one-mana cantrip and the looting glyph, green owns the mana. No dual lands are used, so the mana is deliberately cheap on colored pips (almost everything costs a single colored mana) and green one-drops plus `Uncharted Haven` carry the fixing.
+
+# Approach
+
+## Game plan by phase
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Setup | 1-2 | Land, `Llanowar Elves` or `Bloom Tender`, land a two-drop engine piece (`Vnwxt, Verbose Host` or `Mischievous Mystic`) |
+| Turn on the engine | 3-4 | Reach max speed with Vnwxt (any life loss counts), land `Homunculus Horde`, draw two per turn |
+| Compound | 5-7 | Multiple Hordes and `Warleader's Call`; every token entering drains; attack with fliers |
+| Close | 6+ | `Rogue's Passage` for unblockable lethal, or switch to `The Water Crystal` and mill them out |
+
+## Card roles
+
+| Role | Cards | What it does |
+|---|---|---|
+| Draw doubler | 4 Vnwxt, Verbose Host | At max speed each draw becomes two draws; also removes your maximum hand size |
+| Compounding payoff | 4 Homunculus Horde | Every second draw makes a token copy of itself; copies trigger next turn |
+| Token payoffs | 4 Mischievous Mystic, 2 Thopter Fabricator | Faerie and Thopter token per second draw; both bodies fly |
+| Anthem and drain | 2 Warleader's Call | Team +1/+1 and 1 damage to each opponent per creature entering |
+| Drain and recursion | 3 Raven Eagle, 2 Wolfbat | Life swing per trigger; Wolfbat returns itself for {B} with a finality counter |
+| One-shot draw | 2 Quick Study, 2 Might of the Meek | Two draws for three mana, or one draw for one mana that Vnwxt doubles |
+| Draw sink | 2 Gleaming Splendor | {2}{W} forces two draws at instant speed; also makes Treasures |
+| Looting engine | 2 Volatile Wanderglyph | Taps on attack, loots, refuels the trigger every combat |
+| Mana | 3 Llanowar Elves, 2 Bloom Tender | Green one-drop and a vivid two-drop that taps for every color you control |
+| Win condition 2 | 2 The Water Crystal | Mills cards equal to your hand size, plus four, per activation |
+
+## Lands as engines
+
+| Land | Count | Job in the deck |
+|---|---|---|
+| Rogue's Passage | 2 | The win-condition land: {4}, {T} makes the biggest Horde token unblockable for the lethal swing |
+| Fountainport | 2 | Sacrifice a token to draw; with Vnwxt that activation is two draws, so it converts spare tokens into a full trigger |
+| Uncharted Haven | 4 | Any-color fixing and the reason a five-color deck can run basics |
+| Fabled Passage | 2 | Fetches the basic you are missing, untaps itself at four or more lands |
+| Evolving Wilds | 1 | Fifth fetch effect for the splash colors |
+| Basics | 12 | Four Island, three Swamp, two Mountain, two Plains, two Forest |
+
+## Curve and mana
+
+The curve tops out at four. Twenty-two of thirty-six spells cost two or less, so the deck functions on three lands and starts drawing two cards a turn by turn four. Colored requirements are intentionally flat: the only double pip in the deck is `The Water Crystal` at {2}{U}{U}, and it is a four-drop you cast after your blue sources are online. Green sources come first (`Llanowar Elves`, `Bloom Tender`, `Forest`, `Uncharted Haven` naming green), then blue, and the red and white splash cards are all single-pip.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with fixing over action when you have both: a turn-one `Llanowar Elves` into a turn-two `Vnwxt, Verbose Host` is the best opening in the deck, because Vnwxt needs time to climb to max speed. Speed rises once on each of your turns when an opponent loses life, so the first point of damage matters more than it looks — a `Raven Eagle` attack, a `Mischievous Mystic` in the air, or a `Warleader's Call` trigger all advance the clock that doubles your draws.
+
+If you do not have Vnwxt, `Mischievous Mystic` is the correct two-drop: it is a 2/1 flier that starts making Faeries as soon as any second draw happens, and it carries `Warleader's Call` well.
+
+## The combo turn
+
+The typical engine turn is three mana and no cards spent on payoffs: cast `Quick Study` (two draws, doubled to four cards by Vnwxt), and every payoff on the battlefield triggers once. With one Horde you get a copy; with two Hordes you get two copies; with a Mystic and a Fabricator as well you add a Faerie and a Thopter for each of those. `Warleader's Call` turns each of those bodies into a point of damage on entry, so a "draw two" spell commonly ends up as four to six cards, three to five creatures, and three to five damage.
+
+`Fountainport` is the repeatable version: {2}, {T}, sacrifice a token, draw a card. Under Vnwxt that is two draws and a trigger, which means spare Faeries and Thopters convert directly into more Hordes.
+
+## Win condition 2
+
+`The Water Crystal` is the alternate axis and it punishes anyone who tries to grind you out. Vnwxt already removes your maximum hand size, and the deck draws in bursts, so holding twelve to sixteen cards is normal. Activating the Crystal for {4}{U}{U} mills cards equal to your hand size, and its own replacement effect adds four on top: a fourteen-card hand mills eighteen. Two activations across two turns is a kill, and the Crystal also discounts every blue spell by {1} while it is out.
+
+The same artifact makes every future mill effect four cards larger, and `Raven Eagle`'s Clue tokens keep the hand stocked so the mill number keeps climbing.
+
+## Mulligan guide
+
+| Keep when | Ship when |
+|---|---|
+| Two or three lands including a blue source and a green source, plus a two-drop engine piece | One land, or no blue source |
+| Any hand with Vnwxt plus a one-mana draw spell | All four-drops with no early interaction |
+| Hands with two Hordes and three lands on the play | Hands that need white and red early but only have Islands |
+
+Six-card hands are fine in this deck because the engine is redundant; seven-card hands with no two-drop are not.
+
+## Key interactions and edge cases
+
+- "Draw your second card each turn" triggers exactly once per turn. Extra draws after the second do nothing for the payoffs, so sequence the cheapest draw last only if you need the cards, not the triggers.
+- Vnwxt only doubles draws at max speed (4). Before that it is a 0/4 that removes your maximum hand size, which is still relevant for the mill plan.
+- `Volatile Wanderglyph` triggers when it becomes tapped, so attacking with it loots; crewing `Thopter Fabricator` with it also taps it and loots.
+- `Wolfbat` returns only if you can pay {B}, and it comes back with a finality counter — it dies permanently the second time.
+- `Gleaming Splendor`'s {2}{W} ability targets two players, and you may target yourself and the opponent, which guarantees your second draw on a turn where you otherwise have no draw spell.
+- Token copies made by `Homunculus Horde` are 2/2 creatures, not Hordes in the deck sense, but they do trigger `Warleader's Call` and they can be sacrificed to `Fountainport`.
+- `Might of the Meek` gives trample regardless; the +1/+0 clause needs a Mouse you do not have, so treat it as a one-mana cantrip.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade early with Mystic and Wolfbat, land `Warleader's Call` to make blocks profitable, then out-draw them; the drain triggers buy the extra turn you need |
+| Control | Do not commit three Hordes into a sweeper; hold `Fountainport` and one draw spell, then rebuild in a single turn. Switch to the Crystal plan if the board is contested |
+| Midrange | Go wide and use `Rogue's Passage` on the largest token; their removal is one-for-one against a deck that makes two bodies a turn |
+| Other draw decks | Your engine is cheaper; race with fliers and keep `Raven Eagle` draining every turn |
+
+# Iterations
+
+| Round | Change | Metric delta |
+|---|---|---|
+| v1 | First 60: 3 Mystic, 3 Gleaming Splendor, 2 Kang, Temporal Tyrant, no Wolfbat | sim 48.7, synergy 74.5, T4 0.651, P(4L) 0.662 — sim gate failed |
+| v2 | -2 Kang, -1 Gleaming Splendor, +2 Wolfbat, +1 Mischievous Mystic (more two-drop threats, cheaper recursion, fewer clunky four-drops) | sim 48.7 to 52.3, synergy 74.5 to 74.1, T4 0.651 to 0.659, P(4L) 0.662 to 0.667 — all gates pass |
+
+# Deck list (Arena import)
+
+```text
+Double Entry
+Deck
+3 Llanowar Elves
+2 Might of the Meek
+4 Vnwxt, Verbose Host
+4 Mischievous Mystic
+2 Bloom Tender
+2 Volatile Wanderglyph
+2 Gleaming Splendor
+3 Raven Eagle
+2 Wolfbat
+2 Thopter Fabricator
+2 Warleader's Call
+2 Quick Study
+4 Homunculus Horde
+2 The Water Crystal
+4 Uncharted Haven
+2 Fabled Passage
+1 Evolving Wilds
+2 Fountainport
+2 Rogue's Passage
+4 Island
+3 Swamp
+2 Mountain
+2 Plains
+2 Forest
+```
