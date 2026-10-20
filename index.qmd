@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-20**:
 
+- **[Terra Ascendant](decks/2026-10-20-terra-ascendant.html)** — Green / white / blue landfall-loyalty engine — Empower x landfall x lifegain  `reality-fracture` `empower`
 - **[Double Entry](decks/2026-10-20-double-entry.html)** — Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it  `combo` `card-draw`

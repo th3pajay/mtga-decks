@@ -1,0 +1,143 @@
+---
+title: "Terra Ascendant"
+subtitle: "Green / white / blue landfall-loyalty engine — Empower x landfall x lifegain"
+date: "2026-10-20"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (Reality Fracture set deck) |
+| Colors | Green / white / blue (Bant) |
+| Archetype | Landfall combo — Empower loyalty engine |
+| Size | 60 cards, 24 lands |
+| Focused mechanic | Empower (35 cards in Reality Fracture) fused with landfall, feeding lifegain payoffs |
+| Primary win | Every land you play empowers Jace 2; a Jace token sitting on eight or more loyalty turns `Way of the Wildspeaker`'s granted "[-4]: create a 4/4 green Beast with trample" into a free Beast every single turn, and `Kiora of Salt and Sand`'s granted "[-8]: create an 8/8 blue Leviathan with hexproof" into the finisher |
+| Secondary win | Lifegain counters: `Titanbones, Towering Heart` takes two +1/+1 counters on every point of life gained, `Bloombrute` draws off it, `Kwia Vigorbloom` makes Lotus tokens off it, then the team attacks with Kiora's unblockable rider |
+| Land win con | `Theorist's Sanctum` — an Island that enters untapped once you behold a Jace and pays two plus blue for "Empower Jace 2", a repeatable loyalty source for the Beast and Leviathan abilities |
+| Deck IDs | MTGADB deck 112 — cohesion 72.9, synergy 72.9, goldfish T4 consistency 0.637, P(4 lands by T4) 0.622 |
+
+# Overview
+
+Empower is the set's flagship mechanic and it is secretly a landfall mechanic in this shell. **`Avatar of Burgeoning Echoes`** reads "Landfall — whenever a land you control enters, empower Jace 2": every land drop either creates a Jace planeswalker token (with "[-1]: Surveil 1" and "[-3]: Draw a card") or adds two loyalty to the one you already have. Two mana on turn two, a land a turn, and the token is climbing three or four loyalty a turn without you spending a single card on it.
+
+That loyalty is currency. `Way of the Wildspeaker` gives every planeswalker you control "[-4]: Create a 4/4 green Beast creature token with trample" and `Kiora of Salt and Sand` gives them "[-8]: Create an 8/8 blue Leviathan creature token with hexproof". Because the counters arrive on landfall rather than on a fixed schedule, a Jace token routinely sits at seven to nine loyalty and can spend four on a Beast, then grow back past the threshold on the very next land.
+
+The second floor of the deck is lifegain. **`Way of the Paradox`** gains a life every time you activate a loyalty ability *and* lets you play an additional land that turn, which is the only card in the deck that both pays the lifegain triggers and re-arms the landfall engine in the same turn. `Koth of the Homestead` gains a life on every land drop and grows a creature on every Plains. Those points of life are the fuel for `Titanbones, Towering Heart` (two +1/+1 counters per gain), `Bloombrute` (a card per turn), `Kwia Vigorbloom` (a Lotus token per turn, three mana of any one colour) and `Unflinching Hortimancer`.
+
+Nothing here is a fair card played fairly: lands are the engine, loyalty is the resource, life is the second resource, and the win is whatever the two resources buy this turn.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Establish the tap-out engine (turns 1 to 3).** Land, then two mana: `Avatar of Burgeoning Echoes`, `Tam's Resistance` (empower Jace 4, plus a +1/+1 counter) or `Solarium Sentry`. Transformative Commons enters untapped from the moment a planeswalker is on the battlefield, so the mana fixes itself as the engine starts. `Koth of the Homestead` on turn three begins the lifegain drip and turns every Plains into a counter.
+2. **Turn loyalty into bodies (turns 4 to 6).** `Way of the Paradox` is the priority: from then on every loyalty activation gains a life and buys an extra land drop, so the same turn both triggers the lifegain payoffs and re-triggers Avatar. `Way of the Wildspeaker` enters and empowers Jace 7 by itself, immediately arming the Beast ability. `Titanbones` and `Bloombrute` convert the life into a growing board and cards.
+3. **Convert (turn six onwards).** Spend loyalty on Beasts and Leviathans, land a `Kwia Vigorbloom` for the flying lifelink clock, and attack with a board the opponent cannot out-size. `Kiora of Salt and Sand` makes the biggest attacker unblockable on any turn you activated a loyalty ability, which is every turn this deck functions.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Avatar of Burgeoning Echoes | 4 | Engine — two-mana 2/3; every land drop empowers Jace 2, and it grants planeswalkers "[-10]: +1/+1 counter for each land you control" |
+| Way of the Paradox | 3 | Engine multiplier — empowers Jace 5 on entry, gains a life on every loyalty activation, and grants an additional land drop every turn |
+| Tam's Resistance | 3 | Enabler — two mana for empower Jace 4 plus a +1/+1 counter and vigilance |
+| Way of the Cryomancer | 2 | Enabler — empower Jace 5 and grants "[-3]: copy the next instant or sorcery", which doubles removal and Charm effects |
+| Way of the Wildspeaker | 2 | Win condition 1 — empower Jace 7 and grants every planeswalker "[-4]: create a 4/4 Beast with trample" |
+| Kiora of Salt and Sand | 2 | Win condition 1 and evasion — 2/4 body, grants "[-8]: 8/8 hexproof Leviathan", and makes an attacker unblockable when a loyalty ability was activated |
+| Titanbones, Towering Heart | 3 | Win condition 2 — 4/3 reach that takes two +1/+1 counters per lifegain event, so it grows several times a turn |
+| Bloombrute | 3 | Value — 4/4 that draws a card on the first lifegain of each turn, and can give the team trample and lifelink |
+| Kwia Vigorbloom | 2 | Win condition 2 — 6/6 flying vigilance lifelink ward 2; every lifegain makes a Lotus token worth three mana |
+| Koth of the Homestead | 3 | Lifegain engine — landfall gains a life, and every Plains puts a +1/+1 counter on a creature |
+| Solarium Sentry | 3 | Early body and lifegain source — 3/3 for two that gains 2 whenever an opponent casts a cheap spell |
+| Unflinching Hortimancer | 2 | Early body and payoff — 2/1 ward 1 that grows a counter per lifegain event |
+| Vigorbloom Charm | 2 | Interaction — hexproof and indestructible, or draw plus 3 life, or a counter plus a fight |
+| Countersculpt | 2 | Interaction — counters a spell for two blue (behold a Jace or pay one) and empowers Jace 1 |
+
+## Lands as engines
+
+| Land | Copies | What it does for the win |
+|---|---|---|
+| Theorist's Sanctum | 2 | Enters untapped if you behold a Jace, taps for blue, and pays two plus blue and a tap for "Empower Jace 2" — a repeatable loyalty source that feeds the Beast and Leviathan abilities with no spell spent |
+| Transformative Commons | 4 | Taps for green or blue and enters untapped once you control a planeswalker, which is the deck's normal state from turn two |
+| Hushwood Verge | 4 | Green, or white while you control a Forest or Plains — the white source for Kwia, Bloombrute and the Charm |
+| Hallowed Fountain | 4 | White or blue untapped for two life; the deck gains that life back several times over |
+| Forest / Plains / Island | 10 | Green is the primary colour; Plains double as Koth triggers, and Island is the Theorist's Sanctum and Countersculpt colour |
+
+## Curve and mana
+
+Sixteen cards cost two, ten cost three, six cost four and four cost five or more, on twenty-four lands with thirteen green sources, eleven white and twelve blue. The deck wants four lands by turn four and is happy to see six, because `Way of the Paradox` converts extra lands into loyalty and lifegain rather than flooding out.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a green source and a two-drop. `Avatar of Burgeoning Echoes` is the best turn-two play because it makes the following land drops into loyalty; `Tam's Resistance` is the best turn-two play when you already have an Avatar or a Way in hand, since it puts a Jace token straight to four loyalty. Do not trade `Solarium Sentry` or `Unflinching Hortimancer` for a card; they are the bodies that make the lifegain plan lethal later.
+
+## Mid game and the combo turn
+
+The combo turn is any turn that starts with `Way of the Paradox` on the battlefield and a Jace token at five or more loyalty:
+
+1. Activate the token's "[-3]: Draw a card" (or "[-1]: Surveil 1" when the top card is known to be bad) — this gains a life from Way of the Paradox and triggers Titanbones, Bloombrute, Kwia and Hortimancer.
+2. Play the extra land Way of the Paradox grants — Avatar empowers Jace 2, Koth gains another life, and a Plains adds a +1/+1 counter.
+3. Spend four loyalty on the Beast ability from `Way of the Wildspeaker`, or eight on the Leviathan from `Kiora of Salt and Sand`, and pass with a token still above zero loyalty.
+
+Because the token only dies at zero, the sequencing rule is simple: never activate an ability that would leave the token at zero unless the body it buys is worth more than the engine. With `Theorist's Sanctum` untapped, two mana buys two loyalty back at instant speed if the opponent tries to attack it down.
+
+## Win condition 2
+
+`Titanbones, Towering Heart` plus any repeatable lifegain is the deck's honest clock: Paradox activations, Koth land drops and Solarium Sentry triggers each add two counters, so a Titanbones that survives two turns is usually a 10/9 or larger. `Kiora of Salt and Sand` makes it unblockable on any turn a loyalty ability was activated, and `Bloombrute`'s activated ability gives it trample and lifelink for the finish. `Kwia Vigorbloom` is the alternative: a 6/6 flying lifelink that also makes Lotus tokens, which then pay for a second spell in the same turn.
+
+## Mulligan guide
+
+Keep any hand with two to four lands, at least one green source, and either `Avatar of Burgeoning Echoes` or `Way of the Paradox`. A hand of `Transformative Commons`, `Hallowed Fountain`, Avatar, Tam's Resistance is a snap keep. Ship hands with no green source, hands with only five-plus drops, and hands whose only engine is `Way of the Wildspeaker` without a loyalty source. Six-card hands are fine in this deck; the engine is redundant.
+
+## Key interactions and edge cases
+
+- `Way of the Paradox` grants the additional land drop on the turn you activate a loyalty ability, so hold a land in hand rather than playing it out when the Way is about to land.
+- Empower creates the Jace token only if you do not already control one, and then puts the counters on it. Multiple empower effects in one turn stack onto the same token, which is why `Tam's Resistance` into a land drop can put a fresh token to six loyalty.
+- `Countersculpt` can behold the Jace token, so the two-blue counter is effectively unconditional once the engine is running.
+- `Theorist's Sanctum` can also behold the Jace token to enter untapped — behold is a choice, not a sacrifice.
+- `Vigorbloom Charm`'s fight mode is the answer to a large blocker that Kiora cannot make unblockable; the hexproof and indestructible mode protects the token from removal in response to an activation.
+- `Kwia Vigorbloom`'s Lotus token is an artifact, not a land, so it does not trigger landfall — it pays for spells instead.
+
+## Matchups
+
+- **Aggro:** the deck's early bodies are 3/3 and 2/1, and `Solarium Sentry` gains 2 on every cheap opposing spell, so the first four turns are survivable. `Vigorbloom Charm` and `Countersculpt` cover the one big threat, and once Titanbones or Kwia lands the life totals swing hard.
+- **Midrange:** the best matchup. The opponent cannot out-size a board that adds loyalty on every land and counters on every life gain; save `Vigorbloom Charm` for their removal spell on the token.
+- **Control:** the engine sits on enchantments, lands and a planeswalker token, so sweepers only reset the creatures. Keep a land in hand to re-arm landfall immediately after a wipe, and use `Way of the Cryomancer`'s copy ability to double a Charm or a removal spell in the counter war.
+- **Combo:** the deck has no stack interaction beyond `Countersculpt`, so the plan is to race with Beasts and Leviathans and to use Kiora's unblockable rider for exact damage. `Countersculpt` is for the one spell that actually ends the game.
+- **Graveyard decks:** nothing here interacts with a graveyard, so the plan is speed — a turn-four Beast plus a turn-five Titanbones is usually faster than a reanimation setup that needs its own setup turn.
+
+*Reality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there.*
+
+# Deck list (Arena import)
+
+```
+Terra Ascendant
+Deck
+4 Avatar of Burgeoning Echoes
+3 Way of the Paradox
+2 Way of the Cryomancer
+2 Way of the Wildspeaker
+3 Tam's Resistance
+2 Kiora of Salt and Sand
+3 Titanbones, Towering Heart
+3 Bloombrute
+2 Kwia Vigorbloom
+2 Unflinching Hortimancer
+3 Koth of the Homestead
+2 Vigorbloom Charm
+2 Countersculpt
+3 Solarium Sentry
+4 Transformative Commons
+2 Theorist's Sanctum
+4 Hushwood Verge
+4 Hallowed Fountain
+5 Forest
+3 Plains
+2 Island
+```
