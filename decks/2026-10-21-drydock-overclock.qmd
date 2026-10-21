@@ -1,0 +1,156 @@
+---
+title: "Drydock Overclock"
+subtitle: "Five-colour Station combo — charge counters doubled, hulls online ahead of schedule"
+date: "2026-10-21"
+categories: ["combo", "Station"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | White / blue / black / red / green (all five) |
+| Archetype | Combo-midrange — Station engine with counter doubling |
+| Size | 60 cards, 24 lands |
+| Mechanic identity | Station (single-theme build-around) |
+| Primary win | `Dawnsire, Sunstar Dreadnought` fully stationed at twenty or more charge counters: a 20/20 flying attacker whose 10+ clause also throws 100 damage at a blocker every time you attack |
+| Secondary win | Stationed flying Spacecraft beatdown: `Galvanizing Sawship` at 3+ is a 6/5 flying haste, `Sledge-Class Seedship` at 7+ is a 4/5 flier that puts a creature from hand onto the battlefield every attack, `Lumen-Class Frigate` at 12+ is a 3/5 flying lifelink |
+| Land win con | `Kavaron, Memorial World` — a Planet land with Station; at 12+ it pays one red and a tap, sacrifices a land and makes a 2/2 Robot, then pumps the whole team +1/+0 with haste. `Rogue's Passage` pushes the finished dreadnought through blockers |
+| Measured | MTGADB deck 116 — synergy 73.3, goldfish T4 consistency 0.647, P(4 lands by T4) 0.631, sim 50.3 |
+
+# Overview
+
+Station is a cost, not a bonus: *tap another creature you control, put charge counters equal to its power on this Spacecraft, sorcery speed only, and it is an artifact creature at N+*. Every Spacecraft and every Planet in the deck is a machine that sits there as a non-creature artifact until somebody is fed into it. That is the whole deck. The question this build answers is how to turn two or three cheap bodies into twenty counters in a single turn.
+
+The answer is `Loading Zone`. For four mana it replaces every counter placement on a creature, Spacecraft or Planet you control with **twice** that many, and it has warp {G}, so it can come down for one green on turn two, sit in exile, and land on the turn you actually want to go off. With it in play the arithmetic stops being about tapping a big creature and starts being about cards that place counters outright.
+
+`Drill Too Deep` is the cheapest of those: two mana, instant, put five charge counters on a Spacecraft or Planet. Under `Loading Zone` that is ten. Two of them are twenty, which is exactly `Dawnsire, Sunstar Dreadnought`, and `Systems Override` is the third copy of the effect at three mana — it untaps the hull, gives it haste, and its ten charge counters become twenty that only shrink back by ten at the end step, so ten stay for good.
+
+The fuel is deliberately brutal. `Kalakscion, Hunger Tyrant` is seven power for three mana; `Pugnacious Hammerskull` is a 6/6 for three; `Rot-Curse Rakshasa` is a 5/5 trampler for two. Any one of them tapping into a Spacecraft with `Loading Zone` out is twelve to fourteen counters, which turns on a Planet's 12+ ability or a `Lumen-Class Frigate`'s 12+ body in one activation. Without the Zone they still do the honest work of a midrange deck: attack, block, and station on the turn the ground stalls.
+
+`Sunstar Chaplain` and `Oreplate Pangolin` are the low end of that plan — the Chaplain grows a creature on every end step with two or more tapped creatures, the Pangolin grows whenever another artifact enters, and under `Loading Zone` each of those counters is doubled too.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Deploy bodies and the doubler (turns two to four).** Two mana threats first — `Rot-Curse Rakshasa`, `Oreplate Pangolin`, `Sunstar Chaplain` — and `Loading Zone` at the first opportunity, ideally warped in for one green so the four mana never has to be held up. `Lumen-Class Frigate` on two is the best bridge: it is a 3/5 wall that gives your other creatures +1/+1 from two charge counters, which makes every later station tap count for more.
+2. **Station the mid-size hulls (turns four to six).** `Sledge-Class Seedship` at three mana is the workhorse: seven counters is one 7-power creature tap or a single `Drill Too Deep`, after which it is a 4/5 flier that converts every attack into a free creature from hand. `Galvanizing Sawship` needs only three counters to become a 6/5 flying haste, so it attacks the turn it comes online.
+3. **Overclock the dreadnought (turn six onwards).** `Dawnsire, Sunstar Dreadnought` is the kill. Land it as a dead artifact, then on the following turn stack counters: two `Drill Too Deep` (twenty), or one Drill plus a station activation with any five-power body (twenty), or `Systems Override` under `Loading Zone` (twenty, ten of which persist). At twenty it is a 20/20 flying and its 10+ trigger deals 100 damage to a blocker on attack.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Loading Zone | 4 | Engine — doubles every counter placed on a creature, Spacecraft or Planet; warp {G} lets it land on the combo turn |
+| Drill Too Deep | 3 | Combo piece — two mana instant, five charge counters (ten doubled) or destroys an artifact |
+| Systems Override | 2 | Combo piece and reach — untaps a hull, grants haste, ten charge counters that become twenty under the Zone, ten of which stay |
+| Dawnsire, Sunstar Dreadnought | 2 | Win condition 1 — 20/20 flying at 20+; at 10+ it deals 100 damage to a creature or planeswalker whenever you attack |
+| Sledge-Class Seedship | 3 | Engine and win condition 2 — 3 mana 4/5; at 7+ flying and free creatures from hand on attack |
+| Galvanizing Sawship | 2 | Win condition 2 — at 3+ a 6/5 flying haste, the fastest clock in the deck |
+| Lumen-Class Frigate | 4 | Support — 2 mana 3/5 that gives other creatures +1/+1 from two counters, and becomes a 3/5 flying lifelink at 12+ |
+| Kalakscion, Hunger Tyrant | 2 | Fuel — 7/2 for three; one tap is fourteen counters with the Zone out |
+| Pugnacious Hammerskull | 4 | Fuel and body — 6/6 for three, stations six (twelve doubled) |
+| Rot-Curse Rakshasa | 4 | Fuel — 5/5 trample for two; decayed is irrelevant when it is tapped to station instead of attacking |
+| Sunstar Chaplain | 3 | Counter grower — +1/+1 on end step with two or more tapped creatures, which is the normal state after stationing |
+| Oreplate Pangolin | 3 | Early artifact body — 2/2 Robot that pays one to grow whenever another artifact enters |
+
+## Lands as engines
+
+| Land | Copies | What it does for the win |
+|---|---|---|
+| Kavaron, Memorial World | 2 | Planet with Station. At 12+ it pays one red and a tap, sacrifices a land, makes a 2/2 Robot and gives the team +1/+0 and haste — a land that manufactures the attackers the dreadnought does not need |
+| Rogue's Passage | 1 | Colourless utility land; four mana and a tap makes the finished 20/20 unblockable, which converts the attack trigger into a guaranteed twenty |
+| Evolving Wilds / Terramorphic Expanse | 3 | Colourless fixing that fetches whichever basic the hand is missing; the deck plays all five colours and these are the glue |
+| Forest / Mountain / Plains / Island / Swamp | 18 | Green for the Zone and Seedship, red for Drill and Sawship, black for Rakshasa and Kalakscion, white for Frigate and Chaplain, blue for the Pangolin's neighbours |
+
+## Curve and mana
+
+Twelve cards cost two, seven cost three, four cost four, two cost five and two cost six, on twenty-four lands that include three fetch-style fixers and two Planets. Green is the deepest colour (nine cards), red is the most pip-hungry (Drill, Sawship, Kavaron), and the two double-black and double-red costs are avoided entirely so that a five-colour manabase of basics plus colourless fixing can actually cast the deck. Average mana value is 3.03; the deck wants four lands by turn four and five by turn five, and never wants more than seven.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with bodies, not with the engine. A turn-two `Rot-Curse Rakshasa` or `Oreplate Pangolin` forces the opponent to spend removal on creatures that are also your charge counter supply, and a turn-two `Lumen-Class Frigate` makes every subsequent station tap worth one more. `Loading Zone` is at its best when it is warped for one green on turn two: it costs a card but no tempo, and it comes back from exile on the turn you are ready to place twenty counters.
+
+Do not station early unless the counters buy something. A `Lumen-Class Frigate` with two counters is already doing its job (+1/+1 to the team); putting a 5/5 into it for ten counters that do nothing is a waste of a body.
+
+## Mid game
+
+This is where `Sledge-Class Seedship` takes over. Seven counters is a single `Drill Too Deep` or one 7-power tap, and the payoff is a 4/5 flier that puts a creature from hand onto the battlefield tapped and attacking every time it attacks. That is how the deck keeps a board after a sweeper: the hull survives as an artifact and the creatures arrive from hand.
+
+`Galvanizing Sawship` is the tempo play. Three counters is nothing — `Drill Too Deep` alone is ten — and a 6/5 flying haste that comes online the turn it lands ends games that stalled on the ground.
+
+## The combo turn
+
+The pattern to memorise: `Loading Zone` in play, `Dawnsire` on the battlefield as an artifact, and one of these:
+
+- Two `Drill Too Deep` (four mana, instant speed): ten plus ten, twenty counters, dreadnought online.
+- One `Drill Too Deep` plus one station activation from any creature with five or more power: ten plus ten, twenty counters.
+- One `Systems Override` (three mana): twenty counters placed, ten removed at the end step, ten that remain — enough to re-trigger it the following turn with a single Drill.
+
+At twenty the Dreadnought is a 20/20 flying, and its 10+ clause deals 100 damage to up to one target creature or planeswalker whenever you attack, so a single blocker is not an answer. `Rogue's Passage` answers the other kind of blocker.
+
+## Win condition two
+
+When the Dreadnought is answered (it is an artifact until it is not, so artifact removal and `Gravkill`-style exile effects both hit it), the deck still has a flying clock: `Galvanizing Sawship` at 6/5, `Sledge-Class Seedship` at 4/5 that keeps replacing itself, `Lumen-Class Frigate` at 3/5 flying lifelink, and `Kavaron, Memorial World` paying one red a turn to make Robots and give the team haste. Ten to fourteen points of evasive damage a turn is normal once two hulls are online.
+
+## Mulligan guide
+
+Keep any hand with two lands, a two-drop and `Loading Zone`, or any hand with three lands and two Spacecraft. Ship hands with only one coloured source and no `Evolving Wilds`; five colours is real and the deck cannot afford to be colour-screwed. A hand of `Dawnsire` plus `Drill Too Deep` plus `Loading Zone` is a snap keep even with four lands, because the finish only needs one turn.
+
+## Key interactions and edge cases
+
+- Station is sorcery speed only. You cannot station in response to removal, so sequence it in your first main phase before combat, and remember the tapped creature cannot block that turn.
+- `Loading Zone` doubles the counters from `Systems Override` to twenty, but the delayed trigger only removes ten — that is where the permanent ten counters come from.
+- `Loading Zone` also doubles +1/+1 counters on your creatures, so `Sunstar Chaplain` and `Oreplate Pangolin` grow twice as fast while it is out.
+- Station can tap a creature that is already a creature-hull: a stationed `Sawship` at 6/5 can feed six counters (twelve doubled) into the Dreadnought.
+- `Rot-Curse Rakshasa` is decayed, so it dies at end of combat if it attacks. Stationing it never triggers decayed, which is usually the better use of a 5/5.
+- `Pugnacious Hammerskull` gets a stun counter if it attacks without another Dinosaur, so attack with it once and then park it in a hull.
+- `Kavaron, Memorial World` enters tapped; it is a Station land, not a fixing land.
+
+## Matchups
+
+- **Fast red aggro:** the worst matchup. `Lumen-Class Frigate` and `Rot-Curse Rakshasa` are the early blockers; trade, then race in the air with `Sawship`.
+- **Midrange and control:** good. Hulls dodge sorcery-speed creature removal while they are artifacts, `Sledge-Class Seedship` rebuilds after sweepers, and the Dreadnought's 100-damage trigger beats a single blocker.
+- **Other combo decks:** the deck's clock is turn six to seven, so it usually wants to be the aggressor; `Systems Override` can also steal and untap an opposing artifact in a pinch.
+
+# Iterations
+
+| Round | Change | Metric delta |
+|---|---|---|
+| v1 | Initial build: 25 lands, full Station payload, `Gravkill` and `Captain America, Living Legend` for interaction and double stationing | synergy 73.7, T4 0.708, lands 0.696, sim 48.3 |
+| v2 | -2 Gravkill, -2 Captain America, -1 Pinnacle Kill-Ship; +4 Emissary Escort, +4 Oreplate Pangolin, +3 Sunstar Chaplain (the sim wants one and two mana threats, not interaction) | T4 0.708 → 0.635, lands 0.696 → 0.620, sim 48.3 → 47.0 |
+| v3 | -2 Systems Override, -1 Pugnacious Hammerskull; +2 Galvanizing Sawship, +2 Invasive Maneuvers, +1 Rot-Curse Rakshasa (faster clock, cheaper removal) | T4 0.635 → 0.647, sim 47.0 → 43.7 |
+| v4 | -4 Emissary Escort, -2 Invasive Maneuvers, -1 Wurmwall Sweeper; +2 Kalakscion, +1 Pugnacious Hammerskull, +1 Drill Too Deep, +2 Systems Override, +1 Terramorphic Expanse (real power instead of walls, engine back to nine cards) | T4 0.647 flat, lands 0.631, sim 43.7 → 50.3 (best of four; still under the 52 gate) |
+
+# Deck list (Arena import)
+
+```
+Drydock Overclock
+Deck
+4 Rot-Curse Rakshasa
+4 Pugnacious Hammerskull
+3 Oreplate Pangolin
+3 Sunstar Chaplain
+2 Kalakscion, Hunger Tyrant
+4 Lumen-Class Frigate
+3 Sledge-Class Seedship
+2 Dawnsire, Sunstar Dreadnought
+2 Galvanizing Sawship
+4 Loading Zone
+3 Drill Too Deep
+2 Systems Override
+2 Kavaron, Memorial World
+1 Rogue's Passage
+2 Evolving Wilds
+1 Terramorphic Expanse
+5 Forest
+5 Mountain
+3 Plains
+3 Island
+2 Swamp
+```
