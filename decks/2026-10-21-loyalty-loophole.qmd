@@ -1,0 +1,173 @@
+---
+title: "Loyalty Loophole"
+subtitle: "Blue-Black-Red empower combo — Reality Fracture"
+date: "2026-10-21"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`) |
+| Colors | Blue, black, red |
+| Archetype | Empower loyalty combo, midrange-control shell |
+| Size | 60 cards, 24 lands, 36 spells |
+| Primary win | Sanctum Lurker plus a board of Jace planeswalker tokens draining one life per planeswalker per turn |
+| Secondary win | Ajani Unrelenting Cadet swarm with team haste, backed by Chandra, Torch of Defiance reach |
+| Land as engine | Theorist's Sanctum, repeatable empower on a land |
+
+Reality Fracture is Standard-legal, but the set still carries no `arena_id` in the card data, so this import list only becomes playable on Arena once the set is enabled there.
+
+# Overview
+
+Reality Fracture's empower mechanic hands you a planeswalker for free: every "empower Jace N" effect puts N loyalty counters on a Jace you control, and if you do not control one it first creates a blue Jace planeswalker token with "[-1]: Surveil 1" and "[-3]: Draw a card." Most decks treat that token as a loyalty battery for a real planeswalker. This deck treats the tokens as the win condition.
+
+Sanctum Lurker changes the rules the tokens live under. Planeswalkers you control are not put into their owners' graveyards for having zero loyalty, and each of them gains "[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life." A Jace token is normally a one-shot cantrip. Under Lurker it is an immortal, self-charging pinger. Two tokens plus Lurker is 2 damage a turn to each opponent with no cards spent; four tokens ends games in two turns while your life total climbs out of burn range.
+
+The rest of the deck exists to manufacture and charge those tokens. Eight cheap empower spells and bodies (Mindseeker Oculus, Keeper of the Quiet Hour, No Admittance, Solve for Disappointment, Violent Echoes, Overwrite the Multiverse) all add loyalty, and the three Ways add five loyalty at a time while handing every planeswalker an extra loyalty ability. Way of the Pyromancer turns each ping into a red mana, Way of the Warlord turns loyalty into removal plus face damage, and Way of the Deathbringer converts spare creatures into 4/4 tramplers.
+
+Three colors are not a cost here, they are the engine. Blue supplies the token machine and card draw, black supplies Lurker and the sweepers, red supplies the cheap interaction and the Ways that make loyalty profitable.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Establish | 1 to 3 | Land drops, cheap empower (Way of the Pyromancer, No Admittance, Solve for Disappointment), first Jace token online |
+| Fortify | 3 to 5 | Sanctum Lurker, then pile loyalty on the token with Oculus, Keeper, or Jace's Machinations |
+| Convert | 5 onward | Drain with [+2] activations, add Ways, close with Ajani Cadets or Chandra emblem |
+
+The deck never needs to attack to win, which is why it beats up on ground-stall midrange decks. Keep the creature count low, keep the planeswalker count high, and remember that every new empower effect either makes a fresh token or adds counters to the one you already have.
+
+## Card roles
+
+| Card | Cost | Role in the engine |
+|---|---|---|
+| Sanctum Lurker | {2}{B} | The loophole: zero-loyalty planeswalkers survive, and every planeswalker gains the ping ability |
+| Mindseeker Oculus | {2}{U} | Three mana for four loyalty, the best rate in the deck |
+| Keeper of the Quiet Hour | {3} | Colorless body that empowers two, fixes the curve for any mana base |
+| Way of the Pyromancer | {1}{R} | Two loyalty on entry, then every planeswalker has "[+1]: Add {R}" |
+| Way of the Deathbringer | {2}{B} | Five loyalty on entry, every planeswalker can eat a creature for a 4/4 Beast |
+| Way of the Warlord | {2}{R} | Five loyalty on entry, every planeswalker can deal 2 to a creature and 2 to a player |
+| Jace's Machinations | {2}{U} | Eight loyalty at instant speed, and loyalty abilities become instant-speed that turn |
+| Violent Echoes | {2}{R}{R} | Six damage removal that converts excess damage into loyalty |
+| No Admittance | {1}{R} | Three damage to anything, plus one loyalty |
+| Solve for Disappointment | {1}{B} | Discard plus one loyalty, the cheapest way to start the token count |
+| Plan for All Outcomes | {3}{U} | Repeatable empower one every turn you cast a noncreature spell |
+| The Theorist, Jace Beleren | {2}{U}{U} | Draws on every opponent draw step, makes Illusions to feed Deathbringer |
+| Chandra, Torch of Defiance | {2}{R}{R} | Removal, ramp, and a seven-loyalty emblem as a third finisher |
+| Ajani Unrelenting | {4}{R}{R} | Every loyalty activation makes a 2/2 Cadet; the plus one gives the team haste |
+| Massacre Girl, Most Wanted | {4}{B} | Grows a +1/+1 counter from every point of noncombat damage the ping engine deals |
+| Overwrite the Multiverse | {4}{B}{B} | Reset button that pays out one loyalty per creature exiled |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|---|---|---|
+| Theorist's Sanctum | 2 | Enters untapped by beholding a Jace, then "{2}{U}, {T}: Empower Jace 2" every turn. This is the land that pays for the kill. |
+| Innovative Commons | 4 | Blue-red dual that enters untapped once a planeswalker is out, which is most of the game |
+| Haunted Ridge | 2 | Black-red dual, untapped from turn three |
+| Shipwreck Marsh | 2 | Blue-black dual, untapped from turn three |
+| Island, Swamp, Mountain | 14 | Basics keep the three-color curve honest and dodge field-of-ruin effects |
+
+## Curve and mana
+
+| Mana value | Count | Notes |
+|---|---|---|
+| 2 | 8 | Interaction that also empowers; never a dead turn |
+| 3 | 16 | The deck's spine: Lurker, Oculus, Keeper, the two three-mana Ways, Machinations |
+| 4 | 7 | Chandra, The Theorist, Violent Echoes, Plan for All Outcomes |
+| 5 | 2 | Massacre Girl |
+| 6 | 3 | Ajani, Overwrite the Multiverse |
+
+Twenty-four lands, eleven blue sources, nine black, twelve red. The deck wants three lands by turn three and four by turn four; the measured probability of four lands on turn four is 0.62, which is the number that matters for casting Lurker on curve and still holding interaction.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about not falling behind. No Admittance kills a mana creature or a key one-drop and leaves a Jace token behind. Solve for Disappointment strips a threat from hand and adds a loyalty counter. Way of the Pyromancer on turn two is the ideal opener: it empowers two immediately, and from then on every planeswalker can tap for red, which fixes the double-red costs of Violent Echoes and Chandra.
+
+Do not trade the first Jace token away for a surveil. The token is a permanent once Lurker lands, and its loyalty is the fuel for everything else.
+
+## Mid game
+
+Sanctum Lurker is the pivot card and should be cast as soon as you can protect it. From that point:
+
+- Every Jace token gets "[+2]: deal 1 damage to each opponent and you gain 1 life." Activate all of them every turn, in every matchup. This is not a slow clock; it is a free one.
+- Mindseeker Oculus and Keeper of the Quiet Hour refill the loyalty you spend, so the drain never stops.
+- Massacre Girl, Most Wanted turns each ping into a +1/+1 counter, so the same drain that kills your opponent also builds a blocker that blanks their ground attack.
+- The Theorist, Jace Beleren draws on each opponent's draw step, keeping the engine fed while chump-blocking with Illusions that Way of the Deathbringer later converts into 4/4 Beasts.
+
+## The combo turn
+
+The deck's explosive turn is a stack of empower effects on one already-charged planeswalker:
+
+1. Start with a Jace token at two or more loyalty and Lurker on the battlefield.
+2. Cast Jace's Machinations for eight loyalty at instant speed. Loyalty abilities become instant-speed, so the token can ping before combat or in response to removal.
+3. Follow with Violent Echoes on their best creature. Excess damage becomes more loyalty.
+4. Activate "[+2]" on every planeswalker you control, then use Way of the Warlord's "[-4]" on the biggest one for two damage to their face plus two to a creature.
+
+That sequence usually converts eight to twelve loyalty into six to ten points of face damage in a single turn, with all of it coming from noncombat sources, which blanks protection and lifelink blocks.
+
+## Win condition 2
+
+Ajani Unrelenting is the beatdown backup. Once it resolves, every loyalty activation, including the Jace tokens' ping, creates a 2/2 Cadet. Its plus one gives the team +1/+0 and haste, so a board of four tokens and Ajani attacks for twelve out of nowhere. Against decks that answer the drain with enchantment or artifact hate, this is the plan that closes. Chandra, Torch of Defiance covers the same ground through direct damage and her seven-loyalty emblem, which turns every cheap spell into five damage.
+
+## Mulligan guide
+
+- Keep: two or three lands, a two-mana empower spell, and either Lurker or a three-drop that empowers. That is a functioning hand.
+- Keep: Theorist's Sanctum plus any Jace card, since the land enters untapped and starts charging immediately.
+- Throw back: hands with no blue source, hands with only six-drops, and one-land hands even with a two-drop.
+- Never keep a hand that needs both double red and double black by turn four with only basics; the deck's colored requirements are real, and the dual lands are what make them castable.
+
+## Key interactions and edge cases
+
+- Sanctum Lurker's second ability is a continuous effect, not a trigger. A planeswalker at zero loyalty stays on the battlefield and can be activated again as long as you can add loyalty to it, which is what the empower effects are for.
+- The Jace token is legendary-typed by name only in spirit; the tokens are separate objects, so multiple tokens from multiple empower effects all coexist and all ping.
+- Way of the Pyromancer's granted "[+1]: Add {R}" is a loyalty ability, so it also triggers Ajani's Cadet and counts for any "whenever you activate a loyalty ability" effect you add later.
+- Overwrite the Multiverse exiles your own creatures too. Cast it when Lurker and your planeswalkers are already established, or when you are behind on board and need the reset more than the bodies.
+- Violent Echoes only empowers on excess damage. Point it at a one-toughness creature or a planeswalker with low loyalty to cash in the full amount.
+- Massacre Girl triggers on noncombat damage to an opponent, so each separate ping from each separate planeswalker is a separate trigger.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Mono-red and other aggro | Trade early with No Admittance and Violent Echoes, land Lurker, then out-lifegain them with ping triggers. Overwrite the Multiverse is the panic button. |
+| Midrange and typal | The drain ignores blockers. Keep the board clear of the one creature that actually matters and let the ping engine do the work. |
+| Control | Do not overextend into sweepers. The Theorist and Plan for All Outcomes grind card advantage; Jace's Machinations at instant speed lets you activate around their sorcery-speed answers. |
+| Combo and ramp | You are the faster clock only when Lurker lands early. Prioritize discard from Solve for Disappointment and hold Violent Echoes for their engine creature. |
+
+# Deck list (Arena import)
+
+```
+Loyalty Loophole
+Deck
+4 Sanctum Lurker
+3 Mindseeker Oculus
+3 Keeper of the Quiet Hour
+2 Massacre Girl, Most Wanted
+2 Chandra, Torch of Defiance
+1 Ajani Unrelenting
+2 The Theorist, Jace Beleren
+3 Way of the Pyromancer
+2 Way of the Deathbringer
+2 Way of the Warlord
+1 Plan for All Outcomes
+3 No Admittance
+2 Solve for Disappointment
+2 Jace's Machinations
+2 Violent Echoes
+2 Overwrite the Multiverse
+4 Innovative Commons
+2 Theorist's Sanctum
+2 Haunted Ridge
+2 Shipwreck Marsh
+3 Island
+5 Swamp
+6 Mountain
+```
