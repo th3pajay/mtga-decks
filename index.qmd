@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-21**:
+Deck guides published **2026-10-22**:
 
-- **[Loyalty Loophole](decks/2026-10-21-loyalty-loophole.html)** — Blue-Black-Red empower combo — Reality Fracture  `reality-fracture` `empower`
-- **[Drydock Overclock](decks/2026-10-21-drydock-overclock.html)** — Five-colour Station combo — charge counters doubled, hulls online ahead of schedule  `combo` `Station`
+- **[Saddle, Sift, Surge](decks/2026-10-22-saddle-sift-surge.html)** — Green-white-blue-black Mount, Mill and Power-up engine  `combo` `Mount` `Mill` `Power-up`

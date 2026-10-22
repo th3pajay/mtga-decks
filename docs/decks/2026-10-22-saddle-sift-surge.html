@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-22">
+
+<title>Saddle, Sift, Surge – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-phases" id="toc-game-plan-phases" class="nav-link" data-scroll-target="#game-plan-phases">Game plan phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game" id="toc-mid-game" class="nav-link" data-scroll-target="#mid-game">Mid game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Saddle, Sift, Surge</h1>
+<p class="subtitle lead">Green-white-blue-black Mount, Mill and Power-up engine</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">Mount</div>
+    <div class="quarto-category">Mill</div>
+    <div class="quarto-category">Power-up</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 22, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard, 60 cards</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Green, white, blue, black (four colors)</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Mount aggro-combo with a self-mill engine and power-up payoffs</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands, 36 spells, average mana value 2.78</td>
+</tr>
+<tr class="odd">
+<td>Primary win</td>
+<td>Saddled Mount attacks that double +1/+1 counters each combat, with Rogue’s Passage or Restless Cottage closing</td>
+</tr>
+<tr class="even">
+<td>Secondary win</td>
+<td>Riverchurn Monument exhausting twice while The Water Crystal adds four cards to every opposing mill</td>
+</tr>
+<tr class="odd">
+<td>Land as win con</td>
+<td>Rogue’s Passage clears a blocker-free alpha strike; Restless Cottage attacks as a 4/4 that also feeds the graveyard plan</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Three mechanics, one loop. Mount gives the deck repeatable combat triggers that only exist while a creature is saddled. Mill fills the graveyard, and every mill payoff in the deck grows or recurs off graveyard size. Power-up is the payoff that the Mount and Mill halves make cheaper than they look: its cost shrinks by the creature’s own mana cost if that creature entered this turn, so anything you put onto the battlefield during combat is a discount.</p>
+<p>Guardian Sunmare is the card that closes the circle. Whenever it attacks while saddled, you search your library for a nonland permanent with mana value 3 or less and put it directly onto the battlefield. That is a free body every single combat, and because the creature entered this turn, its power-up ability costs its own mana cost less. White Tiger, Ava Ayala enters for {1}{G}, so her power-up drops from {5}{G} to {4}, and it leaves behind The Tiger God, a legendary 4/4 green Cat God that can only be blocked by one creature. Bold Biochemist enters for {1}{U} and its {5}{U} power-up drops to {4} for a counter and two cards.</p>
+<p>The mill half is what makes the combat half lethal. Stubborn Burrowfiend mills two cards every time it becomes saddled and gains +X/+X where X is the number of creature cards in your graveyard. Dark Matter Manipulator mills three on entry and gains +2/+0 for every seven cards in the graveyard. Blossoming Tortoise and Hedge Shredder both mill three and two respectively on attack, and Hedge Shredder puts milled land cards onto the battlefield tapped, which turns milling into ramp. A Burrowfiend that has watched ten creatures go to the yard is a 12/12 for two mana.</p>
+<p>Ornery Tumblewagg converts all of that into a clock. At the beginning of combat it puts a +1/+1 counter on a creature, and whenever it attacks while saddled it doubles the number of +1/+1 counters on target creature. Counters grow geometrically turn after turn while the mill engine keeps converting library cards into Burrowfiend size.</p>
+<p>The alternate kill is a mill-out that costs the opponent their whole library in two activations. Riverchurn Monument’s exhaust ability makes a player mill cards equal to the number of cards in their own graveyard. The Water Crystal adds four to every opposing mill. A player sitting on twenty cards in the graveyard mills twenty four, then the second Monument doubles what remains into the deck’s last card.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Turns</th>
+<th>What you are doing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Seed</td>
+<td>1 to 2</td>
+<td>Land drops, Dark Matter Manipulator (mills three), then a two-drop Mount or White Tiger</td>
+</tr>
+<tr class="even">
+<td>Saddle</td>
+<td>3 to 4</td>
+<td>Ornery Tumblewagg or Stubborn Burrowfiend, hold up Run Over, first saddled attack converts milling into size</td>
+</tr>
+<tr class="odd">
+<td>Engine</td>
+<td>4 to 6</td>
+<td>Guardian Sunmare, Alacrian Armory for free saddles, Blossoming Tortoise and Hedge Shredder widening the graveyard</td>
+</tr>
+<tr class="even">
+<td>Convert</td>
+<td>6 onward</td>
+<td>Doubling counters into Rogue’s Passage, or Riverchurn Monument plus The Water Crystal for the mill kill</td>
+</tr>
+</tbody>
+</table>
+<p>The deck does not need to win a long game, but it does need one clean attack step per turn from turn three onward. Everything that does not add a body, a saddle, or a mill trigger is cut.</p>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Cost</th>
+<th>Role in the engine</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Guardian Sunmare</td>
+<td>{3}{W}{W}</td>
+<td>The engine: free permanent with mana value 3 or less on every saddled attack, which discounts power-up</td>
+</tr>
+<tr class="even">
+<td>Stubborn Burrowfiend</td>
+<td>{1}{G}</td>
+<td>Mill on saddle, then grows with the graveyard it fills</td>
+</tr>
+<tr class="odd">
+<td>Ornery Tumblewagg</td>
+<td>{2}{G}</td>
+<td>Combat counter, then doubles counters when saddled, the deck’s clock</td>
+</tr>
+<tr class="even">
+<td>White Tiger, Ava Ayala</td>
+<td>{1}{G}</td>
+<td>Chevron target for Sunmare, power-up makes a 4/4 The Tiger God</td>
+</tr>
+<tr class="odd">
+<td>Seraphic Steed</td>
+<td>{G}{W}</td>
+<td>Two-drop body that makes a 3/3 Angel token on every saddled attack, tokens pay future saddle costs</td>
+</tr>
+<tr class="even">
+<td>Bold Biochemist</td>
+<td>{1}{U}</td>
+<td>Sunmare target, power-up draws two cards for four mana after entering</td>
+</tr>
+<tr class="odd">
+<td>Blossoming Tortoise</td>
+<td>{2}{G}{G}</td>
+<td>Mills three on entry and attack, returns a land, and makes land abilities cost one less</td>
+</tr>
+<tr class="even">
+<td>Hedge Shredder</td>
+<td>{2}{G}{G}</td>
+<td>Crew 1 attacker that mills two and puts milled lands onto the battlefield tapped</td>
+</tr>
+<tr class="odd">
+<td>Alacrian Armory</td>
+<td>{3}{W}</td>
+<td>Saddles a Mount at the beginning of combat for free, plus vigilance and +0/+1 to the team</td>
+</tr>
+<tr class="even">
+<td>Guidelight Matrix</td>
+<td>{2}</td>
+<td>Cantrips on entry, then saddles a Mount for {2} without tapping a single creature</td>
+</tr>
+<tr class="odd">
+<td>Riverchurn Monument</td>
+<td>{1}{U}</td>
+<td>Repeatable opponent mill, then an exhaust that doubles their graveyard</td>
+</tr>
+<tr class="even">
+<td>The Water Crystal</td>
+<td>{2}{U}{U}</td>
+<td>Adds four cards to every opposing mill, turns two Monuments into a kill</td>
+</tr>
+<tr class="odd">
+<td>Dark Matter Manipulator</td>
+<td>{B}</td>
+<td>One-drop that mills three and scales off graveyard size</td>
+</tr>
+<tr class="even">
+<td>Unliving Legionnaire</td>
+<td>{3}{B}</td>
+<td>Flying body whose power-up returns a creature from the graveyard to hand</td>
+</tr>
+<tr class="odd">
+<td>Run Over</td>
+<td>{1}{G}</td>
+<td>One-mana fight when it targets your Mount, the deck’s main removal</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Count</th>
+<th>Why it is in the deck</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>1</td>
+<td>Four mana makes the counter-stacked attacker unblockable, which is how a doubled creature actually connects</td>
+</tr>
+<tr class="even">
+<td>Restless Cottage</td>
+<td>2</td>
+<td>A 4/4 attacker for {2}{B}{G} that also makes a Food token and exiles a card from a graveyard on attack</td>
+</tr>
+<tr class="odd">
+<td>Bucolic Ranch</td>
+<td>1</td>
+<td>Adds one mana of any color for Mount spells, and looks at the top card for a Mount when you have spare mana</td>
+</tr>
+<tr class="even">
+<td>Forest</td>
+<td>11</td>
+<td>Primary color, all the saddle payoffs are green</td>
+</tr>
+<tr class="odd">
+<td>Plains</td>
+<td>4</td>
+<td>Guardian Sunmare and Alacrian Armory</td>
+</tr>
+<tr class="even">
+<td>Island</td>
+<td>3</td>
+<td>Riverchurn Monument, Bold Biochemist, The Water Crystal</td>
+</tr>
+<tr class="odd">
+<td>Swamp</td>
+<td>2</td>
+<td>Dark Matter Manipulator, Unliving Legionnaire</td>
+</tr>
+</tbody>
+</table>
+<p>Twenty four lands, fourteen green sources, five white, three blue, four black counting Restless Cottage for both green and black. The blue and black cards are all single-pip except The Water Crystal, so the splash is castable; the deck wants a green source in the opening hand every game.</p>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mana value</th>
+<th>Count</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>3</td>
+<td>Dark Matter Manipulator, the cheapest mill trigger in the deck</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>17</td>
+<td>The spine: Burrowfiend, White Tiger, Seraphic Steed, Biochemist, Monument, Run Over, Matrix</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>4</td>
+<td>Ornery Tumblewagg, the doubling engine</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>9</td>
+<td>Sunmare setup turn: Tortoise, Shredder, Armory, Legionnaire, Water Crystal</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>3</td>
+<td>Guardian Sunmare</td>
+</tr>
+</tbody>
+</table>
+<p>Twenty four lands plus a curve that tops out at five gives a measured 0.647 chance of four lands by turn four and a 0.627 goldfish consistency score across the battery runs, with simulated win rates of 58, 54 and 63 percent.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Turn one is Dark Matter Manipulator when you have it: three cards in the graveyard immediately, and a 1/2 that grows into a real attacker once the yard crosses seven and fourteen. Turn two is White Tiger, Seraphic Steed or Stubborn Burrowfiend. Do not run the Burrowfiend out without a plan to saddle it on turn three, because its mill only happens when it becomes saddled.</p>
+<p>Saddling is the cost the deck is built to cheat. Stubborn Burrowfiend and Ornery Tumblewagg both want only two power, so a two-drop plus any token or one-drop pays it. Seraphic Steed and Guardian Sunmare want four, which is why the Angel tokens from the Steed matter: one Angel plus a two-drop saddles the Sunmare every turn afterwards.</p>
+</section>
+<section id="mid-game" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game">Mid game</h2>
+<p>Guardian Sunmare changes the texture of the deck. From the turn it lands, every combat does three things at once: it puts a permanent onto the battlefield for free, it triggers that permanent’s power-up at a discount because the permanent entered this turn, and it grows your board without spending a card. Fetch in this order:</p>
+<ol type="1">
+<li>White Tiger, Ava Ayala when you need a body that cannot be chump blocked forever.</li>
+<li>Bold Biochemist when your hand is empty and you need the two cards.</li>
+<li>Stubborn Burrowfiend when the graveyard is already deep and you want the biggest possible attacker.</li>
+<li>Guidelight Matrix when you have no way to saddle the following turn.</li>
+</ol>
+<p>Alacrian Armory is the second half of that plan. At the beginning of combat it saddles a Mount outright, so a Sunmare, Steed or Burrowfiend attack costs you zero creatures tapped. Every spare copy of Guidelight Matrix does the same job for {2} at sorcery speed.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<p>The turn that usually ends the game:</p>
+<ol type="1">
+<li>Start combat with Ornery Tumblewagg plus one other creature and a Mount that can be saddled.</li>
+<li>Tumblewagg’s beginning-of-combat trigger puts a +1/+1 counter on your best attacker, usually the Sunmare or a Burrowfiend.</li>
+<li>Saddle Tumblewagg (two power) and attack. Its saddled trigger doubles the counters on that creature.</li>
+<li>Sunmare attacks saddled as well, putting White Tiger onto the battlefield, then the postcombat main pays {4} for her power-up for a counter and The Tiger God.</li>
+<li>Activate Rogue’s Passage on whichever creature now has the most counters. Doubling counters plus an unblockable attacker is usually lethal two turns after the first doubling, and the pattern is 1, 4, 10, 22 counters if you keep doubling the same body.</li>
+</ol>
+<p>Blossoming Tortoise makes Rogue’s Passage cost three instead of four, which is often the difference between doubling and connecting in the same turn.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>The mill kill does not care about blockers. Riverchurn Monument mills two to any target for {1} and a tap, and its exhaust ability makes a player mill cards equal to the number of cards in their own graveyard. The Water Crystal makes every opposing mill four cards larger. Sequence:</p>
+<ol type="1">
+<li>Chip the opponent with Monument activations and any Dark Matter Manipulator mills while you build a board. Twenty cards in their graveyard is the target.</li>
+<li>Land The Water Crystal, then exhaust the first Monument: they mill twenty four, going to forty four.</li>
+<li>Exhaust the second Monument: they mill forty eight. Any library under ninety two cards is gone.</li>
+</ol>
+<p>Against decks that gain life or wall up the ground, this is the plan that actually closes, and it costs two cards plus a Monument you were already tapping.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<ul>
+<li>Keep: one or two green sources, a one-drop or two-drop creature, and ideally Run Over or Alacrian Armory to interact.</li>
+<li>Keep: Dark Matter Manipulator plus Stubborn Burrowfiend, the fastest mill start in the deck.</li>
+<li>Keep: Guardian Sunmare hands with three lands and any two-drop, since Sunmare repays the whole curve on its own.</li>
+<li>Throw back: hands with no green source, hands with only Island and Swamp, and hands that need both Sunmare and Water Crystal to function.</li>
+<li>Throw back: one-land hands even with a Manipulator, because the deck cannot afford to miss its third land drop with four colors in the list.</li>
+</ul>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>Power-up discount is evaluated when you activate, not when the creature entered. Guardian Sunmare puts a creature in during combat, so its power-up is still discounted in your second main phase that same turn.</li>
+<li>Saddle only as a sorcery. Alacrian Armory and Guidelight Matrix get around that by making a Mount saddled at the beginning of combat, which is also why they let you attack with every creature instead of tapping saddlers.</li>
+<li>Stubborn Burrowfiend’s mill triggers only the first time it becomes saddled each turn, so saddling it twice in a turn does nothing extra.</li>
+<li>Power-up abilities can be activated once per creature, but a creature that leaves and returns is a new object. Unliving Legionnaire’s power-up returns a creature to hand, and replaying it re-arms its own power-up.</li>
+<li>Hedge Shredder puts milled lands onto the battlefield tapped. With Blossoming Tortoise out, milling becomes ramp, and the Tortoise’s “activated abilities of lands cost {1} less” reduces Rogue’s Passage and Restless Cottage activation costs.</li>
+<li>The Water Crystal only adds four when an opponent would mill. Your own self-mill from Burrowfiend, Tortoise and Shredder is unaffected.</li>
+<li>Riverchurn Monument’s exhaust counts the graveyard at the moment it resolves, so activate it after combat, not before, once you have added anything to their yard.</li>
+<li>Restless Cottage enters tapped. Do not count it as a green source on turn one.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mono-red and other aggro</td>
+<td>Run Over their best attacker, wall with Seraphic Steed’s lifelink and Angel tokens, and race with doubling counters. The deck has no sweepers, so trade early.</td>
+</tr>
+<tr class="even">
+<td>Midrange and typal</td>
+<td>Mill is your friend. Play around their one big blocker by holding Rogue’s Passage mana, and win the long game with The Water Crystal plus Monuments.</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Do not overextend into a sweeper. Keep one Mount in hand, use Sunmare on the turn you cast it, and lean on the mill kill since it needs no board.</td>
+</tr>
+<tr class="even">
+<td>Combo and ramp</td>
+<td>You are the faster clock only with a turn three saddle. Keep Run Over for their engine creature and remember that Riverchurn Monument can win through any board stall.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Saddle, Sift, Surge
+Deck
+4 Stubborn Burrowfiend
+3 Dark Matter Manipulator
+3 White Tiger, Ava Ayala
+4 Ornery Tumblewagg
+3 Seraphic Steed
+3 Guardian Sunmare
+2 Bold Biochemist
+2 Unliving Legionnaire
+2 Blossoming Tortoise
+2 Alacrian Armory
+2 Riverchurn Monument
+2 Hedge Shredder
+2 Run Over
+1 The Water Crystal
+1 Guidelight Matrix
+11 Forest
+4 Plains
+3 Island
+2 Swamp
+2 Restless Cottage
+1 Rogue's Passage
+1 Bucolic Ranch</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

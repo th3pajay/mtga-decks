@@ -1,0 +1,188 @@
+---
+title: "Saddle, Sift, Surge"
+subtitle: "Green-white-blue-black Mount, Mill and Power-up engine"
+date: "2026-10-22"
+categories: ["combo", "Mount", "Mill", "Power-up"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard, 60 cards |
+| Colors | Green, white, blue, black (four colors) |
+| Archetype | Mount aggro-combo with a self-mill engine and power-up payoffs |
+| Size | 60 cards, 24 lands, 36 spells, average mana value 2.78 |
+| Primary win | Saddled Mount attacks that double +1/+1 counters each combat, with Rogue's Passage or Restless Cottage closing |
+| Secondary win | Riverchurn Monument exhausting twice while The Water Crystal adds four cards to every opposing mill |
+| Land as win con | Rogue's Passage clears a blocker-free alpha strike; Restless Cottage attacks as a 4/4 that also feeds the graveyard plan |
+
+# Overview
+
+Three mechanics, one loop. Mount gives the deck repeatable combat triggers that only exist while a creature is saddled. Mill fills the graveyard, and every mill payoff in the deck grows or recurs off graveyard size. Power-up is the payoff that the Mount and Mill halves make cheaper than they look: its cost shrinks by the creature's own mana cost if that creature entered this turn, so anything you put onto the battlefield during combat is a discount.
+
+Guardian Sunmare is the card that closes the circle. Whenever it attacks while saddled, you search your library for a nonland permanent with mana value 3 or less and put it directly onto the battlefield. That is a free body every single combat, and because the creature entered this turn, its power-up ability costs its own mana cost less. White Tiger, Ava Ayala enters for {1}{G}, so her power-up drops from {5}{G} to {4}, and it leaves behind The Tiger God, a legendary 4/4 green Cat God that can only be blocked by one creature. Bold Biochemist enters for {1}{U} and its {5}{U} power-up drops to {4} for a counter and two cards.
+
+The mill half is what makes the combat half lethal. Stubborn Burrowfiend mills two cards every time it becomes saddled and gains +X/+X where X is the number of creature cards in your graveyard. Dark Matter Manipulator mills three on entry and gains +2/+0 for every seven cards in the graveyard. Blossoming Tortoise and Hedge Shredder both mill three and two respectively on attack, and Hedge Shredder puts milled land cards onto the battlefield tapped, which turns milling into ramp. A Burrowfiend that has watched ten creatures go to the yard is a 12/12 for two mana.
+
+Ornery Tumblewagg converts all of that into a clock. At the beginning of combat it puts a +1/+1 counter on a creature, and whenever it attacks while saddled it doubles the number of +1/+1 counters on target creature. Counters grow geometrically turn after turn while the mill engine keeps converting library cards into Burrowfiend size.
+
+The alternate kill is a mill-out that costs the opponent their whole library in two activations. Riverchurn Monument's exhaust ability makes a player mill cards equal to the number of cards in their own graveyard. The Water Crystal adds four to every opposing mill. A player sitting on twenty cards in the graveyard mills twenty four, then the second Monument doubles what remains into the deck's last card.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Seed | 1 to 2 | Land drops, Dark Matter Manipulator (mills three), then a two-drop Mount or White Tiger |
+| Saddle | 3 to 4 | Ornery Tumblewagg or Stubborn Burrowfiend, hold up Run Over, first saddled attack converts milling into size |
+| Engine | 4 to 6 | Guardian Sunmare, Alacrian Armory for free saddles, Blossoming Tortoise and Hedge Shredder widening the graveyard |
+| Convert | 6 onward | Doubling counters into Rogue's Passage, or Riverchurn Monument plus The Water Crystal for the mill kill |
+
+The deck does not need to win a long game, but it does need one clean attack step per turn from turn three onward. Everything that does not add a body, a saddle, or a mill trigger is cut.
+
+## Card roles
+
+| Card | Cost | Role in the engine |
+|---|---|---|
+| Guardian Sunmare | {3}{W}{W} | The engine: free permanent with mana value 3 or less on every saddled attack, which discounts power-up |
+| Stubborn Burrowfiend | {1}{G} | Mill on saddle, then grows with the graveyard it fills |
+| Ornery Tumblewagg | {2}{G} | Combat counter, then doubles counters when saddled, the deck's clock |
+| White Tiger, Ava Ayala | {1}{G} | Chevron target for Sunmare, power-up makes a 4/4 The Tiger God |
+| Seraphic Steed | {G}{W} | Two-drop body that makes a 3/3 Angel token on every saddled attack, tokens pay future saddle costs |
+| Bold Biochemist | {1}{U} | Sunmare target, power-up draws two cards for four mana after entering |
+| Blossoming Tortoise | {2}{G}{G} | Mills three on entry and attack, returns a land, and makes land abilities cost one less |
+| Hedge Shredder | {2}{G}{G} | Crew 1 attacker that mills two and puts milled lands onto the battlefield tapped |
+| Alacrian Armory | {3}{W} | Saddles a Mount at the beginning of combat for free, plus vigilance and +0/+1 to the team |
+| Guidelight Matrix | {2} | Cantrips on entry, then saddles a Mount for {2} without tapping a single creature |
+| Riverchurn Monument | {1}{U} | Repeatable opponent mill, then an exhaust that doubles their graveyard |
+| The Water Crystal | {2}{U}{U} | Adds four cards to every opposing mill, turns two Monuments into a kill |
+| Dark Matter Manipulator | {B} | One-drop that mills three and scales off graveyard size |
+| Unliving Legionnaire | {3}{B} | Flying body whose power-up returns a creature from the graveyard to hand |
+| Run Over | {1}{G} | One-mana fight when it targets your Mount, the deck's main removal |
+
+## Lands as engines
+
+| Land | Count | Why it is in the deck |
+|---|---|---|
+| Rogue's Passage | 1 | Four mana makes the counter-stacked attacker unblockable, which is how a doubled creature actually connects |
+| Restless Cottage | 2 | A 4/4 attacker for {2}{B}{G} that also makes a Food token and exiles a card from a graveyard on attack |
+| Bucolic Ranch | 1 | Adds one mana of any color for Mount spells, and looks at the top card for a Mount when you have spare mana |
+| Forest | 11 | Primary color, all the saddle payoffs are green |
+| Plains | 4 | Guardian Sunmare and Alacrian Armory |
+| Island | 3 | Riverchurn Monument, Bold Biochemist, The Water Crystal |
+| Swamp | 2 | Dark Matter Manipulator, Unliving Legionnaire |
+
+Twenty four lands, fourteen green sources, five white, three blue, four black counting Restless Cottage for both green and black. The blue and black cards are all single-pip except The Water Crystal, so the splash is castable; the deck wants a green source in the opening hand every game.
+
+## Curve and mana
+
+| Mana value | Count | Notes |
+|---|---|---|
+| 1 | 3 | Dark Matter Manipulator, the cheapest mill trigger in the deck |
+| 2 | 17 | The spine: Burrowfiend, White Tiger, Seraphic Steed, Biochemist, Monument, Run Over, Matrix |
+| 3 | 4 | Ornery Tumblewagg, the doubling engine |
+| 4 | 9 | Sunmare setup turn: Tortoise, Shredder, Armory, Legionnaire, Water Crystal |
+| 5 | 3 | Guardian Sunmare |
+
+Twenty four lands plus a curve that tops out at five gives a measured 0.647 chance of four lands by turn four and a 0.627 goldfish consistency score across the battery runs, with simulated win rates of 58, 54 and 63 percent.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one is Dark Matter Manipulator when you have it: three cards in the graveyard immediately, and a 1/2 that grows into a real attacker once the yard crosses seven and fourteen. Turn two is White Tiger, Seraphic Steed or Stubborn Burrowfiend. Do not run the Burrowfiend out without a plan to saddle it on turn three, because its mill only happens when it becomes saddled.
+
+Saddling is the cost the deck is built to cheat. Stubborn Burrowfiend and Ornery Tumblewagg both want only two power, so a two-drop plus any token or one-drop pays it. Seraphic Steed and Guardian Sunmare want four, which is why the Angel tokens from the Steed matter: one Angel plus a two-drop saddles the Sunmare every turn afterwards.
+
+## Mid game
+
+Guardian Sunmare changes the texture of the deck. From the turn it lands, every combat does three things at once: it puts a permanent onto the battlefield for free, it triggers that permanent's power-up at a discount because the permanent entered this turn, and it grows your board without spending a card. Fetch in this order:
+
+1. White Tiger, Ava Ayala when you need a body that cannot be chump blocked forever.
+2. Bold Biochemist when your hand is empty and you need the two cards.
+3. Stubborn Burrowfiend when the graveyard is already deep and you want the biggest possible attacker.
+4. Guidelight Matrix when you have no way to saddle the following turn.
+
+Alacrian Armory is the second half of that plan. At the beginning of combat it saddles a Mount outright, so a Sunmare, Steed or Burrowfiend attack costs you zero creatures tapped. Every spare copy of Guidelight Matrix does the same job for {2} at sorcery speed.
+
+## The combo turn
+
+The turn that usually ends the game:
+
+1. Start combat with Ornery Tumblewagg plus one other creature and a Mount that can be saddled.
+2. Tumblewagg's beginning-of-combat trigger puts a +1/+1 counter on your best attacker, usually the Sunmare or a Burrowfiend.
+3. Saddle Tumblewagg (two power) and attack. Its saddled trigger doubles the counters on that creature.
+4. Sunmare attacks saddled as well, putting White Tiger onto the battlefield, then the postcombat main pays {4} for her power-up for a counter and The Tiger God.
+5. Activate Rogue's Passage on whichever creature now has the most counters. Doubling counters plus an unblockable attacker is usually lethal two turns after the first doubling, and the pattern is 1, 4, 10, 22 counters if you keep doubling the same body.
+
+Blossoming Tortoise makes Rogue's Passage cost three instead of four, which is often the difference between doubling and connecting in the same turn.
+
+## Win condition 2
+
+The mill kill does not care about blockers. Riverchurn Monument mills two to any target for {1} and a tap, and its exhaust ability makes a player mill cards equal to the number of cards in their own graveyard. The Water Crystal makes every opposing mill four cards larger. Sequence:
+
+1. Chip the opponent with Monument activations and any Dark Matter Manipulator mills while you build a board. Twenty cards in their graveyard is the target.
+2. Land The Water Crystal, then exhaust the first Monument: they mill twenty four, going to forty four.
+3. Exhaust the second Monument: they mill forty eight. Any library under ninety two cards is gone.
+
+Against decks that gain life or wall up the ground, this is the plan that actually closes, and it costs two cards plus a Monument you were already tapping.
+
+## Mulligan guide
+
+- Keep: one or two green sources, a one-drop or two-drop creature, and ideally Run Over or Alacrian Armory to interact.
+- Keep: Dark Matter Manipulator plus Stubborn Burrowfiend, the fastest mill start in the deck.
+- Keep: Guardian Sunmare hands with three lands and any two-drop, since Sunmare repays the whole curve on its own.
+- Throw back: hands with no green source, hands with only Island and Swamp, and hands that need both Sunmare and Water Crystal to function.
+- Throw back: one-land hands even with a Manipulator, because the deck cannot afford to miss its third land drop with four colors in the list.
+
+## Key interactions and edge cases
+
+- Power-up discount is evaluated when you activate, not when the creature entered. Guardian Sunmare puts a creature in during combat, so its power-up is still discounted in your second main phase that same turn.
+- Saddle only as a sorcery. Alacrian Armory and Guidelight Matrix get around that by making a Mount saddled at the beginning of combat, which is also why they let you attack with every creature instead of tapping saddlers.
+- Stubborn Burrowfiend's mill triggers only the first time it becomes saddled each turn, so saddling it twice in a turn does nothing extra.
+- Power-up abilities can be activated once per creature, but a creature that leaves and returns is a new object. Unliving Legionnaire's power-up returns a creature to hand, and replaying it re-arms its own power-up.
+- Hedge Shredder puts milled lands onto the battlefield tapped. With Blossoming Tortoise out, milling becomes ramp, and the Tortoise's "activated abilities of lands cost {1} less" reduces Rogue's Passage and Restless Cottage activation costs.
+- The Water Crystal only adds four when an opponent would mill. Your own self-mill from Burrowfiend, Tortoise and Shredder is unaffected.
+- Riverchurn Monument's exhaust counts the graveyard at the moment it resolves, so activate it after combat, not before, once you have added anything to their yard.
+- Restless Cottage enters tapped. Do not count it as a green source on turn one.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Mono-red and other aggro | Run Over their best attacker, wall with Seraphic Steed's lifelink and Angel tokens, and race with doubling counters. The deck has no sweepers, so trade early. |
+| Midrange and typal | Mill is your friend. Play around their one big blocker by holding Rogue's Passage mana, and win the long game with The Water Crystal plus Monuments. |
+| Control | Do not overextend into a sweeper. Keep one Mount in hand, use Sunmare on the turn you cast it, and lean on the mill kill since it needs no board. |
+| Combo and ramp | You are the faster clock only with a turn three saddle. Keep Run Over for their engine creature and remember that Riverchurn Monument can win through any board stall. |
+
+# Deck list (Arena import)
+
+```
+Saddle, Sift, Surge
+Deck
+4 Stubborn Burrowfiend
+3 Dark Matter Manipulator
+3 White Tiger, Ava Ayala
+4 Ornery Tumblewagg
+3 Seraphic Steed
+3 Guardian Sunmare
+2 Bold Biochemist
+2 Unliving Legionnaire
+2 Blossoming Tortoise
+2 Alacrian Armory
+2 Riverchurn Monument
+2 Hedge Shredder
+2 Run Over
+1 The Water Crystal
+1 Guidelight Matrix
+11 Forest
+4 Plains
+3 Island
+2 Swamp
+2 Restless Cottage
+1 Rogue's Passage
+1 Bucolic Ranch
+```
