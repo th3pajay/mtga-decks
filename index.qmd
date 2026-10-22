@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-22**:
 
 - **[Saddle, Sift, Surge](decks/2026-10-22-saddle-sift-surge.html)** — Green-white-blue-black Mount, Mill and Power-up engine  `combo` `Mount` `Mill` `Power-up`
+- **[Omit Everything](decks/2026-10-22-omit-everything.html)** — Sultai self-mill combo — Reality Fracture  `reality-fracture` `surveil`

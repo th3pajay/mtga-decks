@@ -1,0 +1,196 @@
+---
+title: "Omit Everything"
+subtitle: "Sultai self-mill combo — Reality Fracture"
+date: "2026-10-22"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard support) |
+| Colors | Blue, black, green |
+| Archetype | Self-mill graveyard combo, prepared engine, midrange shell |
+| Size | 60 cards, 24 lands, 36 spells |
+| Primary win | Squirming Emergence cheats a 5/5 out of the graveyard on turn three, then Abhorrent Oculus, Tolarian Terror and Balustrade Wurm close with evasion and trample |
+| Secondary win | Hall of Echoes becomes a copy of the biggest creature on board for a lethal extra attacker |
+| Land as engine | Hall of Echoes — {5} turns the land into a copy of a creature you control |
+
+# Overview
+
+The deck mills itself on purpose. Every cheap spell is a mill spell that also does something: Cache Grab
+and Something Worth Saving both dig four cards deep and hand back a permanent, Primal Witchstalker mills
+four and returns a land, and Theorix Metamage enters prepared so its Omit Variables can be cast once for a
+free mill three. That fills the graveyard while keeping the hand stocked.
+
+Once the graveyard has substance, two cards convert it into a board. **Squirming Emergence** returns a
+non-land permanent with mana value less than or equal to the number of permanent cards in the graveyard —
+after two mill spells that ceiling is already four or five, which is exactly where Abhorrent Oculus
+(mv 3, 5/5 flier) and Balustrade Wurm (mv 5, 5/5 trample haste) live. **Abhorrent Oculus** itself is a
+three-mana 5/5 flier that only asks you to exile six cards you were throwing away anyway, and it keeps
+generating bodies with manifest dread on every opponent's upkeep.
+
+The payoff structure is deliberately redundant: the deck can win from the graveyard, from the hand, or
+from the land drop. Nothing in the list depends on a single card surviving.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Setup | 1–2 | Land, then a mill spell. Cache Grab is the default; hold Something Worth Saving if you already have a second copy in hand |
+| Conversion | 3–4 | Squirming Emergence for an Oculus or Wurm, or just cast Oculus off six exiled cards |
+| Consolidation | 5–6 | Rise of the Deathbringer either sweeps a small board or draws five off a 5/5; Hall of Echoes starts copying |
+| Close | 6+ | Two 5/5 fliers, trample, and a copied attacker per turn |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Self-mill engine | Cache Grab, Something Worth Saving, Primal Witchstalker, Theorix Metamage | 12 | Each is card-neutral or better; Witchstalker ramps a land back |
+| Prepared engine | Theorix Metamage // Omit Variables | 2 | Enters prepared, so the mill three is free once; threshold turns it into a 3/4 flier |
+| Reanimation | Squirming Emergence | 4 | The deck's turn-three play; permanent count is the ceiling |
+| Fatties | Abhorrent Oculus, Balustrade Wurm, Tolarian Terror | 10 | 5/5s at 3, 5 and a heavily discounted 7 |
+| Recursion | Balustrade Wurm (delirium), Gallia, Tragic Host (exile a creature card) | 4 | Both come back on their own; Gallia returns with a +1/+1 counter |
+| Interaction | Bitter Triumph, Rise of the Deathbringer | 6 | Bitter Triumph answers anything; Rise is a -3/-3 sweep or a five-card refill |
+| Selection | Stock Up | 2 | Looks at five, keeps two; the cheapest way to find Squirming Emergence |
+| Bodies | Bestial Incursion | 2 | 4/4 trampler now, another one later from flashback |
+
+## Lands as engines
+
+| Land | Count | What it does for the deck |
+|---|---|---|
+| Hall of Echoes | 2 | {5}: becomes a copy of target creature you control, and the legend rule is switched off for the turn. Copy Balustrade Wurm for a second hasty trampler, or copy Oculus to double the manifest engine |
+| Shipwreck Marsh | 2 | Untapped blue-black once you have two other lands |
+| Overgrown Farmland | 2 | Untapped black-green on the same condition |
+| Dreamroot Cascade | 2 | Green-blue, untapped from turn three onward |
+| Forest / Island / Swamp | 16 | Green is the primary (12 green cards), blue and black are close behind |
+
+The three duals are the "two or more other lands" cycle on purpose: this deck owns no planeswalkers, so
+the Annex and Commons cycle would enter tapped every single game. Swapping them out was the last
+correction of the build.
+
+## Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 | 5 | 7 |
+|---|---|---|---|---|---|---|
+| Cards | 0 | 14 | 10 | 2 | 6 | 2 |
+
+Twenty-four lands with fourteen two-drops: the deck keeps one-land hands far more often than it keeps
+zero-one-drops hands, and P(four lands by turn four) sits at 0.63. Tolarian Terror is listed at seven but
+usually costs two or three after a couple of mill spells. Average mana value is 2.8, which is why the deck
+can afford four Rise of the Deathbringer at five.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a mill spell, not on a body. Cache Grab into Cache Grab is a fine opening because it puts eight
+cards in the graveyard and returns two permanents to hand. Against fast creature decks, spend Bitter
+Triumph early and accept the three life; the deck has no other way to interact before turn four.
+
+Do not cast Squirming Emergence on turn three into an empty graveyard. It needs the permanent count, so
+sequence mill first, Emergence second — by then the ceiling is usually four.
+
+## The combo turn
+
+The deck's "combo" is a two-card conversion, not an infinite loop:
+
+1. Graveyard holds four or more permanent cards (two mill spells does it).
+2. Squirming Emergence returns Abhorrent Oculus or Balustrade Wurm directly to the battlefield.
+3. Oculus immediately starts manifesting dread on the opponent's upkeep; Wurm attacks the turn it lands
+   because it has haste.
+4. Rise of the Deathbringer then converts the resulting board into cards — draw equal to the greatest
+   power, so five off a 5/5, at instant speed.
+
+A resolved Oculus plus a second mill spell is usually enough: 5/5 fliers end games in this format, and
+each manifest dread either adds a 2/2 or bins another card for the next Emergence.
+
+## Win condition 2 — Hall of Echoes
+
+Hall of Echoes is a real win condition, not a utility land. For {5} it becomes a copy of the best creature
+you control until end of turn, and the legend rule does not apply that turn.
+
+- Copy Balustrade Wurm: a second 5/5 with trample and haste, immediately.
+- Copy Abhorrent Oculus: a second 5/5 flier, which also means a second manifest trigger.
+- Copy Gallia, Tragic Host: a second menace body for the last few points.
+
+Because the copy is a land until end of turn, it also survives sorcery-speed sweepers aimed at creatures.
+
+## Mulligan guide
+
+| Hand | Keep? | Reason |
+|---|---|---|
+| Two lands, one mill spell, one three-drop | Yes | The deck functions on three lands for two turns |
+| One land, Cache Grab | Yes on the play only | Cache Grab digs for land two |
+| Five lands, no mill | No | Nothing to do until turn five |
+| Oculus plus Squirming Emergence, no mill | No | Both need a stocked graveyard |
+| Hall of Echoes, three lands, two mill spells | Yes | The land is the finisher here |
+
+## Key interactions and edge cases
+
+- **Abhorrent Oculus' additional cost** is paid on cast, so a countered Oculus still costs you six cards.
+  Only cast it when the graveyard is expendable — after Squirming Emergence has already taken what it needs.
+- **Squirming Emergence counts permanent cards**, not total cards. Instants and sorceries in the graveyard
+  do not raise the ceiling, but they do lower Tolarian Terror's cost, so the two plans pull in the same
+  direction.
+- **Balustrade Wurm's delirium recursion** wants four card types in the graveyard. Mill spells plus lands
+  plus creatures usually get there by turn five; the instant count (Bitter Triumph, Rise) supplies the fourth.
+- **Theorix Metamage is only prepared once.** The mill three is a single free cast, not a repeatable engine;
+  its real value afterwards is a 3/4 flier once threshold is on.
+- **Gallia exiles a creature card** as part of her recursion cost, which can shrink Squirming Emergence's
+  ceiling. Recursion and reanimation compete for the same resource — choose which one you are spending on.
+- **Rise of the Deathbringer's first mode costs life** equal to cards drawn; at five cards off a 5/5 that is
+  a real cost when you are below eight.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Board first, mill second. Bitter Triumph on their best attacker, Rise of the Deathbringer as a -3/-3 sweep, then Oculus blocks everything |
+| Control | Mill aggressively and keep a second threat in hand; the deck loses to a single sweeper only if it over-commits. Hall of Echoes is the answer to sorcery-speed removal |
+| Midrange | Race with Oculus and Wurm; their removal is one-for-one against a deck that rebuilds from the graveyard |
+| Combo | No countermagic, so the plan is speed: turn-three Emergence into a 5/5 flier plus Rise of the Deathbringer for reach |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | First 60: full mill package with Verdant Kraken top end, Twinned Vision, Insidious Roots, Silence the Echo | sim 50.7, T4 0.621, P(4L) 0.617, synergy 71.6 |
+| v1 → v2 | -2 Verdant Kraken, -2 Silence the Echo, -1 Darklight Phoenix, -2 Twinned Vision, -2 Insidious Roots; +2 Rise of the Deathbringer, +2 Gallia, Tragic Host, +2 Stock Up, +1 Danitha, Spear of Agony | sim 50.7 → 51.7, T4 0.621 → 0.645, P(4L) 0.617 → 0.647, synergy 71.6 → 72.4 |
+| v2 → v3 | -1 Danitha, Spear of Agony, -1 Diresight; +1 Abhorrent Oculus, +1 Squirming Emergence (engine density); then -2 Theorix Annex, -2 Formidable Commons, -2 Transformative Commons, +2 Shipwreck Marsh, +2 Overgrown Farmland, +2 Dreamroot Cascade (the deck runs no planeswalkers, so the Annex/Commons cycle entered tapped every game) | sim 51.7 → 51.0 (reruns ranged 46.3–51.7), T4 0.632, P(4L) 0.625, synergy 71.5 |
+
+The build stopped at three rounds. Simulation win rate is the one gate that never cleared with margin:
+the same 60 cards measured between 46 and 52 across repeats, so the shell sits right on the 52 threshold
+rather than safely above it. Every other gate (size, legality, rotation, synergy, goldfish consistency,
+land drop probability) passed on every run.
+
+# Deck list (Arena import)
+
+```text
+Omit Everything
+Deck
+4 Cache Grab
+4 Something Worth Saving
+2 Bitter Triumph
+2 Gallia, Tragic Host
+2 Theorix Metamage
+2 Primal Witchstalker
+2 Stock Up
+4 Squirming Emergence
+4 Abhorrent Oculus
+2 Bestial Incursion
+2 Balustrade Wurm
+4 Rise of the Deathbringer
+2 Tolarian Terror
+2 Hall of Echoes
+2 Shipwreck Marsh
+2 Overgrown Farmland
+2 Dreamroot Cascade
+6 Forest
+6 Island
+4 Swamp
+```
