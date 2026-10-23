@@ -1,0 +1,179 @@
+---
+title: "Sapwood Foundry"
+subtitle: "Naya prepared-artifact combo — Reality Fracture"
+date: "2026-10-23"
+categories: ["reality-fracture", "heartwood"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana support) |
+| Colors | Red, green, white (Naya) |
+| Archetype | Prepared-artifact combo, aggressive midrange shell |
+| Size | 60 cards, 24 lands, 36 spells |
+| Primary win | Craterclaw Colossus: a board of Heartwood tokens turns its enters trigger into trample plus a team-wide power spike |
+| Secondary win | Aerid Konstrari grows by the number of artifacts you control; Hall of Echoes copies it for a second flier |
+| Land as engine | Hall of Echoes copies the biggest creature for {5}; Restless Ridgeline is a 3/4 attacker that pumps and untaps a friend |
+
+# Overview
+
+Every creature in the engine is a spell in disguise. The Reality Fracture prepared creatures — Heartwood Crafter,
+Konstrari Improviser, Woodwork Prodigy and Blossom-Blessed Angel — enter the battlefield prepared, which means the
+sorcery printed on their back face can be cast once for free. This deck's back face is **Soul Tether**, a
+`{2}{R/G}` sorcery that makes a Heartwood token: a red and green artifact with `{T}: Add {R} or {G}`.
+
+That single loop supplies everything the deck wants. Heartwood tokens are mana, so the deck reaches five, six and
+seven mana without playing a ramp spell. They are also artifacts, which is the number Craterclaw Colossus reads, and
+the number Aerid Konstrari reads. Twelve creatures produce tokens, so the artifact count climbs on its own:
+Woodwork Prodigy re-prepares during your upkeep, which means one free Heartwood every turn from a single three-drop.
+
+The white half is small and load-bearing. Blossom-Blessed Angel is the second prepared body — a 2/4 flier with
+vigilance that hands out a free +1/+1 counter and a life — and the equipment in the list is both a real pump and
+artifact padding for the two payoff creatures.
+
+Nothing here is a fragile two-card combo: every piece advances the artifact count itself, so answering one creature
+slows the engine rather than stopping it.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Setup | 1–2 | Heartwood Crafter or Marwyn on one, Konstrari Improviser on two. Cast the free Soul Tether the turn the body lands |
+| Build | 3–4 | Woodwork Prodigy, then Traxos or Aerid Konstrari. Every upkeep adds another Heartwood |
+| Conversion | 5–6 | Craterclaw Colossus: by now the artifact count is five to eight, so the team attacks for lethal |
+| Close | 6+ | Hall of Echoes copies Aerid or Craterclaw; Restless Ridgeline finishes through a stall |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Prepared engine | Heartwood Crafter, Konstrari Improviser, Woodwork Prodigy | 12 | Each carries Soul Tether; Prodigy re-prepares every upkeep, so it is the repeatable one |
+| Second prepared body | Blossom-Blessed Angel | 2 | Enters prepared; Seed Suture is a free counter and a life |
+| Artifact payoff | Craterclaw Colossus | 3 | Team trample and +X/+0 where X is your artifact count, including itself |
+| Artifact payoff and flier | Aerid Konstrari | 2 | 4/4 flying; makes a Heartwood on entry and on death; {6} turns the count into power |
+| Artifact bodies | Traxos, Scourge Eternal, Afterthought Sentry | 4 | Traxos untaps whenever an artifact or creature spell is cast; the Sentry is a two-mana artifact that flies |
+| Artifact utility | Hunter's Axe, Warrior's Blades, Solitary Cell | 7 | Equipment pads the count while pumping; Solitary Cell removes a cheap permanent and stays as an artifact |
+| Card flow | Marwyn, the Clearcutter | 2 | Sacrifices a spare Heartwood or a spent land to draw |
+| Interaction | Konstrari Charm, Solitary Cell | 6 | Charm kills a flier, wins a combat, or adds {C}{C}{C} |
+
+## Lands as engines
+
+| Land | Count | What it does for the deck |
+|---|---|---|
+| Hall of Echoes | 1 | {5}: becomes a copy of target creature you control, and the legend rule is off for the turn. Copy Craterclaw for a second pump trigger, or copy Aerid for two fliers |
+| Restless Ridgeline | 3 | A red-green dual that becomes a 3/4 Dinosaur, and every attack gives another attacker +2/+0 and untaps it. It is the second win condition on its own |
+| Stomping Ground | 4 | Untapped red-green for two life; the deck's most important dual because the engine is green with red payoffs |
+| Sacred Foundry, Temple Garden | 4 | White sources that do not cost a turn, for Blossom-Blessed Angel, Warrior's Blades and Solitary Cell |
+| Forest, Mountain, Plains | 12 | Green is the base; eight red cards and five white cards are the splashes |
+
+## Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 | 7 |
+|---|---|---|---|---|---|
+| Cards | 9 | 12 | 4 | 8 | 3 |
+
+Twenty-four lands, nine one-drops and twelve two-drops: the deck almost always has a play on turn one and two, which
+is what keeps the goldfish consistency at 0.638 and P(four lands by turn four) at 0.623. Craterclaw Colossus is listed
+at seven, but Heartwood tokens mean it usually lands on turn five. The functional average is under three.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a prepared body, not with equipment. Heartwood Crafter on one is the ideal curve: it enters prepared, so
+turn one is a 1/1 plus a Heartwood token, and from then on every Soul Tether copy is a free mana rock. Its own
+`{T}: Add {C}` cannot pay for spells cast from your hand, so treat that ability as a bonus rather than a plan.
+
+Konstrari Improviser on two is the stronger clock — a 2/2 plus a token. Hold Woodwork Prodigy until you can protect
+it; it is the only repeatable token source and opponents will point removal at it. Do not trade Heartwood tokens for
+damage early: they are the mana that casts Craterclaw, and they are the number Craterclaw and Aerid read.
+
+## The combo turn
+
+The kill is a mass pump, not an infinite loop:
+
+1. Untap with five or more artifacts on the battlefield — in practice three Heartwoods plus an equipment and a body.
+2. Cast Craterclaw Colossus for `{4}{R}{R}{R}`. Its trigger counts artifacts you control as it resolves, itself included.
+3. The whole team gains trample and gets +X/+0. With six artifacts that is a 5/5 haste trampler plus every other
+   creature swinging for six more than printed.
+4. Konstrari Charm's second mode adds two counters and trample to whichever creature is being chump-blocked.
+
+Against a board stall, add Hall of Echoes: for {5} the land becomes a second Craterclaw, which fires the pump trigger
+again and stacks a second trample bonus on the same attack.
+
+## Win condition 2 — Aerid Konstrari and the manland
+
+Aerid Konstrari is a 4/4 flier for four that makes a Heartwood when it enters and another when it dies, and its
+{6} ability converts the artifact count into power. With six artifacts it attacks as a 10/4 flier, which races any
+ground deck. Hall of Echoes copying Aerid is the cleanest finisher in the deck: the copy is a land until end of turn,
+so sorcery-speed creature removal does not answer it.
+
+Restless Ridgeline is the third route. Three mana turns it into a 3/4, and each attack gives another attacker +2/+0
+and untaps it — a loop of small advantages that closes games where the big creatures were answered.
+
+## Mulligan guide
+
+| Hand | Keep? | Reason |
+|---|---|---|
+| Two lands, Heartwood Crafter, Konstrari Improviser | Yes | The engine starts on turn one and the tokens fix the rest |
+| One land, one one-drop, one two-drop | Yes on the play | Nine one-drops make this a real hand |
+| Five lands, one payoff, no engine | No | The payoffs read a count that nothing is building |
+| Craterclaw plus two equipment, no creatures | No | Equipment without bodies is just artifacts and no clock |
+| Woodwork Prodigy, three lands, Konstrari Charm | Yes | Prodigy alone produces a token every turn from turn four |
+
+## Key interactions and edge cases
+
+- **Prepared is one-shot per preparation.** Casting the Soul Tether copy unprepares the creature. Only Woodwork
+  Prodigy re-arms itself, and only during your upkeep, so a Prodigy killed at sorcery speed costs you the future
+  tokens, not just the body.
+- **Craterclaw counts artifacts as it resolves.** Sacrificing a Heartwood to Marwyn in response lowers X, so make
+  the draw decision before combat, not during it.
+- **Aerid Konstrari's pump is a one-shot.** The +X/+0 lasts until end of turn; the Heartwood it makes does not.
+- **Traxos, Scourge Eternal does not untap on its own.** It untaps when you cast an artifact or creature spell, so a
+  turn with only Konstrari Charm leaves it tapped on defence.
+- **Solitary Cell is an artifact first.** It exiles a permanent with mana value three or less until it leaves, so
+  destroying your own Cell returns their permanent — and it counts for Craterclaw while it sits there.
+- **Restless Ridgeline enters tapped.** Do not count it as a turn-one red source; lead on Stomping Ground when you need
+  red immediately.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade early with Konstrari Charm and Solitary Cell, then land Blossom-Blessed Angel as a blocker that also grows. The deck wants the game to reach turn five |
+| Control | Hold Woodwork Prodigy until they tap out, and keep a second prepared body in hand. Hall of Echoes and Restless Ridgeline dodge sorcery-speed sweepers |
+| Midrange | Race with Aerid plus tokens; their removal is one-for-one against a deck that rebuilds the count every turn |
+| Combo | No countermagic, so the plan is speed: tokens on turns one and two, Craterclaw on five, and Konstrari Charm's six damage for a key flier |
+
+# Deck list (Arena import)
+
+```text
+Sapwood Foundry
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+4 Woodwork Prodigy
+2 Aerid Konstrari
+2 Blossom-Blessed Angel
+3 Craterclaw Colossus
+2 Traxos, Scourge Eternal
+2 Marwyn, the Clearcutter
+4 Konstrari Charm
+3 Hunter's Axe
+2 Solitary Cell
+2 Warrior's Blades
+2 Afterthought Sentry
+1 Hall of Echoes
+3 Restless Ridgeline
+4 Stomping Ground
+2 Sacred Foundry
+2 Temple Garden
+7 Forest
+3 Mountain
+2 Plains
+```

@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-23**:
 
+- **[Sapwood Foundry](decks/2026-10-23-sapwood-foundry.html)** — Naya prepared-artifact combo — Reality Fracture  `reality-fracture` `heartwood`
 - **[Chart the Redline](decks/2026-10-23-chart-the-redline.html)** — White-Blue-Black-Red | Discover, Plan counters and Start your engines!  `combo` `Discover` `Plan counter` `Start your engines!`
