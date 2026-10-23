@@ -1,0 +1,136 @@
+---
+title: "Chart the Redline"
+subtitle: "White-Blue-Black-Red | Discover, Plan counters and Start your engines!"
+date: "2026-10-23"
+categories: ["combo", "Discover", "Plan counter", "Start your engines!"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (60 cards) |
+| Colors | White, Blue, Black, Red |
+| Archetype | Discover midrange with a speed clock |
+| Primary win | Combat damage amplified at max speed (Far Fortune, End Boss plus Pride of the Road) |
+| Secondary win | Death to Our Enemies burn plus Quintorius Kand pings off Discover casts |
+| Mechanics | Discover, Plan counters, Start your engines! |
+
+## Overview
+
+Three mechanics share one engine. **Discover** is the deck's card advantage and its free-spell faucet: Geological Appraiser, Caparocti Sunborn, Quintorius Kand and Curator of Sun's Creation all dig for a nonland card and cast it without paying its cost. **Plan counters** are the deck's tickers: four enchantments, each counting a different event the deck already produces, and each cashing out into a burst. **Start your engines!** is the clock: the speed track climbs once per turn whenever an opponent loses life, and at max speed the entire board upgrades.
+
+The joins are real, not cosmetic:
+
+- Every spell Discovered is cast *from exile*, so Quintorius Kand pings each opponent for 2 and gains you 2. That ping is also a life-loss event, which advances speed.
+- Every noncreature spell you cast (including a Discovered enchantment, a copied spell, or a Treasure-spending sorcery) adds a plan counter to Death to Our Enemies and makes a tapped Treasure, which pays for the next spell.
+- Every creature that enters triggers Political Triumph (scry plus counter) and Caparocti's tap-two cost, so the token makers feed the Discover engine.
+- Discarding creature cards to Rewrite History and Kickoff Celebrations, and creatures dying in combat, put creature cards into the graveyard for Robot Domination, whose three counters turn into three Robot Villain tokens that attack for amplified damage.
+
+## Approach
+
+### Game plan by phase
+
+| Phase | What you are doing | Key cards |
+|---|---|---|
+| Turns 1 to 2 | Land a ticker and start the engine. Speed 1 is fine; you only need one life-loss event per turn to climb. | Political Triumph, Gas Guzzler, Gastal Thrillseeker, Slick Imitator |
+| Turns 3 to 4 | Convert tickers and start Discovering. Appraiser is the first real chain; Curator doubles it. | Geological Appraiser, Death to Our Enemies, Robot Domination, Curator of Sun's Creation |
+| Turns 5 and later | Cash out: max speed online, Far Fortune amplifies every point, then Pride of the Road doubles a finisher. | Far Fortune, End Boss, Pride of the Road, Quintorius Kand, The Speed Demon |
+
+### Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Discover engines | Geological Appraiser x4, Caparocti Sunborn x2, Curator of Sun's Creation x2, Quintorius Kand x2 | Appraiser is the workhorse at four mana; Caparocti repeats every attack by tapping two artifacts or creatures (Treasures count for the artifact half) |
+| Plan tickers | Political Triumph x3, Death to Our Enemies x3, Rewrite History x2, Robot Domination x3 | One ticker per event type: creatures entering, noncreature spells, creatures tapping, creature cards to the yard |
+| Speed starters and enablers | Gastal Thrillseeker x3, Gas Guzzler x2, Embalmed Ascendant x2, Slick Imitator x2 | Thrillseeker deals the first point on entry, which is all speed needs |
+| Finishers | Far Fortune, End Boss x3, Pride of the Road x1, The Speed Demon x2 | Far Fortune turns every point of damage into two at max speed |
+| Card selection | Rewrite History, Kickoff Celebrations, Political Triumph scry, The Speed Demon | The deck wins on velocity, not on answers |
+
+### Lands as engines
+
+| Land | Copies | What it does for the deck |
+|---|---|---|
+| Soulstone Sanctuary | 2 | The land that wins games. Four mana turns it into a 3/3 vigilant creature with all creature types, so it attacks, triggers Political Triumph on the way in, and gets the Far Fortune bonus. Colorless, so no color cost. |
+| Amonkhet Raceway | 1 | Starts your engines on turn one without spending a spell, and at max speed taps for haste, which is how the alpha strike lands the turn you commit. |
+| Avishkar Raceway | 1 | Second engines starter; at max speed it loots, which is exactly what a deck full of four-drops wants from a spare land. |
+| Starting Town | 4 | Untapped on turns one through three, then any color for one life. This is the glue of a four-color manabase built on basics. |
+| Public Thoroughfare | 3 | Any color if you can tap an artifact or land. Never play it as your first land; play it behind something, or behind a Treasure. |
+| Command Bridge | 2 | Any color if you can tap an untapped permanent. Best on turn three or later, with a token or a land to tap. |
+
+### Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Spells | 5 | 5 | 7 | 15 | 4 |
+
+Average mana value 3.2 across 36 spells. Twenty-four lands, eleven of them basics (4 Mountain, 3 Swamp, 2 Plains, 2 Island) and nine that produce any color. The deck is red-black at heart with a white finisher package and a light blue splash for looting, so lean on Mountain and Swamp early and use the any-color lands for the white and blue cards. Rewrite History's fourth counter almost never matters in this build (the deck runs no instants or sorceries to rebuy), so treat it as a three-mana looting engine that also fills the graveyard for Robot Domination.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with a ticker over a body when you have the choice. Political Triumph on turn one means every subsequent creature is scry plus a counter, and the fourth creature in the line turns into a team-wide +1/+1 counter plus a card. Death to Our Enemies wants you to keep casting noncreature spells, so hold it until you can follow with two or three; each one makes a tapped Treasure, which is what pays for your four-drops. Gastal Thrillseeker is the cleanest turn-two play: it deals the point of damage that puts speed on the board and it becomes a deathtouch haste attacker the moment you hit max speed.
+
+### Mid game
+
+Geological Appraiser is the pivot. Cast it, discover 3, and cast whatever you flip. If Curator of Sun's Creation is already down, Discover twice on the same turn: two free spells, two Quintorius triggers if the planeswalker is out, and a plan counter on Death to Our Enemies for each noncreature hit. Robot Domination is the attrition engine: every creature card that reaches your yard draws you a card and adds a counter, and the third counter turns into three 2/2 Robot Villain tokens that attack under Far Fortune's amplifier.
+
+### The combo turn
+
+The deck's burst turn looks like this: Caparocti Sunborn attacks, you tap two Treasures or tokens to discover 3, Curator doubles it to a second discover 3, both spells are cast from exile, Quintorius Kand pings each opponent for 2 twice, Death to Our Enemies takes two counters and makes two tapped Treasures, and speed climbs to 4. From there Far Fortune makes every subsequent point of damage one bigger. On a developed board that is usually lethal in one attack step, and Pride of the Road gives any single attacker double strike at the beginning of combat.
+
+### Win condition two
+
+When the board stalls, burn them out. Death to Our Enemies cashes its fourth counter for 7 damage divided among one or two targets, and Quintorius Kand converts each Discover into 2 to each opponent. Two Appraisers plus a Curator is 8 damage to each opponent from the planeswalker alone, and the Treasures those casts generate keep the chain going. The Speed Demon is the last piece of reach: flying, trample, and at end of turn it draws and drains you for your speed, which is card advantage that costs life you have usually already spent.
+
+### Mulligan guide
+
+Keep hands with two to four lands, at least one any-color land, and one ticker or one two-drop. Starting Town plus Public Thoroughfare is a fine base. Ship hands with no red or black source, and ship hands of five lands. Do not keep a one-lander that needs a specific color on turn two.
+
+### Key interactions and edge cases
+
+- Public Thoroughfare and Command Bridge are sacrifices if you cannot tap something. Play them as lands two through four, never as land one, and remember a Treasure token is a legal tap for Public Thoroughfare.
+- Geological Appraiser's Discover only triggers if you cast it. A token copy made by Slick Imitator will not discover.
+- Curator of Sun's Creation triggers once each turn, so stack the biggest Discover last if you get a choice.
+- Discovered cards are cast, so they count as noncreature spells for Death to Our Enemies and as spells from exile for Quintorius.
+- Plan enchantments sacrifice themselves when the final counter is put on. Political Triumph and Death to Our Enemies are the two you most want to fire in the same turn as a lethal swing.
+- Soulstone Sanctuary's animation costs four mana and does not end; activate it on the opponent's end step when you have mana spare so it can attack with vigilance and still block.
+- Amonkhet Raceway's max-speed ability gives haste, which lets a freshly cast Far Fortune attack immediately for the extra point, and lets you animate Soulstone Sanctuary and swing in the same turn.
+
+### Matchups
+
+Against aggro, your plan tickers are slower than their clock, so trade early and let Embalmed Ascendant's Zombie token plus Gastal Thrillseeker's deathtouch at max speed do the blocking, then win with the amplified swing. Against control, cast your Discover creatures into open mana and keep Death to Our Enemies in hand as a threat that punishes them for tapping out; Quintorius Kand is your best card because every Discover becomes uncounterable reach. Against midrange, Robot Domination is the engine that wins the long game, and Soulstone Sanctuary plus Amonkhet Raceway let you attack from a board that looks empty.
+
+## Deck list (Arena import)
+
+```
+Chart the Redline
+Deck
+3 Political Triumph
+2 Gas Guzzler
+3 Gastal Thrillseeker
+2 Slick Imitator
+3 Death to Our Enemies
+2 Rewrite History
+2 Embalmed Ascendant
+4 Geological Appraiser
+2 Curator of Sun's Creation
+3 Robot Domination
+3 Far Fortune, End Boss
+2 Caparocti Sunborn
+1 Pride of the Road
+2 Quintorius Kand
+2 The Speed Demon
+4 Starting Town
+3 Public Thoroughfare
+2 Command Bridge
+2 Soulstone Sanctuary
+1 Amonkhet Raceway
+1 Avishkar Raceway
+4 Mountain
+3 Swamp
+2 Plains
+2 Island
+```
