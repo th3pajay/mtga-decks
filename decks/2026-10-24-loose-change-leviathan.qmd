@@ -1,0 +1,163 @@
+---
+title: "Loose Change Leviathan"
+subtitle: "Five-color Treasure x Increment x Void combo — crack the coin, feed the counters"
+date: "2026-10-24"
+categories: ["combo", "treasure", "increment", "void"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Five-color (white, blue, black, red, green) |
+| Archetype | Midrange combo / value engine |
+| Size | 60 cards, 24 lands |
+| Rolled mechanics | Treasure, Increment, Void |
+| Primary win | Fractal and Increment swarm, made unblockable by Rogue's Passage |
+| Secondary win | Alpharael, Stonechosen halving life totals on a Void-enabled attack |
+| Tertiary | Magda's 4/4 flying haste Scorpion Dragon from three Treasures |
+| Nonland curve | 5 at one, 4 at two, 18 at three, 6 at four, 3 at five |
+| Average nonland cost | 2.94 |
+
+# Overview
+
+Three mechanics that look unrelated turn out to be one machine, because a **Treasure token is a nonland permanent that leaves the battlefield**, and the mana it produces is still *mana spent*.
+
+- **Void** turns on whenever "a nonland permanent left the battlefield this turn." Cracking a single Treasure satisfies it. That makes every Void card in the deck live from turn two onward instead of depending on a sacrifice theme.
+- **Increment** triggers whenever you cast a spell and the mana you spent is greater than the creature's power or toughness. A 0/2 like `Pensive Professor` increments off *any* spell — including one paid for entirely with Treasure. Mana source is irrelevant; only the amount matters.
+- **Treasure** is therefore both the Void switch and the Increment fuel, and it fixes five colors on a basic-land manabase.
+
+The result is a deck that spends its early turns making and cracking coin, its middle turns drawing two cards a turn off `Pensive Professor`, and its final turns swinging with a Fractal the size of a house that cannot be blocked.
+
+Two cards carry the counters engine. `Berta, Wise Extrapolator` is a 1/4, so any two-mana spell increments her, and every counter she receives adds one mana of any color — she is the deck's five-color glue. `Pensive Professor` at 0/2 draws a card every single time she increments, which is every spell.
+
+Void supplies the alternate clock. `Alpharael, Stonechosen` makes a defending player lose half their life, rounded up, on attack while Void is live — two attacks and the game is over regardless of blockers. `Elegy Acolyte` turns the same condition into a Robot every end step and draws on combat damage.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Build the coin engine (turns 1-3).** Land `Ambitious Augmenter`, `Magda, the Hoardmaster`, `Discerning Financier`, or `Goldvein Hydra` on two. `Discerning Financier` is the most reliable Treasure in the deck because an opponent almost always has more lands than a five-color deck on turn three. `Seize the Spoils` and `Redcap Thief` keep the coin flowing while digging for the counter creatures.
+2. **Turn coin into cards and counters (turns 3-5).** Resolve `Pensive Professor`, `Berta, Wise Extrapolator`, and `Topiary Lecturer`. From here every spell is a cantrip off the Professor, and every Treasure cracked is a Void trigger. Hold mana up: cracking Treasure is an instant-speed action, so you can make Void live during your own combat step.
+3. **Convert (turns 5+).** Grow a Fractal with Berta, or land `Fractal Tender` for a free 3/3 Fractal every end step, then clear a path with `Rogue's Passage`. If the board stalls, attack with `Alpharael` instead — half of a life total does not care about blockers.
+
+## Card roles
+
+| Card | Copies | Cost | Role |
+|---|---|---|---|
+| Pensive Professor | 4 | {1}{U}{U} | Engine — 0/2 increments on any spell, draws a card each time |
+| Berta, Wise Extrapolator | 3 | {2}{G}{U} | Engine and fixer — 1/4, counter gives any color, makes X/X Fractals |
+| Ambitious Augmenter | 3 | {G} | Enabler — 1/1, dies into a Fractal carrying its counters |
+| Cuboid Colony | 2 | {G}{U} | Enabler — flash 1/1 flier with trample, increments on three-mana spells |
+| Topiary Lecturer | 2 | {2}{G} | Ramp — taps for green equal to its power, grows every big spell |
+| Textbook Tabulator | 1 | {2}{U} | Filter — 0/3, surveil 2 on entry |
+| Fractal Tender | 1 | {3}{G}{U} | Payoff — 3/3 ward, makes a 3/3 Fractal every end step it was incremented |
+| Seize the Spoils | 3 | {2}{R} | Engine — draw two, discard one, make a Treasure (three-mana Increment trigger) |
+| Magda, the Hoardmaster | 2 | {1}{R} | Enabler and payoff — Treasures on a crime, three Treasures become a 4/4 flier |
+| Redcap Thief | 2 | {2}{R} | Enabler — 2/3 that brings a Treasure with it |
+| Goldvein Hydra | 2 | {X}{G} | Both halves — X counters on entry, dies into X Treasures |
+| Elegy Acolyte | 2 | {2}{B}{B} | Void payoff — 4/4 lifelink, Robot every end step, draws on damage |
+| Alpharael, Stonechosen | 2 | {3}{B}{B} | Win condition 2 — Void attack halves a life total |
+| Insatiable Skittermaw | 2 | {2}{B} | Void payoff — 2/2 menace that grows every Void turn |
+| Temporal Intervention | 2 | {2}{B} | Interaction — discard for two less with Void, also a crime for Magda |
+| Discerning Financier | 2 | {2}{W} | Enabler — upkeep Treasure, turns spare coin into cards |
+| Beza, the Bounding Spring | 1 | {2}{W}{W} | Value — 4/5 that pays out on every "opponent has more" check |
+
+## Lands as engines
+
+| Land | Count | What it does for the combo |
+|---|---|---|
+| Rogue's Passage | 2 | The win-condition land. Four mana and a tap makes the biggest Fractal or Alpharael unblockable, converting an arbitrarily large board into lethal |
+| Fountainport | 2 | Adds colorless, converts a spare token into a card, and its Treasure activation is itself a Void trigger and an Increment payload |
+| Basics (5 Mountain, 5 Forest, 4 Island, 4 Swamp, 2 Plains) | 20 | The five-color base, deliberately basic-heavy: Treasure and Berta do the fixing |
+
+Pip count across the deck is 15 blue, 13 green, 12 black, 7 red, 4 white. Blue is the heaviest because `Pensive Professor` wants double blue, but every non-basic source in the deck is colorless, so the manabase leans on Treasure for the second blue and for black's double pips.
+
+## Curve and mana
+
+Eighteen of the thirty-six nonland cards cost three, which is exactly what Increment wants: three mana beats the power or toughness of a 1/1, a 2/2, a 0/2, and a 0/3, so the entire counter suite grows off a normal curve. The deck does not need to reach five mana to function — five-drops are three cards, all of them finishers.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with lands and a two-drop. `Magda, the Hoardmaster` and `Discerning Financier` are the best turn-two plays because they generate coin without asking anything of you. Do not crack Treasure just because you can — hold it until either you need the mana for a spell that increments something, or you need Void live in the same turn you attack with Alpharael or end the turn with Elegy Acolyte.
+
+## Mid game
+
+The priority order is `Pensive Professor`, then `Berta`, then everything else. A resolved Professor turns `Seize the Spoils` into draw three and turns every future spell into a cantrip; it is the card that wins long games. `Berta` is the answer to color screw: she taps for one mana of any color per counter, and since she increments on any two-mana spell she usually offers two or three colors by turn six.
+
+`Topiary Lecturer` is the quiet ramp piece. It is a 1/2, so it increments off three-mana spells, and it taps for green equal to its power — a Lecturer that has grown twice is a three-mana land that also attacks.
+
+## The combo turn
+
+The deck's "combo" is a loop rather than a single turn:
+
+1. Have `Pensive Professor` or `Berta` and at least two Treasures.
+2. Cast a three-mana spell using Treasure mana. Increment triggers, Professor draws you a card, and two Treasures have left the battlefield, so Void is live.
+3. At end of turn, `Elegy Acolyte` makes a Robot and `Insatiable Skittermaw` grows. If you have `Fractal Tender` out and incremented it, you also get a 3/3 Fractal.
+4. Next turn the board is wider, the mana is bigger, and `Berta` can dump X counters into a Fractal.
+
+## Win condition 2
+
+`Alpharael, Stonechosen` is a 3/3 with ward, and its Void attack trigger makes the defending player lose half their life, rounded up. Twenty life becomes ten, then five, then three. Because it is life loss and not damage, it ignores blockers, fog effects, and indestructible creatures — the only answer is removing Alpharael or keeping Void offline, and keeping Void offline means never cracking a Treasure, which the deck simply does not do. Cracking a Treasure during your own combat step is the cleanest way to turn the trigger on after blockers are declared.
+
+## Mulligan guide
+
+- Keep any hand with two lands, a two-drop, and a three-drop.
+- Keep one-land hands only with `Ambitious Augmenter` or `Discerning Financier` and a second land on top.
+- Ship hands with no blue and no Treasure: the deck cannot function without a Professor or Berta.
+- Ship five-land hands with no engine. The deck draws well once it has a Professor, but it has no way to convert raw land into action on its own.
+
+## Key interactions and edge cases
+
+- **Void checks the whole turn, not the stack.** A Treasure cracked in your first main phase keeps Void live through combat and the end step, so one coin can pay for a spell, enable Alpharael's attack trigger, and turn on Elegy Acolyte in the same turn.
+- **Increment counts mana spent, not mana in the cost.** Treasure mana, Berta's any-color mana, and Topiary Lecturer's green all count. Casting a spell for free does not.
+- **Pensive Professor's threshold is zero.** At 0 power, any spell with at least one mana spent increments her. She never stops drawing.
+- **Berta's counter trigger is not optional and not once a turn.** Two spells that both increment her in one turn means two mana of any color.
+- **Ambitious Augmenter wants to die with counters on it.** Attack into a bad block on purpose late in the game: the Fractal arrives with the Augmenter's counters already on it, which is often a straight upgrade.
+- **Goldvein Hydra is the deck's best topdeck.** Cast it for four or five, it increments the whole team, and when it dies it refunds the mana as Treasures, which then turns Void on for the rest of that turn.
+- **Magda needs a crime.** `Temporal Intervention` targeting an opponent is a crime; so is any removal pointed at their board. The three-Treasure Scorpion Dragon is a real clock against decks that wall the ground.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Lean on `Elegy Acolyte` lifelink and Robot chump blockers; race with Alpharael's half-life trigger, which does not need a profitable attack |
+| Control | Do not overextend into sweepers. Keep one Professor plus Treasures, rebuild after the wipe, and win with Rogue's Passage on a single large Fractal |
+| Midrange grinders | Out-card them with Professor plus `Fountainport`; `Fractal Tender` wins any board stall where both sides have creatures |
+| Combo | Race. Alpharael halves life faster than most combos assemble, and `Temporal Intervention` for two mana with Void is the deck's only real disruption |
+| Ramp | Their lands trigger `Discerning Financier` every upkeep, so you get free coin all game; convert it into counters before they land a haymaker |
+
+# Deck list (Arena import)
+
+```
+Loose Change Leviathan
+Deck
+4 Pensive Professor
+3 Berta, Wise Extrapolator
+3 Ambitious Augmenter
+2 Cuboid Colony
+2 Topiary Lecturer
+1 Textbook Tabulator
+1 Fractal Tender
+3 Seize the Spoils
+2 Magda, the Hoardmaster
+2 Redcap Thief
+2 Goldvein Hydra
+2 Elegy Acolyte
+2 Alpharael, Stonechosen
+2 Insatiable Skittermaw
+2 Temporal Intervention
+2 Discerning Financier
+1 Beza, the Bounding Spring
+2 Rogue's Passage
+2 Fountainport
+5 Mountain
+5 Forest
+4 Island
+4 Swamp
+2 Plains
+```

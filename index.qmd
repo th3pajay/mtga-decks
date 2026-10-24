@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-23**:
+Deck guides published **2026-10-24**:
 
-- **[Sapwood Foundry](decks/2026-10-23-sapwood-foundry.html)** — Naya prepared-artifact combo — Reality Fracture  `reality-fracture` `heartwood`
-- **[Chart the Redline](decks/2026-10-23-chart-the-redline.html)** — White-Blue-Black-Red | Discover, Plan counters and Start your engines!  `combo` `Discover` `Plan counter` `Start your engines!`
+- **[Loose Change Leviathan](decks/2026-10-24-loose-change-leviathan.html)** — Five-color Treasure x Increment x Void combo — crack the coin, feed the counters  `combo` `treasure` `increment` `void`
