@@ -1,0 +1,187 @@
+---
+title: "Refrain and Ruin"
+subtitle: "Jund prepared-prowess storm — Reality Fracture"
+date: "2026-10-24"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana support) |
+| Colors | Black, red, green (Jund) |
+| Archetype | Prepared-value aggro; every creature is a reusable spell that feeds prowess and ping payoffs |
+| Size | 60 cards, 26 lands, 34 spells |
+| Primary win | Upkeep re-preparation: Woodwork Prodigy and Stingerquill Voxmancer re-arm themselves every turn, so free Soul Tether and Vicious Verse copies keep firing prowess and noncreature-cast triggers |
+| Secondary win | Codie, Ravenous Codex copies each prepared spell you cast, then turns every creature on the board prepared at once for an alpha-strike turn |
+| Land as engine | Hexhaven Dueling Arena turns an attacker prepared for `{2}`, which is another free spell every combat and another round of prowess and ping triggers |
+
+# Overview
+
+Reality Fracture's flagship mechanic is prepared: a creature enters prepared or is re-armed by a trigger, and while it
+is prepared you may cast a copy of the spell printed on its back face. Casting that copy unprepares the creature. Most
+prepared creatures therefore give you one free spell. This deck is built on the small group that gives you one **every
+single turn**.
+
+Two of them are the engine. **Woodwork Prodigy** (`{2}{R/G}`, 3/3 Cat Druid) becomes prepared at the beginning of your
+upkeep if it is not already, and its back face is **Soul Tether** (`{2}{R/G}` sorcery: create a Heartwood token, a red
+and green artifact with `{T}: Add {R} or {G}`). **Stingerquill Voxmancer** (`{B/R}`, 1/2 Goblin Sorcerer) has the same
+upkeep trigger with **Vicious Verse** (`{B/R}` sorcery: deal 1 damage to target opponent) on the back. One grows your
+mana every turn for free; the other bleeds the opponent every turn for free.
+
+The rest of the list is built to convert "free spell, every turn" into damage. Noncreature-cast payoffs turn each copy
+into extra points: Firebrand Archer and Firespitter Whelp each deal 1 damage to every opponent, Chandra's Emberling
+grows, Grim Repriser comes back from the graveyard, and every prowess creature in the deck gets bigger. Because the
+copies cost no mana, the engine runs while your lands are spent on creatures.
+
+The front halves matter too. Heartwood Crafter and Konstrari Improviser enter prepared, so they are a body plus a free
+Heartwood on curve. Pompous Battlemage is a one-mana prowess threat with a free loot. Codie is the force multiplier:
+each prepared spell you cast is copied, so one free Vicious Verse drains twice and one free Soul Tether makes two
+Heartwood tokens.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Setup | 1–2 | Heartwood Crafter on one, Konstrari Improviser or Stingerquill Voxmancer on two; cast the free back-face spell the turn the body lands |
+| Build | 3–4 | Woodwork Prodigy and a noncreature-cast payoff: Firebrand Archer, Firespitter Whelp or Chandra's Emberling |
+| Conversion | 5–6 | Codie plus two prepared bodies; every upkeep now produces two free spells and every copy triggers the whole payoff team |
+| Close | 6+ | Prowess alpha strike with Hexhaven Dueling Arena re-arming an attacker, or drain the last points with Vicious Verse copies |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Repeatable prepared engine | Woodwork Prodigy, Stingerquill Voxmancer | 8 | Both re-prepare in your upkeep, so each is a free spell every turn from the turn it lands |
+| One-shot prepared bodies | Heartwood Crafter, Konstrari Improviser, Pompous Battlemage, Pyre Rhymer | 12 | Enter prepared: a body plus one free spell, and each back face is real value |
+| Force multiplier | Codie, Ravenous Codex | 2 | Copies every prepared spell you cast; `{W}{U}{B}{R}{G}, {T}` makes each creature prepared at once |
+| Noncreature payoffs | Firebrand Archer, Firespitter Whelp, Chandra's Emberling | 7 | 1 damage to each opponent per copy, or a +1/+1 counter per copy |
+| Prowess threats | Pompous Battlemage, Pyre Rhymer, Grim Repriser | 8 | They grow off the same free spells the payoffs are counting |
+| Recursion | Grim Repriser | 3 | `{B}{R}` brings it back with a finality counter, but only if an opponent took noncombat damage this turn — the ping team turns that on for free |
+| Bodies and trample | Heartstring Puller | 2 | 3/1 trampler that leaves a 2/2 Cadet behind, which is the board you alpha strike with |
+
+## Lands as engines
+
+| Land | Count | What it does for the deck |
+|---|---|---|
+| Hexhaven Dueling Arena | 2 | `{2}, {T}`: target creature that attacked this turn becomes prepared, sorcery speed. Attack first, then re-arm for a second free spell in the same turn. `{4}, {T}` re-arms any creature, no attack needed |
+| Mountain | 12 | The primary colour: Pyre Rhymer needs double red, and Molten Tide converts Mountain taps into extra mana |
+| Forest | 7 | Casts Heartwood Crafter on one and pays the green half of every `{R/G}` hybrid |
+| Swamp | 5 | Casts Grim Repriser and pays the black half of Stingerquill Voxmancer's hybrid |
+
+Hexhaven Dueling Arena taps for `{C}`, so it never casts a coloured spell. Treat both copies as spells you cast on
+turn five and later, not as mana sources.
+
+## Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Cards | 11 | 9 | 12 | 2 |
+
+Twenty-six lands, eleven one-drops and nine two-drops: the deck has a prepared body on turn one in most games, which is
+what holds goldfish turn-four consistency at 0.73 and P(four lands by turn four) at 0.737. Hybrid symbols (`{R/G}`,
+`{B/R}`) mean almost every land casts almost every spell, which is why 24 basics are enough for three colours.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a prepared body, not with a payoff. Heartwood Crafter on one is the ideal curve: it enters prepared, so turn
+one is a 1/1 plus a free Soul Tether and a Heartwood token, and every later Soul Tether copy is another mana rock. Its
+own `{T}: Add {C}` cannot pay for spells cast from your hand, so treat that ability as a bonus rather than a plan.
+
+Stingerquill Voxmancer on one is the best turn-one play when you expect a long game — it is the cheapest repeatable
+engine piece in the deck. Konstrari Improviser on two is the stronger clock: a 2/2 plus a Heartwood. Do not trade
+Heartwood tokens for damage; they are the mana that casts Codie and Pyre Rhymer, and each one is also an artifact body
+that survives a sweeper.
+
+## The combo turn
+
+The engine turn is not a single explosive loop — it is a repeating sequence you set up and then repeat every upkeep.
+
+1. Have Woodwork Prodigy and Codie, Ravenous Codex on the battlefield by turn five.
+2. In your upkeep, Woodwork Prodigy becomes prepared. Cast the Soul Tether copy. Codie copies it: two Heartwood tokens,
+   two mana rocks, zero mana spent.
+3. Cast anything else with a back face that is still prepared (Konstrari Improviser, Heartwood Crafter, Pyre Rhymer).
+   Each cast is copied by Codie, and each cast triggers prowess, Firebrand Archer, Firespitter Whelp and Chandra's
+   Emberling.
+4. Attack. After attackers are declared, pay `{2}` and tap Hexhaven Dueling Arena to make the best attacker prepared
+   again, then cast that back face in your second main phase for one more round of triggers.
+5. With Stingerquill Voxmancer also on the board, the same upkeep produced a free Vicious Verse, which already turned on
+   Grim Repriser's recursion clause for the turn.
+
+The damage adds up from three directions at once: Vicious Verse copies hit for 1 each (2 with Codie), the ping payoffs
+add 1 per opponent per copy, and every prowess attacker is 1/1 to 3/1 larger than printed by the time combat starts.
+
+## Win condition 2 — Codie's mass preparation
+
+Codie's second ability, `{W}{U}{B}{R}{G}, {T}`, makes each creature you control prepared. Because every creature in
+this list has a back face, that is a board-wide free-spell turn: cast each back face, each one copied by Codie, each
+one triggering the entire payoff team. Two prepared bodies and a ping team is usually eight to twelve points of
+noncombat damage plus a lethal prowess swing. Save it for the turn you can also attack, since the copies are sorceries
+and instants you cast in the second main phase.
+
+Against a stalled board, the same turn is often just Pyre Rhymer's Molten Tide: for `{R}` every Mountain you tap adds
+an extra `{R}`, which pays for a second and third prepared spell in the same turn.
+
+## Mulligan guide
+
+| Hand | Keep? | Reason |
+|---|---|---|
+| Two lands, Heartwood Crafter, Stingerquill Voxmancer | Yes | Both halves of the engine on curve, and the free spells start immediately |
+| Three lands, Woodwork Prodigy, Firebrand Archer | Yes | The repeatable engine plus the payoff that turns it into damage |
+| One land, two one-drops, no two-drop | Yes on the play | Eleven one-drops make this functional; on the draw it is a mulligan |
+| Codie plus two ping payoffs, no prepared creature | No | Codie copies nothing without prepared spells to cast |
+| Five lands, Grim Repriser, Firespitter Whelp | No | No engine, and Grim Repriser cannot return without noncombat damage |
+
+## Key interactions and edge cases
+
+- **Prepared is one-shot per preparation.** Casting the back-face copy unprepares the creature. Only Woodwork Prodigy
+  and Stingerquill Voxmancer re-arm themselves, and only in your upkeep — so removal pointed at them costs you every
+  future free spell, not just a body.
+- **Codie copies, it does not cast.** The copy happens without being cast, so it does not trigger Firebrand Archer or
+  prowess a second time. The value is the duplicated effect, not duplicated triggers.
+- **Hexhaven Dueling Arena is sorcery speed on its `{2}` mode.** You must activate it in your second main phase after
+  attackers are declared; the `{4}` mode has no attack requirement, which is how you re-arm a blocker.
+- **Grim Repriser needs noncombat damage.** Vicious Verse copies, Firebrand Archer and Firespitter Whelp all satisfy it.
+  In a turn where none of them resolved, the graveyard ability is switched off.
+- **Molten Tide only counts Mountains.** It is a one-turn ritual for `{R}` per Mountain tap, not a permanent effect.
+- **Codie is a 1/4 artifact creature.** It blocks well but dies to any two-power attacker.
+- **A copy of a sorcery still obeys timing.** Sorcery back faces are main-phase only, so engine turns are sequenced
+  around combat.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Block with Codie and Heartstring Puller's Cadet, race with Firebrand Archer plus Vicious Verse copies. The deck's noncombat damage ignores their blockers |
+| Control | Hold Woodwork Prodigy until they tap out on their turn, and keep a second engine piece in hand. Codie's mass-preparation turn is the one they must counter |
+| Midrange | Grind with Grim Repriser recursion; their one-for-one removal cannot keep up with two engines |
+| Combo | No countermagic, so the plan is speed: turn-one prepared body, turn-three payoff, and Vicious Verse copies to close the last points |
+
+# Deck list (Arena import)
+
+```text
+Refrain and Ruin
+Deck
+4 Heartwood Crafter
+3 Konstrari Improviser
+4 Woodwork Prodigy
+4 Stingerquill Voxmancer
+3 Pompous Battlemage
+2 Pyre Rhymer
+2 Codie, Ravenous Codex
+2 Hexhaven Dueling Arena
+3 Grim Repriser
+2 Chandra's Emberling
+2 Heartstring Puller
+3 Firebrand Archer
+2 Firespitter Whelp
+12 Mountain
+7 Forest
+5 Swamp
+```
