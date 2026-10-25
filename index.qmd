@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-25**:
 
+- **[Sphinxwake](decks/2026-10-25-sphinxwake.html)** — Esper surveil-counters with the Elder Sphinx legends — Reality Fracture  `reality-fracture` `sphinx`
 - **[Quicksand Chorus](decks/2026-10-25-quicksand-chorus.html)** — Four-colour landfall burn — sixteen payoffs, one land drop at a time  `combo` `landfall`

@@ -1,0 +1,205 @@
+---
+title: "Sphinxwake"
+subtitle: "Esper surveil-counters with the Elder Sphinx legends — Reality Fracture"
+date: "2026-10-25"
+categories: ["reality-fracture", "sphinx"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana) |
+| Colors | White, blue, black (Esper; black is a light splash) |
+| Archetype | Surveil engine that converts every scry or surveil into a team-wide +1/+1 counter |
+| Size | 60 cards, 24 lands, 36 spells and creatures |
+| Primary win | Denzilore Fatehold plus Yoshimaru, Beloved Companion: every surveil puts two +1/+1 counters on each creature, and the fliers finish |
+| Secondary win | Hall of Echoes turns into a copy of the largest creature (legend rule suspended) for a second lethal attacker; Eye of Jace cashes a full graveyard into two damage to each opponent |
+| Land as engine | Hall of Echoes (`{5}`) is a land that becomes a copy of a creature you control, so the land itself is a win-condition piece |
+
+# Overview
+
+Reality Fracture's surveil cluster is a graveyard mechanic on the surface, but the set hides a much more direct payoff on
+one card. **Denzilore Fatehold** (`{1}{W}{U}{U}`, legendary 3/4 Elder Sphinx with flash and flying) reads "Whenever you
+scry or surveil, put a +1/+1 counter on each creature you control." On its own that is a fair legendary. With
+**Yoshimaru, Beloved Companion** (`{2}{W}`, legendary 2/2 Dog, "If one or more +1/+1 counters would be put on a creature
+you control, that many plus one +1/+1 counters are put on it instead") the same trigger becomes two counters on every
+creature you control — a one-sided team pump attached to an action you already want to take every turn.
+
+Everything else in the deck is either a surveil trigger or a home for those counters.
+
+Surveil triggers: **Eye of Jace** (`{1}` artifact) surveils 1 at the beginning of every upkeep. **Proctor of Potential**
+(`{W}{U}`, 3/1) surveils 1 whenever any creature enters, and it can return itself from the graveyard for `{W}{U}` — but
+only on a turn you have already scried or surveilled, which Eye of Jace guarantees. **Surveillance Phantasm** (`{1}{U}`,
+2/3 with defender, flying and vigilance) can attack on any turn you surveilled and can surveil again for `{3}{U}`.
+
+Counter homes and multipliers: **Guiding Hydra** (`{X}{W}`) enters with X counters and moves one of them onto every other
+creature at the beginning of combat. **Graft Surgeon** (`{2}{W}`, 2/2) enters with a counter and hands its counters to a
+teammate when it dies. Denzilore and Phantasm are the evasive carriers, Proctor is the cheap recurring body.
+
+The deck's real plan is therefore not "mill into a reanimation spell" — it is "surveil twice a turn and attack with a
+team that is six counters larger than it was last turn".
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Set up | 1-3 | Land the cheap engine: Eye of Jace, Proctor of Potential, Guiding Hydra for X=2 or more. Trade early with Prophesied End and Refute Destiny. |
+| Assemble | 3-5 | Denzilore Fatehold and Yoshimaru, Beloved Companion. From here every surveil is a team-wide pump and the board grows without spending cards. |
+| Convert | 5+ | Attack in the air with Denzilore and Phantasm, recur Proctor, grow the team with Hydra, and close with Hall of Echoes copying the biggest creature. |
+| Grind | any | Darklight Phoenix returns itself whenever two or more creatures die in a turn, and Generous Revival buys back the cheapest engine piece. |
+
+## Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Denzilore Fatehold | `{1}{W}{U}{U}` | Primary engine and primary threat: flash 3/4 flier, +1/+1 on each creature per surveil |
+| Yoshimaru, Beloved Companion | `{2}{W}` | Counter doubler: turns Denzilore's trigger into +2/+2 team-wide, and Hydra's placement into two counters |
+| Proctor of Potential | `{W}{U}` | Repeatable surveil trigger on a 3/1 body; recurs itself from the graveyard for `{W}{U}` |
+| Surveillance Phantasm | `{1}{U}` | Evasive counter carrier (flying, vigilance); attacks only after a surveil, which is free with Eye of Jace |
+| Guiding Hydra | `{X}{W}` | Counter distributor: one counter becomes one on every other creature at combat, doubled by Yoshimaru |
+| Graft Surgeon | `{2}{W}` | Insurance: its counter moves to a flier when it dies, keeping the pump on the board |
+| Darklight Phoenix | `{3}{B}` | Recursive threat and graveyard payoff: returns from the graveyard after a two-creature turn |
+| Eye of Jace | `{1}` | Turn-one surveil engine; converts a seven-card graveyard into two damage to each opponent |
+| Prophesied End | `{1}{W}` | Two-mana unconditional removal; the card draw it gives is a real cost, so aim it at attackers or at the creature you must kill |
+| Refute Destiny | `{1}{W}` | Exile removal for green and blue creatures and planeswalkers, with surveil 1 attached |
+| Generous Revival | `{2}{W}` | Recursion for a cheap engine piece with a +1/+1 counter; flashback `{4}{W}` from the graveyard |
+| Cast Away Doubt | `{2}{B}` | Two cards and two damage to each player; the life loss is paid by the opponent too |
+
+## Lands as engines
+
+| Land | Count | Role |
+|---|---|---|
+| Hall of Echoes | 2 | Win-condition land: `{T}` for `{C}`, and `{5}` turns it into a copy of your best creature until end of turn while the legend rule is suspended |
+| Deserted Beach | 4 | White-blue dual; enters untapped once you control two or more other lands |
+| Shipwreck Marsh | 4 | Blue-black dual on the same condition |
+| Island | 4 | Blue source for Phantasm, Proctor, Denzilore |
+| Plains | 4 | White source, the deck's primary colour |
+| Swamp | 6 | Black splash for Darklight Phoenix and Cast Away Doubt, and the deck's most plentiful basic |
+
+## Curve and mana
+
+| Mana value | Cards | Count |
+|---|---|---|
+| 1 | Eye of Jace, Guiding Hydra | 6 |
+| 2 | Proctor of Potential, Surveillance Phantasm, Prophesied End, Refute Destiny | 14 |
+| 3 | Yoshimaru, Graft Surgeon, Generous Revival, Cast Away Doubt | 10 |
+| 4 | Denzilore Fatehold, Darklight Phoenix | 6 |
+| Lands | 24 lands, no card above four mana | 24 |
+
+Average mana value is 2.44 across 36 non-land cards. White is the main colour with 25 coloured pips, blue has 12 pips and
+black only 4, so the manabase is built as white-blue with a black splash rather than a symmetric three-colour deck. Two
+copies of Hall of Echoes are the only colourless lands and they are there for the finish, not for the early game.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one Eye of Jace is the best opening in the deck: it surveils from then on, fills the graveyard for Darklight Phoenix
+and Eye of Jace's own trigger, and turns on Proctor's recursion and Surveillance Phantasm's attack clause. On turn two the
+choice is Proctor of Potential (a surveil trigger attached to a 3/1) or holding up Prophesied End. Guiding Hydra is a
+fine two-drop at X=1 and a strong four-drop at X=3; it is never a turn-one play at X=0 because a 1/0 dies immediately.
+
+## Mid game
+
+Denzilore Fatehold is the pivot. Cast it at flash speed on the opponent's end step when you can, so it survives a turn and
+attacks immediately. The turn after Denzilore lands, add Yoshimaru: from that point each surveil is two counters on every
+creature, and the board grows without further investment. Proctor of Potential returning from the graveyard for `{W}{U}`
+is a surveil trigger plus a body every turn, and each of those returns is another team-wide pump with Denzilore out.
+
+## The combo turn
+
+The engine turn is a stack of small surveil events. With Denzilore and Yoshimaru on the battlefield:
+
+- Eye of Jace's upkeep trigger: +2/+2 to every creature.
+- Proctor of Potential returning from the graveyard, or any creature entering: another +2/+2.
+- Surveillance Phantasm's `{3}{U}` activation: another +2/+2.
+- Guiding Hydra's beginning-of-combat trigger: one counter on it becomes two on each other creature.
+
+Four triggers in a turn is +8/+8 to the whole team for `{3}{U}{W}{U}` plus the upkeep trigger. Attack with Denzilore,
+Phantasm and Phoenix in the air; the ground creatures are only there to be big blockers or to be copied by Hall of Echoes.
+
+## Win condition 2
+
+Hall of Echoes is the second finish and the reason the deck satisfies the "land as part of the win" requirement. Once a
+creature is carrying eight or more counters, `{5}` plus the land makes a copy of it until end of turn, with the legend
+rule suspended — so a second Denzilore, or a second copy of the biggest Hydra-fed creature, attacks in the same combat.
+The land is not a creature spell and cannot be countered as one; it is an uncounterable extra attacker.
+
+Eye of Jace is the third, quieter finish: once the graveyard has seven or more cards — trivial with a surveil engine and a
+Phoenix that keeps dying — it sacrifices itself for two damage to each opponent and two life. That is the last two points
+after a stalled board, and it costs no mana.
+
+## Mulligan guide
+
+Keep: two or three lands plus Eye of Jace or Proctor of Potential; any hand with Denzilore and a white source; hands with
+Eye of Jace plus two removal spells against a fast deck.
+
+Mulligan: hands with no white source, hands with no surveil trigger at all (Denzilore without a surveil source is a 3/4
+flier and little else), and hands that are all four-drops. Five-land hands with no engine are worse than a six-card hand
+with Eye of Jace.
+
+## Key interactions and edge cases
+
+- Denzilore triggers once per scry or surveil event, not once per card, so a Surveil 2 is still a single trigger.
+- Yoshimaru's replacement effect applies to every counter placed on your creatures, including the counters Guiding Hydra
+  moves at combat and the +1/+1 counter Generous Revival adds — the revived creature enters with two.
+- Guiding Hydra's trigger is optional; with a single counter on it, removing that counter kills it, so only use it when
+  the counter is not the last one, or when you want the death for Darklight Phoenix.
+- Proctor of Potential's recursion needs a scry or surveil earlier in the same turn. Eye of Jace's upkeep trigger covers
+  this automatically; without Eye of Jace, surveil first with Phantasm or Refute Destiny, then recur.
+- Prophesied End gives the controller a card when the target was not attacking. Use it on attackers, or on a creature
+  whose death is worth the card — a two-for-one against a blocking creature is usually fine.
+- Darklight Phoenix returns at the beginning of combat only if two or more creatures died this turn. Combat trades count,
+  and so does sacrificing to your own removal; plan the second death before combat.
+- Hall of Echoes produces `{C}`, which cannot pay for Denzilore or Phantasm. Do not keep a two-land hand that is Hall of
+  Echoes plus one coloured source.
+- Generous Revival's flashback is `{4}{W}`; it is a late-game card, not a turn-three plan.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Keep the two-mana removal, block with Phantasm (vigilance and 3 toughness), and let Denzilore's counters turn blockers into walls. Graft Surgeon is at its best here. |
+| Control | The engine does not need to resolve a spell to grow: Eye of Jace and Proctor generate value from the graveyard. Hold Denzilore for a flash window after they tap out, and use Hall of Echoes as an uncounterable threat. |
+| Combo | Race in the air. Denzilore plus Phantasm is a four-power flier clock by turn five, and Eye of Jace's burn shortens the race. Refute Destiny exiles green and blue combo creatures but not artifacts or enchantments, so mulligan for interaction you can actually use. |
+| Ramp and big mana | Refute Destiny is the answer to green and blue payoffs; Prophesied End handles everything else. Your clock is faster than theirs if Denzilore lands on curve. |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 → v2 | Cut two Uldaros Theorix, two Theoretical Necromancer, two Screeching Soulbreaker, two Recursive Recruitment, two Last Gasp, two Icy Reception, two Precise Redaction and one Surgical Precision; added four Yoshimaru, Beloved Companion, three Guiding Hydra, three Prophesied End, two Cast Away Doubt, two Graft Surgeon and one extra Surveillance Phantasm | sim 46.3 → 54.3, synergy 70.7 → 72.0, T4 0.63 → 0.63, P(4 lands by turn 4) 0.63 → 0.61 |
+
+The v1 list was a surveil-graveyard deck with a spell-copy top end: it had the right triggers but too many conditional
+pieces, and the simulation put it at 46 percent. Replacing the six two-of interaction and graveyard spells with the
+counter engine — Yoshimaru, Guiding Hydra, Graft Surgeon — and adding unconditional removal moved the same shell over the
+win-rate gate without giving up synergy.
+
+# Deck list (Arena import)
+
+```
+Sphinxwake
+Deck
+4 Denzilore Fatehold
+4 Proctor of Potential
+4 Surveillance Phantasm
+4 Yoshimaru, Beloved Companion
+3 Guiding Hydra
+2 Darklight Phoenix
+2 Graft Surgeon
+3 Eye of Jace
+3 Prophesied End
+3 Refute Destiny
+2 Generous Revival
+2 Cast Away Doubt
+4 Deserted Beach
+4 Shipwreck Marsh
+2 Hall of Echoes
+4 Island
+4 Plains
+6 Swamp
+```
