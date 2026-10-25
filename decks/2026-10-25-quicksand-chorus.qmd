@@ -1,0 +1,154 @@
+---
+title: "Quicksand Chorus"
+subtitle: "Four-colour landfall burn — sixteen payoffs, one land drop at a time"
+date: "2026-10-25"
+categories: ["combo", "landfall"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Four-colour: white, blue, red, green (no black) |
+| Archetype | Landfall aggro-combo |
+| Size | 60 cards, 26 lands |
+| Core engine | Land entries — sixteen permanents that convert every land drop into damage or bodies |
+| Primary win | Landfall burn: Sabotender, Koth, Spitfire Lagac and Tannuk each ping every opponent on every land entry |
+| Secondary win | Rampaging Baloths plus Mightform Harmonizer — a 4/4 per land, doubled and trampling, forced through with Rogue's Passage |
+| Nonland curve | 18 twos, 4 threes, 8 fours, 4 sixes |
+
+# Overview
+
+Quicksand Chorus is a landfall deck where the land drops *are* the damage. Sixteen permanents in the deck say "whenever a land enters" and every one of them either pings the opponent, grows a body, or adds mana. Because there are so many redundant payoffs, the deck does not need to find one specific card: any two of the burn pieces on board turn a fetch land into four points of damage across the table, and every extra land you play is pure profit.
+
+The enablers are all cheap and all land-based. Evolving Wilds, Terramorphic Expanse and Fabled Passage each sacrifice themselves for a basic, so one land play delivers **two** landfall triggers — the fetch enters, then the basic it finds enters. Fabled Passage untaps the basic it finds once you control four or more lands, which keeps your mana intact while the triggers pile up. Sunstar Expansionist adds Lander tokens for a third path to a land entry whenever it is behind on lands.
+
+The payoffs divide neatly. **Burn:** Sabotender, Koth, the Geomancer, Spitfire Lagac and Tannuk, Memorial Ensign each deal 1 damage to each opponent per land entry; Koth adds `{R}` when the entering land is a Mountain, and Tannuk draws a card on its second resolution in a turn, which one fetch land turns on. **Bodies:** Rampaging Baloths makes a 4/4 Beast per land entry, Mightform Harmonizer doubles a creature's power, and Genemorph Imago sets a creature to 6/6 once you control six lands. **Defence:** Attercop's deathtouch and the reach on four payoffs keep the deck from being raced by fliers.
+
+Rogue's Passage is the land that closes games: the biggest trampler or Beast token becomes unblockable for `{4}` and `{T}`, so the last four points never get chumped. That is a land doing the winning, not just fixing.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Establish two payoffs (turns 2–4).** Sabotender, Attercop, Tannuk, Sunstar Expansionist or Genemorph Imago come down on curve. Do not crack fetch lands before a payoff is on the table — each crack is a resource you spend once.
+2. **Turn every land into two triggers (turns 4–6).** Play a fetch land and crack it: the fetch entry and the basic entry both trigger every payoff. Koth's Mountain clause pays for Abrade in the same turn.
+3. **Convert the board into lethal.** Rampaging Baloths plus a fetch land is 8 power from one land play; Mightform Harmonizer doubles the largest body afterwards, and Rogue's Passage removes the last blocker.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Sabotender | 4 | Burn payoff — 2/1 reach for two; 1 damage to each opponent per land entry |
+| Attercop | 4 | Early body and defence — 2/1 reach deathtouch that also grows on land entries |
+| Koth, the Geomancer | 4 | Burn payoff plus mana — 3/2 reach; pings and adds `{R}` on a Mountain entry |
+| Mightform Harmonizer | 4 | Finisher — 4/4 for four (or warp for `{2}{G}`); doubles target creature's power per land entry |
+| Spitfire Lagac | 4 | Burn payoff — 3/4 body that pings every opponent per land entry |
+| Rampaging Baloths | 4 | Win condition two — 6/6 trample making a 4/4 Beast per land entry |
+| Tannuk, Memorial Ensign | 4 | Burn plus card draw — 2/4; second trigger in a turn draws a card |
+| Genemorph Imago | 2 | Evasion and size — 1/3 flyer that sets a creature to 3/3, or 6/6 with six or more lands |
+| Sunstar Expansionist | 2 | Extra land entries — makes a Lander token when behind on lands, grows on landfall |
+| Abrade | 2 | Interaction — 3 damage to a creature, or destroy an artifact |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Evolving Wilds | Two landfall triggers in one land play: the Wilds enters, then the fetched basic enters |
+| Terramorphic Expanse | Same double trigger, split across different basics for colour fixing |
+| Fabled Passage | Double trigger and untaps the fetched basic once you have four or more lands, so the mana is not lost |
+| Rogue's Passage | The win-condition land — `{4}`, `{T}` makes the biggest trampler or Beast unblockable |
+| Mountain | Koth's favourite land: each Mountain entry pings and adds `{R}` for a follow-up spell |
+| Forest | Primary colour; casts every green payoff and Attercop on curve |
+
+## Curve and mana
+
+26 lands: eleven land slots that fetch or enable (4 Evolving Wilds, 3 Fabled Passage, 2 Terramorphic Expanse, 2 Rogue's Passage) and fifteen basics (7 Forest, 5 Mountain, 2 Plains, 1 Island). The curve starts at two — twenty-two of the thirty-four nonland cards cost two or three — so the deck functions on three lands and wins on five.
+
+Colour use is lopsided on purpose. Red and green carry the deck; white appears only on Sunstar Expansionist and blue only on Genemorph Imago. Fetch a Plains when holding Sunstar, and the lone Island only when Genemorph Imago is in hand — everything else casts off Forest and Mountain.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+- **Turn 2:** lead with the payoff that matches your hand. Against creature decks, Attercop's deathtouch and reach hold the ground. Against slower decks, Sabotender or Tannuk start the burn clock immediately.
+- Hold fetch lands until a payoff is on the battlefield. A cracked Evolving Wilds with nothing on board is two triggers wasted.
+- Sunstar Expansionist is the catch-up card: if the opponent has more lands, its Lander token is a repeatable land entry later for `{2}`.
+- Abrade is best on turn two or three, killing the one creature that would race you.
+
+## Mid game (turns 4–6)
+
+- Land a second and third burn payoff. Two pingers plus a fetch land is 4 damage per land play — with 26 lands that adds up faster than combat.
+- Rampaging Baloths is the turn-six trump: each subsequent land play is a 4/4 Beast, and Mightform Harmonizer doubles the biggest one.
+- Koth's mana clause is easy to miss: play a Mountain, ping each opponent, then spend the `{R}` on Abrade or a second copy of a two-drop.
+- Track Tannuk carefully — if you can arrange a fetch land plus its basic, the second trigger draws a card, which is how the deck keeps from running out of gas.
+
+## The combo turn
+
+1. Have two or more burn payoffs on board (Sabotender, Koth, Spitfire Lagac, Tannuk).
+2. Play a fetch land — Evolving Wilds, Terramorphic Expanse or Fabled Passage — and crack it immediately.
+3. Resolve the triggers in the order that matters: the fetch entry first, then the basic entry. Each payoff pings each opponent twice; Tannuk's second resolution draws a card.
+4. If Koth is on board and the fetched basic is a Mountain, you also get `{R}`, which pays for a follow-up spell or a second activation.
+5. Repeat on later turns; Fabled Passage untaps its basic with four or more lands, so the double trigger costs you no tempo.
+
+## Win condition 2: Baloths and the doubled trampler
+
+Rampaging Baloths on board turns every land into a 4/4 Beast. Mightform Harmonizer then doubles target creature's power on each land entry, so a Beast that was a 4/4 becomes an 8/8, then a 16/16, while Genemorph Imago can re-set a smaller creature to 6/6 once you control six lands. Rogue's Passage (`{4}`, `{T}`) makes the largest of them unblockable, which matters because the burn plan has already lowered the opponent's life total — the trample strike only needs to be the last four points.
+
+## Mulligan guide
+
+- **Keep:** two or three lands including a Mountain or Forest, one two-mana landfall creature, and at least one fetch land.
+- **Trim:** hands with no payoff (all lands and Rogue's Passage), hands with only six-drops, and one-land hands that rely on a single Evolving Wilds.
+- Colour is rarely the problem — red and green cover 18 of 34 nonland cards — but a hand holding Genemorph Imago with no fetch land is a mulligan consideration.
+
+## Key interactions and edge cases
+
+- **Two triggers, not one:** a fetch land gives every payoff two separate entries — the fetch itself, then the basic it finds.
+- **Fabled Passage untaps only with four or more lands** — before land four it enters tapped, which is a real tempo cost on turn two.
+- **Koth triggers on any land**, but the `{R}` only comes from a Mountain. Fetch a Mountain when you need the mana, a Forest when you need the green body.
+- **Tannuk draws on the second resolution in the same turn** — a single fetch land is enough, but if a payoff is destroyed in response, the count resets.
+- **Sunstar's Lander token is an artifact, not a land** — sacrificing it is a land entry for every payoff, so hold it until a pinger is down.
+- **Genemorph Imago sets base power and toughness**, overriding counters — use it on a creature you are not growing with Mightform Harmonizer.
+
+## Matchups
+
+- **Aggro:** Attercop's deathtouch and the reach on Sabotender, Koth and Spitfire Lagac buy time; the burn plan races well because it does not need to attack. Trade early and let the pingers finish.
+- **Control:** sixteen redundant payoffs mean sweepers rarely answer the whole engine. Rogue's Passage beats spot removal on the ground, and the burn half of the deck does not care about blockers.
+- **Ramp and midrange:** these decks give you time to reach Rampaging Baloths plus a fetch land, which is the fastest clock in the deck.
+- **Flyers:** only Genemorph Imago flies on your side, but reach on six creatures means you race with burn instead of blocking.
+
+# Iterations
+
+| Round | Change | Result |
+|---|---|---|
+| v1 to v2 | -1 Sandman, Shifting Scoundrel, +1 Rampaging Baloths (a variable-power body for a 6/6 trample that also converts land entries into 4/4s) | T4 0.692 to 0.720, P(4 lands) 0.697 to 0.722, sim 49.3 to 49.7 (fail) |
+| v2 to v3 | -4 Sazh's Chocobo, -4 Tifa Lockhart, -4 Mossborn Hydra, -3 Sandman, -3 Blossoming Tortoise, -2 Plow Through, -2 Felidar Retreat, +4 Attercop, +4 Koth, +4 Spitfire Lagac, +4 Tannuk, +2 Sunstar Expansionist, +2 Mountain (zero-power growers out for real bodies that also ping) | T4 0.720 to 0.718, P(4 lands) 0.722 to 0.738, sim 49.7 to 52.3 (pass) |
+
+Final gate: size 60, Standard legal, zero rotating cards, sim average 52.3, synergy 73.4, goldfish T4 0.718, P(4 lands by turn 4) 0.738.
+
+# Deck list (Arena import)
+
+```
+Quicksand Chorus
+Deck
+4 Sabotender
+4 Attercop
+4 Koth, the Geomancer
+4 Mightform Harmonizer
+4 Spitfire Lagac
+4 Rampaging Baloths
+4 Tannuk, Memorial Ensign
+2 Genemorph Imago
+2 Sunstar Expansionist
+2 Abrade
+4 Evolving Wilds
+3 Fabled Passage
+2 Terramorphic Expanse
+2 Rogue's Passage
+7 Forest
+5 Mountain
+2 Plains
+1 Island
+```

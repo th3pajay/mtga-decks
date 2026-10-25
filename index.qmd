@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-24**:
+Deck guides published **2026-10-25**:
 
-- **[Refrain and Ruin](decks/2026-10-24-refrain-and-ruin.html)** — Jund prepared-prowess storm — Reality Fracture  `reality-fracture` `prepared`
-- **[Loose Change Leviathan](decks/2026-10-24-loose-change-leviathan.html)** — Five-color Treasure x Increment x Void combo — crack the coin, feed the counters  `combo` `treasure` `increment` `void`
+- **[Quicksand Chorus](decks/2026-10-25-quicksand-chorus.html)** — Four-colour landfall burn — sixteen payoffs, one land drop at a time  `combo` `landfall`
