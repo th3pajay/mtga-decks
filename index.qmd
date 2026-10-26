@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-26**:
 
+- **[Molten Marginalia](decks/2026-10-26-molten-marginalia.html)** — Jeskai prepared spells, prowess fliers and a Molten Tide finish — Reality Fracture  `reality-fracture` `prepared`
 - **[Face Value](decks/2026-10-26-face-value.html)** — Jeskai (Blue / White / Red) — Disguise x Investigate x Power-up  `combo` `Power-up` `Disguise` `Investigate`

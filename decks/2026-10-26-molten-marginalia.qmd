@@ -1,0 +1,195 @@
+---
+title: "Molten Marginalia"
+subtitle: "Jeskai prepared spells, prowess fliers and a Molten Tide finish — Reality Fracture"
+date: "2026-10-26"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana) |
+| Colors | Blue, red, white (Jeskai; white is a light splash for the Peer Review creatures) |
+| Archetype | Prepared-token engine: every creature arrives holding a free spell, and every free spell pumps a prowess board |
+| Size | 60 cards: 36 creatures and spells, 24 lands |
+| Primary win | Prowess fliers plus Tetsuko Umezawa, Pursuer: each free prepared spell is a permanent pump, and Traxos and Variable Chaser attack over the top |
+| Secondary win | Molten Tide on Mountains, then Ajani's Anguish for a lethal X |
+| Land as engine | Hexhaven Dueling Arena re-prepares an attacker every combat, so the land itself manufactures the extra free spell that the finish needs |
+| Not yet playable on Arena | Reality Fracture is Standard legal in the data but carries no `arena_id`, so the import list only becomes playable once the set is enabled on Arena |
+
+# Overview
+
+Reality Fracture's Prepared mechanic is a one-shot spell stapled to a creature: the creature enters prepared, you may cast a
+copy of its spell, and doing so unprepares it. That is fine value. The problem is that it is *only* one spell — unless
+something re-prepares the creature.
+
+Two things in this deck do that. **Hexhaven Dueling Arena** (`{2}`, `{T}`, sorcery speed) prepares a creature that attacked
+this turn, which turns every attack step into another free spell. And **Pyre Rhymer** (`{1}{R}{R}`, 3/3 Elemental Sorcerer
+with prowess) holds the best spell in the set for this purpose: **Molten Tide** (`{R}` instant, "until end of turn, whenever
+you tap a Mountain for mana, add an additional `{R}`"). A free ritual every combat is already a lot of red mana. **Ajani's
+Anguish** (`{X}{R}` enchantment, enters and deals X damage to any target, your creatures have trample) is where that mana
+goes, and **Stingcaster Mage** (`{1}{R}`, 2/1 haste) gives Molten Tide flashback from the graveyard for `{R}` so the ritual
+can happen twice in a turn.
+
+The supporting cast is the Jeskai half of the prepared cycle, chosen because their free spells either pump the team, dig, or
+answer a permanent — all things a prowess deck wants on the stack. Twenty-two of the twenty-nine creatures are prepared;
+the rest are prowess and value payoffs that get paid every time one of those free spells is cast.
+
+# Approach
+
+## Game plan phases
+
+**Turns 1–2, commit cheaply.** One-mana prepared creatures are the engine: **Pompous Battlemage** (`{R}`, 1/1 Goblin
+Sorcerer, prowess) and **Diviner of Victory** (`{U}`, 1/1 Dwarf Wizard). Both arrive prepared. Casting the free copy is
+optional — Diviner's **Unwind History** bounces a cheap creature and surveils 1, which is worth holding for a real target,
+while Battlemage's **Improvised Act** loots and is usually correct on turn 2 if the hand is land-heavy.
+
+**Turns 3–4, deploy the board.** **Variable Chaser** (`{2}{U}`, 2/3 flying prowess), **Pyre Rhymer** and **Prudent Fateseer**
+(`{1}{W/U}{W/U}`, 1/4) are the three-drop tier. Prudent Fateseer is the quiet engine: every scry or surveil gives the whole
+team +1/+0 until end of turn, once per turn, and the Peer Review tokens surveil. **Traxos, Academy Guardian** (`{3}{U}`)
+costs `{1}{U}` on any turn you have already cast a noncreature spell, which the prepared copies provide for free.
+
+**Turns 5+, convert.** Rhymer attacks, Hexhaven re-prepares it after combat, Molten Tide makes every Mountain two red, and
+Ajani's Anguish or a second Anguish ends the game. Vraska, Soul of Stone adds Sculpture Treasure tokens on each noncreature
+spell, which both ramps the finish and gives vigilance attackers.
+
+## Card roles
+
+| Role | Cards | Count | Why it is here |
+|---|---|---|---|
+| Prepared one-drops | Pompous Battlemage, Diviner of Victory | 8 | Free spell on turn 1, prowess or surveil growth, cheapest way to start the engine |
+| Prepared value three-drops | Variable Chaser, Pyre Rhymer, Prudent Fateseer | 9 | Flying prowess body, the Molten Tide carrier, and the team pump on surveil |
+| Prepared top end | Semester Foreseer, Fatehold Chronologist | 5 | Peer Review makes 2/2 Cadets and surveils, so the board keeps widening |
+| Prowess payoffs | Traxos, Academy Guardian, Tetsuko Umezawa, Pursuer | 4 | Each free spell is worth two damage with double strike; Traxos often costs two mana |
+| Ritual and recursion | Stingcaster Mage | 2 | Flashback on Molten Tide from the graveyard, haste 2/1 otherwise |
+| Noncreature payoff | Vraska, Soul of Stone | 1 | Every prepared copy and every burn spell makes a mana artifact creature |
+| Reach | Ajani's Anguish, Wrath of the Bloodmane, Fulminous Forte | 5 | Win condition two, four damage at instant speed, and a one-sided one-damage sweeper |
+| Card flow | Twinned Vision | 2 | Draw two when cast from the graveyard, which is its normal mode |
+
+## Lands as engines
+
+| Land | Count | Role in the engine |
+|---|---|---|
+| Hexhaven Dueling Arena | 2 | The land that is part of the win condition: `{2}`, `{T}` prepares a creature that attacked, so Pyre Rhymer can cast Molten Tide again every combat |
+| Steam Vents | 4 | Counts as a Mountain for Molten Tide and fixes turn-one blue or red |
+| Spirebluff Canal | 4 | Untapped on turns one and two, when the one-drop prepared creatures need to land |
+| Deserted Beach | 4 | White source that is untapped from turn three onward |
+| Mountain | 4 | The ritual's fuel, doubled by Molten Tide |
+| Island, Plains | 6 | Blue is the primary colour; two Plains carry the white half of the Peer Review cycle |
+
+## Curve and mana
+
+| Point on curve | Cards | Notes |
+|---|---|---|
+| One mana | 10 | Eight prepared creatures and both Ajani's Anguish copies |
+| Two mana | 7 | Fatehold Chronologist, Stingcaster Mage, Twinned Vision |
+| Three mana | 13 | The widest tier: Variable Chaser, Pyre Rhymer, Prudent Fateseer, Vraska, Wrath of the Bloodmane, Fulminous Forte |
+| Four mana | 6 | Semester Foreseer, Traxos, Tetsuko Umezawa |
+| Lands | 24 | 22 coloured sources across three colours, 8 of them Mountains for the ritual |
+
+The deck's real curve is lower than the table suggests: prepared copies cost nothing, Traxos discounts itself, and the
+average nonland mana value is 2.42.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one-drop, and prefer the one that produces blue mana pressure: Diviner of Victory grows on every surveil, so
+Fatehold Chronologist and Prudent Fateseer later turn it into a 2/2 or 3/3. Do not fire Unwind History at the first legal
+target — hold it for the creature that would otherwise block a flier. Improvised Act is a free loot; use it to dig for the
+third land or the Molten Tide.
+
+## Mid game
+
+The three-drop slot decides games. Resolve Pyre Rhymer when you have four or more lands, because the Molten Tide it carries
+is only worth casting with Mountains behind it. Prudent Fateseer plus any Peer Review creature is a soft combo: the Cadet
+token's surveil triggers the Fateseer, which pumps the team, which makes the 1/4 body into a real blocker while the fliers
+attack. Fulminous Forte is the answer to a token board — one damage to each creature and planeswalker your opponents
+control, your side untouched.
+
+## The combo turn
+
+The sequence that ends games:
+
+1. Attack with Pyre Rhymer (and any other prepared creature). Prowess pumps it; combat damage is incidental.
+2. After combat, activate Hexhaven Dueling Arena for `{2}` and `{T}`: Rhymer becomes prepared again.
+3. Cast the free copy of Molten Tide. From now until end of turn, each Mountain taps for `{R}{R}`.
+4. Tap out. With four Mountains and two Steam Vents that is twelve red.
+5. Cast Ajani's Anguish for `{X}{R}` with X at nine or more, pointing the damage at the opponent. A second Anguish, or a
+   Wrath of the Bloodmane on the last blocker, finishes.
+
+Stingcaster Mage is the redundancy: its enters trigger gives Molten Tide flashback for `{R}`, so a turn that already spent
+the prepared copy can still double its mana from the graveyard. Two Molten Tides on eight Mountains make every Mountain tap
+for three red instead of one: twenty-four mana, more than enough for both Anguish copies and a Wrath.
+
+## Win condition two
+
+Without the ritual, the deck wins the ordinary prowess way. Every prepared copy is a noncreature spell, so a board of
+Variable Chaser and Traxos grows by one or two power per free spell while attacking in the air, and Tetsuko Umezawa, Pursuer
+double strikes for two prowess triggers each. Ajani's Anguish granting trample converts a wide board of 3/3s into a
+one-turn kill through chump blockers. Tetsuko's second ability also punishes small blockers: any creature with power or
+toughness 1 or less that blocks costs its controller a life.
+
+## Mulligan guide
+
+Keep hands with two or three lands that include a blue source and a red source, one one-mana prepared creature, and either a
+three-drop from the Value tier or Ajani's Anguish. Ship hands with no red source (the burn plan disappears), one-land hands,
+and hands made entirely of four-drops. A two-land hand with Pompous Battlemage, Diviner of Victory and Hexhaven Dueling Arena
+is a keep: the Arena turns the second creature into a repeated free spell.
+
+## Key interactions and edge cases
+
+- Prepared is one-shot. Casting the copy unprepares the creature, and nothing re-prepares it automatically. Hexhaven Dueling
+  Arena and its `{4}`, `{T}` mode (any creature, not just attackers) are the only ways back, so save the Arena activation for
+  a turn where the free spell actually matters.
+- Hexhaven produces `{C}`, not coloured mana. It pays generic costs only; do not count it as a blue source.
+- Steam Vents is typed "Land — Island Mountain", so it triggers Molten Tide's doubling and counts toward the ritual. Eight of
+  the twenty-four lands are Mountains, which is why the ritual is reliable without over-loading the manabase.
+- Prudent Fateseer triggers once per turn. Surveilling twice in a turn is still only one pump, so sequence the Peer Review
+  copy after combat rather than before it when the pump matters for damage.
+- Twinned Vision reads "if this spell wasn't cast from your hand, draw two". Flashback is the intended mode: cast it from the
+  graveyard for two cards, discarding a spare land to the flashback cost.
+- Vraska, Soul of Stone's tokens are artifact creatures with vigilance, so they attack and stay home on defence, and they
+  sacrifice for any colour of mana on the ritual turn.
+- Wrath of the Bloodmane costs `{1}` less with a legendary creature in play. Tetsuko, Traxos and Vraska all qualify, so it is
+  usually a two-mana four-damage instant.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Fulminous Forte is a one-sided sweeper against one-toughness boards. Trade prepared one-drops freely, then stabilise behind Prudent Fateseer's 1/4 and Traxos's 1/5. |
+| Control | Do not over-commit into sweepers. Hold Molten Tide and both Ajani's Anguish copies for a single turn where the ritual produces ten or more red. Twinned Vision's flashback keeps the hand full. |
+| Midrange | Attack in the air with Variable Chaser and Traxos, keep Wrath of the Bloodmane for their largest threat, and let Tetsuko Umezawa double strike race. |
+| Combo | Fulminous Forte answers small utility creatures and planeswalkers at instant speed. The deck's clock is turn five or six with a ritual, so race rather than react. |
+
+# Deck list (Arena import)
+
+```text
+Molten Marginalia
+Deck
+4 Pompous Battlemage
+4 Diviner of Victory
+3 Fatehold Chronologist
+3 Variable Chaser
+3 Pyre Rhymer
+3 Prudent Fateseer
+2 Semester Foreseer
+2 Traxos, Academy Guardian
+2 Tetsuko Umezawa, Pursuer
+2 Stingcaster Mage
+1 Vraska, Soul of Stone
+2 Ajani's Anguish
+2 Wrath of the Bloodmane
+2 Twinned Vision
+1 Fulminous Forte
+4 Deserted Beach
+4 Steam Vents
+4 Spirebluff Canal
+2 Hexhaven Dueling Arena
+4 Island
+4 Mountain
+2 Plains
+```
