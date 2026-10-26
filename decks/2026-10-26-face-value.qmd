@@ -1,0 +1,130 @@
+---
+title: "Face Value"
+subtitle: "Jeskai (Blue / White / Red) — Disguise x Investigate x Power-up"
+date: "2026-10-26"
+categories: ["combo", "Power-up", "Disguise", "Investigate"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | Blue, White, Red (exactly three) |
+| Archetype | Face-down tempo with a burn finisher |
+| Size | 60 cards |
+| Primary win | Pyrotechnic Performer turning face-down creatures face up for damage equal to their power, aimed at each opponent |
+| Secondary win | Human Torch, Johnny Storm pinging on every Clue-draw, plus a Case of the Filched Falcon Bird pushed through by Rogue's Passage |
+
+## Overview
+
+Everything in this deck is cast one of two ways: as itself for coloured mana, or face down as a 2/2 with ward {2} for a flat {3}. That second option is the whole reason a three-colour deck works here. Thirteen cards in the list have disguise, so a hand of blue lands and red spells can still put two bodies on the board on turn two and turn three. Ward {2} means the cheap spot removal that would otherwise punish a deck this small mostly cannot touch those bodies at all.
+
+Pyrotechnic Performer converts every one of those flips into a trigger: the creature that turns face up deals damage equal to its power to each opponent. A face-down 2/2 flipping is two damage to both opponents for one or two mana. Bubble Smuggler flipping is six. With two Performers out those numbers double.
+
+The investigate package is the fuel line rather than the win condition. Deduce, Gleaming Geardrake, Detective's Satchel and a flipped Mistway Spy all hand you Clues, and Clues turn into cards at two mana each. Cards find more face-down creatures, more flips, and more Heroes for Human Torch. Torch turns every one of those Clue-draws into a point to the opponent's face, and once you have another Hero in play he is a flying clock that the power-up ability can grow by three counters in a single activation.
+
+## Approach
+
+### Game plan by phase
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Open | 1 to 3 | Land two or three bodies. Prefer face down when the mana is awkward or when you want to hold a flip up as a trick. Quicksilver can start on the battlefield from your opening hand. |
+| Build | 3 to 5 | Land Pyrotechnic Performer, add Gleaming Geardrake or Detective's Satchel, start cashing Clues. Every Clue you sacrifice grows the Drake and digs toward the next flip. |
+| Convert | 5 to 7 | Flip in bursts. Each flip is damage on both opponents; Exit Specialist and Unyielding Gatekeeper also clear blockers on the way up. Torch and Quicksilver finish what the flips start. |
+| Finish | 7+ | Rogue's Passage plus any large body, or a Case of the Filched Falcon Bird. Torch's power-up is the reach when the board stalls. |
+
+### Card roles
+
+| Role | Cards | What they do |
+|---|---|---|
+| Payoff | Pyrotechnic Performer (4) | Each creature you turn face up deals damage equal to its power to each opponent. The reason to play disguise at all. |
+| Flippers | Mistway Spy (4), Exit Specialist (3), Bubble Smuggler (3) | Cheap disguise costs. Spy flips for {1}{U} and turns combat damage into Clues, Specialist bounces a creature, Smuggler arrives as a 6/6. |
+| Value flips | Fugitive Codebreaker (2), Unyielding Gatekeeper (2) | Codebreaker refills to seven cards; its disguise cost shrinks by {1} per instant and sorcery in the graveyard. Gatekeeper exiles a nonland permanent on the way up. |
+| Power-up | Human Torch, Johnny Storm (3), Quicksilver, Brash Blur (2), Brave Brawler (2) | Torch is the burn engine and a Hero. Quicksilver is a free body with a double strike counter available. Brawler is a lifelink Hero that Torch needs on the board. |
+| Clue engine | Deduce (3), Detective's Satchel (2), Gleaming Geardrake (2) | Make Clues and convert them into cards. Satchel also makes Thopters once you have sacrificed an artifact. |
+| Win condition | Case of the Filched Falcon (2) | Four +1/+1 counters turn a Clue into a 4/4 flying Bird that is still an artifact. |
+| Interaction | Torch the Witness (2) | Twice X damage to a creature, and a Clue when you overshoot. |
+
+### Lands as engines
+
+| Land | Count | Job |
+|---|---|---|
+| Island | 9 | Blue for Deduce, Exit Specialist, Mistway Spy and the Spy flip. |
+| Mountain | 8 | Red for Pyrotechnic Performer, Torch and the Satchel. |
+| Plains | 5 | White for the Gatekeeper, Brave Brawler and Unyielding Gatekeeper flips. |
+| Rogue's Passage | 2 | The land that ends games. {4} and a tap makes the 6/6 Smuggler, a Case Bird or a pumped Human Torch unblockable for the lethal swing. |
+
+Because the disguise cost is generic, the manabase does not have to be perfect. On a blue and red draw you still deploy two face-down bodies and only need the third colour for the flips.
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|---|---|---|
+| 1 | 8 | Mistway Spy, Quicksilver, Case of the Filched Falcon |
+| 2 | 23 | Pyrotechnic Performer, Bubble Smuggler, Exit Specialist, Fugitive Codebreaker, Unyielding Gatekeeper, Brave Brawler, Deduce, Gleaming Geardrake, Torch the Witness |
+| 3 | 3 | Human Torch, Johnny Storm |
+| 4 | 2 | Detective's Satchel |
+| Land | 24 | 22 basics plus 2 Rogue's Passage |
+
+Average mana value of the 36 nonland cards is 1.97. The deck plays 24 lands so that the fourth land drop lands on time, which matters because turn four is when you want to hold up a flip plus a Clue activation in the same turn.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with a one-drop you do not mind trading: Mistway Spy face down is often better than face up, because the flip is what makes it a Clue engine. Hold Deduce until you have something to do with the card it draws, or use it end of turn as a two for one. Quicksilver from the opening hand is the fastest start available and costs nothing, so keep him in every seven that has two lands.
+
+### Mid game and the combo turn
+
+The burst turn is: Pyrotechnic Performer already in play, two or three face-down creatures, five or six mana. Flip them one at a time. Each flip resolves its own enter-face-up trigger, and each one is a separate Pyrotechnic Performer trigger, so removal pointed at the Performer mid-sequence does not retroactively cancel the damage already dealt. Bubble Smuggler is the biggest single flip at six damage to each opponent; two Performers turn that into twelve.
+
+Note the ordering on Mistway Spy: flip it first in a turn where you intend to connect, because the investigate rider applies to all combat damage that turn, not just the Spy's. Two attacking bodies with the rider up is two Clues for one flip.
+
+### Win condition 2
+
+Human Torch needs one other Hero. Brave Brawler at two mana is the cheapest reliable one, Quicksilver the fastest. Once both are down, every Clue sacrificed to draw is one damage to the opponent, and a Detective's Satchel activation is two Clues and therefore two damage on top of the cards. Torch's power-up costs {6}{R}, reduced by {2}{R} if he entered this turn, so the realistic line is Torch plus Brave Brawler on six mana, then a four mana power-up for a 5/5 flier.
+
+### Mulligan guide
+
+Keep any seven with two or three lands and at least two cards that can be cast face down. Ship hands with no blue or red source and no generic three available by turn three. A hand of five lands and Pyrotechnic Performer is a mulligan: the deck needs bodies, not payoffs. Do not ship a hand with Quicksilver, two lands and a Deduce just because it has no red source.
+
+### Key interactions and edge cases
+
+- Case of the Filched Falcon solves at your end step once you control three artifacts. Clues, the Satchel itself and Thopters all count. Solving then sacrificing for {2}{U} makes a 4/4 flier out of a Clue token that still has the sacrifice-for-a-card ability.
+- Detective's Satchel's Thopter activation requires that you have sacrificed an artifact this turn. In practice you crack a Clue first, then tap the Satchel.
+- Gleaming Geardrake grows on every artifact sacrifice, including Clue cracks and the Satchel's own activation cost. It is a legitimate secondary threat at four or five power with flying.
+- Unyielding Gatekeeper on your own permanent exiles it and returns it tapped, which is a way to blank a removal spell or re-trigger an enters ability. On an opponent's permanent it gifts them a 2/2 Detective, so only use it that way when the exile matters more than the token.
+- Torch the Witness with X equal to half the target's toughness plus one is the efficient way to both kill the creature and get the Clue.
+- Fugitive Codebreaker discards your hand when it flips. Flip it after you have emptied your hand of lands and cheap spells, not before.
+
+### Matchups
+
+Against aggressive red and white decks the plan is to trade early and stabilise on Brave Brawler lifelink plus Torch the Witness, then win the long game with Clue cards. Against control, face-down bodies dodge sorcery speed sweepers only partially, so hold a flip and a Clue in reserve and force them to spend answers on 2/2s; ward {2} makes their cheap interaction very expensive. Against midrange green decks, Rogue's Passage plus the 6/6 Smuggler is usually the cleanest path, because their blockers are big but slow.
+
+## Deck list (Arena import)
+
+```
+Face Value
+Deck
+4 Pyrotechnic Performer
+4 Mistway Spy
+3 Bubble Smuggler
+3 Exit Specialist
+2 Fugitive Codebreaker
+2 Unyielding Gatekeeper
+3 Human Torch, Johnny Storm
+2 Quicksilver, Brash Blur
+2 Brave Brawler
+3 Deduce
+2 Case of the Filched Falcon
+2 Detective's Satchel
+2 Gleaming Geardrake
+2 Torch the Witness
+9 Island
+8 Mountain
+5 Plains
+2 Rogue's Passage
+```
