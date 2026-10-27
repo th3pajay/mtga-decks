@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-27">
+
+<title>Vanish on Cue – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Vanish on Cue</h1>
+<p class="subtitle lead">Blue, Black, Green, Red — Prepared x Disappear</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">prepared</div>
+    <div class="quarto-category">disappear</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 27, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="at-a-glance">At a glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 84%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Format</td>
+<td style="text-align: left;">Standard (60 cards, 24 lands)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Colors</td>
+<td style="text-align: left;">Blue / Black / Green / Red</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Archetype</td>
+<td style="text-align: left;">Midrange token engine with a spell-copy combo overlay</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mechanic identity</td>
+<td style="text-align: left;">Prepared (cast a free copy of a creature’s spell) x Disappear (payoffs whenever a permanent you control leaves the battlefield)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Primary win</td>
+<td style="text-align: left;">Rat King, Verminister swarms Rats, grows, then returns every dead Rat King from the graveyard</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Secondary win</td>
+<td style="text-align: left;">Pizza Face animates Heartwood and Food artifacts into growing Mutant attackers, pushed through with Rogue’s Passage</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Average mana value</td>
+<td style="text-align: left;">2.4 across 36 nonland cards</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The deck is built on a single clockwork: every turn you want to do two things — cast a <em>prepared</em> spell for free, and lose a permanent you control. Those two actions are not separate plans, they are the same plan. Prepared creatures produce the free spells; the free spells produce artifacts; the artifacts get sacrificed to removal, to Ice Cream Kitty, or to a Disappear payoff that hands you a Rat, an Insect, a card, or three +1/+1 counters. Disappear is worded “if a permanent left the battlefield under your control this turn,” so a token dying is currency, and the deck manufactures that currency on demand.</p>
+<p>The failure mode this deck avoids is the usual one for these mechanics: Disappear cards with nothing to sacrifice, or Prepared creatures whose spell does nothing but cantrip. Here the two halves feed each other. Woodwork Prodigy re-prepares itself every upkeep and its Soul Tether spell makes a Heartwood artifact token, which is exactly the permanent you want to lose. Pizza Face turns those leftovers into a threat. Codie, Ravenous Codex doubles every prepared spell, so a single upkeep can produce two Heartwoods, or mill six, or deal two points of free noncombat damage.</p>
+<p>Nothing in the deck needs a two-card infinite. It wins on accumulated value, one grown threat and a widening token board at a time, with enough removal to survive the early turns.</p>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<section id="game-plan-phases" class="level3">
+<h3 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h3>
+<ol type="1">
+<li><strong>Turns 1-2, deploy and enable.</strong> Stingerquill Voxmancer, Paradox Shaper, Rat King, or Bloodline Recollector. Rat King on turn two is the ideal opener — it starts paying you immediately if anything leaves.</li>
+<li><strong>Turns 3-4, build the loop.</strong> Woodwork Prodigy (Heartwood each upkeep, if you keep re-preparing it), Michelangelo, Codie. This is where you begin sacrificing for value every single turn: a Heartwood into Embrace Oblivion, a Food for 3 life, a Terramorphic Expanse for a land.</li>
+<li><strong>Turns 4-6, cash out.</strong> Pizza Face, Lord Dregg, and the second Rat King turn tokens into a board. Zhao converts each sacrifice into team damage.</li>
+<li><strong>Late, close.</strong> Grow one artifact into a 6/6 or larger Mutant and clear a path with Rogue’s Passage, or loop Rat Kings out of the graveyard and attack wide with the anthem up.</li>
+</ol>
+</section>
+<section id="card-roles" class="level3">
+<h3 class="anchored" data-anchor-id="card-roles">Card roles</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 37%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Role</th>
+<th style="text-align: left;">Cards</th>
+<th style="text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Repeatable Prepared engines</td>
+<td style="text-align: left;">Paradox Shaper, Woodwork Prodigy, Stingerquill Voxmancer</td>
+<td style="text-align: left;">All three become prepared from the upkeep, so each turn you get a free spell without spending a card</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Prepared payoffs</td>
+<td style="text-align: left;">Codie, Ravenous Codex, Bloodline Recollector</td>
+<td style="text-align: left;">Codie copies every prepared spell; Bloodline Recollector converts a crowded graveyard turn into Ancestral Craving</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Disappear payoffs</td>
+<td style="text-align: left;">Rat King, Lord Dregg, Pizza Face, Michelangelo</td>
+<td style="text-align: left;">Each one checks “a permanent left the battlefield under your control this turn” at end of turn</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Disappear enablers (free spells)</td>
+<td style="text-align: left;">Embrace Oblivion, Stir Up Trouble, Savor, Demand Answers</td>
+<td style="text-align: left;">Sacrificing is part of the cost, so removal doubles as a Disappear trigger</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sac outlets</td>
+<td style="text-align: left;">Ice Cream Kitty, Lord Dregg ({3}{G})</td>
+<td style="text-align: left;">Sorcery-speed draw engines for surplus tokens</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Anthem / reach</td>
+<td style="text-align: left;">Zhao, Ruthless Admiral</td>
+<td style="text-align: left;">Every sacrifice pumps the team; Firebending 2 adds burst mana on the attack</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Mana</td>
+<td style="text-align: left;">9 Swamp, 7 Forest, 2 Mountain, 1 Island, 3 Terramorphic Expanse</td>
+<td style="text-align: left;">Fetchlands are also Disappear triggers</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines-and-as-the-win-condition" class="level3">
+<h3 class="anchored" data-anchor-id="lands-as-engines-and-as-the-win-condition">Lands as engines and as the win condition</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Land</th>
+<th style="text-align: left;">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Rogue’s Passage</td>
+<td style="text-align: left;">Win condition. Four mana plus a tap makes the Pizza Face Mutant (or a Rat King) unblockable — the deck’s cleanest way to convert a growing artifact into lethal.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hexhaven Dueling Arena</td>
+<td style="text-align: left;">Re-prepares a creature that attacked, for {2}. Turns any attacker with a prepare spell into a second free spell on your second main step; {4} mode works on a blocker.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Terramorphic Expanse</td>
+<td style="text-align: left;">Fixes four colors and, because you sacrifice it, it turns on every Disappear card on turn one or two.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">9 Swamp / 7 Forest / 2 Mountain / 1 Island</td>
+<td style="text-align: left;">Black is the spine (Rat King, Dregg, removal), green is the token and counter half. Mountain and Island exist for the red and blue halves of the hybrid cards.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level3">
+<h3 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h3>
+<p>The deck is deliberately bottom-heavy: twenty-three one- and two-mana cards, and only three cards above four mana. Twenty-four lands is not greed, it is the gate this list had to clear — the first build at twenty-two lands missed the fourth land drop far too often, and the extra two basics fixed it.</p>
+<p>Hybrid costs do the color work. Paradox Shaper is payable with Swamps, Stingerquill Voxmancer with Swamps, Woodwork Prodigy with Forests, Zhao with Swamps. Only Demand Answers genuinely asks for a Mountain, which is why it is a two-of rather than a four-of.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="gameplay-strategy">Gameplay strategy</h2>
+<section id="early-game" class="level3">
+<h3 class="anchored" data-anchor-id="early-game">Early game</h3>
+<p>Lead with the cheapest Disappear payoff you have, not the cheapest Prepared creature. Rat King on turn two means every sacrifice from turn three onward is worth a Rat and a counter. If you have no payoff, play Paradox Shaper and start milling: Omit Variables fills the graveyard, and the threshold text on nothing in this deck matters, but the cards in the graveyard do — Rat King’s recursion and Bloodline Recollector both read the yard.</p>
+<p>Do not crack Terramorphic Expanse on turn one out of habit. It is worth more as a Disappear trigger on the turn you need one, and the deck rarely needs the color that early.</p>
+</section>
+<section id="mid-game" class="level3">
+<h3 class="anchored" data-anchor-id="mid-game">Mid game</h3>
+<p>This is where the engine has to run every turn without exception. The checklist for each end step: did a permanent leave the battlefield under my control this turn? If not, find one — Food for {2}, a Heartwood into Embrace Oblivion, a Clue, a spare Rat.</p>
+<p>Woodwork Prodigy is the quiet engine. Left alone, it becomes prepared every upkeep, and each Soul Tether makes a Heartwood artifact that taps for red or green. Those tokens ramp you into Pizza Face and Lord Dregg while also being the sacrifice fodder that keeps Disappear live. With Codie out, one upkeep makes two Heartwoods.</p>
+<p>Against creature decks, hold Embrace Oblivion and Stir Up Trouble as instant-speed Disappear triggers rather than as pure removal. Killing their attacker and turning on your own end-step payoffs in the same action is the whole point of the fusion.</p>
+</section>
+<section id="the-combo-turn" class="level3">
+<h3 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h3>
+<p>There is no single explosive turn, but the closest thing is an upkeep stack:</p>
+<ol type="1">
+<li>Upkeep: Paradox Shaper becomes prepared, Woodwork Prodigy becomes prepared, Stingerquill Voxmancer becomes prepared.</li>
+<li>Cast Omit Variables (mill three), Soul Tether (Heartwood token), Vicious Verse (one damage to the opponent). Codie copies each one if it is on the battlefield.</li>
+<li>Sacrifice a Heartwood to Ice Cream Kitty ({2}) or to Embrace Oblivion while killing a creature.</li>
+<li>End step: Rat King makes a Rat and grows; Lord Dregg makes a flier; Pizza Face puts three counters on the second Heartwood and animates it into a 3/3 Mutant; Michelangelo grows; Zhao has already pumped the team.</li>
+</ol>
+<p>That is four or five permanents gained and one lost, every turn, without spending a card from hand.</p>
+</section>
+<section id="win-condition-two" class="level3">
+<h3 class="anchored" data-anchor-id="win-condition-two">Win condition two</h3>
+<p>Rat King, Verminister is the deck’s real comeback engine. Its last ability reads: tap, sacrifice three Rats, return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped. With four Rat Kings in the deck, sacrificing three Rat tokens can return two or three Rat Kings at once — each of which then makes another Rat at end of turn. Zhao turns the resulting swarm into a lethal alpha strike, and Rogue’s Passage makes the biggest one unblockable.</p>
+</section>
+<section id="mulligan-guide" class="level3">
+<h3 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h3>
+<p>Keep hands with one Disappear payoff (Rat King, Pizza Face, Lord Dregg) and two or three lands, plus at least one cheap enabler. A hand of only Prepared creatures and no sacrifice outlet is a mulligan: the creatures will each produce one free spell and then sit there. Six-card hands are acceptable if they contain Rat King plus two lands. Never keep a one-land hand, even with Terramorphic Expanse — the deck needs to reach four mana to function.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level3">
+<h3 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h3>
+<ul>
+<li><strong>Codie’s activated ability is unreachable.</strong> It costs {W}{U}{B}{R}{G} and this deck has no white source. Codie is played purely for the passive that copies prepared spells; do not count on the mass-prepare mode.</li>
+<li><strong>Prepared spells are cast, then unprepare the creature.</strong> You can hold the copy for the opponent’s turn if the spell is an instant (none of the prepare spells here are), so in practice cast them on your own turn and re-prepare through the upkeep or Hexhaven.</li>
+<li><strong>Sacrificing a land counts.</strong> Terramorphic Expanse satisfies Disappear on its own. Cracking a fetch is a legal way to turn the team on.</li>
+<li><strong>Food’s own ability is a free trigger.</strong> {2}, tap, sacrifice: gain 3 life. It is the cheapest way to guarantee a Disappear check with no card spent.</li>
+<li><strong>Pizza Face animates artifacts, so target the right one.</strong> A Heartwood becomes a 0/0 Mutant with three counters, which is a 3/3 that keeps growing. Do not target a Food you intend to eat this turn.</li>
+<li><strong>Rat King’s recursion needs matching names.</strong> Returning Rat King returns only other Rat Kings; it will not return a Lord Dregg. Plan the graveyard accordingly.</li>
+<li><strong>Zhao triggers on every sacrifice, including costs.</strong> Embrace Oblivion’s additional cost pumps the team before damage.</li>
+</ul>
+</section>
+<section id="matchups" class="level3">
+<h3 class="anchored" data-anchor-id="matchups">Matchups</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Opponent</th>
+<th style="text-align: left;">Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Aggro</td>
+<td style="text-align: left;">Trade early with Embrace Oblivion and Savor, land Rat King and block with Rats, stabilise behind Ice Cream Kitty lifegain and Lord Dregg fliers.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Control</td>
+<td style="text-align: left;">Do not overextend into sweepers. Keep Codie and one Prepared engine back, force them to answer a stream of tokens, and win with an animated artifact plus Rogue’s Passage rather than a wide board.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ramp / big mana</td>
+<td style="text-align: left;">Race with Zhao-pumped Rats, save Stir Up Trouble for their payoff, and use Rogue’s Passage to make the damage unblockable.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Combo</td>
+<td style="text-align: left;">The deck has no counterspells; the plan is speed, mulligan toward the fastest Rat King start and use Stir Up Trouble on their engine piece.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="iterations" class="level2">
+<h2 class="anchored" data-anchor-id="iterations">Iterations</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 57%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Round</th>
+<th style="text-align: left;">Change</th>
+<th style="text-align: left;">Metric delta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">v1</td>
+<td style="text-align: left;">Initial build: 22 lands, 3 Lord Dregg, 2 Zhao, 2 Savor</td>
+<td style="text-align: left;">T4 consistency 0.53, P(4 lands) 0.53, sim 57.3%, synergy 72.6 — FAIL on both land gates</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">v2</td>
+<td style="text-align: left;">-1 Lord Dregg, -1 Zhao, +1 Swamp, +1 Forest (24 lands)</td>
+<td style="text-align: left;">T4 0.53 to 0.64, P(4 lands) 0.53 to 0.64, sim 54.7-59.3%, synergy 72.6 — PASS on all gates</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deck-list-arena-import" class="level2">
+<h2 class="anchored" data-anchor-id="deck-list-arena-import">Deck list (Arena import)</h2>
+<pre><code>Vanish on Cue
+Deck
+4 Paradox Shaper
+4 Woodwork Prodigy
+4 Rat King, Verminister
+3 Stingerquill Voxmancer
+3 Pizza Face, Gastromancer
+2 Lord Dregg, Insect Invader
+1 Zhao, Ruthless Admiral
+2 Codie, Ravenous Codex
+3 Ice Cream Kitty
+1 Michelangelo, Game Master
+1 Bloodline Recollector
+3 Embrace Oblivion
+2 Stir Up Trouble
+2 Demand Answers
+1 Savor
+9 Swamp
+7 Forest
+2 Mountain
+1 Island
+1 Hexhaven Dueling Arena
+1 Rogue's Passage
+3 Terramorphic Expanse</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

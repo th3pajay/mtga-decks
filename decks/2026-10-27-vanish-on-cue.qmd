@@ -1,0 +1,153 @@
+---
+title: "Vanish on Cue"
+subtitle: "Blue, Black, Green, Red — Prepared x Disappear"
+date: "2026-10-27"
+categories: ["combo", "prepared", "disappear"]
+---
+
+
+## At a glance
+
+| | |
+|:----------|:------------------------------------------------------------|
+| Format | Standard (60 cards, 24 lands) |
+| Colors | Blue / Black / Green / Red |
+| Archetype | Midrange token engine with a spell-copy combo overlay |
+| Mechanic identity | Prepared (cast a free copy of a creature's spell) x Disappear (payoffs whenever a permanent you control leaves the battlefield) |
+| Primary win | Rat King, Verminister swarms Rats, grows, then returns every dead Rat King from the graveyard |
+| Secondary win | Pizza Face animates Heartwood and Food artifacts into growing Mutant attackers, pushed through with Rogue's Passage |
+| Average mana value | 2.4 across 36 nonland cards |
+
+## Overview
+
+The deck is built on a single clockwork: every turn you want to do two things — cast a *prepared* spell for free, and lose a permanent you control. Those two actions are not separate plans, they are the same plan. Prepared creatures produce the free spells; the free spells produce artifacts; the artifacts get sacrificed to removal, to Ice Cream Kitty, or to a Disappear payoff that hands you a Rat, an Insect, a card, or three +1/+1 counters. Disappear is worded "if a permanent left the battlefield under your control this turn," so a token dying is currency, and the deck manufactures that currency on demand.
+
+The failure mode this deck avoids is the usual one for these mechanics: Disappear cards with nothing to sacrifice, or Prepared creatures whose spell does nothing but cantrip. Here the two halves feed each other. Woodwork Prodigy re-prepares itself every upkeep and its Soul Tether spell makes a Heartwood artifact token, which is exactly the permanent you want to lose. Pizza Face turns those leftovers into a threat. Codie, Ravenous Codex doubles every prepared spell, so a single upkeep can produce two Heartwoods, or mill six, or deal two points of free noncombat damage.
+
+Nothing in the deck needs a two-card infinite. It wins on accumulated value, one grown threat and a widening token board at a time, with enough removal to survive the early turns.
+
+## Approach
+
+### Game plan phases
+
+1. **Turns 1-2, deploy and enable.** Stingerquill Voxmancer, Paradox Shaper, Rat King, or Bloodline Recollector. Rat King on turn two is the ideal opener — it starts paying you immediately if anything leaves.
+2. **Turns 3-4, build the loop.** Woodwork Prodigy (Heartwood each upkeep, if you keep re-preparing it), Michelangelo, Codie. This is where you begin sacrificing for value every single turn: a Heartwood into Embrace Oblivion, a Food for 3 life, a Terramorphic Expanse for a land.
+3. **Turns 4-6, cash out.** Pizza Face, Lord Dregg, and the second Rat King turn tokens into a board. Zhao converts each sacrifice into team damage.
+4. **Late, close.** Grow one artifact into a 6/6 or larger Mutant and clear a path with Rogue's Passage, or loop Rat Kings out of the graveyard and attack wide with the anthem up.
+
+### Card roles
+
+| Role | Cards | Notes |
+|:------------------|:--------------------------------------------|:--------------------------------------------------------|
+| Repeatable Prepared engines | Paradox Shaper, Woodwork Prodigy, Stingerquill Voxmancer | All three become prepared from the upkeep, so each turn you get a free spell without spending a card |
+| Prepared payoffs | Codie, Ravenous Codex, Bloodline Recollector | Codie copies every prepared spell; Bloodline Recollector converts a crowded graveyard turn into Ancestral Craving |
+| Disappear payoffs | Rat King, Lord Dregg, Pizza Face, Michelangelo | Each one checks "a permanent left the battlefield under your control this turn" at end of turn |
+| Disappear enablers (free spells) | Embrace Oblivion, Stir Up Trouble, Savor, Demand Answers | Sacrificing is part of the cost, so removal doubles as a Disappear trigger |
+| Sac outlets | Ice Cream Kitty, Lord Dregg ({3}{G}) | Sorcery-speed draw engines for surplus tokens |
+| Anthem / reach | Zhao, Ruthless Admiral | Every sacrifice pumps the team; Firebending 2 adds burst mana on the attack |
+| Mana | 9 Swamp, 7 Forest, 2 Mountain, 1 Island, 3 Terramorphic Expanse | Fetchlands are also Disappear triggers |
+
+### Lands as engines and as the win condition
+
+| Land | Function |
+|:------------------------|:---------------------------------------------------------------------------|
+| Rogue's Passage | Win condition. Four mana plus a tap makes the Pizza Face Mutant (or a Rat King) unblockable — the deck's cleanest way to convert a growing artifact into lethal. |
+| Hexhaven Dueling Arena | Re-prepares a creature that attacked, for {2}. Turns any attacker with a prepare spell into a second free spell on your second main step; {4} mode works on a blocker. |
+| Terramorphic Expanse | Fixes four colors and, because you sacrifice it, it turns on every Disappear card on turn one or two. |
+| 9 Swamp / 7 Forest / 2 Mountain / 1 Island | Black is the spine (Rat King, Dregg, removal), green is the token and counter half. Mountain and Island exist for the red and blue halves of the hybrid cards. |
+
+### Curve and mana
+
+The deck is deliberately bottom-heavy: twenty-three one- and two-mana cards, and only three cards above four mana. Twenty-four lands is not greed, it is the gate this list had to clear — the first build at twenty-two lands missed the fourth land drop far too often, and the extra two basics fixed it.
+
+Hybrid costs do the color work. Paradox Shaper is payable with Swamps, Stingerquill Voxmancer with Swamps, Woodwork Prodigy with Forests, Zhao with Swamps. Only Demand Answers genuinely asks for a Mountain, which is why it is a two-of rather than a four-of.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with the cheapest Disappear payoff you have, not the cheapest Prepared creature. Rat King on turn two means every sacrifice from turn three onward is worth a Rat and a counter. If you have no payoff, play Paradox Shaper and start milling: Omit Variables fills the graveyard, and the threshold text on nothing in this deck matters, but the cards in the graveyard do — Rat King's recursion and Bloodline Recollector both read the yard.
+
+Do not crack Terramorphic Expanse on turn one out of habit. It is worth more as a Disappear trigger on the turn you need one, and the deck rarely needs the color that early.
+
+### Mid game
+
+This is where the engine has to run every turn without exception. The checklist for each end step: did a permanent leave the battlefield under my control this turn? If not, find one — Food for {2}, a Heartwood into Embrace Oblivion, a Clue, a spare Rat.
+
+Woodwork Prodigy is the quiet engine. Left alone, it becomes prepared every upkeep, and each Soul Tether makes a Heartwood artifact that taps for red or green. Those tokens ramp you into Pizza Face and Lord Dregg while also being the sacrifice fodder that keeps Disappear live. With Codie out, one upkeep makes two Heartwoods.
+
+Against creature decks, hold Embrace Oblivion and Stir Up Trouble as instant-speed Disappear triggers rather than as pure removal. Killing their attacker and turning on your own end-step payoffs in the same action is the whole point of the fusion.
+
+### The combo turn
+
+There is no single explosive turn, but the closest thing is an upkeep stack:
+
+1. Upkeep: Paradox Shaper becomes prepared, Woodwork Prodigy becomes prepared, Stingerquill Voxmancer becomes prepared.
+2. Cast Omit Variables (mill three), Soul Tether (Heartwood token), Vicious Verse (one damage to the opponent). Codie copies each one if it is on the battlefield.
+3. Sacrifice a Heartwood to Ice Cream Kitty ({2}) or to Embrace Oblivion while killing a creature.
+4. End step: Rat King makes a Rat and grows; Lord Dregg makes a flier; Pizza Face puts three counters on the second Heartwood and animates it into a 3/3 Mutant; Michelangelo grows; Zhao has already pumped the team.
+
+That is four or five permanents gained and one lost, every turn, without spending a card from hand.
+
+### Win condition two
+
+Rat King, Verminister is the deck's real comeback engine. Its last ability reads: tap, sacrifice three Rats, return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped. With four Rat Kings in the deck, sacrificing three Rat tokens can return two or three Rat Kings at once — each of which then makes another Rat at end of turn. Zhao turns the resulting swarm into a lethal alpha strike, and Rogue's Passage makes the biggest one unblockable.
+
+### Mulligan guide
+
+Keep hands with one Disappear payoff (Rat King, Pizza Face, Lord Dregg) and two or three lands, plus at least one cheap enabler. A hand of only Prepared creatures and no sacrifice outlet is a mulligan: the creatures will each produce one free spell and then sit there. Six-card hands are acceptable if they contain Rat King plus two lands. Never keep a one-land hand, even with Terramorphic Expanse — the deck needs to reach four mana to function.
+
+### Key interactions and edge cases
+
+- **Codie's activated ability is unreachable.** It costs {W}{U}{B}{R}{G} and this deck has no white source. Codie is played purely for the passive that copies prepared spells; do not count on the mass-prepare mode.
+- **Prepared spells are cast, then unprepare the creature.** You can hold the copy for the opponent's turn if the spell is an instant (none of the prepare spells here are), so in practice cast them on your own turn and re-prepare through the upkeep or Hexhaven.
+- **Sacrificing a land counts.** Terramorphic Expanse satisfies Disappear on its own. Cracking a fetch is a legal way to turn the team on.
+- **Food's own ability is a free trigger.** {2}, tap, sacrifice: gain 3 life. It is the cheapest way to guarantee a Disappear check with no card spent.
+- **Pizza Face animates artifacts, so target the right one.** A Heartwood becomes a 0/0 Mutant with three counters, which is a 3/3 that keeps growing. Do not target a Food you intend to eat this turn.
+- **Rat King's recursion needs matching names.** Returning Rat King returns only other Rat Kings; it will not return a Lord Dregg. Plan the graveyard accordingly.
+- **Zhao triggers on every sacrifice, including costs.** Embrace Oblivion's additional cost pumps the team before damage.
+
+### Matchups
+
+| Opponent | Plan |
+|:-------------------|:---------------------------------------------------------------------------------------------------|
+| Aggro | Trade early with Embrace Oblivion and Savor, land Rat King and block with Rats, stabilise behind Ice Cream Kitty lifegain and Lord Dregg fliers. |
+| Control | Do not overextend into sweepers. Keep Codie and one Prepared engine back, force them to answer a stream of tokens, and win with an animated artifact plus Rogue's Passage rather than a wide board. |
+| Ramp / big mana | Race with Zhao-pumped Rats, save Stir Up Trouble for their payoff, and use Rogue's Passage to make the damage unblockable. |
+| Combo | The deck has no counterspells; the plan is speed, mulligan toward the fastest Rat King start and use Stir Up Trouble on their engine piece. |
+
+## Iterations
+
+| Round | Change | Metric delta |
+|:------|:-------------------------------------------------------------------|:-------------------------------------------|
+| v1 | Initial build: 22 lands, 3 Lord Dregg, 2 Zhao, 2 Savor | T4 consistency 0.53, P(4 lands) 0.53, sim 57.3%, synergy 72.6 — FAIL on both land gates |
+| v2 | -1 Lord Dregg, -1 Zhao, +1 Swamp, +1 Forest (24 lands) | T4 0.53 to 0.64, P(4 lands) 0.53 to 0.64, sim 54.7-59.3%, synergy 72.6 — PASS on all gates |
+
+## Deck list (Arena import)
+
+```
+Vanish on Cue
+Deck
+4 Paradox Shaper
+4 Woodwork Prodigy
+4 Rat King, Verminister
+3 Stingerquill Voxmancer
+3 Pizza Face, Gastromancer
+2 Lord Dregg, Insect Invader
+1 Zhao, Ruthless Admiral
+2 Codie, Ravenous Codex
+3 Ice Cream Kitty
+1 Michelangelo, Game Master
+1 Bloodline Recollector
+3 Embrace Oblivion
+2 Stir Up Trouble
+2 Demand Answers
+1 Savor
+9 Swamp
+7 Forest
+2 Mountain
+1 Island
+1 Hexhaven Dueling Arena
+1 Rogue's Passage
+3 Terramorphic Expanse
+```
