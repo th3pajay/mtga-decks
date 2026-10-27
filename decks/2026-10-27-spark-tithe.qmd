@@ -1,0 +1,215 @@
+---
+title: "Spark Tithe"
+subtitle: "Mardu empower: Cadet fodder, Beast forge and a Jace-token drain — Reality Fracture"
+date: "2026-10-27"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana) |
+| Colors | White, black, red (Mardu) |
+| Archetype | Empower engine: every Way makes a Jace token, every token is a sac outlet, a mana source or a drain |
+| Size | 60 cards: 15 creatures, 10 enchantments, 11 spells, 24 lands |
+| Primary win | Way of the Deathbringer gives each Jace token "[-2]: sacrifice a creature, create a 4/4 green Beast with trample"; Command the Stage and Stingerquill Charm supply endless Cadets as fodder, so the board turns disposable 2/2s into trampling 4/4s every turn |
+| Secondary win | Sanctum Lurker gives every Jace token "[+2]: deal 1 damage to each opponent and gain 1 life", and Jace tokens are not put into graveyards for having 0 loyalty, so the drain keeps running; Way of the Mentor turns each of those life gains into another loyalty counter on every planeswalker |
+| Land as engine | Hall of Echoes: `{5}` turns the land into a copy of a Beast (or of a counter-laden Mabel token) until end of turn with the legend rule suspended, an uncounterable extra attacker |
+| Not yet on Arena | Reality Fracture is Standard legal in the data but carries no `arena_id`, so the import list only becomes playable once the set is enabled on Arena |
+
+# Overview
+
+Reality Fracture's empower mechanic reads like a value engine on paper: put loyalty counters on a Jace, then cash the loyalty
+back as surveil, cards or damage. The set's actual payoff is that the Jace token is a free, reusable permanent that every
+"Way of the ..." enchantment upgrades with a new loyalty ability. **Spark Tithe** is built on the two upgrades that turn
+loyalty into a board rather than a card:
+
+- **Way of the Deathbringer** (`{2}{B}`, legendary enchantment, empower Jace 5) gives each planeswalker
+  "[-2]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample."
+- **Way of the Necromancer** (`{1}{B}`, legendary enchantment, empower Jace 2) gives
+  "Whenever a creature you control dies, put a loyalty counter on each planeswalker you control."
+
+Read together, the sacrifice is not a cost. Pay two loyalty, sacrifice a Cadet, get a 4/4 trampler, and the death trigger
+immediately refunds one loyalty to every planeswalker you control. Two tokens and a steady stream of 2/2s means a steady
+stream of 4/4s, and **Sanctum Lurker** (`{2}{B}`, 3/2 Horror) keeps the whole structure alive: its static ability says your
+planeswalkers "aren't put into their owners' graveyards for having 0 loyalty", so a token that has spent its last counter
+stays on the battlefield as a permanent ability source instead of dying to state-based actions.
+
+The third piece is why the deck never runs out of fodder. **Command the Stage** (`{2}{R}` sorcery) makes a 2/2 Cadet and
+puts a +1/+1 counter on each other Wizard token you control; it also returns from the graveyard at the beginning of each
+upkeep if an opponent was dealt noncombat damage last turn. Lurker's `[+2]` drain and Screeching Soulbreaker's attack
+trigger are both noncombat damage, so the sorcery comes back every upkeep and the Cadet supply is renewable without drawing
+cards.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Set up | 1-3 | Land two-drops that are both body and engine: Repurposed Enforcer, Edgar, Ancient Bloodlord, Way of the Pyromancer, Way of the Necromancer. Hold No Admittance and Stingerquill Charm for the first real threat. |
+| Assemble | 3-5 | Sanctum Lurker plus Command the Stage. From here the deck has a Jace token with 2 or more loyalty, a recurring Cadet, and a noncombat damage source that keeps the sorcery looping. |
+| Convert | 5+ | Way of the Deathbringer. Every token in play now converts one Cadet per turn into a 4/4 trampler, and each sacrifice pays a loyalty counter back to every planeswalker. |
+
+## Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Sanctum Lurker | `{2}{B}` | Engine keystone, 3/2: planeswalkers survive at 0 loyalty, and every planeswalker gains "[+2]: 1 damage to each opponent and you gain 1 life" |
+| Way of the Deathbringer | `{2}{B}` | Primary payoff: gives every planeswalker "[-2]: sacrifice a creature, create a 4/4 green Beast with trample"; empower Jace 5 on entry |
+| Way of the Necromancer | `{1}{B}` | Sacrifice refund: every creature death puts a loyalty counter on each planeswalker, so the Beast forge re-arms itself; empower Jace 2 on entry |
+| Way of the Mentor | `{2}{W}` | Second refund engine: every life gain (including Lurker's drain) adds a loyalty counter to every planeswalker; empower Jace 5 on entry |
+| Way of the Pyromancer | `{1}{R}` | Mana engine: every planeswalker gains "[+1]: Add {R}", which pays for the deck's red half; empower Jace 2 on entry |
+| Command the Stage | `{2}{R}` | Fodder engine: a Cadet plus a +1/+1 counter on each other Wizard token, and it returns from the graveyard at each upkeep whenever an opponent took noncombat damage |
+| Repurposed Enforcer | `{1}{W}` | Two-mana 3/2 that empowers on attack for X equal to your creature count, which is the deck's biggest single empower |
+| Screeching Soulbreaker | `{2}{B}` | 1/4 flier that drains 1 from each opponent on attack; that is noncombat damage, so it also rebuys Command the Stage |
+| Mabel, Valley Hero | `{1}{R}{W}` | Counter distributor on a 1/2: every creature that enters, including every Cadet, can be given a +1/+1 counter |
+| Edgar, Ancient Bloodlord | `{W}{B}` | Two-mana 2/3 that gains a life on every creature or planeswalker death and converts spare bodies into +1/+1 counters and menace |
+| Stingerquill Charm | `{B}{R}` | Modal instant: 3 damage, first strike plus deathtouch, or a hasty Cadet for the Beast forge |
+| No Admittance | `{1}{R}` | Two-mana 3 damage to any target that also empowers Jace 1, so the removal spell builds the engine it is protecting |
+
+## Lands as engines
+
+| Land | Count | Role |
+|---|---|---|
+| Hall of Echoes | 2 | Win-condition land: `{T}` for `{C}`, and `{5}` makes it a copy of your best creature until end of turn with the legend rule suspended |
+| Dedicated Commons | 3 | Red-white dual that enters untapped while you control a planeswalker, which is every turn after turn two |
+| Meticulous Commons | 3 | White-black dual on the same condition |
+| Haunted Ridge | 3 | Black-red dual; enters untapped once you control two or more other lands |
+| Mountain | 5 | Primary red source: Command the Stage, No Admittance, Stingerquill Charm, Way of the Pyromancer |
+| Swamp | 4 | Black source for the Lurker and the two black Ways |
+| Plains | 4 | White source for Repurposed Enforcer, Mabel and Way of the Mentor |
+
+## Curve and mana
+
+| Mana value | Cards | Count |
+|---|---|---|
+| 2 | Repurposed Enforcer, Edgar, Way of the Pyromancer, Way of the Necromancer, Stingerquill Charm, No Admittance | 17 |
+| 3 | Sanctum Lurker, Screeching Soulbreaker, Mabel, Way of the Mentor, Way of the Deathbringer, Command the Stage | 19 |
+| 4 and up | none (Hall of Echoes activation only) | 0 |
+| Lands | 24 lands | 24 |
+
+Average mana value is 2.53 across 36 non-land cards, and the deck has no card above three mana. Coloured pips are black
+17, red 17 and white 10, so the manabase is built as a symmetric black-red core with a white splash: nine dual lands
+cover all three pairs, and the four Plains only need to support Enforcer, Mabel and Mentor. Because the deck stops at
+three mana, flooding is real but mana screw is not: nine of the 24 lands are duals and the two Hall of Echoes are the only
+colourless sources.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about putting a permanent that is also an engine onto the board. Repurposed Enforcer is the best
+turn-two play because it is a 3/2 that empowers for the whole team on the first attack; Way of the Pyromancer is the best
+turn-two play when you expect to need mana later, because it creates a Jace token with two loyalty and gives every
+planeswalker a red mana ability. Edgar, Ancient Bloodlord is the defensive option: a 2/3 that gains life on every death is
+exactly what you want against a deck trying to trade early.
+
+Do not be precious about No Admittance. Killing a two-drop with it is correct when the alternative is falling behind, and
+the spell also empowers Jace 1, so the removal is never a blank.
+
+## Mid game
+
+Sanctum Lurker on turn three is the pivot. Before Lurker, Jace tokens are expendable; after Lurker they are permanent
+ability sources that cannot be killed by spending their own loyalty. The turn after Lurker lands, add Command the Stage:
+the sorcery makes a Cadet, grows every other Cadet, and then keeps coming back every upkeep because Lurker's drain is
+noncombat damage.
+
+The sacrifice engine comes online with Way of the Deathbringer. Each Jace token you control has its own loyalty ability
+activation, so with two tokens in play you can sacrifice two Cadets in a single turn for two Beasts, as long as the tokens
+have the two loyalty to pay.
+
+## The combo turn
+
+The engine turn is a loop of small, free conversions rather than a single storm turn:
+
+- Command the Stage is in the graveyard at the start of the turn; the upkeep trigger returns it to hand.
+- Cast it for `{2}{R}`: a Cadet enters, and every other Wizard token gets a +1/+1 counter (Mabel converts those entries into more counters).
+- Activate Way of the Deathbringer on the Jace token with the most loyalty: pay two loyalty, sacrifice the new Cadet, create a 4/4 green Beast with trample.
+- The sacrifice triggers Way of the Necromancer: one loyalty counter on every planeswalker, which refunds half the cost of the activation.
+- Activate Sanctum Lurker's `[+2]` on a second token: 1 damage to each opponent and 1 life, which triggers Way of the Mentor for another loyalty counter on every planeswalker.
+- Attack with the Beast and the surviving Cadets, then repeat next turn: the sorcery comes back again because the drain was noncombat damage.
+
+Two Beasts a turn from two tokens plus a recurring three-mana sorcery is the normal operating rate, and every sacrifice
+also pays Edgar a life and every life gain pays Way of the Mentor a loyalty counter.
+
+## Win condition 2
+
+The drain is the second finish and it does not care about blockers. Sanctum Lurker's granted `[+2]` is available on every
+planeswalker you control, including every Jace token, and each activation is 1 damage to each opponent plus 1 life. In a
+long game the deck accumulates three or four tokens, which is three or four points of unavoidable damage per turn cycle
+that also grows the whole planeswalker suite through Way of the Mentor. Screeching Soulbreaker adds one more point per
+attack, so the drain is usually the closing two or three points behind a stalled ground board, dealt by permanents that
+cannot be killed by spending their own loyalty.
+
+Hall of Echoes is the third conversion. `{5}` plus the land makes it a copy of the largest creature you control until end
+of turn: a 4/4 Beast, or a Cadet that has collected three Mabel counters. The legend rule does not apply to permanents you
+control that turn, so the copy attacks alongside the original and cannot be countered as a creature spell.
+
+## Mulligan guide
+
+Keep: any two-land hand with a two-drop; hands with Sanctum Lurker plus Command the Stage; hands with Way of the Deathbringer
+and at least one Way that makes a body (Pyromancer or Necromancer).
+
+Mulligan: hands with no black source (the deck's three best cards are black), one-land hands without a Way, and hands that
+are only removal. Five-land hands are acceptable when the spells are two-drops, because the deck has no four-drops and can
+use excess mana on Hall of Echoes.
+
+## Key interactions and edge cases
+
+- Jace tokens created by empower are not legendary, so multiple tokens coexist and each one activates its own loyalty ability once per turn. Two tokens means two Beast Forge activations.
+- Planeswalkers normally die as a state-based action at 0 loyalty. Sanctum Lurker replaces that, so a token that spent its last counters stays; without Lurker, budget the activation and do not spend the final two loyalty.
+- Empower creates the Jace token first if you do not control one, so a Way that resolves onto an empty board is a body plus an ability, never a blank.
+- Command the Stage only returns if an opponent was dealt noncombat damage last turn. Lurker's drain and Soulbreaker's attack trigger both qualify; combat damage does not.
+- Way of the Deathbringer is a may: you can activate with no creature to sacrifice, but the ability does nothing, so never do it.
+- Repurposed Enforcer counts creatures at the moment it attacks, so attack with the Cadets first and with Enforcer last.
+- Hall of Echoes taps for `{C}`. It cannot pay for Sanctum Lurker, Way of the Deathbringer or Command the Stage, so do not keep a hand where it is one of two lands.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Trade with No Admittance and Stingerquill Charm, block with Soulbreaker, stabilize on Edgar's death lifegain, then win the long game with the Beast forge. |
+| Control | The engine is permanent-based: Ways, Lurker and Command the Stage all generate value without resolving a new spell. Bait counters with a Way, then land the Deathbringer. |
+| Combo | Race with Beasts. Stingerquill Charm's 3 damage is the interaction that matters; hold No Admittance for the combo creature. |
+| Ramp and big mana | Hall of Echoes and the drain both ignore big blockers, so attack past the ground stall instead of trying to out-size them. |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 → v2 | Added the three Mardu duals (Dedicated Commons, Meticulous Commons, Haunted Ridge) over basic lands, cut two Germinate Recruits, three Gideon's Memorial and one Charge the Sanctum, added four No Admittance and one Vraska's Final Mercy | sim 43.7 → 51.7, synergy 73.9 → 73.2, T4 0.629 → 0.638, P(4 lands by turn 4) 0.627 → 0.631, mana score 52 → 100 |
+| v2 → v3 | Added three Way of the Deathbringer and two Way of the Necromancer, cut the Vraska's Final Mercy and two Stingerquill Charm, one Edgar and one No Admittance | sim 51.7 → 54.0, synergy 73.2 → 75.4, T4 0.638 → 0.621, P(4 lands by turn 4) 0.631 → 0.612 |
+
+The v1 list was an empower midrange pile whose only payoff was Sanctum Lurker's drain: it goldfished fine but ran a
+three-colour deck on basics (colour consistency 52) and lost the simulation at 43.7 percent. v2 fixed the manabase with the
+three Mardu duals and added cheap interaction, which bought seven win-rate points on its own. v3 swapped the removal-heavy
+top end for the Deathbringer sacrifice engine, which took synergy from 73.2 to 75.4 and the gate from 51.7 to 54.0.
+
+# Deck list (Arena import)
+
+```
+Spark Tithe
+Deck
+4 Sanctum Lurker
+4 Repurposed Enforcer
+3 Screeching Soulbreaker
+3 Mabel, Valley Hero
+1 Edgar, Ancient Bloodlord
+3 Way of the Pyromancer
+3 Way of the Deathbringer
+2 Way of the Necromancer
+2 Way of the Mentor
+4 Command the Stage
+4 Stingerquill Charm
+3 No Admittance
+2 Hall of Echoes
+3 Dedicated Commons
+3 Meticulous Commons
+3 Haunted Ridge
+4 Plains
+4 Swamp
+5 Mountain
+```

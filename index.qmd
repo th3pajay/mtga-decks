@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-27**:
 
 - **[Vanish on Cue](decks/2026-10-27-vanish-on-cue.html)** — Blue, Black, Green, Red — Prepared x Disappear  `combo` `prepared` `disappear`
+- **[Spark Tithe](decks/2026-10-27-spark-tithe.html)** — Mardu empower: Cadet fodder, Beast forge and a Jace-token drain — Reality Fracture  `reality-fracture` `empower`
