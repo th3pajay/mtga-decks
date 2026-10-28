@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **441** cards locked · **Reality Fracture 120/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **455** cards locked · **Reality Fracture 106/285** remaining
 
-**140 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**141 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-10-28
 
+- **[Teeming Presence](decks/2026-10-28-teeming-presence.html)** — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture  `reality-fracture` `combo`
 - **[Hoardmouth](decks/2026-10-28-hoardmouth.html)** — Blue-Red-Green — Behold a Dragon and Treasure  `combo` `Behold`
 
 ## 2026-10-27

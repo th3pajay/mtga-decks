@@ -1,0 +1,217 @@
+---
+title: "Teeming Presence"
+subtitle: "Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture"
+date: "2026-10-28"
+categories: ["reality-fracture", "combo"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana) |
+| Colors | Green, red, white (Naya) |
+| Archetype | Creature-count combo: cheap green ramp and token makers feed Omnipresence, which turns every card in hand into a free spell |
+| Size | 60 cards: 24 creatures, 2 planeswalkers, 3 enchantments, 5 non-permanent spells, 26 lands |
+| Primary win | Omnipresence makes every spell in hand free once your creature count equals its mana value, so a board of Cadets, Mowu, Beasts and Forest Tentacles cashes into Face Yourself: a hasty token copy of every creature you control, attacking in the same turn |
+| Secondary win | Emrakul, the Exigent Doom and Ghalta the Unstoppable: 12/12 flying trample and an 8/8 trampler that both become free or near-free at the top of the creature count, backed by Hall of Echoes copying the biggest body on the board |
+| Land as win condition | Hall of Echoes (`{5}`: becomes a copy of target creature you control, legend rule suspended) turns a land into a second Emrakul or Verdant Kraken; Roiling Canopy adds `{G}` and pumps a creature +3/+3 every time another Forest arrives |
+| Not yet on Arena | Reality Fracture is Standard legal in the data but carries no `arena_id`, so the import list only becomes playable once the set is enabled on Arena |
+
+# Overview
+
+Reality Fracture's green half is built to make bodies. **Omnipresence** (`{5}{G}{G}{G}` mythic enchantment) is the card
+that turns those bodies into mana-free spells, and it reads exactly as it sounds: *you may cast spells with mana value less
+than or equal to the number of creatures you control from your hand without paying their mana costs.*
+
+That single line changes what the deck wants to do. Every creature is simultaneously a threat and a mana source, so the
+plan is not to curve out but to reach a critical mass of creatures and then empty your hand for zero mana. Six creatures
+means every three-drop and four-drop is free. Seven creatures means **Verdant Kraken** (`{4}{G}{G}{G}`, 6/6) and
+**Face Yourself** (`{5}{R}{R}`) cost nothing. Ten creatures means **Emrakul, the Exigent Doom** (`{10}`, 12/12 flying
+trample) arrives for free and untaps every land you control on the way in.
+
+The deck's cheap half is chosen so that the count climbs while the mana develops at the same time:
+
+- **Simulacrum Shaper** (`{1}{G}{G}`, 2/2) fetches a basic land onto the battlefield and draws a card when it dies.
+- **Greenhouse Propagator** (`{2}{G}`, 2/3) taps for `{G}` and gains a life on every creature entry, which is what makes
+  **Germinate Recruits** (`{2}{W}` instant) worth a slot: it creates X 2/2 Cadets where X is the life gained this turn.
+- **Loot, the Nexus** (`{2}{G}`, legendary 2/1) is the mana engine: `{T}` adds one mana of any colour *for each different
+  power among creatures you control*. Two powers is a two-mana land, five powers is a ritual.
+- **Jiang Yanggu, Never Alone** (`{3}{G}`) brings Mowu, a legendary 3/3, and untaps every token at end of turn so the swarm
+  can block after attacking.
+- **Hexhaven Invigorator** (`{G}{G}{G}{G}`, 6/6 vigilance) fetches a land for every point of damage it takes, so a chump
+  block or a sweeper trigger turns into three or four extra lands.
+
+The payoff spells are deliberately the most expensive cards in the deck, because those are the ones Omnipresence makes
+free: Face Yourself, Verdant Kraken, Garruk, Curse Breaker, Ghalta, Emrakul.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Ramp | 1-4 | Land, then Simulacrum Shaper or Greenhouse Propagator, then Loot, the Nexus or Pia, Aether Ascetic. Loot is the priority: every extra power on the board is another mana. |
+| Build the count | 3-6 | Jiang Yanggu for two bodies, Germinate Recruits for a burst of Cadets, Garruk's `-3` for a 4/4 Beast. Six creatures is the number that matters. |
+| Convert | 6+ | Omnipresence. From that point the hand is free: every card with mana value at or below the creature count costs nothing. Face Yourself copies the board, Verdant Kraken adds a land creature every upkeep, Emrakul ends the game. |
+
+## Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Omnipresence | `{5}{G}{G}{G}` | Engine keystone: spells with mana value at or below your creature count cost nothing from hand. Three copies, and Pia tutors for it |
+| Face Yourself | `{5}{R}{R}` | Primary payoff: a hasty token copy of every creature you control, which is a lethal swing the turn it resolves; the copies survive the end step if you control a planeswalker |
+| Verdant Kraken | `{4}{G}{G}{G}` | Engine and payoff: a 3/3 Forest Tentacle land creature token at the beginning of *each* player's upkeep, so the count grows twice per round and each token taps for `{G}` |
+| Emrakul, the Exigent Doom | `{10}` | Second win: 12/12 flying trample with ward, untaps all lands when cast, and can be exiled from hand for `{3}` to turn a land into a `{T}: Add {C}{C}` source |
+| Ghalta the Unstoppable | `{8}{G}` | Cost-reduced 8/8 trampler that grants the whole team trample; free off Omnipresence at nine creatures |
+| Garruk, Curse Breaker | `{3}{G}{G}` | Mana and bodies: `+2` untaps two lands, `-3` makes a 4/4 Beast, and his static draws a card whenever a creature with power 4 or greater enters. Also the planeswalker that keeps Face Yourself's copies alive |
+| Loot, the Nexus | `{2}{G}` | Mana engine: taps for one mana of any colour per distinct power among your creatures |
+| Simulacrum Shaper | `{1}{G}{G}` | Two-drop ramp that replaces itself when it dies |
+| Greenhouse Propagator | `{2}{G}` | `{G}` source plus a life on every creature entry, which sizes Germinate Recruits |
+| Pia, Aether Ascetic | `{2}{G}` | Enchantment tutor: discard a card, find Omnipresence |
+| Jiang Yanggu, Never Alone | `{3}{G}` | Two bodies in one card (Mowu is a 3/3, a third distinct power for Loot) and untaps all tokens at end of turn |
+| Hexhaven Invigorator | `{G}{G}{G}{G}` | 6/6 vigilance wall whose damage trigger fetches that many lands tapped; also a 6-power body for Loot |
+| Germinate Recruits | `{2}{W}` | Instant-speed Cadet burst sized by life gained this turn; the cleanest way to jump from three creatures to six |
+
+## Lands as engines
+
+| Land | Count | Role |
+|---|---|---|
+| Hall of Echoes | 2 | Win-condition land: `{T}` for `{C}`, and `{5}` makes it a copy of your best creature until end of turn with the legend rule suspended. Copy Emrakul and attack with two 12/12 fliers |
+| Roiling Canopy | 2 | `{G}` source; whenever a Forest enters, if you control at least five other Forests, a creature gets +3/+3 until end of turn. With eight basic Forests this is live from the sixth land onward |
+| Rockfall Vale | 4 | Red-green dual, untapped once you control two or more other lands |
+| Overgrown Farmland | 4 | Green-white dual on the same condition, and the deck's main white source after the Plains |
+| Forest | 8 | The deck's spine: Omnipresence needs `{G}{G}{G}`, Verdant Kraken `{G}{G}{G}`, Hexhaven Invigorator `{G}{G}{G}{G}` |
+| Plains | 3 | Pays for Germinate Recruits |
+| Mountain | 3 | Pays for Face Yourself; most of the time the card is cast for free off Omnipresence instead |
+
+## Curve and mana
+
+| Mana value | Cards | Count |
+|---|---|---|
+| 3 | Simulacrum Shaper, Greenhouse Propagator, Loot, the Nexus, Pia, Aether Ascetic, Germinate Recruits | 17 |
+| 4 | Jiang Yanggu, Never Alone, Hexhaven Invigorator | 5 |
+| 5 | Garruk, Curse Breaker | 2 |
+| 7 | Verdant Kraken, Face Yourself | 4 |
+| 8 | Omnipresence | 3 |
+| 9-10 | Ghalta the Unstoppable, Emrakul, the Exigent Doom | 3 |
+| Lands | 26 lands | 26 |
+
+Average mana value is 4.74 across 34 non-land cards, which is why the deck runs 26 lands and six pieces of ramp. The
+coloured weight is overwhelmingly green: 50 green pips against 4 red and 3 white, with 18 green sources, 7 white and 7
+red. The red and white cards are not there to be cast off Mountains and Plains in the early game, they are there to be cast
+for free once Omnipresence is online.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one to three are about mana that also builds a board. Simulacrum Shaper is the best turn-two play: it ramps, it
+blocks, and it replaces itself. Greenhouse Propagator is the follow-up, because it both taps for `{G}` and starts the life
+total that Germinate Recruits converts into Cadets. Loot, the Nexus is the card that decides how fast the deck plays: with
+a Cadet (power 2) and Mowu (power 3) on the board it already taps for two mana of any colour, and once a 4/4 Beast, a 6/6
+Kraken or an 8/8 Ghalta joins, it is a four or five mana land.
+
+Do not trade Simulacrum Shaper for nothing. Its death trigger is the deck's cheapest card draw, and chumping with it is
+often better than chumping with a token that Loot counts.
+
+## Mid game
+
+The mid game is the creature count. Six creatures is the number to aim at, because six is where every three-drop and
+four-drop in hand becomes free. Jiang Yanggu puts two bodies on the board at once (and Mowu is a third distinct power for
+Loot), Germinate Recruits turns a Propagator-heavy board into three or four Cadets at instant speed, and Garruk's `-3`
+adds a 4/4 Beast that also draws a card off his static ability.
+
+Garruk's `+2` is easy to underrate: untapping two lands with Loot in play is a second Loot activation, and untapping two
+lands with eight lands in play is half a turn of mana.
+
+## The combo turn
+
+Omnipresence is the turn the deck stops paying for spells:
+
+- Resolve Omnipresence with six or more creatures on the board. Check the count first: the free-cast clause uses the
+  creature count at the moment you cast, not at the moment the enchantment resolved.
+- Cast everything in hand with mana value at or below that count, in the order that grows the board: Germinate Recruits
+  and Jiang Yanggu first (more creatures), then Garruk, then Verdant Kraken.
+- Verdant Kraken makes a 3/3 Forest Tentacle at the beginning of each player's upkeep, so the count grows on your
+  opponent's turn as well.
+- At seven or more creatures, Face Yourself is free. Target *yourself*: you get a hasty token copy of every creature you
+  control, including the copies' own power, and the whole board attacks.
+- With Garruk on the battlefield the copies are not sacrificed at the end step, because Face Yourself only demands a
+  planeswalker. Without him they still attack once, which is usually enough.
+
+Two Face Yourselfs in one turn is the ceiling: the first copy doubles the board, the second copies the doubled board.
+
+## Win condition 2
+
+Emrakul is the second finish and it does not need Omnipresence. The card's own exile ability costs `{3}`: exile it from
+hand, target a land, and that land taps for `{C}{C}` until Emrakul is cast from exile. On a 26-land manabase that is a
+two-mana land on turn four, which is the difference between a turn eight Emrakul and a turn eleven one. When it resolves,
+the cast trigger untaps every land you control, so the second main phase is fully funded.
+
+Ghalta the Unstoppable is the cheaper version of the same plan: at 8 power on the board it costs `{G}`, and it gives every
+other creature trample, which is what makes a board of Cadets lethal through blockers.
+
+Hall of Echoes is the third conversion. Five mana and the land becomes a copy of your best creature until end of turn, with
+the legend rule suspended, so it copies Emrakul next to the real Emrakul, or copies Verdant Kraken to double the token
+production. It taps for `{C}`, so it never pays a green pip; treat it as a spell that happens to be a land.
+
+## Mulligan guide
+
+Keep: three or four lands with Simulacrum Shaper or Greenhouse Propagator; hands with Loot, the Nexus plus two cheap
+creatures (Loot is the deck's mana); hands with Pia, Aether Ascetic and at least one enchantment payoff to find.
+
+Mulligan: two-land hands where one land is Hall of Echoes or Roiling Canopy (both are effectively a land behind); hands
+with no green source; hands that are all five-drops and above with no ramp.
+
+The deck mulligans more aggressively than a midrange deck because it needs both halves: a ramp creature *and* something to
+ramp into. A six-card hand with three lands, a Shaper and two payoffs is better than a seven-card hand of lands and
+expensive spells.
+
+## Key interactions and edge cases
+
+- Omnipresence only covers spells cast from hand. Flashback, adventure and graveyard casts are not free.
+- Casting for free means paying nothing, so an X spell cast off Omnipresence has X equal to zero. Germinate Recruits is therefore the one card in the deck that must be cast for its own `{2}{W}` before Omnipresence lands, not after.
+- Face Yourself copies are sacrificed at the beginning of the end step *if you don't control a planeswalker*. Garruk is the only planeswalker in the deck, and he is worth holding until after the swing for exactly that reason.
+- Loot, the Nexus counts distinct power values, not creatures. Two 2/2 Cadets add one mana, not two; a 2/1 Loot, a 3/3 Mowu, a 4/4 Beast, a 6/6 Kraken and an 8/8 Ghalta add five.
+- Garruk's static ability draws on creatures with power 4 or greater entering, which includes Face Yourself copies of Kraken, Invigorator, Ghalta and Emrakul.
+- Hexhaven Invigorator's trigger is damage, not combat damage. A sweeper that deals three to it fetches three lands.
+- Roiling Canopy enters tapped and needs five *other* Forests to pump, so it is a late-game land, never a keep.
+- Hall of Echoes and Roiling Canopy both produce colourless or green only; the deck's white and red cards are almost always cast for free.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Block with Hexhaven Invigorator (6/6 vigilance) and Mowu, and use Germinate Recruits at instant speed as a fog. The deck stabilises around turn five and then wins with a single Face Yourself swing. |
+| Control | Omnipresence is an enchantment, so most counterspell suites cannot answer it once it lands; Pia tutors for it and the deck has three. Bait a counter with Verdant Kraken, then land the enchantment. |
+| Combo | The deck is slow, so race with Ghalta and the Kraken tokens, and use Hall of Echoes to add a second big attacker rather than trying to interact. |
+| Ramp and big mana | Both decks go over the top, but this one goes over the top for free: Emrakul plus Face Yourself beats any fair board, and Roiling Canopy's pump wins the stalled ground. |
+
+# Deck list (Arena import)
+
+```
+Teeming Presence
+Deck
+3 Omnipresence
+2 Verdant Kraken
+2 Face Yourself
+1 Emrakul, the Exigent Doom
+2 Garruk, Curse Breaker
+2 Ghalta the Unstoppable
+4 Simulacrum Shaper
+4 Greenhouse Propagator
+3 Loot, the Nexus
+3 Pia, Aether Ascetic
+3 Jiang Yanggu, Never Alone
+2 Hexhaven Invigorator
+3 Germinate Recruits
+4 Rockfall Vale
+4 Overgrown Farmland
+2 Hall of Echoes
+2 Roiling Canopy
+8 Forest
+3 Plains
+3 Mountain
+```

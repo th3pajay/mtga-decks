@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-28**:
 
+- **[Teeming Presence](decks/2026-10-28-teeming-presence.html)** — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture  `reality-fracture` `combo`
 - **[Hoardmouth](decks/2026-10-28-hoardmouth.html)** — Blue-Red-Green — Behold a Dragon and Treasure  `combo` `Behold`
