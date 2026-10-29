@@ -1,0 +1,171 @@
+---
+title: "Bartered Bedrock"
+subtitle: "Jund (Black-Red-Green) — Earthbend x Bargain"
+date: "2026-10-29"
+categories: ["combo", "Earthbend", "Bargain"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | Black, Red, Green (Jund) |
+| Archetype | Midrange combo (land-creature engine) |
+| Size | 60 cards, 24 lands |
+| Primary win | One enormous trampling land Elemental, made unblockable by Rogue's Passage |
+| Secondary win | Dai Li Agents drain on attack, plus Bumi, Unleashed extra combats |
+
+## Overview
+
+Earthbend turns your own lands into creatures: target land becomes a 0/0 Elemental with haste that is still a land, gains +1/+1 counters equal to the earthbend number, and returns to the battlefield tapped if it dies or is exiled. You never lose the land, so every earthbend is a permanent body stapled to mana you already played.
+
+Bargain is the fuel line. Its additional cost is an artifact, enchantment, or token, and this build manufactures Treasure tokens on demand from cheap bodies, then spends them twice: once to pay a bargained upgrade, and again as mana for earthbend activations on Ba Sing Se and Bitter Work. The two mechanics meet in Brave the Wilds, which is itself a Bargain card that animates a land and fetches a basic — a miniature earthbend that also triggers landfall on Earthbender Ascension.
+
+The result is a deck that builds one giant attacker out of its manabase while a second wave of counter-laden lands chips in. Toph, the Blind Bandit is a three-mana creature whose power equals the number of +1/+1 counters on lands you control, so the engine and the payoff are the same object.
+
+## Approach
+
+### Game plan phases
+
+**Turns 1-3, build the market.** Land, then a Treasure engine (Stark Industries Executive, Common Crook) or Earthbender Ascension. Ascension is the best turn-three play: it earthbends 2 and fetches a basic land, so you get a 2/2 land creature, a landfall trigger, and a land drop in one card. Brave the Wilds on turn one is a fine keep — fetch a basic, keep the animate option for later.
+
+**Turns 3-5, open the fault line.** Stack earthbends on a single land rather than spreading them. Two earthbends on the same Forest is one 5/5 or 6/6 rather than two 2/2s, and Toph counts the total. Rockalanche scales with Forests, so it is usually a 4/4 or 5/5 for three mana in the mid game and again from the graveyard via flashback.
+
+**Turns 5-7, cash in.** Badgermole grants trample to every creature with a +1/+1 counter, Dai Li Agents starts draining on each attack, and Bumi, Unleashed turns one connecting land creature into a second combat step where only land creatures can attack. Rogue's Passage finishes the job.
+
+### Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Toph, the Blind Bandit | {2}{G} | Payoff and body; earthbends 2 on entry, power equals counters on your lands |
+| Earthbender Ascension | {2}{G} | Engine; earthbend 2 plus basic land fetch, landfall pumps and grants trample |
+| Brave the Wilds | {G} | Enabler; fetches a basic, bargained it animates a land as a 3/3 haste Elemental |
+| Rockalanche | {2}{G} | Scaling earthbend equal to your Forests, flashback for a second copy |
+| Earthbending Lesson | {3}{G} | Biggest single earthbend in the deck at 4 counters |
+| Earth Rumble | {3}{G} | Earthbend 2 that also makes a land creature fight an opposing creature |
+| Bitter Work | {1}{R}{G} | Draw engine for attacking 4-power creatures; exhaust earthbends 4 |
+| Badgermole | {4}{G} | Trample for the whole counter team; earthbends 2 on entry |
+| Earth Kingdom General | {3}{G} | Earthbend 2 and lifegain off every counter placed |
+| Dai Li Agents | {3}{B}{G} | Primary reach; attack trigger drains each opponent for the number of counter creatures |
+| Bumi, Unleashed | {3}{R}{G} | Second win condition; extra land-creature-only combat step |
+| Fatal Fissure | {1}{B} | Two-mana removal that earthbends 4 when the creature dies |
+| Candy Grapple | {1}{B} | Removal; bargained it is -5/-5 |
+| Common Crook | {1}{B} | Treasure on death, the cheapest reliable Bargain cost |
+| Stark Industries Executive | {R} | Repeatable Treasure every turn from turn two |
+| Noggle Robber | {1}{R/G}{R/G} | Hybrid three-drop that makes a Treasure on entry and another on death |
+
+### Lands as engines
+
+| Land | Count | Job |
+|---|---|---|
+| Ba Sing Se | 4 | {2}{G}, {T}: earthbend 2 as a sorcery, a reusable land-creature maker |
+| Restless Vents | 2 | {1}{B}{R} manland that attacks on its own and holds counters |
+| Rogue's Passage | 1 | Makes the giant land Elemental unblockable, the primary kill |
+| Blooming Marsh | 4 | Untapped Black-Green if you control two or fewer other lands |
+| Razortrap Gorge | 2 | Untapped Black-Red while a player is at 13 or less life |
+| Bleeding Woods | 2 | Untapped Red-Green under the same life condition |
+| Forest, Swamp, Mountain | 5 / 3 / 1 | Green 15 sources, Black 9, Red 5 |
+
+### Curve and mana
+
+| Cost | Cards | Count |
+|---|---|---|
+| 1 | Brave the Wilds, Stark Industries Executive | 5 |
+| 2 | Candy Grapple, Fatal Fissure, Common Crook | 6 |
+| 3 | Toph, Earthbender Ascension, Rockalanche, Bitter Work, Noggle Robber | 14 |
+| 4 | Earthbending Lesson, Earth Kingdom General, Earth Rumble | 5 |
+| 5 | Dai Li Agents, Bumi, Unleashed, Badgermole | 6 |
+
+Average nonland mana value is 3.03 across 36 spells, with 24 lands. The deck curves out on three and turns the corner on five. Green is the deepest color because every earthbend card is green; the Red splash exists almost entirely for Bumi and Bitter Work, so do not be shy about using Treasure for red pips.
+
+## Gameplay strategy
+
+### Early game
+
+Lead on a Treasure body or Earthbender Ascension. Ascension plus any follow-up earthbend is the strongest opening because the basic land fetch both fixes your splash and triggers the quest counters. Keep hands with two or three lands and at least two earthbend effects; Brave the Wilds counts as both a land and an earthbend enabler. Candy Grapple at -5/-5 and Brave the Wilds animating a land are the two Bargain upgrades worth a Treasure token; the rest can wait until the token has paid for an earthbend.
+
+### Mid game
+
+Pick one land and commit. Earthbending the same land repeatedly is correct: counters accumulate, and a single 6/6 or 7/7 Elemental is far harder to race than three small ones. Ideally that land is a Forest, so Rockalanche, Badgermole and Earth Kingdom General all line up behind it, and it is never your only green source.
+
+Bitter Work is the quiet engine. Once a land Elemental has four or more power, every attack draws a card, which is how this deck converts a stalled board into a stream of earthbends.
+
+### The combo turn
+
+The sequence that ends games: stack earthbends until one land has five or more counters, cast Badgermole for trample, activate Rogue's Passage on the big Elemental, and attack. With Dai Li Agents already on the battlefield the same attack also drains each opponent for the number of counter creatures you control, which is usually three to five.
+
+Bumi, Unleashed is the explosive version. Land a hit with any land creature, untap all your lands, and take a second combat step in which only land creatures can attack. Because Ba Sing Se untaps with the rest of your lands, you can earthbend again between combats and swing with a brand-new Elemental in the extra step.
+
+### Win condition 2
+
+Dai Li Agents is the grind-out kill. Every attack drains each opponent for the number of creatures you control with +1/+1 counters and gains you that much life. Two Agents doubled trigger plus three counter creatures is six points a turn while your life total climbs; against removal-heavy decks this is often the only way through.
+
+### Mulligan guide
+
+- Keep: two to three lands, Earthbender Ascension or Toph, and one removal spell.
+- Keep: Brave the Wilds plus a Treasure body, even with only two lands.
+- Ship: hands with no earthbend effect, one-land hands, and hands of three five-drops with no two-drop.
+- On the draw against aggro, prefer Fatal Fissure and Candy Grapple over slow enchantments.
+
+### Key interactions and edge cases
+
+- Earthbend sets the land's base power and toughness to 0/0 and then adds counters. Animating a land twice with Brave the Wilds does not stack; earthbend on a different land instead, or accept the reset.
+- An earthbent land that dies returns to the battlefield tapped, not to your hand. You keep the land but lose the counters, so block only when the trade is worth the counters.
+- Toph's power counts counters on lands, not on creatures, so earthbends that land on Ba Sing Se or a Forest still pump her.
+- Earthbend requires a land you control as the target. If the only land you control is your last untapped source, earthbending it taps nothing but does turn off mana from it that turn, since the creature is also the land.
+- Bargain can also eat an enchantment. Sacrificing an Earthbender Ascension that has already fetched and pumped is a real cost, so hold it as a last resort rather than a plan.
+- Rogue's Passage needs four mana total on the combo turn: three for the activation plus the attack.
+
+### Matchups
+
+**Aggro.** You are the slower deck but you have eight cheap interaction spells and Earth Kingdom General gains life off every counter. Trade early, then stabilize behind a 4/4 land and drain with Dai Li Agents.
+
+**Control.** Earthbend is resilient because the land survives removal. Bait sweepers with two or three lands first, keep Bitter Work for the reload, and force them to answer Toph twice.
+
+**Midrange and ramp.** Your clock is faster than theirs once Badgermole is down. Trample plus Rogue's Passage beats chump blockers, and Bumi's extra combat races anything that is not holding instant-speed interaction.
+
+**Combo.** You have no counterspells; the plan is pressure plus Candy Grapple and Fatal Fissure on the engine creature. Dai Li Agents drain is often enough reach before they assemble.
+
+## Iterations
+
+| Round | Change | Metric delta |
+|---|---|---|
+| v1 | Initial 60: 24 lands (5 Forest, 3 Swamp, 1 Mountain), 36 spells | sim 57.0%, synergy 72.5, T4 0.638, P(4L) 0.616 |
+| v2 | -1 Forest, -1 Swamp, +2 Mountain (more Red sources for Bumi and Bitter Work) | sim 57.0 to 48.7%, T4 0.638 to 0.631, P(4L) 0.616 to 0.636 |
+| v3 | Reverted to the v1 manabase; the extra Mountains cost Green consistency | sim 48.7 to 55.7%, T4 0.631 to 0.641, P(4L) 0.636 to 0.622 |
+
+Final list passes every gate: sim 55.7% (threshold 52), synergy 72.45 (70), goldfish T4 0.641 (0.55), P(4 lands by turn 4) 0.622 (0.55).
+
+## Deck list (Arena import)
+
+```
+Bartered Bedrock
+Deck
+4 Toph, the Blind Bandit
+4 Earthbender Ascension
+3 Brave the Wilds
+2 Candy Grapple
+2 Fatal Fissure
+2 Rockalanche
+2 Earthbending Lesson
+2 Dai Li Agents
+2 Bumi, Unleashed
+2 Badgermole
+2 Earth Kingdom General
+2 Bitter Work
+2 Common Crook
+2 Stark Industries Executive
+2 Noggle Robber
+1 Earth Rumble
+4 Ba Sing Se
+4 Blooming Marsh
+2 Razortrap Gorge
+2 Bleeding Woods
+2 Restless Vents
+1 Rogue's Passage
+5 Forest
+3 Swamp
+1 Mountain
+```

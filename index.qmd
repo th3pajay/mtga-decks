@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-28**:
+Deck guides published **2026-10-29**:
 
-- **[Teeming Presence](decks/2026-10-28-teeming-presence.html)** — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture  `reality-fracture` `combo`
-- **[Hoardmouth](decks/2026-10-28-hoardmouth.html)** — Blue-Red-Green — Behold a Dragon and Treasure  `combo` `Behold`
+- **[Bartered Bedrock](decks/2026-10-29-bartered-bedrock.html)** — Jund (Black-Red-Green) — Earthbend x Bargain  `combo` `Earthbend` `Bargain`
