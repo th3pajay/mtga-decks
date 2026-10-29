@@ -1,0 +1,190 @@
+---
+title: "Scorchline Skirmish"
+subtitle: "Jeskai haste-trample pressure: pump spells that draw cards, and a land that adds two attackers — Reality Fracture"
+date: "2026-10-29"
+categories: ["reality-fracture", "aggro"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana) |
+| Colors | White, blue, red (Jeskai) |
+| Archetype | Haste-trample tempo: cheap evasive attackers, pump spells that also draw cards, and a land that manufactures extra attackers every combat |
+| Size | 60 cards: 24 creatures, 2 enchantments, 10 instants and sorceries, 24 lands |
+| Primary win | Frostbite Pyromental and Curse-Marred Demon attack through the red zone while Blazing Crescendo and Charge the Sanctum add power mid-combat; the Pyromental draws two cards on damage, so the pump spell pays for the next one |
+| Secondary win | Dalkovan Encampment converts a land drop into two 1/1 Warriors that arrive tapped and attacking, and Charge the Sanctum pumps the whole swarm; five or more attackers in one combat ends the game in two swings |
+| Land as win condition | Dalkovan Encampment (`{2}{W}`, `{T}`: whenever you attack this turn, create two 1/1 red Warrior tokens tapped and attacking) is a repeatable body source that turns every combat into a wider combat |
+| Not yet on Arena | Reality Fracture is Standard legal in the card data but carries no `arena_id`, so this import list only becomes playable once the set is enabled on Arena |
+
+# Overview
+
+Reality Fracture's red half is the most direct thing in the set: creatures that convert mana into damage on the turn they arrive.
+**Frostbite Pyromental** (`{U}{R}{R}`, 4/4, trample, haste) is the engine. It attacks the turn it lands, draws two cards whenever it
+connects, and dies at the beginning of the end step — so it is a spell with a body, not a permanent. **Curse-Marred Demon**
+(`{2}{R}{R}`, 4/4, flying, trample) is the reload: it fetches a card on entry and discards one at random, which is exactly the
+kind of selection a deck full of redundant pumps wants.
+
+Everything else in the deck exists to make those two clocks connect one turn earlier or one damage larger. **Blazing Crescendo**
+(`{1}{R}`) is +3/+1 for two mana *and* exiles the top card of your library, playable until the end of your next turn: on a
+Pyromental it turns 4 trample damage into 7 and replaces itself twice. **Charge the Sanctum** (`{2}{R/W}`) is the wide version —
+creatures you control get +2/+0 — and it is the card that cashes in **Dalkovan Encampment**, a land that creates two attacking
+1/1 Warriors for `{2}{W}` whenever you attack.
+
+The white and blue cards are the reason the deck does not fold to a single blocker. **Surgical Precision** answers anything with
+four or more toughness or draws a card for two mana; **Memory Trap** exiles a nonland permanent for as long as it stays; **Thalia,
+the Survivor** trades profitably with lifelink and taxes opposing noncreature spells; **Lyra, Archangel of Dawn** is a flying
+body that grows every time the deck gains life.
+
+# Approach
+
+## Game plan phases
+
+**Turns 1–2: set the table.** Land, then a two-drop. **Skilled Battlecarver** (`{1}{R}`, 2/1, first strike on your turn) or
+**Samut, Tyrant of Naktamun** (`{1}{U}`, 2/1) are the body; **Surgical Precision** or **Memory Trap** is the correct play when the
+opponent leads with something that will otherwise eat your attack step. Do not tap out for a two-drop if it means tapping the
+only red source you need for a Pyromental next turn.
+
+**Turns 3–5: first clock.** Pyromental or Demon lands and attacks immediately. Hold Blazing Crescendo until the attack is
+declared: +3/+1 is worth more after blockers are chosen, and the Pyromental's damage trigger draws two cards regardless of what
+happens to the creature afterwards.
+
+**Turns 5+: second clock and reach.** Dalkovan Encampment turns a land into two attackers; Charge the Sanctum then adds +2/+0 to
+every attacker including the Warriors. This is the turn that converts a stalled board into a lethal one, and it is also the
+reason the deck plays 24 lands rather than 22.
+
+## Card roles
+
+| Role | Cards | Function |
+|---|---|---|
+| Engine / burst damage | 4 Frostbite Pyromental | 4/4 trample haste for `{U}{R}{R}`; draws two on combat damage; sacrificed at end of turn |
+| Card advantage on a body | 4 Curse-Marred Demon | 4/4 flying trample; on entry searches a card into hand and discards one at random |
+| Cheap pressure | 3 Skilled Battlecarver, 3 Samut, Tyrant of Naktamun, 3 Divining Duelist | Two- and three-mana attackers; Divining Duelist has flash and can tap a blocker, untap an attacker, or loot |
+| Attrition and tax | 3 Thalia, the Survivor | 3/4 lifelink; opposing noncreature spells cost `{1}` more |
+| Flyer that grows | 4 Lyra, Archangel of Dawn | 3/3 flying; every life gain puts a +1/+1 counter on each Angel you control |
+| Pump / reach | 4 Blazing Crescendo, 3 Charge the Sanctum | +3/+1 plus impulse draw; or +2/+0 to the team, or +2/+0 and first strike with a counter |
+| Interaction | 3 Surgical Precision, 2 Memory Trap | Kill a four-toughness-plus creature or draw; exile a nonland permanent until the enchantment leaves |
+
+## Lands as engines
+
+| Land | Count | Role |
+|---|---|---|
+| Dalkovan Encampment | 2 | The win-condition land: enters untapped with a Mountain or Swamp out, taps for `{W}`, and pays `{2}{W}` to add two attacking Warriors to the combat |
+| Inspiring Vantage | 4 | Red or white, untapped while you control two or fewer other lands — the turn-one and turn-two fixing |
+| Sundown Pass | 4 | Red or white, untapped from the third land onward |
+| Stormcarved Coast | 4 | Blue or red, untapped from the third land onward — the only nonbasic blue source |
+| Mountain / Island / Plains | 4 / 4 / 2 | Basics, weighted to red because sixteen cards need red |
+
+## Curve and mana
+
+The deck curves at 2.83 average mana value: thirteen two-drops, sixteen three-drops, seven four-drops, nothing above four. That
+shape is deliberate — the Pyromental is a three-drop that dies at end of turn, so every turn you are not casting a threat is a turn
+the deck's best card does nothing.
+
+Coloured sources: **sixteen red** (Vantage, Sundown Pass, Stormcarved Coast, Mountain), **eight blue** (Stormcarved Coast, Island)
+and **twelve white** (Vantage, Sundown Pass, Dalkovan Encampment, Plains). The blue count is the tightest and the one that matters
+most: Pyromental needs one blue and two red, so hands without a blue source should not keep a Pyromental as their only threat.
+
+In goldfish testing the list deploys a threat on turn four in 63 percent of games and reaches four lands by turn four in 62 percent,
+which is the consistency this curve needs rather than a perfect one: the deck wins by attacking twice, not by hitting every drop.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a two-drop and hold interaction. Skilled Battlecarver is the best turn-two play because first strike on your turn makes it
+a real blocker against other small creatures, and its `{1}{R}` activation lets it attack into a 2/2 later. Divining Duelist is the
+flexible one: flash means you can hold up two mana and either loot at the end of their turn or ambush a one-toughness attacker.
+
+## Mid game
+
+The turn-three decision defines the game: Pyromental (attack now, draw two, lose it) or hold up Surgical Precision. Against decks
+that can block a 4/4, cast the Pyromental only when a pump spell is available; a 7/5 trampler that draws two cards is a two-for-one,
+while a 4/4 that gets blocked by a 5/5 is a one-for-one that also costs you the card.
+
+Curse-Marred Demon is the follow-up. It is the only card in the deck that finds exactly what you need — the fourth land, a pump
+spell, or the Memory Trap — at the cost of a random discard, and its flying trample body is the deck's most reliable way to push
+the last points through a ground stall.
+
+## The combo turn
+
+The deck's "combo" is a single combat step that stacks four effects:
+
+1. **Dalkovan Encampment** activation (`{2}{W}`, `{T}`) during the precombat main phase, before attackers are declared.
+2. Declare every attacker, including the two 1/1 Warriors that arrive tapped and attacking.
+3. **Charge the Sanctum** for `{2}{R/W}` in the team mode: every attacker gets +2/+0.
+4. **Blazing Crescendo** on the largest trampler, ideally the Pyromental, for +3/+1 and an extra card.
+
+With Pyromental, Demon and two Warriors that is five attackers; +2/+0 across the board is ten extra damage in one combat, and the
+Crescendo adds three more on the trampler. Because Samut gives your instants split second, the opponent cannot respond to the pump
+with a trick of their own.
+
+## Second win condition
+
+If the red clock is answered, the deck goes wide instead of tall. Dalkovan Encampment is a land, so it survives sorcery-speed
+sweepers that kill the board, and it re-arms every turn: two Warriors per combat, each of them a legal target for Charge the
+Sanctum. Thalia's lifelink and Lyra's flying body buy the turns this plan needs, and Lyra grows permanently off every lifelink
+attack, which turns a stalled race into a one-sided one.
+
+## Mulligan guide
+
+- Keep two or three lands with at least one red source and a two- or three-drop.
+- Keep hands with Pyromental only when they also have blue and two red sources; a Pyromental you cannot cast is a mulligan.
+- One-land hands with no two-drop go back, even with multiple three-drops — the deck has 24 lands and cannot function on one.
+- Dalkovan Encampment plus a Mountain is a legitimate keep: the land is a spell in this deck.
+
+## Key interactions and edge cases
+
+- **Pyromental is sacrificed at the beginning of the end step** whether or not it attacked. Cast it when it can attack, block, or
+  bait removal; never as a defensive afterthought.
+- **Its damage trigger draws two cards even if the Pyromental dies in the same combat.** Pump it, let it connect, then let it die.
+- **Blazing Crescendo's exiled card is playable until the end of your next turn**, so a Crescendo cast on your turn can set up an
+  instant on theirs.
+- **Charge the Sanctum is modal**: the team mode is +2/+0 only, while the single-target mode adds first strike and a +1/+1 counter.
+  Use the single mode when one evasive attacker needs to survive a block.
+- **Dalkovan Encampment's Warriors are sacrificed at the beginning of the next end step** and arrive tapped and attacking, so they
+  cannot block. Activate it in the precombat main phase of the turn you intend to win.
+- **Memory Trap** exiles the permanent only while the enchantment stays; destroying your own Memory Trap is a legal way to give the
+  permanent back, which is never what you want.
+- **Surgical Precision** is dead against creatures with three or less toughness; take the draw-two-life mode rather than boarding it
+  out, because the deck has few other ways to dig.
+- **Thalia's tax hits only your opponents.** Your own Blazing Crescendo and Charge the Sanctum cost normal price with her on the
+  battlefield, so there is never a reason to hold a pump spell because of your own Thalia.
+
+## Matchups
+
+**Against aggro:** Surgical Precision and Memory Trap are the whole game; Thalia's 3/4 lifelink body blocks almost everything at
+three mana. Race only when the Pyromental is already in hand.
+
+**Against control:** Samut's split second makes the pump spells uncounterable and unrespondable, and Thalia taxes their interaction.
+Do not commit more than two threats at a time into a sweeper; Dalkovan Encampment keeps producing attackers after the board is wiped.
+
+**Against ramp:** the deck's clock is faster than theirs, but only if the Pyromental attacks. Blazing Crescendo on turn three is
+often correct even without a second threat, because the two cards it draws are the follow-up.
+
+# Deck list (Arena import)
+
+```
+Scorchline Skirmish
+Deck
+4 Frostbite Pyromental
+3 Skilled Battlecarver
+3 Samut, Tyrant of Naktamun
+3 Divining Duelist
+4 Curse-Marred Demon
+3 Thalia, the Survivor
+4 Lyra, Archangel of Dawn
+4 Blazing Crescendo
+3 Charge the Sanctum
+3 Surgical Precision
+2 Memory Trap
+4 Inspiring Vantage
+4 Sundown Pass
+4 Stormcarved Coast
+2 Dalkovan Encampment
+4 Mountain
+4 Island
+2 Plains
+```

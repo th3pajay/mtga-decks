@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-10-29**:
 
+- **[Scorchline Skirmish](decks/2026-10-29-scorchline-skirmish.html)** — Jeskai haste-trample pressure: pump spells that draw cards, and a land that adds two attackers — Reality Fracture  `reality-fracture` `aggro`
 - **[Bartered Bedrock](decks/2026-10-29-bartered-bedrock.html)** — Jund (Black-Red-Green) — Earthbend x Bargain  `combo` `Earthbend` `Bargain`
