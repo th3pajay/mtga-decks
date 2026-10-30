@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **504** cards locked · **Reality Fracture 95/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **516** cards locked · **Reality Fracture 88/285** remaining
 
-**144 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**145 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-10-30
 
+- **[Sanctum Static](decks/2026-10-30-sanctum-static.html)** — Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture  `reality-fracture` `empower`
 - **[Rekindle the Lineage](decks/2026-10-30-rekindle-the-lineage.html)** — Jeskai (White-Blue-Red) - Behold x Flashback x Vivid  `combo` `behold` `flashback` `vivid`
 
 ## 2026-10-29

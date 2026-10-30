@@ -1,0 +1,190 @@
+---
+title: "Sanctum Static"
+subtitle: "Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture"
+date: "2026-10-30"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard support) |
+| Colors | White, blue, black (Esper) |
+| Archetype | Empower combo-midrange: loyalty counters on a Jace token, cashed into a board-wide drain |
+| Size | 60 cards: 25 creatures, 12 instants, sorceries and artifacts, 23 lands |
+| Primary win | Sanctum Lurker turns every planeswalker you control into a drain engine; a wide board of Jace tokens plus Repurposed Enforcer attack triggers pings the table for 3 to 5 a turn while the ground stalls |
+| Secondary win | A vigilance and flying creature clock — Captain America, The Mighty Thor and Winter Soldier — backed by three 2/2 Cadets from Hexhaven Battalion under Gideon's Memorial, plus a Restless Fortress that attacks for two life a turn |
+| Land as win condition | Theorist's Sanctum empowers Jace 2 every turn for `{2}{U}` and enters untapped once you already hold a Jace; Restless Fortress turns into a 1/4 attacker that drains 2 |
+| Not yet on Arena | Reality Fracture is Standard legal in the card data but carries no `arena_id`, so this import list only becomes playable once the set is enabled on Arena |
+
+# Overview
+
+Empower is the strangest mechanic in Reality Fracture: "Empower Jace N" puts N loyalty counters on a planeswalker you control, and if
+you do not control one it first hands you a blue Jace planeswalker token with "[-1]: Surveil 1" and "[-3]: Draw a card". The whole
+cluster is built to make that token, grow it, and then keep it forever. **Sanctum Lurker** (`{2}{B}`, 3/2) is the piece that breaks the
+mechanic open in two directions at once: planeswalkers you control are not put into their owners' graveyards for having 0 loyalty, and
+every planeswalker you control gains "[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life."
+
+That second line is the deck. A Jace token is normally a bad cantrip engine. Under Lurker it is a free, indestructible-by-loyalty
+repeating drain: it never dies to its own loyalty count, and every turn it can pay +2 to hit each opponent for 1 and gain you 1. Two
+tokens is 2 damage a turn, four is 4, and the tokens keep climbing in loyalty, so the drain never turns off.
+
+The rest of the list is the machinery that keeps producing loyalty. **Repurposed Enforcer** (`{1}{W}`, 3/2) empowers Jace X on every
+attack, where X is the number of creatures you control — on turn four with three other bodies that is four loyalty a combat, every
+combat. **Mindseeker Oculus** (`{2}{U}`, 2/1) and **Keeper of the Quiet Hour** (`{3}`, 3/2 artifact) empower 4 and 2 as they enter,
+which means the tokens arrive already tall. **Academic Ascent** (`{1}{W}`) is a combat trick and two loyalty for two mana.
+**Theorist's Sanctum** makes more of them from a land slot, and **Hexhaven Battalion** makes three bodies and two loyalty at once.
+
+The deck never needs a printed planeswalker card. Eighteen empower sources across eighteen slots make the same blue token, and
+Sanctum Lurker makes that token a win condition.
+
+# Approach
+
+## Game plan phases
+
+**Turns one to three — establish the token.** Land, then the cheapest empower body: Repurposed Enforcer, Keeper of the Quiet Hour,
+Teyo, Lightshield Expert to protect what you have. There is no turn-one play, so the opening is a land and a two drop. The first
+empower resolves on turn three or four and puts a Jace token on the battlefield with two to four loyalty.
+
+**Turns four to six — resolve Lurker and turn the engine on.** Sanctum Lurker is the only card that must resolve. Once it does,
+every Jace token you already own stops being expendable and becomes a drain piece. From that point the plan is arithmetic: add a
+token a turn, activate +2 on each of them, and keep the board from being overrun with Vindictive Triumph and Silence the Echo.
+
+**Turns six and later — close with bodies.** The drain alone is slow against a deck that gains life, so the ground game matters.
+Captain America and Winter Soldier attack through most boards, Thor blinks the empower creatures to re-trigger them, and Cadets
+under Gideon's Memorial are 2/1 vigilance blockers that also swing.
+
+## Card roles
+
+| Card | Mana | Role in the engine |
+|---|---|---|
+| Sanctum Lurker | `{2}{B}` | Payoff. Keeps 0-loyalty planeswalkers alive and grants the +2 drain to every planeswalker you control |
+| Repurposed Enforcer | `{1}{W}` | Engine, repeated. Empowers Jace X on every attack, X = creatures you control, so it scales with the board |
+| Mindseeker Oculus | `{2}{U}` | Engine, burst. Four loyalty the turn it lands, on a 2/1 body |
+| Keeper of the Quiet Hour | `{3}` | Engine, curve filler. Two loyalty on entry; colourless, so it casts off any three lands |
+| Teyo, Lightshield Expert | `{1}{W}` | Protection. Flash body that gives hexproof and a loyalty counter to a planeswalker |
+| Teyo, Diamondblade Mage | `{3}{B}` | Protection and removal magnet. Flash, deathtouch to a permanent, counter or loyalty counter |
+| Academic Ascent | `{1}{W}` | Engine and combat trick. Two loyalty plus +2/+2 and flying at instant speed |
+| Hexhaven Battalion | `{4}{W}{W}` | Wide finisher. Three 2/2 Cadets plus two loyalty; landcycles for `{2}` when flooded |
+| Gideon's Memorial | `{1}{W}` | Anthem for the token plan, and a discard outlet that kills an attacker for `{1}{W}` |
+| Vindictive Triumph | `{W}{B}{B}` | Answer. Exiles a creature or planeswalker; steals it back if its mana value is 3 or less |
+| Silence the Echo | `{1}{B}` | Answer. Two mana and a sacrificed body, or four mana, kills anything |
+| Captain America, Living Legend | `{1}{W}{U}` | Wall that attacks. 3/4 vigilance; untaps the first creature you tap each turn |
+| The Mighty Thor, Jane Foster | `{1}{W}{U}` | Re-trigger. Blinks Oculus or Keeper on attack, so every combat empowers again |
+| Winter Soldier, Icy Assassin | `{W}{B}` | Pressure. 2/2 vigilance and menace that rebuys itself for `{3}{W}{B}` |
+
+## Lands as engines
+
+| Land | Count | What it does for the plan |
+|---|---|---|
+| Theorist's Sanctum | 3 | `{2}{U}`, `{T}`: empower Jace 2 — a land that adds loyalty every turn. Enters tapped unless you behold a Jace, which the deck satisfies the moment it owns a token |
+| Restless Fortress | 2 | Enters tapped, taps for white or black, and for `{2}{W}{B}` becomes a 1/4 Nightmare that drains 2 whenever it attacks |
+| Bleachbone Verge | 4 | Untapped black, and white once a Plains or Swamp is out — the glue between the two main colours |
+| Plains / Island / Swamp | 14 | Seven Plains, four Islands, three Swamps; basics keep the price of the mana low and the set carries all five |
+
+## Curve and mana
+
+Twenty-three lands support a curve that is almost entirely two and three drops: sixteen cards at two mana, seventeen at three, two at
+four and two at six. The average mana value of the non-land cards is 2.8. White is the primary colour with eighteen non-land cards,
+black contributes twelve, and blue is a light splash at nine cards carried by four Islands and three Theorist's Sanctum. Thin blue is
+deliberate: everything blue in the deck is either colourless-friendly to cast late or worth waiting for.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a land and hold the two drop. Repurposed Enforcer is the best turn two because it starts the loyalty clock a turn early;
+Keeper of the Quiet Hour is the more resilient choice against red removal because the body is colourless. Do not cast Academic
+Ascent on an empty board — the card is worth four damage and two loyalty when it protects a creature that is already attacking, and
+worth almost nothing as a pump on nothing.
+
+The first empower resolves on turn three: a Jace token appears with two to four loyalty. Treat it as a resource, not a threat. It
+surveils with [-1] when you have nothing better to do, draws cards with [-3] when you are flooded, and exists to soak an attack
+that would otherwise hit you.
+
+## The combo turn
+
+The turn the deck takes over is the turn Sanctum Lurker lands while a token is already out.
+
+1. Attack with Repurposed Enforcer and everything else. The attack trigger is one empower of X, where X is your creature count.
+2. Put those loyalty counters on the Jace token. With four creatures that is a token sitting on four or more loyalty.
+3. Activate +2 on the token: one damage to each opponent, one life to you, and the token climbs instead of shrinking.
+4. Cast Academic Ascent in the second main phase for two more loyalty, or use Theorist's Sanctum on the following turn.
+
+From then on every token on the board drains every turn, and the tokens no longer die at zero loyalty. Two tokens plus a Thor attack
+that blinks Mindseeker Oculus is four damage a turn to each opponent from a board that looks like a mediocre creature deck.
+
+## Win condition two
+
+The drain is not fast enough alone, so the deck also attacks. Captain America is a 3/4 vigilance body that never taps out, Winter
+Soldier attacks with menace and vigilance, and Thor is a 3/3 flier. Hexhaven Battalion adds three 2/2 Cadets and Gideon's Memorial
+makes them 2/1 vigilance attackers, so a stalled board turns into eight or ten power of evasion-free pressure. Restless Fortress is
+the last two points: attack with it for `{2}{W}{B}` and the defending player loses 2 while you gain 2.
+
+## Mulligan guide
+
+Keep hands with two to four lands, one two-drop empower creature and one three-drop. Repurposed Enforcer plus any three-drop is a
+keep; two creature-light hands with only answers are not. Sanctum Lurker is worth keeping in an opening hand, but it is not worth
+keeping a two-land hand for. A one-land hand with Academic Ascent and two three-drops is a mulligan: the deck has no turn-one play
+and cannot function on one land.
+
+## Key interactions and edge cases
+
+- **Zero loyalty is not death.** With Lurker out, a Jace token at 0 loyalty stays on the battlefield and can still activate +2 to
+  climb back to 2. Do not trade tokens away just because they are small.
+- **Sacrifice is not destruction.** Silence the Echo's additional cost can be paid by sacrificing a Jace token; a 0-loyalty token
+  that Lurker is protecting is a legal sacrifice and often the cheapest removal spell in the deck.
+- **Thor re-triggers the engine.** The Mighty Thor exiles a creature on attack and returns it tapped. Target Mindseeker Oculus for
+  four fresh loyalty every combat, or Keeper of the Quiet Hour for two. Never blink the only creature you have if the board is racing.
+- **Vindictive Triumph is a re-trigger too.** If its target has mana value 3 or less it comes back under your control tapped, which
+  re-triggers an enters-the-battlefield empower. Casting it on your own Keeper of the Quiet Hour is a legal, if inefficient, line.
+- **Hexhaven Battalion cycles.** Basic landcycling `{2}` for a basic land is the correct play when stuck on two lands, and the Cadets
+  are only worth six mana when you are already ahead on board.
+- **Theorist's Sanctum timing.** Play it after a Jace token exists so it enters untapped; playing it first means a land that arrives
+  tapped in a deck that cannot afford to fall behind on tempo.
+- **Gideon's Memorial is an anthem first.** The `{T}` mana is restricted to planeswalker spells and this deck has none, so use the
+  artifact for the +1/+0 and for the `{1}{W}` discard ability that kills an attacker.
+
+## Matchups
+
+**Against red aggro** the deck wants Keeper of the Quiet Hour and Teyo, Lightshield Expert early, and Vindictive Triumph on their
+best two drop. Silence the Echo is a two-mana answer as long as a token is available to sacrifice. The matchup is close; the drain
+races only once Lurker is down and two planeswalkers exist.
+
+**Against control** the plan is to run out one token at a time and force them to spend answers on 2/1s. Sanctum Lurker is the card
+that must be protected, so hold Teyo, Lightshield Expert for it. Hexhaven Battalion is the post-wrath reload.
+
+**Against midrange** the deck is faster to a stable board and the drain punishes stalls. Vindictive Triumph on their three drop is
+usually the tempo swing that decides the game.
+
+**Against combo** there is no interaction for the stack beyond two sorcery-speed answers, so the race is on: attack with everything,
+keep the drain running, and use Silence the Echo on the piece that matters.
+
+# Deck list (Arena import)
+
+```text
+Sanctum Static
+Deck
+4 Sanctum Lurker
+4 Repurposed Enforcer
+3 Mindseeker Oculus
+2 Keeper of the Quiet Hour
+2 Teyo, Lightshield Expert
+2 Teyo, Diamondblade Mage
+4 Academic Ascent
+2 Gideon's Memorial
+2 Hexhaven Battalion
+2 Vindictive Triumph
+2 Silence the Echo
+4 Captain America, Living Legend
+2 The Mighty Thor, Jane Foster
+2 Winter Soldier, Icy Assassin
+4 Bleachbone Verge
+2 Restless Fortress
+3 Theorist's Sanctum
+7 Plains
+4 Island
+3 Swamp
+```
