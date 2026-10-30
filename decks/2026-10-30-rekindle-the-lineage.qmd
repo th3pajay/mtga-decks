@@ -1,0 +1,134 @@
+---
+title: "Rekindle the Lineage"
+subtitle: "Jeskai (White-Blue-Red) - Behold x Flashback x Vivid"
+date: "2026-10-30"
+categories: ["combo", "behold", "flashback", "vivid"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | White, Blue, Red (Jeskai) |
+| Archetype | Elemental copy-combo midrange |
+| Size | 60 cards (24 lands) |
+| Primary win | Champion of the Path plus token copies: every Elemental that enters deals its power to each opponent |
+| Secondary win | Squawkroaster double strike beatdown, cleared by Secret Tunnel |
+| Rolled mechanics | Behold, Flashback, Vivid |
+
+## Overview
+
+Rekindle the Lineage is a Jeskai Elemental deck that turns one card into an army. Champion of the Path is a 7/3 for four mana whose second line reads: whenever another Elemental you control enters, it deals damage equal to its power to each opponent. A token copy of the Champion is itself a 7/3 Elemental, so a single two-mana Molten Duplication is seven damage to each opponent, and Twinflame Travelers doubles that trigger to fourteen.
+
+The three rolled mechanics carry the shell. **Behold** is the cost structure: Champion of the Path exiles an Elemental as an additional cost to be cast, Soulbright Seeker and Kinsbaile Aspirant use the softer "behold or pay" wording, and the flashback cost of Kindle the Inner Flame is literally behold three Elementals, which rewards the deck for going wide with the same creature type that the payoffs care about. **Flashback** is the second copy: Electroduplicate, Kindle the Inner Flame and Twinned Vision all cast a second time out of the graveyard, so the combo turn can extend past the cards in hand. **Vivid** counts colors among permanents, which is why the deck plays three colors and multicolor permanents such as Twinflame Travelers, Saheeli and the animated Restless Spire: three colors on board means Squawkroaster is a 3/4 double striker and Explosive Prodigy kills a three-toughness creature on entry.
+
+Every nonland card is either an Elemental, a copy effect, or a payoff that counts Elementals or colors, so nothing is filler.
+
+## Approach
+
+### Game plan
+
+1. **Turns 1-2, stack the board.** Soulbright Seeker and Kinsbaile Aspirant are one-mana Elementals that also turn on the behold costs. Flamebraider ramps two mana for Elemental spells, and Saheeli comes down early as a two-mana body that becomes a repeatable copy engine.
+2. **Turns 3-4, land the Champion.** Cast Champion of the Path by exiling a spare Elemental, then immediately point Molten Duplication or Electroduplicate at it. Seven or fourteen damage to each opponent the turn the Champion arrives.
+3. **Turns 5+, cash the graveyard.** Kindle the Inner Flame from hand copies a Champion; its flashback (one red plus behold three Elementals) copies another. Caretaker's Talent draws on every token and its level 2 turns one Champion token into two.
+4. **Close.** Squawkroaster with three colors on board is a 3/4 double striker, and Secret Tunnel sends the Champion and a Squawkroaster through unblocked for thirteen.
+
+### Card roles
+
+| Role | Cards | What they do |
+|---|---|---|
+| Engine | Champion of the Path (4) | 7/3 body; each other Elemental that enters burns each opponent for its power |
+| Multiplier | Twinflame Travelers (2) | Doubles the Champion trigger; a 3/3 flier that also adds blue and red to the Vivid count |
+| Copy effects | Molten Duplication (4), Electroduplicate (3), Kindle the Inner Flame (3), Saheeli (2) | Each makes another Elemental enter, which is another Champion trigger |
+| Draw and value | Caretaker's Talent (2), Twinned Vision (2) | Tokens draw cards; Twinned Vision draws two when cast from the graveyard or from exile |
+| Behold enablers | Soulbright Seeker (4), Kinsbaile Aspirant (3), Flamebraider (2) | Cheap Elementals that pay behold costs and ramp |
+| Vivid payoffs | Squawkroaster (3), Explosive Prodigy (2) | Scale with colors among permanents |
+| Interaction | Explosive Prodigy, Squawkroaster, Squawkroaster's body | Creature removal on entry, plus a double-striking blocker |
+
+### Lands as engines
+
+| Land | Count | Engine role |
+|---|---|---|
+| Restless Spire | 2 | Animates into a 2/1 blue and red Elemental. It is a two-color permanent for Vivid counts, an extra Elemental body, and it scries when it attacks |
+| Secret Tunnel | 1 | Four mana plus tap: two creatures that share a type cannot be blocked. Elemental Champion plus Elemental Squawkroaster is thirteen unblockable damage |
+| Spirebluff Canal, Inspiring Vantage | 5 | Untapped early duals so the turn four Champion plus Duplication curve actually happens |
+| Hallowed Fountain, Steam Vents, Sacred Foundry | 11 | Shock fixing for all three colors; white is needed on turn one for Kinsbaile Aspirant |
+| Stormcarved Coast, Deserted Beach | 4 | Untapped from turn three onward, which is when the four-drops arrive |
+
+### Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|
+| Cards | 7 | 12 | 5 | 12 |
+
+Average mana value is 2.6 across 36 nonland cards, with 19 of them at two or less. Twenty-four lands, seventeen red sources, seventeen blue and eleven white, which is enough for a five-card white splash (three Kinsbaile Aspirant, two Caretaker's Talent). Red is the base color: every copy effect except Saheeli is red.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with a one-drop whenever the hand has one, because the deck needs an Elemental on the battlefield before Champion of the Path is castable. Soulbright Seeker is the better turn one play: three activations of its trample ability in one turn add four red mana, which is exactly the mana for a second copy effect. Flamebraider on turn two into a four-drop on turn three is the fastest start. Hold Molten Duplication until the Champion resolves rather than copying a one-drop.
+
+### The combo turn
+
+Champion of the Path in play, then in order of efficiency: Molten Duplication (two mana, seven damage), Electroduplicate (three mana, seven damage, and again later from the graveyard for five), Kindle the Inner Flame (four mana, seven damage, and its flashback only costs one red plus beholding three Elementals), Saheeli's tap ability (two mana, once per turn, repeatable), Caretaker's Talent level 2 targeting a Champion token (two mana plus the level cost, seven damage, and it draws a card). With Twinflame Travelers on board every one of those is fourteen instead of seven, so two copies in a turn is twenty-eight: lethal from twenty against any deck that has not gained life.
+
+### Win condition 2
+
+Squawkroaster is the fair half of the deck. With a white, a blue and a red permanent on board it is a 3/4 double striker for four mana, which races most midrange decks on its own. Secret Tunnel turns it and the Champion into an unblockable pair, and Caretaker's Talent at level 3 makes every Elemental token two power larger. Explosive Prodigy clears the one blocker that would otherwise eat a Squawkroaster attack.
+
+### Mulligan guide
+
+Keep any hand with two lands, a one-drop Elemental and a copy effect, or any hand with three lands, Champion of the Path and Molten Duplication. Ship hands with no Elemental at one or two mana: the Champion cannot be cast without one. Ship one-land hands even with a cantrip, since Twinned Vision is the only cheap draw and it does not find lands. Five-card hands are acceptable if they contain Champion plus a copy spell, because that is a two-card kill.
+
+### Key interactions and edge cases
+
+- Champion of the Path exiles the beheld Elemental, so casting it costs a creature or a card from hand. Keep a spare one-drop specifically for this.
+- When the Champion leaves the battlefield the exiled card returns to its owner's hand, which makes the Champion a soft loop with a one-mana Elemental and a sacrifice outlet.
+- A token copy of the Champion never exiled anything, so its leaves-the-battlefield trigger returns nothing.
+- Twinflame Travelers only doubles triggered abilities of other Elementals, and it is itself an Elemental, so it does not double its own entry.
+- Kindle the Inner Flame is a Kindred Sorcery, an Elemental spell, so Flamebraider's mana pays for it and the copy enters with haste.
+- Squawkroaster's power is a characteristic-defining ability, so it is checked continuously: bouncing a white permanent shrinks it in the middle of combat.
+- Explosive Prodigy must target a creature an opponent controls; with only red permanents the damage is one.
+- Animated Restless Spire counts as a blue and red permanent for Vivid while it is a creature, and it is a legal Elemental to behold or to copy.
+
+### Matchups
+
+| Matchup | Plan |
+|---|---|
+| Aggro | Trade one-drops, use Explosive Prodigy as removal, race with a turn four Champion plus Duplication. Squawkroaster double strike blocks profitably |
+| Midrange | Grind with Caretaker's Talent and flashback. Seven damage per copy ignores most boards |
+| Control | Do not commit the Champion into open countermagic; use Saheeli and Molten Duplication in the same turn as the Champion, and keep Twinned Vision for cards |
+| Ramp | Race. The burn half of the combo does not care about blockers, so aim for the turn five double-copy turn |
+
+## Deck list (Arena import)
+
+```
+Rekindle the Lineage
+Deck
+4 Soulbright Seeker
+3 Kinsbaile Aspirant
+2 Explosive Prodigy
+2 Saheeli, the Sun's Brilliance
+2 Flamebraider
+4 Champion of the Path
+3 Squawkroaster
+2 Twinflame Travelers
+4 Molten Duplication
+3 Electroduplicate
+3 Kindle the Inner Flame
+2 Twinned Vision
+2 Caretaker's Talent
+4 Hallowed Fountain
+4 Steam Vents
+3 Sacred Foundry
+3 Spirebluff Canal
+2 Inspiring Vantage
+2 Stormcarved Coast
+2 Deserted Beach
+2 Restless Spire
+1 Secret Tunnel
+1 Mountain
+```
