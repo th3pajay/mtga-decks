@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-10-31**:
 
 - **[Understory](decks/2026-10-31-understory.html)** — Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost  `combo` `descend`
+- **[Deepwater Litany](decks/2026-10-31-deepwater-litany.html)** — Sultai surveil-reanimation: a prepared engine that reanimates for free every turn — Reality Fracture  `reality-fracture` `surveil`

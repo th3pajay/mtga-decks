@@ -1,0 +1,189 @@
+---
+title: "Deepwater Litany"
+subtitle: "Sultai surveil-reanimation: a prepared engine that reanimates for free every turn — Reality Fracture"
+date: "2026-10-31"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana and support) |
+| Colors | Black, blue, green (Sultai) |
+| Archetype | Surveil-reanimation built on the prepared mechanic |
+| Size | 60 cards, 24 lands, 36 spells and creatures |
+| Primary win | Grave Researcher reanimates a creature every upkeep for free, then the creatures it brings back attack: Proft (5/5 menace for three), Lasyd Prowler (5/5) and Vampire Soulcaller (flying 3/2) |
+| Secondary win | Fblthp, Impossibly Lost: the deck mills itself so hard that drawing from an empty library during combat ends the game |
+| Land as engine | Restless Reef is a 4/4 deathtouch attacker for four mana that mills four cards every time it attacks |
+
+# Overview
+
+Reality Fracture's prepared creatures are spells wearing a body. **Grave Researcher** is the cheapest engine in the set:
+at the beginning of every upkeep it surveils 1, and if there are three or more creature cards in your graveyard it
+becomes prepared. While prepared, you may cast a copy of its back face, **Reanimate** — a `{B}` sorcery that puts any
+creature card from any graveyard onto the battlefield. Casting it unprepares the Researcher, and the next upkeep begins
+the loop again.
+
+That is the whole deck: fill the bin, turn the Researcher on, and reanimate every turn for one black mana. The fill is
+cheap and repeatable — **Void Extrapolator** enters prepared and hands you a free **Omit Variables** (mill three),
+**Patient Naturalist** mills three and returns a land, **Lasyd Prowler** mills for each land you control, and
+**Restless Reef** mills four every time it attacks. By turn four the graveyard is a resource, not a loss.
+
+The reanimation targets are chosen for what they do after they arrive. **Vampire Soulcaller** comes back and returns
+another creature card from the graveyard to hand, so one Reanimate becomes two threats. **Proft, Sinister Mastermind**
+is a 5/5 with menace for three mana, but only castable at threshold — which is exactly where this deck lives.
+**Null Summoner** exiles a card from the opponent's hand on entry and, at threshold, lets you cast it with mana of any
+type. **Winter, Tormented Loner** makes each opponent sacrifice a creature and grows with every creature card in your
+graveyard.
+
+Nothing here needs a specific pair to function. Every surveil makes the next reanimation better, and every creature in
+the bin is another option for the Researcher.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Seed | 1–2 | Void Extrapolator prepared into a free mill three, or Servant of the Stinger to hold the ground. Patient Naturalist on two if the hand has no mill |
+| Load | 3–4 | Grave Researcher plus a second mill source. The goal is three creature cards in the bin by the upkeep after the Researcher lands |
+| Convert | 4–6 | Free Reanimate each upkeep. Bring back Proft for a 5/5, Soulcaller for a flier and a rebuy, or Winter for an edict |
+| Close | 6+ | Restless Reef attacks and mills, Defossilize reanimates with two explores, Fblthp draws toward an empty library |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Prepared engine | Grave Researcher | 4 | Surveils every upkeep; becomes prepared at three or more creature cards in the graveyard, then casts Reanimate for free |
+| Free mill | Void Extrapolator, Lasyd Prowler, Patient Naturalist | 9 | Extrapolator enters prepared for a free mill three; Prowler mills for each land; Naturalist mills three and rebuys a land |
+| Reanimation | Defossilize, Reanimate (back face) | 2 plus engine | Defossilize is the hard cast; the Researcher's Reanimate is the repeatable one |
+| Threshold payoffs | Proft, Null Summoner | 6 | Proft is a 5/5 menace for three at seven cards in the bin; Null Summoner exiles from hand and later casts the exiled card |
+| Attrition | Winter, Hour of Defeat, Servant of the Stinger | 9 | Edict, destroy plus surveil, deathtouch blocker that commits crimes |
+| Card flow | Vampire Soulcaller, Fblthp | 6 | Soulcaller rebuys a creature on entry; Fblthp draws two whenever an opponent is dealt combat damage |
+| Manland | Restless Reef | 3 | 4/4 deathtouch for four, mills four on attack |
+
+## Lands as engines
+
+| Land | Copies | What it does for the deck |
+|---|---|---|
+| Restless Reef | 3 | Becomes a 4/4 deathtouch Shark; every attack mills four cards, which is a reanimation target and a threshold enabler |
+| Underground Mortuary | 2 | Black-green source that surveils on entry |
+| Blooming Marsh, Botanical Sanctum | 6 | Untapped on turns one and two, which is where this deck needs its mana |
+| Overgrown Tomb, Breeding Pool | 4 | Untapped duals for two life; the life is affordable because the deck does not race |
+| Opulent Palace | 2 | The only three-colour source; keep hands that need it only if another blue or green land is present |
+
+## Curve and mana
+
+Twenty-four lands, sixteen of them green sources and twelve blue, with fifteen black. The curve tops out at five:
+
+| Cost | Count | Cards |
+|---|---|---|
+| 2 | 9 | Void Extrapolator, Fblthp, Servant of the Stinger |
+| 3 | 14 | Grave Researcher, Winter, Proft, Patient Naturalist |
+| 4 | 5 | Null Summoner, Hour of Defeat |
+| 5 | 8 | Vampire Soulcaller, Defossilize, Lasyd Prowler |
+
+The opening hand wants two lands and a mill effect. Double-black is the only real constraint (Proft, Null Summoner,
+Defossilize); the deck never needs double green before turn four, when Lasyd Prowler asks for it.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest mill. Void Extrapolator on turn two, cast the free Omit Variables, and the bin already has three
+cards. Servant of the Stinger is the other cheap early play: a 1/3 deathtouch that blocks everything relevant and
+commits a crime whenever it is aimed at an opponent, which turns on its own tutor trigger for a card.
+
+Do not trade the Researcher for a blocker. It is the engine; it survives behind a deathtouch body or a Winter edict.
+
+## Mid game and the combo turn
+
+The combo turn is any upkeep from turn four onward:
+
+1. Upkeep: Grave Researcher surveils 1. If the surveilled card is a creature, the bin count rises; if not, it goes to
+   the graveyard anyway as a threshold card.
+2. If there are three or more creature cards in the graveyard, the Researcher becomes prepared.
+3. Cast the copy of Reanimate for `{B}`. Choose the best creature in any graveyard.
+4. The Researcher is unprepared and the board has a new threat. Next upkeep, repeat.
+
+Sequencing matters: cast sorcery-speed mill (Patient Naturalist, Lasyd Prowler) before the upkeep trigger resolves when
+you can, and hold the free Reanimate for the turn you can also attack with the returned creature.
+
+## Win condition two
+
+Fblthp, Impossibly Lost is a two-mana 1/1 that draws two cards whenever an opponent is dealt combat damage, and wins
+the game outright if your library is empty at that moment. Between Restless Reef, Patient Naturalist, Lasyd Prowler and
+a surveil every upkeep, the library empties in long games. Fblthp shuffles itself back in, so the deck never decks
+itself out of a win: it is a second, independent axis that costs two slots.
+
+## Mulligan guide
+
+| Hand | Keep? | Reason |
+|---|---|---|
+| Two lands, Void Extrapolator, any three-drop | Keep | Mill on two, engine on three |
+| One land, no one-drop | Mulligan | The deck needs two mana by turn two to function |
+| Three lands, Grave Researcher, Patient Naturalist, Winter | Keep | Engine plus two mill sources |
+| All five-drops and lands | Mulligan | No way to load the bin before turn five |
+| Opulent Palace as the only coloured source | Mulligan | Three-colour tapland with nothing to do on one |
+
+## Key interactions
+
+- **Threshold is a switch, not a bonus.** Proft cannot be cast with six cards in the graveyard. Surveil and mill are
+  how the deck turns it on; do not exile your own graveyard for value.
+- **Reanimate is not restricted to your graveyard.** Against a deck that has already traded creatures, the Researcher
+  can take their best creature. That is often better than anything in your own bin.
+- **Void Extrapolator's threshold bonus** makes it a 3/3 at seven cards, and its free Omit Variables is a mill three
+  every time a fresh copy enters prepared.
+- **Winter wants a sacrifice.** Cast it with a body you do not need, or with a creature that already attacked.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade early with Servant of the Stinger and Hour of Defeat, then reanimate their best attacker. Winter's edict is the stabiliser |
+| Control | Do not overextend into a sweeper; the Researcher engine rebuilds from the graveyard, so keep one threat in hand |
+| Ramp | Race with Proft and Lasyd Prowler, and use Null Summoner to strip their payoff from hand before threshold turns it into your card |
+| Graveyard hate | The deck still attacks with a 5/5 for three and a 4/4 manland; side out one copy of Defossilize first |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | Self-mill grind shell: Marwyn, Ferocity of the Hunt, Extended Absence, Blessed Ghoul, Theoretical Necromancer around the surveil core | sim 24.0%, synergy 70.9, T4 0.557, P4L 0.565 — FAIL on sim |
+| v2 | -Marwyn, -Ferocity of the Hunt, -Extended Absence, -Blessed Ghoul; +Grave Researcher x4, +Void Extrapolator x4, +Null Summoner x3, +Souls of the Lost x4, +Cruel Somnophage x3 | sim 4.0%, synergy 70.2, T4 0.639, P4L 0.631 — FAIL on sim |
+| v3 | -Souls of the Lost, -Cruel Somnophage, -Tarmogoyf; +Servant of the Stinger x3, +Vampire Soulcaller x4, +Patient Naturalist x3, +Hour of Defeat x2, +Defossilize x2, +Fblthp x2 | sim 57.0%, synergy 70.4, T4 0.637, P4L 0.642 — PASS |
+
+v1 to v2: the reanimation engine arrived but the variable-power bodies (power `*`) were read as zero-power creatures by
+the simulator, so the deck had no clock. v2 to v3: fixed-stat creatures that do something on entry replaced them, and
+the win rate moved from 4 to 57 percent.
+
+# Deck list (Arena import)
+
+```text
+Deepwater Litany
+Deck
+4 Grave Researcher
+3 Null Summoner
+4 Winter, Tormented Loner
+2 Fblthp, Impossibly Lost
+2 Lasyd Prowler
+4 Void Extrapolator
+3 Proft, Sinister Mastermind
+3 Servant of the Stinger
+4 Vampire Soulcaller
+3 Patient Naturalist
+2 Hour of Defeat
+2 Defossilize
+3 Restless Reef
+2 Underground Mortuary
+3 Blooming Marsh
+2 Overgrown Tomb
+2 Breeding Pool
+3 Botanical Sanctum
+2 Opulent Palace
+2 Island
+3 Swamp
+2 Forest
+```
