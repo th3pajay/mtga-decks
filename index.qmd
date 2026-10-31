@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-10-30**:
+Deck guides published **2026-10-31**:
 
-- **[Sanctum Static](decks/2026-10-30-sanctum-static.html)** — Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture  `reality-fracture` `empower`
-- **[Rekindle the Lineage](decks/2026-10-30-rekindle-the-lineage.html)** — Jeskai (White-Blue-Red) - Behold x Flashback x Vivid  `combo` `behold` `flashback` `vivid`
+- **[Understory](decks/2026-10-31-understory.html)** — Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost  `combo` `descend`

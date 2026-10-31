@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-31">
+
+<title>Understory – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game-turns-13" id="toc-early-game-turns-13" class="nav-link" data-scroll-target="#early-game-turns-13">Early game (turns 1–3)</a></li>
+  <li><a href="#mid-game-and-the-descend-turn" id="toc-mid-game-and-the-descend-turn" class="nav-link" data-scroll-target="#mid-game-and-the-descend-turn">Mid game and the descend turn</a></li>
+  <li><a href="#win-condition-2-the-fungus-swarm" id="toc-win-condition-2-the-fungus-swarm" class="nav-link" data-scroll-target="#win-condition-2-the-fungus-swarm">Win condition 2: the Fungus swarm</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Understory</h1>
+<p class="subtitle lead">Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">descend</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 31, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (MTGA)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Sultai — black / green / blue</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Low-curve aggro with a graveyard threshold engine</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards — 30 creatures, 7 spells, 23 lands</td>
+</tr>
+<tr class="odd">
+<td>Primary win</td>
+<td>Akawalli, the Seething Tower at descend 8, made unblockable by Rogue’s Passage</td>
+</tr>
+<tr class="even">
+<td>Secondary win</td>
+<td>Souls of the Lost plus The Mycotyrant’s Fungus swarm</td>
+</tr>
+<tr class="odd">
+<td>Nonland curve</td>
+<td>4 one-drops, 22 two-drops, 11 three-drops (average mana value 2.19)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Understory is built on <strong>descend</strong>: the deck wants permanent cards in the graveyard, and it wants them there early. Descend appears on the cards in two shapes, and the deck uses both.</p>
+<ul>
+<li><strong>Descend thresholds</strong> — a static “if there are four or more permanent cards in your graveyard” clause sits on Basking Capybara, Echo of Dusk, Akawalli and Join the Dead. Descend 8 upgrades Akawalli again and unlocks every mode of Wail of the Forgotten.</li>
+<li><strong>Descend events</strong> — The Mycotyrant counts the number of times you descended <em>this turn</em> and makes that many 1/1 Fungus tokens at end of turn. Every milled creature and every milled land is one descend.</li>
+</ul>
+<p>Because the engine counts permanents rather than cards, the deck is almost entirely permanents: 30 creatures and 23 lands against only 7 spells, and three of those spells mill. A single Deathcap Marionette, Rubblebelt Maverick or Quag Feast commonly bins two to four permanents at once, which switches on descend 4 for the rest of the game.</p>
+<p>The payoff structure is deliberately redundant. Basking Capybara becomes a 4/3 for two mana, Echo of Dusk a 3/3 lifelinker, and Souls of the Lost a Spirit whose power is literally the size of your graveyard. Akawalli is the ceiling: a 3/3 for three that becomes a 7/7 trampler which can’t be blocked by more than one creature once eight permanents are down. Rogue’s Passage then removes the last blocker from the equation.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Stock the yard (turns 1–3).</strong> Lead with one- and two-drop bodies that mill on the way in: Rubblebelt Maverick surveils 2, Deathcap Marionette mills 2, and the surveil dual lands add a card each. Do not trade creatures if a block would cost you a descend body — the yard is the resource, so a creature that dies is not a lost card.</li>
+<li><strong>Switch on the thresholds (turns 3–5).</strong> Four permanents in the yard is the first real checkpoint: Capybara, Echo of Dusk, Akawalli and Join the Dead all flip at that point. Eight is the second: Akawalli gains another +2/+2 and the “can’t be blocked by more than one creature” clause, and Wail of the Forgotten becomes a three-mode spell. Quag Feast is live removal in this window because it counts <em>all</em> cards in the graveyard, not just permanents.</li>
+<li><strong>Close (turns 5+).</strong> Attack with Akawalli and Champion of Dusan, use Rogue’s Passage on the biggest body, and keep re-triggering descend each turn so The Mycotyrant keeps producing Fungus tokens. Souls of the Lost is the flex threat: it is as large as the yard, so it doubles as both a clock and a blocker.</li>
+</ol>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Cost</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Akawalli, the Seething Tower</td>
+<td>3</td>
+<td>1BG</td>
+<td>Primary win — 3/3 that becomes a 7/7 trampler at descend 8</td>
+</tr>
+<tr class="even">
+<td>Souls of the Lost</td>
+<td>3</td>
+<td>1B</td>
+<td>Secondary win — power equals permanent cards in your graveyard</td>
+</tr>
+<tr class="odd">
+<td>The Mycotyrant</td>
+<td>3</td>
+<td>1BG</td>
+<td>Payoff engine — one Fungus token per descend each turn</td>
+</tr>
+<tr class="even">
+<td>Champion of Dusan</td>
+<td>2</td>
+<td>2G</td>
+<td>Aggressive closer — 4/2 trample, renews from the yard onto another creature</td>
+</tr>
+<tr class="odd">
+<td>Basking Capybara</td>
+<td>3</td>
+<td>1G</td>
+<td>Threshold body — 1/3 that becomes 4/3 at descend 4</td>
+</tr>
+<tr class="even">
+<td>Echo of Dusk</td>
+<td>4</td>
+<td>1B</td>
+<td>Threshold body — 2/2 that becomes a 3/3 lifelink at descend 4</td>
+</tr>
+<tr class="odd">
+<td>Undercover Skrull</td>
+<td>4</td>
+<td>1G</td>
+<td>Body plus fixer — 3/3 once two creature cards are in the yard, taps for any color</td>
+</tr>
+<tr class="even">
+<td>Deathcap Marionette</td>
+<td>4</td>
+<td>1B</td>
+<td>Enabler — deathtouch blocker that mills 2 on entry</td>
+</tr>
+<tr class="odd">
+<td>Rubblebelt Maverick</td>
+<td>2</td>
+<td>G</td>
+<td>Enabler — surveil 2 on entry, later a +1/+1 counter from the yard</td>
+</tr>
+<tr class="even">
+<td>Gran Pulse Ochu</td>
+<td>2</td>
+<td>G</td>
+<td>One-drop deathtouch, late-game mana sink</td>
+</tr>
+<tr class="odd">
+<td>Quag Feast</td>
+<td>3</td>
+<td>1B</td>
+<td>Removal — mill 2, then destroy if mana value is at most the graveyard size</td>
+</tr>
+<tr class="even">
+<td>Join the Dead</td>
+<td>3</td>
+<td>1BB</td>
+<td>Removal — -5/-5, upgraded to -10/-10 at descend 4</td>
+</tr>
+<tr class="odd">
+<td>Wail of the Forgotten</td>
+<td>1</td>
+<td>UB</td>
+<td>Flexible answer — all three modes once descend 8 is online</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the engine</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>The win enabler — <code>{4}, {T}</code> makes Akawalli or Souls of the Lost unblockable for lethal</td>
+</tr>
+<tr class="even">
+<td>Underground Mortuary</td>
+<td>Black-green dual that surveils 1 on entry — a free descend enabler</td>
+</tr>
+<tr class="odd">
+<td>Hedge Maze</td>
+<td>Green-blue dual that surveils 1 on entry</td>
+</tr>
+<tr class="even">
+<td>Undercity Sewers</td>
+<td>Blue-black dual that surveils 1 on entry</td>
+</tr>
+<tr class="odd">
+<td>Forest / Swamp / Island</td>
+<td>Basics — the deck’s colored requirements are light</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>23 lands: 4 Underground Mortuary, 4 Hedge Maze, 2 Undercity Sewers, 1 Rogue’s Passage, 4 Forest, 4 Swamp, 4 Island.</p>
+<p>The colored requirements are cheap and mostly single-pipped. Black is the deepest color (Deathcap Marionette, Echo of Dusk, Souls of the Lost, Quag Feast, Join the Dead) and green supplies the bodies (Maverick, Capybara, Skrull, Ochu, Champion of Dusan). Blue is a splash for a single Wail of the Forgotten, so the two blue sources on the duals plus four Islands are ample, and Undercover Skrull converts any green body into fixing.</p>
+<p>The nonland curve is 4 one-drops, 22 two-drops and 11 three-drops, with nothing above three mana. Twenty-three lands are viable precisely because every spell is castable off two or three lands.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game-turns-13" class="level2">
+<h2 class="anchored" data-anchor-id="early-game-turns-13">Early game (turns 1–3)</h2>
+<ul>
+<li><strong>Turn 1:</strong> Rubblebelt Maverick (surveil 2, bin a land or a creature) or Gran Pulse Ochu as a deathtouch roadblock.</li>
+<li><strong>Turn 2:</strong> Deathcap Marionette, which mills two on entry, or Undercover Skrull as a body that fixes your colors. Against aggro, hold the deathtouch body back as a blocker rather than attacking into a trade.</li>
+<li><strong>Turn 3:</strong> Akawalli or The Mycotyrant. Akawalli is the better clock; Mycotyrant is the better engine once you can mill on multiple turns.</li>
+<li>Play surveil duals on curve when the tapped land does not cost you a play — the surveil is a real card, and every permanent you bin counts for descend.</li>
+</ul>
+</section>
+<section id="mid-game-and-the-descend-turn" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-and-the-descend-turn">Mid game and the descend turn</h2>
+<p>The deck’s “combo turn” is any turn where you can put two or more permanents into the graveyard before combat:</p>
+<ol type="1">
+<li>Mill with Deathcap Marionette, Rubblebelt Maverick or Quag Feast, and surveil with a dual land.</li>
+<li>Count the yard. Four permanents flips Capybara, Echo of Dusk, Akawalli and Join the Dead. Eight flips Akawalli’s second clause and Wail of the Forgotten.</li>
+<li>Cast Souls of the Lost with its additional cost (discard a card or sacrifice a permanent) — that cost is itself a descend trigger, so it both grows Souls and adds a Fungus token from Mycotyrant.</li>
+<li>Attack. With Akawalli at seven power, activate Rogue’s Passage and send it through alone if the opponent has a single large blocker.</li>
+</ol>
+</section>
+<section id="win-condition-2-the-fungus-swarm" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2-the-fungus-swarm">Win condition 2: the Fungus swarm</h2>
+<p>The Mycotyrant does not care about thresholds — it counts <strong>descend events</strong>. Each permanent card that hits the graveyard in a turn is one descend, so a mill 4 plus a surveil 2 is up to six Fungus tokens at end of turn. Its power and toughness equal the number of Fungi you control, so the token engine also makes the Tyrant itself lethal. Champion of Dusan and Souls of the Lost are the trample and stats that push the swarm through; Rogue’s Passage can carry any single Fungus past a stalled board.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<ul>
+<li><strong>Keep:</strong> two or three lands including black or green, at least one mill or surveil permanent, and a two-drop.</li>
+<li><strong>Keep (aggressive):</strong> Maverick into Marionette into Akawalli, even with a single land type, because the curve tops out at three.</li>
+<li><strong>Ship:</strong> hands with no permanent that mills, hands of only three-drops, and one-land hands without a one-drop.</li>
+</ul>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>Descend counts permanents, not cards.</strong> Instants and sorceries in the yard never help a threshold. That is why the spell count is only seven.</li>
+<li><strong>The additional cost on Souls of the Lost is a feature</strong> — discarding a card or sacrificing a permanent triggers descend and feeds The Mycotyrant.</li>
+<li><strong>Quag Feast checks all cards in the graveyard</strong>, not just permanents, so it kills larger targets than the descend thresholds would suggest.</li>
+<li><strong>Wail of the Forgotten needs eight permanents at the moment you cast it</strong> — it is a late-game card, not a turn-two play.</li>
+<li><strong>Undercover Skrull needs two creature cards in the yard</strong> to be a 3/3; it is a 1/1 mana dork before that, so do not attack with it early.</li>
+<li><strong>Akawalli’s second clause is not unblockable</strong> — it can’t be blocked by more than one creature, so a single chump blocker still stops it. Rogue’s Passage is the answer to that.</li>
+<li><strong>Champion of Dusan renews from the graveyard</strong> — after it dies, <code>{1}{G}</code> from the yard puts a +1/+1 and a trample counter on your best attacker, which is often Akawalli.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> you have the better blockers. Deathcap Marionette and Gran Pulse Ochu trade up with deathtouch, Echo of Dusk gains life at descend 4, and Join the Dead is a two-for-one tempo swing. Do not race with Souls of the Lost if a block is available.</li>
+<li><strong>Control:</strong> the curve is the weapon — 22 two-drops means you can present two threats a turn and rebuild after a sweeper. Rogue’s Passage beats a single large blocker, and The Mycotyrant’s tokens survive most one-for-one removal.</li>
+<li><strong>Graveyard hate:</strong> Rest in Peace effects turn off every threshold at once. The deck still functions as a low-curve aggro deck (Skrull 3/3, Champion 4/2 trample, Capybara 1/3) but the reach shrinks; answer the enchantment with Wail of the Forgotten if you can.</li>
+<li><strong>Ramp and midrange:</strong> you are the beatdown. Count to eight permanents as fast as possible, then use Rogue’s Passage to ignore their oversized blocker.</li>
+</ul>
+</section>
+</section>
+<section id="iterations" class="level1">
+<h1>Iterations</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Change</th>
+<th>Metrics</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v1</td>
+<td>Initial build: 4 The Ancient One, 4 Rubblebelt Maverick, 4 Basking Capybara</td>
+<td>sim 45.0, T4 0.585, P(4L) 0.561</td>
+</tr>
+<tr class="even">
+<td>v1 → v2</td>
+<td>-2 The Ancient One, -2 Wail of the Forgotten, +4 Undercover Skrull (more cheap bodies and a fixer)</td>
+<td>sim 45.0 → 48.3, T4 0.585 → 0.607, P(4L) 0.561 → 0.602</td>
+</tr>
+<tr class="odd">
+<td>v2 → v3</td>
+<td>-2 Rubblebelt Maverick, -1 Basking Capybara, -1 Wail of the Forgotten, -1 Midnight Tilling, +2 Gran Pulse Ochu, +3 Join the Dead (cheap interaction and a one-drop)</td>
+<td>sim 48.3 → 49.7, T4 0.607 → 0.577, P(4L) 0.602 → 0.580</td>
+</tr>
+<tr class="even">
+<td>v3 → v4</td>
+<td>-2 The Ancient One, +2 Champion of Dusan (replace a conditional 8/8 with an efficient trampler)</td>
+<td>sim 49.7 → 50.0, T4 0.577 → 0.599, P(4L) 0.580 → 0.584</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Understory
+Deck
+2 Gran Pulse Ochu
+4 Deathcap Marionette
+4 Undercover Skrull
+3 Basking Capybara
+4 Echo of Dusk
+3 Akawalli, the Seething Tower
+3 The Mycotyrant
+2 Champion of Dusan
+3 Souls of the Lost
+2 Rubblebelt Maverick
+3 Quag Feast
+3 Join the Dead
+1 Wail of the Forgotten
+4 Underground Mortuary
+4 Hedge Maze
+2 Undercity Sewers
+1 Rogue's Passage
+4 Forest
+4 Swamp
+4 Island</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
