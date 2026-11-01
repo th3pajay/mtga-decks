@@ -1,0 +1,193 @@
+---
+title: "Quickstep Crescendo"
+subtitle: "Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable"
+date: "2026-11-01"
+categories: ["combo", "Prowess"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard |
+| Colors | Blue, red (Izzet) |
+| Archetype | Prowess storm: creatures that grow on every instant and sorcery, plus token copies and noncombat burn |
+| Size | 60 cards, 23 lands, 37 creatures and spells |
+| Primary win | Stormsplitter turns each cheap spell into a hasty 1/4 copy, and Balmor or Bria turns that swarm into lethal trample or unblockable damage |
+| Secondary win | Guttersnipe plus Artist's Talent at level 3: every one-mana cantrip is four damage to each opponent, no combat needed |
+| Land as engine | Restless Spire animates into a 2/1 first striker that picks up prowess from Bria; Rogue's Passage pushes the one big attacker through |
+
+# Overview
+
+Prowess is a compounding mechanic: each noncreature spell adds +1/+1 to every prowess body you control until end of
+turn. On its own that is a fair combat trick. This deck makes it a storm engine by stacking three multipliers on top
+of the same trigger.
+
+The first multiplier is **Stormsplitter**. A four-mana 1/4 with haste, it creates a token copy of itself every time
+you cast an instant or sorcery. Copies keep haste, so a turn of four cheap spells leaves four extra bodies on the
+board *and* four prowess triggers resolved on each of them. The copies exile at end of turn, which is the point: they
+exist to attack now.
+
+The second multiplier is cost reduction. **Stormcatch Mentor** and **Artist's Talent** at level 2 both make instants
+and sorceries cost one less, and **Firebending Student** refunds red mana equal to its power when it attacks. Opt,
+Sleight of Hand and Slick Sequence become close to free, which is how the deck chains four or five spells in one turn.
+
+The third multiplier is evasion. **Bria, Riptide Rogue** gives every other creature prowess and makes one creature
+unblockable per noncreature spell. **Balmor, Battlemage Captain** adds +1/+0 and trample on the same trigger.
+**Rogue's Passage** does the same job from the mana base, which matters in games where Bria never arrives.
+
+Kitsa is the glue. A two-mana 1/3 with vigilance and prowess, it loots every turn for free, and once its power is 3 or
+greater it can copy an instant or sorcery for two mana. Copying a Slick Sequence is two damage and a card; copying a
+Sleight of Hand or Opt keeps the chain moving at instant speed.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Seed | 1-2 | One-drop cantrip into a two-drop prowess body; Kitsa or Emberheart Challenger is the body that carries the game |
+| Stack | 3-4 | Stormcatch Mentor plus two more bodies, or Tempest Angler if the hand has no Mentor. Every spell cast from here on is two or three points of power spread across the team |
+| Convert | 4-6 | Stormsplitter or Bria plus a hand of cheap spells. Cast spells in the order that maximizes triggers before combat, not after |
+| Close | 5+ | Attack with the swarm, hold Rogue's Passage mana for the biggest body, or finish with Guttersnipe and Artist's Talent level 3 |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Prowess bodies | Kitsa, Emberheart Challenger, Firebending Student, Elementalist Adept | 13 | One and two mana bodies that grow on every noncreature spell; Elementalist Adept has flash so it can enter end of turn and attack immediately |
+| Cost reduction | Stormcatch Mentor, Artist's Talent | 5 | One less mana per instant and sorcery; Talent also loots on every noncreature cast before it levels |
+| Token engine | Stormsplitter | 2 | Copies itself per instant or sorcery cast; the copies are hasty attackers and each one carries the team's prowess triggers |
+| Team payoffs | Bria, Riptide Rogue, Balmor, Battlemage Captain | 3 | Bria grants prowess to the whole board and unblockability on each cast; Balmor grants trample and a permanent pump per cast |
+| Counter payoffs | Tempest Angler, Guttersnipe | 4 | Angler keeps its counters permanently, which survives a turn with no spells; Guttersnipe converts spells to noncombat damage |
+| Cantrips and reach | Opt, Sleight of Hand, Slick Sequence | 10 | One-mana selection and a two-mana removal spell that draws when it is not the first spell of the turn |
+| Manlands and evasion | Restless Spire, Rogue's Passage, Great Hall of the Biblioplex | 5 | Spire attacks on its own; Passage clears a blocker; Great Hall fixes blue and red for instants and sorceries |
+
+## Lands as engines
+
+| Land | Copies | What it does for the deck |
+|---|---|---|
+| Restless Spire | 3 | Two mana to become a 2/1 first striker that scries on attack. With Bria on the board it has prowess too, so it is a real attacker rather than a chump blocker |
+| Rogue's Passage | 1 | Four mana, tap: target creature cannot be blocked. This is the land that ends games where the opponent has one big blocker and you have one huge prowess creature |
+| Spirebluff Canal | 4 | Untapped blue and red on turns one and two, which is exactly where the curve lives |
+| Riverpyre Verge | 2 | Red immediately, blue once an Island or Mountain is out; the deck runs twelve basics so it turns on fast |
+| Great Hall of the Biblioplex | 1 | Colourless that pays one life for blue or red on an instant or sorcery, and later becomes a 2/4 Wizard that grows with each instant and sorcery |
+| Island and Mountain | 12 | Eight Islands and four Mountains; the deck is blue-leaning because Opt, Kitsa, Elementalist Adept and Sleight of Hand all cost a single blue |
+
+## Curve and mana
+
+Twenty-three lands, seventeen blue sources and thirteen red sources counting the duals. The curve is deliberately
+compressed: six one-drops, twenty-three two-drops, four three-drops and four four-drops. Nothing costs more than four,
+and the average mana value is 2.16 including lands.
+ The deck wants three lands by turn three and does not care about a fourth except to activate Rogue's Passage or
+Restless Spire.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with card selection, not with the biggest body. Opt or Sleight of Hand on turn one finds the second land and the
+right two-drop, and either one triggers prowess on a body that is already out. Kitsa is the best turn-two play because
+it loots every turn afterwards; Emberheart Challenger is the fastest because it has haste and its Valiant trigger
+exiles a card to play whenever you target it.
+
+Do not spend removal on their one-drop: Slick Sequence is at its best later, when the draw clause is on, and the deck
+wins by racing.
+
+## Mid game and the combo turn
+
+The combo turn is a sequencing puzzle, not a single card.
+
+1. Land your cost reducer first: Stormcatch Mentor or Artist's Talent. Every spell after it is one mana cheaper.
+2. Cast Stormsplitter with mana left over. Four mana is the top of the curve, so this usually means turn four with a
+   Mentor out on turn three.
+3. Cast your cheapest spells first. Each one makes a Stormsplitter copy and triggers prowess on every body. Do not cast
+   the expensive spell first: the copies want to exist before the pump, not after.
+4. Attack. Every copy has haste, so the tokens attack the turn they are made. Balmor adds trample and a permanent +1/+0
+   per spell; Bria makes one attacker unblockable per spell.
+5. Hold interaction for their turn. Opt and Sleight of Hand are cheap enough to keep the chain alive, and Elementalist
+   Adept can be flashed in after blockers are declared.
+
+If Kitsa has three power, its copy ability is the last action of the turn: copy the spell that does the most, usually
+Slick Sequence for damage plus a card.
+
+## Win condition two
+
+Guttersnipe deals two damage to each opponent whenever you cast an instant or sorcery, and Artist's Talent at level 3
+adds two to each noncombat damage source. A one-mana Opt becomes four damage to each opponent; Slick Sequence becomes
+eight. With ten cantrips and a cost reducer this is a real clock that ignores blockers, and it is the plan against
+decks that answer the board, because the burn does not need a creature to survive.
+
+## Mulligan guide
+
+| Hand | Keep? | Reason |
+|---|---|---|
+| Two lands, Opt, one two-drop prowess body | Keep | The deck functions on two lands and two spells |
+| One land, no one-drop | Mulligan | Nothing to do until turn two, and the curve is too low to recover |
+| Three lands, Stormcatch Mentor, Stormsplitter, two cheap spells | Keep | This is the combo turn assembled |
+| Five lands, two four-drops | Mulligan | No early pressure and no card selection |
+
+## Key interactions and edge cases
+
+- **Prowess triggers are per spell, not per turn.** Casting three one-mana spells gives three separate triggers. Order
+  them so the biggest body gets the pump before blockers are declared.
+- **Balmor's pump is permanent for the turn but the trample is not a counter.** It does not survive the cleanup step;
+  attack in the same turn you cast the spells.
+- **Stormsplitter copies are tokens that exile at end of turn.** They cannot be kept as blockers. Cast the spells you
+  want to convert before combat, not after.
+- **Bria makes one creature unblockable per noncreature spell.** Against a single big blocker, cast one spell after
+  attackers are declared only if it is an instant; otherwise plan the unblockable target before combat.
+- **Rogue's Passage costs four mana including the tap**, and Firebending Student's mana is red and lasts only until end
+  of combat. Spend both on the lethal attacker, not on the first one available.
+- **Artist's Talent levels compete.** Against control, level 3 first for the burn; against aggro, the level 2 discount
+  is the better spend. Tempest Angler keeps its counters, so it is the body to hold back through a sweeper.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Race with hasty prowess bodies and use Slick Sequence on their best attacker. Restless Spire blocks profitably against one-toughness creatures |
+| Control | Do not overextend into a sweeper. Keep one prowess body and a hand of spells, then rebuild in one turn with Stormsplitter. Guttersnipe is the plan that survives a board wipe |
+| Ramp or lifegain | Go under them and switch to the burn plan when combat stalls: Guttersnipe plus Artist's Talent level 3 does not care about their life total, and Rogue's Passage finishes through their one big blocker |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | First build: 22 lands, Slickshot Show-Off and Shore Up in the flex slots, Thundering Falls in the mana base | sim 59.3, synergy 69.2, T4 0.536, P4L 0.528 - fail on synergy, T4 and land drops |
+| v2 | -1 Wild Ride, -2 Thundering Falls, +1 Balmor, Battlemage Captain, +1 Island | sim 55.3, synergy 69.2, T4 0.591, P4L 0.608 - fail on synergy only |
+| v3 | -2 Shore Up, -2 Ancestral Anger, -2 Slickshot Show-Off, +2 Elementalist Adept, +2 Tempest Angler, +2 Sleight of Hand | sim 59.7, synergy 70.3, T4 0.607, P4L 0.612 - pass |
+
+v1 to v2: the land count was the actionable metric, so the two tapped Thundering Falls became basics and a Wild Ride
+became a fifteenth body; T4 consistency rose 0.536 to 0.591 and four-land probability 0.528 to 0.608. v2 to v3: the
+theme score was the only failing gate, so one-shot protection and pump spells became bodies that trigger on every
+spell; synergy moved 69.2 to 70.3 and the simulated win rate 55.3 to 59.7.
+
+# Deck list (Arena import)
+
+```text
+Quickstep Crescendo
+Deck
+4 Kitsa, Otterball Elite
+4 Emberheart Challenger
+3 Firebending Student
+3 Stormcatch Mentor
+2 Bria, Riptide Rogue
+2 Stormsplitter
+2 Guttersnipe
+1 Balmor, Battlemage Captain
+2 Elementalist Adept
+2 Tempest Angler
+4 Opt
+4 Slick Sequence
+2 Artist's Talent
+2 Sleight of Hand
+4 Spirebluff Canal
+3 Restless Spire
+2 Riverpyre Verge
+1 Rogue's Passage
+1 Great Hall of the Biblioplex
+8 Island
+4 Mountain
+```
