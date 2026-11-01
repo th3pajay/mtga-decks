@@ -2,13 +2,14 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **557** cards locked · **Reality Fracture 85/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **564** cards locked · **Reality Fracture 84/285** remaining
 
-**148 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**149 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-11-01
 
 - **[Quickstep Crescendo](decks/2026-11-01-quickstep-crescendo.html)** — Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable  `combo` `Prowess`
+- **[Dress Rehearsal](decks/2026-11-01-dress-rehearsal.html)** — Temur Prepared - the Soul Tether artifact engine (Reality Fracture)  `reality-fracture` `prepared`
 
 ## 2026-10-31
 

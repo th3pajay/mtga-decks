@@ -1,0 +1,159 @@
+---
+title: "Dress Rehearsal"
+subtitle: "Temur Prepared - the Soul Tether artifact engine (Reality Fracture)"
+date: "2026-11-01"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Green / Red / Blue splash |
+| Archetype | Combo-midrange (avg CMC 2.89) |
+| Size | 60 cards, 23 lands |
+| Core mechanic | Prepared (Reality Fracture) - cast a free copy of a creature's spell, then re-prepare it |
+| Primary win | Craterclaw Colossus trample swing scaled by Heartwood count |
+| Secondary win | Aerid Konstrari and Hungering Puppetbeast counter beatdown, plus Hall of Echoes copying the biggest body |
+| Set note | Reality Fracture is Standard-legal but the set still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there |
+
+# Overview
+
+Reality Fracture's Prepared mechanic turns creatures into reusable spells: a prepared creature may cast a copy of its own spell, and doing so unprepares it. The set's four Soul Tether creatures all carry the same payload - Soul Tether, a two-mana sorcery that creates a Heartwood token, a red and green artifact that taps for {R} or {G}. Heartwood Crafter enters prepared, Konstrari Improviser enters prepared, and Woodwork Prodigy re-prepares itself at every upkeep.
+
+That is the engine: every Soul Tether cast is a free artifact, and every artifact is both a mana source and a permanent the deck's payoffs count. Craterclaw Colossus enters and gives the team trample plus +X/+0 where X is the number of artifacts you control. Aerid Konstrari and Hungering Puppetbeast turn those same artifacts into counters. Tenured Tethermage converts two artifacts into two +1/+1 counters every turn. Nothing in the maindeck is off-plan: creatures prepare, prepared spells make artifacts, artifacts make mana and damage.
+
+Thirty-five of the sixty cards are Reality Fracture. The rest is Standard prepared support from the wider card pool plus a manabase that keeps a red-green core with a light blue splash for Campus Composer and Selfcraft Mechan.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Deploy a prepared body: Heartwood Crafter or Pompous Battlemage, then Konstrari Improviser or Goblin Glasswright. Cast the free Soul Tether and start banking Heartwoods |
+| Turns 3-4 | Woodwork Prodigy or Tenured Tethermage. Every upkeep now adds a Heartwood, and each Heartwood or Treasure taps for a colored mana, so the deck stops missing land drops |
+| Turns 5-6 | Aerid Konstrari or Hungering Puppetbeast land as 5/4 and 5/5 bodies on top of the artifact pile; Tenured Tethermage has been growing the whole time |
+| Finish | Craterclaw Colossus, then attack with everything: Haste, trample for the team, +X/+0 per artifact |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Heartwood Crafter | 4 | One-drop that enters prepared; free Soul Tether. Also taps for {C} that cannot pay for cards cast from hand |
+| Konstrari Improviser | 4 | Two-drop that enters prepared; the most efficient Soul Tether body |
+| Woodwork Prodigy | 4 | Three-drop 3/3 that re-prepares every upkeep - one Heartwood per turn, forever |
+| Carnivorous Cultivator | 2 | Two-drop 2/3 deathtouch, enters prepared; Enroot digs a land into the graveyard |
+| Pompous Battlemage | 3 | One-drop prowess that enters prepared; Improvised Act loots |
+| Tenured Tethermage | 3 | Trades a land for two tapped Heartwoods, then turns any two artifacts into two +1/+1 counters per turn |
+| Hungering Puppetbeast | 2 | Five-mana 5/5 that brings a Heartwood and eats spare artifacts for counters plus trample, hexproof or haste |
+| Aerid Konstrari | 2 | Four-drop 5/4 flier; Heartwood on entry and on death; {6} pump counts artifacts |
+| Craterclaw Colossus | 2 | Primary win condition: Haste 5/5, team trample, +X/+0 equal to your artifacts |
+| Goblin Glasswright | 3 | Two-drop prepared body; Craft with Pride makes a Treasure - fixing that also counts as an artifact |
+| Biblioplex Tomekeeper | 2 | Three-power four-drop that re-prepares any one creature on entry; the mid-game reset button for the engine |
+| Campus Composer | 2 | Four-drop 3/4 with ward {2}, enters prepared; Aqueous Aria makes a 3/3 flying Elemental |
+| Selfcraft Mechan | 2 | Four-drop 3/4 that eats an artifact for a counter and a card - turns spare Heartwoods into gas |
+| Compel Brutality | 1 | Two-mana fight effect, or a planeswalker bolt if the opponent taps out on a walker |
+| Patchwork Banner | 1 | Any-color mana plus a +1/+1 anthem on the Artificer team |
+
+## Lands as engines
+
+| Land | Count | Role |
+|------|-------|------|
+| Rockfall Vale | 4 | Untapped red-green dual from turn three on; the deck's cleanest two-color source |
+| Hall of Echoes | 2 | Win-condition land: {5} turns it into a copy of your best creature, and the legend rule does not apply that turn, so a second Aerid Konstrari or Craterclaw Colossus is legal |
+| Hexhaven Dueling Arena | 2 | Re-prepares an attacker for {2} - a second Soul Tether in the same turn |
+| Mistrise Village | 3 | Blue source that enters untapped behind a Mountain or Forest; {U} activation makes the next spell uncounterable |
+| Forest / Mountain / Island | 6 / 3 / 3 | Green base, red for the Colossus and Battlemage, three Islands for the blue four-drops |
+
+## Curve and mana
+
+| CMC | 1 | 2 | 3 | 4 | 5 | 7 |
+|-----|---|---|---|---|---|---|
+| Cards | 7 | 10 | 8 | 8 | 2 | 2 |
+
+Twenty-five of thirty-seven non-land cards cost three or less, so the deck functions while it assembles artifacts. Colored requirements are 20 green pips, 23 red pips and 6 blue pips; the manabase is built as red-green with blue as a splash, which is why Mistrise Village enters untapped in most openers and why Campus Composer and Selfcraft Mechan are the only cards that demand blue early. Twenty-three lands gives roughly a 60 percent chance of four lands by turn four, and the ramp from Soul Tether and Tenured Tethermage covers the rest.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Heartwood Crafter or Pompous Battlemage. Cast the free Soul Tether immediately - the Heartwood is mana, and holding it does nothing. Turn two is Konstrari Improviser or Goblin Glasswright, again cashing the prepared spell. Do not trade prepared creatures in combat if the trade costs you the artifact: a 1/1 that makes one Heartwood per turn is worth more than a 2/2.
+
+Against removal-heavy opponents, run out Woodwork Prodigy before the four-drops. It re-prepares on its own, so it keeps producing even when the rest of the board is answered.
+
+## Mid game
+
+Turns three to five are about stacking artifacts. Woodwork Prodigy adds one per upkeep; Tenured Tethermage adds two for a land (good when you have five lands and a spare); Biblioplex Tomekeeper re-prepares whichever prepared creature has the best spell - usually Woodwork Prodigy if it was unprepared, otherwise Campus Composer for a 3/3 flier. Hexhaven Dueling Arena re-prepares a creature that attacked, which is the cheapest repeat activation in the deck at two mana.
+
+Selfcraft Mechan is the pressure valve: sacrifice a Heartwood that is not being used for mana, put a counter on Tenured Tethermage or Hungering Puppetbeast and draw a card.
+
+## The combo turn
+
+The kill turn is a sequencing exercise, not a single card:
+
+1. Upkeep: Woodwork Prodigy becomes prepared.
+2. Cast the Soul Tether copy - one Heartwood, unprepares.
+3. Hexhaven Dueling Arena ({2}) or Biblioplex Tomekeeper re-prepares it; cast a second Soul Tether.
+4. Cast Craterclaw Colossus. Its trigger counts artifacts at resolution, so every Heartwood made earlier in the turn is already counted.
+5. Attack with the team: trample from the Colossus trigger, +X/+0 equal to the artifact count on everything.
+
+With six artifacts and one other attacker, that is a 11/5 trampler plus a pumped team, usually lethal through a single blocker.
+
+## Win condition 2
+
+When the Colossus is answered or never arrives, the deck grinds with counters. Aerid Konstrari is a 5/4 flier that leaves a Heartwood behind when it dies; Hungering Puppetbeast eats spare artifacts for +1/+1 counters plus a keyword of your choice, and Tenured Tethermage grows two counters a turn off any two artifacts. Hall of Echoes copies the largest of them for {5}, and because the legend rule does not apply that turn, a second Aerid Konstrari is a legal copy - two 5/4 fliers plus an artifact count that keeps rising.
+
+## Mulligan guide
+
+Keep hands with two or three lands, one one-drop prepared creature and one Soul Tether body. A hand of four lands and no prepared creature is a mulligan: the deck's card advantage comes from copying spells, not from drawing them. Six-card hands are acceptable if they contain Woodwork Prodigy plus two lands - that one card is a Heartwood per turn by itself. Do not keep one-land hands even with two one-drops; the deck needs three mana by turn three to start the loop.
+
+## Key interactions and edge cases
+
+- Heartwood Crafter's {T}: Add {C} cannot pay for spells cast from hand, but it can pay for a prepared copy - casting a copy of a prepared spell is not casting from hand.
+- Craterclaw Colossus counts artifacts as its trigger resolves. Cast Soul Tether copies and Treasure makers first, then the Colossus, never the other way around.
+- A copy made by Hall of Echoes copies the printed card only: it gets Haste or Flying, but no enter-the-battlefield trigger in the same turn, so no second team pump from a copied Colossus.
+- Tenured Tethermage's land sacrifice is optional and costs you a land drop; only take it when you have five or more lands or when the two Heartwoods are the difference between a four-artifact and six-artifact Colossus turn.
+- Biblioplex Tomekeeper can also unprepare an opponent's prepared creature. It is a real answer to an opposing Woodwork Prodigy or Bloodline Recollector.
+- Patchwork Banner's anthem applies only to the chosen creature type - name Artificer to cover Heartwood Crafter, Konstrari Improviser, Tenured Tethermage and Selfcraft Mechan.
+- Compel Brutality's second mode reads a planeswalker's loyalty as damage; against a walker deck it is often better than the fight mode.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Carnivorous Cultivator and Compel Brutality, then stabilize behind Hungering Puppetbeast and a growing Tenured Tethermage |
+| Midrange | Out-value with Woodwork Prodigy's free Heartwood per turn and Selfcraft Mechan drawing cards off spare artifacts |
+| Control | Hold Hexhaven Dueling Arena for a second Soul Tether in the same turn, and keep Hall of Echoes as a threat that survives sorcery-speed wipes |
+| Ramp | Race with the Colossus turn; the deck goes wider and faster, and trample beats single blockers |
+
+# Deck list (Arena import)
+
+```
+Dress Rehearsal
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+4 Woodwork Prodigy
+2 Carnivorous Cultivator
+3 Pompous Battlemage
+3 Tenured Tethermage
+2 Hungering Puppetbeast
+2 Aerid Konstrari
+2 Craterclaw Colossus
+1 Compel Brutality
+3 Goblin Glasswright
+2 Biblioplex Tomekeeper
+2 Campus Composer
+2 Selfcraft Mechan
+1 Patchwork Banner
+4 Rockfall Vale
+2 Hall of Echoes
+2 Hexhaven Dueling Arena
+3 Mistrise Village
+6 Forest
+3 Mountain
+3 Island
+```
