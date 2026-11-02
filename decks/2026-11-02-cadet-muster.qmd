@@ -1,0 +1,174 @@
+---
+title: "Cadet Muster"
+subtitle: "White-Blue-Black prepared Cadet engine (Reality Fracture)"
+date: "2026-11-02"
+categories: ["reality-fracture", "wizards"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue, with a light Black splash |
+| Archetype | Prepared token-combo (avg CMC 2.89, 24 lands) |
+| Size | 60 cards |
+| Core mechanic | Prepared (Reality Fracture) - a prepared creature casts a free copy of its own spell, then unprepares |
+| Primary win | Cadet swarm: every Peer Review body is two creatures, then Predictive Preparations counters and Prudent Fateseer pumps turn the tokens sideways |
+| Secondary win | Lyra, Tolarian Archangel and Arc of Fortune: wheel the hand, draw seven, end the turn with a 3/3 flying Angel |
+| Set note | Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there |
+
+# Overview
+
+Reality Fracture's Prepared mechanic turns creatures into repeatless spells: a creature that is prepared may cast a copy of its own spell, and doing so unprepares it. The card type that carries this best in the set is the creature-sorcery split, and the white-blue half of that cycle all points at the same payload - Peer Review, a three-mana sorcery that creates a 2/2 colorless Wizard Soldier token named Cadet and surveils 1.
+
+Fatehold Chronologist, Prudent Fateseer and Semester Foreseer all enter prepared, so each one is two bodies and a surveil for one card. Recursive Recruitment adds two more Cadets, and its flashback grows them off a stocked graveyard. Flickering Hound blinks a prepared creature whenever you cast another creature spell, which re-runs that creature's "enters prepared" trigger and buys another Peer Review. Prudent Fateseer converts every surveil into plus one power for the team, Diviner of Victory converts every surveil into a bigger attacker, and Predictive Preparations puts permanent counters on whatever survived.
+
+The kill is a wide board nobody can block profitably. Kindred Judgment naming Wizard is a one-sided sweeper that leaves every Wizard and every Cadet standing, and Rogue's Passage makes the largest attacker unblockable on the turn it matters. When the ground stalls, Lyra turns a Variable Chaser wheel into a flying Angel every end step.
+
+Thirty-six of sixty cards are Reality Fracture. The rest is a Standard manabase - four white-blue and five blue-black duals, one utility land and twelve basics - so nothing in the deck is off-plan: creatures prepare, prepared spells make Cadets, Cadets attack.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Diviner of Victory or Fatehold Chronologist, then cast the free spell. Unwind History bounces a two- or three-drop and surveils; Peer Review makes the first Cadet |
+| Turns 3-4 | Prudent Fateseer and Arni, Humble Scribe. Every Peer Review body is now two creatures, and Fateseer pumps the team on each surveil |
+| Turns 5-6 | Recursive Recruitment and Semester Foreseer widen the board; Flickering Hound starts blinking prepared bodies for extra Cadets |
+| Finish | Predictive Preparations counters on the two best attackers, Kindred Judgment to clear blockers that are not Wizards, Rogue's Passage on the biggest body |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Fatehold Chronologist | 4 | Two-mana 1/2 flier that enters prepared; the cheapest Peer Review in the deck |
+| Prudent Fateseer | 4 | Three-mana 1/4 that enters prepared; every scry or surveil gives the team plus one power, once per turn |
+| Diviner of Victory | 4 | One-mana 1/1 that enters prepared; Unwind History bounces and surveils, and each surveil grows it |
+| Semester Foreseer | 3 | Four-mana 3/4 that surveils on entry and enters prepared - two bodies plus two surveils |
+| Variable Chaser | 2 | Three-mana 2/3 flier with prowess, enters prepared; Arc of Fortune wheels both hands |
+| Lyra, Tolarian Archangel | 2 | Three-mana 3/3 flier; end step, if you drew three or more cards, create a 3/3 blue Angel with flying |
+| Flickering Hound | 2 | Four-mana 2/2; each creature spell you cast blinks another creature, replaying its prepared trigger |
+| Arni, Humble Scribe | 3 | Three-mana 3/2 that untaps whenever a nontoken creature enters; taps to loot |
+| Predictive Preparations | 4 | Two-mana sorcery, a counter on each of two creatures, flashback for three and a white |
+| Recursive Recruitment | 3 | Four-mana sorcery, two Cadets; cast from the graveyard it adds counters per three cards in the yard |
+| Icy Reception | 2 | Two-mana modal instant: tax a creature or legendary spell, or shrink a blocker by five |
+| Extended Absence | 2 | Four-mana instant that exiles a creature or planeswalker and drains one |
+| Kindred Judgment | 1 | Seven-mana sweeper naming Wizard - one-sided for this deck, a reset for everything else |
+
+## Lands as engines
+
+| Land | Count | Role |
+|------|-------|------|
+| Rogue's Passage | 1 | Win-condition land: five mana total makes the largest Cadet unblockable, which is how a 2/2 token finishes a game |
+| Meticulous Archive | 2 | White-blue dual that enters tapped and surveils - triggers Prudent Fateseer and grows Diviner of Victory |
+| Undercity Sewers | 2 | Blue-black dual with the same surveil trigger; the black source that also feeds the engine |
+| Hallowed Fountain | 4 | Untapped white-blue dual for two life; the deck's cleanest early source |
+| Watery Grave | 3 | Blue-black dual for two life; pays for Recursive Recruitment and Extended Absence |
+| Plains / Island | 5 / 7 | White for the four white pips, blue for the seventeen blue pips; the hybrid prepare cards can be paid either way |
+
+## Curve and mana
+
+| CMC | 1 | 2 | 3 | 4 | 7 |
+|-----|---|---|---|---|---|
+| Cards | 4 | 10 | 11 | 10 | 1 |
+
+Thirty-five of thirty-six non-land cards cost four or less, and twenty-five cost three or less, so the deck starts on turn one and keeps casting. Colored requirements are light on white (eight white pips), heavy on blue (seventeen blue pips) and thin on black (five pips, all at four mana), which is why the manabase is eighteen blue sources, eleven white sources and five black sources. Twenty-four lands puts the chance of four lands by turn four at roughly 64 percent, which is the number the deck needs: it curves out rather than ramps.
+
+# Gameplay strategy
+
+## Early game
+
+Open on Diviner of Victory or Fatehold Chronologist and fire the prepared spell the turn you can. Diviner's Unwind History is a tempo play - bounce their two-drop, surveil, and the Diviner is a 2/2 until end of turn. Peer Review is the better keep: a 1/2 flier plus a 2/2 token blocks almost everything in the format.
+
+Turn three is Prudent Fateseer whenever you have it. The 1/4 body blocks, and from that point every surveil is a team pump, so Peer Review, Unwind History, Semester Foreseer and even a tapped Meticulous Archive all add damage.
+
+Do not hold prepared creatures back as if the spell were precious. There is no cost to unpreparing: an empty prepared creature is a wasted trigger, and the deck has no way to re-prepare except Flickering Hound and a fresh copy of the creature.
+
+## Mid game
+
+Turns four to six are about converting cards into bodies. Semester Foreseer is the biggest single swing - a 3/4 plus a Cadet plus two surveil triggers. Recursive Recruitment is the fastest: two Cadets for one card, and if the board stalls long enough to flash it back, those Cadets arrive with counters.
+
+Flickering Hound is the engine that makes the deck a combo rather than a curve deck. Each creature spell you cast after it lands blinks another creature you control, so the blinked creature returns and re-enters prepared. Sequence it as: cast a creature, blink Semester Foreseer or Fatehold Chronologist, cast the new Peer Review for another Cadet. Two creature spells in a turn is three or four bodies.
+
+Arni, Humble Scribe rewards the same turn: every nontoken creature that enters untaps it, so a two-spell turn is two loots. Loot into the surveil cards rather than away from them - the graveyard is a resource for Recursive Recruitment's counters.
+
+## The combo turn
+
+The lethal turn is a sequencing exercise, not a single card:
+
+1. Upkeep and precombat: cast one or two creature spells with Flickering Hound already on the battlefield, blinking prepared bodies and cashing each Peer Review for a Cadet.
+2. Cast Predictive Preparations with flashback in mind, putting both counters on the two Cadets that will attack, or on Diviner of Victory if it is already large.
+3. If the opponent has three or more non-Wizard creatures, cast Kindred Judgment naming Wizard. Every Cadet and every creature in this deck except Flickering Hound survives.
+4. Attack with the team, holding five mana for Rogue's Passage on the biggest unblocked-or-not attacker.
+
+A typical turn five board is four Cadets, a Fateseer, a Diviner and a Chronologist: sixteen power before counters, more with the Fateseer pump, and one unblockable body. That is a two-turn clock against most midrange boards.
+
+## Win condition 2
+
+When the ground stalls, Lyra, Tolarian Archangel is a second, independent win. Variable Chaser is a 2/3 prowess flier that enters prepared; casting Arc of Fortune makes each player discard their hand and draw seven, which is a three-or-more-card draw turn, so Lyra makes a 3/3 flying Angel at the end step. Repeat with Arni loots and Peer Review surveils on later turns - two surveils plus a loot is three cards seen, and Lyra does not care how the cards arrived.
+
+Lyra also carries the deck's only repeatable card draw attached to a threat: three and two blue, then any combat damage draws two, which chains into more Angels.
+
+## Mulligan guide
+
+Keep two or three lands with at least one prepared two-drop (Fatehold Chronologist or Diviner of Victory) and one three-drop. A hand of four lands and no prepared creature is a mulligan - the deck's card advantage comes from copying spells, not from drawing them. Six-card hands are fine if they contain Prudent Fateseer plus two lands; that one card is a pump engine and a blocker. Never keep a one-land hand, even with two one-drops: the deck needs three mana on turn three to keep the Peer Review chain going, and the mana base has no way to cheat it.
+
+## Key interactions and edge cases
+
+- A prepared copy is not a spell cast from hand, so it cannot be taxed by effects that care about hand casts, and it does not count as a card cast for effects that track spells cast from hand.
+- Flickering Hound blinks "another target creature you control", so it cannot blink itself. With two Hounds, each one blinks the other, which is a loop of enters triggers only if you keep casting creature spells.
+- Blinking a prepared creature returns it prepared, but you lose any counters on it. Do not blink a Diviner of Victory that has been grown by three surveils; blink the Fateseer or the Chronologist instead.
+- Kindred Judgment naming Wizard kills Flickering Hound (a Dog) and nothing else in the deck. Cast it after the Hound has done its work, or not at all.
+- Diviner of Victory's pump lasts until end of turn, so multiple surveils in one turn stack, but the growth resets every turn. Cast its Unwind History in the turn you intend to attack.
+- Predictive Preparations has flashback, and the counters are permanent. Casting it from the graveyard for three and a white is often better than casting it from hand on turn two.
+- Recursive Recruitment's flashback is expensive but its counters scale with the graveyard: three surveils plus one milled land is a counter per Cadet, which matters more than the extra mana.
+- Rogue's Passage needs five mana total and taps for colourless, so do not count it as a white or blue source when keeping a hand.
+- Meticulous Archive and Undercity Sewers enter tapped. Their surveil triggers do fire Prudent Fateseer, so playing one on turn two is a pump, not a lost turn.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Block with Fateseer and Chronologist, shrink the biggest attacker with Icy Reception, and race with Cadets - this deck goes wider faster than most aggro starts |
+| Midrange | Out-value them with Flickering Hound loops and Recursive Recruitment; hold Kindred Judgment for the turn their board is worth more than yours |
+| Control | Do not over-commit into a sweeper. Keep one Peer Review body in hand, rebuild with Recursive Recruitment from the graveyard, and use Lyra as a threat that dodges sorcery-speed removal |
+| Ramp | Race. Cadets plus Predictive Preparations counters attack through single blockers, and Kindred Judgment naming Wizard ignores their non-Wizard payoffs |
+
+# Iterations
+
+| Round | Change | T4 consistency | P(4 lands by T4) | Sim win rate | Synergy |
+|-------|--------|----------------|------------------|--------------|---------|
+| v1 | Initial 60: 23 lands, one Unsummon, three Arni | 0.599 | 0.60 | 57.3 | 73.2 |
+| v2 | -1 Unsummon, +1 Island (land count 23 to 24 for the turn-four land drop) | 0.635 | 0.64 | 57.0 | 73.2 |
+
+v1 already cleared every gate, but the land-drop gate sat only four points above the threshold. Moving to twenty-four lands bought eleven points of turn-four consistency for half a point of simulated win rate, which is the right trade for a deck that wants to cast a four-drop on curve every game.
+
+# Deck list (Arena import)
+
+```
+Cadet Muster
+Deck
+4 Fatehold Chronologist
+4 Prudent Fateseer
+4 Diviner of Victory
+3 Semester Foreseer
+2 Variable Chaser
+2 Lyra, Tolarian Archangel
+2 Flickering Hound
+3 Arni, Humble Scribe
+4 Predictive Preparations
+3 Recursive Recruitment
+2 Icy Reception
+2 Extended Absence
+1 Kindred Judgment
+4 Hallowed Fountain
+3 Watery Grave
+2 Meticulous Archive
+2 Undercity Sewers
+1 Rogue's Passage
+5 Plains
+7 Island
+```

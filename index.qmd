@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-02**:
 
 - **[Cloaked Column](decks/2026-11-02-cloaked-column.html)** — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger  `combo` `Disguise` `Mobilize` `Alliance`
+- **[Cadet Muster](decks/2026-11-02-cadet-muster.html)** — White-Blue-Black prepared Cadet engine (Reality Fracture)  `reality-fracture` `wizards`
