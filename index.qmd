@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-01**:
+Deck guides published **2026-11-02**:
 
-- **[Quickstep Crescendo](decks/2026-11-01-quickstep-crescendo.html)** — Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable  `combo` `Prowess`
-- **[Dress Rehearsal](decks/2026-11-01-dress-rehearsal.html)** — Temur Prepared - the Soul Tether artifact engine (Reality Fracture)  `reality-fracture` `prepared`
+- **[Cloaked Column](decks/2026-11-02-cloaked-column.html)** — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger  `combo` `Disguise` `Mobilize` `Alliance`

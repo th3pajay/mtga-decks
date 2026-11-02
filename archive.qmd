@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **564** cards locked · **Reality Fracture 84/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **572** cards locked · **Reality Fracture 84/285** remaining
 
-**149 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**150 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-02
+
+- **[Cloaked Column](decks/2026-11-02-cloaked-column.html)** — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger  `combo` `Disguise` `Mobilize` `Alliance`
 
 ## 2026-11-01
 
