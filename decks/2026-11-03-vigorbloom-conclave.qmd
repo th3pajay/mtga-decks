@@ -1,0 +1,186 @@
+---
+title: "Vigorbloom Conclave"
+subtitle: "White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture)"
+date: "2026-11-03"
+categories: ["reality-fracture", "sphinx"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA import list) |
+| Colors | White / Green, with black and red splashes (no blue) |
+| Archetype | Elder Sphinx lifegain-token combo (avg CMC 2.97, 24 lands) |
+| Size | 60 cards, 36 spells and 24 lands |
+| Set mechanic | Reality Fracture's Elder Sphinx cycle, played as a lifegain engine: Kwia Vigorbloom turns every point of life into mana |
+| Primary win | Kwia Vigorbloom attacks for six with lifelink, Germinate Recruits converts that life into six 2/2 Cadets, and Ingris Stingerquill makes every attacker deal 1 damage to each opponent |
+| Secondary win | Omnipresence, with a wide board, casts the whole hand for free; Hall of Echoes copies Ingris or Kwia as a second drain trigger |
+| Set note | Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there |
+
+# Overview
+
+Reality Fracture's Elder Sphinx cycle is a set of five allied-pair legends, and the green-white one is the engine of this deck. Kwia Vigorbloom is a six-mana 6/6 with flying, vigilance, lifelink and ward {2}, and every time you gain life it creates a Lotus token that sacrifices for three mana of any one colour - once each turn. A single Kwia attack is six life, so from turn six onward the deck has a free three-mana ritual every turn plus a 6/6 flier that is almost impossible to remove profitably.
+
+That life total is a resource in two directions. Germinate Recruits is a three-mana instant that creates X 2/2 Cadets, where X is the amount of life gained this turn - after a Kwia attack it is six bodies for three mana. Resplendent Angel watches the same number: gain five or more life in a turn and it makes a 4/4 flying vigilance Angel at the end step. Ajani's Pridemate and Ajani Resolute convert the same triggers into counters and loyalty.
+
+The kill is the red-black Sphinx of the cycle. Ingris Stingerquill reads: whenever a creature you control attacks, that creature deals 1 damage to each opponent. It does not tap, does not target, and does not care about blockers, so a board of six Cadets and two Angels is sixteen damage to the face before combat damage is even assigned. Ingris also makes Cadets for four mana and gives the team haste, which turns a stalled board into a lethal one.
+
+Thirty-six cards are Reality Fracture. The rest is a Standard manabase plus three outside spells - Resplendent Angel, Ajani's Pridemate and Get Lost - chosen because they read the same lifegain counter the set's engine produces.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Liliana the Faultless or Enlightened Confidant. Both gain life on their own, both block, and Liliana turns every later token into another life |
+| Turns 3-4 | Solarium Sentry or Bloombrute, then Ajani Resolute. Bloombrute draws a card every turn you gain life, so the engine starts paying for itself here |
+| Turns 5-6 | Resplendent Angel and Kwia Vigorbloom. Kwia's first attack is the pivot: six life becomes a Lotus, an Angel token and a six-Cadet Germinate Recruits |
+| Finish | Ingris Stingerquill plus a wide board, or Omnipresence with eight or more creatures. Hall of Echoes copies Ingris for a second drain trigger |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Kwia Vigorbloom | 2 | The engine. 6/6 flying lifelink for six; each lifegain trigger makes a Lotus worth three mana, once per turn |
+| Germinate Recruits | 4 | The payoff. Instant, X Cadets where X is life gained this turn; six mana-free bodies after a Kwia attack |
+| Ingris Stingerquill | 2 | The drain. Every attacker deals 1 damage to each opponent; four mana makes a Cadet and grants the team haste |
+| Resplendent Angel | 3 | Second payoff. Gain five or more life and it makes a 4/4 flying vigilance Angel at each end step |
+| Bloombrute | 3 | Four-mana 4/4 that draws a card on the first lifegain of each turn, and can grant trample and lifelink for five |
+| Solarium Sentry | 3 | Two-mana 3/3; two life whenever an opponent casts a cheap spell, which is a trigger on their turn as well as yours |
+| Ajani's Pridemate | 2 | Two-mana 2/2 that grows on every lifegain trigger; the cheapest permanent converter in the deck |
+| Enlightened Confidant | 3 | Two-mana 2/1 lifelink; surveils at the end step when you gained life, and returns a cheap card from the surveil |
+| Liliana the Faultless | 2 | One-mana 1/1; one life for every other creature or planeswalker that enters, and a hexproof activation for the key threat |
+| Ajani Resolute | 2 | Two-mana planeswalker; lifegain adds loyalty, zero gains a life, minus four makes a Cat that grows on lifegain |
+| Fateshaper Aspirant | 2 | Five-mana 3/4 that returns a legendary card - Kwia or Ingris - from the graveyard, or protects a creature with indestructible |
+| Shatterwing Pegasus | 2 | Three-mana 2/3 flier, and a five-mana team pump that Ingris turns into extra drain triggers |
+| Omnipresence | 1 | Eight-mana enchantment; with eight creatures you cast the rest of the hand for free, including Germinate Recruits |
+| Get Lost | 3 | Two-mana unconditional removal for a creature, enchantment or planeswalker; the Map tokens are irrelevant to this deck |
+| Last Gasp | 2 | Two-mana -3/-3 for cheap blockers and mana dorks, and the deck's only black card in the main phase |
+
+## Lands as engines
+
+| Land | Count | Role |
+|------|-------|------|
+| Hall of Echoes | 2 | Win-condition land: five mana turns it into a copy of Ingris Stingerquill, and the legend rule does not apply this turn, so both drain triggers fire. Copying Kwia instead makes a second Lotus every turn |
+| Temple Garden | 4 | Untapped green-white dual for two life; the deck's cleanest source for Kwia's {G}{W}{W} |
+| Godless Shrine | 2 | White-black dual, the black source that also casts Kwia |
+| Blood Crypt | 2 | Black-red dual; both halves matter because Ingris costs {B}{R}{R} |
+| Stomping Ground | 2 | Red-green dual, green for Kwia and red for Ingris |
+| Sacred Foundry | 2 | White-red dual, the deck's fourth red source |
+| Blooming Marsh | 2 | Black-green fastland; enters untapped when it is the first or second land |
+| Concealed Courtyard | 1 | White-black fastland, the same early untap condition |
+| Plains | 5 | Thirty-six white pips make white the primary colour |
+| Forest | 2 | Green for Kwia, Bloombrute and Omnipresence |
+
+## Curve and mana
+
+| CMC | 1 | 2 | 3 | 4 | 5 | 6 | 8 |
+|-----|---|---|---|---|---|---|---|
+| Cards | 2 | 15 | 11 | 3 | 2 | 2 | 1 |
+
+Thirty-one of thirty-six spells cost three or less, and the average mana value is 2.97, so the deck plays on turns one and two and only asks for six mana at Kwia. Coloured weight is white-heavy: thirty-six white pips against eleven green, four black and four red. The manabase is fourteen white sources, ten green, seven black and six red, which is why Ingris is a two-of finisher rather than a turn-three play - treat it as a five-drop and cast it with two black-red duals up. Twenty-four lands puts four lands by turn four at roughly 63 percent, and the gates back that up: turn-four consistency 0.639, four lands by turn four 0.629.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about putting a lifegain body on the board that also blocks. Liliana the Faultless is the ideal one-drop: a 1/1 that gains a life every time anything else enters, which means every later Cadet, Angel and Cat is a trigger. Enlightened Confidant is the two-drop that turns those triggers into cards - it surveils at the end step if you gained life, and returns any card with mana value at or below the life gained.
+
+Do not fire removal early unless the opponent's curve demands it. Get Lost and Last Gasp are there to clear the one blocker that would stop Kwia from connecting, because the deck's whole turn-six plan depends on six points of lifelink damage getting through.
+
+Turn three is Solarium Sentry or Bloombrute. Bloombrute is the better one when you already have a lifegain permanent: a 4/4 that draws a card every turn is the deck's only real card advantage engine, and its five-mana activation gives any creature trample and lifelink, which is a second Lotus trigger for Kwia.
+
+## Mid game
+
+Turn five or six is Kwia Vigorbloom, and that is the turn the deck stops being a pile of small creatures. Sequence the attack so that the six lifelink damage resolves before the second main phase, then spend the Lotus on the biggest thing in hand. Landing a Resplendent Angel the turn before Kwia is the strongest line: the Angel is already on the battlefield when the six life arrives, so it makes a 4/4 Angel at the end step on the very first Kwia attack.
+
+Germinate Recruits is the card that converts the engine into a clock. It is an instant, so it can be cast after combat with the full life total locked in, and six Cadets for three mana is the best rate in the deck. Cast it on the opponent's end step when you have the mana open and nothing to spend it on - the Cadets untap on your turn anyway.
+
+Ajani Resolute is the quiet engine: every lifegain trigger adds a loyalty counter, so a single Angel token or a Kwia attack can take it from two loyalty to six, which is enough to minus four for a Cat that grows on every later trigger.
+
+## The combo turn
+
+The lethal turn is a sequence, not a single card:
+
+1. Attack with Kwia and everything else. Six lifelink life and six points of Ingris drain are already on the board.
+2. In the second main phase, sacrifice the Lotus for three mana and cast Germinate Recruits for X equal to the life gained this turn - six Cadets with a Kwia attack, more if Solarium Sentry or Ajani added to the total.
+3. If Ingris is not on the battlefield, cast it now; if it is, activate Hall of Echoes for five to copy Ingris, so every attacker drains twice.
+4. Attack the following turn with Cadets, Angels and the Sphinxes. With eight attackers and two Ingris triggers that is sixteen damage to each opponent before blockers.
+
+Against a board that can block, the Cadets are the wrong attackers - attack with the fliers and keep the ground back, because the drain damage does not require the creature to connect.
+
+## Win condition 2
+
+Omnipresence is the independent, non-combat finish. Eight mana is a lot, but the deck makes it: Kwia's Lotus is three mana, and Omnipresence itself only needs to resolve once. With eight or more creatures - six Cadets and two fliers is a normal board - every spell in hand with mana value eight or less is free, including Germinate Recruits (more Cadets), Ajani Resolute, Resplendent Angel and the removal. Each free spell adds a body, which raises the creature count, which keeps the chain alive.
+
+The second half of this win condition is Hall of Echoes. Five mana and the land becomes a copy of Ingris Stingerquill until end of turn, with the legend rule switched off, so both copies trigger on every attacker. If the opponent has stabilised on the ground, copying Kwia instead gives a second Lotus and a second six-power lifelink attacker, which is usually enough to win the following turn.
+
+## Mulligan guide
+
+Keep two or three lands with a one- or two-drop lifegain permanent and a three-drop. The ideal hand is Liliana the Faultless or Enlightened Confidant plus Solarium Sentry or Bloombrute, with two lands of which one produces green or white. A hand with no lifegain permanent is a mulligan even if it has Kwia: the Sphinx needs the engine already running to be worth six mana. Never keep a one-land hand - the deck has no mana acceleration before turn six and its cheapest interaction costs two. Five-land hands are acceptable when they contain Bloombrute and Resplendent Angel, because those two cards win grindy games on their own.
+
+## Key interactions and edge cases
+
+- Kwia's Lotus trigger is once each turn, not once per life gain event, so do not hold lifegain for after combat expecting a second Lotus. Bloombrute's draw trigger has the same once-per-turn restriction.
+- Germinate Recruits counts life gained this turn, not life gained from one event. Ajani Resolute's zero ability, Solarium Sentry triggers on the opponent's turn and Kwia's lifelink all add to the same number, so the correct time to cast it is after every other lifegain source has resolved.
+- Resplendent Angel checks for five or more life at the end step, so a Kwia attack alone qualifies. If the Angel enters after combat it misses that turn's check, which is why it should be cast in the first main phase.
+- Ingris Stingerquill's trigger is not combat damage, so it is not stopped by a blocker, protection from a colour, or damage prevention. It is stopped by anything that stops the attack declaration, such as a tapped creature or an effect that says creatures cannot attack.
+- Hall of Echoes copies until end of turn only. Copy Ingris in the post-combat main phase if the plan is to drain again next turn, or in the first main phase if the copy is needed as an attacker this turn.
+- Hall of Echoes adds {C} only, so it never pays for a coloured pip; count it as a colourless source when keeping a hand.
+- Omnipresence checks mana value against the number of creatures at the moment of casting, not at the start of the turn. Cast the cheapest spells first only if they add bodies; otherwise cast the biggest body first, because a creature that enters raises the ceiling for the next spell.
+- Fateshaper Aspirant returns a legendary card, so its targets are Kwia Vigorbloom, Ingris Stingerquill, Liliana the Faultless and Ajani Resolute. Returning Ajani is often better than returning a Sphinx, because the planeswalker re-triggers its own lifegain.
+- Ingris costs {B}{R}{R}, which the manabase supports with six red and seven black sources. Do not keep a hand that plans to cast it on curve; it is a finisher, not a three-drop.
+- Get Lost gives the opponent two Map tokens, which are artifacts they can sacrifice to explore. Against a deck with artifact synergies, Last Gasp is the better removal.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Last Gasp and block with Solarium Sentry and Bloombrute. The deck gains life faster than most aggro decks deal it, and a single Kwia attack usually ends the race |
+| Midrange | Bloombrute and Ajani's Pridemate outscale single threats. Hold Get Lost for the one creature that can block Kwia, and use Hall of Echoes on Ingris once the ground stalls |
+| Control | Do not commit the board into a sweeper. Keep one Germinate Recruits and one threat in hand, rebuild with Fateshaper Aspirant, and use Liliana's hexproof activation on Kwia |
+| Ramp | Race with Cadets and the drain. Ingris does not care about a large blocker, and Omnipresence lets the deck spend its mana on the turn the ramp deck taps out |
+
+# Iterations
+
+| Round | Change | T4 consistency | P(4 lands by T4) | Sim win rate | Synergy |
+|-------|--------|----------------|------------------|--------------|---------|
+| v1 | Initial 60: 22 lands, three Kwia Vigorbloom, two Omnipresence | 0.516 | 0.502 | 52.7 | 75.4 |
+| v2 | -1 Kwia Vigorbloom, -1 Omnipresence, +1 Temple Garden, +1 Plains (land count 22 to 24, curve trimmed at the top) | 0.651 | 0.644 | 60.7 | 75.4 |
+
+v1 failed the turn-four land drop and the goldfish consistency gate: twenty-two lands with three six-drops and two eight-drops is a deck that stalls on three. Cutting one Kwia and one Omnipresence for two lands bought thirteen points of turn-four consistency, fourteen points of land-drop probability and eight points of simulated win rate, at no cost to synergy. The list was re-verified under its final name and still cleared every gate at 0.639 turn-four consistency, 0.629 four-lands and a 56.3 percent simulated win rate.
+
+# Deck list (Arena import)
+
+```
+Vigorbloom Conclave
+Deck
+2 Kwia Vigorbloom
+2 Ingris Stingerquill
+3 Enlightened Confidant
+3 Bloombrute
+3 Solarium Sentry
+2 Liliana the Faultless
+2 Ajani Resolute
+3 Resplendent Angel
+2 Ajani's Pridemate
+2 Fateshaper Aspirant
+2 Shatterwing Pegasus
+4 Germinate Recruits
+1 Omnipresence
+3 Get Lost
+2 Last Gasp
+2 Hall of Echoes
+4 Temple Garden
+2 Godless Shrine
+2 Blood Crypt
+2 Stomping Ground
+2 Sacred Foundry
+2 Blooming Marsh
+1 Concealed Courtyard
+5 Plains
+2 Forest
+```

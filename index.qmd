@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-11-03**:
 
+- **[Vigorbloom Conclave](decks/2026-11-03-vigorbloom-conclave.html)** — White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture)  `reality-fracture` `sphinx`
 - **[Bullion Riot](decks/2026-11-03-bullion-riot.html)** — Rakdos — Treasure tokens converted into artifact creature tokens  `combo` `treasure` `token-creation`

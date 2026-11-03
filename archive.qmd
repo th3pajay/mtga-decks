@@ -2,12 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **593** cards locked · **Reality Fracture 76/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **598** cards locked · **Reality Fracture 73/285** remaining
 
-**152 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**153 deck guides** — newest first. Every daily deck keeps its own permanent page.
 
 ## 2026-11-03
 
+- **[Vigorbloom Conclave](decks/2026-11-03-vigorbloom-conclave.html)** — White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture)  `reality-fracture` `sphinx`
 - **[Bullion Riot](decks/2026-11-03-bullion-riot.html)** — Rakdos — Treasure tokens converted into artifact creature tokens  `combo` `treasure` `token-creation`
 
 ## 2026-11-02
