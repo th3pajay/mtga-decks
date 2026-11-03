@@ -1,0 +1,147 @@
+---
+title: "Bullion Riot"
+subtitle: "Rakdos — Treasure tokens converted into artifact creature tokens"
+date: "2026-11-03"
+categories: ["combo", "treasure", "token-creation"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Rakdos — black / red |
+| Archetype | Low-curve artifact-token aggro combo |
+| Size | 60 cards, 23 lands |
+| Mechanic identity | Treasure (primary) fused with token creation (secondary) |
+| Primary win | Magda, the Hoardmaster turns three Treasures into a 4/4 flying, hasty Scorpion Dragon, then Improvised Arsenal and Rogue's Passage push it through |
+| Secondary win | Treasure-to-token conversion: Legion Extruder Golems, Castle Doom Doombots and a counter-growing Oreplate Pangolin, finished with Devastating Onslaught |
+| Average mana value | 1.84 (nonland) |
+
+# Overview
+
+Bullion Riot is a two-colour Rakdos engine built on one exchange rate: every Treasure token is mana today and a body tomorrow. The deck floods the board with Treasures through cheap permanents — `Magda, the Hoardmaster`, `Piggy Bank`, `Greedy Freebooter`, `Treasure Dredger`, `Gold Pan`, `Diamond Pick-Axe`, `Flick a Coin` — then spends them in three currencies:
+
+- **Bodies.** `Legion Extruder` sacrifices another artifact for a 3/3 Golem; `Castle Doom` does the same from the land slot for a 3/3 Doombot. Both are repeatable and both leave a creature behind, so the Treasures do not evaporate.
+- **Damage.** `HYDRA Assault Robot` pings an opponent for 1 every time another artifact or Villain enters. Each Treasure, Golem and Doombot is a separate trigger, so a single Extruder activation is two points of reach.
+- **A clock.** `Magda, the Hoardmaster` upgrades three Treasures into a 4/4 red Scorpion Dragon token with flying and haste, while `Oreplate Pangolin` turns artifact entries into +1/+1 counters on a body the opponent must answer.
+
+The fusion is the point. Treasure is the fuel; token creation is the output. Almost every card either makes a Treasure, rewards an artifact entering, or eats an artifact for a token, so the draw steps compound instead of trading one-for-one. `Improvised Arsenal` ties the halves together: equipped creature gets +1/+0 for each artifact you control, and in a deck holding five to eight artifacts that is a lethal pump for a `{R}` equip.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|---|---|---|
+| Seed | 1-2 | Land a cheap Treasure source: Greedy Freebooter, Gold Pan, Diamond Pick-Axe, Treasure Dredger, or Charming Scoundrel choosing the Treasure mode |
+| Build | 3-4 | Add an artifact payoff (HYDRA Assault Robot, Oreplate Pangolin, Improvised Arsenal) and start converting: Legion Extruder, Collector's Vault, Flick a Coin |
+| Convert | 5-6 | Magda activations turn spare Treasures into Dragons; Extruder and Castle Doom turn the rest into 3/3s |
+| Close | 6+ | Improvised Arsenal plus Rogue's Passage on a flier, or Devastating Onslaught copying the biggest token for a hasty alpha strike |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Treasure generators | Magda, the Hoardmaster; Piggy Bank; Greedy Freebooter; Treasure Dredger; Charming Scoundrel; Gold Pan; Diamond Pick-Axe; Flick a Coin; Collector's Vault | 23 | Nine distinct sources; only Magda and Dredger need activation mana |
+| Artifact-entry payoffs | HYDRA Assault Robot; Oreplate Pangolin; Improvised Arsenal | 9 | Every Treasure is a trigger or a pump |
+| Treasure-to-token converters | Legion Extruder; Castle Doom | 4 | Repeatable 3/3 production from the artifact and land slots |
+| Finisher | Devastating Onslaught | 1 | X hasty copies of the best body on board |
+
+## Lands as engines
+
+| Land | Count | Job in the deck |
+|---|---|---|
+| Castle Doom | 2 | Win-condition land: three mana and one sacrificed artifact makes a 3/3 Doombot; also filters mana for artifact spells |
+| Rogue's Passage | 1 | Makes the equipped Dragon or a giant Pangolin unblockable for the finish |
+| Haunted Ridge | 4 | Black-red dual that is untapped from turn three onward |
+| Raucous Theater | 4 | Black-red dual with surveil 1, which bins surplus lands and feeds nothing wasted |
+| Mountain / Swamp | 12 | Basics; the deck needs red early for Magda and double black only for Greedy Freebooter |
+
+## Curve and mana
+
+The curve is deliberately flat and low: eight one-drops, twenty-seven two-drops, two three-drops (`Flick a Coin`), and `Devastating Onslaught` as an X spell. Average nonland mana value is 1.84, so the deck functions on two lands; four lands merely unlock Magda plus an activation in the same turn. The manabase is 23 lands — 12 basics, 8 duals, 2 `Castle Doom` and 1 `Rogue's Passage`. Castle Doom's colourless mode is a real cost, which is why it is capped at two copies; Treasures cover the rest by paying for `{R}` equips, Extruder activations and Onslaught's generic costs.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about quantity, not quality. `Greedy Freebooter` is the best one-drop: it blocks, trades, and leaves a Treasure plus a scry. `Gold Pan` is the most reliable two-drop because the Treasure arrives immediately and the Equipment later pumps whatever creature is carrying `Improvised Arsenal`. `Diamond Pick-Axe` is the aggressive mirror of the same idea — indestructible, so it survives removal, and it makes a Treasure on every attack.
+
+Do not hold Treasures for a rainy day. Sacrificing them is the engine, and the mana they produce is only worth it when it buys a turn ahead.
+
+## Mid game and the combo turn
+
+The deck's "combo turn" is a chain, not a loop:
+
+1. Cast `Legion Extruder`, dealing 2 damage to a creature or to the opponent on entry.
+2. Activate it for `{2}` and a Treasure: a 3/3 Golem arrives.
+3. The Golem and the spent Treasure each trigger `HYDRA Assault Robot` for 1 damage, and the Golem triggers `Oreplate Pangolin` for an optional `{1}` counter.
+4. With three Treasures still around, activate `Magda, the Hoardmaster` for a 4/4 flying, hasty Dragon, then equip `Improvised Arsenal` for `{R}` and attack with a Dragon that is +5/+0 or better.
+
+Every step feeds the next, and none of it requires a specific two-card combination — the deck is a pile of overlapping converters, which is why it recovers quickly after a sweeper.
+
+## Win condition two
+
+When the Dragon plan is answered, the ground plan takes over. `Castle Doom` and `Legion Extruder` both convert spare artifacts into 3/3s, `Oreplate Pangolin` grows into a genuine threat across a Treasure-heavy turn, and `HYDRA Assault Robot` turns every artifact entry into reach. `Devastating Onslaught` then copies the largest body X times with haste — Golem, Doombot or Dragon — for a single-turn kill that ignores blockers.
+
+## Mulligan guide
+
+| Hand | Action |
+|---|---|
+| Two or three lands, one Treasure source, one payoff | Keep; this is the deck's average good hand |
+| Zero artifact payoffs, all removal | Ship; the deck cannot win without a converter |
+| Five lands, no one-drop | Ship; the deck wants to spend mana, not hold it |
+
+## Key interactions and edge cases
+
+- **Crime on demand.** `Magda, the Hoardmaster` triggers once per turn when you commit a crime. `Torch the Tower` and `Flick a Coin` aimed at an opponent or their permanent are crimes, so removal doubles as a Treasure.
+- **Pangolin is optional.** Its `{1}` is a may; do not tap out for counters when holding up an Extruder activation.
+- **Extruder needs fodder.** It must sacrifice *another* artifact, so keep a Treasure in reserve before activating, and it only produces Golems at sorcery speed.
+- **Onslaught targets artifacts too.** Copying a Treasure is legal but the copies are sacrificed at the end step, so always copy a creature body.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Red aggro | Piggy Bank blocks profitably, Torch the Tower kills one-drops, and HYDRA pings race surprisingly well |
+| Control | Do not overextend into sweepers; hold Collector's Vault and Flick a Coin to rebuild, and keep one Treasure for Magda after the wipe |
+| Ramp | Race with Dragons and Onslaught; Rogue's Passage removes the chump-blocker problem |
+| Midrange value | Trade Treasures for Golems early, force an answer to Pangolin, then finish with a hasty Onslaught kill |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | Initial build: Magda Dragons plus Treasure-to-Golem conversion | synergy 69.1, sim 52.3, T4 0.60, lands 0.61 — synergy failed |
+| v2 | -2 Generous Plunderer, -1 Ravenous Robots, +3 Oreplate Pangolin (artifact-entry payoff over a symmetric Treasure giver) | synergy 68.9, sim 57.3, T4 0.59, lands 0.60 — synergy still short |
+| v3 | -2 Fanatical Offering, -2 Candy Grapple, -1 Mouser Foundry, -1 Ravenous Robots, +2 Flick a Coin, +2 Gold Pan, +2 Treasure Dredger (in-theme Treasure over clunky draw and removal) | synergy 70.3, sim 56.3, T4 0.58, lands 0.57 — all gates pass |
+
+# Deck list (Arena import)
+
+```
+Bullion Riot
+Deck
+4 Magda, the Hoardmaster
+4 Piggy Bank
+3 Greedy Freebooter
+3 HYDRA Assault Robot
+3 Oreplate Pangolin
+2 Charming Scoundrel
+2 Treasure Dredger
+3 Improvised Arsenal
+2 Legion Extruder
+2 Collector's Vault
+2 Diamond Pick-Axe
+2 Gold Pan
+2 Flick a Coin
+2 Torch the Tower
+1 Devastating Onslaught
+4 Haunted Ridge
+4 Raucous Theater
+2 Castle Doom
+1 Rogue's Passage
+6 Mountain
+6 Swamp
+```
