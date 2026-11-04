@@ -1,0 +1,174 @@
+---
+title: "Counterwake"
+subtitle: "Temur (Green-Blue-Red) empower-loyalty combo - Reality Fracture"
+date: "2026-11-04"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA import list) |
+| Colors | Green / Blue / Red |
+| Archetype | Empower loyalty combo (avg CMC 2.92, 24 lands) |
+| Size | 60 cards, 36 spells and 24 lands |
+| Set mechanic | Empower: put loyalty counters on a Jace you control, or first create a Jace token and then add the counters |
+| Primary win | Kiora of Salt and Sand grants every planeswalker "[-8]: create an 8/8 blue Leviathan with hexproof". A single Jace's Machinations pays for the whole activation, so three mana becomes an unblockable-by-removal 8/8 |
+| Secondary win | Way of the Warlord grants every planeswalker "[-4]: 2 damage to a creature or planeswalker and 2 damage to a player". Jace tokens become repeatable pingers that clear blockers and burn |
+| Third win | Jace, Reality Sculptor's zero ability exiles all but the bottom card of each opponent's library once there are twenty-five or more loyalty counters among Jaces you control |
+| Set note | Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there |
+
+# Overview
+
+Reality Fracture's empower mechanic reads the same on every card: put N loyalty counters on a Jace you control, and if you do not control one, first create a blue Jace planeswalker token with "[-1]: Surveil 1" and "[-3]: Draw a card". That one sentence makes every empower card a two-for-one: a two-mana enchantment or a three-mana 2/1 is a planeswalker body, and the counters on that body are the resource the deck spends.
+
+Eight cards create or feed those bodies at two and three mana, and each is a permanent that keeps paying. Arcane Amphisbaena is a 1/1 deathtouch for two that empowers 2, so it blocks profitably and still leaves loyalty behind. Mindseeker Oculus is a 2/1 for three that empowers 4. Avatar of Burgeoning Echoes is a 2/3 for two that empowers 2 on every landfall, which with twenty-four lands and Way of the Paradox's extra land drop fires almost every turn. Inspired Tethermage is a 3/2 that grows a +1/+1 counter every time you put loyalty counters on a planeswalker, so it turns the engine into a threat.
+
+The payoffs are the three "Way of the" enchantments. Each empowers on entry and then writes an ability onto every planeswalker you control: Way of the Pyromancer gives them "[+1]: Add {R}" so loyalty becomes mana, Way of the Warlord gives them a minus-four that deals 2 damage to a creature or planeswalker and 2 damage to a player, and Way of the Paradox gives them a loyalty-ability trigger that gains a life and allows an extra land drop, which re-triggers Avatar of Burgeoning Echoes.
+
+Kiora of Salt and Sand is the kill. A 2/4 for three, she grants every planeswalker "[-8]: Create an 8/8 blue Leviathan creature token with hexproof", and her own attack trigger untaps an attacker and makes it unblockable if you activated a loyalty ability that turn. Jace's Machinations makes the rate work: an instant that empowers 8, so a Jace token becomes an 8/8 hexproof attacker for three mana, at instant speed if you prefer.
+
+Jace, Reality Sculptor is the top end. His plus empowers X where X is the number of Islands you control, and Theorist's Sanctum is an Island, so the land counts twice - as a mana source and as loyalty for the plus. His zero ability is the non-combat finish once the board has twenty-five loyalty among Jaces.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Arcane Amphisbaena or Avatar of Burgeoning Echoes. Both are cheap empower triggers, and both block well enough to buy the turns the deck needs |
+| Turns 3-4 | Mindseeker Oculus or Kiora of Salt and Sand, then Way of the Warlord or Way of the Pyromancer. This is the turn the Jace tokens start accumulating loyalty instead of dying to the first removal spell |
+| Turns 4-6 | Jace's Machinations. Eight counters on one Jace is either two surveils and two cards, or one 8/8 hexproof Leviathan with Kiora out, or two minus-four pings with Way of the Warlord out |
+| Finish | Leviathan tokens plus Inspired Tethermage beat down, or two Jace tokens ping four to six a turn, or the twenty-five loyalty threshold flips Jace, Reality Sculptor and empties their library |
+
+## Card roles
+
+| Card | Count | Role | Cost |
+|------|-------|------|------|
+| Way of the Pyromancer | 4 | Two-mana engine: empowers 2, then every planeswalker has "[+1]: Add {R}" | {1}{R} |
+| Jace's Machinations | 4 | Burst enabler: instant, empowers 8, grants instant-speed loyalty abilities that turn | {2}{U} |
+| Way of the Warlord | 3 | Payoff and removal: empowers 5, then "[-4]: 2 damage to a creature or planeswalker and 2 to a player" | {2}{R} |
+| Way of the Paradox | 3 | Payoff and ramp: empowers 5, then each loyalty activation gains a life and an extra land drop | {2}{G} |
+| Kiora of Salt and Sand | 3 | Primary win: 2/4 that grants "[-8]: create an 8/8 blue Leviathan with hexproof" | {1}{G}{U} |
+| Jace, Reality Sculptor | 3 | Top end: plus empowers X for your Islands, zero exiles libraries at twenty-five loyalty | {3}{U}{U} |
+| Tam, the Possibility | 3 | Planeswalker spells cost {1} less; late five-colour proliferate | {1}{G}{U} |
+| Mindseeker Oculus | 4 | 2/1 that empowers 4 on entry; the body and the counters in one card | {2}{U} |
+| Arcane Amphisbaena | 4 | 1/1 deathtouch that empowers 2; the deck's best defensive two-drop | {1}{G} |
+| Avatar of Burgeoning Echoes | 2 | 2/3 landfall engine: every land empowers 2 | {G}{U} |
+| Inspired Tethermage | 2 | 3/2 that grows a counter per loyalty event; the creature that ends games | {2}{G} |
+| The Theorist, Jace Beleren | 1 | Card advantage: draws on each opponent's draw step, plus makes 1/1 blockers | {2}{U}{U} |
+
+## Lands as engines
+
+| Land | Count | Role |
+|------|-------|------|
+| Theorist's Sanctum | 3 | Win-condition land. A Land - Island that enters untapped if you behold a Jace, and "{2}{U}, {T}: Empower Jace 2" is uncounterable loyalty: one eighth of a Leviathan, one quarter of a Warlord ping, one twenty-fifth of the Sculptor's zero |
+| Innovative Commons | 4 | Blue-red dual, untapped while you control a planeswalker |
+| Transformative Commons | 4 | Green-blue dual, same untap condition; the cleanest green source for Way of the Paradox |
+| Konstrari Annex | 3 | Red-green dual that lets the two cheapest Ways share a deck |
+| Island | 4 | Blue source, and it counts for Jace, Reality Sculptor's plus |
+| Mountain | 3 | Red source for the two-mana and three-mana Ways |
+| Forest | 3 | Green source for Avatar of Burgeoning Echoes and Inspired Tethermage |
+
+## Curve and mana
+
+| CMC | 1 | 2 | 3 | 4 | 5 |
+|-----|---|---|---|---|---|
+| Cards | 0 | 10 | 22 | 1 | 3 |
+
+Thirty-two of thirty-six spells cost three or less and the average mana value is 2.92, so the deck functions from turn two and never needs more than five mana for a single card. Coloured weight is blue: twenty-four blue pips against seventeen green and seven red, matched by fifteen blue sources, ten green and ten red. Green is the colour to protect in a mulligan because Way of the Paradox, Avatar of Burgeoning Echoes and Inspired Tethermage all need it, and eleven of the twenty-four lands produce it. Twenty-four lands puts four lands by turn four at roughly 63 percent.
+
+# Gameplay strategy
+
+## Early game
+
+Turn two is Arcane Amphisbaena or Avatar of Burgeoning Echoes. The Amphisbaena is the defensive choice: deathtouch means the opponent cannot attack into it with a single large creature, and its empower 2 leaves a Jace token with two loyalty, which is already a surveil and a card if you need to dig. Do not cast empower cards into an empty board without a reason - the same card cast a turn later, after Kiora or Way of the Warlord is on the battlefield, adds counters to an engine instead of starting one.
+
+Mindseeker Oculus on turn three is the deck's best curve play: a 2/1 body and an empower 4 in one card. If the opponent spends removal on the Oculus, the Jace token it made is still there, which is why the creature half of this deck is all entry triggers.
+
+## Mid game
+
+Turns four to six are about converting loyalty into something the opponent has to answer. Way of the Warlord first is usually correct: minus-four on a Jace token deals 2 to their best creature and 2 to their face, and with four to eight counters on the token it can do that twice. Way of the Pyromancer keeps the following turns going, because once it is on the battlefield every planeswalker taps for red - a Jace token with three loyalty left is a one-mana ritual every turn, which pays the red half of the next Way. Do not be precious about the counters: the deck generates more loyalty than it can spend.
+
+Jace's Machinations is the card that changes the shape of a turn. Cast it in the opponent's end step, empower 8, then hold priority with the ability to activate loyalty abilities at instant speed. That is an 8/8 hexproof blocker with Kiora out, four cards off two surveils and two draws, or two Warlord pings that kill a blocker before your turn.
+
+## The combo turn
+
+The lethal sequence is Kiora plus Machinations:
+
+1. Kiora of Salt and Sand on the battlefield. She does not need to attack; her grant is static.
+2. A Jace token on the battlefield with at least eight loyalty, usually from Jace's Machinations, Way of the Warlord plus Way of the Paradox, or two Mindseeker Oculus triggers.
+3. Activate the token's granted "[-8]: create an 8/8 blue Leviathan with hexproof".
+4. The token is now at zero loyalty and dies at the next state check, which is fine - the Leviathan does not care. Three mana and one body became an 8/8 hexproof permanent.
+5. Attack with the Leviathan. If you activated any loyalty ability this turn, Kiora's attack trigger untaps an attacker and makes it unblockable, so the 8/8 connects even through a stalled ground.
+
+Two Leviathans are usually lethal, and the deck makes them faster than it looks: Oculus and Amphisbaena alone put six loyalty on the board over two turns, and Sanctum adds two more every turn for two mana.
+
+## Win condition 2
+
+Way of the Warlord is the attrition kill, and it is the reason the deck does not fold to a single removal spell on Kiora. Every planeswalker you control can pay four loyalty for 2 damage to a creature or planeswalker and 2 damage to a player. With two Jace tokens that is four damage a turn through any board, and each activation also clears a blocker for the Leviathans.
+
+Way of the Paradox is the glue: every loyalty activation gains a life and lets you play an extra land, which triggers Avatar of Burgeoning Echoes for another empower 2. That loop - activation, life, land, two counters - is how the deck reaches twenty-five loyalty for Jace, Reality Sculptor's zero ability without committing to a big attack.
+
+## Mulligan guide
+
+Keep two or three lands with at least one two-drop and one three-drop empower permanent, and keep any hand with Theorist's Sanctum plus a Jace. The ideal hand is Arcane Amphisbaena or Avatar of Burgeoning Echoes, then Mindseeker Oculus or Kiora of Salt and Sand, with two lands of which one produces green or blue. A hand of four Ways and no creature is a mulligan: the enchantments are payoffs for loyalty counters, and without a body they are three-mana do-nothings. One-land hands are mulligans; the deck has no mana acceleration below three mana. Five-land hands are keepable when they contain two empower permanents and a Way, because that is exactly the shape the deck wants from turn three onward.
+
+## Key interactions and edge cases
+
+- Empower creates the Jace token only if you do not control a Jace; otherwise the counters go on the Jace you already have. It is "add counters to my best Jace", not "make a token".
+- A Jace token's own abilities are minus-one surveil and minus-three draw, so an empowered token is card selection as well as a threat. Machinations into two minus-three activations draws two cards and leaves two loyalty.
+- Kiora's minus-eight is a granted ability, so it works on Jace tokens, on The Theorist, and on Jace, Reality Sculptor. The Leviathan is created, not cast, so it is not stopped by countermagic and does not trigger "whenever you cast" effects, but a sweeper that destroys all creatures still kills it.
+- Kiora's attack trigger requires that you activated a loyalty ability this turn, not that you activated it before combat. Pay for a Warlord ping in the first main phase if you need the unblockable attacker.
+- Way of the Paradox's extra land drop is per loyalty activation, not per turn, so two activations allow two extra lands - the fastest way to trigger Avatar of Burgeoning Echoes repeatedly.
+- Inspired Tethermage triggers once per empower event, not once per counter, so an empower 8 is one +1/+1 counter. Its value comes from the number of empower events in a turn, which is why Way of the Paradox's extra land drop matters.
+- Jace, Reality Sculptor's zero ability needs twenty-five loyalty among Jaces you control, which is the total across all of them, not one. Two tokens at eight plus the Sculptor at five is twenty-one, so one more empower of four flips it.
+- The zero ability exiles all but the bottom card, so the opponent is not decked immediately - they draw the last card and lose on the following draw. Against an opponent with a reshuffle effect it is a delay, not a kill.
+- The Commons and Annex lands enter tapped unless you control a planeswalker. On turn one they are taplands, so keep hands that can lead on a basic when the curve is tight.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade with Amphisbaena and Oculus, then stabilise behind Warlord pings. The deck has no lifegain beyond Way of the Paradox, so the first four turns are about not taking eight | 
+| Midrange | Out-card them. Machinations at instant speed draws two and leaves a body; Way of the Warlord turns every Jace into removal that also burns | 
+| Control | Do not commit two Ways into a sweeper. Keep Machinations for their end step so the Leviathan arrives with summoning sickness already paid, and use Sanctum every turn - a land is the hardest loyalty source to answer | 
+| Ramp | Race with Leviathans. An 8/8 hexproof unblockable attacker ends the game in three hits, which is faster than most ramp payoffs | 
+| Combo | Way of the Warlord's minus-four is the interaction: it kills a small combo creature and burns at the same time. Kiora's minus-eight on the opponent's end step makes a surprise blocker | 
+
+# Iterations
+
+| Round | Change | T4 consistency | P(4 lands by T4) | Sim win rate | Synergy |
+|-------|--------|----------------|------------------|--------------|---------|
+| v1 | Initial 60: 2 Way of the Wildspeaker, 2 Entrust the Spark, 2 Mindseeker Oculus, 2 Arcane Amphisbaena, 3 Way of the Paradox | 0.625 | 0.620 | 50.7 | 73.8 |
+| v2 | -2 Way of the Wildspeaker, -2 Entrust the Spark, +2 Mindseeker Oculus, +2 Arcane Amphisbaena (top end down, cheap empower density up) | 0.619 | 0.632 | 55.0 | 73.4 |
+
+The first build failed the simulated win rate at 50.7 against a 52 threshold. The cause was top-heaviness: two five-mana Ways and two five-mana Entrust the Spark gave the deck eight cards that did nothing before turn five, while only four cheap empower bodies existed to carry the early turns. Cutting all four for a third and fourth Mindseeker Oculus and a third and fourth Arcane Amphisbaena took the simulated win rate from 50.7 to 55.0 and lifted four-lands-by-turn-four from 0.620 to 0.632, at a cost of 0.4 points of synergy and 0.006 of turn-four consistency.
+
+# Deck list (Arena import)
+
+```
+Counterwake
+Deck
+4 Arcane Amphisbaena
+4 Mindseeker Oculus
+2 Avatar of Burgeoning Echoes
+3 Kiora of Salt and Sand
+3 Tam, the Possibility
+2 Inspired Tethermage
+1 The Theorist, Jace Beleren
+3 Jace, Reality Sculptor
+4 Way of the Pyromancer
+3 Way of the Warlord
+3 Way of the Paradox
+4 Jace's Machinations
+3 Theorist's Sanctum
+4 Innovative Commons
+4 Transformative Commons
+3 Konstrari Annex
+4 Island
+3 Mountain
+3 Forest
+```

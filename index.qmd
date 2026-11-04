@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-04**:
 
 - **[Second Helping](decks/2026-11-04-second-helping.html)** — Five-color (WUBRG) — Forage x Evoke  `combo` `Forage` `Evoke`
+- **[Counterwake](decks/2026-11-04-counterwake.html)** — Temur (Green-Blue-Red) empower-loyalty combo - Reality Fracture  `reality-fracture` `empower`
