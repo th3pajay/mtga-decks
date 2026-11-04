@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-10-12 · **598** cards locked · **Reality Fracture 73/285** remaining
+**Card pool consumption** — cycle started 2026-10-12 · **611** cards locked · **Reality Fracture 73/285** remaining
 
-**153 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**154 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-04
+
+- **[Second Helping](decks/2026-11-04-second-helping.html)** — Five-color (WUBRG) — Forage x Evoke  `combo` `Forage` `Evoke`
 
 ## 2026-11-03
 

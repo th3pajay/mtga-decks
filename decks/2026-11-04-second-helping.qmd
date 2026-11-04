@@ -1,0 +1,147 @@
+---
+title: "Second Helping"
+subtitle: "Five-color (WUBRG) — Forage x Evoke"
+date: "2026-11-04"
+categories: ["combo", "Forage", "Evoke"]
+---
+
+
+## At a glance
+
+| | |
+|:----------------|:--------------------------------------------------------|
+| Format | Standard |
+| Colors | Five-color (WUBRG), green-black base with hybrid white, red and blue top end |
+| Archetype | Midrange combo, token engine |
+| Size | 60 cards (24 lands, 36 spells) |
+| Primary win | Ygra plus Night of the Sweets' Revenge: every creature counts as a Food, then the enchantment pumps the whole board for lethal |
+| Secondary win | Soul Enervation plus Insidious Roots: every forage drains the opponent and grows another Plant |
+
+## Overview
+
+Forage and Evoke look like they pull in opposite directions — one wants a stocked graveyard, the other throws its own creature away the moment it arrives. That tension is the deck. The five Elemental Incarnations are cast for their evoke cost, do their work, and die immediately, so they stock the graveyard with creature cards while spending only two or three mana. That stock is exactly the currency Forage needs: exile three cards, or sacrifice a Food, and half the deck starts cashing in.
+
+Insidious Roots and Soul Enervation both watch *creature cards leaving the graveyard*, so a forage is never just a cost payment — it is a Plant token plus a point of drain every time. Camellia and Experimental Confectioner turn the Food half of the forage cost into bodies, and Ygra collapses the two halves of the engine into one permanent: with Ygra out, every creature you control is also a Food, so sacrificing a token pays for forage, triggers Camellia and the Confectioner, and puts counters on your 6/6.
+
+The five colors are not a vanity splash. Every hybrid Incarnation can be paid with the green and black mana the manabase already produces, so the deck runs as a two-color engine with a genuine five-color identity: white and red for Catharsis, white and black for Emptiness, green and blue for Wistfulness, red and green for Vibrance. The one card that truly needs off-base mana is Catharsis, which is why the manabase carries four white sources and four red sources.
+
+## Approach
+
+### Game plan phases
+
+**Turns 1-3, build the graveyard.** Land, then Thornvault Forager, Insidious Roots, or a two-mana removal spell. Evoke a Vibrance for two mana on turn three if something needs to die — you get the removal and a creature card in the graveyard on the same turn.
+
+**Turns 3-5, assemble the Food half.** Camellia and Experimental Confectioner are the engine's front end: a Food in play means forage costs you a token instead of three graveyard cards, and every Food sacrificed makes a Squirrel and a Rat.
+
+**Turns 5-7, land Ygra and turn the corner.** Ygra makes every other creature a Food artifact. From that point, "sacrifice a Food" and "sacrifice a creature" are the same action, and the board is a battery.
+
+**Turns 7+, cash in.** Night of the Sweets' Revenge counts Foods; with Ygra, that is every creature you control. Sacrifice it for {5}{G}{G} and swing. Catharsis in red mode adds another point of power and haste on the same turn.
+
+### Card roles
+
+| Role | Cards | What it does |
+|:------------------|:---------------------------|:--------------------------------------------------------|
+| Forage engine | Thornvault Forager, Corpseberry Cultivator, Curious Forager | Repeatable forage; counters, mana, and permanent recursion |
+| Forage payoffs | Insidious Roots, Soul Enervation, Camellia | Every forage makes a Plant, drains a life, or grows a Squirrel |
+| Evoke stock | Catharsis, Emptiness, Wistfulness, Vibrance | Two to three mana for a removal spell or a value trigger plus a creature card in the graveyard |
+| Food producers | Experimental Confectioner, Night of the Sweets' Revenge | Cheap forage fuel that also builds a board |
+| Fusion payoff | Ygra, Eater of All | Turns creatures into Foods, so the two mechanics pay each other |
+| Interaction | Feed the Cycle, Soul Enervation, Vibrance, Emptiness | Creature and planeswalker removal, mostly stapled to engine cards |
+| Finishers | Night of the Sweets' Revenge, Catharsis | Mass pump, once wide |
+
+### Lands as engines
+
+| Land | Role in the engine |
+|:------------------|:--------------------------------------------------------|
+| Rogue's Passage | Win-condition land: four mana makes the pumped token unblockable, so a wide board that cannot get through still kills |
+| Restless Cottage | Attacker and forage fuel: attacks as a 4/4, and on attack makes a Food token, which is exactly the cost of the next forage |
+| Godless Shrine, Temple Garden | White sources for Catharsis's Kithkin mode and Emptiness's reanimation mode |
+| Stomping Ground, Blood Crypt | Red sources for Catharsis's pump mode and Vibrance's damage mode |
+| Blooming Marsh, Deathcap Glade | Untapped green-black on the turns the curve needs it |
+| Forest, Swamp | The base: five Forest and four Swamp carry the deck |
+
+### Curve and mana
+
+The nonland curve is 10 two-drops, 11 three-drops, 6 four-drops, 5 five-drops and 4 six-drops, an average of 3.5. Roughly a third of the deck costs two mana and nearly two thirds costs three or less, so the deck functions while the graveyard fills. The expensive slots are mostly evoked for a third of their printed cost, and Thornvault Forager's forage ability adds two mana of any combination of colors, which is the real five-color fixer.
+
+Twenty-four lands plus four Thornvault Foragers gives a 63 percent chance of four lands by turn four; the two-drops do the rest.
+
+## Gameplay strategy
+
+### Early game
+
+Lead on lands and a two-drop. Thornvault Forager first if you have an evoke creature in hand, because its forage ability pays for the turn-four Incarnation. Insidious Roots is the better first play when you already have a way to fill the graveyard. Feed the Cycle is a fine turn-two play at instant speed and doubles as forage on a later turn.
+
+Do not crack your own Food for life early. A Food is a future forage, and forage is a future Plant, Squirrel, Rat, and point of drain.
+
+### Mid game and the combo turn
+
+The turn you want is: Ygra on the battlefield, Night of the Sweets' Revenge in play, two or three other creatures. Sacrifice a Squirrel token as a Food to pay for a forage — Camellia makes a Squirrel, Experimental Confectioner makes a Rat, Ygra gets two counters, and the forage trigger gives you a Plant and a point of drain. Because Night of the Sweets' Revenge gives Foods "{T}: Add {G}", the whole board also taps for green mana, which funds the seven-mana activation.
+
+Then sacrifice Night of the Sweets' Revenge: creatures you control get +X/+X, where X is the number of Foods you control. Under Ygra that is every creature, including the tokens just made. Catharsis in red mode adds +1/+1 and haste to the same board, and Rogue's Passage clears the last blocker.
+
+### Win condition 2
+
+Soul Enervation plus Insidious Roots is the long game. Each forage that exiles creature cards drains one life, gains one life, and adds a Plant while pumping every Plant already in play. Corpseberry Cultivator forages on its own at the beginning of combat, Thornvault Forager forages for mana, and Curious Forager forages on entry, so the drain repeats without spending a card. Plants are 0/1 bodies that tap for any color, which is how a five-color deck casts its hybrid top end on a two-color manabase.
+
+### Mulligan guide
+
+Keep any hand with two or three lands, one two-drop, and one payoff. Thornvault Forager plus Insidious Roots is a snap keep. Keep Camellia plus Experimental Confectioner even without a payoff, since both replace themselves with bodies.
+
+Mulligan hands with no green or black source, hands that are all five-drops, and hands with three or more evoke Incarnations and no forage outlet. A one-land hand with Thornvault Forager is keepable; a one-land hand without it is not.
+
+### Key interactions and edge cases
+
+- **Forage is a cost.** You need three cards in the graveyard or a Food in play. If the graveyard is thin and the board is empty, the forage cards in hand do nothing.
+- **Only creature cards trigger the payoffs.** Insidious Roots and Soul Enervation care about creature cards leaving the graveyard. A forage that exiles two creatures and one land still triggers once; a forage that exiles three lands triggers nothing.
+- **The Incarnation modes are exact.** Catharsis makes Kithkin only if {W}{W} was spent and pumps only if {R}{R} was spent; paying one white and one red gets neither. The same is true for Emptiness (white reanimates, black puts counters) and Wistfulness (green exiles an artifact or enchantment, blue draws two and discards one).
+- **Evoke is a discount, not a plan.** An evoked Catharsis sacrificed on entry still counts as a creature card in the graveyard, which is the point. Casting it for six mana is the better line when you can afford it.
+- **Ygra's ward is a Food.** With Ygra out, every other creature is a Food, so a spare token counters a removal spell.
+- **Night of the Sweets' Revenge counts at resolution.** Sacrifice it after the last token arrives, not before.
+
+### Matchups
+
+| Opponent | Plan |
+|:------------------|:--------------------------------------------------------|
+| Aggro | Soul Enervation at flash speed for -4/-4, Feed the Cycle, Emptiness in black mode. Trade bodies, then win with the Food engine and lifegain |
+| Control | Evoke the Incarnations instead of casting them, so a counterspell trades one for one with a two-mana spell. Hold Rogue's Passage for the turn you commit |
+| Midrange | Ygra blanks ground blockers and grows with every Food. Night of the Sweets' Revenge is the trump in a board stall |
+| Ramp | The deck is slower, so lean on the drain plan and keep Feed the Cycle for their payoff creature |
+
+## Iterations
+
+| Round | Change | Metrics |
+|:------|:-----------------------------------|:-----------------------------|
+| v1 | Initial 60: green-black forage core, one copy each of Emptiness, Vibrance, Wistfulness | sim 53.7, synergy 73.0, T4 0.632, P(4 lands) 0.623 |
+| v2 | -1 Curious Forager, -1 Feed the Cycle, +1 Emptiness, +1 Wistfulness (thicker white and blue representation for the five-color hybrid top end; Wistfulness also fills the graveyard) | sim 58.3, synergy 73.0, T4 0.625, P(4 lands) 0.626 |
+
+## Deck list (Arena import)
+
+```
+Second Helping
+Deck
+4 Thornvault Forager
+4 Camellia, the Seedmiser
+3 Corpseberry Cultivator
+3 Experimental Confectioner
+2 Ygra, Eater of All
+2 Catharsis
+2 Emptiness
+2 Wistfulness
+1 Curious Forager
+1 Vibrance
+4 Insidious Roots
+3 Soul Enervation
+3 Night of the Sweets' Revenge
+2 Feed the Cycle
+3 Blooming Marsh
+2 Deathcap Glade
+2 Godless Shrine
+2 Temple Garden
+2 Stomping Ground
+2 Blood Crypt
+1 Rogue's Passage
+1 Restless Cottage
+5 Forest
+4 Swamp
+```
