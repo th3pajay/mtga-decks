@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-05**:
 
 - **[Stirrup Storm](decks/2026-11-05-stirrup-storm.html)** — Naya (White-Red-Green) Saddle attack-trigger combo  `combo` `Saddle`
+- **[Sinew and Stone](decks/2026-11-05-sinew-and-stone.html)** — White / Green / Black toughness combo — Doran walls, Ghalta alpha strike, Reality Fracture set deck  `reality-fracture` `toughness`

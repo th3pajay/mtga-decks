@@ -1,0 +1,175 @@
+---
+title: "Sinew and Stone"
+subtitle: "White / Green / Black toughness combo — Doran walls, Ghalta alpha strike, Reality Fracture set deck"
+date: "2026-11-05"
+categories: ["reality-fracture", "toughness"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA import) |
+| Colors | White / Green / Black |
+| Archetype | Midrange combo (toughness engine, average mana value 4.08) |
+| Size | 60 cards, 24 lands |
+| Set core | Reality Fracture (fra): Ghalta the Immovable, Vraska, the Cutting Glare, Gardenize, Restore with Empathy, Loot, the Anomaly |
+| Primary win | Ghalta the Immovable unlocks the wall wall; Doran converts toughness into damage |
+| Secondary win | Betor, Kin to All: card draw, board untaps and repeated life-halving at high total toughness |
+| Battery | All viability gates pass (synergy 71.7, goldfish T4 0.63, P(4 lands by T4) 0.60) |
+
+# Overview
+
+Sinew and Stone is a toughness-conversion deck. Four separate permanents push combat damage from power to toughness, and every wall in the deck then hits for its own toughness instead of the zero printed on it. The deck wins by making a board of cheap 0/4 and 0/6 creatures into a damage engine that no fair attacker can race.
+
+Reality Fracture supplies the finisher and the glue. Ghalta the Immovable does two jobs at once: it lets creatures with defender attack, and it discounts itself by the greatest toughness you control, so a 0/6 enters play for {2}{W} and a 0/30 wall makes Ghalta a one-mana play. Doran, Besieged by Time is the pump: whenever a creature you control attacks or blocks it gets +X/+X, where X is the gap between its toughness and its power, which is exactly the stat line every wall in the deck is built on. Vraska, the Cutting Glare removes a permanent on entry, Gardenize turns dying blockers into mana for the eight-drops, Restore with Empathy buys back the engine piece an opponent just killed, and Loot, the Anomaly is a two-mana blocker that converts to a ten-damage attacker under Doran.
+
+Betor, Kin to All is the alternate finish. Its end-step trigger reads total toughness: ten or more draws a card, twenty or more untaps the team, forty or more makes each opponent lose half their life, rounded up. A single Walls of Ba Sing Se plus any two walls clears that last threshold, and the trigger repeats every end step.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land a 0/4 wall (Sanctuary Wall, Crystal Barricade) or Bark of Doran. Barricade gives you hexproof and protects the team from noncombat damage. |
+| Turns 3-4 | Deploy the converter: Bedrock Tortoise, Tapestry Warden, or Doran. Doran is the priority because it also discounts every toughness-over-power creature in hand. |
+| Turns 5-6 | Turn the corner. Ghalta the Immovable costs {2}{W} with a 0/6 out and {W} with a 0/30 wall out; the turn it lands, every wall can attack. |
+| Turns 6-8 | Alpha strike or Betor grind. Vraska removes the one blocker that matters, Gardenize funds the next eight-drop, Restore with Empathy rebuys what died. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Doran, Besieged by Time | 4 | Core pump: attackers and blockers get +X/+X for the power/toughness gap; also discounts toughness-over-power creature spells by {1} |
+| Bedrock Tortoise | 4 | 0/6 for four that converts toughness to damage; hexproof for the team on your turn |
+| Tapestry Warden | 3 | Second converter with vigilance, so it blocks and switches on the damage rule at once |
+| Bark of Doran | 2 | One-card converter for a wall that has no other enabler; equip {1} |
+| Ghalta the Immovable | 4 | Primary win: defense-free attacks plus self-discount, and a third converter |
+| The Walls of Ba Sing Se | 2 | 0/30 for eight, indestructible for your other permanents; the biggest single attacker and the Betor enabler |
+| Betor, Kin to All | 2 | Secondary win: draw, untap, then repeated life-halving once total toughness reaches forty |
+| Vraska, the Cutting Glare | 2 | Removal on entry at six lands, 4/4 deathtouch body, Treasure for ramp |
+| Loot, the Anomaly | 1 | Two-mana blocker that hits for ten under Doran; threshold sac outlet |
+| Gardenize | 2 | Mana engine: charge counters from dying creatures, green mana every first main phase |
+| Restore with Empathy | 2 | Recursion for Doran, Betor or a wall, plus four life |
+| Sanctuary Wall | 2 | Cheap 0/4 that also taps down an attacker |
+| Crystal Barricade | 2 | 0/4 wall, hexproof for you, blanks noncombat damage to the team |
+| Get Lost | 2 | Two-mana answer to any creature, planeswalker or enchantment |
+| Shoot the Sheriff | 2 | Two-mana answer to non-outlaw creatures |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Abandoned Air Temple | The win-condition land: {3}{W} puts a +1/+1 counter on each creature, and each counter is a point of toughness, which is a point of damage for every attacker once Doran or a converter is online. It also grows the 0/30 wall. |
+| Crawling Barrens | Mana sink and backup attacker: {4} adds two counters, then it can become an Elemental and attack on its own. |
+| Shattered Sanctum | Untapped white-black dual from turn three onward; the deck needs both colours by turn four for Doran. |
+| Multiversal Passage | Any basic land type for two life; the deck's cleanest answer to a colour-screwed opener. |
+| Blossoming Sands | Green-white dual that gains a life on entry, relevant against red. |
+| Subterranean Cavern | Black-green dual that gains a life on entry. |
+| Plains, Forest, Swamp | Eleven basics to keep Passage and Air Temple online and to blank opposing land hate. |
+
+## Curve and mana
+
+| Mana value | Cards | Notes |
+|------------|-------|-------|
+| 2 | 10 | Walls, Bark, removal: the deck always has a turn-two play |
+| 3-4 | 18 | Vraska, Loot, Gardenize, Restore, Doran, Bedrock Tortoise, Tapestry Warden |
+| 5 and up | 8 | Betor, Walls of Ba Sing Se, Ghalta, all of them discounted in practice |
+
+Twenty-four lands with five duals and four copies of Multiversal Passage keeps the three-colour cost honest. White is the primary colour (Ghalta, all walls, Doran, Get Lost), green pays for the converters and Doran, black is the splash for Doran, Vraska, Loot and Shoot the Sheriff. Doran's own discount means the 0/4 and 0/6 bodies routinely cost one less, which is what makes a four-drop engine curve into a five-drop Betor or a discounted Ghalta.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a wall, not on a converter. A turn-two Sanctuary Wall or Crystal Barricade blocks almost everything in the format, and Crystal Barricade's hexproof blanks the targeted discard and burn that would otherwise strip your engine. Hold Bark of Doran until you know which permanent is going to survive; putting it on a 0/4 turns that card into a five-damage blocker immediately.
+
+## Mid game
+
+Turn three and four are about assembling one converter plus Doran. Bedrock Tortoise is the safest (hexproof on your turn), Tapestry Warden is the most aggressive (vigilance means it converts on defence too), and Doran is the payoff. Once Doran is down, every block is a trade up: a 0/4 wall blocking becomes a 4/8 and eats most attackers.
+
+## The combo turn
+
+Ghalta the Immovable is the turn-the-corner card. Cost check first: greatest toughness among creatures you control, so 6 from Bedrock Tortoise means {2}{W}, 30 from Walls of Ba Sing Se means {W}, and Doran takes another {1} off. Then the attack step with Doran on board:
+
+| Attacker | Printed | Doran pump | Damage dealt |
+|----------|---------|------------|--------------|
+| Bedrock Tortoise | 0/6 | +6/+6 | 12 |
+| Sanctuary Wall | 0/4 | +4/+4 | 8 |
+| Crystal Barricade | 0/4 | +4/+4 | 8 |
+| Loot, the Anomaly | -2/4 | +6/+6 | 10 |
+| Ghalta the Immovable | 0/7 | +7/+7 | 14 |
+| The Walls of Ba Sing Se | 0/30 | +30/+30 | 60 |
+
+Two walls plus Ghalta is twenty-eight damage. Add the 0/30 wall and the game is over in one attack, and The Walls of Ba Sing Se also makes your other permanents indestructible, so a sweeper does not answer the board.
+
+## Win condition 2
+
+Betor, Kin to All converts the same board into inevitability. At the end step it checks total toughness: ten draws a card, twenty untaps every creature (which is a free blocker round and a second attack on your next turn), and forty makes each opponent lose half their life, rounded up. With Doran, Bedrock Tortoise, Tapestry Warden, Betor and two walls the deck sits at thirty-five to forty-five toughness without the 0/30 wall, so the drain starts the turn Betor lands and repeats every end step. It is slow on its own, which is why it is the second win and not the first: it draws the removal and the extra attackers that let the combat plan finish.
+
+## Mulligan guide
+
+Keep any hand with two or three lands plus a two-mana wall and one converter. Keep one-landers only with Multiversal Passage or a dual plus a two-drop. Ship hands with no Doran, no Bedrock Tortoise and no Bark of Doran, because a pile of walls without a converter is a pile of zeroes. Do not keep a hand that needs both black and green by turn four without a dual to support it.
+
+## Key interactions and edge cases
+
+- Doran's pump triggers on attack or block, so it applies to defensive blocks as well; a wall that blocks and survives is bigger on the opponent's next attack.
+- The damage rule checks toughness greater than power after the pump. Bedrock Tortoise pumped to 6/12 still has toughness over power, so it deals 12.
+- Ghalta's first ability only removes the defender restriction. It does not give the wall trample, so a single chump blocker still absorbs the 0/30 wall's damage unless Vraska or Get Lost clears the way.
+- Loot, the Anomaly has negative power. With no converter it assigns damage as though its power were positive, so it hits for two; under Doran the gap is six and it hits for ten.
+- Gardenize counts deaths, not sacrifices specifically, so wall trades and chump blocks both feed it. It is the reason the deck can cast an eight-drop on turn six.
+- Restore with Empathy returns any permanent card, which includes the indestructible wall and Bark of Doran, not just creatures.
+- Crystal Barricade's hexproof is on you, not on itself, so it stops Duress-style effects and targeted burn but not a sweeper.
+- Abandoned Air Temple needs a basic land to enter untapped; the eleven basics are there for that reason as much as for Multiversal Passage.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Mono-red and other aggro | Walls plus Crystal Barricade blank the early damage; Doran turns every block into a two-for-one. Sideboard in the extra removal, cut Gardenize. |
+| Dimir and control | Resolve Betor or Ghalta with counter backup; The Walls of Ba Sing Se makes the board wrath-proof and Restore with Empathy rebuys the engine. |
+| Midrange | You win the board stall and Betor grinds them out; save Vraska for their biggest threat, not their first one. |
+| Combo | Race with Ghalta; Get Lost and Shoot the Sheriff are for the combo creature, and the 0/4 walls buy the turns you need. |
+
+# Iterations
+
+| Round | Change | Result |
+|-------|--------|--------|
+| v1 | First full build: Doran plus four converters, five walls, twenty-four lands | All gates pass; synergy 71.7, T4 0.63, P(4 lands) 0.62, sim 98.7 |
+| v2 | Pushed set count: plus two Lich's Relic, plus one Vraska, plus one Gardenize, minus a removal and recursion slot | Rejected: 61 cards on the first pass, then sim fell to 45.7 at sixty; the deck lost its wall count and the engine stopped holding |
+| v3 | Reverted the Relics, kept the extra set copies as Loot, the Anomaly and a second Gardenize, paid for with one Sanctuary Wall and one Get Lost | Accepted as final: synergy 71.7, T4 0.63, P(4 lands) 0.60, all gates pass |
+
+# Deck list (Arena import)
+
+```
+Sinew and Stone
+Deck
+4 Doran, Besieged by Time
+4 Bedrock Tortoise
+3 Tapestry Warden
+2 Betor, Kin to All
+2 The Walls of Ba Sing Se
+4 Ghalta the Immovable
+2 Sanctuary Wall
+2 Crystal Barricade
+2 Bark of Doran
+2 Vraska, the Cutting Glare
+2 Get Lost
+2 Shoot the Sheriff
+2 Restore with Empathy
+2 Gardenize
+1 Loot, the Anomaly
+4 Shattered Sanctum
+4 Multiversal Passage
+2 Blossoming Sands
+2 Subterranean Cavern
+3 Abandoned Air Temple
+1 Crawling Barrens
+4 Plains
+2 Forest
+2 Swamp
+```
