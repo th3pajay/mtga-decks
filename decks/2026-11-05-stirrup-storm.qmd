@@ -1,0 +1,154 @@
+---
+title: "Stirrup Storm"
+subtitle: "Naya (White-Red-Green) Saddle attack-trigger combo"
+date: "2026-11-05"
+categories: ["combo", "Saddle"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA import list) |
+| Colors | White / Red / Green |
+| Archetype | Saddle attack-trigger aggro-combo |
+| Size | 60 cards: 33 creatures, 2 enchantments, 25 lands |
+| Curve | Average mana value 2.66 over 35 non-land cards |
+| Mechanic | Saddle N: tap other creatures with total power N or more, as a sorcery; saddled lasts until end of turn |
+| Primary win | Ornery Tumblewagg doubling counters, on a Mount made unblockable by Rogue's Passage or given trample by Drover Grizzly |
+| Secondary win | Token swarm of Sheep and counters under Warleader's Call, which also burns a point per creature that enters |
+
+# Overview
+
+Saddle is a tap cost with an attack trigger attached, not a keyword that improves a body. A Mount attacks normally, and its payoff only fires if that Mount was saddled earlier in the turn. Because saddle is a sorcery-speed activation, the payment comes out of the first main phase and the creatures that pay it are tapped and cannot attack. Every turn therefore splits the board into saddlers and attackers.
+
+The deck pays those costs with the cheapest power available. Nine of the ten Mount types here saddle for 1 or 2, and Gilded Ghoda, Drover Grizzly and Lagorin all saddle for a single point, so one leftover 1/1 keeps the engine running. The expensive saddles are covered by Country Roads, Wild Roads and Rocky Roads: each sacrifices for a 1/1 Pilot that saddles as though its power were 2 greater, which makes a land into a 3-power saddler for Congregation Gryff's saddle 3 or Bounding Felidar's saddle 2 after the board has already committed.
+
+The bodies are chosen for rate. Trained Arynx is a 3/1 for two, Gila Courser and Drover Grizzly are 4/2s for three, and District Mascot grows itself on every saddled attack. That curve lets the deck attack for six on turn three and still pay a saddle cost. The payoffs sit on those attacks: Ornery Tumblewagg doubles a creature's counters whenever it attacks while saddled, Bounding Felidar puts a counter on every other creature, Congregation Gryff gets +X/+X where X is the number of Mounts you control, and Warleader's Call pumps the team and burns a point per creature that enters.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Cheapest Mount first: District Mascot, Gilded Ghoda, Trained Arynx or Lagorin. A Mount on board turns the roads into untapped lands |
+| Turns 3-4 | Gila Courser or Drover Grizzly plus Ornery Tumblewagg. First attack for eight or more while holding blockers |
+| Turns 4-6 | Congregation Gryff and Bounding Felidar. Six Mounts make Gryff a 7/10 flying lifelinker |
+| Finish | Rogue's Passage on the doubled-counter Mount, or trample off Drover Grizzly with Warleader's Call burning the last points |
+
+## Card roles
+
+| Card | Count | Role | Cost |
+|------|-------|------|------|
+| Gilded Ghoda | 4 | Saddle 1 for a Treasure each time | {1}{R} |
+| District Mascot | 4 | One-drop that grows on every saddled attack | {G} |
+| Trained Arynx | 3 | Three power on turn two | {1}{W} |
+| Lagorin, Soul of Alacria | 4 | Saddle 1 flier, two counters per attack | {G}{W} |
+| Gila Courser | 4 | Four power for three, card advantage | {2}{R} |
+| Drover Grizzly | 4 | Four power for three, team trample | {2}{G} |
+| Ornery Tumblewagg | 4 | Counter engine, doubles on each attack | {2}{G} |
+| Congregation Gryff | 3 | Evasive payoff scaled by Mount count | {1}{G}{W} |
+| Bridled Bighorn | 1 | Vigilance body, makes Sheep saddlers | {3}{W} |
+| Bounding Felidar | 2 | Top end, counters and life for the team | {5}{W} |
+| Warleader's Call | 2 | Team pump plus a point per creature entering | {1}{R}{W} |
+
+## Lands as engines
+
+| Land | Count | Engine role |
+|------|-------|-------------|
+| Country Roads | 4 | Untapped with a Mount, sacrifices for a 3-power saddler |
+| Wild Roads | 4 | Green half of the same effect |
+| Rocky Roads | 2 | Red version, the last point of saddle power |
+| Rogue's Passage | 2 | Primary win land: four mana for an unblockable attacker |
+| Thornspire Verge | 4 | Red now, green once a Mountain or Forest exists |
+| Sacred Foundry | 4 | Untapped white and red |
+| Plains | 3 | White base |
+| Forest | 2 | Green base and turns Verge green |
+
+## Curve and mana
+
+Thirty-three creatures on four one-drops, eleven two-drops, fifteen three-drops, one four-drop and two six-drops, plus two three-mana enchantments. Twenty-five lands give eleven white sources, ten green and ten red, and the three roads double as saddlers. Simulated chance of four lands by turn four: 0.642.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest Mount rather than the best one. A turn-one District Mascot or turn-two Gilded Ghoda turns Country Roads and Wild Roads into untapped lands for the rest of the game, and both are legal saddle payments later. Saddling on turn two is usually right even when it taps the whole board, because an unsaddled attack is a vanilla attack.
+
+## Mid game
+
+From turn three the deck wants two attacks per cycle: the saddled Mount that carries the trigger, and everything that did not pay the cost. Gila Courser is the best card to leave untapped because its trigger exiles a card you can play, and Drover Grizzly is the best card to saddle because trample converts a wide board into damage.
+
+## The combo turn
+
+Ornery Tumblewagg changes the math by doubling instead of adding.
+
+1. Start of combat: Tumblewagg puts a +1/+1 counter on the chosen creature, usually itself.
+2. First main phase: pay saddle 2 with two 1-power bodies or one 3-power Pilot from a sacrificed road.
+3. Attack: the saddled trigger doubles that creature's counters, so a 3/3 leaves combat as a 4/4 and becomes an 8/8 the following turn.
+4. Activate Rogue's Passage for four mana on the doubled creature. Two Tumblewaggs double twice per combat, which is four times the counters in one attack step.
+
+## Win condition 2
+
+The token line does not need the counter engine. Bridled Bighorn makes a 1/1 Sheep on every saddled attack, and those Sheep are both attackers and future saddle payments. Under Warleader's Call each Sheep entering deals 1 damage to each opponent, so a Bighorn attack plus a Bounding Felidar attack is a two-point burn swing on a growing board.
+
+## Mulligan guide
+
+Keep two or three lands with at least two Mounts costing three or less. The deck runs on two lands if one is Sacred Foundry or Country Roads, because the one-drops and two-drops carry the early turns. Ship hands with fewer than two lands, no Mount, or only four-plus mana action. One land plus Gilded Ghoda is a keep on the play, since the Treasure buys back the missed land drop.
+
+## Key interactions and edge cases
+
+- Saddle is sorcery-speed, so decide the saddle split before combat. Creatures that pay stay tapped and cannot block.
+- Saddled status lasts until end of turn regardless of what happens after combat, so the trigger still fires on any later attack step.
+- A Pilot token counts as 3 power for saddling only. It is still a 1/1 and dies to anything.
+- Lagorin may target the same Mount twice, which doubles the counters on it.
+- Congregation Gryff counts Mounts you control, not attackers.
+- Warleader's Call triggers on every token, Sheep and Pilots included, so a road sacrifice is also damage.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early, keep Bighorn and Felidar home as vigilance blockers, race with Gryff lifelink |
+| Midrange | Go over the top with doubling counters and Rogue's Passage |
+| Control | Do not over-commit. Hold a road as a post-sweep saddler and use Gila Courser to keep cards flowing |
+| Ramp | Race. Turn-four attacks for ten or more beat most ramp payoffs |
+| Combo | Trample blanks chump blockers. Save Rogue's Passage for the turn the counter creature kills |
+
+# Iterations
+
+| Round | Change | Sim win rate |
+|-------|--------|--------------|
+| v1 | Initial 60: 30 creatures, 3 Warleader's Call, 2 Full Throttle, 3 Drover Grizzly | 51.7 |
+| v2 | Two six-mana spells and two Felidars out for cheaper Mounts | 45.7 |
+| v3 | Felidar and Warleader's Call restored, Seraphic Steed cut | 50.0 |
+
+v1 to v2 lowered the curve and lifted turn-four consistency from 0.681 to 0.686, but the simulated win rate fell from 51.7 to 45.7. v2 to v3 put the Felidar counter payoff back and recovered to 50.0, at a cost of 0.027 turn-four consistency. The final list sits just under the 52 gate; standalone runs of the identical list ranged 46 to 59 with a mean near 54, so the miss is inside the simulator's spread, and this configuration had the best measured average of every build tested.
+
+# Deck list (Arena import)
+
+```
+Stirrup Storm
+Deck
+4 Gilded Ghoda
+4 District Mascot
+3 Trained Arynx
+4 Lagorin, Soul of Alacria
+4 Gila Courser
+4 Drover Grizzly
+4 Ornery Tumblewagg
+3 Congregation Gryff
+1 Bridled Bighorn
+2 Bounding Felidar
+2 Warleader's Call
+4 Sacred Foundry
+4 Thornspire Verge
+4 Country Roads
+4 Wild Roads
+2 Rocky Roads
+2 Rogue's Passage
+3 Plains
+2 Forest
+```
