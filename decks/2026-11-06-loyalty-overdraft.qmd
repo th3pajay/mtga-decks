@@ -1,0 +1,171 @@
+---
+title: "Loyalty Overdraft"
+subtitle: "Esper (White-Blue-Black) empower-loyalty combo - Reality Fracture"
+date: "2026-11-06"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA import list) |
+| Colors | White / Blue / Black |
+| Archetype | Empower loyalty combo (avg CMC 3.06 across 36 spells, 24 lands) |
+| Size | 60 cards, 36 spells and 24 lands |
+| Set mechanic | Empower: put N loyalty counters on a Jace you control, or first create a blue Jace planeswalker token and then add the counters |
+| Primary win | Sanctum Lurker grants every planeswalker you control "[+2]: deal 1 damage to each opponent and you gain 1 life", and Way of the Mentor turns each of those life-gain events into a loyalty counter on every planeswalker. The drain loop pays for its own fuel: each activation drains the table, gains a life, and adds a counter to every walker you have |
+| Secondary win | Jace, Reality Sculptor's zero ability exiles all but the bottom card of each opponent's library once twenty-five or more loyalty counters sit among your Jaces. Eighteen Island-typed lands make his plus ability worth eighteen counters a turn |
+| Third win | Way of the Healer writes "[-2]: create a 2/2 Cadet and surveil 1" onto every planeswalker, so a stalled drain still ends the game with a token swarm |
+| Set note | Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list becomes playable on Arena once the set is enabled there |
+| Uniqueness | 16 card names outside basic lands appeared in earlier decks, within the 25-name overlap budget; the remaining slots are extra copies of those same cards |
+
+# Overview
+
+Empower is a one-sentence mechanic with a hidden second clause. Every card that empowers first checks whether you control a Jace planeswalker; if you do not, it creates a blue Jace token with "[-1]: Surveil 1" and "[-3]: Draw a card" and then puts the counters on that token. So a two-mana instant, a three-mana 2/1, or a land activation is really a planeswalker body plus loyalty, and the loyalty is a resource the whole deck can spend.
+
+This build takes the mechanic in the direction the previous empower decks did not: it does not try to convert loyalty into mana or into burn. It converts loyalty into lifegain, and lifegain back into loyalty. Sanctum Lurker is a 3/2 for three that does two things at once - your planeswalkers are never put into the graveyard for having zero loyalty, and each of them gains "[+2]: this planeswalker deals 1 damage to each opponent and you gain 1 life". Way of the Mentor then says every time you gain life, put a loyalty counter on each planeswalker you control.
+
+Put together, the two cards are a closed circuit. Activate the granted plus on any walker: each opponent loses 1, you gain 1, Way of the Mentor adds a counter to every walker you control. The activation costs nothing that the second clause does not refund, so the walkers never decay while the table bleeds. With three walkers the loop drains three per turn, and it grows every time another empower card lands.
+
+The rest of the deck is eleven ways to put a Jace body on the table and keep counters on it. Fatehold Charm, Theorist's Proxy and Mindseeker Oculus are the cheap ones, Way of the Mentor and Way of the Healer empower five on entry, and Plan for All Outcomes re-empowers every turn you cast your first noncreature spell. Jace, Reality Sculptor is the top end: his plus puts X counters on a Jace where X is your Island count, and eighteen lands in the list are Islands, including four copies of Theorist's Sanctum.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Hold up Fatehold Charm or flash in Theorist's Proxy. Both put a Jace token on the table at instant speed, and a 0/3 blocker that leaves a planeswalker behind is exactly the opening this deck wants. Tomik, Orzhov Lawmage is the other two-drop and the only card that stops a swarm from eating a walker |
+| Turn 3 | Sanctum Lurker is the priority. Way of the Mentor and Mindseeker Oculus are the alternatives if the Lurker is not there; Mentor plus any other empower card already starts accumulating counters |
+| Turn 4-5 | Second Way enchantment or The Theorist, Jace Beleren. From here the deck stops trading and starts taxing: every turn the walkers drain, gain life, and re-arm |
+| Turn 5-6 | Jace, Reality Sculptor. His plus is worth your Island count, so a single activation usually clears the twenty-five-loyalty bar by itself on the following turn |
+| Turn 6+ | Close with the drain loop, the zero ability, or Cadets. Whichever the opponent cannot answer |
+
+## Card roles
+
+| Card | Cost | Role |
+|------|------|------|
+| Sanctum Lurker | {2}{B} | Engine. 3/2 body, empowers 1 on entry, keeps walkers alive at zero loyalty, and grants the drain ability |
+| Jace, Reality Sculptor | {3}{U}{U} | Primary finisher. Plus empowers X for your Island count; zero ability mills out every opponent |
+| Way of the Mentor | {2}{W} | Engine. Empowers 5 on entry and turns every lifegain event into a counter on each walker |
+| Way of the Healer | {3}{W} | Engine and third win. Empowers 5, then every walker can make a 2/2 Cadet and surveil 1 for two loyalty |
+| Way of the Necromancer | {1}{B} | Engine. Empowers 2, and turns creature deaths (tokens, blocks, sacrifice) into counters on every walker |
+| Fatehold Charm | {W}{U} | Glue. Draw a card and empower 2, bounce a spell or creature, or pump the team |
+| Theorist's Proxy | {1}{U} | Glue. Flash 0/3 that empowers 3, and can be sacrificed to make the next spell uncounterable |
+| Mindseeker Oculus | {2}{U} | Engine body. 2/1 that empowers 4 on entry, the best counters-per-mana creature in the deck |
+| The Theorist, Jace Beleren | {2}{U}{U} | Card advantage. Draws on each opponent's draw step and makes 1/1 Illusions to block |
+| Plan for All Outcomes | {3}{U} | Repeatable empower 1 on your first noncreature spell each turn, plus a tempo removal spell on entry |
+| Keeper of the Quiet Hour | {3} | Colorless empower 2 on a 3/2 artifact body; castable off any land in the deck |
+| Tomik, Orzhov Lawmage | {1}{W} | Protection. Flying 2/1 that limits attackers per planeswalker to one each combat |
+
+## Lands as engines
+
+| Land | Copies | Why it is in the deck |
+|------|--------|----------------------|
+| Theorist's Sanctum | 4 | The land that is part of the win condition. It is an Island, so it feeds Jace's plus, and for {2}{U} and a tap it empowers Jace 2 every turn. Enters untapped when you behold a Jace |
+| Meticulous Archive | 4 | Plains Island that surveils on entry, smoothing the first four draws |
+| Watery Grave | 4 | Island Swamp, counts for Jace and casts Sanctum Lurker |
+| Hallowed Fountain | 3 | Plains Island, the cheap white source that still counts as an Island |
+| Godless Shrine | 3 | Plains Swamp for the white and black halves of the deck |
+| Island | 3 | Basic, and a Jace counter |
+| Swamp | 3 | Basic, casts Lurker and Way of the Necromancer on curve |
+
+Eighteen of the twenty-four lands are Islands. That is not an accident: Jace, Reality Sculptor's plus reads "Empower Jace X, where X is the number of Islands you control", so every Island-typed land is both a mana source and a loyalty engine.
+
+## Curve and mana
+
+| CMC | Cards | Count |
+|-----|-------|-------|
+| 2 | Fatehold Charm, Theorist's Proxy, Way of the Necromancer, Tomik, Orzhov Lawmage | 12 |
+| 3 | Sanctum Lurker, Way of the Mentor, Mindseeker Oculus, Keeper of the Quiet Hour | 13 |
+| 4 | Way of the Healer, The Theorist, Plan for All Outcomes | 8 |
+| 5 | Jace, Reality Sculptor | 3 |
+
+Blue is the base (18 sources), white has 10 and black has 10. The deck wants three lands by turn three and four by turn four; with 24 lands the simulator puts the four-land rate at 0.63 on turn four. No card costs more than five, and only Jace asks for double blue, so the mana is forgiving as long as the first three lands produce blue.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two are about putting a Jace token on the table without tapping out into nothing. Fatehold Charm at the end of the opponent's turn draws a card and empowers 2; Theorist's Proxy flashes in as a 0/3 and empowers 3. Both are the same play: you are buying a permanent that the opponent has to answer, and the counters are already on it.
+
+Tomik, Orzhov Lawmage is the anti-swarm card. His static ability means only one creature can attack each of your planeswalkers each combat, which turns a wide board into a single attacker and lets a 2/2 Cadet or a 0/3 Proxy block the rest.
+
+Do not run out Sanctum Lurker into open mana if the opponent is holding interaction and you have no second engine. The Lurker is the card the whole plan is built around; the Way enchantments are replaceable, the Lurker is not.
+
+## Mid game and the combo turn
+
+The "combo turn" here is not a single turn - it is the turn you stop losing walkers. Once Sanctum Lurker and Way of the Mentor are both on the table, the sequence each turn is:
+
+1. Activate the granted "[+2]" on the walker with the fewest counters. Each opponent loses 1, you gain 1.
+2. Way of the Mentor triggers on the lifegain and puts a loyalty counter on each planeswalker you control.
+3. Repeat for every other walker.
+
+Four walkers means four drains, four lifegain triggers, and sixteen counters spread across the team, every turn, for no mana. Because Sanctum Lurker also stops planeswalkers from being put into the graveyard for having zero loyalty, the walkers do not disappear when the opponent finally removes the Lurker - they sit at whatever loyalty they have and your next empower card starts them again.
+
+## Win condition 2
+
+Jace, Reality Sculptor converts the loop into a hard lock. His plus empowers X, where X is your Island count, so with six or more lands it is already a six-to-eight counter jump on himself or on the Jace token. His zero ability is legal once twenty-five or more loyalty counters sit among your Jaces, and it exiles all but the bottom card of each opponent's library: every opponent draws one card and then has an empty library. The drain loop makes the threshold trivial, because Way of the Mentor keeps adding counters whether or not you activate anything.
+
+The order matters. If you expect the game to go long, plus Jace first and drain second - the drain is your clock, but the counter total is the actual win. If the opponent is at low life, drain first and let the mill be the backup.
+
+## Mulligan guide
+
+Keep any hand with two to four lands, at least two blue sources, and one card that makes a Jace token (Fatehold Charm, Theorist's Proxy, Mindseeker Oculus, Keeper of the Quiet Hour). Those hands play the deck's real curve.
+
+Keep a hand with Sanctum Lurker and any Way enchantment even if it is land-light, provided it has three lands and a blue source.
+
+Mulligan hands with no blue source, hands with only four-drops and a five-drop, and hands that need two black sources before turn three. The deck has ten black sources; do not plan around a second Swamp.
+
+## Key interactions and edge cases
+
+- Empower checks for a Jace you control, not a planeswalker generally. A Jace token, Jace, Reality Sculptor, and The Theorist, Jace Beleren all satisfy it; nothing else does.
+- Sanctum Lurker's static ability is what makes the loop safe. A walker at zero loyalty stays on the battlefield, and the granted plus ability can still be activated because adding counters is not a cost you cannot pay. What it cannot do is activate its own minus abilities, so Way of the Healer's Cadet ability needs two loyalty on that walker.
+- Way of the Mentor triggers on each separate lifegain event, not on the total. Four Walker drain activations are four separate triggers, which is why the counters pile up faster than the damage total suggests.
+- Jace, Reality Sculptor counts Islands, not blue sources. Theorist's Sanctum, Meticulous Archive, Hallowed Fountain, Watery Grave and Island all count; Godless Shrine, Swamp and the basic Plains you may fetch do not.
+- Theorist's Sanctum enters untapped only if you behold a Jace, which means choosing a Jace you control or revealing a Jace card from your hand. On turn one with no Jace, it enters tapped - sequence it after a two-drop if you can.
+- Plan for All Outcomes empowers only on your first noncreature spell each turn, and only one counter. It is a slow engine; its entry ability is the tempo play.
+- Tomik's restriction is per planeswalker per combat, and it applies to your opponents' attacks, not yours.
+
+## Matchups
+
+Aggro is the reason for Tomik, four Fatehold Charms and the 0/3 Proxy. The plan is to trade early, land Sanctum Lurker on turn three, and let the drain race; a single Lurker activation per turn is usually enough to pull ahead of a 2-power attacker.
+
+Midrange decks that try to remove planeswalkers one at a time lose to the Lurker static ability: the walkers stay, and each Way enchantment re-arms the whole team. Save Fatehold Charm's bounce mode for the one threat that actually matters.
+
+Control is the hardest matchup because the deck has no countermagic and only eight cards that cost less than three. Theorist's Proxy's sacrifice ability makes the next spell uncounterable, and The Theorist draws a card on every opponent's draw step, so the plan is to force the counterspells on cheap empower cards and resolve one Way enchantment with mana up.
+
+# Iterations
+
+| Round | Change | Metrics |
+|-------|--------|---------|
+| v1 | Initial build around Sanctum Lurker plus Way of the Mentor, with three Protege's Awakening as the top-end empower | sim 49.7, synergy 72.6, T4 0.617, P(4 lands) 0.601 - failed the simulation gate |
+| v2 | -3 Protege's Awakening, +3 Mindseeker Oculus (a two-mana-cheaper empower body that also blocks, lowering the curve and adding a turn-three play) | sim 49.7 to 56.0, T4 0.617 to 0.651, P(4 lands) 0.601 to 0.634, synergy 72.6 to 72.2 - all gates pass |
+
+# Deck list (Arena import)
+
+```
+Loyalty Overdraft
+Deck
+4 Sanctum Lurker
+3 Jace, Reality Sculptor
+4 Way of the Mentor
+3 Way of the Healer
+4 Fatehold Charm
+4 Theorist's Proxy
+2 Way of the Necromancer
+3 The Theorist, Jace Beleren
+2 Plan for All Outcomes
+2 Keeper of the Quiet Hour
+2 Tomik, Orzhov Lawmage
+3 Mindseeker Oculus
+4 Theorist's Sanctum
+3 Hallowed Fountain
+4 Watery Grave
+4 Meticulous Archive
+3 Godless Shrine
+3 Island
+3 Swamp
+```

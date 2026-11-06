@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-11-06**:
 
+- **[Loyalty Overdraft](decks/2026-11-06-loyalty-overdraft.html)** — Esper (White-Blue-Black) empower-loyalty combo - Reality Fracture  `reality-fracture` `empower`
 - **[Escalator Clause](decks/2026-11-06-escalator-clause.html)** — Naya power-up and tiered combo — pay more, get more  `combo` `Power-up` `Tiered`
