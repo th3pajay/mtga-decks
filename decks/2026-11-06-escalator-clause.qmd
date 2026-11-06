@@ -1,0 +1,153 @@
+---
+title: "Escalator Clause"
+subtitle: "Naya power-up and tiered combo — pay more, get more"
+date: "2026-11-06"
+categories: ["combo", "Power-up", "Tiered"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Naya — green / red / white |
+| Archetype | Aggro-combo (counters, escalating costs) |
+| Size | 60 cards, 24 lands |
+| Primary win | Tifa's Limit Break doubles or triples a trample or double-strike power-up creature |
+| Secondary win | Restless Prairie manland beats, forced through with Rogue's Passage |
+| Nonland curve | 19 one-drops, 4 twos, 7 threes, 5 fours, 1 five (average 2.03) |
+
+# Overview
+
+Escalator Clause is built on two mechanics that do the same thing from opposite directions. **Power-up** abilities are activated abilities on your creatures with a printed cost, and that cost drops by the creature's own mana cost on the turn it entered — so a five-mana Hulk can pay three mana for its power-up on the turn you cast it. **Tiered** spells are cheap instants that offer a menu of additional costs: you pay the base cost plus exactly one of the listed modes, so the same one-mana card is a cantrip-sized trick early and a game-ending effect late.
+
+The deck fuses them into a single curve of escalating payments. Power-up creatures grow themselves with +1/+1 counters, and Tifa's Limit Break converts those counters into damage by doubling or tripling the creature's power and toughness. Because Tifa's costs `{G}` plus a chosen mode, the deck never needs to tap out for a sorcery-speed haymaker: the finisher is an instant that turns a 5/5 trampler into a 15/15 trampler after blocks.
+
+Two things make the counters count. Knight of Wundagore grows every time any other creature gets a counter, and Graduation Day puts a counter on your board every time you point an instant at a creature — which every tiered spell in the deck does, including the protection spell. Inspiring Call then turns a board of counter creatures into a fistful of cards plus indestructible, which is how the deck reloads after a sweeper.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1–3, stack the board cheaply.** Quicksilver, Brash Blur is free from your opening hand, Serpent Specialist trades up with deathtouch, and Knight of Wundagore starts growing off any counter you place. Hold Tifa's Limit Break as a combat trick rather than a pump.
+2. **Turns 3–5, convert mana into counters.** Cast a power-up creature and immediately activate its ability in the same turn to claim the mana-cost discount. Volcanic Villain's `{5}{R}` becomes `{3}` on the turn it lands; She-Hulk's `{4}{G}{G}` becomes `{1}{G}`; Hulk's `{6}{R}{G}` becomes `{3}`.
+3. **Turns 5+, escalate to lethal.** Point Tifa's Limit Break at the biggest trampler, or animate Restless Prairie and triple it. Rogue's Passage clears the last blocker. Inspiring Call refuels when the opponent stabilises.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Quicksilver, Brash Blur | 4 | 1/1 haste free from opening hand; power-up adds a +1/+1 and a double strike counter |
+| Serpent Specialist | 4 | 1/1 deathtouch; power-up adds two +1/+1 counters, so it blocks anything profitably |
+| Knight of Wundagore | 3 | 2/1 trample that grows whenever another creature gets a counter |
+| Volcanic Villain | 3 | 3/2 haste; power-up two counters, discounted to `{3}` on its entry turn |
+| Hercules, Prince of Power | 2 | 3/3; power-up grants vigilance, indestructible and haste, so it attacks and survives |
+| She-Hulk, Jade Defender | 2 | 4/4 reach trample; power-up is a one-mana counter on the entry turn |
+| Abomination, Terrifying Titan | 2 | 4/4 trample; power-up counter plus a fight, discounted to `{2}{R/G}` |
+| Hulk, Gamma Goliath | 1 | 6/5 reach trample; all your other power-up abilities cost `{3}` less |
+| Pet Avengers | 1 | 4/4 reach that makes a 3/2 vigilance token with its power-up |
+| Tifa's Limit Break | 4 | The finisher: `{G}` base, `{2}` doubles power, `{6}{G}` triples it |
+| Fire Magic | 2 | Tiered sweeper and reach; three damage to each creature at the top tier |
+| Thunder Magic | 2 | Tiered removal; eight damage at the top tier |
+| Restoration Magic | 1 | Tiered protection, one mana for hexproof and indestructible |
+| Inspiring Call | 2 | Draw per counter creature plus indestructible |
+| Dual-Sun Technique | 1 | Double strike for two mana, and a card if the creature has a counter |
+| Graduation Day | 2 | A counter every time a targeted instant resolves |
+
+## Lands as engines
+
+| Land | Copies | What it does |
+|---|---|---|
+| Restless Prairie | 2 | Enters tapped, taps for `{G}` or `{W}`; `{2}{G}{W}` makes it a 3/3 Llama, and whenever it attacks your other creatures get +1/+1 |
+| Rogue's Passage | 1 | Colourless; `{4}, {T}` makes a creature unblockable, which is the finisher's insurance |
+| Lush Portico | 4 | Green or white, surveils on entry |
+| Elegant Parlor | 4 | Red or white, surveils on entry |
+| Commercial District | 4 | Red or green, surveils on entry |
+| Forest / Mountain / Plains | 9 | Four Forest, three Mountain, two Plains |
+
+## Curve and mana
+
+Nineteen one-drops is not a typo: nine are creatures and ten are tiered instants or cheap enchantments, so the deck functions on two mana. Fourteen green sources, eleven red and twelve white carry the three-colour shell, and the surveil duals filter into one of four Tifa's Limit Breaks rather than merely fixing.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+Lead with Quicksilver on the battlefield (it is free from your opening hand) and Serpent Specialist. Do not spend Tifa's Limit Break for +2/+2 unless the trade is essential. Against creature decks, hold Fire Magic as a one-sided sweeper — your deathtouch blockers survive it at the `{2}` tier more often than their board does.
+
+## Mid game (turns 4–6)
+
+This is where the discount rule wins games. Sequence a five-drop and its power-up in the same turn: Hulk plus its own ability costs `{3}{R}{G}` plus `{3}` for eleven power of trample, and every other power-up you control drops by `{3}` while Hulk is out. She-Hulk plus her ability costs four mana plus `{1}{G}` for a 5/5 that keeps growing every turn you have spare mana.
+
+## The combo turn
+
+1. Have a trampler with counters — She-Hulk at 5/5, Hulk at 11/10, or Abomination at 5/5.
+2. Cast Tifa's Limit Break paying `{G}` and the Meteor Strikes mode `{2}`: the creature's power and toughness double. That is three mana for a doubling, at instant speed, after blocks are declared.
+3. With eight mana available, pay `{G}` plus Final Heaven `{6}{G}` instead: triple power and toughness. An 11/10 Hulk becomes 33/30 trample.
+4. If a chump blocker would still stop it, activate Rogue's Passage (`{4}, {T}`) before combat.
+
+## Win condition 2: the Prairie
+
+Restless Prairie is a real threat, not a mana sink. For `{2}{G}{W}` it becomes a 3/3 Llama, and its attack trigger pumps every other creature +1/+1. Animate it, then resolve Tifa's Limit Break on it — it is a creature at that point, so Meteor Strikes makes it a 6/6 and Final Heaven a 9/9. Rogue's Passage makes it unblockable. This line wins through board stalls, through creature removal aimed at your power-up creatures, and through graveyard-free games where nothing else connects.
+
+## Mulligan guide
+
+- **Keep:** two or three lands including green, at least one one-drop creature, and either Tifa's Limit Break or a three-drop power-up creature.
+- **Keep on six:** any hand with two lands, a one-drop and a tiered spell; the deck's curve forgives a missing land far more than a missing play.
+- **Ship:** one-land hands, hands with no green source, and hands of only four-plus-drops. This deck wins by turning cheap mana into counters, not by top-decking.
+
+## Key interactions and edge cases
+
+- **The discount only applies on the entry turn.** "Reduce the cost by its mana cost if it entered this turn" means a Volcanic Villain cast on turn three powers up for `{3}` that turn, then costs the full `{5}{R}` forever after. Activate it the turn you cast it or accept the full price.
+- **One power-up per creature, ever.** Each power-up ability can be activated only once, so the counters are a one-shot investment per body; that is what makes Hulk's `{3}` discount so valuable, since it lets a second creature power up in the same turn.
+- **Tiered gives you exactly one additional mode.** You cannot pay for Fira and Firaga on the same Fire Magic. Choose the mode that matches the mana you have.
+- **Tifa's Limit Break doubles the creature's current power and toughness**, so counters and Restless Prairie's attack pump are multiplied, and a double strike counter doubles the damage again: Quicksilver at 2/2 with a double strike counter becomes 4/4 double strike for eight damage.
+- **Graduation Day triggers on the cast, not the resolution.** The counter goes on a creature you control even if the tiered spell is countered, and it triggers off Restoration Magic's protection mode too.
+- **Inspiring Call counts creatures with counters at resolution** — power up first, then draw.
+- **Restoration Magic's Cure mode is one mana** and protects a creature from removal; the Curaga mode covers your whole board for `{3}{W}` and is the answer to a sweeper.
+
+## Matchups
+
+- **Aggro:** you are the faster deck when you curve out, but your bodies are small. Serpent Specialist's deathtouch and Fire Magic's first tier are the equalisers; trade early and let Knight of Wundagore grow off the counters.
+- **Midrange:** the power-up discount lets you go over the top of their four-drops. Save Tifa's Limit Break for a post-blocks blowout and keep Inspiring Call for their removal turn.
+- **Control:** your tiered spells are cheap enough to bait counters, and Restless Prairie plus Rogue's Passage is a win condition that does not need a creature spell to resolve. Do not over-commit into a sweeper; hold Inspiring Call as the reload.
+- **Combo:** Thunder Magic's eight-damage mode kills most combo creatures, and Fire Magic's top tier clears token engines. Race with haste creatures while holding Restoration Magic for their removal.
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | First 60: 20 creatures, 13 spells, 24 lands, Wonder Man and Training Regimen in | sim 50.7, synergy 71.7, T4 0.627 |
+| v2 | -1 Wonder Man, -1 Training Regimen, -1 Dual-Sun Technique; +2 Abomination, Terrifying Titan, +1 Pet Avengers (bodies over durdles) | sim 50.7 → 54.0, synergy 71.7 → 71.6, T4 0.627 → 0.639 |
+
+# Deck list (Arena import)
+
+```
+Escalator Clause
+Deck
+4 Quicksilver, Brash Blur
+4 Serpent Specialist
+3 Knight of Wundagore
+3 Volcanic Villain
+2 Hercules, Prince of Power
+2 She-Hulk, Jade Defender
+2 Abomination, Terrifying Titan
+1 Hulk, Gamma Goliath
+1 Pet Avengers
+4 Tifa's Limit Break
+2 Fire Magic
+2 Thunder Magic
+1 Restoration Magic
+2 Inspiring Call
+1 Dual-Sun Technique
+2 Graduation Day
+4 Lush Portico
+4 Elegant Parlor
+4 Commercial District
+2 Restless Prairie
+1 Rogue's Passage
+4 Forest
+3 Mountain
+2 Plains
+```
