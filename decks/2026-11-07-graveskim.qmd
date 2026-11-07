@@ -1,0 +1,159 @@
+---
+title: "Graveskim"
+subtitle: "Four-colour connive and fathomless descent — loot the yard, then cash it in"
+date: "2026-11-07"
+categories: ["combo", "connive", "graveyard"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Four-colour Witch-Maw — white / blue / black / green |
+| Archetype | Midrange combo (connive loot into graveyard size) |
+| Size | 60 cards, 24 lands |
+| Mechanics | Connive + graveyard (fathomless descent) |
+| Primary win | Souls of the Lost grown by the yard, made unblockable with Rogue's Passage |
+| Secondary win | Mysterio, Master of Illusion token swarm, rebought with Raise the Past |
+| Nonland curve | 20 twos, 8 threes, 8 fours — average mana value 2.67 |
+
+# Overview
+
+Every connive is a loot: draw a card, then discard a card, and if the discarded card was not a land the conniving creature keeps a +1/+1 counter. That is a fair card on its own. In this deck it is a graveyard engine, because the discard is chosen: every connive puts a permanent card straight into the bin, and the deck is paid by the number of permanent cards sitting there.
+
+`Souls of the Lost` is the payoff. For `{1}{B}` plus a discarded card it enters as a Spirit whose power is exactly the number of permanent cards in your graveyard and whose toughness is that number plus one. Four connives and a Squirming Emergence later it is a 7/8 for two mana. `Squirming Emergence` and `Raise the Past` then turn the stocked yard into a second and third wave, and `Rogue's Passage` removes the only real answer to a huge ground creature: a blocker.
+
+The second engine is tribal. `Leader, Super-Genius` upgrades every connive into "draw two, discard one", so each Villain that connives replaces itself and then some, while `Baron Strucker, HYDRA Overlord` makes the Villain half of the deck cheaper and hands out a free connive every turn. With five or six Villains on the table, `Mysterio, Master of Illusion` arrives with a 3/3 Illusion Villain for each of them.
+
+The deck deliberately plays no one-drops. It opens on two, loots on two, and spends turns three and four converting a full graveyard into bodies. The trade-off is honest: the first turn is a land, and the deck wins on card quality and recursion rather than speed.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Stock the yard (turns 1–3).** Land, then two-drop. `Mob Lookout` and `Red Room Recruit` both connive on entry; `Unstable Experiment` connives at instant speed for `{1}{U}`. Discard permanent cards, never lands, unless you are short on lands. Every nonland discarded is a point of power on every future Souls.
+2. **Convert (turns 3–5).** `Leader, Super-Genius` doubles each connive. `Baron Strucker, HYDRA Overlord` discounts the Villain team and connives a fresh Villain each turn. Cast `Souls of the Lost` once the yard holds four or more permanents, then keep conniving to grow it — the power is a static count, not a trigger.
+3. **Close.** Attack with Souls through `Rogue's Passage`, or cast `Raise the Past` to return every two-drop in the yard (Mob Lookout, Red Room Recruit, Souls of the Lost, Bloom Tender) and follow with `Mysterio, Master of Illusion` for a token board. `Squirming Emergence` re-buys the best nonland permanent in the yard — usually Leader or Mysterio — when the board has been swept.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Mob Lookout | 4 | Enabler — 0/3 body, connives a creature on entry (can target itself) |
+| Red Room Recruit | 4 | Enabler — connives on entry, 2-drop that Raise the Past rebuys |
+| Unstable Experiment | 4 | Enabler — instant-speed connive that also cycles for a card |
+| Doc Ock's Henchmen | 3 | Enabler — flash, connives every attack; ambush blocker that loots |
+| Baron Strucker, HYDRA Overlord | 3 | Engine — Villain spells cost `{1}` less, free connive each turn |
+| Leader, Super-Genius | 4 | Engine — every connive becomes draw two, discard one |
+| Souls of the Lost | 3 | Win condition — power equals permanent cards in the yard |
+| Mysterio, Master of Illusion | 2 | Win condition — 3/3 token per nontoken Villain |
+| Bloom Tender | 2 | Fixing — one mana of each colour among your permanents |
+| Squirming Emergence | 2 | Recursion — reanimate any nonland permanent up to yard count |
+| Raise the Past | 2 | Recursion — mass reanimation for the two-drop squad |
+| Sheltered by Ghosts | 2 | Interaction — exiles a nonland permanent, lifelink and ward on your creature |
+| Nowhere to Run | 1 | Interaction — flash `-3/-3`, turns off hexproof and ward |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Rogue's Passage | `{4}, {T}`: target creature can't be blocked — the win-condition land, turns a huge Souls into lethal |
+| Villainous Hideout | Any colour for a Villain spell, and `{3}, {T}` to connive a Villain — a land that loots |
+| Cavern of Souls | Names Human, so sixteen of the deck's creatures are uncounterable — protects the engine |
+| Terramorphic Expanse | Fetches the basic you are missing in a four-colour manabase |
+| Evolving Wilds | Second fetch, same job, and a free shuffle after a bad connive |
+
+## Curve and mana
+
+Twenty of the thirty-six nonland cards cost two, which is why the deck can afford twenty-four lands and a four-colour manabase. Sixteen basics carry the coloured requirements, with five fetch lands to find the missing one: five Islands and five Swamps make blue and black the main colours, three Forests and three Plains are the splash for `Bloom Tender`, `Sheltered by Ghosts` and `Raise the Past`. `Bloom Tender` is the safety valve — with a Villain in play it taps for black and blue, and with a second colour on board it pays for `Raise the Past` or `Squirming Emergence` on its own.
+
+White is the lightest splash: two `Sheltered by Ghosts` and two `Raise the Past`. Do not keep a hand that needs double white before turn five.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a land that produces black or blue. `Red Room Recruit` is the cleanest turn two: it connives immediately, and the counter it keeps makes it a 2/3 that survives most one-for-one removal. `Mob Lookout` is the defensive option — a 0/3 that connives whichever creature you want, including a Souls of the Lost you cast afterwards only if the Lookout is still around.
+
+Discard discipline is the whole deck. Discard a permanent you can recur (a two-drop Villain, or a Squirming Emergence target) rather than the land you will need on turn four.
+
+## Mid game and the combo turn
+
+The "combo turn" is a chain of loots rather than a single loop:
+
+1. `Leader, Super-Genius` on board makes every connive draw two and discard one.
+2. `Mob Lookout` or `Unstable Experiment` triggers a connive, which draws two, keeps the best, and puts a permanent in the yard.
+3. `Baron Strucker, HYDRA Overlord` adds one free connive per turn, and discounts each Villain cast by `{1}`.
+4. Cast `Souls of the Lost` for `{1}{B}` discarding a spare permanent. With six permanents in the yard it is a 6/7; two more connives make it an 8/9.
+5. Activate `Rogue's Passage` and attack. Unblockable, and nothing in the deck needs to tap for it beyond the four generic mana.
+
+`Squirming Emergence` on the same turn re-buys whatever the chain discarded — Mysterio for a token burst, or Leader if the engine was removed.
+
+## Win condition two
+
+`Mysterio, Master of Illusion` counts nontoken Villains on entry: Mob Lookout, Red Room Recruit, Doc Ock's Henchmen, Leader, Strucker and Mysterio himself. Five Villains means five 3/3 Illusion Villain tokens, which is usually a lethal alpha strike the turn after a sweeper. Because the tokens are exiled when Mysterio leaves, cast him second main phase or with `Sheltered by Ghosts` backup. `Raise the Past` returning four two-drop creatures is the follow-up wave — it rebuys the Villain count and the Souls of the Lost in one card.
+
+## Mulligan guide
+
+- Keep: two lands (one black or blue), a two-drop connive creature, and one payoff (Souls, Leader, or Mysterio).
+- Keep: any hand with `Bloom Tender` plus two lands and a Villain, since Bloom Tender fixes four colours.
+- Ship: hands with fewer than two lands, and hands with no connive enabler at all. The deck has sixteen enablers; a hand without one is a hand that does nothing until turn four.
+- Ship: hands that need double white early. `Raise the Past` is a late card here.
+
+## Key interactions and edge cases
+
+- `Leader, Super-Genius` is a replacement effect: the creature still gets its +1/+1 counter, and you draw the extra card before the connive resolves. Two Leaders do not stack — the second is a 1/3 body.
+- `Baron Strucker` grants one connive per turn, no matter how many Villains enter. Order the enters so the biggest body gets the counter.
+- `Souls of the Lost`'s power is a static ability. Killing it does not shrink the yard, and reanimating it with `Squirming Emergence` (mana value 2) or `Raise the Past` brings it back at full size.
+- `Squirming Emergence` needs a nonland permanent card in the yard and enough permanents there to cover its mana value. Count before you cast; connive in response is not possible, but an instant-speed `Unstable Experiment` beforehand is.
+- `Nowhere to Run` also strips hexproof and ward from the target, which matters against Ward creatures that would otherwise blank `Sheltered by Ghosts`.
+- `Villainous Hideout`'s coloured mana only pays for Villain spells — do not count it as a source for `Squirming Emergence` or `Raise the Past`.
+
+## Matchups
+
+- **Aggro:** the deck's 0/3 and 1/2 bodies trade badly. Lean on `Nowhere to Run`, `Sheltered by Ghosts` and flash `Doc Ock's Henchmen`; race with a big Souls only once the yard is deep.
+- **Control:** `Cavern of Souls` naming Human protects the Villain half, and `Leader, Super-Genius` out-draws one-for-one removal. Hold `Squirming Emergence` for the turn after their sweeper.
+- **Graveyard hate:** the deck loses the Souls sizing but not the plan. `Mysterio, Master of Illusion` and `Raise the Past` both work from the board, and `Bloom Tender` keeps the mana clean.
+
+# Iterations
+
+Three battery rounds were run; the shipped list is the v1 configuration, which produced the highest simulated win rate while every other gate passed.
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 to v2 | Traded four basics for three Fabled Passage, one Terramorphic Expanse and two Evolving Wilds to fix the four-colour manabase | sim 48.7 to 46.0, P(4 lands T4) 0.634 to 0.637, overall score 77.4 to 89.5 |
+| v2 to v3 | Cut two Bloom Tender, one Sheltered by Ghosts, one Nowhere to Run; added three Superior Spider-Man and one Balustrade Wurm | sim 46.0 to 46.3, synergy 74.5 to 74.8 |
+| v3 to v4 | Cut four Red Room Recruit and three Doc Ock's Henchmen; added a fourth Souls, two Kang, two Overlord of the Balemurk, a second Wurm and two Bitter Triumph | sim 46.3 to 44.0, goldfish T4 0.637 to 0.639 |
+
+Final: v1 list retained. Flagged gate: simulated win rate 48.7 against a 52 target.
+
+# Deck list (Arena import)
+
+```text
+Graveskim
+Deck
+4 Mob Lookout
+4 Red Room Recruit
+3 Doc Ock's Henchmen
+4 Leader, Super-Genius
+3 Baron Strucker, HYDRA Overlord
+3 Souls of the Lost
+2 Mysterio, Master of Illusion
+2 Bloom Tender
+4 Unstable Experiment
+2 Sheltered by Ghosts
+2 Squirming Emergence
+2 Raise the Past
+1 Nowhere to Run
+3 Terramorphic Expanse
+2 Evolving Wilds
+1 Rogue's Passage
+1 Villainous Hideout
+1 Cavern of Souls
+3 Plains
+5 Island
+5 Swamp
+3 Forest
+```
