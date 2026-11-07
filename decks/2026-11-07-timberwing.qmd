@@ -1,0 +1,210 @@
+---
+title: "Timberwing"
+subtitle: "Naya artifact-token dragons — Reality Fracture"
+date: "2026-11-07"
+categories: ["reality-fracture", "heartwood"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana support) |
+| Colors | Red, green, white (Naya) |
+| Archetype | Artifact-token combo-midrange: every Heartwood, Lotus and Thopter token is upgraded into a 5/5 flying Dragon |
+| Size | 60 cards, 24 lands, 36 spells |
+| Primary win | Draconic Visitor replaces each artifact token you would create with a 5/5 red Dragon with flying. The Soul Tether cycle makes those tokens every turn, so the board fills with Dragons |
+| Secondary win | Craterclaw Colossus with a Heartwood pile, copied by Hall of Echoes, attacks for trample damage scaled by your artifact count |
+| Land as engine | Hall of Echoes copies Craterclaw Colossus or Kwia Vigorbloom for a second enters-trigger pump or a second 6/6 flier, and the legend rule does not apply that turn |
+
+# Overview
+
+Reality Fracture's Heartwood cycle is a set of red-green double-faced cards whose back face is **Soul Tether**
+(`{2}{R/G}` sorcery), a spell that creates a Heartwood token: a red and green artifact with `{T}: Add {R} or {G}`. On
+its own that is a three-mana mana rock with extra steps. **Draconic Visitor** (`{3}{R}{R}`, 5/5 Dragon, flying) changes
+the maths completely: "If one or more artifact tokens would be created under your control, that many 5/5 red Dragon
+creature tokens with flying are created instead." Every Soul Tether you cast is now a 5/5 flier, and every other
+artifact-token maker in the deck is a Dragon too.
+
+The prepared mechanic is what makes the engine repeatable. **Heartwood Crafter** (`{G}`, 1/1) enters prepared, so it is
+a one-mana body holding a free Soul Tether. **Konstrari Improviser** (`{1}{R/G}`, 2/2) also enters prepared.
+**Woodwork Prodigy** (`{2}{R/G}`, 3/3) re-arms itself at the beginning of your upkeep if it is not prepared, which is a
+fresh Soul Tether — and therefore a fresh Dragon — every single turn for as long as it lives.
+
+The rest of the deck is redundancy for the conversion and for the mana. Pia, Tenured Tethermage, Hungering Puppetbeast
+and Aerid Konstrari all create artifact tokens on entry, so with Draconic Visitor on the battlefield each of them is a
+creature plus at least one 5/5 flier. Kwia Vigorbloom turns lifegain into a Lotus artifact token once per turn, so an
+attacking Vigorbloom — or a single Seed Suture — is another Dragon. Codie, Ravenous Codex copies each prepared spell you
+cast, which doubles a Soul Tether into two Dragons.
+
+# Approach
+
+## Game plan phases
+
+**Turns 1–3, build the shell.** Deploy prepared bodies and the Annex lands. Heartwood Crafter on one, Konstrari
+Improviser or Vigorbloom Vanguard on two, Woodwork Prodigy, Pia or Tenured Tethermage on three. Casting the Soul Tether
+copy early is fine — the Heartwood pays for the next spell, and it is the card you most want to convert later.
+
+**Turns 4–5, land the converter.** Draconic Visitor is the pivot. Once it resolves, every pending and future token
+becomes a 5/5 flier. Do not tap out for a Dragon-less board if the opponent is holding removal: Visitor plus one open
+Soul Tether is a two-for-one in your favour even if the Visitor dies.
+
+**Turns 5+, convert and swing.** Each upkeep Woodwork Prodigy re-arms. Each attack step Hexhaven Dueling Arena can arm
+an attacker for `{2}`. Codie doubles the first prepared spell of each turn. Dragons attack in the air while Craterclaw
+Colossus or Kwia Vigorbloom provide a ground finisher.
+
+## Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Heartwood Crafter | {G} | One-mana prepared body; free Soul Tether, then a Dragon |
+| Konstrari Improviser | {1}{R/G} | Two-mana prepared body; second Soul Tether |
+| Woodwork Prodigy | {2}{R/G} | Repeatable engine: re-prepares each upkeep |
+| Draconic Visitor | {3}{R}{R} | The converter; 5/5 flying body that is also the payoff |
+| Vigorbloom Vanguard | {1}{G/W} | Two-mana prepared body; Seed Suture counters and lifegain |
+| Blossom-Blessed Angel | {3}{W} | 2/4 flying vigilance; Seed Suture, and lifegain for Kwia |
+| Pia, Determined Rebuilder | {2}{R} | Enters with a Thopter, which becomes a Dragon; artifact-count pump |
+| Codie, Ravenous Codex | {3} | Copies every prepared spell you cast |
+| Tenured Tethermage | {1}{R}{G} | Trades one land for two artifact tokens (two Dragons) |
+| Aerid Konstrari | {1}{R}{G}{G} | 5/4 flier; Heartwood on entry and on death; artifact-count pump |
+| Hungering Puppetbeast | {3}{G}{G} | 5/5 that brings a Heartwood, so a 5/5 plus a Dragon |
+| Kwia Vigorbloom | {3}{G}{W}{W} | 6/6 flying vigilance lifelink; Lotus token on lifegain |
+| Konstrari Charm | {R}{G} | Kills fliers, adds three colourless, or two counters and trample |
+| Craterclaw Colossus | {4}{R}{R}{R} | Haste finisher; team trample and +X/+0 by artifact count |
+| Awaken the Inferno | {4}{R} | Six damage removal with a counter; cycles for a basic land |
+
+## Lands as engines
+
+| Land | What it does |
+|---|---|
+| Hall of Echoes | `{5}`: becomes a copy of a creature you control until end of turn, legend rule waived — copy Craterclaw Colossus for a second enters-trigger pump, or Kwia Vigorbloom for a second 6/6 flier |
+| Hexhaven Dueling Arena | `{2}, {T}`: an attacker that attacked this turn becomes prepared (sorcery timing); `{4}, {T}`: any creature becomes prepared. Extra Soul Tether every combat |
+| Konstrari Annex | Enters untapped if you control a planeswalker, otherwise tapped; `{T}`: `{R}` or `{G}` |
+| Vigorbloom Annex | Same condition; `{T}`: `{G}` or `{W}` |
+| Rockfall Vale, Overgrown Farmland | Untapped from your third land on; `{R}/{G}` and `{G}/{W}` |
+
+## Curve and mana
+
+| CMC | Count | Cards |
+|---|---|---|
+| 1 | 4 | Heartwood Crafter |
+| 2 | 9 | Konstrari Improviser, Vigorbloom Vanguard, Konstrari Charm |
+| 3 | 9 | Woodwork Prodigy, Pia, Codie, Tenured Tethermage |
+| 4 | 4 | Aerid Konstrari, Blossom-Blessed Angel |
+| 5 | 7 | Draconic Visitor, Hungering Puppetbeast, Awaken the Inferno |
+| 6 | 2 | Kwia Vigorbloom |
+| 7 | 1 | Craterclaw Colossus |
+
+Average mana value 3.31 across 36 spells on 24 lands, which is the 40 percent land count that makes four land drops by
+turn four a better than even proposition. Green is the deepest colour (sixteen sources) because every Soul Tether body
+and every Heartwood maker wants it; red sits at nine sources for Draconic Visitor, Pia and the Charms; white at nine for
+Kwia Vigorbloom, Vigorbloom Vanguard and Blossom-Blessed Angel. Hybrid costs in the cycle mean Konstrari Improviser and
+Woodwork Prodigy can be paid with either colour, which absorbs most colour-screw hands.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a prepared body, not on the Annex lands. Heartwood Crafter is the best turn one because it is both a blocker and
+a stored spell. Turn two, Konstrari Improviser or Vigorbloom Vanguard keeps the pressure while holding the Soul Tether.
+Tenured Tethermage on turn three is the fastest token burst: sacrifice a land you no longer need, make two tapped
+Heartwood tokens, and if Draconic Visitor is already down those are two 5/5 fliers for one card.
+
+## Mid game and the combo turn
+
+The combo turn is any turn where Draconic Visitor sticks and at least one Soul Tether source is available:
+
+1. Cast Draconic Visitor (`{3}{R}{R}`). It is a 5/5 flier on its own.
+2. Cast the Soul Tether copy from any prepared creature. With Visitor out, the Heartwood token is replaced by a 5/5
+   red Dragon with flying.
+3. If Codie, Ravenous Codex is on the battlefield, that prepared spell is copied, so one Soul Tether yields two Dragons.
+4. At end of turn the Woodwork Prodigy is still a 3/3, and on your next upkeep it re-arms for another Dragon.
+
+Two Soul Tether bodies plus Visitor is ten power of evasive creatures over two turns, all of it from cards that were
+already on the battlefield.
+
+## Win condition 2
+
+When Draconic Visitor is answered, the deck pivots to artifact count. The Heartwood tokens stay artifacts in that case,
+and Craterclaw Colossus gives the team trample and +X/+0 where X is the number of artifacts you control. Hall of Echoes
+copies the Colossus, and because the copy enters as a new permanent its enters-trigger fires again, so a five-artifact
+board becomes two pumps of +5/+0 with trample. That is usually lethal through a ground blocker.
+
+## Mulligan guide
+
+Keep hands with two to four lands and at least one one- or two-mana prepared creature. A hand with Draconic Visitor but
+no token maker is a mulligan unless it also has Woodwork Prodigy. Do not keep hands that need two colours of red for
+Draconic Visitor on curve without a Mountain or Konstrari Annex, and do not keep hands with two or more six-plus drops.
+Six-card hands with Heartwood Crafter plus any Soul Tether body are keepable, because the engine is the deck.
+
+## Key interactions and edge cases
+
+- Draconic Visitor is a replacement effect, not a copy effect: you never get the Heartwood's mana if the Visitor is on
+  the battlefield. Decide before the trigger whether you want the rock or the Dragon.
+- Because the replacement happens per token, Tenured Tethermage's two tokens become two Dragons, and Aerid Konstrari's
+  enters and dies triggers each become a Dragon.
+- Codie's second ability costs `{W}{U}{B}{R}{G}`. This deck has no blue or black sources, so treat Codie as a 1/4 body
+  and a prepared-spell copy engine only.
+- Hungering Puppetbeast's sacrifice ability and Tenured Tethermage's counter ability both need artifacts you control.
+  With Visitor out you control no artifact tokens, so those lines are for the games where Visitor is absent.
+- Hexhaven Dueling Arena arms a creature at sorcery speed, so the extra Soul Tether is cast in the postcombat main step.
+- Seed Suture from Vigorbloom Vanguard or Blossom-Blessed Angel gains a life, which turns on Kwia Vigorbloom's Lotus
+  trigger, which is another Dragon while Visitor is out.
+- Hall of Echoes produces only `{C}`; it is a win-condition land, not a colour source. Do not count it as one.
+
+## Matchups
+
+**Aggro.** Vigorbloom Vanguard and Heartwood Crafter block early, Seed Suture gains life, and Konstrari Charm kills
+fliers. The deck wins the race the moment one Dragon lands, because a 5/5 flier races almost everything on the ground.
+
+**Midrange.** Your threats are evasive and come two-for-one once Visitor is down. Save Awaken the Inferno for the
+creature that actually blocks your Dragons, and use the landcycling mode when you are short on lands.
+
+**Control.** Do not run Draconic Visitor into open mana with nothing else to do. Deploy two token makers first, then
+Visitor, so that a single removal spell does not blank the turn. Codie is the best card here because it converts one
+resolved prepared spell into two Dragons.
+
+**Combo.** You have no countermagic. Race with fliers, keep Konstrari Charm for a key flier or for the three colourless
+to power out a Craterclaw, and sideboard into speed rather than interaction.
+
+# Iterations
+
+| Round | Change | Metric deltas |
+|---|---|---|
+| v1 → v2 | -1 Craterclaw Colossus, -1 Karn, Gilded Guardian, +2 Sureshot Sower (cheaper curve) | T4 0.546 → 0.532, sim 63.3% → 59.0% |
+| v2 → v3 | -2 Sureshot Sower, -1 Awaken the Inferno, +1 Craterclaw Colossus, +2 basic lands (24 lands total) | T4 0.532 → 0.611, sim 59.0% → 61.0%, P(4 lands by T4) 0.516 → 0.613 |
+
+Final battery: size 60, Standard legal, zero rotating cards, sim 61.0%, synergy 72.7, goldfish T4 0.611,
+P(4 lands by T4) 0.613.
+
+# Deck list (Arena import)
+
+```
+Timberwing
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+3 Woodwork Prodigy
+4 Draconic Visitor
+3 Vigorbloom Vanguard
+2 Blossom-Blessed Angel
+2 Pia, Determined Rebuilder
+2 Codie, Ravenous Codex
+2 Tenured Tethermage
+2 Aerid Konstrari
+2 Hungering Puppetbeast
+2 Kwia Vigorbloom
+2 Konstrari Charm
+1 Craterclaw Colossus
+1 Awaken the Inferno
+4 Konstrari Annex
+4 Vigorbloom Annex
+2 Rockfall Vale
+2 Overgrown Farmland
+1 Hall of Echoes
+1 Hexhaven Dueling Arena
+4 Forest
+3 Mountain
+3 Plains
+```
