@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-07**:
+Deck guides published **2026-11-08**:
 
-- **[Timberwing](decks/2026-11-07-timberwing.html)** — Naya artifact-token dragons — Reality Fracture  `reality-fracture` `heartwood`
-- **[Graveskim](decks/2026-11-07-graveskim.html)** — Four-colour connive and fathomless descent — loot the yard, then cash it in  `combo` `connive` `graveyard`
+- **[Overdue Notice](decks/2026-11-08-overdue-notice.html)** — Sultai (Blue-Black-Green) — Mill  `combo` `Mill`

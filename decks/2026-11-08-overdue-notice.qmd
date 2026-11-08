@@ -1,0 +1,153 @@
+---
+title: "Overdue Notice"
+subtitle: "Sultai (Blue-Black-Green) — Mill"
+date: "2026-11-08"
+categories: ["combo", "Mill"]
+---
+
+
+# At a glance
+
+| | |
+|:------------------|:-------------------------------------------------------------|
+| Format | Standard (60 cards) |
+| Colors | Blue, Black, Green |
+| Archetype | Mill combo-control |
+| Primary win | Deck the opponent with Water Crystal amplified mill triggers |
+| Secondary win | Consuming Aberration (power and toughness equal to cards in their graveyard) plus Dread Summons Zombies |
+
+Every nonland card in the deck is blue, black or green. All 25 lands produce at least one of those colors or are colorless utility.
+
+# Overview
+
+The deck mills the opponent's library, not yours. The engine is one artifact: **The Water Crystal**. It rewrites every opponent mill event from "N" to "N plus four," so the cheap mill cards in the deck stop being chip damage and start being a clock.
+
+- **Riverchurn Monument** taps for one mana and mills two, which becomes six. Its Exhaust ability mills a number equal to the cards already in that player's graveyard, which becomes that number plus four.
+- **Exhibition Tidecaller** turns every instant and sorcery into a mill trigger, three cards, seven with the Crystal. A five-mana spell makes it ten, fourteen with the Crystal.
+- **Consuming Aberration** mills the opponent until they reveal a land on every spell cast, then attacks as a creature whose size is their graveyard.
+- **Restless Reef** is the land that closes games. It attacks for four and mills four on attack, eight with the Crystal.
+
+Green is the consistency layer: **Cache Grab**, **Midnight Tilling** and **Scout the City** mill four of your own cards and hand back a permanent from among them, which is how the deck finds the Crystal and hits its land drops. **Blossoming Tortoise** ramps, rebuys lands and discounts the manland activation.
+
+# Approach
+
+## Game plan phases
+
+**Turns 1-3, set the table.** Land, Tidecaller or Councillors, then dig. Cache Grab and Midnight Tilling are the engine's fuel line: they fill your graveyard for Quag Feast, return a land or an artifact, and trigger nothing for the opponent. Do not be afraid to mill your own deck; the deck only wins through its graveyard-adjacent enablers.
+
+**Turns 4-6, land the Crystal.** The Water Crystal is the single most important card in the deck, and it also discounts every blue spell afterwards. Resolve it before committing to a long mill fight. A turn without the Crystal is a turn where Riverchurn Monument mills two instead of six.
+
+**Turn 6 onwards, count to 53.** A 60-card opponent keeps seven cards and draws; you need roughly 53 cards out of their library. At eight to fourteen cards per turn the count closes fast. Track their graveyard size, because it is both your Exhaust fuel and your Aberration's power.
+
+## Card roles
+
+| Role | Cards | Notes |
+|:------------------|:-------------------|:--------------------------------------------------------------|
+| Amplifier | The Water Crystal (4) | Makes every opponent mill event four cards larger. Legendary, so extras are only live after removal. |
+| Repeatable mill | Riverchurn Monument (3) | One mana per activation for six cards with the Crystal. Exhaust is the burst finisher. |
+| Spell-payoff mill | Exhibition Tidecaller (4), Glacierwood Siege (3) | Tidecaller mills three (seven with the Crystal) per instant or sorcery. Siege in Temur mode mills four (eight). |
+| Draw-payoff mill | Master's Councillors (3) | Second draw each turn mills three, seven with the Crystal. A 1/3 vigilance blocker that grows to 3/3 once graveyards reach seven. |
+| Burst mill | Consuming Aberration (2) | Each spell mills until a land is revealed, plus four. Also the second win condition. |
+| Dig and selection | Cache Grab (4), Midnight Tilling (4), Scout the City (1) | Mill four of your own cards, take a permanent back. Finds the Crystal, lands, or a Tortoise. |
+| Interaction | Quag Feast (3) | Mills two, then destroys a creature, planeswalker or Vehicle if its mana value is at most the cards in your graveyard. |
+| Go-wide backup | Dread Summons (2) | Mills both players X and pays you a 2/2 Zombie per creature card milled. |
+| Ramp and rebuy | Blossoming Tortoise (2) | Mills three, returns a land, discounts land abilities by one, pumps land creatures. |
+
+## Lands as engines
+
+| Land | Role in the win |
+|:------------------|:------------------------------------------------------------------------------|
+| Restless Reef (3) | The win-condition land. Becomes a 4/4 deathtouch Shark for two mana and mills the defending player for four whenever it attacks, eight with the Crystal. Blossoming Tortoise makes the activation cost one less and the Shark a 5/5. |
+| Blooming Marsh, Dreamroot Cascade (6) | Untapped early fixing for black-green and green-blue, the two pairs the engine needs first. |
+| Thornwood Falls, Jungle Hollow, Soured Springs (11) | Tapped duals that keep the three-color count stable. Soured Springs pings the opponent on entry, which matters only as a tiebreaker. |
+| Hidden Grotto (2) | Surveil on entry, then any color for one mana. Smooths the draw toward the Crystal. |
+
+## Curve and mana
+
+| Mana value | Count | Cards |
+|:-----------|:------|:-----------------------------------------------------------|
+| 1 | 4 | Exhibition Tidecaller |
+| 2 | 18 | Cache Grab, Midnight Tilling, Quag Feast, Riverchurn Monument, Glacierwood Siege, Master's Councillors, Scout the City |
+| 3 | 0 | none |
+| 4 | 6 | The Water Crystal, Blossoming Tortoise |
+| 5 | 2 | Consuming Aberration |
+| X | 2 | Dread Summons |
+
+Average nonland mana value is about 2.2, and 25 lands support a deck that wants four lands on turn four and five lands soon after. Blue is the primary color (Crystal, Monument, Tidecaller, Councillors), green is the dig and ramp, black is interaction and Dread Summons.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one-drop only if you also have a two-mana dig spell to follow it. Tidecaller on turn one, Cache Grab on turn two is the ideal sequence: it mills four of your cards, returns a land or artifact, and mills seven of theirs. Against creature decks, Master's Councillors is the better turn-two play; it blocks, and once both graveyards have seven cards it attacks as a 3/3.
+
+Do not run Dread Summons early. It is a mid-game card that doubles as a Zombie producer.
+
+## The combo turn
+
+The "combo" is stacking mill replacement and mill triggers in one turn:
+
+1. The Water Crystal is on the battlefield.
+2. Cast two or more cheap instants or sorceries with Exhibition Tidecaller and Glacierwood Siege out. Each spell is two separate triggers, seven from the Tidecaller and eight from the Siege.
+3. Activate Riverchurn Monument with the spare mana, six more cards.
+4. Attack with Restless Reef for eight more if the board is clear.
+
+That is 29 or more cards in a single turn from about five mana. Two such turns end the game.
+
+## Win condition 2
+
+Consuming Aberration is a genuine second axis, not a backup plan you never use. Its power and toughness equal the cards in the opponent's graveyard, and every spell you cast mills them until they reveal a land. In a long game it is a 10/10 or larger for five mana that grows every turn you cast anything. Dread Summons adds a Zombie board on top, which matters when the opponent has blockers or a graveyard reshuffle effect and the mill plan stalls.
+
+## Mulligan guide
+
+Keep any hand with two or three lands, one dig spell and one engine piece (Crystal, Monument or Tidecaller). A hand of five lands and two four-drops is a mulligan. Six-card hands are fine if they contain The Water Crystal, because everything else in the deck is designed to find lands and cheap spells around it. Do not keep a one-land hand on the strength of Hidden Grotto alone.
+
+## Key interactions and edge cases
+
+- The Crystal's replacement applies once per mill event, not once per card. Riverchurn Monument tapping for two is a single event of six, not two events of six.
+- Riverchurn Monument's Exhaust checks the target player's graveyard as it resolves, so activate it after your other mill for the largest number.
+- Each Monument has its own Exhaust. A second copy is a second burst.
+- Consuming Aberration's trigger is per spell, including your own dig spells and removal. Casting Quag Feast is also a mill trigger.
+- Multiple Water Crystals do not stack; the legend rule keeps one. Extra copies are for rebuilding after removal, and the cost reduction still matters while one is on the battlefield.
+- Quag Feast's destroy clause needs your graveyard, not theirs. Cache Grab and Midnight Tilling are how you get there early.
+- Dread Summons mills you too. When your own library is under ten cards, cast it only as a finisher.
+- Blossoming Tortoise's discount applies to Restless Reef's activation and to Hidden Grotto's any-color ability.
+
+## Matchups
+
+**Aggro.** You are a turn slower than the fastest starts. Quag Feast, Councillors and Tortoise are your speed bumps, and Restless Reef trades with anything as a 4/4 deathtouch. Race with the mill count only when you have the Crystal down.
+
+**Midrange.** Best matchup. Their creatures are irrelevant to your clock, and their graveyard grows the Aberration while feeding the Monument's Exhaust.
+
+**Control.** The Crystal must resolve. Bait counters with Tidecaller and Monument first, then land the Crystal, then hold a second copy. Consuming Aberration is your answer to a counterspell-heavy draw because it converts every resolved spell into mill.
+
+**Graveyard decks.** Their self-mill accelerates your Exhaust and your Aberration. Watch for effects that shuffle a graveyard back into the library; that is when Dread Summons and the Zombie plan matter.
+
+# Deck list (Arena import)
+
+```text
+Overdue Notice
+Deck
+4 Exhibition Tidecaller
+3 Master's Councillors
+2 Consuming Aberration
+2 Blossoming Tortoise
+3 Glacierwood Siege
+4 The Water Crystal
+3 Riverchurn Monument
+4 Cache Grab
+4 Midnight Tilling
+1 Scout the City
+3 Quag Feast
+2 Dread Summons
+3 Restless Reef
+3 Blooming Marsh
+3 Dreamroot Cascade
+4 Thornwood Falls
+4 Jungle Hollow
+3 Soured Springs
+2 Hidden Grotto
+1 Island
+1 Forest
+1 Swamp
+```
