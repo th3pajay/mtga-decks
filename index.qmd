@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-08**:
 
 - **[Overdue Notice](decks/2026-11-08-overdue-notice.html)** — Sultai (Blue-Black-Green) — Mill  `combo` `Mill`
+- **[Aftersight](decks/2026-11-08-aftersight.html)** — Esper (white / blue / black) surveil-scry engine with prepared payloads — Reality Fracture  `reality-fracture` `surveil`

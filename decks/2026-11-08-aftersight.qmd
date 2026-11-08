@@ -1,0 +1,208 @@
+---
+title: "Aftersight"
+subtitle: "Esper (white / blue / black) surveil-scry engine with prepared payloads — Reality Fracture"
+date: "2026-11-08"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard surveil and mana support) |
+| Colors | White, blue, black (Esper) |
+| Archetype | Surveil and scry value engine: every surveil trigger pays off twice, and the prepared DFCs turn into free spells |
+| Size | 60 cards, 25 lands, 35 spells |
+| Primary win | Counter-grown board. Denzilore Fatehold puts a +1/+1 counter on each creature you control on every scry or surveil, Proft grows himself and draws, Prudent Fateseer pumps the team. Two or three surveil events a turn turns a board of 1/1s into a lethal attack |
+| Secondary win | Uldaros Theorix exiles one card of each card type from your graveyard, copies them, and casts up to six mana value of those copies for free |
+| Land as win condition | Hall of Echoes becomes a copy of your best creature for {5}, and the legend rule does not apply, so it copies Uldaros Theorix or a counter-loaded Proft and attacks as an extra body |
+
+# Overview
+
+Reality Fracture's surveil package is not a reanimator shell here. It is a trigger engine. Four cards
+pay you for looking at the top of your library: **Proft, Consulting Detective** converts each scry or
+surveil into a counter and a card for {2}; **Denzilore Fatehold** converts it into a counter on every
+creature you control; **Prudent Fateseer** converts it into a team power pump; **Diviner of Victory**
+converts it into a permanent +1/+1 on itself.
+
+The enablers are cheap and redundant: **Proctor of Potential** surveils on its own entry and on every
+creature that follows, **Snarling Gorehound** surveils whenever a small creature enters, **Faerie
+Dreamthief** and **Eye of Jace** surveil on entry or upkeep, three of the lands surveil as they enter,
+and **Diresight** and **Found Footage** surveil twice at a time. Because Proctor also returns itself
+from the graveyard for {W}{U} as long as you have scried or surveilled that turn, the engine rebuilds
+after a sweeper.
+
+The two prepared creatures are the set's payload: **Prudent Fateseer** enters prepared and can cast
+**Peer Review** (a 2/2 Cadet plus surveil 1) for free, and **Diviner of Victory** enters prepared and
+can cast **Unwind History** (bounce a cheap creature plus surveil 1) for free. Each free spell is both
+a removal or board piece and another surveil trigger, which is why they sit above the curve here.
+
+The deck wins by attacking. It does not need a single big spell to close: it needs two or three
+surveil events in a turn while Denzilore Fatehold and Proft are on the battlefield, and the attack
+that follows is one turn lethal.
+
+One practical note: Reality Fracture is Standard-legal but the set still carries no `arena_id` in the
+card data, so the import list becomes playable on Arena once the set is enabled there. The non-set
+support cards in the list are already on Arena.
+
+# Approach
+
+## Game plan by phase
+
+**Turns 1 to 3, build the lookout.** Land, one-drop engine, second engine. Faerie Dreamthief and
+Snarling Gorehound are the preferred openers because they surveil without spending mana. Proctor of
+Potential is the priority two-drop: it surveils on entry and then on every creature after it. Diresight
+on turn three is a fine play when you have no engine, but it is better held until a payoff is out.
+
+**Turns 4 to 6, stack payoffs.** Proft first, then Denzilore Fatehold, then Prudent Fateseer. Do not
+tap out for Denzilore if the board is empty of creatures: it needs a board to pump. Peer Review from a
+prepared Prudent Fateseer is the ideal follow-up, because the Cadet enters (Proctor surveils), and the
+surveil triggers Proft, Denzilore and Fateseer on the same turn.
+
+**Turn 6 and later, close or loop.** Either attack with a board that grew two counters this turn, or
+cast Uldaros Theorix and convert a stocked graveyard into free spells. Hall of Echoes turns the last
+five mana of a stalled board into a second attacker.
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Surveil engines | Proctor of Potential, Faerie Dreamthief, Snarling Gorehound, Eye of Jace | 11 | Proctor 3/1 recurs itself for {W}{U} after any scry or surveil |
+| Surveil spells | Diresight, Found Footage | 6 | Two surveil events each; Diresight is the best top-deck fixer |
+| Payoffs and their prepared spells | Proft, Consulting Detective, Denzilore Fatehold, Prudent Fateseer, Diviner of Victory | 7 | Proft draws, Denzilore and Fateseer pump the team, Diviner grows itself; Fateseer and Diviner each carry a free spell (Peer Review, Unwind History) |
+| Recursion and reach | Darklight Phoenix, Theoretical Necromancer, Blessed Ghoul, Rescue Girl, Uldaros Theorix | 9 | Phoenix returns from the graveyard at combat after two creature deaths; Rescue Girl flies and re-buys an enters trigger |
+| Mana and fixing | Murmuring Volume | 2 | Any colour, plus a loot for one card |
+| Win-condition land | Hall of Echoes | 1 | Copies a creature for {5}; legend rule suspended |
+
+## Lands as engines
+
+| Land | Count | Role |
+|---|---|---|
+| Hall of Echoes | 1 | Win-condition land. Adds {C}; {5} makes it a copy of a creature you control until end of turn. Copy Uldaros Theorix for a second flier or a counter-loaded Proft for a second attacker, and the legend rule does not apply that turn |
+| Meticulous Archive | 2 | Plains Island, enters tapped, surveil 1. Both fixing and an engine trigger for Proft and Denzilore |
+| Undercity Sewers | 2 | Island Swamp, enters tapped, surveil 1. The black-blue half of the engine |
+| Shadowy Backstreet | 3 | Plains Swamp, enters tapped, surveil 1. Fixes the white-black side and still triggers the payoffs |
+| Watery Grave | 2 | Island Swamp, untapped for 2 life. Best turn-one source for a black one-drop |
+| Hallowed Fountain | 2 | Plains Island, untapped for 2 life. Casts Proctor of Potential on curve |
+| Island | 5 | Blue is the largest single-colour requirement: Diviner, Proft, Uldaros |
+| Swamp | 4 | Black one-drops and Diresight |
+| Plains | 4 | Rescue Girl, Blessed Ghoul, white half of Proctor and Prudent |
+
+## Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 | 6 |
+|---|---|---|---|---|---|
+| Spells | 15 | 5 | 11 | 3 | 1 |
+
+Average mana value is 2.17 across 35 spells with 25 lands. The deck is deliberately land-heavy for a
+low curve: it needs four lands on turn four to hold up two payoffs and a surveil spell in one turn,
+and the goldfish checks put four lands on turn four at roughly 75 percent. Colour demands are light in
+pips (11 blue, 10 white, 16 black) but the shocks matter for turn-one black and turn-two white-blue.
+Never keep a hand that cannot produce black by turn two or white-blue by turn three.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one-drop that surveils on its own. Faerie Dreamthief into Proctor of Potential is the
+strongest two-card opening: the Faerie surveils on entry, then Proctor surveils again, so Proft and
+Denzilore have already paid off by the time they land. Against aggro, Blessed Ghoul is the better
+one-drop: lifelink plus a {2}{W/B} return from the graveyard buys the turns the engine needs.
+
+Do not crack Found Footage early unless you are short on lands or need to enable a Proctor
+recurrence in the same turn. Two mana for a surveil 2 and a card is fine on turn three; it is
+excellent on the turn you deploy Proft.
+
+## Mid game and the combo turn
+
+The engine turn looks like this: Proctor of Potential and Proft on the battlefield, Denzilore Fatehold
+just resolved, then a creature spell. The creature enters, Proctor surveils, Proft takes the {2} and
+grows while drawing a card, Denzilore puts a counter on every creature, and Prudent Fateseer adds
++1/+0 to the team. Casting Peer Review from a prepared Fateseer does all of that and adds a 2/2 body
+that itself triggers Proctor. That single turn is usually four to six additional power plus a card.
+
+Order of operations matters inside the turn. Resolve the surveil trigger first, decide whether the
+card goes to the graveyard, and only then decide whether to pay for Proft: Proft draws after the
+surveil, so you can bin a land and still draw a spell. If you have two payoffs and only two mana,
+Proft is almost always the right choice over holding mana up, because the deck has no instants worth
+representing other than the free Unwind History.
+
+## Win condition 2
+
+Uldaros Theorix is the long-game out. He wants a graveyard with one creature, one sorcery, one
+artifact and one land so that his enters trigger has the widest choice. Exiling Diresight, Found
+Footage, a spent Eye of Jace and a dead Proctor typically lets you cast two or three copies for free
+in the same turn, and the permanent copies become tokens. Hall of Echoes copying Uldaros the turn he
+attacks gives you two 5/5 fliers, which is usually the whole combat step once the rest of the board
+is counted.
+
+## Mulligan
+
+Keep hands with two or three lands and at least two surveil sources. A hand of lands, payoffs and no
+engine is a mulligan even if the payoffs are rares: Proft and Denzilore do nothing without triggers.
+Six-card hands are fine when they contain Proctor of Potential plus a one-drop that surveils on entry.
+Seven-card hands with 25 lands should almost never need a land mulligan, so a mulligan usually means
+the hand is short on engines, not on lands.
+
+## Key interactions and edge cases
+
+- **Proctor of Potential's recursion** requires that you have scried or surveilled this turn. A land
+  that surveils on entry (Meticulous Archive, Undercity Sewers, Shadowy Backstreet) counts, so a land
+  drop can turn on the {W}{U} activation. The returned Proctor carries a finality counter, so it
+  cannot be recurred twice.
+- **Eye of Jace** checks the graveyard after its own surveil. With two surveils a turn it reaches seven
+  cards around turn four or five, and the sacrifice deals 2 damage to each opponent and gains 2 life.
+  That is a genuine clock in stalls, not just a loot engine.
+- **Snarling Gorehound** only triggers on creatures with power 2 or less entering. Cadet tokens,
+  Blessed Ghoul, Diviner of Victory and Faerie Dreamthief all qualify. Proft stops qualifying once he
+  has a counter, so make Gorehound triggers before you grow Proft if you have the choice.
+- **Denzilore Fatehold** is the card most often stranded in hand: {1}{W}{U}{U} is the strictest cost
+  in the deck. Cast it only when you can also surveil that turn, otherwise a 3/4 flier that does
+  nothing is a bad use of four mana.
+- **Uldaros Theorix** copies spells, so copies of permanent spells enter as tokens. If your graveyard
+  holds no sorcery, the trigger still works, it just gets fewer cards.
+- **Hall of Echoes** adds only {C} and does not become a creature itself. It copies a creature you
+  control until end of turn, so it attacks in the same turn, and the legend-rule exemption means
+  copying a legendary creature is safe.
+
+## Matchups
+
+| Opponent | Plan | Notes |
+|---|---|---|
+| Red aggro | Blessed Ghoul and Rescue Girl on blocking duty, race with lifelink, hold Diresight for the turn you need a fourth land | Eye of Jace's 2 damage to each opponent is often the last two points |
+| Control and sweepers | Do not overextend into a sweeper without Proctor in hand or graveyard; Proctor returns itself, so keep {W}{U} open after the wipe | Uldaros Theorix is the post-sweeper win: a stocked graveyard is the plan, not a liability |
+| Midrange and value piles | Race the counter engine; Denzilore plus two surveil triggers a turn outgrows most ground boards | Save Unwind History for their best cheap threat, not for tempo |
+| Combo | The deck has no stack interaction outside Unwind History, so the plan is speed: a turn-five lethal attack is common | Darklight Phoenix recurs after trades, which punishes combo decks that use creatures to assemble |
+
+# Deck list (Arena import)
+
+```text
+Aftersight
+Deck
+3 Proctor of Potential
+3 Faerie Dreamthief
+3 Snarling Gorehound
+2 Proft, Consulting Detective
+2 Prudent Fateseer
+2 Diviner of Victory
+1 Denzilore Fatehold
+2 Darklight Phoenix
+2 Theoretical Necromancer
+2 Blessed Ghoul
+2 Rescue Girl, First Responder
+1 Uldaros Theorix
+2 Eye of Jace
+3 Found Footage
+3 Diresight
+2 Murmuring Volume
+1 Hall of Echoes
+2 Meticulous Archive
+2 Undercity Sewers
+2 Watery Grave
+2 Hallowed Fountain
+3 Shadowy Backstreet
+5 Island
+4 Swamp
+4 Plains
+```
