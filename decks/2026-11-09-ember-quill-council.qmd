@@ -1,0 +1,155 @@
+---
+title: "Ember Quill Council"
+subtitle: "Jund (black / red / green) Sphinx drain aggro — Reality Fracture"
+date: "2026-11-09"
+categories: ["reality-fracture", "sphinx"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard mana and support) |
+| Colors | Black, red, green (Jund) |
+| Archetype | Aggro-combo: a Sphinx attack-drain engine with a hasty artifact finisher |
+| Size | 60 cards, 25 lands, 35 spells |
+| Primary win | Ingris Stingerquill turns every attacker into a damage trigger; go wide, attack, and drain the opponent out without needing to connect |
+| Secondary win | Craterclaw Colossus arrives with haste, gives the team trample and +X/+0 equal to your artifact count, and closes in one swing |
+| Land as win condition | Hall of Echoes pays {5} to become a copy of Ingris Stingerquill; the legend rule is waived, so you attack with two drain engines |
+| Rolled mechanics | Heartwood tokens, Cadets, attack triggers |
+
+# Overview
+
+Reality Fracture's Elder Sphinx cycle is a set of five allied-pair legends, each with a matching two-mana charm and a matching dual land. Ember Quill Council picks the two elders whose pairs both contain red, so the whole council fits in one three-color shell: `Ingris Stingerquill` (black-red) and `Aerid Konstrari` (red-green).
+
+Ingris is the engine. Her text reads "whenever a creature you control attacks, that creature deals 1 damage to each opponent" — the damage does not need a successful attack, a blocked attacker still drains, and she counts every body, including 1/1s. Three mana for a 1/4 flier that converts every attacker into a point of damage is the cheapest clock in the set. Her activated ability, four mana for a 2/2 Cadet plus haste for the team, means the board grows every turn the game goes long.
+
+Aerid is the payload and the mana. A 5/4 flier for four that makes a Heartwood token on entry and again on death is already a good rate; the Heartwood is a red-green artifact that taps for either colour, so it fixes the double-red and double-green costs in the deck while counting toward artifact payoffs. His six-mana activation makes another Heartwood and then adds +X/+0 where X is your artifact count, which turns Treasures and Heartwoods into a one-shot kill.
+
+`Roaming Throne` names Sphinx and doubles both legends' triggered abilities: every attacker drains 2 instead of 1, and Aerid makes two Heartwoods. `Hall of Echoes` copies Ingris for five, and because the copy clause waives the legend rule you keep both, doubling the drain again. `Craterclaw Colossus` converts the artifact tokens into trample damage.
+
+The deck is deliberately lean: seventeen nonland cards cost one or two mana, the average mana value is about 2.7, and no card costs more than seven.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Open on rate (turns 1 to 2).** `Llanowar Elves` on one accelerates into a three-mana Ingris or a turn-three Aerid. `Greedy Freebooter` is the other one-drop: it fixes black, and when it dies it scries and leaves a Treasure, which is both mana and an artifact for Craterclaw. `Stingerquill Charm` and `Torch the Tower` keep the first two turns interactive while the mana comes together.
+2. **Land the council (turns 3 to 5).** Ingris first, because the drain starts immediately; Aerid second, because the Heartwood fixes the double-green. `Roaming Throne` on four is the multiplier, and against removal-light decks it is the best card in the deck. `Seize the Spoils` filters into the next threat and leaves a Treasure behind.
+3. **Convert (turns 5 onward).** Attack every turn regardless of blocks. Each attacker is a damage trigger, and Ingris's Cadet activation adds a hasty body at instant speed. When the board stalls, `Craterclaw Colossus` gives the whole team trample and a pump equal to your artifact count, and `Hall of Echoes` copies Ingris for a second drain layer.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Ingris Stingerquill | 4 | Engine — 1/4 flier; every attacker deals 1 to each opponent; four mana makes a hasty Cadet |
+| Aerid Konstrari | 4 | Payload and fixing — 5/4 flier; Heartwood on entry and death; six mana pumps by artifact count |
+| Roaming Throne | 3 | Multiplier — names Sphinx, doubles Ingris and Aerid triggers; 4/4 with ward {2} |
+| Craterclaw Colossus | 2 | Finisher — 5/5 haste artifact; team trample and +X/+0 equal to artifacts |
+| Llanowar Elves | 4 | Acceleration — one mana, green source, blocks |
+| Greedy Freebooter | 3 | Fixing and value — one-drop that scries and makes a Treasure when it dies |
+| Stingerquill Charm | 4 | Interaction — 3 damage anywhere, first strike plus deathtouch, or a hasty Cadet |
+| Konstrari Charm | 4 | Interaction and reach — 6 damage to a flier, two counters plus trample, or three colourless mana |
+| Seize the Spoils | 4 | Velocity — discard, draw two, Treasure; feeds the artifact count |
+| Torch the Tower | 2 | Cheap removal — 2 damage, or 3 plus scry when bargained with a Treasure |
+
+## Lands as engines
+
+| Land | Copies | Function |
+|---|---|---|
+| Hall of Echoes | 1 | Win condition — five mana to copy Ingris Stingerquill with the legend rule waived, doubling the drain |
+| Cavern of Souls | 2 | Protects the Sphinxes from counterspells; names Sphinx |
+| Blooming Marsh | 4 | Black-green, untapped early (two or fewer other lands) |
+| Haunted Ridge | 4 | Black-red, untapped from the third land onward |
+| Rockfall Vale | 4 | Red-green, untapped from the third land onward |
+| Deathcap Glade | 2 | Black-green, untapped from the third land onward |
+| Forest, Swamp, Mountain | 9 | Basics; five Forests carry the green, two Swamps the black, two Mountains the red |
+
+## Curve and mana
+
+| Mana value | Cards | What it is |
+|---|---|---|
+| 1 | 7 | Llanowar Elves, Greedy Freebooter, Torch the Tower |
+| 2 | 10 | Stingerquill Charm, Konstrari Charm |
+| 3 | 8 | Ingris Stingerquill, Seize the Spoils |
+| 4 | 7 | Aerid Konstrari, Roaming Throne |
+| 7 | 2 | Craterclaw Colossus |
+
+The mana is built for the black-red core first: the duals give twelve black sources and ten red sources, and Cavern of Souls covers the Sphinxes outright. Green enters only for Aerid and Llanowar Elves, which is why the deck runs five Forests and four Rockfall Vales rather than a fourth colour. Twenty-five lands is one more than a typical aggro deck because the four- and seven-drops want four and seven respectively, and because the goldfish gate wants four lands by turn four with seventy per cent confidence.
+
+# Gameplay strategy
+
+## Early game
+
+Keep hands with a one-drop and two lands of different colours. Llanowar Elves into Ingris on turn three is the fastest start and the one that punishes slow opponents hardest. Greedy Freebooter is the alternative: it is a body that becomes a Treasure, and the scry smooths the next two draws. Do not trade Stingerquill Charm for a one-toughness creature unless that creature is the opponent's only clock; the charm is also the answer to a resolved flier later.
+
+## Mid game and the combo turn
+
+The combo turn is any turn where you have Ingris plus three or more other attackers. Count the damage before declaring attackers: each attacker drains 1, doubled by Roaming Throne, doubled again by a Hall of Echoes copy. Four attackers with Ingris and Throne is 8 damage to the face before blockers; add the copy and it is 12.
+
+Sequence for the biggest swing: activate Ingris's four-mana ability at the end of the opponent's turn if you have the mana, so the Cadet enters with haste already and the team is untapped going in. Then cast Konstrari Charm for two counters and trample on the biggest attacker, and hold Stingerquill Charm's first-strike mode as a combat trick rather than spending it pre-combat.
+
+## Win condition 2
+
+Craterclaw Colossus is the "they stabilized" button. On seven mana it arrives with haste, gives the team trample and +X/+0 where X is the number of artifacts you control, which with two Heartwoods and two Treasures is +4 to everything. A board of three 1/1s plus the Colossus attacks for 21. If the Colossus is not available, Aerid's six-mana activation pumps himself by the same count and can win through a single blocker.
+
+## Mulligan
+
+- Keep: one-drop, two lands, one three- or four-drop.
+- Keep: two lands plus Llanowar Elves and a two-mana charm.
+- Ship: hands with only colourless lands and no Llanowar Elves.
+- Ship: hands with both Craterclaw Colossus and no early play; the deck wins on the drain plan, not the seven-drop.
+
+## Key interactions and edge cases
+
+- Ingris's trigger does not require the attack to connect, so attacking into a wall still drains. Attack every turn even when the board is bad.
+- Roaming Throne must name Sphinx. It then doubles Ingris's attack trigger, Aerid's enters and dies triggers, and Aerid's six-mana activation trigger.
+- Hall of Echoes copies a creature and waives the legend rule for the turn, so two Ingrises coexist and both trigger. Copy Ingris, not Aerid, unless you need the 5/4 body.
+- Konstrari Charm's third mode adds {C}{C}{C}; spend it on Craterclaw Colossus or on Aerid's activation, not on a spell that needs coloured mana.
+- Torch the Tower's bargain is free with a Treasure or Heartwood, and the bargained version scries, which matters when digging for the Throne.
+- Greedy Freebooter's Treasure and Seize the Spoils' Treasure both count as artifacts for Craterclaw and Aerid, so do not sacrifice them casually.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Race with Ingris; the drain triggers on attack, not on damage, so your clock is faster. Board in Torch the Tower and use Stingerquill Charm as removal |
+| Midrange | Roaming Throne plus Aerid's Heartwoods grind best; hold Konstrari Charm for the two-counter mode on a flier |
+| Control | Cavern of Souls on Sphinx; do not over-commit into a sweeper, keep one threat and a Hall of Echoes in hand |
+| Combo | Stingerquill Charm's 3 damage and Torch the Tower are the interaction; the deck is fast enough to race most non-interactive combos |
+
+# Iterations
+
+| Round | Change | Sim win rate | Synergy | Goldfish T4 | P(4 lands by T4) |
+|---|---|---|---|---|---|
+| v1 | Initial build: four Torch the Tower and two Bitter Triumph as the removal package, no card selection | 51.7 | 74.3 | 0.714 | 0.722 |
+| v2 | -2 Bitter Triumph, -2 Torch the Tower, +4 Seize the Spoils (more velocity into the four-drops, Treasures feed Craterclaw and Aerid) | 57.0 | 74.7 | 0.710 | 0.728 |
+
+Deltas v1 to v2: sim 51.7 to 57.0, synergy 74.3 to 74.7, goldfish T4 0.714 to 0.710, lands 0.722 to 0.728. All gates passed at v2.
+
+# Deck list (Arena import)
+
+```text
+Ember Quill Council
+Deck
+4 Llanowar Elves
+3 Greedy Freebooter
+4 Ingris Stingerquill
+4 Aerid Konstrari
+3 Roaming Throne
+2 Craterclaw Colossus
+4 Stingerquill Charm
+4 Konstrari Charm
+4 Seize the Spoils
+2 Torch the Tower
+4 Blooming Marsh
+4 Haunted Ridge
+4 Rockfall Vale
+2 Deathcap Glade
+2 Cavern of Souls
+1 Hall of Echoes
+5 Forest
+2 Swamp
+2 Mountain
+```
