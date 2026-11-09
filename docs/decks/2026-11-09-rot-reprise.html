@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-11-09">
+
+<title>Rot Reprise – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#why-these-cards" id="toc-why-these-cards" class="nav-link" data-scroll-target="#why-these-cards">Why these cards</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game-and-the-combo-turn" id="toc-mid-game-and-the-combo-turn" class="nav-link" data-scroll-target="#mid-game-and-the-combo-turn">Mid game and the combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Rot Reprise</h1>
+<p class="subtitle lead">Four-color blight and flashback: your own tokens are the fuel</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">blight</div>
+    <div class="quarto-category">flashback</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 9, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>White / blue / black / red (no green)</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Aggro-combo: blight drain with a flashback second wave</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Rolled mechanics</td>
+<td>Blight, Flashback</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Pay blight costs with 1/1 tokens, kill them on purpose, drain 2 to 4 per token</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Token swarm and 6/6s, rebuilt from the graveyard with flashback</td>
+</tr>
+<tr class="even">
+<td>Land as win con</td>
+<td>Restless Vents, a 2/3 menace attacker that loots on every attack</td>
+</tr>
+<tr class="odd">
+<td>Nonland curve</td>
+<td>5 one-drops, 7 twos, 19 threes, 5 fours (average 2.67)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Blight is a cost, not a payoff: “blight N” means put N -1/-1 counters on a creature you control. On a 1/1 token that is a sacrifice with no extra card and no extra mana attached. Rot Reprise is built to pay that cost as often as possible, and to get paid for it four different ways.</p>
+<p>The engine runs on three death-triggered payoffs. <code>Arnyn, Deathbloom Botanist</code> drains 2 for every creature with power or toughness 1 or less that dies, which is every Goblin token, every Rat token and <code>Gristle Glutton</code>. <code>Boggart Mischief</code> drains 1 more whenever a Goblin dies, and <code>Al Bhed Salvagers</code> drains 1 whenever any creature dies. <code>Heirloom Auntie</code> surveils on each death and sheds a -1/-1 counter while doing it, so the same deaths that drain also fill the graveyard and turn your 2/2 back into a 4/4.</p>
+<p>Flashback is the second half of the loop, and every token maker in the deck has it: <code>Tidings of War</code> amasses 3 from the graveyard, <code>Revenge of the Rats</code> makes a Rat per creature card in the yard, <code>Plunder the Trollshaws</code> draws two when it comes back. Blight empties the board, flashback refills it, and the refill is worth more than the first cast. <code>Gristle Glutton</code> is the hinge, a repeatable loot that discards the flashback spells and hands you the cards to cast them.</p>
+<p>The deck does not need to attack to win, but it can: two <code>Gutsplitter Gang</code> and the manland carry the combat plan while the drain does the rest.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Set the table (turns 1 to 3).</strong> Land a threat that survives its own blight costs: <code>Heirloom Auntie</code> arrives a 2/2 with two counters and grows back to 4/4, <code>Gristle Glutton</code> is a 1/3 that absorbs a counter and keeps looting. <code>Tidings of War</code> on turn one leaves a Goblin Army to spend later.</li>
+<li><strong>Establish the drain engine (turns 3 to 5).</strong> <code>Arnyn</code> plus <code>Boggart Mischief</code> is the core pair: every blight payment now costs you a token instead of a card and deals 3 to 4 damage. <code>Al Bhed Salvagers</code> adds a fourth point. Start tracking deaths; each one also triggers <code>Heirloom Auntie</code>.</li>
+<li><strong>Refill and finish (turns 5 onward).</strong> Cast <code>Revenge of the Rats</code> from hand, then flash it back for a second wave, and flash back <code>Tidings of War</code> for a 3/3-ish Army. Spend the new tokens on <code>Shadow Urchin</code> attacks and <code>Pyrrhic Strike</code>, and let the drain close the game.</li>
+</ol>
+</section>
+<section id="why-these-cards" class="level2">
+<h2 class="anchored" data-anchor-id="why-these-cards">Why these cards</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Arnyn, Deathbloom Botanist</td>
+<td>4</td>
+<td>Payoff — 2/2 deathtouch; drain 2 whenever a power-or-toughness-1-or-less creature dies</td>
+</tr>
+<tr class="even">
+<td>Boggart Mischief</td>
+<td>3</td>
+<td>Engine and payoff — blight 1 for two Goblin tokens; drain 1 on every Goblin death</td>
+</tr>
+<tr class="odd">
+<td>Al Bhed Salvagers</td>
+<td>3</td>
+<td>Payoff — 2/3; drain 1 on any creature or artifact death, including itself</td>
+</tr>
+<tr class="even">
+<td>Heirloom Auntie</td>
+<td>4</td>
+<td>Engine — 4/4 that enters with two -1/-1 counters; surveils on each death and sheds a counter</td>
+</tr>
+<tr class="odd">
+<td>Gristle Glutton</td>
+<td>4</td>
+<td>Enabler — repeatable <code>{T}, Blight 1</code> loot; discards flashback spells, draws the payoffs</td>
+</tr>
+<tr class="even">
+<td>Shadow Urchin</td>
+<td>3</td>
+<td>Enabler and value — mandatory blight on attack, then exiles cards equal to the dead creature’s counters and lets you play them</td>
+</tr>
+<tr class="odd">
+<td>Gutsplitter Gang</td>
+<td>2</td>
+<td>Body — 6/6 for four; blight 2 each first main or lose 3 life</td>
+</tr>
+<tr class="even">
+<td>Tidings of War</td>
+<td>4</td>
+<td>Token maker — amass Goblins 1, or 3 from the graveyard; flashback <code>{3}{R}</code></td>
+</tr>
+<tr class="odd">
+<td>Revenge of the Rats</td>
+<td>3</td>
+<td>Win condition 2 — one Rat per creature card in yard; flashback <code>{2}{B}{B}</code></td>
+</tr>
+<tr class="even">
+<td>Plunder the Trollshaws</td>
+<td>3</td>
+<td>Card flow — draws two when cast from the yard; flashback <code>{3}{U}</code></td>
+</tr>
+<tr class="odd">
+<td>Pyrrhic Strike</td>
+<td>2</td>
+<td>Interaction — blight 2 to get both modes: destroy artifact or enchantment and destroy a creature with mana value 3 or greater</td>
+</tr>
+<tr class="even">
+<td>Requiting Hex</td>
+<td>1</td>
+<td>Interaction — one mana kill on a small creature, plus 2 life when blighted</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>What it does for the deck</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restless Vents</td>
+<td>Win condition land: <code>{1}{B}{R}</code> turns it into a 2/3 Insect with menace, and every attack lets you discard then draw, which stocks the yard for flashback</td>
+</tr>
+<tr class="even">
+<td>Oscorp Industries</td>
+<td>The mana spine: taps for blue, black or red, covering three of the four colors in one land</td>
+</tr>
+<tr class="odd">
+<td>Raucous Carnival</td>
+<td>Red and white, usually untapped once either player is at 13 or less life, which is where this deck lives</td>
+</tr>
+<tr class="even">
+<td>Dark Fortress</td>
+<td>Black or red, or colorless in a pinch; reliable on the turn it arrives</td>
+</tr>
+<tr class="odd">
+<td>Murky Sewer</td>
+<td>Blue and black, untapped at 13 life or less</td>
+</tr>
+<tr class="even">
+<td>Neglected Manor</td>
+<td>White and black, untapped at 13 life or less</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>The deck wants two lands and a two-drop, not a five-drop. Nineteen of the thirty-six nonlands cost three, so the ideal curve is one-drop, two-drop, then two spells at three. Twenty-four lands at an average mana value of 2.67 gives a 65 percent chance of four lands by turn four.</p>
+<p>Sources: 17 black, 14 red, 7 blue, 6 white. Black is the primary, red the secondary, and blue and white are true splashes of three and two cards. <code>Dark Fortress</code> only produces colored mana on the turn it enters or while you control a basic land, so count it as a colorless land when you keep a one-lander.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Lead with lands that enter untapped. <code>Raucous Carnival</code>, <code>Murky Sewer</code> and <code>Neglected Manor</code> are all live early only once someone is at 13 life or less, so plan on <code>Oscorp Industries</code> or a basic first. Turn-one <code>Tidings of War</code> is the best opening: it is a Goblin that blight costs can eat, and it is a flashback card that will be worth three counters later.</p>
+</section>
+<section id="mid-game-and-the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-and-the-combo-turn">Mid game and the combo turn</h2>
+<p>The combo turn is any turn with two or more blight payments and a death payoff on board. Sequence it like this:</p>
+<ol type="1">
+<li>Make tokens first: <code>Boggart Mischief</code> (blight 1 for two Goblins) or cast and then flash back <code>Tidings of War</code>.</li>
+<li>Pay each blight cost on a token, not on your engine creatures. <code>Gristle Glutton</code>’s loot, <code>Shadow Urchin</code>’s attack trigger, <code>Pyrrhic Strike</code> and <code>Requiting Hex</code> are all blight outlets.</li>
+<li>Let the death triggers resolve. With Arnyn, Mischief and Salvagers all out, one token dying is 4 damage and 4 life; two blight payments in a turn is 8.</li>
+<li>Spend the resulting cards: <code>Shadow Urchin</code> exiles one card per counter on the dead creature, and <code>Heirloom Auntie</code>’s surveil decides what reaches the yard for <code>Revenge of the Rats</code>.</li>
+</ol>
+<p><code>Gutsplitter Gang</code> is not optional about blighting. If you have no token to feed it, it costs you 3 life every first main phase, so cast it only when a token is available or when 3 life is a price you are willing to pay for a 6/6.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>Flashback turns one token spell into two boards. <code>Revenge of the Rats</code> counts creature cards in the graveyard at resolution, so cast the hand copy first, blight the Rats away for drain, then flash it back once the yard is deeper. <code>Tidings of War</code> does the same trick with a Goblin Army: amass 1 from hand, amass 3 from the graveyard, and the Army keeps its counters between casts.</p>
+<p>The manland is the third angle. <code>Restless Vents</code> attacks as a 2/3 with menace, which is a real clock once the ground is cluttered with tokens, and its loot trigger is a free discard for the flashback plan.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep hands with two or three lands, at least one black source, and one of <code>Heirloom Auntie</code>, <code>Gristle Glutton</code> or <code>Boggart Mischief</code>. A hand of only three-drops with no turn-one or turn-two play is a mulligan: the deck’s engine needs a body that survives a counter before the drain payoffs matter. One-landers are acceptable only with <code>Oscorp Industries</code> or a basic plus a one-drop.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>Counters cancel.</strong> A +1/+1 counter and a -1/-1 counter do not coexist; one removes the other. So blighting a Goblin Army that has an amass counter does not kill it. Blight the Army only when you want it to survive and shrink, never when you need a death trigger.</li>
+<li><strong>Blight is a cost.</strong> It cannot be responded to by killing the target, and the creature is chosen as you pay. A 1/1 that takes a -1/-1 counter dies to state-based actions before any trigger resolves, which is why the death payoffs always see it.</li>
+<li><strong>Shadow Urchin is mandatory.</strong> Its attack trigger blights whether you like it or not, so do not attack with it if the only legal blight target is a creature you need.</li>
+<li><strong>Trigger order matters.</strong> Put the drain triggers on the stack first and the value triggers last when you want to resolve surveil before drawing, and remember <code>Heirloom Auntie</code> removes a counter only if it still has one.</li>
+<li><strong>Flashback exiles.</strong> A flashed-back card is gone for good. Cast the hand copy of <code>Revenge of the Rats</code> before the graveyard copy to maximize the token count.</li>
+<li><strong><code>Pyrrhic Strike</code> needs the blight.</strong> Without paying blight 2 you get one mode; with it you get both, which is usually a two-for-one.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro.</strong> <code>Arnyn</code> is a deathtouch wall, <code>Requiting Hex</code> and <code>Pyrrhic Strike</code> trade up, and the drain race is close but winnable because your removal gains life.</li>
+<li><strong>Control.</strong> Your threats are cheap and recursive, and the drain does not care about blockers. Hold <code>Revenge of the Rats</code> for a turn where a wipe has already happened, and remember a flashed-back spell is immune to discard.</li>
+<li><strong>Midrange.</strong> <code>Gutsplitter Gang</code> trades with almost anything and the manland gets through stalled boards. The matchup is decided by whether <code>Boggart Mischief</code> resolves.</li>
+</ul>
+</section>
+</section>
+<section id="iterations" class="level1">
+<h1>Iterations</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Change</th>
+<th>Sim win rate</th>
+<th>Synergy</th>
+<th>Goldfish T4</th>
+<th>P(4 lands by T4)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v1</td>
+<td>Initial build: Moonshadow, Sourbread Auntie, Dreams of Laguna and Pursue the Past in, no cheap interaction</td>
+<td>48.7</td>
+<td>73.5</td>
+<td>0.643</td>
+<td>0.639</td>
+</tr>
+<tr class="even">
+<td>v2</td>
+<td>Cut the fragile counter-carriers and the durdle draw spells for <code>Al Bhed Salvagers</code>, <code>Gutsplitter Gang</code>, <code>Pyrrhic Strike</code> and <code>Requiting Hex</code></td>
+<td>56.3</td>
+<td>72.7</td>
+<td>0.647</td>
+<td>0.654</td>
+</tr>
+</tbody>
+</table>
+<p>Deltas v1 to v2: sim 48.7 to 56.3, synergy 73.5 to 72.7, goldfish T4 0.643 to 0.647, lands 0.639 to 0.654. All gates passed at v2.</p>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Rot Reprise
+Deck
+4 Heirloom Auntie
+4 Gristle Glutton
+4 Arnyn, Deathbloom Botanist
+3 Boggart Mischief
+3 Shadow Urchin
+3 Al Bhed Salvagers
+2 Gutsplitter Gang
+4 Tidings of War
+3 Revenge of the Rats
+3 Plunder the Trollshaws
+2 Pyrrhic Strike
+1 Requiting Hex
+4 Oscorp Industries
+3 Raucous Carnival
+3 Dark Fortress
+2 Murky Sewer
+2 Restless Vents
+2 Neglected Manor
+4 Swamp
+2 Mountain
+1 Plains
+1 Island</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

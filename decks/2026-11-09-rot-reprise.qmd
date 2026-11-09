@@ -1,0 +1,153 @@
+---
+title: "Rot Reprise"
+subtitle: "Four-color blight and flashback: your own tokens are the fuel"
+date: "2026-11-09"
+categories: ["combo", "blight", "flashback"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | White / blue / black / red (no green) |
+| Archetype | Aggro-combo: blight drain with a flashback second wave |
+| Size | 60 cards, 24 lands |
+| Rolled mechanics | Blight, Flashback |
+| Primary win | Pay blight costs with 1/1 tokens, kill them on purpose, drain 2 to 4 per token |
+| Secondary win | Token swarm and 6/6s, rebuilt from the graveyard with flashback |
+| Land as win con | Restless Vents, a 2/3 menace attacker that loots on every attack |
+| Nonland curve | 5 one-drops, 7 twos, 19 threes, 5 fours (average 2.67) |
+
+# Overview
+
+Blight is a cost, not a payoff: "blight N" means put N -1/-1 counters on a creature you control. On a 1/1 token that is a sacrifice with no extra card and no extra mana attached. Rot Reprise is built to pay that cost as often as possible, and to get paid for it four different ways.
+
+The engine runs on three death-triggered payoffs. `Arnyn, Deathbloom Botanist` drains 2 for every creature with power or toughness 1 or less that dies, which is every Goblin token, every Rat token and `Gristle Glutton`. `Boggart Mischief` drains 1 more whenever a Goblin dies, and `Al Bhed Salvagers` drains 1 whenever any creature dies. `Heirloom Auntie` surveils on each death and sheds a -1/-1 counter while doing it, so the same deaths that drain also fill the graveyard and turn your 2/2 back into a 4/4.
+
+Flashback is the second half of the loop, and every token maker in the deck has it: `Tidings of War` amasses 3 from the graveyard, `Revenge of the Rats` makes a Rat per creature card in the yard, `Plunder the Trollshaws` draws two when it comes back. Blight empties the board, flashback refills it, and the refill is worth more than the first cast. `Gristle Glutton` is the hinge, a repeatable loot that discards the flashback spells and hands you the cards to cast them.
+
+The deck does not need to attack to win, but it can: two `Gutsplitter Gang` and the manland carry the combat plan while the drain does the rest.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Set the table (turns 1 to 3).** Land a threat that survives its own blight costs: `Heirloom Auntie` arrives a 2/2 with two counters and grows back to 4/4, `Gristle Glutton` is a 1/3 that absorbs a counter and keeps looting. `Tidings of War` on turn one leaves a Goblin Army to spend later.
+2. **Establish the drain engine (turns 3 to 5).** `Arnyn` plus `Boggart Mischief` is the core pair: every blight payment now costs you a token instead of a card and deals 3 to 4 damage. `Al Bhed Salvagers` adds a fourth point. Start tracking deaths; each one also triggers `Heirloom Auntie`.
+3. **Refill and finish (turns 5 onward).** Cast `Revenge of the Rats` from hand, then flash it back for a second wave, and flash back `Tidings of War` for a 3/3-ish Army. Spend the new tokens on `Shadow Urchin` attacks and `Pyrrhic Strike`, and let the drain close the game.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Arnyn, Deathbloom Botanist | 4 | Payoff — 2/2 deathtouch; drain 2 whenever a power-or-toughness-1-or-less creature dies |
+| Boggart Mischief | 3 | Engine and payoff — blight 1 for two Goblin tokens; drain 1 on every Goblin death |
+| Al Bhed Salvagers | 3 | Payoff — 2/3; drain 1 on any creature or artifact death, including itself |
+| Heirloom Auntie | 4 | Engine — 4/4 that enters with two -1/-1 counters; surveils on each death and sheds a counter |
+| Gristle Glutton | 4 | Enabler — repeatable `{T}, Blight 1` loot; discards flashback spells, draws the payoffs |
+| Shadow Urchin | 3 | Enabler and value — mandatory blight on attack, then exiles cards equal to the dead creature's counters and lets you play them |
+| Gutsplitter Gang | 2 | Body — 6/6 for four; blight 2 each first main or lose 3 life |
+| Tidings of War | 4 | Token maker — amass Goblins 1, or 3 from the graveyard; flashback `{3}{R}` |
+| Revenge of the Rats | 3 | Win condition 2 — one Rat per creature card in yard; flashback `{2}{B}{B}` |
+| Plunder the Trollshaws | 3 | Card flow — draws two when cast from the yard; flashback `{3}{U}` |
+| Pyrrhic Strike | 2 | Interaction — blight 2 to get both modes: destroy artifact or enchantment and destroy a creature with mana value 3 or greater |
+| Requiting Hex | 1 | Interaction — one mana kill on a small creature, plus 2 life when blighted |
+
+## Lands as engines
+
+| Land | What it does for the deck |
+|---|---|
+| Restless Vents | Win condition land: `{1}{B}{R}` turns it into a 2/3 Insect with menace, and every attack lets you discard then draw, which stocks the yard for flashback |
+| Oscorp Industries | The mana spine: taps for blue, black or red, covering three of the four colors in one land |
+| Raucous Carnival | Red and white, usually untapped once either player is at 13 or less life, which is where this deck lives |
+| Dark Fortress | Black or red, or colorless in a pinch; reliable on the turn it arrives |
+| Murky Sewer | Blue and black, untapped at 13 life or less |
+| Neglected Manor | White and black, untapped at 13 life or less |
+
+## Curve and mana
+
+The deck wants two lands and a two-drop, not a five-drop. Nineteen of the thirty-six nonlands cost three, so the ideal curve is one-drop, two-drop, then two spells at three. Twenty-four lands at an average mana value of 2.67 gives a 65 percent chance of four lands by turn four.
+
+Sources: 17 black, 14 red, 7 blue, 6 white. Black is the primary, red the secondary, and blue and white are true splashes of three and two cards. `Dark Fortress` only produces colored mana on the turn it enters or while you control a basic land, so count it as a colorless land when you keep a one-lander.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with lands that enter untapped. `Raucous Carnival`, `Murky Sewer` and `Neglected Manor` are all live early only once someone is at 13 life or less, so plan on `Oscorp Industries` or a basic first. Turn-one `Tidings of War` is the best opening: it is a Goblin that blight costs can eat, and it is a flashback card that will be worth three counters later.
+
+## Mid game and the combo turn
+
+The combo turn is any turn with two or more blight payments and a death payoff on board. Sequence it like this:
+
+1. Make tokens first: `Boggart Mischief` (blight 1 for two Goblins) or cast and then flash back `Tidings of War`.
+2. Pay each blight cost on a token, not on your engine creatures. `Gristle Glutton`'s loot, `Shadow Urchin`'s attack trigger, `Pyrrhic Strike` and `Requiting Hex` are all blight outlets.
+3. Let the death triggers resolve. With Arnyn, Mischief and Salvagers all out, one token dying is 4 damage and 4 life; two blight payments in a turn is 8.
+4. Spend the resulting cards: `Shadow Urchin` exiles one card per counter on the dead creature, and `Heirloom Auntie`'s surveil decides what reaches the yard for `Revenge of the Rats`.
+
+`Gutsplitter Gang` is not optional about blighting. If you have no token to feed it, it costs you 3 life every first main phase, so cast it only when a token is available or when 3 life is a price you are willing to pay for a 6/6.
+
+## Win condition 2
+
+Flashback turns one token spell into two boards. `Revenge of the Rats` counts creature cards in the graveyard at resolution, so cast the hand copy first, blight the Rats away for drain, then flash it back once the yard is deeper. `Tidings of War` does the same trick with a Goblin Army: amass 1 from hand, amass 3 from the graveyard, and the Army keeps its counters between casts.
+
+The manland is the third angle. `Restless Vents` attacks as a 2/3 with menace, which is a real clock once the ground is cluttered with tokens, and its loot trigger is a free discard for the flashback plan.
+
+## Mulligan guide
+
+Keep hands with two or three lands, at least one black source, and one of `Heirloom Auntie`, `Gristle Glutton` or `Boggart Mischief`. A hand of only three-drops with no turn-one or turn-two play is a mulligan: the deck's engine needs a body that survives a counter before the drain payoffs matter. One-landers are acceptable only with `Oscorp Industries` or a basic plus a one-drop.
+
+## Key interactions and edge cases
+
+- **Counters cancel.** A +1/+1 counter and a -1/-1 counter do not coexist; one removes the other. So blighting a Goblin Army that has an amass counter does not kill it. Blight the Army only when you want it to survive and shrink, never when you need a death trigger.
+- **Blight is a cost.** It cannot be responded to by killing the target, and the creature is chosen as you pay. A 1/1 that takes a -1/-1 counter dies to state-based actions before any trigger resolves, which is why the death payoffs always see it.
+- **Shadow Urchin is mandatory.** Its attack trigger blights whether you like it or not, so do not attack with it if the only legal blight target is a creature you need.
+- **Trigger order matters.** Put the drain triggers on the stack first and the value triggers last when you want to resolve surveil before drawing, and remember `Heirloom Auntie` removes a counter only if it still has one.
+- **Flashback exiles.** A flashed-back card is gone for good. Cast the hand copy of `Revenge of the Rats` before the graveyard copy to maximize the token count.
+- **`Pyrrhic Strike` needs the blight.** Without paying blight 2 you get one mode; with it you get both, which is usually a two-for-one.
+
+## Matchups
+
+- **Aggro.** `Arnyn` is a deathtouch wall, `Requiting Hex` and `Pyrrhic Strike` trade up, and the drain race is close but winnable because your removal gains life.
+- **Control.** Your threats are cheap and recursive, and the drain does not care about blockers. Hold `Revenge of the Rats` for a turn where a wipe has already happened, and remember a flashed-back spell is immune to discard.
+- **Midrange.** `Gutsplitter Gang` trades with almost anything and the manland gets through stalled boards. The matchup is decided by whether `Boggart Mischief` resolves.
+
+# Iterations
+
+| Round | Change | Sim win rate | Synergy | Goldfish T4 | P(4 lands by T4) |
+|---|---|---|---|---|---|
+| v1 | Initial build: Moonshadow, Sourbread Auntie, Dreams of Laguna and Pursue the Past in, no cheap interaction | 48.7 | 73.5 | 0.643 | 0.639 |
+| v2 | Cut the fragile counter-carriers and the durdle draw spells for `Al Bhed Salvagers`, `Gutsplitter Gang`, `Pyrrhic Strike` and `Requiting Hex` | 56.3 | 72.7 | 0.647 | 0.654 |
+
+Deltas v1 to v2: sim 48.7 to 56.3, synergy 73.5 to 72.7, goldfish T4 0.643 to 0.647, lands 0.639 to 0.654. All gates passed at v2.
+
+# Deck list (Arena import)
+
+```
+Rot Reprise
+Deck
+4 Heirloom Auntie
+4 Gristle Glutton
+4 Arnyn, Deathbloom Botanist
+3 Boggart Mischief
+3 Shadow Urchin
+3 Al Bhed Salvagers
+2 Gutsplitter Gang
+4 Tidings of War
+3 Revenge of the Rats
+3 Plunder the Trollshaws
+2 Pyrrhic Strike
+1 Requiting Hex
+4 Oscorp Industries
+3 Raucous Carnival
+3 Dark Fortress
+2 Murky Sewer
+2 Restless Vents
+2 Neglected Manor
+4 Swamp
+2 Mountain
+1 Plains
+1 Island
+```
