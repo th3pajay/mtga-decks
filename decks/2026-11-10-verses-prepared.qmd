@@ -1,0 +1,137 @@
+---
+title: "Verses Prepared"
+subtitle: "Jund (black / red / green) prepared-spell aggro-combo — Reality Fracture"
+date: "2026-11-10"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard removal and mana) |
+| Colors | Black, red, green (Jund) |
+| Archetype | Prepared-spell aggro-combo: every creature carries a spell you can cast again and again |
+| Size | 60 cards, 23 lands, 37 spells and creatures |
+| Primary win | Prowess alpha strike: three prowess bodies plus repeated free spells, finished with `Winter, Team Player` and a protection trick |
+| Secondary win | Drain: `Vicious Verse` every upkeep from `Stingerquill Voxmancer`, doubled by `Codie, Ravenous Codex`, with `Yargle, Glutton of Urborg` as the haymaker |
+| Land as win condition | `Hexhaven Dueling Arena` re-arms an attacker after combat, so the alpha-strike turn still gets its free spell |
+
+Reality Fracture is Standard-legal, but every card in the set still carries no `arena_id` in the card data. The import list at the end becomes playable on Arena once the set is enabled there.
+
+# Overview
+
+Prepared is Reality Fracture's flagship mechanic. A creature "enters prepared" (or becomes prepared from an upkeep trigger) and while it is prepared you may cast a copy of its spell; casting the copy unprepares it. The double-faced cards of the set are literally the payload: the front face is the body, the back face is the spell.
+
+Most prepared creatures ask a real price for that loop — the Soul Tether cycle, for example, wants three mana for a mana rock. This deck picks the prepared creatures whose spells cost one mana, the ones you can actually cast every turn:
+
+- `Pompous Battlemage` (`{R}`, 1/1 prowess) hands you `Improvised Act` (`{R}`, loot) the turn it lands.
+- `Stingerquill Voxmancer` (`{B/R}`, 1/2) re-prepares itself for free at every upkeep, and its `Vicious Verse` (`{B/R}`) deals 1 damage to an opponent without ever attacking.
+- `Pyre Rhymer` (`{1}{R}{R}`, 3/3 prowess) gives `Molten Tide` (`{R}`): every Mountain you tap for the rest of the turn adds an additional `{R}`.
+
+Everything else multiplies those three: `Codie, Ravenous Codex` copies each prepared spell you cast, `Hexhaven Dueling Arena` re-arms a creature that already attacked, and `Winter, Team Player` turns the spell count into team power. The black splash is cheap — `Vicious Verse` and `Grim Repriser` are hybrid, so only six Swamps and three `Haunted Ridge` pay for `Mabel, Bitter Recluse`, `Rank Rat` and `Yargle, Glutton of Urborg`.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1-2, open on prepared bodies.** `Pompous Battlemage` and `Stingerquill Voxmancer` both attack and both leave a spell behind. Cast the copy immediately: a turn-one loot or a turn-two drain beats a stored trick, and every copy triggers prowess. `Lightning Strike` and `Sear` clear the first blocker so the small bodies keep connecting.
+2. **Turns 3-5, build the multiplier.** `Pyre Rhymer` must be answered — 3/3 prowess plus `Molten Tide` makes the next spell effectively free. `Codie` turns one Verse per turn into two. `Hexhaven Dueling Arena` re-arms whichever prepared creature attacked, so the free spell keeps coming without spending a card, and `Winter, Team Player` convokes off the 1/1s.
+3. **Turns 5-7, convert.** Attack with the prowess team, hold `Blossoming Defense` or `Snakeskin Veil` for the removal spell that matters, and use `Hexhaven` after combat for one more copy on the lethal turn. If the ground stalls, the drain half finishes it: one `Vicious Verse` per upkeep, doubled by Codie, plus `Yargle, Glutton of Urborg` as a 9/3 that ends a race in two swings.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Pompous Battlemage | 4 | One-mana prepared prowess body; `Improvised Act` loots every time it is re-armed |
+| Stingerquill Voxmancer | 4 | The free engine — re-prepares at every upkeep, so `Vicious Verse` fires without mana or combat |
+| Pyre Rhymer | 3 | Payoff body — 3/3 prowess, and `Molten Tide` doubles every Mountain tap for the turn |
+| Grim Repriser | 3 | 2/2 prowess that returns from the graveyard for `{B}{R}` after noncombat damage; Verse turns the recursion on |
+| Codie, Ravenous Codex | 2 | Multiplier — copies each prepared spell you cast, so every Verse and loot happens twice |
+| Winter, Team Player | 2 | Finisher — convoke, and each noncreature spell gives the whole team +1/+0 |
+| Mabel, Bitter Recluse | 2 | One-mana deathtouch blocker; her enters trigger strips counters from an opposing threat |
+| Rank Rat | 2 | Two-mana 1/1 that makes each opponent discard; fuels the drain plan |
+| Yargle, Glutton of Urborg | 2 | Haymaker — nine power for five mana, the answer to a stalled board |
+| Lightning Strike | 4 | Cheapest interaction that also triggers prowess |
+| Sear | 3 | Four damage to a creature or planeswalker; kills the blockers that stop the team |
+| Shock | 2 | One-mana prowess trigger that removes a mana creature or finishes a planeswalker |
+| Snakeskin Veil | 2 | Protection plus a counter; a prowess trigger that blanks a removal spell |
+| Blossoming Defense | 2 | The alpha-strike protection: +2/+2 and hexproof on the creature that must connect |
+
+## Lands as engines
+
+| Land | Copies | Function |
+|---|---|---|
+| Hexhaven Dueling Arena | 2 | Engine land: `{2}, {T}` re-prepares a creature that attacked this turn, `{4}, {T}` arms any prepared creature — a second free spell on the attack turn |
+| Rockfall Vale | 4 | Red-green fixing, untapped from the third land onward |
+| Haunted Ridge | 3 | Black-red fixing on the same condition; the only nonbasic black source |
+| Mountain / Forest / Swamp | 14 | The three-colour base: 10 green, 9 red and 9 black sources counting the duals |
+
+## Curve and mana
+
+Sixteen cards cost one mana, twelve cost two, five cost three, and only four cost five or more. The deck wants three lands and then stops caring, which is why 23 lands is right rather than 24: `Hexhaven` produces colourless mana and every extra land is a spell you did not cast. `Rockfall Vale` and `Haunted Ridge` need two other lands before they arrive untapped, so the first two drops should be basics.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on `Pompous Battlemage` or `Stingerquill Voxmancer`, never on a tapland. Cast the prepared copy the same turn when the mana is free: the copy is a prowess trigger even when the effect is small. Against a creature deck, `Shock` or `Lightning Strike` on the first blocker usually beats holding it, because the one-drops stop mattering once the opponent stabilises.
+
+## Mid game and the combo turn
+
+The engine turn is `Pyre Rhymer` plus `Molten Tide`. `Molten Tide` is not a classic ritual — it multiplies, so cast everything you can *before* it, then tap Mountains afterwards. Two copies (one from the creature, one bought back with `Hexhaven` after attacking) make each Mountain produce three red mana: enough for a protected `Yargle, Glutton of Urborg` and a `Sear` in the same turn.
+
+`Codie` changes the maths on every prepared spell: one `Vicious Verse` becomes two damage, one `Improvised Act` becomes two loots. Its activated ability costs one mana of each colour, so treat Codie as a 1/4 body with a free copy clause.
+
+## Win condition 2 — drain
+
+Without attacking, the deck still kills. `Stingerquill Voxmancer` re-prepares at every upkeep, so from turn two it is a free `Vicious Verse` each turn; with Codie that is 2 damage per turn from a one-mana creature. `Grim Repriser` turns those points into recursion, and `Rank Rat` plus `Mabel, Bitter Recluse` hold the board while the drain adds up. Against control this is the primary plan: attack only when the opponent taps out.
+
+## Mulligan guide
+
+Keep any hand with a one-drop prepared creature plus two lands, and keep `Pyre Rhymer` with three lands. Ship hands that need both a third colour and a fourth land, and one-land hands without `Shock` or `Lightning Strike` — the deck has no way to dig out of mana trouble beyond `Improvised Act`. Six-land hands are keepable only with `Codie`.
+
+## Key interactions and edge cases
+
+- Preparation exists only on creatures with prepare spells, and in this deck that is exactly the three double-faced creatures: `Pompous Battlemage`, `Stingerquill Voxmancer` and `Pyre Rhymer`. `Hexhaven` does nothing for the other six creatures.
+- Casting a copy unprepares the creature, so each body pays out once per preparation. `Stingerquill Voxmancer` is the exception: its upkeep trigger re-prepares it for free.
+- `Hexhaven`'s two-mana ability is sorcery-speed and needs a creature that attacked this turn; the four-mana ability has no such restriction and is the one to use on defence.
+- `Molten Tide` only counts Mountains: `Rockfall Vale` and `Haunted Ridge` are not Mountains, so the ritual is best with basics in play.
+- `Vicious Verse` targets an opponent, so it always satisfies `Grim Repriser`'s noncombat-damage condition — the Repriser is a repeatable two-mana rebuy in the drain plan.
+- `Winter, Team Player` counts every noncreature spell, including prepared copies: convoke it with the team, then cast two copies for six or more power of pump.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade with `Shock`, `Lightning Strike` and `Sear`, block with `Mabel`, then win with the Verse drain |
+| Control | Hold one prepared body back, cast copies at end of turn, win with Codie-doubled Verses plus `Yargle` |
+| Midrange | `Pyre Rhymer` plus `Molten Tide` out-tempos their four-drops; save `Blossoming Defense` for the Rhymer |
+
+# Deck list (Arena import)
+
+```text
+Verses Prepared
+Deck
+4 Pompous Battlemage
+4 Stingerquill Voxmancer
+3 Pyre Rhymer
+3 Grim Repriser
+2 Codie, Ravenous Codex
+2 Winter, Team Player
+2 Mabel, Bitter Recluse
+2 Rank Rat
+2 Yargle, Glutton of Urborg
+4 Lightning Strike
+3 Sear
+2 Shock
+2 Snakeskin Veil
+2 Blossoming Defense
+2 Hexhaven Dueling Arena
+4 Rockfall Vale
+3 Haunted Ridge
+2 Mountain
+6 Forest
+6 Swamp
+```
