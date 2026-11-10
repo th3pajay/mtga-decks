@@ -1,0 +1,171 @@
+---
+title: "Nothing Left Behind"
+subtitle: "White, black, red and green — Void, Evoke and attack triggers"
+date: "2026-11-10"
+categories: ["combo", "void", "evoke", "attack-matters"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | White, black, red, green (no blue) |
+| Archetype | Aggro-combo: evoke sacrifice into Void payoffs |
+| Mechanics | Void, Evoke, attack triggers |
+| Size | 60 cards, 23 lands |
+| Primary win | Void-powered combat: Alpharael halves a life total, Ingris burns per attacker |
+| Secondary win | Chorale of the Void reanimation plus token swarm |
+| Effective curve | 6 one-drops, 10 twos, 7 threes, 12 fours, 2 fives |
+
+# Overview
+
+Void asks a single question every turn: did a nonland permanent leave the battlefield this turn? Every Void card in the deck reads the same condition, and the deck is built so the answer is always yes.
+
+The cheapest yes in Standard is **Evoke**. `Catharsis`, `Vibrance` and `Emptiness` are Elemental Incarnations with hybrid evoke costs of two mana. Cast one for its evoke cost, collect the enters trigger, and the creature is sacrificed on entry. That one two-mana play pays for every Void card in the deck for the rest of the turn, and it pays at a profit: `Catharsis` evoked with two red gives the whole team +1/+1 and haste, so the same two mana that turns Void on also turns the board sideways.
+
+The payoffs split into two halves that feed each other. The Void half converts the condition into permanent advantage at end of step: `Elegy Acolyte` grows a 2/2 Robot, `Insatiable Skittermaw` grows a counter, `Alpharael, Stonechosen` halves the defending player's life when he attacks. The attack half converts a wide board into damage: `Ingris Stingerquill` makes every single attacker ping, `Marshal of the Lost` turns attacker count into power, `War Effort` adds a free attacker to every combat, `Suki, Kyoshi Warrior` is as large as the board and brings a friend. Nothing in the deck is a dead card on its own: the engine is a condition, not a two-card combo, so thirteen enablers and twenty payoffs all read the same line of text.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Set up | 1-2 | Land, `Hylderblade` or a one-mana interaction spell, hold an evoke creature |
+| Ignition | 2-3 | Evoke for two mana, Void live, attack with haste or add a Void body |
+| Snowball | 4-6 | Void payoffs accumulate robots, counters and cards while the board widens |
+| Close | 6+ | Alpharael attack, Ingris ping turn, or Chorale reanimation swing |
+
+The deck wants to be the one asking the questions. It does not need to combo off in a single turn; it needs the Void condition true on every one of your turns, which the evoke creatures guarantee as long as you have one in hand or one in the graveyard for `Emptiness`.
+
+## Card roles
+
+| Role | Cards | What it does |
+|---|---|---|
+| Ignition (evoke) | 4 `Catharsis`, 2 `Vibrance`, 2 `Emptiness` | Two mana, one trigger, one permanent gone, Void online |
+| Void advantage | 4 `Elegy Acolyte`, 2 `Insatiable Skittermaw`, 2 `Alpharael, Stonechosen` | Robots, counters, life-halving attacks |
+| Void engine | 2 `Chorale of the Void` | Every attack reanimates from their yard |
+| Attack conversion | 2 `Ingris Stingerquill`, 2 `Suki, Kyoshi Warrior`, 2 `Finneas, Ace Archer`, 2 `Marshal of the Lost`, 2 `War Effort` | Damage per attacker, power per creature, free attackers |
+| Equipment | 3 `Hylderblade` | One mana for +3/+1, free reattach |
+| Interaction | 3 `Plasma Bolt`, 2 `Temporal Intervention` | Three damage, one-mana discard |
+| Card flow | 4 `Elegy Acolyte`, 1 `Araña, Heart of the Spider`, 2 `Finneas, Ace Archer` | Draw on combat damage, exile-and-play |
+
+## Lands as engines
+
+| Land | Count | Job |
+|---|---|---|
+| `Dalkovan Encampment` | 2 | Win-condition land: two 1/1 Warriors attacking per combat, which is two Ingris pings and two Marshal counters |
+| `Blood Crypt` | 4 | Black and red on turn one, the two colours the engine actually needs |
+| `Godless Shrine` | 3 | Black and white for `Elegy Acolyte` and `Marshal of the Lost` |
+| `Concealed Courtyard` | 2 | Untapped white and black on the early turns |
+| `Blooming Marsh` | 2 | Untapped black and green while the board is small |
+| `Stomping Ground` | 2 | Red and green for `Vibrance` and `Suki` |
+| `Temple Garden` | 2 | Green and white |
+| `Wastewood Verge` | 2 | Green, or black once a Swamp or Forest is down |
+| `Inspiring Vantage` | 1 | Untapped red and white |
+| `Forest`, `Swamp`, `Plains` | 1 each | Fixes the Verge and gives the fastlands something to curve into |
+
+`Dalkovan Encampment` is the land that wins games. Two mana and a tap after combat is declared gives you two attacking Warriors, and those tokens are exactly what `Ingris Stingerquill`, `Marshal of the Lost` and `War Effort` are counting. It enters untapped as long as you have a Swamp or a Mountain, which the four `Blood Crypt` and three `Godless Shrine` supply.
+
+## Curve and mana
+
+The printed curve looks top-heavy because the three evoke creatures cost six, five and six. Counted at the price you actually pay, it is a two-drop deck with a real top end:
+
+| Cost | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Cards | 6 | 10 | 7 | 12 | 2 |
+
+The one-drops are `Hylderblade` and `Plasma Bolt`; the twos are the three evoke creatures plus `Finneas`; the fives are two `Alpharael`. Two colours carry the engine, black and red, and both are on turn one through eleven untapped duals. White is the token and deathtouch colour, green is the Suki and Finneas colour, and neither is needed before turn three. Twenty-three lands with four shocks and five fastlands puts four lands on the battlefield by turn four about 62 percent of the time.
+
+# Gameplay strategy
+
+## Early game
+
+Turns one and two decide the shape of the game. `Hylderblade` on one is the best opening in the deck: one mana for three power, and every later turn with Void on lets you move it onto whichever creature is actually connecting. `Plasma Bolt` on one kills a mana creature or clears a blocker.
+
+Turn two is usually the ignition turn. Evoke `Catharsis` paying two red for a team-wide +1/+1 and haste, then attack with everything. Paying two white instead gives two 1/1 Kithkin, which is the right choice when you are holding `Suki`, `Finneas` or a `Marshal` rather than an empty board. Either mode is a two-mana play that leaves Void switched on for the rest of the turn.
+
+## Mid game
+
+From turn three the deck plays one threat and one piece of interaction per turn while the Void triggers stack up. `Elegy Acolyte` is the best four-drop in the deck: a 4/4 lifelink that draws a card whenever the team connects and grows a Robot every turn Void is live. Those Robots are the fuel for the wide swing later, and they never cost a card.
+
+`Chorale of the Void` is the quiet engine. Enchant the creature that attacks most, and each combat returns a creature from the defending player's graveyard tapped and attacking. It is also self-preserving: it is only sacrificed at your end step if nothing left the battlefield, which the evoke creature already paid for.
+
+## The combo turn
+
+The signature turn costs five mana and wins from a losing board.
+
+1. Evoke `Catharsis` for two red: team gets +1/+1 and haste, the Elemental is sacrificed, Void is on.
+2. Attack with everything, including any creature that entered this turn.
+3. With Void live, `Alpharael, Stonechosen` attacking makes the defending player lose half their life, rounded up. Any Void creature still in hand is also live: `Temporal Intervention` costs a single black to strip their answer, `Plasma Bolt` deals three.
+4. At end of step, `Elegy Acolyte` makes a Robot, `Insatiable Skittermaw` takes a counter, `Hylderblade` reattaches for free.
+
+Two Alpharael attacks take a full life total to a quarter, and the second one usually arrives with four or five other attackers behind it.
+
+## Win condition two
+
+`Ingris Stingerquill` is the deck's second, separate clock. She is a 1/4 flyer for three, and every creature that attacks deals 1 damage to each opponent, so a six-creature swing is six extra damage on top of combat. She turns `War Effort`, `Dalkovan Encampment`, `Suki` and the `Elegy Acolyte` Robots into direct damage, and she blocks well while you build.
+
+The same wide board also makes `Suki, Kyoshi Warrior` enormous: her power equals your creature count. Sequence her after the tokens, not before.
+
+## Mulligan guide
+
+Keep hands with two or three lands, one evoke creature and one Void payoff. A one-land hand is keepable on the play only with `Hylderblade` or `Plasma Bolt` and a second land in the top three. Ship hands with four or more lands and no evoke creature, or hands that curve `Alpharael` into `Chorale` with no cheap plays: those are payoffs, not plans.
+
+## Key interactions and edge cases
+
+- **Evoke is the switch, and it is one-sided.** The sacrificed Elemental counts as a nonland permanent that left the battlefield, so the condition is true for the rest of that turn, including your end step. Cast the evoke creature in your first main phase and every Void card in hand is upgraded for the turn. The enters trigger and the sacrifice trigger both go on the stack on entry; order it so the enters trigger resolves first when you need the tokens or the pump before combat.
+- **Hylderblade never pays its equip cost.** With Void live, the end-step trigger attaches it to any creature for free, so one blade moves every turn. It also makes the equipped creature modified, which is what `Araña, Heart of the Spider` is looking for.
+- **Chorale's sacrifice clause is a bonus, not a cost.** The aura is only lost if nothing left the battlefield that turn. A single evoke creature keeps it for the whole game.
+- **Temporal Intervention at one mana.** Void reduces its cost by two, so the discard spell costs a single black. It is the cleanest answer to a board wipe or a counterspell.
+- **Emptiness evokes into a reanimation.** Paying two white returns a creature with mana value three or less from the graveyard, which includes a previously evoked `Catharsis` or a `Skittermaw`, and the returned creature stays.
+- **Catharsis modes are a real choice.** Two red is the alpha-strike turn; two white is the go-wide turn. Read which payoff is in hand before you tap the mana.
+
+## Matchups
+
+**Aggro.** `Elegy Acolyte` is the whole matchup: a 4/4 lifelink that draws cards stabilises faster than anything else in the deck. Three `Plasma Bolt` are the only direct removal, so block early, trade tokens freely and let lifelink do the work.
+
+**Control.** Do not commit more than two threats at once. Hold an evoke creature so you can rebuild after a wipe, and use `Temporal Intervention` at one mana to strip their sweeper. `Chorale of the Void` is the card they struggle with most, because it turns their own removal into your board.
+
+**Graveyard decks.** `Chorale of the Void` steals from the defending graveyard every combat. Against decks that fill their own yard, the aura is a one-card army.
+
+**Ramp and midrange.** Race with Ingris and the token swarm. Their creatures are bigger, but every attacker pings, `Marshal of the Lost` turns a wide board lethal, and `Alpharael` halves life totals that no amount of ramp protects.
+
+{{< pagebreak >}}
+
+# Deck list (Arena import)
+
+```
+Nothing Left Behind
+Deck
+4 Catharsis
+2 Vibrance
+2 Emptiness
+4 Elegy Acolyte
+2 Alpharael, Stonechosen
+2 Ingris Stingerquill
+2 Suki, Kyoshi Warrior
+2 Finneas, Ace Archer
+1 Araña, Heart of the Spider
+2 Insatiable Skittermaw
+3 Hylderblade
+2 Chorale of the Void
+2 War Effort
+2 Marshal of the Lost
+3 Plasma Bolt
+2 Temporal Intervention
+4 Blood Crypt
+3 Godless Shrine
+2 Stomping Ground
+2 Temple Garden
+2 Wastewood Verge
+2 Dalkovan Encampment
+2 Concealed Courtyard
+2 Blooming Marsh
+1 Inspiring Vantage
+1 Forest
+1 Swamp
+1 Plains
+```

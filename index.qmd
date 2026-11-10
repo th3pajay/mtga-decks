@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-09**:
+Deck guides published **2026-11-10**:
 
-- **[Rot Reprise](decks/2026-11-09-rot-reprise.html)** — Four-color blight and flashback: your own tokens are the fuel  `combo` `blight` `flashback`
-- **[Ember Quill Council](decks/2026-11-09-ember-quill-council.html)** — Jund (black / red / green) Sphinx drain aggro — Reality Fracture  `reality-fracture` `sphinx`
+- **[Nothing Left Behind](decks/2026-11-10-nothing-left-behind.html)** — White, black, red and green — Void, Evoke and attack triggers  `combo` `void` `evoke` `attack-matters`
