@@ -1,0 +1,129 @@
+---
+title: "Rotmarket"
+subtitle: "Black-Red — Blight"
+date: "2026-11-11"
+categories: ["combo", "blight"]
+---
+
+
+## At a glance
+
+| Field | Value |
+|:--------------|:--------------------------------------------------|
+| Format | Standard |
+| Colors | Black and Red |
+| Archetype | Tokens-and-attrition midrange combo |
+| Size | 60 cards |
+| Primary win | Rottenmouth Viper drain, doubled by Bloodletter of Aclazotz |
+| Secondary win | Soul Immolation burst to each opponent and their board |
+
+## Overview
+
+Blight is a cost, not a keyword bonus: every blight line asks you to put -1/-1 counters on a creature you control. Rotmarket pays that cost with Goblins and Treasures instead of real cards, then sells the resulting counters three times over. Shadow Urchin turns any blighted creature that dies into cards. Rottenmouth Viper converts its own blight counters into repeatable life loss. Soul Immolation turns the largest toughness you control into a one-sided sweeper plus a burn spell. Bloodletter of Aclazotz doubles the life loss from both finishers.
+
+Nothing in the deck needs a specific two-card kill to function. Scuzzback Scrounger, Gristle Glutton and Sourbread Auntie all generate value on their own, and the payoffs are live from turn four onward.
+
+## Approach
+
+### Game plan phases
+
+| Phase | Turns | What you are doing |
+|:------------|:-----|:-----------------------------------------------------------------|
+| Setup | 1-2 | Land a two-drop blight engine (Scuzzback Scrounger, Gristle Glutton) and start making Treasures |
+| Engine | 3-4 | Sourbread Auntie or Boggart Mischief to put bodies on the board, Shadow Urchin to start trading them for cards |
+| Combo | 5-6 | Rottenmouth Viper at a discount, or Soul Immolation for a one-sided wipe plus face damage |
+| Close | 7+ | Bloodletter of Aclazotz to double the drain, Rogue's Passage or Restless Vents to finish |
+
+### Card roles
+
+| Role | Cards | Function |
+|:------------|:----------------------------------------------|:------------------------------------------------------------------|
+| Blight engines | Scuzzback Scrounger, Gristle Glutton, Dawnhand Dissident, Sting-Slinger | Repeatable blight 1 for Treasure, loot, surveil or 2 damage to each opponent |
+| Fodder | Sourbread Auntie, Boggart Mischief, Treasure tokens | Bodies to absorb -1/-1 counters so real creatures keep their stats |
+| Card advantage | Shadow Urchin, Buzzard-Wasp Colony, Dawnhand Dissident, Gristle Glutton | Counters on dying creatures become exiled cards you may play, and the Colony trades a token for a card on entry |
+| Payoffs | Rottenmouth Viper, Soul Immolation, Bloodletter of Aclazotz, Sting-Slinger | Life loss scaled by blight counters, damage scaled by toughness |
+| Interaction | Cinder Strike, Bogslither's Embrace | One-mana 4-damage removal, and unconditional exile for two |
+
+### Lands as engines
+
+| Land | Count | Role in the deck |
+|:-----------------|:-----|:---------------------------------------------------------------------------------|
+| Restless Vents | 4 | Win-con land: becomes a 2/3 menace Insect that attacks, and loots on attack. It is also a legal target for blight counters while animated |
+| Rogue's Passage | 2 | Win-con land: makes Rottenmouth Viper unblockable so the 6/6 actually connects |
+| Blazemire Verge | 4 | Black source that becomes a red source once a Swamp or Mountain is out |
+| Swamp | 9 | Primary black source for Viper, Bloodletter and the discard lines |
+| Mountain | 5 | Primary red source for Sourbread Auntie and Soul Immolation |
+
+### Curve and mana
+
+| CMC | 1 | 2 | 3 | 4 | 5 | 6 |
+|:--------|:--|:--|:--|:--|:--|:--|
+| Cards | 5 | 8 | 11 | 7 | 3 | 2 |
+
+Average mana value is 3.03 across 36 nonland cards, with 24 lands. The deck counts 17 black sources and 13 red sources, so the double-red of Sourbread Auntie and Soul Immolation is the tightest cost; Blazemire Verge covers both once a basic is down. Bloodletter of Aclazotz at triple black is the reason the manabase leans Swamp.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with Scuzzback Scrounger or Gristle Glutton. Scuzzback is a 3/2 that pays you a Treasure every first main phase for one blight counter, which is exactly the token you want to be shrinking. Gristle Glutton is a 1/3 that loots for a blight counter, so keep spare lands to discard. Do not blight your only blocker: on turn two the correct blight target is usually Scuzzback itself once it has attacked, or nothing at all.
+
+### Mid game
+
+Sourbread Auntie is the pivot. A 4/3 for four that makes two 1/1 Goblin tokens on entry is four power across three bodies, and every one of those bodies is a legal blight target. Boggart Mischief does the same at three mana for one counter and adds a drain trigger whenever a Goblin dies. Shadow Urchin then converts each of those deaths into exiled cards equal to the counters on the dead creature.
+
+On defence, Cinder Strike kills most early attackers for one mana when you pay the blight cost, and Bogslither's Embrace exiles anything for two if you can blight.
+
+### The combo turn
+
+Rottenmouth Viper costs {5}{B}, but you may sacrifice any number of nonland permanents as an additional cost and it costs {1} less for each. With two Goblin tokens, a Treasure and a spent blight engine, Viper routinely lands on turn four for {B}. Its enter trigger puts a blight counter on itself, and then for each blight counter each opponent loses 4 life unless they sacrifice a nonland permanent or discard a card.
+
+That is the engine: every attack adds another counter, so the tax reads 4, then 8, then 12. With Bloodletter of Aclazotz on the battlefield the same sequence is 8, 16, 24, which is a two-attack kill. Rogue's Passage makes the Viper unblockable so the six damage lands on top of the drain.
+
+### Win condition 2
+
+Soul Immolation costs {3}{R}{R} with an additional cost of blight X, where X cannot exceed the greatest toughness among creatures you control. It deals X damage to each opponent and each creature they control, which means it never touches your side of the board. With Rottenmouth Viper out X is 6, or 4 off Shadow Urchin and Chaos Spewer; dump the counters on a Goblin token. Bloodletter doubles the life loss to 12, and the second copy closes the game. Against creature decks this doubles as a one-sided sweeper that also burns.
+
+### Mulligan guide
+
+Keep hands with two to four lands, one cheap blight engine, and at least one token maker or Shadow Urchin. Ship hands whose only action costs five or more, and ship one-land hands even with Scuzzback Scrounger, because the deck needs four lands by turn four roughly 63 percent of the time. A hand of Cinder Strike plus two-drop plus three lands is a keep on the play.
+
+### Key interactions and edge cases
+
+- Blight counters are a real cost. Never blight a creature you need to attack with unless the counter buys a Treasure, a card or lethal.
+- Shadow Urchin counts counters, not creatures: a token holding one blight counter that dies exiles exactly one card. Play the exiled cards before your next end step.
+- Chaos Spewer is a 5/4 for three if you pay {2} on entry. If you would rather keep the mana, it blights 2 and shrinks itself, so pay whenever the body matters.
+- Sting-Slinger taps for its damage, so decide on your turn whether you want the 2 damage to each opponent (4 with Bloodletter) or the 3/3 attacker.
+- Dawnhand Dissident removes three counters from among creatures you control to cast creature spells it has exiled. Blight counters you added for value are also currency for that ability.
+- Restless Vents is a land, so a blight counter on it while animated kills the land permanently. Only animate it when the attack is worth the risk.
+- Rottenmouth Viper's drain triggers on attack, not on damage. Rogue's Passage is there for the six damage, not to enable the trigger.
+
+### Matchups
+
+Against aggro, trade tokens for time: Cinder Strike and Bogslither's Embrace answer the first two threats, and Soul Immolation for 4 wipes their board while leaving yours intact. Against control, the Viper's sacrifice-or-discard tax attacks their hand while Restless Vents and Rogue's Passage provide threats that survive a sweeper. Against midrange, the deck wins the long game because Shadow Urchin turns every chump block into cards, and Bloodletter turns a single Viper attack into a two-turn clock.
+
+## Deck list (Arena import)
+
+```
+Rotmarket
+Deck
+4 Scuzzback Scrounger
+3 Gristle Glutton
+2 Dawnhand Dissident
+3 Chaos Spewer
+3 Shadow Urchin
+3 Sourbread Auntie
+2 Sting-Slinger
+2 Rottenmouth Viper
+2 Bloodletter of Aclazotz
+2 Buzzard-Wasp Colony
+3 Boggart Mischief
+3 Soul Immolation
+3 Cinder Strike
+1 Bogslither's Embrace
+4 Restless Vents
+2 Rogue's Passage
+4 Blazemire Verge
+9 Swamp
+5 Mountain
+```

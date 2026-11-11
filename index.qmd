@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-10**:
+Deck guides published **2026-11-11**:
 
-- **[Verses Prepared](decks/2026-11-10-verses-prepared.html)** — Jund (black / red / green) prepared-spell aggro-combo — Reality Fracture  `reality-fracture` `prepared`
-- **[Nothing Left Behind](decks/2026-11-10-nothing-left-behind.html)** — White, black, red and green — Void, Evoke and attack triggers  `combo` `void` `evoke` `attack-matters`
+- **[Rotmarket](decks/2026-11-11-rotmarket.html)** — Black-Red — Blight  `combo` `blight`
