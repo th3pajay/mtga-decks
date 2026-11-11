@@ -1,0 +1,143 @@
+---
+title: "Tetherwright"
+subtitle: "Temur (blue / red / green) Heartwood-artifact combo — Reality Fracture"
+date: "2026-11-11"
+categories: ["reality-fracture", "heartwood"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard artifact support) |
+| Colors | Blue, red, green (Temur) |
+| Archetype | Heartwood artifact combo: prepared creatures mint artifact tokens, and every artifact counts |
+| Size | 60 cards, 24 lands, 36 spells and creatures |
+| Primary win | Artifact-count alpha strike: `Craterclaw Colossus` or `Pia, Determined Rebuilder` pumps the team by the number of artifacts, then `Sandstorm Salvager` gives the tokens trample |
+| Secondary win | `Saheeli, the Sun's Brilliance` copies `Craterclaw Colossus` or `Hungering Puppetbeast` for a second enters trigger, or copies a Heartwood to keep the count climbing |
+| Land as win condition | `Secluded Starforge` taps X untapped artifacts to give a creature +X/+0, and turns spare mana into 2/2 Robots |
+
+Reality Fracture is Standard-legal, but every card in the set still carries no `arena_id` in the card data. The import list at the end becomes playable on Arena once the set is enabled there.
+
+# Overview
+
+Heartwood is Reality Fracture's artifact economy. A Heartwood token is a red and green artifact with "{T}: Add {R} or {G}" — mana and an artifact, never a creature. The deck turns that last detail into an advantage: the tokens ramp, they block nothing, and they pile up as a resource that four different cards convert into damage or size.
+
+The supply is the Soul Tether cycle. `Heartwood Crafter`, `Konstrari Improviser` and `Woodwork Prodigy` all enter prepared, and while prepared you may cast a copy of `Soul Tether` (`{2}{R/G}`) to create a Heartwood and unprepare the creature. `Woodwork Prodigy` is the engine: it becomes prepared again at every upkeep, so it hands you a Heartwood every turn for the rest of the game. `Tenured Tethermage` and `Aerid Konstrari` add tokens on entry.
+
+The payoffs all scale. `Craterclaw Colossus` gives the team trample and +X/+0 where X is your artifact count, `Pia, Determined Rebuilder` does the same to one creature every turn, `Aerid Konstrari` grows by the same measure when it activates, and `Secluded Starforge` taps artifacts for power without spending a card. Because Heartwoods regenerate every turn, the same six artifacts get counted again and again.
+
+The blue splash is thin and deliberate: `The Mechanist, Aerial Artisan` turns a Heartwood into a 3/1 flier and pays you a Clue for every prepared spell, and `Saheeli, the Sun's Brilliance` copies the biggest artifact or creature on the board for a turn.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1-3, lay the engine.** Lead on `Heartwood Crafter` or `Konstrari Improviser`. Cast the `Soul Tether` copy as soon as the mana exists — a 1/1 plus a mana rock on turn two is exactly the curve this deck wants. `Sandstorm Salvager` and `Pia, Determined Rebuilder` add creature tokens that can actually attack, and `Konstrari Charm` clears a blocker or fixes a colour.
+2. **Turns 3-6, multiply the count.** `Woodwork Prodigy` is the priority three-drop: every upkeep it re-arms, so every turn it converts three mana into a Heartwood. `Tenured Tethermage` turns a spare land into two tokens, `Aerid Konstrari` is a 5/4 flier that pays a Heartwood on entry and again on death, and `The Mechanist` starts turning spare Heartwoods into 3/1 fliers while each `Soul Tether` copy draws a Clue.
+3. **Turns 5-7, convert.** Deploy `Craterclaw Colossus` (haste, team trample, +X/+0 by artifact count), then attack with everything. If the ground is stalled, `Pia` or `Secluded Starforge` stacks the same bonus on one flier and finishes through the air. `Saheeli` doubles the biggest enters trigger on the turn you need it.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Heartwood Crafter | 4 | One-mana prepared body; makes a Heartwood immediately, and its `{T}: Add {C}` pays for the copies it casts from anywhere but hand |
+| Konstrari Improviser | 4 | Two-mana prepared body, the second Heartwood supplier; blocks and attacks early |
+| Woodwork Prodigy | 3 | The engine — re-prepares at every upkeep, so one Heartwood per turn with no card spent |
+| Tenured Tethermage | 2 | Converts a spare land into two tapped Heartwoods; grows by two counters per activation off two artifacts |
+| Aerid Konstrari | 2 | 5/4 flying threat, Heartwood on entry and on death, and a repeatable +X/+0 pump scaled by artifacts |
+| Hungering Puppetbeast | 2 | 5/5 that pays a Heartwood on entry and eats spare artifacts for counters, trample or hexproof |
+| Sandstorm Salvager | 2 | Token maker (3/3 Golem) and the trample outlet for every creature token you own |
+| Pia, Determined Rebuilder | 2 | Thopter on entry, then a repeatable artifact-scaled pump for one attacker |
+| The Mechanist, Aerial Artisan | 2 | Turns a Heartwood into a 3/1 flier, and every noncreature spell (including each `Soul Tether` copy) makes a Clue |
+| Saheeli, the Sun's Brilliance | 2 | Copies a creature or artifact for a turn; the copy keeps the enters trigger and is an artifact as well |
+| Craterclaw Colossus | 1 | Finisher — haste, team trample, +X/+0 by artifact count on entry |
+| Konstrari Charm | 4 | Modal glue: six damage to a flier, two counters plus trample, or three colourless mana |
+| Temur Monument | 2 | Two-mana artifact that finds a land, then sacrifices for a 5/5 Elephant |
+| Melded Moxite | 2 | Two-mana artifact that loots on entry and leaves a 2/2 Robot behind |
+| Burst Lightning | 2 | One-mana interaction that also feeds the artifact count when kicked late |
+
+## Lands as engines
+
+| Land | Copies | Function |
+|---|---|---|
+| Secluded Starforge | 2 | Win-condition land: `{2}, {T}`, tap X untapped artifacts → target creature gets +X/+0; `{5}, {T}` makes a 2/2 Robot |
+| Rockfall Vale | 3 | Red-green fixing, untapped from the third land on |
+| Dreamroot Cascade | 3 | Green-blue fixing on the same condition |
+| Stormcarved Coast | 3 | Red-blue fixing on the same condition |
+| Forest / Mountain / Island | 13 | The base: 13 green, 9 red and 9 blue sources counting the duals |
+
+## Curve and mana
+
+Six cards cost one mana, twenty-two cost two, three cost three, two cost four, two cost five and one costs seven. The deck is deliberately top-light: it wants three lands, a Heartwood engine and a scaling payoff. Twenty-four lands is correct because `Secluded Starforge` produces only colourless mana and `Temur Monument` plus `Melded Moxite` smooth the draws. Eight of the duals arrive tapped unless you control two other lands, so the first two lands of a hand should be basics.
+
+# Gameplay strategy
+
+## Early game
+
+Open on a one-drop or a two-drop that makes an artifact, never on a tapland. `Heartwood Crafter` on turn one into `Konstrari Improviser` plus its `Soul Tether` on turn two is the ideal sequence: two bodies and two mana rocks by turn three, with `Burst Lightning` or `Konstrari Charm` held for the first blocker. Do not trade the prepared creatures in combat if the trade costs you the `Soul Tether` body — the tokens matter more than the 1/1s.
+
+## Mid game and the combo turn
+
+The engine turn is a re-armed `Woodwork Prodigy` with three mana up: cast `Soul Tether`, make a Heartwood, keep the 3/3 back to block. Every extra token is worth roughly one point of power on the combo turn, which is why `Tenured Tethermage` (two tokens from one land) and `Aerid Konstrari` (one on entry, one on death) are worth their cost.
+
+The combo turn itself is `Craterclaw Colossus` with five or more artifacts in play. It enters, your whole team gains trample and +5/+0 or better, and the Heartwoods that paid for it are still untapped for `Secluded Starforge`. Sequence it as: cast Colossus, activate `Pia` or `Secluded Starforge` on the largest evasive body, then attack. `Saheeli, the Sun's Brilliance` copying the Colossus doubles the enters trigger, which is usually lethal on its own.
+
+## Win condition 2 — the copy engine
+
+`Saheeli, the Sun's Brilliance` is not a fair card in this shell. Copying `Craterclaw Colossus` gives a hasty 5/5 that triggers the team pump a second time; copying `Hungering Puppetbeast` gives a hasty 5/5 and a Heartwood; copying a 3/3 Golem or a Heartwood keeps the artifact count climbing for `Secluded Starforge`. Against control, copy whichever artifact is largest and attack once — the copy is sacrificed at end of turn, so it is pure profit.
+
+`The Mechanist, Aerial Artisan` is the other half of the grind: each prepared spell is a noncreature spell, so every `Soul Tether` copy makes a Clue as well as a Heartwood, and `{T}` turns a spare Heartwood into a 3/1 flier that counts as an artifact for every payoff.
+
+## Mulligan guide
+
+Keep any hand with a Heartwood supplier (`Heartwood Crafter`, `Konstrari Improviser`) plus two or three lands, and keep `Woodwork Prodigy` with three lands. Ship one-land hands without `Konstrari Charm` or `Burst Lightning`, ship hands with three or more colourless-only lands, and ship hands that need both a fourth land and a second colour. `Temur Monument` and `Melded Moxite` make five-land hands keepable.
+
+## Key interactions and edge cases
+
+- Preparation exists only on creatures with prepare spells: `Heartwood Crafter`, `Konstrari Improviser` and `Woodwork Prodigy`. Nothing else in the deck can become prepared.
+- Casting a copy unprepares the creature. `Woodwork Prodigy` is the only one that re-arms itself; the other two pay out once per entry, so copy their spell before they die if the mana is free.
+- `Heartwood Crafter`'s `{T}: Add {C}` can only pay for spells not cast from your hand — which is exactly the `Soul Tether` copy, so tap it before casting.
+- Heartwood tokens are artifacts, not creatures. They cannot attack, they do not trigger `Sandstorm Salvager`, and they die to artifact removal; `The Mechanist` is the way to turn one into a body.
+- The legend rule applies immediately, so a `Saheeli` copy of `Aerid Konstrari` dies on the spot: two Heartwoods for one activation, not a second attacker. Copy the non-legendary payoffs instead.
+- `Tenured Tethermage` sacrifices a land on entry — only use it on a spare land or when you are flooding, and remember the two Heartwoods arrive tapped.
+- `Konstrari Charm`'s third mode adds `{C}{C}{C}`, which pays generic costs only; it is the fixer for double-green cards like `Hungering Puppetbeast`.
+- `Secluded Starforge` taps the artifacts as part of the cost, so activate it after the Heartwoods have produced mana and before combat.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade early with `Burst Lightning` and `Konstrari Charm`, block with `Konstrari Improviser`, then stabilise behind a 5/5 `Hungering Puppetbeast` and win with the artifact pump |
+| Control | Do not overextend into a sweeper: hold `Woodwork Prodigy` plus two tokens, and use `The Mechanist` Clues to keep cards flowing until `Craterclaw Colossus` plus a `Saheeli` copy ends it in one turn |
+| Midrange | Out-scale them: every Heartwood is a permanent point of power, `Pia` and `Secluded Starforge` push a flier through, and `Craterclaw Colossus` tramples over stalled boards |
+
+# Deck list (Arena import)
+
+```text
+Tetherwright
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+3 Woodwork Prodigy
+2 Tenured Tethermage
+2 Aerid Konstrari
+2 Hungering Puppetbeast
+2 Sandstorm Salvager
+2 Pia, Determined Rebuilder
+2 The Mechanist, Aerial Artisan
+2 Saheeli, the Sun's Brilliance
+1 Craterclaw Colossus
+4 Konstrari Charm
+2 Temur Monument
+2 Melded Moxite
+2 Burst Lightning
+3 Rockfall Vale
+3 Dreamroot Cascade
+3 Stormcarved Coast
+2 Secluded Starforge
+7 Forest
+3 Mountain
+3 Island
+```
