@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-11**:
+Deck guides published **2026-11-12**:
 
-- **[Tetherwright](decks/2026-11-11-tetherwright.html)** — Temur (blue / red / green) Heartwood-artifact combo — Reality Fracture  `reality-fracture` `heartwood`
-- **[Rotmarket](decks/2026-11-11-rotmarket.html)** — Black-Red — Blight  `combo` `blight`
+- **[Blight the Levy](decks/2026-11-12-blight-the-levy.html)** — Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table  `combo` `Blight` `Mobilize`

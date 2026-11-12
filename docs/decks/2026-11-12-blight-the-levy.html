@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-11-12">
+
+<title>Blight the Levy – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game-and-the-combo-turn" id="toc-mid-game-and-the-combo-turn" class="nav-link" data-scroll-target="#mid-game-and-the-combo-turn">Mid game and the combo turn</a></li>
+  <li><a href="#win-condition-two" id="toc-win-condition-two" class="nav-link" data-scroll-target="#win-condition-two">Win condition two</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Blight the Levy</h1>
+<p class="subtitle lead">Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">Blight</div>
+    <div class="quarto-category">Mobilize</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 12, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (curated pool)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Mardu — white / black / red</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Aristocrats combo (token sacrifice and life drain)</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Mechanics</td>
+<td>Mobilize (attacking Warrior tokens) and Blight (-1/-1 counters as a cost)</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Bloodthirsty Conqueror plus Marauding Blight-Priest: unbounded drain</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Mobilize army with Zurgo, Thunder’s Decree and Zurgo’s Vanguard, pushed through by Rogue’s Passage</td>
+</tr>
+<tr class="even">
+<td>Nonland curve</td>
+<td>2 ones, 6 twos, 17 threes, 9 fours, 2 fives</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Blight the Levy is a Mardu deck built on one observation: <strong>mobilize hands you free creatures, and blight wants creatures it can afford to ruin.</strong> Every mobilize attacker creates tapped and attacking 1/1 red Warrior tokens that are sacrificed at the beginning of the next end step. Those tokens are the perfect blight target — putting a -1/-1 counter on a body that dies at end of combat costs you nothing — and their deaths are the trigger that every payoff in the deck is waiting for.</p>
+<p>The engine has three moving parts:</p>
+<ul>
+<li><strong>Conscripts.</strong> <code>Dalkovan Packbeasts</code> (mobilize 3), <code>Voice of Victory</code> (mobilize 2), <code>Avenger of the Fallen</code> (mobilize X, where X is the number of creature cards in your graveyard), plus the one-mana <code>Stadium Headliner</code> and <code>Shock Brigade</code>. Each attack widens the board without spending a card.</li>
+<li><strong>Blight as the outlet.</strong> <code>Scuzzback Scrounger</code> blights 1 in your first main phase for a Treasure, <code>Shadow Urchin</code> blights 1 on every attack and then exiles cards equal to the counters on a dying body, <code>Boggart Mischief</code> blights 1 for two Goblin tokens, <code>Warren Torchmaster</code> blights 1 to grant haste. All of these cost only a counter on a token that was already condemned.</li>
+<li><strong>Payoffs on death.</strong> <code>Venerated Stormsinger</code> drains each opponent for 1 and gains you 1 every time any creature you control dies; <code>Marauding Blight-Priest</code> converts that lifegain into another point of drain; <code>Enduring Tenacity</code> converts it into drain equal to the amount gained. Mobilize turns each combat step into a small drain loop.</li>
+</ul>
+<p>The finisher is a genuine unbounded combo: with <code>Bloodthirsty Conqueror</code> and <code>Marauding Blight-Priest</code> on the battlefield, each point an opponent loses is life you gain, and each point you gain drains every opponent for 1 again. <code>Enduring Tenacity</code> plays the same role as the Blight-Priest, and any single lifegain — a Stormsinger death trigger, an attacking <code>Restless Fortress</code> — starts the loop.</p>
+<p><code>Zurgo, Thunder's Decree</code> flips the whole engine into beatdown: during your end step, Warrior tokens you control cannot be sacrificed, so mobilize tokens stop evaporating and pile up as a permanent army. <code>Zurgo's Vanguard</code>’s power is equal to the number of creatures you control, and <code>Rogue's Passage</code> makes it unblockable.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Deploy and attack (turns 1–3).</strong> Land a one- or two-drop mobilize creature and start attacking immediately. <code>Scuzzback Scrounger</code> is the ideal turn-two play: it ramps you with Treasure while teaching you to blight your own expendable bodies. <code>Avenger of the Fallen</code> is fine on turn three even with an empty graveyard — it grows every turn the tokens die.</li>
+<li><strong>Build the drain engine (turns 4–6).</strong> Land <code>Venerated Stormsinger</code> and <code>Marauding Blight-Priest</code>, then keep attacking. Each mobilize token that dies is 1 drain from the Stormsinger and a second point from the Blight-Priest; a mobilized <code>Dalkovan Packbeasts</code> alone drains for 6 across the table over two turns.</li>
+<li><strong>Close.</strong> Either assemble <code>Bloodthirsty Conqueror</code> plus <code>Marauding Blight-Priest</code> / <code>Enduring Tenacity</code> for the unbounded loop, or drop <code>Zurgo, Thunder's Decree</code>, stop sacrificing tokens, and swing with a <code>Zurgo's Vanguard</code> that is as large as your board.</li>
+</ol>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Venerated Stormsinger</td>
+<td>4</td>
+<td>Payoff — mobilize 1, and drains 1 plus gains 1 whenever any creature you control dies</td>
+</tr>
+<tr class="even">
+<td>Dalkovan Packbeasts</td>
+<td>3</td>
+<td>Engine — mobilize 3, the widest token producer in the deck</td>
+</tr>
+<tr class="odd">
+<td>Avenger of the Fallen</td>
+<td>3</td>
+<td>Engine — mobilize X equal to creature cards in your graveyard, deathtouch</td>
+</tr>
+<tr class="even">
+<td>Voice of Victory</td>
+<td>3</td>
+<td>Engine and protection — mobilize 2; opponents cannot cast spells during your turn</td>
+</tr>
+<tr class="odd">
+<td>Scuzzback Scrounger</td>
+<td>3</td>
+<td>Enabler — blight 1 in first main phase for a Treasure, fixing and ramping</td>
+</tr>
+<tr class="even">
+<td>Bone-Cairn Butcher</td>
+<td>3</td>
+<td>Payoff — mobilize 2 and attacking tokens gain deathtouch</td>
+</tr>
+<tr class="odd">
+<td>Marauding Blight-Priest</td>
+<td>3</td>
+<td>Payoff — every point of lifegain drains each opponent for 1; half of the combo</td>
+</tr>
+<tr class="even">
+<td>Zurgo, Thunder’s Decree</td>
+<td>2</td>
+<td>Pivot — mobilize 2; Warrior tokens cannot be sacrificed during your end step</td>
+</tr>
+<tr class="odd">
+<td>Bloodthirsty Conqueror</td>
+<td>2</td>
+<td>Finisher — opponent life loss becomes your lifegain; half of the combo</td>
+</tr>
+<tr class="even">
+<td>Zurgo’s Vanguard</td>
+<td>2</td>
+<td>Threat — mobilize 1; power equals the number of creatures you control</td>
+</tr>
+<tr class="odd">
+<td>Boggart Mischief</td>
+<td>2</td>
+<td>Enabler — blight 1 for two Goblin tokens; Goblin deaths drain</td>
+</tr>
+<tr class="even">
+<td>Shadow Urchin</td>
+<td>2</td>
+<td>Enabler and card advantage — blights on attack, exiles cards when counter-bearing bodies die</td>
+</tr>
+<tr class="odd">
+<td>Stadium Headliner</td>
+<td>2</td>
+<td>Early engine — one-mana mobilize 1, later a removal spell that scales with board size</td>
+</tr>
+<tr class="even">
+<td>Enduring Tenacity</td>
+<td>2</td>
+<td>Payoff — lifegain becomes drain; returns as an enchantment when it dies</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Copies</th>
+<th>Job</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rogue’s Passage</td>
+<td>2</td>
+<td>Win condition — makes the giant Zurgo’s Vanguard, or an unblocked Conqueror, impossible to block</td>
+</tr>
+<tr class="even">
+<td>Restless Fortress</td>
+<td>1</td>
+<td>Win condition — attacking drains 2 and gains 2, which triggers Blight-Priest and Tenacity and starts the loop</td>
+</tr>
+<tr class="odd">
+<td>Restless Bivouac</td>
+<td>1</td>
+<td>Attacker and counter source — adds a +1/+1 counter on attack, feeding Shadow Urchin</td>
+</tr>
+<tr class="even">
+<td>Blood Crypt, Godless Shrine, Sacred Foundry</td>
+<td>9</td>
+<td>Color fixing for a three-color deck with double-black and white one-drops</td>
+</tr>
+<tr class="odd">
+<td>Inspiring Vantage, Concealed Courtyard</td>
+<td>4</td>
+<td>Untapped early fixing for the aggressive starts</td>
+</tr>
+<tr class="even">
+<td>Blazemire, Bleachbone and Sunbillow Verge</td>
+<td>6</td>
+<td>Extra untapped sources once a basic type is online</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>Thirty-six nonland cards: two one-drops, six two-drops, seventeen three-drops, nine four-drops and two five-drops, for an average mana value of 3.1. The deck wants to attack from turn two, so the manabase is built around untapped sources: nine shock lands, four fast lands and six verges. Black is the most demanded color (Blight-Priest, Stormsinger, Conqueror, Avenger), so the shock split is biased toward Blood Crypt and Godless Shrine. <code>Scuzzback Scrounger</code> Treasures pay for the heavier Mardu cards, including the <code>{1}{R}{W}{B}</code> cost of Bone-Cairn Butcher.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Lead with a one- or two-drop that attacks. <code>Stadium Headliner</code> into <code>Scuzzback Scrounger</code> is the fastest opening: the Scrounger’s first-main blight 1 turns a spare body into a Treasure, and the Treasure casts your three-drop a turn early. Do not be precious about the -1/-1 counters. The correct blight target is almost always the smallest token you control, preferably one that will be sacrificed at end of combat anyway.</p>
+</section>
+<section id="mid-game-and-the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game-and-the-combo-turn">Mid game and the combo turn</h2>
+<p>The deck does not need to hold back. Attack every turn to keep generating tokens, and stack drain triggers. The combo turn is simple once both pieces are down: play <code>Bloodthirsty Conqueror</code>, then any lifegain starts the loop. <code>Venerated Stormsinger</code> plus a dying token is the most common ignition; an attacking <code>Restless Fortress</code> is the most stylish. With <code>Marauding Blight-Priest</code> and <code>Bloodthirsty Conqueror</code> both on the battlefield, each iteration drains 1 and gains 1, so the loop repeats until the table is dead. <code>Enduring Tenacity</code> is the backup half of the combo, and it recurs itself, which makes it the harder piece for opponents to answer permanently.</p>
+</section>
+<section id="win-condition-two" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-two">Win condition two</h2>
+<p><code>Zurgo, Thunder's Decree</code> converts the mobilize engine into a permanent army. Once Zurgo is down, your Warrior tokens survive your end step, so a single <code>Dalkovan Packbeasts</code> attack leaves three bodies behind. From there <code>Zurgo's Vanguard</code> is a creature whose power equals your board, and <code>Rogue's Passage</code> for <code>{4}</code> makes it unblockable. <code>Bone-Cairn Butcher</code> gives all attacking tokens deathtouch, so even a chump-blocked swarm trades up.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep hands with two to three lands, at least one two- or three-drop mobilize creature, and one blight outlet or drain payoff. A hand of only blight enablers with no mobilize is a mulligan. <code>Voice of Victory</code> is a strong keep against blue, because opponents cannot cast spells during your turn while it is on the battlefield.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong>Blight on a doomed token is free.</strong> Mobilize tokens are sacrificed at the beginning of the next end step, so a -1/-1 counter on one costs nothing. Blight first, attack second where possible.</li>
+<li><strong>Shadow Urchin counts counters, not just tokens.</strong> When a creature you control with one or more counters dies, you exile that many cards and may play them until your next end step. Counters placed by <code>Restless Bivouac</code> or <code>Bone-Cairn Butcher</code> count too.</li>
+<li><strong>Kill triggers are not optional value.</strong> <code>Venerated Stormsinger</code> triggers on its own death as well, so it drains even through a sweeper.</li>
+<li><strong>Zurgo changes the clock, not the trigger.</strong> With Zurgo out, the mobilize sacrifice is prevented during your end step, so tokens persist; they are still 1/1 Warriors and still fuel the next attack.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> chump with tokens and drain them out. Bone-Cairn Butcher’s deathtouch tokens are the key card.</li>
+<li><strong>Control:</strong> <code>Voice of Victory</code> is your best card, blanking their turn. Hold it until you are ready to commit the combo, and keep a second threat in hand because sweepers still cost you the board.</li>
+<li><strong>Midrange:</strong> your drain engine grinds better than theirs. <code>Enduring Tenacity</code> recurs, so their removal is a tempo play rather than a real answer.</li>
+<li><strong>Combo:</strong> attack pressure forces them to answer the board instead of assembling.</li>
+</ul>
+</section>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Blight the Levy
+Deck
+4 Venerated Stormsinger
+3 Dalkovan Packbeasts
+3 Avenger of the Fallen
+3 Voice of Victory
+3 Scuzzback Scrounger
+3 Bone-Cairn Butcher
+3 Marauding Blight-Priest
+2 Zurgo, Thunder's Decree
+2 Bloodthirsty Conqueror
+2 Zurgo's Vanguard
+2 Boggart Mischief
+2 Shadow Urchin
+2 Stadium Headliner
+2 Enduring Tenacity
+3 Blood Crypt
+3 Godless Shrine
+3 Sacred Foundry
+2 Inspiring Vantage
+2 Concealed Courtyard
+2 Blazemire Verge
+2 Bleachbone Verge
+2 Sunbillow Verge
+2 Rogue's Passage
+1 Restless Fortress
+1 Restless Bivouac
+1 Swamp</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,141 @@
+---
+title: "Blight the Levy"
+subtitle: "Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table"
+date: "2026-11-12"
+categories: ["combo", "Blight", "Mobilize"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard (curated pool) |
+| Colors | Mardu — white / black / red |
+| Archetype | Aristocrats combo (token sacrifice and life drain) |
+| Size | 60 cards, 24 lands |
+| Mechanics | Mobilize (attacking Warrior tokens) and Blight (-1/-1 counters as a cost) |
+| Primary win | Bloodthirsty Conqueror plus Marauding Blight-Priest: unbounded drain |
+| Secondary win | Mobilize army with Zurgo, Thunder's Decree and Zurgo's Vanguard, pushed through by Rogue's Passage |
+| Nonland curve | 2 ones, 6 twos, 17 threes, 9 fours, 2 fives |
+
+# Overview
+
+Blight the Levy is a Mardu deck built on one observation: **mobilize hands you free creatures, and blight wants creatures it can afford to ruin.** Every mobilize attacker creates tapped and attacking 1/1 red Warrior tokens that are sacrificed at the beginning of the next end step. Those tokens are the perfect blight target — putting a -1/-1 counter on a body that dies at end of combat costs you nothing — and their deaths are the trigger that every payoff in the deck is waiting for.
+
+The engine has three moving parts:
+
+- **Conscripts.** `Dalkovan Packbeasts` (mobilize 3), `Voice of Victory` (mobilize 2), `Avenger of the Fallen` (mobilize X, where X is the number of creature cards in your graveyard), plus the one-mana `Stadium Headliner` and `Shock Brigade`. Each attack widens the board without spending a card.
+- **Blight as the outlet.** `Scuzzback Scrounger` blights 1 in your first main phase for a Treasure, `Shadow Urchin` blights 1 on every attack and then exiles cards equal to the counters on a dying body, `Boggart Mischief` blights 1 for two Goblin tokens, `Warren Torchmaster` blights 1 to grant haste. All of these cost only a counter on a token that was already condemned.
+- **Payoffs on death.** `Venerated Stormsinger` drains each opponent for 1 and gains you 1 every time any creature you control dies; `Marauding Blight-Priest` converts that lifegain into another point of drain; `Enduring Tenacity` converts it into drain equal to the amount gained. Mobilize turns each combat step into a small drain loop.
+
+The finisher is a genuine unbounded combo: with `Bloodthirsty Conqueror` and `Marauding Blight-Priest` on the battlefield, each point an opponent loses is life you gain, and each point you gain drains every opponent for 1 again. `Enduring Tenacity` plays the same role as the Blight-Priest, and any single lifegain — a Stormsinger death trigger, an attacking `Restless Fortress` — starts the loop.
+
+`Zurgo, Thunder's Decree` flips the whole engine into beatdown: during your end step, Warrior tokens you control cannot be sacrificed, so mobilize tokens stop evaporating and pile up as a permanent army. `Zurgo's Vanguard`'s power is equal to the number of creatures you control, and `Rogue's Passage` makes it unblockable.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Deploy and attack (turns 1–3).** Land a one- or two-drop mobilize creature and start attacking immediately. `Scuzzback Scrounger` is the ideal turn-two play: it ramps you with Treasure while teaching you to blight your own expendable bodies. `Avenger of the Fallen` is fine on turn three even with an empty graveyard — it grows every turn the tokens die.
+2. **Build the drain engine (turns 4–6).** Land `Venerated Stormsinger` and `Marauding Blight-Priest`, then keep attacking. Each mobilize token that dies is 1 drain from the Stormsinger and a second point from the Blight-Priest; a mobilized `Dalkovan Packbeasts` alone drains for 6 across the table over two turns.
+3. **Close.** Either assemble `Bloodthirsty Conqueror` plus `Marauding Blight-Priest` / `Enduring Tenacity` for the unbounded loop, or drop `Zurgo, Thunder's Decree`, stop sacrificing tokens, and swing with a `Zurgo's Vanguard` that is as large as your board.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Venerated Stormsinger | 4 | Payoff — mobilize 1, and drains 1 plus gains 1 whenever any creature you control dies |
+| Dalkovan Packbeasts | 3 | Engine — mobilize 3, the widest token producer in the deck |
+| Avenger of the Fallen | 3 | Engine — mobilize X equal to creature cards in your graveyard, deathtouch |
+| Voice of Victory | 3 | Engine and protection — mobilize 2; opponents cannot cast spells during your turn |
+| Scuzzback Scrounger | 3 | Enabler — blight 1 in first main phase for a Treasure, fixing and ramping |
+| Bone-Cairn Butcher | 3 | Payoff — mobilize 2 and attacking tokens gain deathtouch |
+| Marauding Blight-Priest | 3 | Payoff — every point of lifegain drains each opponent for 1; half of the combo |
+| Zurgo, Thunder's Decree | 2 | Pivot — mobilize 2; Warrior tokens cannot be sacrificed during your end step |
+| Bloodthirsty Conqueror | 2 | Finisher — opponent life loss becomes your lifegain; half of the combo |
+| Zurgo's Vanguard | 2 | Threat — mobilize 1; power equals the number of creatures you control |
+| Boggart Mischief | 2 | Enabler — blight 1 for two Goblin tokens; Goblin deaths drain |
+| Shadow Urchin | 2 | Enabler and card advantage — blights on attack, exiles cards when counter-bearing bodies die |
+| Stadium Headliner | 2 | Early engine — one-mana mobilize 1, later a removal spell that scales with board size |
+| Enduring Tenacity | 2 | Payoff — lifegain becomes drain; returns as an enchantment when it dies |
+
+## Lands as engines
+
+| Land | Copies | Job |
+|---|---|---|
+| Rogue's Passage | 2 | Win condition — makes the giant Zurgo's Vanguard, or an unblocked Conqueror, impossible to block |
+| Restless Fortress | 1 | Win condition — attacking drains 2 and gains 2, which triggers Blight-Priest and Tenacity and starts the loop |
+| Restless Bivouac | 1 | Attacker and counter source — adds a +1/+1 counter on attack, feeding Shadow Urchin |
+| Blood Crypt, Godless Shrine, Sacred Foundry | 9 | Color fixing for a three-color deck with double-black and white one-drops |
+| Inspiring Vantage, Concealed Courtyard | 4 | Untapped early fixing for the aggressive starts |
+| Blazemire, Bleachbone and Sunbillow Verge | 6 | Extra untapped sources once a basic type is online |
+
+## Curve and mana
+
+Thirty-six nonland cards: two one-drops, six two-drops, seventeen three-drops, nine four-drops and two five-drops, for an average mana value of 3.1. The deck wants to attack from turn two, so the manabase is built around untapped sources: nine shock lands, four fast lands and six verges. Black is the most demanded color (Blight-Priest, Stormsinger, Conqueror, Avenger), so the shock split is biased toward Blood Crypt and Godless Shrine. `Scuzzback Scrounger` Treasures pay for the heavier Mardu cards, including the `{1}{R}{W}{B}` cost of Bone-Cairn Butcher.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one- or two-drop that attacks. `Stadium Headliner` into `Scuzzback Scrounger` is the fastest opening: the Scrounger's first-main blight 1 turns a spare body into a Treasure, and the Treasure casts your three-drop a turn early. Do not be precious about the -1/-1 counters. The correct blight target is almost always the smallest token you control, preferably one that will be sacrificed at end of combat anyway.
+
+## Mid game and the combo turn
+
+The deck does not need to hold back. Attack every turn to keep generating tokens, and stack drain triggers. The combo turn is simple once both pieces are down: play `Bloodthirsty Conqueror`, then any lifegain starts the loop. `Venerated Stormsinger` plus a dying token is the most common ignition; an attacking `Restless Fortress` is the most stylish. With `Marauding Blight-Priest` and `Bloodthirsty Conqueror` both on the battlefield, each iteration drains 1 and gains 1, so the loop repeats until the table is dead. `Enduring Tenacity` is the backup half of the combo, and it recurs itself, which makes it the harder piece for opponents to answer permanently.
+
+## Win condition two
+
+`Zurgo, Thunder's Decree` converts the mobilize engine into a permanent army. Once Zurgo is down, your Warrior tokens survive your end step, so a single `Dalkovan Packbeasts` attack leaves three bodies behind. From there `Zurgo's Vanguard` is a creature whose power equals your board, and `Rogue's Passage` for `{4}` makes it unblockable. `Bone-Cairn Butcher` gives all attacking tokens deathtouch, so even a chump-blocked swarm trades up.
+
+## Mulligan guide
+
+Keep hands with two to three lands, at least one two- or three-drop mobilize creature, and one blight outlet or drain payoff. A hand of only blight enablers with no mobilize is a mulligan. `Voice of Victory` is a strong keep against blue, because opponents cannot cast spells during your turn while it is on the battlefield.
+
+## Key interactions and edge cases
+
+- **Blight on a doomed token is free.** Mobilize tokens are sacrificed at the beginning of the next end step, so a -1/-1 counter on one costs nothing. Blight first, attack second where possible.
+- **Shadow Urchin counts counters, not just tokens.** When a creature you control with one or more counters dies, you exile that many cards and may play them until your next end step. Counters placed by `Restless Bivouac` or `Bone-Cairn Butcher` count too.
+- **Kill triggers are not optional value.** `Venerated Stormsinger` triggers on its own death as well, so it drains even through a sweeper.
+- **Zurgo changes the clock, not the trigger.** With Zurgo out, the mobilize sacrifice is prevented during your end step, so tokens persist; they are still 1/1 Warriors and still fuel the next attack.
+
+## Matchups
+
+- **Aggro:** chump with tokens and drain them out. Bone-Cairn Butcher's deathtouch tokens are the key card.
+- **Control:** `Voice of Victory` is your best card, blanking their turn. Hold it until you are ready to commit the combo, and keep a second threat in hand because sweepers still cost you the board.
+- **Midrange:** your drain engine grinds better than theirs. `Enduring Tenacity` recurs, so their removal is a tempo play rather than a real answer.
+- **Combo:** attack pressure forces them to answer the board instead of assembling.
+
+# Deck list (Arena import)
+
+```
+Blight the Levy
+Deck
+4 Venerated Stormsinger
+3 Dalkovan Packbeasts
+3 Avenger of the Fallen
+3 Voice of Victory
+3 Scuzzback Scrounger
+3 Bone-Cairn Butcher
+3 Marauding Blight-Priest
+2 Zurgo, Thunder's Decree
+2 Bloodthirsty Conqueror
+2 Zurgo's Vanguard
+2 Boggart Mischief
+2 Shadow Urchin
+2 Stadium Headliner
+2 Enduring Tenacity
+3 Blood Crypt
+3 Godless Shrine
+3 Sacred Foundry
+2 Inspiring Vantage
+2 Concealed Courtyard
+2 Blazemire Verge
+2 Bleachbone Verge
+2 Sunbillow Verge
+2 Rogue's Passage
+1 Restless Fortress
+1 Restless Bivouac
+1 Swamp
+```
