@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-12**:
+Deck guides published **2026-11-13**:
 
-- **[Spark Annuity](decks/2026-11-12-spark-annuity.html)** — Esper (white / blue / black) empower-loyalty combo — Reality Fracture  `reality-fracture` `empower`
-- **[Blight the Levy](decks/2026-11-12-blight-the-levy.html)** — Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table  `combo` `Blight` `Mobilize`
+- **[Corpse Census](decks/2026-11-13-corpse-census.html)** — WUBG — Morbid x Surveil  `combo` `morbid` `surveil`

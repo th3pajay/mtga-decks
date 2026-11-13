@@ -1,0 +1,151 @@
+---
+title: "Corpse Census"
+subtitle: "WUBG — Morbid x Surveil"
+date: "2026-11-13"
+categories: ["combo", "morbid", "surveil"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (60 cards, no sideboard) |
+| Colors | White, Blue, Black, Green |
+| Archetype | Midrange value-combo |
+| Primary win | Morbid counters stacked on one evasive threat, pushed through with Rogue's Passage |
+| Secondary win | Broodspinner Insect swarm plus Zahur Zombies going wide |
+
+## Overview
+
+Corpse Census is a death-driven surveil deck. Every creature that dies pays you twice: it turns on **Morbid** for the end step, and it feeds the surveillance engine that fills the graveyard. The deck wants one creature to die during your own turn, every turn, as cheaply as possible. Wary Thespian and Lys Alana Informant do that for free because they surveil when they enter *and* when they die, while Umbral Collar Zealot and Zahur convert any body, Food or Clue into a surveil at instant speed.
+
+Matoya, Archon Elder is the card that turns that trickle into a card engine: every surveil becomes a draw. Because twelve of the lands also surveil on entry, the deck's mana base is part of the draw engine, not just a source of colors.
+
+The payoffs are three Morbid creatures. Needletooth Pack puts two +1/+1 counters on a creature at every end step, Cackling Prowler grows itself behind ward, and Wardens of the Cycle refills your hand or cushions your life total. The counters are the win: they land on whatever creature has evasion, and Rogue's Passage makes sure the biggest one connects.
+
+## Approach
+
+### Game plan by phase
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Establish | 1-3 | Land the cheapest surveil bodies. Do not trade them yet; each one is a future Morbid trigger. Matoya on turn three is the priority. |
+| Turn the crank | 3-5 | Sacrifice one body per turn to Zealot or Zahur. Each sacrifice is one or two surveils, which is one or two Matoya draws, and it arms Morbid. |
+| Cash in | 5+ | Needletooth Pack and Wardens of the Cycle arrive. From here every end step is worth two counters and a card. |
+| Close | any | Stack counters on a flier, a warded attacker or the animated Cottage and force it through with Rogue's Passage. |
+
+### Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Engine (draw) | Matoya, Archon Elder | Draws on every surveil, including land ETB surveils |
+| Enablers (surveil on death) | Wary Thespian, Lys Alana Informant | 3/1 for two; surveil on enter and on death |
+| Sacrifice outlets | Umbral Collar Zealot, Zahur, Glory's Past | Instant-speed surveil, repeatable, no mana |
+| Morbid payoffs | Needletooth Pack, Cackling Prowler, Wardens of the Cycle | All trigger at your end step if a creature died this turn |
+| Graveyard fuel | Diresight, Broodspinner | Surveil 2 effects that also replace themselves |
+| Interaction | Long Goodbye, Your Fate Ends Here | Split by mana value: three or less, three or greater |
+| Token burst | Broodspinner, Drag the Canal, Zahur | Insects, Detectives and Zombies |
+
+### Lands as engines
+
+| Land | What it does for the deck |
+|---|---|
+| Restless Cottage (2) | Animates into a 4/4 Horror for {2}{B}{G}; attacking makes a Food, which Zealot can sacrifice for a surveil. It is the win condition you always have access to. |
+| Rogue's Passage | {4}, {T} makes the counter-loaded threat unblockable. The counters do nothing if the creature is chumped. |
+| Underground Mortuary, Undercity Sewers, Hedge Maze, Shadowy Backstreet, Meticulous Archive (12) | Enter tapped and surveil 1, so each one is a Matoya trigger and a graveyard card for Broodspinner. |
+| Blooming Marsh (4) | Untapped early, the deck's best turn-one source. |
+| Watery Grave, Godless Shrine (4) | Shocks that fix Blue and White without entering tapped. |
+
+### Curve and mana
+
+Twenty of the thirty-seven spells cost two mana, and the deck averages 2.78 mana per nonland card. Twenty-three lands support that: nineteen Black sources, twelve Green, eight Blue and five White. Fourteen of the twenty-three lands enter tapped, so sequence the untapped ones first and hold the surveil lands for turns where the tempo does not matter.
+
+| Mana value | Count |
+|---|---|
+| 2 | 20 |
+| 3 | 8 |
+| 4 | 6 |
+| 5 | 3 |
+
+## Gameplay strategy
+
+### Early game
+
+Lead with an untapped Green source and a two-drop. Wary Thespian and Lys Alana Informant are the ideal first plays because their surveil smooths your next draws and their death is an asset rather than a loss. Do not attack them into a worse board; a 3/1 that dies on your own terms is worth more than three damage.
+
+Hold Long Goodbye for the first real threat. It cannot be countered, which matters against ward and counterspells, but it only answers mana value three or less, so let their cheap creature be the target and save Your Fate Ends Here for the top end.
+
+### Mid game and the combo turn
+
+The deck's engine turn looks like this:
+
+1. You control Matoya, Umbral Collar Zealot and any other creature.
+2. Activate Zealot, sacrificing the other creature. That is one surveil from the activation plus one from the sacrificed creature's death trigger if it was a Thespian or Informant.
+3. Matoya draws a card for each surveil, so the sacrifice is card-neutral or better while binning two cards.
+4. A creature died this turn, so at your end step Needletooth Pack adds two +1/+1 counters, Cackling Prowler adds one, and Wardens of the Cycle draws you a card or gains two life.
+
+Repeat every turn. Food tokens from Restless Cottage and Clues from Drag the Canal are free Zealot fodder that keep the surveils flowing without spending creatures.
+
+### Closing with win condition one
+
+Put every counter on the same creature. Cackling Prowler is the default carrier because ward {2} protects the investment, but a flying Insect from Broodspinner is often better: two counters a turn on an evasive body ends games quickly. Once the carrier is large enough, Rogue's Passage at {4} plus tap makes it unblockable for the final swing.
+
+### Win condition two: the swarm
+
+Broodspinner's sacrifice ability counts card types among cards in your graveyard. A stocked yard typically holds creature, land, instant, sorcery and artifact (Food or Clue), which is five 1/1 flying Insects for {4}{B}{G}. Because the Spider itself dies to pay the cost, that same turn still counts for Morbid, so the Insects arrive and immediately receive the Pack's counters.
+
+Zahur contributes the second swarm: at max speed every nontoken creature that dies leaves a tapped 2/2 Zombie, and its own sacrifice ability reloads the surveil engine. Speed climbs with each point of combat damage or life loss you deal, so it usually caps around turn five or six.
+
+### Mulligan guide
+
+Keep hands with two or three lands, at least one Black or Green source and a two-drop. A hand with a surveil land plus Matoya is a keep even without a third land, because the surveil digs. Ship hands with no Black source, and ship hands that are all four and five drops with no early body to sacrifice.
+
+### Key interactions and edge cases
+
+- Morbid checks the whole turn, not the phase. A creature that dies in your first main phase still turns on the end step trigger, so sacrifice before combat when it does not cost you damage.
+- A creature dying during an opponent's turn does not carry over. Morbid only looks at the turn it triggers in.
+- Surveil resolves before Matoya's draw. Choose what to bin first, then draw.
+- Land surveil triggers need Matoya on the battlefield already. Play the surveil land after Matoya when you can afford the tapped land.
+- Long Goodbye and Your Fate Ends Here split the curve cleanly. Do not waste the White removal on a two-drop.
+- Restless Cottage's attack trigger can exile a card from any graveyard. Do not exile your own unless the card types no longer matter, because Broodspinner counts them.
+- Zahur's sacrifice ability is once per turn, and its surveil can be used at instant speed to dig for a land on an opponent's end step.
+
+### Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Trade early with Long Goodbye, block with Broodspinner's 2/3 body, and lean on Wardens of the Cycle for the life gain mode. |
+| Control | Matoya plus the twelve surveil lands out-card them. Hold a creature back so Morbid stays on and Wardens keeps drawing. |
+| Other midrange | Your counters outscale theirs. Cackling Prowler behind ward is the hardest threat for them to answer. |
+| Graveyard hate | Broodspinner gets smaller and Diresight gets worse, but the deck still functions as a counters deck. Sideboard plans are not needed in best-of-one. |
+
+## Deck list (Arena import)
+
+```
+Corpse Census
+Deck
+4 Wary Thespian
+3 Lys Alana Informant
+4 Umbral Collar Zealot
+2 Zahur, Glory's Past
+3 Broodspinner
+4 Matoya, Archon Elder
+3 Cackling Prowler
+3 Wardens of the Cycle
+3 Needletooth Pack
+2 Long Goodbye
+2 Your Fate Ends Here
+2 Drag the Canal
+2 Diresight
+4 Blooming Marsh
+4 Underground Mortuary
+3 Undercity Sewers
+2 Hedge Maze
+2 Watery Grave
+2 Godless Shrine
+2 Shadowy Backstreet
+2 Restless Cottage
+1 Rogue's Passage
+1 Meticulous Archive
+```
