@@ -1,0 +1,154 @@
+---
+title: "Silt Cartography"
+subtitle: "Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture"
+date: "2026-11-13"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus Standard dual lands) |
+| Colors | White, blue, black (Esper) |
+| Archetype | Surveil-mill engine: prepared mill spells cross threshold, then surveil triggers grow the whole team |
+| Size | 60 cards, 24 lands, 36 spells and creatures |
+| Primary win | Counter swarm: `Denzilore Fatehold` turns every surveil into a +1/+1 counter on each creature, so threshold fliers and a 5/5 menace attack for lethal |
+| Secondary win | Threshold burn: each `Eye of Jace` sacrifices itself at seven cards in the graveyard for 2 damage to each opponent and 2 life |
+| Land as win condition | `Hall of Echoes` pays `{5}` to become a copy of your largest creature, and it ignores the legend rule that turn |
+
+Reality Fracture is Standard-legal, but every card in the set still carries no `arena_id` in the card data. The import list at the end becomes playable on Arena once the set is enabled there.
+
+# Overview
+
+Reality Fracture's graveyard theme is built on surveil, threshold and milling yourself. This list attacks that theme from the cheap end: eleven one- and two-mana permanents fill the graveyard, three prepared creatures convert "prepared" into a free mill spell every turn, and every payoff is switched on by the same seven-card count.
+
+`Denzilore Fatehold` is the hinge. The 3/4 flash flier reads "whenever you scry or surveil, put a +1/+1 counter on each creature you control." Surveil is cheap here — `Eye of Jace` surveils every upkeep, `Proctor of Potential` surveils on every creature entry, and the three surveil dual lands surveil as they enter. A single Denzilore turns a normal curve into a team that grows two to four counters a turn.
+
+`Proctor of Potential` is the loop. It is a 3/1 for `{W}{U}` that surveils when it or any other creature enters, and it can be bought back from the graveyard for `{W}{U}` as long as you have scried or surveilled this turn — which its own entry trigger guarantees. Every turn it comes back it surveils again, so with Denzilore in play `{W}{U}` reads "put a +1/+1 counter on each creature you control and get a 3/1 attacker." With `Saheeli, Consul of Oversight` out, the same mana also makes a 1/1 flying Thopter.
+
+The prepared cycle is the mill engine. `Theorix Metamage`, `Void Extrapolator` and `Paradox Shaper` each enter prepared (Paradox Shaper re-prepares every upkeep), and while prepared you may cast a copy of `Omit Variables` — mill three — without paying its cost. That is a free three-card mill every turn from each body, which is how the deck reaches threshold by turn four or five without spending a card.
+
+At seven cards in the graveyard three separate payoffs turn on at once: `Theorix Metamage` becomes a 3/3 flier, `Void Extrapolator` becomes a 3/3, and `Proft, Sinister Mastermind` becomes castable as a 5/5 menace for `{2}{B}`. `Eye of Jace` also cashes in at that point, sacrificing itself for 2 damage to each opponent. The deck does not need a single big combo turn; it needs the yard at seven and a Denzilore, and the board does the rest.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1-2, load the yard.** `Eye of Jace` on one is the best opener: it surveils every upkeep and is a threshold burn spell later. `Proctor of Potential` on two attacks for three and surveils on entry. Surveil duals (`Undercity Sewers`, `Meticulous Archive`, `Shadowy Backstreet`) are worth playing on curve here — the tapped turn buys a surveil, which is a card in the graveyard and a counter on the team once Denzilore lands.
+2. **Turns 3-4, deploy the mill bodies.** `Theorix Metamage` and `Void Extrapolator` arrive prepared, so each one immediately casts a free `Omit Variables` for three more cards. `Paradox Shaper` does it every upkeep after that. `Liliana the Repentant` mills two more on each of your creature entries. Seven cards is normally reached on turn four.
+3. **Turns 4-6, convert.** `Denzilore Fatehold` at flash speed, then attack with threshold fliers and `Proft, Sinister Mastermind`. `Saheeli, Consul of Oversight` adds a Thopter every turn you surveil. From here the `Proctor of Potential` rebuy is the engine's heartbeat, and `Eye of Jace` plus `Hall of Echoes` close games that stall on the ground.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Eye of Jace | 4 | One-mana surveil engine every upkeep; at seven cards in the graveyard it sacrifices for 2 damage to each opponent and 2 life |
+| Proctor of Potential | 4 | 3/1 for `{W}{U}` that surveils on entry and rebuys itself from the graveyard for `{W}{U}` — the repeatable surveil trigger |
+| Proft, Consulting Detective | 2 | Two-mana 2/2; every surveil can pay `{2}` to grow Proft and draw a card |
+| Denzilore Fatehold | 4 | Payoff: flash 3/4 flier, every scry or surveil puts a +1/+1 counter on each creature you control |
+| Theorix Metamage | 4 | Enters prepared (free mill three); at threshold it is a 3/3 flier |
+| Paradox Shaper | 3 | Re-prepares every upkeep, so it mills three every turn; a 1/3 body that also recycles a graveyard card |
+| Void Extrapolator | 3 | Two-mana prepared mill three; at threshold it is a 3/3 for `{1}{B}` |
+| Saheeli, Consul of Oversight | 2 | 4/4 flier; the first surveil each turn makes a 1/1 flying Thopter |
+| Proft, Sinister Mastermind | 2 | Threshold payoff: 5/5 menace for `{2}{B}`, uncastable before the yard is full |
+| Liliana the Repentant | 3 | Mills two on each creature entry; exhaust `{5}{B}` returns a creature or planeswalker from the graveyard |
+| Vraska's Final Mercy | 3 | Two-mana unconditional creature or planeswalker removal at the cost of 2 life |
+| Theorix Charm | 2 | Flexible instant: soft counter, -2/-2, or mill three and draw a card |
+
+## Lands as engines
+
+| Land | Copies | Function |
+|---|---|---|
+| Hall of Echoes | 1 | Win-condition land: `{5}` makes it a copy of your best creature until end of turn, and the legend rule does not apply |
+| Undercity Sewers | 3 | Blue-black dual that enters tapped and surveils 1 — a free Denzilore trigger |
+| Meticulous Archive | 2 | White-blue surveil dual on the same plan |
+| Shadowy Backstreet | 2 | White-black surveil dual |
+| Watery Grave | 4 | Untapped blue-black shock land, the deck's main black source |
+| Hallowed Fountain | 4 | Untapped white-blue shock land |
+| Deserted Beach | 3 | White-blue, untapped from the third land on |
+| Godless Shrine | 2 | White-black shock land |
+| Island | 3 | Basic, and the only land that taps for blue without a life payment |
+
+## Curve and mana
+
+Four cards cost one mana, twenty cost two, six cost three, four cost four and two cost five. Twenty-four lands carry a curve that stops at `Saheeli, Consul of Oversight`: the deck's real turn is turn two, where `Proctor of Potential`, `Paradox Shaper`, `Void Extrapolator`, `Liliana the Repentant`, `Vraska's Final Mercy` and `Theorix Charm` all sit.
+
+Sources: nineteen blue, thirteen white, eleven black, plus `Hall of Echoes` for colourless. Black is the bottleneck — `Liliana the Repentant`, `Vraska's Final Mercy` and `Proft, Sinister Mastermind` all want it early — so the six surveil duals double as fixing and as engine triggers. White is only needed for `Denzilore Fatehold` and `Saheeli, Consul of Oversight`; do not keep a hand whose only white source is a `Deserted Beach` you cannot turn on.
+
+# Gameplay strategy
+
+## Early game
+
+Open with `Eye of Jace` or a surveil dual. The artifact is the stronger play because it starts surveilling on the very next upkeep and becomes reachable burn later; a surveil dual is the better turn one when you already hold a two-drop and need the colours. `Proctor of Potential` on two is the default curve play: three power attacks immediately and the entry trigger loads the yard.
+
+Do not trade the Proctor away for nothing. It is the deck's only repeatable surveil, and every copy that dies is one you have to buy back for `{W}{U}`. Against aggro, `Vraska's Final Mercy` and `Theorix Charm` are the early interaction, and both cost two, so holding one up on turn two is normal.
+
+## Mid game and the combo turn
+
+The engine turn is a sequence, not a single card. With `Denzilore Fatehold` in play the deck wants as many surveil events as possible in one turn: `Eye of Jace` surveils in the upkeep, `Proctor of Potential` rebuys itself for `{W}{U}` and surveils on entry, and any land you play from the surveil cycle surveils too. Each of those events puts a counter on every creature, so a board of four creatures gains four to twelve power in a turn without spending a card.
+
+`Paradox Shaper` is the quiet engine. It re-prepares on every upkeep, so the free `Omit Variables` copy is available every turn, and because casting the copy unprepares it, the Shaper's own upkeep trigger is what resets it. `Theorix Metamage` and `Void Extrapolator` only enter prepared once, so their free mill is a one-shot; cast it the turn they land, before combat, so the yard count is live for threshold.
+
+The prepared rules matter in practice. While a creature is prepared you may cast a copy of its spell, and doing so unprepares it — the copy resolves normally and the creature stays. You can hold the copy for a turn when you want the mill to happen after a `Proft, Consulting Detective` trigger, but there is rarely a reason to wait: threshold is the whole point.
+
+## Win condition 2 — the threshold burn
+
+`Eye of Jace` is a one-mana artifact that surveils every upkeep and then, once there are seven or more cards in your graveyard, sacrifices itself: 2 damage to each opponent and you gain 2 life. Four copies are four separate triggers, and the deck fills its yard fast enough that the first one is live on turn four or five. Two Eyes are 4 damage that no blocker stops, and they are also the answer to a stalled ground board where the counter swarm cannot get through.
+
+Sequence them rather than cracking all at once. The first Eye is usually worth cashing in as soon as threshold is live, because the two life matters against aggro and the surveil it gave you is already spent; holding the second one for the turn you attack means the opponent has to block the team and still take the burn.
+
+## Mulligan guide
+
+Keep two or three lands with `Eye of Jace` or `Proctor of Potential`, and keep any hand with a surveil dual plus a two-drop. Keep one-land hands only when the land is a surveil dual and the hand has two one-mana plays.
+
+Ship hands with no black source — `Liliana the Repentant`, `Vraska's Final Mercy` and `Proft, Sinister Mastermind` are the cards that keep the deck alive — and ship hands that are all five-drops and lands. `Denzilore Fatehold` is the best card in the deck, but it is not an opener; it is a turn-four play that follows a loaded graveyard.
+
+## Key interactions and edge cases
+
+- Milling is not surveilling. The free `Omit Variables` copies and `Liliana the Repentant`'s mill do not trigger `Denzilore Fatehold`, `Saheeli, Consul of Oversight` or `Proft, Consulting Detective`; only the word surveil or scry does. The surveil duals and `Eye of Jace` are the reliable triggers.
+- `Proctor of Potential` can only rebuy itself if you have scried or surveilled this turn. Its own entry trigger satisfies the condition, which is why the loop works, but a turn with no other surveil and an empty graveyard cannot start it.
+- The Proctor returns with a finality counter. If it dies again it is exiled, so the loop is not infinite — expect two or three rebuys per copy, not ten.
+- `Proft, Sinister Mastermind` cannot be cast at all below seven cards in the graveyard. It is a two-of for that reason: it is the best topdeck after threshold and the worst card before it.
+- `Vraska's Final Mercy` mode two (empower Jace 6) creates a Jace planeswalker token with "[−1]: Surveil 1" and "[−3]: Draw a card". That token is a legal surveil source for Denzilore, and a real fallback when you have no other trigger. Mode one is the default.
+- `Hall of Echoes` taps for colourless only, so it never fixes a colour; it is a spell land. Its `{5}` ability copies a creature, and the legend rule does not apply that turn, so copying `Denzilore Fatehold` or a second `Proft, Sinister Mastermind` works.
+- `Saheeli, Consul of Oversight` triggers only once per turn no matter how many surveils you stack, so resolve the surveil you care about first if the board state is tight.
+- Threshold is a static check on seven or more cards in your graveyard, not a trigger. It turns off if the yard is emptied, so do not exile your own graveyard with `Paradox Shaper`'s second ability unless the card you are recycling is worth more than the threshold body.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade with `Vraska's Final Mercy` and `Theorix Charm`, then stabilise behind `Denzilore Fatehold` as a 3/4 flash blocker. The counter swarm wins the board fast once one Denzilore is down |
+| Control | Do not overextend into a sweeper. Land one prepared miller at a time, keep `Theorix Charm` for their key spell, and use `Eye of Jace` burn plus `Hall of Echoes` to finish without committing the team |
+| Midrange | Out-grow them: every surveil is a counter on every creature, so a stalled board favours you. `Proft, Sinister Mastermind` trades up with anything |
+| Lifegain | Race with fliers and the `Eye of Jace` burn; the deck's damage is spread across many small attackers, so a single lifelink blocker is not enough |
+
+# Deck list (Arena import)
+
+```text
+Silt Cartography
+Deck
+4 Eye of Jace
+4 Proctor of Potential
+2 Proft, Consulting Detective
+4 Denzilore Fatehold
+4 Theorix Metamage
+3 Paradox Shaper
+3 Void Extrapolator
+2 Saheeli, Consul of Oversight
+2 Proft, Sinister Mastermind
+3 Liliana the Repentant
+3 Vraska's Final Mercy
+2 Theorix Charm
+4 Watery Grave
+4 Hallowed Fountain
+2 Godless Shrine
+3 Deserted Beach
+3 Undercity Sewers
+2 Meticulous Archive
+2 Shadowy Backstreet
+3 Island
+1 Hall of Echoes
+```
