@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-11-11 · **80** cards locked · **Reality Fracture 251/285** remaining
+**Card pool consumption** — cycle started 2026-11-11 · **92** cards locked · **Reality Fracture 251/285** remaining
 
-**173 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**174 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-14
+
+- **[Above Suspicion](decks/2026-11-14-above-suspicion.html)** — Dimir (blue / black) surveil-reanimator combo  `combo` `surveil`
 
 ## 2026-11-13
 

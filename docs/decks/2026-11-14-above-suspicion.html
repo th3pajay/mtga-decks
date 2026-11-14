@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-11-14">
+
+<title>Above Suspicion – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-in-three-phases" id="toc-game-plan-in-three-phases" class="nav-link" data-scroll-target="#game-plan-in-three-phases">Game plan in three phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Above Suspicion</h1>
+<p class="subtitle lead">Dimir (blue / black) surveil-reanimator combo</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">combo</div>
+    <div class="quarto-category">surveil</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 14, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Blue, black (Dimir)</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Surveil-scry dig engine that bins a Demon, then reanimates it</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 23 lands, 37 spells and creatures</td>
+</tr>
+<tr class="odd">
+<td>Primary win</td>
+<td><code>Zombify</code> returns <code>Valgavoth, Terror Eater</code>, a 9/9 flying lifelink Demon, on turn four or five</td>
+</tr>
+<tr class="even">
+<td>Secondary win</td>
+<td><code>Abhorrent Oculus</code> cast for <code>{2}{U}</code> off a stocked graveyard plus the <code>Restless Reef</code> Shark and <code>Rogue's Passage</code></td>
+</tr>
+<tr class="odd">
+<td>Land as win condition</td>
+<td><code>Restless Reef</code> turns into a 4/4 deathtouch Shark that mills four on every attack; <code>Rogue's Passage</code> makes the reanimated Demon unblockable</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>The deck is built on one loop: look at the top of the library, throw the bad half into the graveyard, keep the good half, and get paid for both halves.</p>
+<p>Surveil and scry do the work. <code>Opt</code>, <code>Dreams of Laguna</code> and <code>Wreckage Wickerfolk</code> surveil or scry on entry, <code>Undercity Sewers</code> surveils as it enters, and <code>Umbral Collar Zealot</code> and <code>Joo Dee, One of Many</code> turn spare permanents into repeated surveil. Every one of those triggers is a graveyard card, which is the fuel <code>Abhorrent Oculus</code> needs (it asks for six cards exiled from the graveyard as an additional cost) and the reason <code>Zombify</code> always has a target.</p>
+<p><code>Matoya, Archon Elder</code> is the hinge. It reads “whenever you scry or surveil, draw a card,” so each one-mana <code>Opt</code> becomes scry one and draw two, <code>Dreams of Laguna</code> becomes surveil one and draw two with a flashback copy later, and <code>Joo Dee</code> becomes a repeatable draw engine that also copies itself. Matoya is the reason a deck with 23 lands and no card-advantage sorcery can chain through half its library by turn five.</p>
+<p>The payoff is deliberately blunt. <code>Zombify</code> costs <code>{3}{B}</code> and puts any creature card from the graveyard onto the battlefield, so a <code>Chart a Course</code> discard or a <code>Bitter Triumph</code> additional cost can turn into a turn-four 9/9 flier with lifelink. <code>Valgavoth, Terror Eater</code> also exiles everything the opponent loses and lets you cast their cards for life, which means the Demon is a card-advantage engine as well as a clock. When the Demon is not available, <code>Abhorrent Oculus</code> is a 5/5 flier for three mana that manifests dread on every opponent’s upkeep.</p>
+<p>The second half of the deck is the grind: <code>Umbral Collar Zealot</code> and <code>Joo Dee</code> generate and eat tokens, <code>Restless Reef</code> attacks as a 4/4 deathtouch Shark, and <code>Rogue's Passage</code> makes the biggest body unblockable. Nothing in the list is a standalone body; every card either digs, surveils, discards, or converts a full graveyard into a threat.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-in-three-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-in-three-phases">Game plan in three phases</h2>
+<ol type="1">
+<li><strong>Turns 1-2, load the graveyard and shape the hand.</strong> <code>Opt</code>, <code>Sleight of Hand</code> and <code>Wreckage Wickerfolk</code> are the openers. <code>Wreckage Wickerfolk</code> is the best turn-two play: a 1/3 flier that surveils two, which is two cards in the graveyard and two cards closer to <code>Zombify</code>. <code>Undercity Sewers</code> on turn one is worth the tapped land, because the surveil is a real card. <code>Joo Dee</code> and <code>Umbral Collar Zealot</code> come down here as bodies that will become repeatable surveil later.</li>
+<li><strong>Turns 3-4, turn on the engine.</strong> <code>Matoya, Archon Elder</code> converts every scry and surveil into a card, so from here every cheap spell is a two-for-one. <code>Stock Up</code> finds the missing half of the combo (Demon or <code>Zombify</code>), <code>Chart a Course</code> draws two and discards the Demon or a spare land, <code>Bitter Triumph</code> kills a blocker while discarding the Demon as its additional cost. <code>Joo Dee</code> plus <code>Zealot</code> gives a free surveil every turn without spending a card.</li>
+<li><strong>Turns 4-6, convert.</strong> <code>Zombify</code> on <code>Valgavoth</code> is the primary line; <code>Abhorrent Oculus</code> for three mana is the backup. Once a 9/9 or 5/5 flier is on the board, <code>Rogue's Passage</code> and <code>Restless Reef</code> end the game through blockers, and Matoya keeps the hand full so removal does not matter.</li>
+</ol>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Copies</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Abhorrent Oculus</td>
+<td>4</td>
+<td>Primary reanimation target and backup threat: 5/5 flier for <code>{2}{U}</code> that exiles six graveyard cards as an additional cost and manifests dread on every opponent’s upkeep</td>
+</tr>
+<tr class="even">
+<td>Valgavoth, Terror Eater</td>
+<td>2</td>
+<td>The bomb: 9/9 flying lifelink, ward, exiles opposing cards and lets you cast them for life. Intended to be binned, not cast</td>
+</tr>
+<tr class="odd">
+<td>Wreckage Wickerfolk</td>
+<td>3</td>
+<td>Turn-two 1/3 flier that surveils two on entry, the deck’s best enabler</td>
+</tr>
+<tr class="even">
+<td>Matoya, Archon Elder</td>
+<td>3</td>
+<td>Engine: every scry or surveil draws a card</td>
+</tr>
+<tr class="odd">
+<td>Umbral Collar Zealot</td>
+<td>3</td>
+<td>3/2 for two; sacrifice another creature or artifact to surveil one, the free repeatable trigger</td>
+</tr>
+<tr class="even">
+<td>Joo Dee, One of Many</td>
+<td>2</td>
+<td><code>{B}</code>, tap: surveil one, copy itself, then sacrifice a creature or artifact, so the trigger repeats and leaves a 2/2 behind</td>
+</tr>
+<tr class="odd">
+<td>Opt</td>
+<td>4</td>
+<td>One mana: scry one, draw one; with Matoya it is draw two</td>
+</tr>
+<tr class="even">
+<td>Stock Up</td>
+<td>3</td>
+<td>Look at the top five, take two: finds the missing combo half</td>
+</tr>
+<tr class="odd">
+<td>Chart a Course</td>
+<td>2</td>
+<td>Draw two, discard one: the cleanest way to put <code>Valgavoth</code> in the graveyard</td>
+</tr>
+<tr class="even">
+<td>Dreams of Laguna</td>
+<td>3</td>
+<td>Surveil one, draw one, with flashback <code>{3}{U}</code> for a second trigger</td>
+</tr>
+<tr class="odd">
+<td>Bitter Triumph</td>
+<td>3</td>
+<td>Two mana removal that also discards the Demon as its additional cost</td>
+</tr>
+<tr class="even">
+<td>Zombify</td>
+<td>3</td>
+<td>The combo payoff: return any creature card from the graveyard to the battlefield</td>
+</tr>
+<tr class="odd">
+<td>Sleight of Hand</td>
+<td>2</td>
+<td>One mana, look at the top two, keep the better one</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Copies</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Restless Reef</td>
+<td>2</td>
+<td>Win-condition land: <code>{2}{U}{B}</code> makes it a 4/4 deathtouch Shark, and each attack mills four</td>
+</tr>
+<tr class="even">
+<td>Rogue’s Passage</td>
+<td>1</td>
+<td><code>{4}</code>, tap: target creature is unblockable, which is how the Demon or the Oculus finishes</td>
+</tr>
+<tr class="odd">
+<td>Undercity Sewers</td>
+<td>4</td>
+<td>Blue-black dual that enters tapped and surveils one, a free Matoya trigger</td>
+</tr>
+<tr class="even">
+<td>Watery Grave</td>
+<td>4</td>
+<td>Untapped blue-black dual, the deck’s main source of both colors</td>
+</tr>
+<tr class="odd">
+<td>Swamp</td>
+<td>5</td>
+<td>Basic black</td>
+</tr>
+<tr class="even">
+<td>Island</td>
+<td>7</td>
+<td>Basic blue, the largest single color source</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>Six one-drops, sixteen two-drops, ten three-drops and three four-drops, with the two Demons as the only expensive cards in the list and both of them meant to be cheated in. Average mana value sits under 2.5, so the deck functions on three lands and does not need a fourth to operate.</p>
+<p>Twenty-three lands with seventeen blue sources and thirteen black sources. Blue is the heavier requirement (<code>Opt</code>, <code>Sleight of Hand</code>, <code>Matoya</code>, <code>Stock Up</code>, <code>Chart a Course</code>, <code>Dreams of Laguna</code>, <code>Oculus</code>), while black is concentrated at two and four mana. The four <code>Undercity Sewers</code> are the only lands that enter tapped unconditionally; <code>Watery Grave</code> can come in untapped for 2 life, which matters on turn four when <code>Zombify</code> has to be cast on curve.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>Keep hands with two lands and a one-mana look spell. The ideal sequence is <code>Undercity Sewers</code> into <code>Wreckage Wickerfolk</code>: the surveil land fixes the draw, the Wickerfolk surveils two more, and by turn three the graveyard has enough cards that <code>Abhorrent Oculus</code> is castable. Do not be afraid to discard <code>Valgavoth</code> to <code>Chart a Course</code> on turn three; that is the plan, not a cost.</p>
+<p><code>Joo Dee</code> is not an attacker in the early game. Play it, wait a turn, then activate it on a turn where the copy and the sacrifice both matter: keep the token, sacrifice the original, and the board is unchanged while the graveyard grows and Matoya draws.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<p>The turn the deck wins usually looks like this:</p>
+<ol type="1">
+<li><code>Zombify</code> with <code>{3}{B}</code>, returning <code>Valgavoth, Terror Eater</code> after a <code>Chart a Course</code> or <code>Bitter Triumph</code> put it in the graveyard.</li>
+<li>Attack for 9 with flying and lifelink. The Demon’s ward makes the usual removal trade cost three nonland permanents, so most decks cannot answer it.</li>
+<li>From that point the Demon exiles everything the opponent loses and lets you cast their spells for life, so the game becomes a race the opponent cannot win.</li>
+</ol>
+<p>If the Demon is not in the graveyard yet, <code>Abhorrent Oculus</code> is the same turn for three mana: exile six cards from the graveyard, resolve a 5/5 flier, and every opponent upkeep afterwards manifests dread, which is another two cards of library selection per turn cycle.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>Without the Demon the deck still closes. <code>Restless Reef</code> activates for <code>{2}{U}{B}</code> into a 4/4 deathtouch Shark that mills four whenever it attacks, which is both a clock and a way to dig deeper. <code>Umbral Collar Zealot</code> and <code>Joo Dee</code> tokens chip in, and <code>Rogue's Passage</code> turns any one of them into an unblockable attacker for <code>{4}</code>. Against decks with ground blockers this is the plan: two Reefs plus a Passage is eight unblockable damage a turn from lands alone.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep: two or three lands plus any two of <code>Opt</code>, <code>Sleight of Hand</code>, <code>Wreckage Wickerfolk</code>, <code>Matoya</code>. A hand with <code>Chart a Course</code> or <code>Bitter Triumph</code> and a <code>Zombify</code> is a keep even without the Demon, because <code>Stock Up</code> and <code>Opt</code> find it.</p>
+<p>Mulligan: one-land hands, hands with no blue source, and hands that are all three-drops with no look spell. Two Demons in the opener is a mulligan unless a <code>Chart a Course</code> is also there.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li><strong><code>Abhorrent Oculus</code> needs six cards exiled.</strong> Check the graveyard count before casting; with <code>Dreams of Laguna</code> and <code>Wickerfolk</code> it is normally reached by turn four. The exile is a cost, so it cannot be responded to by removing the Oculus.</li>
+<li><strong><code>Matoya</code> triggers on scry as well as surveil.</strong> <code>Opt</code> is a scry, so it draws two cards with Matoya out. <code>Stock Up</code> does not scry and does not trigger.</li>
+<li><strong><code>Joo Dee</code> copies itself, then you sacrifice.</strong> The copy is created before the sacrifice, so you always keep exactly one Joo Dee and the trigger repeats every turn. Sacrifice the token and keep the original to preserve the engine.</li>
+<li><strong><code>Umbral Collar Zealot</code> needs fodder.</strong> It sacrifices another creature or artifact, not itself. Pair it with <code>Joo Dee</code> tokens, spare <code>Wreckage Wickerfolk</code>, or a Clue-style artifact.</li>
+<li><strong><code>Bitter Triumph</code> can bin the Demon.</strong> The additional cost is “discard a card or pay 3 life,” so it is both removal and a way to put <code>Valgavoth</code> where <code>Zombify</code> can reach it.</li>
+<li><strong><code>Chart a Course</code> discard happens after the draw</strong>, so sequence it before <code>Zombify</code> and not after.</li>
+<li><strong><code>Rogue's Passage</code> adds colorless mana.</strong> It cannot cast <code>Opt</code> or <code>Zombify</code> on its own; count it as a spell-land, not a source.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<ul>
+<li><strong>Aggro:</strong> the deck’s cheap interaction is thin, so race with lifelink. <code>Valgavoth</code> ends aggro races on its own because every attack gains 9. <code>Bitter Triumph</code> on their best attacker plus <code>Umbral Collar Zealot</code> blockers is usually enough to reach turn five.</li>
+<li><strong>Control:</strong> <code>Matoya</code> is the whole matchup. Play it before the Demon, force them to answer the draw engine, and let <code>Joo Dee</code> and <code>Zealot</code> grind out card advantage. <code>Rogue's Passage</code> beats their blockers.</li>
+<li><strong>Midrange:</strong> the reanimation line is faster than their curve. <code>Restless Reef</code> trades with anything on the ground and the 9/9 flier ignores their board.</li>
+<li><strong>Combo:</strong> no counterspells in the main deck, so the plan is speed: <code>Zombify</code> on turn four with the Demon plus <code>Rogue's Passage</code> the following turn is the fastest clock available.</li>
+</ul>
+</section>
+</section>
+<section id="iterations" class="level1">
+<h1>Iterations</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Change</th>
+<th>Sim win rate</th>
+<th>Synergy</th>
+<th>T4 consistency</th>
+<th>P(4 lands by T4)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v1</td>
+<td>First draft, 59 cards: Demon plus Oculus, <code>Wretched Doll</code> and <code>Surveillance Phantasm</code> as the repeatable surveil</td>
+<td>57.0</td>
+<td>69.4</td>
+<td>0.603</td>
+<td>0.610</td>
+</tr>
+<tr class="even">
+<td>v2</td>
+<td>-2 <code>Valgavoth</code>, -2 <code>Surveillance Phantasm</code>, -1 <code>Hour of Defeat</code>; +3 <code>Il Mheg Pixie</code>, +2 <code>Mindwhisker</code>, +1 <code>Joo Dee</code> (fix the 59-card count, add evasive surveil bodies)</td>
+<td>58.3</td>
+<td>69.2</td>
+<td>0.579</td>
+<td>0.583</td>
+</tr>
+<tr class="odd">
+<td>v3</td>
+<td>-3 <code>Wretched Doll</code>, -1 <code>Hour of Defeat</code>, -1 <code>Mindwhisker</code>; +3 <code>Umbral Collar Zealot</code>, +2 <code>Snarling Gorehound</code> (free repeatable surveil instead of tapped-doll activations)</td>
+<td>56.7</td>
+<td>68.8</td>
+<td>0.578</td>
+<td>0.583</td>
+</tr>
+<tr class="even">
+<td>v4</td>
+<td>-3 <code>Risky Research</code>, -3 <code>Too Evil to Stay Dead</code>, -2 <code>Hymn of the Faller</code>, -3 <code>Il Mheg Pixie</code>, -2 <code>Snarling Gorehound</code>, -1 <code>Mindwhisker</code>, -1 <code>Joo Dee</code>, -1 <code>Wreckage Wickerfolk</code>, -1 <code>Dreams of Laguna</code>, -2 <code>Shipwreck Marsh</code>; +4 <code>Opt</code>, +3 <code>Stock Up</code>, +3 <code>Bitter Triumph</code>, +2 <code>Chart a Course</code>, +2 <code>Sleight of Hand</code>, +2 <code>Valgavoth</code>, +1 <code>Zombify</code>, +2 <code>Island</code> (cheap dig over clunky surveil sorceries, and restore the Demon as the payoff)</td>
+<td>56.7</td>
+<td>71.8</td>
+<td>0.595</td>
+<td>0.572</td>
+</tr>
+</tbody>
+</table>
+<p>All gates passed on v4: 60 cards with no missing entries, Standard legal, zero rotating cards, sim 56.7, synergy 71.8, T4 consistency 0.595, P(four lands by turn four) 0.572.</p>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre class="text"><code>Above Suspicion
+Deck
+4 Abhorrent Oculus
+2 Valgavoth, Terror Eater
+3 Wreckage Wickerfolk
+3 Matoya, Archon Elder
+3 Umbral Collar Zealot
+2 Joo Dee, One of Many
+4 Opt
+3 Stock Up
+2 Chart a Course
+3 Dreams of Laguna
+3 Bitter Triumph
+3 Zombify
+2 Sleight of Hand
+4 Watery Grave
+4 Undercity Sewers
+2 Restless Reef
+1 Rogue's Passage
+5 Swamp
+7 Island</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

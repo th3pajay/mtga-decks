@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-11-13:\n\nSilt Cartography — Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture reality-fracture surveil\nCorpse Census — WUBG — Morbid x Surveil combo morbid surveil"
+    "text": "Deck guides published 2026-11-14:\n\nAbove Suspicion — Dimir (blue / black) surveil-reanimator combo combo surveil"
   },
   {
     "objectID": "decks/2026-10-18-fathom-ledger.html",
@@ -6475,697 +6475,88 @@
     "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nDáin, Lord of the Iron Hills taxes attacks, Mattock’s ward {1} taxes removal; trade Dwarves early and let Warleader’s Call win the race on pings\n\n\nMidrange\nYou have more two-for-ones: Kíli, Giott and Dáin’s Company all replace themselves. Keep Thorin, Mountain-king for the biggest blocker\n\n\nControl\nThe Lonely Mountain and Sandstorm Salvager win through sorcery-speed sweepers; Elvish Archivist rebuilds after a wipe, and Leyline Axe in the opener beats a turn-one Duress-style start\n\n\nCombo\nErode and Dáin Ironfoot’s double strike are the clock pieces; Dwarven Mauler plus Leyline Axe is a turn-four kill if they stumble"
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html",
-    "href": "decks/2026-10-14-loyalty-lattice.html",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html",
+    "href": "decks/2026-10-04-cinderhoard.html",
+    "title": "Cinderhoard",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (Reality Fracture set deck)\n\n\nColors\nBlue / white / black (Esper)\n\n\nArchetype\nPlaneswalker combo — Empower loyalty engine\n\n\nSize\n60 cards, 24 lands\n\n\nFocused mechanic\nEmpower (35 cards in Reality Fracture), the Jace planeswalker token it creates, and loyalty counters\n\n\nPrimary win\nJace, Reality Sculptor’s zero-loyalty ability: with twenty-five or more loyalty counters among Jaces you control, exile all but the bottom card of each opponent’s library and let them deck themselves\n\n\nSecondary win\nSanctum Lurker turns every planeswalker into a “+2: one damage to each opponent and you gain one life” pinger that never dies, and every point of that life gain feeds Way of the Mentor, which puts a loyalty counter on each planeswalker — a board that grows and drains every single turn\n\n\nLand win con\nTheorist’s Sanctum — an Island that enters untapped once you behold a Jace and can pay two plus blue to empower Jace 2, a repeatable loyalty source for the primary win\n\n\nDeck IDs\nMTGADB deck 20 — cohesion 73.9, synergy 73.8, goldfish T4 consistency 0.637"
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA), The Hobbit set core\n\n\nColors\nBlue / Black / Red (Grixis)\n\n\nArchetype\nCombo-ramp midrange (17 creatures, average nonland cost 3.6)\n\n\nSize\n60 cards, 24 lands\n\n\nCore mechanic\nTreasure tokens as mana, as damage and as a Dragon trigger\n\n\nPrimary win\nSmaug the Magnificent plus a Treasure hoard: a hasty 4/3 flier that deals damage equal to your Treasure count on every attack while making a fresh Treasure each upkeep\n\n\nSecondary win\nThe Misty Mountains Cold turns four Treasures into a 6/6 flying Dragon token, and Last Light of Durin’s Day cheats a Dragon directly onto the battlefield\n\n\nEngine land\nThe Lonely Mountain (Mountain subtype for the Durin’s Day quest, and a mana sink that builds 2/2 Dwarf tokens)\n\n\nViability\n88.82 overall, synergy 71.6, simulated win rate 54.3 over three 500-game runs"
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#game-plan-in-three-phases",
-    "href": "decks/2026-10-14-loyalty-lattice.html#game-plan-in-three-phases",
-    "title": "Loyalty Lattice",
-    "section": "Game plan in three phases",
-    "text": "Game plan in three phases\n\nSeed the lattice (turns 1 to 3). One untapped basic, then the cheapest empower effects. Way of the Necromancer on turn two creates a Jace token and puts two counters on it; Theorist's Proxy is a flashed-in 0/3 that empowers Jace 3 and protects the token at instant speed; Ajani Resolute on turn one is a zero ability that gains a life every turn and grows itself off that life. From the moment you control a planeswalker, the Annex lands stop entering tapped, so this phase is also the mana-fixing phase.\nBuild the stack (turns 4 to 6). Sanctum Lurker turns every planeswalker into a pinger and makes them immortal at zero loyalty. Jace's Machinations is the biggest single loyalty swing in the deck — empower Jace 8, plus the ability to activate Jace loyalty abilities on any player’s turn at instant speed. Mindseeker Oculus, Protege's Awakening and Way of the Mind Sculptor each add four, six and five more counters. Way of the Mentor and Way of the Healer are the multipliers: Mentor converts every point of life you gain (and the Lurker gains life on every activation) into a counter on every planeswalker, while Healer gives every planeswalker “[-2]: Create a 2/2 colorless Wizard Soldier token named Cadet. Surveil 1.”\nConvert (turn six plus). With a Jace token carrying twenty-five or more counters, with Jace, Reality Sculptor on the battlefield, activate its zero ability and exile the opponent’s library down to one card. From there the opponent draws their last card and loses on the following draw step. If the Sculptor is not there yet, the Lurker board is already winning: each planeswalker pings for one and gains a life every turn, Cadets and Illusions attack, and The Theorist, Jace Beleren draws you an extra card on each opponent’s draw step while you find the kill."
+    "objectID": "decks/2026-10-04-cinderhoard.html#game-plan-phases",
+    "href": "decks/2026-10-04-cinderhoard.html#game-plan-phases",
+    "title": "Cinderhoard",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-2\nGiant’s Boulder or Thrór’s Map to smooth draws and fix colours, Last Light of Durin’s Day or Pinecone Strike as interaction\n\n\nTurns 3-4\nSmaug the Magnificent lands on curve as a hasty flier, or Dori, Bearer of Friends and The Misty Mountains Cold start the Treasure bank\n\n\nTurns 4-6\nFateful Discovery converts the Treasure stream into cards; Desolation of Smaug wipes small boards and pays four mana toward the next Dragon; Smaug, Wicked Worm refills\n\n\nWinning turn\nSmaug attacks for damage equal to the Treasure count, Desert Were-Worm untaps the team for a second combat, or The Misty Mountains Cold cashes four Treasures into a 6/6 Dragon"
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#card-roles",
-    "href": "decks/2026-10-14-loyalty-lattice.html#card-roles",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#card-roles",
+    "href": "decks/2026-10-04-cinderhoard.html#card-roles",
+    "title": "Cinderhoard",
     "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nSanctum Lurker\n4\nLinchpin — 3/2 for three that empowers Jace 1 on entry, then keeps every planeswalker alive at zero loyalty and gives them all a “+2: deal 1 damage to each opponent and you gain 1 life” ability\n\n\nThe Theorist, Jace Beleren\n3\nEngine and Jace — draws a card at the beginning of each opponent’s draw step, makes 1/1 Illusion tokens with its plus ability, and its ultimate dumps the hand onto the whole board as +1/+1 counters\n\n\nJace, Reality Sculptor\n2\nWin condition — its plus ability empowers Jace X where X is your Island count, its minus three softens attackers, and its zero ability exiles all but the bottom card of each opponent’s library at twenty-five loyalty\n\n\nAjani Resolute\n2\nEngine — two-mana planeswalker whose zero ability gains a life, which grows Ajani itself and every other planeswalker with Way of the Mentor out; also a source of 2/2 Cat Soldier tokens later\n\n\nLiliana the Faultless\n2\nEngine — one-mana 1/1 that gains a life every time another creature or planeswalker enters, which every empower spell triggers\n\n\nMindseeker Oculus\n2\nEnabler — three-mana 2/1 that empowers Jace 4 on entry, the cheapest big counter swing in the set\n\n\nTheorist’s Proxy\n2\nEnabler and protection — flash 0/3 that empowers Jace 3 at instant speed, and can be sacrificed so the next spell cannot be countered\n\n\nWay of the Mentor\n3\nMultiplier — empowers Jace 5 on entry, then puts a loyalty counter on each planeswalker every time you gain life\n\n\nWay of the Necromancer\n3\nEnabler — two-mana enchantment that empowers Jace 2 on entry and adds a loyalty counter to each planeswalker whenever a creature you control dies\n\n\nWay of the Mind Sculptor\n2\nEnabler and draw — empowers Jace 5 on entry, then draws a card whenever you activate a loyalty ability that removed two or more counters\n\n\nWay of the Healer\n1\nWin condition 2 enabler — empowers Jace 5 and grants every planeswalker “[-2]: create a 2/2 Cadet token, surveil 1”\n\n\nJace’s Machinations\n4\nThe big swing — instant that empowers Jace 8 and lets you activate Jace loyalty abilities on any player’s turn at instant speed\n\n\nProtege’s Awakening\n2\nEnabler — four mana, empower Jace 6, draw a card\n\n\nVraska’s Final Mercy\n2\nRemoval and win fuel — two mana, pay two life for either “destroy target creature or planeswalker” or “empower Jace 6”\n\n\nFatehold Charm\n2\nFlexibility — two mana instant: draw a card and empower Jace 2, bounce a creature or spell, or give the team +1/+2"
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nWin condition: hasty 4/3 flier, upkeep Treasure, attack damage equal to your Treasure count to any target\n\n\nSmaug, Wicked Worm\n5/5 flier that makes Treasures equal to the opponent’s artifact count and converts Treasure mana into cards\n\n\nSmaug, the Great Calamity\nTop-end 5/5 flier with the Spew Flame adventure, five damage to a creature, as removal on the way down\n\n\nDesert Were-Worm\nFinisher that scales with Mountains and untaps every attacker for an extra combat phase\n\n\nDori, Bearer of Friends\nThree-mana 3/2 trampler that enters with a Treasure; the curve’s main ramp body\n\n\nLong-Bodied Grey Dog\nFlash blocker that arrives with a tapped Treasure and can ambush an attacker\n\n\nThe Sackville-Bagginses\nTwo-drop that eats a spare token for a card plus a Treasure, and drains an opponent whenever you sac a token\n\n\nThe Misty Mountains Cold\nTreasure every chapter, then four Treasures become a 6/6 flying Dragon token\n\n\nFateful Discovery\nCard engine: every artifact that enters draws a card\n\n\nLast Light of Durin’s Day\nWin condition: six Mountains completes the quest and drops a Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nSweeper for non-Dragons plus four mana that only pays for Dragon spells\n\n\nBilbo’s Deadly Slice\nUnconditional removal at instant speed\n\n\nPinecone Strike\nFlexible removal: three damage to a creature, or destroy an artifact token, or both\n\n\nThrór’s Map\nTwo-mana fixer that fetches a basic land and later loots\n\n\nGiant’s Boulder\nOne-mana artifact that scries on entry, taps for any colour and converts late into a removal spell\n\n\nOrcrist, Goblin-cleaver\nEquipment that turns a combat step into a pile of Treasures and pushes damage through with trample"
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#lands-as-engines",
-    "href": "decks/2026-10-14-loyalty-lattice.html#lands-as-engines",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#lands-as-engines",
+    "href": "decks/2026-10-04-cinderhoard.html#lands-as-engines",
+    "title": "Cinderhoard",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTheorist’s Sanctum\nThe land half of the win condition. It is an Island, it enters untapped if you behold a Jace (choose one you control or reveal a Jace card from your hand — the deck has five Jaces), and for two plus blue it empowers Jace 2 on any turn. That is a free loyalty counter pair every single turn out of a land slot, and it is what pushes a nineteen-counter board over the twenty-five threshold\n\n\nFatehold Annex\nWhite-blue dual that enters untapped once you control a planeswalker — which an empower spell guarantees from turn two\n\n\nTheorix Annex\nBlue-black dual on the same condition, paying for Sanctum Lurker, Way of the Necromancer and Vraska’s Final Mercy\n\n\nMeticulous Commons\nWhite-black dual on the same condition, covering the black half of the Ways and the white half of Way of the Mentor\n\n\nDeserted Beach\nBlue-white dual that enters untapped once you control two other lands, so it is live before the first planeswalker lands\n\n\nShipwreck Marsh\nBlue-black dual on the same two-land condition\n\n\nIsland, Plains, Swamp\nThe untapped basics. Four Islands pay for the blue-heavy curve and make Jace, Reality Sculptor’s plus ability large; two Plains and a Swamp cover the white and black halves"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nWin-condition land: a Mountain for the Durin’s Day quest that also sacrifices into 2/2 Dwarf tokens, which feed Fateful Discovery\n\n\nStormcarved Coast\nThe fast blue-red dual; enters untapped once two other lands are out\n\n\nSwiftwater Cliffs\nBlue-red fixing that pays a life on entry\n\n\nDismal Backwater\nBlue-black fixing that pays a life on entry\n\n\nBloodfell Caves\nBlack-red fixing that pays a life on entry\n\n\nMountain / Island / Swamp\nFive Mountains deepen Desert Were-Worm and the Durin’s Day quest, three Islands and two Swamps carry the blue and black costs"
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#curve-and-mana",
-    "href": "decks/2026-10-14-loyalty-lattice.html#curve-and-mana",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#curve-and-mana",
+    "href": "decks/2026-10-04-cinderhoard.html#curve-and-mana",
+    "title": "Cinderhoard",
     "section": "Curve and mana",
-    "text": "Curve and mana\n36 nonland cards and 24 lands, average nonland mana value 2.97 — two ones, eleven twos, thirteen threes, six fours and four fives. The deck wants a turn-one play almost always and a turn-two empower effect in most games, then spends the mid game on four- and five-mana engines.\nThe mana base is blue with white and black support: eighteen blue sources, eleven white and ten black. Blue is that deep on purpose. It pays for a heavy blue top end (The Theorist and Jace, Reality Sculptor both cost two blue, and the Sculptor’s plus ability counts Islands), and it is the colour that the Annex cycle and Shipwreck Marsh share.\nThe six Annex and Commons lands all enter untapped once you control a planeswalker, so the first empower spell of the game is also the moment the mana base comes online. Run the basics first: turn one should be an untapped basic or a Deserted Beach, never a tapped Annex. After the first Jace lands, all six duals are free."
+    "text": "Curve and mana\nThe deck curves 2 / 7 / 11 / 6 / 5 / 3 / 2 across one through seven mana with an average nonland cost of 3.6, and the Treasure tokens pay the top of that curve early. Counting only lands and applying the Treasures as wildcards, the base offers roughly sixteen red sources, thirteen blue and seven black — red is the deepest because Smaug the Magnificent, Desert Were-Worm and Desolation of Smaug all ask for double red, while black is the shallowest and is covered by the four Treasure-makers plus Giant’s Boulder’s any-colour activation.\nTwenty-four lands is deliberate. The deck has no one-mana accelerant, so hitting land three on time matters, and The Lonely Mountain’s token ability wants to be activated only after the fourth land is down. The Lonely Mountain also enters tapped unless you control an Equipment, so curve it behind Thrór’s Map, Orcrist or Giant’s Boulder rather than leading with it on a slow hand."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#early-game-turns-1-to-3",
-    "href": "decks/2026-10-14-loyalty-lattice.html#early-game-turns-1-to-3",
-    "title": "Loyalty Lattice",
-    "section": "Early game (turns 1 to 3)",
-    "text": "Early game (turns 1 to 3)\n\nTurn 1: Liliana the Faultless is the best one-drop — a 1/1 that gains a life every time a creature or planeswalker enters, which is the deck’s entire game plan arriving early. Ajani Resolute is the other option: a two-mana planeswalker that gains a life every turn and grows itself.\nTurn 2: Way of the Necromancer is the cheapest way to put a Jace token (and two counters) on the battlefield, and it turns every future trade into a loyalty counter on every planeswalker. Theorist's Proxy at flash speed is the safe version: hold up two mana, and if the opponent does nothing relevant, empower Jace 3 at end of turn.\nTurn 3: Sanctum Lurker is the priority. It makes the board of planeswalkers permanent and turns each of them into a pinger. Mindseeker Oculus (empower Jace 4) and Fatehold Charm (draw a card, empower Jace 2) are the backup plays.\nEvery one of those spells also untaps your Annex lands for the rest of the game. Treat the first empower spell of the game as the mana-fixing play, not just the engine play."
+    "objectID": "decks/2026-10-04-cinderhoard.html#early-game",
+    "href": "decks/2026-10-04-cinderhoard.html#early-game",
+    "title": "Cinderhoard",
+    "section": "Early game",
+    "text": "Early game\nThe first two turns are about not falling behind. Giant’s Boulder is the best one-drop: it scries two on entry, which fixes a stumble, and it later taps for any colour, which lets the deck cast Smaug, Wicked Worm off a hand that only drew Mountains. Thrór’s Map does the same job with a guaranteed land; cast it before the first Smaug so that the four-drop never misses its fourth land.\nAgainst aggro, hold Pinecone Strike and Bilbo’s Deadly Slice rather than developing. A Smaug the Magnificent that survives to attack is worth more than a two-drop, so trade removal for their best attacker and land the dragon on turn four."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#mid-game-turns-4-to-6",
-    "href": "decks/2026-10-14-loyalty-lattice.html#mid-game-turns-4-to-6",
-    "title": "Loyalty Lattice",
-    "section": "Mid game (turns 4 to 6)",
-    "text": "Mid game (turns 4 to 6)\n\nJace's Machinations is the turn the clock starts. Eight counters in one instant, plus instant-speed loyalty activation for the rest of the turn — with Sanctum Lurker down that means a ping and a life point for every planeswalker even on the opponent’s turn.\nWay of the Mentor doubles the value of every ping, every Ajani activation and every Liliana trigger. Cast it before the next batch of empower spells, not after.\nThe Theorist, Jace Beleren is the card-advantage engine: it draws on each opponent’s draw step, so holding mana for Theorist's Proxy or a charm costs you nothing in the long run.\nHold Vraska's Final Mercy for the mode you actually need. Two life for “destroy target creature or planeswalker” is a bargain against a resolved threat; two life for empower Jace 6 is a bargain when you are two counters short of the combo.\nJace, Reality Sculptor’s minus three is a real defensive play: every creature that attacks you or a planeswalker you control gets minus five minus zero until your next turn. It buys the extra turn the deck needs."
+    "objectID": "decks/2026-10-04-cinderhoard.html#mid-game",
+    "href": "decks/2026-10-04-cinderhoard.html#mid-game",
+    "title": "Cinderhoard",
+    "section": "Mid game",
+    "text": "Mid game\nTurn four is Smaug the Magnificent, almost every game. He attacks the turn he is cast, so the first attack is already two or three damage from the Treasures made by Dori, Grey Dog and the Misty Mountains chapter. From there the upkeep trigger compounds: each turn adds a Treasure, which raises the attack damage by one and moves The Misty Mountains Cold one step closer to a 6/6 Dragon.\nFateful Discovery is the card that makes the middle turns unfair. Every Treasure the deck makes is an extra card, so a turn that produces three artifacts draws three cards. Because Smaug, Wicked Worm also draws off Treasure mana, the deck can spend a turn making Treasures and still come out ahead in cards.\nDesolation of Smaug is the reset button for the middle game. It deals three damage to every non-Dragon creature — the deck’s own Dragons are immune — and then pays four mana toward the next Dragon spell. Cast it with a Dragon in hand and it becomes a two-for-one plus a mana refund."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#the-combo-turn",
-    "href": "decks/2026-10-14-loyalty-lattice.html#the-combo-turn",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#the-combo-turn",
+    "href": "decks/2026-10-04-cinderhoard.html#the-combo-turn",
+    "title": "Cinderhoard",
     "section": "The combo turn",
-    "text": "The combo turn\n\nHave Jace, Reality Sculptor on the battlefield and a Jace token (or any Jace) with a stack of loyalty counters. Sanctum Lurker is strongly preferred, because it keeps every planeswalker alive at zero loyalty and adds the ping ability.\nCount the loyalty among all Jaces you control. Common contributions: Jace's Machinations eight, Protege's Awakening six, Way of the Mind Sculptor five, Way of the Mentor five, Mindseeker Oculus four, Theorist's Proxy three, Way of the Necromancer two, Vraska's Final Mercy six, Fatehold Charm two, Theorist's Sanctum two per activation, and the Sculptor’s own plus ability for one per Island.\nTwo or three empower spells plus a Sanctum activation is normally enough. When the total reaches twenty-five, activate Jace, Reality Sculptor’s zero ability: exile all but the bottom card of each opponent’s library.\nThe opponent is not decked immediately — they still have one card. They draw it, then lose on their next draw step. In the meantime the Lurker board keeps pinging and gaining life, so there is no window where they can race back.\nIf the combo is disrupted, you have not lost anything. The empower spells left a board of planeswalkers, the Ways keep growing them, and Way of the Healer keeps making 2/2 Cadets every turn."
+    "text": "The combo turn\nThe kill usually arrives in one of three forms, all fed by the same Treasure bank.\n\nSmaug burn. With six or more Treasures out, Smaug the Magnificent attacks for six or more to any target, and the upkeep trigger adds another Treasure for next turn. Two Smaugs on the board attack for double the hoard.\nMisty Mountains Dragon. The Misty Mountains Cold needs four Treasures when a chapter resolves; once it has them the Saga sacrifices itself and leaves a 6/6 flying Dragon token behind, and the Saga’s own chapters supply two of the four Treasures it needs.\nWere-Worm extra combat. Attack with twelve or more total power and Desert Were-Worm untaps every attacker for a second combat phase. A 6/6 Dragon token plus a Smaug is already twelve.\n\nA representative turn: Smaug the Magnificent and a 6/6 Misty Mountains Dragon token attack for eleven, Desert Were-Worm’s trigger untaps them, and the second combat step attacks for eleven more — twenty-two through the air with two fliers."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#win-condition-2-the-lurker-board",
-    "href": "decks/2026-10-14-loyalty-lattice.html#win-condition-2-the-lurker-board",
-    "title": "Loyalty Lattice",
-    "section": "Win condition 2: the Lurker board",
-    "text": "Win condition 2: the Lurker board\nSanctum Lurker turns every planeswalker — the token from an empower spell, The Theorist, Jace Reality Sculptor, Ajani Resolute — into a permanent that deals one damage to each opponent and gains you a life for two loyalty counters. In a normal game the deck fields between three and six planeswalkers, so that is three to six damage a turn from permanents the opponent cannot kill by attacking them to zero loyalty. Way of the Mentor adds a counter to every one of them on each of those life gains, Way of the Necromancer adds another counter every time a Cadet or Illusion chump-blocks, and Way of the Healer makes every planeswalker a Cadet factory at minus two. The result is a board that grows while it drains; The Theorist, Jace Beleren’s ultimate then converts the hand into +1/+1 counters on every creature for a lethal swing."
+    "objectID": "decks/2026-10-04-cinderhoard.html#win-condition-2",
+    "href": "decks/2026-10-04-cinderhoard.html#win-condition-2",
+    "title": "Cinderhoard",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nWhen the opponent stabilises the ground, the deck wins from the library instead. Last Light of Durin’s Day puts a quest counter on itself every time a Mountain enters; six counters sacrifice it and put a Dragon from hand or library directly onto the battlefield. With five Mountains, The Lonely Mountain and Thrór’s Map fetching a seventh, the quest is realistically complete by turn six or seven, and the payoff is Smaug, the Great Calamity or Desert Were-Worm for free.\nThe second route to the same finish is the token hoard. The Lonely Mountain makes a 2/2 Dwarf token for four mana, one cheaper for each Equipment, and every token draws a card under Fateful Discovery. Those Dwarves then provide the twelve power Desert Were-Worm needs for the extra combat, so the mana sink and the finisher are the same plan."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#mulligan-guide",
-    "href": "decks/2026-10-14-loyalty-lattice.html#mulligan-guide",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#mulligan-guide",
+    "href": "decks/2026-10-04-cinderhoard.html#mulligan-guide",
+    "title": "Cinderhoard",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\n\nKeep: two or three lands with at least one untapped basic, plus a cheap empower effect (Way of the Necromancer, Theorist's Proxy, Mindseeker Oculus) and one payoff or multiplier (Sanctum Lurker, Way of the Mentor, Jace's Machinations).\nKeep on six: one basic land plus Liliana the Faultless or Ajani Resolute and two more lands. A turn-one lifegain engine is a functional start.\nTrim: hands with four or more lands but nothing to cast under three mana; hands that are all defence; one-land hands with no one-drop.\nDo not go to five looking for Jace's Machinations. The deck’s floor is cheap empower spells, and the Ways and Lurkers are the cards that make them matter."
+    "text": "Mulligan guide\nKeep two or three lands, one two-drop and one card that makes Treasures. A hand with Smaug the Magnificent, a Treasure-maker and four lands is a clear keep — the deck’s whole plan is to bank Treasures, and four lands casts the dragon and leaves room to activate The Lonely Mountain later. Ship one-land hands, and ship hands with no Treasure source at all; without Treasures the deck is a pile of expensive Dragons that arrive late."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-10-14-loyalty-lattice.html#key-interactions-and-edge-cases",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-10-04-cinderhoard.html#key-interactions-and-edge-cases",
+    "title": "Cinderhoard",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nA planeswalker at zero loyalty is not dead here. Sanctum Lurker stops your planeswalkers from being put into graveyards for having zero loyalty. Costs that remove loyalty cannot be paid below zero, but a cost that adds counters — the Lurker’s granted plus-two, Jace, Reality Sculptor’s plus one — is always payable, so a zero-loyalty planeswalker keeps working.\nEmpower targets a Jace token, not a Jace card. “Put counters on a Jace token you control; if you do not control one, first create a blue Jace planeswalker token.” The Theorist, Jace Beleren is a Jace for the loyalty-count and for beholding, but the counters from empower land on the token.\nWay of the Mentor and Sanctum Lurker are the engine pair. The Lurker’s ping gains a life on every activation, and Mentor converts every life gain into a counter on each planeswalker. Ajani Resolute’s zero ability and Liliana the Faultless’s enters-trigger do the same job on their own.\nWay of the Necromancer wants bodies, not bombs. It only triggers when a creature dies, so Cadets, Illusions and Cat Soldiers are the fuel — chump-blocking is often a loyalty counter on every planeswalker.\nBehold a Jace is a cost, not a sacrifice. Theorist’s Sanctum either chooses a Jace you control or reveals a Jace card from your hand; the permanent stays. Casting the Sanctum with a Jace in hand makes it an untapped Island.\nJace’s Machinations lifts timing, not the once-per-turn rule. Each planeswalker still activates one loyalty ability per turn, but with the instant it can activate on the opponent’s turn as well.\nThe last-card rule. Jace, Reality Sculptor leaves the opponent exactly one library card. That player draws it and then loses on the following draw. If they have a way to skip draws or shuffle back in, keep the Lurker board attacking; the ping-plus-Cadets plan does not care.\nVraska’s Final Mercy always costs two life, whichever mode you pick. Do not fire it at three life against a deck with reach."
+    "text": "Key interactions and edge cases\n\nSmaug the Magnificent makes his Treasure at the beginning of your upkeep, so the attack on that same turn already counts it — the first swing after a fresh Smaug is one damage larger than it looks.\nSmaug’s attack trigger can target any target, including creatures for removal or opposing planeswalkers, not just the player.\nSmaug, Wicked Worm counts artifacts your opponents control when it enters, so it is worst against a creature deck and best after an opposing Treasure or Equipment has hit the board.\nThe Misty Mountains Cold checks for four Treasures when a chapter resolves; if you already have four, the very first chapter sacrifices the Saga and makes the Dragon immediately, so it can be a three-mana 6/6 flier.\nLast Light of Durin’s Day counts Mountains, not lands — only The Lonely Mountain and Mountain trigger it, so Islands and Swamps never advance the quest.\nDesert Were-Worm is a 0/5 that only becomes lethal with Mountains; leave it back as a blocker when your Mountain count is low and attack with it only once the team’s power clears twelve.\nDesolation of Smaug spares Dragons, so it is a one-sided sweeper while your own fliers are on the board, and its four mana can pay for Smaug, the Great Calamity in the same turn.\nPinecone Strike can choose both modes, so it destroys an opposing Treasure or Equipment and deals three to a creature in the same spell.\nThe Sackville-Bagginses can sacrifice a Treasure or a Dwarf token to itself, drawing a card and replacing the token while draining an opponent.\nFateful Discovery triggers on Treasure tokens as well as artifacts, so an Orcrist combat step that makes three Treasures draws three cards.\nThe Lonely Mountain enters tapped unless you control an Equipment, so cast it behind Thrór’s Map, Orcrist or Giant’s Boulder when the turn’s mana is tight."
   },
   {
-    "objectID": "decks/2026-10-14-loyalty-lattice.html#matchups",
-    "href": "decks/2026-10-14-loyalty-lattice.html#matchups",
-    "title": "Loyalty Lattice",
+    "objectID": "decks/2026-10-04-cinderhoard.html#matchups",
+    "href": "decks/2026-10-04-cinderhoard.html#matchups",
+    "title": "Cinderhoard",
     "section": "Matchups",
-    "text": "Matchups\n\nAggro: the deck’s early bodies are 1/1s and 0/3s, so the opening turns are about survival, not tempo. Ajani Resolute and Liliana the Faultless gain the life back, Jace, Reality Sculptor’s minus three makes attacking into the board miserable, and once Sanctum Lurker arrives pressure stops mattering — the board pings back every turn and cannot be killed.\nMidrange: this is the best matchup. The deck out-grows whatever the opponent plays, because the Ways add counters every turn and the empower spells never spend a card on the engine itself. Save Vraska's Final Mercy for the one threat that actually blocks the combo.\nControl: the value sits on enchantments and planeswalkers rather than on spells, so counterspells trade down. Theorist's Proxy can be sacrificed to make the next spell uncounterable, and Way of the Mentor and Way of the Necromancer are the survivals after a sweeper because they keep the rebuilt board growing.\nCombo and graveyard decks: the deck has no graveyard interaction beyond Fatehold Charm and Vraska’s Final Mercy, so racing with the Lurker board plus the Jace deck-out is the plan. The Theorist, Jace Beleren’s draw step trigger means the deck finds its kill quickly against decks that do not pressure life totals.\nArtifact and enchantment removal: Way of the Healer and Way of the Necromancer are the expendable pieces; Way of the Mentor and Sanctum Lurker are the ones worth protecting with Theorist's Proxy’s sacrifice ability or by simply doubling up.\n\nReality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there."
-  },
-  {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Card pool consumption — cycle started 2026-11-11 · 80 cards locked · Reality Fracture 251/285 remaining\n173 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-11-13",
-    "text": "2026-11-13\n\nSilt Cartography — Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture reality-fracture surveil\nCorpse Census — WUBG — Morbid x Surveil combo morbid surveil"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-11-12",
-    "text": "2026-11-12\n\nSpark Annuity — Esper (white / blue / black) empower-loyalty combo — Reality Fracture reality-fracture empower\nBlight the Levy — Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table combo Blight Mobilize"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-11-11",
-    "text": "2026-11-11\n\nTetherwright — Temur (blue / red / green) Heartwood-artifact combo — Reality Fracture reality-fracture heartwood\nRotmarket — Black-Red — Blight combo blight"
-  },
-  {
-    "objectID": "archive.html#section-3",
-    "href": "archive.html#section-3",
-    "title": "Archive",
-    "section": "2026-11-10",
-    "text": "2026-11-10\n\nVerses Prepared — Jund (black / red / green) prepared-spell aggro-combo — Reality Fracture reality-fracture prepared\nNothing Left Behind — White, black, red and green — Void, Evoke and attack triggers combo void evoke attack-matters"
-  },
-  {
-    "objectID": "archive.html#section-4",
-    "href": "archive.html#section-4",
-    "title": "Archive",
-    "section": "2026-11-09",
-    "text": "2026-11-09\n\nRot Reprise — Four-color blight and flashback: your own tokens are the fuel combo blight flashback\nEmber Quill Council — Jund (black / red / green) Sphinx drain aggro — Reality Fracture reality-fracture sphinx"
-  },
-  {
-    "objectID": "archive.html#section-5",
-    "href": "archive.html#section-5",
-    "title": "Archive",
-    "section": "2026-11-08",
-    "text": "2026-11-08\n\nOverdue Notice — Sultai (Blue-Black-Green) — Mill combo Mill\nAftersight — Esper (white / blue / black) surveil-scry engine with prepared payloads — Reality Fracture reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-6",
-    "href": "archive.html#section-6",
-    "title": "Archive",
-    "section": "2026-11-07",
-    "text": "2026-11-07\n\nTimberwing — Naya artifact-token dragons — Reality Fracture reality-fracture heartwood\nGraveskim — Four-colour connive and fathomless descent — loot the yard, then cash it in combo connive graveyard"
-  },
-  {
-    "objectID": "archive.html#section-7",
-    "href": "archive.html#section-7",
-    "title": "Archive",
-    "section": "2026-11-06",
-    "text": "2026-11-06\n\nLoyalty Overdraft — Esper (White-Blue-Black) empower-loyalty combo - Reality Fracture reality-fracture empower\nEscalator Clause — Naya power-up and tiered combo — pay more, get more combo Power-up Tiered"
-  },
-  {
-    "objectID": "archive.html#section-8",
-    "href": "archive.html#section-8",
-    "title": "Archive",
-    "section": "2026-11-05",
-    "text": "2026-11-05\n\nStirrup Storm — Naya (White-Red-Green) Saddle attack-trigger combo combo Saddle\nSinew and Stone — White / Green / Black toughness combo — Doran walls, Ghalta alpha strike, Reality Fracture set deck reality-fracture toughness"
-  },
-  {
-    "objectID": "archive.html#section-9",
-    "href": "archive.html#section-9",
-    "title": "Archive",
-    "section": "2026-11-04",
-    "text": "2026-11-04\n\nSecond Helping — Five-color (WUBRG) — Forage x Evoke combo Forage Evoke\nCounterwake — Temur (Green-Blue-Red) empower-loyalty combo - Reality Fracture reality-fracture empower"
-  },
-  {
-    "objectID": "archive.html#section-10",
-    "href": "archive.html#section-10",
-    "title": "Archive",
-    "section": "2026-11-03",
-    "text": "2026-11-03\n\nVigorbloom Conclave — White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture) reality-fracture sphinx\nBullion Riot — Rakdos — Treasure tokens converted into artifact creature tokens combo treasure token-creation"
-  },
-  {
-    "objectID": "archive.html#section-11",
-    "href": "archive.html#section-11",
-    "title": "Archive",
-    "section": "2026-11-02",
-    "text": "2026-11-02\n\nCloaked Column — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger combo Disguise Mobilize Alliance\nCadet Muster — White-Blue-Black prepared Cadet engine (Reality Fracture) reality-fracture wizards"
-  },
-  {
-    "objectID": "archive.html#section-12",
-    "href": "archive.html#section-12",
-    "title": "Archive",
-    "section": "2026-11-01",
-    "text": "2026-11-01\n\nQuickstep Crescendo — Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable combo Prowess\nDress Rehearsal — Temur Prepared - the Soul Tether artifact engine (Reality Fracture) reality-fracture prepared"
-  },
-  {
-    "objectID": "archive.html#section-13",
-    "href": "archive.html#section-13",
-    "title": "Archive",
-    "section": "2026-10-31",
-    "text": "2026-10-31\n\nUnderstory — Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost combo descend\nDeepwater Litany — Sultai surveil-reanimation: a prepared engine that reanimates for free every turn — Reality Fracture reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-14",
-    "href": "archive.html#section-14",
-    "title": "Archive",
-    "section": "2026-10-30",
-    "text": "2026-10-30\n\nSanctum Static — Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture reality-fracture empower\nRekindle the Lineage — Jeskai (White-Blue-Red) - Behold x Flashback x Vivid combo behold flashback vivid"
-  },
-  {
-    "objectID": "archive.html#section-15",
-    "href": "archive.html#section-15",
-    "title": "Archive",
-    "section": "2026-10-29",
-    "text": "2026-10-29\n\nScorchline Skirmish — Jeskai haste-trample pressure: pump spells that draw cards, and a land that adds two attackers — Reality Fracture reality-fracture aggro\nBartered Bedrock — Jund (Black-Red-Green) — Earthbend x Bargain combo Earthbend Bargain"
-  },
-  {
-    "objectID": "archive.html#section-16",
-    "href": "archive.html#section-16",
-    "title": "Archive",
-    "section": "2026-10-28",
-    "text": "2026-10-28\n\nTeeming Presence — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture reality-fracture combo\nHoardmouth — Blue-Red-Green — Behold a Dragon and Treasure combo Behold"
-  },
-  {
-    "objectID": "archive.html#section-17",
-    "href": "archive.html#section-17",
-    "title": "Archive",
-    "section": "2026-10-27",
-    "text": "2026-10-27\n\nVanish on Cue — Blue, Black, Green, Red — Prepared x Disappear combo prepared disappear\nSpark Tithe — Mardu empower: Cadet fodder, Beast forge and a Jace-token drain — Reality Fracture reality-fracture empower"
-  },
-  {
-    "objectID": "archive.html#section-18",
-    "href": "archive.html#section-18",
-    "title": "Archive",
-    "section": "2026-10-26",
-    "text": "2026-10-26\n\nMolten Marginalia — Jeskai prepared spells, prowess fliers and a Molten Tide finish — Reality Fracture reality-fracture prepared\nFace Value — Jeskai (Blue / White / Red) — Disguise x Investigate x Power-up combo Power-up Disguise Investigate"
-  },
-  {
-    "objectID": "archive.html#section-19",
-    "href": "archive.html#section-19",
-    "title": "Archive",
-    "section": "2026-10-25",
-    "text": "2026-10-25\n\nSphinxwake — Esper surveil-counters with the Elder Sphinx legends — Reality Fracture reality-fracture sphinx\nQuicksand Chorus — Four-colour landfall burn — sixteen payoffs, one land drop at a time combo landfall"
-  },
-  {
-    "objectID": "archive.html#section-20",
-    "href": "archive.html#section-20",
-    "title": "Archive",
-    "section": "2026-10-24",
-    "text": "2026-10-24\n\nRefrain and Ruin — Jund prepared-prowess storm — Reality Fracture reality-fracture prepared\nLoose Change Leviathan — Five-color Treasure x Increment x Void combo — crack the coin, feed the counters combo treasure increment void"
-  },
-  {
-    "objectID": "archive.html#section-21",
-    "href": "archive.html#section-21",
-    "title": "Archive",
-    "section": "2026-10-23",
-    "text": "2026-10-23\n\nSapwood Foundry — Naya prepared-artifact combo — Reality Fracture reality-fracture heartwood\nChart the Redline — White-Blue-Black-Red | Discover, Plan counters and Start your engines! combo Discover Plan counter Start your engines!"
-  },
-  {
-    "objectID": "archive.html#section-22",
-    "href": "archive.html#section-22",
-    "title": "Archive",
-    "section": "2026-10-22",
-    "text": "2026-10-22\n\nSaddle, Sift, Surge — Green-white-blue-black Mount, Mill and Power-up engine combo Mount Mill Power-up\nOmit Everything — Sultai self-mill combo — Reality Fracture reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-23",
-    "href": "archive.html#section-23",
-    "title": "Archive",
-    "section": "2026-10-21",
-    "text": "2026-10-21\n\nLoyalty Loophole — Blue-Black-Red empower combo — Reality Fracture reality-fracture empower\nDrydock Overclock — Five-colour Station combo — charge counters doubled, hulls online ahead of schedule combo Station"
-  },
-  {
-    "objectID": "archive.html#section-24",
-    "href": "archive.html#section-24",
-    "title": "Archive",
-    "section": "2026-10-20",
-    "text": "2026-10-20\n\nTerra Ascendant — Green / white / blue landfall-loyalty engine — Empower x landfall x lifegain reality-fracture empower\nDouble Entry — Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it combo card-draw"
-  },
-  {
-    "objectID": "archive.html#section-25",
-    "href": "archive.html#section-25",
-    "title": "Archive",
-    "section": "2026-10-19",
-    "text": "2026-10-19\n\nQuill Cadence — Four-color attack-trigger burn built on Reality Fracture’s prepared and empower mechanics reality-fracture sphinx\nFieldwork Syllabus — Bant (W/U/G) — Explore × Prepared combo explore prepared"
-  },
-  {
-    "objectID": "archive.html#section-26",
-    "href": "archive.html#section-26",
-    "title": "Archive",
-    "section": "2026-10-18",
-    "text": "2026-10-18\n\nTarget Practice — Jeskai Valiant blink combo - target your own creatures and get paid twice combo Valiant Blink\nFathom Ledger — Esper surveil and graveyard value — Reality Fracture set deck reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-27",
-    "href": "archive.html#section-27",
-    "title": "Archive",
-    "section": "2026-10-17",
-    "text": "2026-10-17\n\nWarpquake — Boros Warp — white and red, warp re-entries turned into drain combo warp\nHeartwood Hatchlings — Temur Heartwood artifacts — Reality Fracture set deck reality-fracture heartwood"
-  },
-  {
-    "objectID": "archive.html#section-28",
-    "href": "archive.html#section-28",
-    "title": "Archive",
-    "section": "2026-10-16",
-    "text": "2026-10-16\n\nTidepool Tithe — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending combo Lifegain Waterbending Impending\nCrypt Curriculum — Esper surveil and graveyard — Reality Fracture set deck reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-29",
-    "href": "archive.html#section-29",
-    "title": "Archive",
-    "section": "2026-10-15",
-    "text": "2026-10-15\n\nPrep Rally — Grixis prepared spells — Reality Fracture set deck reality-fracture prepared\nEverything Must Go — Five-color (WUBRG) — Sacrifice combo Sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-30",
-    "href": "archive.html#section-30",
-    "title": "Archive",
-    "section": "2026-10-14",
-    "text": "2026-10-14\n\nRide the Rot — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle combo sacrifice graveyard saddle\nLoyalty Lattice — Blue / white / black empower superfriends — Empower x loyalty counters x Jace reality-fracture empower"
-  },
-  {
-    "objectID": "archive.html#section-31",
-    "href": "archive.html#section-31",
-    "title": "Archive",
-    "section": "2026-10-13",
-    "text": "2026-10-13\n\nRehearsed Ruin — Black / red / green prepared combo — Prepared x Heartwood x Threshold reality-fracture prepared\nPlot Hole — White / blue / black / green attrition combo — Graveyard x Void x Plot combo Graveyard Void Plot"
-  },
-  {
-    "objectID": "archive.html#section-32",
-    "href": "archive.html#section-32",
-    "title": "Archive",
-    "section": "2026-10-12",
-    "text": "2026-10-12\n\nVeiled Cavalry — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn combo disguise saddle\nSecond Breakfast Raid — White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish hobbit halflings"
-  },
-  {
-    "objectID": "archive.html#section-33",
-    "href": "archive.html#section-33",
-    "title": "Archive",
-    "section": "2026-10-11",
-    "text": "2026-10-11\n\nFlicker Clock — WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win combo Impending Blink\nFire and Feather — White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck hobbit wizards"
-  },
-  {
-    "objectID": "archive.html#section-34",
-    "href": "archive.html#section-34",
-    "title": "Archive",
-    "section": "2026-10-10",
-    "text": "2026-10-10\n\nTerracotta Charge — White-Black-Red-Green (no blue) — Attack matters × Earthbend combo attack-matters earthbend\nRavenhill Rally — WUG Recruit Company x draw-two payoffs x Eagles — The Hobbit set identity deck hobbit recruit"
-  },
-  {
-    "objectID": "archive.html#section-35",
-    "href": "archive.html#section-35",
-    "title": "Archive",
-    "section": "2026-10-09",
-    "text": "2026-10-09\n\nClachan Stampede — Naya (White / Green / Red) — Behold × Mount × Morbid combo behold mount morbid\nAnvil Anthem — WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-36",
-    "href": "archive.html#section-36",
-    "title": "Archive",
-    "section": "2026-10-08",
-    "text": "2026-10-08\n\nSpectrum Stampede — Gruul landfall and vivid combo — a colour-count engine in red and green combo landfall vivid\nHoardwyrm — Jund (B/R/G) Dragons and Treasures — Smaug’s hoard engine, Standard legal hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-37",
-    "href": "archive.html#section-37",
-    "title": "Archive",
-    "section": "2026-10-07",
-    "text": "2026-10-07\n\nWarren Muster — Jund (B/R/G) Goblin amass — one Army, recurring counter events, drained through The Great Goblin hobbit amass\nBedrock Uprising — Jund (Black-Red-Green) — Earthbend combo Earthbend"
-  },
-  {
-    "objectID": "archive.html#section-38",
-    "href": "archive.html#section-38",
-    "title": "Archive",
-    "section": "2026-10-06",
-    "text": "2026-10-06\n\nTap Dance — WUBG — Blink/Flicker × Convoke combo blink convoke\nLeaf and Landfall — Bant (G/U/W) landfall Elves — every land drop makes an Elf, and each new Elf makes the next land drop better hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-39",
-    "href": "archive.html#section-39",
-    "title": "Archive",
-    "section": "2026-10-05",
-    "text": "2026-10-05\n\nGold and Granite — Naya (R/W/G) Storied Dwarves and Equipment — ten artifacts arm the company and every legend cashes them in hobbit dwarves\nCharged Into the Void — Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs combo Station Void"
-  },
-  {
-    "objectID": "archive.html#section-40",
-    "href": "archive.html#section-40",
-    "title": "Archive",
-    "section": "2026-10-04",
-    "text": "2026-10-04\n\nWeaving Suspicion — WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell combo eerie suspect web-slinging\nCinderhoard — Grixis (U/B/R) Dragons and Treasures — Smaug’s hoard engine ramps, draws and burns hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-41",
-    "href": "archive.html#section-41",
-    "title": "Archive",
-    "section": "2026-10-03",
-    "text": "2026-10-03\n\nHammer and Heritage — Red-White Storied Dwarves — Equipment, Sagas and The Lonely Mountain hobbit dwarves\nGraveyard Shift — Mardu (W/B/R) Job select equipment plus flashback token swarms combo job-select flashback token-creation"
-  },
-  {
-    "objectID": "archive.html#section-42",
-    "href": "archive.html#section-42",
-    "title": "Archive",
-    "section": "2026-10-02",
-    "text": "2026-10-02\n\nHaggle the Horizon — Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder combo bargain exhaust explore\nDrumbeat Horde — Jund (B/R/G) Goblin amass — one Army, endless counters, drained through The Great Goblin hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-43",
-    "href": "archive.html#section-43",
-    "title": "Archive",
-    "section": "2026-10-01",
-    "text": "2026-10-01\n\nWargwake — Jund (B/G/R) Wolf and Bear tribal — ferocious payoffs fed by landfall counters and a Mirkwood engine hobbit wolves\nCloak and Celerity — Esper (White / Blue / Black) Eerie enchantment engine with Disguise bodies and a Max speed finish combo eerie disguise max speed"
-  },
-  {
-    "objectID": "archive.html#section-44",
-    "href": "archive.html#section-44",
-    "title": "Archive",
-    "section": "2026-09-30",
-    "text": "2026-09-30\n\nExhaust Manifold — Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs combo mill teamwork exhaust\nEvergreen Requiem — Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-45",
-    "href": "archive.html#section-45",
-    "title": "Archive",
-    "section": "2026-09-29",
-    "text": "2026-09-29\n\nWingsong — Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs hobbit eagles\nOvertake at Midnight — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop combo start-your-engines"
-  },
-  {
-    "objectID": "archive.html#section-46",
-    "href": "archive.html#section-46",
-    "title": "Archive",
-    "section": "2026-09-28",
-    "text": "2026-09-28\n\nTidewater Tally — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending combo +1/+1 Counters Surveil Waterbending\nStoryforge — Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-47",
-    "href": "archive.html#section-47",
-    "title": "Archive",
-    "section": "2026-09-27",
-    "text": "2026-09-27\n\nRace the Reaper — Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill combo Fathomless descent Manifest dread Max speed\nMolten Mint — Red / Black / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-48",
-    "href": "archive.html#section-48",
-    "title": "Archive",
-    "section": "2026-09-26",
-    "text": "2026-09-26\n\nDeep-Down Thunder — Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage hobbit amass\nBoneyard Bloom — Sultai (Blue, Black, Green) — Renew combo renew"
-  },
-  {
-    "objectID": "archive.html#section-49",
-    "href": "archive.html#section-49",
-    "title": "Archive",
-    "section": "2026-09-25",
-    "text": "2026-09-25\n\nVerdant Liege — Green and blue with a black splash - Elf legends, landfall tokens, and lands that attack hobbit elves\nStoke the Veins — Black / Red / Green Firebending x Infusion — Jund attack-trigger combo combo Firebending Infusion"
-  },
-  {
-    "objectID": "archive.html#section-50",
-    "href": "archive.html#section-50",
-    "title": "Archive",
-    "section": "2026-09-24",
-    "text": "2026-09-24\n\nSongsteel — Red / White with a blue splash — Storied Dwarves, Equipment, and the enduring story hobbit dwarves\nPyre Parade — White / Black / Red Celebration x Firebending — Mardu token-burst midrange combo Celebration Firebending"
-  },
-  {
-    "objectID": "archive.html#section-51",
-    "href": "archive.html#section-51",
-    "title": "Archive",
-    "section": "2026-09-23",
-    "text": "2026-09-23\n\nTallywurm — Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid combo counters\nCinder and Coin — Black / Red / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-52",
-    "href": "archive.html#section-52",
-    "title": "Archive",
-    "section": "2026-09-22",
-    "text": "2026-09-22\n\nSack and Sunder — Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn hobbit amass\nFirefeeding — Five-color (WUBRG) — Forage × Firebending × Warp combo Forage Firebending Warp"
-  },
-  {
-    "objectID": "archive.html#section-53",
-    "href": "archive.html#section-53",
-    "title": "Archive",
-    "section": "2026-09-21",
-    "text": "2026-09-21\n\nRedline Alibi — Rakdos (Black-Red) | Max speed x Suspect combo max-speed suspect\nLoam and Legend — Green / Blue / White (three colors) — Hobbit Elf legends and landfall tokens with a counter-overrun land hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-54",
-    "href": "archive.html#section-54",
-    "title": "Archive",
-    "section": "2026-09-20",
-    "text": "2026-09-20\n\nNow You See Them — Four colors (white / blue / black / green) — Convoke x Disappear combo convoke disappear\nAnvil Verse — Red / White / Blue (three colors) — Storied Dwarves with Equipment counters and a token win hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-55",
-    "href": "archive.html#section-55",
-    "title": "Archive",
-    "section": "2026-09-19",
-    "text": "2026-09-19\n\nWardrum Warband — Black / Red / Green (three colors) — Goblin amass counters into The Great Goblin burn hobbit amass\nBreak Ground — Five colors (white / blue / black / red / green) — Token creation x Start your engines! x Earthbend combo Token creation Start your engines! Earthbend"
-  },
-  {
-    "objectID": "archive.html#section-56",
-    "href": "archive.html#section-56",
-    "title": "Archive",
-    "section": "2026-09-18",
-    "text": "2026-09-18\n\nIncognito Incendiary — Naya (White, Red, Green) — Disguise x Valiant combo Disguise Valiant\nHoardwake — Blue / Black / Red (three colors) — Hobbit Treasure engine into Dragon payoffs hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-57",
-    "href": "archive.html#section-57",
-    "title": "Archive",
-    "section": "2026-09-17",
-    "text": "2026-09-17\n\nMuster Roll — White / Blue / Black (three colors) — Hobbit recruit tokens and second-draw payoffs hobbit recruit\nGift Economy — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger combo gift"
-  },
-  {
-    "objectID": "archive.html#section-58",
-    "href": "archive.html#section-58",
-    "title": "Archive",
-    "section": "2026-09-16",
-    "text": "2026-09-16\n\nWhiskerquake — White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them combo Valiant Earthbend\nAnvil Chorus — Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-59",
-    "href": "archive.html#section-59",
-    "title": "Archive",
-    "section": "2026-09-15",
-    "text": "2026-09-15\n\nPalimpsest — WUBR four-color — Flashback x Discover combo Flashback Discover\nEavesong — White / Blue / Black / Green (four colors) — legendary-Elf landfall engine with the Bard draw-and-token package, built on The Hobbit set hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-60",
-    "href": "archive.html#section-60",
-    "title": "Archive",
-    "section": "2026-09-14",
-    "text": "2026-09-14\n\nVanishing Act — Four-color (WUBG) | Investigate, Sneak and Disappear combo investigate sneak disappear\nChitter and Burn — Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-61",
-    "href": "archive.html#section-61",
-    "title": "Archive",
-    "section": "2026-09-13",
-    "text": "2026-09-13\n\nWilderland Howl — Golgari core with a red splash (Black / Green / Red) — Wilderlands Bears x the ferocious Warg pack, built on The Hobbit set hobbit bears\nNightveil Offering — Five-color (White / Blue / Black / Red / Green) — an Eerie x Sneak x Sacrifice Ninja drain deck combo Eerie Sneak Sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-62",
-    "href": "archive.html#section-62",
-    "title": "Archive",
-    "section": "2026-09-12",
-    "text": "2026-09-12\n\nHammerhone Saga — Mardu (Red / White / Black) — Storied Dwarves x Equipment, built on The Hobbit set identity hobbit dwarves\nGilded Reprise — Mardu (Black / Red / White) — a Treasure-and-flashback celebration engine combo celebration flashback treasure"
-  },
-  {
-    "objectID": "archive.html#section-63",
-    "href": "archive.html#section-63",
-    "title": "Archive",
-    "section": "2026-09-11",
-    "text": "2026-09-11\n\nHoardfire — Jund (Black / Red / Green) — Smaug treasure-hoard burn from The Hobbit set hobbit smaug\nBrave the Heist — Five-color (WUBRG) — Valiant x Connive x Treasure: target your own creatures, hoard the pay, spend it on dragons combo valiant connive treasure"
-  },
-  {
-    "objectID": "archive.html#section-64",
-    "href": "archive.html#section-64",
-    "title": "Archive",
-    "section": "2026-09-10",
-    "text": "2026-09-10\n\nCompound Interest — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage combo increment expend delirium\nBellow and Burn — Jund (Black / Red / Green) — Amass Goblins counter-burn engine from The Hobbit set hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-65",
-    "href": "archive.html#section-65",
-    "title": "Archive",
-    "section": "2026-09-09",
-    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
-  },
-  {
-    "objectID": "archive.html#section-66",
-    "href": "archive.html#section-66",
-    "title": "Archive",
-    "section": "2026-09-08",
-    "text": "2026-09-08\n\nTwice-Told Tales — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set hobbit dwarves\nPlot Twist — Simic (Blue / Green) — Plot combo plot"
-  },
-  {
-    "objectID": "archive.html#section-67",
-    "href": "archive.html#section-67",
-    "title": "Archive",
-    "section": "2026-09-07",
-    "text": "2026-09-07\n\nWyrmgold — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set hobbit smaug\nDeathwatch — Jund sacrifice × morbid — death-drain engine with end-step growth combo sacrifice morbid"
-  },
-  {
-    "objectID": "archive.html#section-68",
-    "href": "archive.html#section-68",
-    "title": "Archive",
-    "section": "2026-09-06",
-    "text": "2026-09-06\n\nGoblin Growth — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set hobbit amass\nCold Case Haunting — WUBRG (five-color) | Eerie x Clue combo Eerie Clue"
-  },
-  {
-    "objectID": "archive.html#section-69",
-    "href": "archive.html#section-69",
-    "title": "Archive",
-    "section": "2026-09-05",
-    "text": "2026-09-05\n\nWeb Slingback — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun combo web-slinging\nGreenwood Ledger — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-70",
-    "href": "archive.html#section-70",
-    "title": "Archive",
-    "section": "2026-09-04",
-    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
-  },
-  {
-    "objectID": "archive.html#section-71",
-    "href": "archive.html#section-71",
-    "title": "Archive",
-    "section": "2026-09-03",
-    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-72",
-    "href": "archive.html#section-72",
-    "title": "Archive",
-    "section": "2026-09-02",
-    "text": "2026-09-02\n\nLandwarp — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak combo landfall warp sneak\nAmass to Arms — Mardu (WBR) Amass Goblins — The Hobbit set identity deck hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-73",
-    "href": "archive.html#section-73",
-    "title": "Archive",
-    "section": "2026-09-01",
-    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-74",
-    "href": "archive.html#section-74",
-    "title": "Archive",
-    "section": "2026-08-31",
-    "text": "2026-08-31\n\nBanner Fall — Red / Black — Token creation × Mobilize engine combo token-creation mobilize\nBalin’s Company — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-75",
-    "href": "archive.html#section-75",
-    "title": "Archive",
-    "section": "2026-08-30",
-    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending\nDragon’s Ledger — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-76",
-    "href": "archive.html#section-76",
-    "title": "Archive",
-    "section": "2026-08-29",
-    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
-  },
-  {
-    "objectID": "archive.html#section-77",
-    "href": "archive.html#section-77",
-    "title": "Archive",
-    "section": "2026-08-28",
-    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
-  },
-  {
-    "objectID": "archive.html#section-78",
-    "href": "archive.html#section-78",
-    "title": "Archive",
-    "section": "2026-08-27",
-    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
-  },
-  {
-    "objectID": "archive.html#section-79",
-    "href": "archive.html#section-79",
-    "title": "Archive",
-    "section": "2026-08-26",
-    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
-  },
-  {
-    "objectID": "archive.html#section-80",
-    "href": "archive.html#section-80",
-    "title": "Archive",
-    "section": "2026-08-25",
-    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-81",
-    "href": "archive.html#section-81",
-    "title": "Archive",
-    "section": "2026-08-24",
-    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
-  },
-  {
-    "objectID": "archive.html#section-82",
-    "href": "archive.html#section-82",
-    "title": "Archive",
-    "section": "2026-08-23",
-    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
-  },
-  {
-    "objectID": "archive.html#section-83",
-    "href": "archive.html#section-83",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-84",
-    "href": "archive.html#section-84",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-85",
-    "href": "archive.html#section-85",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nBilbo’s Deadly Slice and Pinecone Strike trade up, Desolation of Smaug wipes the small board, and the Treasure bank outclasses their attack once Smaug is attacking\n\n\nMidrange\nYou have the bigger fliers and a card engine; grind with Fateful Discovery, then finish with extra combat or the Misty Mountains Dragon token\n\n\nControl\nDo not over-commit; keep one Smaug in hand, force the sweeper with token Treasures, and rebuild with Smaug, Wicked Worm drawing off Treasure mana\n\n\nTokens\nDesolation of Smaug is a one-sided sweeper against non-Dragon boards, and Pinecone Strike deletes the artifact token engines\n\n\nCombo\nThe Smaug clock is fast and hard to interact with in the air; hold Pinecone Strike or Bilbo’s Deadly Slice for the single permanent their combo needs"
   },
   {
     "objectID": "decks/2026-09-04-steel-and-saga.html",
@@ -7252,88 +6643,781 @@
     "text": "Matchups\n\nAggro (fliers, lifegain, cats): Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug’s Fury, and the Fíli token swarm races.\nMidrange (landfall, counters): the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison’s power tracks the widening board.\nControl: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin’s Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.\nCombo and big mana: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent’s payoff lands."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html",
-    "href": "decks/2026-10-04-cinderhoard.html",
-    "title": "Cinderhoard",
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
     "section": "",
-    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA), The Hobbit set core\n\n\nColors\nBlue / Black / Red (Grixis)\n\n\nArchetype\nCombo-ramp midrange (17 creatures, average nonland cost 3.6)\n\n\nSize\n60 cards, 24 lands\n\n\nCore mechanic\nTreasure tokens as mana, as damage and as a Dragon trigger\n\n\nPrimary win\nSmaug the Magnificent plus a Treasure hoard: a hasty 4/3 flier that deals damage equal to your Treasure count on every attack while making a fresh Treasure each upkeep\n\n\nSecondary win\nThe Misty Mountains Cold turns four Treasures into a 6/6 flying Dragon token, and Last Light of Durin’s Day cheats a Dragon directly onto the battlefield\n\n\nEngine land\nThe Lonely Mountain (Mountain subtype for the Durin’s Day quest, and a mana sink that builds 2/2 Dwarf tokens)\n\n\nViability\n88.82 overall, synergy 71.6, simulated win rate 54.3 over three 500-game runs"
+    "text": "Card pool consumption — cycle started 2026-11-11 · 92 cards locked · Reality Fracture 251/285 remaining\n174 deck guides — newest first. Every daily deck keeps its own permanent page."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#game-plan-phases",
-    "href": "decks/2026-10-04-cinderhoard.html#game-plan-phases",
-    "title": "Cinderhoard",
-    "section": "Game plan phases",
-    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-2\nGiant’s Boulder or Thrór’s Map to smooth draws and fix colours, Last Light of Durin’s Day or Pinecone Strike as interaction\n\n\nTurns 3-4\nSmaug the Magnificent lands on curve as a hasty flier, or Dori, Bearer of Friends and The Misty Mountains Cold start the Treasure bank\n\n\nTurns 4-6\nFateful Discovery converts the Treasure stream into cards; Desolation of Smaug wipes small boards and pays four mana toward the next Dragon; Smaug, Wicked Worm refills\n\n\nWinning turn\nSmaug attacks for damage equal to the Treasure count, Desert Were-Worm untaps the team for a second combat, or The Misty Mountains Cold cashes four Treasures into a 6/6 Dragon"
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-11-14",
+    "text": "2026-11-14\n\nAbove Suspicion — Dimir (blue / black) surveil-reanimator combo combo surveil"
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#card-roles",
-    "href": "decks/2026-10-04-cinderhoard.html#card-roles",
-    "title": "Cinderhoard",
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-11-13",
+    "text": "2026-11-13\n\nSilt Cartography — Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture reality-fracture surveil\nCorpse Census — WUBG — Morbid x Surveil combo morbid surveil"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-11-12",
+    "text": "2026-11-12\n\nSpark Annuity — Esper (white / blue / black) empower-loyalty combo — Reality Fracture reality-fracture empower\nBlight the Levy — Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table combo Blight Mobilize"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-11-11",
+    "text": "2026-11-11\n\nTetherwright — Temur (blue / red / green) Heartwood-artifact combo — Reality Fracture reality-fracture heartwood\nRotmarket — Black-Red — Blight combo blight"
+  },
+  {
+    "objectID": "archive.html#section-4",
+    "href": "archive.html#section-4",
+    "title": "Archive",
+    "section": "2026-11-10",
+    "text": "2026-11-10\n\nVerses Prepared — Jund (black / red / green) prepared-spell aggro-combo — Reality Fracture reality-fracture prepared\nNothing Left Behind — White, black, red and green — Void, Evoke and attack triggers combo void evoke attack-matters"
+  },
+  {
+    "objectID": "archive.html#section-5",
+    "href": "archive.html#section-5",
+    "title": "Archive",
+    "section": "2026-11-09",
+    "text": "2026-11-09\n\nRot Reprise — Four-color blight and flashback: your own tokens are the fuel combo blight flashback\nEmber Quill Council — Jund (black / red / green) Sphinx drain aggro — Reality Fracture reality-fracture sphinx"
+  },
+  {
+    "objectID": "archive.html#section-6",
+    "href": "archive.html#section-6",
+    "title": "Archive",
+    "section": "2026-11-08",
+    "text": "2026-11-08\n\nOverdue Notice — Sultai (Blue-Black-Green) — Mill combo Mill\nAftersight — Esper (white / blue / black) surveil-scry engine with prepared payloads — Reality Fracture reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-7",
+    "href": "archive.html#section-7",
+    "title": "Archive",
+    "section": "2026-11-07",
+    "text": "2026-11-07\n\nTimberwing — Naya artifact-token dragons — Reality Fracture reality-fracture heartwood\nGraveskim — Four-colour connive and fathomless descent — loot the yard, then cash it in combo connive graveyard"
+  },
+  {
+    "objectID": "archive.html#section-8",
+    "href": "archive.html#section-8",
+    "title": "Archive",
+    "section": "2026-11-06",
+    "text": "2026-11-06\n\nLoyalty Overdraft — Esper (White-Blue-Black) empower-loyalty combo - Reality Fracture reality-fracture empower\nEscalator Clause — Naya power-up and tiered combo — pay more, get more combo Power-up Tiered"
+  },
+  {
+    "objectID": "archive.html#section-9",
+    "href": "archive.html#section-9",
+    "title": "Archive",
+    "section": "2026-11-05",
+    "text": "2026-11-05\n\nStirrup Storm — Naya (White-Red-Green) Saddle attack-trigger combo combo Saddle\nSinew and Stone — White / Green / Black toughness combo — Doran walls, Ghalta alpha strike, Reality Fracture set deck reality-fracture toughness"
+  },
+  {
+    "objectID": "archive.html#section-10",
+    "href": "archive.html#section-10",
+    "title": "Archive",
+    "section": "2026-11-04",
+    "text": "2026-11-04\n\nSecond Helping — Five-color (WUBRG) — Forage x Evoke combo Forage Evoke\nCounterwake — Temur (Green-Blue-Red) empower-loyalty combo - Reality Fracture reality-fracture empower"
+  },
+  {
+    "objectID": "archive.html#section-11",
+    "href": "archive.html#section-11",
+    "title": "Archive",
+    "section": "2026-11-03",
+    "text": "2026-11-03\n\nVigorbloom Conclave — White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture) reality-fracture sphinx\nBullion Riot — Rakdos — Treasure tokens converted into artifact creature tokens combo treasure token-creation"
+  },
+  {
+    "objectID": "archive.html#section-12",
+    "href": "archive.html#section-12",
+    "title": "Archive",
+    "section": "2026-11-02",
+    "text": "2026-11-02\n\nCloaked Column — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger combo Disguise Mobilize Alliance\nCadet Muster — White-Blue-Black prepared Cadet engine (Reality Fracture) reality-fracture wizards"
+  },
+  {
+    "objectID": "archive.html#section-13",
+    "href": "archive.html#section-13",
+    "title": "Archive",
+    "section": "2026-11-01",
+    "text": "2026-11-01\n\nQuickstep Crescendo — Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable combo Prowess\nDress Rehearsal — Temur Prepared - the Soul Tether artifact engine (Reality Fracture) reality-fracture prepared"
+  },
+  {
+    "objectID": "archive.html#section-14",
+    "href": "archive.html#section-14",
+    "title": "Archive",
+    "section": "2026-10-31",
+    "text": "2026-10-31\n\nUnderstory — Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost combo descend\nDeepwater Litany — Sultai surveil-reanimation: a prepared engine that reanimates for free every turn — Reality Fracture reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-15",
+    "href": "archive.html#section-15",
+    "title": "Archive",
+    "section": "2026-10-30",
+    "text": "2026-10-30\n\nSanctum Static — Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture reality-fracture empower\nRekindle the Lineage — Jeskai (White-Blue-Red) - Behold x Flashback x Vivid combo behold flashback vivid"
+  },
+  {
+    "objectID": "archive.html#section-16",
+    "href": "archive.html#section-16",
+    "title": "Archive",
+    "section": "2026-10-29",
+    "text": "2026-10-29\n\nScorchline Skirmish — Jeskai haste-trample pressure: pump spells that draw cards, and a land that adds two attackers — Reality Fracture reality-fracture aggro\nBartered Bedrock — Jund (Black-Red-Green) — Earthbend x Bargain combo Earthbend Bargain"
+  },
+  {
+    "objectID": "archive.html#section-17",
+    "href": "archive.html#section-17",
+    "title": "Archive",
+    "section": "2026-10-28",
+    "text": "2026-10-28\n\nTeeming Presence — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture reality-fracture combo\nHoardmouth — Blue-Red-Green — Behold a Dragon and Treasure combo Behold"
+  },
+  {
+    "objectID": "archive.html#section-18",
+    "href": "archive.html#section-18",
+    "title": "Archive",
+    "section": "2026-10-27",
+    "text": "2026-10-27\n\nVanish on Cue — Blue, Black, Green, Red — Prepared x Disappear combo prepared disappear\nSpark Tithe — Mardu empower: Cadet fodder, Beast forge and a Jace-token drain — Reality Fracture reality-fracture empower"
+  },
+  {
+    "objectID": "archive.html#section-19",
+    "href": "archive.html#section-19",
+    "title": "Archive",
+    "section": "2026-10-26",
+    "text": "2026-10-26\n\nMolten Marginalia — Jeskai prepared spells, prowess fliers and a Molten Tide finish — Reality Fracture reality-fracture prepared\nFace Value — Jeskai (Blue / White / Red) — Disguise x Investigate x Power-up combo Power-up Disguise Investigate"
+  },
+  {
+    "objectID": "archive.html#section-20",
+    "href": "archive.html#section-20",
+    "title": "Archive",
+    "section": "2026-10-25",
+    "text": "2026-10-25\n\nSphinxwake — Esper surveil-counters with the Elder Sphinx legends — Reality Fracture reality-fracture sphinx\nQuicksand Chorus — Four-colour landfall burn — sixteen payoffs, one land drop at a time combo landfall"
+  },
+  {
+    "objectID": "archive.html#section-21",
+    "href": "archive.html#section-21",
+    "title": "Archive",
+    "section": "2026-10-24",
+    "text": "2026-10-24\n\nRefrain and Ruin — Jund prepared-prowess storm — Reality Fracture reality-fracture prepared\nLoose Change Leviathan — Five-color Treasure x Increment x Void combo — crack the coin, feed the counters combo treasure increment void"
+  },
+  {
+    "objectID": "archive.html#section-22",
+    "href": "archive.html#section-22",
+    "title": "Archive",
+    "section": "2026-10-23",
+    "text": "2026-10-23\n\nSapwood Foundry — Naya prepared-artifact combo — Reality Fracture reality-fracture heartwood\nChart the Redline — White-Blue-Black-Red | Discover, Plan counters and Start your engines! combo Discover Plan counter Start your engines!"
+  },
+  {
+    "objectID": "archive.html#section-23",
+    "href": "archive.html#section-23",
+    "title": "Archive",
+    "section": "2026-10-22",
+    "text": "2026-10-22\n\nSaddle, Sift, Surge — Green-white-blue-black Mount, Mill and Power-up engine combo Mount Mill Power-up\nOmit Everything — Sultai self-mill combo — Reality Fracture reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-24",
+    "href": "archive.html#section-24",
+    "title": "Archive",
+    "section": "2026-10-21",
+    "text": "2026-10-21\n\nLoyalty Loophole — Blue-Black-Red empower combo — Reality Fracture reality-fracture empower\nDrydock Overclock — Five-colour Station combo — charge counters doubled, hulls online ahead of schedule combo Station"
+  },
+  {
+    "objectID": "archive.html#section-25",
+    "href": "archive.html#section-25",
+    "title": "Archive",
+    "section": "2026-10-20",
+    "text": "2026-10-20\n\nTerra Ascendant — Green / white / blue landfall-loyalty engine — Empower x landfall x lifegain reality-fracture empower\nDouble Entry — Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it combo card-draw"
+  },
+  {
+    "objectID": "archive.html#section-26",
+    "href": "archive.html#section-26",
+    "title": "Archive",
+    "section": "2026-10-19",
+    "text": "2026-10-19\n\nQuill Cadence — Four-color attack-trigger burn built on Reality Fracture’s prepared and empower mechanics reality-fracture sphinx\nFieldwork Syllabus — Bant (W/U/G) — Explore × Prepared combo explore prepared"
+  },
+  {
+    "objectID": "archive.html#section-27",
+    "href": "archive.html#section-27",
+    "title": "Archive",
+    "section": "2026-10-18",
+    "text": "2026-10-18\n\nTarget Practice — Jeskai Valiant blink combo - target your own creatures and get paid twice combo Valiant Blink\nFathom Ledger — Esper surveil and graveyard value — Reality Fracture set deck reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-28",
+    "href": "archive.html#section-28",
+    "title": "Archive",
+    "section": "2026-10-17",
+    "text": "2026-10-17\n\nWarpquake — Boros Warp — white and red, warp re-entries turned into drain combo warp\nHeartwood Hatchlings — Temur Heartwood artifacts — Reality Fracture set deck reality-fracture heartwood"
+  },
+  {
+    "objectID": "archive.html#section-29",
+    "href": "archive.html#section-29",
+    "title": "Archive",
+    "section": "2026-10-16",
+    "text": "2026-10-16\n\nTidepool Tithe — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending combo Lifegain Waterbending Impending\nCrypt Curriculum — Esper surveil and graveyard — Reality Fracture set deck reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-30",
+    "href": "archive.html#section-30",
+    "title": "Archive",
+    "section": "2026-10-15",
+    "text": "2026-10-15\n\nPrep Rally — Grixis prepared spells — Reality Fracture set deck reality-fracture prepared\nEverything Must Go — Five-color (WUBRG) — Sacrifice combo Sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-31",
+    "href": "archive.html#section-31",
+    "title": "Archive",
+    "section": "2026-10-14",
+    "text": "2026-10-14\n\nRide the Rot — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle combo sacrifice graveyard saddle\nLoyalty Lattice — Blue / white / black empower superfriends — Empower x loyalty counters x Jace reality-fracture empower"
+  },
+  {
+    "objectID": "archive.html#section-32",
+    "href": "archive.html#section-32",
+    "title": "Archive",
+    "section": "2026-10-13",
+    "text": "2026-10-13\n\nRehearsed Ruin — Black / red / green prepared combo — Prepared x Heartwood x Threshold reality-fracture prepared\nPlot Hole — White / blue / black / green attrition combo — Graveyard x Void x Plot combo Graveyard Void Plot"
+  },
+  {
+    "objectID": "archive.html#section-33",
+    "href": "archive.html#section-33",
+    "title": "Archive",
+    "section": "2026-10-12",
+    "text": "2026-10-12\n\nVeiled Cavalry — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn combo disguise saddle\nSecond Breakfast Raid — White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish hobbit halflings"
+  },
+  {
+    "objectID": "archive.html#section-34",
+    "href": "archive.html#section-34",
+    "title": "Archive",
+    "section": "2026-10-11",
+    "text": "2026-10-11\n\nFlicker Clock — WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win combo Impending Blink\nFire and Feather — White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck hobbit wizards"
+  },
+  {
+    "objectID": "archive.html#section-35",
+    "href": "archive.html#section-35",
+    "title": "Archive",
+    "section": "2026-10-10",
+    "text": "2026-10-10\n\nTerracotta Charge — White-Black-Red-Green (no blue) — Attack matters × Earthbend combo attack-matters earthbend\nRavenhill Rally — WUG Recruit Company x draw-two payoffs x Eagles — The Hobbit set identity deck hobbit recruit"
+  },
+  {
+    "objectID": "archive.html#section-36",
+    "href": "archive.html#section-36",
+    "title": "Archive",
+    "section": "2026-10-09",
+    "text": "2026-10-09\n\nClachan Stampede — Naya (White / Green / Red) — Behold × Mount × Morbid combo behold mount morbid\nAnvil Anthem — WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-37",
+    "href": "archive.html#section-37",
+    "title": "Archive",
+    "section": "2026-10-08",
+    "text": "2026-10-08\n\nSpectrum Stampede — Gruul landfall and vivid combo — a colour-count engine in red and green combo landfall vivid\nHoardwyrm — Jund (B/R/G) Dragons and Treasures — Smaug’s hoard engine, Standard legal hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-38",
+    "href": "archive.html#section-38",
+    "title": "Archive",
+    "section": "2026-10-07",
+    "text": "2026-10-07\n\nWarren Muster — Jund (B/R/G) Goblin amass — one Army, recurring counter events, drained through The Great Goblin hobbit amass\nBedrock Uprising — Jund (Black-Red-Green) — Earthbend combo Earthbend"
+  },
+  {
+    "objectID": "archive.html#section-39",
+    "href": "archive.html#section-39",
+    "title": "Archive",
+    "section": "2026-10-06",
+    "text": "2026-10-06\n\nTap Dance — WUBG — Blink/Flicker × Convoke combo blink convoke\nLeaf and Landfall — Bant (G/U/W) landfall Elves — every land drop makes an Elf, and each new Elf makes the next land drop better hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-40",
+    "href": "archive.html#section-40",
+    "title": "Archive",
+    "section": "2026-10-05",
+    "text": "2026-10-05\n\nGold and Granite — Naya (R/W/G) Storied Dwarves and Equipment — ten artifacts arm the company and every legend cashes them in hobbit dwarves\nCharged Into the Void — Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs combo Station Void"
+  },
+  {
+    "objectID": "archive.html#section-41",
+    "href": "archive.html#section-41",
+    "title": "Archive",
+    "section": "2026-10-04",
+    "text": "2026-10-04\n\nWeaving Suspicion — WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell combo eerie suspect web-slinging\nCinderhoard — Grixis (U/B/R) Dragons and Treasures — Smaug’s hoard engine ramps, draws and burns hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-42",
+    "href": "archive.html#section-42",
+    "title": "Archive",
+    "section": "2026-10-03",
+    "text": "2026-10-03\n\nHammer and Heritage — Red-White Storied Dwarves — Equipment, Sagas and The Lonely Mountain hobbit dwarves\nGraveyard Shift — Mardu (W/B/R) Job select equipment plus flashback token swarms combo job-select flashback token-creation"
+  },
+  {
+    "objectID": "archive.html#section-43",
+    "href": "archive.html#section-43",
+    "title": "Archive",
+    "section": "2026-10-02",
+    "text": "2026-10-02\n\nHaggle the Horizon — Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder combo bargain exhaust explore\nDrumbeat Horde — Jund (B/R/G) Goblin amass — one Army, endless counters, drained through The Great Goblin hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-44",
+    "href": "archive.html#section-44",
+    "title": "Archive",
+    "section": "2026-10-01",
+    "text": "2026-10-01\n\nWargwake — Jund (B/G/R) Wolf and Bear tribal — ferocious payoffs fed by landfall counters and a Mirkwood engine hobbit wolves\nCloak and Celerity — Esper (White / Blue / Black) Eerie enchantment engine with Disguise bodies and a Max speed finish combo eerie disguise max speed"
+  },
+  {
+    "objectID": "archive.html#section-45",
+    "href": "archive.html#section-45",
+    "title": "Archive",
+    "section": "2026-09-30",
+    "text": "2026-09-30\n\nExhaust Manifold — Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs combo mill teamwork exhaust\nEvergreen Requiem — Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-46",
+    "href": "archive.html#section-46",
+    "title": "Archive",
+    "section": "2026-09-29",
+    "text": "2026-09-29\n\nWingsong — Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs hobbit eagles\nOvertake at Midnight — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop combo start-your-engines"
+  },
+  {
+    "objectID": "archive.html#section-47",
+    "href": "archive.html#section-47",
+    "title": "Archive",
+    "section": "2026-09-28",
+    "text": "2026-09-28\n\nTidewater Tally — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending combo +1/+1 Counters Surveil Waterbending\nStoryforge — Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-48",
+    "href": "archive.html#section-48",
+    "title": "Archive",
+    "section": "2026-09-27",
+    "text": "2026-09-27\n\nRace the Reaper — Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill combo Fathomless descent Manifest dread Max speed\nMolten Mint — Red / Black / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-49",
+    "href": "archive.html#section-49",
+    "title": "Archive",
+    "section": "2026-09-26",
+    "text": "2026-09-26\n\nDeep-Down Thunder — Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage hobbit amass\nBoneyard Bloom — Sultai (Blue, Black, Green) — Renew combo renew"
+  },
+  {
+    "objectID": "archive.html#section-50",
+    "href": "archive.html#section-50",
+    "title": "Archive",
+    "section": "2026-09-25",
+    "text": "2026-09-25\n\nVerdant Liege — Green and blue with a black splash - Elf legends, landfall tokens, and lands that attack hobbit elves\nStoke the Veins — Black / Red / Green Firebending x Infusion — Jund attack-trigger combo combo Firebending Infusion"
+  },
+  {
+    "objectID": "archive.html#section-51",
+    "href": "archive.html#section-51",
+    "title": "Archive",
+    "section": "2026-09-24",
+    "text": "2026-09-24\n\nSongsteel — Red / White with a blue splash — Storied Dwarves, Equipment, and the enduring story hobbit dwarves\nPyre Parade — White / Black / Red Celebration x Firebending — Mardu token-burst midrange combo Celebration Firebending"
+  },
+  {
+    "objectID": "archive.html#section-52",
+    "href": "archive.html#section-52",
+    "title": "Archive",
+    "section": "2026-09-23",
+    "text": "2026-09-23\n\nTallywurm — Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid combo counters\nCinder and Coin — Black / Red / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-53",
+    "href": "archive.html#section-53",
+    "title": "Archive",
+    "section": "2026-09-22",
+    "text": "2026-09-22\n\nSack and Sunder — Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn hobbit amass\nFirefeeding — Five-color (WUBRG) — Forage × Firebending × Warp combo Forage Firebending Warp"
+  },
+  {
+    "objectID": "archive.html#section-54",
+    "href": "archive.html#section-54",
+    "title": "Archive",
+    "section": "2026-09-21",
+    "text": "2026-09-21\n\nRedline Alibi — Rakdos (Black-Red) | Max speed x Suspect combo max-speed suspect\nLoam and Legend — Green / Blue / White (three colors) — Hobbit Elf legends and landfall tokens with a counter-overrun land hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-55",
+    "href": "archive.html#section-55",
+    "title": "Archive",
+    "section": "2026-09-20",
+    "text": "2026-09-20\n\nNow You See Them — Four colors (white / blue / black / green) — Convoke x Disappear combo convoke disappear\nAnvil Verse — Red / White / Blue (three colors) — Storied Dwarves with Equipment counters and a token win hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-56",
+    "href": "archive.html#section-56",
+    "title": "Archive",
+    "section": "2026-09-19",
+    "text": "2026-09-19\n\nWardrum Warband — Black / Red / Green (three colors) — Goblin amass counters into The Great Goblin burn hobbit amass\nBreak Ground — Five colors (white / blue / black / red / green) — Token creation x Start your engines! x Earthbend combo Token creation Start your engines! Earthbend"
+  },
+  {
+    "objectID": "archive.html#section-57",
+    "href": "archive.html#section-57",
+    "title": "Archive",
+    "section": "2026-09-18",
+    "text": "2026-09-18\n\nIncognito Incendiary — Naya (White, Red, Green) — Disguise x Valiant combo Disguise Valiant\nHoardwake — Blue / Black / Red (three colors) — Hobbit Treasure engine into Dragon payoffs hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-58",
+    "href": "archive.html#section-58",
+    "title": "Archive",
+    "section": "2026-09-17",
+    "text": "2026-09-17\n\nMuster Roll — White / Blue / Black (three colors) — Hobbit recruit tokens and second-draw payoffs hobbit recruit\nGift Economy — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger combo gift"
+  },
+  {
+    "objectID": "archive.html#section-59",
+    "href": "archive.html#section-59",
+    "title": "Archive",
+    "section": "2026-09-16",
+    "text": "2026-09-16\n\nWhiskerquake — White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them combo Valiant Earthbend\nAnvil Chorus — Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-60",
+    "href": "archive.html#section-60",
+    "title": "Archive",
+    "section": "2026-09-15",
+    "text": "2026-09-15\n\nPalimpsest — WUBR four-color — Flashback x Discover combo Flashback Discover\nEavesong — White / Blue / Black / Green (four colors) — legendary-Elf landfall engine with the Bard draw-and-token package, built on The Hobbit set hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-61",
+    "href": "archive.html#section-61",
+    "title": "Archive",
+    "section": "2026-09-14",
+    "text": "2026-09-14\n\nVanishing Act — Four-color (WUBG) | Investigate, Sneak and Disappear combo investigate sneak disappear\nChitter and Burn — Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-62",
+    "href": "archive.html#section-62",
+    "title": "Archive",
+    "section": "2026-09-13",
+    "text": "2026-09-13\n\nWilderland Howl — Golgari core with a red splash (Black / Green / Red) — Wilderlands Bears x the ferocious Warg pack, built on The Hobbit set hobbit bears\nNightveil Offering — Five-color (White / Blue / Black / Red / Green) — an Eerie x Sneak x Sacrifice Ninja drain deck combo Eerie Sneak Sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-63",
+    "href": "archive.html#section-63",
+    "title": "Archive",
+    "section": "2026-09-12",
+    "text": "2026-09-12\n\nHammerhone Saga — Mardu (Red / White / Black) — Storied Dwarves x Equipment, built on The Hobbit set identity hobbit dwarves\nGilded Reprise — Mardu (Black / Red / White) — a Treasure-and-flashback celebration engine combo celebration flashback treasure"
+  },
+  {
+    "objectID": "archive.html#section-64",
+    "href": "archive.html#section-64",
+    "title": "Archive",
+    "section": "2026-09-11",
+    "text": "2026-09-11\n\nHoardfire — Jund (Black / Red / Green) — Smaug treasure-hoard burn from The Hobbit set hobbit smaug\nBrave the Heist — Five-color (WUBRG) — Valiant x Connive x Treasure: target your own creatures, hoard the pay, spend it on dragons combo valiant connive treasure"
+  },
+  {
+    "objectID": "archive.html#section-65",
+    "href": "archive.html#section-65",
+    "title": "Archive",
+    "section": "2026-09-10",
+    "text": "2026-09-10\n\nCompound Interest — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage combo increment expend delirium\nBellow and Burn — Jund (Black / Red / Green) — Amass Goblins counter-burn engine from The Hobbit set hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-66",
+    "href": "archive.html#section-66",
+    "title": "Archive",
+    "section": "2026-09-09",
+    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
+  },
+  {
+    "objectID": "archive.html#section-67",
+    "href": "archive.html#section-67",
+    "title": "Archive",
+    "section": "2026-09-08",
+    "text": "2026-09-08\n\nTwice-Told Tales — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set hobbit dwarves\nPlot Twist — Simic (Blue / Green) — Plot combo plot"
+  },
+  {
+    "objectID": "archive.html#section-68",
+    "href": "archive.html#section-68",
+    "title": "Archive",
+    "section": "2026-09-07",
+    "text": "2026-09-07\n\nWyrmgold — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set hobbit smaug\nDeathwatch — Jund sacrifice × morbid — death-drain engine with end-step growth combo sacrifice morbid"
+  },
+  {
+    "objectID": "archive.html#section-69",
+    "href": "archive.html#section-69",
+    "title": "Archive",
+    "section": "2026-09-06",
+    "text": "2026-09-06\n\nGoblin Growth — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set hobbit amass\nCold Case Haunting — WUBRG (five-color) | Eerie x Clue combo Eerie Clue"
+  },
+  {
+    "objectID": "archive.html#section-70",
+    "href": "archive.html#section-70",
+    "title": "Archive",
+    "section": "2026-09-05",
+    "text": "2026-09-05\n\nWeb Slingback — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun combo web-slinging\nGreenwood Ledger — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-71",
+    "href": "archive.html#section-71",
+    "title": "Archive",
+    "section": "2026-09-04",
+    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
+  },
+  {
+    "objectID": "archive.html#section-72",
+    "href": "archive.html#section-72",
+    "title": "Archive",
+    "section": "2026-09-03",
+    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-73",
+    "href": "archive.html#section-73",
+    "title": "Archive",
+    "section": "2026-09-02",
+    "text": "2026-09-02\n\nLandwarp — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak combo landfall warp sneak\nAmass to Arms — Mardu (WBR) Amass Goblins — The Hobbit set identity deck hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-74",
+    "href": "archive.html#section-74",
+    "title": "Archive",
+    "section": "2026-09-01",
+    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-75",
+    "href": "archive.html#section-75",
+    "title": "Archive",
+    "section": "2026-08-31",
+    "text": "2026-08-31\n\nBanner Fall — Red / Black — Token creation × Mobilize engine combo token-creation mobilize\nBalin’s Company — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-76",
+    "href": "archive.html#section-76",
+    "title": "Archive",
+    "section": "2026-08-30",
+    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending\nDragon’s Ledger — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-77",
+    "href": "archive.html#section-77",
+    "title": "Archive",
+    "section": "2026-08-29",
+    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
+  },
+  {
+    "objectID": "archive.html#section-78",
+    "href": "archive.html#section-78",
+    "title": "Archive",
+    "section": "2026-08-28",
+    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
+  },
+  {
+    "objectID": "archive.html#section-79",
+    "href": "archive.html#section-79",
+    "title": "Archive",
+    "section": "2026-08-27",
+    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
+  },
+  {
+    "objectID": "archive.html#section-80",
+    "href": "archive.html#section-80",
+    "title": "Archive",
+    "section": "2026-08-26",
+    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+  },
+  {
+    "objectID": "archive.html#section-81",
+    "href": "archive.html#section-81",
+    "title": "Archive",
+    "section": "2026-08-25",
+    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-82",
+    "href": "archive.html#section-82",
+    "title": "Archive",
+    "section": "2026-08-24",
+    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
+  },
+  {
+    "objectID": "archive.html#section-83",
+    "href": "archive.html#section-83",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
+  },
+  {
+    "objectID": "archive.html#section-84",
+    "href": "archive.html#section-84",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-85",
+    "href": "archive.html#section-85",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-86",
+    "href": "archive.html#section-86",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-10-14-loyalty-lattice.html",
+    "href": "decks/2026-10-14-loyalty-lattice.html",
+    "title": "Loyalty Lattice",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (Reality Fracture set deck)\n\n\nColors\nBlue / white / black (Esper)\n\n\nArchetype\nPlaneswalker combo — Empower loyalty engine\n\n\nSize\n60 cards, 24 lands\n\n\nFocused mechanic\nEmpower (35 cards in Reality Fracture), the Jace planeswalker token it creates, and loyalty counters\n\n\nPrimary win\nJace, Reality Sculptor’s zero-loyalty ability: with twenty-five or more loyalty counters among Jaces you control, exile all but the bottom card of each opponent’s library and let them deck themselves\n\n\nSecondary win\nSanctum Lurker turns every planeswalker into a “+2: one damage to each opponent and you gain one life” pinger that never dies, and every point of that life gain feeds Way of the Mentor, which puts a loyalty counter on each planeswalker — a board that grows and drains every single turn\n\n\nLand win con\nTheorist’s Sanctum — an Island that enters untapped once you behold a Jace and can pay two plus blue to empower Jace 2, a repeatable loyalty source for the primary win\n\n\nDeck IDs\nMTGADB deck 20 — cohesion 73.9, synergy 73.8, goldfish T4 consistency 0.637"
+  },
+  {
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#game-plan-in-three-phases",
+    "href": "decks/2026-10-14-loyalty-lattice.html#game-plan-in-three-phases",
+    "title": "Loyalty Lattice",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nSeed the lattice (turns 1 to 3). One untapped basic, then the cheapest empower effects. Way of the Necromancer on turn two creates a Jace token and puts two counters on it; Theorist's Proxy is a flashed-in 0/3 that empowers Jace 3 and protects the token at instant speed; Ajani Resolute on turn one is a zero ability that gains a life every turn and grows itself off that life. From the moment you control a planeswalker, the Annex lands stop entering tapped, so this phase is also the mana-fixing phase.\nBuild the stack (turns 4 to 6). Sanctum Lurker turns every planeswalker into a pinger and makes them immortal at zero loyalty. Jace's Machinations is the biggest single loyalty swing in the deck — empower Jace 8, plus the ability to activate Jace loyalty abilities on any player’s turn at instant speed. Mindseeker Oculus, Protege's Awakening and Way of the Mind Sculptor each add four, six and five more counters. Way of the Mentor and Way of the Healer are the multipliers: Mentor converts every point of life you gain (and the Lurker gains life on every activation) into a counter on every planeswalker, while Healer gives every planeswalker “[-2]: Create a 2/2 colorless Wizard Soldier token named Cadet. Surveil 1.”\nConvert (turn six plus). With a Jace token carrying twenty-five or more counters, with Jace, Reality Sculptor on the battlefield, activate its zero ability and exile the opponent’s library down to one card. From there the opponent draws their last card and loses on the following draw step. If the Sculptor is not there yet, the Lurker board is already winning: each planeswalker pings for one and gains a life every turn, Cadets and Illusions attack, and The Theorist, Jace Beleren draws you an extra card on each opponent’s draw step while you find the kill."
+  },
+  {
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#card-roles",
+    "href": "decks/2026-10-14-loyalty-lattice.html#card-roles",
+    "title": "Loyalty Lattice",
     "section": "Card roles",
-    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nSmaug the Magnificent\nWin condition: hasty 4/3 flier, upkeep Treasure, attack damage equal to your Treasure count to any target\n\n\nSmaug, Wicked Worm\n5/5 flier that makes Treasures equal to the opponent’s artifact count and converts Treasure mana into cards\n\n\nSmaug, the Great Calamity\nTop-end 5/5 flier with the Spew Flame adventure, five damage to a creature, as removal on the way down\n\n\nDesert Were-Worm\nFinisher that scales with Mountains and untaps every attacker for an extra combat phase\n\n\nDori, Bearer of Friends\nThree-mana 3/2 trampler that enters with a Treasure; the curve’s main ramp body\n\n\nLong-Bodied Grey Dog\nFlash blocker that arrives with a tapped Treasure and can ambush an attacker\n\n\nThe Sackville-Bagginses\nTwo-drop that eats a spare token for a card plus a Treasure, and drains an opponent whenever you sac a token\n\n\nThe Misty Mountains Cold\nTreasure every chapter, then four Treasures become a 6/6 flying Dragon token\n\n\nFateful Discovery\nCard engine: every artifact that enters draws a card\n\n\nLast Light of Durin’s Day\nWin condition: six Mountains completes the quest and drops a Dragon onto the battlefield for free\n\n\nDesolation of Smaug\nSweeper for non-Dragons plus four mana that only pays for Dragon spells\n\n\nBilbo’s Deadly Slice\nUnconditional removal at instant speed\n\n\nPinecone Strike\nFlexible removal: three damage to a creature, or destroy an artifact token, or both\n\n\nThrór’s Map\nTwo-mana fixer that fetches a basic land and later loots\n\n\nGiant’s Boulder\nOne-mana artifact that scries on entry, taps for any colour and converts late into a removal spell\n\n\nOrcrist, Goblin-cleaver\nEquipment that turns a combat step into a pile of Treasures and pushes damage through with trample"
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nSanctum Lurker\n4\nLinchpin — 3/2 for three that empowers Jace 1 on entry, then keeps every planeswalker alive at zero loyalty and gives them all a “+2: deal 1 damage to each opponent and you gain 1 life” ability\n\n\nThe Theorist, Jace Beleren\n3\nEngine and Jace — draws a card at the beginning of each opponent’s draw step, makes 1/1 Illusion tokens with its plus ability, and its ultimate dumps the hand onto the whole board as +1/+1 counters\n\n\nJace, Reality Sculptor\n2\nWin condition — its plus ability empowers Jace X where X is your Island count, its minus three softens attackers, and its zero ability exiles all but the bottom card of each opponent’s library at twenty-five loyalty\n\n\nAjani Resolute\n2\nEngine — two-mana planeswalker whose zero ability gains a life, which grows Ajani itself and every other planeswalker with Way of the Mentor out; also a source of 2/2 Cat Soldier tokens later\n\n\nLiliana the Faultless\n2\nEngine — one-mana 1/1 that gains a life every time another creature or planeswalker enters, which every empower spell triggers\n\n\nMindseeker Oculus\n2\nEnabler — three-mana 2/1 that empowers Jace 4 on entry, the cheapest big counter swing in the set\n\n\nTheorist’s Proxy\n2\nEnabler and protection — flash 0/3 that empowers Jace 3 at instant speed, and can be sacrificed so the next spell cannot be countered\n\n\nWay of the Mentor\n3\nMultiplier — empowers Jace 5 on entry, then puts a loyalty counter on each planeswalker every time you gain life\n\n\nWay of the Necromancer\n3\nEnabler — two-mana enchantment that empowers Jace 2 on entry and adds a loyalty counter to each planeswalker whenever a creature you control dies\n\n\nWay of the Mind Sculptor\n2\nEnabler and draw — empowers Jace 5 on entry, then draws a card whenever you activate a loyalty ability that removed two or more counters\n\n\nWay of the Healer\n1\nWin condition 2 enabler — empowers Jace 5 and grants every planeswalker “[-2]: create a 2/2 Cadet token, surveil 1”\n\n\nJace’s Machinations\n4\nThe big swing — instant that empowers Jace 8 and lets you activate Jace loyalty abilities on any player’s turn at instant speed\n\n\nProtege’s Awakening\n2\nEnabler — four mana, empower Jace 6, draw a card\n\n\nVraska’s Final Mercy\n2\nRemoval and win fuel — two mana, pay two life for either “destroy target creature or planeswalker” or “empower Jace 6”\n\n\nFatehold Charm\n2\nFlexibility — two mana instant: draw a card and empower Jace 2, bounce a creature or spell, or give the team +1/+2"
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#lands-as-engines",
-    "href": "decks/2026-10-04-cinderhoard.html#lands-as-engines",
-    "title": "Cinderhoard",
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#lands-as-engines",
+    "href": "decks/2026-10-14-loyalty-lattice.html#lands-as-engines",
+    "title": "Loyalty Lattice",
     "section": "Lands as engines",
-    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nRole\n\n\n\n\nThe Lonely Mountain\nWin-condition land: a Mountain for the Durin’s Day quest that also sacrifices into 2/2 Dwarf tokens, which feed Fateful Discovery\n\n\nStormcarved Coast\nThe fast blue-red dual; enters untapped once two other lands are out\n\n\nSwiftwater Cliffs\nBlue-red fixing that pays a life on entry\n\n\nDismal Backwater\nBlue-black fixing that pays a life on entry\n\n\nBloodfell Caves\nBlack-red fixing that pays a life on entry\n\n\nMountain / Island / Swamp\nFive Mountains deepen Desert Were-Worm and the Durin’s Day quest, three Islands and two Swamps carry the blue and black costs"
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does for the combo\n\n\n\n\nTheorist’s Sanctum\nThe land half of the win condition. It is an Island, it enters untapped if you behold a Jace (choose one you control or reveal a Jace card from your hand — the deck has five Jaces), and for two plus blue it empowers Jace 2 on any turn. That is a free loyalty counter pair every single turn out of a land slot, and it is what pushes a nineteen-counter board over the twenty-five threshold\n\n\nFatehold Annex\nWhite-blue dual that enters untapped once you control a planeswalker — which an empower spell guarantees from turn two\n\n\nTheorix Annex\nBlue-black dual on the same condition, paying for Sanctum Lurker, Way of the Necromancer and Vraska’s Final Mercy\n\n\nMeticulous Commons\nWhite-black dual on the same condition, covering the black half of the Ways and the white half of Way of the Mentor\n\n\nDeserted Beach\nBlue-white dual that enters untapped once you control two other lands, so it is live before the first planeswalker lands\n\n\nShipwreck Marsh\nBlue-black dual on the same two-land condition\n\n\nIsland, Plains, Swamp\nThe untapped basics. Four Islands pay for the blue-heavy curve and make Jace, Reality Sculptor’s plus ability large; two Plains and a Swamp cover the white and black halves"
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#curve-and-mana",
-    "href": "decks/2026-10-04-cinderhoard.html#curve-and-mana",
-    "title": "Cinderhoard",
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#curve-and-mana",
+    "href": "decks/2026-10-14-loyalty-lattice.html#curve-and-mana",
+    "title": "Loyalty Lattice",
     "section": "Curve and mana",
-    "text": "Curve and mana\nThe deck curves 2 / 7 / 11 / 6 / 5 / 3 / 2 across one through seven mana with an average nonland cost of 3.6, and the Treasure tokens pay the top of that curve early. Counting only lands and applying the Treasures as wildcards, the base offers roughly sixteen red sources, thirteen blue and seven black — red is the deepest because Smaug the Magnificent, Desert Were-Worm and Desolation of Smaug all ask for double red, while black is the shallowest and is covered by the four Treasure-makers plus Giant’s Boulder’s any-colour activation.\nTwenty-four lands is deliberate. The deck has no one-mana accelerant, so hitting land three on time matters, and The Lonely Mountain’s token ability wants to be activated only after the fourth land is down. The Lonely Mountain also enters tapped unless you control an Equipment, so curve it behind Thrór’s Map, Orcrist or Giant’s Boulder rather than leading with it on a slow hand."
+    "text": "Curve and mana\n36 nonland cards and 24 lands, average nonland mana value 2.97 — two ones, eleven twos, thirteen threes, six fours and four fives. The deck wants a turn-one play almost always and a turn-two empower effect in most games, then spends the mid game on four- and five-mana engines.\nThe mana base is blue with white and black support: eighteen blue sources, eleven white and ten black. Blue is that deep on purpose. It pays for a heavy blue top end (The Theorist and Jace, Reality Sculptor both cost two blue, and the Sculptor’s plus ability counts Islands), and it is the colour that the Annex cycle and Shipwreck Marsh share.\nThe six Annex and Commons lands all enter untapped once you control a planeswalker, so the first empower spell of the game is also the moment the mana base comes online. Run the basics first: turn one should be an untapped basic or a Deserted Beach, never a tapped Annex. After the first Jace lands, all six duals are free."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#early-game",
-    "href": "decks/2026-10-04-cinderhoard.html#early-game",
-    "title": "Cinderhoard",
-    "section": "Early game",
-    "text": "Early game\nThe first two turns are about not falling behind. Giant’s Boulder is the best one-drop: it scries two on entry, which fixes a stumble, and it later taps for any colour, which lets the deck cast Smaug, Wicked Worm off a hand that only drew Mountains. Thrór’s Map does the same job with a guaranteed land; cast it before the first Smaug so that the four-drop never misses its fourth land.\nAgainst aggro, hold Pinecone Strike and Bilbo’s Deadly Slice rather than developing. A Smaug the Magnificent that survives to attack is worth more than a two-drop, so trade removal for their best attacker and land the dragon on turn four."
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#early-game-turns-1-to-3",
+    "href": "decks/2026-10-14-loyalty-lattice.html#early-game-turns-1-to-3",
+    "title": "Loyalty Lattice",
+    "section": "Early game (turns 1 to 3)",
+    "text": "Early game (turns 1 to 3)\n\nTurn 1: Liliana the Faultless is the best one-drop — a 1/1 that gains a life every time a creature or planeswalker enters, which is the deck’s entire game plan arriving early. Ajani Resolute is the other option: a two-mana planeswalker that gains a life every turn and grows itself.\nTurn 2: Way of the Necromancer is the cheapest way to put a Jace token (and two counters) on the battlefield, and it turns every future trade into a loyalty counter on every planeswalker. Theorist's Proxy at flash speed is the safe version: hold up two mana, and if the opponent does nothing relevant, empower Jace 3 at end of turn.\nTurn 3: Sanctum Lurker is the priority. It makes the board of planeswalkers permanent and turns each of them into a pinger. Mindseeker Oculus (empower Jace 4) and Fatehold Charm (draw a card, empower Jace 2) are the backup plays.\nEvery one of those spells also untaps your Annex lands for the rest of the game. Treat the first empower spell of the game as the mana-fixing play, not just the engine play."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#mid-game",
-    "href": "decks/2026-10-04-cinderhoard.html#mid-game",
-    "title": "Cinderhoard",
-    "section": "Mid game",
-    "text": "Mid game\nTurn four is Smaug the Magnificent, almost every game. He attacks the turn he is cast, so the first attack is already two or three damage from the Treasures made by Dori, Grey Dog and the Misty Mountains chapter. From there the upkeep trigger compounds: each turn adds a Treasure, which raises the attack damage by one and moves The Misty Mountains Cold one step closer to a 6/6 Dragon.\nFateful Discovery is the card that makes the middle turns unfair. Every Treasure the deck makes is an extra card, so a turn that produces three artifacts draws three cards. Because Smaug, Wicked Worm also draws off Treasure mana, the deck can spend a turn making Treasures and still come out ahead in cards.\nDesolation of Smaug is the reset button for the middle game. It deals three damage to every non-Dragon creature — the deck’s own Dragons are immune — and then pays four mana toward the next Dragon spell. Cast it with a Dragon in hand and it becomes a two-for-one plus a mana refund."
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#mid-game-turns-4-to-6",
+    "href": "decks/2026-10-14-loyalty-lattice.html#mid-game-turns-4-to-6",
+    "title": "Loyalty Lattice",
+    "section": "Mid game (turns 4 to 6)",
+    "text": "Mid game (turns 4 to 6)\n\nJace's Machinations is the turn the clock starts. Eight counters in one instant, plus instant-speed loyalty activation for the rest of the turn — with Sanctum Lurker down that means a ping and a life point for every planeswalker even on the opponent’s turn.\nWay of the Mentor doubles the value of every ping, every Ajani activation and every Liliana trigger. Cast it before the next batch of empower spells, not after.\nThe Theorist, Jace Beleren is the card-advantage engine: it draws on each opponent’s draw step, so holding mana for Theorist's Proxy or a charm costs you nothing in the long run.\nHold Vraska's Final Mercy for the mode you actually need. Two life for “destroy target creature or planeswalker” is a bargain against a resolved threat; two life for empower Jace 6 is a bargain when you are two counters short of the combo.\nJace, Reality Sculptor’s minus three is a real defensive play: every creature that attacks you or a planeswalker you control gets minus five minus zero until your next turn. It buys the extra turn the deck needs."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#the-combo-turn",
-    "href": "decks/2026-10-04-cinderhoard.html#the-combo-turn",
-    "title": "Cinderhoard",
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#the-combo-turn",
+    "href": "decks/2026-10-14-loyalty-lattice.html#the-combo-turn",
+    "title": "Loyalty Lattice",
     "section": "The combo turn",
-    "text": "The combo turn\nThe kill usually arrives in one of three forms, all fed by the same Treasure bank.\n\nSmaug burn. With six or more Treasures out, Smaug the Magnificent attacks for six or more to any target, and the upkeep trigger adds another Treasure for next turn. Two Smaugs on the board attack for double the hoard.\nMisty Mountains Dragon. The Misty Mountains Cold needs four Treasures when a chapter resolves; once it has them the Saga sacrifices itself and leaves a 6/6 flying Dragon token behind, and the Saga’s own chapters supply two of the four Treasures it needs.\nWere-Worm extra combat. Attack with twelve or more total power and Desert Were-Worm untaps every attacker for a second combat phase. A 6/6 Dragon token plus a Smaug is already twelve.\n\nA representative turn: Smaug the Magnificent and a 6/6 Misty Mountains Dragon token attack for eleven, Desert Were-Worm’s trigger untaps them, and the second combat step attacks for eleven more — twenty-two through the air with two fliers."
+    "text": "The combo turn\n\nHave Jace, Reality Sculptor on the battlefield and a Jace token (or any Jace) with a stack of loyalty counters. Sanctum Lurker is strongly preferred, because it keeps every planeswalker alive at zero loyalty and adds the ping ability.\nCount the loyalty among all Jaces you control. Common contributions: Jace's Machinations eight, Protege's Awakening six, Way of the Mind Sculptor five, Way of the Mentor five, Mindseeker Oculus four, Theorist's Proxy three, Way of the Necromancer two, Vraska's Final Mercy six, Fatehold Charm two, Theorist's Sanctum two per activation, and the Sculptor’s own plus ability for one per Island.\nTwo or three empower spells plus a Sanctum activation is normally enough. When the total reaches twenty-five, activate Jace, Reality Sculptor’s zero ability: exile all but the bottom card of each opponent’s library.\nThe opponent is not decked immediately — they still have one card. They draw it, then lose on their next draw step. In the meantime the Lurker board keeps pinging and gaining life, so there is no window where they can race back.\nIf the combo is disrupted, you have not lost anything. The empower spells left a board of planeswalkers, the Ways keep growing them, and Way of the Healer keeps making 2/2 Cadets every turn."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#win-condition-2",
-    "href": "decks/2026-10-04-cinderhoard.html#win-condition-2",
-    "title": "Cinderhoard",
-    "section": "Win condition 2",
-    "text": "Win condition 2\nWhen the opponent stabilises the ground, the deck wins from the library instead. Last Light of Durin’s Day puts a quest counter on itself every time a Mountain enters; six counters sacrifice it and put a Dragon from hand or library directly onto the battlefield. With five Mountains, The Lonely Mountain and Thrór’s Map fetching a seventh, the quest is realistically complete by turn six or seven, and the payoff is Smaug, the Great Calamity or Desert Were-Worm for free.\nThe second route to the same finish is the token hoard. The Lonely Mountain makes a 2/2 Dwarf token for four mana, one cheaper for each Equipment, and every token draws a card under Fateful Discovery. Those Dwarves then provide the twelve power Desert Were-Worm needs for the extra combat, so the mana sink and the finisher are the same plan."
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#win-condition-2-the-lurker-board",
+    "href": "decks/2026-10-14-loyalty-lattice.html#win-condition-2-the-lurker-board",
+    "title": "Loyalty Lattice",
+    "section": "Win condition 2: the Lurker board",
+    "text": "Win condition 2: the Lurker board\nSanctum Lurker turns every planeswalker — the token from an empower spell, The Theorist, Jace Reality Sculptor, Ajani Resolute — into a permanent that deals one damage to each opponent and gains you a life for two loyalty counters. In a normal game the deck fields between three and six planeswalkers, so that is three to six damage a turn from permanents the opponent cannot kill by attacking them to zero loyalty. Way of the Mentor adds a counter to every one of them on each of those life gains, Way of the Necromancer adds another counter every time a Cadet or Illusion chump-blocks, and Way of the Healer makes every planeswalker a Cadet factory at minus two. The result is a board that grows while it drains; The Theorist, Jace Beleren’s ultimate then converts the hand into +1/+1 counters on every creature for a lethal swing."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#mulligan-guide",
-    "href": "decks/2026-10-04-cinderhoard.html#mulligan-guide",
-    "title": "Cinderhoard",
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#mulligan-guide",
+    "href": "decks/2026-10-14-loyalty-lattice.html#mulligan-guide",
+    "title": "Loyalty Lattice",
     "section": "Mulligan guide",
-    "text": "Mulligan guide\nKeep two or three lands, one two-drop and one card that makes Treasures. A hand with Smaug the Magnificent, a Treasure-maker and four lands is a clear keep — the deck’s whole plan is to bank Treasures, and four lands casts the dragon and leaves room to activate The Lonely Mountain later. Ship one-land hands, and ship hands with no Treasure source at all; without Treasures the deck is a pile of expensive Dragons that arrive late."
+    "text": "Mulligan guide\n\nKeep: two or three lands with at least one untapped basic, plus a cheap empower effect (Way of the Necromancer, Theorist's Proxy, Mindseeker Oculus) and one payoff or multiplier (Sanctum Lurker, Way of the Mentor, Jace's Machinations).\nKeep on six: one basic land plus Liliana the Faultless or Ajani Resolute and two more lands. A turn-one lifegain engine is a functional start.\nTrim: hands with four or more lands but nothing to cast under three mana; hands that are all defence; one-land hands with no one-drop.\nDo not go to five looking for Jace's Machinations. The deck’s floor is cheap empower spells, and the Ways and Lurkers are the cards that make them matter."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#key-interactions-and-edge-cases",
-    "href": "decks/2026-10-04-cinderhoard.html#key-interactions-and-edge-cases",
-    "title": "Cinderhoard",
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-10-14-loyalty-lattice.html#key-interactions-and-edge-cases",
+    "title": "Loyalty Lattice",
     "section": "Key interactions and edge cases",
-    "text": "Key interactions and edge cases\n\nSmaug the Magnificent makes his Treasure at the beginning of your upkeep, so the attack on that same turn already counts it — the first swing after a fresh Smaug is one damage larger than it looks.\nSmaug’s attack trigger can target any target, including creatures for removal or opposing planeswalkers, not just the player.\nSmaug, Wicked Worm counts artifacts your opponents control when it enters, so it is worst against a creature deck and best after an opposing Treasure or Equipment has hit the board.\nThe Misty Mountains Cold checks for four Treasures when a chapter resolves; if you already have four, the very first chapter sacrifices the Saga and makes the Dragon immediately, so it can be a three-mana 6/6 flier.\nLast Light of Durin’s Day counts Mountains, not lands — only The Lonely Mountain and Mountain trigger it, so Islands and Swamps never advance the quest.\nDesert Were-Worm is a 0/5 that only becomes lethal with Mountains; leave it back as a blocker when your Mountain count is low and attack with it only once the team’s power clears twelve.\nDesolation of Smaug spares Dragons, so it is a one-sided sweeper while your own fliers are on the board, and its four mana can pay for Smaug, the Great Calamity in the same turn.\nPinecone Strike can choose both modes, so it destroys an opposing Treasure or Equipment and deals three to a creature in the same spell.\nThe Sackville-Bagginses can sacrifice a Treasure or a Dwarf token to itself, drawing a card and replacing the token while draining an opponent.\nFateful Discovery triggers on Treasure tokens as well as artifacts, so an Orcrist combat step that makes three Treasures draws three cards.\nThe Lonely Mountain enters tapped unless you control an Equipment, so cast it behind Thrór’s Map, Orcrist or Giant’s Boulder when the turn’s mana is tight."
+    "text": "Key interactions and edge cases\n\nA planeswalker at zero loyalty is not dead here. Sanctum Lurker stops your planeswalkers from being put into graveyards for having zero loyalty. Costs that remove loyalty cannot be paid below zero, but a cost that adds counters — the Lurker’s granted plus-two, Jace, Reality Sculptor’s plus one — is always payable, so a zero-loyalty planeswalker keeps working.\nEmpower targets a Jace token, not a Jace card. “Put counters on a Jace token you control; if you do not control one, first create a blue Jace planeswalker token.” The Theorist, Jace Beleren is a Jace for the loyalty-count and for beholding, but the counters from empower land on the token.\nWay of the Mentor and Sanctum Lurker are the engine pair. The Lurker’s ping gains a life on every activation, and Mentor converts every life gain into a counter on each planeswalker. Ajani Resolute’s zero ability and Liliana the Faultless’s enters-trigger do the same job on their own.\nWay of the Necromancer wants bodies, not bombs. It only triggers when a creature dies, so Cadets, Illusions and Cat Soldiers are the fuel — chump-blocking is often a loyalty counter on every planeswalker.\nBehold a Jace is a cost, not a sacrifice. Theorist’s Sanctum either chooses a Jace you control or reveals a Jace card from your hand; the permanent stays. Casting the Sanctum with a Jace in hand makes it an untapped Island.\nJace’s Machinations lifts timing, not the once-per-turn rule. Each planeswalker still activates one loyalty ability per turn, but with the instant it can activate on the opponent’s turn as well.\nThe last-card rule. Jace, Reality Sculptor leaves the opponent exactly one library card. That player draws it and then loses on the following draw. If they have a way to skip draws or shuffle back in, keep the Lurker board attacking; the ping-plus-Cadets plan does not care.\nVraska’s Final Mercy always costs two life, whichever mode you pick. Do not fire it at three life against a deck with reach."
   },
   {
-    "objectID": "decks/2026-10-04-cinderhoard.html#matchups",
-    "href": "decks/2026-10-04-cinderhoard.html#matchups",
-    "title": "Cinderhoard",
+    "objectID": "decks/2026-10-14-loyalty-lattice.html#matchups",
+    "href": "decks/2026-10-14-loyalty-lattice.html#matchups",
+    "title": "Loyalty Lattice",
     "section": "Matchups",
-    "text": "Matchups\n\n\n\n\n\n\n\nOpponent\nPlan\n\n\n\n\nAggro\nBilbo’s Deadly Slice and Pinecone Strike trade up, Desolation of Smaug wipes the small board, and the Treasure bank outclasses their attack once Smaug is attacking\n\n\nMidrange\nYou have the bigger fliers and a card engine; grind with Fateful Discovery, then finish with extra combat or the Misty Mountains Dragon token\n\n\nControl\nDo not over-commit; keep one Smaug in hand, force the sweeper with token Treasures, and rebuild with Smaug, Wicked Worm drawing off Treasure mana\n\n\nTokens\nDesolation of Smaug is a one-sided sweeper against non-Dragon boards, and Pinecone Strike deletes the artifact token engines\n\n\nCombo\nThe Smaug clock is fast and hard to interact with in the air; hold Pinecone Strike or Bilbo’s Deadly Slice for the single permanent their combo needs"
+    "text": "Matchups\n\nAggro: the deck’s early bodies are 1/1s and 0/3s, so the opening turns are about survival, not tempo. Ajani Resolute and Liliana the Faultless gain the life back, Jace, Reality Sculptor’s minus three makes attacking into the board miserable, and once Sanctum Lurker arrives pressure stops mattering — the board pings back every turn and cannot be killed.\nMidrange: this is the best matchup. The deck out-grows whatever the opponent plays, because the Ways add counters every turn and the empower spells never spend a card on the engine itself. Save Vraska's Final Mercy for the one threat that actually blocks the combo.\nControl: the value sits on enchantments and planeswalkers rather than on spells, so counterspells trade down. Theorist's Proxy can be sacrificed to make the next spell uncounterable, and Way of the Mentor and Way of the Necromancer are the survivals after a sweeper because they keep the rebuilt board growing.\nCombo and graveyard decks: the deck has no graveyard interaction beyond Fatehold Charm and Vraska’s Final Mercy, so racing with the Lurker board plus the Jace deck-out is the plan. The Theorist, Jace Beleren’s draw step trigger means the deck finds its kill quickly against decks that do not pressure life totals.\nArtifact and enchantment removal: Way of the Healer and Way of the Necromancer are the expendable pieces; Way of the Mentor and Sanctum Lurker are the ones worth protecting with Theorist's Proxy’s sacrifice ability or by simply doubling up.\n\nReality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html",
+    "href": "decks/2026-11-14-above-suspicion.html",
+    "title": "Above Suspicion",
+    "section": "",
+    "text": "Field\nDetail\n\n\n\n\nFormat\nStandard\n\n\nColors\nBlue, black (Dimir)\n\n\nArchetype\nSurveil-scry dig engine that bins a Demon, then reanimates it\n\n\nSize\n60 cards, 23 lands, 37 spells and creatures\n\n\nPrimary win\nZombify returns Valgavoth, Terror Eater, a 9/9 flying lifelink Demon, on turn four or five\n\n\nSecondary win\nAbhorrent Oculus cast for {2}{U} off a stocked graveyard plus the Restless Reef Shark and Rogue's Passage\n\n\nLand as win condition\nRestless Reef turns into a 4/4 deathtouch Shark that mills four on every attack; Rogue's Passage makes the reanimated Demon unblockable"
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#game-plan-in-three-phases",
+    "href": "decks/2026-11-14-above-suspicion.html#game-plan-in-three-phases",
+    "title": "Above Suspicion",
+    "section": "Game plan in three phases",
+    "text": "Game plan in three phases\n\nTurns 1-2, load the graveyard and shape the hand. Opt, Sleight of Hand and Wreckage Wickerfolk are the openers. Wreckage Wickerfolk is the best turn-two play: a 1/3 flier that surveils two, which is two cards in the graveyard and two cards closer to Zombify. Undercity Sewers on turn one is worth the tapped land, because the surveil is a real card. Joo Dee and Umbral Collar Zealot come down here as bodies that will become repeatable surveil later.\nTurns 3-4, turn on the engine. Matoya, Archon Elder converts every scry and surveil into a card, so from here every cheap spell is a two-for-one. Stock Up finds the missing half of the combo (Demon or Zombify), Chart a Course draws two and discards the Demon or a spare land, Bitter Triumph kills a blocker while discarding the Demon as its additional cost. Joo Dee plus Zealot gives a free surveil every turn without spending a card.\nTurns 4-6, convert. Zombify on Valgavoth is the primary line; Abhorrent Oculus for three mana is the backup. Once a 9/9 or 5/5 flier is on the board, Rogue's Passage and Restless Reef end the game through blockers, and Matoya keeps the hand full so removal does not matter."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#card-roles",
+    "href": "decks/2026-11-14-above-suspicion.html#card-roles",
+    "title": "Above Suspicion",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\n\nCard\nCopies\nRole\n\n\n\n\nAbhorrent Oculus\n4\nPrimary reanimation target and backup threat: 5/5 flier for {2}{U} that exiles six graveyard cards as an additional cost and manifests dread on every opponent’s upkeep\n\n\nValgavoth, Terror Eater\n2\nThe bomb: 9/9 flying lifelink, ward, exiles opposing cards and lets you cast them for life. Intended to be binned, not cast\n\n\nWreckage Wickerfolk\n3\nTurn-two 1/3 flier that surveils two on entry, the deck’s best enabler\n\n\nMatoya, Archon Elder\n3\nEngine: every scry or surveil draws a card\n\n\nUmbral Collar Zealot\n3\n3/2 for two; sacrifice another creature or artifact to surveil one, the free repeatable trigger\n\n\nJoo Dee, One of Many\n2\n{B}, tap: surveil one, copy itself, then sacrifice a creature or artifact, so the trigger repeats and leaves a 2/2 behind\n\n\nOpt\n4\nOne mana: scry one, draw one; with Matoya it is draw two\n\n\nStock Up\n3\nLook at the top five, take two: finds the missing combo half\n\n\nChart a Course\n2\nDraw two, discard one: the cleanest way to put Valgavoth in the graveyard\n\n\nDreams of Laguna\n3\nSurveil one, draw one, with flashback {3}{U} for a second trigger\n\n\nBitter Triumph\n3\nTwo mana removal that also discards the Demon as its additional cost\n\n\nZombify\n3\nThe combo payoff: return any creature card from the graveyard to the battlefield\n\n\nSleight of Hand\n2\nOne mana, look at the top two, keep the better one"
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#lands-as-engines",
+    "href": "decks/2026-11-14-above-suspicion.html#lands-as-engines",
+    "title": "Above Suspicion",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\n\nLand\nCopies\nFunction\n\n\n\n\nRestless Reef\n2\nWin-condition land: {2}{U}{B} makes it a 4/4 deathtouch Shark, and each attack mills four\n\n\nRogue’s Passage\n1\n{4}, tap: target creature is unblockable, which is how the Demon or the Oculus finishes\n\n\nUndercity Sewers\n4\nBlue-black dual that enters tapped and surveils one, a free Matoya trigger\n\n\nWatery Grave\n4\nUntapped blue-black dual, the deck’s main source of both colors\n\n\nSwamp\n5\nBasic black\n\n\nIsland\n7\nBasic blue, the largest single color source"
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#curve-and-mana",
+    "href": "decks/2026-11-14-above-suspicion.html#curve-and-mana",
+    "title": "Above Suspicion",
+    "section": "Curve and mana",
+    "text": "Curve and mana\nSix one-drops, sixteen two-drops, ten three-drops and three four-drops, with the two Demons as the only expensive cards in the list and both of them meant to be cheated in. Average mana value sits under 2.5, so the deck functions on three lands and does not need a fourth to operate.\nTwenty-three lands with seventeen blue sources and thirteen black sources. Blue is the heavier requirement (Opt, Sleight of Hand, Matoya, Stock Up, Chart a Course, Dreams of Laguna, Oculus), while black is concentrated at two and four mana. The four Undercity Sewers are the only lands that enter tapped unconditionally; Watery Grave can come in untapped for 2 life, which matters on turn four when Zombify has to be cast on curve."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#early-game",
+    "href": "decks/2026-11-14-above-suspicion.html#early-game",
+    "title": "Above Suspicion",
+    "section": "Early game",
+    "text": "Early game\nKeep hands with two lands and a one-mana look spell. The ideal sequence is Undercity Sewers into Wreckage Wickerfolk: the surveil land fixes the draw, the Wickerfolk surveils two more, and by turn three the graveyard has enough cards that Abhorrent Oculus is castable. Do not be afraid to discard Valgavoth to Chart a Course on turn three; that is the plan, not a cost.\nJoo Dee is not an attacker in the early game. Play it, wait a turn, then activate it on a turn where the copy and the sacrifice both matter: keep the token, sacrifice the original, and the board is unchanged while the graveyard grows and Matoya draws."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#the-combo-turn",
+    "href": "decks/2026-11-14-above-suspicion.html#the-combo-turn",
+    "title": "Above Suspicion",
+    "section": "The combo turn",
+    "text": "The combo turn\nThe turn the deck wins usually looks like this:\n\nZombify with {3}{B}, returning Valgavoth, Terror Eater after a Chart a Course or Bitter Triumph put it in the graveyard.\nAttack for 9 with flying and lifelink. The Demon’s ward makes the usual removal trade cost three nonland permanents, so most decks cannot answer it.\nFrom that point the Demon exiles everything the opponent loses and lets you cast their spells for life, so the game becomes a race the opponent cannot win.\n\nIf the Demon is not in the graveyard yet, Abhorrent Oculus is the same turn for three mana: exile six cards from the graveyard, resolve a 5/5 flier, and every opponent upkeep afterwards manifests dread, which is another two cards of library selection per turn cycle."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#win-condition-2",
+    "href": "decks/2026-11-14-above-suspicion.html#win-condition-2",
+    "title": "Above Suspicion",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nWithout the Demon the deck still closes. Restless Reef activates for {2}{U}{B} into a 4/4 deathtouch Shark that mills four whenever it attacks, which is both a clock and a way to dig deeper. Umbral Collar Zealot and Joo Dee tokens chip in, and Rogue's Passage turns any one of them into an unblockable attacker for {4}. Against decks with ground blockers this is the plan: two Reefs plus a Passage is eight unblockable damage a turn from lands alone."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#mulligan-guide",
+    "href": "decks/2026-11-14-above-suspicion.html#mulligan-guide",
+    "title": "Above Suspicion",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep: two or three lands plus any two of Opt, Sleight of Hand, Wreckage Wickerfolk, Matoya. A hand with Chart a Course or Bitter Triumph and a Zombify is a keep even without the Demon, because Stock Up and Opt find it.\nMulligan: one-land hands, hands with no blue source, and hands that are all three-drops with no look spell. Two Demons in the opener is a mulligan unless a Chart a Course is also there."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-11-14-above-suspicion.html#key-interactions-and-edge-cases",
+    "title": "Above Suspicion",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nAbhorrent Oculus needs six cards exiled. Check the graveyard count before casting; with Dreams of Laguna and Wickerfolk it is normally reached by turn four. The exile is a cost, so it cannot be responded to by removing the Oculus.\nMatoya triggers on scry as well as surveil. Opt is a scry, so it draws two cards with Matoya out. Stock Up does not scry and does not trigger.\nJoo Dee copies itself, then you sacrifice. The copy is created before the sacrifice, so you always keep exactly one Joo Dee and the trigger repeats every turn. Sacrifice the token and keep the original to preserve the engine.\nUmbral Collar Zealot needs fodder. It sacrifices another creature or artifact, not itself. Pair it with Joo Dee tokens, spare Wreckage Wickerfolk, or a Clue-style artifact.\nBitter Triumph can bin the Demon. The additional cost is “discard a card or pay 3 life,” so it is both removal and a way to put Valgavoth where Zombify can reach it.\nChart a Course discard happens after the draw, so sequence it before Zombify and not after.\nRogue's Passage adds colorless mana. It cannot cast Opt or Zombify on its own; count it as a spell-land, not a source."
+  },
+  {
+    "objectID": "decks/2026-11-14-above-suspicion.html#matchups",
+    "href": "decks/2026-11-14-above-suspicion.html#matchups",
+    "title": "Above Suspicion",
+    "section": "Matchups",
+    "text": "Matchups\n\nAggro: the deck’s cheap interaction is thin, so race with lifelink. Valgavoth ends aggro races on its own because every attack gains 9. Bitter Triumph on their best attacker plus Umbral Collar Zealot blockers is usually enough to reach turn five.\nControl: Matoya is the whole matchup. Play it before the Demon, force them to answer the draw engine, and let Joo Dee and Zealot grind out card advantage. Rogue's Passage beats their blockers.\nMidrange: the reanimation line is faster than their curve. Restless Reef trades with anything on the ground and the 9/9 flier ignores their board.\nCombo: no counterspells in the main deck, so the plan is speed: Zombify on turn four with the Demon plus Rogue's Passage the following turn is the fastest clock available."
   },
   {
     "objectID": "decks/2026-08-25-swarm-calculus.html",

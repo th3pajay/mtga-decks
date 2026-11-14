@@ -1,0 +1,156 @@
+---
+title: "Above Suspicion"
+subtitle: "Dimir (blue / black) surveil-reanimator combo"
+date: "2026-11-14"
+categories: ["combo", "surveil"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard |
+| Colors | Blue, black (Dimir) |
+| Archetype | Surveil-scry dig engine that bins a Demon, then reanimates it |
+| Size | 60 cards, 23 lands, 37 spells and creatures |
+| Primary win | `Zombify` returns `Valgavoth, Terror Eater`, a 9/9 flying lifelink Demon, on turn four or five |
+| Secondary win | `Abhorrent Oculus` cast for `{2}{U}` off a stocked graveyard plus the `Restless Reef` Shark and `Rogue's Passage` |
+| Land as win condition | `Restless Reef` turns into a 4/4 deathtouch Shark that mills four on every attack; `Rogue's Passage` makes the reanimated Demon unblockable |
+
+# Overview
+
+The deck is built on one loop: look at the top of the library, throw the bad half into the graveyard, keep the good half, and get paid for both halves.
+
+Surveil and scry do the work. `Opt`, `Dreams of Laguna` and `Wreckage Wickerfolk` surveil or scry on entry, `Undercity Sewers` surveils as it enters, and `Umbral Collar Zealot` and `Joo Dee, One of Many` turn spare permanents into repeated surveil. Every one of those triggers is a graveyard card, which is the fuel `Abhorrent Oculus` needs (it asks for six cards exiled from the graveyard as an additional cost) and the reason `Zombify` always has a target.
+
+`Matoya, Archon Elder` is the hinge. It reads "whenever you scry or surveil, draw a card," so each one-mana `Opt` becomes scry one and draw two, `Dreams of Laguna` becomes surveil one and draw two with a flashback copy later, and `Joo Dee` becomes a repeatable draw engine that also copies itself. Matoya is the reason a deck with 23 lands and no card-advantage sorcery can chain through half its library by turn five.
+
+The payoff is deliberately blunt. `Zombify` costs `{3}{B}` and puts any creature card from the graveyard onto the battlefield, so a `Chart a Course` discard or a `Bitter Triumph` additional cost can turn into a turn-four 9/9 flier with lifelink. `Valgavoth, Terror Eater` also exiles everything the opponent loses and lets you cast their cards for life, which means the Demon is a card-advantage engine as well as a clock. When the Demon is not available, `Abhorrent Oculus` is a 5/5 flier for three mana that manifests dread on every opponent's upkeep.
+
+The second half of the deck is the grind: `Umbral Collar Zealot` and `Joo Dee` generate and eat tokens, `Restless Reef` attacks as a 4/4 deathtouch Shark, and `Rogue's Passage` makes the biggest body unblockable. Nothing in the list is a standalone body; every card either digs, surveils, discards, or converts a full graveyard into a threat.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1-2, load the graveyard and shape the hand.** `Opt`, `Sleight of Hand` and `Wreckage Wickerfolk` are the openers. `Wreckage Wickerfolk` is the best turn-two play: a 1/3 flier that surveils two, which is two cards in the graveyard and two cards closer to `Zombify`. `Undercity Sewers` on turn one is worth the tapped land, because the surveil is a real card. `Joo Dee` and `Umbral Collar Zealot` come down here as bodies that will become repeatable surveil later.
+2. **Turns 3-4, turn on the engine.** `Matoya, Archon Elder` converts every scry and surveil into a card, so from here every cheap spell is a two-for-one. `Stock Up` finds the missing half of the combo (Demon or `Zombify`), `Chart a Course` draws two and discards the Demon or a spare land, `Bitter Triumph` kills a blocker while discarding the Demon as its additional cost. `Joo Dee` plus `Zealot` gives a free surveil every turn without spending a card.
+3. **Turns 4-6, convert.** `Zombify` on `Valgavoth` is the primary line; `Abhorrent Oculus` for three mana is the backup. Once a 9/9 or 5/5 flier is on the board, `Rogue's Passage` and `Restless Reef` end the game through blockers, and Matoya keeps the hand full so removal does not matter.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Abhorrent Oculus | 4 | Primary reanimation target and backup threat: 5/5 flier for `{2}{U}` that exiles six graveyard cards as an additional cost and manifests dread on every opponent's upkeep |
+| Valgavoth, Terror Eater | 2 | The bomb: 9/9 flying lifelink, ward, exiles opposing cards and lets you cast them for life. Intended to be binned, not cast |
+| Wreckage Wickerfolk | 3 | Turn-two 1/3 flier that surveils two on entry, the deck's best enabler |
+| Matoya, Archon Elder | 3 | Engine: every scry or surveil draws a card |
+| Umbral Collar Zealot | 3 | 3/2 for two; sacrifice another creature or artifact to surveil one, the free repeatable trigger |
+| Joo Dee, One of Many | 2 | `{B}`, tap: surveil one, copy itself, then sacrifice a creature or artifact, so the trigger repeats and leaves a 2/2 behind |
+| Opt | 4 | One mana: scry one, draw one; with Matoya it is draw two |
+| Stock Up | 3 | Look at the top five, take two: finds the missing combo half |
+| Chart a Course | 2 | Draw two, discard one: the cleanest way to put `Valgavoth` in the graveyard |
+| Dreams of Laguna | 3 | Surveil one, draw one, with flashback `{3}{U}` for a second trigger |
+| Bitter Triumph | 3 | Two mana removal that also discards the Demon as its additional cost |
+| Zombify | 3 | The combo payoff: return any creature card from the graveyard to the battlefield |
+| Sleight of Hand | 2 | One mana, look at the top two, keep the better one |
+
+## Lands as engines
+
+| Land | Copies | Function |
+|---|---|---|
+| Restless Reef | 2 | Win-condition land: `{2}{U}{B}` makes it a 4/4 deathtouch Shark, and each attack mills four |
+| Rogue's Passage | 1 | `{4}`, tap: target creature is unblockable, which is how the Demon or the Oculus finishes |
+| Undercity Sewers | 4 | Blue-black dual that enters tapped and surveils one, a free Matoya trigger |
+| Watery Grave | 4 | Untapped blue-black dual, the deck's main source of both colors |
+| Swamp | 5 | Basic black |
+| Island | 7 | Basic blue, the largest single color source |
+
+## Curve and mana
+
+Six one-drops, sixteen two-drops, ten three-drops and three four-drops, with the two Demons as the only expensive cards in the list and both of them meant to be cheated in. Average mana value sits under 2.5, so the deck functions on three lands and does not need a fourth to operate.
+
+Twenty-three lands with seventeen blue sources and thirteen black sources. Blue is the heavier requirement (`Opt`, `Sleight of Hand`, `Matoya`, `Stock Up`, `Chart a Course`, `Dreams of Laguna`, `Oculus`), while black is concentrated at two and four mana. The four `Undercity Sewers` are the only lands that enter tapped unconditionally; `Watery Grave` can come in untapped for 2 life, which matters on turn four when `Zombify` has to be cast on curve.
+
+# Gameplay strategy
+
+## Early game
+
+Keep hands with two lands and a one-mana look spell. The ideal sequence is `Undercity Sewers` into `Wreckage Wickerfolk`: the surveil land fixes the draw, the Wickerfolk surveils two more, and by turn three the graveyard has enough cards that `Abhorrent Oculus` is castable. Do not be afraid to discard `Valgavoth` to `Chart a Course` on turn three; that is the plan, not a cost.
+
+`Joo Dee` is not an attacker in the early game. Play it, wait a turn, then activate it on a turn where the copy and the sacrifice both matter: keep the token, sacrifice the original, and the board is unchanged while the graveyard grows and Matoya draws.
+
+## The combo turn
+
+The turn the deck wins usually looks like this:
+
+1. `Zombify` with `{3}{B}`, returning `Valgavoth, Terror Eater` after a `Chart a Course` or `Bitter Triumph` put it in the graveyard.
+2. Attack for 9 with flying and lifelink. The Demon's ward makes the usual removal trade cost three nonland permanents, so most decks cannot answer it.
+3. From that point the Demon exiles everything the opponent loses and lets you cast their spells for life, so the game becomes a race the opponent cannot win.
+
+If the Demon is not in the graveyard yet, `Abhorrent Oculus` is the same turn for three mana: exile six cards from the graveyard, resolve a 5/5 flier, and every opponent upkeep afterwards manifests dread, which is another two cards of library selection per turn cycle.
+
+## Win condition 2
+
+Without the Demon the deck still closes. `Restless Reef` activates for `{2}{U}{B}` into a 4/4 deathtouch Shark that mills four whenever it attacks, which is both a clock and a way to dig deeper. `Umbral Collar Zealot` and `Joo Dee` tokens chip in, and `Rogue's Passage` turns any one of them into an unblockable attacker for `{4}`. Against decks with ground blockers this is the plan: two Reefs plus a Passage is eight unblockable damage a turn from lands alone.
+
+## Mulligan guide
+
+Keep: two or three lands plus any two of `Opt`, `Sleight of Hand`, `Wreckage Wickerfolk`, `Matoya`. A hand with `Chart a Course` or `Bitter Triumph` and a `Zombify` is a keep even without the Demon, because `Stock Up` and `Opt` find it.
+
+Mulligan: one-land hands, hands with no blue source, and hands that are all three-drops with no look spell. Two Demons in the opener is a mulligan unless a `Chart a Course` is also there.
+
+## Key interactions and edge cases
+
+- **`Abhorrent Oculus` needs six cards exiled.** Check the graveyard count before casting; with `Dreams of Laguna` and `Wickerfolk` it is normally reached by turn four. The exile is a cost, so it cannot be responded to by removing the Oculus.
+- **`Matoya` triggers on scry as well as surveil.** `Opt` is a scry, so it draws two cards with Matoya out. `Stock Up` does not scry and does not trigger.
+- **`Joo Dee` copies itself, then you sacrifice.** The copy is created before the sacrifice, so you always keep exactly one Joo Dee and the trigger repeats every turn. Sacrifice the token and keep the original to preserve the engine.
+- **`Umbral Collar Zealot` needs fodder.** It sacrifices another creature or artifact, not itself. Pair it with `Joo Dee` tokens, spare `Wreckage Wickerfolk`, or a Clue-style artifact.
+- **`Bitter Triumph` can bin the Demon.** The additional cost is "discard a card or pay 3 life," so it is both removal and a way to put `Valgavoth` where `Zombify` can reach it.
+- **`Chart a Course` discard happens after the draw**, so sequence it before `Zombify` and not after.
+- **`Rogue's Passage` adds colorless mana.** It cannot cast `Opt` or `Zombify` on its own; count it as a spell-land, not a source.
+
+## Matchups
+
+- **Aggro:** the deck's cheap interaction is thin, so race with lifelink. `Valgavoth` ends aggro races on its own because every attack gains 9. `Bitter Triumph` on their best attacker plus `Umbral Collar Zealot` blockers is usually enough to reach turn five.
+- **Control:** `Matoya` is the whole matchup. Play it before the Demon, force them to answer the draw engine, and let `Joo Dee` and `Zealot` grind out card advantage. `Rogue's Passage` beats their blockers.
+- **Midrange:** the reanimation line is faster than their curve. `Restless Reef` trades with anything on the ground and the 9/9 flier ignores their board.
+- **Combo:** no counterspells in the main deck, so the plan is speed: `Zombify` on turn four with the Demon plus `Rogue's Passage` the following turn is the fastest clock available.
+
+# Iterations
+
+| Round | Change | Sim win rate | Synergy | T4 consistency | P(4 lands by T4) |
+|---|---|---|---|---|---|
+| v1 | First draft, 59 cards: Demon plus Oculus, `Wretched Doll` and `Surveillance Phantasm` as the repeatable surveil | 57.0 | 69.4 | 0.603 | 0.610 |
+| v2 | -2 `Valgavoth`, -2 `Surveillance Phantasm`, -1 `Hour of Defeat`; +3 `Il Mheg Pixie`, +2 `Mindwhisker`, +1 `Joo Dee` (fix the 59-card count, add evasive surveil bodies) | 58.3 | 69.2 | 0.579 | 0.583 |
+| v3 | -3 `Wretched Doll`, -1 `Hour of Defeat`, -1 `Mindwhisker`; +3 `Umbral Collar Zealot`, +2 `Snarling Gorehound` (free repeatable surveil instead of tapped-doll activations) | 56.7 | 68.8 | 0.578 | 0.583 |
+| v4 | -3 `Risky Research`, -3 `Too Evil to Stay Dead`, -2 `Hymn of the Faller`, -3 `Il Mheg Pixie`, -2 `Snarling Gorehound`, -1 `Mindwhisker`, -1 `Joo Dee`, -1 `Wreckage Wickerfolk`, -1 `Dreams of Laguna`, -2 `Shipwreck Marsh`; +4 `Opt`, +3 `Stock Up`, +3 `Bitter Triumph`, +2 `Chart a Course`, +2 `Sleight of Hand`, +2 `Valgavoth`, +1 `Zombify`, +2 `Island` (cheap dig over clunky surveil sorceries, and restore the Demon as the payoff) | 56.7 | 71.8 | 0.595 | 0.572 |
+
+All gates passed on v4: 60 cards with no missing entries, Standard legal, zero rotating cards, sim 56.7, synergy 71.8, T4 consistency 0.595, P(four lands by turn four) 0.572.
+
+# Deck list (Arena import)
+
+```text
+Above Suspicion
+Deck
+4 Abhorrent Oculus
+2 Valgavoth, Terror Eater
+3 Wreckage Wickerfolk
+3 Matoya, Archon Elder
+3 Umbral Collar Zealot
+2 Joo Dee, One of Many
+4 Opt
+3 Stock Up
+2 Chart a Course
+3 Dreams of Laguna
+3 Bitter Triumph
+3 Zombify
+2 Sleight of Hand
+4 Watery Grave
+4 Undercity Sewers
+2 Restless Reef
+1 Rogue's Passage
+5 Swamp
+7 Island
+```

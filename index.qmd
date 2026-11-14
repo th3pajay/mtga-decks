@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-13**:
+Deck guides published **2026-11-14**:
 
-- **[Silt Cartography](decks/2026-11-13-silt-cartography.html)** — Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture  `reality-fracture` `surveil`
-- **[Corpse Census](decks/2026-11-13-corpse-census.html)** — WUBG — Morbid x Surveil  `combo` `morbid` `surveil`
+- **[Above Suspicion](decks/2026-11-14-above-suspicion.html)** — Dimir (blue / black) surveil-reanimator combo  `combo` `surveil`
