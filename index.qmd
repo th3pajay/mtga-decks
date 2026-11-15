@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-11-15**:
 
+- **[Sutured Skies](decks/2026-11-15-sutured-skies.html)** — Bant (white / blue / green) prepared-spell counters combo — Reality Fracture  `reality-fracture` `prepared`
 - **[Hoofbeat Holiday](decks/2026-11-15-hoofbeat-holiday.html)** — Naya (WGR) | Saddle + Celebration  `combo` `Saddle` `Celebration`

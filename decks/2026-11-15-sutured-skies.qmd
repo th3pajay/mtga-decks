@@ -1,0 +1,131 @@
+---
+title: "Sutured Skies"
+subtitle: "Bant (white / blue / green) prepared-spell counters combo — Reality Fracture"
+date: "2026-11-15"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`) |
+| Colors | White, blue, green (Bant) |
+| Archetype | Prepared creatures plus a counter and lifegain conversion engine |
+| Size | 60 cards, 25 lands, 35 spells and creatures |
+| Primary win | `Yoshimaru, Beloved Companion` doubles every `Seed Suture` counter, so each cheap prepared body is a repeatable two-counter pump that turns Cadets and fliers into a lethal board |
+| Secondary win | `Bloombrute` and `Kwia Vigorbloom` convert the same lifegain into cards and Lotus mana, and `Germinate Recruits` converts it into Cadets — a wide attack that does not need the ground |
+| Land as win condition | `Hexhaven Dueling Arena` re-prepares an attacker for `{2}`, so the land itself re-arms the engine every turn and keeps the spell copies flowing |
+
+Reality Fracture is Standard-legal, but every card in the set still carries no `arena_id` in the card data. The import list at the end becomes playable on Arena once the set is enabled there.
+
+# Overview
+
+Reality Fracture's prepared mechanic gives a creature a spell stapled to it: while the creature is prepared you may cast a copy of that spell, and casting it unprepares the creature. Six of this deck's creatures enter prepared, and all six carry one of two cheap spells. `Emergency Phytomedic`, `Vigorbloom Vanguard` and `Blossom-Blessed Angel` carry `Seed Suture` (`{G/W}`, sorcery: put a +1/+1 counter on target creature, gain 1 life). `Fatehold Chronologist` and `Prudent Fateseer` carry `Peer Review` (`{2}{W/U}`, sorcery: create a 2/2 Cadet, surveil 1). `Variable Chaser` carries `Arc of Fortune`.
+
+The doubling card is `Codie, Ravenous Codex`. Its first line is "whenever you cast a prepared spell, copy it" — so every one of those cheap back-face spells resolves twice for one card and one payment. Two `Seed Suture`s off a single prepared body means two counters and two life; two `Peer Review`s mean two Cadets and two surveils.
+
+The counter payoff is `Yoshimaru, Beloved Companion`: any +1/+1 counter put on your creature becomes one more. A single copied `Seed Suture` therefore places four counters across two creatures, and `Vigorbloom Vanguard` gives every creature that has a counter vigilance, which is what makes attacking and re-preparing compatible — a vigilant attacker is still untapped in the postcombat main phase, which is when `Hexhaven Dueling Arena` wants to re-arm it.
+
+The lifegain is a second engine rather than a rounding error. `Bloombrute` draws a card the first time you gain life each turn, `Kwia Vigorbloom` makes a Lotus token (three mana of one colour) the first time you gain life each turn, and `Germinate Recruits` makes X 2/2 Cadets where X is the life you gained that turn. A turn of two copied `Seed Suture`s is four life: a card, a Lotus, and four Cadets for three mana.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1-3, establish prepared bodies.** `Emergency Phytomedic` on one is the ideal opener — a 1/1 that holds a `Seed Suture`. Turn two is `Vigorbloom Vanguard`, `Fatehold Chronologist` or the Phytomedic's spell; turn three is `Prudent Fateseer` or `Codie`.
+2. **Turns 3-5, turn the crank.** With Codie down, every prepared spell is doubled, so the order is: cast the cheapest prepared spell first to bank value, then attack, then spend `{2}` on `Hexhaven Dueling Arena` in the postcombat main to re-prepare the attacker. `Yoshimaru` should be cast before the counter spells whenever possible — it does nothing on its own and everything to a `Seed Suture`.
+3. **Turns 5-7, convert.** Two paths close the game. Wide: `Germinate Recruits` plus `Peer Review` Cadets plus a `Bestial Incursion` Beast, all carrying counters, with `Vigorbloom Vanguard` keeping them on defence. Tall: `Kwia Vigorbloom` with counters and vigilance, backed by `Bloombrute` drawing a card a turn and Lotus mana paying for a second spell per turn.
+
+## Card roles
+
+| Card | Copies | Role | Cost |
+|---|---|---|---|
+| Emergency Phytomedic | 4 | One-mana prepared body holding `Seed Suture` | {G/W} |
+| Vigorbloom Vanguard | 4 | Prepared body; creatures with counters gain vigilance | {1}{G/W} |
+| Fatehold Chronologist | 4 | Prepared flier; `Peer Review` makes Cadets | {1}{W/U} |
+| Prudent Fateseer | 3 | Enters prepared; first scry or surveil each turn pumps the team | {1}{W/U}{W/U} |
+| Variable Chaser | 2 | Flying prowess attacker, prepared | {2}{U} |
+| Blossom-Blessed Angel | 3 | 2/4 flying vigilance body, fourth `Seed Suture` | {3}{W} |
+| Bloombrute | 2 | 4/4 that draws a card off the first lifegain each turn | {2}{G}{W} |
+| Kwia Vigorbloom | 2 | 6/6 flying lifelink finisher; Lotus token off lifegain | {3}{G}{W}{W} |
+| Codie, Ravenous Codex | 3 | Doubles every prepared spell; five-colour activation prepares the team | {3} |
+| Yoshimaru, Beloved Companion | 2 | Every counter on your creatures is one larger | {2}{W} |
+| Bestial Incursion | 2 | 4/4 trample body now, another from flashback | {3}{G} |
+| Germinate Recruits | 2 | Converts life gained this turn into 2/2 Cadets | {2}{W} |
+| Vigorbloom Charm | 2 | Modal: protect, draw plus 3 life, or counter plus fight | {G}{W} |
+
+## Lands as engines
+
+| Land | Copies | What it does here |
+|---|---|---|
+| Hexhaven Dueling Arena | 3 | `{2}, {T}`: a creature that attacked this turn becomes prepared, sorcery only. The land is the re-arm button — with vigilance from `Vigorbloom Vanguard` the same attacker can attack and be re-prepared every turn |
+| Overgrown Farmland | 4 | Green-white dual, untapped from turn three (two other lands) |
+| Hushwood Verge | 4 | Green or white, and both abilities are live once a Forest or Plains is out — `Breeding Pool` counts as a Forest for it |
+| Breeding Pool | 4 | Green-blue dual; pay 2 life to have it untapped, and it turns on both Verge lands |
+| Floodfarm Verge | 2 | White or blue; the blue half needs a Plains or Island, which `Breeding Pool` and the Plains provide |
+| Forest / Plains | 6 / 2 | Basics that keep the untapped duals switched on and cast `Kwia Vigorbloom` on curve |
+
+## Curve and mana
+
+The curve is deliberately flat: four one-drops, ten two-drops, twelve three-drops, seven four-drops and two six-drops. Twenty-five lands is high for a deck this cheap, and it is the correct number — the engine consumes lands through `Hexhaven Dueling Arena` activations, and the deck would rather flood than miss a re-prepare. Green is the primary colour (eighteen sources), white is the secondary (twelve), blue is the splash (six sources for two `Variable Chaser`). `Fatehold Chronologist`, `Prudent Fateseer` and `Seed Suture` are hybrid, so blue is only truly needed for `Variable Chaser`; if the blue source is missing, the deck still functions.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with `Emergency Phytomedic` or `Vigorbloom Vanguard`. Casting a `Seed Suture` copy on turn one or two is usually worse than developing a second prepared body, because an unused prepared creature is a spell you still own. `Fatehold Chronologist` is the best turn-two play when you expect to be attacking — a 1/2 flier plus two Cadets from a copied `Peer Review` is four power across three bodies for two mana and then three more on the following turn.
+
+## Mid game and the combo turn
+
+The combo turn is any turn where three things line up: `Codie` on the battlefield, two prepared creatures, and `{2}` spare for `Hexhaven Dueling Arena`. Cast the first prepared spell, let Codie copy it, cast the second, let Codie copy that, then attack with the vigilant bodies and re-prepare the best one in the postcombat main. With `Yoshimaru` out, each copied `Seed Suture` is four counters; with `Prudent Fateseer` out, the second `Peer Review`'s surveil pumps the whole team.
+
+## Win condition 2
+
+The lifegain line is the second, independent win. `Bloombrute` turns the first lifegain of each turn into a card, which is how the deck keeps casting spells after it has emptied its hand. `Kwia Vigorbloom` turns the same trigger into three mana of one colour, which pays a `Peer Review` or a `Hexhaven` activation outright. `Germinate Recruits` is the finisher of that line: two `Seed Suture` casts (four life once Codie doubles them) plus `Vigorbloom Charm`'s draw mode (three life) is seven life, and the three-mana instant then makes seven 2/2s.
+
+## Mulligan guide
+
+Keep two or three lands with at least two prepared creatures and one spell you intend to cast. A hand with `Codie` and three prepared bodies is a keep on the play even with two lands, because the deck's whole plan costs two to four mana. Mulligan hands with no prepared creature, hands with `Hexhaven Dueling Arena` as the only land, and hands holding two six-drops. `Yoshimaru` and `Kwia Vigorbloom` are the two cards worth keeping a slower hand for; `Vigorbloom Charm` alone is not.
+
+## Key interactions and edge cases
+
+- Prepared is a state, not a trigger. Casting the spell unprepares the creature, and nothing re-prepares it except `Hexhaven Dueling Arena` and its own rules text — so sequence `Hexhaven` after combat, never before.
+- `Codie` copies the prepared spell as it is cast, so the copy resolves first. That matters for `Peer Review`: the copy's surveil resolves before the original's, so `Prudent Fateseer`'s pump applies to the same combat only if you are in a main phase.
+- `Yoshimaru` adds one counter per counter-putting event, not per counter. Two `Seed Suture`s are two events of one counter, so each becomes two counters — four total, not six.
+- `Germinate Recruits` counts all life gained that turn, including `Vigorbloom Charm`'s draw mode (3 life) and `Kwia Vigorbloom`'s lifelink. It does not count life gained on the opponent's turn.
+- `Hexhaven Dueling Arena`'s `{2}` mode requires the creature to have attacked this turn and can only be activated as a sorcery; the `{4}` mode has no such restriction. A vigilant attacker from `Vigorbloom Vanguard` is the cleanest way to use both halves.
+- `Kwia Vigorbloom`'s Lotus token adds three mana of a single colour, which does not pay `Codie`'s five-colour activation on its own — it pays the generic side of `Bestial Incursion`'s flashback or a `Peer Review` copy instead.
+- The deck has no unconditional removal. `Vigorbloom Charm`'s third mode (counter, then fight) is the answer to a large creature, and `Blossom-Blessed Angel` plus `Prudent Fateseer` are the blockers that buy the time to find it.
+
+## Matchups
+
+Against aggro, the deck wants `Vigorbloom Vanguard` and `Blossom-Blessed Angel` on defence and `Vigorbloom Charm` held for the biggest attacker; the lifegain from `Seed Suture` is real life total, not just a trigger. Against control, do not over-commit prepared bodies into a sweeper — hold two creatures and cast the spells after the wipe, then rebuild with `Bestial Incursion`'s flashback and `Bloombrute`. Against midrange, the counter engine outclasses most boards once `Yoshimaru` is down. Against ramp, the deck is the beatdown: curve prepared bodies into `Kwia Vigorbloom` and use `Hexhaven` every turn to keep the pressure on, because a long game favours their payoffs.
+
+# Deck list (Arena import)
+
+```
+Sutured Skies
+Deck
+4 Emergency Phytomedic
+4 Vigorbloom Vanguard
+4 Fatehold Chronologist
+3 Prudent Fateseer
+2 Variable Chaser
+3 Blossom-Blessed Angel
+2 Bloombrute
+2 Kwia Vigorbloom
+3 Codie, Ravenous Codex
+2 Yoshimaru, Beloved Companion
+2 Bestial Incursion
+2 Germinate Recruits
+2 Vigorbloom Charm
+4 Overgrown Farmland
+4 Hushwood Verge
+4 Breeding Pool
+2 Floodfarm Verge
+3 Hexhaven Dueling Arena
+6 Forest
+2 Plains
+```
