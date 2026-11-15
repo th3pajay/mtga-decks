@@ -1,0 +1,141 @@
+---
+title: "Hoofbeat Holiday"
+subtitle: "Naya (WGR) | Saddle + Celebration"
+date: "2026-11-15"
+categories: ["combo", "Saddle", "Celebration"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (60 cards, best of one) |
+| Colors | Naya — white, green, red |
+| Archetype | Saddled go-wide aggro combo |
+| Primary win | Saddled attack wave with trample, double strike and a flying Dragon |
+| Secondary win | Warleader's Call drain off a token conveyor belt, plus manland attacks |
+
+## Overview
+
+Hoofbeat Holiday welds two Wilds-era mechanics onto one engine. Saddle is the tap engine: a Mount that attacks while saddled turns its attack step into a permanent generator. Celebration is the payoff: two or more nonland permanents entering under your control in a turn turns on the squad.
+
+The bridge between them is the timing. Celebration's static bonuses are evaluated continuously, so tokens that arrive mid-combat still switch the squad on for damage. Gilded Ghoda's Treasure, Seraphic Steed's Angel, Bridled Bighorn's Sheep and Autarch Mammoth's Elephant all enter during the attack step - the exact moment Goddric, Cloaked Reveler becomes a 4/4 flying Dragon and Gallant Pie-Wielder gains double strike.
+
+Kolodin, Triumph Caster removes the usual saddle tax. Every Mount he watches enter is saddled until end of turn, so a Mount cast in the first main phase attacks saddled for free on that same turn. Cast a Mount and a second permanent, and Celebration is live before combat even starts. Alacrian Armory repeats the trick every combat afterwards.
+
+## Approach
+
+### Game plan phases
+
+1. Turns one and two: deploy a two-drop that pulls double duty. Gilded Ghoda and Kolodin, Triumph Caster are the ideal openers, since a hasty saddled Ghoda makes a Treasure on the first attack and single-handedly starts the Celebration count.
+2. Turns three and four: add Drover Grizzly for team trample and a Celebration payoff. From here each combat should produce two or more permanents, so the whole team attacks as the "celebrating" version of itself.
+3. Turns five and later: close with volume. Restless Ridgeline and Rogue's Passage convert spare mana into unblockable damage, and Bulwark Ox protects the board from a sweeper.
+
+### Card roles
+
+| Role | Cards | What they do |
+|---|---|---|
+| Free saddlers | Kolodin, Triumph Caster; Alacrian Armory | Make Mounts saddled without tapping attackers |
+| Token Mounts | Gilded Ghoda; Seraphic Steed; Bridled Bighorn; Autarch Mammoth | Produce permanents on saddled attacks |
+| Celebration payoffs | Goddric, Cloaked Reveler; Gallant Pie-Wielder; Grand Ball Guest; Ash, Party Crasher | Convert two entries per turn into stats, evasion, double strike |
+| Force multipliers | Drover Grizzly; Warleader's Call; Miriam, Herd Whisperer | Trample, team pump with ETB drain, counters and hexproof |
+| Interaction | Get Lost; Lightning Strike; Bulwark Ox | Answer a key blocker or creature, or blank a sweeper |
+
+### Lands as engines
+
+| Land | Function |
+|---|---|
+| Restless Ridgeline | Attacks as a 3/4 Dinosaur and gives another attacker +2/+0 and an untap, which re-enables a saddler or a second strike from a pump target |
+| Rogue's Passage | Makes the largest saddled Mount unblockable, turning excess tokens into a clean kill |
+| Hushwood Verge, Temple Garden, Stomping Ground, Sundown Pass | Untapped three-color fixing for a deck that wants green on one, white on two, red on two |
+| Forest, Plains, Mountain | Fetchable basics for Hushwood Verge and for safety against field wipes |
+
+### Curve and mana
+
+Thirty-seven spells, average mana value 2.6, with twenty-three lands. The deck tops out at one six-drop: everything else costs four or less, so double-spelling from turn three is normal. White is the heaviest requirement (Kolodin, Bulwark Ox, Gallant Pie-Wielder, Warleader's Call), which is why the manabase carries ten white sources plus two Plains.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with the cheapest Mount you can saddle for free. Gilded Ghoda into Kolodin is the dream curve: the Ghoda arrives hasty and saddled, attacks for two, and hands you a Treasure that both fixes a color and counts as a permanent entering. Do not trade the Treasure for mana unless the extra mana casts a second permanent that turn - the token is worth more as a Celebration trigger than as a land drop.
+
+### Mid game
+
+From turn three the deck wants two entries per turn, every turn. Combat is the best source: attack with a saddled Ghoda and a saddled Seraphic Steed and you have a Treasure and a 3/3 Angel before blocks. Those two entries turn Goddric into a 4/4 flying Dragon and Gallant Pie-Wielder into a double-striking 2/3, still in the same combat.
+
+Sequence taps carefully. Alacrian Armory saddles one Mount at the beginning of combat, so keep the Armory's target for the Mount that gains the most from being saddled - usually Seraphic Steed, whose Angel is the biggest single token in the deck. Tapping real creatures to pay a saddle cost is the fallback, not the plan; spend tokens first, and remember Drover Grizzly only needs one point of power to saddle.
+
+### The combo turn
+
+The signature turn has three parts. First, cast two permanents in the first main phase so Celebration is already on. Second, attack with every saddled Mount; each one adds a permanent during combat, which keeps Celebration online and pumps Warleader's Call's drain. Third, after blocks, use Restless Ridgeline to animate, attack, and untap a creature that saddled something this turn - that creature can then block, or a second attacker gets +2/+0 out of nowhere.
+
+Against a stalled board, Rogue's Passage plus a trampling saddled Mount ends the game. Eight mana (four for the Passage activation, four to attack) is realistic by turn six in this deck.
+
+### Win condition two
+
+Warleader's Call is the second, non-combat clock. Every creature and token that enters deals one damage to each opponent, so a single combat with a Ghoda and a Seraphic Steed is three damage before blockers. Add Autarch Mammoth, which makes an Elephant on entry and another on every saddled attack, and the drain alone closes games through a board that has stabilized. Restless Ridgeline adds two more damage a turn from a land slot.
+
+### Mulligan guide
+
+Keep any hand with two lands and a two-drop Mount. Keep one-land hands only with Gilded Ghoda plus a second one-or-two-mana spell and a green source. Ship hands with no two-drop: the deck's whole plan is turning on Celebration by turn three, and a hand of four-drops does that a full turn late. A hand with Kolodin plus two Mounts is always a keep.
+
+### Key interactions
+
+- Kolodin's saddling ability triggers on the Mount entering, so a Mount cast after combat is still saddled but has nothing to attack with. Cast Mounts in the first main phase.
+- Saddle is sorcery-speed only. Alacrian Armory and Kolodin are the only ways to saddle mid-combat-step, and both happen before attackers are declared.
+- Miriam, Herd Whisperer gives Mounts hexproof during your turn only, which protects the engine from instant-speed removal on your own turn but not from sorcery-speed sweepers on theirs. Bulwark Ox's sacrifice ability is the answer to those.
+- Goddric loses all other creature types when he becomes a Dragon. He is no longer a Human, so anything that cares about Human count or tribal bonuses stops applying.
+- Gallant Pie-Wielder's double strike is a static ability, so it is live for damage even if the second permanent entered after attackers were declared.
+- Ash, Party Crasher checks Celebration on attack, not at the beginning of combat, so a token made by an earlier attacker in the same combat still counts.
+
+### Matchups
+
+| Opponent | Plan |
+|---|---|
+| Board-wipe control | Hold a Mount back, keep Bulwark Ox mana up, and rebuild with Alacrian Armory already on the table |
+| Fast aggro | Drover Grizzly's trample does not help on defense; lean on Bridled Bighorn's vigilance, Bulwark Ox, and cheap removal to survive to the Celebration turn |
+| Midrange value | Race the drain. Warleader's Call plus two tokens a turn outpaces most fair value engines |
+| Combo | Get Lost and Lightning Strike are for the engine piece, not the payoff. Rogue's Passage shortens the clock |
+
+## Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | Initial list, 61 cards, 22 lands | T4 0.530, sim 55.0, P(4 lands) 0.541 |
+| v2 | Cut Autarch Mammoth and Caradora, Heart of Alacria for a third Hushwood Verge | T4 0.583, sim 56.7, P(4 lands) 0.581, synergy 71.6 |
+
+v1 to v2: total 61 to 60, T4 0.530 to 0.583, sim 55.0 to 56.7 percent, P(4 lands by turn four) 0.541 to 0.581. All gate checks passed on v2.
+
+## Deck list (Arena import)
+
+```
+Hoofbeat Holiday
+Deck
+4 Gilded Ghoda
+4 Drover Grizzly
+3 Seraphic Steed
+2 Bridled Bighorn
+1 Autarch Mammoth
+2 Bulwark Ox
+3 Kolodin, Triumph Caster
+2 Alacrian Armory
+1 Miriam, Herd Whisperer
+3 Goddric, Cloaked Reveler
+3 Gallant Pie-Wielder
+2 Grand Ball Guest
+2 Ash, Party Crasher
+2 Warleader's Call
+2 Get Lost
+1 Lightning Strike
+4 Temple Garden
+4 Stomping Ground
+4 Sundown Pass
+3 Hushwood Verge
+2 Restless Ridgeline
+1 Rogue's Passage
+2 Forest
+2 Plains
+1 Mountain
+```

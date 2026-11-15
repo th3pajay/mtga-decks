@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-14**:
+Deck guides published **2026-11-15**:
 
-- **[Sphinx Quillstorm](decks/2026-11-14-sphinx-quillstorm.html)** — Jund (black / red / green) Elder Sphinx legends + Heartwood-to-Dragon combo — Reality Fracture  `reality-fracture` `sphinx`
-- **[Above Suspicion](decks/2026-11-14-above-suspicion.html)** — Dimir (blue / black) surveil-reanimator combo  `combo` `surveil`
+- **[Hoofbeat Holiday](decks/2026-11-15-hoofbeat-holiday.html)** — Naya (WGR) | Saddle + Celebration  `combo` `Saddle` `Celebration`
