@@ -1,0 +1,173 @@
+---
+title: "Bargain Bin"
+subtitle: "Golgari Bargain — Food is the currency, Squirrels are the change"
+date: "2026-11-16"
+categories: ["combo", "Bargain"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Golgari — black / green |
+| Mechanic | Bargain |
+| Archetype | Combo-midrange (tokens sacrificed to upgrade spells) |
+| Size | 60 cards, 24 lands |
+| Core engine | Food and Squirrel tokens pay for Bargain; Camellia, the Seedmiser turns every sacrifice into a new body |
+| Primary win | Ygra, Eater of All plus Camellia, the Seedmiser, Night of the Sweets' Revenge and Greta, Sweettooth Scourge — an unbounded +1/+1 counter loop, then attack |
+| Secondary win | Lands as attackers: Restless Cottage every turn, Brave the Wilds animating a land, Rogue's Passage clearing the way |
+| Nonland curve | 2 one-drops, 14 twos, 12 threes, 6 fours, 2 fives (average 2.8) |
+
+# Overview
+
+Bargain is an optional additional cost: as you cast the spell, you may sacrifice an artifact, an enchantment, or a token, and the spell's text upgrades. Most decks that try it run out of fodder by turn four. This one does the opposite — it manufactures fodder faster than it can spend it, and then makes spending it profitable.
+
+The deck has four layers, and every nonland card belongs to one of them:
+
+- **Fodder** — Bakersbane Duo, Vinereap Mentor, Tough Cookie, Greta, Bristlebud Farmer, plus the Food from Night of the Sweets' Revenge and the Food Restless Cottage makes when it attacks. Food is an artifact and a token, so one Food satisfies Bargain by itself.
+- **Conversion** — Camellia, the Seedmiser: whenever you sacrifice one or more Foods, create a 1/1 green Squirrel. The bargain cost is refunded as a body, and that Squirrel is itself a token that can pay for the next bargain.
+- **Multiplication** — Ygra, Eater of All: other creatures are Food artifacts in addition to their types. Under Ygra nothing is ever stranded; any creature can be sacrificed to a bargain spell, and every Food that hits the graveyard puts two +1/+1 counters on Ygra.
+- **Payoffs** — Candy Grapple, Back for Seconds, Rowan's Grim Search, Beseech the Mirror, Brave the Wilds, Troublemaker Ouphe. Each is fine unbargained and a two-for-one when bargained, because the sacrificed Food was never worth a card.
+
+The engine is not a two-card trick that folds to one removal spell: Camellia, Greta, Ygra and Night each convert tokens into advantage on their own.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Turns 1–3, stock the pantry.** Land a two-drop that makes a Food and keep the Food back. Bakersbane Duo, Vinereap Mentor and Tough Cookie all leave an artifact behind, so turn-three interaction is already paid for.
+2. **Turns 3–5, convert.** Camellia, the Seedmiser first, then Greta, Sweettooth Scourge. From here each bargain costs one Food and returns one Squirrel, so the board grows while the spells overperform. Back for Seconds rebuys Bristlebud Farmer or a dead Camellia.
+3. **Turns 5+, close.** Assemble the four-piece counter loop, or drop Ygra and attack while Night of the Sweets' Revenge turns each Food into both a mana source and a pump spell.
+
+## Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Bakersbane Duo | 1G, 2/2 | Fodder — Food on entry; grows whenever you expend four mana |
+| Vinereap Mentor | BG, 3/2 | Fodder — Food on entry and again on death, so it bargains and then pays out |
+| Tough Cookie | 1G, 2/2 | Fodder — Food on entry; 2G animates a noncreature artifact into a 4/4 |
+| Camellia, the Seedmiser | 1BG, 3/3 | Engine — every Food sacrifice makes a 1/1 Squirrel; Squirrels have menace |
+| Greta, Sweettooth Scourge | 1BG, 3/3 | Engine — cheap repeatable Food sacrifice for counters or cards |
+| Honored Dreyleader | 2G, 1/1 | Payoff — counters for every Squirrel and Food that enters; trample |
+| Bristlebud Farmer | 2GG, 5/5 | Fodder plus pressure — two Foods on entry, mills three on attack |
+| Troublemaker Ouphe | 1G, 2/2 | Bargain creature — bargained, it exiles an opposing artifact or enchantment |
+| Ygra, Eater of All | 3BG, 6/6 | Engine — every creature is a Food; every Food death puts two counters on Ygra |
+| Night of the Sweets' Revenge | 3G | Engine and finisher — Foods tap for green; sacrifice for a mass pump |
+| Brave the Wilds | G | Bargain — bargained, animates a land as a 3/3 hasty Elemental and fetches a basic |
+| Candy Grapple | 1B | Bargain removal — minus three, or minus five when bargained |
+| Back for Seconds | 2B | Bargain recursion — bargained, returns a creature with mana value four or less straight to the battlefield |
+| Rowan's Grim Search | 2B | Bargain draw — two cards, and bargained it filters the top four |
+| Beseech the Mirror | 1BBB | Bargain tutor — bargained, casts the found card for free if it costs four or less |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Restless Cottage | A 4/4 attacker for 2BG that also makes a Food every time it attacks — the deck's built-in win condition, and free bargain fodder |
+| Rogue's Passage | Four mana makes the animated Cottage, a giant Ygra, or a pumped Squirrel unblockable |
+| Fountainport | Turns spare tokens into cards, so a Squirrel that cannot attack still pays |
+| Blooming Marsh | Untapped black-green on turns one and two, when the curve needs it most |
+| Deathcap Glade | Untapped from turn three onward, exactly when the four-drops arrive |
+| Overgrown Tomb | The two-life shock that fixes double-black for Beseech the Mirror |
+| Forest, Swamp | Five each, so a one-color hand still functions |
+
+## Curve and mana
+
+Twenty-four lands, seventeen black sources and seventeen green sources (Blooming Marsh, Deathcap Glade, Overgrown Tomb and Restless Cottage count for both). The nonland curve is 2 one-drops, 14 twos, 12 threes, 6 fours and 2 fives, averaging 2.8 — low enough that a 24-land deck never floods, high enough that the four-mana engine cards land on schedule.
+
+Beseech the Mirror is the only card demanding three black, so the mana is built to reach double black comfortably and triple black by turn five. Everything else is splash-light: single green, single black, or a single hybrid-style two-color pip.
+
+# Gameplay strategy
+
+## Early game (turns 1–3)
+
+- **Turn 1:** Brave the Wilds if you need a land and a 3/3 hasty attacker, otherwise hold it. The deck wants to spend turn one on a Food, not on a trick.
+- **Turn 2:** Bakersbane Duo, Vinereap Mentor, Tough Cookie or Troublemaker Ouphe. All four leave an artifact behind for turn three.
+- Keep one Food untapped and one black source up. A bargained Candy Grapple kills most two- and three-drops outright, and the Food you fed it is replaced by a Squirrel if Camellia is out.
+- Do not crack Foods for three life in the early turns. Every Food is a future bargain; life totals are cheaper than tempo here.
+
+## Mid game (turns 4–6)
+
+- Camellia plus any Food producer is the deck's engine room. Sacrifice the Food to a bargain spell, get a Squirrel, and the Squirrel is a legal bargain sacrifice for the next spell — that is the whole loop, and it costs no mana beyond the spells themselves.
+- Back for Seconds is the reset button. Bargained, it puts Bristlebud Farmer, Camellia or Greta directly onto the battlefield, which is usually two bodies plus two Foods for three mana.
+- Ygra changes the arithmetic. Once it is down, any creature is bargain fodder, and any creature of yours that dies was a Food — so opposing removal grows Ygra by two counters even when it kills something.
+- Restless Cottage should attack every turn it can. It makes a Food, exiles a card from a graveyard, and threatens to become a 4/4 again next turn.
+
+## The combo turn
+
+Four permanents: **Ygra, Eater of All**, **Camellia, the Seedmiser**, **Night of the Sweets' Revenge**, **Greta, Sweettooth Scourge**.
+
+1. Ygra makes every other creature a Food artifact. Night of the Sweets' Revenge gives every Food you control "{T}: Add {G}". Under both, each Squirrel token is a Food that taps for green mana.
+2. Tap a Squirrel for G.
+3. Sacrifice that Squirrel to Greta's "{G}, Sacrifice a Food: Put a +1/+1 counter on target creature" (sorcery speed, so run the loop in your main phase).
+4. Camellia sees a Food sacrificed and creates a fresh 1/1 green Squirrel — untapped, and a Food under Ygra.
+5. Repeat steps 2 through 4 as many times as you like. Each cycle costs one green and produces one green, so the loop is mana-neutral and unbounded: infinite +1/+1 counters on any creature you control, infinite Food deaths, and two more counters on Ygra per cycle.
+
+The loop needs no attack step to be lethal — put the counters on an evasive or trampling creature, clear a blocker with Rogue's Passage, and swing. If Greta is missing, Camellia plus any bargain spell still converts each Food into a Squirrel, and Beseech the Mirror finds the missing piece: Greta and Camellia cost three, Night of the Sweets' Revenge costs four, and a bargained Beseech casts any of them for free.
+
+## Win condition 2: the lands attack
+
+The deck does not need the loop. Restless Cottage is a 4/4 for 2BG that makes a Food on every attack, and Brave the Wilds turns any land into a 3/3 Elemental with haste for one mana. With Rogue's Passage, one animated land connects every turn; with Night of the Sweets' Revenge's sacrifice ability (5GG, sacrifice the enchantment), every Food you control adds +1/+1 to the whole team for a single alpha strike. Against a deck that answers creatures, the manland and the animated Forest are the win condition that survives a sweeper.
+
+## Mulligan guide
+
+- **Keep:** two or three lands including a black source, one Food producer, and either Camellia or a two-mana interaction spell.
+- **Keep on the draw:** Camellia plus two lands and a one- or two-drop.
+- **Trim:** hands with no black source, hands of only four-drops, and one-land hands without Brave the Wilds. Never keep a hand that needs Beseech the Mirror to function; it is a tutor, not a plan.
+
+## Key interactions and edge cases
+
+- **Ygra's static ability is symmetric.** It says other creatures, not other creatures you control, so opposing creatures become Food artifacts too. Mostly upside: they die to artifact removal and their deaths still feed Ygra.
+- **Bargain is a cast-time choice.** Decide before the spell resolves; the sacrifice happens even if the spell is later countered.
+- **Camellia's trigger resolves after the spell** — the new Squirrel cannot pay for the same bargain, only the next one.
+- **Sacrificing a Food to Bargain does not gain three life.** The three life comes from the Food's own activated ability, not from the sacrifice itself.
+- **Ygra is a 6/6 with ward — sacrifice a Food.** In a deck with this many tokens that ward is essentially free, and it makes Ygra very hard to remove on curve.
+- **Night of the Sweets' Revenge is an enchantment,** so it can be bargained away in a pinch — after its mana ability has done its work.
+- **Rowan's Grim Search is an instant.** Hold it to bargain at the end of an opponent's turn, filter the top four, and untap with a full hand.
+- **Tough Cookie animates noncreature artifacts** — a spare Food becomes a 4/4 blocker for 2G that survives creature-only sweepers.
+
+## Matchups
+
+- **Aggro:** trade with Candy Grapple, block with Tough Cookie tokens, and race with Vinereap Mentor and Bristlebud Farmer. Food cracking for life is a last resort. Restless Cottage blocks and makes more Food while doing it.
+- **Control:** the threats are cheap and redundant, and Camellia plus one Food beats one-for-one removal. Keep a Squirrel back as fodder so a counter is not a blowout, and win with lands if the board stalls.
+- **Graveyard and artifact hate:** only Back for Seconds and Rowan's Grim Search lean on the graveyard, so graveyard hate is a speed bump. Artifact hate hurts more — it kills Foods before you spend them — but Ygra makes every creature a legal bargain target and Troublemaker Ouphe exiles their hate permanent.
+- **Midrange:** the best matchup. The deck goes wider than most midrange boards, and Rogue's Passage clears the way for a lethal trample swing.
+
+# Iterations
+
+| Round | Change | Metric delta |
+|---|---|---|
+| v1 to v2 (kept) | Trimmed one Tough Cookie, one Ouphe, one Rowan's Grim Search and every Guac and Marshmallow Pizza for Camellia, Greta, a second Ygra and three lands | T4 0.498 to 0.635, P(4 lands T4) 0.478 to 0.646, sim 58.0 to 63.7 |
+| v3 (tested, reverted) | Two High Fae Negotiator for two Tough Cookie | T4 up to 0.659, but sim fell to 54.7 and synergy to 69.8, so v2 was kept |
+
+# Deck list (Arena import)
+
+```
+Bargain Bin
+Deck
+4 Bakersbane Duo
+4 Vinereap Mentor
+2 Tough Cookie
+3 Honored Dreyleader
+3 Camellia, the Seedmiser
+3 Greta, Sweettooth Scourge
+2 Bristlebud Farmer
+1 Troublemaker Ouphe
+2 Ygra, Eater of All
+2 Brave the Wilds
+3 Candy Grapple
+2 Back for Seconds
+1 Rowan's Grim Search
+2 Beseech the Mirror
+2 Night of the Sweets' Revenge
+4 Blooming Marsh
+4 Deathcap Glade
+2 Overgrown Tomb
+2 Restless Cottage
+1 Rogue's Passage
+1 Fountainport
+5 Forest
+5 Swamp
+```
