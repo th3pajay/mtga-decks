@@ -1,0 +1,196 @@
+---
+title: "Rotbloom Harvest"
+subtitle: "Sultai surveil-mill — Reality Fracture"
+date: "2026-11-16"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+# At a glance
+
+| Field | Detail |
+|---|---|
+| Format | Standard (Reality Fracture, set code `fra`, plus basic lands) |
+| Colors | Blue, black, green (Sultai); Twinned Vision is hybrid blue and cast for `{1}{U}` |
+| Archetype | Surveil / graveyard-mill engine with two flashback-style payoffs |
+| Size | 60 cards: 24 lands, 36 spells |
+| Primary win | Recursive Recruitment flashed back: two Cadet tokens that enter with `+1/+1` counters equal to a third of your graveyard |
+| Secondary win | Tarmogoyf, Dark Matter Manipulator and Winter, Tormented Loner beat down while Hall of Echoes copies the biggest attacker |
+| Land as engine | Hall of Echoes turns into a copy of your largest creature for `{5}`, adding a lethal body and ignoring the legend rule |
+| Average mana value | 2.8 |
+
+# Overview
+
+Reality Fracture's surveil axis is not a card-selection theme, it is a fuel line. Forty-three cards in the set surveil and
+forty-nine reference the graveyard, and the strongest of them convert library-to-graveyard movement into size. This deck
+takes that literally: every spell either fills the graveyard, profits from the graveyard, or both. There is no card in the
+sixty that does neither.
+
+The cheapest engine is **Dark Matter Manipulator** (`{B}`, 1/2). It mills three on entering and gains `+2/+0` for every
+seven cards in your graveyard, so once the fuel is flowing it stops being a one-drop and becomes a four- or six-power
+attacker for one mana. Two more mill effects sit on bodies: **Something Worth Saving** (`{1}{G}` instant, mill four, take
+a permanent from among them, gain 1 life) and **Primal Witchstalker** (`{1}{B}{G}`, 2/1 menace, mill four and return a
+land from the graveyard to the battlefield tapped). **Seasoned Cryomancer** (`{1}{U}{U}`, 2/2) filters two cards into the
+graveyard and taps down the opponent's board for each nonland card discarded, then exiles itself to draw two later.
+
+The payoff side is where the deck stops being a mill pile. **Recursive Recruitment** (`{2}{U}{B}`) makes two 2/2 Cadets,
+and its flashback halves the cost of the second cast by putting the card in the graveyard first: cast from a graveyard,
+each Cadet enters with a `+1/+1` counter for every three cards in your graveyard. **Tarmogoyf** (`{1}{G}`) and
+**Winter, Tormented Loner** (`{2}{B}`, 0/3) scale off the same number. **Uldaros Theorix** (`{3}{U}{B}{B}`, 5/5 flier)
+exiles one nonland card of each type from the graveyard, copies them, and lets you cast up to six mana of those copies for
+free. **Cruel Calculations** (`{2}{U}`) draws a card for every card that hit a graveyard from a library this turn, which
+in this deck means it draws four off one mill spell.
+
+There is no ramp and no fixing beyond the set's own duals: the curve tops out at six and the deck wants to spend turns
+one through four developing, milling and attacking.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Seed | 1–3 | Land a Manipulator or Witchstalker, mill six to eight cards, find a Tarmogoyf or a Cryomancer |
+| Fuel | 3–5 | Something Worth Saving and Cryomancer push the count past fifteen; Chandra surveils every turn and rebuys noncreature spells |
+| Convert | 4–6 | Recursive Recruitment in hand or in the graveyard, Sphinx of False Conclusions trading into a token copy, Uldaros Theorix refilling |
+| Close | 5+ | Flashback Recruitment for two large Cadets, copy the biggest body with Hall of Echoes, swing with flying and menace |
+
+## Card roles
+
+| Role | Cards | Count | Notes |
+|---|---|---|---|
+| Mill / surveil | Dark Matter Manipulator, Something Worth Saving, Primal Witchstalker, Chandra, Chill of Compliance | 13 | Manipulator and both mill spells are the floor of the engine; Chandra surveils every turn for free |
+| Graveyard scaling | Tarmogoyf, Winter, Tormented Loner, Darklight Phoenix | 7 | Goyf counts card types across all graveyards, Winter counts creature and planeswalker cards in yours |
+| Card flow | Seasoned Cryomancer, Twinned Vision, Cruel Calculations, Sphinx of False Conclusions | 12 | Cryomancer and Sphinx discard, which is milling with upside; Twinned Vision draws two when cast from the graveyard |
+| Token payoff | Recursive Recruitment, Sphinx of False Conclusions | 5 | Recruitment is the primary win; the Sphinx leaves a copy behind when it dies |
+| Free-cast payoff | Uldaros Theorix | 2 | Exiles one card of each type from the graveyard and casts the copies for free, up to six mana |
+
+## Lands as engines
+
+| Land | Role in the deck |
+|---|---|
+| Hall of Echoes | The sixth mana sink and the second win condition. `{5}` turns it into a copy of Tarmogoyf, a Cadet or Uldaros for a turn, and the legend rule is switched off so two Uldaros can attack |
+| Transformative Commons | Green and blue for free when a planeswalker is out; Chandra is a planeswalker, so two of four copies usually enter untapped |
+| Formidable Commons | Black and green, same planeswalker clause |
+| Theorix Annex | Blue and black, same clause |
+| Shipwreck Marsh | Blue and black, untapped once you have two other lands |
+| Room of Refuge | Any colour on turn one, and a `{5}` sacrifice mode that puts two `+1/+1` counters on a flier |
+
+## Curve and mana
+
+Twenty-four lands, thirteen blue sources, twelve green, eleven black; the only double-colour costs are blue
+(`{1}{U}{U}` on Cryomancer, Chandra and Sphinx) and the fixed `{3}{U}{B}{B}` on Uldaros. The one-drop slot is four
+Manipulators, the two-drop slot has eleven cards, and everything above four is two Uldaros. Four Islands, four Swamps and
+four Forests mean the deck functions after a wipe on lands alone, which matters because the duals all want a planeswalker
+or two other lands first.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a Manipulator when you have one: it mills three immediately, which turns on Goyf's card-type count and starts
+the graveyard clock. Hold Something Worth Saving until you can use the permanent it returns; milling four on turn two to
+find nothing is still fine, but the card is at its best when it rebuys a Recursive Recruitment or a Chandra you already
+used. Primal Witchstalker is the turn-three play that guarantees a fourth land, since it returns a land from the graveyard
+to the battlefield tapped.
+
+## Mid game
+
+Chandra, Chill of Compliance is the engine's steering wheel. Her first `+1` surveils and returns any noncreature,
+nonland card you bin to your hand, so every Chandra activation is either a free spell back or a land on top; her second
+`+1` pays for the noncreature spell you just rebought. Seasoned Cryomancer is the other half: draw two, discard two, and
+tap down two attackers in the process. Against creature decks that sequence is often a two-for-one on defence, and it
+sets up Cruel Calculations for a four-card draw.
+
+## The combo turn
+
+The deck's "combo" is a two-card conversion in one turn:
+
+1. Get Recursive Recruitment into the graveyard. Cryomancer, Sphinx of False Conclusions and Something Worth Saving all do
+   it incidentally; you can also discard it to Twinned Vision's flashback cost.
+2. Flash it back for `{6}{U}{B}` with twenty or more cards in the graveyard. Two Cadets enter with six or more `+1/+1`
+   counters each, which is twelve power across two bodies in one turn with no prior board.
+3. Copy the larger Cadet with Hall of Echoes for `{5}` and attack for the difference.
+
+With Uldaros Theorix in the same turn, the flashback and the free-cast trigger can chain: Theorix exiles the Recruitment
+from the graveyard as its sorcery, copies it, and casts the copy for free, which puts two more counters-scaled Cadets on
+the board without paying the flashback cost.
+
+## Win condition 2
+
+When the graveyard is smaller, the deck wins with bodies. Tarmogoyf is a two-mana threat that is usually 4/5 or 5/6 by
+turn four because instants, sorceries, creatures and lands are all in graveyards. Dark Matter Manipulator is a one-mana
+threat that grows two power per seven cards. Winter, Tormented Loner is a 0/3 that edicts on entry and then attacks as a
+five- or six-power creature once the graveyard fills. Hall of Echoes converts any of them into a second copy for a turn,
+which is how the deck closes through a single blocker.
+
+## Mulligan guide
+
+| Hand | Keep? |
+|---|---|
+| One-drop Manipulator, two lands, a two-drop | Keep. The deck needs the engine online by turn two |
+| Two lands, Cryomancer, Something Worth Saving, Recursive Recruitment | Keep. Twelve cards in the graveyard by turn four is the threshold that makes Recruitment lethal |
+| All lands and Uldaros | Mulligan. Six mana with no mill is a dead hand |
+| Chandra plus three lands and no mill | Keep on the play, mulligan on the draw. Chandra belongs in a hand that already mills |
+
+## Key interactions and edge cases
+
+- **Cruel Calculations targets a player.** Target yourself after milling to draw the full count; targeting the opponent
+  only counts their own library-to-graveyard movement.
+- **Tarmogoyf counts all graveyards.** Removal spells and fetch-style sacrifice effects on the other side of the table
+  grow it too.
+- **Chandra's first `+1` returns only noncreature, nonland cards.** Creature cards stay in the graveyard, which is where
+  Winter and Recursive Recruitment want them.
+- **Primal Witchstalker needs a land in the graveyard** for the second half of its trigger; it will whiff if the four
+  milled cards are all spells.
+- **Hall of Echoes produces colourless mana.** It is a fifth-land-plus card, not a turn-three land.
+- **Darklight Phoenix needs two creatures to have died this turn.** It returns at the beginning of combat, so it is a
+  rebuy after a block-heavy turn, not a turn-four play.
+- **Sphinx of False Conclusions copies itself when it dies**, and the copy is a token, so it does not loop further but it
+  does leave a 4/2 flier behind after a trade.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Cryomancer's stun counters and Winter's edict are the whole plan; block with Manipulator and race with Goyf |
+| Control | Force them to spend removal on Manipulator, then refill with Cryomancer and Chandra; Recursive Recruitment is best held until they tap out |
+| Midrange | Grind with Sphinx recursion and Hall of Echoes copies; your threats cost less and scale harder |
+| Combo | No interaction main deck. Mulligan toward the fastest mill curve and race with flying |
+
+# Iterations
+
+| Round | Change | Result |
+|---|---|---|
+| v1 | Initial build: 4 Dark Matter Manipulator, 4 Something Worth Saving, 4 Tarmogoyf, 3 Primal Witchstalker, 3 Seasoned Cryomancer, 1 Yuriko, 1 Last Gasp, 1 Cruel Calculations, 1 Darklight Phoenix, 24 lands | All gates pass: sim 54.3, synergy 73.0, T4 0.625, P(4 lands) 0.619 |
+| v2 | -1 Yuriko, -1 Last Gasp, +1 Seasoned Cryomancer, +1 Cruel Calculations (more mill and card flow, less one-for-one interaction) | All gates pass: sim 55.7, synergy 73.6, T4 0.653, P(4 lands) 0.634 |
+| v3 | -2 Cruel Calculations, +2 Last Gasp (tested interaction over velocity) | Rejected: sim fell to 46.0, list reverted to v2 |
+
+# Deck list (Arena import)
+
+```text
+Rotbloom Harvest
+Deck
+4 Transformative Commons
+2 Room of Refuge
+2 Shipwreck Marsh
+2 Formidable Commons
+1 Theorix Annex
+1 Hall of Echoes
+4 Island
+4 Swamp
+4 Forest
+4 Dark Matter Manipulator
+4 Something Worth Saving
+4 Tarmogoyf
+3 Twinned Vision
+3 Primal Witchstalker
+4 Seasoned Cryomancer
+2 Chandra, Chill of Compliance
+2 Winter, Tormented Loner
+2 Sphinx of False Conclusions
+3 Recursive Recruitment
+2 Uldaros Theorix
+1 Darklight Phoenix
+2 Cruel Calculations
+```
