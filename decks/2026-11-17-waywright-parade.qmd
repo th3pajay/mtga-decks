@@ -1,0 +1,167 @@
+---
+title: "Waywright Parade"
+subtitle: "White-Red-Green Empower x planeswalker loyalty — Reality Fracture set identity deck"
+date: "2026-11-17"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Red / Green |
+| Archetype | Midrange (avg CMC 3.08) |
+| Core mechanic | Empower — loyalty counters on Jace planeswalker tokens, spent through the Way enchantment cycle |
+| Primary win | Beast and Cadet token swarm, amplified by Gideon's Memorial and Ajani Unrelenting |
+| Secondary win | Repeated planeswalker loyalty damage through Way of the Warlord, plus Chandra and burn |
+| Land that wins | Restless Prairie — a 3/3 attacker that pumps the rest of the team |
+| Size | 60 cards, 24 lands |
+
+# Overview
+
+Reality Fracture's empower mechanic never asks you to own a planeswalker. It asks you to own loyalty counters. "Empower Jace N" puts N loyalty counters on a Jace token you control — and if you don't control one, it first creates a blue Jace planeswalker token with "[-1]: Surveil 1" and "[-3]: Draw a card." Every cheap spell in this deck is therefore a loyalty battery, and the Jace token is a reusable spell engine that starts at whatever loyalty the last empower gave it.
+
+The Way cycle converts that battery into a machine. Each Way is a legendary enchantment that empowers on entry and then grants an ability to *all* planeswalkers you control — Pyromancer turns them into red mana sources, Warlord into burn, Wildspeaker into 4/4 Beast factories. Because the ability is granted per planeswalker, four planeswalkers with one Way out means four activations of that ability per turn.
+
+Repurposed Enforcer converts a wide board into a huge loyalty jump, Inspired Tethermage grows off every counter placed, and Gideon's Memorial makes the resulting tokens real threats. Reality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land a two-drop engine piece: Way of the Pyromancer, Repurposed Enforcer or Arcane Amphisbaena. Any of them puts a Jace token on the board or adds loyalty to one. |
+| Turns 3-4 | Add a loyalty engine: Way of the Warlord, Way of the Paradox, Inspired Tethermage or Keeper of the Quiet Hour. The Annex and Commons lands now enter untapped because you control a planeswalker. |
+| Turns 5-6 | Convert: Way of the Wildspeaker, Garruk, Curse Breaker or Ajani Unrelenting. Each Way activation on each planeswalker produces a Beast, a Cadet or two points of face damage. |
+| Late game | Stack two Ways and two planeswalkers: Beasts plus burn plus Ajani's team pump. Restless Prairie finishes games as an uncounterable attacker. |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Way of the Pyromancer | Cheapest Way; empower 2, then every planeswalker gains "+1: Add {R}" — the mana engine |
+| Way of the Warlord | Empower 5; every planeswalker gains "[-4]: 2 damage to a creature or planeswalker and 2 to target player" |
+| Way of the Wildspeaker | Empower 7; every planeswalker gains "[-4]: create a 4/4 green Beast with trample" — primary win |
+| Way of the Paradox | Empower 5; each loyalty activation gains 1 life and an extra land drop |
+| Ajani Unrelenting | A 2/2 Cadet on every loyalty activation; +1 gives the team +1/+0 and haste, -2 refills the hand |
+| Garruk, Curse Breaker | Beast maker; draws whenever a 4-power creature enters; +2 untaps lands |
+| Chandra, Torch of Defiance | Four-mana walker: +1 drains 2, -3 kills a creature, +1 adds {R}{R} |
+| Repurposed Enforcer | 3/2 for two that empowers for your creature count on attack — the biggest loyalty jump |
+| Inspired Tethermage | 3/2 that grows a +1/+1 counter whenever loyalty is added |
+| Keeper of the Quiet Hour | Colourless 3/2 that empowers 2 on entry |
+| Arcane Amphisbaena | Two-mana deathtouch body that empowers 2 on entry |
+| Gideon's Memorial | Token anthem (+1/+0, vigilance) and mana restricted to planeswalker spells |
+| Academic Ascent | Combat trick that also empowers 2 |
+| Violent Echoes | Six damage to a creature or planeswalker; excess damage becomes loyalty |
+| No Admittance | Cheap removal that leaves a loyalty counter behind |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Vigorbloom Annex | Green-white dual that enters untapped if you control a planeswalker — the deck's own empower spells turn it on from turn three |
+| Dedicated Commons | Red-white dual on the same condition |
+| Konstrari Annex | Red-green dual on the same condition |
+| Restless Prairie | Enters tapped, but for {2}{G}{W} it becomes a 3/3 Llama and pumps every other attacker +1/+1 — the land that closes games |
+| Forest / Plains / Mountain | Basics for the early turns, before the planeswalker-conditional duals switch on |
+
+## Curve and mana
+
+Twenty-four lands with sixteen conditional duals and eight basics: thirteen white sources, eleven red sources and fourteen green sources. The curve peaks at two and three mana (14 and 13 cards), with only six cards above four mana, so the deck functions on three lands and does not need a ramp package — empower itself is the ramp, because Way of the Pyromancer converts loyalty into red mana.
+
+# Gameplay strategy
+
+## Early game
+
+Open with a two-drop that is also a loyalty source. Way of the Pyromancer is the best turn-two play because it leaves a Jace token with two loyalty and immediately grants every future planeswalker a red mana ability. Repurposed Enforcer is the aggressive alternative: attack on turn three with two or three creatures and the Jace token jumps by that many loyalty for free. Arcane Amphisbaena trades with anything and still empowers 2.
+
+Do not crack the Jace token's own abilities early. Its [-3] draws a card, but the loyalty is worth more as fuel for a Way ability later. The exception is a turn where you have nothing else to do with three loyalty and need to hit a land.
+
+## The combo turn
+
+The deck's engine turn is any turn where a Way and two or more planeswalkers are on board.
+
+1. Cast the Way. Its entry trigger empowers, adding loyalty to the Jace token (or creating it).
+2. Activate each planeswalker once — the granted ability is on every one of them, not just the Jace token.
+3. With Way of the Wildspeaker out, that is one 4/4 Beast per planeswalker per turn. With Ajani Unrelenting also out, each of those activations additionally creates a 2/2 Cadet.
+4. Gideon's Memorial makes every Beast a 5/4 vigilance and every Cadet a 3/2 vigilance, and Ajani's +1 gives them haste for the alpha strike.
+
+Way of the Pyromancer is what makes the sequence affordable: each planeswalker's "+1: Add {R}" both grows loyalty and pays for the next Way. A board of Pyromancer plus Ajani plus Garruk produces three red mana a turn without spending a card.
+
+## Win condition 2
+
+Way of the Warlord turns the same board into a burn engine: every planeswalker's [-4] deals 2 damage to a creature or planeswalker and 2 damage to the opponent. With three planeswalkers that is 6 damage a turn while clearing blockers, and Chandra's +1 adds 2 more whenever you decline to cast the exiled card. Violent Echoes and No Admittance finish what the activations start.
+
+Restless Prairie is the third, quiet clock: a land that becomes a 3/3 and gives the whole attacking team +1/+1 is exactly what a Beast-and-Cadet board wants on turn seven.
+
+## Mulligan guide
+
+| Hand | Action |
+|------|--------|
+| 2-3 lands, one two-drop engine (Pyromancer, Enforcer, Amphisbaena), one Way | Keep — this is the deck's core curve |
+| 2 lands, two two-drops, no Way | Keep on the play; the Jace token's [-3] digs for action |
+| 4+ lands, no two-drop | Mulligan — the deck has no way to use excess mana without a planeswalker |
+| All five- and six-drops | Mulligan — Ajani and Wildspeaker need a board to amplify |
+| One land | Mulligan |
+
+## Key interactions and edge cases
+
+- Empower creates a Jace token only if you don't already control one. A second empower on the same token adds loyalty instead — that is the normal case, so protect the token; it is the deck's entire planeswalker base until Ajani, Garruk or Chandra arrive.
+- Each planeswalker can activate only one loyalty ability per turn, so extra Ways are flexibility rather than extra activations. Two Ways on one planeswalker is still one activation — spread planeswalkers instead.
+- Ways are legendary. A duplicate Way still triggers empower on entry, so the second copy is a two-mana "empower 2" spell, not a dead card.
+- Ajani's -3 deals 4 damage to each creature except your tokens — it kills Repurposed Enforcer, Inspired Tethermage and Keeper of the Quiet Hour. Use it only when the token army survives.
+- Gideon's Memorial mana can pay only for planeswalker spells; it cannot cast Wildspeaker or Garruk.
+- Violent Echoes converts excess damage into loyalty. Point it at a one-toughness creature only when you want the counters; otherwise use it as clean six-damage removal.
+- Restless Prairie enters tapped. Do not count it as a turn-one land, and activate it only when the {2}{G}{W} does not compete with a Way.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Block with Amphisbaena and Enforcer, then stabilise with Way of the Paradox (loyalty activation gains 1 life). Violent Echoes on their best attacker is often a two-for-one. |
+| Midrange | Out-value them: Way of the Wildspeaker plus two planeswalkers out-produces any fair creature deck, and Ajani's -2 refills your hand. |
+| Control | Ways are enchantments that survive creature wipes; rebuild with Gideon's Memorial and Cadets. Hold Repurposed Enforcer until you can attack into an empty board for a large loyalty jump. |
+| Graveyard / recursion | No graveyard interaction in the 60. Race with Beasts and Warlord burn rather than trying to grind. |
+
+# Iterations
+
+| Round | Change | Sim win rate | Synergy | T4 consistency | P(4 lands T4) |
+|-------|--------|--------------|---------|----------------|----------------|
+| v1 | Initial Way-stack shell (59 cards) | 51.3 | 73.0 | 0.652 | 0.653 |
+| v2 | +1 Keeper, +1 No Admittance, -1 Paradox | 51.0 | 72.8 | 0.628 | 0.629 |
+| v3 | Black splash: +4 Sanctum Lurker | 49.7 | 72.7 | 0.627 | 0.645 |
+| v4 | Low curve: -2 Ajani, +4 Campus Crier | 50.0 | 73.8 | 0.639 | 0.630 |
+
+The black splash in v3 lost more to mana than Sanctum Lurker gained, and the low-curve build in v4 gave up the Cadet engine without improving the clock. v2 is the shipped list: every gate passes except the simulated win rate, which finished at 51.0 against a 52.0 threshold.
+
+# Deck list (Arena import)
+
+```
+Waywright Parade
+Deck
+4 Repurposed Enforcer
+3 Arcane Amphisbaena
+3 Inspired Tethermage
+3 Keeper of the Quiet Hour
+4 Way of the Pyromancer
+3 Way of the Warlord
+2 Way of the Paradox
+2 Way of the Wildspeaker
+2 Ajani Unrelenting
+2 Garruk, Curse Breaker
+1 Chandra, Torch of Defiance
+2 Gideon's Memorial
+2 Academic Ascent
+2 Violent Echoes
+1 No Admittance
+4 Vigorbloom Annex
+4 Dedicated Commons
+4 Konstrari Annex
+2 Restless Prairie
+4 Forest
+3 Plains
+3 Mountain
+```
