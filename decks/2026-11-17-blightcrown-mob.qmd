@@ -1,0 +1,149 @@
+---
+title: "Blightcrown Mob"
+subtitle: "Black-Red — Blight"
+date: "2026-11-17"
+categories: ["combo", "blight"]
+---
+
+
+## At a glance
+
+| Item | Detail |
+|------|--------|
+| Format | Standard (2026 rotation, 0 cards rotating) |
+| Colors | Black-Red |
+| Archetype | Midrange aggro with a damage engine |
+| Size | 60 cards |
+| Primary win | The Great Goblin converts every counter placed on your Goblin or Army into 2 damage to an opponent, fed by repeatable blight outlets |
+| Secondary win | Goblin-token drain (Boggart Cursecrafter, Boggart Mischief) plus an oversized amass Army finished by Rogue's Passage or Soul Immolation |
+
+## Overview
+
+Blight is normally a cost: to blight X you put X -1/-1 counters on a creature you control. This deck turns the cost into the payoff. The Great Goblin reads "whenever you put one or more counters on a Goblin, Orc, or Army you control, The Great Goblin deals 2 damage to target opponent" — and a blight payment is exactly a counter-placement event on your own Goblin. Every blight activation therefore deals 2 damage on top of its own effect, and every amass trigger (which puts +1/+1 counters on a Goblin Army) does the same.
+
+That gives the deck two converging streams. Blight outlets (Scuzzback Scrounger, Sting-Slinger, Gristle Glutton, Cinder Strike, Bogslither's Embrace, Soul Immolation) pay self-inflicted counters for value, while amass (Goblin-town Flunkies, Rage into the Valley, Fearsome Goblin Pair) builds one fat Goblin Army. Both trigger The Great Goblin, and both leave behind bodies that die to their own counters, firing Boggart Cursecrafter, Boggart Mischief, Fearsome Goblin Pair and the Great Goblin's card-advantage trigger. The damage is incremental and unavoidable; the attack step is the finisher, not the plan.
+
+## Approach
+
+### Game plan phases
+
+1. Turns 1-2, seed the board: Scuzzback Scrounger, Goblin-town Flunkies, Cinder Strike, Bogslither's Embrace. Scrounger blights 1 every first main phase for a Treasure, which is a free 2 damage per turn once The Great Goblin is down.
+2. Turns 3-4, land the engine: The Great Goblin, Boggart Mischief, Krenko, Baron of Tin Street, Sting-Slinger. From here every counter event is damage; Mischief and Sourbread Auntie flood tokens that will die later.
+3. Turns 4-6, convert bodies into life totals: drain from Goblin deaths, chip in with tokens, and use Soul Immolation as a one-sided sweeper plus burn once the Army is at toughness 5 or more.
+4. Finish: a 6/6 to 10/10 Army (or Sting-Slinger) through Rogue's Passage, or drain the last points with Cursecrafter and Mischief while blight activations keep firing The Great Goblin.
+
+### Card roles
+
+| Card | Cost | Role |
+|------|------|------|
+| The Great Goblin | 1 B/R B/R | Engine payoff: 2 damage per counter event; card advantage off Goblin deaths |
+| Scuzzback Scrounger | 1 R | Repeatable blight 1 for a Treasure every first main phase; ramps and triggers |
+| Sting-Slinger | 2 R | Repeatable blight 1 for 2 damage to each opponent, so 4 to one opponent with the Great Goblin out |
+| Krenko, Baron of Tin Street | 2 R | Haste; sacrifices Treasures to put +1/+1 counters on every Goblin, and rebuys a hasty token each time an artifact dies |
+| Boggart Cursecrafter | B R | Deathtouch wall plus drain 1 per Goblin death |
+| Boggart Mischief | 2 B | Blight 1 for two Goblin tokens; drain 1 and gain 1 per Goblin death |
+| Sourbread Auntie | 2 R R | Blight 2 for two tokens, a 4/3 body and a Great Goblin trigger |
+| Goblin-town Flunkies | 1 R | Haste, amass 1 on entry: immediate counter event |
+| Fearsome Goblin Pair | 2 B/R | Dies into amass 4: rebuilds the Army and triggers the Goblin |
+| Rage into the Valley | 2 B | Draw plus amass 2: card selection and a counter event |
+| Gristle Glutton | 1 R | Loot every turn via blight 1: fixes draw, triggers the Goblin |
+| Cinder Strike | R | 2 damage, or 4 with blight 1 |
+| Bogslither's Embrace | 1 B | Two-mana exile with a free blight 1 |
+| Soul Immolation | 3 R R | Blight X for X damage to each opponent and each of their creatures |
+
+### Lands as engines
+
+| Land | Count | Function |
+|------|-------|----------|
+| Goblin-town | 3 | Win-condition land: pay 2 B R, sacrifice it, put two +1/+1 counters on a Goblin. That is a Great Goblin trigger (2 damage) and a permanent pump on the Army in one land drop |
+| Restless Vents | 2 | 2/3 menace attacker that loots on attack, a second threat that costs no card slot |
+| Rogue's Passage | 2 | Turns the amass Army or Sting-Slinger into the last points of damage |
+| Raucous Theater | 3 | Black-red dual that surveils on entry |
+| Blazemire Verge | 3 | Black source that becomes red once a Swamp or Mountain is out |
+| Blood Crypt | 2 | Untapped black-red dual for two life |
+| Swamp / Mountain | 5 / 4 | Basics |
+
+### Curve and mana
+
+| CMC | Cards | Count |
+|-----|-------|-------|
+| 1 | Cinder Strike | 2 |
+| 2 | Scuzzback Scrounger, Boggart Cursecrafter, Goblin-town Flunkies, Gristle Glutton, Bogslither's Embrace | 12 |
+| 3 | The Great Goblin, Sting-Slinger, Krenko, Fearsome Goblin Pair, Rage into the Valley, Boggart Mischief | 17 |
+| 4 | Sourbread Auntie | 3 |
+| 5 | Soul Immolation | 2 |
+
+36 spells, 24 lands, average spell cost 2.75. Fourteen red sources and fifteen black sources cover the double-black of Boggart Mischief and the double-red of Sourbread Auntie and Soul Immolation; the B/R hybrid costs (The Great Goblin, Fearsome Goblin Pair) are paid with either color.
+
+## Gameplay strategy
+
+### Early game
+
+Lead with a one- or two-drop that keeps producing value: Scuzzback Scrounger is the best turn-two play because it makes a Treasure every single turn and each of those blights deals 2 damage later. Hold Cinder Strike and Bogslither's Embrace for the first real threat rather than spending them on a mana creature. Do not blight onto a creature you need: put the first counters on a 1/1 Goblin token or on a Goblin that has already done its job.
+
+### Mid game and the combo turn
+
+The engine turn is The Great Goblin plus any repeatable blight outlet. With Sting-Slinger the loop is: pay 1 R, tap, blight 1 onto a Goblin token, Sting-Slinger deals 2 to each opponent and The Great Goblin deals 2 more to one of them. That is 4 damage per turn from one creature, and it costs you a token that was going to die anyway. Add Krenko and Treasures from Scuzzback for a second counter event in the same turn: sacrifice a Treasure, put +1/+1 counters on every Goblin, trigger the Goblin for 2, and Krenko's artifact trigger replaces the Treasure with a hasty 1/1.
+
+Sourbread Auntie is the best single turn: four mana, blight 2 on a token, two fresh Goblin tokens, a 4/3 and a Great Goblin trigger immediately.
+
+### The second win condition
+
+Boggart Cursecrafter and Boggart Mischief drain on Goblin deaths, and this deck kills its own Goblins constantly through blight and combat. Two Mischiefs plus a Cursecrafter turns each dying token into 2 life lost and 2 life gained, which is often 6 or more per turn once the board is wide. Against decks that stabilize the ground, this is the win: keep making tokens, keep blighting them, and let the drain finish.
+
+Soul Immolation is the reset button and the third angle: with a 6/6 Army from Fearsome Goblin Pair plus Krenko counters, X=6 kills most opposing boards and deals 6 to each opponent, and the blight payment itself triggers The Great Goblin for 2 more.
+
+### Mulligan guide
+Keep hands with two or three lands, one blight outlet and a payoff; Scuzzback Scrounger plus The Great Goblin is the ideal opener. Keep any hand containing Goblin-town Flunkies into The Great Goblin on curve. Ship hands with no Goblin and no way to make one, and ship one-land hands even with a Scrounger, because the deck needs three mana to start the engine.
+
+### Key interactions and edge cases
+
+- Blight needs a creature you control, so keep one expendable token around rather than chumping with the last one; an empty board means the cost cannot be paid at all.
+- The Great Goblin triggers once per counter-placement event, not once per counter. Amass 4 is 2 damage, not 8; Krenko's "counter on each Goblin" is also a single event. Never put the first blight counters on The Great Goblin itself unless you are trading it deliberately, since it is a 3/2 that dies to two blights.
+- Soul Immolation's X is locked in as you cast it and is capped by the greatest toughness among your creatures. The creature dying to its own counters does not reduce the damage.
+- Goblin-town sacrifices itself, so it is a one-shot; use it on the turn the extra 2 damage or the pump actually matters.
+- Krenko only needs an artifact to die, so the Treasure tokens from Scuzzback are also a token engine, and Boggart Mischief counts Goblin Army tokens for its drain.
+
+### Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Red aggro | Boggart Cursecrafter's deathtouch and Cinder Strike buy time; race with Sting-Slinger and the drain, which ignores blockers |
+| Control | Do not overextend into sweepers; The Great Goblin's exile-and-play trigger and Raucous Theater keep the cards flowing, and Rogue's Passage closes a stalled board |
+| Midrange | Soul Immolation is the trump; blight a big Army and sweep their board while burning their life total |
+| Ramp | Pressure early with hasty Flunkies and Scrounger Treasures, then convert counters to damage before their payoffs land |
+
+## Iterations
+
+| Round | Change | Metric delta |
+|-------|--------|--------------|
+| v1 to v2 | -2 Boneclub Berserker, +2 Boggart Mischief (vanilla beater out, blight-and-drain engine piece in) | synergy 69.8 to 70.1, sim 56.0 to 52.3, T4 0.628 to 0.633 |
+
+## Deck list (Arena import)
+
+```
+Blightcrown Mob
+Deck
+4 The Great Goblin
+4 Scuzzback Scrounger
+3 Sting-Slinger
+3 Krenko, Baron of Tin Street
+3 Boggart Cursecrafter
+3 Sourbread Auntie
+2 Goblin-town Flunkies
+2 Fearsome Goblin Pair
+1 Gristle Glutton
+2 Rage into the Valley
+3 Boggart Mischief
+2 Soul Immolation
+2 Cinder Strike
+2 Bogslither's Embrace
+3 Goblin-town
+2 Restless Vents
+2 Rogue's Passage
+3 Raucous Theater
+3 Blazemire Verge
+2 Blood Crypt
+5 Swamp
+4 Mountain
+```

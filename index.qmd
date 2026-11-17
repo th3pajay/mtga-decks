@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-16**:
+Deck guides published **2026-11-17**:
 
-- **[Rotbloom Harvest](decks/2026-11-16-rotbloom-harvest.html)** — Sultai surveil-mill — Reality Fracture  `reality-fracture` `surveil`
-- **[Bargain Bin](decks/2026-11-16-bargain-bin.html)** — Golgari Bargain — Food is the currency, Squirrels are the change  `combo` `Bargain`
+- **[Blightcrown Mob](decks/2026-11-17-blightcrown-mob.html)** — Black-Red — Blight  `combo` `blight`
