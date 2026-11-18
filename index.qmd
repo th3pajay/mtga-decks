@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-17**:
+Deck guides published **2026-11-18**:
 
-- **[Waywright Parade](decks/2026-11-17-waywright-parade.html)** — White-Red-Green Empower x planeswalker loyalty — Reality Fracture set identity deck  `reality-fracture` `empower`
-- **[Blightcrown Mob](decks/2026-11-17-blightcrown-mob.html)** — Black-Red — Blight  `combo` `blight`
+- **[Chain of Custody](decks/2026-11-18-chain-of-custody.html)** — Esper (white-blue-black) Investigate — Clue artifacts as the engine, the army and the win  `combo` `Investigate`

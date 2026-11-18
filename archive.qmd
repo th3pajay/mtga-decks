@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-11-11 · **211** cards locked · **Reality Fracture 189/285** remaining
+**Card pool consumption** — cycle started 2026-11-11 · **229** cards locked · **Reality Fracture 189/285** remaining
 
-**181 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**182 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-18
+
+- **[Chain of Custody](decks/2026-11-18-chain-of-custody.html)** — Esper (white-blue-black) Investigate — Clue artifacts as the engine, the army and the win  `combo` `Investigate`
 
 ## 2026-11-17
 

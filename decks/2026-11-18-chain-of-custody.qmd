@@ -1,0 +1,164 @@
+---
+title: "Chain of Custody"
+subtitle: "Esper (white-blue-black) Investigate — Clue artifacts as the engine, the army and the win"
+date: "2026-11-18"
+categories: ["combo", "Investigate"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black |
+| Archetype | Tempo-combo (spell-heavy artifact engine, average spell CMC 2.4) |
+| Core mechanic | Investigate — Clue tokens are created in bulk, then converted into bodies, cards, drain and poison |
+| Primary win | A board of animated Clue artifacts: 3/1 Construct fliers, 4/4 Bird tokens and 1/1 Spirit fliers |
+| Secondary win | Haunt the Network drains X for the artifact count, and Persuasive Interrogators closes on ten poison |
+| Land that wins | Restless Anchorage — a 2/3 flying attacker that also mints Map artifact tokens |
+| Size | 60 cards, 24 lands |
+
+# Overview
+
+Investigate creates Clue tokens: artifacts with "{2}, Sacrifice this token: Draw a card." On its own that is card selection. This deck treats the Clue as a *permanent*, not a cantrip — something that can be counted, animated, sacrificed for value and sacrificed for damage.
+
+Three cards define the machine. The Mechanist, Aerial Artisan creates a Clue on every noncreature spell and can turn any artifact token into a 3/1 flying Construct. Forensic Gadgeteer creates a Clue on every artifact spell and discounts artifact activated abilities by {1}, which turns a Clue's own sacrifice cost from two mana into one. Case of the Filched Falcon is a one-mana Case that investigates on entry, solves itself at three artifacts, and then converts a Clue into a 0/0 Bird with four +1/+1 counters — a permanent 4/4 flier made out of a card-draw token.
+
+The payoffs read the same resource from different angles. Teysa, Opulent Oligarch turns every Clue that hits the graveyard into a 1/1 flying Spirit. Syr Ginger grows a counter and scries on each artifact sacrifice. Haunt the Network converts the size of the board into direct life loss. Persuasive Interrogators converts Clue sacrifices into poison counters. Because the tokens are artifacts and the sacrifices are permanents, one Clue crack feeds four different clocks at once.
+
+The deck is deliberately cheap and spell-dense, because every noncreature spell is a Clue in the hands of the Mechanist, and every Clue is a future flier.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land Novice Inspector, Case of the Filched Falcon, Deduce or Obsessive Pursuit. Every one of them either investigates immediately or pays you back the next upkeep. |
+| Turns 3-4 | Resolve the engines: The Mechanist and Forensic Gadgeteer. From here every spell you cast adds a Clue, and every Clue crack costs {1} instead of {2}. |
+| Turns 5-6 | Convert. Teysa and Tolls of War turn sacrifices into Spirit and Ally bodies; Case of the Filched Falcon turns one Clue into a 4/4 flier; the Mechanist animates another into a 3/1 flier each turn. |
+| Late game | Attack with evasive artifact bodies, then finish with Haunt the Network for the artifact count, or land Persuasive Interrogators and crack five Clues for ten poison. |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Novice Inspector | One-mana 1/2 that investigates on entry; solves the Case a turn early |
+| Deduce | Two mana for a card and a Clue — the cleanest rate in the deck |
+| Obsessive Pursuit | A Clue every upkeep, and X +1/+1 counters on an attacker after sacrifices |
+| Forensic Gadgeteer | Engine and cost reducer; Clue cracks drop from {2} to {1} |
+| The Mechanist, Aerial Artisan | A Clue on every noncreature spell, and 3/1 flying Constructs from tokens |
+| Teysa, Opulent Oligarch | 1/1 flying Spirit whenever a Clue hits the graveyard, once per turn |
+| Syr Ginger, the Meal Ender | Colourless 3/1 artifact that grows and scries on each artifact sacrifice |
+| Tolls of War | A Clue on entry, then a 1/1 Ally for the first sacrifice each turn |
+| Case of the Filched Falcon | One-mana Clue, self-solving, then a 4/4 flier out of a Clue |
+| Haunt the Network | Two Thopters, then drain X and gain X for the artifact count |
+| Persuasive Interrogators | 5/6 that turns each Clue sacrifice into two poison counters |
+| No More Lies | Counterspell on curve, and a Clue with the Mechanist out |
+| Nowhere to Run | Flash -3/-3 that strips hexproof and ward from the opponent |
+| Sheltered by Ghosts | Exile removal on a lifelink, ward 2 body |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Restless Anchorage | Enters tapped, then for {1}{W}{U} becomes a 2/3 white and blue Bird with flying — and creates a Map artifact token whenever it attacks. The land is both a win condition and an artifact source for Haunt the Network and the Case. |
+| Floodfarm Verge, Gloomlake Verge, Bleachbone Verge | Untapped two-colour fixers once a matching basic is out: white-blue, blue-black and black-white respectively. Gloomlake is the cleanest black source in the manabase. |
+| Shipwreck Marsh, Deserted Beach, Shattered Sanctum | Untapped duals once two other lands are down, which is exactly when the three-drops arrive; Sanctum is the only white-black dual and makes Teysa castable on curve |
+| Fabled Passage | Two copies to find the basic of the colour the hand is missing |
+| Island, Plains, Swamp | Three Islands, two Plains and one Swamp; basics are also Fabled Passage targets |
+
+## Curve and mana
+
+Twenty-four lands, fifteen white sources, eighteen blue sources and eleven black sources. The curve is six one-drops, sixteen two-drops, eleven three-drops, two five-drops and one six-drop, for an average spell cost of 2.4. Black is the splash: only Obsessive Pursuit, Nowhere to Run, Teysa, Haunt the Network and the single Interrogators ask for it. The deck keeps two-land hands because Deduce, Obsessive Pursuit and Novice Inspector all function at two mana.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one-drop that investigates. Novice Inspector is the best turn one because it puts two artifacts' worth of Case progress on the board by turn two (the Inspector and its Clue) and blocks the small aggressive starts. Case of the Filched Falcon on turn one is the tempo play: it arrives with a Clue, and once you control three artifacts it solves at your end step.
+
+Turn two is the decision point. Against aggro, hold up Nowhere to Run or cast Obsessive Pursuit for the repeatable Clue. Against anything slower, Deduce is the strongest play — it replaces itself and starts the artifact count.
+
+Do not crack Clues for cards early unless you are stuck on lands. Every Clue on the board is a 3/1 flier once the Mechanist arrives, a 4/4 flier once the Case is solved, a poison counter once the Interrogators land, and a point of drain for Haunt the Network.
+
+## The combo turn
+
+The engine turn is any turn from four mana onward with Mechanist and Forensic Gadgeteer in play:
+
+1. Cast any noncreature spell — a Clue from the Mechanist, and if it is an artifact spell, a second Clue from the Gadgeteer.
+2. Crack a Clue for {1} (Gadgeteer discount) to draw, which triggers Teysa into a 1/1 flying Spirit and Tolls of War into a 1/1 Ally, and grows Syr Ginger.
+3. Tap the Mechanist to turn another Clue into a 3/1 flying Construct, and attack with the Spirits and Constructs.
+4. If the Case is solved, spend {2}{U} and sacrifice it to put four counters on a Clue: it becomes a 4/4 Bird with flying, permanently.
+
+Because the Mechanist triggers on every noncreature spell, a turn of Deduce into Nowhere to Run into a Clue crack produces three artifacts' worth of material while answering the opponent's board. Obsessive Pursuit's attack trigger then converts the sacrifices of that turn into +1/+1 counters, with lifelink once you have sacrificed three permanents.
+
+## Win condition 2
+
+Haunt the Network is the burst finish: cast it with six or more artifacts and it creates two Thopters and then drains for the artifact count including those Thopters — typically eight to ten life in one card, which is exactly the reach an evasive 1/1 and 3/1 board needs.
+
+The poison route is the other axis. Persuasive Interrogators turns each Clue sacrifice into two poison counters, so five Clue cracks after it resolves win the game outright, independent of life totals, blockers or lifegain. That is the answer to decks that stabilise at a high life total.
+
+## Mulligan guide
+
+| Hand | Action |
+|------|--------|
+| 2-3 lands, Novice Inspector or Case, one three-drop engine | Keep — this is the deck's core curve |
+| 2 lands, Mechanist plus Deduce | Keep — the Clue engine functions on two mana |
+| 4+ lands, no one- or two-drop | Mulligan; the deck wins by casting several cheap spells, not by hitting land drops |
+| All engines, no interaction, on the draw against aggro | Mulligan for a hand with Nowhere to Run or Sheltered by Ghosts |
+| One land | Mulligan |
+
+## Key interactions and edge cases
+
+- Forensic Gadgeteer's reduction applies to *activated abilities of artifacts you control*, not to the Clue's mana value. A Clue crack costs {1} while the Gadgeteer is out; it goes back to {2} the moment the Gadgeteer leaves.
+- Teysa triggers only once per turn, no matter how many Clues hit the graveyard. Crack exactly one Clue on a turn where you want the Spirit; hold the rest for the Mechanist or the Interrogators.
+- Teysa's end-step investigate requires an *opponent* to have lost life that turn. Your own Obsessive Pursuit life loss does not turn it on — combat damage, Haunt the Network or Restless Anchorage does.
+- Case of the Filched Falcon solves only at your end step, and only with three or more artifacts. A Clue, a Thopter and a Map token all count; Syr Ginger counts too because it is an artifact creature.
+- The Mechanist can animate only artifact *tokens*: Clues, Thopters and Maps, not Syr Ginger. The animation lasts until end of turn, so animate after combat is declared only if you do not need the blocker.
+- Syr Ginger is an artifact spell. Casting it triggers Forensic Gadgeteer, which is the deck's cheapest two-for-one.
+- Obsessive Pursuit counts permanents sacrificed this turn, so the counters are largest after a Clue crack plus a Case sacrifice plus a Fabled Passage crack.
+- Restless Anchorage enters tapped. Do not keep a one-land hand on it, and remember its attack trigger creates a Map token, which is another artifact for the Case and for Haunt the Network.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Novice Inspector and Nowhere to Run, then stabilise behind Sheltered by Ghosts and Teysa's Spirits. |
+| Midrange | Out-card them: Deduce plus Clue cracks plus the Mechanist produce more material per turn than fair midrange. Hold No More Lies for their four- and five-drops. |
+| Control | Do not over-commit engines into a sweeper. Clues survive board wipes because they are artifacts, so rebuild with the Mechanist and Case of the Filched Falcon, and keep Haunt the Network as reach. |
+| Lifegain | Switch to the poison plan. Persuasive Interrogators ignores life totals entirely; five Clue sacrifices end the game. |
+| Graveyard decks | No graveyard interaction in the 60. Race with evasive artifact bodies rather than trying to grind, and use Nowhere to Run to strip hexproof from their payoffs. |
+
+# Deck list (Arena import)
+
+```
+Chain of Custody
+Deck
+3 Restless Anchorage
+3 Floodfarm Verge
+3 Gloomlake Verge
+2 Bleachbone Verge
+2 Shipwreck Marsh
+2 Deserted Beach
+1 Shattered Sanctum
+2 Fabled Passage
+3 Island
+2 Plains
+1 Swamp
+4 Novice Inspector
+4 Forensic Gadgeteer
+4 The Mechanist, Aerial Artisan
+3 Teysa, Opulent Oligarch
+2 Syr Ginger, the Meal Ender
+1 Persuasive Interrogators
+4 Deduce
+3 Obsessive Pursuit
+2 Case of the Filched Falcon
+2 Tolls of War
+2 Haunt the Network
+2 No More Lies
+2 Nowhere to Run
+1 Sheltered by Ghosts
+```
