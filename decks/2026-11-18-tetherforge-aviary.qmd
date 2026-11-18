@@ -1,0 +1,171 @@
+---
+title: "Tetherforge Aviary"
+subtitle: "Naya (red / green / white) Heartwood artifact-token combo — Reality Fracture set identity deck"
+date: "2026-11-18"
+categories: ["reality-fracture", "heartwood"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Red / Green / White |
+| Archetype | Combo-midrange (average mana value 3.03) |
+| Core mechanic | Prepared — Soul Tether copies turned into Heartwood artifact tokens, retriggered every turn |
+| Primary win | Draconic Visitor replaces every Heartwood with a 5/5 flying Dragon token |
+| Secondary win | Aerid Konstrari's artifact-count pump plus Puppet Crafting turning Heartwoods into 5/5 Constructs |
+| Land that wins | Hexhaven Dueling Arena — re-prepares an attacker, which casts Soul Tether again |
+| Size | 60 cards, 24 lands |
+
+# Overview
+
+Reality Fracture's prepared mechanic does not need a spell slot: every "creature // spell" card in the set is a permanent that can cast its back face for free while prepared. This deck takes the red-green Heartwood cycle — Heartwood Crafter, Konstrari Improviser and Woodwork Prodigy, all carrying Soul Tether — and treats the token it makes as the deck's real resource. Soul Tether reads "create a Heartwood token", a red and green artifact with "{T}: Add {R} or {G}". A 1/1 that makes a mana rock every turn is a fine rate; the same token becomes a 5/5 flying Dragon with Draconic Visitor on the battlefield, because Visitor replaces every artifact token you would create with a 5/5 red Dragon token.
+
+That is the engine-to-payoff line: a creature that re-prepares itself on upkeep (Woodwork Prodigy) or a land that re-prepares an attacker (Hexhaven Dueling Arena) turns a single prepared creature into a Dragon per turn without spending a card. Tenured Tethermage makes two Heartwoods at once, Hungering Puppetbeast and Aerid Konstrari add one each on entry, and Pia, Determined Rebuilder and Kwia Vigorbloom add artifact tokens of their own — all converted by the same Visitor.
+
+The backup plan does not need the Dragon. Aerid Konstrari's {6} ability makes a Heartwood and pumps itself by the number of artifacts you control, and Puppet Crafting animates a Heartwood into a 5/5 Construct that still taps for red or green mana.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land Heartwood Crafter or Konstrari Improviser. Both enter prepared, so the first Soul Tether is available immediately — usually cast it at the end of the opponent's turn to hold up a charm. |
+| Turns 3-4 | Woodwork Prodigy and Tenured Tethermage. Prodigy re-prepares on every upkeep, so the Heartwood supply stops costing cards. Tenured Tethermage converts a spare land into two tapped Heartwoods. |
+| Turns 5-6 | Draconic Visitor. From here every Soul Tether, Thopter and Lotus is a 5/5 flier. Aerid Konstrari arrives as a 5/4 flier that immediately adds another artifact. |
+| Late game | Aerid's {6} pump or Puppet Crafting on a Heartwood for the second angle; Hexhaven Dueling Arena keeps casting Soul Tether after the creatures have attacked. |
+
+## Card roles
+
+| Card | Cost | Role |
+|------|------|------|
+| Heartwood Crafter | {G} 1/1 | Cheapest prepared body; enters prepared, and its own {T} adds {C} restricted to non-hand spells |
+| Konstrari Improviser | {1}{R/G} 2/2 | Second one-card engine; enters prepared, no further setup needed |
+| Woodwork Prodigy | {2}{R/G} 3/3 | Re-prepares at each upkeep if unprepared — a Heartwood every turn for free |
+| Tenured Tethermage | {1}{R}{G} 1/1 | Sacrifice a land for two tapped Heartwoods; taps two artifacts for two +1/+1 counters |
+| Aerid Konstrari | {1}{R}{G}{G} 5/4 flying | Heartwood on entry and on death; {6} makes a Heartwood and pumps by artifact count — secondary win |
+| Draconic Visitor | {3}{R}{R} 5/5 flying | Turns every artifact token you create into a 5/5 flying Dragon token — primary win |
+| Hungering Puppetbeast | {3}{G}{G} 5/5 | Heartwood on entry, then eats spare artifacts for counters and evasion |
+| Pia, Determined Rebuilder | {2}{R} 2/2 | Thopter on entry (a Dragon with Visitor out); {5}{R} pumps a creature by artifact count |
+| Kwia Vigorbloom | {3}{G}{W}{W} 6/6 flying, lifelink | Gains life on every attack and makes a Lotus artifact token once a turn — another Dragon source |
+| Puppet Crafting | {1}{G} aura | Animates a Heartwood into a 5/5 Construct that keeps its mana ability; rebuys itself from the graveyard for {4}{G} |
+| Konstrari Charm | {R}{G} instant | Six damage to a flier, two +1/+1 counters with trample, or {C}{C}{C} |
+| Vigorbloom Charm | {G}{W} instant | Hexproof and indestructible, a card plus 3 life, or a counter and a fight |
+| Wrath of the Bloodmane | {2}{R} instant | Four damage to a creature or planeswalker; costs {1} less with a legend out (Aerid, Pia, Kwia) |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Hexhaven Dueling Arena | {T} for {C}; {2}, {T} makes a creature that attacked this turn prepared — a second Soul Tether activation every combat, and the deck's land-based win engine |
+| Rockfall Vale | Red-green dual that enters untapped once you control two other lands — the turn-three playmaker |
+| Overgrown Farmland | Green-white dual on the same condition; the only reliable white source for Kwia |
+| Forest | Seven copies: turn-one green is the deck's most important land |
+| Mountain | Four copies, the red source for Draconic Visitor's {3}{R}{R} and Pia |
+| Plains | Two copies to complete the white splash |
+
+## Curve and mana
+
+Twenty-four lands and thirty-six spells, with the curve stacked at one through three mana: four one-drops, ten two-drops, twelve three-drops and only ten cards at four or more. Fifteen green sources, eight red and six white. Green is the primary because every engine piece except Pia, Draconic Visitor and Wrath is green or green-hybrid; red is the payoff colour and only needs to reach {3}{R}{R} once; white is a two-card splash for Kwia Vigorbloom, paid for by four Overgrown Farmland and two Plains.
+
+The deck functions on three lands. Woodwork Prodigy plus Hexhaven Dueling Arena mean the engine does not need extra cards, only turns, so excess lands are safe to keep and spare lands are fuel for Tenured Tethermage.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a one- or two-drop prepared creature. Heartwood Crafter is the best turn one because it enters prepared and its {T} ability pays for the Soul Tether copy later — the {C} restriction only stops it casting spells from hand. Konstrari Improviser is the better turn-two body at 2/2 and needs no help.
+
+Do not fire Soul Tether in your own main phase unless you need the mana immediately. Holding it until the opponent's end step keeps the creature prepared as a threat of instant-speed value.
+
+## Mid game
+
+Woodwork Prodigy is the card that makes the deck work: it re-prepares on upkeep, so from turn four onward you get a free Soul Tether every turn without spending a card. Tenured Tethermage is the burst version — sacrifice a spare land, get two tapped Heartwoods, then tap pairs of artifacts for +1/+1 counters.
+
+If the opponent is aggressive, Vigorbloom Charm's fight mode plus Wrath of the Bloodmane cover the early board while the engine assembles. If they are slow, run out Draconic Visitor before the next Soul Tether rather than after it: the Visitor only converts tokens created while it is on the battlefield.
+
+## The combo turn
+
+The deck's engine turn is any turn where Draconic Visitor is on the battlefield and a prepared creature is ready.
+
+1. Cast Soul Tether from the prepared creature. With Visitor out, the Heartwood is replaced by a 5/5 red Dragon token with flying.
+2. Attack with whatever is available, then use Hexhaven Dueling Arena ({2}, {T}) to re-prepare a creature that attacked this turn.
+3. Cast that creature's Soul Tether in your second main phase for a second Dragon.
+4. If Tenured Tethermage is on the battlefield, its own two Heartwoods are also two Dragons.
+
+Two turns of that sequence is usually enough: four or five 5/5 fliers end a game against anything without mass removal.
+
+## Win condition 2
+
+Aerid Konstrari wins without the Visitor. It enters as a 5/4 flier and makes a Heartwood on entry, then {6} makes another Heartwood and gives Aerid +X/+0 where X is the number of artifacts you control. With five artifacts, that is a 10/4 flier for one activation, repeatable every turn as long as you have six mana.
+
+Puppet Crafting is the third angle and the cheapest: enchanting a Heartwood makes it a 5/5 Construct in addition to its other types, so it keeps "{T}: Add {R} or {G}" and still counts as an artifact for Aerid and for Pia's pump. Hungering Puppetbeast grows by eating the spare tokens.
+
+## Mulligan guide
+
+| Hand | Action |
+|------|--------|
+| 2-3 lands, one prepared one- or two-drop, one engine card | Keep — this is the deck's core curve |
+| 1 land plus Heartwood Crafter | Keep on the play only; the {C} ability does not fix mana |
+| 3 lands, Woodwork Prodigy, Draconic Visitor | Keep — Prodigy plus Visitor is the whole combo |
+| No prepared creature | Mulligan; the deck's card advantage lives on the creatures' back faces |
+| All five- and six-drops | Mulligan; Draconic Visitor without a token maker is a vanilla 5/5 |
+
+## Key interactions and edge cases
+
+- Draconic Visitor only converts tokens created while it is on the battlefield. Sequence Visitor first, then Soul Tether, never the other way round. Every artifact token counts — Pia's Thopter, Kwia's Lotus, any Treasure — but not Heartwoods that already exist.
+- Casting a prepared spell unprepares the creature. Woodwork Prodigy re-prepares on upkeep; Hexhaven Dueling Arena re-prepares a creature that attacked, and only as a sorcery.
+- Hexhaven produces {C}, so it pays Soul Tether's generic cost but not the {R/G} hybrid symbol.
+- Heartwood Crafter's own mana ability cannot pay for spells cast from your hand. Spend it on the Soul Tether copy or on Aerid's {6} ability rather than planning your curve around it.
+- Tenured Tethermage's land sacrifice is optional and happens on entry. Never sacrifice your only green source; sacrifice a Hexhaven or an extra basic.
+- Puppet Crafting on a Heartwood makes a 5/5 that still taps for mana, but it is now a creature, so it can be attacked and removed.
+- Kwia Vigorbloom's Lotus trigger is once per turn; attacking with it is what turns lifelink into a Dragon.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Vigorbloom Charm's fight mode and Wrath of the Bloodmane, then stabilise behind Kwia's lifelink. The first Dragon usually ends the race. |
+| Midrange | Out-card them: Woodwork Prodigy makes a token every turn for free and Puppet Crafting rebuys itself. Do not commit the Visitor without a second token maker. |
+| Control | Hold Draconic Visitor until you can cast it and a Soul Tether in the same turn, so a sweeper does not strand the payoff. Aerid's death trigger leaves an artifact behind. |
+| Graveyard / recursion | No graveyard interaction in the 60. Race with fliers and use Hexhaven to keep pressure on rather than trying to grind. |
+
+# Iterations
+
+| Round | Change | Sim win rate | Synergy | T4 consistency | P(4 lands T4) |
+|-------|--------|--------------|---------|----------------|----------------|
+| v1 | Initial Heartwood shell with Konstrari Annex and Vigorbloom Annex | 56.0 | 73.0 | 0.629 | 0.642 |
+| v2 | -2 Konstrari Annex, -2 Vigorbloom Annex, +1 Rockfall Vale, +2 Overgrown Farmland, +1 Mountain | 59.0 | 72.4 | 0.619 | 0.637 |
+
+Both Annex lands enter tapped unless you control a planeswalker, and this deck runs none, so four lands were entering tapped every game. Swapping them for the two-or-more-other-lands cycle cost 0.6 synergy and gained three points of simulated win rate. v2 is the shipped list; all seven gates pass.
+
+# Deck list (Arena import)
+
+```
+Tetherforge Aviary
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+3 Woodwork Prodigy
+3 Tenured Tethermage
+3 Aerid Konstrari
+3 Draconic Visitor
+2 Hungering Puppetbeast
+2 Pia, Determined Rebuilder
+2 Kwia Vigorbloom
+3 Konstrari Charm
+3 Puppet Crafting
+2 Vigorbloom Charm
+2 Wrath of the Bloodmane
+3 Hexhaven Dueling Arena
+4 Rockfall Vale
+4 Overgrown Farmland
+7 Forest
+4 Mountain
+2 Plains
+```

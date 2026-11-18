@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-11-18**:
 
+- **[Tetherforge Aviary](decks/2026-11-18-tetherforge-aviary.html)** — Naya (red / green / white) Heartwood artifact-token combo — Reality Fracture set identity deck  `reality-fracture` `heartwood`
 - **[Chain of Custody](decks/2026-11-18-chain-of-custody.html)** — Esper (white-blue-black) Investigate — Clue artifacts as the engine, the army and the win  `combo` `Investigate`
