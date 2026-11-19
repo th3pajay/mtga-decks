@@ -1,0 +1,169 @@
+---
+title: "Grave Plot"
+subtitle: "White, Blue, Black, Green — Plot x Delirium x Surveil"
+date: "2026-11-19"
+categories: ["combo", "Plot", "Delirium", "Surveil"]
+---
+
+
+# At a glance
+
+| Field | Value |
+|---|---|
+| Format | Standard, Arena-legal, rotation-proof |
+| Colors | White, Blue, Black, Green (four-color midrange) |
+| Mechanic identity | Plot, Delirium, Surveil |
+| Archetype | Midrange engine-combo |
+| Size | 60 cards: 24 lands, 36 spells |
+| Primary win | Rise of the Varmints swarm, amplified by Railway Brawler |
+| Secondary win | Balustrade Wurm recursion, Omnivorous Flytrap counters, Osseous Sticktwister drain |
+| Land win condition | Rogue's Passage pushes the lethal attacker through; Restless Vinestalk is a 5/5 trample body |
+
+# Overview
+
+Grave Plot runs one pipeline three ways. Surveil is the fuel line: every surveil trigger looks at the top of the library and puts whatever is not needed straight into the graveyard. Delirium is the switch: once four or more card types sit in the graveyard, the payoffs turn on. Plot is the tempo valve: a card is banked in exile on an early turn and cast for free on a later one, when the mana is better spent elsewhere.
+
+The three mechanics feed each other rather than sitting side by side. Surveil stocks the graveyard with creatures, instants, sorceries, lands and artifacts, which is exactly what Delirium counts. Plot removes cards from hand for free, which empties the hand and turns on Plan the Heist's surveil 3. Fblthp, Lost on the Range grants plot to the top card of the library, so surveil stops being only a filtering tool and becomes a free-spell generator.
+
+The finish is Rise of the Varmints, which makes one 2/1 Varmint per creature card in the graveyard. A deck that has been surveilling for five turns routinely makes six or more. Railway Brawler turns each of those tokens into a 4/3 the moment it enters. The backup plan is a 5/5 uncounterable hasty Wurm that keeps buying itself back, backed by a drain creature and a pair of evasive threats that a land can make unblockable.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What the deck is doing |
+|---|---|---|
+| Stock | 1 to 2 | Patchwork Beastie, Osseous Sticktwister or a surveil land. Mill and surveil aggressively; lands go to the yard happily. |
+| Switch | 3 to 4 | Vash, Cephalid Inkmage, Imperious Inkmage and The Swarmweaver arrive with surveil attached. Four card types is normally reached by turn four. |
+| Convert | 5 onward | Rise of the Varmints, Balustrade Wurm, Railway Brawler. Plot cards cashed in for free turns; Rogue's Passage finishes. |
+
+## Card roles
+
+| Role | Cards | Notes |
+|---|---|---|
+| Fuel (surveil and mill) | 4 Patchwork Beastie, 4 Vash, 2 Cephalid Inkmage, 2 Imperious Inkmage, 2 Kishla Village | Beastie mills one every upkeep, Vash surveils every upkeep, the Inkmages surveil on entry. |
+| Switch (Delirium payoffs) | 3 The Swarmweaver, 1 Omnivorous Flytrap, 2 Balustrade Wurm, 2 Osseous Sticktwister | Swarmweaver gives Insects and Spiders plus one and deathtouch, Flytrap distributes counters, Wurm recurs, Sticktwister drains. |
+| Payoff (tokens) | 3 Rise of the Varmints, 2 Railway Brawler | Varmints scale off creature cards in the graveyard, Brawler adds counters equal to each entering creature's power. |
+| Card advantage | 4 Plan the Heist, 2 Fblthp, 4 Vash | Surveil 3 plus draw three off an empty hand, or plot from the top of the library. |
+| Interaction | 3 Drag to the Roots, 2 Deadly Plot | Drag costs only one black and one green with Delirium online and answers any nonland permanent. |
+
+## Lands as engines
+
+| Land | Count | Engine role |
+|---|---|---|
+| Hedge Maze | 4 | Green and blue, surveils on entry. Free fuel plus color fixing. |
+| Underground Mortuary | 4 | Black and green, surveils on entry. The most important dual in the deck. |
+| Temple of Plenty | 2 | Green and white, scry 1 smooths the first turns. |
+| Sandsteppe Citadel | 2 | White, black and green in one land for the four-color splash. |
+| Undercity Sewers | 1 | Blue and black, surveils on entry. |
+| Kishla Village | 2 | Green source that turns four mana into surveil 2, and enters untapped off an Island or Swamp. |
+| Meticulous Archive | 1 | White and blue, surveils on entry. |
+| Rogue's Passage | 1 | Win condition land: four mana makes the attacking Wurm or a pumped token unblockable. |
+| Restless Vinestalk | 1 | Win condition land: a 5/5 trample attacker that also makes another attacker 3/3. |
+
+## Curve and mana
+
+| Mana value | Cards | What lives there |
+|---|---|---|
+| 1 | 4 | Patchwork Beastie |
+| 2 | 2 | Osseous Sticktwister |
+| 3 | 11 | Vash, Cephalid Inkmage, Imperious Inkmage, Fblthp, Omnivorous Flytrap |
+| 4 | 15 | The Swarmweaver, Plan the Heist, Rise of the Varmints, Drag to the Roots, Deadly Plot |
+| 5 | 4 | Balustrade Wurm, Railway Brawler |
+
+Average mana value of the 36 nonlands is 3.36. The deck is green-first: 16 green sources, 8 black, 7 blue, 5 white. Most black and blue cards are dual-colored, so the black-green duals carry the early turns and the white is a genuine splash rather than a fourth pillar. Twenty-four lands is deliberate, because surveil plus Plot both reward having something to do with extra mana.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a surveil land or Patchwork Beastie. Beastie is a 3/3 for one mana that mills a card every upkeep; it cannot attack until Delirium is on, which is fine, because it is a mill engine first. Surveil aggressively in the first three turns: put creatures, instants and artifacts in the yard rather than keeping a mediocre hand intact. That investment is what turns Delirium on and what makes Rise of the Varmints lethal later.
+
+## Mid game
+
+Turn three and four are about stacking surveil bodies. Vash, Freelance Archaeologist surveils on upkeep and draws a card whenever a card leaves the graveyard, which pairs with Balustrade Wurm's recursion. Cephalid Inkmage surveils three on entry and becomes unblockable once seven cards sit in the graveyard. The Swarmweaver makes two 1/1 fliers on entry and, with Delirium, turns them into 2/2 deathtouch attackers.
+
+This is also the window for Plot. Bank a Rise of the Varmints or a Railway Brawler on turn three, then cash it on turn six when the graveyard is full and the mana has somewhere better to go. Plotting costs nothing beyond the plot payment and the card waits in exile, so there is no downside to banking a payoff early.
+
+## The combo turn
+
+The deck's big turn is a resolved Railway Brawler followed by Rise of the Varmints. Brawler's trigger puts +1/+1 counters equal to the entering creature's power on each other creature that enters, so each 2/1 Varmint enters and immediately becomes a 4/3. Six Varmints off a stocked graveyard is 24 power across six bodies, and Rogue's Passage makes the largest one unblockable if the opponent has a single big blocker.
+
+The sequencing matters: cast Railway Brawler first, then Rise of the Varmints, then attack. If Rise is already plotted, the whole turn costs one card and five mana.
+
+## Win condition 2
+
+Balustrade Wurm is the second clock: a 5/5 trample haste creature that cannot be countered, and for two green and two generic it returns itself from the graveyard with a finality counter whenever Delirium is active. Every return also triggers Vash, so the Wurm draws a card on the way back. Omnivorous Flytrap adds two +1/+1 counters on entry or attack once Delirium is online, and Osseous Sticktwister drains each opponent at end of turn when they decline to sacrifice or discard. Against decks that answer tokens, this is the plan that wins.
+
+## Mulligan guide
+
+| Hand shape | Action |
+|---|---|
+| Two lands, one surveil land, Patchwork Beastie, any three-drop | Keep. That is the ideal curve. |
+| One land | Mulligan, no exceptions, twenty-four lands notwithstanding. |
+| Five or more lands, no engine | Mulligan. The deck needs surveil or mill to function. |
+| Plan the Heist plus two plot cards | Keep on the play, it converts into a large turn four. |
+| No green source | Mulligan. Sixteen green sources means a greenless seven is a bad keep. |
+
+## Key interactions and edge cases
+
+- Delirium counts card types among all cards in the graveyard: creature, instant, sorcery, land, artifact, enchantment, planeswalker. This list supplies creature, instant, sorcery, land and artifact. Six types is not reachable here, so treat Omnivorous Flytrap as two counters, never four.
+- Surveil is not milling. You look first, so a land you need can stay on top and a land you do not need can go to the yard as a Delirium type.
+- Plot happens only as a sorcery, on your turn. A plotted card is cast later without paying its mana cost, and casting it that way does not count as plotting again.
+- Fblthp, Lost on the Range gives the top card of your library plot at its own mana cost. Surveil to put the card you want on top, then plot it and cast it free next turn. Fblthp also lets you look at the top card at any time, so surveil decisions get easier.
+- Plan the Heist only surveils 3 when your hand is empty. Plot cards are the cheapest way to empty the hand on purpose: plot two cards, then cast Plan the Heist for a surveil 3 and three fresh cards.
+- Rise of the Varmints counts creature cards only. A graveyard full of instants and lands makes one or two Varmints, not eight. Surveil creatures preferentially when Rise is in hand.
+- Balustrade Wurm returns with a finality counter. If it dies again it is exiled, so the recursion is a two-for-one, not an endless loop.
+- Cephalid Inkmage becomes unblockable at seven cards in the graveyard; that plus Rogue's Passage is a second unblockable clock that does not need a big token turn.
+- Drag to the Roots costs two less with Delirium, which means one black and one green for a destroy any nonland permanent. Hold it for the turn Delirium turns on rather than casting it at full price.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Trade early with Drag to the Roots, lean on lifelink from Osseous Sticktwister and deathtouch Insects from The Swarmweaver. |
+| Control | Plot your payoffs so they resolve on a turn the opponent tapped out, and keep Balustrade Wurm as the uncounterable threat. |
+| Midrange | Win the graveyard race: more surveil means bigger Varmints. Rogue's Passage beats a stalled board. |
+| Other combo | Drag to the Roots is the answer to any nonland permanent piece; Deadly Plot covers creatures and planeswalkers. |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 to v2 | minus 2 Deadly Plot, plus 2 Banishing Betrayal (cheaper interaction with surveil attached) | sim 54.0 to 51.0, gate failed, reverted |
+| v2 to v3 | minus 1 Cephalid Inkmage, minus 1 Omnivorous Flytrap, plus 2 Osseous Sticktwister (adds a two-drop, an artifact type for Delirium, a third win condition) | sim 51.0 to 53.0, T4 0.619 to 0.642 |
+| v3 to v4 | minus 2 Forest and 1 Lush Portico, plus 2 Temple of Plenty and 1 Undercity Sewers (rebalance white and blue sources) | sim 53.0 to 56.0, P(4 lands by turn 4) 0.637 to 0.654 |
+
+# Deck list (Arena import)
+
+```
+Grave Plot
+Deck
+4 Patchwork Beastie
+2 Osseous Sticktwister
+4 Vash, Freelance Archaeologist
+2 Cephalid Inkmage
+3 The Swarmweaver
+1 Omnivorous Flytrap
+2 Imperious Inkmage
+2 Fblthp, Lost on the Range
+2 Balustrade Wurm
+2 Railway Brawler
+4 Plan the Heist
+3 Rise of the Varmints
+3 Drag to the Roots
+2 Deadly Plot
+4 Hedge Maze
+4 Underground Mortuary
+2 Temple of Plenty
+2 Sandsteppe Citadel
+1 Undercity Sewers
+2 Kishla Village
+1 Meticulous Archive
+1 Rogue's Passage
+1 Restless Vinestalk
+3 Forest
+1 Island
+1 Swamp
+1 Plains
+```
