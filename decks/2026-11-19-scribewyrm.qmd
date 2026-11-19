@@ -1,0 +1,146 @@
+---
+title: "Scribewyrm"
+subtitle: "Blue-Red-Green Prepared x Dragon tokens — the Reality Fracture set identity deck"
+date: "2026-11-19"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Red / Green (black appears only on the hybrid pip of Stingerquill Voxmancer) |
+| Archetype | Aggro-combo (avg CMC 2.19) |
+| Core mechanic | Prepared (Reality Fracture flagship): free spell copies every turn |
+| Primary win | Draconic Visitor turns every artifact token the engine makes into a 5/5 flying Dragon |
+| Secondary win | Prowess board plus Hall of Echoes copying the biggest creature |
+| Deck score | 82.6 overall (synergy 71.7, cohesion 71.7) |
+
+# Overview
+
+Scribewyrm is a sixty-card engine deck built on the set's flagship mechanic: prepared. Every DFC creature in the deck enters prepared (or re-prepares itself on upkeep), which means each one carries a free spell you can cast from the battlefield once per turn without spending a card. Nine prepared creatures means the deck routinely casts two to four extra instants and sorceries every turn cycle — for free.
+
+Those free casts are the fuel. Saheeli, Jewel of Avishkar makes a 1/1 Thopter each time you cast a noncreature spell; Chandra's Emberling grows a counter each time; Tomik, Izzet Sparkmage turns every point of noncombat damage into two. Codie, Ravenous Codex doubles the whole thing by copying each prepared spell as you cast it.
+
+The finisher is Draconic Visitor: while it is on the battlefield, any artifact token you would create is a 5/5 red Dragon with flying instead. Saheeli's Thopters and the Heartwood tokens from Soul Tether both convert, so a two-mana Konstrari Improviser becomes a 2/2 plus a 5/5 flier, and a single free Vicious Verse off Stingerquill Voxmancer becomes a Dragon every upkeep.
+
+Nothing in the deck costs more than five mana, fourteen cards cost one, and the whole list runs on twenty-four lands with three color pairs.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Land a prepared one-drop: Pompous Battlemage, Stingerquill Voxmancer, Diviner of Victory or Heartwood Crafter. Each is a body plus a free spell. |
+| Turns 2-3 | Add a token engine (Saheeli, Jewel of Avishkar) or a growing threat (Chandra's Emberling, Tomik, Izzet Sparkmage). Start cashing prepared spells on the opponent's end step. |
+| Turns 3-4 | Draconic Visitor converts the token stream into Dragons. Codie, Ravenous Codex doubles every prepared spell cast from here on. |
+| Turns 4-6 | Close: Dragon fliers plus prowess attackers, with Pyre Rhymer's Molten Tide paying for a huge turn when the board stalls. |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Pompous Battlemage | One-mana prepared body with prowess; Improvised Act loots into action |
+| Stingerquill Voxmancer | One-mana prepared body that re-prepares every upkeep — a free Vicious Verse each turn |
+| Diviner of Victory | One-mana prepared body; grows off its own surveil and bounces small blockers |
+| Konstrari Improviser | Two-mana prepared body that makes a Heartwood token — a Dragon with Draconic Visitor out |
+| Woodwork Prodigy | Three-power body that re-prepares on upkeep, so the Soul Tether keeps coming |
+| Heartwood Crafter | One-mana prepared body plus a colorless mana source for the Soul Tether loop |
+| Carnivorous Cultivator | Deathtouch blocker that enters prepared; Enroot fills the graveyard and fixes land drops |
+| Pyre Rhymer | Prowess threat whose Molten Tide doubles every Mountain tap for a burst turn |
+| Hallway Heckler | Prepared body with a repeatable loot, and a Vicious Verse that Tomik upgrades |
+| Saheeli, Jewel of Avishkar | Primary token engine: one Thopter per noncreature spell, and Thopters have haste |
+| Draconic Visitor | Primary win condition: artifact tokens become 5/5 flying Dragons |
+| Codie, Ravenous Codex | Copies every prepared spell you cast, doubling the engine's output |
+| Chandra's Emberling | Haste threat that snowballs counters off the free spells |
+| Tomik, Izzet Sparkmage | Prowess threat; adds one damage to every Vicious Verse and every Dragon-free ping |
+| Hall of Echoes | Land-based win condition: a land that becomes a copy of your best creature |
+
+## Lands as engines
+
+| Land | Role |
+|------|------|
+| Hall of Echoes | The land that wins games: for five mana it becomes a copy of any creature you control, so it copies a Dragon or a pumped Pyre Rhymer and attacks as a land |
+| Rockfall Vale | Red-green dual that enters untapped from the third land on — the deck's main green source |
+| Spirebluff Canal | Blue-red dual, untapped while you have two or fewer other lands |
+| Botanical Sanctum | Green-blue dual on the same fast condition, covering Saheeli and Diviner |
+
+## Curve and mana
+
+Fourteen one-drops, seven two-drops, eleven three-drops, two four-drops and two five-drops. Red is the primary color (twenty-six red pips), green is secondary (ten, almost all hybrid), blue is a light splash (six) for Saheeli and Diviner of Victory. Twenty-four lands with four Rockfall Vale, two Spirebluff Canal and two Botanical Sanctum means the deck keeps two-land hands with a single colored source and still curves out; six Forest, five Mountain and four Island fill in behind the duals.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with whichever one-drop matches your hand. Stingerquill Voxmancer is the best turn-one play because it re-prepares itself every upkeep without any help, so it produces a free Vicious Verse every single turn. Pompous Battlemage is the fastest clock because prowess stacks with every subsequent free spell. Heartwood Crafter is the ramp play: its Soul Tether makes a Heartwood token that later becomes a Dragon.
+
+Do not fire prepared spells just because they are available. Vicious Verse is worth one damage on its own, but with Tomik, Izzet Sparkmage it is two, and with Codie, Ravenous Codex it is two copies for four. Hold them until the payoffs are down.
+
+## Mid game
+
+Turn three or four is where the engine lands. Saheeli, Jewel of Avishkar converts each free spell into a hasted Thopter; with Draconic Visitor already on the battlefield those Thopters arrive as 5/5 Dragons instead. Two prepared creatures plus Saheeli is four tokens a turn cycle, and none of it costs a card.
+
+Codie, Ravenous Codex is the other multiplier: it copies each prepared spell as you cast it, so a single Improvised Act loots twice and a single Soul Tether makes two Heartwood tokens. Codie's five-color activated ability is not part of the plan — the deck never needs it, because the prepared creatures re-arm themselves.
+
+## The combo turn
+
+The deck's biggest single turn is Pyre Rhymer plus Molten Tide. Cast the prepared Molten Tide copy, then tap every Mountain: each one adds an additional red. With five Mountains that is ten red mana on turn four or five, enough to deploy Draconic Visitor and still hold up a second prepared spell. Follow it with a Codie-copied Soul Tether to put two Dragons on the battlefield at instant speed.
+
+Order of operations on the combo turn: Draconic Visitor first (so every token after it is a Dragon), then Saheeli, then the prepared spells. Each prepared spell cast is a separate trigger, so Saheeli, Chandra's Emberling and Tomik all fire individually — resolve them in whatever order keeps your attackers biggest.
+
+## Win condition 2
+
+The backup plan is a plain prowess board. Pompous Battlemage, Pyre Rhymer and Tomik, Izzet Sparkmage each grow off every free spell, and Hall of Echoes copies the largest of them for five mana, attacking as a land-creature that dodges sorcery-speed creature removal. Against decks that answer Draconic Visitor, this is how the game ends: two prowess attackers plus a copied land swing for double digits.
+
+## Mulligan guide
+
+Keep any hand with two lands and a one-mana prepared creature. Keep hands with Saheeli plus two cheap prepared creatures even on three lands. Ship hands with no one-drop and no Saheeli — the deck's whole advantage is casting free spells early. One-land hands are only keepable with Heartwood Crafter and a second land on top; the deck has no card selection beyond looting, so do not gamble.
+
+## Key interactions and edge cases
+
+- Prepared spells are cast, not copied by the mechanic itself: they trigger prowess, Saheeli, Chandra's Emberling and Tomik, and Codie then copies them. A prepared spell cast while Codie is out triggers every payoff twice.
+- Draconic Visitor replaces the token, it does not add to it: a Soul Tether makes one 5/5 Dragon, not a Heartwood plus a Dragon. Heartwood mana is therefore lost while Visitor is on the battlefield — sequence Soul Tether before Visitor when you need the mana.
+- Hall of Echoes becomes a copy until end of turn and the legend rule does not apply, so it can copy a legendary creature you already control; it is a land for the whole turn, which means it survives sorcery-speed sweepers that only hit creatures.
+- Diviner of Victory grows off its own Unwind History surveil, and off nothing else in this list — it is a 1/1 that becomes a 2/2 the turn it cashes its spell, which matters for blocking.
+- Carnivorous Cultivator's Enroot puts the land into the graveyard, not onto the battlefield: use it to hit threshold or to set up the combat-damage land return, never as ramp.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Trade early with Carnivorous Cultivator and Pompous Battlemage; Vicious Verse plus Tomik picks off one-toughness attackers; race with Dragons once Visitor lands |
+| Midrange | Go wide with Saheeli tokens, then convert; Codie doubling prepared spells out-values single-target removal |
+| Control | Hold prepared spells until Codie or Saheeli is down; Hall of Echoes and Dragon tokens dodge sorcery-speed wraths |
+| Ramp | The deck is faster; Molten Tide turns a stalled board into a lethal burst before their payoffs resolve |
+
+# Deck list (Arena import)
+
+```
+Scribewyrm
+Deck
+4 Pompous Battlemage
+4 Stingerquill Voxmancer
+4 Diviner of Victory
+4 Konstrari Improviser
+3 Pyre Rhymer
+2 Hallway Heckler
+2 Woodwork Prodigy
+2 Heartwood Crafter
+2 Carnivorous Cultivator
+2 Saheeli, Jewel of Avishkar
+2 Draconic Visitor
+2 Codie, Ravenous Codex
+2 Chandra's Emberling
+1 Tomik, Izzet Sparkmage
+4 Rockfall Vale
+2 Spirebluff Canal
+2 Botanical Sanctum
+1 Hall of Echoes
+6 Forest
+5 Mountain
+4 Island
+```
