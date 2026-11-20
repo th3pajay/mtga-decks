@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-20**:
 
 - **[Gravechoir](decks/2026-11-20-gravechoir.html)** — Blue-Black-Red-Green | Threshold x Harmonize  `combo` `Threshold` `Harmonize`
+- **[Fatehold Rehearsal](decks/2026-11-20-fatehold-rehearsal.html)** — White-Blue-Black prepared surveil — the Reality Fracture sphinx deck  `reality-fracture` `sphinx`

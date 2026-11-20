@@ -1,0 +1,155 @@
+---
+title: "Fatehold Rehearsal"
+subtitle: "White-Blue-Black prepared surveil — the Reality Fracture sphinx deck"
+date: "2026-11-20"
+categories: ["reality-fracture", "sphinx"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | White / Blue / Black |
+| Archetype | Midrange combo (avg CMC 2.89) |
+| Size | 60 cards, 24 lands |
+| Mechanics | Prepared (flagship) fused with surveil |
+| Primary win | Denzilore Fatehold turns every surveil into a +1/+1 counter on the whole board, then the flier swarm attacks |
+| Secondary win | Uldaros Theorix recasts the graveyard for free; Hall of Echoes copies the biggest creature |
+| Deck score | 90.7 overall (synergy 72.2, cohesion 72.1) |
+
+# Overview
+
+Fatehold Rehearsal fuses the set's two most profitable mechanics. Prepared gives repeatable free spells that cost no card; surveil is the cheapest trigger in the set. Every prepared DFC in the deck carries the same payload — **Peer Review**, a sorcery that makes a 2/2 Cadet and surveils 1 — so the free spell both builds the board and fires the entire surveil payoff suite at once.
+
+The payoffs stack on a single surveil event. Denzilore Fatehold puts a +1/+1 counter on **each** creature you control. Saheeli, Consul of Oversight makes a 1/1 flying Thopter. Proctor of Potential surveils on every creature entering and returns itself from the graveyard for {W}{U} on any turn you have scried or surveilled. Chandra, Chill of Compliance is the repeatable engine — her +1 surveils every turn, and she is also the switch that turns the Annex land cycle on: Fatehold Annex, Theorix Annex and Meticulous Commons all enter untapped while you control a planeswalker.
+
+Two sphinxes top the curve. Denzilore is the counters engine at four mana with flash, so it can land on the opponent's end step and immediately upgrade the next surveil. Uldaros Theorix is the burst: cast him with a stocked graveyard and he exiles up to one nonland card of each card type, copies them, and lets you cast any number with total mana value 6 or less without paying. A creature, an instant and a sorcery in the yard is a free three-spell turn stapled to a 5/5 flier.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Yuriko as a flash surveil-2, or Proctor of Potential / Fatehold Chronologist. Chronologist enters prepared, so turn two is a 1/2 flier plus a free Cadet and a surveil. |
+| Turns 2-3 | Prudent Fateseer and Chandra. Fateseer's copy makes a Cadet and surveils; its own trigger gives the team +1/+0 whenever you scry or surveil. Chandra's +1 starts the every-turn surveil and untaps the Annex lands. |
+| Turns 3-4 | Denzilore Fatehold at flash speed. From here every surveil is a team-wide counter, and Desperate Futurescribe converts the counters into a growing flier. |
+| Turns 5-6 | Saheeli turns surveil into Thopters; Uldaros Theorix cashes the graveyard. Close with evasive attackers, or with Hall of Echoes attacking as a second copy of the biggest creature. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Proctor of Potential | 4 | Repeatable surveil on every creature ETB, and recursion from the graveyard for {W}{U} once you have surveilled |
+| Fatehold Chronologist | 4 | Two-mana prepared flier; free Peer Review makes a Cadet and surveils |
+| Prudent Fateseer | 3 | Prepared body whose surveil trigger pumps the team; copy makes a Cadet and surveils |
+| Desperate Futurescribe | 3 | Flier that hands out +1/+1, upgraded to a permanent counter when you surveilled |
+| Denzilore Fatehold | 3 | Primary payoff: +1/+1 counter on each creature per scry or surveil; flash |
+| Saheeli, Consul of Oversight | 2 | One Thopter per turn off surveil, on a 4/4 flier body |
+| Uldaros Theorix | 2 | Secondary win: free casts of one card of each type from the graveyard |
+| Yuriko, Hope from the Shadows | 2 | One-mana flash surveil 2 — an instant-speed Denzilore trigger or a -X/-0 blocker answer |
+| Enlightened Confidant | 2 | Lifelink body that surveils at end step and can return the milled card to hand |
+| Chandra, Chill of Compliance | 2 | Repeatable surveil engine; turns on the Annex lands; emblem draws on every spell |
+| Sphinx's Approach | 3 | Draw two; five copies in the yard tutor a sphinx straight onto the battlefield |
+| Fatehold Charm | 3 | Modal glue: draw plus empower, bounce a spell or creature, or team +1/+2 |
+| Prophesied End | 1 | Clean answer to a blocker or a threat |
+| Last Gasp | 2 | Cheap -3/-3 for small creatures |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|------|-------|-------------------|
+| Fatehold Annex | 4 | {W} or {U}; untapped while a planeswalker is out |
+| Theorix Annex | 4 | {U} or {B}; the black source for Uldaros and Last Gasp |
+| Meticulous Commons | 2 | {W} or {B}; untapped with Chandra |
+| Deserted Beach | 2 | {W} or {U}; untapped once you control two other lands |
+| Shipwreck Marsh | 2 | {U} or {B}; same condition |
+| Hall of Echoes | 1 | Win-condition land: {5} turns it into a copy of your best creature, with the legend rule switched off for the turn |
+| Plains / Island / Swamp | 3 / 4 / 2 | Base mana, nine sources total |
+
+## Curve and mana
+
+The deck curves low: two one-drops, sixteen two-drops, eight three-drops, six four-drops and only four cards at five or more. Twenty-four lands is deliberate — the gate wants four lands by turn four, and the surveil engine wants to hit every land drop while it bins the excess.
+
+Mana is three allied pairs. Ten Annex lands want a planeswalker; Chandra is the only one, so against fast decks treat the Annexes as taplands and lead on basics and Deserted Beach. Black is a splash for Uldaros, Last Gasp and the Theorix Annex; ten black sources is enough for a single {B} on turn two and for Uldaros by turn six.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a cheap surveil body rather than a tapland. Turn one Yuriko for surveil 2 is the best opening — it stocks the graveyard, digs two deep and trades with anything small. Turn two is Chronologist or Proctor: Chronologist gives a flier and a free Cadet, Proctor gives surveil on the next creature and a body that comes back later. Do not cash Peer Review on your own turn if the opponent has untapped mana and a removal spell; the value is the surveil trigger, and that is just as good on their end step.
+
+## Mid game
+
+Turns three and four are about stacking one surveil into four triggers. Chandra's +1 surveils, which means Denzilore counters the team, Saheeli makes a Thopter, Prudent Fateseer pumps, and Desperate Futurescribe upgrades its combat bonus. Because all of those are separate triggered abilities on the same event, a single Chandra activation is often six or more points of board improvement.
+
+Keep the graveyard count in mind for Uldaros: by turn six the deck has usually surveilled six to ten cards, which is a creature, an instant, a sorcery and often an artifact or enchantment for him to copy.
+
+## The combo turn
+
+The signature turn is Chandra's +1 with Denzilore and Saheeli already in play, followed by a free Peer Review. Sequence the triggers so Fateseer's pump resolves after Denzilore's counters, then attack with everything: Thopters and Cadets are evasive, and Desperate Futurescribe converts each counter into another point of power.
+
+## Win condition 2
+
+Uldaros Theorix is the second win. Cast him only when the graveyard holds one card of each type you care about — a surveilled creature, an instant, a sorcery, and often an artifact or enchantment from an earlier exchange. The copies are cast without paying mana, so the turn is typically a 5/5 flier plus a rebuilt board plus a removal spell, all for six mana. Hall of Echoes is the backup: five mana turns the land into a copy of Denzilore for a second counters engine, or a copy of Uldaros or Saheeli to swing for the win, and the legend rule explicitly does not apply that turn.
+
+## Mulligan guide
+
+Keep any hand with two or three lands, one cheap surveil source (Yuriko, Chronologist, Proctor) and one payoff (Denzilore, Saheeli, Chandra). Ship hands that are three Annex lands and no Chandra — that is a mulligan to five. A one-land hand with Yuriko is keepable on the play; on the draw it is not.
+
+## Key interactions and edge cases
+
+- Peer Review is cast from the battlefield as a copy, so it does not cost a card and it does trigger "whenever you cast" abilities. It also unprepares the creature.
+- Denzilore's trigger is per scry **or** surveil event, not per card looked at. Surveil 2 is one trigger, not two.
+- Proctor of Potential returns with a finality counter, so it cannot loop forever — but it can loop twice if it dies and is surveilled back.
+- Enlightened Confidant only surveils if you gained life that turn; its own lifelink attack is the usual enabler.
+- Chandra's +1 returns the surveilled card to hand only if it is noncreature and nonland, which makes her a soft draw engine for Peer Review-heavy turns.
+- Hall of Echoes produces colorless mana only; do not count it as a colored source.
+- Sphinx's Approach is a real draw spell first and a tutor only on the fifth copy — do not build around the tutor line.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Fast aggro | Trade early with Last Gasp and Prophesied End, lean on Enlightened Confidant lifelink, and race with fliers once Denzilore lands. |
+| Midrange grind | Uldaros and Saheeli out-value them; hold Fatehold Charm for their big threat rather than for the draw mode. |
+| Control | Deploy one threat at a time, keep Chandra off the board until you can protect her, and use Hall of Echoes as a threat that dodges sorcery-speed sweepers. |
+
+# Iterations
+
+| Round | Change | Result |
+|-------|--------|--------|
+| v1 | First build: 4 Proctor, 4 Chronologist, 3 Prudent Fateseer, 1 Semester Foreseer, 3 Futurescribe, 3 Denzilore, 2 Saheeli, 2 Uldaros, 2 Chandra, 2 The Theorist, 3 Approach, 3 Fatehold Charm, 2 Prophesied End, 2 Last Gasp, 24 lands | sim 50.7% (FAIL), synergy 72.9, T4 0.639, P(4L) 0.647 |
+| v2 | -1 Semester Foreseer, -2 The Theorist, Jace Beleren, -1 Prophesied End / +2 Yuriko, Hope from the Shadows, +2 Enlightened Confidant (cut four-mana do-nothings for one- and two-mana surveil engines) | sim 50.7 → 58.7%, synergy 72.9 → 72.2, T4 0.639 → 0.623, P(4L) 0.647 → 0.623 — all gates pass |
+
+# Deck list (Arena import)
+
+```
+Fatehold Rehearsal
+Deck
+4 Proctor of Potential
+4 Fatehold Chronologist
+3 Prudent Fateseer
+3 Desperate Futurescribe
+3 Denzilore Fatehold
+2 Saheeli, Consul of Oversight
+2 Uldaros Theorix
+2 Yuriko, Hope from the Shadows
+2 Enlightened Confidant
+2 Chandra, Chill of Compliance
+3 Sphinx's Approach
+3 Fatehold Charm
+1 Prophesied End
+2 Last Gasp
+4 Fatehold Annex
+4 Theorix Annex
+2 Meticulous Commons
+2 Deserted Beach
+2 Shipwreck Marsh
+1 Hall of Echoes
+3 Plains
+4 Island
+2 Swamp
+```
