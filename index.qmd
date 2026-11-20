@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-19**:
+Deck guides published **2026-11-20**:
 
-- **[Scribewyrm](decks/2026-11-19-scribewyrm.html)** — Blue-Red-Green Prepared x Dragon tokens — the Reality Fracture set identity deck  `reality-fracture` `prepared`
-- **[Grave Plot](decks/2026-11-19-grave-plot.html)** — White, Blue, Black, Green — Plot x Delirium x Surveil  `combo` `Plot` `Delirium` `Surveil`
+- **[Gravechoir](decks/2026-11-20-gravechoir.html)** — Blue-Black-Red-Green | Threshold x Harmonize  `combo` `Threshold` `Harmonize`

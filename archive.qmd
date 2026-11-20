@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-11-11 · **277** cards locked · **Reality Fracture 175/285** remaining
+**Card pool consumption** — cycle started 2026-11-11 · **295** cards locked · **Reality Fracture 175/285** remaining
 
-**185 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**186 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-20
+
+- **[Gravechoir](decks/2026-11-20-gravechoir.html)** — Blue-Black-Red-Green | Threshold x Harmonize  `combo` `Threshold` `Harmonize`
 
 ## 2026-11-19
 

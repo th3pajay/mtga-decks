@@ -1,0 +1,163 @@
+---
+title: "Gravechoir"
+subtitle: "Blue-Black-Red-Green | Threshold x Harmonize"
+date: "2026-11-20"
+categories: ["combo", "Threshold", "Harmonize"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard (60 cards) |
+| Colors | Blue, Black, Red, Green |
+| Archetype | Graveyard midrange with a recursion engine |
+| Size | 60 mainboard, no sideboard |
+| Primary win | Scion of the Deep tokens and unblockable Threshold creatures, forced through with Rogue's Passage |
+| Secondary win | Harmonize reach: Channeled Dragonfire, Glacial Dragonhunt and hasty Wild Ride cast a second time out of the graveyard |
+
+## Overview
+
+Gravechoir is built on one overlap: both Threshold and Harmonize read the graveyard, but they read it in different directions. Threshold wants seven or more cards in the bin so its creatures switch on. Harmonize wants spells in the bin so they can be cast again from there, with a creature tapped to shave the generic cost by its power.
+
+Fill the graveyard and every permanent in the deck improves. Then tap what improved to pay for the second copy of every spell. A surveilled land, a milled spell and a discarded creature are not losses here; they are the fuel that turns a 2/2 into an unblockable evasive threat and the fuel that turns a one-mana burn spell into a repeatable finisher.
+
+The deck's engine, in order: surveil and loot to reach seven cards, Threshold creatures to convert that count into evasion and power, then Harmonize spells to convert that power back into cards and damage. Kiora, the Rising Tide is the hinge, because Scion of the Deep is both the biggest body in the deck and the biggest Harmonize discount in the deck.
+
+## Approach
+
+### Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Stock | 1-3 | Land a surveil or loot permanent, trade cards into the bin, keep the board calm |
+| Switch on | 3-5 | Hit seven cards in graveyard, Threshold turns on, Inkmage and Hermit become unblockable |
+| Convert | 5-7 | Attack with evasion, tap the biggest body to cast Harmonize spells from the yard for two or three mana |
+| Close | 7+ | Rogue's Passage clears the last blocker, Dragonfire and Dragonhunt finish from the yard |
+
+### Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Cephalid Inkmage | {2}{U} | Primary enabler: surveil 3 on entry, then an unblockable 2/2 once Threshold is live |
+| Thought Shucker | {1}{U} | Threshold sink: one activation of a +1/+1 counter plus a card, and a body that survives early blocks |
+| Mindwhisker | {2}{U} | Repeatable upkeep surveil 1, and a permanent -1/-0 to every opposing creature at Threshold |
+| Kiora, the Rising Tide | {2}{U} | Engine hinge: loots on entry, makes a legendary 8/8 Scion of the Deep on every Threshold attack |
+| Nightwhorl Hermit | {2}{U} | Vigilant 1/4 that becomes unblockable at Threshold, so it blocks early and wins late |
+| Dreadwing Scavenger | {1}{U}{B} | Flying looter that loots on entry and on attack, then trades up with deathtouch at Threshold |
+| Tidecaller Mentor | {1}{U}{B} | Menace body plus a Threshold bounce that clears a blocker or resets a problem permanent |
+| Crypt Feaster | {3}{B} | Menace attacker that grows +2/+0 on every Threshold attack |
+| Billowing Shriekmass | {3}{B} | Flying mill 3 on entry: the fastest single-card route to seven |
+| Winternight Stories | {2}{U} | Draw three, discard two (or one creature) for free; Harmonize {4}{U} draws three again |
+| Glacial Dragonhunt | {U}{R} | Loot plus removal: three damage to a creature whenever you discard a nonland |
+| Mammoth Bellow | {2}{G}{U}{R} | A 5/5 Elephant now, and a near-free 5/5 Elephant later via Harmonize {5}{G}{U}{R} |
+| Roamer's Routine | {2}{G} | Finds a basic land to fix four colors; Harmonize {4}{G} finds another |
+| Channeled Dragonfire | {R} | Two damage anywhere for one mana, then two more from the graveyard |
+| Wild Ride | {R} | Three power and haste for one mana, and an alpha-strike enabler the second time |
+
+### Lands as engines
+
+| Land | What it does for the deck |
+|---|---|
+| Rogue's Passage | The win-condition land: four mana makes the Scion of the Deep, the Hermit or the Inkmage unblockable, so evasion stops being a race |
+| Thundering Falls | Untapped red and blue plus surveil 1 on entry, which is a Threshold counter on a land |
+| Underground Mortuary | Black and green plus surveil 1, the same trick in the deck's secondary colors |
+| Commercial District | Red and green plus surveil 1, mostly there to cast Mammoth Bellow and Dragonfire |
+| Evolving Wilds | Fetches the color you are missing and triggers nothing for the opponent, at the cost of a tapped land |
+| Cavern of Souls | Names Rat: Thought Shucker, Mindwhisker, Nightwhorl Hermit, Tidecaller Mentor and Mind Drill Assailant all become uncounterable |
+| Fountainport | Colorless utility that turns spare Scions, Elephants and Fish into cards, or makes chump blockers |
+
+### Curve and mana
+
+| Cost | Count | Cards |
+|---|---|---|
+| One | 2 | Channeled Dragonfire, Wild Ride |
+| Two | 8 | Thought Shucker, Glacial Dragonhunt, Roamer's Routine |
+| Three | 21 | Cephalid Inkmage, Mindwhisker, Kiora, Nightwhorl Hermit, Dreadwing Scavenger, Tidecaller Mentor, Winternight Stories |
+| Four | 3 | Crypt Feaster, Billowing Shriekmass |
+| Five | 2 | Mammoth Bellow |
+
+Average mana value is 2.86 across 36 nonland cards, on 24 lands. Six Island and three Swamp carry the base; two Mountain, two Forest, three Evolving Wilds and the surveil duals cover the red and green Harmonize costs. The deck is functionally a blue-black deck with a red-green spell package: do not keep a hand that needs green mana on turn three without a Forest, a fetch or Roamer's Routine.
+
+## Gameplay strategy
+
+### Early game
+
+Turns one and two are about stock, not pressure. Any surveil or loot effect is worth more than a vanilla body, because the first seven cards in the graveyard are worth roughly a card of value across the whole deck. Glacial Dragonhunt on turn two is the ideal opener: it replaces itself, and if you discard a nonland it kills a two-toughness threat. Thought Shucker is the patient alternative, since it blocks and then converts into a card once Threshold is live.
+
+Do not trade creatures early unless the trade fills the graveyard. Every creature that dies is a Threshold counter, but every creature that dies also removes a body you may want to tap for Harmonize later.
+
+### Mid game and the combo turn
+
+The deck's characteristic turn is five or six mana: attack with a Threshold board, then in the second main phase tap a large creature to cast a Harmonize spell out of the graveyard. The math is the point.
+
+- Mammoth Bellow from hand costs {2}{G}{U}{R} and leaves a 5/5. From the graveyard it costs {5}{G}{U}{R} minus the tapped creature's power, so a 5/5 Elephant pays its own five generic.
+- Channeled Dragonfire from the graveyard is {5}{R}{R} minus power. With a Scion of the Deep on board it is {R}{R} for two damage, and the Scion is still untapped for blocks if you attack first.
+- Winternight Stories from the graveyard is {4}{U} minus power, which is often one blue mana for draw three, discard two.
+- Wild Ride from the graveyard is {4}{R} minus power: one red for three power and haste on an unblocked attacker.
+
+A six-power creature therefore reduces any Harmonize cost to its colored pips. Scion of the Deep at eight power makes every Harmonize spell effectively free on the generic half.
+
+### Win condition 1: the passage
+
+Kiora attacks at Threshold, makes an 8/8, and the Scion attacks the following turn. Two Scions is already sixteen power. Rogue's Passage makes the biggest one unblockable for four mana, which converts a stalled board into a two-turn clock, and it works equally well on Cephalid Inkmage and Nightwhorl Hermit, which are unblockable on their own at Threshold but still need a way past a huge blocker when the game goes long. Mind Drill Assailant and Crypt Feaster are the budget versions of the same plan: menacing or oversized attackers that only need one lane cleared.
+
+### Win condition 2: the second cast
+
+Every Harmonize spell is a two-for-one by construction. Channeled Dragonfire deals two, then two more from the bin. Glacial Dragonhunt kills a creature, then kills another and loots again. Mammoth Bellow makes a 5/5, then a second 5/5 that taps to pay for the next spell. Against control, the sequence is to bait a counterspell with the first cast and win with the second, since the graveyard copy is uncounterable in practice only if you resolve the tap discount first.
+
+### Mulligan guide
+
+Keep hands with two or three lands and at least one surveil or loot effect. Keep any hand containing Cephalid Inkmage plus a second blue source. Ship hands with no graveyard filler, because the deck's creatures are all below rate until Threshold is live. One-land hands are unkeepable even with Evolving Wilds, since the deck has no zero-cost cyclers. Five-land hands are keepable if two of the lands surveil.
+
+### Key interactions and edge cases
+
+- Threshold counts only your graveyard. Seven cards, not seven creatures.
+- Harmonize exiles the spell after it resolves, so each spell is castable exactly twice.
+- Tapping a creature for Harmonize removes it from combat. Attack first, then tap in the second main phase, unless the discount is what lets you cast at all.
+- Roamer's Routine from the graveyard can find a basic land, which fixes a color mid-combo.
+- Cavern of Souls names Rat, covering five of the deck's creatures and making the Kiora curve uncounterable.
+- Kiora is legendary: a second copy in hand is a discard outlet for Winternight Stories, not a dead card.
+
+### Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Block with Hermit and Thought Shucker, use Glacial Dragonhunt as removal, race with Scions once Threshold is live |
+| Midrange | Grind with Winternight Stories and Dreadwing Scavenger; the second cast of every spell is the card advantage that wins the long game |
+| Control | Bait counters with the first cast, resolve Cavern of Souls creatures, and win with Rogue's Passage on an uncounterable body |
+| Combo | Tidecaller Mentor bounce and Channeled Dragonfire buy turns; the deck is faster than it looks once Kiora lands |
+
+## Deck list (Arena import)
+
+```
+Gravechoir
+Deck
+4 Cephalid Inkmage
+3 Thought Shucker
+3 Mindwhisker
+3 Kiora, the Rising Tide
+2 Nightwhorl Hermit
+3 Dreadwing Scavenger
+2 Tidecaller Mentor
+2 Crypt Feaster
+1 Billowing Shriekmass
+4 Winternight Stories
+3 Glacial Dragonhunt
+2 Mammoth Bellow
+2 Roamer's Routine
+1 Channeled Dragonfire
+1 Wild Ride
+6 Island
+3 Swamp
+2 Mountain
+2 Forest
+3 Evolving Wilds
+2 Thundering Falls
+1 Commercial District
+1 Underground Mortuary
+2 Rogue's Passage
+1 Cavern of Souls
+1 Fountainport
+```
