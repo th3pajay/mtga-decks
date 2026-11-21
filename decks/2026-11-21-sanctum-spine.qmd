@@ -1,0 +1,152 @@
+---
+title: "Sanctum Spine"
+subtitle: "Sultai (blue / black / green) empower-loyalty combo — Reality Fracture set deck"
+date: "2026-11-21"
+categories: ["reality-fracture", "empower"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Green |
+| Archetype | Combo-midrange, average mana value 2.83 |
+| Size | 60 cards, 24 lands |
+| Mechanics | Empower (flagship) fused with landfall and planeswalker loyalty payoffs |
+| Primary win | Stack non-legendary Jace tokens to 25 or more loyalty, then Jace, Reality Sculptor's 0 ability exiles every opponent's library but the bottom card |
+| Secondary win | Sanctum Lurker turns every Jace into a repeatable drain, and Kiora of Salt and Sand grants planeswalkers a −8 that makes 8/8 hexproof Leviathans |
+| Deck score | 91.0 overall (synergy 73.1, cohesion 73.1) |
+
+# Overview
+
+Sanctum Spine is the set's empower mechanic pushed into a single question: how fast can the board hold twenty-five loyalty among Jaces? Every empower card in the deck is a loyalty deposit, and the deposits are all on bodies or on cheap spells, so the deck develops a normal board while it secretly builds a countdown.
+
+The engine has three parts. **Empower sources** put loyalty on a Jace token, or create the token first if you have none: Jace's Machinations is eight at instant speed, Way of the Deathbringer is five plus a permanent that hands every planeswalker a −2 token maker, Mindseeker Oculus is four on a two-power body, Tam's Resistance is four for two mana, Theorist's Proxy is three with flash, and Avatar of Burgeoning Echoes pays two on every landfall. **The accumulation pieces** are the ones nobody blocks: Theorist's Sanctum is a land that adds two more every turn for {2}{U}, Jace, Reality Sculptor's own +1 adds one per Island, and Sanctum Lurker makes the tokens survive at zero loyalty so the count never resets. **The payoffs** are the twenty-five mark for the library exile, plus the two planeswalker-granted abilities that turn loyalty into a clock: Sanctum Lurker's +2 drains one life per opponent per Jace, and Kiora's −8 makes an 8/8 hexproof Leviathan.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | No one-drop by design. Turn two is Avatar of Burgeoning Echoes, Theorist's Proxy at flash speed, Solve for Disappointment, or Countersculpt held up. Every one of those either makes a Jace or starts the loyalty account. |
+| Turns 2-3 | Sanctum Lurker and Mindseeker Oculus. Lurker is the safety net: from here zero-loyalty Jaces stay on the battlefield, so loyalty is a ratchet rather than a resource you spend. |
+| Turns 3-4 | Jace's Machinations, usually on the opponent's end step. Eight counters plus instant-speed loyalty activation is the turn the count jumps from single digits to the high teens. |
+| Turns 4-6 | Jace, Reality Sculptor, then Theorist's Sanctum activations and a second Machinations. Twenty-five loyalty is normally reached on the turn after Jace lands. |
+| The finish | Zero ability on Jace: exile all but the bottom card of each opponent's library. If the drain plan got there first, the Lurker did it; if the board stalled, Kiora's granted −8 made Leviathans. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Avatar of Burgeoning Echoes | 4 | Two-mana landfall engine: two loyalty per land, every land; also grants planeswalkers a −10 counter dump |
+| Sanctum Lurker | 4 | Three-power body, one loyalty on entry, and the rules engine of the deck: zero-loyalty planeswalkers survive, and every planeswalker gains a +2 drain |
+| Mindseeker Oculus | 3 | Four loyalty on entry for three mana, attached to a 2/1 that blocks |
+| Theorist's Proxy | 3 | Flash blocker that deposits three loyalty, and a free counterspell shield for {U} |
+| Simulacrum Shaper | 2 | Fetches a basic land onto the battlefield, which is two more loyalty through Avatar and a land drop for the turn; cantrips when it dies |
+| Kiora of Salt and Sand | 1 | Grants planeswalkers the −8 Leviathan ability; untaps and unblocks an attacker whenever you activated loyalty |
+| Jace, Reality Sculptor | 3 | Win condition at five mana: +1 adds loyalty per Island, 0 exiles libraries at twenty-five |
+| Jace's Machinations | 4 | The biggest single deposit: eight loyalty, and it lets you use loyalty abilities at instant speed for the turn |
+| Way of the Deathbringer | 3 | Five loyalty on entry, then every planeswalker can make a 4/4 trample Beast for −2 |
+| Solve for Disappointment | 3 | Discard plus one loyalty: interaction that advances the count |
+| Countersculpt | 2 | Hard counter for two mana when you can behold a Jace, plus one loyalty |
+| Rewrite Regrets | 2 | Rebuys a dead Lurker, a spent Jace or a Shaper for four mana, plus two loyalty |
+| Tam's Resistance | 2 | Two mana for four loyalty and a +1/+1 counter with vigilance |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|------|-------|-------------------|
+| Transformative Commons | 4 | {G} or {U} and untapped whenever you control a planeswalker, which is most turns after two |
+| Theorix Annex | 4 | {U} or {B}, the black source that also turns on for free once a Jace exists |
+| Theorist's Sanctum | 2 | The win-condition land: {2}{U} and tap for two more loyalty every turn, and it enters untapped by beholding a Jace, even one revealed from hand |
+| Hall of Echoes | 1 | Five mana turns it into a copy of a Leviathan or a Lurker for a second drain engine, with the legend rule switched off |
+| Island / Swamp / Forest | 5 / 4 / 4 | Fifteen blue sources counting the Sanctums and duals, eight black, eight green |
+
+## Curve and mana
+
+Fourteen two-drops, seventeen three-drops, two four-drops and three five-drops, with no one-drop. The shape is deliberate: the deck wants to spend turns two through four deploying empower bodies and holding up Countersculpt, not to race. Twenty-four lands is one more than the curve needs because the landfall Avatar and the Theorist's Sanctum activations both convert extra lands into loyalty.
+
+The manabase is Sultai with green as the true splash: eight green sources pay for Avatar on turn two, Simulacrum Shaper on three and Tam's Resistance at any point. Eight black sources cover Lurker on three, Way on three and Rewrite Regrets on four. Fifteen blue sources exist because Jace, Machinations, Oculus, Proxy and Countersculpt all want blue on curve. Hall of Echoes makes colorless mana only and should never be counted as a colored source.
+
+# Gameplay strategy
+
+## Early game
+
+There is no turn-one play, so the first decision is which two-drop to run out. Avatar of Burgeoning Echoes is the default: it starts the loyalty account on the very next land and it is the body that survives most one-for-one removal. Against decks with cheap interaction, lead Theorist's Proxy instead — it deposits the same three loyalty from flash and forces them to spend a card on a 0/3. Countersculpt should be held rather than cycled; beholding a Jace in hand is legal, so it is a live two-mana counter before you ever have a token.
+
+## Mid game
+
+Turns three to five are about not spending loyalty. Sanctum Lurker changes the maths of the whole deck: while it is out, a Jace token that has been drained to zero stays on the battlefield, so every counter you add is permanent progress toward twenty-five. That is also why the Lurker is the deck's most important non-land card and the first thing to rebuy with Rewrite Regrets.
+
+Watch the count out loud. Two lands plus Avatar is four by turn three, Oculus is eight, Machinations is sixteen, Way is twenty-one, and the Sanctum adds two a turn. Jace's own +1 adds one per Island, which is usually four or five by the time he lands.
+
+## The combo turn
+
+The finish turn is Jace, Reality Sculptor plus one big deposit. Sequence it as: Jace first, +1 for Islands; then Machinations, which puts you at instant speed for the rest of the turn; then any remaining deposits. At twenty-five loyalty, activate the 0 ability — every opponent exiles their library down to the bottom card and loses on their next draw step. Because Machinations grants instant-speed loyalty, you can also respond to a removal spell by firing the 0 ability before Jace dies, which is the reason the deck plays four copies of a card that looks like a pump spell.
+
+## Win condition 2
+
+Sanctum Lurker's granted +2 is the fair-weather win. With two Jace tokens and a Lurker, that is two damage to each opponent every turn plus two loyalty, so the drain and the twenty-five counter plan run on the same activations. The second combat route is Kiora: her −8 grant makes an 8/8 hexproof Leviathan, and Hall of Echoes copies one for a second 8/8 out of a land slot. Way of the Deathbringer's −2 is the grindy version — sacrifice a spare body, get a 4/4 trampler, keep the Jace.
+
+## Mulligan guide
+
+Keep hands with two or three lands, at least one two-drop that makes loyalty, and one of Machinations or Way of the Deathbringer. A hand of only three-drops is a mulligan: the deck's whole curve is two-then-three, and a hand that starts on turn three is a turn behind on the count. Ship one-land hands without Avatar. Keep any hand containing Sanctum Lurker plus two lands, because the Lurker makes every later topdecked empower effect count.
+
+## Key interactions and edge cases
+
+- Jace tokens created by empower are not legendary, so several can be on the battlefield at once and their loyalty adds up for the twenty-five check.
+- Sanctum Lurker stops the zero-loyalty state-based action, not damage. A Jace token still dies to a Lightning Strike; Lurker only keeps it alive after you spend its last counter.
+- Jace's 0 ability is a single ability, so it exiles libraries even if an opponent has hexproof or ward. It does nothing to a graveyard-based opponent, which is what the drain plan is for.
+- Beholding a Jace can be done by revealing a Jace card from hand, so Countersculpt and Theorist's Sanctum are live before the first token exists.
+- Theorist's Sanctum is an Island, so it counts for Jace's +1 and can be fetched by nothing in this deck — do not cut it below two.
+- The 0 ability needs the loyalty at the moment of activation. Do not spend Machinations counters on the −3 fog before checking the count.
+- Hall of Echoes copying a Jace token is a rules trap: copy a creature instead and keep the planeswalker count clean.
+- Rewrite Regrets returns mana value six or less, so it can rebuy Jace, Reality Sculptor, the Lurker or the Shaper, but never a token.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Fast aggro | Trade with Solve for Disappointment and Theorist's Proxy, land Lurker before Jace, and use Jace's −3 to blunt a swing. The drain from Lurker plus lifegain buys the two turns the count needs. |
+| Midrange grind | Way of the Deathbringer's Beast tokens and Rewrite Regrets out-value them; hold Countersculpt for their sweeper. |
+| Control | Deploy one threat at a time and never tap out for Jace without Machinations in hand. Two tokens survive a single sweeper, and the Sanctum keeps adding loyalty from a land slot they cannot easily answer. |
+| Combo | Countersculpt plus discard is the interaction suite; race with the twenty-five count, which is faster than most graveyard or token combos in the format. |
+
+# Iterations
+
+| Round | Change | Result |
+|-------|--------|--------|
+| v1 | First build: 4 Avatar, 4 Lurker, 3 Oculus, 3 Proxy, 2 Shaper, 1 Kiora, 3 Jace, 4 Machinations, 3 Way, 3 Solve, 2 Countersculpt, 2 Rewrite, 2 Tam's Resistance, 24 lands on 5 Island / 5 Swamp / 3 Forest | sim 52.3%, synergy 73.1, T4 0.624, P(4 lands) 0.630 — all gates pass |
+| v2 | −1 Swamp, +1 Forest (green was the thinnest color at seven sources for a turn-two {G}{U} two-drop) | sim 52.3 → 55.0%, synergy 73.1 (flat), T4 0.624 → 0.615, P(4 lands) 0.630 → 0.622 — all gates pass |
+
+# Deck list (Arena import)
+
+```
+Sanctum Spine
+Deck
+4 Avatar of Burgeoning Echoes
+4 Sanctum Lurker
+3 Mindseeker Oculus
+3 Theorist's Proxy
+2 Simulacrum Shaper
+1 Kiora of Salt and Sand
+3 Jace, Reality Sculptor
+4 Jace's Machinations
+3 Way of the Deathbringer
+3 Solve for Disappointment
+2 Countersculpt
+2 Rewrite Regrets
+2 Tam's Resistance
+4 Transformative Commons
+4 Theorix Annex
+2 Theorist's Sanctum
+1 Hall of Echoes
+5 Island
+4 Swamp
+4 Forest
+```

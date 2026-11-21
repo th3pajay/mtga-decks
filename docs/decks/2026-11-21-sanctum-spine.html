@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-11-21">
+
+<title>Sanctum Spine – MTG Decks — Daily Standard Guides</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a8dd2cfac03084eab458e3b1c626e1f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MTG Decks — Daily Standard Guides</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Today</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../archive.html"> 
+<span class="menu-text">Archive</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#at-a-glance" id="toc-at-a-glance" class="nav-link active" data-scroll-target="#at-a-glance">At a glance</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
+  <ul class="collapse">
+  <li><a href="#game-plan-phases" id="toc-game-plan-phases" class="nav-link" data-scroll-target="#game-plan-phases">Game plan phases</a></li>
+  <li><a href="#card-roles" id="toc-card-roles" class="nav-link" data-scroll-target="#card-roles">Card roles</a></li>
+  <li><a href="#lands-as-engines" id="toc-lands-as-engines" class="nav-link" data-scroll-target="#lands-as-engines">Lands as engines</a></li>
+  <li><a href="#curve-and-mana" id="toc-curve-and-mana" class="nav-link" data-scroll-target="#curve-and-mana">Curve and mana</a></li>
+  </ul></li>
+  <li><a href="#gameplay-strategy" id="toc-gameplay-strategy" class="nav-link" data-scroll-target="#gameplay-strategy">Gameplay strategy</a>
+  <ul class="collapse">
+  <li><a href="#early-game" id="toc-early-game" class="nav-link" data-scroll-target="#early-game">Early game</a></li>
+  <li><a href="#mid-game" id="toc-mid-game" class="nav-link" data-scroll-target="#mid-game">Mid game</a></li>
+  <li><a href="#the-combo-turn" id="toc-the-combo-turn" class="nav-link" data-scroll-target="#the-combo-turn">The combo turn</a></li>
+  <li><a href="#win-condition-2" id="toc-win-condition-2" class="nav-link" data-scroll-target="#win-condition-2">Win condition 2</a></li>
+  <li><a href="#mulligan-guide" id="toc-mulligan-guide" class="nav-link" data-scroll-target="#mulligan-guide">Mulligan guide</a></li>
+  <li><a href="#key-interactions-and-edge-cases" id="toc-key-interactions-and-edge-cases" class="nav-link" data-scroll-target="#key-interactions-and-edge-cases">Key interactions and edge cases</a></li>
+  <li><a href="#matchups" id="toc-matchups" class="nav-link" data-scroll-target="#matchups">Matchups</a></li>
+  </ul></li>
+  <li><a href="#iterations" id="toc-iterations" class="nav-link" data-scroll-target="#iterations">Iterations</a></li>
+  <li><a href="#deck-list-arena-import" id="toc-deck-list-arena-import" class="nav-link" data-scroll-target="#deck-list-arena-import">Deck list (Arena import)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sanctum Spine</h1>
+<p class="subtitle lead">Sultai (blue / black / green) empower-loyalty combo — Reality Fracture set deck</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">reality-fracture</div>
+    <div class="quarto-category">empower</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 21, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="at-a-glance" class="level1">
+<h1>At a glance</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 61%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attribute</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Format</td>
+<td>Standard (MTGA)</td>
+</tr>
+<tr class="even">
+<td>Colors</td>
+<td>Blue / Black / Green</td>
+</tr>
+<tr class="odd">
+<td>Archetype</td>
+<td>Combo-midrange, average mana value 2.83</td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>60 cards, 24 lands</td>
+</tr>
+<tr class="odd">
+<td>Mechanics</td>
+<td>Empower (flagship) fused with landfall and planeswalker loyalty payoffs</td>
+</tr>
+<tr class="even">
+<td>Primary win</td>
+<td>Stack non-legendary Jace tokens to 25 or more loyalty, then Jace, Reality Sculptor’s 0 ability exiles every opponent’s library but the bottom card</td>
+</tr>
+<tr class="odd">
+<td>Secondary win</td>
+<td>Sanctum Lurker turns every Jace into a repeatable drain, and Kiora of Salt and Sand grants planeswalkers a −8 that makes 8/8 hexproof Leviathans</td>
+</tr>
+<tr class="even">
+<td>Deck score</td>
+<td>91.0 overall (synergy 73.1, cohesion 73.1)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Sanctum Spine is the set’s empower mechanic pushed into a single question: how fast can the board hold twenty-five loyalty among Jaces? Every empower card in the deck is a loyalty deposit, and the deposits are all on bodies or on cheap spells, so the deck develops a normal board while it secretly builds a countdown.</p>
+<p>The engine has three parts. <strong>Empower sources</strong> put loyalty on a Jace token, or create the token first if you have none: Jace’s Machinations is eight at instant speed, Way of the Deathbringer is five plus a permanent that hands every planeswalker a −2 token maker, Mindseeker Oculus is four on a two-power body, Tam’s Resistance is four for two mana, Theorist’s Proxy is three with flash, and Avatar of Burgeoning Echoes pays two on every landfall. <strong>The accumulation pieces</strong> are the ones nobody blocks: Theorist’s Sanctum is a land that adds two more every turn for {2}{U}, Jace, Reality Sculptor’s own +1 adds one per Island, and Sanctum Lurker makes the tokens survive at zero loyalty so the count never resets. <strong>The payoffs</strong> are the twenty-five mark for the library exile, plus the two planeswalker-granted abilities that turn loyalty into a clock: Sanctum Lurker’s +2 drains one life per opponent per Jace, and Kiora’s −8 makes an 8/8 hexproof Leviathan.</p>
+<p>Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there.</p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="game-plan-phases" class="level2">
+<h2 class="anchored" data-anchor-id="game-plan-phases">Game plan phases</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>What happens</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Turns 1-2</td>
+<td>No one-drop by design. Turn two is Avatar of Burgeoning Echoes, Theorist’s Proxy at flash speed, Solve for Disappointment, or Countersculpt held up. Every one of those either makes a Jace or starts the loyalty account.</td>
+</tr>
+<tr class="even">
+<td>Turns 2-3</td>
+<td>Sanctum Lurker and Mindseeker Oculus. Lurker is the safety net: from here zero-loyalty Jaces stay on the battlefield, so loyalty is a ratchet rather than a resource you spend.</td>
+</tr>
+<tr class="odd">
+<td>Turns 3-4</td>
+<td>Jace’s Machinations, usually on the opponent’s end step. Eight counters plus instant-speed loyalty activation is the turn the count jumps from single digits to the high teens.</td>
+</tr>
+<tr class="even">
+<td>Turns 4-6</td>
+<td>Jace, Reality Sculptor, then Theorist’s Sanctum activations and a second Machinations. Twenty-five loyalty is normally reached on the turn after Jace lands.</td>
+</tr>
+<tr class="odd">
+<td>The finish</td>
+<td>Zero ability on Jace: exile all but the bottom card of each opponent’s library. If the drain plan got there first, the Lurker did it; if the board stalled, Kiora’s granted −8 made Leviathans.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="card-roles" class="level2">
+<h2 class="anchored" data-anchor-id="card-roles">Card roles</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 36%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Card</th>
+<th>Count</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Avatar of Burgeoning Echoes</td>
+<td>4</td>
+<td>Two-mana landfall engine: two loyalty per land, every land; also grants planeswalkers a −10 counter dump</td>
+</tr>
+<tr class="even">
+<td>Sanctum Lurker</td>
+<td>4</td>
+<td>Three-power body, one loyalty on entry, and the rules engine of the deck: zero-loyalty planeswalkers survive, and every planeswalker gains a +2 drain</td>
+</tr>
+<tr class="odd">
+<td>Mindseeker Oculus</td>
+<td>3</td>
+<td>Four loyalty on entry for three mana, attached to a 2/1 that blocks</td>
+</tr>
+<tr class="even">
+<td>Theorist’s Proxy</td>
+<td>3</td>
+<td>Flash blocker that deposits three loyalty, and a free counterspell shield for {U}</td>
+</tr>
+<tr class="odd">
+<td>Simulacrum Shaper</td>
+<td>2</td>
+<td>Fetches a basic land onto the battlefield, which is two more loyalty through Avatar and a land drop for the turn; cantrips when it dies</td>
+</tr>
+<tr class="even">
+<td>Kiora of Salt and Sand</td>
+<td>1</td>
+<td>Grants planeswalkers the −8 Leviathan ability; untaps and unblocks an attacker whenever you activated loyalty</td>
+</tr>
+<tr class="odd">
+<td>Jace, Reality Sculptor</td>
+<td>3</td>
+<td>Win condition at five mana: +1 adds loyalty per Island, 0 exiles libraries at twenty-five</td>
+</tr>
+<tr class="even">
+<td>Jace’s Machinations</td>
+<td>4</td>
+<td>The biggest single deposit: eight loyalty, and it lets you use loyalty abilities at instant speed for the turn</td>
+</tr>
+<tr class="odd">
+<td>Way of the Deathbringer</td>
+<td>3</td>
+<td>Five loyalty on entry, then every planeswalker can make a 4/4 trample Beast for −2</td>
+</tr>
+<tr class="even">
+<td>Solve for Disappointment</td>
+<td>3</td>
+<td>Discard plus one loyalty: interaction that advances the count</td>
+</tr>
+<tr class="odd">
+<td>Countersculpt</td>
+<td>2</td>
+<td>Hard counter for two mana when you can behold a Jace, plus one loyalty</td>
+</tr>
+<tr class="even">
+<td>Rewrite Regrets</td>
+<td>2</td>
+<td>Rebuys a dead Lurker, a spent Jace or a Shaper for four mana, plus two loyalty</td>
+</tr>
+<tr class="odd">
+<td>Tam’s Resistance</td>
+<td>2</td>
+<td>Two mana for four loyalty and a +1/+1 counter with vigilance</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="lands-as-engines" class="level2">
+<h2 class="anchored" data-anchor-id="lands-as-engines">Lands as engines</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 21%">
+<col style="width: 59%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Land</th>
+<th>Count</th>
+<th>What it does here</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Transformative Commons</td>
+<td>4</td>
+<td>{G} or {U} and untapped whenever you control a planeswalker, which is most turns after two</td>
+</tr>
+<tr class="even">
+<td>Theorix Annex</td>
+<td>4</td>
+<td>{U} or {B}, the black source that also turns on for free once a Jace exists</td>
+</tr>
+<tr class="odd">
+<td>Theorist’s Sanctum</td>
+<td>2</td>
+<td>The win-condition land: {2}{U} and tap for two more loyalty every turn, and it enters untapped by beholding a Jace, even one revealed from hand</td>
+</tr>
+<tr class="even">
+<td>Hall of Echoes</td>
+<td>1</td>
+<td>Five mana turns it into a copy of a Leviathan or a Lurker for a second drain engine, with the legend rule switched off</td>
+</tr>
+<tr class="odd">
+<td>Island / Swamp / Forest</td>
+<td>5 / 4 / 4</td>
+<td>Fifteen blue sources counting the Sanctums and duals, eight black, eight green</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="curve-and-mana" class="level2">
+<h2 class="anchored" data-anchor-id="curve-and-mana">Curve and mana</h2>
+<p>Fourteen two-drops, seventeen three-drops, two four-drops and three five-drops, with no one-drop. The shape is deliberate: the deck wants to spend turns two through four deploying empower bodies and holding up Countersculpt, not to race. Twenty-four lands is one more than the curve needs because the landfall Avatar and the Theorist’s Sanctum activations both convert extra lands into loyalty.</p>
+<p>The manabase is Sultai with green as the true splash: eight green sources pay for Avatar on turn two, Simulacrum Shaper on three and Tam’s Resistance at any point. Eight black sources cover Lurker on three, Way on three and Rewrite Regrets on four. Fifteen blue sources exist because Jace, Machinations, Oculus, Proxy and Countersculpt all want blue on curve. Hall of Echoes makes colorless mana only and should never be counted as a colored source.</p>
+</section>
+</section>
+<section id="gameplay-strategy" class="level1">
+<h1>Gameplay strategy</h1>
+<section id="early-game" class="level2">
+<h2 class="anchored" data-anchor-id="early-game">Early game</h2>
+<p>There is no turn-one play, so the first decision is which two-drop to run out. Avatar of Burgeoning Echoes is the default: it starts the loyalty account on the very next land and it is the body that survives most one-for-one removal. Against decks with cheap interaction, lead Theorist’s Proxy instead — it deposits the same three loyalty from flash and forces them to spend a card on a 0/3. Countersculpt should be held rather than cycled; beholding a Jace in hand is legal, so it is a live two-mana counter before you ever have a token.</p>
+</section>
+<section id="mid-game" class="level2">
+<h2 class="anchored" data-anchor-id="mid-game">Mid game</h2>
+<p>Turns three to five are about not spending loyalty. Sanctum Lurker changes the maths of the whole deck: while it is out, a Jace token that has been drained to zero stays on the battlefield, so every counter you add is permanent progress toward twenty-five. That is also why the Lurker is the deck’s most important non-land card and the first thing to rebuy with Rewrite Regrets.</p>
+<p>Watch the count out loud. Two lands plus Avatar is four by turn three, Oculus is eight, Machinations is sixteen, Way is twenty-one, and the Sanctum adds two a turn. Jace’s own +1 adds one per Island, which is usually four or five by the time he lands.</p>
+</section>
+<section id="the-combo-turn" class="level2">
+<h2 class="anchored" data-anchor-id="the-combo-turn">The combo turn</h2>
+<p>The finish turn is Jace, Reality Sculptor plus one big deposit. Sequence it as: Jace first, +1 for Islands; then Machinations, which puts you at instant speed for the rest of the turn; then any remaining deposits. At twenty-five loyalty, activate the 0 ability — every opponent exiles their library down to the bottom card and loses on their next draw step. Because Machinations grants instant-speed loyalty, you can also respond to a removal spell by firing the 0 ability before Jace dies, which is the reason the deck plays four copies of a card that looks like a pump spell.</p>
+</section>
+<section id="win-condition-2" class="level2">
+<h2 class="anchored" data-anchor-id="win-condition-2">Win condition 2</h2>
+<p>Sanctum Lurker’s granted +2 is the fair-weather win. With two Jace tokens and a Lurker, that is two damage to each opponent every turn plus two loyalty, so the drain and the twenty-five counter plan run on the same activations. The second combat route is Kiora: her −8 grant makes an 8/8 hexproof Leviathan, and Hall of Echoes copies one for a second 8/8 out of a land slot. Way of the Deathbringer’s −2 is the grindy version — sacrifice a spare body, get a 4/4 trampler, keep the Jace.</p>
+</section>
+<section id="mulligan-guide" class="level2">
+<h2 class="anchored" data-anchor-id="mulligan-guide">Mulligan guide</h2>
+<p>Keep hands with two or three lands, at least one two-drop that makes loyalty, and one of Machinations or Way of the Deathbringer. A hand of only three-drops is a mulligan: the deck’s whole curve is two-then-three, and a hand that starts on turn three is a turn behind on the count. Ship one-land hands without Avatar. Keep any hand containing Sanctum Lurker plus two lands, because the Lurker makes every later topdecked empower effect count.</p>
+</section>
+<section id="key-interactions-and-edge-cases" class="level2">
+<h2 class="anchored" data-anchor-id="key-interactions-and-edge-cases">Key interactions and edge cases</h2>
+<ul>
+<li>Jace tokens created by empower are not legendary, so several can be on the battlefield at once and their loyalty adds up for the twenty-five check.</li>
+<li>Sanctum Lurker stops the zero-loyalty state-based action, not damage. A Jace token still dies to a Lightning Strike; Lurker only keeps it alive after you spend its last counter.</li>
+<li>Jace’s 0 ability is a single ability, so it exiles libraries even if an opponent has hexproof or ward. It does nothing to a graveyard-based opponent, which is what the drain plan is for.</li>
+<li>Beholding a Jace can be done by revealing a Jace card from hand, so Countersculpt and Theorist’s Sanctum are live before the first token exists.</li>
+<li>Theorist’s Sanctum is an Island, so it counts for Jace’s +1 and can be fetched by nothing in this deck — do not cut it below two.</li>
+<li>The 0 ability needs the loyalty at the moment of activation. Do not spend Machinations counters on the −3 fog before checking the count.</li>
+<li>Hall of Echoes copying a Jace token is a rules trap: copy a creature instead and keep the planeswalker count clean.</li>
+<li>Rewrite Regrets returns mana value six or less, so it can rebuy Jace, Reality Sculptor, the Lurker or the Shaper, but never a token.</li>
+</ul>
+</section>
+<section id="matchups" class="level2">
+<h2 class="anchored" data-anchor-id="matchups">Matchups</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 62%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Opponent</th>
+<th>Plan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fast aggro</td>
+<td>Trade with Solve for Disappointment and Theorist’s Proxy, land Lurker before Jace, and use Jace’s −3 to blunt a swing. The drain from Lurker plus lifegain buys the two turns the count needs.</td>
+</tr>
+<tr class="even">
+<td>Midrange grind</td>
+<td>Way of the Deathbringer’s Beast tokens and Rewrite Regrets out-value them; hold Countersculpt for their sweeper.</td>
+</tr>
+<tr class="odd">
+<td>Control</td>
+<td>Deploy one threat at a time and never tap out for Jace without Machinations in hand. Two tokens survive a single sweeper, and the Sanctum keeps adding loyalty from a land slot they cannot easily answer.</td>
+</tr>
+<tr class="even">
+<td>Combo</td>
+<td>Countersculpt plus discard is the interaction suite; race with the twenty-five count, which is faster than most graveyard or token combos in the format.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="iterations" class="level1">
+<h1>Iterations</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 34%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Round</th>
+<th>Change</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>v1</td>
+<td>First build: 4 Avatar, 4 Lurker, 3 Oculus, 3 Proxy, 2 Shaper, 1 Kiora, 3 Jace, 4 Machinations, 3 Way, 3 Solve, 2 Countersculpt, 2 Rewrite, 2 Tam’s Resistance, 24 lands on 5 Island / 5 Swamp / 3 Forest</td>
+<td>sim 52.3%, synergy 73.1, T4 0.624, P(4 lands) 0.630 — all gates pass</td>
+</tr>
+<tr class="even">
+<td>v2</td>
+<td>−1 Swamp, +1 Forest (green was the thinnest color at seven sources for a turn-two {G}{U} two-drop)</td>
+<td>sim 52.3 → 55.0%, synergy 73.1 (flat), T4 0.624 → 0.615, P(4 lands) 0.630 → 0.622 — all gates pass</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="deck-list-arena-import" class="level1">
+<h1>Deck list (Arena import)</h1>
+<pre><code>Sanctum Spine
+Deck
+4 Avatar of Burgeoning Echoes
+4 Sanctum Lurker
+3 Mindseeker Oculus
+3 Theorist's Proxy
+2 Simulacrum Shaper
+1 Kiora of Salt and Sand
+3 Jace, Reality Sculptor
+4 Jace's Machinations
+3 Way of the Deathbringer
+3 Solve for Disappointment
+2 Countersculpt
+2 Rewrite Regrets
+2 Tam's Resistance
+4 Transformative Commons
+4 Theorix Annex
+2 Theorist's Sanctum
+1 Hall of Echoes
+5 Island
+4 Swamp
+4 Forest</code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script data-goatcounter="https://th3pajay.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>From th3pajay — a new Standard deck guide every morning</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/th3pajay/mtga-decks">Source on GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
