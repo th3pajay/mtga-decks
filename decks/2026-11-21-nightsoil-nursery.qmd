@@ -1,0 +1,112 @@
+---
+title: "Nightsoil Nursery"
+subtitle: "Dimir (Blue-Black) — Threshold × Offspring"
+date: "2026-11-21"
+categories: ["combo", "threshold", "offspring"]
+---
+
+
+## At a glance
+
+| | |
+|---|---|
+| Format | Standard |
+| Colors | Blue-Black (Dimir) |
+| Archetype | Graveyard midrange with a tokens sub-theme |
+| Deck size | 60 cards (24 lands) |
+| Primary win | Threshold beatdown: unblockable Rats plus Kiora's 8/8 Scion of the Deep |
+| Secondary win | Vren, the Relentless builds a Rat swarm that grows one Rat at a time |
+| Land as win condition | Restless Reef (a 4/4 deathtouch Shark that mills four on every attack) and Rogue's Passage |
+
+## Overview
+
+Nightsoil Nursery is a two-mechanic engine. **Offspring** gives you a second, cheaper body on every copy of Darkstar Augur and Iridescent Vinelasher. **Threshold** turns those bodies and the cards they bury into a clock: once seven cards sit in your graveyard, half the deck stops being fair.
+
+The bridge between the two mechanics is the surveil triggers. Every creature that enters triggers Gossip's Talent and Snarling Gorehound, every attack from Restless Reef mills four, and Cephalid Inkmage stocks three on arrival. Offspring does double duty here: the token copy is a second enter trigger, so a single Darkstar Augur with offspring surveils twice, draws twice, and doubles the life loss it converts into cards. The graveyard fills itself in two turns of normal play, and from then on your one- and two-mana Rats attack as unblockable threats while Vren converts every trade on the opponent's side into another Rat.
+
+The deck does not need a single explosive turn. It wants to curve out, bury seven cards by turn four or five, and then win a race nobody else can win because your creatures cannot be blocked.
+
+## Approach
+
+**Turns 1-3, bury the library.** Land, one-drop, two-drop, surveil. Snarling Gorehound and Shoreline Looter are the ideal openers: the Hound surveils on every subsequent cheap creature, the Looter cannot be blocked and draws once Threshold is live. Cephalid Inkmage is the single best three-drop because it both stocks three cards and becomes unblockable the moment the count hits seven.
+
+**Turns 4-6, flip Threshold.** Keep the count at seven or more, then convert. Mindwhisker shrinks the opponent's board by one power, Shoreline Looter and Cephalid Inkmage pick up evasion that was not printed on them, and Persistent Marshstalker starts returning itself from the graveyard on any Rat attack for {2}{B}. Every extra Rat token from Lord Skitter or Vren pumps the Marshstalker and pays for its own recursion loop.
+
+**Turns 6+, close.** Vren turns removal into a resource: any creature of theirs that dies is exiled instead, and each exiled creature becomes a Rat token at the end step that grows with every other Rat you control. Kiora's attack trigger adds an 8/8 Scion of the Deep to a board the opponent has already failed to stabilize against.
+
+| Role | Cards | What they do |
+|---|---|---|
+| Surveil and mill enablers | Cephalid Inkmage, Mindwhisker, Gossip's Talent, Snarling Gorehound, Quag Feast | Stock the graveyard to seven, then keep it there |
+| Threshold payoffs | Shoreline Looter, Cephalid Inkmage, Mindwhisker, Mind Drill Assailant, Persistent Marshstalker | Evasion, shrinking, card draw, recursion |
+| Offspring payoffs | Darkstar Augur, Iridescent Vinelasher | Double enter triggers and double bodies |
+| Rat glue | Persistent Marshstalker, Lord Skitter, Vren | Pump, tokens, recursion, growth |
+| Top end | Vren, the Relentless, Kiora, the Rising Tide | Win conditions that do not need the graveyard |
+| Interaction | Quag Feast, Mind Drill Assailant | Conditional removal and a 2/5 wall |
+
+| Land | Why it is in the deck |
+|---|---|
+| Restless Reef (3) | Primary land win condition: animates into a 4/4 deathtouch Shark and mills four on attack, which is both a clock and a Threshold enabler |
+| Rogue's Passage (1) | Pushes Vren or a pumped Persistent Marshstalker through a stalled board |
+| Mudflat Village (2) | Returns a Rat from the graveyard to hand, rebuying Shoreline Looter or Marshstalker |
+| Gloomlake Verge (4) | Untapped blue source that becomes a black source once an Island or Swamp is down |
+| Undercity Sewers (2) | Enters tapped, but surveils one for free |
+| Watery Grave (4) | Unconditional untapped fixing |
+
+**Curve and mana.** The deck averages 2.5 mana across its 36 non-land cards, with a single four-mana slot at the top. Five cards cost one, twelve cost two, fifteen cost three, four cost four. Twenty-four lands are deliberate: the deck wants a fourth land on turn four for Vren, Mind Drill Assailant, and Reef activation, and the sample gate measured a 0.61 probability of four lands by turn four. Seventeen blue sources and nineteen black sources cover a two-color base that is nearly a third basic lands.
+
+## Gameplay strategy
+
+**Early game.** Lead with the cheapest surveil engine you have, not with the payoff. Snarling Gorehound on one is better than Iridescent Vinelasher on one, because every later body becomes a surveil trigger. Against aggro, Quag Feast kills almost anything on turn three or four once a few cards are already in the yard; against control, hold Gossip's Talent and level it to two so an attacking 1/1 becomes unblockable.
+
+**The combo turn.** There is no single combo turn, but there is a Threshold turn. Count the graveyard out loud: you need seven. Cephalid Inkmage plus a fetch-style attack from Restless Reef usually gets there in one shot, and Mindwhisker's upkeep surveil closes the last card. Once the count is live, attack with everything that has power: the Looter and the Inkmage are unblockable, the Hermit-style evasion is already covered, and Marshstalker can be returned from the graveyard mid-combat.
+
+**Win condition 2.** Vren, the Relentless is the deck's second axis. Vren exiles every opposing creature that dies and converts each one into a Rat token at the end step that gets +1/+1 for each other Rat. Two Rats is a pair of 2/2s; four is a lethal board. Pair it with Quag Feast and Mind Drill Assailant blocks to force the trades, and with Lord Skitter to add a free Rat token every combat.
+
+**Mulligan guide.** Keep any hand with two lands and at least one surveil permanent; the deck is not fast enough to mulligan into a perfect curve. Ship hands with one land and no one-drop, and ship hands with four or more lands and no Darkstar Augur. Six is fine for a two-color deck with 24 lands.
+
+**Key interactions and edge cases.**
+
+- Offspring is optional and paid on cast. Against counterspell decks, cast Darkstar Augur without offspring first; the token copy is not worth walking into a counterspell with six mana committed.
+- Persistent Marshstalker returns itself tapped and attacking, so it does not block. Keep one back if the opponent has a lethal swing next turn.
+- Mindwhisker's -1/-0 does not kill anything on its own; it exists to make combat math bad for the opponent and to shrink blockers below Marshstalker's power.
+- Iridescent Vinelasher triggers on every land, including lands that enter tapped and including the lands you play after it dies. It is your best answer to a stalled board, because the damage does not require an attack.
+- Quag Feast destroys the target only if its mana value is less than or equal to the number of cards in your graveyard. Cast it after the mill, not before.
+- Rogue's Passage on a Mind Drill Assailant is a legitimate four-mana alpha strike: 5/5 after Threshold, unblockable, in a deck that usually has spare mana.
+
+**Matchups.** Against red aggro you are the control deck: Quag Feast and Mind Drill Assailant blocks buy the turns you need, and Mindwhisker's shrink ends most races. Against midrange, Vren out-grinds them because their removal feeds your Rats. Against control, the unblockable package plus Iridescent Vinelasher's landfall damage is the plan; do not over-commit to a board that a sweeper answers, and keep Gossip's Talent at level three for the exile-and-return value on your best attacker.
+
+## Iterations
+
+| Round | Change | Result |
+|---|---|---|
+| v1 | Baseline 60: four Daggerfang Duo, one Grim Bauble, two Hour of Defeat, no Mind Drill Assailant | synergy 69.3 FAIL, sim 54.3, T4 0.633 |
+| v1 → v2 | -2 Daggerfang Duo, -1 Grim Bauble, -2 Hour of Defeat; +2 Mind Drill Assailant, +2 Snarling Gorehound, +1 Lord Skitter (swap generic removal for Threshold density); size miscounted at 61 | synergy 70.5 PASS, sim 53.3, T4 0.616 |
+| v2 → v3 | -1 Hour of Defeat, back to exactly 60 | synergy 71.0 PASS, sim 54.0, T4 0.634, P(4 lands T4) 0.615, all gates PASS |
+
+## Deck list (Arena import)
+
+```
+Nightsoil Nursery
+Deck
+4 Shoreline Looter
+4 Cephalid Inkmage
+4 Mindwhisker
+4 Darkstar Augur
+3 Iridescent Vinelasher
+3 Persistent Marshstalker
+2 Mind Drill Assailant
+2 Vren, the Relentless
+2 Kiora, the Rising Tide
+2 Snarling Gorehound
+1 Lord Skitter, Sewer King
+3 Gossip's Talent
+2 Quag Feast
+4 Watery Grave
+4 Gloomlake Verge
+2 Undercity Sewers
+3 Restless Reef
+2 Mudflat Village
+1 Rogue's Passage
+4 Swamp
+4 Island
+```
