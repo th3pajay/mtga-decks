@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-21**:
+Deck guides published **2026-11-22**:
 
-- **[Sanctum Spine](decks/2026-11-21-sanctum-spine.html)** — Sultai (blue / black / green) empower-loyalty combo — Reality Fracture set deck  `reality-fracture` `empower`
-- **[Nightsoil Nursery](decks/2026-11-21-nightsoil-nursery.html)** — Dimir (Blue-Black) — Threshold × Offspring  `combo` `threshold` `offspring`
+- **[Docket Combustion](decks/2026-11-22-docket-combustion.html)** — Rakdos (black / red) firebending × solved-Case combo  `combo` `firebending` `solved`

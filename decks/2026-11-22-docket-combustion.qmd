@@ -1,0 +1,144 @@
+---
+title: "Docket Combustion"
+subtitle: "Rakdos (black / red) firebending × solved-Case combo"
+date: "2026-11-22"
+categories: ["combo", "firebending", "solved"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Black / Red |
+| Archetype | Combo-aggro, average mana value 2.62 across 37 spells |
+| Size | 60 cards, 23 lands |
+| Mechanics | Firebending (combat mana engine) fused with Solved (Case payoffs) |
+| Primary win | Ozai, the Phoenix King at six or more unspent mana: a 7/7 flying, indestructible, trampling attacker whose firebending 4 refills the bank every combat |
+| Secondary win | Vindictive Warden drain plus burn, backed by a solved Case of the Gorgon's Kiss that becomes a 4/4 deathtouch lifelink Gorgon |
+| Deck score | 89.6 overall (synergy 72.2, cohesion 72.2); battery sim 59.3%, T4 consistency 0.585 |
+
+# Overview
+
+Every firebending creature here turns an attack into red mana that does not drain until combat ends, and every Case here converts one attack step into permanent advantage. The deck attacks every turn, the attack pays for itself, and the same attack solves the Cases that keep the engine stocked.
+
+**Sources.** Firebending Student makes X red where X is its power, Fire Sages and Vindictive Warden make one, Zhao makes two, Zuko makes three, Ozai makes four. **The bank.** While Ozai is on the battlefield you never lose unspent mana as steps end, it just becomes red, so combat mana becomes a pool that survives the turn. **The payoffs.** Vindictive Warden's {3} drain, Zuko's {3} exile-and-play, Fire Sages' {1}{R}{R} counter, and the solved Cases.
+
+The Cases are not decoration. Burning Masks wants three or more sources to deal damage in a turn, which a swing with two or three firebenders produces. Gorgon's Kiss wants three creature cards in graveyards, which Torch the Tower, Sear and combat trades supply. Stashed Skeleton solves when its suspected 2/1 dies and then tutors; Crimson Pulse solves when your hand is empty, which is where an all-cheap deck naturally ends up.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turn 1 | Case of the Gorgon's Kiss for {B}, or Torch the Tower held. Stashed Skeleton is the preferred turn-two play. |
+| Turns 2-3 | Student and Fire Sages start the attack, Warden joins on three. Every attack adds red mana and the Cases begin solving at end of turn. |
+| Turns 3-4 | Burning Masks kills a blocker on entry and solves off the same swing. Zhao turns each Case sacrifice and Skeleton death into team power. |
+| Turns 5-6 | Ozai with haste. From then on firebending mana stays in the pool as red, so six unspent is a permanent state, not a combat trick. |
+| The finish | Ozai attacks as a 7/7 flying indestructible trampler, or the bank goes into Vindictive Warden and burn. Rogue's Passage clears a ground attacker. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Firebending Student | 4 | Prowess grows it with every spell, and firebending X reads its power, so a pumped Student pays for the rest of the turn |
+| Fire Sages | 4 | Firebending body with a built-in sink: {1}{R}{R} for a +1/+1 counter |
+| Vindictive Warden | 4 | Drain win condition: menace firebender with a no-tap {3} ability for one damage to each opponent |
+| Zhao, Ruthless Admiral | 3 | Two firebending mana on attack, plus team +1/+0 whenever you sacrifice another permanent |
+| Zuko, Exiled Prince | 2 | Three firebending mana on attack; {3} exiles the top card to play this turn |
+| Perforating Artist | 1 | Deathtouch blocker; raid trigger costs the opponent 3 life or a permanent each attack turn |
+| Ozai, the Phoenix King | 2 | Primary win condition and mana bank: unspent mana becomes red and stops draining; flying and indestructible at six or more |
+| Case of the Burning Masks | 4 | Removal on entry, then card advantage: sacrifice it to exile three and play one |
+| Case of the Gorgon's Kiss | 3 | One-mana removal for damaged creatures that becomes a 4/4 deathtouch lifelink creature |
+| Case of the Stashed Skeleton | 3 | 2/1 menace body that solves when it dies, then tutors any card |
+| Case of the Crimson Pulse | 2 | Discard one draw two on entry, then a reload every upkeep once the hand is empty |
+| Torch the Tower | 3 | One-mana removal that pumps Student and can be bargained with a Skeleton or spent Case |
+| Sear | 2 | Four damage at instant speed, killing the blocker that would stop the lethal swing |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|------|-------|-------------------|
+| Rogue's Passage | 2 | Win-condition land: {4} and tap makes a single attacker unblockable, converting a Zhao-pumped board or Ozai into damage through a stalled ground |
+| Restless Vents | 2 | {1}{B}{R} makes a 2/3 menace Insect that loots on attack, feeding Gorgon's Kiss and the empty hand for Crimson Pulse |
+| Blazemire Verge | 4 | Black by default, red once a Swamp or Mountain exists, which is every game by turn three |
+| Blood Crypt | 4 | Untapped black and red for two life; the deck wants double black for Ozai and multiple red in one turn |
+| Raucous Theater | 2 | Surveil 1 on entry: bin a redundant Case or a land |
+| Bloodfell Caves | 2 | Cheap red-black with a point of life |
+| Terramorphic Expanse | 2 | Finds the second color and the smoothest route to four lands |
+| Mountain / Swamp | 3 / 2 | The basics that turn on Blazemire Verge |
+
+## Curve and mana
+
+Six one-drops, thirteen two-drops, eleven three-drops, five four-drops, two six-drops. Turns two through four put two or three firebenders on the table and attack with all of them: each attacker is both a damage source for Burning Masks and a mana source. Twenty-three lands covers four-land Rogue's Passage activations and a six-drop, and gives 0.585 probability of four lands by turn four. Eighteen sources produce black and nineteen red, counting Expanse and Vents.
+
+# Gameplay strategy
+
+## Early and mid game
+
+Stashed Skeleton is the best turn-two play: a suspected 2/1 that cannot block but attacks for two with menace, and the moment it dies the Case solves and tutors. Student is the alternative: a 1/2 that becomes a real threat the moment you cast Torch the Tower, since one prowess trigger is an extra red on the swing.
+
+Do not trade firebenders away for nothing. The damage comes from attacking with two or three creatures at once; a lone attacker solves neither Burning Masks nor Gorgon's Kiss. Burning Masks kills a blocker on entry so the swing connects, then solves at end of turn. Zhao makes the Case sacrifices hurt: each cracked Case and dying Skeleton gives the team +1/+0, so three attackers swing for eight or more. The usual line is attack, trigger every firebending ability, then spend the pool on Warden activations and removal before the second main phase; with Ozai out, skip the spending if you can reach six, because the pool carries.
+
+## The combo turn
+
+Cast Ozai (haste) and attack the same turn: firebending 4 adds {R}{R}{R}{R}, and any other attacking firebender adds more. Float two more from lands and you are at six unspent, so Ozai is a 7/7 flying indestructible trampler for as long as that mana sits there. Because his own ability stops unspent mana from draining, the six stay and can be spent on a later turn's drain or removal.
+
+The trap is spending down to five in response to removal. Firebending triggers use the stack, and once the pool drops below six Ozai loses flying and indestructible until you add more.
+
+## Win condition 2
+
+Vindictive Warden is the non-combat kill: a 2/3 menace body that attacks for two, adds red, and has a {3} ability for one damage to each opponent with no tap cost. With Ozai banking mana across turns, three activations a turn is realistic, and two Wardens plus a solved Burning Masks closes games that look stabilised. Gorgon's Kiss is the third route: solved, it is a 4/4 deathtouch lifelink creature that races anything on the ground.
+
+## Mulligan guide
+
+Keep two or three lands with at least one firebending creature and one Case; Cases with no attackers is a mulligan, because nothing solves without a swing. Keep Ozai with four lands or a Stashed Skeleton.
+
+## Key interactions and edge cases
+
+- Firebending is a triggered ability, not a mana ability: it uses the stack, can be responded to, and triggers once per attacker, so removal before attackers are declared denies the mana.
+- Ozai's replacement effect applies only while he is on the battlefield. If he dies you have until the end of the current step to spend the bank, and restricted mana keeps its restrictions when it turns red.
+- Gorgon's Kiss destroys a creature dealt damage this turn, including by Torch the Tower or a firebender: removal plus a future 4/4.
+- Stashed Skeleton only solves with no suspected Skeletons, so the line is attacking the token into a trade.
+- Burning Masks counts sources, not damage: three creatures each dealing one is enough, which is why the deck wants width.
+- Zhao triggers on sacrificing another permanent, so cracking a solved Case pumps the team even when the Case had no other use.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Fast aggro | Two-drops block and removal costs one. Gorgon's Kiss kills their best attacker after any damage, and solved lifelink wins the race. |
+| Midrange grind | Play the Case engine: Burning Masks trades one card for three, Skeleton tutors, and banked mana wins long games with the drain. |
+| Control | Do not overextend before Ozai. Attack in pairs to keep solving Cases, hold Torch the Tower, and land Ozai with six mana. |
+| Combo | The deck threatens lethal around turn five. Point removal at the engine creature, not the payoff. |
+
+# Deck list (Arena import)
+
+```
+Docket Combustion
+Deck
+4 Firebending Student
+4 Fire Sages
+4 Vindictive Warden
+3 Zhao, Ruthless Admiral
+2 Zuko, Exiled Prince
+1 Perforating Artist
+2 Ozai, the Phoenix King
+4 Case of the Burning Masks
+3 Case of the Gorgon's Kiss
+2 Case of the Crimson Pulse
+3 Case of the Stashed Skeleton
+3 Torch the Tower
+2 Sear
+4 Blood Crypt
+4 Blazemire Verge
+2 Raucous Theater
+2 Bloodfell Caves
+2 Rogue's Passage
+2 Restless Vents
+2 Terramorphic Expanse
+3 Mountain
+2 Swamp
+```
