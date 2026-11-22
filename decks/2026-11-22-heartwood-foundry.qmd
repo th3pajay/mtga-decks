@@ -1,0 +1,164 @@
+---
+title: "Heartwood Foundry"
+subtitle: "Temur (red / green / blue) Heartwood artifact-token combo — Reality Fracture set deck"
+date: "2026-11-22"
+categories: ["reality-fracture", "heartwood"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), 60 cards, 24 lands |
+| Colors | Red / Green / Blue (Temur) |
+| Archetype | Artifact-token combo-midrange, average mana value 3.14 |
+| Mechanics | Heartwood tokens (Reality Fracture flagship artifact theme) fused with prepared and artifact-count payoffs |
+| Primary win | Aerid Konstrari wearing Improvised Arsenal: a 5/4 flier that grows by one power per artifact you control, with Hall of Echoes as a second copy for the last points |
+| Secondary win | Simulacrum Synthesizer Constructs (power and toughness equal to your artifact count) plus Legion Extruder Golems, both wearing trample from Traxos and Ghalta |
+| Deck score | 90.0 overall (synergy 70.1, cohesion 70.1, curve and color consistency 100) |
+
+# Overview
+
+Heartwood Foundry is one engine wearing three faces. Aerid Konstrari makes a Heartwood token whenever it enters or dies, and can pay six mana to make another while growing by one power for every artifact you control. Konstrari Improviser arrives prepared, so the free Soul Tether copy makes a second Heartwood on turn two. That is the token supply. The demand side is everything that counts artifacts: Improvised Arsenal gives the equipped creature plus one power per artifact and can copy itself for four mana and a red, Legion Extruder trades any spare artifact for a 3/3 Golem, Marwyn, the Clearcutter trades one for a card, and Simulacrum Synthesizer turns every three-plus mana artifact into a Construct whose size is your artifact count.
+
+The result is a deck that spends three turns building a board of artifacts nobody wants to attack into, then converts it into one of two kills. Aerid is the fast kill: five power in the air plus one per artifact, with Hall of Echoes as a second Aerid. The Synthesizer is the wide kill: a Construct as large as your entire board, backed by Traxos, Scourge Eternal, which untaps on every artifact or creature spell you cast.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Marwyn on one, then a two-drop artifact: Legion Extruder (two damage to clear a blocker), Collector's Vault (Treasure plus filtering) or Konstrari Improviser, which arrives prepared and cashes Soul Tether for a Heartwood. |
+| Turns 3-4 | Simulacrum Synthesizer first, so every later artifact makes a Construct, then Aerid Konstrari or Improvised Arsenal. Traxos lands here as a 5/4 trampler that untaps whenever you keep casting. |
+| Turns 5-6 | The board becomes a counting exercise. Marwyn and Collector's Vault convert spare Heartwoods into cards, Hedron Archive and Murmuring Volume keep the mana and the Synthesizer triggers flowing, and the first Construct is normally as large as your artifact count. |
+| The combo turn | Improvised Arsenal on Aerid, then equip for one red. With eight artifacts Aerid swings for thirteen in the air; Hall of Echoes for five mana becomes a second Aerid, and the legend rule does not apply that turn, so both attack. |
+| The long game | If the air kill is answered, the Constructs and Golems take over: Ghalta the Unstoppable costs two less per point of the greatest power you control, which a Construct supplies by itself. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Aerid Konstrari | 4 | Engine and primary kill: 5/4 flier, Heartwood on entry and death, six mana for a Heartwood plus one power per artifact |
+| Traxos, Scourge Eternal | 4 | 5/4 trample for four; untaps on every artifact or creature spell, so it attacks every turn |
+| Marwyn, the Clearcutter | 3 | One-mana 2/1 that turns spare artifacts into cards |
+| Konstrari Improviser | 3 | Two-drop 2/2 that enters prepared; the Soul Tether copy makes a Heartwood |
+| Craftwork Crusher | 2 | 7/5 trample finisher that chooses two of: four damage, a Cadet, a card |
+| Ghalta the Unstoppable | 1 | 8/8 that a large Construct makes nearly free; grants the team trample |
+| Improvised Arsenal | 4 | The multiplier: plus one power per artifact, equips for one red, copies itself |
+| Simulacrum Synthesizer | 4 | Scry two on entry; every three-plus mana artifact makes a Construct as large as your artifact count |
+| Legion Extruder | 3 | Two damage on entry; two mana and a spare artifact for a 3/3 Golem |
+| Hedron Archive | 2 | Four-mana artifact that ramps two colourless and cashes in for two cards |
+| Collector's Vault | 2 | Filtering plus a Treasure each turn, another artifact for every count |
+| Murmuring Volume | 2 | Three-mana any-colour rock that loots; a Synthesizer trigger |
+| Esoteric Duplicator | 1 | Pays two to copy any artifact you sacrifice at the next end step |
+| The Echoverse Fulcrum | 1 | Two-mana looter with a five-mana reset against go-wide boards |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|------|-------|-------------------|
+| Hall of Echoes | 1 | The land that wins games: five mana makes it a copy of Aerid or of the largest Construct, and the legend rule is switched off for the turn |
+| Rockfall Vale | 4 | Red-green dual that enters untapped from the third land on, the deck's cleanest two-colour source |
+| Thornspire Verge | 4 | Red unconditionally, green once a Forest is out |
+| Riverpyre Verge | 3 | Red unconditionally, blue once an Island or a Steam Vents is out |
+| Willowrush Verge | 3 | Blue unconditionally, green once a Forest or an Island is out |
+| Steam Vents | 2 | Untapped blue-red for two life, and an Island for Riverpyre Verge |
+| Frontier Bivouac | 1 | Tapped three-colour land that fixes the awkward double-colour draws |
+| Forest / Island | 6 | Four Forests and two Islands: green is the deepest colour, blue is only needed for Synthesizer and Duplicator |
+
+## Curve and mana
+
+| Mana value | Cards | Notes |
+|------------|-------|-------|
+| 1 | 3 | Marwyn only |
+| 2 | 13 | Improviser, Arsenal, Extruder, Vault, Fulcrum |
+| 3 | 7 | Synthesizer, Murmuring Volume, Duplicator |
+| 4 | 10 | Aerid, Traxos, Hedron Archive |
+| 7 | 2 | Craftwork Crusher |
+| 9 | 1 | Ghalta the Unstoppable, usually cast for three or four |
+
+Twenty-four lands with thirteen red, sixteen green and eleven blue sources. The deck wants three lands by turn three and four by turn four; every two-drop in the deck is an artifact, so a hand of three lands and two artifacts keeps almost any sequence.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Marwyn: a one-mana 2/1 that later turns spare artifacts into cards, and nobody spends removal on it early. Turn two is an artifact, in order of preference: Legion Extruder when there is a creature to kill, Konstrari Improviser for a Heartwood and a body, Collector's Vault to keep the cards moving. Do not crack Treasure or Heartwood tokens for mana unless it casts something that advances the board this turn; the tokens are worth more as artifact count.
+
+## Mid game
+
+Simulacrum Synthesizer is the priority three-drop: cast it before any other three-plus mana artifact, because everything after it makes a Construct. Traxos is the pressure valve, attacking from turn five onward without help. Improvised Arsenal is the card opponents misjudge: on an empty board it looks like a two-mana equipment, with six artifacts it is a six-power upgrade that moves for one red.
+
+## The combo turn
+
+The kill turn is normally five or six mana with Aerid, an Arsenal and five or more artifacts:
+
+1. Cast Improvised Arsenal, equip to Aerid for one red.
+2. Count artifacts: Aerid, the Arsenal, every Heartwood, Treasure, Construct, Golem, Archive and Volume. Aerid is 5/4 plus that many power.
+3. Attack. If the opponent can block, hold five mana for Hall of Echoes instead: it becomes a copy of Aerid and, because the legend rule does not apply that turn, both fliers attack.
+
+Aerid's own six-mana ability is the backup: make a Heartwood, then grow by the artifact count, which is often the difference between a chump-blocked attack and lethal.
+
+## Win condition 2
+
+Simulacrum Synthesizer plus any three-plus mana artifact makes a Construct whose power and toughness equal your artifact count. Two Synthesizers, or a Synthesizer plus Hedron Archive and Murmuring Volume, routinely produces two Constructs of 8/8 or larger by turn six. Those tokens are artifacts, so they feed each other, the Arsenals and Aerid.
+
+Legion Extruder converts the tokens you do not need into 3/3 Golems at instant speed on your turn, which is how the deck pushes the last four points through a stalled ground. Ghalta the Unstoppable then costs two less for each point of the greatest power you control: with a 10/10 Construct it is a one-mana 8/8 that gives the team trample.
+
+## Mulligan guide
+
+Keep any hand with two to four lands and at least two artifacts, especially if one of them is a two-drop. Keep Aerid plus three lands and a red source; the deck functions on four mana. Ship hands with one land, hands with no artifact, and hands that need double blue before turn four. A hand of Marwyn, two Verge lands, Simulacrum Synthesizer and Aerid is close to the ideal curve.
+
+## Key interactions and edge cases
+
+- Heartwood tokens have mana value zero. They count as artifacts for Aerid, Improvised Arsenal and the Constructs, but they do not trigger Simulacrum Synthesizer, which needs an artifact with mana value three or greater.
+- Legion Extruder must sacrifice another artifact, not itself. Sacrificing a Treasure to it is mana-neutral with two lands untapped and leaves a 3/3 behind.
+- Marwyn can sacrifice a land in a pinch, but never the land you need for the next turn's four-drop.
+- Esoteric Duplicator triggers on any artifact you sacrifice, including Legion Extruder's cost and Marwyn's cost, and the copy arrives at the next end step as a fresh artifact for every count.
+- Hall of Echoes copies the printed characteristics of the target, so a copy of a Construct token keeps the "plus one per artifact" ability and arrives as large as the original.
+- Traxos does not untap in your untap step. It untaps when you cast an artifact or creature spell, so sequence a two-drop before combat whenever you need the attack.
+- The Echoverse Fulcrum is a symmetric sweeper: it kills your own Constructs. Use it only when the opponent's board is worse than yours, or after Duplicator has banked a copy.
+- Improvised Arsenal's copy ability costs four and a red and creates an artifact, which immediately grows every Construct and every equipped creature by one.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Red aggro | Legion Extruder and Echoverse Fulcrum are the interaction; block only on free trades, and race with Traxos |
+| Control | Do not over-extend into a sweeper. Marwyn and Collector's Vault keep cards flowing, and Aerid plus Arsenal is a two-card kill that survives one-for-one removal |
+| Midrange | The Construct plan is bigger than most midrange boards; hold Improvised Arsenal for a turn you can also equip, and use Hall of Echoes to double the largest threat |
+| Combo | Race: Traxos attacks from turn five, Aerid from turn four, and Extruder's two damage picks off enablers |
+
+# Deck list (Arena import)
+
+```
+Heartwood Foundry
+Deck
+4 Aerid Konstrari
+4 Traxos, Scourge Eternal
+3 Marwyn, the Clearcutter
+3 Konstrari Improviser
+2 Craftwork Crusher
+1 Ghalta the Unstoppable
+4 Improvised Arsenal
+4 Simulacrum Synthesizer
+3 Legion Extruder
+2 Hedron Archive
+2 Collector's Vault
+2 Murmuring Volume
+1 Esoteric Duplicator
+1 The Echoverse Fulcrum
+4 Rockfall Vale
+4 Thornspire Verge
+3 Riverpyre Verge
+3 Willowrush Verge
+2 Steam Vents
+1 Frontier Bivouac
+1 Hall of Echoes
+4 Forest
+2 Island
+```
