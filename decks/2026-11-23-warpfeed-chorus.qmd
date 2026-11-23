@@ -1,0 +1,194 @@
+---
+title: "Warpfeed Chorus"
+subtitle: "R/U/G/W — Warp × Convoke × Delirium"
+date: "2026-11-23"
+categories: ["combo", "warp", "convoke", "delirium"]
+---
+
+
+# At a glance
+
+| | |
+|---|---|
+| Format | Standard (60 cards) |
+| Colors | Red, Blue, Green, White |
+| Archetype | Midrange combo (enter-the-battlefield burn) |
+| Engine | Warp recursion plus enter-the-battlefield damage, doubled and then doubled again |
+| Primary win | Weftstalker Ardent and Shocking Sharpshooter pings, amplified by Starfield Vocalist, Collective Inferno and The Rollercrusher Ride |
+| Secondary win | Delirium tramplers on extra combats, with Rogue's Passage for the final swing |
+| Land that wins | Fountainport, which manufactures a fresh creature every turn, and Rogue's Passage, which removes the last blocker |
+
+# Overview
+
+Warpfeed Chorus is a damage engine disguised as a midrange deck. Nearly every creature in the list
+does something the moment it enters the battlefield, and two of them convert that moment into
+damage. Warp turns those one-shot entries into a repeatable resource: the same creature arrives
+twice, once at its cheap warp cost and once later out of exile, and each arrival re-triggers the
+board.
+
+Starfield Vocalist is the multiplier: every permanent entry that already triggered a permanent you
+control triggers an additional time. Collective Inferno (naming Drix) doubles every damage source
+you control, and The Rollercrusher Ride doubles noncombat damage again once delirium is live.
+Delirium is the fuel gauge rather than a side theme. Codecracker Hound, Fear of Missing Out,
+artifact creatures and the enchantments fill the graveyard with distinct card types, so the
+doubling turns on around turn four or five and stays on. Convoke pays for the six-mana finishers
+with the board the engine was already building.
+
+# Approach
+
+## Game plan phases
+
+| Phase | Turns | What you are doing |
+|---|---|---|
+| Establish | 1-3 | Deploy Shocking Sharpshooter or Weftstalker Ardent, then add artifact creatures. Every entry is a point of damage. |
+| Multiply | 3-5 | Land Starfield Vocalist. From here each entry pings twice and each Warp cast pings twice on both halves. |
+| Double | 4-6 | Turn delirium on, deploy The Rollercrusher Ride, then Collective Inferno naming Drix. Pings now read 4 damage each. |
+| Convert | 5+ | Either burn them out with the engine, or switch to tramplers plus an extra combat and finish with Rogue's Passage. |
+
+## Card roles
+
+| Card | Mana | Role |
+|---|---|---|
+| Weftstalker Ardent | 2R (warp R) | Primary pinger: whenever another creature or artifact you control enters, 1 damage to each opponent |
+| Shocking Sharpshooter | 1R | Second pinger, one mana cheaper, reach body; pings on creature entries only |
+| Starfield Vocalist | 3U (warp 1U) | Trigger doubler for every entry-triggered ability you control |
+| Pinnacle Emissary | 1UR (warp UR) | Artifact creature that makes a 1/1 flying Drone on every artifact cast: two entries from one card |
+| All-Fates Stalker | 3W (warp 1W) | Drix removal body; exiles a non-Assassin creature on entry, and it is a Drix for Collective Inferno |
+| Codecracker Hound | 2U (warp 2U) | Card selection and graveyard filler: one card to hand, one to the yard, twice per game |
+| Fear of Missing Out | 1R | Enchantment creature, filters on entry, grants an extra combat once delirium is on |
+| Wildfire Wickerfolk | RG | Two-drop artifact creature with haste that becomes a 4/3 trampler under delirium |
+| Omnivorous Flytrap | 2G | Delirium counter engine, doubling counters once six card types are in the yard |
+| Selfless Safewright | 3GG (convoke) | Flash protection that costs almost nothing with a token board |
+| Collective Inferno | 3RR (convoke) | Names Drix and doubles all damage from your Drix sources |
+| The Rollercrusher Ride | X2R | Doubles noncombat damage under delirium, and is spot removal on entry |
+| Beastie Beatdown | RG | Two-mana removal that also grows a delirium attacker |
+| Violent Urge | R | Combat trick that becomes double strike with delirium |
+
+## Lands as engines
+
+| Land | Count | How it wins |
+|---|---|---|
+| Fountainport | 2 | Three mana and one life makes a 1/1 Fish, which is an entry: every time you activate it, every pinger on board fires. Its second ability turns spare tokens into cards. |
+| Rogue's Passage | 1 | Four mana makes the lethal trampler unblockable, converting a wide delirium board into an exact-damage kill. |
+| Mountain, Forest, Island, Plains | 21 | The four rolled colors, weighted to red and green for the engine and the delirium payoffs. |
+
+## Curve and mana
+
+| Mana value | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| Spells | 0 | 12 | 15 | 7 | 2 |
+
+Thirty-six spells average 2.97 mana over 24 lands: seven Mountain, seven Forest, four Island, three
+Plains, plus the two colorless engine lands. Red is primary (pingers, Inferno, Rollercrusher),
+green supplies delirium payoffs and convoke bodies, blue carries the multiplier and the graveyard
+filter, and white is a light splash. Because the top of the curve is convoke, the deck effectively
+stops at four.
+
+# Gameplay strategy
+
+## Early game
+
+Open on a pinger. Shocking Sharpshooter on two is the ideal start because it costs a single red and
+trades with nothing, but Weftstalker Ardent on three with warp mana held up is stronger against
+removal: cast it for R at the end of their turn, ping, and keep the real card in exile. Pinnacle
+Emissary is the best turn-three follow-up because the Drone it makes on cast is a second entry,
+and both entries feed the pingers.
+
+Do not crack Fountainport early. The Fish is worth more as a pinger trigger than as a blocker, and
+holding three mana open on their turn is how you punish a tapped-out opponent.
+
+## Mid game
+
+Starfield Vocalist is the pivot. Before it, the deck does one damage per entry; after it, two. Warp
+creatures are the fuel: cast Weftstalker Ardent for R, ping twice, let it exile, then cast it again
+for 2R later for two more pings. Codecracker Hound warps on the same pattern and stocks the
+graveyard while it does it, which is how delirium arrives without dedicated milling.
+
+All-Fates Stalker is your interaction. Warped for 1W it exiles their best creature until the
+Stalker leaves, which usually means permanently, and as a Drix it also benefits from Collective
+Inferno's chosen type.
+
+## The combo turn
+
+The kill wants three pieces on board: a pinger, Starfield Vocalist, and Collective Inferno naming
+Drix. Add The Rollercrusher Ride and each entry deals four damage to each opponent; with two pingers
+it is eight per entry. Then cast anything. A single Warped creature is two entries, and every
+token, Drone and Treasure-maker is another trigger. Convoke makes the six-mana pieces free: tap
+Drones, Fish and spent attackers to cast Collective Inferno, then untap and keep pinging. Selfless
+Safewright is the insurance policy, flashed in with convoke to give the board hexproof and
+indestructible for the turn.
+
+## Win condition two
+
+Delirium beatdown. Wildfire Wickerfolk is a hasty 3/2 that becomes a 4/3 trampler, Omnivorous
+Flytrap distributes and then doubles counters, and Fear of Missing Out untaps a creature and grants
+an additional combat phase once four card types are in the yard. Pair it with Beastie Beatdown to
+clear the one blocker that matters, then use Rogue's Passage on the biggest trampler. This line
+matters most against decks that gain life or that answer the pingers, because it does not care how
+much damage the engine has already done.
+
+## Mulligan guide
+
+Keep any hand with a pinger plus two lands. Keep one-pinger hands with Pinnacle Emissary or
+Codecracker Hound as the second body. Ship hands with no red source, and ship hands that are all
+four-drops, even if the four-drops are good, because this deck wins by stacking small entries and
+loses when it does nothing until turn four.
+
+## Key interactions and edge cases
+
+- Warp exiles at the beginning of the next end step. If the creature is removed in response, it
+  still exiles, so a Warped creature dodges sorcery-speed removal but not instant removal aimed at
+  the exile line.
+- Starfield Vocalist triggers on the entry, not the cast. Tokens count: the Fountainport Fish, the
+  Pinnacle Emissary Drone and every Treasure-making entry are triggers.
+- Collective Inferno checks the source's type at the time damage is dealt. Name Drix when you have
+  Weftstalkers or All-Fates Stalkers to convert; name Robot when your damage comes from Drones.
+- The Rollercrusher Ride needs delirium at the moment damage is dealt, so sequence Codecracker Hound
+  and Fear of Missing Out before the first big ping turn. Delirium counts card types, not cards, and
+  a single artifact creature covers artifact and creature at once.
+- Violent Urge gives double strike, so put it on the trampler, never on a pinger.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Fast aggro | Trade early with Shocking Sharpshooter and Beastie Beatdown, then stabilise on Wildfire Wickerfolk and Omnivorous Flytrap. The pingers block well enough at three toughness. |
+| Control | Warp is your answer to sorcery-speed interaction: hold creatures in exile and re-cast them after they tap out. Do not commit two pingers to the same turn. |
+| Midrange value | Your engine out-grinds theirs as long as Starfield Vocalist lives. All-Fates Stalker on their key threat is usually the whole game. |
+| Lifegain | Switch to the delirium combat plan early; the burn plan alone will not get there against repeated lifegain. |
+| Combo | Race with pings. You are faster when a pinger lands on turn two, and All-Fates Stalker buys the turn you need. |
+
+# Iterations
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | First pass: three Collective Inferno, three Codecracker Hound, four Wildfire Wickerfolk, one Web of Life and Destiny, one Balustrade Wurm, two The Wandering Rescuer, 24 lands | sim 50.3 (fail), synergy 73.7, T4 0.641, P4L 0.636 |
+| v1 to v2 | Cut the eight-mana Web of Life and Destiny, the Balustrade Wurm, one Hound, one Inferno, two Knight Luminary and two The Wandering Rescuer; added four Shocking Sharpshooter, three All-Fates Stalker, two Selfless Safewright, two Violent Urge; trimmed to 23 lands | sim 50.3 to 52.3, synergy 73.7 to 74.6, T4 0.641 to 0.571, P4L 0.636 to 0.566 |
+| v2 to v3 | Cut one Violent Urge for a third Plains, back to 24 lands | sim 52.3 to 53.7, T4 0.571 to 0.632, P4L 0.566 to 0.626 |
+
+# Deck list (Arena import)
+
+```
+Warpfeed Chorus
+Deck
+4 Weftstalker Ardent
+4 Shocking Sharpshooter
+4 Starfield Vocalist
+3 Pinnacle Emissary
+3 All-Fates Stalker
+2 Codecracker Hound
+3 Fear of Missing Out
+2 Wildfire Wickerfolk
+2 Omnivorous Flytrap
+2 Selfless Safewright
+2 Collective Inferno
+2 The Rollercrusher Ride
+2 Beastie Beatdown
+1 Violent Urge
+7 Mountain
+7 Forest
+4 Island
+3 Plains
+2 Fountainport
+1 Rogue's Passage
+```

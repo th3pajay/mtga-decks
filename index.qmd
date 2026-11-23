@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-22**:
+Deck guides published **2026-11-23**:
 
-- **[Heartwood Foundry](decks/2026-11-22-heartwood-foundry.html)** — Temur (red / green / blue) Heartwood artifact-token combo — Reality Fracture set deck  `reality-fracture` `heartwood`
-- **[Docket Combustion](decks/2026-11-22-docket-combustion.html)** — Rakdos (black / red) firebending × solved-Case combo  `combo` `firebending` `solved`
+- **[Warpfeed Chorus](decks/2026-11-23-warpfeed-chorus.html)** — R/U/G/W — Warp × Convoke × Delirium  `combo` `warp` `convoke` `delirium`
