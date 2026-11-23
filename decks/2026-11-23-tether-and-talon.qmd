@@ -1,0 +1,166 @@
+---
+title: "Tether and Talon"
+subtitle: "Red / green / blue prepared-heartwood combo — Reality Fracture set deck"
+date: "2026-11-23"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), 60 cards, 24 lands |
+| Colors | Red / Green with a blue splash (Temur) |
+| Archetype | Prepared combo-midrange, average mana value 2.72 |
+| Mechanics | Prepared (Soul Tether cycle) x Heartwood tokens x artifact-token conversion |
+| Primary win | Draconic Visitor turns every Heartwood into a 5/5 flying Dragon; the prepared Soul Tether copies make one or two each turn |
+| Secondary win | Craterclaw Colossus alpha strike with Ajani's Anguish as the reach burn |
+| Land as win engine | Hexhaven Dueling Arena re-prepares an attacker after combat for a second Soul Tether in the same turn |
+| Deck score | 82.7 overall (synergy 72.0, cohesion 72.0), simulated 55.7 percent win rate, turn-four consistency 63 percent |
+
+# Overview
+
+Tether and Talon is a two-card converter wearing a prepared shell. Draconic Visitor reads "if one or more artifact tokens would be created under your control, that many 5/5 red Dragon creature tokens with flying are created instead", and the Reality Fracture Soul Tether cycle makes exactly those tokens: Heartwood Crafter, Konstrari Improviser and Woodwork Prodigy all carry Soul Tether on the back face, which reads "create a Heartwood token". A Heartwood is a red and green artifact that taps for red or green, so before the Visitor arrives the deck is a mana engine, and after it arrives every Heartwood is a Dragon.
+
+The supply side is the prepared mechanic itself. Heartwood Crafter costs one green and arrives prepared, so turn one is already a free Soul Tether in hand. Konstrari Improviser arrives prepared on turn two, and Woodwork Prodigy re-prepares itself at every upkeep, which means the deck makes a Heartwood every single turn without spending a card. Codie, Ravenous Codex then doubles the whole thing: "whenever you cast a prepared spell, copy it", so every Soul Tether is two Heartwoods, and with the Visitor on the battlefield every Soul Tether is two Dragons for three mana.
+
+The payoff is deliberately redundant. Twelve prepared creatures mean the engine is online from turn one, four copies of the Visitor mean the Dragons arrive in numbers, and Codie plus Hexhaven Dueling Arena let the same creature cash its prepared spell twice in one turn. Aerid Konstrari and Hungering Puppetbeast provide Heartwoods without needing a prepared trigger, Tenured Tethermage makes two at once, and Craterclaw Colossus plus Ajani's Anguish close games that stall on the ground.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Heartwood Crafter or Diviner of Victory on one, Konstrari Improviser on two. Each prepared creature is a free Soul Tether waiting to be cashed, and each Heartwood fixes the next turn's colours. |
+| Turns 3-4 | Woodwork Prodigy or Codie. From here the upkeep trigger makes a Heartwood every turn, and Codie turns each of those into two. Aerid Konstrari is the four-drop that adds a 5/4 flier plus a Heartwood on entry. |
+| Turns 5-6 | Draconic Visitor. The board converts: every Heartwood made from now on is a 5/5 flying Dragon, and the Heartwoods already on the battlefield keep tapping for the three mana each Soul Tether costs. |
+| The combo turn | With Visitor and Codie out, cast Soul Tether from a prepared Prodigy for three mana, get two copies, get two Dragons. Attack, then pay two and tap Hexhaven Dueling Arena to re-prepare the same Prodigy and do it again. |
+| The long game | If the air is clogged, Craterclaw Colossus gives the team trample and plus one power per artifact, and Ajani's Anguish converts spare Heartwood mana into direct damage. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Heartwood Crafter | 4 | One-mana prepared Soul Tether; its colourless mana pays for the copy, which is not cast from hand |
+| Konstrari Improviser | 4 | Two-mana 2/2 prepared Soul Tether; the turn-two engine piece |
+| Woodwork Prodigy | 4 | Three-mana 3/3 that re-prepares at every upkeep, so it makes a Heartwood every turn forever |
+| Tenured Tethermage | 3 | Two Heartwoods on entry for one land; later taps two artifacts for two counters |
+| Aerid Konstrari | 2 | 5/4 flying Heartwood on entry and on death; six mana makes another and adds one power per artifact |
+| Hungering Puppetbeast | 2 | 5/5 artifact body, a Heartwood on entry, and a sacrifice outlet that grows it |
+| Draconic Visitor | 4 | The converter: artifact tokens become 5/5 flying Dragons |
+| Codie, Ravenous Codex | 3 | Copies every prepared spell you cast, doubling each Soul Tether |
+| Diviner of Victory | 3 | One-mana prepared removal: bounce a creature with mana value three or less and surveil |
+| Ajani's Anguish | 2 | Flexible burn, plus trample for the ground team |
+| Fulminous Forte | 2 | Five damage to one permanent, or one damage to every opposing creature and planeswalker |
+| Compel Brutality | 2 | Fight effect that scales with a 5/5 Dragon or a 5/4 Aerid |
+| Craterclaw Colossus | 1 | Haste finisher that gives the team trample and plus one power per artifact |
+
+## Lands as engines
+
+| Land | Count | Role |
+|------|-------|------|
+| Hexhaven Dueling Arena | 3 | The land that is part of the win: two mana and a tap re-prepares any creature that attacked this turn, so an attacking Woodwork Prodigy cashes a second Soul Tether after combat |
+| Rockfall Vale | 4 | Red-green dual that enters untapped once you control two other lands |
+| Room of Refuge | 2 | Any-colour land that fixes the blue splash and the double-red of Draconic Visitor |
+| Forest / Mountain / Island | 15 | The basic backbone: seven green, five red, three blue |
+| Room of Refuge already counted above | - | Any colour, which is why the blue count is only three Islands |
+
+## Curve and mana
+
+| Mana value | Cards | What it is |
+|------------|-------|------------|
+| One | 9 | Heartwood Crafter, Diviner of Victory, Ajani's Anguish |
+| Two | 6 | Konstrari Improviser, Compel Brutality |
+| Three | 12 | Woodwork Prodigy, Tenured Tethermage, Codie, Fulminous Forte |
+| Four | 2 | Aerid Konstrari |
+| Five | 6 | Draconic Visitor, Hungering Puppetbeast |
+| Seven | 1 | Craterclaw Colossus |
+
+Twenty-four lands, thirteen green and eleven red sources carry a deck whose heaviest costs are three generic mana per Soul Tether and two red for the Visitor. The blue splash is three cards on five sources, and Heartwoods are the real mana base: three of them pay for a whole combo turn.
+
+# Gameplay strategy
+
+## Early game
+
+Lead on a prepared creature, not on a payoff. Heartwood Crafter on turn one is the ideal start because its Soul Tether copy is free value and its colourless mana later pays for prepared copies, but Diviner of Victory is the better turn one against a deck that curves out, since the free Unwind History bounces a two- or three-drop and surveils. Turn two is Konstrari Improviser into an immediate Soul Tether when you have a spare three mana, or Tenured Tethermage when you want two Heartwoods and are willing to trade a land.
+
+Do not fire Soul Tether copies into an empty board just because they are available. A Heartwood is worth keeping uncashed when you are one land short of Draconic Visitor, because a prepared creature that stays prepared is a Dragon waiting for the converter to arrive.
+
+## Mid game
+
+Turns four and five are about resolving Draconic Visitor and keeping it alive. The Visitor is a 5/5 flier by itself, so it attacks and blocks profitably while the Heartwoods accumulate behind it. Codie should come down before or on the same turn as the first conversion, because Codie does nothing on its own and everything once a prepared creature is cashing Soul Tether.
+
+Aerid Konstrari is the bridge: a Heartwood without the prepared engine, a 5/4 flier over stalled boards, and a six-mana sink once three Heartwoods tap for mana.
+
+## The combo turn
+
+The full sequence with Draconic Visitor, Codie and Woodwork Prodigy on the battlefield:
+
+1. Upkeep: Prodigy becomes prepared.
+2. Main phase: cast Soul Tether for two generic and a red or green. Codie copies it. Two Heartwoods are created; the Visitor replaces each with a 5/5 flying Dragon.
+3. Combat: attack with both Dragons and the Prodigy.
+4. Second main phase: pay two and tap Hexhaven Dueling Arena, targeting the Prodigy that attacked this turn. It becomes prepared again.
+5. Cast Soul Tether a second time. Two more Dragons.
+
+That is four 5/5 fliers in one turn off one three-power creature and five mana. Heartwood Crafter can pay one of the three mana for each cast with its colourless ability, and any Heartwoods already on the board pay for the rest.
+
+## Win condition 2
+
+When the opponent stabilises the air, the ground plan takes over. Craterclaw Colossus arrives with haste and gives the whole team trample plus one power per artifact you control, which counts every Heartwood still on the battlefield. Ajani's Anguish is the reach: an X-spell enchantment that deals X damage to any target on entry and grants trample permanently, so a late copy with X equal to five or six finishes a game the Dragons started. Fulminous Forte covers the middle ground by clearing a token board or killing a single blocker at instant speed.
+
+## Mulligan guide
+
+| Hand | Keep or ship | Why |
+|------|--------------|-----|
+| Two or three lands, a prepared one-drop, any three-drop | Keep | The engine is online on turn one and the curve is intact |
+| One land | Ship | Twenty-four lands with no card selection cannot recover |
+| All payoffs, no prepared creatures | Ship | Twelve Soul Tether creatures plus seven conversion and payoff cards means the engine is what you mulligan for |
+
+## Key interactions and edge cases
+
+- Codie copies the prepared spell as it is cast, not the creature. One copy per prepared spell, and the copy is not itself cast, so it does not re-trigger Codie.
+- Prepared copies cost the back face's mana. Soul Tether is two generic and a red or green; Heartwood Crafter's colourless mana may pay it because the copy is not cast from your hand.
+- Draconic Visitor is a replacement effect, not a doubling effect. Two Visitors do not make two Dragons per Heartwood.
+- Dragons are not artifacts. Craterclaw Colossus counts Heartwoods, not the Dragons the Visitor made from them, so sequence Craterclaw before the conversion if you want the full bonus.
+- Hexhaven Dueling Arena's cheap ability is sorcery-speed and needs a creature that attacked this turn. Attack first, prepare second, cast third.
+- Codie's five-colour activation is a real option in long games: it prepares every creature you control at once, which is one Soul Tether per Soul Tether creature on the next main phase.
+- Tenured Tethermage's land sacrifice is a cost, not an optional extra. Do not fire it with five lands and a Visitor in hand.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Red aggro | Fulminous Forte and Compel Brutality are the interaction; trade Heartwood Crafter early, and race with Dragons once the Visitor lands, since a 5/5 flier blocks almost nothing in that deck |
+| Control | Do not overextend into a sweeper. Woodwork Prodigy and Codie rebuild from nothing, and a single prepared creature plus the Visitor is a two-card engine that survives one-for-one removal |
+| Midrange | Dragons outclass most midrange boards; hold Compel Brutality for their biggest attacker and keep Hexhaven back for a second Soul Tether rather than a chip attack |
+| Combo | Race. Craterclaw plus a Heartwood board is the fastest kill available, and Ajani's Anguish ignores blockers entirely |
+
+# Deck list (Arena import)
+
+```
+Tether and Talon
+Deck
+4 Heartwood Crafter
+4 Konstrari Improviser
+4 Woodwork Prodigy
+3 Tenured Tethermage
+2 Aerid Konstrari
+2 Hungering Puppetbeast
+4 Draconic Visitor
+3 Codie, Ravenous Codex
+2 Ajani's Anguish
+2 Fulminous Forte
+2 Compel Brutality
+3 Diviner of Victory
+1 Craterclaw Colossus
+4 Rockfall Vale
+3 Hexhaven Dueling Arena
+7 Forest
+5 Mountain
+3 Island
+2 Room of Refuge
+```

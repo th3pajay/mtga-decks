@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-23**:
 
 - **[Warpfeed Chorus](decks/2026-11-23-warpfeed-chorus.html)** — R/U/G/W — Warp × Convoke × Delirium  `combo` `warp` `convoke` `delirium`
+- **[Tether and Talon](decks/2026-11-23-tether-and-talon.html)** — Red / green / blue prepared-heartwood combo — Reality Fracture set deck  `reality-fracture` `prepared`
