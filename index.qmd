@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-24**:
 
 - **[Shadowstep Clause](decks/2026-11-24-shadowstep-clause.html)** — Orzhov (white / black) Sneak tempo combo  `combo` `sneak`
+- **[Glasswing Cipher](decks/2026-11-24-glasswing-cipher.html)** — White / blue / black surveil-sphinx combo — Reality Fracture set deck  `reality-fracture` `sphinx`

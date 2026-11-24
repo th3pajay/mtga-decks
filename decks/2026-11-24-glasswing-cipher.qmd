@@ -1,0 +1,180 @@
+---
+title: "Glasswing Cipher"
+subtitle: "White / blue / black surveil-sphinx combo — Reality Fracture set deck"
+date: "2026-11-24"
+categories: ["reality-fracture", "sphinx"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA), 60 cards, 24 lands |
+| Colors | White / blue with a black splash (Esper) |
+| Archetype | Surveil value-combo, average mana value 2.78 |
+| Mechanics | Surveil triggers x scry-surveil payoffs x Elder Sphinx finishers |
+| Primary win | Denzilore Fatehold grows the whole team on every surveil, and the flyers attack over the top |
+| Secondary win | Lyra, Tolarian Archangel turns three-draw turns into an Angel army; Eye of Jace drains two per opponent once the graveyard is stocked |
+| Land as win engine | Hall of Echoes pays five to become a second copy of Denzilore or a pumped flier, with the legend rule switched off |
+| Deck score | 90.2 overall (synergy 70.7, cohesion 70.7), simulated 53.0 percent win rate, turn-four consistency 64 percent |
+
+# Overview
+
+Glasswing Cipher is built on one sentence of rules text: "whenever you scry or surveil, put a +1/+1 counter on each creature you control." Denzilore Fatehold is a four-mana 3/4 with flash and flying, and in this deck the trigger fires almost every turn, often twice, because eleven cards surveil without being asked to attack. Eye of Jace surveils on upkeep. Proctor of Potential surveils whenever any creature enters, including itself. Surveillance Phantasm surveils for four mana and can attack on any turn you have already looked at the top of your library. Refute Destiny surveils while it exiles. Proft, Consulting Detective turns each of those triggers into a card.
+
+That is the engine: cheap surveil, repeated, in a deck that wants to make land drops and hold instant-speed interaction. What the engine buys is a board that grows without a pump spell. On the turn Denzilore arrives, every subsequent surveil puts a counter on every creature you control, so a board of three small bodies becomes three real attackers in two turns, all of them fliers. Proctor of Potential is the piece that makes the engine persistent: for one white and one blue it can return itself from the graveyard with a finality counter, and because it surveys on entry, the return pays for itself and re-arms the next surveil trigger.
+
+The payoffs are deliberately redundant. Saheeli, Consul of Oversight makes a 1/1 flying Thopter on the first surveil of each turn, so every Proctor return is a body. Proft draws on every surveil for two mana. Lyra, Tolarian Archangel makes a 3/3 Angel at the end step of any turn in which you drew three cards, which Sphinx's Approach plus Proft reaches on turn four. Eye of Jace, once seven cards sit in the graveyard, sacrifices itself to deal two damage to each opponent, and the surveil engine fills that graveyard quickly. Uldaros Theorix is the top end: it exiles one nonland card of each type from the graveyard, copies them, and lets you cast any number of them for free if their total mana value is six or less.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-2 | Eye of Jace on one, Proctor of Potential or Proft on two. The first surveil is what turns the rest of the deck on, and Proctor is also the deck's cheapest threat at three power. |
+| Turns 3-4 | Denzilore Fatehold on four with counter backup, or Lyra plus a Sphinx's Approach to start the Angel clock. Every surveil from here is a team-wide counter. |
+| Turns 5-6 | Saheeli makes Thopters on the first surveil of each turn, and Proft converts the triggers into cards. The team is now wide and flying. |
+| The combo turn | Denzilore in play, several surveil sources active: surveil, put a counter on every creature, then attack with fliers that grew this turn. Hall of Echoes copies the largest flier afterwards for a second attack. |
+| The long game | Uldaros Theorix turns a stocked graveyard into free spells, and Eye of Jace cashes seven cards in the bin for two damage to each opponent. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Proctor of Potential | 4 | Two-mana 3/1 that surveils on entry and can rebuy itself from the graveyard for one white and one blue |
+| Proft, Consulting Detective | 2 | Converts each scry or surveil into a card for two mana, and grows while doing it |
+| Denzilore Fatehold | 3 | The engine's payoff: a +1/+1 counter on each creature you control on every scry or surveil |
+| Saheeli, Consul of Oversight | 2 | Five-mana 4/4 flier that makes a 1/1 flying Thopter on the first surveil of each turn |
+| Surveillance Phantasm | 3 | Two-mana 2/3 with defender, flying and vigilance; attacks freely on any turn you surveilled |
+| Traxos, Academy Guardian | 2 | Costs two less after a noncreature spell, a 1/5 flying vigilant prowess body that survives most red removal |
+| Lyra, Tolarian Archangel | 2 | Three-draw turns become 3/3 flying Angels at the end step |
+| Arni, Humble Scribe | 2 | Loots every turn and untaps whenever another nontoken creature enters, which is every Proctor return |
+| Theoretical Necromancer | 2 | Graveyard recursion: exiles itself to return a creature card from the bin to hand |
+| Uldaros Theorix | 1 | Six-mana free-cast payoff that converts a stocked graveyard into up to six mana of spells |
+| Eye of Jace | 3 | One-mana upkeep surveil, and a two-damage drain to each opponent once the graveyard has seven cards |
+| Sphinx's Approach | 3 | Three-mana instant draw two; the fuel for Lyra and the cheapest way to dig for Denzilore |
+| Refute Destiny | 2 | Two-mana exile for a green or blue creature or planeswalker, with a surveil attached |
+| Icy Reception | 2 | Two-mana counter for creatures and legendary spells, or minus five power |
+| Generous Revival | 2 | Reanimation for anything at three mana or less, with flashback for a second use |
+| Predictive Preparations | 1 | Two counters for two mana, and again from the graveyard for three white |
+
+## Lands as engines
+
+| Land | Count | Role |
+|------|-------|------|
+| Hall of Echoes | 2 | The land that is part of the win: five mana turns it into a copy of your best flier until end of turn, and the legend rule does not apply, so two Denzilores can attack |
+| Hallowed Fountain | 4 | White-blue shock land, untapped for two life |
+| Watery Grave | 4 | Blue-black shock land, the black splash's main source |
+| Godless Shrine | 3 | White-black shock land, which is what makes the turn-three Refute Destiny and turn-four Denzilore reliable |
+| Plains / Island / Swamp | 11 | Four Plains, four Islands and three Swamps as the basic backbone |
+
+Hall of Echoes is the only colourless source in the deck, and it is deliberately not a land you keep on a two-land hand with a white card and a blue card in it. It is the twenty-third and twenty-fourth land, and it earns its slot from turn five onward.
+
+## Curve and mana
+
+| Mana value | Cards | What it is |
+|------------|-------|------------|
+| One | 3 | Eye of Jace |
+| Two | 14 | Proctor of Potential, Proft, Surveillance Phantasm, Refute Destiny, Icy Reception, Predictive Preparations |
+| Three | 14 | Denzilore Fatehold, Lyra, Arni, Theoretical Necromancer, Sphinx's Approach, Generous Revival |
+| Four | 2 | Traxos, Academy Guardian |
+| Five | 2 | Saheeli, Consul of Oversight |
+| Six | 1 | Uldaros Theorix |
+
+Twenty-four lands carry eleven white sources, twelve blue and ten black. The heavy costs are one white and two blue for Denzilore, three blue for Sphinx's Approach, three blue and black for Uldaros, and two white for Saheeli, so blue is the colour the mana base leans on. Godless Shrine is the card that lets the deck cast both halves of the black splash without cutting an Island.
+
+# Gameplay strategy
+
+## Early game
+
+Turn one is Eye of Jace whenever it is in the opener; the artifact does nothing on the board but it enables every payoff in the deck from the following upkeep onward. Turn two is Proctor of Potential over Proft when you expect interaction, because Proctor survives a fight and can be rebought, while Proft is a 2/2 that needs two spare mana every time you want the card.
+
+Do not spend Refute Destiny on the first creature you see. The card only exiles green or blue, so against a red or black deck it is a dead card in hand and the surveil is the only reason to run it; hold it for the creature that actually matters, and let Icy Reception cover the rest.
+
+## Mid game
+
+Turns three and four decide the game. The default is Denzilore Fatehold at instant speed on the opponent's end step: it arrives with flash, so it never taps you out on your own turn, and it immediately starts converting your surveils into counters. Against a deck with removal, hold it until you have Icy Reception or a second copy.
+
+Once Denzilore is down, the sequencing rule is simple: surveil before combat, not after. Surveillance Phantasm's attack permission, Denzilore's counters and Saheeli's Thopter all key off the surveil having happened, so Eye of Jace's upkeep trigger is the ideal start to every turn, and a Proctor return before combat is a counter on the whole team at instant speed.
+
+## The combo turn
+
+The full sequence needs Denzilore Fatehold, Proctor of Potential and five mana:
+
+1. Upkeep: Eye of Jace surveils. Denzilore puts a +1/+1 counter on each creature you control.
+2. Main phase: cast a noncreature spell, then pay two to return Proctor of Potential from the graveyard with a finality counter. Its entry surveils, which is another counter on every creature.
+3. Attack with the fliers. Surveillance Phantasm attacks because you surveilled this turn.
+4. Second main phase: pay five and tap Hall of Echoes to make it a copy of the largest attacker until end of turn. The legend rule does not apply, so a second Denzilore is legal and adds its own trigger to any later surveil.
+
+Two surveil triggers in one turn is two counters on every creature, which is usually eight to twelve power of growth for two mana and a land activation. With Saheeli on the battlefield the first surveil also makes a Thopter, so the growth applies to a new body as well.
+
+## Win condition 2
+
+When the ground stalls, the deck wins through volume rather than size. Lyra, Tolarian Archangel checks at the end step whether you drew three cards that turn; Sphinx's Approach draws two and Proft draws one off the surveil it triggers, which is exactly three. From then on each end step with a draw spell produces a 3/3 flying Angel, and those Angels are also creatures that Denzilore's triggers grow.
+
+The second outlet is Eye of Jace. Seven cards in the graveyard is a low bar in a deck with eleven surveil effects, and the sacrifice deals two damage to each opponent in a multiplayer pod and two to the single opponent in a duel. Against a control deck that answers every creature, three Eyes and a stocked graveyard are a real clock, and Generous Revival plus Theoretical Necromancer give the graveyard a second use when the drain is not enough.
+
+## Mulligan guide
+
+| Hand | Keep or ship | Why |
+|------|--------------|-----|
+| Two or three lands, Eye of Jace or Proctor, one payoff | Keep | The engine needs a surveil source more than it needs a threat |
+| Two lands, no one- or two-drop | Ship | Twenty-four lands and no card selection will not find the third land in time |
+| Four or more lands, Denzilore and Uldaros | Keep | This is a control hand; the deck wins long games with fliers and the graveyard |
+| All payoffs, no surveil | Ship | Denzilore without a surveil source is a 3/4 flier, which is not a win condition |
+
+## Key interactions and edge cases
+
+- Denzilore triggers once per surveil event, not once per card. A surveil two is one trigger, so spread your surveils across the turn when you can.
+- Proctor of Potential's return needs you to have scried or surveilled this turn, and its own entry surveils afterwards. That means the return enables the next turn's return, but not a second return in the same turn.
+- Proctor returns with a finality counter, so the second death exiles it. Generous Revival and Theoretical Necromancer are the ways to get it back after that.
+- Surveillance Phantasm keeps defender until the turn you surveil; it does not lose defender permanently, so it blocks on the turns you did not surveil.
+- Traxos costs two less only if you have already cast a noncreature spell this turn. Cast Sphinx's Approach first, then Traxos for two.
+- Saheeli's Thopter triggers only once each turn regardless of how many surveils happen.
+- Sphinx's Approach's exile clause needs four copies in the graveyard plus the copy being cast. This build runs three, so treat it as a three-mana instant draw two and nothing more.
+- Hall of Echoes taps for colourless mana. It cannot cast Denzilore, and it cannot be the land you keep on a hand with white and blue cards.
+- Uldaros Theorix only triggers if you cast it. A Generous Revival copy of it is a 5/5 flier and nothing else.
+- Eye of Jace sacrifices itself at seven cards in the graveyard, whether or not you want the damage. Against a deck at one life it is the finisher; against a deck at eighteen it is a two-damage speed bump you may want to delay by surveilling less.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Red aggro | Icy Reception and Predictive Preparations are the early interaction, and Denzilore's flash lets it block as a 3/4. Trade Proctor freely, then stabilise behind Traxos and a growing board |
+| Control | Do not overextend into a sweeper. Proctor, Arni and Theoretical Necromancer all rebuild from the graveyard, and Eye of Jace punishes a long game |
+| Midrange | Your fliers beat their ground creatures, and Denzilore's counters outscale their removal. Keep Refute Destiny for their green or blue threat |
+| Combo | Race with fliers and use Icy Reception on the key spell. Hall of Echoes copying the largest attacker is often the difference between a two-turn and a one-turn clock |
+
+# Deck list (Arena import)
+
+```
+Glasswing Cipher
+Deck
+4 Proctor of Potential
+2 Proft, Consulting Detective
+3 Denzilore Fatehold
+2 Saheeli, Consul of Oversight
+3 Surveillance Phantasm
+2 Traxos, Academy Guardian
+2 Lyra, Tolarian Archangel
+2 Arni, Humble Scribe
+2 Theoretical Necromancer
+1 Uldaros Theorix
+3 Eye of Jace
+3 Sphinx's Approach
+2 Refute Destiny
+2 Icy Reception
+2 Generous Revival
+1 Predictive Preparations
+4 Hallowed Fountain
+4 Watery Grave
+3 Godless Shrine
+2 Hall of Echoes
+4 Plains
+4 Island
+3 Swamp
+```
