@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-11-11 · **369** cards locked · **Reality Fracture 151/285** remaining
+**Card pool consumption** — cycle started 2026-11-11 · **382** cards locked · **Reality Fracture 151/285** remaining
 
-**193 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**194 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-24
+
+- **[Shadowstep Clause](decks/2026-11-24-shadowstep-clause.html)** — Orzhov (white / black) Sneak tempo combo  `combo` `sneak`
 
 ## 2026-11-23
 
