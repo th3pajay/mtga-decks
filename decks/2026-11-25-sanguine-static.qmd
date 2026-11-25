@@ -1,0 +1,174 @@
+---
+title: "Sanguine Static"
+subtitle: "Mardu (black / red / white) prepared-attrition combo - Reality Fracture set deck"
+date: "2026-11-25"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA import) |
+| Colors | Black / Red / White |
+| Archetype | Combo-aggro, average mana value 2.43 |
+| Size | 60 cards, 23 lands |
+| Mechanics | Prepared (flagship) fused with a noncombat-damage recursion loop |
+| Primary win | Attrition drain: Massacre Girl, Screeching Soulbreaker, Restless Fortress and a free Ancestral Craving every end step |
+| Secondary win | Combat: evasive Whiplash Wordsmith, prowess Grim Repriser, menacing Edgar, and Rogue's Passage to force the last points through |
+| Deck score | 89.2 overall (synergy 70.8, cohesion 70.8) |
+| Viability gates | sim 54.7% (3 x 500), goldfish T4 0.605, P(4 lands by T4) 0.611 - all pass |
+
+# Overview
+
+Sanguine Static is a prepared deck that does not need combat to win. Bloodline Recollector is the set's cheapest prepared body: a 2/2 for {1}{B} that becomes prepared at the beginning of each end step in which three or more creatures died. Its spell, Ancestral Craving, costs {B} and reads "target player draws three cards and loses 3 life" - and because you cast a *copy*, the card itself stays in the command zone of the creature and can be cast again the next time the Recollector prepares.
+
+The rest of the deck exists to satisfy that three-creature clause every single turn. Grim Repriser comes back from the graveyard for {B}{R} whenever an opponent has taken noncombat damage, so it can trade, die, and return in the same turn cycle. Edgar, Ancient Bloodlord turns any spare body into a sacrificed creature plus a +1/+1 counter, and Massacre Girl, Most Wanted and Screeching Soulbreaker convert every one of those deaths into a point of life loss. Three deaths is not a combo that has to be assembled from scratch - it is what a normal attack step plus one sacrifice already produces.
+
+Two currencies fall out of the loop. Cards: pointing Ancestral Craving at yourself is a free three-card draw every end step, which is how a 23-land aggro deck keeps casting spells after turn five. Reach: the same copy pointed at the opponent is three life they cannot block, and Massacre Girl grows a counter every time any of it lands.
+
+Reality Fracture is Standard-legal but still carries no arena_id in the card data, so this import list only becomes playable on Arena once the set is enabled there.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turn 1 | No one-drop by design. Nothing to play; keep the mana open and plan the two-drop. |
+| Turn 2 | Bloodline Recollector is the default, Grim Repriser the aggressive alternative. Edgar, Ancient Bloodlord is the third option when the hand has no ping. |
+| Turns 3-4 | Ping first, then trade. Stinging Vitriol or Vicious Verse turns on Grim Repriser's graveyard ability and Whiplash Wordsmith's flying and haste for the turn. Edgar starts eating bodies that were going to die anyway. |
+| Turns 4-6 | Whiplash Wordsmith and Massacre Girl. From here every combat step produces two or three deaths, which means the Recollector prepares at every end step. |
+| The finish | Ancestral Craving pointed at the opponent for the last three, or a Rogue's Passage attack with a counter-loaded Edgar or a flier. |
+
+## Card roles
+
+| Card | Count | Role |
+|------|-------|------|
+| Bloodline Recollector | 4 | The engine. 2/2 for {1}{B} that prepares at each end step with three deaths, giving a free Ancestral Craving (draw three, lose three) every turn |
+| Grim Repriser | 4 | 2/2 prowess for {B}{R} that returns from the graveyard for {B}{R} whenever an opponent took noncombat damage - a repeatable death for the Recollector count |
+| Whiplash Wordsmith | 3 | 3/3 for {3}{B/R} that enters prepared; while an opponent has taken noncombat damage this turn it has flying and haste, and Vicious Verse adds another ping |
+| Edgar, Ancient Bloodlord | 3 | 2/3 for {W}{B}, the sacrifice outlet: {2} and a spare body buys a +1/+1 counter and menace, and every death gains a life |
+| Massacre Girl, Most Wanted | 2 | 4/4 for {4}{B}; one damage to an opponent per death and a +1/+1 counter per point of noncombat damage - the drain payoff |
+| Screeching Soulbreaker | 2 | 1/4 flier for {2}{B} that pings each opponent on every attack; the cheapest way to turn on Repriser and Wordsmith |
+| Stingcaster Mage | 2 | 2/1 haste for {1}{R} that grants flashback to a removal spell already in the graveyard; a second Stinging Vitriol from nowhere |
+| Gallia, the Merrymaker | 2 | 2/1 haste for {1}{R}; hands haste to every creature carrying a counter and adds counters to creatures that entered this turn |
+| Tinybones, Pocket Nuisance | 2 | 2/1 for {2}{B}; the discard from Stinging Vitriol becomes one damage to each opponent |
+| Stinging Vitriol | 4 | {B}{R} sorcery: two to the opponent, then strip their best nonland card - ping and interaction in one card |
+| Blazing Crescendo | 3 | {1}{R} instant, +3/+1 and a card exiled to play; wins trades and keeps the hand full |
+| Vindictive Triumph | 2 | {W}{B}{B} instant that exiles a creature or planeswalker, and steals anything at three mana or less for a turn - two deaths' worth of value |
+| Essence Burn | 2 | {1}{R} instant, five damage to a black or green creature or planeswalker; the answer to the format's fat |
+| Command the Stage | 2 | {2}{R} sorcery that makes a 2/2 Cadet and returns itself from the graveyard every upkeep while an opponent has taken noncombat damage |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|------|-------|-------------------|
+| Restless Fortress | 3 | The win-condition land: a 1/4 Nightmare for {2}{W}{B} that drains two life on every attack, so a stalled board still loses life |
+| Rogue's Passage | 2 | {4} and a tap makes the lethal attacker unblockable; the deck's answer to a single big blocker |
+| Blood Crypt | 4 | Black and red untapped for two life; the two-drop colour pair |
+| Godless Shrine | 3 | Black and white, paying for Edgar on two and Vindictive Triumph later |
+| Sacred Foundry | 3 | Red and white for the Wordsmith and Triumph side |
+| Inspiring Vantage | 3 | Untapped in the first two turns, which is exactly when the deck needs red and white |
+| Blazemire Verge | 3 | Black by default, red once a Swamp or Mountain exists |
+| Swamp / Mountain | 1 / 1 | Two basics to fetch against land destruction and to switch on Blazemire Verge |
+
+## Curve and mana
+
+Twenty-four two-drops, eight three-drops, three four-drops and two five-drops. That shape is the point: the deck wants to deploy two cheap threats per turn, ping, and let the board trade itself down. There is no card above five mana, so twenty-three lands is enough even with four lands that enter tapped.
+
+Colour balance is deliberate. Fourteen black sources (four Blood Crypt, three Godless Shrine, three Blazemire Verge, three Restless Fortress, one Swamp) carry Bloodline Recollector, Massacre Girl and Tinybones on curve. Fourteen red sources (four Blood Crypt, three Sacred Foundry, three Inspiring Vantage, three Blazemire Verge, one Mountain) pay for the ping package, and twelve white sources cover Edgar and the {W}{B}{B} on Vindictive Triumph. Blazemire Verge is only a red source once a Swamp or Mountain is out, so the two basics are functional, not filler.
+
+# Gameplay strategy
+
+## Early game
+
+The first two turns decide the shape of the game. Bloodline Recollector on two is the default because it is the card that eventually draws three cards a turn; Grim Repriser is better when the hand has Stinging Vitriol, because a turn-three ping means the Repriser can attack, trade, and come back on the same turn cycle. Edgar on two is the choice against decks that will trade in combat regardless - he converts those trades into life and counters.
+
+Do not fire Stinging Vitriol on turn two just because you can. The discard is at its best after the opponent has kept a hand with one threat and a removal spell, and the two damage is what turns on both Grim Repriser and Whiplash Wordsmith for the rest of the turn. Holding it one turn is usually worth more than the tempo.
+
+## Mid game
+
+From turn four the deck stops playing a fair game. Every attack step should produce at least one death: a trade, a chump block on their side, or an Edgar activation. Massacre Girl and Screeching Soulbreaker convert those deaths into life totals, and Bloodline Recollector converts three of them into a free spell at the end step.
+
+Use Ancestral Craving on yourself while your life total is comfortable. Three cards a turn is the reason this deck can afford twenty-four cheap spells and no card selection; the three life is paid back by Edgar, Massacre Girl and Screeching Soulbreaker in the same turn cycle. Switch the target to the opponent only when their life total is low enough that the card draw no longer matters.
+
+## The combo turn
+
+The full loop needs three pieces on the board: Bloodline Recollector, a repeatable death, and a ping. A typical turn looks like this:
+
+| Step | Action |
+|------|--------|
+| Precombat | Stinging Vitriol or Vicious Verse - opponent takes noncombat damage, Grim Repriser and Whiplash Wordsmith are live |
+| Combat | Attack with the Wordsmith (flying, haste) and the Repriser; block or be blocked, one creature dies |
+| Postcombat | Edgar activation sacrifices a second body, putting a counter on Edgar |
+| End step | Bloodline Recollector sees three deaths and becomes prepared; cast the copy of Ancestral Craving |
+| Next turn | Grim Repriser returns for {B}{R} because the opponent took noncombat damage; the loop restarts with a fresh body |
+
+Once the loop is running, each turn is worth three life and three cards for zero mana. A second Recollector doubles the copies of Ancestral Craving, because each prepared creature has its own.
+
+## Win condition 2
+
+When the ground stalls, the deck switches to combat. Whiplash Wordsmith has flying and haste on any turn the opponent has been pinged, Gallia gives haste to everything with a counter, and Rogue's Passage makes the largest attacker unblockable. Restless Fortress attacks as a 1/4 that drains two, which is often the difference between a race you lose and one you win.
+
+Vindictive Triumph is the bridge between the two plans: it exiles their best blocker, gives you the body until the end step, and counts as a death for the Recollector when the borrowed creature is exiled.
+
+## Mulligan guide
+
+| Hand | Decision |
+|------|----------|
+| Two lands, Bloodline Recollector, one ping, one two-drop | Keep. This is the deck's average good hand. |
+| Two lands, no black source | Mulligan. Fourteen black sources means this happens, and the deck cannot function without them. |
+| One land | Mulligan regardless of the rest. |
+| Four or more lands, no Recollector or Repriser | Mulligan. The deck has no late-game card advantage without the engine. |
+| Edgar, two pings, three lands | Keep. Edgar plus a ping is a functional start even without the Recollector. |
+
+## Key interactions and edge cases
+
+- Ancestral Craving targets a player, so it can be pointed at yourself for the draw or at the opponent for the drain. It cannot be pointed at a planeswalker.
+- Preparing happens at the beginning of the end step, so the copy is cast in that same end step - after combat and after Edgar activations. Sequence the deaths before the end step, not during it.
+- Grim Repriser returns with a finality counter. A second death exiles it, so keep one copy in the graveyard as the recurrable one and let the others stay dead.
+- Massacre Girl triggers on creatures *and* planeswalkers you control dying, but only pings an opponent - it does not hit planeswalkers.
+- Vindictive Triumph's stolen creature is exiled at the beginning of the next end step, which is a death for Bloodline Recollector if it happens on your turn.
+- Command the Stage checks "last turn", so a ping on the opponent's turn keeps it returning on yours.
+- Tinybones triggers on any player discarding, including the opponent's cleanup step, which is a free point of noncombat damage each turn.
+
+## Matchups
+
+| Opponent | Plan |
+|----------|------|
+| Aggro | Race with Edgar and Massacre Girl; every trade is profit because deaths feed the engine. Bring in Essence Burn for their black or green threats. |
+| Control | Hold Stinging Vitriol for their draw spell, not their threat. The deck loses to a resolved board wipe, so keep one Recollector in hand and rebuild. |
+| Midrange | The best matchup. Their removal is a death trigger and their blockers are ping targets. |
+| Combo | Race. Ancestral Craving pointed at them shortens the clock by three a turn, and Vindictive Triumph removes a combo piece permanently. |
+
+# Deck list (Arena import)
+
+```
+Sanguine Static
+Deck
+4 Bloodline Recollector
+4 Grim Repriser
+3 Whiplash Wordsmith
+3 Edgar, Ancient Bloodlord
+2 Massacre Girl, Most Wanted
+2 Screeching Soulbreaker
+2 Stingcaster Mage
+2 Gallia, the Merrymaker
+2 Tinybones, Pocket Nuisance
+4 Stinging Vitriol
+3 Blazing Crescendo
+2 Vindictive Triumph
+2 Essence Burn
+2 Command the Stage
+4 Blood Crypt
+3 Godless Shrine
+3 Sacred Foundry
+3 Inspiring Vantage
+3 Blazemire Verge
+3 Restless Fortress
+2 Rogue's Passage
+1 Swamp
+1 Mountain
+```
