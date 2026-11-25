@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-24**:
+Deck guides published **2026-11-25**:
 
-- **[Shadowstep Clause](decks/2026-11-24-shadowstep-clause.html)** — Orzhov (white / black) Sneak tempo combo  `combo` `sneak`
-- **[Glasswing Cipher](decks/2026-11-24-glasswing-cipher.html)** — White / blue / black surveil-sphinx combo — Reality Fracture set deck  `reality-fracture` `sphinx`
+- **[Reignition](decks/2026-11-25-reignition.html)** — Rakdos firebending combo — combat-step mana into extra combat steps  `combo` `Firebending`

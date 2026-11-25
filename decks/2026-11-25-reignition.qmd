@@ -1,0 +1,136 @@
+---
+title: "Reignition"
+subtitle: "Rakdos firebending combo — combat-step mana into extra combat steps"
+date: "2026-11-25"
+categories: ["combo", "Firebending"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Rakdos — black / red |
+| Archetype | Aggro-combo (combat mana engine) |
+| Size | 60 cards, 24 lands |
+| Core engine | Firebending mana + Great Train Heist extra combats |
+| Primary win | Ingris Stingerquill pings on every attack, multiplied across extra combat phases |
+| Secondary win | Vindictive Warden — surplus combat mana converted to repeatable face damage |
+| Nonland curve | 12 one-drops, 7 twos, 11 threes, 2 fours, 4 fives |
+
+# Overview
+
+Firebending turns attacking into mana. Every creature with the keyword adds red mana when it attacks, and that mana lasts until end of combat — a resource that exists only inside the combat phase. Reignition is built to spend it there: it attacks, converts the attack into six or ten mana, and immediately buys another combat phase with it.
+
+The engine has three moving parts:
+
+- **Fuel:** `Firebending Student` (firebending equal to its power), `Fire Sages`, `Fire Nation Cadets`, `Zuko, Exiled Prince`, `Ingris Stingerquill`, `Vindictive Warden`, and `Cruel Administrator` all generate mana or bodies that generate mana. `Fire Nation Palace` grants firebending 4 to any creature for `{1}{R}`, so a single attacker becomes a four-mana engine on its own.
+- **Converter:** `Great Train Heist` is the pivot. Its spree mode costs `{2}{R}` and untaps all your creatures, then adds an additional combat phase after this one. Because the spell is an instant, it is cast with the very mana the current attack just produced: the team untaps, attacks again, and produces the mana again.
+- **Payoff:** `Ingris Stingerquill` makes every attacking creature deal 1 damage to each opponent. That trigger fires on declaration, not on damage, so each extra combat phase is a guaranteed, unblockable sweep of the opponent's life total on top of the combat damage itself.
+
+`Firebender Ascension` is the multiplier that makes the chain self-funding. Its quest counters come from attacking creatures causing their own triggered abilities to trigger — exactly what firebending does. At four counters, the next firebending trigger is copied: one attacker producing four mana produces eight, which is enough to pay for a second `Great Train Heist` and keep the chain alive.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Establish the board (turns 1–3).** Land a one-drop, then `Ingris Stingerquill` or `Vindictive Warden`. `Firebending Lesson` clears the first blocker. Do not trade creatures: every body on the board is mana and a ping.
+2. **First engine turn (turn 4–5).** Attack with everything, count the mana, and spend it inside combat. A `Great Train Heist` for untap plus extra combat is the default buy; `Vindictive Warden` activations are where surplus mana goes. `Fire Nation Palace` upgrades the weakest attacker into a four-mana source before combat.
+3. **Close (turn 5–7).** `Sozin's Comet` gives the whole team firebending 5 — with four attackers that is twenty mana in one combat, enough for two extra combat phases, a fistful of Warden pings, and lethal. `Zuko, Exiled Prince` turns leftover combat mana into cards so the chain does not run dry.
+
+## Why these cards
+
+| Card | Copies | Role |
+|---|---|---|
+| Firebending Lesson | 4 | Interaction — 2 damage for {R}, 5 when kicked; a Lesson in the yard turns on Cadets |
+| Fire Nation Cadets | 4 | Fuel — 1/2 for {R} that gains firebending 2 once a Lesson is in the graveyard |
+| Firebending Student | 4 | Fuel — prowess body; firebending equals its power, so pump before attacking |
+| Firebender Ascension | 3 | Multiplier — token on entry, copies an attack trigger at four quest counters |
+| Great Train Heist | 4 | Converter — instant-speed untap plus extra combat phase, paid with combat mana |
+| Fire Sages | 3 | Fuel — 2/2 with firebending 1; its own pump makes later attacks bigger |
+| Ingris Stingerquill | 4 | Primary payoff — every attacker pings each opponent; flying 1/4 blocks well |
+| Vindictive Warden | 4 | Secondary payoff — {3} for 1 damage to each opponent, repeatable |
+| Zuko, Exiled Prince | 2 | Card advantage — firebending 3, and {3} exiles the top card to play this turn |
+| Cruel Administrator | 2 | Body plus token — raid 5/4 that makes a 2/2 firebending 1 Soldier on attack |
+| Sozin's Comet | 2 | Finisher — firebending 5 for the whole team; foretell makes it castable cheaply |
+| Blood Crypt, Blazemire Verge | 8 | Untapped duals — the deck cannot afford a slow start |
+| Fire Nation Palace | 3 | Win-con land — buys firebending 4 for {1}{R}, the cheapest mana engine in the deck |
+| Restless Vents | 3 | Win-con land — animates as a 2/3 menace attacker, which also triggers Stingerquill |
+| Rogue's Passage | 1 | Win-con land — makes the lethal attacker unblockable |
+
+## Lands as engines
+
+| Land | What it does for the combo |
+|---|---|
+| Fire Nation Palace | `{1}{R}, {T}`: target creature gains firebending 4. Applied to an unblocked attacker, one land produces four mana in the same combat, which is the exact cost of a Great Train Heist untap-plus-extra-combat. It is the deck's cheapest way to start the chain with only one creature. |
+| Restless Vents | Animates into a 2/3 menace for `{1}{B}{R}` and attacks. That attack is a body for Stingerquill's trigger and a firebending source once the Palace has touched it; the attack trigger also filters a card. |
+| Rogue's Passage | `{4}, {T}` for unblockable. The pings do not need to connect, but the combat damage does, and this is how the last few points get through a stalled board. |
+
+## Curve and mana
+
+Twenty-four lands with nineteen red sources and fifteen black sources; the only real black requirement is `Ingris Stingerquill`'s single pip, the rest is hybrid or red. `Blazemire Verge` and `Blood Crypt` are untapped early, `Fire Nation Palace` wants a basic first, and `Restless Vents` is a fine turn-one play because it is a land that later becomes an attacker. The nonland curve tops out at five with only four such cards, so the deck functions on three lands and wins on five.
+
+# Gameplay strategy
+
+## Early game
+
+Sequence basics before `Fire Nation Palace`; it enters tapped otherwise. `Fire Nation Cadets` on turn one is the ideal opener because `Firebending Lesson` on turn two both answers a threat and turns the Cadets into a two-mana attacker for the rest of the game. Hold `Great Train Heist` — it is never a pump spell, it is the combo piece.
+
+## The combo turn
+
+1. Precombat: cast `Firebending Lesson` or activate `Fire Nation Palace` to set the mana count. Note that a prowess trigger from the Lesson makes `Firebending Student` a bigger firebender.
+2. Declare attackers. Firebending triggers resolve and add red mana; `Ingris Stingerquill` pings once per attacker.
+3. Still in combat, cast `Great Train Heist` with spree: pay the extra `{2}{R}` for untap plus additional combat phase. All creatures untap.
+4. Declare attackers again in the new combat. Firebending triggers again, Stingerquill pings again.
+5. Repeat while the mana allows, then dump the remainder into `Vindictive Warden` at `{3}` per ping.
+
+The arithmetic that matters: with four attackers and one extra combat, Stingerquill alone deals 8 damage, and every attacker's firebending trigger has paid for the Heist that produced it.
+
+## Win condition 2
+
+`Vindictive Warden` does not need to attack to win. It is a 2/3 menace that blocks well, and its `{3}` ability is instant-speed and repeatable — so any combat where the board produced ten or more mana ends with several points of direct damage even if the opponent has a wall of blockers. Against decks that answer the board, this is the plan that gets there; against decks that cannot block, it is redundant.
+
+## Mulligan guide
+
+Keep two or three lands plus a one-drop and either `Ingris Stingerquill` or `Vindictive Warden`; the payoff is more important than the fuel because almost every creature in the deck is fuel. Ship hands with no one-drop and no payoff, and ship five-land hands — the deck needs action by turn two, not land drops.
+
+## Key interactions and edge cases
+
+- **Firebending mana is combat-only.** It empties at end of combat, so it must be spent before the current combat phase ends. Cast `Great Train Heist` during combat, not in the second main phase.
+- **Stingerquill pings on declaration.** Blockers do not stop the 1 damage; only removing the creature before attackers are declared does. Attacking into a bigger board is often correct.
+- **Firebender Ascension counts the creature's own attack triggers.** Firebending triggers from Student, Sages, Cadets, Zuko and Warden all count, as does `Cruel Administrator`'s token trigger; at four counters the next such trigger is copied, which doubles that creature's mana or doubles the token.
+- **Firebending Student's X is locked at the trigger.** Pump it with `Fire Sages` or cast a Lesson before attacking, not after.
+- **`Sozin's Comet` stacks with existing firebending.** Each instance is a separate trigger, so a Cadets with firebending 2 that gains firebending 5 adds seven mana. Cast it before the first attack of the combo turn, not mid-chain.
+- **`Great Train Heist` spree modes are cumulative.** Untap plus extra combat is the mode that matters; the first-strike mode is a reasonable add when the extra `{2}` is spare and the opponent's blockers would otherwise trade.
+
+## Matchups
+
+- **Aggro:** you are the faster combo but a worse pure aggro deck. Trade with `Firebending Lesson`, block with the 1/4 Stingerquill, and race with pings rather than combat damage.
+- **Midrange:** their blockers are irrelevant to Stingerquill. Save `Rogue's Passage` for the turn the combat damage matters, and use `Vindictive Warden` to finish over the top.
+- **Control:** do not overextend into sweepers; keep one engine piece and one converter in hand. `Zuko, Exiled Prince` and `Sozin's Comet`'s foretell both let you hold mana and reload after a wipe.
+
+# Deck list (Arena import)
+
+```
+Reignition
+Deck
+4 Firebending Lesson
+4 Fire Nation Cadets
+4 Firebending Student
+3 Firebender Ascension
+4 Great Train Heist
+3 Fire Sages
+4 Ingris Stingerquill
+4 Vindictive Warden
+2 Zuko, Exiled Prince
+2 Cruel Administrator
+2 Sozin's Comet
+4 Blood Crypt
+4 Blazemire Verge
+3 Fire Nation Palace
+3 Restless Vents
+1 Rogue's Passage
+4 Swamp
+5 Mountain
+```
