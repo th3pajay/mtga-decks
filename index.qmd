@@ -4,4 +4,5 @@ title: "Today's Decks"
 
 Deck guides published **2026-11-26**:
 
+- **[Codicil](decks/2026-11-26-codicil.html)** — Esper (WUB) surveil and graveyard reanimation  `reality-fracture` `surveil`
 - **[Clue Crew](decks/2026-11-26-clue-crew.html)** — Four-color artifact combo — Clue, Teamwork, Job select  `combo` `clue` `teamwork` `job-select`

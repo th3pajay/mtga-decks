@@ -1,0 +1,157 @@
+---
+title: "Codicil"
+subtitle: "Esper (WUB) surveil and graveyard reanimation"
+date: "2026-11-26"
+categories: ["reality-fracture", "surveil"]
+---
+
+
+
+# At a glance
+
+| Property | Value |
+|---|---|
+| Format | Standard (Reality Fracture build) |
+| Colors | White, Blue, Black |
+| Archetype | Surveil and graveyard value, midrange combo |
+| Size | 60 cards |
+| Primary win | Counter and token swarm: Diviner of Victory and Denzilore Fatehold grow with every surveil while Saheeli, Consul of Oversight and Proft, Consulting Detective convert the same triggers into bodies and cards |
+| Secondary win | Return to the Light Realms returns every nonland permanent in the graveyard to the battlefield in one turn |
+
+Reality Fracture is Standard-legal, but the set still carries no arena_id in the card data. The import list below becomes playable on Arena once the set is enabled there.
+
+# Overview
+
+Codicil is a graveyard engine disguised as a small-creature deck. Every surveil you take does three jobs at once: it filters your draws, it grows Dark Matter Manipulator and the surveil payoffs, and it stocks the graveyard that Generous Revival, Rewrite Regrets and Return to the Light Realms later convert into a battlefield.
+
+The engine is Proctor of Potential: a two-mana 3/1 that surveils on its own entry and on the entry of every other creature. Diviner of Victory costs one mana, enters prepared, and gets +1/+1 every time you scry or surveil, so one Proctor plus two creatures is already a growing threat. Denzilore Fatehold turns each trigger into a counter on the whole team, Saheeli, Consul of Oversight turns one per turn into a flying Thopter, and Proft, Consulting Detective turns them into cards.
+
+The deck wins on two axes that share the same fuel. The first is a wide board of counters and Thopters that grows on its own. The second is a reload finish: because surveil and mill both fill the graveyard, Return to the Light Realms can put an entire board back into play in one turn. Restless Reef is the land half of that plan, attacking as a 4/4 deathtouch Shark that mills four and further deepens the yard.
+
+# Approach
+
+## Game plan phases
+
+- Turns one and two: land a one-drop engine piece (Diviner of Victory or Dark Matter Manipulator) and follow with Proctor of Potential. Prefer surveil lands when the hand already has a turn-one play, since Meticulous Archive, Undercity Sewers and Shadowy Backstreet all enter tapped.
+- Turns three and four: resolve Denzilore Fatehold or a flashed-in copy at end of turn, then chain creatures and cheap surveil spells. Generous Revival returns a Diviner or a Manipulator with an extra counter and is itself a graveyard card for the finish.
+- Turns five and later: Saheeli turns each turn's surveil into a Thopter, Proft converts triggers into cards, and the board attacks. Keep the graveyard count climbing toward fifteen or more nonland permanents.
+- Finish: Return to the Light Realms for the mass reload, or grind out with Restless Reef plus the counter team when the reload is answered.
+
+## Card roles
+
+| Card | Cost | Role |
+|---|---|---|
+| Diviner of Victory | {U} | Prepared one-drop; +1/+1 on every scry or surveil. Its spell Unwind History bounces a small creature and surveils 1 |
+| Proctor of Potential | {W}{U} | Engine; surveil 1 whenever a creature enters. Recurs itself from the graveyard for {W}{U} with a finality counter if you have scried or surveilled this turn |
+| Dark Matter Manipulator | {B} | Mills three on entry, then gets +2/+0 for every seven cards in your graveyard |
+| Semester Foreseer | {3}{U} | Enters prepared and surveils 1. Its spell Peer Review makes a 2/2 Cadet and surveils 1 |
+| Denzilore Fatehold | {1}{W}{U}{U} | Flash flier; a +1/+1 counter on each creature you control per scry or surveil |
+| Saheeli, Consul of Oversight | {3}{W}{W} | Flying 4/4 that makes a 1/1 Thopter on your first scry or surveil each turn |
+| Proft, Consulting Detective | {1}{U} | Pays {2} on any scry or surveil for a counter and a card |
+| Gallia, Tragic Host | {1}{B} | Menace body that returns itself from the graveyard by exiling another creature card |
+| Generous Revival | {2}{W} | Reanimation for mana value 3 or less with an extra counter, plus flashback {4}{W} |
+| Rewrite Regrets | {3}{B} | Reanimation up to mana value 6, and empower Jace 2 makes a Jace token that surveils |
+| Cruel Calculations | {2}{U} | Draws one card per card put into a graveyard from a library this turn, counting your own mill |
+| Hymn of the Faller | {1}{B} | Surveil 1 then draw, with a second card if a permanent left the battlefield |
+| Banishing Betrayal | {1}{U} | Tempo answer that also surveils 1 |
+| Return to the Light Realms | {7}{W}{W} | Secondary win: every nonland permanent card in your graveyard returns to the battlefield |
+
+## Lands as engines
+
+| Land | Function |
+|---|---|
+| Restless Reef | Win-condition land. Attacks as a 4/4 deathtouch Shark and mills four on attack, feeding Manipulator and the reload |
+| Meticulous Archive | Blue and white source that surveils 1 on entry |
+| Undercity Sewers | Blue and black source that surveils 1 on entry |
+| Shadowy Backstreet | White and black source that surveils 1 on entry |
+| Watery Grave, Godless Shrine, Hallowed Fountain | Untapped three-color fixing for two life |
+| Island, Plains, Swamp | Basic slots for the one-of white and black requirements |
+
+## Curve and mana
+
+The deck runs 24 lands and 36 nonlands with an average mana value of 2.75. Eight one-drops and eleven two-drops mean the engine starts before most opposing decks can interact profitably.
+
+Only one card costs more than five. White is the shallowest color, carried by Godless Shrine, Hallowed Fountain and one Plains; every nonbasic but the basics makes blue or black.
+
+# Gameplay strategy
+
+## Early game
+
+Open on a one-drop. Diviner of Victory is the better turn-one play when you have a surveil effect behind it; Dark Matter Manipulator is better when the hand is land-light, because milling three digs toward the fourth land. Turn two is Proctor of Potential whenever possible. Take the surveil taplands only on turns where you already have a one-drop.
+
+## Mid game
+
+Denzilore Fatehold is the pivot. Flashing it in at end of turn protects it from sorcery-speed removal and immediately converts the next surveil into a team-wide counter. Once Denzilore is down, every spell in the deck that surveils becomes a combat trick. Saheeli, Consul of Oversight is the follow-up: one Thopter per turn is not spectacular alone, but those Thopters inherit every Denzilore counter and every Diviner pump.
+
+Generous Revival is the recursion valve. It brings back Diviner of Victory, Dark Matter Manipulator, Proctor of Potential or Gallia, Tragic Host with a counter, and it is itself a card in the graveyard for the finish. Flashback it later only when the extra body matters more than keeping the card in the yard for Return to the Light Realms.
+
+## The combo turn
+
+The engine turn is any turn where you stack multiple surveil triggers with Denzilore, Saheeli and Proft on the battlefield:
+
+1. Cast a creature with Proctor of Potential out. Proctor surveils 1 on the new creature's entry.
+2. Each surveil is a separate event, so Diviner of Victory pumps, Denzilore adds a counter to every creature, Saheeli makes a Thopter (once), and Proft offers a counter plus a card for {2}.
+3. Repeat with a second creature, then with Hymn of the Faller or Banishing Betrayal, then with Peer Review from Semester Foreseer.
+4. Attack with a board that has grown by four to eight counters and one or two Thopters in a single turn.
+
+Trigger Proft last, once you have decided whether the {2} is worth spending.
+
+## Win condition two
+
+Return to the Light Realms costs nine and returns every nonland permanent card from your graveyard to the battlefield. By turn eight a normal game has fifteen or more such cards in the yard, almost all of them creatures with surveil triggers. The turn it resolves, everything re-enters, every Proctor surveils again, and the board is lethal even from an empty battlefield. Rewrite Regrets can pre-load the graveyard with a reanimated Denzilore, and Cruel Calculations refills your hand on the same turn by counting the mill you have done.
+
+Restless Reef is a real attacker, not a utility land: two copies attack as 4/4 deathtouch Sharks, mill four each attack, and turn on Cruel Calculations for extra cards. Against decks that answer creatures with sorcery-speed sweepers, the Reef plus a reloading graveyard is often the whole game plan.
+
+## Mulligan guide
+
+- Keep hands with one or two lands that include an untapped blue or black source, a one-drop, and either Proctor of Potential or a two-mana interaction spell.
+- Keep any hand with Diviner of Victory plus Proctor of Potential, even on four lands; the engine is that cheap.
+- Ship hands whose only lands are the three surveil taplands. Curving Meticulous Archive into Undercity Sewers into Shadowy Backstreet loses a full turn against aggro.
+
+## Key interactions and edge cases
+
+- Proctor of Potential returns itself with a finality counter, which exiles it instead of letting it die. Do not recur it on a turn where Generous Revival needs to rebuy it.
+- Saheeli triggers only once per turn, so extra surveils make no extra Thopters. Denzilore and Diviner have no limit, so stack surveil events with Denzilore out.
+- Mill is not surveil. Restless Reef, Dark Matter Manipulator and Cruel Calculations fill the yard but do not trigger Diviner, Denzilore, Saheeli or Proft.
+- Cruel Calculations counts cards put into a graveyard from a library this turn. Target yourself, count your own mill, and cast it after the Reef has attacked.
+- Return to the Light Realms returns only nonland permanent cards. Lands stay in the graveyard, and opposing graveyards are untouched.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade with Banishing Betrayal, block with Proctor, and race with Diviner pumps. Restless Reef blocks as well as attacks |
+| Control | Bait sweepers with Thopters and a single Denzilore, then reload with Return to the Light Realms. Proft converts dead surveil triggers into cards |
+| Ramp and combo | Eight one-drops and eleven two-drops mean pressure starts on turn two. Banishing Betrayal buys a turn against a key permanent |
+| Midrange | Grind with Generous Revival loops and the graveyard reload |
+
+# Deck list (Arena import)
+
+```
+Codicil
+Deck
+4 Diviner of Victory
+4 Proctor of Potential
+4 Dark Matter Manipulator
+3 Semester Foreseer
+3 Denzilore Fatehold
+2 Saheeli, Consul of Oversight
+2 Proft, Consulting Detective
+2 Gallia, Tragic Host
+4 Generous Revival
+2 Rewrite Regrets
+2 Cruel Calculations
+1 Hymn of the Faller
+2 Banishing Betrayal
+1 Return to the Light Realms
+4 Watery Grave
+3 Godless Shrine
+3 Hallowed Fountain
+3 Meticulous Archive
+3 Undercity Sewers
+2 Shadowy Backstreet
+2 Restless Reef
+2 Island
+1 Plains
+1 Swamp
+```
