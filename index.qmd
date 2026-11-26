@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-25**:
+Deck guides published **2026-11-26**:
 
-- **[Sanguine Static](decks/2026-11-25-sanguine-static.html)** — Mardu (black / red / white) prepared-attrition combo - Reality Fracture set deck  `reality-fracture` `prepared`
-- **[Reignition](decks/2026-11-25-reignition.html)** — Rakdos firebending combo — combat-step mana into extra combat steps  `combo` `Firebending`
+- **[Clue Crew](decks/2026-11-26-clue-crew.html)** — Four-color artifact combo — Clue, Teamwork, Job select  `combo` `clue` `teamwork` `job-select`

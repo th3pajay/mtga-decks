@@ -1,0 +1,155 @@
+---
+title: "Clue Crew"
+subtitle: "Four-color artifact combo — Clue, Teamwork, Job select"
+date: "2026-11-26"
+categories: ["combo", "clue", "teamwork", "job-select"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Four-color, no green — white / blue / black / red |
+| Archetype | Artifact-token combo midrange |
+| Size | 60 cards, 24 lands |
+| Core engine | Job select Equipment into Forensic Gadgeteer and The Mechanist, Aerial Artisan |
+| Primary win | Persuasive Interrogators: five Clue sacrifices for ten poison counters |
+| Secondary win | The Mechanist turns Clue tokens into 3/1 flying Constructs and races |
+| Nonland curve | 1 one-drop, 16 twos, 15 threes, 2 fours, 2 sixes (average 2.7) |
+| Land that wins | Scene of the Crime, an artifact land that is itself a Clue |
+
+# Overview
+
+Clue Crew is built on a three-card interaction that most decks never get to use: **Job select makes bodies, Teamwork spends bodies, Clues turn the spending into cards and poison.**
+
+`Job select` is a printed ability on the Equipment in this deck: when the Equipment enters, you create a 1/1 colorless Hero creature token and then attach the Equipment to it. Every Job select card is therefore two permanents for one card — a creature and an artifact. That matters three times over:
+
+- The Hero is a body, so `Teamwork` costs can be paid. Teamwork reads "as an additional cost to cast this spell, you may tap any number of creatures you control with total power N or more", and the reward is a strictly better spell: `Team Tactics` gives double strike and trample, `Repulsor Blast` deals 5 to a creature and 2 to its controller, `Cruel Alliance` exiles any creature and gains 3 life.
+- The Equipment is an artifact spell, so `Forensic Gadgeteer` investigates every time one is cast. Gadgeteer also makes artifact abilities cost `{1}` less, which turns every Clue from a two-mana cantrip into a one-mana cantrip and makes the whole deck's card flow cheap.
+- The token is a legal target for the Equipment's own bonus, so a `Samurai's Katana` Hero attacks as a 3/3 with trample and haste on turn three.
+
+Clues are the currency. They are drawn by `Forensic Gadgeteer` (artifact spells), `The Mechanist, Aerial Artisan` (noncreature spells), `Teysa, Opulent Oligarch` (end step, once per opponent who lost life), `Tolls of War` (enters), `Obsessive Pursuit` (enters and every upkeep), and `Raven Eagle` (graveyard exile). They are spent three ways: sacrifice them to draw, sacrifice them to `Persuasive Interrogators` for two poison counters each, or tap them to `The Mechanist` to attack as 3/1 fliers. The same sacrifice triggers `Teysa` (a 1/1 flying Spirit), `Tolls of War` (a 1/1 Ally) and pumps `Obsessive Pursuit`.
+
+The engine is deliberately redundant: eleven Job select cards, six Teamwork spells, and thirteen cards that make or pay off Clues, so any two of the three layers form a working engine.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Deploy the crew (turns 1–3).** Land, then a two-mana Job select Equipment (`Astrologian's Planisphere`, `Monk's Fist`, `Black Mage's Rod`) or `Forensic Gadgeteer`. A turn-two Equipment that turns into a turn-three Gadgeteer plus a Clue, a Hero and a 2/3 body is the ideal opening. `Tolls of War` and `Obsessive Pursuit` are the other two-mana plays and both start the Clue clock immediately.
+2. **Stack the engine (turns 3–5).** Add `The Mechanist, Aerial Artisan` and `Teysa, Opulent Oligarch`, keep casting Equipment so Gadgeteer keeps investigating, and hold `Repulsor Blast` and `Cruel Alliance` as interaction you can upgrade by tapping Heroes that already attacked or that are otherwise idle. Crack Clues on your own turn so `Tolls of War` and `Obsessive Pursuit` see the sacrifices.
+3. **Convert (turns 5+).** Either land `Persuasive Interrogators` and sacrifice five Clues across one or two turns for ten poison, or stop sacrificing and start tapping: `The Mechanist` turns each Clue into a 3/1 flier, and `Team Tactics` on a Katana-equipped Hero ends games through a stalled board.
+
+## Card roles
+
+| Role | Cards | What it does |
+|---|---|---|
+| Engine, Clue generation | Forensic Gadgeteer (4) | Investigates on every artifact spell; artifact abilities cost `{1}` less |
+| Engine, Clue conversion | The Mechanist, Aerial Artisan (3) | Clue on every noncreature spell; taps a Clue into a 3/1 flying Construct |
+| Engine, bodies | Astrologian's Planisphere (4), Monk's Fist (3), Samurai's Katana (2), Black Mage's Rod (2) | Job select: Hero token plus attached Equipment |
+| Payoff, primary | Persuasive Interrogators (2) | Each Clue sacrificed gives a target opponent two poison counters |
+| Payoff, sacrifice | Teysa, Opulent Oligarch (2), Tolls of War (2), Obsessive Pursuit (1) | Spirits, Allies and +1/+1 counters off every sacrifice |
+| Enabler, Teamwork | Repulsor Blast (2), Cruel Alliance (2), Team Tactics (2) | Upgraded interaction paid for with tapped Heroes |
+| Support | Auspicious Arrival (2) | Two mana for +2/+2 and a Clue, at instant speed |
+| Clue producer, creature | Raven Eagle (2) | Flying, Clue off graveyard exile, drains on your second draw |
+| Utility | Candlestick (1) | Clue Equipment: pumps, surveils 2 on attack, sacrifices to draw |
+
+## Lands as engines
+
+| Land | Count | Job in the deck |
+|---|---|---|
+| Scene of the Crime | 2 | Artifact land with the Clue subtype. Sacrificing it is a Clue sacrifice for Persuasive Interrogators (two poison) and for Teysa (a Spirit). Also taps a creature for one mana of any color, which is how a four-color deck casts its spells off Hero tokens. |
+| Watery Grave | 4 | Untapped blue and black for the turn-three engine plays |
+| Godless Shrine | 3 | White and black for Teysa, Tolls of War and Auspicious Arrival |
+| Blood Crypt | 2 | Red and black, the only red source that also casts Interrogators |
+| Sacred Foundry | 2 | White and red for Katana plus Auspicious Arrival lines |
+| Hallowed Fountain | 2 | Blue and white for Planisphere into Teysa |
+| Steam Vents | 1 | Extra red for Repulsor Blast |
+| Basic lands | 8 | 3 Island, 2 Swamp, 2 Plains, 1 Mountain |
+
+## Curve and mana
+
+Thirty-six nonland cards, average mana value 2.7, with sixteen two-drops and fifteen three-drops. The deck functions on three mana; `Repulsor Blast` at four and `Persuasive Interrogators` at six are the only expensive cards, and both are payoffs rather than requirements.
+
+Sources by color: blue 12, black 13, white 11, red 8. Blue is the deepest requirement and every blue card is a single pip. Red is the splash: six single-pip cards on five red lands plus `Scene of the Crime`, which adds a rainbow source whenever you control a creature.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with Job select Equipment over almost anything else. It is a creature, an artifact, a Teamwork enabler and a Gadgeteer trigger in one card, and it fixes your colors because it gives `Scene of the Crime` something to tap. Keep two-land hands only with a two-drop you can cast; this deck's two-drops are spread across four colors, so a hand with `Monk's Fist` (colorless) and `Astrologian's Planisphere` is far more keepable than one that needs white and red by turn two.
+
+## Mid game
+
+`Forensic Gadgeteer` is the card that makes the deck work and the card opponents must answer. Every Equipment after it resolves draws a card eventually at a discount, so a Gadgeteer plus two Equipment is a four-for-three. `Teysa` converts each Clue sacrifice into a flier and, on end steps where opponents lost life, refills the Clue supply. `Tolls of War` does the same job defensively with 1/1 Allies, which conveniently also pay Teamwork costs.
+
+Crack Clues in your first main phase, before combat. `Obsessive Pursuit` counts permanents sacrificed this turn to size its attack trigger, and `Tolls of War` only triggers during your turn, so precombat sacrifices turn into counters and blockers rather than unused potential.
+
+## The combo turn
+
+The kill is `Persuasive Interrogators` plus five Clues. Interrogators itself investigates on entry, so you need four more Clues in play or created afterward. With Interrogators and `Forensic Gadgeteer` together, each subsequent Equipment is one Clue, and each Clue sacrificed is two poison on the same opponent; ten poison ends the game. Two Interrogators on board double the rate, and `Teysa` creates a Spirit each time, so the board is never empty while you are spending.
+
+The sequencing matters: cast the Equipment spells first to bank Clues, then sacrifice. If you sacrifice a Clue and the opponent has interaction, you have traded a card for nothing; if you sacrifice it after the Interrogators has resolved and stuck, you have traded it for a fifth of a win.
+
+## Win condition two
+
+When the opponent has too much point removal for the poison plan, stop feeding Clues to Interrogators and start tapping them. `The Mechanist, Aerial Artisan` turns any artifact token into a 3/1 Construct with flying until end of turn, and it can do so every turn. Three Clues plus a Mechanist is nine power in the air, and `Team Tactics` on an equipped Hero adds a double-striking trampler. `Samurai's Katana` Heroes (3/3 trample, haste) and `Raven Eagle` provide the ground clock and the drain.
+
+## Mulligan guide
+
+Keep: two or three lands including a blue source, one two-mana Job select Equipment, and one engine card (`Forensic Gadgeteer`, `The Mechanist` or `Teysa`). Keep any hand with `Monk's Fist` because it is colorless.
+
+Ship: one-land hands, hands with no blue or black source, and hands that are all four-drops and six-drops. This deck wins on the two- and three-drop density; a hand that starts on turn four is a lost game in a format this fast.
+
+## Key interactions and edge cases
+
+- `Forensic Gadgeteer` reduces artifact activated abilities to a minimum of one mana, so a Clue costs `{1}` to crack and `Scene of the Crime` costs `{1}` to sacrifice. That discount applies to Equipment costs too, making re-equipping cheap.
+- `Scene of the Crime` is a Clue. Sacrificing it triggers `Persuasive Interrogators`, `Teysa` and `Tolls of War`. It is a land that literally participates in the win condition, and sacrificing it is often correct once you have four other lands.
+- Teamwork is an additional cost you may decline, and tapping creatures does not care about summoning sickness. Hero tokens made this turn can pay for an instant-speed `Repulsor Blast` or `Team Tactics` immediately. Tap after attackers are declared if the creatures are not needed as blockers.
+- `The Mechanist` and Clue sacrifice compete for the same tokens. Decide at the start of each turn whether that Clue is a card, a poison counter or a 3/1 flier, then commit.
+- `Persuasive Interrogators` targets an opponent with its trigger: ten counters on one player is the win, so do not split them.
+- `Obsessive Pursuit` costs one life per upkeep but its attack trigger grants lifelink at three or more sacrifices, so it is a life-gain engine on a big turn.
+- `Candlestick` pumps, surveils 2 on attack and sacrifices for a card; `Auspicious Arrival` is the instant-speed Clue that also saves an equipped Hero from a burn spell.
+
+## Matchups
+
+- **Aggro and tokens.** You have six pieces of interaction that all get better when you tap a Hero: `Repulsor Blast` kills almost anything in the format, `Cruel Alliance` exiles for three mana with Teamwork, and `Tolls of War` chump-blocks while making Allies. Race only with `Samurai's Katana` and `Team Tactics`.
+- **Control.** The engine is redundant, so force them to answer one card at a time: Gadgeteer first, then Mechanist. Clues mean their one-for-one removal is losing card advantage. Hold `Auspicious Arrival` for counterspell wars on Interrogators.
+- **Midrange.** Teamwork interaction is at its best here. `Cruel Alliance` exiles their best creature for three, and `Team Tactics` gives you a double-striking trampler that ignores stalls.
+- **Combo.** No counterspells, so the plan is speed: deploy Interrogators early, count poison carefully, and use `Raven Eagle` and Mechanist fliers to close the last points while holding `Repulsor Blast` for their engine creature.
+
+# Deck list (Arena import)
+
+```
+Clue Crew
+Deck
+4 Forensic Gadgeteer
+3 The Mechanist, Aerial Artisan
+2 Teysa, Opulent Oligarch
+2 Persuasive Interrogators
+2 Raven Eagle
+4 Astrologian's Planisphere
+3 Monk's Fist
+2 Samurai's Katana
+2 Black Mage's Rod
+1 Candlestick
+2 Tolls of War
+1 Obsessive Pursuit
+2 Repulsor Blast
+2 Cruel Alliance
+2 Team Tactics
+2 Auspicious Arrival
+4 Watery Grave
+3 Godless Shrine
+2 Blood Crypt
+2 Sacred Foundry
+2 Hallowed Fountain
+1 Steam Vents
+2 Scene of the Crime
+3 Island
+2 Swamp
+1 Mountain
+2 Plains
+```

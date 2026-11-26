@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-11-11 · **412** cards locked · **Reality Fracture 128/285** remaining
+**Card pool consumption** — cycle started 2026-11-11 · **423** cards locked · **Reality Fracture 128/285** remaining
 
-**197 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**198 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-26
+
+- **[Clue Crew](decks/2026-11-26-clue-crew.html)** — Four-color artifact combo — Clue, Teamwork, Job select  `combo` `clue` `teamwork` `job-select`
 
 ## 2026-11-25
 
