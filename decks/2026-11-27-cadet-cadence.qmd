@@ -1,0 +1,150 @@
+---
+title: "Cadet Cadence"
+subtitle: "White-blue-red prepared tempo combo — Reality Fracture set deck"
+date: "2026-11-27"
+categories: ["reality-fracture", "prepared"]
+---
+
+
+# At a glance
+
+| Item | Detail |
+|:--|:--|
+| Format | Standard (Reality Fracture set deck) |
+| Colors | White, blue, red (Jeskai) |
+| Archetype | Prepared creature combo, go-wide tempo |
+| Size | 60 cards (36 spells and creatures, 24 lands) |
+| Primary win | Free prepared spell copies each turn fuel Cadet and Sculpture tokens plus pumped fliers for a lethal alpha strike |
+| Secondary win | Hall of Echoes converts into a copy of Vraska, Soul of Stone (the legend rule is switched off), doubling the token engine and adding a land-bodied attacker |
+
+# Overview
+
+Reality Fracture is built around prepared: a creature enters prepared or becomes prepared, and while it is prepared you may cast a copy of its spell, which unprepares it. The card frame hides the payload on the back of a double-faced creature, and this deck plays nine of those fronts, so almost every creature in the deck is also a free spell on arrival.
+
+The engine is simple and self-feeding. Each prepared creature is a body plus a spell in one card. Flickering Hound turns the engine over: every creature spell you cast blinks another creature you control, it returns to the battlefield as a new object, and because it "enters prepared," its spell is loaded again. Rescue Girl does the same job by hand. Vraska, Soul of Stone pays you for each of those free copies, since a copy of a sorcery or instant is a noncreature spell, and every one of them makes a 1/1 vigilance Sculpture Treasure. Prudent Fateseer and Diviner of Victory cash the surveil triggers on Peer Review and Unwind History into team power.
+
+Nothing here needs a combo turn in the storm sense. It needs a board, and every turn the board pays for itself.
+
+# Approach
+
+## Game plan phases
+
+**Turns one to three — load the board.** Deploy prepared one-drops (Diviner of Victory, Pompous Battlemage, Emergency Phytomedic) and cast their copies as soon as a target exists. Peer Review from Fatehold Chronologist is the best of the early copies: a 2/2 Cadet and a surveil for two mana you never pay. Curves of three prepared creatures by turn three are common; each one replaced itself.
+
+**Turns four to six — turn the crank.** Flickering Hound and Rescue Girl let a prepared creature be re-prepared, so the deck stops running out of gas. Vigorbloom Vanguard gives every counter-bearing creature vigilance, which means attacking costs you nothing on defense. Artifist Acumen turns a wide board into a first-strike alpha strike, and its "draw a card" is a free prowess and Vraska trigger.
+
+**Turns six and later — close with the land.** Hall of Echoes copies the best creature on your board every turn. Copying Vraska is the strongest line because the copy's trigger stacks with the original. Copying Prudent Fateseer doubles the pump, and copying Blossom-Blessed Angel adds a 2/4 flying vigilant blocker-attacker.
+
+## Card roles
+
+| Card | Cost | Role |
+|:--|:--|:--|
+| Diviner of Victory | {U} | One-drop engine; gets +1/+1 on every scry or surveil, and its back face Unwind History bounces a small creature and surveils |
+| Pompous Battlemage | {R} | One-drop prowess body; Improvised Act loots for free and triggers Vraska |
+| Emergency Phytomedic | {G/W} | One-drop body; Seed Suture adds a counter and 1 life, and repeats off a blink |
+| Fatehold Chronologist | {1}{W/U} | Flying two-drop; Peer Review makes a 2/2 Cadet and surveils, the deck's best free spell |
+| Prudent Fateseer | {1}{W/U}{W/U} | 1/4 that pumps the team +1/+0 on the first scry or surveil each turn; Peer Review is the trigger |
+| Variable Chaser | {2}{U} | Flying prowess three-drop; Arc of Fortune refuels an empty hand for seven |
+| Vigorbloom Vanguard | {1}{G/W} | Counter-payoff body that grants vigilance to every counter-bearing creature |
+| Blossom-Blessed Angel | {3}{W} | Flying vigilant four-drop; Seed Suture is the free copy |
+| Vraska, Soul of Stone | {U}{R}{W} | Payoff engine; every noncreature spell makes a 1/1 vigilance Sculpture Treasure that also ramps |
+| Flickering Hound | {3}{W} | Re-preparation engine; each creature spell blinks a prepared creature back into prepared |
+| Rescue Girl, First Responder | {2}{W} | Manual re-preparation and a flying blocker; bounce a prepared creature and replay it |
+| Semester Foreseer | {3}{U} | 3/4 that surveils on entry and arrives prepared with Peer Review |
+| Artifist Acumen | {R} | Team first strike plus a card, at sorcery speed, for one mana |
+| Unsummon | {U} | Interaction that doubles as re-preparation on your own prepared creature |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|:--|:--|:--|
+| Hall of Echoes | 2 | The win-condition land. For five mana it becomes a copy of a creature you control until end of turn, with the legend rule switched off, so a Vraska copy coexists with the original and doubles the Sculpture output |
+| Restless Anchorage | 2 | Second land-attacker; becomes a 2/3 flying Bird and makes a Map token on attack |
+| Floodfarm Verge | 4 | White or blue once a Plains or Island is in play, and the shocklands supply both types |
+| Riverpyre Verge | 2 | Red or blue mana for the prowess and Vraska side of the deck |
+| Sunbillow Verge | 2 | White or red, the bridge between the two aggressive colors |
+| Hallowed Fountain | 3 | Untapped white-blue for two life, and a Plains Island for the verge lands |
+| Sacred Foundry | 2 | Untapped white-red, and a Mountain Plains for the verge lands |
+| Steam Vents | 2 | Untapped blue-red, and an Island Mountain for the verge lands |
+| Plains, Island, Mountain | 2, 2, 1 | Fetchless basics that switch on the verge lands and survive Field of Ruin effects |
+
+## Curve and mana
+
+Sixteen cards cost one mana, seven cost two, eight cost three, and five cost four or more, against twenty-four lands. The deck is functionally a low-curve aggro-combo list: nineteen of its thirty-two creatures cost one or two mana, and every prepared creature among them brings a spell with it.
+
+The manabase is fifteen white sources, fifteen blue and nine red. Red is the splash: Pompous Battlemage and Artifist Acumen are the only maindeck red costs, and Vraska asks for one of each. White carries the early curve and blue carries the engine. Because the Sculpture Treasures tap for any color, a Vraska that survives one turn fixes the rest of the game's mana.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest prepared creature you can cast, then immediately cast its copy if a legal target exists. Seed Suture always has a target because the creature casting it is a creature. Improvised Act is free card selection only if you discard, so trade a spare land for a card. Unwind History needs an opponent's creature with mana value three or less; against a creatureless start, hold the Diviner as a 1/1 that grows later.
+
+Do not crack a fetch-style plan or sandbag lands: Floodfarm Verge and its cycle need a basic land type in play, so play shocklands and basics early and keep the verge lands for later turns.
+
+## Mid game and the combo turn
+
+The deck's "combo turn" is any turn where you cast two or more creature spells with Flickering Hound out. Each cast blinks a different prepared creature, and each of those creatures re-enters prepared, so the free copies stack up: Cadets, Sculpture Treasures, surveils, and prowess triggers all resolve before combat. Order the triggers so Prudent Fateseer's pump resolves after the last surveil, then attack with a team that is +1/+0 or better and has first strike from Artifist Acumen.
+
+Rescue Girl is the backup: at the end of your precombat main phase, bounce a prepared creature you have already used and replay it for a second free copy the same turn if mana allows.
+
+## Win condition two
+
+Hall of Echoes is a real threat, not a mana sink. On a stalled board, activate it for five targeting Vraska, Soul of Stone: the land becomes a 3/3 Gorgon Wizard copy for the turn, the legend rule does not apply, and from then on every noncreature spell you cast makes two Sculpture Treasures. Two Vraska triggers also mean two vigilance grants, so the whole artifact army attacks and blocks.
+
+Against a ground stall, copying Blossom-Blessed Angel instead gives you a 2/4 flying vigilant attacker that dodges sorcery-speed sorceries, and copying a pumped Prudent Fateseer turns every surveil into a double team pump.
+
+## Mulligan guide
+
+Keep hands with two or three lands, at least one white or blue source, and a one- or two-mana prepared creature. Fatehold Chronologist plus any other prepared creature is a snap keep. Ship hands with zero or one land, hands with only four-drops, and hands where the only action is Hall of Echoes and Unsummon. A single prepared creature plus three lands usually draws into more.
+
+## Key interactions and edge cases
+
+- A copy of a prepared spell is cast, so it counts as casting a noncreature spell: Vraska triggers, prowess triggers, and Prudent Fateseer's scry or surveil trigger fires on Peer Review and Unwind History.
+- Flickering Hound's blink is not optional in a useful sense: it targets "up to one other target creature." Blink the creature whose spell you have already used, never the one you still want to cast. Blink before combat, because the returned creature is no longer attacking.
+- Blinking a creature removes counters and auras, so do not blink a creature carrying Seed Suture counters unless the re-prepared spell is worth more.
+- Arc of Fortune is symmetric and each player chooses. Cast it with a nearly empty hand; an opponent with a full hand will simply decline.
+- Improvised Act is card-neutral unless you discard, and the discard happens before the draw, so you can bin a land and keep the engine running.
+- Unwind History cannot be cast with no legal target. If the opponent has no creature with mana value three or less, the Diviner is just a growing 1/1; do not count it as a removal spell.
+- Hall of Echoes copying a legendary creature is safe only on the turn you activate it: the legend rule is switched off for the turn, so activate it in your main phase and use the copy immediately.
+- Seed Suture copies target your own creature, which means Vigorbloom Vanguard's vigilance clause and the counter payoffs come online without extra cards.
+
+## Matchups
+
+**Against aggro.** You are the faster deck only when a Hound or a Rescue Girl shows up; otherwise block with vigilant 2/2s and grow a Diviner. Seed Suture's life gain matters in a race, and first strike from Artifist Acumen usually wins the swing.
+
+**Against control.** Do not commit the whole hand into a sweeper. Prepared creatures are two-for-ones, so a sweeper that kills three creatures has already cost the opponent three cards; rebuild with Vraska and Hall of Echoes. Hold Unsummon for a threat you cannot race.
+
+**Against combo.** You have almost no stack interaction, so the plan is speed: a wide board with first strike and flying ends games on turn five or six. Unwind History is a real tempo play against mana creatures and small combo pieces.
+
+# Deck list (Arena import)
+
+```text
+Cadet Cadence
+Deck
+4 Diviner of Victory
+4 Pompous Battlemage
+4 Emergency Phytomedic
+4 Fatehold Chronologist
+3 Prudent Fateseer
+2 Variable Chaser
+3 Vigorbloom Vanguard
+2 Blossom-Blessed Angel
+2 Vraska, Soul of Stone
+2 Flickering Hound
+1 Rescue Girl, First Responder
+1 Semester Foreseer
+2 Artifist Acumen
+2 Unsummon
+3 Hallowed Fountain
+2 Sacred Foundry
+2 Steam Vents
+4 Floodfarm Verge
+2 Riverpyre Verge
+2 Sunbillow Verge
+2 Hall of Echoes
+2 Restless Anchorage
+2 Plains
+2 Island
+1 Mountain
+```
