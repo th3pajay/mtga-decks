@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-26**:
+Deck guides published **2026-11-27**:
 
-- **[Codicil](decks/2026-11-26-codicil.html)** — Esper (WUB) surveil and graveyard reanimation  `reality-fracture` `surveil`
-- **[Clue Crew](decks/2026-11-26-clue-crew.html)** — Four-color artifact combo — Clue, Teamwork, Job select  `combo` `clue` `teamwork` `job-select`
+- **[Undertow Armada](decks/2026-11-27-undertow-armada.html)** — Blue / Black / Red / Green — Amass × Disappear × Waterbending: a token-sacrifice engine that pays for its spells by tapping its own board  `combo` `Amass` `Disappear` `Waterbending`

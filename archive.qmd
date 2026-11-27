@@ -2,9 +2,13 @@
 title: "Archive"
 ---
 
-**Card pool consumption** — cycle started 2026-11-11 · **428** cards locked · **Reality Fracture 125/285** remaining
+**Card pool consumption** — cycle started 2026-11-11 · **447** cards locked · **Reality Fracture 125/285** remaining
 
-**199 deck guides** — newest first. Every daily deck keeps its own permanent page.
+**200 deck guides** — newest first. Every daily deck keeps its own permanent page.
+
+## 2026-11-27
+
+- **[Undertow Armada](decks/2026-11-27-undertow-armada.html)** — Blue / Black / Red / Green — Amass × Disappear × Waterbending: a token-sacrifice engine that pays for its spells by tapping its own board  `combo` `Amass` `Disappear` `Waterbending`
 
 ## 2026-11-26
 

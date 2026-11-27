@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Today’s Decks",
     "section": "",
-    "text": "Deck guides published 2026-11-26:\n\nCodicil — Esper (WUB) surveil and graveyard reanimation reality-fracture surveil\nClue Crew — Four-color artifact combo — Clue, Teamwork, Job select combo clue teamwork job-select"
+    "text": "Deck guides published 2026-11-27:\n\nUndertow Armada — Blue / Black / Red / Green — Amass × Disappear × Waterbending: a token-sacrifice engine that pays for its spells by tapping its own board combo Amass Disappear Waterbending"
   },
   {
     "objectID": "decks/2026-10-18-fathom-ledger.html",
@@ -7182,706 +7182,6 @@
     "text": "Matchups\n\nAggro: the deck’s early bodies are 1/1s and 0/3s, so the opening turns are about survival, not tempo. Ajani Resolute and Liliana the Faultless gain the life back, Jace, Reality Sculptor’s minus three makes attacking into the board miserable, and once Sanctum Lurker arrives pressure stops mattering — the board pings back every turn and cannot be killed.\nMidrange: this is the best matchup. The deck out-grows whatever the opponent plays, because the Ways add counters every turn and the empower spells never spend a card on the engine itself. Save Vraska's Final Mercy for the one threat that actually blocks the combo.\nControl: the value sits on enchantments and planeswalkers rather than on spells, so counterspells trade down. Theorist's Proxy can be sacrificed to make the next spell uncounterable, and Way of the Mentor and Way of the Necromancer are the survivals after a sweeper because they keep the rebuilt board growing.\nCombo and graveyard decks: the deck has no graveyard interaction beyond Fatehold Charm and Vraska’s Final Mercy, so racing with the Lurker board plus the Jace deck-out is the plan. The Theorist, Jace Beleren’s draw step trigger means the deck finds its kill quickly against decks that do not pressure life totals.\nArtifact and enchantment removal: Way of the Healer and Way of the Necromancer are the expendable pieces; Way of the Mentor and Sanctum Lurker are the ones worth protecting with Theorist's Proxy’s sacrifice ability or by simply doubling up.\n\nReality Fracture is Standard-legal but still carries no arena_id in the data, so the import list becomes playable on Arena once the set is enabled there."
   },
   {
-    "objectID": "archive.html",
-    "href": "archive.html",
-    "title": "Archive",
-    "section": "",
-    "text": "Card pool consumption — cycle started 2026-11-11 · 428 cards locked · Reality Fracture 125/285 remaining\n199 deck guides — newest first. Every daily deck keeps its own permanent page."
-  },
-  {
-    "objectID": "archive.html#section",
-    "href": "archive.html#section",
-    "title": "Archive",
-    "section": "2026-11-26",
-    "text": "2026-11-26\n\nCodicil — Esper (WUB) surveil and graveyard reanimation reality-fracture surveil\nClue Crew — Four-color artifact combo — Clue, Teamwork, Job select combo clue teamwork job-select"
-  },
-  {
-    "objectID": "archive.html#section-1",
-    "href": "archive.html#section-1",
-    "title": "Archive",
-    "section": "2026-11-25",
-    "text": "2026-11-25\n\nSanguine Static — Mardu (black / red / white) prepared-attrition combo - Reality Fracture set deck reality-fracture prepared\nReignition — Rakdos firebending combo — combat-step mana into extra combat steps combo Firebending"
-  },
-  {
-    "objectID": "archive.html#section-2",
-    "href": "archive.html#section-2",
-    "title": "Archive",
-    "section": "2026-11-24",
-    "text": "2026-11-24\n\nShadowstep Clause — Orzhov (white / black) Sneak tempo combo combo sneak\nGlasswing Cipher — White / blue / black surveil-sphinx combo — Reality Fracture set deck reality-fracture sphinx"
-  },
-  {
-    "objectID": "archive.html#section-3",
-    "href": "archive.html#section-3",
-    "title": "Archive",
-    "section": "2026-11-23",
-    "text": "2026-11-23\n\nWarpfeed Chorus — R/U/G/W — Warp × Convoke × Delirium combo warp convoke delirium\nTether and Talon — Red / green / blue prepared-heartwood combo — Reality Fracture set deck reality-fracture prepared"
-  },
-  {
-    "objectID": "archive.html#section-4",
-    "href": "archive.html#section-4",
-    "title": "Archive",
-    "section": "2026-11-22",
-    "text": "2026-11-22\n\nHeartwood Foundry — Temur (red / green / blue) Heartwood artifact-token combo — Reality Fracture set deck reality-fracture heartwood\nDocket Combustion — Rakdos (black / red) firebending × solved-Case combo combo firebending solved"
-  },
-  {
-    "objectID": "archive.html#section-5",
-    "href": "archive.html#section-5",
-    "title": "Archive",
-    "section": "2026-11-21",
-    "text": "2026-11-21\n\nSanctum Spine — Sultai (blue / black / green) empower-loyalty combo — Reality Fracture set deck reality-fracture empower\nNightsoil Nursery — Dimir (Blue-Black) — Threshold × Offspring combo threshold offspring"
-  },
-  {
-    "objectID": "archive.html#section-6",
-    "href": "archive.html#section-6",
-    "title": "Archive",
-    "section": "2026-11-20",
-    "text": "2026-11-20\n\nGravechoir — Blue-Black-Red-Green | Threshold x Harmonize combo Threshold Harmonize\nFatehold Rehearsal — White-Blue-Black prepared surveil — the Reality Fracture sphinx deck reality-fracture sphinx"
-  },
-  {
-    "objectID": "archive.html#section-7",
-    "href": "archive.html#section-7",
-    "title": "Archive",
-    "section": "2026-11-19",
-    "text": "2026-11-19\n\nScribewyrm — Blue-Red-Green Prepared x Dragon tokens — the Reality Fracture set identity deck reality-fracture prepared\nGrave Plot — White, Blue, Black, Green — Plot x Delirium x Surveil combo Plot Delirium Surveil"
-  },
-  {
-    "objectID": "archive.html#section-8",
-    "href": "archive.html#section-8",
-    "title": "Archive",
-    "section": "2026-11-18",
-    "text": "2026-11-18\n\nTetherforge Aviary — Naya (red / green / white) Heartwood artifact-token combo — Reality Fracture set identity deck reality-fracture heartwood\nChain of Custody — Esper (white-blue-black) Investigate — Clue artifacts as the engine, the army and the win combo Investigate"
-  },
-  {
-    "objectID": "archive.html#section-9",
-    "href": "archive.html#section-9",
-    "title": "Archive",
-    "section": "2026-11-17",
-    "text": "2026-11-17\n\nWaywright Parade — White-Red-Green Empower x planeswalker loyalty — Reality Fracture set identity deck reality-fracture empower\nBlightcrown Mob — Black-Red — Blight combo blight"
-  },
-  {
-    "objectID": "archive.html#section-10",
-    "href": "archive.html#section-10",
-    "title": "Archive",
-    "section": "2026-11-16",
-    "text": "2026-11-16\n\nRotbloom Harvest — Sultai surveil-mill — Reality Fracture reality-fracture surveil\nBargain Bin — Golgari Bargain — Food is the currency, Squirrels are the change combo Bargain"
-  },
-  {
-    "objectID": "archive.html#section-11",
-    "href": "archive.html#section-11",
-    "title": "Archive",
-    "section": "2026-11-15",
-    "text": "2026-11-15\n\nSutured Skies — Bant (white / blue / green) prepared-spell counters combo — Reality Fracture reality-fracture prepared\nHoofbeat Holiday — Naya (WGR) | Saddle + Celebration combo Saddle Celebration"
-  },
-  {
-    "objectID": "archive.html#section-12",
-    "href": "archive.html#section-12",
-    "title": "Archive",
-    "section": "2026-11-14",
-    "text": "2026-11-14\n\nSphinx Quillstorm — Jund (black / red / green) Elder Sphinx legends + Heartwood-to-Dragon combo — Reality Fracture reality-fracture sphinx\nAbove Suspicion — Dimir (blue / black) surveil-reanimator combo combo surveil"
-  },
-  {
-    "objectID": "archive.html#section-13",
-    "href": "archive.html#section-13",
-    "title": "Archive",
-    "section": "2026-11-13",
-    "text": "2026-11-13\n\nSilt Cartography — Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture reality-fracture surveil\nCorpse Census — WUBG — Morbid x Surveil combo morbid surveil"
-  },
-  {
-    "objectID": "archive.html#section-14",
-    "href": "archive.html#section-14",
-    "title": "Archive",
-    "section": "2026-11-12",
-    "text": "2026-11-12\n\nSpark Annuity — Esper (white / blue / black) empower-loyalty combo — Reality Fracture reality-fracture empower\nBlight the Levy — Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table combo Blight Mobilize"
-  },
-  {
-    "objectID": "archive.html#section-15",
-    "href": "archive.html#section-15",
-    "title": "Archive",
-    "section": "2026-11-11",
-    "text": "2026-11-11\n\nTetherwright — Temur (blue / red / green) Heartwood-artifact combo — Reality Fracture reality-fracture heartwood\nRotmarket — Black-Red — Blight combo blight"
-  },
-  {
-    "objectID": "archive.html#section-16",
-    "href": "archive.html#section-16",
-    "title": "Archive",
-    "section": "2026-11-10",
-    "text": "2026-11-10\n\nVerses Prepared — Jund (black / red / green) prepared-spell aggro-combo — Reality Fracture reality-fracture prepared\nNothing Left Behind — White, black, red and green — Void, Evoke and attack triggers combo void evoke attack-matters"
-  },
-  {
-    "objectID": "archive.html#section-17",
-    "href": "archive.html#section-17",
-    "title": "Archive",
-    "section": "2026-11-09",
-    "text": "2026-11-09\n\nRot Reprise — Four-color blight and flashback: your own tokens are the fuel combo blight flashback\nEmber Quill Council — Jund (black / red / green) Sphinx drain aggro — Reality Fracture reality-fracture sphinx"
-  },
-  {
-    "objectID": "archive.html#section-18",
-    "href": "archive.html#section-18",
-    "title": "Archive",
-    "section": "2026-11-08",
-    "text": "2026-11-08\n\nOverdue Notice — Sultai (Blue-Black-Green) — Mill combo Mill\nAftersight — Esper (white / blue / black) surveil-scry engine with prepared payloads — Reality Fracture reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-19",
-    "href": "archive.html#section-19",
-    "title": "Archive",
-    "section": "2026-11-07",
-    "text": "2026-11-07\n\nTimberwing — Naya artifact-token dragons — Reality Fracture reality-fracture heartwood\nGraveskim — Four-colour connive and fathomless descent — loot the yard, then cash it in combo connive graveyard"
-  },
-  {
-    "objectID": "archive.html#section-20",
-    "href": "archive.html#section-20",
-    "title": "Archive",
-    "section": "2026-11-06",
-    "text": "2026-11-06\n\nLoyalty Overdraft — Esper (White-Blue-Black) empower-loyalty combo - Reality Fracture reality-fracture empower\nEscalator Clause — Naya power-up and tiered combo — pay more, get more combo Power-up Tiered"
-  },
-  {
-    "objectID": "archive.html#section-21",
-    "href": "archive.html#section-21",
-    "title": "Archive",
-    "section": "2026-11-05",
-    "text": "2026-11-05\n\nStirrup Storm — Naya (White-Red-Green) Saddle attack-trigger combo combo Saddle\nSinew and Stone — White / Green / Black toughness combo — Doran walls, Ghalta alpha strike, Reality Fracture set deck reality-fracture toughness"
-  },
-  {
-    "objectID": "archive.html#section-22",
-    "href": "archive.html#section-22",
-    "title": "Archive",
-    "section": "2026-11-04",
-    "text": "2026-11-04\n\nSecond Helping — Five-color (WUBRG) — Forage x Evoke combo Forage Evoke\nCounterwake — Temur (Green-Blue-Red) empower-loyalty combo - Reality Fracture reality-fracture empower"
-  },
-  {
-    "objectID": "archive.html#section-23",
-    "href": "archive.html#section-23",
-    "title": "Archive",
-    "section": "2026-11-03",
-    "text": "2026-11-03\n\nVigorbloom Conclave — White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture) reality-fracture sphinx\nBullion Riot — Rakdos — Treasure tokens converted into artifact creature tokens combo treasure token-creation"
-  },
-  {
-    "objectID": "archive.html#section-24",
-    "href": "archive.html#section-24",
-    "title": "Archive",
-    "section": "2026-11-02",
-    "text": "2026-11-02\n\nCloaked Column — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger combo Disguise Mobilize Alliance\nCadet Muster — White-Blue-Black prepared Cadet engine (Reality Fracture) reality-fracture wizards"
-  },
-  {
-    "objectID": "archive.html#section-25",
-    "href": "archive.html#section-25",
-    "title": "Archive",
-    "section": "2026-11-01",
-    "text": "2026-11-01\n\nQuickstep Crescendo — Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable combo Prowess\nDress Rehearsal — Temur Prepared - the Soul Tether artifact engine (Reality Fracture) reality-fracture prepared"
-  },
-  {
-    "objectID": "archive.html#section-26",
-    "href": "archive.html#section-26",
-    "title": "Archive",
-    "section": "2026-10-31",
-    "text": "2026-10-31\n\nUnderstory — Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost combo descend\nDeepwater Litany — Sultai surveil-reanimation: a prepared engine that reanimates for free every turn — Reality Fracture reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-27",
-    "href": "archive.html#section-27",
-    "title": "Archive",
-    "section": "2026-10-30",
-    "text": "2026-10-30\n\nSanctum Static — Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture reality-fracture empower\nRekindle the Lineage — Jeskai (White-Blue-Red) - Behold x Flashback x Vivid combo behold flashback vivid"
-  },
-  {
-    "objectID": "archive.html#section-28",
-    "href": "archive.html#section-28",
-    "title": "Archive",
-    "section": "2026-10-29",
-    "text": "2026-10-29\n\nScorchline Skirmish — Jeskai haste-trample pressure: pump spells that draw cards, and a land that adds two attackers — Reality Fracture reality-fracture aggro\nBartered Bedrock — Jund (Black-Red-Green) — Earthbend x Bargain combo Earthbend Bargain"
-  },
-  {
-    "objectID": "archive.html#section-29",
-    "href": "archive.html#section-29",
-    "title": "Archive",
-    "section": "2026-10-28",
-    "text": "2026-10-28\n\nTeeming Presence — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture reality-fracture combo\nHoardmouth — Blue-Red-Green — Behold a Dragon and Treasure combo Behold"
-  },
-  {
-    "objectID": "archive.html#section-30",
-    "href": "archive.html#section-30",
-    "title": "Archive",
-    "section": "2026-10-27",
-    "text": "2026-10-27\n\nVanish on Cue — Blue, Black, Green, Red — Prepared x Disappear combo prepared disappear\nSpark Tithe — Mardu empower: Cadet fodder, Beast forge and a Jace-token drain — Reality Fracture reality-fracture empower"
-  },
-  {
-    "objectID": "archive.html#section-31",
-    "href": "archive.html#section-31",
-    "title": "Archive",
-    "section": "2026-10-26",
-    "text": "2026-10-26\n\nMolten Marginalia — Jeskai prepared spells, prowess fliers and a Molten Tide finish — Reality Fracture reality-fracture prepared\nFace Value — Jeskai (Blue / White / Red) — Disguise x Investigate x Power-up combo Power-up Disguise Investigate"
-  },
-  {
-    "objectID": "archive.html#section-32",
-    "href": "archive.html#section-32",
-    "title": "Archive",
-    "section": "2026-10-25",
-    "text": "2026-10-25\n\nSphinxwake — Esper surveil-counters with the Elder Sphinx legends — Reality Fracture reality-fracture sphinx\nQuicksand Chorus — Four-colour landfall burn — sixteen payoffs, one land drop at a time combo landfall"
-  },
-  {
-    "objectID": "archive.html#section-33",
-    "href": "archive.html#section-33",
-    "title": "Archive",
-    "section": "2026-10-24",
-    "text": "2026-10-24\n\nRefrain and Ruin — Jund prepared-prowess storm — Reality Fracture reality-fracture prepared\nLoose Change Leviathan — Five-color Treasure x Increment x Void combo — crack the coin, feed the counters combo treasure increment void"
-  },
-  {
-    "objectID": "archive.html#section-34",
-    "href": "archive.html#section-34",
-    "title": "Archive",
-    "section": "2026-10-23",
-    "text": "2026-10-23\n\nSapwood Foundry — Naya prepared-artifact combo — Reality Fracture reality-fracture heartwood\nChart the Redline — White-Blue-Black-Red | Discover, Plan counters and Start your engines! combo Discover Plan counter Start your engines!"
-  },
-  {
-    "objectID": "archive.html#section-35",
-    "href": "archive.html#section-35",
-    "title": "Archive",
-    "section": "2026-10-22",
-    "text": "2026-10-22\n\nSaddle, Sift, Surge — Green-white-blue-black Mount, Mill and Power-up engine combo Mount Mill Power-up\nOmit Everything — Sultai self-mill combo — Reality Fracture reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-36",
-    "href": "archive.html#section-36",
-    "title": "Archive",
-    "section": "2026-10-21",
-    "text": "2026-10-21\n\nLoyalty Loophole — Blue-Black-Red empower combo — Reality Fracture reality-fracture empower\nDrydock Overclock — Five-colour Station combo — charge counters doubled, hulls online ahead of schedule combo Station"
-  },
-  {
-    "objectID": "archive.html#section-37",
-    "href": "archive.html#section-37",
-    "title": "Archive",
-    "section": "2026-10-20",
-    "text": "2026-10-20\n\nTerra Ascendant — Green / white / blue landfall-loyalty engine — Empower x landfall x lifegain reality-fracture empower\nDouble Entry — Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it combo card-draw"
-  },
-  {
-    "objectID": "archive.html#section-38",
-    "href": "archive.html#section-38",
-    "title": "Archive",
-    "section": "2026-10-19",
-    "text": "2026-10-19\n\nQuill Cadence — Four-color attack-trigger burn built on Reality Fracture’s prepared and empower mechanics reality-fracture sphinx\nFieldwork Syllabus — Bant (W/U/G) — Explore × Prepared combo explore prepared"
-  },
-  {
-    "objectID": "archive.html#section-39",
-    "href": "archive.html#section-39",
-    "title": "Archive",
-    "section": "2026-10-18",
-    "text": "2026-10-18\n\nTarget Practice — Jeskai Valiant blink combo - target your own creatures and get paid twice combo Valiant Blink\nFathom Ledger — Esper surveil and graveyard value — Reality Fracture set deck reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-40",
-    "href": "archive.html#section-40",
-    "title": "Archive",
-    "section": "2026-10-17",
-    "text": "2026-10-17\n\nWarpquake — Boros Warp — white and red, warp re-entries turned into drain combo warp\nHeartwood Hatchlings — Temur Heartwood artifacts — Reality Fracture set deck reality-fracture heartwood"
-  },
-  {
-    "objectID": "archive.html#section-41",
-    "href": "archive.html#section-41",
-    "title": "Archive",
-    "section": "2026-10-16",
-    "text": "2026-10-16\n\nTidepool Tithe — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending combo Lifegain Waterbending Impending\nCrypt Curriculum — Esper surveil and graveyard — Reality Fracture set deck reality-fracture surveil"
-  },
-  {
-    "objectID": "archive.html#section-42",
-    "href": "archive.html#section-42",
-    "title": "Archive",
-    "section": "2026-10-15",
-    "text": "2026-10-15\n\nPrep Rally — Grixis prepared spells — Reality Fracture set deck reality-fracture prepared\nEverything Must Go — Five-color (WUBRG) — Sacrifice combo Sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-43",
-    "href": "archive.html#section-43",
-    "title": "Archive",
-    "section": "2026-10-14",
-    "text": "2026-10-14\n\nRide the Rot — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle combo sacrifice graveyard saddle\nLoyalty Lattice — Blue / white / black empower superfriends — Empower x loyalty counters x Jace reality-fracture empower"
-  },
-  {
-    "objectID": "archive.html#section-44",
-    "href": "archive.html#section-44",
-    "title": "Archive",
-    "section": "2026-10-13",
-    "text": "2026-10-13\n\nRehearsed Ruin — Black / red / green prepared combo — Prepared x Heartwood x Threshold reality-fracture prepared\nPlot Hole — White / blue / black / green attrition combo — Graveyard x Void x Plot combo Graveyard Void Plot"
-  },
-  {
-    "objectID": "archive.html#section-45",
-    "href": "archive.html#section-45",
-    "title": "Archive",
-    "section": "2026-10-12",
-    "text": "2026-10-12\n\nVeiled Cavalry — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn combo disguise saddle\nSecond Breakfast Raid — White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish hobbit halflings"
-  },
-  {
-    "objectID": "archive.html#section-46",
-    "href": "archive.html#section-46",
-    "title": "Archive",
-    "section": "2026-10-11",
-    "text": "2026-10-11\n\nFlicker Clock — WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win combo Impending Blink\nFire and Feather — White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck hobbit wizards"
-  },
-  {
-    "objectID": "archive.html#section-47",
-    "href": "archive.html#section-47",
-    "title": "Archive",
-    "section": "2026-10-10",
-    "text": "2026-10-10\n\nTerracotta Charge — White-Black-Red-Green (no blue) — Attack matters × Earthbend combo attack-matters earthbend\nRavenhill Rally — WUG Recruit Company x draw-two payoffs x Eagles — The Hobbit set identity deck hobbit recruit"
-  },
-  {
-    "objectID": "archive.html#section-48",
-    "href": "archive.html#section-48",
-    "title": "Archive",
-    "section": "2026-10-09",
-    "text": "2026-10-09\n\nClachan Stampede — Naya (White / Green / Red) — Behold × Mount × Morbid combo behold mount morbid\nAnvil Anthem — WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-49",
-    "href": "archive.html#section-49",
-    "title": "Archive",
-    "section": "2026-10-08",
-    "text": "2026-10-08\n\nSpectrum Stampede — Gruul landfall and vivid combo — a colour-count engine in red and green combo landfall vivid\nHoardwyrm — Jund (B/R/G) Dragons and Treasures — Smaug’s hoard engine, Standard legal hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-50",
-    "href": "archive.html#section-50",
-    "title": "Archive",
-    "section": "2026-10-07",
-    "text": "2026-10-07\n\nWarren Muster — Jund (B/R/G) Goblin amass — one Army, recurring counter events, drained through The Great Goblin hobbit amass\nBedrock Uprising — Jund (Black-Red-Green) — Earthbend combo Earthbend"
-  },
-  {
-    "objectID": "archive.html#section-51",
-    "href": "archive.html#section-51",
-    "title": "Archive",
-    "section": "2026-10-06",
-    "text": "2026-10-06\n\nTap Dance — WUBG — Blink/Flicker × Convoke combo blink convoke\nLeaf and Landfall — Bant (G/U/W) landfall Elves — every land drop makes an Elf, and each new Elf makes the next land drop better hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-52",
-    "href": "archive.html#section-52",
-    "title": "Archive",
-    "section": "2026-10-05",
-    "text": "2026-10-05\n\nGold and Granite — Naya (R/W/G) Storied Dwarves and Equipment — ten artifacts arm the company and every legend cashes them in hobbit dwarves\nCharged Into the Void — Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs combo Station Void"
-  },
-  {
-    "objectID": "archive.html#section-53",
-    "href": "archive.html#section-53",
-    "title": "Archive",
-    "section": "2026-10-04",
-    "text": "2026-10-04\n\nWeaving Suspicion — WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell combo eerie suspect web-slinging\nCinderhoard — Grixis (U/B/R) Dragons and Treasures — Smaug’s hoard engine ramps, draws and burns hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-54",
-    "href": "archive.html#section-54",
-    "title": "Archive",
-    "section": "2026-10-03",
-    "text": "2026-10-03\n\nHammer and Heritage — Red-White Storied Dwarves — Equipment, Sagas and The Lonely Mountain hobbit dwarves\nGraveyard Shift — Mardu (W/B/R) Job select equipment plus flashback token swarms combo job-select flashback token-creation"
-  },
-  {
-    "objectID": "archive.html#section-55",
-    "href": "archive.html#section-55",
-    "title": "Archive",
-    "section": "2026-10-02",
-    "text": "2026-10-02\n\nHaggle the Horizon — Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder combo bargain exhaust explore\nDrumbeat Horde — Jund (B/R/G) Goblin amass — one Army, endless counters, drained through The Great Goblin hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-56",
-    "href": "archive.html#section-56",
-    "title": "Archive",
-    "section": "2026-10-01",
-    "text": "2026-10-01\n\nWargwake — Jund (B/G/R) Wolf and Bear tribal — ferocious payoffs fed by landfall counters and a Mirkwood engine hobbit wolves\nCloak and Celerity — Esper (White / Blue / Black) Eerie enchantment engine with Disguise bodies and a Max speed finish combo eerie disguise max speed"
-  },
-  {
-    "objectID": "archive.html#section-57",
-    "href": "archive.html#section-57",
-    "title": "Archive",
-    "section": "2026-09-30",
-    "text": "2026-09-30\n\nExhaust Manifold — Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs combo mill teamwork exhaust\nEvergreen Requiem — Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-58",
-    "href": "archive.html#section-58",
-    "title": "Archive",
-    "section": "2026-09-29",
-    "text": "2026-09-29\n\nWingsong — Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs hobbit eagles\nOvertake at Midnight — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop combo start-your-engines"
-  },
-  {
-    "objectID": "archive.html#section-59",
-    "href": "archive.html#section-59",
-    "title": "Archive",
-    "section": "2026-09-28",
-    "text": "2026-09-28\n\nTidewater Tally — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending combo +1/+1 Counters Surveil Waterbending\nStoryforge — Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-60",
-    "href": "archive.html#section-60",
-    "title": "Archive",
-    "section": "2026-09-27",
-    "text": "2026-09-27\n\nRace the Reaper — Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill combo Fathomless descent Manifest dread Max speed\nMolten Mint — Red / Black / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-61",
-    "href": "archive.html#section-61",
-    "title": "Archive",
-    "section": "2026-09-26",
-    "text": "2026-09-26\n\nDeep-Down Thunder — Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage hobbit amass\nBoneyard Bloom — Sultai (Blue, Black, Green) — Renew combo renew"
-  },
-  {
-    "objectID": "archive.html#section-62",
-    "href": "archive.html#section-62",
-    "title": "Archive",
-    "section": "2026-09-25",
-    "text": "2026-09-25\n\nVerdant Liege — Green and blue with a black splash - Elf legends, landfall tokens, and lands that attack hobbit elves\nStoke the Veins — Black / Red / Green Firebending x Infusion — Jund attack-trigger combo combo Firebending Infusion"
-  },
-  {
-    "objectID": "archive.html#section-63",
-    "href": "archive.html#section-63",
-    "title": "Archive",
-    "section": "2026-09-24",
-    "text": "2026-09-24\n\nSongsteel — Red / White with a blue splash — Storied Dwarves, Equipment, and the enduring story hobbit dwarves\nPyre Parade — White / Black / Red Celebration x Firebending — Mardu token-burst midrange combo Celebration Firebending"
-  },
-  {
-    "objectID": "archive.html#section-64",
-    "href": "archive.html#section-64",
-    "title": "Archive",
-    "section": "2026-09-23",
-    "text": "2026-09-23\n\nTallywurm — Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid combo counters\nCinder and Coin — Black / Red / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-65",
-    "href": "archive.html#section-65",
-    "title": "Archive",
-    "section": "2026-09-22",
-    "text": "2026-09-22\n\nSack and Sunder — Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn hobbit amass\nFirefeeding — Five-color (WUBRG) — Forage × Firebending × Warp combo Forage Firebending Warp"
-  },
-  {
-    "objectID": "archive.html#section-66",
-    "href": "archive.html#section-66",
-    "title": "Archive",
-    "section": "2026-09-21",
-    "text": "2026-09-21\n\nRedline Alibi — Rakdos (Black-Red) | Max speed x Suspect combo max-speed suspect\nLoam and Legend — Green / Blue / White (three colors) — Hobbit Elf legends and landfall tokens with a counter-overrun land hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-67",
-    "href": "archive.html#section-67",
-    "title": "Archive",
-    "section": "2026-09-20",
-    "text": "2026-09-20\n\nNow You See Them — Four colors (white / blue / black / green) — Convoke x Disappear combo convoke disappear\nAnvil Verse — Red / White / Blue (three colors) — Storied Dwarves with Equipment counters and a token win hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-68",
-    "href": "archive.html#section-68",
-    "title": "Archive",
-    "section": "2026-09-19",
-    "text": "2026-09-19\n\nWardrum Warband — Black / Red / Green (three colors) — Goblin amass counters into The Great Goblin burn hobbit amass\nBreak Ground — Five colors (white / blue / black / red / green) — Token creation x Start your engines! x Earthbend combo Token creation Start your engines! Earthbend"
-  },
-  {
-    "objectID": "archive.html#section-69",
-    "href": "archive.html#section-69",
-    "title": "Archive",
-    "section": "2026-09-18",
-    "text": "2026-09-18\n\nIncognito Incendiary — Naya (White, Red, Green) — Disguise x Valiant combo Disguise Valiant\nHoardwake — Blue / Black / Red (three colors) — Hobbit Treasure engine into Dragon payoffs hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-70",
-    "href": "archive.html#section-70",
-    "title": "Archive",
-    "section": "2026-09-17",
-    "text": "2026-09-17\n\nMuster Roll — White / Blue / Black (three colors) — Hobbit recruit tokens and second-draw payoffs hobbit recruit\nGift Economy — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger combo gift"
-  },
-  {
-    "objectID": "archive.html#section-71",
-    "href": "archive.html#section-71",
-    "title": "Archive",
-    "section": "2026-09-16",
-    "text": "2026-09-16\n\nWhiskerquake — White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them combo Valiant Earthbend\nAnvil Chorus — Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-72",
-    "href": "archive.html#section-72",
-    "title": "Archive",
-    "section": "2026-09-15",
-    "text": "2026-09-15\n\nPalimpsest — WUBR four-color — Flashback x Discover combo Flashback Discover\nEavesong — White / Blue / Black / Green (four colors) — legendary-Elf landfall engine with the Bard draw-and-token package, built on The Hobbit set hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-73",
-    "href": "archive.html#section-73",
-    "title": "Archive",
-    "section": "2026-09-14",
-    "text": "2026-09-14\n\nVanishing Act — Four-color (WUBG) | Investigate, Sneak and Disappear combo investigate sneak disappear\nChitter and Burn — Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-74",
-    "href": "archive.html#section-74",
-    "title": "Archive",
-    "section": "2026-09-13",
-    "text": "2026-09-13\n\nWilderland Howl — Golgari core with a red splash (Black / Green / Red) — Wilderlands Bears x the ferocious Warg pack, built on The Hobbit set hobbit bears\nNightveil Offering — Five-color (White / Blue / Black / Red / Green) — an Eerie x Sneak x Sacrifice Ninja drain deck combo Eerie Sneak Sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-75",
-    "href": "archive.html#section-75",
-    "title": "Archive",
-    "section": "2026-09-12",
-    "text": "2026-09-12\n\nHammerhone Saga — Mardu (Red / White / Black) — Storied Dwarves x Equipment, built on The Hobbit set identity hobbit dwarves\nGilded Reprise — Mardu (Black / Red / White) — a Treasure-and-flashback celebration engine combo celebration flashback treasure"
-  },
-  {
-    "objectID": "archive.html#section-76",
-    "href": "archive.html#section-76",
-    "title": "Archive",
-    "section": "2026-09-11",
-    "text": "2026-09-11\n\nHoardfire — Jund (Black / Red / Green) — Smaug treasure-hoard burn from The Hobbit set hobbit smaug\nBrave the Heist — Five-color (WUBRG) — Valiant x Connive x Treasure: target your own creatures, hoard the pay, spend it on dragons combo valiant connive treasure"
-  },
-  {
-    "objectID": "archive.html#section-77",
-    "href": "archive.html#section-77",
-    "title": "Archive",
-    "section": "2026-09-10",
-    "text": "2026-09-10\n\nCompound Interest — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage combo increment expend delirium\nBellow and Burn — Jund (Black / Red / Green) — Amass Goblins counter-burn engine from The Hobbit set hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-78",
-    "href": "archive.html#section-78",
-    "title": "Archive",
-    "section": "2026-09-09",
-    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
-  },
-  {
-    "objectID": "archive.html#section-79",
-    "href": "archive.html#section-79",
-    "title": "Archive",
-    "section": "2026-09-08",
-    "text": "2026-09-08\n\nTwice-Told Tales — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set hobbit dwarves\nPlot Twist — Simic (Blue / Green) — Plot combo plot"
-  },
-  {
-    "objectID": "archive.html#section-80",
-    "href": "archive.html#section-80",
-    "title": "Archive",
-    "section": "2026-09-07",
-    "text": "2026-09-07\n\nWyrmgold — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set hobbit smaug\nDeathwatch — Jund sacrifice × morbid — death-drain engine with end-step growth combo sacrifice morbid"
-  },
-  {
-    "objectID": "archive.html#section-81",
-    "href": "archive.html#section-81",
-    "title": "Archive",
-    "section": "2026-09-06",
-    "text": "2026-09-06\n\nGoblin Growth — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set hobbit amass\nCold Case Haunting — WUBRG (five-color) | Eerie x Clue combo Eerie Clue"
-  },
-  {
-    "objectID": "archive.html#section-82",
-    "href": "archive.html#section-82",
-    "title": "Archive",
-    "section": "2026-09-05",
-    "text": "2026-09-05\n\nWeb Slingback — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun combo web-slinging\nGreenwood Ledger — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-83",
-    "href": "archive.html#section-83",
-    "title": "Archive",
-    "section": "2026-09-04",
-    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
-  },
-  {
-    "objectID": "archive.html#section-84",
-    "href": "archive.html#section-84",
-    "title": "Archive",
-    "section": "2026-09-03",
-    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
-  },
-  {
-    "objectID": "archive.html#section-85",
-    "href": "archive.html#section-85",
-    "title": "Archive",
-    "section": "2026-09-02",
-    "text": "2026-09-02\n\nLandwarp — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak combo landfall warp sneak\nAmass to Arms — Mardu (WBR) Amass Goblins — The Hobbit set identity deck hobbit amass"
-  },
-  {
-    "objectID": "archive.html#section-86",
-    "href": "archive.html#section-86",
-    "title": "Archive",
-    "section": "2026-09-01",
-    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-87",
-    "href": "archive.html#section-87",
-    "title": "Archive",
-    "section": "2026-08-31",
-    "text": "2026-08-31\n\nBanner Fall — Red / Black — Token creation × Mobilize engine combo token-creation mobilize\nBalin’s Company — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck hobbit dwarves"
-  },
-  {
-    "objectID": "archive.html#section-88",
-    "href": "archive.html#section-88",
-    "title": "Archive",
-    "section": "2026-08-30",
-    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending\nDragon’s Ledger — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck hobbit smaug"
-  },
-  {
-    "objectID": "archive.html#section-89",
-    "href": "archive.html#section-89",
-    "title": "Archive",
-    "section": "2026-08-29",
-    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
-  },
-  {
-    "objectID": "archive.html#section-90",
-    "href": "archive.html#section-90",
-    "title": "Archive",
-    "section": "2026-08-28",
-    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
-  },
-  {
-    "objectID": "archive.html#section-91",
-    "href": "archive.html#section-91",
-    "title": "Archive",
-    "section": "2026-08-27",
-    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
-  },
-  {
-    "objectID": "archive.html#section-92",
-    "href": "archive.html#section-92",
-    "title": "Archive",
-    "section": "2026-08-26",
-    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
-  },
-  {
-    "objectID": "archive.html#section-93",
-    "href": "archive.html#section-93",
-    "title": "Archive",
-    "section": "2026-08-25",
-    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
-  },
-  {
-    "objectID": "archive.html#section-94",
-    "href": "archive.html#section-94",
-    "title": "Archive",
-    "section": "2026-08-24",
-    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
-  },
-  {
-    "objectID": "archive.html#section-95",
-    "href": "archive.html#section-95",
-    "title": "Archive",
-    "section": "2026-08-23",
-    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
-  },
-  {
-    "objectID": "archive.html#section-96",
-    "href": "archive.html#section-96",
-    "title": "Archive",
-    "section": "2026-08-22",
-    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
-  },
-  {
-    "objectID": "archive.html#section-97",
-    "href": "archive.html#section-97",
-    "title": "Archive",
-    "section": "2026-08-21",
-    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
-  },
-  {
-    "objectID": "archive.html#section-98",
-    "href": "archive.html#section-98",
-    "title": "Archive",
-    "section": "2026-08-20",
-    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
-  },
-  {
     "objectID": "decks/2026-09-04-steel-and-saga.html",
     "href": "decks/2026-09-04-steel-and-saga.html",
     "title": "Steel and Saga",
@@ -7964,6 +7264,797 @@
     "title": "Steel and Saga",
     "section": "Matchups",
     "text": "Matchups\n\nAggro (fliers, lifegain, cats): Dáin, Lord of the Iron Hills taxes every attack, Thorin wards the blockers, and Patient Instructor stalls the ground; Balin wheels find Burst Lightning and Smaug’s Fury, and the Fíli token swarm races.\nMidrange (landfall, counters): the trigger engine out-grows a mid board — Dáin Ironfoot double strike closes fast and The Lonely Mountain spends the late mana; Garrison’s power tracks the widening board.\nControl: the ward stack (Thorin plus Mattock) makes spot removal and counterspells cost double, Kíli and Dáin’s Company restock after sweepers, and Balin punishes any tapped-out turn. Play toward the wheel rather than the voltron.\nCombo and big mana: this deck is the aggressor — storied comes online before most engines, and a turn-five Balin wheel usually ends the game before the opponent’s payoff lands."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "Card pool consumption — cycle started 2026-11-11 · 447 cards locked · Reality Fracture 125/285 remaining\n200 deck guides — newest first. Every daily deck keeps its own permanent page."
+  },
+  {
+    "objectID": "archive.html#section",
+    "href": "archive.html#section",
+    "title": "Archive",
+    "section": "2026-11-27",
+    "text": "2026-11-27\n\nUndertow Armada — Blue / Black / Red / Green — Amass × Disappear × Waterbending: a token-sacrifice engine that pays for its spells by tapping its own board combo Amass Disappear Waterbending"
+  },
+  {
+    "objectID": "archive.html#section-1",
+    "href": "archive.html#section-1",
+    "title": "Archive",
+    "section": "2026-11-26",
+    "text": "2026-11-26\n\nCodicil — Esper (WUB) surveil and graveyard reanimation reality-fracture surveil\nClue Crew — Four-color artifact combo — Clue, Teamwork, Job select combo clue teamwork job-select"
+  },
+  {
+    "objectID": "archive.html#section-2",
+    "href": "archive.html#section-2",
+    "title": "Archive",
+    "section": "2026-11-25",
+    "text": "2026-11-25\n\nSanguine Static — Mardu (black / red / white) prepared-attrition combo - Reality Fracture set deck reality-fracture prepared\nReignition — Rakdos firebending combo — combat-step mana into extra combat steps combo Firebending"
+  },
+  {
+    "objectID": "archive.html#section-3",
+    "href": "archive.html#section-3",
+    "title": "Archive",
+    "section": "2026-11-24",
+    "text": "2026-11-24\n\nShadowstep Clause — Orzhov (white / black) Sneak tempo combo combo sneak\nGlasswing Cipher — White / blue / black surveil-sphinx combo — Reality Fracture set deck reality-fracture sphinx"
+  },
+  {
+    "objectID": "archive.html#section-4",
+    "href": "archive.html#section-4",
+    "title": "Archive",
+    "section": "2026-11-23",
+    "text": "2026-11-23\n\nWarpfeed Chorus — R/U/G/W — Warp × Convoke × Delirium combo warp convoke delirium\nTether and Talon — Red / green / blue prepared-heartwood combo — Reality Fracture set deck reality-fracture prepared"
+  },
+  {
+    "objectID": "archive.html#section-5",
+    "href": "archive.html#section-5",
+    "title": "Archive",
+    "section": "2026-11-22",
+    "text": "2026-11-22\n\nHeartwood Foundry — Temur (red / green / blue) Heartwood artifact-token combo — Reality Fracture set deck reality-fracture heartwood\nDocket Combustion — Rakdos (black / red) firebending × solved-Case combo combo firebending solved"
+  },
+  {
+    "objectID": "archive.html#section-6",
+    "href": "archive.html#section-6",
+    "title": "Archive",
+    "section": "2026-11-21",
+    "text": "2026-11-21\n\nSanctum Spine — Sultai (blue / black / green) empower-loyalty combo — Reality Fracture set deck reality-fracture empower\nNightsoil Nursery — Dimir (Blue-Black) — Threshold × Offspring combo threshold offspring"
+  },
+  {
+    "objectID": "archive.html#section-7",
+    "href": "archive.html#section-7",
+    "title": "Archive",
+    "section": "2026-11-20",
+    "text": "2026-11-20\n\nGravechoir — Blue-Black-Red-Green | Threshold x Harmonize combo Threshold Harmonize\nFatehold Rehearsal — White-Blue-Black prepared surveil — the Reality Fracture sphinx deck reality-fracture sphinx"
+  },
+  {
+    "objectID": "archive.html#section-8",
+    "href": "archive.html#section-8",
+    "title": "Archive",
+    "section": "2026-11-19",
+    "text": "2026-11-19\n\nScribewyrm — Blue-Red-Green Prepared x Dragon tokens — the Reality Fracture set identity deck reality-fracture prepared\nGrave Plot — White, Blue, Black, Green — Plot x Delirium x Surveil combo Plot Delirium Surveil"
+  },
+  {
+    "objectID": "archive.html#section-9",
+    "href": "archive.html#section-9",
+    "title": "Archive",
+    "section": "2026-11-18",
+    "text": "2026-11-18\n\nTetherforge Aviary — Naya (red / green / white) Heartwood artifact-token combo — Reality Fracture set identity deck reality-fracture heartwood\nChain of Custody — Esper (white-blue-black) Investigate — Clue artifacts as the engine, the army and the win combo Investigate"
+  },
+  {
+    "objectID": "archive.html#section-10",
+    "href": "archive.html#section-10",
+    "title": "Archive",
+    "section": "2026-11-17",
+    "text": "2026-11-17\n\nWaywright Parade — White-Red-Green Empower x planeswalker loyalty — Reality Fracture set identity deck reality-fracture empower\nBlightcrown Mob — Black-Red — Blight combo blight"
+  },
+  {
+    "objectID": "archive.html#section-11",
+    "href": "archive.html#section-11",
+    "title": "Archive",
+    "section": "2026-11-16",
+    "text": "2026-11-16\n\nRotbloom Harvest — Sultai surveil-mill — Reality Fracture reality-fracture surveil\nBargain Bin — Golgari Bargain — Food is the currency, Squirrels are the change combo Bargain"
+  },
+  {
+    "objectID": "archive.html#section-12",
+    "href": "archive.html#section-12",
+    "title": "Archive",
+    "section": "2026-11-15",
+    "text": "2026-11-15\n\nSutured Skies — Bant (white / blue / green) prepared-spell counters combo — Reality Fracture reality-fracture prepared\nHoofbeat Holiday — Naya (WGR) | Saddle + Celebration combo Saddle Celebration"
+  },
+  {
+    "objectID": "archive.html#section-13",
+    "href": "archive.html#section-13",
+    "title": "Archive",
+    "section": "2026-11-14",
+    "text": "2026-11-14\n\nSphinx Quillstorm — Jund (black / red / green) Elder Sphinx legends + Heartwood-to-Dragon combo — Reality Fracture reality-fracture sphinx\nAbove Suspicion — Dimir (blue / black) surveil-reanimator combo combo surveil"
+  },
+  {
+    "objectID": "archive.html#section-14",
+    "href": "archive.html#section-14",
+    "title": "Archive",
+    "section": "2026-11-13",
+    "text": "2026-11-13\n\nSilt Cartography — Esper (white / blue / black) surveil-mill threshold combo — Reality Fracture reality-fracture surveil\nCorpse Census — WUBG — Morbid x Surveil combo morbid surveil"
+  },
+  {
+    "objectID": "archive.html#section-15",
+    "href": "archive.html#section-15",
+    "title": "Archive",
+    "section": "2026-11-12",
+    "text": "2026-11-12\n\nSpark Annuity — Esper (white / blue / black) empower-loyalty combo — Reality Fracture reality-fracture empower\nBlight the Levy — Mardu blight and mobilize combo — conscript the tokens, blight the conscripts, drain the table combo Blight Mobilize"
+  },
+  {
+    "objectID": "archive.html#section-16",
+    "href": "archive.html#section-16",
+    "title": "Archive",
+    "section": "2026-11-11",
+    "text": "2026-11-11\n\nTetherwright — Temur (blue / red / green) Heartwood-artifact combo — Reality Fracture reality-fracture heartwood\nRotmarket — Black-Red — Blight combo blight"
+  },
+  {
+    "objectID": "archive.html#section-17",
+    "href": "archive.html#section-17",
+    "title": "Archive",
+    "section": "2026-11-10",
+    "text": "2026-11-10\n\nVerses Prepared — Jund (black / red / green) prepared-spell aggro-combo — Reality Fracture reality-fracture prepared\nNothing Left Behind — White, black, red and green — Void, Evoke and attack triggers combo void evoke attack-matters"
+  },
+  {
+    "objectID": "archive.html#section-18",
+    "href": "archive.html#section-18",
+    "title": "Archive",
+    "section": "2026-11-09",
+    "text": "2026-11-09\n\nRot Reprise — Four-color blight and flashback: your own tokens are the fuel combo blight flashback\nEmber Quill Council — Jund (black / red / green) Sphinx drain aggro — Reality Fracture reality-fracture sphinx"
+  },
+  {
+    "objectID": "archive.html#section-19",
+    "href": "archive.html#section-19",
+    "title": "Archive",
+    "section": "2026-11-08",
+    "text": "2026-11-08\n\nOverdue Notice — Sultai (Blue-Black-Green) — Mill combo Mill\nAftersight — Esper (white / blue / black) surveil-scry engine with prepared payloads — Reality Fracture reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-20",
+    "href": "archive.html#section-20",
+    "title": "Archive",
+    "section": "2026-11-07",
+    "text": "2026-11-07\n\nTimberwing — Naya artifact-token dragons — Reality Fracture reality-fracture heartwood\nGraveskim — Four-colour connive and fathomless descent — loot the yard, then cash it in combo connive graveyard"
+  },
+  {
+    "objectID": "archive.html#section-21",
+    "href": "archive.html#section-21",
+    "title": "Archive",
+    "section": "2026-11-06",
+    "text": "2026-11-06\n\nLoyalty Overdraft — Esper (White-Blue-Black) empower-loyalty combo - Reality Fracture reality-fracture empower\nEscalator Clause — Naya power-up and tiered combo — pay more, get more combo Power-up Tiered"
+  },
+  {
+    "objectID": "archive.html#section-22",
+    "href": "archive.html#section-22",
+    "title": "Archive",
+    "section": "2026-11-05",
+    "text": "2026-11-05\n\nStirrup Storm — Naya (White-Red-Green) Saddle attack-trigger combo combo Saddle\nSinew and Stone — White / Green / Black toughness combo — Doran walls, Ghalta alpha strike, Reality Fracture set deck reality-fracture toughness"
+  },
+  {
+    "objectID": "archive.html#section-23",
+    "href": "archive.html#section-23",
+    "title": "Archive",
+    "section": "2026-11-04",
+    "text": "2026-11-04\n\nSecond Helping — Five-color (WUBRG) — Forage x Evoke combo Forage Evoke\nCounterwake — Temur (Green-Blue-Red) empower-loyalty combo - Reality Fracture reality-fracture empower"
+  },
+  {
+    "objectID": "archive.html#section-24",
+    "href": "archive.html#section-24",
+    "title": "Archive",
+    "section": "2026-11-03",
+    "text": "2026-11-03\n\nVigorbloom Conclave — White-Green lifegain, Cadets and an Elder Sphinx drain (Reality Fracture) reality-fracture sphinx\nBullion Riot — Rakdos — Treasure tokens converted into artifact creature tokens combo treasure token-creation"
+  },
+  {
+    "objectID": "archive.html#section-25",
+    "href": "archive.html#section-25",
+    "title": "Archive",
+    "section": "2026-11-02",
+    "text": "2026-11-02\n\nCloaked Column — Mardu Disguise x Mobilize x Alliance combo — every token is a burn trigger combo Disguise Mobilize Alliance\nCadet Muster — White-Blue-Black prepared Cadet engine (Reality Fracture) reality-fracture wizards"
+  },
+  {
+    "objectID": "archive.html#section-26",
+    "href": "archive.html#section-26",
+    "title": "Archive",
+    "section": "2026-11-01",
+    "text": "2026-11-01\n\nQuickstep Crescendo — Izzet prowess storm: every cheap spell pays two bodies at once, and the last one is unblockable combo Prowess\nDress Rehearsal — Temur Prepared - the Soul Tether artifact engine (Reality Fracture) reality-fracture prepared"
+  },
+  {
+    "objectID": "archive.html#section-27",
+    "href": "archive.html#section-27",
+    "title": "Archive",
+    "section": "2026-10-31",
+    "text": "2026-10-31\n\nUnderstory — Sultai descend aggro — Akawalli, the Seething Tower and Souls of the Lost combo descend\nDeepwater Litany — Sultai surveil-reanimation: a prepared engine that reanimates for free every turn — Reality Fracture reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-28",
+    "href": "archive.html#section-28",
+    "title": "Archive",
+    "section": "2026-10-30",
+    "text": "2026-10-30\n\nSanctum Static — Esper loyalty engine: empower a Jace token every turn, then let Sanctum Lurker turn every planeswalker into a repeating drain — Reality Fracture reality-fracture empower\nRekindle the Lineage — Jeskai (White-Blue-Red) - Behold x Flashback x Vivid combo behold flashback vivid"
+  },
+  {
+    "objectID": "archive.html#section-29",
+    "href": "archive.html#section-29",
+    "title": "Archive",
+    "section": "2026-10-29",
+    "text": "2026-10-29\n\nScorchline Skirmish — Jeskai haste-trample pressure: pump spells that draw cards, and a land that adds two attackers — Reality Fracture reality-fracture aggro\nBartered Bedrock — Jund (Black-Red-Green) — Earthbend x Bargain combo Earthbend Bargain"
+  },
+  {
+    "objectID": "archive.html#section-30",
+    "href": "archive.html#section-30",
+    "title": "Archive",
+    "section": "2026-10-28",
+    "text": "2026-10-28\n\nTeeming Presence — Naya creature-count combo: a token swarm that casts its own spells for free — Reality Fracture reality-fracture combo\nHoardmouth — Blue-Red-Green — Behold a Dragon and Treasure combo Behold"
+  },
+  {
+    "objectID": "archive.html#section-31",
+    "href": "archive.html#section-31",
+    "title": "Archive",
+    "section": "2026-10-27",
+    "text": "2026-10-27\n\nVanish on Cue — Blue, Black, Green, Red — Prepared x Disappear combo prepared disappear\nSpark Tithe — Mardu empower: Cadet fodder, Beast forge and a Jace-token drain — Reality Fracture reality-fracture empower"
+  },
+  {
+    "objectID": "archive.html#section-32",
+    "href": "archive.html#section-32",
+    "title": "Archive",
+    "section": "2026-10-26",
+    "text": "2026-10-26\n\nMolten Marginalia — Jeskai prepared spells, prowess fliers and a Molten Tide finish — Reality Fracture reality-fracture prepared\nFace Value — Jeskai (Blue / White / Red) — Disguise x Investigate x Power-up combo Power-up Disguise Investigate"
+  },
+  {
+    "objectID": "archive.html#section-33",
+    "href": "archive.html#section-33",
+    "title": "Archive",
+    "section": "2026-10-25",
+    "text": "2026-10-25\n\nSphinxwake — Esper surveil-counters with the Elder Sphinx legends — Reality Fracture reality-fracture sphinx\nQuicksand Chorus — Four-colour landfall burn — sixteen payoffs, one land drop at a time combo landfall"
+  },
+  {
+    "objectID": "archive.html#section-34",
+    "href": "archive.html#section-34",
+    "title": "Archive",
+    "section": "2026-10-24",
+    "text": "2026-10-24\n\nRefrain and Ruin — Jund prepared-prowess storm — Reality Fracture reality-fracture prepared\nLoose Change Leviathan — Five-color Treasure x Increment x Void combo — crack the coin, feed the counters combo treasure increment void"
+  },
+  {
+    "objectID": "archive.html#section-35",
+    "href": "archive.html#section-35",
+    "title": "Archive",
+    "section": "2026-10-23",
+    "text": "2026-10-23\n\nSapwood Foundry — Naya prepared-artifact combo — Reality Fracture reality-fracture heartwood\nChart the Redline — White-Blue-Black-Red | Discover, Plan counters and Start your engines! combo Discover Plan counter Start your engines!"
+  },
+  {
+    "objectID": "archive.html#section-36",
+    "href": "archive.html#section-36",
+    "title": "Archive",
+    "section": "2026-10-22",
+    "text": "2026-10-22\n\nSaddle, Sift, Surge — Green-white-blue-black Mount, Mill and Power-up engine combo Mount Mill Power-up\nOmit Everything — Sultai self-mill combo — Reality Fracture reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-37",
+    "href": "archive.html#section-37",
+    "title": "Archive",
+    "section": "2026-10-21",
+    "text": "2026-10-21\n\nLoyalty Loophole — Blue-Black-Red empower combo — Reality Fracture reality-fracture empower\nDrydock Overclock — Five-colour Station combo — charge counters doubled, hulls online ahead of schedule combo Station"
+  },
+  {
+    "objectID": "archive.html#section-38",
+    "href": "archive.html#section-38",
+    "title": "Archive",
+    "section": "2026-10-20",
+    "text": "2026-10-20\n\nTerra Ascendant — Green / white / blue landfall-loyalty engine — Empower x landfall x lifegain reality-fracture empower\nDouble Entry — Five-color card-draw combo — Vnwxt doubles every draw and Homunculus Horde compounds it combo card-draw"
+  },
+  {
+    "objectID": "archive.html#section-39",
+    "href": "archive.html#section-39",
+    "title": "Archive",
+    "section": "2026-10-19",
+    "text": "2026-10-19\n\nQuill Cadence — Four-color attack-trigger burn built on Reality Fracture’s prepared and empower mechanics reality-fracture sphinx\nFieldwork Syllabus — Bant (W/U/G) — Explore × Prepared combo explore prepared"
+  },
+  {
+    "objectID": "archive.html#section-40",
+    "href": "archive.html#section-40",
+    "title": "Archive",
+    "section": "2026-10-18",
+    "text": "2026-10-18\n\nTarget Practice — Jeskai Valiant blink combo - target your own creatures and get paid twice combo Valiant Blink\nFathom Ledger — Esper surveil and graveyard value — Reality Fracture set deck reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-41",
+    "href": "archive.html#section-41",
+    "title": "Archive",
+    "section": "2026-10-17",
+    "text": "2026-10-17\n\nWarpquake — Boros Warp — white and red, warp re-entries turned into drain combo warp\nHeartwood Hatchlings — Temur Heartwood artifacts — Reality Fracture set deck reality-fracture heartwood"
+  },
+  {
+    "objectID": "archive.html#section-42",
+    "href": "archive.html#section-42",
+    "title": "Archive",
+    "section": "2026-10-16",
+    "text": "2026-10-16\n\nTidepool Tithe — Esper (White / Blue / Black) — Lifegain x Waterbending x Impending combo Lifegain Waterbending Impending\nCrypt Curriculum — Esper surveil and graveyard — Reality Fracture set deck reality-fracture surveil"
+  },
+  {
+    "objectID": "archive.html#section-43",
+    "href": "archive.html#section-43",
+    "title": "Archive",
+    "section": "2026-10-15",
+    "text": "2026-10-15\n\nPrep Rally — Grixis prepared spells — Reality Fracture set deck reality-fracture prepared\nEverything Must Go — Five-color (WUBRG) — Sacrifice combo Sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-44",
+    "href": "archive.html#section-44",
+    "title": "Archive",
+    "section": "2026-10-14",
+    "text": "2026-10-14\n\nRide the Rot — Sultai sacrifice, graveyard and saddle combo — Sacrifice x Graveyard x Saddle combo sacrifice graveyard saddle\nLoyalty Lattice — Blue / white / black empower superfriends — Empower x loyalty counters x Jace reality-fracture empower"
+  },
+  {
+    "objectID": "archive.html#section-45",
+    "href": "archive.html#section-45",
+    "title": "Archive",
+    "section": "2026-10-13",
+    "text": "2026-10-13\n\nRehearsed Ruin — Black / red / green prepared combo — Prepared x Heartwood x Threshold reality-fracture prepared\nPlot Hole — White / blue / black / green attrition combo — Graveyard x Void x Plot combo Graveyard Void Plot"
+  },
+  {
+    "objectID": "archive.html#section-46",
+    "href": "archive.html#section-46",
+    "title": "Archive",
+    "section": "2026-10-12",
+    "text": "2026-10-12\n\nVeiled Cavalry — Five-colour Disguise x Saddle — face-down 2/2s ride the mounts, then flip for the burn combo disguise saddle\nSecond Breakfast Raid — White-Blue-Green Hobbit burglar company — recruit swarms, Halfling copies and a flying finish hobbit halflings"
+  },
+  {
+    "objectID": "archive.html#section-47",
+    "href": "archive.html#section-47",
+    "title": "Archive",
+    "section": "2026-10-11",
+    "text": "2026-10-11\n\nFlicker Clock — WUBG Impending x Blink — Duskmourn Overlords cast cheap, then flickered for the win combo Impending Blink\nFire and Feather — White-Blue-Red Wizards x spell-ping x Lake-town fliers — The Hobbit set identity deck hobbit wizards"
+  },
+  {
+    "objectID": "archive.html#section-48",
+    "href": "archive.html#section-48",
+    "title": "Archive",
+    "section": "2026-10-10",
+    "text": "2026-10-10\n\nTerracotta Charge — White-Black-Red-Green (no blue) — Attack matters × Earthbend combo attack-matters earthbend\nRavenhill Rally — WUG Recruit Company x draw-two payoffs x Eagles — The Hobbit set identity deck hobbit recruit"
+  },
+  {
+    "objectID": "archive.html#section-49",
+    "href": "archive.html#section-49",
+    "title": "Archive",
+    "section": "2026-10-09",
+    "text": "2026-10-09\n\nClachan Stampede — Naya (White / Green / Red) — Behold × Mount × Morbid combo behold mount morbid\nAnvil Anthem — WUR Storied Dwarves x Equipment x Men of Dale — The Hobbit set identity deck hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-50",
+    "href": "archive.html#section-50",
+    "title": "Archive",
+    "section": "2026-10-08",
+    "text": "2026-10-08\n\nSpectrum Stampede — Gruul landfall and vivid combo — a colour-count engine in red and green combo landfall vivid\nHoardwyrm — Jund (B/R/G) Dragons and Treasures — Smaug’s hoard engine, Standard legal hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-51",
+    "href": "archive.html#section-51",
+    "title": "Archive",
+    "section": "2026-10-07",
+    "text": "2026-10-07\n\nWarren Muster — Jund (B/R/G) Goblin amass — one Army, recurring counter events, drained through The Great Goblin hobbit amass\nBedrock Uprising — Jund (Black-Red-Green) — Earthbend combo Earthbend"
+  },
+  {
+    "objectID": "archive.html#section-52",
+    "href": "archive.html#section-52",
+    "title": "Archive",
+    "section": "2026-10-06",
+    "text": "2026-10-06\n\nTap Dance — WUBG — Blink/Flicker × Convoke combo blink convoke\nLeaf and Landfall — Bant (G/U/W) landfall Elves — every land drop makes an Elf, and each new Elf makes the next land drop better hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-53",
+    "href": "archive.html#section-53",
+    "title": "Archive",
+    "section": "2026-10-05",
+    "text": "2026-10-05\n\nGold and Granite — Naya (R/W/G) Storied Dwarves and Equipment — ten artifacts arm the company and every legend cashes them in hobbit dwarves\nCharged Into the Void — Mardu Station x Void — Spacecraft charge counters and leave-the-battlefield payoffs combo Station Void"
+  },
+  {
+    "objectID": "archive.html#section-54",
+    "href": "archive.html#section-54",
+    "title": "Archive",
+    "section": "2026-10-04",
+    "text": "2026-10-04\n\nWeaving Suspicion — WUBR (White/Blue/Black/Red) — Eerie enchants, Suspect menace, and Web-slinging spiders in one aggro shell combo eerie suspect web-slinging\nCinderhoard — Grixis (U/B/R) Dragons and Treasures — Smaug’s hoard engine ramps, draws and burns hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-55",
+    "href": "archive.html#section-55",
+    "title": "Archive",
+    "section": "2026-10-03",
+    "text": "2026-10-03\n\nHammer and Heritage — Red-White Storied Dwarves — Equipment, Sagas and The Lonely Mountain hobbit dwarves\nGraveyard Shift — Mardu (W/B/R) Job select equipment plus flashback token swarms combo job-select flashback token-creation"
+  },
+  {
+    "objectID": "archive.html#section-56",
+    "href": "archive.html#section-56",
+    "title": "Archive",
+    "section": "2026-10-02",
+    "text": "2026-10-02\n\nHaggle the Horizon — Temur Bargain × Exhaust × Explore combo — Sita Varma and Loot, the Pathfinder combo bargain exhaust explore\nDrumbeat Horde — Jund (B/R/G) Goblin amass — one Army, endless counters, drained through The Great Goblin hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-57",
+    "href": "archive.html#section-57",
+    "title": "Archive",
+    "section": "2026-10-01",
+    "text": "2026-10-01\n\nWargwake — Jund (B/G/R) Wolf and Bear tribal — ferocious payoffs fed by landfall counters and a Mirkwood engine hobbit wolves\nCloak and Celerity — Esper (White / Blue / Black) Eerie enchantment engine with Disguise bodies and a Max speed finish combo eerie disguise max speed"
+  },
+  {
+    "objectID": "archive.html#section-58",
+    "href": "archive.html#section-58",
+    "title": "Archive",
+    "section": "2026-09-30",
+    "text": "2026-09-30\n\nExhaust Manifold — Glint-Eye (U/B/R/G) Tap-Out Grind — Exhaust engines, a rolling Mill clock and Teamwork tap costs combo mill teamwork exhaust\nEvergreen Requiem — Sultai (Blue / Black / Green) legendary-Elf graveyard engine — landfall Elf swarm, and a Thranduil that borrows the activated abilities of dead Elves hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-59",
+    "href": "archive.html#section-59",
+    "title": "Archive",
+    "section": "2026-09-29",
+    "text": "2026-09-29\n\nWingsong — Bant (W/U/G) Aerial Tempo — the Esgaroth recruit engine feeding draw-trigger payoffs hobbit eagles\nOvertake at Midnight — Four-color (W/U/B/R) Speed — Start your engines! aggro with a sacrifice drain loop combo start-your-engines"
+  },
+  {
+    "objectID": "archive.html#section-60",
+    "href": "archive.html#section-60",
+    "title": "Archive",
+    "section": "2026-09-28",
+    "text": "2026-09-28\n\nTidewater Tally — White / Blue / Black / Red / Green +1/+1 Counters x Surveil x Waterbending combo +1/+1 Counters Surveil Waterbending\nStoryforge — Naya (R/W/G) Storied Dwarves — Equipment engine with a green artifact splash hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-61",
+    "href": "archive.html#section-61",
+    "title": "Archive",
+    "section": "2026-09-27",
+    "text": "2026-09-27\n\nRace the Reaper — Blue, black, red and green — Fathomless descent x Manifest dread x Max speed: mill your own permanents to grow the graveyard, then race the clock to kill combo Fathomless descent Manifest dread Max speed\nMolten Mint — Red / Black / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-62",
+    "href": "archive.html#section-62",
+    "title": "Archive",
+    "section": "2026-09-26",
+    "text": "2026-09-26\n\nDeep-Down Thunder — Black and red with a green splash - amass Goblins, a growing Army, and a Goblin Noble that turns every counter into damage hobbit amass\nBoneyard Bloom — Sultai (Blue, Black, Green) — Renew combo renew"
+  },
+  {
+    "objectID": "archive.html#section-63",
+    "href": "archive.html#section-63",
+    "title": "Archive",
+    "section": "2026-09-25",
+    "text": "2026-09-25\n\nVerdant Liege — Green and blue with a black splash - Elf legends, landfall tokens, and lands that attack hobbit elves\nStoke the Veins — Black / Red / Green Firebending x Infusion — Jund attack-trigger combo combo Firebending Infusion"
+  },
+  {
+    "objectID": "archive.html#section-64",
+    "href": "archive.html#section-64",
+    "title": "Archive",
+    "section": "2026-09-24",
+    "text": "2026-09-24\n\nSongsteel — Red / White with a blue splash — Storied Dwarves, Equipment, and the enduring story hobbit dwarves\nPyre Parade — White / Black / Red Celebration x Firebending — Mardu token-burst midrange combo Celebration Firebending"
+  },
+  {
+    "objectID": "archive.html#section-65",
+    "href": "archive.html#section-65",
+    "title": "Archive",
+    "section": "2026-09-23",
+    "text": "2026-09-23\n\nTallywurm — Green / White (two colors) — +1/+1 counters, fed by landfall, cashed in by Ouroboroid combo counters\nCinder and Coin — Black / Red / Green Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-66",
+    "href": "archive.html#section-66",
+    "title": "Archive",
+    "section": "2026-09-22",
+    "text": "2026-09-22\n\nSack and Sunder — Black / Red / Green (three colors) — Goblin amass sacrifice engine into The Great Goblin burn hobbit amass\nFirefeeding — Five-color (WUBRG) — Forage × Firebending × Warp combo Forage Firebending Warp"
+  },
+  {
+    "objectID": "archive.html#section-67",
+    "href": "archive.html#section-67",
+    "title": "Archive",
+    "section": "2026-09-21",
+    "text": "2026-09-21\n\nRedline Alibi — Rakdos (Black-Red) | Max speed x Suspect combo max-speed suspect\nLoam and Legend — Green / Blue / White (three colors) — Hobbit Elf legends and landfall tokens with a counter-overrun land hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-68",
+    "href": "archive.html#section-68",
+    "title": "Archive",
+    "section": "2026-09-20",
+    "text": "2026-09-20\n\nNow You See Them — Four colors (white / blue / black / green) — Convoke x Disappear combo convoke disappear\nAnvil Verse — Red / White / Blue (three colors) — Storied Dwarves with Equipment counters and a token win hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-69",
+    "href": "archive.html#section-69",
+    "title": "Archive",
+    "section": "2026-09-19",
+    "text": "2026-09-19\n\nWardrum Warband — Black / Red / Green (three colors) — Goblin amass counters into The Great Goblin burn hobbit amass\nBreak Ground — Five colors (white / blue / black / red / green) — Token creation x Start your engines! x Earthbend combo Token creation Start your engines! Earthbend"
+  },
+  {
+    "objectID": "archive.html#section-70",
+    "href": "archive.html#section-70",
+    "title": "Archive",
+    "section": "2026-09-18",
+    "text": "2026-09-18\n\nIncognito Incendiary — Naya (White, Red, Green) — Disguise x Valiant combo Disguise Valiant\nHoardwake — Blue / Black / Red (three colors) — Hobbit Treasure engine into Dragon payoffs hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-71",
+    "href": "archive.html#section-71",
+    "title": "Archive",
+    "section": "2026-09-17",
+    "text": "2026-09-17\n\nMuster Roll — White / Blue / Black (three colors) — Hobbit recruit tokens and second-draw payoffs hobbit recruit\nGift Economy — Black / Red / White (three colors) — a Gift build-around that turns every promised gift into a drain trigger combo gift"
+  },
+  {
+    "objectID": "archive.html#section-72",
+    "href": "archive.html#section-72",
+    "title": "Archive",
+    "section": "2026-09-16",
+    "text": "2026-09-16\n\nWhiskerquake — White / Red / Green (three colors) - Valiant Mice meeting Earthbend land-awakening, with a counters bridge between them combo Valiant Earthbend\nAnvil Chorus — Red / White / Blue (three colors) — Storied Dwarf equipment swarm with a token-into-counters payoff, built on The Hobbit set hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-73",
+    "href": "archive.html#section-73",
+    "title": "Archive",
+    "section": "2026-09-15",
+    "text": "2026-09-15\n\nPalimpsest — WUBR four-color — Flashback x Discover combo Flashback Discover\nEavesong — White / Blue / Black / Green (four colors) — legendary-Elf landfall engine with the Bard draw-and-token package, built on The Hobbit set hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-74",
+    "href": "archive.html#section-74",
+    "title": "Archive",
+    "section": "2026-09-14",
+    "text": "2026-09-14\n\nVanishing Act — Four-color (WUBG) | Investigate, Sneak and Disappear combo investigate sneak disappear\nChitter and Burn — Rakdos core with a green trample splash (Black / Red / Green) — Amass Goblins x The Great Goblin counter-burn, built on The Hobbit set hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-75",
+    "href": "archive.html#section-75",
+    "title": "Archive",
+    "section": "2026-09-13",
+    "text": "2026-09-13\n\nWilderland Howl — Golgari core with a red splash (Black / Green / Red) — Wilderlands Bears x the ferocious Warg pack, built on The Hobbit set hobbit bears\nNightveil Offering — Five-color (White / Blue / Black / Red / Green) — an Eerie x Sneak x Sacrifice Ninja drain deck combo Eerie Sneak Sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-76",
+    "href": "archive.html#section-76",
+    "title": "Archive",
+    "section": "2026-09-12",
+    "text": "2026-09-12\n\nHammerhone Saga — Mardu (Red / White / Black) — Storied Dwarves x Equipment, built on The Hobbit set identity hobbit dwarves\nGilded Reprise — Mardu (Black / Red / White) — a Treasure-and-flashback celebration engine combo celebration flashback treasure"
+  },
+  {
+    "objectID": "archive.html#section-77",
+    "href": "archive.html#section-77",
+    "title": "Archive",
+    "section": "2026-09-11",
+    "text": "2026-09-11\n\nHoardfire — Jund (Black / Red / Green) — Smaug treasure-hoard burn from The Hobbit set hobbit smaug\nBrave the Heist — Five-color (WUBRG) — Valiant x Connive x Treasure: target your own creatures, hoard the pay, spend it on dragons combo valiant connive treasure"
+  },
+  {
+    "objectID": "archive.html#section-78",
+    "href": "archive.html#section-78",
+    "title": "Archive",
+    "section": "2026-09-10",
+    "text": "2026-09-10\n\nCompound Interest — Temur Increment x Expend x Delirium combo — mana thresholds that compound into trample damage combo increment expend delirium\nBellow and Burn — Jund (Black / Red / Green) — Amass Goblins counter-burn engine from The Hobbit set hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-79",
+    "href": "archive.html#section-79",
+    "title": "Archive",
+    "section": "2026-09-09",
+    "text": "2026-09-09\n\nSilvan Surge — Sultai (Blue / Black / Green) — Elf-legend landfall engine from The Hobbit set hobbit elves\nPrismatic Departure — GUBR (Green / Blue / Black / Red) - Disappear x Vivid x Spree rainbow sacrifice engine combo disappear vivid spree"
+  },
+  {
+    "objectID": "archive.html#section-80",
+    "href": "archive.html#section-80",
+    "title": "Archive",
+    "section": "2026-09-08",
+    "text": "2026-09-08\n\nTwice-Told Tales — Jeskai (White / Red / Blue) — Storied Dwarf copy-trigger company from The Hobbit set hobbit dwarves\nPlot Twist — Simic (Blue / Green) — Plot combo plot"
+  },
+  {
+    "objectID": "archive.html#section-81",
+    "href": "archive.html#section-81",
+    "title": "Archive",
+    "section": "2026-09-07",
+    "text": "2026-09-07\n\nWyrmgold — Jund (Black / Red / Green) — Smaug hoard-burn with doubled dragon damage, from The Hobbit set hobbit smaug\nDeathwatch — Jund sacrifice × morbid — death-drain engine with end-step growth combo sacrifice morbid"
+  },
+  {
+    "objectID": "archive.html#section-82",
+    "href": "archive.html#section-82",
+    "title": "Archive",
+    "section": "2026-09-06",
+    "text": "2026-09-06\n\nGoblin Growth — Jund (Black / Red / Green) — Amass Goblins × counter-doubling from The Hobbit set hobbit amass\nCold Case Haunting — WUBRG (five-color) | Eerie x Clue combo Eerie Clue"
+  },
+  {
+    "objectID": "archive.html#section-83",
+    "href": "archive.html#section-83",
+    "title": "Archive",
+    "section": "2026-09-05",
+    "text": "2026-09-05\n\nWeb Slingback — Green-white | Web-slinging — bounce a tapped creature, cast Spiders for cheap, and overrun combo web-slinging\nGreenwood Ledger — Sultai (Blue / Black / Green) — Elf-legend lore engine from The Hobbit set hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-84",
+    "href": "archive.html#section-84",
+    "title": "Archive",
+    "section": "2026-09-04",
+    "text": "2026-09-04\n\nSteel and Saga — Jeskai (Red / White / Blue) — Storied Dwarf ETB-engine from The Hobbit set hobbit dwarves\nCounterargument — White-blue-black-green | Repartee x Increment — spell-slinging +1/+1 counters combo repartee increment"
+  },
+  {
+    "objectID": "archive.html#section-85",
+    "href": "archive.html#section-85",
+    "title": "Archive",
+    "section": "2026-09-03",
+    "text": "2026-09-03\n\nScale and Coin — Grixis (UBR) Smaug Dragon × Treasure — The Hobbit set identity deck hobbit smaug\nRequiem Mass — Orzhov Endure x Sacrifice — every death makes the choir louder combo endure sacrifice"
+  },
+  {
+    "objectID": "archive.html#section-86",
+    "href": "archive.html#section-86",
+    "title": "Archive",
+    "section": "2026-09-02",
+    "text": "2026-09-02\n\nLandwarp — White-Black-Red-Green (WBRG) — Landfall × Warp × Sneak combo landfall warp sneak\nAmass to Arms — Mardu (WBR) Amass Goblins — The Hobbit set identity deck hobbit amass"
+  },
+  {
+    "objectID": "archive.html#section-87",
+    "href": "archive.html#section-87",
+    "title": "Archive",
+    "section": "2026-09-01",
+    "text": "2026-09-01\n\nPaid in Blood — WUBRG | Sacrifice combo sacrifice\nMoon and Dale — Bant-Black (WUBG) Elf Legends — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-88",
+    "href": "archive.html#section-88",
+    "title": "Archive",
+    "section": "2026-08-31",
+    "text": "2026-08-31\n\nBanner Fall — Red / Black — Token creation × Mobilize engine combo token-creation mobilize\nBalin’s Company — Jeskai (W/U/R) Storied Dwarf Combo — The Hobbit set identity deck hobbit dwarves"
+  },
+  {
+    "objectID": "archive.html#section-89",
+    "href": "archive.html#section-89",
+    "title": "Archive",
+    "section": "2026-08-30",
+    "text": "2026-08-30\n\nEmberfall — Five-color (WUBRG) — Landfall × Eerie × Firebending engine combo landfall eerie firebending\nDragon’s Ledger — Jund (B/R/G) Smaug Treasure-Dragon — The Hobbit set identity deck hobbit smaug"
+  },
+  {
+    "objectID": "archive.html#section-90",
+    "href": "archive.html#section-90",
+    "title": "Archive",
+    "section": "2026-08-29",
+    "text": "2026-08-29\n\nStoried Company — Red / White / Blue Jeskai — Storied Dwarf equipment engine (The Hobbit set identity deck) hobbit dwarves\nCook the Books — White / Black / Red / Green — Food × Forage × Discover engine combo food forage discover"
+  },
+  {
+    "objectID": "archive.html#section-91",
+    "href": "archive.html#section-91",
+    "title": "Archive",
+    "section": "2026-08-28",
+    "text": "2026-08-28\n\nUnder the Mountain — Black / Red / Blue Grixis — amass Goblin sacrifice engine (The Hobbit set identity deck) hobbit amass\nSunstar Vigil — WUBRG | Station x Lifegain x Solved combo station lifegain solved"
+  },
+  {
+    "objectID": "archive.html#section-92",
+    "href": "archive.html#section-92",
+    "title": "Archive",
+    "section": "2026-08-27",
+    "text": "2026-08-27\n\nFang and Fur — Green / Blue / Black Beornings — Bear and Warg landfall engine (The Hobbit set identity deck) hobbit beornings\nChromatic Caper — WUBRG (White, Blue, Black, Red, Green) | Vivid x Plot x Alliance combo vivid plot alliance"
+  },
+  {
+    "objectID": "archive.html#section-93",
+    "href": "archive.html#section-93",
+    "title": "Archive",
+    "section": "2026-08-26",
+    "text": "2026-08-26\n\nWing and Coin — Black / Red / White Smaug Dragon x Treasure — The Hobbit set identity deck hobbit smaug\nLifespark — WURG (White, Blue, Red, Green) | Infusion x Prowess combo infusion prowess\nCase Fire — Red / White / Blue / Black — Raid × Solved × Evoke fusion (MKM Cases + Lorwyn Eclipsed Incarnations + Fire Nation raid) combo raid solved evoke"
+  },
+  {
+    "objectID": "archive.html#section-94",
+    "href": "archive.html#section-94",
+    "title": "Archive",
+    "section": "2026-08-25",
+    "text": "2026-08-25\n\nSwarm Calculus — WURG Alliance x Increment combo — every creature counts, every spell compounds combo Alliance Increment\nSilvan Springtide — Black / Green / Blue / White Elf Legends x Landfall Swarm — The Hobbit set identity deck hobbit elves"
+  },
+  {
+    "objectID": "archive.html#section-95",
+    "href": "archive.html#section-95",
+    "title": "Archive",
+    "section": "2026-08-24",
+    "text": "2026-08-24\n\nHearth and Hammer — White / Red / Blue Storied Dwarves x Sagas — The Hobbit set identity deck hobbit dwarves\nGrave Team Six — Sultai — Fathomless descent × Teamwork combo fathomless-descent teamwork"
+  },
+  {
+    "objectID": "archive.html#section-96",
+    "href": "archive.html#section-96",
+    "title": "Archive",
+    "section": "2026-08-23",
+    "text": "2026-08-23\n\nGilded Horde — Black / Red / Green Amass Goblins x Smaug Treasure — The Hobbit set identity deck hobbit amass\nDeath by Committee — Black-Red-Green (Jund) — Sacrifice × Teamwork Combo combo sacrifice teamwork"
+  },
+  {
+    "objectID": "archive.html#section-97",
+    "href": "archive.html#section-97",
+    "title": "Archive",
+    "section": "2026-08-22",
+    "text": "2026-08-22\n\nSpiderweb Landslide — WUBRG (White–Blue–Black–Red–Green) — Landfall Burn & Spider Voltron Combo hobbit elves\nFertile Chorus — Sultai Renew x Convoke combo — mill, pump the choir, and tap it for free spells combo renew convoke"
+  },
+  {
+    "objectID": "archive.html#section-98",
+    "href": "archive.html#section-98",
+    "title": "Archive",
+    "section": "2026-08-21",
+    "text": "2026-08-21\n\nMirkwood Menagerie — WUBG (White–Blue–Black–Green) — Ferocious & Landfall Menagerie Combo hobbit elves\nKindle the Archive — Five-color Vivid × Firebending × Surveil — flashback burn combo vivid firebending surveil"
+  },
+  {
+    "objectID": "archive.html#section-99",
+    "href": "archive.html#section-99",
+    "title": "Archive",
+    "section": "2026-08-20",
+    "text": "2026-08-20\n\nThieves of the Crooked Way — BRU Amass Goblins x Graveyard Theft — The Hobbit set combo deck hobbit amass goblins theft\nThe Rewritten Stampede — WURG (4-color) | Saddle × Plan counter × Convoke combo saddle convoke"
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html",
+    "href": "decks/2026-11-27-undertow-armada.html",
+    "title": "Undertow Armada",
+    "section": "",
+    "text": "Attribute\nValue\n\n\n\n\nFormat\nStandard (MTGA)\n\n\nColors\nBlue / Black / Red / Green (four-color, black base)\n\n\nArchetype\nToken-sacrifice combo-midrange (avg spell CMC 2.9)\n\n\nSize\n60 cards, 24 lands\n\n\nPrimary win\nOne Goblin Army token, grown by every Amass trigger, made unblockable by Rogue’s Passage\n\n\nSecondary win\nBloodthirsty Conqueror plus Enduring Tenacity: any life gain loops into infinite opponent life loss\n\n\nLand win con\nRogue’s Passage (unblockable Army); Fabled Passage is also a Disappear trigger, since cracking it is a permanent leaving the battlefield"
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#game-plan-phases",
+    "href": "decks/2026-11-27-undertow-armada.html#game-plan-phases",
+    "title": "Undertow Armada",
+    "section": "Game plan phases",
+    "text": "Game plan phases\n\n\n\n\n\n\n\nPhase\nWhat happens\n\n\n\n\nTurns 1-3\nLand a Goblin: Tidings of War or Flunkies to start the Army, Bothersome Noisemaker to tax every later spell. Rhovanion Rampager or Azog clears the road.\n\n\nTurns 3-5\nBuild the token board: Rat King and Along the Crooked Way turn the graveyard into Rats and counters, Insidious Roots turns recursion into mana Plants. Sacrifice something small every turn to keep Disappear live.\n\n\nTurns 5-7\nConvert: tap the board for Waterbend to cast above curve, suit up the Army, and either push it through Rogue’s Passage or assemble Conqueror plus Tenacity."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#card-roles",
+    "href": "decks/2026-11-27-undertow-armada.html#card-roles",
+    "title": "Undertow Armada",
+    "section": "Card roles",
+    "text": "Card roles\n\n\n\n\n\n\n\nCard\nRole\n\n\n\n\nBothersome Noisemaker\nTwo-drop engine: Amass 1 on every noncreature spell, and the deck runs eight of them\n\n\nGoblin-town Flunkies\nHaste clock that Amasses 1 on entry\n\n\nTidings of War\nOne-mana Amass 1 early, Amass 3 from the graveyard via Flashback\n\n\nAzog, Moria’s Ruin\nRemoval that Amasses equal to the dead creature’s power; draws a card if you controlled it\n\n\nFearsome Goblin Pair\nAmass 4 on death, so it is happy to be sacrificed\n\n\nAlong the Crooked Way\nRecursion plus Amass 1 whenever a creature card leaves your graveyard; also a Goblin and Orc menace sink\n\n\nRhovanion Rampager\nSacrifice outlet on attack, counters equal to the sacrificed power, and Amass equal to its own power when it dies\n\n\nRat King, Verminister\nDisappear body that makes a Rat every end step; taps three Rats to mass-reanimate\n\n\nFoot Mystic\nDisappear body with lifelink that makes a Ninja when it enters after a permanent left\n\n\nPutrid Pals\nDeathtouch blocker that enters with two counters when Disappear is live\n\n\nLord Dregg, Insect Invader\nFlying Disappear token maker, plus a token-to-card sacrifice outlet\n\n\nWest Wind Avatar\nSeven-mana top end: trample, sac a token or land for 3 life every attack, and draw each end step with Disappear\n\n\nKatara, Bending Prodigy\nWaterbend payoff: counters when tapped, and Waterbend 6 to draw\n\n\nNorth Pole Patrol\nUntaps another permanent, then Waterbend plus tap to lock down an attacker\n\n\nWaterbending Lesson\nDraw three, discarding only if you decline to Waterbend 2\n\n\nRuinous Waterbending\nOne-sided sweep at -2/-2 that gains life per death when Waterbent, which starts the Conqueror chain\n\n\nInsidious Roots\nEvery creature card leaving the graveyard makes a mana Plant and grows the Plants\n\n\nVengeful Bloodwitch\nAristocrat drain on every death, including your own tokens\n\n\nBloodthirsty Conqueror\nHalf of the infinite loop; also a 5/5 flying deathtouch clock\n\n\nEnduring Tenacity\nOther half of the loop; returns as an enchantment when it dies"
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#lands-as-engines",
+    "href": "decks/2026-11-27-undertow-armada.html#lands-as-engines",
+    "title": "Undertow Armada",
+    "section": "Lands as engines",
+    "text": "Lands as engines\n\n\n\n\n\n\n\nLand\nWhat it does\n\n\n\n\nRogue’s Passage\nFour mana and a tap: target creature is unblockable. This is how a 12/12 Army actually kills\n\n\nFabled Passage\nFixes four colors and is itself a permanent leaving the battlefield, so cracking it arms every Disappear trigger\n\n\nOpulent Palace / Wastewood Verge / Temple of Malady\nBlack-green-blue and black-green fixing for the base colors\n\n\nBlood Crypt / Breeding Pool / Watery Grave\nUntapped red, green and blue access on the turns the splash matters"
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#curve-and-mana",
+    "href": "decks/2026-11-27-undertow-armada.html#curve-and-mana",
+    "title": "Undertow Armada",
+    "section": "Curve and mana",
+    "text": "Curve and mana\nTwenty-four lands, thirty-two spells, average spell mana value 2.9. The curve is deliberately bottom-heavy: twenty-seven cards cost three or less, and only two cards cost five or more, both finishers rather than plan. Black is the primary color with twenty-three black or hybrid cards; red is a two-drop splash (Noisemaker, Flunkies, Tidings), blue is a three-drop splash (Katara, North Pole Patrol, Waterbending Lesson), green is the recursion and token color (Roots, Putrid Pals, West Wind Avatar). Because Waterbend converts spare creatures into generic mana, the deck functions on three lands far more often than the four-color frame suggests."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#early-game",
+    "href": "decks/2026-11-27-undertow-armada.html#early-game",
+    "title": "Undertow Armada",
+    "section": "Early game",
+    "text": "Early game\nLead with the cheapest Army builder. A turn-one Tidings of War is not wasted: it grows the Army, and its Flashback later Amasses 3 for four mana. Bothersome Noisemaker is the better two-drop when your hand holds removal or Waterbend spells, because each one adds a counter. Hold Azog until there is a creature worth killing, since Amass scales with the dead creature’s power."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#mid-game",
+    "href": "decks/2026-11-27-undertow-armada.html#mid-game",
+    "title": "Undertow Armada",
+    "section": "Mid game",
+    "text": "Mid game\nFrom turn three the plan is to make two permanents leave the battlefield every turn cycle: one sacrificed, one cracked or reanimated. Rhovanion Rampager attacking into a spare Rat or Plant is the cleanest repeatable sacrifice, and it triggers Disappear while growing itself. Rat King converts dead creatures into a Rat per turn, and three Rats later become a full reanimation."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#the-combo-turn",
+    "href": "decks/2026-11-27-undertow-armada.html#the-combo-turn",
+    "title": "Undertow Armada",
+    "section": "The combo turn",
+    "text": "The combo turn\nThe primary kill is arithmetic, not a loop. Count the Army’s counters, add Rogue’s Passage’s four mana, and attack for the whole total unblocked. Fearsome Goblin Pair dying into Amass 4, Rhovanion Rampager dying into Amass equal to its power, and a flashed-back Tidings for Amass 3 routinely add eight to twelve counters in a single turn. Waterbend those costs by tapping Plants and Rats in your second main phase, after attackers are declared, so the Army stays free to swing."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#win-condition-2",
+    "href": "decks/2026-11-27-undertow-armada.html#win-condition-2",
+    "title": "Undertow Armada",
+    "section": "Win condition 2",
+    "text": "Win condition 2\nBloodthirsty Conqueror plus Enduring Tenacity is a closed loop: Tenacity turns any life gain into opponent life loss, Conqueror turns opponent life loss back into your life gain. One point of lifegain is enough to start it, and this deck has many: Foot Mystic connecting, West Wind Avatar sacrificing a token, Ruinous Waterbending’s Waterbent death trigger, or simply a Vengeful Bloodwitch watching a token die. Both pieces are single copies, so treat them as a bonus line rather than a plan; Waterbending Lesson and Tidings of War’s Flashback dig toward them."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#mulligan-guide",
+    "href": "decks/2026-11-27-undertow-armada.html#mulligan-guide",
+    "title": "Undertow Armada",
+    "section": "Mulligan guide",
+    "text": "Mulligan guide\nKeep hands with two or three lands that include a black source, one cheap Goblin, and one payoff. A hand of all fixing and no engine is a mulligan even at four colors. Do not keep one-land hands hoping for Waterbend, because there is nothing to tap. Six-card hands are fine when they contain Bothersome Noisemaker plus two lands, since the Noisemaker converts every subsequent spell into counters."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#key-interactions-and-edge-cases",
+    "href": "decks/2026-11-27-undertow-armada.html#key-interactions-and-edge-cases",
+    "title": "Undertow Armada",
+    "section": "Key interactions and edge cases",
+    "text": "Key interactions and edge cases\n\nDisappear checks the whole turn, not the moment: sacrifice during combat and the trigger still fires at end of turn.\nCracking Fabled Passage, sacrificing a Map or a Food, and West Wind Avatar eating a spare land all count as permanents leaving the battlefield.\nThere is only ever one Army. Extra Amass triggers add counters to it, so never trade it away in combat; if it dies, Rhovanion Rampager’s death trigger is the cheapest way to rebuild.\nWaterbend taps creatures and artifacts for {1} each. Tapping the Army removes it from combat, so pay Waterbend costs in the second main phase.\nAlong the Crooked Way and Insidious Roots trigger on creature cards leaving the graveyard, not on spells. Rat King’s mass reanimation is the biggest single trigger in the deck.\nEnduring Tenacity returns as an enchantment when it dies, so the loop survives one removal spell; exile effects are the real answer.\nKatara only grows if she is tapped at end of turn, so attack or Waterbend with her rather than leaving her back."
+  },
+  {
+    "objectID": "decks/2026-11-27-undertow-armada.html#matchups",
+    "href": "decks/2026-11-27-undertow-armada.html#matchups",
+    "title": "Undertow Armada",
+    "section": "Matchups",
+    "text": "Matchups\nAgainst aggro, Putrid Pals and Foot Mystic trade up while Ruinous Waterbending sweeps a board of one- and two-toughness attackers and starts the lifegain chain. Against control, the deck wins through repetition: every countered engine piece is one more card in the graveyard for Rat King, and the Army survives most sweepers because it is a single large token with more than three toughness. Graveyard hate is the difficult axis, since it shuts off Along the Crooked Way, Insidious Roots and Rat King at once, so lean on the Goblin beatdown plan with Fearsome Goblin Pair and West Wind Avatar if that happens. Against combo, the clock is fast enough that Azog and Rhovanion Rampager should be aimed at the opponent’s creatures rather than held for value."
   },
   {
     "objectID": "decks/2026-11-26-codicil.html",

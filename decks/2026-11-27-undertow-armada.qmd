@@ -1,0 +1,149 @@
+---
+title: "Undertow Armada"
+subtitle: "Blue / Black / Red / Green — Amass × Disappear × Waterbending: a token-sacrifice engine that pays for its spells by tapping its own board"
+date: "2026-11-27"
+categories: ["combo", "Amass", "Disappear", "Waterbending"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|-----------|-------|
+| Format | Standard (MTGA) |
+| Colors | Blue / Black / Red / Green (four-color, black base) |
+| Archetype | Token-sacrifice combo-midrange (avg spell CMC 2.9) |
+| Size | 60 cards, 24 lands |
+| Primary win | One Goblin Army token, grown by every Amass trigger, made unblockable by Rogue's Passage |
+| Secondary win | Bloodthirsty Conqueror plus Enduring Tenacity: any life gain loops into infinite opponent life loss |
+| Land win con | Rogue's Passage (unblockable Army); Fabled Passage is also a Disappear trigger, since cracking it is a permanent leaving the battlefield |
+
+# Overview
+
+Three mechanics share one currency: permanents you control leaving the battlefield. Amass builds a single Goblin Army token out of +1/+1 counters, Disappear rewards you at end of turn whenever a permanent left the battlefield under your control, and Waterbend lets you pay generic costs by tapping your own creatures and artifacts rather than with mana.
+
+The glue is the graveyard-to-hand-and-back loop. Along the Crooked Way amasses a Goblin every time a creature card leaves your graveyard, and Insidious Roots makes a 0/1 Plant with "{T}: Add one mana of any color" on the same event. Rat King, Verminister returns a creature card and every copy of it from the graveyard to the battlefield, so one recursion spell pays you twice: Goblin counters and Plant tokens. Those Plants and Rats are then the tap-payment for Waterbend costs and the sacrifice fodder for Disappear, Rhovanion Rampager, Lord Dregg and West Wind Avatar.
+
+The result is a deck that never runs out of bodies. Every sacrifice is a Disappear trigger, every recursion is an Amass trigger, and every cheap noncreature spell is another Amass trigger off Bothersome Noisemaker.
+
+# Approach
+
+## Game plan phases
+
+| Phase | What happens |
+|-------|--------------|
+| Turns 1-3 | Land a Goblin: Tidings of War or Flunkies to start the Army, Bothersome Noisemaker to tax every later spell. Rhovanion Rampager or Azog clears the road. |
+| Turns 3-5 | Build the token board: Rat King and Along the Crooked Way turn the graveyard into Rats and counters, Insidious Roots turns recursion into mana Plants. Sacrifice something small every turn to keep Disappear live. |
+| Turns 5-7 | Convert: tap the board for Waterbend to cast above curve, suit up the Army, and either push it through Rogue's Passage or assemble Conqueror plus Tenacity. |
+
+## Card roles
+
+| Card | Role |
+|------|------|
+| Bothersome Noisemaker | Two-drop engine: Amass 1 on every noncreature spell, and the deck runs eight of them |
+| Goblin-town Flunkies | Haste clock that Amasses 1 on entry |
+| Tidings of War | One-mana Amass 1 early, Amass 3 from the graveyard via Flashback |
+| Azog, Moria's Ruin | Removal that Amasses equal to the dead creature's power; draws a card if you controlled it |
+| Fearsome Goblin Pair | Amass 4 on death, so it is happy to be sacrificed |
+| Along the Crooked Way | Recursion plus Amass 1 whenever a creature card leaves your graveyard; also a Goblin and Orc menace sink |
+| Rhovanion Rampager | Sacrifice outlet on attack, counters equal to the sacrificed power, and Amass equal to its own power when it dies |
+| Rat King, Verminister | Disappear body that makes a Rat every end step; taps three Rats to mass-reanimate |
+| Foot Mystic | Disappear body with lifelink that makes a Ninja when it enters after a permanent left |
+| Putrid Pals | Deathtouch blocker that enters with two counters when Disappear is live |
+| Lord Dregg, Insect Invader | Flying Disappear token maker, plus a token-to-card sacrifice outlet |
+| West Wind Avatar | Seven-mana top end: trample, sac a token or land for 3 life every attack, and draw each end step with Disappear |
+| Katara, Bending Prodigy | Waterbend payoff: counters when tapped, and Waterbend 6 to draw |
+| North Pole Patrol | Untaps another permanent, then Waterbend plus tap to lock down an attacker |
+| Waterbending Lesson | Draw three, discarding only if you decline to Waterbend 2 |
+| Ruinous Waterbending | One-sided sweep at -2/-2 that gains life per death when Waterbent, which starts the Conqueror chain |
+| Insidious Roots | Every creature card leaving the graveyard makes a mana Plant and grows the Plants |
+| Vengeful Bloodwitch | Aristocrat drain on every death, including your own tokens |
+| Bloodthirsty Conqueror | Half of the infinite loop; also a 5/5 flying deathtouch clock |
+| Enduring Tenacity | Other half of the loop; returns as an enchantment when it dies |
+
+## Lands as engines
+
+| Land | What it does |
+|------|--------------|
+| Rogue's Passage | Four mana and a tap: target creature is unblockable. This is how a 12/12 Army actually kills |
+| Fabled Passage | Fixes four colors and is itself a permanent leaving the battlefield, so cracking it arms every Disappear trigger |
+| Opulent Palace / Wastewood Verge / Temple of Malady | Black-green-blue and black-green fixing for the base colors |
+| Blood Crypt / Breeding Pool / Watery Grave | Untapped red, green and blue access on the turns the splash matters |
+
+## Curve and mana
+
+Twenty-four lands, thirty-two spells, average spell mana value 2.9. The curve is deliberately bottom-heavy: twenty-seven cards cost three or less, and only two cards cost five or more, both finishers rather than plan. Black is the primary color with twenty-three black or hybrid cards; red is a two-drop splash (Noisemaker, Flunkies, Tidings), blue is a three-drop splash (Katara, North Pole Patrol, Waterbending Lesson), green is the recursion and token color (Roots, Putrid Pals, West Wind Avatar). Because Waterbend converts spare creatures into generic mana, the deck functions on three lands far more often than the four-color frame suggests.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with the cheapest Army builder. A turn-one Tidings of War is not wasted: it grows the Army, and its Flashback later Amasses 3 for four mana. Bothersome Noisemaker is the better two-drop when your hand holds removal or Waterbend spells, because each one adds a counter. Hold Azog until there is a creature worth killing, since Amass scales with the dead creature's power.
+
+## Mid game
+
+From turn three the plan is to make two permanents leave the battlefield every turn cycle: one sacrificed, one cracked or reanimated. Rhovanion Rampager attacking into a spare Rat or Plant is the cleanest repeatable sacrifice, and it triggers Disappear while growing itself. Rat King converts dead creatures into a Rat per turn, and three Rats later become a full reanimation.
+
+## The combo turn
+
+The primary kill is arithmetic, not a loop. Count the Army's counters, add Rogue's Passage's four mana, and attack for the whole total unblocked. Fearsome Goblin Pair dying into Amass 4, Rhovanion Rampager dying into Amass equal to its power, and a flashed-back Tidings for Amass 3 routinely add eight to twelve counters in a single turn. Waterbend those costs by tapping Plants and Rats in your second main phase, after attackers are declared, so the Army stays free to swing.
+
+## Win condition 2
+
+Bloodthirsty Conqueror plus Enduring Tenacity is a closed loop: Tenacity turns any life gain into opponent life loss, Conqueror turns opponent life loss back into your life gain. One point of lifegain is enough to start it, and this deck has many: Foot Mystic connecting, West Wind Avatar sacrificing a token, Ruinous Waterbending's Waterbent death trigger, or simply a Vengeful Bloodwitch watching a token die. Both pieces are single copies, so treat them as a bonus line rather than a plan; Waterbending Lesson and Tidings of War's Flashback dig toward them.
+
+## Mulligan guide
+
+Keep hands with two or three lands that include a black source, one cheap Goblin, and one payoff. A hand of all fixing and no engine is a mulligan even at four colors. Do not keep one-land hands hoping for Waterbend, because there is nothing to tap. Six-card hands are fine when they contain Bothersome Noisemaker plus two lands, since the Noisemaker converts every subsequent spell into counters.
+
+## Key interactions and edge cases
+
+- Disappear checks the whole turn, not the moment: sacrifice during combat and the trigger still fires at end of turn.
+- Cracking Fabled Passage, sacrificing a Map or a Food, and West Wind Avatar eating a spare land all count as permanents leaving the battlefield.
+- There is only ever one Army. Extra Amass triggers add counters to it, so never trade it away in combat; if it dies, Rhovanion Rampager's death trigger is the cheapest way to rebuild.
+- Waterbend taps creatures and artifacts for {1} each. Tapping the Army removes it from combat, so pay Waterbend costs in the second main phase.
+- Along the Crooked Way and Insidious Roots trigger on creature cards leaving the graveyard, not on spells. Rat King's mass reanimation is the biggest single trigger in the deck.
+- Enduring Tenacity returns as an enchantment when it dies, so the loop survives one removal spell; exile effects are the real answer.
+- Katara only grows if she is tapped at end of turn, so attack or Waterbend with her rather than leaving her back.
+
+## Matchups
+
+Against aggro, Putrid Pals and Foot Mystic trade up while Ruinous Waterbending sweeps a board of one- and two-toughness attackers and starts the lifegain chain. Against control, the deck wins through repetition: every countered engine piece is one more card in the graveyard for Rat King, and the Army survives most sweepers because it is a single large token with more than three toughness. Graveyard hate is the difficult axis, since it shuts off Along the Crooked Way, Insidious Roots and Rat King at once, so lean on the Goblin beatdown plan with Fearsome Goblin Pair and West Wind Avatar if that happens. Against combo, the clock is fast enough that Azog and Rhovanion Rampager should be aimed at the opponent's creatures rather than held for value.
+
+# Deck list (Arena import)
+
+```
+Undertow Armada
+Deck
+3 Bothersome Noisemaker
+2 Goblin-town Flunkies
+2 Tidings of War
+2 Azog, Moria's Ruin
+2 Fearsome Goblin Pair
+2 Along the Crooked Way
+3 Rhovanion Rampager
+2 Rat King, Verminister
+2 Foot Mystic
+2 Putrid Pals
+1 Lord Dregg, Insect Invader
+1 West Wind Avatar
+2 Katara, Bending Prodigy
+2 North Pole Patrol
+1 Waterbending Lesson
+1 Ruinous Waterbending
+2 Insidious Roots
+2 Vengeful Bloodwitch
+1 Bloodthirsty Conqueror
+1 Enduring Tenacity
+4 Opulent Palace
+4 Wastewood Verge
+2 Temple of Malady
+3 Blood Crypt
+2 Breeding Pool
+1 Watery Grave
+1 Rogue's Passage
+2 Fabled Passage
+3 Swamp
+1 Island
+1 Mountain
+```
