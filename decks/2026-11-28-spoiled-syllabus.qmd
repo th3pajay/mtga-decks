@@ -1,0 +1,163 @@
+---
+title: "Spoiled Syllabus"
+subtitle: "Sultai mill, Food and Lessons — Master Pakku decking engine"
+date: "2026-11-28"
+categories: ["combo", "Mill", "Lesson", "Food"]
+---
+
+
+# At a glance
+
+| Attribute | Value |
+|---|---|
+| Format | Standard |
+| Colors | Sultai — blue / black / green |
+| Archetype | Mill-engine midrange |
+| Size | 60 cards, 23 lands |
+| Core engine | Master Pakku plus self-mill — every Lesson in the yard widens his mill trigger |
+| Primary win | Deck the opponent out with Pakku taps, Restless Reef attacks and sacrifice-mill |
+| Secondary win | Creature swarm — 26 bodies, two manlands, an Ooze that grows off the yard |
+| Nonland curve | 4 one-drops, 18 twos, 11 threes, 4 fours (average 2.41) |
+
+# Overview
+
+Spoiled Syllabus is a graveyard deck that turns three mechanics into one clock. **Mill** stocks your own yard, **Lessons** are the payload that mill feeds, and **Food** is the sacrifice currency that converts board presence into more milling.
+
+The engine is `Master Pakku`: a two-mana 1/3 with prowess and one line that matters — whenever he becomes tapped, target player mills X cards, where X is the number of Lesson cards in your graveyard. Attacking taps him, so a Pakku attack after a few turns of self-mill is a four or five card mill, and he blocks in the meantime. Every other card either stocks your yard so the Lesson count climbs, or makes the Food that `Scavenger's Talent` turns into mill.
+
+The Talent is the second half. Its level-two ability mills two cards whenever you sacrifice a permanent, and Food tokens are permanents. `Experimental Confectioner` replaces each eaten Food with a 1/1 Rat, `Vinereap Mentor` makes Food on entry and again on death, and `Leaves from the Vine` makes one on its first chapter — a mill-per-sacrifice loop that does not need to attack.
+
+`The Master of Lake-town` closes the gap between combat and milling: whenever a player loses life, that player mills that many cards. Creature damage, the Dawnhand Eulogist drain, everything becomes mill, so the deck never has to choose between killing and decking.
+
+# Approach
+
+## Game plan in three phases
+
+1. **Stock the yard (turns 1–4).** Land, then bodies that mill on entry: `Scarblade Scout`, `Daggerfang Duo`, `Leaves from the Vine`, `Experimental Confectioner`. `Glarb, Calamity's Augur` surveils two every turn and is a 2/4 deathtouch wall while he does it.
+2. **Turn the yard into a clock (turns 4–7).** Land the Talent and level it to two, keep sacrificing Food, and start attacking with Pakku. `Dawnhand Eulogist` adds three mill and a two-point drain. `The Master of Lake-town` converts any damage into more mill. `Ooze Patrol` arrives as a 2/2 and grows off the creature cards your self-mill has binned.
+3. **Finish (turns 7+).** Alternate between decking them and killing them. `Restless Reef` and `Restless Cottage` activate into 4/4s that mill four or make Food on every attack; `Scavenger's Talent` at level three can bring back a dead body at end of turn; `Accumulate Wisdom` refills your hand for three cards once the yard holds three Lessons.
+
+## Card roles
+
+| Card | Copies | Role |
+|---|---|---|
+| Master Pakku | 4 | Engine — mills X on every tap, X is Lessons in your yard |
+| Scarblade Scout | 4 | 2/2 lifelink that mills two on entry |
+| Daggerfang Duo | 4 | 3/2 deathtouch, optional mill two on entry |
+| Vinereap Mentor | 3 | Food on entry and on death, 3/2 body |
+| Glarb, Calamity's Augur | 3 | Surveil 2 every turn, deathtouch wall, casts four-drops off the top |
+| Dawnhand Eulogist | 2 | Three mill and two drain per entry, menace attacker |
+| Ooze Patrol | 2 | +1/+1 for every creature or artifact card in your yard |
+| The Master of Lake-town | 2 | Every point of life loss becomes that much mill |
+| Experimental Confectioner | 2 | Food on entry, a Rat for every Food sacrificed |
+| Scavenger's Talent | 4 | Food from dying creatures, mill two per sacrifice, reanimation at three |
+| Accumulate Wisdom | 3 | Three cards deep, all three once three Lessons are in the yard |
+| Origin of Metalbending | 2 | Answers an artifact or enchantment, or grants indestructible |
+| Leaves from the Vine | 2 | Mill three and a Food, then a draw if the yard has a Lesson |
+
+## Lands as engines
+
+| Land | Copies | What it does for the deck |
+|---|---|---|
+| Restless Reef | 2 | Win condition land — activates into a 4/4 deathtouch Shark and mills four on every attack |
+| Restless Cottage | 2 | Win condition land — 4/4 Horror that makes a Food on attack, feeding the Talent mill |
+| Dismal Backwater | 4 | Blue-black fixing, one life on entry |
+| Jungle Hollow | 4 | Black-green fixing, one life on entry |
+| Thornwood Falls | 4 | Green-blue fixing, one life on entry |
+| Forest | 5 | Primary basic; the deck is green-first |
+| Island | 2 | Turns on Pakku, Glarb and Accumulate Wisdom |
+
+Both Restless lands enter tapped, which is the price for having win conditions in the mana base. Do not be shy about activating them on turn five or six once you have nothing better to cast: an attack with Restless Reef is four cards off the top of their library and a 4/4 deathtouch blocker afterwards.
+
+## Curve and mana
+
+The curve tops out at four. Twenty-two of the thirty-seven nonland cards cost two or less, so the deck functions on three lands and does not need to mulligan into a fourth. Green is primary (Jungle Hollow, Thornwood Falls, Forest, five green two-drops), blue is the splash for Pakku and Accumulate Wisdom, and black supplies the interaction and the Talent.
+
+Five Lessons are in the deck by design: three `Accumulate Wisdom` and two `Origin of Metalbending`. That caps Pakku's trigger at five, but all five are cards you are happy to cast, so the self-mill finds them quickly and the trigger stays live.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with `Scarblade Scout` over `Daggerfang Duo` when you expect a creature deck: lifelink buys the turns the engine needs and the mill is the same. Against a slow deck, `Leaves from the Vine` is the better turn two because it mills three and leaves a Food behind for the Talent. Do not level the Talent to two before you have a Food — level one alone already pays whenever a creature dies, which happens naturally in combat.
+
+## Mid game and the combo turn
+
+The "combo turn" is a sequence, not a single card:
+
+1. Attack with `Master Pakku` first if you can afford the tempo. Every Lesson in the yard between one and five is a card off their deck.
+2. Sacrifice a Food to the level-two Talent. Two more cards. If `Experimental Confectioner` is out, you keep a 1/1 Rat, which can attack next turn or die to make another Food.
+3. Activate `Restless Reef` and attack for four more.
+4. If `The Master of Lake-town` is on the battlefield, all of the combat damage from steps one and three mills again on top of that.
+
+A turn where Pakku connects, one Food is eaten and Reef attacks is twelve to fourteen cards of library. Two of those turns and the opponent is in single digits.
+
+## Win condition two
+
+The deck has twenty-six creatures and does not need to mill anyone. `Ooze Patrol` enters as a 2/2 and picks up a counter for every creature card in the yard — after a few self-mill triggers it is a 5/5 for four mana. `Dawnhand Eulogist` attacks as a 3/3 with menace, which is close to unblockable, and drains on entry. `Glarb` and `Daggerfang Duo` trade with anything thanks to deathtouch, and both Restless lands become 4/4s. When the mill plan is disrupted by graveyard hate or an opponent who keeps drawing, switch to attacking and let `The Master of Lake-town` turn the damage into mill anyway.
+
+## Mulligan guide
+
+- Keep any hand with two lands, a two-drop and a mill enabler. Almost everything costs two, so the deck mulligans well.
+- Keep one-land hands only with `Scarblade Scout` or `Experimental Confectioner` and only on the play.
+- Ship hands with no creatures. The engine cards do nothing on an empty board.
+- `Glarb` plus three lands is a keep in every matchup; surveilling two every turn finds the Talent and the Lessons.
+
+## Key interactions and edge cases
+
+- **Pakku mills on any tap, not just attacks.** Crewing, waterbending, or any future tap effect triggers him. In this build attacking is the only repeatable way, so attack.
+- **Order matters.** Cast your Lessons and let them resolve before attacking so the trigger counts them. `Accumulate Wisdom` is both a Lesson for the yard and the draw spell that finds your next land, so cast it early.
+- **Daggerfang Duo's mill is optional.** With `Glarb` you know your top card; decline the mill when the top card is a land you need.
+- **Experimental Confectioner's Rats cannot block.** They are attackers and sacrifice fodder, nothing else.
+- **Tokens are not cards.** Sacrificed Food does not count as an artifact card in the graveyard, so `Ooze Patrol` grows off creature cards only.
+- **Scavenger's Talent at level three needs three other nonland permanents.** Rats, Foods and bodies all count, and returning a `Vinereap Mentor` makes another Food on entry.
+- **Restless Cottage exiles a card from a graveyard on attack.** Aim it at the opponent's yard against reanimation.
+
+## Matchups
+
+| Opponent | Plan |
+|---|---|
+| Aggro | Trade early with lifelink Scout and deathtouch Duo, stabilise behind Pakku, and let the Talent's Food gain three life a turn. Do not race. |
+| Midrange | You go over the top. Their creatures die to deathtouch and their library is the resource that runs out. |
+| Control | Hardest matchup. Sweepers answer the board, so hold `Origin of Metalbending` for the indestructible line and rebuild with the Talent at three. |
+| Combo | Mill is your interaction. Prioritise Pakku attacks and Reef activations over development. |
+
+# Iterations
+
+Four lists were tested against the viability battery before this one was kept.
+
+| Round | Change | Metrics |
+|---|---|---|
+| v1 | Mill-control shell: Pakku, Exhibition Tidecaller, Platypus-Bear, Serpent of the Pass, The Water Crystal, twelve self-mill spells | sim 47.7, synergy 70.4, T4 0.601 |
+| v2 | Cut the do-nothing slots for bodies and interaction: -2 Platypus-Bear, -1 Serpent, -2 True Ancestry, -1 Seismic Sense, -1 Tidecaller, +3 Vinereap Mentor, +3 Glarb, +2 Sweettooth Witch, +2 Tainted Treats | sim 47.7 to 52.7, T4 0.601 to 0.607 |
+| v3 | -1 Tidecaller, -1 Cache Grab, +2 The Mindskinner for a ten-power unblockable mill body | sim 52.7 to 49.7 (fail), P(4 lands) 0.557 |
+| v4 | Every mill enabler became a body: -2 Mindskinner, -2 Tidecaller, -2 Sweettooth Witch, -2 Tainted Treats, -3 Midnight Tilling, -2 Cache Grab, -2 Water Crystal, +4 Scarblade Scout, +4 Daggerfang Duo, +2 Dawnhand Eulogist, +2 Ooze Patrol, +2 Experimental Confectioner, +1 Origin of Metalbending | sim 49.7 to 54.0, synergy 70.3, T4 0.575, P(4 lands) 0.571 |
+
+The lesson from the tuning: cards that only mill are slower than cards that mill on a body. The final list keeps the same engine but delivers it through creatures that can attack, block and trade.
+
+# Deck list (Arena import)
+
+```
+Spoiled Syllabus
+Deck
+4 Scarblade Scout
+4 Master Pakku
+4 Daggerfang Duo
+3 Vinereap Mentor
+3 Glarb, Calamity's Augur
+2 Dawnhand Eulogist
+2 Ooze Patrol
+2 The Master of Lake-town
+2 Experimental Confectioner
+4 Scavenger's Talent
+3 Accumulate Wisdom
+2 Origin of Metalbending
+2 Leaves from the Vine
+4 Dismal Backwater
+4 Jungle Hollow
+4 Thornwood Falls
+2 Restless Reef
+2 Restless Cottage
+5 Forest
+2 Island
+```

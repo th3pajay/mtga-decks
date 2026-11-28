@@ -2,7 +2,6 @@
 title: "Today's Decks"
 ---
 
-Deck guides published **2026-11-27**:
+Deck guides published **2026-11-28**:
 
-- **[Undertow Armada](decks/2026-11-27-undertow-armada.html)** — Blue / Black / Red / Green — Amass × Disappear × Waterbending: a token-sacrifice engine that pays for its spells by tapping its own board  `combo` `Amass` `Disappear` `Waterbending`
-- **[Cadet Cadence](decks/2026-11-27-cadet-cadence.html)** — White-blue-red prepared tempo combo — Reality Fracture set deck  `reality-fracture` `prepared`
+- **[Spoiled Syllabus](decks/2026-11-28-spoiled-syllabus.html)** — Sultai mill, Food and Lessons — Master Pakku decking engine  `combo` `Mill` `Lesson` `Food`
