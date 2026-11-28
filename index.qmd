@@ -5,3 +5,4 @@ title: "Today's Decks"
 Deck guides published **2026-11-28**:
 
 - **[Spoiled Syllabus](decks/2026-11-28-spoiled-syllabus.html)** — Sultai mill, Food and Lessons — Master Pakku decking engine  `combo` `Mill` `Lesson` `Food`
+- **[Kothfall Stampede](decks/2026-11-28-kothfall-stampede.html)** — Green-white-red landfall combo — Reality Fracture set deck  `reality-fracture` `landfall`

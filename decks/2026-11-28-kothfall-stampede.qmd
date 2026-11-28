@@ -1,0 +1,153 @@
+---
+title: "Kothfall Stampede"
+subtitle: "Green-white-red landfall combo — Reality Fracture set deck"
+date: "2026-11-28"
+categories: ["reality-fracture", "landfall"]
+---
+
+
+# At a glance
+
+| Item | Detail |
+|:--|:--|
+| Format | Standard (Reality Fracture set deck) |
+| Colors | Green, white, red (Naya) |
+| Archetype | Landfall token combo with two land-damage payoffs |
+| Size | 60 cards (37 spells and creatures, 23 lands) |
+| Primary win | Stack landfall triggers every turn, including both upkeeps, into a token army of 2/2 Cats, 4/4 Beasts, 3/3 Raccoons and doubled Hydra counters |
+| Secondary win | Landfall drain: Koth, the Geomancer and Spitfire Lagac deal 1 damage to each opponent for every land that enters |
+| Land win condition | Hall of Echoes turns itself into a copy of Rampaging Baloths or Verdant Kraken and attacks as a land |
+
+# Overview
+
+Reality Fracture's land-matters cards are the set's quiet engine room. Koth, the Geomancer and Koth of the Homestead both trigger on landfall at three mana, one draining and one growing the board, and the same set supplies the creature that makes lands arrive for free: Verdant Kraken makes a 3/3 Forest Tentacle land creature token at the beginning of *each* player's upkeep, so a single Kraken turns two landfall triggers per turn cycle.
+
+The deck's job is to keep that loop fed. Simulacrum Shaper, Analyze the Pollen, Fblthp Knows the Way and Escape Tunnel each put an extra land into play or into hand, and every one of those land entries gets cashed by Felidar Retreat, Rampaging Baloths, Mossborn Hydra, Sylvan Scavenging and the two Koths. Nothing here needs a storm-style combo turn: a single Kraken with any two payoffs out is already a two-trigger-per-turn engine that runs itself.
+
+The finishes are redundant on purpose. One route is a wide board of token bodies plus a trampling Hydra; the other is direct landfall damage from Koth and Spitfire Lagac, which does not care about blockers. Hall of Echoes gives the deck a land that joins the attack as a copy of its best creature.
+
+# Approach
+
+## Game plan phases
+
+**Turns one to three — secure the land drops.** Sazh's Chocobo on one is the cheapest landfall payoff in the deck and grows every time a land arrives. Analyze the Pollen fetches a basic into hand for one mana, which fixes the next land drop without spending a turn. Simulacrum Shaper is the real ramp: three mana, a basic land enters tapped, and it replaces itself when it dies. Curving Chocobo into Shaper into a Koth is the deck's best opening.
+
+**Turns four to six — turn land entries into bodies and damage.** Felidar Retreat is the priority four-drop: each land entry is either a 2/2 Cat Beast or a +1/+1 counter on the whole team with vigilance. With a Kraken down, that is two Felidar choices per turn cycle. Rampaging Baloths does the same job with 4/4 bodies at six mana, and Sylvan Scavenging converts an end step into a counter or a 3/3 Raccoon once anything has power 4 or greater.
+
+**Turns six and later — close with drain or a stampede.** Koth, the Geomancer plus Spitfire Lagac means every land entry deals 2 damage to each opponent, so a Kraken alone deals 4 damage per turn cycle with no combat. If the board is instead full of tokens, Mossborn Hydra's landfall doubling turns one land drop into an unblockable-race trampler, and Hall of Echoes adds a second 6/6 attacker that happens to be a land.
+
+## Card roles
+
+| Card | Cost | Role |
+|:--|:--|:--|
+| Sazh's Chocobo | {G} | One-drop landfall payoff; grows on every land entry and carries counters well |
+| Analyze the Pollen | {G} | One-mana land tutor to hand; keeps the land drop coming, and with evidence collected it finds a creature instead |
+| Fblthp, Knows the Way | {X}{G}{G} | Finds up to X basics with different names; a 0/2 that grows with domain (three basic types here) |
+| Simulacrum Shaper | {1}{G}{G} | Ramp plus a card: a basic enters tapped, and it draws on death |
+| Mossborn Hydra | {2}{G} | Trample finisher; each land entry doubles its +1/+1 counters |
+| Sylvan Scavenging | {1}{G}{G} | End-step counter or 3/3 Raccoon once a creature has power 4 or greater |
+| Koth, the Geomancer | {2}{R} | Landfall drain: 1 damage to each opponent per land, and a Mountain entry adds {R} |
+| Koth of the Homestead | {2}{W} | Landfall lifegain plus a +1/+1 counter whenever a Plains enters; the deck's life buffer |
+| Felidar Retreat | {3}{W} | Main token engine: 2/2 Cat Beast, or counters and vigilance for the team, on every land entry |
+| Spitfire Lagac | {3}{R} | Second landfall drain; 3/4 body that blocks while it pings |
+| Hexhaven Invigorator | {G}{G}{G}{G} | 6/6 vigilance; when it takes damage, search up to that many lands onto the battlefield tapped |
+| Rampaging Baloths | {4}{G}{G} | 6/6 trample that makes a 4/4 Beast per land entry |
+| Verdant Kraken | {4}{G}{G}{G} | The engine: a 3/3 land creature token at each player's upkeep, so landfall triggers on both turns |
+
+## Lands as engines
+
+| Land | Count | What it does here |
+|:--|:--|:--|
+| Hall of Echoes | 2 | The land win condition. Five mana turns it into a copy of a creature you control until end of turn with the legend rule switched off, so it copies Rampaging Baloths or Verdant Kraken and attacks as a land |
+| Rockfall Vale | 4 | Red or green, untapped from turn three onward once two other lands are down |
+| Overgrown Farmland | 4 | Green or white on the same condition; the deck's only nonbasic white source |
+| Escape Tunnel | 2 | Sacrifices for a basic land, which is a land entry for every landfall trigger, and can also push a small attacker through |
+| Forest, Plains, Mountain | 6, 3, 2 | Basic lands; the Plains count matters because Koth of the Homestead only grows a creature on an actual Plains entry |
+
+## Curve and mana
+
+Six cards cost one mana, two cost two, seventeen cost three, seven cost four, three cost six and two cost seven, against twenty-three lands. The deck is a three-drop deck: seventeen of its thirty-seven nonlands are three-mana permanents, and any two of them plus a land engine is a functioning board.
+
+The manabase is roughly sixteen green sources, seven white and six red. Green carries Simulacrum Shaper, Mossborn Hydra and Verdant Kraken's {G}{G}{G}; white is the Koth of the Homestead and Felidar Retreat split; red is a six-source splash for Koth, the Geomancer and Spitfire Lagac, both of which need a single red pip. Hall of Echoes taps for colorless only, so treat it as a spell-land, not a color source.
+
+# Gameplay strategy
+
+## Early game
+
+Lead with a landfall payoff, not a ramp spell, when you have both: Sazh's Chocobo on turn one means the Simulacrum Shaper land on turn three is also a counter. Analyze the Pollen is best cast when you are about to miss a land drop, since it puts the land in hand rather than onto the battlefield. Escape Tunnel should be held until a land entry actually triggers something, or until a 2-power attacker needs to get through.
+
+Do not keep a one-land hand on the strength of Analyze the Pollen: it needs green mana and it does not ramp.
+
+## Mid game and the combo turn
+
+The engine turn is any turn where Verdant Kraken is on the battlefield. Its token arrives at the beginning of each player's upkeep, so the sequence is: your upkeep, token enters, every landfall trigger fires; opponent's upkeep, another token enters, every landfall trigger fires again. With Koth, the Geomancer and Spitfire Lagac out that is 4 damage to each opponent per turn cycle without attacking, and Felidar Retreat adds two Cats or two team-wide counter rounds over the same span.
+
+Order the triggers deliberately. Resolve Felidar Retreat's counter mode before combat when the team is attacking, and its token mode when you need blockers. Mossborn Hydra doubles its counters on each of those entries, so a Hydra that survives one turn cycle usually ends the game on the next attack. Koth, the Geomancer's Mountain clause is a bonus, not a plan: only the two Mountains add {R}.
+
+## Win condition two
+
+Landfall drain is the deck's non-combat kill. Koth, the Geomancer and Spitfire Lagac each deal 1 damage to every opponent on each land entry, and the deck can force entries without drawing lands: Verdant Kraken tokens, Simulacrum Shaper's fetched basic, Analyze the Pollen into a land drop, Fblthp's hand full of basics, and Escape Tunnel's sacrifice. Ten entries is 20 damage with both payoffs out.
+
+Hall of Echoes is the land half of that plan. Five mana, copy Rampaging Baloths, attack for 6 trample with a land; copy Verdant Kraken instead when you want a second token engine. Because the legend rule does not apply for the turn, copying a legendary creature you already control is also legal, though the deck's best copy targets are the two nonlegendary six-drops.
+
+## Mulligan guide
+
+Keep two or three lands, at least one green source, and a one- or three-drop that does something with lands: Sazh's Chocobo, Simulacrum Shaper, either Koth, or Felidar Retreat. A hand of Chocobo, Shaper, Koth of the Homestead and three lands is a snap keep. Ship hands with no green source, hands with only four-drops and above, and hands that need two different splash colors before turn four. Six one-drops and seventeen three-drops mean the deck mulligans well; it does not need a perfect curve, only a land engine.
+
+## Key interactions and edge cases
+
+- Verdant Kraken's token is a land creature with summoning sickness until your next turn, so it cannot attack or tap for {G} on the turn it arrives. It still triggers landfall immediately, which is the point.
+- The token's name is Forest Tentacle, but it has no Forest subtype, so it does not count as a Forest for effects that care about Forests.
+- Koth, the Geomancer adds {R} only when the entering land is a Mountain. Rockfall Vale and Overgrown Farmland have no land types, so they never add mana; only the two basic Mountains do.
+- Koth of the Homestead's counter clause looks for a Plains entering. Among nonbasics, none of them are Plains, so the counter comes from basics only.
+- Analyze the Pollen puts the land into your hand. It is a land-drop fixer, not ramp, and its evidence mode needs eight mana value of cards in the graveyard, which this deck rarely has early.
+- Fblthp's power is domain, so it is 0/2 with no basic types, 3/2 with all three. It is a blocker and a land tutor, not an attacker.
+- Hexhaven Invigorator's land fetch triggers only when it is dealt damage, and the number of lands is the damage dealt, not the damage marked. Two damage, two lands.
+- Hall of Echoes taps for colorless. It cannot pay for a green or white spell, and copying a creature does not add counters or auras; it is a clean copy of the printed card.
+- Mossborn Hydra enters as a 0/0 with one counter. Do not cast it into an empty board with no land drop available; a single removal spell on a 1/1 is a clean two-for-one.
+- Felidar Retreat's mode is chosen when the trigger resolves, so you can take the token on your turn and the counters on an opponent's upkeep token entry if the block matters more.
+
+## Matchups
+
+**Against aggro.** Koth of the Homestead's lifegain plus Spitfire Lagac's 3/4 body are the early answer; Felidar Retreat's counter mode makes blocks profitable. Do not race with a slow hand: trade Chocobos and Shapers for time, then win with drain once the Kraken lands.
+
+**Against control.** The deck's threats are individually small, so do not over-commit into a sweeper. Simulacrum Shaper and Verdant Kraken both leave value behind, and Hall of Echoes is a threat that survives most sorcery-speed removal. Save the second Koth for after the first sweeper.
+
+**Against combo.** There is no stack interaction here, so the plan is pressure plus drain: Koth, the Geomancer's pings ignore blockers and hexproof, and a Kraken plus Spitfire Lagac closes a game in three or four turns without attacking. Escape Tunnel's unblockable mode is the only way to push damage past a wall of blockers.
+
+# Iterations
+
+| Round | Change | T4 consistency | Sim win rate | Synergy |
+|:--|:--|:--|:--|:--|
+| v1 | First pass: landfall core with Roiling Canopy as the land payoff | 0.598 | 57.3% | 71.2 |
+| v2 | -2 Sunstar Expansionist, -2 Aftermath Analyst, +4 Simulacrum Shaper; -2 Forest, +2 Hall of Echoes (set ramp plus a real land win condition) | 0.569 | 52.7% | 71.4 |
+| v3 | -2 Roiling Canopy, +2 Forest (its pump needs five other Forests, which the manabase never reached) | 0.597 | 55.0% | 72.0 |
+
+All three rounds cleared the gates: 60 cards, Standard legal, zero rotating cards, sim win rate at or above 52 percent, synergy at or above 70, goldfish turn-four consistency at or above 0.55, and at least four lands by turn four at or above 0.55.
+
+# Deck list (Arena import)
+
+```text
+Kothfall Stampede
+Deck
+3 Sazh's Chocobo
+3 Analyze the Pollen
+2 Fblthp, Knows the Way
+4 Simulacrum Shaper
+3 Mossborn Hydra
+2 Sylvan Scavenging
+4 Koth, the Geomancer
+4 Koth of the Homestead
+4 Felidar Retreat
+2 Spitfire Lagac
+1 Hexhaven Invigorator
+3 Rampaging Baloths
+2 Verdant Kraken
+4 Rockfall Vale
+4 Overgrown Farmland
+2 Hall of Echoes
+2 Escape Tunnel
+6 Forest
+3 Plains
+2 Mountain
+```
